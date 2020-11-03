@@ -87,6 +87,14 @@
             "polyfills": "projects/scimaps/src/polyfills.ts",
             "tsConfig": "projects/scimaps/tsconfig.spec.json",
             "karmaConfig": "projects/scimaps/karma.conf.js",
+            "codeCoverage": true,
+            "codeCoverageExclude": [
+              "**/e2e/**/*",
+              "**/test.ts",
+              "**/polyfills.ts",
+              "**/environments/**/*.ts",
+              "**/*.module.ts"
+            ],
             "assets": [
               "projects/scimaps/src/favicon.ico",
               "projects/scimaps/src/assets"
