@@ -27,23 +27,17 @@ jobs:
     name: Run Tests
     if: NOT(tag IS present) AND NOT(branch =~ /^pbi-.*$/)
     script:
-    - cd website/
-    - npm run build:libs
     - npm run test
     - sonar-scanner -X
   - stage: test
     name: Run linter
     if: NOT(tag IS present) AND NOT(branch =~ /^pbi-.*$/)
     script:
-    - cd website/
-    - npm run build:libs
     - npm run lint
   - stage: deploy
     name: Deploy Portal Version
     if: branch = main AND NOT(type = pull_request)
     script:
-    - cd website/
-    - npm run build:libs
     - npm run build -- --output-hashing=none --base-href=/scimaps/
     - cp dist/scimaps/index.html dist/scimaps/404.html
     - touch dist/scimaps/.nojekyll
@@ -54,15 +48,13 @@ jobs:
       skip-cleanup: true
       github-token: "$GITHUB_TOKEN"
       keep-history: false
-      local-dir: dist/ccf-ui
+      local-dir: dist/scimaps
       on:
         branch: main
   - stage: deploy
     name: Deploy Staging Version
     if: branch = develop AND NOT(type = pull_request)
     script:
-    - cd website/
-    - npm run build:libs
     - npm run build -- --output-hashing=none --base-href=/
     - cp dist/scimaps/index.html dist/scimaps/404.html
     - touch dist/scimaps/.nojekyll
@@ -81,8 +73,6 @@ jobs:
     name: Deploy v0.6.0 to GitHub Pages
     if: branch = main-v0.6.0 AND NOT(type = pull_request)
     script:
-    - cd website/
-    - npm run build:libs
     - npm run build -- --base-href=/scimaps/
     - cp dist/scimaps/index.html dist/scimaps/404.html
     - touch dist/scimaps/.nojekyll
@@ -99,8 +89,6 @@ jobs:
     name: Deploy Preview for PRs
     if: branch =~ /^pbi-.*$/ AND NOT(type = pull_request)
     script:
-    - cd website/
-    - npm run build:libs
     - npm run build -- --project scimaps --output-hashing=none --base-href=/
 
     ### Temporarily disabling building of EUI and compodoc for build previews
