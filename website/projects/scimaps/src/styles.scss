@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+a {
+  color: #6ea7ef;
+}

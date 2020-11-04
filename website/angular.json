@@ -28,7 +28,8 @@
               "projects/scimaps/src/assets"
             ],
             "styles": [
-              "projects/scimaps/src/styles.scss"
+              "projects/scimaps/src/styles.scss",
+              "projects/scimaps/src/themes.scss"
             ],
             "scripts": []
           },
@@ -100,7 +101,8 @@
               "projects/scimaps/src/assets"
             ],
             "styles": [
-              "projects/scimaps/src/styles.scss"
+              "projects/scimaps/src/styles.scss",
+              "projects/scimaps/src/themes.scss"
             ],
             "scripts": []
           }
