@@ -46,7 +46,7 @@ jobs:
       skip-cleanup: true
       github-token: "$GITHUB_TOKEN"
       keep-history: false
-      local-dir: dist/scimaps
+      local-dir: website/dist/scimaps
       on:
         branch: main
   - stage: deploy
@@ -63,7 +63,7 @@ jobs:
       skip-cleanup: true
       github-token: "$GITHUB_TOKEN"
       keep-history: false
-      local-dir: dist/scimaps
+      local-dir: website/dist/scimaps
       on:
         branch: develop
   - stage: deploy
@@ -76,7 +76,7 @@ jobs:
       skip-cleanup: true
       site: "$NETLIFY_SITE_ID"
       auth: "$NETLIFY_TOKEN"
-      dir: dist/scimaps
+      dir: website/dist/scimaps
       edge: true
       on:
         all_branches: true
