@@ -28,7 +28,8 @@
               "projects/scimaps/src/assets"
             ],
             "styles": [
-              "projects/scimaps/src/styles.scss"
+              "projects/scimaps/src/styles.scss",
+              "projects/scimaps/src/themes.scss"
             ],
             "scripts": []
           },
@@ -100,7 +101,8 @@
               "projects/scimaps/src/assets"
             ],
             "styles": [
-              "projects/scimaps/src/styles.scss"
+              "projects/scimaps/src/styles.scss",
+              "projects/scimaps/src/themes.scss"
             ],
             "scripts": []
           }
@@ -131,6 +133,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "scimaps"
+    }
+  },
+  "defaultProject": "scimaps",
+  "cli": {
+    "analytics": "ca9f8507-0cdd-42bb-82ca-4d4e19288379"
+  }
 }
