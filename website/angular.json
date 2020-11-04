@@ -133,6 +133,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "scimaps"
+    }
+  },
+  "defaultProject": "scimaps",
+  "cli": {
+    "analytics": "8e8f086c-5253-42eb-94c1-befdd18be65a"
+  }
 }

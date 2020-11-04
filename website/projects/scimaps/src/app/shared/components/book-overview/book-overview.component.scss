@@ -1,0 +1,40 @@
+.overview-container {
+  display: flex;
+  width: 100%;
+
+  .overview-column {
+    width: 50%;
+
+    &.text-column {
+      padding-right: 3rem;
+    }
+
+    .book-title {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      margin-bottom: 1.5rem;
+      color: #757575;
+    }
+
+    .book-abstract {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      line-height: 1.5rem;
+    }
+
+    .book-links {
+      .book-button {
+        text-decoration: none;
+        margin-right: 1rem;
+        border: 1px solid #7996A3;
+        padding: .5rem;
+        color: #7996A3;
+
+        &:hover {
+          color: white;
+          background-color: #7996A3;
+        }
+      }
+    }
+  }
+}
