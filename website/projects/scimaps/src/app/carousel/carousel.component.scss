@@ -3,8 +3,8 @@
   overflow: auto;
   height: 100%;
   min-height: 0;
-  margin: 8px 16px;
-  border-radius: 4px;
+  margin: 0.5rem 1rem;
+  border-radius: 0.25;
 
   .swiper-container {
     position: absolute;
@@ -46,18 +46,15 @@
 
     ::ng-deep .swiper-pagination-bullet {
       margin: 0 !important;
-      width: 0.75rem;
-      height: 0.75rem;
-      box-shadow: 0 0 0 2px #757575 !important;
-      border: none !important;
+      width: 1rem;
+      height: 1rem;
+      border: 2px solid #757575 !important;
       background: none;
     }
 
     ::ng-deep .swiper-pagination-bullet-active {
       background: #8DC63F;
-      box-shadow: none !important;
-      width: 16px;
-      height: 16px
+      border: 2px solid #8DC63F !important;
     }
 
   }
