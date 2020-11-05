@@ -1,18 +1,35 @@
 @import "~@angular/material/theming";
 
-$primary: mat-palette(map-merge($mat-blue, (
-  500: #5a6089,
-  600: #2a4d87,
-  700: #363a52,
-  800: #212121,
-  900: #000000
-)));
+$grey: $mat-grey;
+$grey-palette: mat-palette($grey, 300, 50, 600);
 
-$accent: mat-palette($mat-gray);
-$warn: mat-palette($mat-red);
+$blue-grey: (
+  100: #ebf0f1,
+  500: #7996a3,
+  700: #4a5f68,
+  contrast: (
+    100: black,
+    500: white
+    700: white
+  )
+);
+$blue-grey-palette: mat-palette($blue-grey, 500, 100, 700);
+
+$green: (
+  100: #f9fcf5,
+  500: #8dc63f,
+  700: #4c7520,
+  contrast: (
+    100: black,
+    500: white,
+    700: white
+  )
+);
+$green-palette: mat-palette($green, 500, 100, 700);
+
 
 $color: (
-  primary: $primary,
-  accent: $accent,
-  warn: $warn
+  primary: $blue-grey-palette,
+  accent: $green-palette,
+  warn: mat-palette($mat-red)
 );

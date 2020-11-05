@@ -29,7 +29,8 @@
             ],
             "styles": [
               "projects/scimaps/src/styles.scss",
-              "projects/scimaps/src/themes.scss"
+              "projects/scimaps/src/theming.scss",
+              "projects/scimaps/src/mat-overrides.scss"
             ],
             "scripts": []
           },
@@ -102,7 +103,8 @@
             ],
             "styles": [
               "projects/scimaps/src/styles.scss",
-              "projects/scimaps/src/themes.scss"
+              "projects/scimaps/src/theming.scss",
+              "projects/scimaps/src/mat-overrides.scss"
             ],
             "scripts": []
           }
