@@ -1,0 +1,23 @@
+.content-container {
+  position: relative;
+  overflow: auto;
+  height: 300px;
+  min-height: 0;
+  margin: 8px 16px;
+  border-radius: 4px;
+  background-color: #fff;
+
+  .swiper-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    .swiper-slide {
+      color: #aaa;
+      background-color: #eee;
+    }
+  }
+}
+

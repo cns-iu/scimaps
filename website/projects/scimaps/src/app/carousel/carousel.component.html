@@ -1,0 +1,20 @@
+<div class="content-container" fxLayout="column" fxLayoutAlign="stretch" fxFlex="auto">
+  <swiper *ngIf="type == 'component' && show" class="swiper-container" fxFlex="auto" [config]="config" [disabled]="disabled">
+    <div *ngFor="let slide of slides" class="swiper-slide">
+      <div fxLayout="column" fxLayoutAlign="center center" fxFlexFill>
+        {{slide}}
+      </div>
+    </div>
+  </swiper>
+  <div class="swiper-pagination"></div>
+
+  <div *ngIf="type == 'directive' && show" class="swiper-container" [disabled]="disabled" [swiper]="config">
+    <div class="swiper-wrapper">
+      <div *ngFor="let slide of slides" class="swiper-slide">
+        <div fxLayout="column" fxLayoutAlign="center center" fxFlexFill>
+          {{slide}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
