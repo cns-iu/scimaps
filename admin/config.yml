@@ -2,6 +2,7 @@ collections:
   - name: blog
     label: Blog
     folder: content/blog
+    create: true
     slug: "{{year}}-{{month}}-{{slug}}"
     preview_path: blog/{{slug}}
     fields:
@@ -11,8 +12,12 @@ collections:
   - name: book
     label: Book
     folder: content/book
+    path: "{{slug}}/README"
+    create: true
     slug: "{{slug}}"
     preview_path: book/{{slug}}
+    media_folder: ''
+    public_folder: ''
     fields:
       - { name: title, label: Title }
       - { name: author, label: Author }
@@ -20,11 +25,12 @@ collections:
       - { name: abstract, label: Abstract, widget: markdown }
       - { name: pdfLink, label: PDF Link }
       - { name: amazonLink, label: Amazon Link }
+      - { name: book_image, label: Book Image, widget: image }
 
 backend:
   name: github
   repo: cns-iu/scimaps
-  branch: main
+  branch: pbi-cms-setup
 
 # We'll switch to editorial workflow when we move closer to production
 # publish_mode: editorial_workflow
