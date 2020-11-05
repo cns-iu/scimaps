@@ -1,0 +1,37 @@
+collections:
+  - name: blog
+    folder: content/blog
+    slug: "{{year}}-{{month}}-{{slug}}"
+    preview_path: blog/{{slug}}
+    fields:
+      - { name: title, label: Title }
+      - { name: date, label: Date, widget: date }
+      - { name: body, label: Body, widget: markdown }
+  - name: book
+    folder: content/book
+    slug: "{{slug}}"
+    preview_path: book/{{slug}}
+    fields:
+      - { name: title, label: Title }
+      - { name: author, label: Author }
+      - { name: publisher, label: Publisher }
+      - { name: abstract, label: Abstract, widget: markdown }
+      - { name: pdfLink, label: PDF Link }
+      - { name: amazonLink, label: Amazon Link }
+
+backend:
+  name: github
+  repo: cns-iu/scimaps
+  branch: main
+
+# We'll switch to editorial workflow when we move closer to production
+# publish_mode: editorial_workflow
+
+media_folder: content/images/uploads
+public_folder: /assets/images/uploads
+site_url: https://dev.scimaps.org
+display_url: https://dev.scimaps.org
+
+logo_url: http://scimaps.org/images/global/ps_logo.png
+
+show_preview_links: true
