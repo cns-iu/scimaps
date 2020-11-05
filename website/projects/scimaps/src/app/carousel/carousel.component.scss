@@ -56,23 +56,30 @@
       background: #8DC63F;
       border: 2px solid #8DC63F !important;
     }
-
   }
+  
   ::ng-deep .swiper-button-prev,
   ::ng-deep .swiper-button-next {
     top: 95%;
   }
 
-  ::ng-deep .swiper-button-prev::after {
-    content: "chevron_left";
+  ::ng-deep .swiper-button-prev:focus,
+  ::ng-deep .swiper-button-next:focus {
+    outline: none;
+  }
+
+  ::ng-deep .swiper-button-prev::after,
+  ::ng-deep .swiper-button-next::after {
     color: black;
     font-family: "Material Icons";
   }
 
+  ::ng-deep .swiper-button-prev::after {
+    content: "chevron_left";
+  }
+
   ::ng-deep .swiper-button-next::after {
     content: "chevron_right";
-    color: black;
-    font-family: "Material Icons";
   }
 }
 
