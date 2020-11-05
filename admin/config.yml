@@ -22,10 +22,10 @@ collections:
       - { name: title, label: Title }
       - { name: author, label: Author }
       - { name: publisher, label: Publisher }
-      - { name: abstract, label: Abstract, widget: markdown }
       - { name: pdfLink, label: PDF Link }
       - { name: amazonLink, label: Amazon Link }
       - { name: book_image, label: Book Image, widget: image }
+      - { name: body, label: Abstract, widget: markdown }
 
 backend:
   name: github
