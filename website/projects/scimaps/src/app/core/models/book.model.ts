@@ -5,5 +5,5 @@ export interface Book {
   abstract: string;
   pdfLink: string;
   amazonLink: string;
-  id: number;
+  slug: string;
 }
