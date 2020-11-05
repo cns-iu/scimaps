@@ -37,10 +37,11 @@ jobs:
     name: Deploy to GitHub Pages
     if: branch = main AND NOT(type = pull_request)
     script:
-    - npm run build -- --output-hashing=none --base-href=/scimaps/
+    - npm run build -- --output-hashing=none --base-href=/
     - cp dist/scimaps/index.html dist/scimaps/404.html
     - touch dist/scimaps/.nojekyll
     - npm run compodoc
+    - echo dev.scimaps.org > dist/scimaps/CNAME
     deploy:
       provider: pages
       skip-cleanup: true
