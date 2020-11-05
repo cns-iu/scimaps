@@ -1,9 +1,9 @@
 <div class="overview-container" *ngIf="book">
   <div class="overview-column text-column">
     <h3 class="book-title">{{ book.title }}</h3>
-    <div class="book-info">Author: {{ book.author }}</div>
-    <div class="book-info">Published by: {{ book.publisher }}</div>
-    <div class="book-abstract">{{ book.abstract }}</div>
+    <div>Author: {{ book.author }}</div>
+    <div class="book-publisher">Published by: {{ book.publisher }}</div>
+    <markdown [data]="book.markdown"></markdown>
     <div class="book-links">
       <a class="book-button" [href]="book.pdfLink" *ngIf="book.pdfLink">BOOK EXCERPT (PDF)</a>
       <a class="book-button" [href]="book.amazonLink" *ngIf="book.amazonLink">BUY ON AMAZON</a>

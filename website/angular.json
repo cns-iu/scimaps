@@ -31,7 +31,9 @@
               "projects/scimaps/src/styles.scss",
               "projects/scimaps/src/themes.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/marked/lib/marked.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -104,7 +106,9 @@
               "projects/scimaps/src/styles.scss",
               "projects/scimaps/src/themes.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/marked/lib/marked.js"
+            ]
           }
         },
         "lint": {
