@@ -1,7 +1,7 @@
 .content-container {
   position: relative;
   overflow: auto;
-  height: 300px;
+  height: 100%;
   min-height: 0;
   margin: 8px 16px;
   border-radius: 4px;
@@ -13,10 +13,35 @@
     right: 0;
     bottom: 0;
     left: 0;
-    
+
     .swiper-slide {
       color: #aaa;
       background-color: #eee;
+      overflow: hidden;
+
+      .carousel-content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        .carousel-image {
+          object-fit: cover;
+          height: 90%;
+        }
+  
+        .carousel-space {
+          height: 10%;
+        }
+      }
+    }
+
+    ::ng-deep .swiper-pagination-bullet {
+      margin: 0 !important;
+    }
+
+    ::ng-deep .swiper-button-prev,
+    ::ng-deep .swiper-button-next {
+      top: 95%;
     }
   }
 }

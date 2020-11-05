@@ -13,12 +13,10 @@ export class CarouselComponent {
   public show = true;
 
   public slides = [
-    'First slide',
-    'Second slide',
-    'Third slide',
-    'Fourth slide',
-    'Fifth slide',
-    'Sixth slide'
+    '../../assets/images/benches.jpg',
+    '../../assets/images/bridge.jpg',
+    '../../assets/images/flower.jpg',
+    '../../assets/images/garden.jpg',
   ];
 
   public type = 'component';
