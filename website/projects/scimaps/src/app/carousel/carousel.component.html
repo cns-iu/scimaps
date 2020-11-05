@@ -1,8 +1,8 @@
-<div class="content-container" fxLayout="column" fxLayoutAlign="stretch" fxFlex="auto">
-  <swiper *ngIf="type == 'component' && show" class="swiper-container" fxFlex="auto" [config]="config" [disabled]="disabled">
-    <div *ngFor="let slide of slides" class="swiper-slide">
+<div class="content-container">
+  <swiper class="swiper-container" [config]="config" [disabled]="false">
+    <div class="swiper-slide" *ngFor="let slide of slides">
       <div class="carousel-content">
-        <img class="carousel-image" [src]="slide" alt="Place image title">
+        <img class="carousel-image" [src]="slide">
         <div class="carousel-space"></div>
       </div>
     </div>

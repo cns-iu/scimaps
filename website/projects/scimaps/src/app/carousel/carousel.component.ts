@@ -2,16 +2,19 @@ import { Component } from '@angular/core';
 
 import { SwiperOptions } from 'swiper';
 
+/**
+ * Carousel component for displaying images
+ */
 @Component({
   selector: 'sci-carousel',
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.scss']
 })
-
-
 export class CarouselComponent {
-  public show = true;
 
+  /**
+   * Slide contents for the carousel
+   */
   public slides = [
     '../../assets/images/benches.jpg',
     '../../assets/images/bridge.jpg',
@@ -19,10 +22,9 @@ export class CarouselComponent {
     '../../assets/images/garden.jpg',
   ];
 
-  public type = 'component';
-
-  public disabled = false;
-
+  /**
+   * Carousel options
+   */
   public config: SwiperOptions = {
     a11y: { enabled: true },
     direction: 'horizontal',
@@ -37,8 +39,6 @@ export class CarouselComponent {
       clickable: true
     }
   };
-
-  constructor() {}
 }
 
 

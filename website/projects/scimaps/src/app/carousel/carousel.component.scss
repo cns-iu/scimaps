@@ -5,7 +5,6 @@
   min-height: 0;
   margin: 8px 16px;
   border-radius: 4px;
-  background-color: #fff;
 
   .swiper-container {
     position: absolute;
@@ -15,8 +14,6 @@
     left: 0;
 
     .swiper-slide {
-      color: #aaa;
-      background-color: #eee;
       overflow: hidden;
 
       .carousel-content {
@@ -35,14 +32,50 @@
       }
     }
 
-    ::ng-deep .swiper-pagination-bullet {
-      margin: 0 !important;
+    ::ng-deep .swiper-pagination-bullets {
+      bottom: 3.5%;
+      display: flex;
+      justify-content: center;
+
+      .swiper-pagination-handle {
+        margin: 0;
+        display: flex;
+        align-items: center;
+      }
     }
 
-    ::ng-deep .swiper-button-prev,
-    ::ng-deep .swiper-button-next {
-      top: 95%;
+    ::ng-deep .swiper-pagination-bullet {
+      margin: 0 !important;
+      width: 0.75rem;
+      height: 0.75rem;
+      box-shadow: 0 0 0 2px #757575 !important;
+      border: none !important;
+      background: none;
     }
+
+    ::ng-deep .swiper-pagination-bullet-active {
+      background: #8DC63F;
+      box-shadow: none !important;
+      width: 16px;
+      height: 16px
+    }
+
+  }
+  ::ng-deep .swiper-button-prev,
+  ::ng-deep .swiper-button-next {
+    top: 95%;
+  }
+
+  ::ng-deep .swiper-button-prev::after {
+    content: "chevron_left";
+    color: black;
+    font-family: "Material Icons";
+  }
+
+  ::ng-deep .swiper-button-next::after {
+    content: "chevron_right";
+    color: black;
+    font-family: "Material Icons";
   }
 }
 
