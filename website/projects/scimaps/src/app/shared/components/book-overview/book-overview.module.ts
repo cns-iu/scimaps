@@ -6,11 +6,11 @@ import { MarkdownModule } from 'ngx-markdown';
 
 
 @NgModule({
-  declarations: [BookOverviewComponent],
   imports: [
     CommonModule,
     MarkdownModule
   ],
+  declarations: [BookOverviewComponent],
   exports: [BookOverviewComponent]
 })
 export class BookOverviewModule { }

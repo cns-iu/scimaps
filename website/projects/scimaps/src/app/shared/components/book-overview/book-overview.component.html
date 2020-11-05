@@ -1,8 +1,8 @@
 <div class="column text-column">
   <h3 class="title">{{ book.title }}</h3>
-  <div>Author: {{ book.author }}</div>
+  <div class="author">Author: {{ book.author }}</div>
   <div class="publisher">Published by: {{ book.publisher }}</div>
-  <markdown [data]="book.markdown"></markdown>
+  <markdown class="markdown" [data]="book.markdown"></markdown>
   <div class="links">
     <a class="button" [href]="book.pdfLink" *ngIf="book.pdfLink">BOOK EXCERPT (PDF)</a>
     <a class="button" [href]="book.amazonLink" *ngIf="book.amazonLink">BUY ON AMAZON</a>

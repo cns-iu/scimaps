@@ -1,25 +1,23 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { MarkdownModule, MarkdownService } from 'ngx-markdown';
+import { Shallow } from 'shallow-render';
 
 import { BooksComponent } from './books.component';
+import { BooksModule } from './books.module';
 
 describe('BooksComponent', () => {
-  let component: BooksComponent;
-  let fixture: ComponentFixture<BooksComponent>;
+ let shallow: Shallow<BooksComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ BooksComponent ]
-    })
-    .compileComponents();
-  }));
+ beforeEach(async () => {
+   shallow = new Shallow(BooksComponent, BooksModule)
+   .provide({ provide: MarkdownService, useValue: {} })
+   .dontMock(MarkdownService)
+  //  .replaceModule(MarkdownModule, MarkdownModule.forRoot())
+  //  .mock(MarkdownService, {});
+ });
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(BooksComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+ it('should create a books-overview component for each book', async () => {
+  const { find } = await shallow.render();
+  const overviews = find('sci-book-overview');
+  expect(overviews.length).toEqual(3);
+ });
 });
