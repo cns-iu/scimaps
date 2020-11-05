@@ -8,7 +8,6 @@ import { Book } from '../../../core/models/book.model';
   styleUrls: ['./book-overview.component.scss']
 })
 export class BookOverviewComponent {
-
-  @Input() book?: Book;
+  @Input() book!: Book;
 
 }

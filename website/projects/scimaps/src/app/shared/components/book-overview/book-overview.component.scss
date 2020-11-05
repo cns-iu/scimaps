@@ -1,29 +1,29 @@
-.overview-container {
+:host {
   display: flex;
   width: 100%;
 
-  .overview-column {
+  .column {
     width: 50%;
 
     &.text-column {
       padding-right: 3rem;
     }
 
-    .book-title {
+    .title {
       font-size: 1.5rem;
       line-height: 2rem;
       margin-bottom: 1.5rem;
       color: #757575;
     }
 
-    .book-publisher {
+    .publisher {
       margin-bottom: 1rem;
     }
 
-    .book-links {
+    .links {
       margin-top: 2rem;
 
-      .book-button {
+      .button {
         text-decoration: none;
         margin-right: 1rem;
         border: 1px solid #7996A3;

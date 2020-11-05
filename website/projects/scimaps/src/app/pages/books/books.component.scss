@@ -1,3 +1,7 @@
-.book {
-  margin-bottom: 6rem;
+:host {
+  display: block;
+
+  .book {
+    margin-bottom: 6rem;
+  }
 }
