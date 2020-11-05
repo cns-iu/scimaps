@@ -1,9 +1,9 @@
-import { MarkdownModule } from 'ngx-markdown';
 import { Shallow } from 'shallow-render';
 
 import { Book } from '../../../core/models/book.model';
 import { BookOverviewComponent } from './book-overview.component';
 import { BookOverviewModule } from './book-overview.module';
+
 
 const testBook: Book = {
   title: 'test title',
@@ -19,8 +19,7 @@ describe('BookOverviewComponent', () => {
   let shallow: Shallow<BookOverviewComponent>;
 
   beforeEach(async () => {
-    shallow = new Shallow(BookOverviewComponent, BookOverviewModule)
-      .replaceModule(MarkdownModule, MarkdownModule.forRoot());
+    shallow = new Shallow(BookOverviewComponent, BookOverviewModule);
   });
 
   it('should successfully create the title', async () => {
@@ -43,7 +42,6 @@ describe('BookOverviewComponent', () => {
 
   it('should successfully create the markdown', async () => {
     const { find } = await shallow.render({ bind: { book: testBook }});
-    const titleElement = find('.markdown p').nativeElement as Element;
-    expect(titleElement.innerHTML).toEqual('test markdown');
+    expect(find('.markdown')).toHaveFoundOne();
   });
 });
