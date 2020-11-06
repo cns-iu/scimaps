@@ -1,6 +1,9 @@
 import { Component, Input } from '@angular/core';
 import { NewsItem } from '../core/models/news-item';
 
+/**
+ * Displays a news item
+ */
 @Component({
   selector: 'sci-news-item',
   templateUrl: './news-item.component.html',
@@ -8,6 +11,9 @@ import { NewsItem } from '../core/models/news-item';
 })
 export class NewsItemComponent {
 
+   /**
+    * News item info
+    */
    @Input() item: NewsItem = {
      title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
      date: 'MAR 2, 2020',
