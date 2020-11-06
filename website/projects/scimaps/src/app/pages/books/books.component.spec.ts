@@ -1,3 +1,4 @@
+import { FormsModule } from '@angular/forms';
 import { Shallow } from 'shallow-render';
 
 import { BooksComponent } from './books.component';
@@ -8,7 +9,8 @@ describe('BooksComponent', () => {
   let shallow: Shallow<BooksComponent>;
 
   beforeEach(async () => {
-    shallow = new Shallow(BooksComponent, BooksModule);
+    shallow = new Shallow(BooksComponent, BooksModule)
+      .import(FormsModule);
   });
 
   it('should create a books-overview component for each book', async () => {

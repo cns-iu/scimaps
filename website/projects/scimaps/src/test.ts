@@ -3,8 +3,10 @@ import 'zone.js/dist/zone-testing';
 
 import { getTestBed } from '@angular/core/testing';
 import { BrowserDynamicTestingModule, platformBrowserDynamicTesting } from '@angular/platform-browser-dynamic/testing';
-import { MarkdownService } from 'ngx-markdown';
+import { MarkdownModule, MarkdownService } from 'ngx-markdown';
 import { Shallow } from 'shallow-render';
+import { DomSanitizer } from '@angular/platform-browser';
+import { PLATFORM_ID } from '@angular/core';
 
 
 declare const require: {
@@ -19,9 +21,6 @@ getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting()
 );
-
-// Global shallow setup
-Shallow.alwaysMock(MarkdownService, {});
 
 // Then we find all the tests.
 const context = require.context('./', true, /\.spec\.ts$/);
