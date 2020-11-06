@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
+import { NewsItemModule } from './news-item/news-item.module';
 
 
 @NgModule({
@@ -14,6 +15,8 @@ import { CoreModule } from './core/core.module';
 
     AppRoutingModule,
     CoreModule,
+
+    NewsItemModule
   ],
   declarations: [AppComponent],
   providers: [],
