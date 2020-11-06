@@ -1,11 +1,14 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
+import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 
 import { StateModule } from './state/state.module';
 
 
 @NgModule({
   imports: [
-    // Services
+    NgxGoogleAnalyticsModule.forRoot('UA-54599506-1'),
+    NgxGoogleAnalyticsRouterModule,
+
     StateModule,
   ],
   exports: [

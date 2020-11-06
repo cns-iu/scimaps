@@ -19,9 +19,8 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
 }
 
-a {
-  color: #6ea7ef;
+a:hover {
+  text-decoration: underline;
 }
