@@ -1,4 +1,4 @@
-import { Component, HostListener, Input, OnInit } from '@angular/core';
+import { Component, HostBinding, HostListener, Input, OnInit } from '@angular/core';
 
 import { Book } from '../../../core/models/book.model';
 
@@ -8,6 +8,9 @@ import { Book } from '../../../core/models/book.model';
   styleUrls: ['./book-overview.component.scss']
 })
 export class BookOverviewComponent implements OnInit {
+  /** HTML class name */
+  @HostBinding('class') readonly clsName = 'sci-book-overview';
+
   @Input() book!: Book;
   showAllText = false;
   maxTextLength = 370;

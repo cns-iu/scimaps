@@ -1,4 +1,5 @@
-
+@use './components/book-overview/book-overview.theme.scss' as bookOverview;
 
 @mixin theme($theme-or-config) {
+  @include bookOverview.theme($theme-or-config);
 }
