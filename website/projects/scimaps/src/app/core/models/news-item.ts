@@ -7,7 +7,7 @@ export interface NewsItem {
   date: string;
 
   /** Source of news item */
-  source: string;
+  publication: string;
 
   /** Name of institution */
   institution: string;

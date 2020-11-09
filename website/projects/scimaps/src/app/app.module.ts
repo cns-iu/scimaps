@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { NewsItemModule } from './news-item/news-item.module';
+import { NewsItemListComponent } from './news-item-list/news-item-list.component';
 
 
 @NgModule({
@@ -18,7 +19,7 @@ import { NewsItemModule } from './news-item/news-item.module';
 
     NewsItemModule
   ],
-  declarations: [AppComponent],
+  declarations: [AppComponent, NewsItemListComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

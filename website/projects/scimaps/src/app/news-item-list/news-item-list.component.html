@@ -1,0 +1,9 @@
+<div class="filter-header">
+  <div (click)="sortPub()">Publication</div>
+  <div (click)="sortDate()">Date</div>
+  <div (click)="sortTitle()">Title</div>
+</div>
+
+<div *ngFor="let item of newsItems" class="news-item-list">
+  <sci-news-item [item]="item"></sci-news-item>
+</div>
