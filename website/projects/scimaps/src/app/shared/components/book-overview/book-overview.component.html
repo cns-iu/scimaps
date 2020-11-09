@@ -2,12 +2,14 @@
   <h3 class="title">{{ book.title }}</h3>
   <div class="author">Author: {{ book.author }}</div>
   <div class="publisher">Published by: {{ book.publisher }}</div>
-  <markdown class="markdown" [data]="book.markdown"></markdown>
+  <div class="markdown" markdown [data]="markdown"></div>
+  <div class="show-more" (click)="showAllText = !showAllText" *ngIf="needShowMoreButton()">{{ showButtonText }}</div>
   <div class="links">
     <a class="button" [href]="book.pdfLink" *ngIf="book.pdfLink">BOOK EXCERPT (PDF)</a>
     <a class="button" [href]="book.amazonLink" *ngIf="book.amazonLink">BUY ON AMAZON</a>
   </div>
 </div>
-<div class="column">
+<div class="column carousel-column">
+  <div class="fake-carousel"></div>
   <!-- <sci-carousel images="'assets/books/'+book.slug'" -->
 </div>

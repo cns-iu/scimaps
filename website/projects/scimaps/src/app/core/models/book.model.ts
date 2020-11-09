@@ -2,7 +2,7 @@ export interface Book {
   title: string;
   author: string;
   publisher: string;
-  markdown: string;
+  body: string;
   pdfLink: string;
   amazonLink: string;
   slug: string;

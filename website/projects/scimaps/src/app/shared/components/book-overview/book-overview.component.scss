@@ -1,12 +1,44 @@
+$desktop: 1248px;
+$tablet: 960px;
+$mobile: 640px;
+
 :host {
   display: flex;
   width: 100%;
 
+  @media (max-width: $mobile) {
+    flex-direction: column-reverse;
+  }
+
   .column {
     width: 50%;
 
+    @media (max-width: $tablet) {
+      width: 100%;
+    }
+
     &.text-column {
       padding-right: 3rem;
+
+      @media (max-width: $mobile) {
+        padding-right: 0rem;
+      }
+    }
+
+    &.carousel-column {
+      display: flex;
+      justify-content: space-around;
+
+      @media (max-width: $mobile) {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .fake-carousel {
+      width: 100%;
+      max-width: 400px;
+      height: 250px;
+      background-color: gray;
     }
 
     .title {
@@ -20,8 +52,20 @@
       margin-bottom: 1rem;
     }
 
+    .show-more {
+      color: #8DC63F;
+      cursor: pointer;
+    }
+
     .links {
-      margin-top: 2rem;
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+
+      @media (max-width: $mobile) {
+        flex-direction: column;
+        display: flex;
+      }
 
       .button {
         text-decoration: none;
@@ -29,6 +73,13 @@
         border: 1px solid #7996A3;
         padding: .5rem;
         color: #7996A3;
+        margin-top: 1rem;
+        white-space: nowrap;
+
+        @media (max-width: $mobile) {
+          text-align: center;
+          margin-right: 0rem;
+        }
 
         &:hover {
           color: white;
