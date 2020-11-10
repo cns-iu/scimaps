@@ -1,3 +1,16 @@
+.filter-header {
+  display: flex;
+
+  .sort {
+    display: flex;
+    margin-left: 8px;
+
+    .reversed {
+      color: red;
+    }
+  }
+}
+
 .news-item-list {
   width: 500px;
 }

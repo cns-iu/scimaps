@@ -5,8 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
-import { NewsItemModule } from './news-item/news-item.module';
-import { NewsItemListComponent } from './news-item-list/news-item-list.component';
+import { NewsItemListModule } from './news-item-list/news-item-list.module';
 
 
 @NgModule({
@@ -16,10 +15,9 @@ import { NewsItemListComponent } from './news-item-list/news-item-list.component
 
     AppRoutingModule,
     CoreModule,
-
-    NewsItemModule
+    NewsItemListModule
   ],
-  declarations: [AppComponent, NewsItemListComponent],
+  declarations: [AppComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

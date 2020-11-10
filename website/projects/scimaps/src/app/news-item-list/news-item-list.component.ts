@@ -29,26 +29,22 @@ export class NewsItemListComponent {
   ];
 
   dateOrder = 'asc';
-  titleOrder = 'desc';
-  publicationOrder = 'desc';
-  sortCriteria: 'date' | 'publication' | 'title' = 'date';
+  titleOrder = 'asc';
+  publicationOrder = 'asc';
 
-  sortPub(): void {
-    this.publicationOrder = this.publicationOrder === 'asc' ? 'desc' : 'asc';
-    this.sortCriteria = 'publication';
-    this.newsItems = [...this.newsItems].sort(this.compareValues(this.sortCriteria, this.publicationOrder));
-  }
-
-  sortDate(): void {
-    this.dateOrder = this.dateOrder === 'asc' ? 'desc' : 'asc';
-    this.sortCriteria = 'date';
-    this.newsItems = [...this.newsItems].sort(this.compareValues(this.sortCriteria, this.dateOrder));
-  }
-
-  sortTitle(): void {
-    this.titleOrder = this.titleOrder === 'asc' ? 'desc' : 'asc';
-    this.sortCriteria = 'title';
-    this.newsItems = [...this.newsItems].sort(this.compareValues(this.sortCriteria, this.titleOrder));
+  sort(criteria: 'date' | 'publication' | 'title'): void {
+    let order = 'asc';
+    if (criteria === 'publication') {
+      this.publicationOrder = this.publicationOrder === 'asc' ? 'desc' : 'asc';
+      order = this.publicationOrder;
+    } else if (criteria === 'date') {
+      this.dateOrder = this.dateOrder === 'asc' ? 'desc' : 'asc';
+      order = this.dateOrder;
+    } else {
+      this.titleOrder = this.titleOrder === 'asc' ? 'desc' : 'asc';
+      order = this.titleOrder;
+    }
+    this.newsItems = [...this.newsItems].sort(this.compareValues(criteria, order));
   }
 
   compareValues(key: 'date' | 'publication' | 'title', order = 'asc'): (a: NewsItem, b: NewsItem) => number {
