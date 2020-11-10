@@ -4,7 +4,8 @@ $typography: mat-typography-config(
   $font-family: 'Lato, sans serif',
   $headline: mat-typography-level(2.5rem, 3rem),
   $title: mat-typography-level(2rem, 2.5rem),
-  $subheading-2: mat-typography-level(1.5rem, 2rem),
-  $subheading-1: mat-typography-level(1.125rem, 1.5rem, 500),
-  $body-1: mat-typography-level(0.875rem, 1.25rem)
+  $subheading-2: mat-typography-level(0.875rem, 1.25rem, 300),
+  $subheading-1: mat-typography-level(0.875rem, 1.25rem, 700),
+  $body-1: mat-typography-level(0.875rem, 1.25rem),
+  $display-1: mat-typography-level(0.75rem, 1.5rem)
 )
