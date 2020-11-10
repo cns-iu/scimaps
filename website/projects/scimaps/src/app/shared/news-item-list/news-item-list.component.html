@@ -5,14 +5,17 @@
   </div>
   <div class="sort date" (click)="sort('date')">
     <div>Date</div>
-    <mat-icon>filter_list</mat-icon>
+    <mat-icon [class.reversed]="dateOrder === 'asc'">filter_list</mat-icon>
   </div>
   <div class="sort title" (click)="sort('title')">
     <div>Title</div>
-    <mat-icon>filter_list</mat-icon>
+    <mat-icon [class.reversed]="titleOrder === 'asc'">filter_list</mat-icon>
   </div>
 </div>
 
-<div *ngFor="let item of newsItems" class="news-item-list">
-  <sci-news-item [item]="item"></sci-news-item>
+<div class="news-item-list">
+  <div *ngFor="let item of newsItems" class="news-item">
+    <sci-news-item [item]="item"></sci-news-item>
+  </div>
 </div>
+

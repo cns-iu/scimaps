@@ -4,13 +4,18 @@
   .sort {
     display: flex;
     margin-left: 8px;
+    cursor: pointer;
+
+    mat-icon {
+      transform: scaleY(-1);
+    }
 
     .reversed {
-      color: red;
+      transform: none;
     }
   }
 }
 
 .news-item-list {
-  width: 500px;
+  display: flex;
 }

@@ -4,10 +4,11 @@
 
 .news-item {
   display: flex;
+  height: 8.75rem;
+  width: 31.25rem;
   box-shadow: 0 1px 3px rgba(0,0,0,0.54);
   text-decoration: none;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin: 0.5rem;
   border-radius: 0.125rem;
 
   .thumb {
