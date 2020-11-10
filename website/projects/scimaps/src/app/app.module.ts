@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
+import { CardGalleryModule } from './shared/components/card-gallery/card-gallery.module';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { CoreModule } from './core/core.module';
 
     AppRoutingModule,
     CoreModule,
+    CardGalleryModule
   ],
   declarations: [AppComponent],
   providers: [],

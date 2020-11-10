@@ -1,0 +1,7 @@
+<mat-card class="card" *ngFor="let card of cards" (click)="handleClick(card)">
+  <img mat-card-image [src]="getImageSource(card.slug)" [alt]="card.slug">
+  <mat-card-content>
+    <p class="card-header">{{ card.title }}</p>
+    <p>{{ card.body }}</p>
+  </mat-card-content>
+</mat-card>

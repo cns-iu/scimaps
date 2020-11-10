@@ -1,0 +1,15 @@
+:host  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .card {
+    width: 18rem;
+    margin: 1rem;
+    cursor: pointer;
+
+    .card-header{
+      font-size: 20px;
+    }
+  }
+}
