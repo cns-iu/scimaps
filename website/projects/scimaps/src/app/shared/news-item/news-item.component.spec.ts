@@ -8,7 +8,7 @@ import { NewsItem } from './news-item.model';
 const testItem: NewsItem = {
   title: 'test title',
   date: 'test date',
-  source: 'test source',
+  publication: 'test publication',
   institution: 'test institution',
   thumbnail: 'test thumbnail',
   pdfLink: 'test link'
@@ -36,6 +36,6 @@ describe('NewsItemComponent', () => {
   it('should display the article source', async () => {
     const { find } = await shallow.render({ bind: { item: testItem }});
     const dateElement = find('.identifier').nativeElement as Element;
-    expect(dateElement.innerHTML).toEqual('test source at test institution');
+    expect(dateElement.innerHTML).toEqual('test publication at test institution');
   });
 });

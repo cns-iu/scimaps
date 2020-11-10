@@ -10,12 +10,22 @@ import { NewsItem } from './shared/news-item/news-item.model';
 export class AppComponent {
   title = 'scimaps';
 
-  newsItem: NewsItem = {
-    title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
-    date: 'MAR 2, 2020',
-    source: 'Library News',
-    institution: 'Virginia Tech',
-    thumbnail: '../../assets/images/rose.jpg',
-    pdfLink: 'link'
-  };
+  newsItems: NewsItem[] = [
+    {
+      title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
+      date: 'MAR 2, 2020',
+      publication: 'Library News',
+      institution: 'Virginia Tech',
+      thumbnail: '../../assets/images/rose.jpg',
+      pdfLink: 'link'
+    },
+    {
+      title: 'International exhibit unites students, faculty and staff in celebrating mapping technology',
+      date: 'MAR 1, 2020',
+      publication: 'Research News',
+      institution: 'Vanderbilt',
+      thumbnail: '../../assets/images/rose.jpg',
+      pdfLink: 'link'
+    },
+  ];
 }
