@@ -5,7 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
-import { NewsItemListModule } from './news-item-list/news-item-list.module';
+import { NewsItemListModule } from './shared/news-item-list/news-item-list.module';
 
 
 @NgModule({
