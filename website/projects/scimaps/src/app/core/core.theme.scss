@@ -1,4 +1,6 @@
+@use './components/footer/footer.theme';
 
 
 @mixin theme($theme-or-config) {
+  @include footer.theme($theme-or-config);
 }

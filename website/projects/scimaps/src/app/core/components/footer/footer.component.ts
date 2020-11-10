@@ -1,6 +1,9 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, HostBinding, Input } from '@angular/core';
 
 
+/**
+ * App footer
+ */
 @Component({
   selector: 'sci-footer',
   templateUrl: './footer.component.html',
@@ -8,4 +11,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FooterComponent {
+  /** HTML class */
+  @HostBinding('class') readonly clsName = 'sci-footer';
+
+  /** Phone number - formatted! */
+  @Input() phoneNumber!: string;
+
+  /** Acknowledgement text */
+  @Input() acknowledgement!: string;
 }
