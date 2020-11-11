@@ -1,32 +1,213 @@
 collections:
   - name: blog
-    label: Blog
+    label: Blogs
+    label_singular: Blog
     folder: content/blog
+    path: "{{year}}/{{month}}-{{day}}/{{slug}}/readme"
     create: true
-    slug: "{{year}}-{{month}}-{{slug}}"
-    preview_path: blog/{{slug}}
+    slug: "{{slug}}"
+    preview_path: blog/{{year}}/{{month}}-{{day}}/{{slug}}
+    media_folder: ''
+    public_folder: ''
     fields:
       - { name: title, label: Title }
       - { name: date, label: Date, widget: date }
+      - { label: Image, name: image, widget: image }
       - { name: body, label: Body, widget: markdown }
+
+  - name: person
+    label: People
+    label_singular: Person
+    folder: content/person
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{firstName}}-{{lastName}}"
+    preview_path: person/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      # sort by lastname, firstname
+      # roles: team, ambassador, advisory board, makers
+      - { name: firstName, label: First Name }
+      - { name: lastName, label: Last Name }
+      # bio
+      # personalHomepage
+      - { name: jobTitle, label: Job Title }
+      - { name: affiliation, label: Affiliation }
+      - { name: location, label: Location, widget: map }
+
   - name: book
-    label: Book
+    label: Books
+    label_singular: Book
     folder: content/book
-    path: "{{slug}}/README"
+    path: "{{slug}}/readme"
     create: true
     slug: "{{slug}}"
     preview_path: book/{{slug}}
     media_folder: ''
     public_folder: ''
     fields:
+      - { name: date, label: Published Date, widget: datetime }
       - { name: title, label: Title }
-      - { name: author, label: Author }
+      - { name: author, label: Author } # link to person
       - { name: publisher, label: Publisher }
-      - { name: publishedDate, label: Published Date, widget: datetime }
       - { name: pdfLink, label: PDF Link }
       - { name: amazonLink, label: Amazon Link }
-      - { name: bookImages, label: Book Images, label_singular: Book Image, min: 1, summary: '{{fields.image}}', field: {label: Image, name: image, widget: image}}
+      - name: bookImages
+        label: Book Images
+        label_singular: Book Image
+        min: 1
+        summary: '{{fields.image}}'
+        widget: list
+        field: { label: Image, name: image, widget: image }
       - { name: body, label: Abstract, widget: markdown }
+
+  - name: news
+    label: News
+    folder: content/news
+    path: "{{year}}/{{month}}-{{day}}/{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: news/{{year}}/{{month}}-{{day}}/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: source, label: Source }
+      - { name: pdfLink, label: PDF Link}
+      - {label: Image, name: image, widget: image}
+      - { name: body, label: Body, widget: markdown }
+
+  - name: gallery
+    label: Galleries
+    label_singular: Gallery
+    folder: content/gallery
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: gallery/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - name: images
+        labels: Images
+        label_singular: Image
+        min: 1
+        summary: '{{fields.image}}'
+        widget: list
+        fields:
+          - { name: image, label: Image, widget: image }
+
+  - name: map
+    label: Maps
+    label_singular: Map
+    folder: content/map
+    path: '{{iteration}}/{{sequence}}/readme'
+    create: true
+    slug: '{{slug}}'
+    preview_path: map/{{iteration}}/{{sequence}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
+      - name: makers
+        labels: Makers
+        label_singular: Maker
+        min: 1
+        summary: '{{fields.person}}'
+        widget: list
+        fields:
+          - name: person
+            label: Person
+            widget: relation
+            collection: person
+            search_fields: ['firstName', 'lastName']
+            value_field: '{{slug}}'
+            display_fields: ['{{firstName}} {{lastName}}']
+      - { name: location, label: Location, widget: map }
+      - { name: year, label: Year, widget: number, min: 2000, default: 2020 }
+      - { name: creditLine, label: Credit Line }
+      - { name: languages, label: Languages }
+      - { name: references, label: References }
+      - { name: image, label: Image, widget: image }
+      - { name: mapsLink, label: Maps Link }
+      - { name: body, label: Description, widget: markdown }
+
+  - name: macroscope
+    label: Macroscopes
+    label_singular: Macroscope
+    folder: content/macroscope
+    path: '{{iteration}}/{{sequence}}/readme'
+    create: true
+    slug: '{{slug}}'
+    preview_path: macroscope/{{iteration}}/{{sequence}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
+      - name: makers
+        labels: Makers
+        label_singular: Maker
+        min: 1
+        summary: '{{fields.person}}'
+        widget: list
+        fields:
+          - name: person
+            label: Person
+            widget: relation
+            collection: person
+            search_fields: ['firstName', 'lastName']
+            value_field: '{{slug}}'
+            display_fields: ['{{firstName}} {{lastName}}']
+      - { name: location, label: Location, widget: map }
+      - { name: year, label: Year, widget: number, min: 2000, default: 2020 }
+      - { name: creditLine, label: Credit Line }
+      - { name: languages, label: Languages }
+      - { name: references, label: References }
+      - { name: image, label: Image, widget: image }
+      - { name: macroscopeLink, label: Macroscope Link }
+      - { name: body, label: Description, widget: markdown }
+
+
+  - name: mapIteration
+    label: Map Iterations
+    label_singular: Map Iteration
+    folder: content/mapIteration
+    path: '{{iteration}}/{{sequence}}/readme'
+    create: true
+    slug: '{{slug}}'
+    preview_path: mapIteration/{{iteration}}/{{sequence}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown }
+
+  - name: macroscopeIteration
+    label: Macroscope Iterations
+    label_singular: Macroscope Iteration
+    folder: content/macroscopeIteration
+    path: '{{iteration}}/{{sequence}}/readme'
+    create: true
+    slug: '{{slug}}'
+    preview_path: macroscopeIteration/{{iteration}}/{{sequence}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown }
+
+  # Call To Action
 
 backend:
   name: github
@@ -35,6 +216,11 @@ backend:
 
 # We'll switch to editorial workflow when we move closer to production
 # publish_mode: editorial_workflow
+
+# Uncomment below when using the default proxy server port
+## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+## Basically run `npx netlify-cms-proxy-server` and launch the angular site
+# local_backend: true
 
 media_folder: content/images/uploads
 public_folder: /assets/images/uploads
