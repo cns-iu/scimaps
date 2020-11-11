@@ -1,85 +1,88 @@
-.content-container {
-  position: relative;
-  overflow: auto;
-  height: 100%;
-  min-height: 0;
-  margin: 0.5rem 1rem;
-  border-radius: 0.25;
+:host {
+  display: block;
 
-  .swiper-container {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  .content-container {
+    position: relative;
+    overflow: auto;
+    height: 100%;
+    min-height: 0;
+    margin: 0.5rem 1rem;
+    border-radius: 0.25;
 
-    .swiper-slide {
-      overflow: hidden;
+    .swiper-container {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
 
-      .carousel-content {
+      .swiper-slide {
+        overflow: hidden;
+
+        .carousel-content {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+
+          .carousel-image {
+            object-fit: cover;
+            height: 90%;
+          }
+
+          .carousel-space {
+            height: 10%;
+          }
+        }
+      }
+
+      ::ng-deep .swiper-pagination-bullets {
+        bottom: 3.5%;
         display: flex;
-        flex-direction: column;
-        height: 100%;
+        justify-content: center;
 
-        .carousel-image {
-          object-fit: cover;
-          height: 90%;
+        .swiper-pagination-handle {
+          margin: 0;
+          display: flex;
+          align-items: center;
         }
-  
-        .carousel-space {
-          height: 10%;
-        }
+      }
+
+      ::ng-deep .swiper-pagination-bullet {
+        margin: 0 !important;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #757575 !important;
+        background: none;
+      }
+
+      ::ng-deep .swiper-pagination-bullet-active {
+        background: #8dc63f;
+        border: 2px solid #8dc63f !important;
       }
     }
 
-    ::ng-deep .swiper-pagination-bullets {
-      bottom: 3.5%;
-      display: flex;
-      justify-content: center;
-
-      .swiper-pagination-handle {
-        margin: 0;
-        display: flex;
-        align-items: center;
-      }
+    ::ng-deep .swiper-button-prev,
+    ::ng-deep .swiper-button-next {
+      top: 95%;
     }
 
-    ::ng-deep .swiper-pagination-bullet {
-      margin: 0 !important;
-      width: 1rem;
-      height: 1rem;
-      border: 2px solid #757575 !important;
-      background: none;
+    ::ng-deep .swiper-button-prev:focus,
+    ::ng-deep .swiper-button-next:focus {
+      outline: none;
     }
 
-    ::ng-deep .swiper-pagination-bullet-active {
-      background: #8DC63F;
-      border: 2px solid #8DC63F !important;
+    ::ng-deep .swiper-button-prev::after,
+    ::ng-deep .swiper-button-next::after {
+      color: black;
+      font-family: "Material Icons";
     }
-  }
-  
-  ::ng-deep .swiper-button-prev,
-  ::ng-deep .swiper-button-next {
-    top: 95%;
-  }
 
-  ::ng-deep .swiper-button-prev:focus,
-  ::ng-deep .swiper-button-next:focus {
-    outline: none;
-  }
+    ::ng-deep .swiper-button-prev::after {
+      content: "chevron_left";
+    }
 
-  ::ng-deep .swiper-button-prev::after,
-  ::ng-deep .swiper-button-next::after {
-    color: black;
-    font-family: "Material Icons";
-  }
-
-  ::ng-deep .swiper-button-prev::after {
-    content: "chevron_left";
-  }
-
-  ::ng-deep .swiper-button-next::after {
-    content: "chevron_right";
+    ::ng-deep .swiper-button-next::after {
+      content: "chevron_right";
+    }
   }
 }
-
