@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardGalleryComponent } from './card-gallery.component';
 import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
 
 
 
@@ -9,7 +10,8 @@ import { MatCardModule } from '@angular/material/card';
   declarations: [CardGalleryComponent],
   imports: [
     CommonModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule
   ],
   exports: [CardGalleryComponent]
 })

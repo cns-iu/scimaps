@@ -36,9 +36,21 @@ describe('CardGalleryComponent', () => {
     expect(outputs.cardClicked.emit).toHaveBeenCalled();
   });
 
-  it('should create the a card for each of the image card items passed in', async () => {
+  it('should create the a desktop card for each of the image card items passed in', async () => {
     const { find } = await shallow.render({ bind: { cards, directory: 'test' }});
-    const cardElements = find('.card');
+    const cardElements = find('.desktop-card');
     expect(cardElements.length).toEqual(cards.length);
+  });
+
+  it('should create the a mobile card for each of the image card items passed in', async () => {
+    const { find } = await shallow.render({ bind: { cards, directory: 'test' }});
+    const cardElements = find('.mobile-card');
+    expect(cardElements.length).toEqual(cards.length);
+  });
+
+  it('should add a title to the gallery when one is passed in', async () => {
+    const { find } = await shallow.render({ bind: { cards, directory: 'test', galleryTitle: 'test title'}});
+    const title = find('.title').nativeElement;
+    expect(title.innerHTML).toEqual('test title');
   });
 });

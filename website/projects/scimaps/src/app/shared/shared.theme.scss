@@ -1,4 +1,5 @@
-
+@use './components/card-gallery/card-gallery.theme.scss' as cardGallery;
 
 @mixin theme($theme-or-config) {
+  @include cardGallery.theme($theme-or-config);
 }
