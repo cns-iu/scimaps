@@ -5,6 +5,8 @@
     display: flex;
     margin-left: 8px;
     cursor: pointer;
+    user-select: none;
+    -moz-user-select:none;
 
     mat-icon {
       transform: scaleY(-1);
@@ -18,4 +20,5 @@
 
 .news-item-list {
   display: flex;
+  flex-wrap: wrap;
 }

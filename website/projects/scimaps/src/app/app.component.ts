@@ -27,5 +27,21 @@ export class AppComponent {
       thumbnail: '../../assets/images/rose.jpg',
       pdfLink: 'link'
     },
+    {
+      title: 'Exhibit travels to the Centers for Disease Control and Prevention Museum in Atlanta',
+      date: 'MAR 2, 2020',
+      publication: 'SolC News',
+      institution: null,
+      thumbnail: '../../assets/images/rose.jpg',
+      pdfLink: 'link'
+    },
+    {
+      title: 'Artcle from 2019',
+      date: 'April 1, 2019',
+      publication: 'Science News',
+      institution: 'Washington University',
+      thumbnail: '../../assets/images/rose.jpg',
+      pdfLink: 'link'
+    },
   ];
 }

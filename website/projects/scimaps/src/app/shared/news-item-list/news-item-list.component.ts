@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { MatSelectChange } from '@angular/material/select';
 import { NewsItem } from '../news-item/news-item.model';
 
 
@@ -10,6 +11,8 @@ import { NewsItem } from '../news-item/news-item.model';
 export class NewsItemListComponent {
 
   @Input() newsItems!: NewsItem[];
+
+  @Input() displayedNewsItems: NewsItem[] = this.newsItems;
 
   dateOrder = 'asc';
   titleOrder = 'asc';
@@ -27,7 +30,7 @@ export class NewsItemListComponent {
       this.titleOrder = this.titleOrder === 'asc' ? 'desc' : 'asc';
       order = this.titleOrder;
     }
-    this.newsItems = [...this.newsItems].sort(this.compareValues(criteria, order));
+    this.displayedNewsItems = [...this.displayedNewsItems].sort(this.compareValues(criteria, order));
   }
 
   compareValues(key: 'date' | 'publication' | 'title', order = 'asc'): (a: NewsItem, b: NewsItem) => number {
@@ -35,11 +38,29 @@ export class NewsItemListComponent {
       if (!a.hasOwnProperty(key) || !b.hasOwnProperty(key)) {
         return 0;
       }
-      const comparison = a[key].localeCompare(b[key]);
+
+      let comparison;
+      if (key === 'date') {
+        comparison = a[key].slice(-4).localeCompare(b[key].slice(-4));
+      } else {
+        comparison = a[key].localeCompare(b[key]);
+      }
 
       return (
         (order === 'desc') ? (comparison * -1) : comparison
       );
     };
+  }
+
+  get yearList(): string[] {
+    return ['All'].concat([...new Set(this.newsItems.map(item => item.date.slice(-4)))]);
+  }
+
+  onYearChange(event: MatSelectChange): void {
+    if (event.value === 'All') {
+      this.displayedNewsItems = [...this.newsItems];
+    } else {
+      this.displayedNewsItems = [...this.newsItems].filter((item) => item.date.slice(-4) === event.value);
+    }
   }
 }

@@ -1,4 +1,13 @@
 <div class="filter-header">
+  <mat-form-field appearance="fill">
+    <mat-label>Year</mat-label>
+    <mat-select (selectionChange)="onYearChange($event)">
+      <mat-option *ngFor="let year of yearList" [value]="year">
+        {{year}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
   <div class="sort publication" (click)="sort('publication')">
     <div>Publication</div>
     <mat-icon [class.reversed]="publicationOrder === 'asc'">filter_list</mat-icon>
@@ -14,7 +23,7 @@
 </div>
 
 <div class="news-item-list">
-  <div *ngFor="let item of newsItems" class="news-item">
+  <div *ngFor="let item of displayedNewsItems" class="news-item">
     <sci-news-item [item]="item"></sci-news-item>
   </div>
 </div>

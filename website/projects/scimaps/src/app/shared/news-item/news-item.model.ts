@@ -10,7 +10,7 @@ export interface NewsItem {
   publication: string;
 
   /** Name of institution */
-  institution: string;
+  institution?: string | null;
 
   /** URL of thumbnail image */
   thumbnail: string;
