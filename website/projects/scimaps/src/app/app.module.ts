@@ -5,7 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
-import { CarouselModule } from './carousel/carousel.module';
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
@@ -15,8 +15,7 @@ import { CarouselModule } from './carousel/carousel.module';
 
     AppRoutingModule,
     CoreModule,
-
-    CarouselModule
+    SharedModule,
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
