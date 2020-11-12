@@ -1,6 +1,7 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 
+import { FooterModule } from './components/footer/footer.module';
 import { StateModule } from './state/state.module';
 
 
@@ -10,8 +11,11 @@ import { StateModule } from './state/state.module';
     NgxGoogleAnalyticsRouterModule,
 
     StateModule,
+
+    FooterModule,
   ],
   exports: [
+    FooterModule
   ]
 })
 export class CoreModule {

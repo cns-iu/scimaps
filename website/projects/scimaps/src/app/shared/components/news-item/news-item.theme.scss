@@ -1,0 +1,29 @@
+@import "~@angular/material/theming";
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $primary: map-get($config, primary);
+
+  .sci-news-item {
+    .news-item {
+      color: black;
+    }
+
+    .identifier,
+    .date {
+      color: mat-color($primary, darker);
+    }
+
+    .thumb {
+      border-color: white;
+    }
+  }
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+
+  @if $color {
+    @include color($color);
+  }
+}
