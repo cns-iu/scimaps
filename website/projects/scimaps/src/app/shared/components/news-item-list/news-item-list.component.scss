@@ -21,4 +21,8 @@
 .news-item-list {
   display: flex;
   flex-wrap: wrap;
+
+  .news-item {
+    width: 50%;
+  }
 }

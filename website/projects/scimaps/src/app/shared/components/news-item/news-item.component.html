@@ -3,6 +3,6 @@
   <div class="info">
     <div class="date">{{item.date | date}}</div>
     <div class="title">{{item.title}}</div>
-    <div class="identifier">{{item.source}} at {{item.institution}}</div>
+    <div class="identifier">{{item.publication}} {{item.institution ? 'at' : ''}} {{item.institution}}</div>
   </div>
 </a>

@@ -7,7 +7,7 @@ import { NewsItemModule } from './news-item.module';
 const testItem: NewsItem = {
   title: 'test title',
   date: new Date(2002, 1, 1),
-  source: 'test source',
+  publication: 'test publication',
   institution: 'test institution',
   thumbnail: 'test thumbnail',
   pdfLink: 'test link'
@@ -30,5 +30,5 @@ describe('NewsItemComponent', () => {
 
   itHasElementContent('.date', 'Feb 1, 2002');
   itHasElementContent('.title', 'test title');
-  itHasElementContent('.identifier', 'test source at test institution');
+  itHasElementContent('.identifier', 'test publication at test institution');
 });

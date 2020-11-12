@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { MatSelectChange } from '@angular/material/select';
+
 import { NewsItem } from '../news-item/news-item.model';
 
 
@@ -41,7 +42,7 @@ export class NewsItemListComponent {
 
       let comparison;
       if (key === 'date') {
-        comparison = a[key].slice(-4).localeCompare(b[key].slice(-4));
+        comparison = a[key] > b[key] ? 1 : -1;
       } else {
         comparison = a[key].localeCompare(b[key]);
       }
@@ -53,14 +54,15 @@ export class NewsItemListComponent {
   }
 
   get yearList(): string[] {
-    return ['All'].concat([...new Set(this.newsItems.map(item => item.date.slice(-4)))]);
+    const years = this.newsItems.map(item => item.date.getFullYear().toString());
+    return ['All'].concat([...new Set(years)]);
   }
 
   onYearChange(event: MatSelectChange): void {
     if (event.value === 'All') {
       this.displayedNewsItems = [...this.newsItems];
     } else {
-      this.displayedNewsItems = [...this.newsItems].filter((item) => item.date.slice(-4) === event.value);
+      this.displayedNewsItems = [...this.newsItems].filter((item) => item.date.getFullYear().toString() === event.value);
     }
   }
 }

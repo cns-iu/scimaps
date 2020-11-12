@@ -37,7 +37,7 @@ export class AppComponent {
       pdfLink: 'link'
     },
     {
-      title: 'Artcle from 2019',
+      title: 'Article from 2019',
       date: new Date(2019, 3, 1),
       publication: 'Science News',
       institution: 'Washington University',
