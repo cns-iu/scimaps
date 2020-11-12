@@ -16,23 +16,26 @@
       border-style: solid;
     }
 
-    .date {
-      margin: 0;
-      text-transform: uppercase;
-    }
-
     .info {
       display: flex;
       flex-direction: column;
       padding: 1rem;
 
+      .date {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+
       .title {
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
+        font-weight: 700;
       }
 
       .identifier {
         margin: 0;
+        font-weight: 300;
       }
     }
   }
