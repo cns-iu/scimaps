@@ -1,10 +1,13 @@
+/**
+ * Interface for news items
+ */
 export interface NewsItem {
 
   /** Title of news item */
   title: string;
 
   /** Date of publication */
-  date: string;
+  date: Date;
 
   /** Source of news item */
   source: string;

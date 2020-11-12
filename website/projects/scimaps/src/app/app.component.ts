@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { NewsItem } from './shared/news-item/news-item.model';
+
+import { NewsItem } from './shared/components/news-item/news-item.model';
 
 
 @Component({
@@ -12,7 +13,7 @@ export class AppComponent {
 
   newsItem: NewsItem = {
     title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
-    date: 'MAR 2, 2020',
+    date: new Date(2020, 2, 2),
     source: 'Library News',
     institution: 'Virginia Tech',
     thumbnail: '../../assets/images/rose.jpg',

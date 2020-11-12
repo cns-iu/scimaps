@@ -1,4 +1,5 @@
-import { Component, Input, HostBinding } from '@angular/core';
+import { Component, HostBinding, Input } from '@angular/core';
+
 import { NewsItem } from './news-item.model';
 
 /**
@@ -10,11 +11,13 @@ import { NewsItem } from './news-item.model';
   styleUrls: ['./news-item.component.scss']
 })
 export class NewsItemComponent {
-
+  /**
+   * Class name for component
+   */
   @HostBinding('class') readonly clsName = 'sci-news-item';
 
-   /**
-    * News item info
-    */
-   @Input() item!: NewsItem;
+  /**
+   * News item info
+   */
+  @Input() item!: NewsItem;
 }
