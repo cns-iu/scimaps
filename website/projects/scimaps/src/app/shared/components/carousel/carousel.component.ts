@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
 
 import { SwiperOptions } from 'swiper';
 
@@ -11,15 +11,17 @@ import { SwiperOptions } from 'swiper';
   styleUrls: ['./carousel.component.scss']
 })
 export class CarouselComponent {
+  /** HTML class */
+  @HostBinding('class') readonly clsName = 'sci-carousel';
 
   /**
    * Slide contents for the carousel
    */
   public slides = [
-    '../../assets/images/benches.jpg',
-    '../../assets/images/bridge.jpg',
-    '../../assets/images/flower.jpg',
-    '../../assets/images/garden.jpg',
+    'assets/images/benches.jpg',
+    'assets/images/bridge.jpg',
+    'assets/images/flower.jpg',
+    'assets/images/garden.jpg',
   ];
 
   /**
@@ -40,5 +42,3 @@ export class CarouselComponent {
     }
   };
 }
-
-
