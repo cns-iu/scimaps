@@ -1,0 +1,53 @@
+@use 'icon';
+@use 'screen';
+
+:host {
+  display: block;
+
+  .contact {
+    display: flex;
+    width: 100%;
+    height: 4.5rem;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1rem 0 0.25rem;
+
+    .social {
+      padding: 0.75rem;
+
+      .button {
+        width: fit-content;
+        height: fit-content;
+      }
+    }
+
+    .phone {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0.75rem 0 0.75rem 0.75rem;
+
+      .text {
+        padding: 0 0 0 0.75rem;
+      }
+    }
+
+    .icon {
+      @include icon.size(3rem);
+    }
+
+    .filler {
+      flex-grow: 1;
+    }
+  }
+
+  .acknowledgement {
+    padding: 3rem;
+  }
+
+  @include screen.breakpoint(mobile) {
+    .acknowledgement {
+      padding: 1rem;
+    }
+  }
+}
