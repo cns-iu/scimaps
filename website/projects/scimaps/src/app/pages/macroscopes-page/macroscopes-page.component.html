@@ -1,0 +1,15 @@
+<h2 class="header">Macroscopes</h2>
+<div class="highlight-content">
+  <p class="highlight-body">{{  highlightBody }}</p>
+  <div class="carousel-container">
+    <div class="fake-carousel"></div>
+  </div>
+</div>
+
+<sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item"></sci-discover-listing>
+
+<button *ngIf="moreMacroscopes" class="more-button" (click)="itemsToDisplay = itemsToDisplay + 3;">Show More Macroscopes</button>
+<div class="mobile-button">
+  Discover Macroscopes
+  <mat-icon class="mobile-icon">chevron_right</mat-icon>
+</div>
