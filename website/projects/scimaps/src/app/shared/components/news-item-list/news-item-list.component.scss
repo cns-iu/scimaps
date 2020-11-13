@@ -14,7 +14,7 @@ $mobile: 640px;
     }
 
     .year-select {
-      margin-right: 1rem;
+      margin-right: 1.5rem;
       
       ::ng-deep .mat-form-field-wrapper {
         height: 3rem;
@@ -47,7 +47,6 @@ $mobile: 640px;
     .sort-filters {
       display: flex;
       height: 3rem;
-      margin-bottom: 1em;
       align-items: center;
 
       @media (max-width: $mobile) {
@@ -57,10 +56,14 @@ $mobile: 640px;
 
       .sort {
         display: flex;
-        margin-right: 1rem;
+        margin-right: 1.5rem;
         cursor: pointer;
         user-select: none;
         -moz-user-select: none;
+
+        @media (max-width: $mobile) {
+          margin-right: 0.5rem;
+        }
     
         mat-icon {
           transform: scaleY(-1);
