@@ -77,7 +77,7 @@ export class NewsItemListComponent implements OnInit {
   }
 
   get showButtonText(): string {
-    return (this.showAllItems) ? 'Show Less' : 'Show More News';
+    return (this.showAllItems) ? 'Show Less' : 'Show More';
   }
 
   needShowMoreButton(): boolean {

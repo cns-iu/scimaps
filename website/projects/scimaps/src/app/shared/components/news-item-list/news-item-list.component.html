@@ -1,5 +1,5 @@
 <div class="filter-header">
-  <mat-form-field appearance="fill">
+  <mat-form-field class="year-select" appearance="fill">
     <mat-label>Year</mat-label>
     <mat-select [(value)]="selectedYear" (selectionChange)="onYearChange($event)">
       <mat-option *ngFor="let year of yearList" [value]="year">
@@ -8,17 +8,19 @@
     </mat-select>
   </mat-form-field>
 
-  <div class="sort date" (click)="sort('date')">
-    <div>Date</div>
-    <mat-icon [class.reversed]="dateOrder === 'desc'">filter_list</mat-icon>
-  </div>
-  <div class="sort title" (click)="sort('title')">
-    <div>Title</div>
-    <mat-icon [class.reversed]="titleOrder === 'asc'">filter_list</mat-icon>
-  </div>
-  <div class="sort publication" (click)="sort('publication')">
-    <div>Publication</div>
-    <mat-icon [class.reversed]="publicationOrder === 'asc'">filter_list</mat-icon>
+  <div class="sort-filters">
+    <div class="sort date" (click)="sort('date')">
+      <div>Date</div>
+      <mat-icon [class.reversed]="dateOrder === 'desc'">filter_list</mat-icon>
+    </div>
+    <div class="sort title" (click)="sort('title')">
+      <div>Title</div>
+      <mat-icon [class.reversed]="titleOrder === 'asc'">filter_list</mat-icon>
+    </div>
+    <div class="sort publication" (click)="sort('publication')">
+      <div>Publication</div>
+      <mat-icon [class.reversed]="publicationOrder === 'asc'">filter_list</mat-icon>
+    </div>
   </div>
 </div>
 
