@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, HostBinding, OnInit } from '@angular/core';
 import { MatSelectChange } from '@angular/material/select';
 
 import { NewsItem } from '../news-item/news-item.model';
@@ -9,7 +9,9 @@ import { NewsItem } from '../news-item/news-item.model';
   templateUrl: './news-item-list.component.html',
   styleUrls: ['./news-item-list.component.scss']
 })
-export class NewsItemListComponent {
+export class NewsItemListComponent implements OnInit {
+
+  @HostBinding('class') readonly clsName = 'sci-news-item-list';
 
   @Input() newsItems!: NewsItem[];
 
@@ -20,6 +22,12 @@ export class NewsItemListComponent {
   publicationOrder = 'asc';
 
   showAllItems = false;
+
+  selectedYear = 'All';
+
+  ngOnInit(): void {
+    this.sort('date');
+  }
 
   sort(criteria: 'date' | 'publication' | 'title'): void {
     let order = 'asc';
@@ -73,6 +81,6 @@ export class NewsItemListComponent {
   }
 
   needShowMoreButton(): boolean {
-    return (this.newsItems.length < 5) ? false : true;
+    return (this.displayedNewsItems.length < 5) ? false : true;
   }
 }

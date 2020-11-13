@@ -1,32 +1,62 @@
-.filter-header {
-  display: flex;
-
-  .sort {
+:host {
+  .filter-header {
     display: flex;
-    margin-left: 8px;
-    cursor: pointer;
-    user-select: none;
-    -moz-user-select:none;
+    align-items: center;
 
-    mat-icon {
-      transform: scaleY(-1);
+    ::ng-deep mat-form-field {
+      .mat-form-field-wrapper {
+        .mat-form-field-flex {
+          background-color: white;
+
+          .mat-form-field-infix {
+            width: 5rem;
+
+            .mat-select-arrow-wrapper {
+              display: block;
+            }
+          }
+        }
+      }
     }
-
-    .reversed {
-      transform: none;
+  
+    .sort {
+      display: flex;
+      margin-left: 1rem;
+      cursor: pointer;
+      user-select: none;
+      -moz-user-select: none;
+  
+      mat-icon {
+        transform: scaleY(-1);
+        margin-left: 0.5rem;
+      }
+  
+      .reversed {
+        transform: none;
+      }
     }
   }
-}
-
-.news-item-list {
-  display: flex;
-  flex-wrap: wrap;
-
-  .news-item {
-    width: 50%;
+  
+  .news-item-list {
+    display: flex;
+    flex-wrap: wrap;
+  
+    .news-item {
+      width: 50%;
+    }
   }
 
   .show-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 100%;
     cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    border-width: 1px;
+    border-style: solid;
+    margin: 2rem 0;
   }
 }
