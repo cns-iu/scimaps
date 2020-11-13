@@ -24,7 +24,8 @@
 
 <div class="news-item-list">
   <div *ngFor="let item of displayedNewsItems" class="news-item">
-    <sci-news-item [item]="item"></sci-news-item>
+    <sci-news-item *ngIf="showAllItems || displayedNewsItems.indexOf(item) < 4" [item]="item"></sci-news-item>
   </div>
 </div>
+<div class="show-more" *ngIf="needShowMoreButton()" (click)="this.showAllItems = !this.showAllItems">{{ showButtonText }}</div>
 

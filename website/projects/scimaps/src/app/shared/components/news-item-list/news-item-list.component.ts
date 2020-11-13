@@ -19,6 +19,8 @@ export class NewsItemListComponent {
   titleOrder = 'asc';
   publicationOrder = 'asc';
 
+  showAllItems = false;
+
   sort(criteria: 'date' | 'publication' | 'title'): void {
     let order = 'asc';
     if (criteria === 'publication') {
@@ -64,5 +66,13 @@ export class NewsItemListComponent {
     } else {
       this.displayedNewsItems = [...this.newsItems].filter((item) => item.date.getFullYear().toString() === event.value);
     }
+  }
+
+  get showButtonText(): string {
+    return (this.showAllItems) ? 'Show Less' : 'Show More News';
+  }
+
+  needShowMoreButton(): boolean {
+    return (this.newsItems.length < 5) ? false : true;
   }
 }
