@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
+import { NewsItemModule } from './shared/components/news-item/news-item.module';
 import { SharedModule } from './shared/shared.module';
 
 
@@ -20,12 +21,15 @@ import { SharedModule } from './shared/shared.module';
 
     AppRoutingModule,
     CoreModule,
+
+    NewsItemModule,
     SharedModule,
   ],
   declarations: [AppComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule {
   constructor(registry: MatIconRegistry, sanitizer: DomSanitizer) {
     const icons = [
