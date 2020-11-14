@@ -1,5 +1,4 @@
-import { Component, Input, HostBinding, OnInit } from '@angular/core';
-import { MatSelectChange } from '@angular/material/select';
+import { Component, HostBinding, Input, OnInit } from '@angular/core';
 
 import { NewsItem } from '../news-item/news-item.model';
 
@@ -26,7 +25,7 @@ export class NewsItemListComponent implements OnInit {
   /**
    * News items to be displayed
    */
-  @Input() displayedNewsItems: NewsItem[] = this.newsItems;
+  displayedNewsItems!: NewsItem[];
 
   /**
    * Order for date sorting (ascending or descending)
@@ -57,6 +56,7 @@ export class NewsItemListComponent implements OnInit {
    * Sorts all items by date on init
    */
   ngOnInit(): void {
+    this.displayedNewsItems = this.newsItems;
     this.sort('date');
   }
 

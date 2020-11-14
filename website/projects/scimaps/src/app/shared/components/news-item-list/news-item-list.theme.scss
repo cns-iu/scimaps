@@ -6,6 +6,10 @@
   $grey-palette: mat-palette($mat-grey);
 
   .sci-news-item-list {
+    .mat-form-field-flex {
+      background-color: white;
+    }
+    
     .show-more {
       color: mat-color($primary);
       background-color: mat-color($primary, lighter);

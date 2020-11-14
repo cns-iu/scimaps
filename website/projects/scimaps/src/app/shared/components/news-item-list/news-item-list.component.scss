@@ -5,7 +5,6 @@ $mobile: 640px;
   .filter-header {
     display: flex;
     align-items: center;
-    
 
     @media (max-width: $mobile) {
       flex-direction: column;
@@ -15,7 +14,7 @@ $mobile: 640px;
 
     .year-select {
       margin-right: 1.5rem;
-      
+
       ::ng-deep .mat-form-field-wrapper {
         height: 3rem;
         margin-bottom: 1em;
@@ -27,8 +26,6 @@ $mobile: 640px;
         }
 
         .mat-form-field-flex {
-          background-color: white;
-
           .mat-form-field-infix {
             width: 5rem;
 
@@ -64,23 +61,23 @@ $mobile: 640px;
         @media (max-width: $mobile) {
           margin-right: 0.5rem;
         }
-    
+
         mat-icon {
           transform: scaleY(-1);
           margin-left: 0.5rem;
         }
-    
+
         .reversed {
           transform: none;
         }
       }
     }
   }
-  
+
   .news-item-list {
     display: flex;
     flex-wrap: wrap;
-  
+
     .news-item {
       width: 50%;
 
