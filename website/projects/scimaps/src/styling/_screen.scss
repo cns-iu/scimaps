@@ -1,0 +1,25 @@
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 960px;
+
+$-breakpoint-queries: (
+  mobile: "(max-width: #{$breakpoint-mobile})",
+  tablet:
+    "(min-width: #{$breakpoint-mobile + 1px}) and (max-width: #{$breakpoint-tablet})",
+  desktop: "(min-width: #{breakpoint-tablet + 1px})",
+);
+
+@mixin breakpoint($types...) {
+  $queries: ();
+  @each $type in $types {
+    $query: map-get($-breakpoint-queries, $type);
+    @if $query {
+      $queries: append($queries, $query, $separator: comma);
+    }
+  }
+
+  @if length($queries) > 0 {
+    @media #{$queries} {
+      @content;
+    }
+  }
+}

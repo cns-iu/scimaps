@@ -1,5 +1,14 @@
 // This file contains overrides of hardcoded angular material values
 
-h1, h2, h3, h4 {
-  margin: 0 0 1.5rem;
+.mat-typography {
+  & h1, h2, h3, h4 {
+    margin: 0 0 1.5rem;
+  }
+}
+
+.mat-display-1,
+.mat-typography .mat-display-1,
+.mat-display-2,
+.mat-typography .mat-display-2 {
+  margin: 0;
 }
