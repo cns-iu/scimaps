@@ -79,4 +79,16 @@ describe('NewsItemListComponent', () => {
     instance.sort('date');
     expect(instance.displayedNewsItems[2].date).toEqual(new Date(2002, 1, 1));
   });
+
+  it('filters the news items by a selected year', async () => {
+    const { instance } = await shallow.render({ bind: { newsItems: testItems } });
+    instance.onYearChange('2005');
+    expect(instance.displayedNewsItems[0].title).toBe('Title 3');
+  });
+
+  it('removes the year filter if All selected', async () => {
+    const { instance } = await shallow.render({ bind: { newsItems: testItems } });
+    instance.onYearChange('All');
+    expect(instance.displayedNewsItems).toEqual(instance.newsItems);
+  });
 });

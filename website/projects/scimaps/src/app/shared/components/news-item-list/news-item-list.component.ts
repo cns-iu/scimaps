@@ -85,12 +85,8 @@ export class NewsItemListComponent implements OnInit {
    * @param order order to compare
    * @returns 1 if a[key] is greater than b[key], -1 if less (opposite for descending). 0 if equal.
    */
-  compareValues(key: 'date' | 'publication' | 'title', order = 'asc'): (a: NewsItem, b: NewsItem) => number {
+  compareValues(key: 'date' | 'publication' | 'title', order: string): (a: NewsItem, b: NewsItem) => number {
     return (a, b) => {
-      if (!a.hasOwnProperty(key) || !b.hasOwnProperty(key)) {
-        return 0;
-      }
-
       let comparison;
       if (key === 'date') {
         comparison = a[key] > b[key] ? 1 : -1;
