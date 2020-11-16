@@ -7,14 +7,26 @@
   $accent: map-get($config, accent);
 
   .sci-carousel {
+    .swiper-button-prev,
+    .swiper-button-next {
+      &::after {
+        color: black;
+      }
+    }
+
+    .swiper-pagination-bullet {
+      border-color: #757575;
+    }
+
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      background: mat-color($primary);
+      border-color: mat-color($primary);
+    }
   }
 }
 
 @mixin typography($config-or-theme) {
   $config: mat-get-typography-config($config-or-theme);
-
-  .sci-carousel {
-  }
 }
 
 @mixin theme($theme) {

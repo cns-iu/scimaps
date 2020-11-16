@@ -1,4 +1,6 @@
+@use "./components/carousel/carousel.theme";
 
 
-@mixin theme($theme-or-config) {
+@mixin theme($theme) {
+  @include carousel.theme($theme);
 }

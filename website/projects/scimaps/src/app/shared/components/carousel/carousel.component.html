@@ -1,11 +1,10 @@
-<div class="content-container">
-  <swiper class="swiper-container" [config]="config" [disabled]="false">
-    <div class="swiper-slide" *ngFor="let slide of slides">
-      <div class="carousel-content">
-        <img class="carousel-image" [src]="slide">
-        <div class="carousel-space"></div>
-      </div>
-    </div>
-  </swiper>
+<div class="swiper swiper-container" [swiper]="config">
+  <div class="swiper-wrapper">
+    <ng-content select="sci-carousel-item"></ng-content>
+  </div>
+
   <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 </div>

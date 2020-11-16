@@ -1,6 +1,9 @@
-import { Component, HostBinding } from '@angular/core';
-
+import { AfterViewInit, Component, ContentChildren, HostBinding, QueryList, ViewChild } from '@angular/core';
+import { SwiperDirective } from 'ngx-swiper-wrapper';
 import { SwiperOptions } from 'swiper';
+
+import { CarouselItemComponent } from './item.component';
+
 
 /**
  * Carousel component for displaying images
@@ -10,35 +13,44 @@ import { SwiperOptions } from 'swiper';
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.scss']
 })
-export class CarouselComponent {
+export class CarouselComponent implements AfterViewInit {
   /** HTML class */
   @HostBinding('class') readonly clsName = 'sci-carousel';
 
   /**
-   * Slide contents for the carousel
+   * Reference to the swiper directive
    */
-  public slides = [
-    'assets/images/benches.jpg',
-    'assets/images/bridge.jpg',
-    'assets/images/flower.jpg',
-    'assets/images/garden.jpg',
-  ];
+  @ViewChild(SwiperDirective)
+  readonly swiper!: SwiperDirective;
+
+  /**
+   * References to slides
+   */
+  @ContentChildren(CarouselItemComponent)
+  readonly slides!: QueryList<CarouselItemComponent>;
 
   /**
    * Carousel options
    */
   public config: SwiperOptions = {
     a11y: { enabled: true },
-    direction: 'horizontal',
-    slidesPerView: 1,
+
     keyboard: false,
     mousewheel: false,
-    scrollbar: false,
-    navigation: true,
     simulateTouch: false,
+
+    navigation: true,
     pagination: {
       el: '.swiper-pagination',
-      clickable: true
+      clickable: true,
+      hideOnClick: false
     }
   };
+
+  /**
+   * Initializes listener on slides changes and notifies swiper
+   */
+  ngAfterViewInit(): void {
+    this.slides.changes.subscribe(() => this.swiper.update());
+  }
 }
