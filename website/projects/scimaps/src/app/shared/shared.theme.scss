@@ -4,5 +4,5 @@
 
 @mixin theme($theme) {
   @include carousel.theme($theme);
-  @include news-item.theme($theme-or-config);
+  @include news-item.theme($theme);
 }
