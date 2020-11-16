@@ -1,4 +1,5 @@
-
+@use './components/news-item/news-item.theme.scss';
 
 @mixin theme($theme-or-config) {
+  @include news-item.theme($theme-or-config);
 }

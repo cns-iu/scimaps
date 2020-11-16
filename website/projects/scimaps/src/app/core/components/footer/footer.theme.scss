@@ -1,0 +1,35 @@
+@import "~@angular/material/theming";
+
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $primary: map-get($config, primary);
+
+  .sci-footer {
+    .contact {
+      background-color: mat-color($primary, darker);
+      color: mat-color($primary, darker-contrast);
+
+      .icon.svg {
+        color: mat-color($primary, darker);
+      }
+
+      .icon.font {
+        color: white;
+      }
+    }
+
+    .acknowledgement {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+
+  @if $color {
+    @include color($color);
+  }
+}
