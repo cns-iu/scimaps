@@ -1,4 +1,4 @@
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
 import { DiscoverItem } from '../../core/models/discover-item';
 
 @Component({
@@ -6,7 +6,7 @@ import { DiscoverItem } from '../../core/models/discover-item';
   templateUrl: './macroscopes-page.component.html',
   styleUrls: ['./macroscopes-page.component.scss']
 })
-export class MacroscopesPageComponent {
+export class MacroscopesPageComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-macroscopes-page';
 
@@ -154,12 +154,23 @@ export class MacroscopesPageComponent {
       directory: 'macroscopes'
     }
   ];
+  displayItems: DiscoverItem[] = [];
 
-  get displayItems(): DiscoverItem[] {
-    return this.discoverItems.splice(0, this.itemsToDisplay);
+  ngOnInit(): void {
+    this.updateDisplayItems();
   }
 
-  get moreMacroscopes(): boolean {
-    return this.itemsToDisplay >= this.discoverItems.length;
+  updateDisplayItems(): void {
+    const items: DiscoverItem[] = [...this.discoverItems];
+    this.displayItems = items.splice(0, this.itemsToDisplay);
+  }
+
+  moreMacroscopes(): boolean {
+    return this.itemsToDisplay < this.discoverItems.length;
+  }
+
+  showMoreMacroscopes(): void {
+    this.itemsToDisplay = this.itemsToDisplay + 3;
+    this.updateDisplayItems();
   }
 }
