@@ -25,16 +25,26 @@ collections:
     preview_path: person/{{slug}}
     media_folder: ''
     public_folder: ''
+    sortable_fields: [firstName, lastName, affiliation]
     fields:
-      # sort by lastname, firstname
-      # roles: team, ambassador, advisory board, makers
       - { name: firstName, label: First Name }
       - { name: lastName, label: Last Name }
-      # bio
-      # personalHomepage
+      - name: roles
+        label: Roles
+        label_singular: Role
+        widget: select
+        multiple: true
+        options:
+          - { value: curator, label: Curator }
+          - { value: team, label: Team }
+          - { value: ambassador, label: Ambassador }
+          - { value: advisory_board, label: Advisory Board }
+          - { value: maker, label: Maker }
+      - { name: homepage, label: Personal Homepage }
       - { name: jobTitle, label: Job Title }
       - { name: affiliation, label: Affiliation }
       - { name: location, label: Location, widget: map }
+      - { name: body, label: Bio }
 
   - name: book
     label: Books
@@ -174,40 +184,62 @@ collections:
       - { name: macroscopeLink, label: Macroscope Link }
       - { name: body, label: Description, widget: markdown }
 
-
   - name: mapIteration
     label: Map Iterations
     label_singular: Map Iteration
     folder: content/mapIteration
-    path: '{{iteration}}/{{sequence}}/readme'
+    path: '{{iteration}}/readme'
     create: true
     slug: '{{slug}}'
-    preview_path: mapIteration/{{iteration}}/{{sequence}}
+    preview_path: map/{{iteration}}
     media_folder: ''
     public_folder: ''
     fields:
       - { name: title, label: Title }
       - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
-      - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
       - { name: body, label: Description, widget: markdown }
 
   - name: macroscopeIteration
     label: Macroscope Iterations
     label_singular: Macroscope Iteration
     folder: content/macroscopeIteration
-    path: '{{iteration}}/{{sequence}}/readme'
+    path: '{{iteration}}/readme'
     create: true
     slug: '{{slug}}'
-    preview_path: macroscopeIteration/{{iteration}}/{{sequence}}
+    preview_path: macroscope/{{iteration}}
     media_folder: ''
     public_folder: ''
     fields:
       - { name: title, label: Title }
       - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
-      - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
       - { name: body, label: Description, widget: markdown }
 
   # Call To Action
+  - name: siteSettings
+    label: Site Settings
+    files:
+      - label: Call to Action
+        name: callToAction
+        file: content/site/callToAction.md
+        fields:
+          - { name: title, label: Title }
+          - { name: date, label: Date, widget: datetime }
+          - { name: image, label: Image, widget: image }
+          - { name: link, label: Link }
+          - { name: linkLabel, label: Link Label }
+          - { name: body, label: Description }
+      - label: What is a Map?
+        name: whatIsAMap
+        file: content/site/whatIsAMap.md
+        preview_path: maps
+        fields:
+          - { name: body, label: Description }
+      - label: What is a Macroscope?
+        name: whatIsAMacroscope
+        file: content/site/whatIsAMacroscope.md
+        preview_path: macroscopes
+        fields:
+          - { name: body, label: Description }
 
 backend:
   name: github
@@ -220,7 +252,7 @@ backend:
 # Uncomment below when using the default proxy server port
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ## Basically run `npx netlify-cms-proxy-server` and launch the angular site
-# local_backend: true
+local_backend: false
 
 media_folder: content/images/uploads
 public_folder: /assets/images/uploads
