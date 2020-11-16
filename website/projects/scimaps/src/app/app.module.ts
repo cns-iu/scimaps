@@ -1,5 +1,7 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
+import { BrowserModule, DomSanitizer } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +14,9 @@ import { SharedModule } from './shared/shared.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
+
+    MatIconModule,
 
     AppRoutingModule,
     CoreModule,
@@ -20,4 +25,17 @@ import { SharedModule } from './shared/shared.module';
   declarations: [AppComponent],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule {
+  constructor(registry: MatIconRegistry, sanitizer: DomSanitizer) {
+    const icons = [
+      { namespace: 'social', name: 'twitter', url: 'assets/social-media-logos/twitter.svg' }
+    ];
+
+    for (const icon of icons) {
+      const { namespace, name, url: rawUrl } = icon;
+      const url = sanitizer.bypassSecurityTrustResourceUrl(rawUrl);
+      registry.addSvgIconInNamespace(namespace, name, url);
+    }
+  }
+}
