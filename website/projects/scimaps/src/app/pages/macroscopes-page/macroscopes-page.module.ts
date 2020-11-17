@@ -5,6 +5,7 @@ import { MacroscopesPageRoutingModule } from './macroscopes-page-routing.module'
 import { MacroscopesPageComponent } from './macroscopes-page.component';
 import { DiscoverListingModule } from '../../shared/components/discover-listing/discover-listing.module';
 import { MatIconModule } from '@angular/material/icon';
+import { CarouselModule } from '../../shared/components/carousel/carousel.module';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MatIconModule } from '@angular/material/icon';
     CommonModule,
     MacroscopesPageRoutingModule,
     DiscoverListingModule,
-    MatIconModule
+    MatIconModule,
+    CarouselModule
   ]
 })
 export class MacroscopesPageModule { }

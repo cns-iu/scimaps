@@ -43,6 +43,11 @@ $mobile: 640px;
       padding-right: 0rem;
     }
 
+    @media (max-width: $mobile) {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
     &:last-child {
       margin-right: 0rem;
     }
@@ -50,6 +55,23 @@ $mobile: 640px;
     .thumbnail {
       cursor: pointer;
       margin-right: 1rem;
+
+      @media (max-width: $mobile) {
+        position: relative;
+      }
+
+      .thumbnail-title {
+        @media (max-width: $mobile) {
+          margin-top: 0rem;
+          position: absolute;
+          bottom: .45rem;
+          z-index: 10;
+          color: white;
+          background-color: rgba(0, 0, 0, .5);
+          width: 100%;
+          text-align: center;
+        }
+      }
     }
   }
 
