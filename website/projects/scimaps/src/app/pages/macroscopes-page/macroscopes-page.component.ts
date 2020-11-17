@@ -20,22 +20,22 @@ export class MacroscopesPageComponent implements OnInit {
       thumbnails: [
         {
           title: 'Refugee Flow',
-          link: '',
+          link: 'www.google.com',
           image: 'image1.png'
         },
         {
           title: 'Politoscope',
-          link: '',
+          link: 'www.google.com',
           image: 'image2.png'
         },
         {
           title: 'Income Disparity',
-          link: '',
+          link: 'www.google.com',
           image: 'image3.png'
         },
         {
           title: 'Making Sense of Skills',
-          link: '',
+          link: 'www.google.com',
           image: 'image4.png'
         }
       ],
@@ -48,22 +48,22 @@ export class MacroscopesPageComponent implements OnInit {
       thumbnails: [
         {
           title: 'Refugee Flow',
-          link: '',
+          link: 'www.google.com',
           image: 'image1.png'
         },
         {
           title: 'Politoscope',
-          link: '',
+          link: 'www.google.com',
           image: 'image2.png'
         },
         {
           title: 'Income Disparity',
-          link: '',
+          link: 'www.google.com',
           image: 'image3.png'
         },
         {
           title: 'Making Sense of Skills',
-          link: '',
+          link: 'www.google.com',
           image: 'image4.png'
         }
       ],
@@ -76,22 +76,22 @@ export class MacroscopesPageComponent implements OnInit {
       thumbnails: [
         {
           title: 'Refugee Flow',
-          link: '',
+          link: 'www.google.com',
           image: 'image1.png'
         },
         {
           title: 'Politoscope',
-          link: '',
+          link: 'www.google.com',
           image: 'image2.png'
         },
         {
           title: 'Income Disparity',
-          link: '',
+          link: 'www.google.com',
           image: 'image3.png'
         },
         {
           title: 'Making Sense of Skills',
-          link: '',
+          link: 'www.google.com',
           image: 'image4.png'
         }
       ],
@@ -104,22 +104,22 @@ export class MacroscopesPageComponent implements OnInit {
       thumbnails: [
         {
           title: 'Refugee Flow',
-          link: '',
+          link: 'www.google.com',
           image: 'image1.png'
         },
         {
           title: 'Politoscope',
-          link: '',
+          link: 'www.google.com',
           image: 'image2.png'
         },
         {
           title: 'Income Disparity',
-          link: '',
+          link: 'www.google.com',
           image: 'image3.png'
         },
         {
           title: 'Making Sense of Skills',
-          link: '',
+          link: 'www.google.com',
           image: 'image4.png'
         }
       ],
@@ -132,22 +132,22 @@ export class MacroscopesPageComponent implements OnInit {
       thumbnails: [
         {
           title: 'Refugee Flow',
-          link: '',
+          link: 'www.google.com',
           image: 'image1.png'
         },
         {
           title: 'Politoscope',
-          link: '',
+          link: 'www.google.com',
           image: 'image2.png'
         },
         {
           title: 'Income Disparity',
-          link: '',
+          link: 'www.google.com',
           image: 'image3.png'
         },
         {
           title: 'Making Sense of Skills',
-          link: '',
+          link: 'www.google.com',
           image: 'image4.png'
         }
       ],

@@ -1,4 +1,4 @@
-interface ThumbnailLink {
+export interface ThumbnailLink {
   title: string;
   image: string;
   link: string;

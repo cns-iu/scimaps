@@ -1,5 +1,7 @@
 import { Component, HostBinding, Input } from '@angular/core';
-import { DiscoverItem } from '../../../core/models/discover-item';
+import { MatDialog } from '@angular/material/dialog';
+import { DiscoverItem, ThumbnailLink } from '../../../core/models/discover-item';
+import { WarningDialogComponent } from '../warning-dialog/warning-dialog.component';
 
 @Component({
   selector: 'sci-discover-listing',
@@ -11,8 +13,22 @@ export class DiscoverListingComponent {
   @HostBinding('class') readonly clsName = 'sci-discover-listing';
 
   @Input() discoverItem!: DiscoverItem;
+  mobileWarning = 'Macroscopes work best on desktop or larger tablet screens.  You may have a less than optimal experience on this device.';
+
+  constructor(private readonly dialog: MatDialog) { }
 
   imageSource(image: string): string {
     return `assets/${this.discoverItem.directory}/${this.discoverItem.slug}/${image}`;
+  }
+
+  thumbnailClickHandler(thumbnail: ThumbnailLink): void {
+    // if mobiile
+    this.dialog.open(WarningDialogComponent, {
+      width: '95%',
+      data: {
+        warningMessage: this.mobileWarning,
+        closeLink: thumbnail.link
+      }
+    });
   }
 }
