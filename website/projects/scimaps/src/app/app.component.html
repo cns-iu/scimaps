@@ -1,3 +1,16 @@
+<h1>scimaps.org</h1>
+<h2>Under Construction</h2>
 card gallery example
 <sci-card-gallery [cards]="learningItems" directory="learning" galleryTitle="Learning Materials That Come With Exhibit"></sci-card-gallery>
 end of card gallery
+<sci-carousel>
+  <sci-carousel-item *ngFor="let slide of slides">
+    <img [src]="slide">
+  </sci-carousel-item>
+</sci-carousel>
+<div class="news-item">
+  <sci-news-item [item]="newsItem"></sci-news-item>
+</div>
+<a routerLink="/books">Books Page</a>
+<router-outlet></router-outlet>
+<sci-footer></sci-footer>
