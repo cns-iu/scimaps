@@ -113,6 +113,7 @@ export class NewsItemListComponent implements OnInit {
    * @param value Selected value
    */
   onYearChange(value: string): void {
+    this.sort('date');
     if (value === 'All') {
       this.displayedNewsItems = [...this.newsItems];
     } else {

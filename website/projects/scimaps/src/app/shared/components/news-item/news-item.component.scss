@@ -1,5 +1,4 @@
-$desktop: 1248px;
-$mobile: 640px;
+@use 'screen';
 
 :host {
   .news-item {
@@ -11,7 +10,7 @@ $mobile: 640px;
     max-height: 8rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.54);
 
-    @media (max-width: $mobile) {
+    @include screen.breakpoint(mobile) {
       flex-direction: column;
       max-height: 16rem;
     }
@@ -22,7 +21,7 @@ $mobile: 640px;
       border-width: 0.125px;
       border-style: solid;
 
-      @media (max-width: $mobile) {
+      @include screen.breakpoint(mobile) {
         height: 6rem;
         width: 100%;
       }

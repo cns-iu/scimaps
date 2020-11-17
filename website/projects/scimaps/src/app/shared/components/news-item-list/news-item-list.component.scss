@@ -1,12 +1,11 @@
-$desktop: 1248px;
-$mobile: 640px;
+@use 'screen';
 
 :host {
   .filter-header {
     display: flex;
     align-items: center;
 
-    @media (max-width: $mobile) {
+    @include screen.breakpoint(mobile) {
       flex-direction: column;
       align-items: flex-start;
       margin-left: 0.5rem;
@@ -19,7 +18,7 @@ $mobile: 640px;
         height: 3rem;
         margin-bottom: 1em;
 
-        @media (max-width: $mobile) {
+        @include screen.breakpoint(mobile) {
           margin-bottom: 0.5rem;
           align-items: center;
           padding-bottom: 0;
@@ -46,7 +45,7 @@ $mobile: 640px;
       height: 3rem;
       align-items: center;
 
-      @media (max-width: $mobile) {
+      @include screen.breakpoint(mobile) {
         width: 100%;
         justify-content: space-between;
       }
@@ -58,7 +57,7 @@ $mobile: 640px;
         user-select: none;
         -moz-user-select: none;
 
-        @media (max-width: $mobile) {
+        @include screen.breakpoint(mobile) {
           margin-right: 0.5rem;
         }
 
@@ -81,7 +80,7 @@ $mobile: 640px;
     .news-item {
       width: 50%;
 
-      @media (max-width: $mobile) {
+      @include screen.breakpoint(mobile) {
         width: 100%;
       }
     }
@@ -100,7 +99,7 @@ $mobile: 640px;
     border-style: solid;
     margin: 2rem 0;
 
-    @media (max-width: $mobile) {
+    @include screen.breakpoint(mobile) {
       margin: 2rem 0.5rem;
     }
   }

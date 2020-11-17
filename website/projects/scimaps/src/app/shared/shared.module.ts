@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { CarouselModule } from './components/carousel/carousel.module';
 import { NewsItemModule } from './components/news-item/news-item.module';
+import { NewsItemListModule } from './components/news-item-list/news-item-list.module';
 
 
 @NgModule({
@@ -10,11 +11,13 @@ import { NewsItemModule } from './components/news-item/news-item.module';
     CommonModule,
 
     CarouselModule,
-    NewsItemModule
+    NewsItemModule,
+    NewsItemListModule
   ],
   exports: [
     CarouselModule,
-    NewsItemModule
+    NewsItemModule,
+    NewsItemListModule
   ]
 })
 export class SharedModule { }
