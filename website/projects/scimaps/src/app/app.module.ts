@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import { BrowserModule, DomSanitizer } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +18,16 @@ import { SharedModule } from './shared/shared.module';
     HttpClientModule,
 
     MatIconModule,
+
+    MarkdownModule.forRoot({
+      loader: HttpClientModule,
+      markedOptions: {
+        provide: MarkedOptions,
+        useValue: {
+          gfm: true
+        }
+      }
+    }),
 
     AppRoutingModule,
     CoreModule,
