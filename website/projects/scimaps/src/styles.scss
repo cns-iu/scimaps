@@ -1,6 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
-
-
 html {
   box-sizing: border-box;
 }
@@ -23,4 +20,52 @@ body {
 
 a:hover {
   text-decoration: underline;
+}
+
+// Swiper styles
+@import "~swiper/swiper";
+@import "~swiper/components/a11y/a11y";
+@import "~swiper/components/navigation/navigation";
+@import "~swiper/components/pagination/pagination";
+
+// Swiper style overrides
+.swiper {
+  .swiper-slide > img {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::after {
+      font-family: 'Material Icons';
+    }
+  }
+
+  .swiper-button-prev::after {
+    content: "chevron_left";
+  }
+
+  .swiper-button-next::after {
+    content: "chevron_right";
+  }
+
+  .swiper-pagination {
+    height: 1rem;
+
+    .swiper-pagination-bullet {
+      width: 1rem;
+      height: 1rem;
+      background: none;
+      border: 0.125rem solid;
+      outline: none;
+    }
+  }
 }

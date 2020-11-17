@@ -17,7 +17,7 @@ export class AppComponent {
       date: new Date(2020, 2, 2),
       publication: 'Library News',
       institution: 'Virginia Tech',
-      thumbnail: '../../assets/images/rose.jpg',
+      thumbnail: 'assets/images/rose.jpg',
       pdfLink: 'link'
     },
     {
@@ -25,7 +25,7 @@ export class AppComponent {
       date: new Date(2020, 2, 1),
       publication: 'Research News',
       institution: 'Vanderbilt',
-      thumbnail: '../../assets/images/rose.jpg',
+      thumbnail: 'assets/images/rose.jpg',
       pdfLink: 'link'
     },
     {
@@ -33,7 +33,7 @@ export class AppComponent {
       date: new Date(2020, 2, 2),
       publication: 'SolC News',
       institution: null,
-      thumbnail: '../../assets/images/rose.jpg',
+      thumbnail: 'assets/images/rose.jpg',
       pdfLink: 'link'
     },
     {
@@ -41,7 +41,7 @@ export class AppComponent {
       date: new Date(2019, 3, 1),
       publication: 'Science News',
       institution: 'Washington University',
-      thumbnail: '../../assets/images/rose.jpg',
+      thumbnail: 'assets/images/rose.jpg',
       pdfLink: 'link'
     },
     {
@@ -49,7 +49,7 @@ export class AppComponent {
       date: new Date(2020, 2, 2),
       publication: 'Library News',
       institution: 'Virginia Tech',
-      thumbnail: '../../assets/images/rose.jpg',
+      thumbnail: 'assets/images/rose.jpg',
       pdfLink: 'link'
     },
     {
@@ -57,7 +57,7 @@ export class AppComponent {
       date: new Date(2020, 2, 1),
       publication: 'Research News',
       institution: 'Vanderbilt',
-      thumbnail: '../../assets/images/rose.jpg',
+      thumbnail: 'assets/images/rose.jpg',
       pdfLink: 'link'
     },
     {
@@ -65,7 +65,7 @@ export class AppComponent {
       date: new Date(2020, 2, 2),
       publication: 'SolC News',
       institution: null,
-      thumbnail: '../../assets/images/rose.jpg',
+      thumbnail: 'assets/images/rose.jpg',
       pdfLink: 'link'
     },
     {
@@ -73,8 +73,23 @@ export class AppComponent {
       date: new Date(2019, 3, 1),
       publication: 'Science News',
       institution: 'Washington University',
-      thumbnail: '../../assets/images/rose.jpg',
+      thumbnail: 'assets/images/rose.jpg',
       pdfLink: 'link'
     }
   ];
+  readonly slides = [
+    'assets/images/benches.jpg',
+    'assets/images/bridge.jpg',
+    'assets/images/flower.jpg',
+    'assets/images/garden.jpg',
+  ];
+
+  newsItem: NewsItem = {
+    title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
+    date: new Date(2020, 2, 2),
+    publication: 'Library News',
+    institution: 'Virginia Tech',
+    thumbnail: '../../assets/images/rose.jpg',
+    pdfLink: 'link'
+  };
 }

@@ -4,41 +4,36 @@
 @mixin color($config-or-theme) {
   $config: mat-get-color-config($config-or-theme);
   $primary: map-get($config, primary);
+  $accent: map-get($config, accent);
 
-  .sci-news-item {
-    .news-item {
-      color: black;
+  .sci-carousel {
+    .swiper-button-prev,
+    .swiper-button-next {
+      &::after {
+        color: black;
+      }
     }
 
-    .thumb {
-      border-color: white;
+    .swiper-pagination-bullet {
+      border-color: #757575;
     }
 
-    .date {
-      color: mat-color($primary, darker);
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      background: mat-color($primary);
+      border-color: mat-color($primary);
     }
   }
 }
 
 @mixin typography($config-or-theme) {
   $config: mat-get-typography-config($config-or-theme);
-
-  .sci-news-item {
-    .title {
-      font-weight: 700;
-    }
-
-    .identifier {
-      font-weight: 300;
-    }
-  }
 }
 
 @mixin theme($theme) {
   $color: mat-get-color-config($theme);
   $typography: mat-get-typography-config($theme);
 
-  @if $color {
+  @if $color != null {
     @include color($color);
   }
   @if $typography != null {

@@ -1,0 +1,22 @@
+:host {
+  display: block;
+
+  .swiper-container {
+    height: 100%;
+
+    .swiper-wrapper {
+      height: calc(100% - 3rem);
+      margin-bottom: 3rem;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      top: unset;
+      bottom: 0.75rem;
+    }
+
+    .swiper-pagination {
+      bottom: 1rem;
+    }
+  }
+}
