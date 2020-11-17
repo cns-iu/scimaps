@@ -1,26 +1,44 @@
 @use '~@angular/material/theming' as *;
 
-@mixin theme($theme) {
-  $primary: map-get($theme, primary);
-  $accent: map-get($theme, accent);
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $primary: map-get($config, primary);
+  $accent: map-get($config, accent);
 
   .sci-book-overview {
     .title {
-      color: mat-color($primary, 500);
+      color: mat-color($primary);
     }
 
     .show-more {
-      color: mat-color($accent, 500);
+      color: mat-color($accent);
     }
 
     .button {
-      border-color: mat-color($primary, 500);
-      color: mat-color($primary, 500);
+      border-color: mat-color($primary);
+      color: mat-color($primary);
 
       &:hover {
-        color: mat-color($primary, 100);
-        background-color: mat-color($primary, 500);
+        color: mat-color($primary, lighter);
+        background-color: mat-color($primary);
       }
     }
+  }
+}
+
+@mixin typography($config-or-theme) {
+  $config: mat-get-typography-config($config-or-theme);
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+  $typography: mat-get-typography-config($theme);
+
+  @if $color != null {
+    @include color($color);
+  }
+  @if $typography != null {
+    @include typography($typography);
   }
 }

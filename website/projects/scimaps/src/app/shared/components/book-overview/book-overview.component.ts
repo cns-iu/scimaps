@@ -1,56 +1,63 @@
-import { Component, HostBinding, HostListener, Input, OnInit } from '@angular/core';
+import { Component, HostBinding, Input } from '@angular/core';
 
-import { Book } from '../../../core/models/book.model';
 
+export interface Book {
+  title: string;
+  author: string;
+  publisher: string;
+  body: string;
+  pdfLink: string;
+  amazonLink: string;
+  slug: string;
+  images: string[];
+}
+
+
+/**
+ * Display a book
+ */
 @Component({
   selector: 'sci-book-overview',
   templateUrl: './book-overview.component.html',
   styleUrls: ['./book-overview.component.scss']
 })
-export class BookOverviewComponent implements OnInit {
+export class BookOverviewComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-book-overview';
 
+  /** Book to display */
   @Input() book!: Book;
-  showAllText = false;
-  maxTextLength = 370;
-  tabletSize = 960;
-  screenWidth = 1000;
 
-  ngOnInit(): void {
-    this.screenWidth = window.innerWidth;
+  /** Maximum character count to show of book content by default */
+  @Input() maxContentLength = 370;
+
+  /** Whether the book content exceeds the maximum character count */
+  get hasLongContent(): boolean {
+    return this.book.body.length > this.maxContentLength;
   }
 
-  @HostListener('window:resize', ['$event'])
-  onResize(event: Event): void {
-    this.screenWidth = window.innerWidth;
+  /** Full book content */
+  get fullContent(): string {
+    return this.book.body;
   }
 
-  get markdown(): string {
-    if (this.showAllText || this.book.body.length <= this.maxTextLength || !this.usingSmallScreen()) {
-      return this.book.body;
+  /** Book content - truncated if necessary */
+  get partialContent(): string {
+    const {
+      fullContent,
+      maxContentLength,
+      hasLongContent,
+      fullContentVisible
+    } = this;
+
+    if (!hasLongContent || fullContentVisible) {
+      return fullContent;
     }
 
-    return this.book.body.substring(0, this.maxTextLength) + '...';
+    // Text breaking might need some improvement
+    return `${fullContent.slice(0, maxContentLength)}...`;
   }
 
-  get showButtonText(): string {
-    if (this.showAllText) {
-      return 'Show less';
-    }
-
-    return 'Read more...';
-  }
-
-  needShowMoreButton(): boolean {
-    if (!this.usingSmallScreen()) {
-      return false;
-    }
-
-    return this.book.body.length > this.maxTextLength;
-  }
-
-  usingSmallScreen(): boolean {
-    return this.screenWidth <= this.tabletSize;
-  }
+  /** Whether full book content should be shown */
+  fullContentVisible = false;
 }

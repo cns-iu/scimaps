@@ -1,83 +1,102 @@
-$desktop: 1248px;
-$tablet: 960px;
-$mobile: 640px;
+$single-column-max-width: 768px;
+$button-span-max-width: 480px;
 
 :host {
   display: flex;
+  flex-direction: row;
   width: 100%;
 
-  @media (max-width: $mobile) {
-    flex-direction: column-reverse;
+  .text-column,
+  .carousel-column {
+    width: 50%;
   }
 
-  .column {
-    width: 50%;
-
-    @media (max-width: $tablet) {
-      width: 100%;
-    }
-
-    &.text-column {
-      padding-right: 3rem;
-
-      @media (max-width: $mobile) {
-        padding-right: 0rem;
-      }
-    }
-
-    &.carousel-column {
-      display: flex;
-      justify-content: space-around;
-
-      @media (max-width: $mobile) {
-        margin-bottom: 1rem;
-      }
-    }
-
-    .fake-carousel {
-      width: 100%;
-      max-width: 400px;
-      height: 250px;
-      background-color: gray;
-    }
+  .text-column {
+    padding-right: 3rem;
 
     .title {
       font-size: 1.5rem;
       line-height: 2rem;
       margin-bottom: 1.5rem;
-      color: #757575;
     }
 
     .publisher {
       margin-bottom: 1rem;
     }
 
+    .markdown.partial {
+      display: none;
+    }
+
     .show-more {
+      display: none;
       cursor: pointer;
     }
 
     .links {
-      margin-top: 1rem;
       display: flex;
+      flex-direction: row;
       flex-wrap: wrap;
-
-      @media (max-width: $mobile) {
-        flex-direction: column;
-        display: flex;
-      }
+      margin-top: 1rem;
 
       .button {
-        text-decoration: none;
-        margin-right: 1rem;
-        padding: .5rem;
-        margin-top: 1rem;
-        white-space: nowrap;
+        margin: 1rem 1rem 0 0;
+        padding: 0.5rem;
         border: 1px solid;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+    }
+  }
 
-        @media (max-width: $mobile) {
-          text-align: center;
-          margin-right: 0rem;
-        }
+  .carousel-column {
+    display: flex;
+    justify-content: space-around;
+
+    .carousel {
+      width: 100%;
+      max-width: 25rem;
+      height: 15.625rem;
+    }
+  }
+
+  @media (max-width: $single-column-max-width) {
+    flex-direction: column-reverse;
+
+    .text-column,
+    .carousel-column {
+      width: 100%;
+    }
+
+    .text-column {
+      padding-right: 0;
+
+      .markdown.full {
+        display: none;
+      }
+
+      .markdown.partial {
+        display: initial;
+      }
+
+      .show-more {
+        display: initial;
+      }
+    }
+
+    .carousel-column {
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (max-width: $button-span-max-width) {
+    .text-column .links {
+      flex-direction: column;
+
+      .button {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
       }
     }
   }

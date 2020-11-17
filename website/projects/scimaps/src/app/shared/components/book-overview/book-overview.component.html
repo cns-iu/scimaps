@@ -1,14 +1,25 @@
-<div class="column text-column">
+<div class="text-column">
   <h3 class="title">{{ book.title }}</h3>
   <div class="author">Author: {{ book.author }}</div>
   <div class="publisher">Published by: {{ book.publisher }}</div>
-  <div class="markdown" markdown [data]="markdown"></div>
-  <div class="show-more" (click)="showAllText = !showAllText" *ngIf="needShowMoreButton()">{{ showButtonText }}</div>
+  <div class="markdown full" markdown [data]="fullContent"></div>
+  <div class="markdown partial" markdown [data]="partialContent"></div>
+  <div *ngIf="hasLongContent" class="show-more" (click)="fullContentVisible = !fullContentVisible">
+    {{ fullContentVisible ? 'Show less' : 'Read more...' }}
+  </div>
   <div class="links">
-    <a class="button" [href]="book.pdfLink" *ngIf="book.pdfLink">BOOK EXCERPT (PDF)</a>
-    <a class="button" [href]="book.amazonLink" *ngIf="book.amazonLink">BUY ON AMAZON</a>
+    <a *ngIf="book.pdfLink" class="button" target="_blank" rel="noreferrer noopener" [href]="book.pdfLink">
+      BOOK EXCERPT (PDF)
+    </a>
+    <a *ngIf="book.amazonLink" class="button" target="_blank" rel="noreferrer noopener" [href]="book.amazonLink">
+      BUY ON AMAZON
+    </a>
   </div>
 </div>
-<div class="column carousel-column">
-  <div class="fake-carousel"></div>
+<div class="carousel-column">
+  <sci-carousel class="carousel">
+    <sci-carousel-item *ngFor="let image of book.images; index as i">
+      <img [src]="image" alt="Image #{{ i }} for book {{ book.title }}">
+    </sci-carousel-item>
+  </sci-carousel>
 </div>

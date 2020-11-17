@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
-import { Book } from '../../core/models/book.model';
+import { Book } from '../../shared/components/book-overview/book-overview.component';
+
 
 @Component({
   selector: 'sci-books',
@@ -16,7 +17,8 @@ export class BooksComponent {
       body: 'Atlas of Science, based on the popular exhibit Places & Spaces: Mapping Science, describes and displays successful mapping techniques. The heart of the book is a visual feast: Claudius Ptolemy\'s Cosmographia World Map from 1482; a guide to a PhD thesis that resembles a subway map; "the structure of science" as revealed in a map of citation relationships in papers published in 2002; a periodic table; and many more. Each entry includes the story behind the map and biographies of its makers.',
       pdfLink: 'http://www.barnesandnoble.com/w/atlas-of-science-katy-borner/1100660429?cm_mmc=googlepla-_-textbook_instock_26to75_pt105-_-q000000633-_-9780262014458&ean=9780262014458&isbn=9780262014458&r=1',
       amazonLink: 'http://www.amazon.com/Atlas-Science-Visualizing-What-Know/dp/0262014459/ref=sr_1_1?ie=UTF8&qid=1400082763&sr=8-1&keywords=atlas+of+science',
-      slug: 'atlas-of-science'
+      slug: 'atlas-of-science',
+      images: []
     },
     {
       title: 'Atlas of Knowledge: Anyone Can Map',
@@ -25,7 +27,8 @@ export class BooksComponent {
       body: 'In an age of information overload, the ability to make sense of vast amounts of data and to render insightful visualizations is as important as the ability to read and write. The Atlas of Knowledge explains and exemplifies the power of visualizations not only to help locate us in physical space but also to help us understand the extent and structure of our collective knowledge, to identify bursts of activity, pathways of ideas, and borders that beg to be crossed.',
       pdfLink: 'https://www.barnesandnoble.com/w/atlas-of-knowledge-katy-b-rner/1120681679?ean=9780262028813',
       amazonLink: 'https://www.amazon.com/Atlas-Knowledge-Anyone-Can-Press/dp/0262028816/ref=sr_1_2?ie=UTF8&qid=1471440921&sr=8-2&keywords=atlas+of+science',
-      slug: 'atlas-of-knowledge'
+      slug: 'atlas-of-knowledge',
+      images: []
     },
     {
       title: 'Visual Insights: A Practical Guide to Making Sense of Data',
@@ -34,7 +37,8 @@ export class BooksComponent {
       body: '# Debita *est penetralibus* aut putares formae iunctasque\n\n## **Quaerit** portasque suarum cuspide\n\nLorem markdownum altum me Auguste loca concolor fide frustra. Primo pondus aliasque ab illas admonitu Hymenaeon minatur linguam irascitur laeva; defendere ecce.\n\nMihi facilesque. Pro reverti caput, erat quoniam artem Melantho privignae neque. Decus ut Plexippi illius fulvo: vix ora nam hoc, diffusa neque iactatis: ut. Sed **dixerat**, sermonibus liquidis venit nisi ignavi vestis corpore draconi lambentem esset procellamnos atque.\n\n## Toto dixit admirantibus cognita\n\nAb Manto. Sanguis semimari heres in tamen nervus clavam Circaea terrae ignorantia animae, et patrio. Vestem erant, quid proque se nostris robore, faciebat Haec factum gramen, Elis vetus illo fibula patrias, damna.',
       pdfLink: 'http://www.barnesandnoble.com/w/visual-insights-katy-b-rner/1117270498?ean=9780262526197',
       amazonLink: 'http://www.amazon.com/Visual-Insights-Practical-Guide-Making/dp/0262526190/ref=sr_1_1?ie=UTF8&qid=1384193730&sr=8-1&keywords=visual+insights+a+practical+guide',
-      slug: 'visual-insights'
+      slug: 'visual-insights',
+      images: []
     }
   ];
 }

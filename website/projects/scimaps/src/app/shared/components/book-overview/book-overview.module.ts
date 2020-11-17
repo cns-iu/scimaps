@@ -1,16 +1,13 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BookOverviewComponent } from './book-overview.component';
+import { NgModule } from '@angular/core';
 import { MarkdownModule } from 'ngx-markdown';
 
+import { CarouselModule } from '../carousel/carousel.module';
+import { BookOverviewComponent } from './book-overview.component';
 
 
 @NgModule({
-  imports: [
-    CommonModule,
-
-    MarkdownModule
-  ],
+  imports: [CommonModule, MarkdownModule, CarouselModule],
   declarations: [BookOverviewComponent],
   exports: [BookOverviewComponent]
 })
