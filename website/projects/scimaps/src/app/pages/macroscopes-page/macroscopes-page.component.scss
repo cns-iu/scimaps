@@ -54,13 +54,18 @@ $mobile: 640px;
       }
 
       .carousel {
-        max-width: 95%;
+        width: 100%;
+
+        .carousel-image {
+          width: 100%;
+        }
 
         .carousel-image-title {
           background-color: #7996A3;
           color: white;
           padding: 1rem;
           margin-top: -0.5rem;
+          width: 100%;
         }
       }
     }
@@ -132,6 +137,10 @@ $mobile: 640px;
       display: flex;
       align-items: center;
       margin-bottom: 1.5rem;
+
+      .mobile-icon {
+        cursor: pointer;
+      }
 
       .mobile-title {
         display: flex;
