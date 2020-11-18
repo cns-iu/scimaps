@@ -3,15 +3,17 @@ $tablet: 960px;
 $mobile: 640px;
 
 ::ng-deep {
-  .swiper-button-prev, .swiper-button-next {
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 50%;
-    padding: 1.5rem;
-    top: 50% !important;
-  }
+  @media (max-width: $mobile) {
+    .swiper-button-prev, .swiper-button-next {
+      background-color: rgba(0, 0, 0, 0.75);
+      border-radius: 50%;
+      padding: 1.5rem;
+      top: 50% !important;
+    }
 
-  .swiper-button-prev::after, .swiper-button-next::after {
-    color: white !important;
+    .swiper-button-prev::after, .swiper-button-next::after {
+      color: white !important;
+    }
   }
 }
 
@@ -25,7 +27,7 @@ $mobile: 640px;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
 
-    @media (max-width: $mobile) {
+    @media (max-width: $tablet) {
       flex-direction: column-reverse;
       border: none;
     }
@@ -34,7 +36,7 @@ $mobile: 640px;
       width: 50%;
       padding-right: 1rem;
 
-      @media (max-width: $mobile) {
+      @media (max-width: $tablet) {
         width: 100%;
         padding: 0rem;
       }
@@ -45,17 +47,21 @@ $mobile: 640px;
       justify-content: space-around;
       width: 50%;
 
-      @media (max-width: $mobile) {
+      @media (max-width: $tablet) {
         width: 100%;
         padding: 0rem;
         margin-bottom: 1rem;
       }
 
-      .fake-carousel {
-        width: 95%;
-        max-width: 500px;
-        height: 300px;
-        background-color: lightgray;
+      .carousel {
+        max-width: 95%;
+
+        .carousel-image-title {
+          background-color: #7996A3;
+          color: white;
+          padding: 1rem;
+          margin-top: -0.5rem;
+        }
       }
     }
   }
@@ -105,6 +111,7 @@ $mobile: 640px;
       font-size: 1.5rem;
       height: 1.5rem;
       width: 1.5rem;
+      cursor: pointer;
     }
 
     @media (min-width: $mobile) {

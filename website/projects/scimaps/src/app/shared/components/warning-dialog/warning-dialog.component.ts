@@ -41,7 +41,6 @@ export class WarningDialogComponent {
 
   buttonClickHandler(): void {
     if (this.closeLink !== '') {
-      console.log('closelink: ', this.closeLink);
       window.open(this.closeLink, '_blank');
     } else {
       this.close();

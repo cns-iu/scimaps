@@ -1,5 +1,5 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
-import { DiscoverItem } from '../../core/models/discover-item';
+import { DiscoverItem, ThumbnailLink } from '../../core/models/discover-item';
 
 @Component({
   selector: 'sci-macroscopes-page',
@@ -156,6 +156,28 @@ export class MacroscopesPageComponent implements OnInit {
     }
   ];
   displayItems: DiscoverItem[] = [];
+  highlightCarouselItems: ThumbnailLink[] = [
+    {
+      image: 'assets/macroscopes/highlight/image1.png',
+      title: 'The macroscopic scale is the length scale on which objects or phenomena are large enough to be visible with the naked eye, without magnifying optical instruments.  It is the opposite of microscopic.',
+      link: 'www.google.com'
+    },
+    {
+      image: 'assets/macroscopes/highlight/image1.png',
+      title: 'The macroscopic scale is the length scale on which objects or phenomena are large enough to be visible with the naked eye, without magnifying optical instruments.  It is the opposite of microscopic.',
+      link: 'www.google.com'
+    },
+    {
+      image: 'assets/macroscopes/highlight/image1.png',
+      title: 'The macroscopic scale is the length scale on which objects or phenomena are large enough to be visible with the naked eye, without magnifying optical instruments.  It is the opposite of microscopic.',
+      link: 'www.google.com'
+    },
+    {
+      image: 'assets/macroscopes/highlight/image1.png',
+      title: 'The macroscopic scale is the length scale on which objects or phenomena are large enough to be visible with the naked eye, without magnifying optical instruments.  It is the opposite of microscopic.',
+      link: 'www.google.com'
+    }
+  ];
 
   ngOnInit(): void {
     this.updateDisplayItems();
