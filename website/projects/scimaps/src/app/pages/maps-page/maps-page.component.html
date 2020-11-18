@@ -6,6 +6,8 @@
   </div>
 </div>
 
+<div class="desktop-label">Discover Maps</div>
+
 <sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item"></sci-discover-listing>
 
 <button *ngIf="moreMaps()" class="more-button" (click)="showMoreMaps()">Show More Maps</button>

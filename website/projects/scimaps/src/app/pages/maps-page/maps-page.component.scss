@@ -68,6 +68,12 @@ $mobile: 640px;
     }
   }
 
+  .desktop-label {
+    @media (max-width: $mobile) {
+      display: none;
+    }
+  }
+
   .more-button {
     width: 100%;
     margin-bottom: 2rem;
