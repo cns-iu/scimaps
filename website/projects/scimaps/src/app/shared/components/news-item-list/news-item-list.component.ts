@@ -65,7 +65,7 @@ export class NewsItemListComponent implements OnInit {
    * @param criteria Criteria to be sorted by
    */
   sort(criteria: 'date' | 'publication' | 'title'): void {
-    let order = 'asc';
+    let order;
     if (criteria === 'publication') {
       this.publicationOrder = this.publicationOrder === 'asc' ? 'desc' : 'asc';
       order = this.publicationOrder;
