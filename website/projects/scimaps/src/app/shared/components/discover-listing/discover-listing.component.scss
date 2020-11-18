@@ -15,7 +15,9 @@ $mobile: 640px;
   .text-content {
     flex-grow: 2;
     padding-left: 1rem;
-    padding-right: 2rem;
+    padding-right: 3rem;
+    width: 40%;
+
 
     @media (max-width: $tablet) {
       width: 100%;
@@ -35,6 +37,7 @@ $mobile: 640px;
     flex-direction: row;
     width: 60%;
     justify-content: end;
+    flex-wrap: wrap;
 
     @media (max-width: $tablet) {
       width: 100%;
@@ -55,9 +58,17 @@ $mobile: 640px;
     .thumbnail {
       cursor: pointer;
       margin-right: 1rem;
+      margin-bottom: 1rem;
+      width: 22%;
 
       @media (max-width: $mobile) {
         position: relative;
+      }
+
+      .thumbnail-image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
       }
 
       .thumbnail-title {
