@@ -1,5 +1,7 @@
 :host {
   display: block;
+  height: 25rem;
+  width: 100%;
 
   .swiper-container {
     height: 100%;
@@ -7,6 +9,11 @@
     .swiper-wrapper {
       height: calc(100% - 3rem);
       margin-bottom: 3rem;
+
+      ::ng-deep sci-carousel-item {
+        display: flex;
+        justify-content: center;
+      }
     }
 
     .swiper-button-prev,

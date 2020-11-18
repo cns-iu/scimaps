@@ -157,6 +157,13 @@ export class MapsPageComponent implements OnInit {
   ];
   displayItems: DiscoverItem[] = [];
 
+  readonly slides = [
+    'assets/images/benches.jpg',
+    'assets/images/bridge.jpg',
+    'assets/images/flower.jpg',
+    'assets/images/garden.jpg',
+  ];
+
   ngOnInit(): void {
     this.updateDisplayItems();
   }

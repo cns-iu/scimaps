@@ -2,7 +2,11 @@
 <div class="highlight-content">
   <p class="highlight-body">{{  highlightBody }}</p>
   <div class="carousel-container">
-    <div class="fake-carousel"></div>
+    <sci-carousel>
+      <sci-carousel-item *ngFor="let slide of slides">
+        <img [src]="slide">
+      </sci-carousel-item>
+    </sci-carousel>
   </div>
 </div>
 
