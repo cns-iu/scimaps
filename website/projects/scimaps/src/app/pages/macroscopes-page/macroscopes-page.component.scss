@@ -18,12 +18,10 @@ $mobile: 640px;
 }
 
 :host {
-
   .highlight-content {
     display: flex;
     flex-direction: row;
     width: 100%;
-    border-bottom: 1px solid gray;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
 
@@ -61,8 +59,6 @@ $mobile: 640px;
         }
 
         .carousel-image-title {
-          background-color: #7996A3;
-          color: white;
           padding: 1rem;
           margin-top: -0.5rem;
           width: 100%;
@@ -84,15 +80,7 @@ $mobile: 640px;
     margin-bottom: 2rem;
     height: 2.5rem;
     font-size: 1rem;
-    background-color: #EBF0F1;
-    color: #7996A3;
-    border: 1px solid #E0E0E0;
     cursor: pointer;
-
-    &:hover {
-      background-color: #7996A3;
-      color: white;
-    }
 
     @media (max-width: $mobile) {
       display: none;
@@ -103,16 +91,12 @@ $mobile: 640px;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
     padding: 0.75rem;
     font-size: 1rem;
-    color: gray;
     cursor: pointer;
     margin-bottom: 2rem;
 
     .mobile-icon {
-      color: gray;
       font-size: 1.5rem;
       height: 1.5rem;
       width: 1.5rem;
@@ -130,7 +114,6 @@ $mobile: 640px;
     z-index: 5;
     width: 100vw;
     height: 100vh;
-    background-color: white;
     padding: 1rem;
 
     .modal-header {

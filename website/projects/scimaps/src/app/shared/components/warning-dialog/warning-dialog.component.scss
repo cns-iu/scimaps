@@ -7,10 +7,8 @@
 
     .info-icon {
       font-size: 2rem;
-      color: #7996A3;
       width: 3rem;
       height: 3rem;
-      border: 3px solid #7996A3;
       text-align: center;
       padding: .7rem;
       border-radius: 50%;
@@ -21,7 +19,6 @@
     position: absolute;
     right: 12%;
     margin-top: -3.5rem;
-    color: white;
     cursor: pointer;
   }
 
@@ -36,9 +33,6 @@
     justify-content: space-around;
 
     .continue-button {
-      color: #7996A3;
-      border: 2px solid #7996A3;
-      background-color: white;
       padding: .5rem;
       cursor: pointer;
     }
