@@ -63,6 +63,7 @@ $mobile: 640px;
 
       @media (max-width: $mobile) {
         position: relative;
+        width: 46%;
       }
 
       .thumbnail-image {

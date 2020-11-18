@@ -50,13 +50,6 @@ $mobile: 640px;
         padding: 0rem;
         margin-bottom: 1rem;
       }
-
-      .fake-carousel {
-        width: 95%;
-        max-width: 500px;
-        height: 300px;
-        background-color: lightgray;
-      }
     }
   }
 
@@ -119,11 +112,14 @@ $mobile: 640px;
   }
 
   .fullscreen-modal {
+    @media (min-width: $mobile) {
+      display: none;
+    }
+
     position: absolute;
     top: 0;
     z-index: 5;
     width: 100vw;
-    height: 100vh;
     background-color: white;
     padding: 1rem;
 
@@ -141,6 +137,10 @@ $mobile: 640px;
           margin-bottom: 0rem !important;
         }
       }
+    }
+
+    .maps-carousel {
+      height: 100%;
     }
   }
 } 
