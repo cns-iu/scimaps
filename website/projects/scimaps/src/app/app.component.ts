@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ImageCardItem } from './core/models/image-card-item';
 
 import { NewsItem } from './shared/components/news-item/news-item.model';
 
@@ -10,6 +11,59 @@ import { NewsItem } from './shared/components/news-item/news-item.model';
 })
 export class AppComponent {
   title = 'scimaps';
+
+  learningItems: ImageCardItem[] = [
+    {
+      title: 'Humanexus',
+      body: 'A short film that visualizes human communication from the Stone Age to today...and beyond.',
+      slug: 'humanexus'
+    },
+    {
+      title: 'WorldProcessor Globes',
+      body: 'Explore mapped social, scientific, political and economic data on three globes as navigation guides in a "globalized" world.',
+      slug: 'worldprocess-globes'
+    },
+    {
+      title: 'Illuminated Diagram Display',
+      body: 'Explore mapped social, scientific, political and economic data on three globes as navigation guides in a "globalized" world.',
+      slug: 'illluminated-diagram-display'
+    },
+    {
+      title: 'Scultpures of Science',
+      body: 'The history of science realized in tangible form.',
+      slug: 'sculptures-of-science'
+    },
+    {
+      title: 'Inside the Museum',
+      body: 'An imaginative look at the inside of the Metropolitan Museum of Art\'s holdings and spaces.',
+      slug: 'inside-the-museum'
+    },
+    {
+      title: 'The Fundamental Interconnectedness of All Things [dynamic format]',
+      body: '',
+      slug: 'interconnectedness-of-all-things'
+    },
+    {
+      title: 'Gapminder Card Game',
+      body: 'Country cards are arranged to reflect the gaps in the world today, then compared to the Gapminder World Map.',
+      slug: 'gapminder-card-game'
+    },
+    {
+      title: 'Science Maps for Kids',
+      body: 'The hands-on science maps for kids invite children to see, explore, and understand science from above.',
+      slug: 'science-maps-for-kids'
+    },
+    {
+      title: 'Adventures in Knowledge Land Comic Book',
+      body: 'Explores the Atlas of Science book using comics as a forum.',
+      slug: 'knowledge-land-comic'
+    },
+    {
+      title: 'My Science Story Coloring Book',
+      body: 'Kids learn science by coloring.',
+      slug: 'science-coloring-book'
+    }
+  ];
 
   readonly slides = [
     'assets/images/benches.jpg',
