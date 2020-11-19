@@ -1,0 +1,21 @@
+<h3 *ngIf="galleryTitle != ''" class="title">{{ galleryTitle }}</h3>
+
+<div class="card-gallery">
+  <mat-card class="desktop-card card" *ngFor="let card of cards" (click)="handleClick(card)">
+    <img mat-card-image [src]="getImageSource(card.slug)" [alt]="card.slug">
+    <mat-card-content>
+      <p class="card-header">{{ card.title }}</p>
+      <p>{{ card.body }}</p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="mobile-card card" *ngFor="let card of cards">
+    <mat-card-content class="mobile-content">
+      <div class="mobile-image-container">
+        <img class="mobile-image" [src]="getImageSource(card.slug)" [alt]="card.slug">
+      </div>
+      <div class="card-header mobile-header">{{ card.title }}</div>
+      <mat-icon class="mobile-icon">chevron_right</mat-icon>
+    </mat-card-content>
+  </mat-card>
+</div>
