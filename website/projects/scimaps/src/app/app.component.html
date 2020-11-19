@@ -1,11 +1,13 @@
-<h1>scimaps.org</h1>
-<h2>Under Construction</h2>
-<sci-carousel>
-  <sci-carousel-item *ngFor="let slide of slides">
-    <img [src]="slide">
-  </sci-carousel-item>
-</sci-carousel>
-<sci-news-item-list [newsItems]="newsItems"></sci-news-item-list>
-<a routerLink="/books">Books Page</a>
+<div style="display: flex; flex-direction: column;">
+  <a routerLink="/home">Home</a>
+  <a routerLink="/about">About</a>
+  <a routerLink="/books">Books</a>
+  <a routerLink="/maps">Maps</a>
+  <a routerLink="/macroscopes">Macroscopes</a>
+  <a routerLink="/hosting">Hosting</a>
+  <a routerLink="/venues">Venues</a>
+  <a routerLink="/learning-center">Learning Center</a>
+  <a routerLink="/call-for-macroscopes">Call for Macroscopes</a>
+</div>
 <router-outlet></router-outlet>
 <sci-footer></sci-footer>
