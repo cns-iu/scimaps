@@ -16,6 +16,14 @@ $mobile: 640px;
 }
 
 :host {
+  .details-drawer {
+    left: 0%;
+    transition: left 1s;
+
+    &.hidden {
+      left: 100%;
+    }
+  }
 
   .highlight-content {
     display: flex;

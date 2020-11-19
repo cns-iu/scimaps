@@ -1,1 +1,24 @@
-<p>item-drawer works!</p>
+<div class="details-container">
+  <div class="purchase-header">
+    <div class="back-button">
+      <mat-icon class="back-icon" (click)="close()">chevron_left</mat-icon>
+      <div>BACK</div>
+    </div>
+    <div class="purchase-button">PURCHASE</div>
+  </div>
+  <div class="body">
+    <div class="details-content">
+      <h2 class="details-title">{{item.title}}</h2>
+      <div class="details-makers">
+        <div class="makers-label">Makers: &nbsp;</div>
+        <div>{{makers}}</div>
+      </div>
+      <div class="details-location">{{item.location}}</div>
+      <div class="details-description">{{item.description}}</div>
+      <div class="details-references">
+        <div *ngFor="let reference of item.references">{{reference}}</div>
+      </div>
+    </div>
+    <img class="details-image" [src]="item.thumbnail">
+  </div>
+</div>

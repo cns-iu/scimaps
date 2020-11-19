@@ -1,0 +1,64 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  margin: 0 auto;
+  z-index: 2;
+  align-items: center;
+
+  .details-container {
+    width: 80%;
+    position: absolute;
+    top: 3rem;
+
+    .purchase-header {
+      display: flex;
+      width: 100%;
+      height: 4.5rem;
+      justify-content: space-between;
+      align-items: center;
+
+      .back-button {
+        display: flex;
+        align-items: center;
+
+        .back-icon {
+          margin-left: -8px;
+        }
+      }
+  
+      .purchase-button {
+        height: 2.25rem;
+        padding: 0 1rem;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+    }
+  
+    .body {
+      display: flex;
+  
+      .details-content {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-right: 3rem;
+
+        .details-makers {
+          display: flex;
+        }
+      }
+    
+      .details-image {
+        display: flex;
+        width: 50%;
+        object-fit: contain;
+      }
+    }
+  }
+}
