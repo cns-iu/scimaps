@@ -1,5 +1,4 @@
 <sci-item-drawer class="details-drawer" [class.hidden]="!showDrawer" [item]="selectedItem" (closeDrawer)="closeDetails()"></sci-item-drawer>
-<div (click)="openDetails()">display</div>
 
 <h2 class="header">Maps</h2>
 <div class="highlight-content">
@@ -15,7 +14,7 @@
 
 <h2 class="header discover-maps">Discover Maps</h2>
 
-<sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item"></sci-discover-listing>
+<sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item" (openDrawer)="openDetails()"></sci-discover-listing>
 
 <button *ngIf="moreMaps()" class="more-button" (click)="showMoreMaps()">Show More Maps</button>
 <div class="mobile-button" (click)="showModal = true;">

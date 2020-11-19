@@ -12,7 +12,11 @@ export class ItemDrawerComponent {
 
   @Input() item!: MapItem;
 
-  @Output() closeDrawer = new EventEmitter<string>();
+  @Output() closeDrawer = new EventEmitter();
+
+  @Output() languageChange = new EventEmitter<string>();
+
+  selectedLanguage = 'English';
 
   get makers(): string {
     return this.item.makers.join(', ');
@@ -20,5 +24,10 @@ export class ItemDrawerComponent {
 
   close(): void {
     this.closeDrawer.emit();
+  }
+
+  languageSelect(language: string): void {
+    this.selectedLanguage = language;
+    this.languageChange.emit(language);
   }
 }

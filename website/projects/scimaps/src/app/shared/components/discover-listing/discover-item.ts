@@ -20,6 +20,7 @@ export interface MapItem {
   title: string;
   makers: string[];
   location: string;
+  credit: string;
   year: string;
   description: string;
   references: string[];

@@ -1,7 +1,7 @@
 <div class="details-container">
   <div class="purchase-header">
-    <div class="back-button">
-      <mat-icon class="back-icon" (click)="close()">chevron_left</mat-icon>
+    <div class="back-button" (click)="close()">
+      <mat-icon class="back-icon">chevron_left</mat-icon>
       <div>BACK</div>
     </div>
     <div class="purchase-button">PURCHASE</div>
@@ -10,15 +10,26 @@
     <div class="details-content">
       <h2 class="details-title">{{item.title}}</h2>
       <div class="details-makers">
-        <div class="makers-label">Makers: &nbsp;</div>
+        <div class="makers-label">Makers:&nbsp;</div>
         <div>{{makers}}</div>
       </div>
       <div class="details-location">{{item.location}}</div>
+      <div class="details-credit">{{item.credit}}</div>
+      <div class="language-selection">
+        <div>Languages:&nbsp;</div>
+        <div class="language option" [class.active]="selectedLanguage === 'English'" (click)="languageSelect('English')">English&nbsp;</div>|
+        <div class="language option" [class.active]="selectedLanguage === 'Chinese'" (click)="languageSelect('Chinese')">&nbsp;中文&nbsp;</div>|
+        <div class="language option" [class.active]="selectedLanguage === 'German'" (click)="languageSelect('German')">&nbsp;Deutsch</div>
+      </div>
       <div class="details-description">{{item.description}}</div>
       <div class="details-references">
-        <div *ngFor="let reference of item.references">{{reference}}</div>
+        <div>References</div>
+        <div class="reference" *ngFor="let reference of item.references">{{reference}}</div>
       </div>
     </div>
-    <img class="details-image" [src]="item.thumbnail">
+
+    <div class="details-image">
+      <img class="thumbnail" [src]="item.thumbnail">
+    </div>
   </div>
 </div>
