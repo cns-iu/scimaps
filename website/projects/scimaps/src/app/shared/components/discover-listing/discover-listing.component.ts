@@ -22,17 +22,17 @@ export class DiscoverListingComponent {
     return `assets/${this.discoverItem.directory}/${this.discoverItem.slug}/${image}`;
   }
 
-  mobileThumbnailClickHandler(thumbnail: ThumbnailLink): void {
+  mobileThumbnailClickHandler(link: string): void {
     this.dialog.open(WarningDialogComponent, {
       width: '95%',
       data: {
         warningMessage: this.mobileWarning,
-        closeLink: thumbnail.link
+        closeLink: link
       }
     });
   }
 
-  desktopThumbnailClickHandler(thumbnail: ThumbnailLink): void {
-    window.open(thumbnail.link, '_blank');
+  desktopThumbnailClickHandler(link: string): void {
+    window.open(link, '_blank');
   }
 }
