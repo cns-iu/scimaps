@@ -1,7 +1,7 @@
 import { Component, HostBinding, Input } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 
-import { DiscoverItem, ThumbnailLink } from '../../../core/models/discover-item';
+import { DiscoverItem } from '../../../core/models/discover-item';
 import { WarningDialogComponent } from '../warning-dialog/warning-dialog.component';
 
 @Component({
