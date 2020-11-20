@@ -27,19 +27,27 @@
         display: flex;
         align-items: center;
         cursor: pointer;
+        color: #7996A3;
 
         .back-icon {
-          margin-left: -8px;
+          margin-left: -0.5rem;
+          margin-right: 1rem;
         }
       }
   
       .purchase-button {
+        color: #7996A3;
         height: 2.25rem;
         padding: 0 1rem;
-        border: 1px solid black;
+        border: 2px solid #7996A3;
         display: flex;
         align-items: center;
         cursor: pointer;
+
+        &:hover {
+          background-color: #7996A3;
+          color: white;
+        }
       }
     }
   
@@ -71,7 +79,7 @@
             cursor: pointer;
 
             &.active {
-              color: green;
+              color: #8DC63F;
             }
           }
         }
@@ -98,6 +106,19 @@
         .thumbnail {
           object-fit: contain;
           width: 100%;
+          cursor: pointer;
+        }
+
+        .icon {
+          position: absolute;
+          right: 0%;
+          height: 3rem;
+          width: 3rem;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          background-color: #4A5F68;
+          color: white;
           cursor: pointer;
         }
       }

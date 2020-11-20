@@ -19,9 +19,11 @@ $mobile: 640px;
   .details-drawer {
     left: 0%;
     transition: left 1s;
+    margin-right: 0;
 
     &.hidden {
       left: 100%;
+      margin-right: 1rem;
     }
   }
 

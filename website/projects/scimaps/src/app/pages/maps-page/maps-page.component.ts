@@ -1,5 +1,5 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
-import { DiscoverItem, MapItem } from '../../shared/components/discover-listing/discover-item';
+import { DiscoverItem } from '../../shared/components/discover-listing/discover-item';
 
 @Component({
   selector: 'sci-maps-page',
@@ -9,23 +9,8 @@ import { DiscoverItem, MapItem } from '../../shared/components/discover-listing/
 export class MapsPageComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-maps-page';
+  @HostBinding('class.details-open') showDrawer = false;
 
-  selectedItem: MapItem = {
-    title: 'Sample Map Item',
-    makers: ['Homer Simpson', 'Elon Musk'],
-    location: 'Springfield',
-    credit: 'Credit line text',
-    year: '2000',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dui euismod mauris faucibus euismod non lacinia quam. Morbi sit amet placerat dui. Sed ut dolor efficitur, consequat augue sed, pharetra orci. Nulla vitae mauris nisi. Aenean orci ipsum, scelerisque et arcu quis, molestie efficitur dui. Curabitur enim lacus, vehicula at arcu id, sagittis posuere est. Maecenas laoreet est eget tristique interdum. Fusce consequat, nisl ac bibendum facilisis, tellus nulla blandit orci, quis dignissim est mi ac justo. Pellentesque ultrices blandit diam quis pretium. Suspendisse ut ante in enim consequat semper id consectetur arcu. Proin ultricies vestibulum nulla sit amet',
-    references: [
-      'Reference 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dui euismod mauris faucibus euismod non lacinia quam.',
-      'Reference 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dui euismod mauris faucibus euismod non lacinia quam.',
-      'Reference 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dui euismod mauris faucibus euismod non lacinia quam.'
-    ],
-    thumbnail: '../../../assets/maps/maps-2019/rose.jpg'
-  };
-
-  showDrawer = false;
   showModal = false;
   itemsToDisplay = 3;
   highlightBody = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dui euismod mauris faucibus euismod non lacinia quam. Morbi sit amet placerat dui. Sed ut dolor efficitur, consequat augue sed, pharetra orci. Nulla vitae mauris nisi. Aenean orci ipsum, scelerisque et arcu quis, molestie efficitur dui. Curabitur enim lacus, vehicula at arcu id, sagittis posuere est. Maecenas laoreet est eget tristique interdum. Fusce consequat, nisl ac bibendum facilisis, tellus nulla blandit orci, quis dignissim est mi ac justo. Pellentesque ultrices blandit diam quis pretium. Suspendisse ut ante in enim consequat semper id consectetur arcu. Proin ultricies vestibulum nulla sit amet.';
@@ -300,9 +285,23 @@ export class MapsPageComponent implements OnInit {
 
   openDetails(): void {
     this.showDrawer = true;
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+    window.onscroll = () => {
+      window.scrollTo(scrollLeft, scrollTop);
+    };
+    document.body.style.overflow = 'hidden';
+    document.body.style.marginRight = '1rem';
+    const drawer = document.getElementsByClassName('details-drawer')[0] as HTMLElement;
+    drawer.style.width = '100%';
   }
 
   closeDetails(): void {
     this.showDrawer = false;
+    window.onscroll = () => {};
+    document.body.style.overflow = 'unset';
+    document.body.style.marginRight = '0';
+    const drawer = document.getElementsByClassName('details-drawer')[0] as HTMLElement;
+    drawer.style.width = 'calc(100% + 1rem)';
   }
 }
