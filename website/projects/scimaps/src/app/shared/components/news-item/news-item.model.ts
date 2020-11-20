@@ -10,10 +10,10 @@ export interface NewsItem {
   date: Date;
 
   /** Source of news item */
-  source: string;
+  publication: string;
 
   /** Name of institution */
-  institution: string;
+  institution?: string | null;
 
   /** URL of thumbnail image */
   thumbnail: string;
