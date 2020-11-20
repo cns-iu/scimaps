@@ -1,7 +1,6 @@
 import { Component, HostBinding, Input, Output, EventEmitter } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { DiscoverItem, ThumbnailLink } from './discover-item';
-import { WarningDialogComponent } from '../warning-dialog/warning-dialog.component';
 
 @Component({
   selector: 'sci-discover-listing',
@@ -24,15 +23,6 @@ export class DiscoverListingComponent {
   }
 
   thumbnailClickHandler(thumbnail: ThumbnailLink): void {
-    // // if mobile
-    // this.dialog.open(WarningDialogComponent, {
-    //   width: '95%',
-    //   data: {
-    //     warningMessage: this.mobileWarning,
-    //     closeLink: thumbnail.link
-    //   }
-    // });
-
     this.openDrawer.emit();
   }
 }

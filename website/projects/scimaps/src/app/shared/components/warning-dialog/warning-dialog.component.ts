@@ -1,5 +1,5 @@
 import { HostBinding, Inject } from '@angular/core';
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 interface WarningDialogData {

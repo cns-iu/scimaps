@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { BooksModule } from './pages/books/books.module';
-import { MapsModule } from './pages/maps/maps.module';
 
 
 const routes: Routes = [
