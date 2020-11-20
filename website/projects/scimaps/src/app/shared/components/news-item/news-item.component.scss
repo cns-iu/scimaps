@@ -1,31 +1,56 @@
-:host {
-  display: block;
+@use 'screen';
 
+:host {
   .news-item {
     display: flex;
     flex-direction: row;
     text-decoration: none;
+    margin: 0.5rem;
     border-radius: 0.125rem;
+    max-height: 8rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.54);
+
+    @include screen.breakpoint(mobile) {
+      flex-direction: column;
+      max-height: 16rem;
+    }
 
     .thumb {
       width: 9rem;
       object-fit: cover;
       border-width: 0.125px;
       border-style: solid;
+
+      @include screen.breakpoint(mobile) {
+        height: 6rem;
+        width: 100%;
+      }
     }
 
     .info {
       display: flex;
       flex-direction: column;
       padding: 1rem;
+      justify-content: space-between;
 
       .date {
+        height: 20px;
         text-transform: uppercase;
+        font-size: 12px;
+        overflow: hidden;
       }
 
       .title {
+        height: 40px;
+        font-weight: 700;
         margin: 0.5rem 0;
+        overflow: hidden;
+      }
+
+      .identifier {
+        font-weight: 300;
+        height: 20px;
+        overflow: hidden;
       }
     }
 
