@@ -46,11 +46,6 @@ describe('DiscoverListingComponent', () => {
     shallow = new Shallow(DiscoverListingComponent, DiscoverListingModule);
   });
 
-  it('should pass', async () => {
-    const { instance } = await shallow.mock(MatDialog, mockMatDialog).render({ bind: { discoverItem }});
-    expect(true).toBeTrue();
-  });
-
   it('should create the correct image source', async () => {
     const { instance } = await shallow.render({ bind: { discoverItem }});
     const imageSource = instance.imageSource('image1.png');
