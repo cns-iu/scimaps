@@ -1,4 +1,5 @@
 @use './components/book-overview/book-overview.theme';
+@use './components/card-gallery/card-gallery.theme';
 @use "./components/carousel/carousel.theme";
 @use './components/news-item/news-item.theme';
 @use './components/warning-dialog/warning-dialog.theme.scss';
@@ -6,6 +7,7 @@
 
 @mixin theme($theme) {
   @include book-overview.theme($theme);
+  @include card-gallery.theme($theme);
   @include carousel.theme($theme);
   @include news-item.theme($theme);
   @include warning-dialog.theme($theme);

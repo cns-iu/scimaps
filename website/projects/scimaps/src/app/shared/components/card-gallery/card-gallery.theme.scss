@@ -1,0 +1,11 @@
+@use '~@angular/material/theming' as *;
+
+@mixin theme($theme) {
+  $primary: map-get($theme, primary);
+
+  .sci-card-gallery {
+    .title {
+      color: mat-color($primary, 500);
+    }
+  }
+}
