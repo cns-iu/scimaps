@@ -10,6 +10,9 @@ export class ItemDrawerComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-item-drawer';
 
+  /**
+   * Item to be displayed in the drawer
+   */
   @Input() item: MapItem = {
     title: 'Sample Map Item',
     makers: ['Homer Simpson', 'Elon Musk'],
@@ -25,20 +28,39 @@ export class ItemDrawerComponent {
     thumbnail: '../../../assets/maps/maps-2019/rose.jpg'
   };
 
+  /**
+   * Emitted when the drawer closes
+   */
   @Output() closeDrawer = new EventEmitter();
 
+  /**
+   * Emits the selected language when the language changes
+   */
   @Output() languageChange = new EventEmitter<string>();
 
+  /**
+   * Currently selected language
+   */
   selectedLanguage = 'English';
 
+  /**
+   * Combines the maker names
+   */
   get makers(): string {
     return this.item.makers.join(', ');
   }
 
+  /**
+   * Closes the drawer
+   */
   close(): void {
     this.closeDrawer.emit();
   }
 
+  /**
+   * Sets selectedLanguage to selected language and emits the new language
+   * @param language The language selected
+   */
   languageSelect(language: string): void {
     this.selectedLanguage = language;
     this.languageChange.emit(language);

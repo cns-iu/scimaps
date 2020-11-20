@@ -9,6 +9,8 @@ import { DiscoverItem } from '../../shared/components/discover-listing/discover-
 export class MapsPageComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-maps-page';
+
+  /** Gives details-open class when showDrawer is true */
   @HostBinding('class.details-open') showDrawer = false;
 
   showModal = false;
@@ -283,6 +285,9 @@ export class MapsPageComponent implements OnInit {
     this.updateDisplayItems();
   }
 
+  /**
+   * Opens the details drawer
+   */
   openDetails(): void {
     this.showDrawer = true;
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -296,6 +301,9 @@ export class MapsPageComponent implements OnInit {
     drawer.style.width = '100%';
   }
 
+  /**
+   * Closes the details drawer
+   */
   closeDetails(): void {
     this.showDrawer = false;
     window.onscroll = () => {};
