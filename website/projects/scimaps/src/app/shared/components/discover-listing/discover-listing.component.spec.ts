@@ -65,7 +65,7 @@ describe('DiscoverListingComponent', () => {
   });
 
   it('should launch the modal when the mobile click handler is called', async () => {
-    const { instance, get } = await shallow.render({ bind: { discoverItem }});
+    const { instance, get } = await shallow.mock(MatDialog, mockMatDialog).render({ bind: { discoverItem }});
     instance.mobileThumbnailClickHandler('www.google.com');
     expect(get(MatDialog).open).toHaveBeenCalled();
   });
