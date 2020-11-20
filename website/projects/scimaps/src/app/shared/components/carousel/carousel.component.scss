@@ -10,7 +10,7 @@
       height: calc(100% - 3rem);
       margin-bottom: 3rem;
 
-      ::ng-deep sci-carousel-item {
+      ::ng-deep .sci-carousel-item {
         display: flex;
         justify-content: center;
       }
