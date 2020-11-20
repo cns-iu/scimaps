@@ -6,7 +6,7 @@
   $primary: map-get($config, primary);
   $grey: mat-palette($mat-grey);
 
-  .sci-macroscopes-page {
+  .sci-macroscopes {
     .highlight-content {
       border-bottom: 1px solid mat-color($grey, 300);
     }
