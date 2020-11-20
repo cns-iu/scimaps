@@ -1,3 +1,5 @@
+$breakpoint: 768px;
+
 :host {
   display: flex;
   flex-direction: column;
@@ -5,7 +7,6 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: white;
   margin: 0 auto;
   z-index: 2;
   align-items: center;
@@ -14,6 +15,10 @@
     width: 80%;
     position: absolute;
     top: 5rem;
+
+    @media (max-width: $breakpoint) {
+      top: 2rem;
+    }
 
     .purchase-header {
       display: flex;
@@ -36,23 +41,22 @@
       }
   
       .purchase-button {
-        color: #7996A3;
         height: 2.25rem;
         padding: 0 1rem;
-        border: 2px solid #7996A3;
+        border-width: 0.125rem;
+        border-style: solid;
         display: flex;
         align-items: center;
         cursor: pointer;
-
-        &:hover {
-          background-color: #7996A3;
-          color: white;
-        }
       }
     }
   
     .body {
       display: flex;
+
+      @media (max-width: $breakpoint) {
+        flex-direction: column-reverse;
+      }
   
       .details-content {
         display: flex;
@@ -60,9 +64,22 @@
         width: 50%;
         padding-right: 3rem;
 
+        @media (max-width: $breakpoint) {
+          width: 100%;
+        }
+
+        .details-title {
+          @media (max-width: $breakpoint) {
+            display: none;
+          }
+        }
+
         .details-makers {
           display: flex;
+          margin-top: 1rem;
           margin-bottom: 0.5rem;
+          height: 3rem;
+          align-items: center;
         }
 
         .makers-label,
@@ -71,16 +88,16 @@
           margin-left: 1rem;
         }
 
+        .makers-label {
+          font-weight: bold;
+        }
+
         .language-selection {
           display: flex;
           margin: 1rem 0;
 
           .option {
             cursor: pointer;
-
-            &.active {
-              color: #8DC63F;
-            }
           }
         }
 
@@ -102,6 +119,10 @@
         display: flex;
         flex-direction: column;
         width: 50%;
+
+        @media (max-width: $breakpoint) {
+          width: 100%;
+        }
         
         .thumbnail {
           object-fit: contain;
@@ -117,9 +138,15 @@
           justify-content: center;
           align-items: center;
           display: flex;
-          background-color: #4A5F68;
-          color: white;
           cursor: pointer;
+        }
+      }
+
+      .details-title {
+        &.mobile {
+          @media (min-width: $breakpoint) {
+            display: none;
+          }
         }
       }
     }

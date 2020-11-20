@@ -1,6 +1,7 @@
 $desktop: 1248px;
 $tablet: 960px;
 $mobile: 640px;
+$breakpoint: 768px;
 
 ::ng-deep {
   .swiper-button-prev, .swiper-button-next {
@@ -16,14 +17,35 @@ $mobile: 640px;
 }
 
 :host {
+  @media (max-width: $breakpoint) {
+    top: 0%;
+    transition: top 1s;
+    overflow-y: scroll;
+    z-index: 6;
+  }
+
   .details-drawer {
     left: 0%;
     transition: left 1s;
     margin-right: 0;
+    overflow-y: scroll;
+    z-index: 6;
+
+    @media (max-width: $breakpoint) {
+     top: 0%;
+     left: 0%;
+     transition: top 1s;
+    }
 
     &.hidden {
       left: 100%;
       margin-right: 1rem;
+
+      @media (max-width: $breakpoint) {
+        margin-right: 0;
+        top: -100%;
+        left: 0%;
+      }
     }
   }
 
