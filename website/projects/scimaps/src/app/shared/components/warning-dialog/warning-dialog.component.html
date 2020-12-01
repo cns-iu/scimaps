@@ -1,0 +1,22 @@
+<div class="warning-dialog wrapper">
+  <div class="container">
+    <div class="close">
+      <mat-icon class="material-icons close-icon" (click)=close()>clear</mat-icon>
+    </div>
+    <div class="content">
+      <div class="info-icon-container">
+        <div class="info-icon">i</div>
+      </div>
+
+      <mat-dialog-content class="mat-typography">
+        <p class="description">
+          {{ warningMessage }}
+        </p>
+
+        <div class="button-container">
+          <button class="continue-button" (click)="buttonClickHandler()">CONTINUE</button>
+        </div>
+      </mat-dialog-content>
+    </div>
+  </div>
+</div>

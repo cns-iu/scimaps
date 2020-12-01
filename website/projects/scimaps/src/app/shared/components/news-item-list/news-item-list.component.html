@@ -1,0 +1,33 @@
+<div class="filter-header">
+  <mat-form-field class="year-select" appearance="fill">
+    <mat-label>Year</mat-label>
+    <mat-select [(value)]="selectedYear" (selectionChange)="onYearChange($event.value)">
+      <mat-option *ngFor="let year of yearList" [value]="year">
+        {{year}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <div class="sort-filters">
+    <div class="sort date" (click)="sort('date')">
+      <div>Date</div>
+      <mat-icon [class.reversed]="dateOrder === 'desc'">filter_list</mat-icon>
+    </div>
+    <div class="sort title" (click)="sort('title')">
+      <div>Title</div>
+      <mat-icon [class.reversed]="titleOrder === 'asc'">filter_list</mat-icon>
+    </div>
+    <div class="sort publication" (click)="sort('publication')">
+      <div>Publication</div>
+      <mat-icon [class.reversed]="publicationOrder === 'asc'">filter_list</mat-icon>
+    </div>
+  </div>
+</div>
+
+<div class="news-item-list">
+  <div *ngFor="let item of displayedNewsItems" class="news-item">
+    <sci-news-item *ngIf="showAllItems || displayedNewsItems.indexOf(item) < 4" [item]="item"></sci-news-item>
+  </div>
+  <div class="show-more" *ngIf="needShowMoreButton()" (click)="this.showAllItems = !this.showAllItems">
+    {{ showButtonText }}</div>
+</div>
