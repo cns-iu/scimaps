@@ -1,0 +1,53 @@
+$desktop: 1248px;
+$tablet: 960px;
+$mobile: 640px;
+
+:host {
+  .title {
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    margin-bottom: 2rem;
+  }
+
+  .profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .profile {
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      margin-bottom: 1.5rem;
+
+      @media (max-width: $tablet) {
+        width: 48%;
+      }
+
+      @media (max-width: $mobile) {
+        width: 100%;
+      }
+
+      .profile-image {
+        height: 6rem;
+        width: auto;
+      }
+
+      .profile-name {
+        font-weight: bold;
+      }
+
+      .profile-about {
+        width: 50%;
+        padding-left: 1rem;
+        flex-grow: 2;
+
+        .profile-name, .profile-title, .profile-affiliation {
+          margin-bottom: .25rem;
+        }
+      }
+    }
+  }
+}

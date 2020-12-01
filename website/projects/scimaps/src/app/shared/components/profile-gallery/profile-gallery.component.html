@@ -1,0 +1,14 @@
+<h2 class="title" *ngIf="title !== ''">{{ title }}</h2>
+<div class="description" *ngIf="description !== ''">{{ description }}</div>
+
+<div class="profile-container">
+  <div class="profile" *ngFor="let profile of profiles">
+    <img class="profile-image" [src]="getImageSource(profile)" [alt]="profile.slug + '/image.png'">
+    <div class="profile-about">
+      <div class="profile-name">{{ profile.name }}</div>
+      <div class="profile-title">{{ profile.title }}</div>
+      <div class="profile-affiliation" *ngIf="compact === true">{{ profile.affiliation }}</div>
+      <div class="profile-body" *ngIf="compact === false">{{ profile.body }}</div>
+    </div>
+  </div>
+</div>
