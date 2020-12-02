@@ -1,0 +1,28 @@
+:host {
+  width: 19rem;
+  display: block;
+
+  .title {
+    font-size: 1.75rem;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .body {
+    padding: 1.5rem;
+    font-size: 1.125rem;
+
+    .item {
+      margin-bottom: 1.5rem;
+
+      .item-label {
+        margin-bottom: 0rem;
+      }
+
+      .item-date {
+        font-weight: bold;
+      }
+    }
+  }
+}

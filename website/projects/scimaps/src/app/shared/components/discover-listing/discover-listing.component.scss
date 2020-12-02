@@ -85,6 +85,18 @@ $mobile: 640px;
         }
       }
     }
+
+    .thumbnail.desktop {
+      @media (max-width: $mobile) {
+        display: none;
+      }
+    }
+
+    .thumbnail.mobile {
+      @media (min-width: $mobile) {
+        display: none;
+      }
+    }
   }
 
   .tablet-body {

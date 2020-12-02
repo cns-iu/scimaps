@@ -1,6 +1,5 @@
-import { HostBinding, Inject } from '@angular/core';
-import { Component } from '@angular/core';
-import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { Component, HostBinding, Inject } from '@angular/core';
+import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 
 interface WarningDialogData {
   closeLink?: string;
@@ -41,7 +40,6 @@ export class WarningDialogComponent {
 
   buttonClickHandler(): void {
     if (this.closeLink !== '') {
-      console.log('closelink: ', this.closeLink);
       window.open(this.closeLink, '_blank');
     } else {
       this.close();
