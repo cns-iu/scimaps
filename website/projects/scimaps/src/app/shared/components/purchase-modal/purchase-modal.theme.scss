@@ -1,0 +1,40 @@
+@use '~@angular/material/theming' as *;
+
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $primary: map-get($config, primary);
+
+  .sci-purchase-modal {
+    .info-icon {
+      color: mat-color($primary, 500);
+      border: 3px solid mat-color($primary, 500);
+    }
+
+    .close-icon {
+      color: mat-color($primary, default-contrast);
+    }
+
+    .continue-button {
+      color: mat-color($primary, 500);
+      border: 2px solid mat-color($primary, 500);
+      background-color: mat-color($primary, default-contrast);
+    }
+  }
+}
+
+@mixin typography($config-or-theme) {
+  $config: mat-get-typography-config($config-or-theme);
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+  $typography: mat-get-typography-config($theme);
+
+  @if $color != null {
+    @include color($color);
+  }
+  @if $typography != null {
+    @include typography($typography);
+  }
+}

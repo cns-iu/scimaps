@@ -1,5 +1,5 @@
 import { Shallow } from 'shallow-render';
-import { MapItem } from '..//discover-listing/discover-item';
+import { MapItem } from '../../../core/models/discover-item';
 import { ItemDrawerComponent } from './item-drawer.component';
 import { ItemDrawerModule } from './item-drawer.module';
 

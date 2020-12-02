@@ -1,5 +1,7 @@
 import { Component, Input, HostBinding, Output, EventEmitter } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { MapItem } from '../../../core/models/discover-item';
+import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.component';
 
 @Component({
   selector: 'sci-item-drawer',
@@ -9,6 +11,9 @@ import { MapItem } from '../../../core/models/discover-item';
 export class ItemDrawerComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-item-drawer';
+
+  mobileWarning = 'Macroscopes work best on desktop or larger tablet screens.  You may have a less than optimal experience on this device.';
+
 
   /**
    * Item to be displayed in the drawer
@@ -46,6 +51,8 @@ export class ItemDrawerComponent {
    */
   selectedLanguage = 'English';
 
+  constructor(private readonly dialog: MatDialog) { }
+
   /**
    * Combines the maker names
    */
@@ -67,5 +74,14 @@ export class ItemDrawerComponent {
   languageSelect(language: string): void {
     this.selectedLanguage = language;
     this.languageChange.emit(language);
+  }
+
+  openPurchase(): void {
+    this.dialog.open(PurchaseModalComponent, {
+      width: '95%',
+      data: {
+        warningMessage: this.mobileWarning
+      }
+    });
   }
 }
