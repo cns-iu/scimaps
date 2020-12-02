@@ -1,20 +1,26 @@
-<div class="warning-dialog wrapper">
+<div class="purchase-modal wrapper">
   <div class="container">
-    <div class="close">
-      <mat-icon class="material-icons close-icon" (click)=close()>clear</mat-icon>
-    </div>
     <div class="content">
-      <div class="info-icon-container">
-        <div class="info-icon">i</div>
-      </div>
-
-      <mat-dialog-content class="mat-typography">
+      <mat-dialog-content class="purchase-info">
+        <p>Purchase Map(s)</p>
         <p class="description">
-          {{ warningMessage }}
+          Most exhibit maps can be purchased individually. Maps are 30" x 24" (76cm x 61cm). Different Pricing options are available.
         </p>
+        <ul class="purchase-options">
+          <li>Inkjet print: $45 ea*</li>
+          <li>Premium archival print: $100 ea*</li>
+          <li>Iteration poster sets (inkjet): $150 per iteration* or $950 for all 20 posters*</li>
+        </ul>
+        <p>*plus shipping</p>
+        <p class="instructions">
+          Complete and submit the form. You will be contacted by a staff member to complete your order and verify all information.
+        </p>
+      </mat-dialog-content>
 
+      <mat-dialog-content class="purchase-form">
+        <div>form goes here</div>
         <div class="button-container">
-          <button class="continue-button" (click)="buttonClickHandler()">CONTINUE</button>
+          <button class="send-button" (click)="buttonClickHandler()">SEND</button>
         </div>
       </mat-dialog-content>
     </div>

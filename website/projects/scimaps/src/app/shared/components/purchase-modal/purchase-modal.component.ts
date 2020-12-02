@@ -1,10 +1,5 @@
 import { Component, HostBinding, Inject } from '@angular/core';
-import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
-
-interface PurchaseModalData {
-  closeLink?: string;
-  warningMessage?: string;
-}
+import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   selector: 'sci-purchase-modal',
@@ -15,17 +10,7 @@ export class PurchaseModalComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-warning-dialog';
 
-  warningMessage = '';
-
-  constructor(
-    public dialogRef: MatDialogRef<PurchaseModalComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: PurchaseModalData
-  ) {
-
-    if (data.warningMessage) {
-      this.warningMessage = data.warningMessage;
-    }
-  }
+  constructor(public dialogRef: MatDialogRef<PurchaseModalComponent>) { }
 
   /**
    * Closes info dialog component

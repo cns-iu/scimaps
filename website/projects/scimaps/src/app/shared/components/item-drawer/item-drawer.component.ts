@@ -12,9 +12,6 @@ export class ItemDrawerComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-item-drawer';
 
-  mobileWarning = 'Macroscopes work best on desktop or larger tablet screens.  You may have a less than optimal experience on this device.';
-
-
   /**
    * Item to be displayed in the drawer
    */
@@ -78,10 +75,7 @@ export class ItemDrawerComponent {
 
   openPurchase(): void {
     this.dialog.open(PurchaseModalComponent, {
-      width: '95%',
-      data: {
-        warningMessage: this.mobileWarning
-      }
+      width: '95%'
     });
   }
 }
