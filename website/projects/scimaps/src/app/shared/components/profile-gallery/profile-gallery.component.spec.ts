@@ -53,4 +53,19 @@ describe('ProfileGalleryComponent', () => {
     const source = instance.getImageSource(instance.profiles[0]);
     expect(source).toEqual('assets/test-directory/name-surname/image.png');
   });
+
+  it('should call the goToLink() method with the correct URL when a profile is clicked', async () => {
+    const { instance, find } = await shallow.render({ bind: { profiles: getProfiles(1), directory }});
+    const spy = spyOn(instance, 'goToLink');
+    const profile = find('.profile')[0];
+    profile.triggerEventHandler('click', {});
+    expect(spy).toHaveBeenCalledWith(testProfile.link);
+  });
+
+  it('should call window.open when goToLink() is called', async () => {
+    const { instance } = await shallow.render({ bind: { profiles: getProfiles(1), directory }});
+    const spy = spyOn(window, 'open');
+    instance.goToLink('www.google.com');
+    expect(spy).toHaveBeenCalledWith('www.google.com', '_blank');
+  });
 });

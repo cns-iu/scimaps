@@ -19,4 +19,8 @@ export class ProfileGalleryComponent {
   getImageSource(profile: Profile): string {
     return `assets/${this.directory}/${profile.slug}/image.png`;
   }
+
+  goToLink(link: string): void {
+    window.open(link, '_blank');
+  }
 }

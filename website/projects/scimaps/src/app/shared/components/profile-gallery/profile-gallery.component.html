@@ -2,7 +2,7 @@
 <div class="description" *ngIf="description !== ''">{{ description }}</div>
 
 <div class="profile-container">
-  <div class="profile" *ngFor="let profile of profiles">
+  <div class="profile" *ngFor="let profile of profiles" (click)="goToLink(profile.link)">
     <img class="profile-image" [src]="getImageSource(profile)" [alt]="profile.slug + '/image.png'">
     <div class="profile-about">
       <div class="profile-name">{{ profile.name }}</div>

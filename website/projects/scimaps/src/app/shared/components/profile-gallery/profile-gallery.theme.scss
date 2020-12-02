@@ -8,6 +8,12 @@
     .title {
       color: mat-color($grey, 600);
     }
+
+    .profile:hover {
+      .profile-about {
+        background-color: mat-color($grey, 300);
+      }
+    }
   }
 }
 
