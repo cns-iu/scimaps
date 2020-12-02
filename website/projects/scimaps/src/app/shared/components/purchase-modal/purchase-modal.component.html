@@ -1,7 +1,7 @@
 <div class="purchase-modal wrapper">
   <div class="container">
-    <div class="content">
-      <mat-dialog-content class="purchase-info">
+    <mat-dialog-content class="content">
+      <div class="purchase-info">
         <p>Purchase Map(s)</p>
         <p class="description">
           Most exhibit maps can be purchased individually. Maps are 30" x 24" (76cm x 61cm). Different Pricing options are available.
@@ -15,14 +15,31 @@
         <p class="instructions">
           Complete and submit the form. You will be contacted by a staff member to complete your order and verify all information.
         </p>
-      </mat-dialog-content>
+      </div>
 
-      <mat-dialog-content class="purchase-form">
-        <div>form goes here</div>
+      <div class="purchase-form">
+        <div class="form">
+          <mat-form-field appearance="fill">
+            <mat-label>Input</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </div>
+        <div class="form">
+          <mat-form-field appearance="fill">
+            <mat-label>Input</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </div>
+        <div class="form">
+          <mat-form-field appearance="fill">
+            <mat-label>Input</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </div>
         <div class="button-container">
           <button class="send-button" (click)="buttonClickHandler()">SEND</button>
         </div>
-      </mat-dialog-content>
-    </div>
+      </div>
+    </mat-dialog-content>
   </div>
 </div>

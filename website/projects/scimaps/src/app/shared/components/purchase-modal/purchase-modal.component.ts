@@ -8,7 +8,7 @@ import { MatDialogRef } from '@angular/material/dialog';
 })
 export class PurchaseModalComponent {
   /** HTML class name */
-  @HostBinding('class') readonly clsName = 'sci-warning-dialog';
+  @HostBinding('class') readonly clsName = 'sci-purchase-modal';
 
   constructor(public dialogRef: MatDialogRef<PurchaseModalComponent>) { }
 
