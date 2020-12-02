@@ -48,22 +48,22 @@ describe('DiscoverListingComponent', () => {
     shallow = new Shallow(DiscoverListingComponent, DiscoverListingModule);
   });
 
-  // it('should create the correct image source', async () => {
-  //   const { instance } = await shallow.render({ bind: { discoverItem, type }});
-  //   const imageSource = instance.imageSource('image1.png');
-  //   expect(imageSource).toEqual('assets/macroscopes/macroscopes-2019/image1.png');
-  // });
+  it('should create the correct image source', async () => {
+    const { instance } = await shallow.render({ bind: { discoverItem, type }});
+    const imageSource = instance.imageSource('image1.png');
+    expect(imageSource).toEqual('assets/macroscopes/macroscopes-2019/image1.png');
+  });
 
-  // it('should call window.open when the desktop click handler is called', async () => {
-  //   const { instance } = await shallow.render({ bind: { discoverItem, type }});
-  //   const spy = spyOn(window, 'open');
-  //   instance.desktopThumbnailClickHandler('www.google.com');
-  //   expect(spy).toHaveBeenCalledWith('www.google.com', '_blank');
-  // });
+  it('should call window.open when the desktop click handler is called', async () => {
+    const { instance } = await shallow.render({ bind: { discoverItem, type }});
+    const spy = spyOn(window, 'open');
+    instance.desktopThumbnailClickHandler('www.google.com');
+    expect(spy).toHaveBeenCalledWith('www.google.com', '_blank');
+  });
 
-  // it('should launch the modal when the mobile click handler is called', async () => {
-  //   const { instance, get } = await shallow.mock(MatDialog, mockMatDialog).render({ bind: { discoverItem, type }});
-  //   instance.mobileThumbnailClickHandler('www.google.com');
-  //   expect(get(MatDialog).open).toHaveBeenCalled();
-  // });
+  it('should launch the modal when the mobile click handler is called', async () => {
+    const { instance, get } = await shallow.mock(MatDialog, mockMatDialog).render({ bind: { discoverItem, type }});
+    instance.mobileThumbnailClickHandler('www.google.com');
+    expect(get(MatDialog).open).toHaveBeenCalled();
+  });
 });
