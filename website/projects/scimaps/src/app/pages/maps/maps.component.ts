@@ -1,5 +1,5 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
-import { DiscoverItem } from '../../shared/components/discover-listing/discover-item';
+import { DiscoverItem } from '../../core/models/discover-item';
 
 @Component({
   selector: 'sci-maps',

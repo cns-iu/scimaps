@@ -1,5 +1,5 @@
 import { Component, Input, HostBinding, Output, EventEmitter } from '@angular/core';
-import { MapItem } from '..//discover-listing/discover-item';
+import { MapItem } from '../../../core/models/discover-item';
 
 @Component({
   selector: 'sci-item-drawer',

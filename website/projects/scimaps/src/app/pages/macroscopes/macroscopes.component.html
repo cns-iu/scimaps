@@ -13,7 +13,7 @@
   </div>
 </div>
 
-<sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item"></sci-discover-listing>
+<sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item" [type]="'macroscopes'"></sci-discover-listing>
 
 <button *ngIf="moreMacroscopes()" class="more-button" (click)="showMoreMacroscopes()">Show More Macroscopes</button>
 <div class="mobile-button" (click)="showModal = true;">
@@ -29,7 +29,7 @@
 
   <sci-carousel>
     <sci-carousel-item *ngFor="let discoverItem of discoverItems">
-      <sci-discover-listing [discoverItem]="discoverItem"></sci-discover-listing>
+      <sci-discover-listing [discoverItem]="discoverItem" [type]="'macroscopes'"></sci-discover-listing>
     </sci-carousel-item>
   </sci-carousel>
 </div>
