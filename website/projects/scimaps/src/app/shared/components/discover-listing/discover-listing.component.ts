@@ -40,6 +40,10 @@ export class DiscoverListingComponent {
   }
 
   desktopThumbnailClickHandler(link: string): void {
-    this.openDrawer.emit();
+    if (this.type === 'macroscopes') {
+      window.open(link, '_blank');
+    } else {
+      this.openDrawer.emit();
+    }
   }
 }
