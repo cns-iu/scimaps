@@ -27,8 +27,8 @@
     <div class="mobile-title"><h3>Macroscopes</h3></div>
   </div>
 
-  <sci-carousel>
-    <sci-carousel-item *ngFor="let discoverItem of discoverItems">
+  <sci-carousel class="macroscopes-carousel">
+    <sci-carousel-item class="mobile-carousel" *ngFor="let discoverItem of discoverItems">
       <sci-discover-listing [discoverItem]="discoverItem" [type]="'macroscopes'"></sci-discover-listing>
     </sci-carousel-item>
   </sci-carousel>
