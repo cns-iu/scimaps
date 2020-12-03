@@ -45,6 +45,6 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# Generated indexes
+# Generated data
 projects/scimaps/src/indexes
-
+projects/scimaps/src/content
