@@ -270,7 +270,7 @@ backend:
 # Uncomment below when using the default proxy server port
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ## Basically run `npx netlify-cms-proxy-server` and launch the angular site
-local_backend: false
+local_backend: true
 
 i18n:
   structure: single_file
