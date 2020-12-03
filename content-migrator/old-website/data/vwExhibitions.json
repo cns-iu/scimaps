@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1.0,
+    "title": "*",
+    "venue": "IEEE VIS",
+    "venue_link": "http://ieeevis.org/",
+    "type": "Poster Exhibit & Related Events",
+    "type_order": 2.0,
+    "photo_link": null,
+    "start_date": "2014-11-09",
+    "end_date": "2014-11-14",
+    "city": null,
+    "state": "Paris",
+    "country": "France"
+  },
+  {
+    "id": 2.0,
+    "title": null,
+    "venue": "University of Miami",
+    "venue_link": "http://www.miami.edu/",
+    "type": "Physical Exhibit",
+    "type_order": 1.0,
+    "photo_link": null,
+    "start_date": "2014-09-04",
+    "end_date": "2014-12-11",
+    "city": "Miami",
+    "state": "FL",
+    "country": null
+  },
+  {
+    "id": 3.0,
+    "title": "(J.D. Talasek)",
+    "venue": "National Academy of Science",
+    "venue_link": "http://www.cpnas.org/exhibitions/current-exhibitions/places-spaces-mapping.html",
+    "type": "Physical Exhibit",
+    "type_order": 1.0,
+    "photo_link": "http://scimaps.org/exhibit/galleries/2013-NationalAcademyofSciences",
+    "start_date": "2013-01-01",
+    "end_date": "2013-06-01",
+    "city": "Upstairs Gallery, Washington D.C",
+    "state": null,
+    "country": null
+  }
+]

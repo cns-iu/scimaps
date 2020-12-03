@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1.0,
+    "year": 2005.0,
+    "title": "The Power of Maps",
+    "subTitleOne": "Four Early World Maps",
+    "subTitleTwo": "Six Early Science Maps",
+    "description": "<p>The first iteration of this exhibit aims to show the power of maps to help understand, navigate, and manage both physical places and abstract knowledge spaces.\n<br /><br />\n\nThe first maps of our planet were neither complete nor entirely accurate. Yet, they were invaluable for navigation, exploration, and communication. They helped explorers avoid monsters and find promising lands. Maps of science developed today are not perfectly precise either since they are generated based on only a small portion of humanity’s scholarly knowledge. The generation of comprehensive and accurate maps requires the proper interlinkage of multilingual, multidisciplinary, and multimedia scholarly knowledge.\n<br /><br />\n\nNote that each of the six early maps of science displayed uses a different metaphor. What metaphor is most effective in designing a visual index of humanity’s knowledge and expertise?\n</p>"
+  },
+  {
+    "id": 2.0,
+    "year": 2006.0,
+    "title": "The Power of Reference Systems",
+    "subTitleOne": "Four Existing Reference Systems",
+    "subTitleTwo": "Six Science Reference Systems",
+    "description": "<p>The second iteration aims to inspire discussion about a common reference system for all of humanity’s scholarly knowledge.<br /><br />\n\nThroughout history, scientists have struggled to reach agreement upon standardized reference systems for their respective fields of research. The results include the electromagnetic spectrum, the periodic table of elements, geographic projections, and the celestial reference systems, all of which appear in this iteration. These standards are invaluable for indexing, storing, accessing, and managing scientific data efficiently.<br /><br />\n\nShown in comparison are six potential reference systems for scholarly knowledge. Each reference system&#8212;from the one-dimensional timeline, to the geospatial system, to the semantic system&#8212;could be used to identify the location of an author, paper, patent, or grant. This would highlight the dynamics of an author’s, institution’s, or country’s contributions or the impact of a particular work.\n</p>"
+  },
+  {
+    "id": 3.0,
+    "year": 2007.0,
+    "title": "The Power of Forecasts",
+    "subTitleOne": "Four Existing Forecasts",
+    "subTitleTwo": "Six Science Forecasts",
+    "description": "<p>The third iteration compares and contrasts maps of seismic hazards, resource depletion, economic models, and epidemic forecasts with maps forecasting the structure and evolution of science.<br /><br />\n\nReal-time weather forecasts are served by the National Oceanic and Atmospheric Administration (NOAA) and the National Aeronautics and Space Administration (NASA). Computational models of the movements of tectonic plates help reduce losses due to earthquakes, volcanic activity, or tsunamis. Economic models let us simulate either catastrophic or sustainable futures for humanity. Epidemic models allow us to understand how interconnected we all are and how actions far away affect us right here.<br /><br />\n\nDaily science and technology forecasts would show science maps with overlays of top experts, institutions, countries, major activity bursts, or emerging research frontiers augmenting our knowledge and decision-making capabilities. Given the importance of such forecasts, one might question why they are not available on TV, in the press, or online.\n</p>"
+  },
+  {
+    "id": 4.0,
+    "year": 2008.0,
+    "title": "Science Maps for Economic Decision Makers",
+    "subTitleOne": "Four Existing Maps",
+    "subTitleTwo": "Six Science Maps",
+    "description": "<p>This is the first of six iterations that explore the utility of science maps for different stakeholders. The maps presented here meet the needs of economic decision-makers. They answer questions such as:</p>\n<ul class=\"middle\">\n<li>What is the impact of war on global trade flows?</li>\n<li>How do accelerating communication and transportation speeds impact our lives?</li>\n<li>What events and time lags occur from basic research to product sale?</li>\n<li>What are the (social) networks behind illicit deals and laundered money?</li>\n<li>What intellectual property space is claimed by whom, and what growth is expected?</li>\n<li>What is the ecological footprint of a country, and how sustainable is it?</li>\n<li>How does the ‘Product Space’ determine the economic development of nations?</li>\n<li>How to visually empower strategy formation and value creation in organizations?</li>\n<li>How are publications linked to patents in different areas of science?</li>\n<li>What factors impact the happiness of citizens, and which countries experience the most happiness?</li>\n</ul>"
+  },
+  {
+    "id": 5.0,
+    "year": 2009.0,
+    "title": "Science Maps for Science Policy Makers",
+    "subTitleOne": "Four Existing Maps",
+    "subTitleTwo": "Six Science Maps",
+    "description": "<p>This iteration shows science maps for science policy-makers as well as citizens interested in understanding national priorities, spending, and achievements. Featured are two early maps, two maps of observation and sensor data, and six maps of scholarly data. The maps communicate:</p>\n<ul>\n<li>The steady increase of scientists in the total population, versus a decline of R&D investment as a fraction of GNP.</li>\n<li>Categories for evaluating and comparing evolving scientific collaboration.</li>\n<li>Needed changes in the Boston Traffic Separation Scheme to reduce the risk of ships striking whales.</li>\n<li>Urban mobility patterns to improve the design and management of cities.</li>\n<li>The U.S. federal discretionary budget.</li>\n<li>Return on investment for U.S. chemistry R&D including a timeline and investment cycles.</li>\n<li>Funding portfolios of the National Institutes of Health.</li>\n<li>The structure of science based on download (rather than publication) activity.</li>\n<li>Research leadership of the U.S. compared with the top-12 competitive nations.</li>\n<li>Progress towards the Millennium Development Goals to be achieved by 2015.</li>\n</ul>"
+  },
+  {
+    "id": 6.0,
+    "year": 2010.0,
+    "title": "Science Maps for Scholars",
+    "subTitleOne": "Four Existing Maps",
+    "subTitleTwo": "Six Science Maps",
+    "description": "<p>This iteration explores the utility of science maps for scholars and answers questions such as:</p>\n<ul>\n<li>Who are our ancestors, and how are we related to other species?</li>\n<li>How do human brain regions interlink and impact our thoughts and behaviors?</li>\n<li>What drugs target what diseases, and how do disease phenotypes interact?</li>\n<li>How do children learn language in complex social environments, and how can language disorders be treated?</li>\n<li>What communities and interdisciplinary connections exist across the field of media art?</li>\n<li>How are scholars linked to texts, people, projects, events, their relationships, as well as personal comments?</li>\n<li>Which literary writers used what temporal and spatial settings in Victorian poetry?</li>\n<li>How do multiple scientific specialties merge to form a new area of science?</li>\n<li>How do scientists weave the fabric of science via collaborations and citations?</li>\n<li>Where are the academic jobs?</li>\n</ul>"
+  },
+  {
+    "id": 7.0,
+    "year": 2011.0,
+    "title": "Science Maps as Visual Interfaces to Digital Libraries",
+    "subTitleOne": "Four Existing Maps",
+    "subTitleTwo": "Six Science Maps",
+    "description": "<p>This iteration explores the utility of science maps as visual interfaces to digital libraries to support the selection, navigation, management, and usage of resources by communicating:</p>\n<ul>\n<li>Early visions of a multimedia work station and the Internet.</li>\n<li>A hand-drawn map of natural sciences and technology with overlays of different index and abstracting services.</li>\n<li>A visualization of textual cross-references in the Bible.</li>\n<li>Differences in the coverage and search functionality of four major publication databases and their impact on search result sets.</li>\n<li>A comparison of Wikipedia's category structure and the Universal Decimal Classification.</li>\n<li>Expert locations and worldwide scientific collaboration patterns.</li>\n<li>The complete structure and interlinkage of different data types from a scholarly database to judge data quality and coverage.</li>\n<li>An overview of key metadata standards in the cultural heritage sector to assist planners with the selection and implementation of these standards.</li>\n<li>The hierarchical structure of over 2,800 terms for tagging digital resources in architecture in different languages.</li>\n<li>The history of science fiction rendered as graphical chronology.</li>\n</ul>"
+  },
+  {
+    "id": 8.0,
+    "year": 2012.0,
+    "title": "Science Maps for Kids",
+    "subTitleOne": "Four Existing Maps",
+    "subTitleTwo": "Six Science Maps",
+    "description": "<p>This iteration features science maps designed for children aged 5-14. The maps communicate:</p>\n<ul>\n<li>4.5 billion years of Earth’s evolution and the life forms that inhabit it.</li>\n<li>The intertwining journeys of favorite characters from recent fantasy and science-fiction films.</li>\n<li>A floor plan of the Metropolitan Museum of Art that shows a subset of its two million works of art spanning five thousand years of world culture.</li>\n<li>The political spectrum via a comparison of different stances on society and culture, family relationships, adulthood, and beliefs.</li>\n<li>The interplay of life expectancy and income per person for each country.</li>\n<li>How inventions and inventors are embedded in a vast web of human knowledge.</li>\n<li>Stylistic variations among 1,074,790 manga pages in 883 distinct series from Japan, Korea, and China.</li>\n<li>The fundamental interconnectedness of science and stories of how animals and accidents help discovery.</li>\n<li>The impact of language on human networks and communication patterns.</li>\n<li>The topical composition and length of over 3,000 educational videos and their usage by students around the globe.</li>\n</ul>"
+  },
+  {
+    "id": 9.0,
+    "year": 2013.0,
+    "title": "Science Maps Showing Trends and Dynamics",
+    "subTitleOne": "Four Existing Maps",
+    "subTitleTwo": "Six Science Maps",
+    "description": "<p>This iteration features science maps that show general trends and dynamics in science and technology. The maps communicate:</p>\n<ul>\n<li>Ocean circulation estimates to quantify the ocean’s role in the global carbon cycle and to monitor its evolving heat, water, and chemical exchanges over time.</li>\n<li>Over 160 years of recorded tropical storms and hurricanes by their paths and intensities.</li>\n<li>Global polar bear abundance figures, harvest rates, circumpolar pollution levels, and the shrinking Arctic sea ice.</li>\n<li>The mood of the U.S. based on an analysis of over 300 million public tweets sent between September 2006 and August 2009.</li>\n<li>Complexity science's major intellectual traditions, leading scholarly themes and methods, as well as key scholars who founded or pioneered work.</li>\n<li>The development of science during the period 1980–2010 based on key terms and phrases.</li>\n<li>Hewlett Foundation funding distribution and impact in support of future funding applications and grant-making decisions.</li>\n<li>Popular living people profiles and their interlinkages from eight different-language Wikipedias showing cultures and their evolution.</li>\n<li>An identification of scientific discoveries and technological innovations using 23 million papers and patents.</li>\n<li>The evolving structure of scientific fields, exemplified for prosthetic science.</li>\n</ul>"
+  },
+  {
+    "id": 10.0,
+    "year": 2014.0,
+    "title": "The Future of Science Mapping",
+    "subTitleOne": "Four Existing Maps",
+    "subTitleTwo": "Six Science Maps",
+    "description": "<div style=\"margin-top:0;\">\n<p>This 10th and final iteration aims to inspire continuous innovation and the utilization of science mapping by featuring visualizations of:\n<ul>\n<li>Physics—from the 6th century B.C. to the present—to communicate key theoretical starting points, streams of thought and well-known diagrams.</li>\n<li>The Internet with old and new continents of websites and services.</li>\n<li>Emerging pandemic threats in the developing world for early detection of viruses from wildlife with pandemic potential.</li>\n<li>Roman transportation that shows the impact of geography and seasonality on transportation time, costs, and the dominance of cities.</li>\n<li>Money to illustrate possession and expenditure from dollars to trillions of dollars.</li>\n<li>Citation contexts to provide insight on the internal organization of scientific papers.</li>\n<li>Funding portfolios to compare and coordinate funding efforts across agencies.</li>\n<li>Graphene publications and patents to help illustrate innovation dynamics in support of business and policy decision-making.</li>\n<li>Altruism to understand the commonalities with and differences from scientific activities.</li>\n<li>Interstitial organizations that create bridges between civic ideals, managerial concepts, and scientific assessment.</li>\n</ul>\n\nPlease enjoy the maps then map your very own data. </p><br />\n</div>"
+  },
+  {
+    "id": 11.0,
+    "year": 2015.0,
+    "title": "Macroscopes for Interacting with Science",
+    "subTitleOne": "Four Macroscopes",
+    "subTitleTwo": null,
+    "description": "<p>Interactive data visualizations, or macroscopes, have great potential as tools for exploring, understanding, and communicating science. They empower individuals to interact with data and to make their very own maps. This iteration features macroscopes that:\n<ul>\n<li>Track wind speed, temperature, pollution, and weather patterns in real time and worldwide.</li>\n<li>Organize 20 years of reports from four major research institutions, grouping and arranging them based on topics, popularity, and publication date.</li>\n<li>Illustrate connections between countries based on local news stories in more than 100 languages.</li>\n<li>Chart the movements of people and changing cultural influences by tracking the birth and death locations of 120,000 individuals over the past 2,600 years.</li>\n</ul>"
+  },
+  {
+    "id": 12.0,
+    "year": 2016.0,
+    "title": "Macroscopes for Making Sense of Science",
+    "subTitleOne": "Four Macroscopes",
+    "subTitleTwo": null,
+    "description": "<p>The world is complex. Macroscopes help us understand and manage that complexity. They are visual lenses we can use to focus on patterns and trends in large volumes of data. \n</p>\n<br />\n<p>\nThese four macroscopes use data that varies tremendously in terms of subject matter and method of collection: city smells derived from social media, a library collection mapped in time and space, institutional partnerships revealed through publications, and ship locations tracked by satellite. However, they each present data visually to make new perspectives possible.</p>"
+  },
+  {
+    "id": 13.0,
+    "year": 2017.0,
+    "title": "Macroscopes for Playing with Scale",
+    "subTitleOne": "Four Macroscopes",
+    "subTitleTwo": null,
+    "description": "<p>If you are lost in the details of a problem, some say you cannot see the forest for the trees. Macroscopes, however, allow you to view both the forest and the trees. Macroscopes can even provide a view of that forest from outer space, and then zoom in to show you one individual leaf. The macroscopes in this iteration are especially good at conveying a sense of scale and navigating through data at different scales. They include some of the largest data sets imaginable, like the cosmos and the history of the world. Yet, they also let you focus on an individual detail, like the most important paper in one scientist’s career.</p>"
+  },
+  {
+    "id": 15.0,
+    "year": 2019.0,
+    "title": "Macroscopes for Tracking the Flow of Resources",
+    "subTitleOne": "Four Macroscopes",
+    "subTitleTwo": null,
+    "description": "<p>The flow of financial and human resources shapes the world, and understanding that flow can help you find your place in it. Your location, your income, your career skills, and the politics that have the ability to change the flow of all these resources affect where and how you live. View the complex flow of political opinion, the movement of refugees, changes in workplace demands, and resulting income inequalities through this collection of macroscopes.</p>"
+  },
+  {
+    "id": 14.0,
+    "year": 2018.0,
+    "title": "Macroscopes for Ensuring our Well-being",
+    "subTitleOne": "Four Macroscopes",
+    "subTitleTwo": null,
+    "description": "<p>We make decisions every day that affect our personal health, safety, and happiness. Each of these macroscopes provides a glimpse into data on a topic of great importance to our collective well-being.</p><br><p>How we handle climate change, feed our bodies, address public health emergencies, and prevent violence have huge implications for human survival. Use these four macroscopes to explore the data behind the headlines, to develop a deeper understanding of each issue, and perhaps to devise creative solutions for the problems we face together.</p>"
+  },
+  {
+    "id": 16.0,
+    "year": 2020.0,
+    "title": "Macroscopes for Harnessing the Power of Data",
+    "subTitleOne": "Four Macroscopes",
+    "subTitleTwo": null,
+    "description": "<p>Macroscopes gather vast amounts of information, analyze it, and visualize it to gain clear insights from complex data. To do so, they use powerful algorithms. This iteration highlights different methods for analyzing and visualizing a dataset: scrollytelling, network analysis, dimensionality reduction, and natural language processing. Each can be used to create data portals of great power, utility, and beauty.</p>"
+  }
+]
