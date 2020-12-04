@@ -10,6 +10,8 @@ export class PurchaseModalComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-purchase-modal';
 
+  confirmation = false;
+
   constructor(public dialogRef: MatDialogRef<PurchaseModalComponent>) { }
 
   /**
@@ -19,8 +21,12 @@ export class PurchaseModalComponent {
     this.dialogRef.close();
   }
 
-  buttonClickHandler(): void {
+  buttonClickCancel(): void {
     this.close();
+  }
+
+  buttonClickSend(): void {
+    this.confirmation = true;
   }
 
 }

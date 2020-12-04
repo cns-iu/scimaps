@@ -1,6 +1,6 @@
 :host {
 
-  .content {
+  .screen1 {
     display: flex;
 
     .purchase-info, 
@@ -9,6 +9,19 @@
       flex-direction: column;
       width: 50%;
       height: 100%;
+    }
+
+    .purchase-info {
+      color: #424242;
+
+      .purchase-options {
+        padding-inline-start: 1rem;
+        margin-bottom: 1.5rem;
+      }
+      .instructions {
+        margin-top: 3rem;
+        color: #4A5F68;
+      }
     }
 
     .purchase-form-container {
@@ -34,8 +47,22 @@
 
           .mat-form-field-flex {
             background-color: inherit;
+
+            .mat-input-element {
+              caret-color: black;
+            }
+    
+            mat-label {
+              color: white;
+            }
+          }
+
+          .mat-form-field-underline,
+          .mat-form-field-ripple {
+            background-color: black;
           }
         }
+
         .first-name {
           width: 45%;
         }
@@ -59,9 +86,16 @@
         }
 
         .shipping-info{
+          .shipping-info-label {
+            color: white;
+            margin-bottom: 0.5rem;
+          }
           .textarea {
             background-color: rgba(255,255,255,0.2);
-            height: 6rem;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgba(255,255,255,0.3);
+            height: 5rem;
           }
         }
 
@@ -89,7 +123,33 @@
         }
       } 
     }
+  }
 
+  .screen2 {
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 25rem;
 
+      h1 {
+        color: #7996A3;
+      }
+
+      .confirmation-text {
+        margin: 0 0 1.5rem;
+        width: 60%;
+        text-align: center;
+      }
+
+      .button {
+        cursor: pointer;
+        padding: .5rem;
+        color: #7996A3;
+        border: 2px solid #7996A3;
+        background-color: inherit;
+      }
+    }
   }
 }

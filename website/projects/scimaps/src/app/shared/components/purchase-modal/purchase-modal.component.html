@@ -1,8 +1,8 @@
 <div class="purchase-modal wrapper">
   <div class="container">
-    <mat-dialog-content class="content">
+    <mat-dialog-content *ngIf="!confirmation" class="screen1">
       <div class="purchase-info">
-        <p>Purchase Map(s)</p>
+        <h4 class="purchase-title">Purchase Map(s)</h4>
         <p class="description">
           Most exhibit maps can be purchased individually. Maps are 30" x 24" (76cm x 61cm). Different Pricing options are available.
         </p>
@@ -60,17 +60,27 @@
             </mat-form-field>
           </div>
           <div class="shipping-info">
-            <div>Map name(s) and preferred shipping method</div>
+            <div class="shipping-info-label">Map name(s) and preferred shipping method</div>
             <textarea class="shipping-info textarea" matInput></textarea>
           </div>
           <div class="button-container">
-            <button class="cancel button" (click)="buttonClickHandler()">CANCEL</button>
-            <button class="send button" (click)="buttonClickHandler()">SEND</button>
+            <button class="cancel button" (click)="buttonClickCancel()">CANCEL</button>
+            <button class="send button" (click)="buttonClickSend()">SEND</button>
           </div>
         </div>
       </div>
+    </mat-dialog-content>
 
-
+    <mat-dialog-content *ngIf="confirmation" class="screen2">
+      <div class="content">
+        <h1 class="confirmation-header">
+          Thank you for your order!
+        </h1>
+        <p class="confirmation-text">
+          A staff member will contact you to complete the payment process and confirm details.
+        </p>
+        <button class="button" (click)="buttonClickCancel()">DONE</button>
+      </div>
     </mat-dialog-content>
   </div>
 </div>
