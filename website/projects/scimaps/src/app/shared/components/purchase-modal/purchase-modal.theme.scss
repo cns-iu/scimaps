@@ -6,10 +6,71 @@
   $primary: map-get($config, primary);
 
   .sci-purchase-modal {
-    .send-button {
-      color: mat-color($primary, 500);
-      border: 2px solid mat-color($primary, 500);
-      background-color: mat-color($primary, default-contrast);
+    .purchase-info {
+      color: #424242;
+    }
+
+    .instructions {
+      color: mat-color($primary, darker);
+    }
+
+    .purchase-form-container {
+      background-color : mat-color($primary);
+    }
+
+    .mat-input-element {
+      caret-color: black;
+    }
+
+    mat-label {
+      color: white;
+    }
+
+    .mat-form-field-underline,
+    .mat-form-field-ripple {
+      background-color: black;
+    }
+
+    .shipping-info {
+      .shipping-info-label {
+        color: white;
+      }
+      .textarea {
+        background-color: rgba(255,255,255,0.2);
+        border-color: rgba(255,255,255,0.3);
+      }
+    }
+
+    button {
+      color: white;
+
+      &:hover {
+        color: black;
+      }
+    }
+
+    .send {
+      border-color: white;
+
+      &:hover {
+        background-color: white !important;
+        color: mat-color($primary);
+      }
+    }
+
+    .screen2 {
+      h1 {
+        color: mat-color($primary);
+      }
+      .button {
+        border-color: mat-color($primary);
+        color: mat-color($primary);
+
+        &:hover {
+          background-color: mat-color($primary) !important;
+          color: white;
+        }
+      }
     }
   }
 }

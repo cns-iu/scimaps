@@ -12,7 +12,6 @@
     }
 
     .purchase-info {
-      color: #424242;
 
       .purchase-options {
         padding-inline-start: 1rem;
@@ -20,12 +19,10 @@
       }
       .instructions {
         margin-top: 3rem;
-        color: #4A5F68;
       }
     }
 
     .purchase-form-container {
-      background-color : #7996A3;
       padding: 1rem;
       margin-left: 1rem;
 
@@ -47,19 +44,6 @@
 
           .mat-form-field-flex {
             background-color: inherit;
-
-            .mat-input-element {
-              caret-color: black;
-            }
-    
-            mat-label {
-              color: white;
-            }
-          }
-
-          .mat-form-field-underline,
-          .mat-form-field-ripple {
-            background-color: black;
           }
         }
 
@@ -85,16 +69,13 @@
           width: 35%;
         }
 
-        .shipping-info{
+        .shipping-info {
           .shipping-info-label {
-            color: white;
             margin-bottom: 0.5rem;
           }
           .textarea {
-            background-color: rgba(255,255,255,0.2);
             border-style: solid;
             border-width: 1px;
-            border-color: rgba(255,255,255,0.3);
             height: 5rem;
           }
         }
@@ -107,7 +88,6 @@
       
           .button {
             cursor: pointer;
-            color: white;
             background-color: inherit;
 
             &.cancel {
@@ -117,7 +97,8 @@
 
             &.send {
               padding: .5rem;
-              border: 1px solid white;
+              border-width: 1px;
+              border-style: solid;
             }
           }
         }
@@ -133,10 +114,6 @@
       justify-content: center;
       height: 25rem;
 
-      h1 {
-        color: #7996A3;
-      }
-
       .confirmation-text {
         margin: 0 0 1.5rem;
         width: 60%;
@@ -146,8 +123,8 @@
       .button {
         cursor: pointer;
         padding: .5rem;
-        color: #7996A3;
-        border: 2px solid #7996A3;
+        border-width: 2px;
+        border-style: solid;
         background-color: inherit;
       }
     }
