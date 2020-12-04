@@ -1,6 +1,25 @@
 $breakpoint: 768px;
 
+::ng-deep mat-dialog-container { 
+  padding: 0 !important;
+
+  mat-dialog-content {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    .purchase-info {
+      padding: 1rem;
+    }
+  }
+}
+
 :host {
+  .purchase-modal {
+    width: 100%;
+    .container {
+      height: 100%;
+    }
+  }
   ::ng-deep mat-dialog-content {
     @media (max-width: $breakpoint) {
       max-height: unset;
