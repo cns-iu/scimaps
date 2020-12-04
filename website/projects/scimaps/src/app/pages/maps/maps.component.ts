@@ -310,6 +310,8 @@ export class MapsComponent implements OnInit {
     document.body.style.overflow = 'unset';
     document.body.style.marginRight = '0';
     const drawer = document.getElementsByClassName('details-drawer')[0] as HTMLElement;
-    drawer.style.width = 'calc(100% + 1rem)';
+    if (window.innerWidth > 640) {
+      drawer.style.width = 'calc(100% + 1rem)';
+    }
   }
 }

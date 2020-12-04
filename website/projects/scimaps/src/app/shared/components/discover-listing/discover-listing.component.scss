@@ -48,7 +48,6 @@ $mobile: 640px;
 
     @media (max-width: $mobile) {
       flex-wrap: wrap;
-      justify-content: space-around;
     }
 
     &:last-child {
@@ -56,12 +55,13 @@ $mobile: 640px;
     }
 
     .thumbnail {
-      cursor: pointer;
       margin-right: 1rem;
+      cursor: pointer;
       margin-bottom: 1rem;
       width: 22%;
 
       @media (max-width: $mobile) {
+        margin-right: 0;
         position: relative;
         width: 46%;
       }
@@ -87,6 +87,7 @@ $mobile: 640px;
     }
 
     .thumbnail.desktop {
+      margin-right: 1rem;
       @media (max-width: $mobile) {
         display: none;
       }

@@ -1,4 +1,17 @@
+$breakpoint: 768px;
+
+@media (max-width: $breakpoint) {
+  ::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+  }
+}
+
 html {
+  @media (max-width: $breakpoint) {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
   box-sizing: border-box;
   
   &.cdk-global-scrollblock {

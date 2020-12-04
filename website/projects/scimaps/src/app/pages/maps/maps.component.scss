@@ -22,6 +22,10 @@ $breakpoint: 768px;
     transition: top 1s;
     overflow-y: scroll;
     z-index: 6;
+    
+    ::-webkit-scrollbar {
+      -webkit-appearance: none;
+    }
   }
 
   .details-drawer {
@@ -152,7 +156,7 @@ $breakpoint: 768px;
     position: absolute;
     top: 0;
     z-index: 5;
-    width: 100vw;
+    width: 100%;
     background-color: white;
     padding: 1rem;
 

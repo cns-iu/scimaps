@@ -66,6 +66,7 @@ $breakpoint: 768px;
 
         @media (max-width: $breakpoint) {
           width: 100%;
+          padding: 0;
         }
 
         .details-title {
@@ -132,7 +133,7 @@ $breakpoint: 768px;
 
         .icon {
           position: absolute;
-          right: 0%;
+          right: 1px;
           height: 3rem;
           width: 3rem;
           justify-content: center;
