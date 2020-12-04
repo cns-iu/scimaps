@@ -1,0 +1,38 @@
+:host {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 4.5rem;
+  align-items: center;
+
+  .logo,
+  .sidenav-toggle,
+  .nav-item,
+  .search {
+    height: 100%;
+    padding: 0 1.5rem;
+  }
+
+  .sidenav-toggle {
+    display: flex;
+    align-items: center;
+
+    button {
+      min-width: unset;
+      padding: 0;
+    }
+  }
+
+  .filler {
+    flex-grow: 1;
+  }
+}
+
+// Annoying angular overlays...
+::ng-deep .sci-header-menu {
+  button {
+    width: 100%;
+    height: 3rem;
+    text-align: start;
+  }
+}

@@ -1,0 +1,48 @@
+<div class="logo"></div>
+
+<div class="filler"></div>
+
+<ng-container *sciBreakpoint="'tablet-'; else: desktopNav">
+  <div class="sidenav-toggle">
+    <button mat-flat-button (click)="sidenavOpenChange.emit(sidenavOpen = !sidenavOpen)">
+      <sci-menu-icon [alternateIcon]="sidenavOpen"></sci-menu-icon>
+    </button>
+  </div>
+</ng-container>
+
+<ng-template #desktopNav>
+  <button mat-button class="nav-item about" routerLink="/about" routerLinkActive="active">
+    ABOUT
+  </button>
+
+  <button mat-button class="nav-item exhibit"
+          [class.active]="(exhibitTrigger.menuClosed | async) || exhibitTrigger.menuOpen" [matMenuTriggerFor]="exhibit"
+          #exhibitTrigger="matMenuTrigger">
+    THE EXHIBIT
+  </button>
+
+  <mat-menu class="sci-header-menu" #exhibit="matMenu">
+    <button mat-button routerLink="/maps">MAPS</button>
+    <button mat-button routerLink="/macroscopes">MACROSCOPES</button>
+    <button mat-button routerLink="/books">BOOKS</button>
+    <button mat-button routerLink="/call-for-macroscopes">CALL FOR MACROSCOPES</button>
+    <button mat-button routerLink="/venues">VENUES</button>
+    <button mat-button routerLink="/hosting">HOSTING</button>
+  </mat-menu>
+
+  <button mat-button class="nav-item explore"
+          [class.active]="(exploreTrigger.menuClosed | async) || exploreTrigger.menuOpen" [matMenuTriggerFor]="explore"
+          #exploreTrigger="matMenuTrigger">
+    EXPLORE
+  </button>
+
+  <mat-menu class="sci-header-menu" #explore="matMenu">
+    <button mat-button routerLink="/learning-center">LEARNING CENTER</button>
+  </mat-menu>
+
+  <button mat-button class="nav-item contact">
+    CONTACT US
+  </button>
+
+  <div class="search"></div>
+</ng-template>

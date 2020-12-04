@@ -1,0 +1,29 @@
+@import "~@angular/material/theming";
+
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $primary: map-get($config, primary);
+
+  .sci-header {
+    .nav-item {
+      &.active, &:hover {
+        background-color: mat-color($primary, 0.15);
+      }
+    }
+  }
+
+  .sci-header-menu {
+    button:hover {
+      background-color: mat-color($primary, 0.15);
+    }
+  }
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+
+  @if $color {
+    @include color($color);
+  }
+}
