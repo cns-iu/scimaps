@@ -136,6 +136,7 @@ $breakpoint: 768px;
       font-size: 1.5rem;
       height: 1.5rem;
       width: 1.5rem;
+      cursor: pointer;
     }
 
     @media (min-width: $mobile) {
@@ -159,6 +160,10 @@ $breakpoint: 768px;
       display: flex;
       align-items: center;
       margin-bottom: 1.5rem;
+
+      .mobile-icon {
+        cursor: pointer;
+      }
 
       .mobile-title {
         display: flex;

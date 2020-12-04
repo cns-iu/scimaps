@@ -18,6 +18,13 @@ $mobile: 640px;
 }
 
 :host {
+  @media (max-width: $mobile) {
+    top: 0%;
+    transition: top 1s;
+    overflow-y: scroll;
+    z-index: 6;
+  }
+
   .highlight-content {
     display: flex;
     flex-direction: row;
@@ -49,20 +56,6 @@ $mobile: 640px;
         width: 100%;
         padding: 0rem;
         margin-bottom: 1rem;
-      }
-
-      .carousel {
-        width: 100%;
-
-        .carousel-image {
-          width: 100%;
-        }
-
-        .carousel-image-title {
-          padding: 1rem;
-          margin-top: -0.5rem;
-          width: 100%;
-        }
       }
     }
   }
@@ -109,11 +102,14 @@ $mobile: 640px;
   }
 
   .fullscreen-modal {
+    @media (min-width: $mobile) {
+      display: none;
+    }
+
     position: absolute;
     top: 0;
     z-index: 5;
     width: 100vw;
-    height: 100vh;
     padding: 1rem;
 
     .modal-header {
@@ -134,6 +130,10 @@ $mobile: 640px;
           margin-bottom: 0rem !important;
         }
       }
+    }
+
+    .macroscopes-carousel {
+      height: 100%;
     }
   }
 }
