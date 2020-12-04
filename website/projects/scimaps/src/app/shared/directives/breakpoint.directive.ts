@@ -125,12 +125,14 @@ export class BreakpointDirective implements OnDestroy {
       this.elseViewRef = undefined;
       if (thenTemplateRef) {
         this.thenViewRef = viewContainer.createEmbeddedView(thenTemplateRef);
+        this.thenViewRef.markForCheck();
       }
     } else if (!matches && !elseViewRef) {
       viewContainer.clear();
       this.thenViewRef = undefined;
       if (elseTemplateRef) {
         this.elseViewRef = viewContainer.createEmbeddedView(elseTemplateRef);
+        this.elseViewRef.markForCheck();
       }
     }
   }
