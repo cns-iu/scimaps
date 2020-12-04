@@ -40,9 +40,14 @@
               <mat-label>City</mat-label>
               <input matInput>
             </mat-form-field>
+
             <mat-form-field class="state input" appearance="fill">
               <mat-label>State</mat-label>
-              <input matInput>
+              <mat-select>
+                <mat-option *ngFor="let state of states" [value]="state">
+                  {{state}}
+                </mat-option>
+              </mat-select>
             </mat-form-field>
             <mat-form-field class="zip input" appearance="fill">
               <mat-label>Zip</mat-label>

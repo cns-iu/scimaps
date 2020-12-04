@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PurchaseModalComponent } from './purchase-modal.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatInputModule } from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
 
 
 @NgModule({
@@ -10,7 +11,8 @@ import { MatInputModule } from '@angular/material/input';
   imports: [
     CommonModule,
     MatDialogModule,
-    MatInputModule
+    MatInputModule,
+    MatSelectModule
   ],
   exports: [PurchaseModalComponent]
 })

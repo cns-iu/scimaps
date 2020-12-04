@@ -18,7 +18,8 @@
       background-color : mat-color($primary);
     }
 
-    .mat-input-element {
+    .mat-input-element,
+    .mat-select-value {
       color: white;
       caret-color: white;
     }
