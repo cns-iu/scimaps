@@ -35,6 +35,10 @@ body {
   padding: 0;
 }
 
+.cdk-global-overlay-wrapper {
+  overflow: auto;
+}
+
 a:hover {
   text-decoration: underline;
 }

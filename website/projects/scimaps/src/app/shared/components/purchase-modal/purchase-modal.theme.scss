@@ -19,16 +19,17 @@
     }
 
     .mat-input-element {
-      caret-color: black;
+      color: white;
+      caret-color: white;
     }
 
     mat-label {
-      color: white;
+      color: #e0e0e0;
     }
 
     .mat-form-field-underline,
     .mat-form-field-ripple {
-      background-color: black;
+      background-color: black !important;
     }
 
     .shipping-info {
