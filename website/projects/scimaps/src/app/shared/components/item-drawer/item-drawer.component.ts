@@ -73,6 +73,9 @@ export class ItemDrawerComponent {
     this.languageChange.emit(language);
   }
 
+  /**
+   * Opens purchase modal
+   */
   openPurchase(): void {
     this.dialog.open(PurchaseModalComponent, {
       width: '95%'
