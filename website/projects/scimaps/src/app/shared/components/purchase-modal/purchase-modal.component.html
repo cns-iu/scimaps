@@ -64,7 +64,7 @@
             <textarea class="shipping-info textarea" matInput></textarea>
           </div>
           <div class="button-container">
-            <button class="cancel button" (click)="buttonClickCancel()">CANCEL</button>
+            <button class="cancel button" (click)="close()">CANCEL</button>
             <button class="send button" (click)="buttonClickSend()">SEND</button>
           </div>
         </div>
@@ -79,7 +79,7 @@
         <p class="confirmation-text">
           A staff member will contact you to complete the payment process and confirm details.
         </p>
-        <button class="button" (click)="buttonClickCancel()">DONE</button>
+        <button class="button" (click)="close()">DONE</button>
       </div>
     </mat-dialog-content>
   </div>

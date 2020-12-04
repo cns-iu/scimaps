@@ -1,4 +1,4 @@
-import { Component, HostBinding, Inject } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
@@ -10,6 +10,9 @@ export class PurchaseModalComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-purchase-modal';
 
+  /**
+   * Whether the confirmation screen has been reached
+   */
   confirmation = false;
 
   constructor(public dialogRef: MatDialogRef<PurchaseModalComponent>) { }
@@ -21,10 +24,9 @@ export class PurchaseModalComponent {
     this.dialogRef.close();
   }
 
-  buttonClickCancel(): void {
-    this.close();
-  }
-
+  /**
+   * Opens the confirmation screen when send button is clicked
+   */
   buttonClickSend(): void {
     this.confirmation = true;
   }
