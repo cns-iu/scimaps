@@ -1,7 +1,5 @@
 import { Component, Input, HostBinding, Output, EventEmitter } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
 import { MapItem } from '../../../core/models/discover-item';
-import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.component';
 
 @Component({
   selector: 'sci-item-drawer',
@@ -48,8 +46,6 @@ export class ItemDrawerComponent {
    */
   selectedLanguage = 'English';
 
-  constructor(private readonly dialog: MatDialog) { }
-
   /**
    * Combines the maker names
    */
@@ -71,11 +67,5 @@ export class ItemDrawerComponent {
   languageSelect(language: string): void {
     this.selectedLanguage = language;
     this.languageChange.emit(language);
-  }
-
-  openPurchase(): void {
-    this.dialog.open(PurchaseModalComponent, {
-      width: '95%'
-    });
   }
 }
