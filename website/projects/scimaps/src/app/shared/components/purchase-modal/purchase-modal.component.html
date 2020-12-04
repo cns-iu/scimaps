@@ -17,29 +17,60 @@
         </p>
       </div>
 
-      <div class="purchase-form">
-        <div class="form">
-          <mat-form-field appearance="fill">
-            <mat-label>Input</mat-label>
-            <input matInput>
-          </mat-form-field>
-        </div>
-        <div class="form">
-          <mat-form-field appearance="fill">
-            <mat-label>Input</mat-label>
-            <input matInput>
-          </mat-form-field>
-        </div>
-        <div class="form">
-          <mat-form-field appearance="fill">
-            <mat-label>Input</mat-label>
-            <input matInput>
-          </mat-form-field>
-        </div>
-        <div class="button-container">
-          <button class="send-button" (click)="buttonClickHandler()">SEND</button>
+      <div class="purchase-form-container">
+        <div class="purchase-form">
+          <div class="name-inputs">
+            <mat-form-field class="first-name input" appearance="fill">
+              <mat-label>First Name</mat-label>
+              <input matInput>
+            </mat-form-field>
+            <mat-form-field class="last-name input" appearance="fill">
+              <mat-label>Last Name</mat-label>
+              <input matInput>
+            </mat-form-field>
+          </div>
+          <div class="shipping-input">
+            <mat-form-field class="shipping-address input" appearance="fill">
+              <mat-label>Shipping Address</mat-label>
+              <input matInput>
+            </mat-form-field>
+          </div>
+          <div class="address-inputs">
+            <mat-form-field class="city input" appearance="fill">
+              <mat-label>City</mat-label>
+              <input matInput>
+            </mat-form-field>
+            <mat-form-field class="state input" appearance="fill">
+              <mat-label>State</mat-label>
+              <input matInput>
+            </mat-form-field>
+            <mat-form-field class="zip input" appearance="fill">
+              <mat-label>Zip</mat-label>
+              <input matInput>
+            </mat-form-field>
+          </div>
+          <div class="contact-inputs">
+            <mat-form-field class="email input" appearance="fill">
+              <mat-label>Email</mat-label>
+              <input matInput>
+            </mat-form-field>
+            <mat-form-field class="phone input" appearance="fill">
+              <mat-label>Phone</mat-label>
+              <input matInput>
+            </mat-form-field>
+          </div>
+          <div class="shipping-info">
+            <div>Map name(s) and preferred shipping method</div>
+            <textarea class="shipping-info textarea" matInput></textarea>
+          </div>
+          <div class="button-container">
+            <button class="cancel button" (click)="buttonClickHandler()">CANCEL</button>
+            <button class="send button" (click)="buttonClickHandler()">SEND</button>
+          </div>
         </div>
       </div>
+
+
     </mat-dialog-content>
   </div>
 </div>

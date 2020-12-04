@@ -4,25 +4,92 @@
     display: flex;
 
     .purchase-info, 
-    .purchase-form {
+    .purchase-form-container {
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 50%;
+      height: 100%;
     }
 
-    .purchase-form {
-      // background-color : #7996A3;
+    .purchase-form-container {
+      background-color : #7996A3;
+      padding: 1rem;
+      margin-left: 1rem;
 
-      .button-container {
-        width: 100%;
+      .purchase-form {
         display: flex;
-        justify-content: space-around;
-    
-        .send-button {
-          padding: .5rem;
-          cursor: pointer;
+        flex-direction: column;
+
+        .name-inputs,
+        .shipping-input,
+        .address-inputs,
+        .contact-inputs {
+          display: flex;
+          justify-content: space-between;
+          height: 15%;
         }
-      }
+
+        ::ng-deep .mat-form-field {
+          width: 100%;
+
+          .mat-form-field-flex {
+            background-color: inherit;
+          }
+        }
+        .first-name {
+          width: 45%;
+        }
+        .last-name {
+          width: 50%;
+        }
+        .city {
+          width: 40%;
+        }
+        .state {
+          width: 35%;
+        }
+        .zip {
+          width: 20%;
+        }
+        .email {
+          width: 60%;
+        }
+        .phone {
+          width: 35%;
+        }
+
+        .shipping-info{
+          .textarea {
+            background-color: rgba(255,255,255,0.2);
+            height: 6rem;
+          }
+        }
+
+        .button-container {
+          width: 100%;
+          margin-top: 1rem;
+          display: flex;
+          justify-content: flex-end;
+      
+          .button {
+            cursor: pointer;
+            color: white;
+            background-color: inherit;
+
+            &.cancel {
+              margin-right: 2rem;
+              border: none;
+            }
+
+            &.send {
+              padding: .5rem;
+              border: 1px solid white;
+            }
+          }
+        }
+      } 
     }
+
+
   }
 }
