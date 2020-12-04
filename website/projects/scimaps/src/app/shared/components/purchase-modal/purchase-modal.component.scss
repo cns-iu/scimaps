@@ -6,10 +6,6 @@ $breakpoint: 768px;
   mat-dialog-content {
     margin: 0 !important;
     padding: 0 !important;
-
-    .purchase-info {
-      padding: 1rem;
-    }
   }
 }
 
@@ -21,9 +17,7 @@ $breakpoint: 768px;
     }
   }
   ::ng-deep mat-dialog-content {
-    @media (max-width: $breakpoint) {
-      max-height: unset;
-    }
+    max-height: unset;
   }
 
   .close-icon {
@@ -49,7 +43,7 @@ $breakpoint: 768px;
       display: flex;
       flex-direction: column;
       width: 50%;
-      height: 100%;
+      padding: 2rem;
 
       @media (max-width: $breakpoint) {
         width: 100%;
@@ -57,7 +51,6 @@ $breakpoint: 768px;
     }
 
     .purchase-info {
-
       .purchase-options {
         padding-inline-start: 1rem;
         margin-bottom: 1.5rem;
@@ -68,9 +61,6 @@ $breakpoint: 768px;
     }
 
     .purchase-form-container {
-      padding: 1rem;
-      margin-left: 1rem;
-
       @media (max-width: $breakpoint) {
         margin-left: 0;
       }
@@ -78,6 +68,8 @@ $breakpoint: 768px;
       .purchase-form {
         display: flex;
         flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
 
         .name-inputs,
         .shipping-input,
@@ -119,13 +111,17 @@ $breakpoint: 768px;
         }
 
         .shipping-info {
+          height: 40%;
+          display: flex;
+          flex-direction: column;
+
           .shipping-info-label {
             margin-bottom: 0.5rem;
           }
           .textarea {
             border-style: solid;
             border-width: 1px;
-            height: 5rem;
+            height: calc(100% - 1rem);
           }
         }
 

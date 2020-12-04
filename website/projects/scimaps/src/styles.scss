@@ -39,6 +39,10 @@ body {
   overflow: auto;
 }
 
+.cdk-overlay-dark-backdrop {
+  background: rgba(0, 0, 0, 0.54) !important;
+}
+
 a:hover {
   text-decoration: underline;
 }

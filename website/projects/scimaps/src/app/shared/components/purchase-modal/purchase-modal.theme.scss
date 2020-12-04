@@ -30,7 +30,7 @@
 
     .mat-form-field-underline,
     .mat-form-field-ripple {
-      background-color: black !important;
+      background-color: mat-color($primary, darker) !important;
     }
 
     .shipping-info {
