@@ -3,8 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { CardGalleryModule } from './components/card-gallery/card-gallery.module';
 import { CarouselModule } from './components/carousel/carousel.module';
-import { NewsItemModule } from './components/news-item/news-item.module';
 import { NewsItemListModule } from './components/news-item-list/news-item-list.module';
+import { NewsItemModule } from './components/news-item/news-item.module';
+import { BreakpointDirective } from './directives/breakpoint.directive';
 
 
 @NgModule({
@@ -16,11 +17,16 @@ import { NewsItemListModule } from './components/news-item-list/news-item-list.m
     NewsItemModule,
     NewsItemListModule
   ],
+  declarations: [
+    BreakpointDirective
+  ],
   exports: [
     CardGalleryModule,
     CarouselModule,
     NewsItemModule,
-    NewsItemListModule
+    NewsItemListModule,
+
+    BreakpointDirective
   ]
 })
 export class SharedModule { }
