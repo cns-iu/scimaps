@@ -1,13 +1,15 @@
-<div style="display: flex; flex-direction: column;">
-  <a routerLink="/home">Home</a>
-  <a routerLink="/about">About</a>
-  <a routerLink="/books">Books</a>
-  <a routerLink="/maps">Maps</a>
-  <a routerLink="/macroscopes">Macroscopes</a>
-  <a routerLink="/hosting">Hosting</a>
-  <a routerLink="/venues">Venues</a>
-  <a routerLink="/learning-center">Learning Center</a>
-  <a routerLink="/call-for-macroscopes">Call for Macroscopes</a>
-</div>
-<router-outlet></router-outlet>
-<sci-footer></sci-footer>
+<sci-header [(sidenavOpen)]="sidenavOpen"></sci-header>
+
+<mat-sidenav-container>
+  <mat-sidenav mode="over" position="end" fixedInViewport fixedTopGap="72" [opened]="sidenavOpen"
+               (closedStart)="sidenavOpen = false">
+    fooo
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+    <sci-footer></sci-footer>
+  </mat-sidenav-content>
+</mat-sidenav-container>

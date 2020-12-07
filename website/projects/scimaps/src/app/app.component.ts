@@ -10,7 +10,7 @@ import { NewsItem } from './shared/components/news-item/news-item.model';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'scimaps';
+  sidenavOpen = false;
 
   newsItems: NewsItem[] = [
     {

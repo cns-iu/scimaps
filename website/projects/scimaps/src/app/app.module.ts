@@ -1,6 +1,7 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { BrowserModule, DomSanitizer } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
@@ -19,6 +20,7 @@ import { SharedModule } from './shared/shared.module';
     HttpClientModule,
 
     MatIconModule,
+    MatSidenavModule,
 
     MarkdownModule.forRoot({
       loader: HttpClientModule,
