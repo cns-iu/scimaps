@@ -6,12 +6,12 @@
   $primary: map-get($config, primary);
 
   .sci-social-sidebar {
-    border: 1px solid mat-color($primary, default-contrast);;
+    border: 1px solid mat-color($primary, default-contrast);
 
     .social-button {
-      background-color: mat-color($primary, 500);;
-      color: mat-color($primary, default-contrast);;
-      border-bottom: 1px solid mat-color($primary, default-contrast);;
+      background-color: mat-color($primary, 500);
+      color: mat-color($primary, default-contrast);
+      border-bottom: 1px solid mat-color($primary, default-contrast);
     }
   }
 }
