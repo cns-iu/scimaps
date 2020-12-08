@@ -1,8 +1,10 @@
 @use './components/header/header.theme';
 @use './components/footer/footer.theme';
+@use './components/mobile-header-menu/mobile-header-menu.theme';
 
 
-@mixin theme($theme-or-config) {
-  @include header.theme($theme-or-config);
-  @include footer.theme($theme-or-config);
+@mixin theme($theme) {
+  @include header.theme($theme);
+  @include footer.theme($theme);
+  @include mobile-header-menu.theme($theme);
 }

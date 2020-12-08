@@ -1,8 +1,10 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 
+import { ContactModule } from './components/contact/contact.module';
 import { FooterModule } from './components/footer/footer.module';
 import { HeaderModule } from './components/header/header.module';
+import { MobileHeaderMenuModule } from './components/mobile-header-menu/mobile-header-menu.module';
 import { StateModule } from './state/state.module';
 
 
@@ -13,12 +15,16 @@ import { StateModule } from './state/state.module';
 
     StateModule,
 
-    HeaderModule,
+    ContactModule,
     FooterModule,
+    HeaderModule,
+    MobileHeaderMenuModule,
   ],
   exports: [
+    ContactModule,
+    FooterModule,
     HeaderModule,
-    FooterModule
+    MobileHeaderMenuModule
   ]
 })
 export class CoreModule {
