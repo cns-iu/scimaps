@@ -2,10 +2,11 @@
 @use './components/card-gallery/card-gallery.theme';
 @use "./components/carousel/carousel.theme";
 @use './components/news-item/news-item.theme';
-@use './components/warning-dialog/warning-dialog.theme.scss';
+@use './components/warning-dialog/warning-dialog.theme';
 @use './components/news-item-list/news-item-list.theme';
-@use './components/call-out/call-out.theme.scss';
-@use './components//profile-gallery/profile-gallery.theme.scss';
+@use './components/call-out/call-out.theme';
+@use './components/social-sidebar/social-sidebar.theme';
+@use './components//profile-gallery/profile-gallery.theme';
 
 @mixin theme($theme) {
   @include book-overview.theme($theme);
@@ -15,5 +16,6 @@
   @include warning-dialog.theme($theme);
   @include news-item-list.theme($theme);
   @include call-out.theme($theme);
+  @include social-sidebar.theme($theme);
   @include profile-gallery.theme($theme);
 }
