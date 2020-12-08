@@ -10,7 +10,6 @@ import { SocialSidebarModule } from '../../shared/components/social-sidebar/soci
 @NgModule({
   imports: [
     CommonModule,
-    
     HomeRoutingModule,
     ActionCardModule,
     SocialSidebarModule
