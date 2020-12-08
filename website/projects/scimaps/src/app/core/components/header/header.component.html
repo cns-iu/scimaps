@@ -19,6 +19,7 @@
           [class.active]="(exhibitTrigger.menuClosed | async) || exhibitTrigger.menuOpen" [matMenuTriggerFor]="exhibit"
           #exhibitTrigger="matMenuTrigger">
     THE EXHIBIT
+    <mat-icon>expand_more</mat-icon>
   </button>
 
   <mat-menu class="sci-header-menu" #exhibit="matMenu">
@@ -34,6 +35,7 @@
           [class.active]="(exploreTrigger.menuClosed | async) || exploreTrigger.menuOpen" [matMenuTriggerFor]="explore"
           #exploreTrigger="matMenuTrigger">
     EXPLORE
+    <mat-icon>expand_more</mat-icon>
   </button>
 
   <mat-menu class="sci-header-menu" #explore="matMenu">
