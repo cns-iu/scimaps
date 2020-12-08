@@ -14,19 +14,19 @@
       .text-content {
         .action-button {
           border: 1px solid mat-color($primary, 500);
-          color: mat-color($primary, 500);;
-          background-color: mat-color($primary, default-contrast);;
+          color: mat-color($primary, 500);
+          background-color: mat-color($primary, default-contrast);
 
           &:hover {
-            color: mat-color($primary, default-contrast);;
-            background-color: mat-color($primary, 500);;
+            color: mat-color($primary, default-contrast);
+            background-color: mat-color($primary, 500);
           }
         }
       }
     }
 
     .close-icon {
-      color: mat-color($primary, default-contrast);;
+      color: mat-color($primary, default-contrast);
     }
   }
 }
