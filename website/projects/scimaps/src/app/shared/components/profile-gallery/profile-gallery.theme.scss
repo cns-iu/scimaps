@@ -1,0 +1,34 @@
+@use '~@angular/material/theming' as *;
+
+
+@mixin color($config-or-theme) {
+  $grey: mat-palette($mat-grey);
+
+  .sci-profile-gallery {
+    .title {
+      color: mat-color($grey, 600);
+    }
+
+    .profile:hover {
+      .profile-about {
+        background-color: mat-color($grey, 300);
+      }
+    }
+  }
+}
+
+@mixin typography($config-or-theme) {
+  $config: mat-get-typography-config($config-or-theme);
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+  $typography: mat-get-typography-config($theme);
+
+  @if $color != null {
+    @include color($color);
+  }
+  @if $typography != null {
+    @include typography($typography);
+  }
+}
