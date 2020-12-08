@@ -12,7 +12,7 @@ import { SocialSidebarModule } from '../../shared/components/social-sidebar/soci
     CommonModule,
     
     HomeRoutingModule,
-    ActionCardModule
+    ActionCardModule,
     SocialSidebarModule
   ],
   declarations: [HomeComponent]
