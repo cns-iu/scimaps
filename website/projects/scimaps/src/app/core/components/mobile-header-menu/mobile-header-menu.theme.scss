@@ -5,19 +5,13 @@
   $config: mat-get-color-config($config-or-theme);
   $primary: map-get($config, primary);
 
-  .sci-header {
-    .nav-item {
-      color: mat-color($primary, darker);
+  .sci-mobile-header-menu {
+    .link {
+      color: mat-color($primary, lighter-contrast);
 
       &.active, &:hover {
         background-color: mat-color($primary, 0.15);
       }
-    }
-  }
-
-  .sci-header-menu {
-    button:hover {
-      background-color: mat-color($primary, 0.15);
     }
   }
 }

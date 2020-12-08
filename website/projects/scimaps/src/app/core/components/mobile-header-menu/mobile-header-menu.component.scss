@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  flex-direction: column;
+
+  .search, .link {
+    height: 3rem;
+  }
+
+  .search, .link:last-child {
+    margin-bottom: 0.5rem;
+  }
+
+  .link {
+    text-align: left;
+  }
+}
