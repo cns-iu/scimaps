@@ -6,6 +6,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { RouterModule } from '@angular/router';
 
 import { SharedModule } from '../../../shared/shared.module';
+import { ContactModule } from '../contact/contact.module';
 import { HeaderComponent } from './header.component';
 
 
@@ -18,7 +19,8 @@ import { HeaderComponent } from './header.component';
     MatIconModule,
     MatMenuModule,
 
-    SharedModule
+    SharedModule,
+    ContactModule
   ],
   declarations: [HeaderComponent],
   exports: [HeaderComponent]

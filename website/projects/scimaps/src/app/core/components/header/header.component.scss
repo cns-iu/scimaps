@@ -35,4 +35,8 @@
     height: 3rem;
     text-align: start;
   }
+
+  &.no-padding > .mat-menu-content {
+    padding: unset;
+  }
 }

@@ -42,9 +42,15 @@
     <button mat-button routerLink="/learning-center">LEARNING CENTER</button>
   </mat-menu>
 
-  <button mat-button class="nav-item contact">
+  <button mat-button class="nav-item contact"
+          [class.active]="(contactTrigger.menuClosed | async) || contactTrigger.menuOpen" [matMenuTriggerFor]="contact"
+          #contactTrigger="matMenuTrigger">
     CONTACT US
   </button>
+
+  <mat-menu class="sci-header-menu no-padding" #contact="matMenu">
+    <sci-contact class="contact"></sci-contact>
+  </mat-menu>
 
   <div class="search"></div>
 </ng-template>

@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterModule } from '@angular/router';
 
+import { ContactModule } from '../contact/contact.module';
 import { MobileHeaderMenuComponent } from './mobile-header-menu.component';
 
 
@@ -11,7 +12,9 @@ import { MobileHeaderMenuComponent } from './mobile-header-menu.component';
     CommonModule,
     RouterModule,
 
-    MatButtonModule
+    MatButtonModule,
+
+    ContactModule
   ],
   declarations: [MobileHeaderMenuComponent],
   exports: [MobileHeaderMenuComponent]
