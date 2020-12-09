@@ -1,0 +1,14 @@
+<div class="action-card" [class.hidden]="closed">
+  <div class="text-content">
+    <div class="title">{{ actionItem.title }}</div>
+    <div class="subtitle">{{ actionItem.subtitle }}</div>
+    <div class="body">{{ actionItem.body }}</div>
+
+    <div class="action-button" (click)="goToLink(actionItem.buttonLink)">{{ actionItem.buttonLabel }}</div>
+  </div>
+
+  <div class="image-container" [style.background-image]="imageUrl">
+  </div>
+
+  <mat-icon class="close-icon" (click)="closed = true">clear</mat-icon>
+</div>
