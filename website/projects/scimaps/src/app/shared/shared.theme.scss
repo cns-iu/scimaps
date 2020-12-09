@@ -8,6 +8,7 @@
 @use './components/call-out/call-out.theme';
 @use './components/social-sidebar/social-sidebar.theme';
 @use './components//profile-gallery/profile-gallery.theme';
+@use './components/lazy-cards/lazy-cards.theme.scss';
 
 
 @mixin theme($theme) {
@@ -21,4 +22,5 @@
   @include action-card.theme($theme);
   @include social-sidebar.theme($theme);
   @include profile-gallery.theme($theme);
+  @include lazy-cards.theme($theme);
 }

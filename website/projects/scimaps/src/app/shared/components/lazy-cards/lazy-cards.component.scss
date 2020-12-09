@@ -22,8 +22,8 @@ $mobile: 805px;
       .card-header {
         display: flex;
         justify-content: space-between;
-        background-color: #F9FCF5;
-        color: #4A5F68;
+        // background-color: #F9FCF5;
+        // color: #4A5F68;
         padding: .75rem;
         white-space: nowrap;
 
@@ -56,18 +56,18 @@ $mobile: 805px;
   .more-button {
     width: 100%;
     text-align: center;
-    color: #7996A3;
-    background-color: #EBF0F1;
-    border: 1px solid #7996A3;
+    // color: #7996A3;
+    // background-color: #EBF0F1;
+    // border: 1px solid #7996A3;
     padding: 1rem;
     font-size: 1.5rem;
     margin-bottom: 2rem;
     cursor: pointer;
 
-    &:hover {
-      background-color: #7996A3;
-      color: white;
-    }
+    // &:hover {
+    //   background-color: #7996A3;
+    //   color: white;
+    // }
   }
 
   .mb-45 {
