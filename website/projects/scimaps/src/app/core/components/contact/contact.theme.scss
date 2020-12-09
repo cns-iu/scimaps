@@ -1,0 +1,38 @@
+@import "~@angular/material/theming";
+
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $primary: map-get($config, primary);
+  $accent: map-get($config, accent);
+
+  .sci-contact {
+    .section-1 {
+      background-color: white;
+    }
+
+    .section-2 {
+      background-color: mat-color($accent, lighter);
+
+      .link {
+        color: mat-color($accent);
+      }
+    }
+
+    .icon {
+      color: mat-color($accent);
+    }
+
+    .social-icons .icon:hover {
+      color: mat-color($accent, default-contrast);
+    }
+  }
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+
+  @if $color {
+    @include color($color);
+  }
+}
