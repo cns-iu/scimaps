@@ -1,6 +1,17 @@
 import { Component, HostBinding } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 
+export interface PurchaseFormInfo {
+  firstName: string;
+  lastName: string;
+  shipAddress: string;
+  city: string;
+  state: string;
+  zip: string;
+  email: string;
+  phone: string;
+}
+
 @Component({
   selector: 'sci-purchase-modal',
   templateUrl: './purchase-modal.component.html',
@@ -15,6 +26,38 @@ export class PurchaseModalComponent {
    */
   confirmation = false;
 
+  /**
+   * Current form inputs
+   */
+  currentInfo: PurchaseFormInfo = {
+    firstName: '',
+    lastName: '',
+    shipAddress: '',
+    city: '',
+    state: '',
+    zip: '',
+    email: '',
+    phone: '',
+  };
+
+  /**
+   * Email link
+   */
+  mailLink = '';
+
+  /**
+   * Shipping info (body of email)
+   */
+  shipInfo = '';
+
+  /**
+   * Where the email will be sent
+   */
+  receivingEmail = 'katy@indiana.edu';
+
+  /**
+   * State options
+   */
   states = [
     'Alabama', 'Alaska', 'American Samoa', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 
     'Federated States of Micronesia', 'Florida', 'Georgia', 'Guam', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 
@@ -41,4 +84,57 @@ export class PurchaseModalComponent {
     this.confirmation = true;
   }
 
+  /**
+   * Updates the current form inputs (excluding state)
+   * @param input the input event
+   * @param key Key to be updated
+   */
+  change(event: any, key: string): void {
+    this.currentInfo = { ...this.currentInfo, [key]: event.target.value };
+    this.updateMailLink();
+  }
+
+  /**
+   * Updates the selected state
+   * @param event Selected state
+   */
+  stateChange(event: any): void {
+    this.currentInfo = { ...this.currentInfo, state: event.value };
+    this.updateMailLink();
+  }
+
+  /**
+   * Updates ship info portion of form
+   * @param event Input event
+   */
+  updateShipInfo(event: any): void {
+    if (event.keyCode === 16) {
+      return;
+    } else if (event.keyCode === 8) {
+      if (this.shipInfo.slice(-6) === '%0D%0A') {
+        this.shipInfo = this.shipInfo.slice(0, -6);
+      } else {
+        this.shipInfo = this.shipInfo.slice(0, -1);
+      }
+    } else if (event.keyCode === 13) {
+      this.shipInfo = this.shipInfo.concat('%0D%0A');
+    } else {
+      this.shipInfo = this.shipInfo.concat(event.key);
+    }
+    this.updateMailLink();
+  }
+
+  /**
+   * Updates mail link
+   */
+  updateMailLink(): void {
+    this.mailLink = `mailto:${this.receivingEmail}?subject=Map%20Purchase&body=`;
+    const mailName = `Name: ${this.currentInfo.firstName} ${this.currentInfo.lastName}`;
+    const mailAddress = `Address: ${this.currentInfo.shipAddress}, ${this.currentInfo.city}, ${this.currentInfo.state}, ${this.currentInfo.zip}`;
+    const mailEmail = `Email: ${this.currentInfo.email}`;
+    const mailPhone = `Phone: ${this.currentInfo.phone}`;
+    this.mailLink = this.mailLink.concat(
+      [mailName, mailAddress, mailEmail, mailPhone].join('%0D%0A')
+    ).concat(`%0D%0A%0D%0A${this.shipInfo}`);
+  }
 }
