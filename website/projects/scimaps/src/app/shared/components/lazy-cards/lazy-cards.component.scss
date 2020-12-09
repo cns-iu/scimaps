@@ -1,0 +1,80 @@
+$desktop: 1248px;
+$tablet: 960px;
+$mobile: 805px;
+
+:host {
+
+  .card-tray {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .card {
+      width: 48%;
+      min-height: 12rem;
+      margin-bottom: 2rem;
+      min-width: 25rem;
+
+      @media (max-width: $mobile) {
+        width: 100%;
+      }
+
+      .card-header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #F9FCF5;
+        color: #4A5F68;
+        padding: .75rem;
+        white-space: nowrap;
+
+        .dates {
+          font-weight: 600;
+          margin-bottom: 0rem;
+        }
+
+        .media {
+          .icon {
+            font-size: 1.75rem;
+            height: 1.75rem;
+            width: 1.75rem;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .card-body {
+        padding: .75rem;
+        font-size: 1.1rem;
+
+        div {
+          line-height: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .more-button {
+    width: 100%;
+    text-align: center;
+    color: #7996A3;
+    background-color: #EBF0F1;
+    border: 1px solid #7996A3;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #7996A3;
+      color: white;
+    }
+  }
+
+  .mb-45 {
+    margin-bottom: .45rem;
+  }
+
+  .ml-50 {
+    margin-left: .5rem;
+  }
+}
