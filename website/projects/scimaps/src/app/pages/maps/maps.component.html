@@ -5,7 +5,7 @@
   <p class="highlight-body">{{  highlightBody }}</p>
   <div class="carousel-container">
     <sci-carousel>
-      <sci-carousel-item *ngFor="let slide of slides">
+      <sci-carousel-item class="carousel-item" *ngFor="let slide of slides">
         <img [src]="slide" alt="maps carousel item">
       </sci-carousel-item>
     </sci-carousel>
