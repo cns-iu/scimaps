@@ -22,23 +22,23 @@
           <div class="name-inputs">
             <mat-form-field class="first-name input" appearance="fill">
               <mat-label >First Name</mat-label>
-              <input (change)="change($event, 'firstName')" matInput>
+              <input (change)="change($event.target, 'firstName')" matInput>
             </mat-form-field>
             <mat-form-field class="last-name input" appearance="fill">
               <mat-label>Last Name</mat-label>
-              <input (change)="change($event, 'lastName')" matInput>
+              <input (change)="change($event.target, 'lastName')" matInput>
             </mat-form-field>
           </div>
           <div class="shipping-input">
             <mat-form-field class="shipping-address input" appearance="fill">
               <mat-label>Shipping Address</mat-label>
-              <input (change)="change($event, 'shipAddress')" matInput>
+              <input (change)="change($event.target, 'shipAddress')" matInput>
             </mat-form-field>
           </div>
           <div class="address-inputs">
             <mat-form-field class="city input" appearance="fill">
               <mat-label>City</mat-label>
-              <input (change)="change($event, 'city')" matInput>
+              <input (change)="change($event.target, 'city')" matInput>
             </mat-form-field>
             <mat-form-field class="state input" appearance="fill">
               <mat-label>State</mat-label>
@@ -50,22 +50,22 @@
             </mat-form-field>
             <mat-form-field class="zip input" appearance="fill">
               <mat-label>Zip</mat-label>
-              <input (change)="change($event, 'zip')" matInput>
+              <input (change)="change($event.target, 'zip')" matInput>
             </mat-form-field>
           </div>
           <div class="contact-inputs">
             <mat-form-field class="email input" appearance="fill">
               <mat-label>Email</mat-label>
-              <input (change)="change($event, 'email')" matInput>
+              <input (change)="change($event.target, 'email')" matInput>
             </mat-form-field>
             <mat-form-field class="phone input" appearance="fill">
               <mat-label>Phone</mat-label>
-              <input (change)="change($event, 'phone')" matInput>
+              <input (change)="change($event.target, 'phone')" matInput>
             </mat-form-field>
           </div>
           <div class="shipping-info">
             <div class="shipping-info-label">Map name(s) and preferred shipping method</div>
-            <textarea (keydown)="updateShipInfo($event)" class="textarea" matInput></textarea>
+            <textarea (change)="updateShipInfo($event.target)" class="textarea" matInput></textarea>
           </div>
           <div class="button-container">
             <button class="cancel button" (click)="close()">CANCEL</button>

@@ -1,5 +1,6 @@
 import { Component, HostBinding } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
+import { MatSelectChange } from '@angular/material/select';
 
 export interface PurchaseFormInfo {
   firstName: string;
@@ -59,13 +60,13 @@ export class PurchaseModalComponent {
    * State options
    */
   states = [
-    'Alabama', 'Alaska', 'American Samoa', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 
-    'Federated States of Micronesia', 'Florida', 'Georgia', 'Guam', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 
-    'Louisiana', 'Maine', 'Marshall Islands', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 
-    'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Northern Mariana Islands', 
-    'Ohio', 'Oklahoma', 'Oregon', 'Palau', 'Pennsylvania', 'Puerto Rico', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 
+    'Alabama', 'Alaska', 'American Samoa', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia',
+    'Federated States of Micronesia', 'Florida', 'Georgia', 'Guam', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky',
+    'Louisiana', 'Maine', 'Marshall Islands', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana',
+    'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Northern Mariana Islands',
+    'Ohio', 'Oklahoma', 'Oregon', 'Palau', 'Pennsylvania', 'Puerto Rico', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas',
     'Utah', 'Vermont', 'Virgin Island', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
-  ]
+  ];
 
 
   constructor(public dialogRef: MatDialogRef<PurchaseModalComponent>) { }
@@ -89,8 +90,8 @@ export class PurchaseModalComponent {
    * @param input the input event
    * @param key Key to be updated
    */
-  change(event: any, key: string): void {
-    this.currentInfo = { ...this.currentInfo, [key]: event.target.value };
+  change(target: any, key: string): void {
+    this.currentInfo = { ...this.currentInfo, [key]: target.value };
     this.updateMailLink();
   }
 
@@ -107,20 +108,8 @@ export class PurchaseModalComponent {
    * Updates ship info portion of form
    * @param event Input event
    */
-  updateShipInfo(event: any): void {
-    if (event.keyCode === 16) {
-      return;
-    } else if (event.keyCode === 8) {
-      if (this.shipInfo.slice(-6) === '%0D%0A') {
-        this.shipInfo = this.shipInfo.slice(0, -6);
-      } else {
-        this.shipInfo = this.shipInfo.slice(0, -1);
-      }
-    } else if (event.keyCode === 13) {
-      this.shipInfo = this.shipInfo.concat('%0D%0A');
-    } else {
-      this.shipInfo = this.shipInfo.concat(event.key);
-    }
+  updateShipInfo(target: any): void {
+    this.shipInfo = target.value.split('\n').join('%0D%0A');
     this.updateMailLink();
   }
 
