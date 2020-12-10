@@ -90,7 +90,7 @@ export class PurchaseModalComponent {
    * @param input the input event
    * @param key Key to be updated
    */
-  change(target: any, key: string): void {
+  change(target: HTMLInputElement, key: string): void {
     this.currentInfo = { ...this.currentInfo, [key]: target.value };
     this.updateMailLink();
   }
@@ -99,7 +99,7 @@ export class PurchaseModalComponent {
    * Updates the selected state
    * @param event Selected state
    */
-  stateChange(event: any): void {
+  stateChange(event: MatSelectChange): void {
     this.currentInfo = { ...this.currentInfo, state: event.value };
     this.updateMailLink();
   }
@@ -108,7 +108,7 @@ export class PurchaseModalComponent {
    * Updates ship info portion of form
    * @param event Input event
    */
-  updateShipInfo(target: any): void {
+  updateShipInfo(target: HTMLTextAreaElement): void {
     this.shipInfo = target.value.split('\n').join('%0D%0A');
     this.updateMailLink();
   }
