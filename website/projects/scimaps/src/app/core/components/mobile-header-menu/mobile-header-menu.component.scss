@@ -1,6 +1,9 @@
 :host {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  border-top-width: 1px;
+  border-top-style: solid;
 
   .search, .link {
     height: 3rem;
@@ -12,5 +15,17 @@
 
   .link {
     text-align: left;
+  }
+
+  .top-border-overlay {
+    position: absolute;
+    width: 5.25rem;
+    height: 0.25rem;
+    top: -0.125rem;
+    right: 0;
+  }
+
+  .filler {
+    flex-grow: 1;
   }
 }

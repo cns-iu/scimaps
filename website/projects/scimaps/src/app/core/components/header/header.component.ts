@@ -12,7 +12,7 @@ import { ChangeDetectionStrategy, Component, EventEmitter, HostBinding, Input, O
 })
 export class HeaderComponent {
   /** HTML classes */
-  @HostBinding('class') readonly clsName = 'sci-header';
+  @HostBinding('class') readonly clsName = 'sci-header mat-display-3';
 
   /**
    * Whether the sidenav button is in open mode

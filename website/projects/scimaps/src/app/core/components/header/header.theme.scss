@@ -1,23 +1,26 @@
 @import "~@angular/material/theming";
 
-
 @mixin color($config-or-theme) {
   $config: mat-get-color-config($config-or-theme);
   $primary: map-get($config, primary);
 
-  .sci-header {
-    .nav-item {
-      color: mat-color($primary, darker);
+  .sci-header, .sci-header-menu {
+    background-color: white;
+  }
 
-      &.active, &:hover {
-        background-color: mat-color($primary, 0.15);
-      }
+  .sci-header .nav-item,
+  .sci-header-menu button {
+    color: mat-color($primary, darker);
+
+    &.active,
+    &:hover {
+      background-color: mat-color($primary, 0.15);
     }
   }
 
-  .sci-header-menu {
-    button:hover {
-      background-color: mat-color($primary, 0.15);
+  .sci-header {
+    .sidenav-toggle.open {
+      border-left-color: rgba(0, 0, 0, 0.2);
     }
   }
 }

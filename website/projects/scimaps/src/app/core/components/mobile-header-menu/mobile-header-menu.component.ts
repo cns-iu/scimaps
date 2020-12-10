@@ -9,5 +9,5 @@ import { ChangeDetectionStrategy, Component, HostBinding } from '@angular/core';
 })
 export class MobileHeaderMenuComponent {
   /** HTML class */
-  @HostBinding('class') readonly clsName = 'sci-mobile-header-menu';
+  @HostBinding('class') readonly clsName = 'sci-mobile-header-menu mat-dispay-3';
 }

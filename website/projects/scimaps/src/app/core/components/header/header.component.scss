@@ -17,6 +17,11 @@
     display: flex;
     align-items: center;
 
+    &.open {
+      border-left-width: 1px;
+      border-left-style: solid;
+    }
+
     button {
       min-width: unset;
       padding: 0;
