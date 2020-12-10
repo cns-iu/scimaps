@@ -90,9 +90,9 @@ export class PurchaseModalComponent {
    * @param input the input event
    * @param key Key to be updated
    */
-  // tslint:disable-next-line: no-unsafe-any
-  change(target: any, key: string): void {
-    this.currentInfo = { ...this.currentInfo, [key]: target.value };
+  change(target: EventTarget | null, key: string): void {
+    const inputTarget = target as HTMLInputElement;
+    this.currentInfo = target ? { ...this.currentInfo, [key]: inputTarget.value } : this.currentInfo;
     this.updateMailLink();
   }
 
@@ -100,8 +100,7 @@ export class PurchaseModalComponent {
    * Updates the selected state
    * @param event Selected state
    */
-  // tslint:disable-next-line: no-unsafe-any
-  stateChange(event: any): void {
+  stateChange(event: MatSelectChange): void {
     this.currentInfo = { ...this.currentInfo, state: event.value };
     this.updateMailLink();
   }
@@ -110,9 +109,9 @@ export class PurchaseModalComponent {
    * Updates ship info portion of form
    * @param event Input event
    */
-  // tslint:disable-next-line: no-unsafe-any
-  updateShipInfo(target: any): void {
-    this.shipInfo = target.value.split('\n').join('%0D%0A');
+  updateShipInfo(target: EventTarget | null): void {
+    const inputTarget = target as HTMLTextAreaElement;
+    this.shipInfo = target ? inputTarget.value.split('\n').join('%0D%0A') : this.shipInfo;
     this.updateMailLink();
   }
 
