@@ -1,0 +1,25 @@
+@import "~@angular/material/theming";
+
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $primary: map-get($config, primary);
+
+  .sci-social-sidebar {
+    border: 1px solid mat-color($primary, default-contrast);
+
+    .social-button {
+      background-color: mat-color($primary, 500);
+      color: mat-color($primary, default-contrast);
+      border-bottom: 1px solid mat-color($primary, default-contrast);
+    }
+  }
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+
+  @if $color {
+    @include color($color);
+  }
+}

@@ -1,0 +1,65 @@
+:host {
+  width: 27.6875rem;
+  position: fixed;
+  bottom: 0;
+  right: 25px;
+  z-index: 10;
+
+  .action-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: none;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 27.6875rem;
+    height: 13rem;
+
+    .text-content {
+      padding: 1.5rem;
+      width: 65%;
+
+      .title {
+        font-weight: 500;
+        margin-bottom: .8rem;
+      }
+
+      .subtitle {
+        font-size: 0.7rem;
+      }
+
+      .body {
+        font-size: 0.6rem;
+        height: 5rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .action-button {
+        width: 100%;
+        text-align: center;
+        padding: 0.25rem;
+        font-size: 0.75rem;
+        margin-top: 0.5rem;
+        cursor: pointer;
+      }
+    }
+
+    .image-container {
+      width: 40%;
+      height: 100%;
+      border-top-right-radius: 1rem;
+    }
+  }
+
+  .close-icon {
+    position: absolute;
+    right: 1%;
+    margin-top: 0.25rem;
+    cursor: pointer;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+}
