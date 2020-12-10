@@ -1,0 +1,58 @@
+<div class="logo"></div>
+
+<div class="filler"></div>
+
+<ng-container *sciBreakpoint="'tablet-'; else: desktopNav">
+  <div class="sidenav-toggle" [class.open]="sidenavOpen">
+    <button mat-flat-button (click)="sidenavOpenChange.emit(sidenavOpen = !sidenavOpen)">
+      <sci-menu-icon [alternateIcon]="sidenavOpen"></sci-menu-icon>
+    </button>
+  </div>
+</ng-container>
+
+<ng-template #desktopNav>
+  <button mat-button class="nav-item about mat-display-3" routerLink="/about" routerLinkActive="active">
+    ABOUT
+  </button>
+
+  <button mat-button class="nav-item exhibit mat-display-3"
+          [class.active]="(exhibitTrigger.menuClosed | async) || exhibitTrigger.menuOpen" [matMenuTriggerFor]="exhibit"
+          #exhibitTrigger="matMenuTrigger">
+    THE EXHIBIT
+    <mat-icon>expand_more</mat-icon>
+  </button>
+
+  <mat-menu class="sci-header-menu" #exhibit="matMenu">
+    <button mat-button class="mat-display-3" routerLink="/maps" routerLinkActive="active">MAPS</button>
+    <button mat-button class="mat-display-3" routerLink="/macroscopes" routerLinkActive="active">MACROSCOPES</button>
+    <button mat-button class="mat-display-3" routerLink="/books" routerLinkActive="active">BOOKS</button>
+    <button mat-button class="mat-display-3" routerLink="/call-for-macroscopes" routerLinkActive="active">CALL FOR
+      MACROSCOPES</button>
+    <button mat-button class="mat-display-3" routerLink="/venues" routerLinkActive="active">VENUES</button>
+    <button mat-button class="mat-display-3" routerLink="/hosting" routerLinkActive="active">HOSTING</button>
+  </mat-menu>
+
+  <button mat-button class="nav-item explore mat-display-3"
+          [class.active]="(exploreTrigger.menuClosed | async) || exploreTrigger.menuOpen" [matMenuTriggerFor]="explore"
+          #exploreTrigger="matMenuTrigger">
+    EXPLORE
+    <mat-icon>expand_more</mat-icon>
+  </button>
+
+  <mat-menu class="sci-header-menu" #explore="matMenu">
+    <button mat-button class="mat-display-3" routerLink="/learning-center" routerLinkActive="active">LEARNING
+      CENTER</button>
+  </mat-menu>
+
+  <button mat-button class="nav-item contact mat-display-3"
+          [class.active]="(contactTrigger.menuClosed | async) || contactTrigger.menuOpen" [matMenuTriggerFor]="contact"
+          #contactTrigger="matMenuTrigger">
+    CONTACT US
+  </button>
+
+  <mat-menu class="sci-header-menu no-padding" #contact="matMenu">
+    <sci-contact class="contact"></sci-contact>
+  </mat-menu>
+
+  <div class="search"></div>
+</ng-template>
