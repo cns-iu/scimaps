@@ -4,15 +4,17 @@ $mobile: 640px;
 $breakpoint: 768px;
 
 ::ng-deep {
-  .swiper-button-prev, .swiper-button-next {
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 50%;
-    padding: 1.5rem;
-    top: 50% !important;
-  }
-
-  .swiper-button-prev::after, .swiper-button-next::after {
-    color: white !important;
+  @media (max-width: $breakpoint) {
+    .swiper-button-prev, .swiper-button-next {
+      background-color: rgba(0, 0, 0, 0.75);
+      border-radius: 50%;
+      padding: 1.5rem;
+      top: 50% !important;
+    }
+  
+    .swiper-button-prev::after, .swiper-button-next::after {
+      color: white !important;
+    }
   }
 }
 
@@ -85,6 +87,20 @@ $breakpoint: 768px;
         width: 100%;
         padding: 0rem;
         margin-bottom: 1rem;
+      }
+
+      .carousel {
+        width: 100%;
+
+        .carousel-image {
+          width: 100%;
+        }
+
+        .carousel-image-title {
+          padding: 1rem;
+          margin-top: -0.5rem;
+          width: 100%;
+        }
       }
     }
   }
