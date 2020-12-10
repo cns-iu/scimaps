@@ -1,21 +1,36 @@
-import { Subject } from 'rxjs';
-import { startWith } from 'rxjs/operators';
 import { Shallow } from 'shallow-render';
 
-import { MediaQueryService } from '../../../shared/services/media-query.service';
+import { BreakpointDirective } from '../../../shared/directives/breakpoint.directive';
 import { HeaderComponent } from './header.component';
 import { HeaderModule } from './header.module';
 
 
 describe('HeaderComponent', () => {
-  let mediaStream: Subject<boolean>;
   let shallow: Shallow<HeaderComponent>;
 
+  function itHasElement(selector: string): void {
+    it(`has element ${selector}`, async () => {
+      const { find } = await shallow.render();
+      expect(find(selector)).toHaveFoundOne();
+    });
+  }
+
   beforeEach(() => {
-    mediaStream = new Subject();
     shallow = new Shallow(HeaderComponent, HeaderModule)
-      .mock(MediaQueryService, {
-        createStream: () => mediaStream.pipe(startWith(true))
-      });
+      .withStructuralDirective(BreakpointDirective);
   });
+
+
+  describe('on mobile', () => {
+    itHasElement('.sidenav-toggle');
+  });
+
+  // The else clause of structural directives seems to yet be supported by shallow-render
+  // describe('on desktop', () => {
+  //   itHasElement('.about');
+  //   itHasElement('.exhibit');
+  //   itHasElement('.explore');
+  //   itHasElement('.contact');
+  //   itHasElement('.search');
+  // });
 });
