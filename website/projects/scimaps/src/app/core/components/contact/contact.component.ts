@@ -8,5 +8,5 @@ import { ChangeDetectionStrategy, Component, HostBinding } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ContactComponent {
-  @HostBinding('class') readonly clsName = 'sci-contact';
+  @HostBinding('class') readonly clsName = 'sci-contact mat-display-3';
 }
