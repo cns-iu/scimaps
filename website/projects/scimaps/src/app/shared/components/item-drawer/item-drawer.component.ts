@@ -78,7 +78,7 @@ export class ItemDrawerComponent {
    */
   openPurchase(): void {
     this.dialog.open(PurchaseModalComponent, {
-      width: '95%'
+      width: window.innerWidth <= 768 ? '100%' : '738px'
     });
   }
 }
