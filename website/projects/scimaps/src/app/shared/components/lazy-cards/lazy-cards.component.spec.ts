@@ -66,5 +66,5 @@ describe('LazyCardsComponent', () => {
     instance.showMore();
     const after = instance.itemsToDisplay;
     expect(after).toEqual(before + instance.ITEMS_TO_DISPLAY_INCREMENT);
-  })
+  });
 });
