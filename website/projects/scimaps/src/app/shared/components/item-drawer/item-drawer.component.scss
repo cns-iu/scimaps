@@ -16,10 +16,6 @@ $breakpoint: 768px;
     position: absolute;
     top: 5rem;
 
-    @media (max-width: $breakpoint) {
-      top: 2rem;
-    }
-
     .purchase-header {
       display: flex;
       width: 100%;

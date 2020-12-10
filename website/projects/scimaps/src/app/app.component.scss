@@ -1,3 +1,5 @@
+$mobile: 640px;
+
 :host {
   display: block;
   height: 100%;
@@ -6,5 +8,11 @@
     position: sticky;
     top: 0;
     z-index: 20;
+  }
+
+  .sidenav-container {
+    @media (max-width: $mobile) {
+      height: 100%;
+    }
   }
 }

@@ -295,10 +295,12 @@ export class MapsComponent implements OnInit {
     window.onscroll = () => {
       window.scrollTo(scrollLeft, scrollTop);
     };
-    document.body.style.overflow = 'hidden';
-    document.body.style.marginRight = '1rem';
     const drawer = document.getElementsByClassName('details-drawer')[0] as HTMLElement;
-    drawer.style.width = '100%';
+    if (window.innerWidth > 640) {
+      document.body.style.overflow = 'hidden';
+      document.body.style.marginRight = '1rem';
+      drawer.style.width = '100%';
+    }
   }
 
   /**
@@ -307,10 +309,10 @@ export class MapsComponent implements OnInit {
   closeDetails(): void {
     this.showDrawer = false;
     window.onscroll = () => {};
-    document.body.style.overflow = 'unset';
-    document.body.style.marginRight = '0';
     const drawer = document.getElementsByClassName('details-drawer')[0] as HTMLElement;
     if (window.innerWidth > 640) {
+      document.body.style.overflow = 'unset';
+      document.body.style.marginRight = '0';
       drawer.style.width = 'calc(100% + 1rem)';
     }
   }
