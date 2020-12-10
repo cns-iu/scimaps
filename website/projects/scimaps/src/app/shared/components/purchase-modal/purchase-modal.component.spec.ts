@@ -2,6 +2,7 @@ import { Shallow } from 'shallow-render';
 import { MatDialogRef } from '@angular/material/dialog';
 import { PurchaseModalComponent, PurchaseFormInfo } from './purchase-modal.component';
 import { PurchaseModalModule } from './purchase-modal.module';
+import { MatSelectChange } from '@angular/material/select';
 
 describe('PurchaseModalComponent', () => {
   let shallow: Shallow<PurchaseModalComponent>;
@@ -42,7 +43,7 @@ describe('PurchaseModalComponent', () => {
     instance.currentInfo = testInfo;
     const testEvent = {
       value: 'New York City'
-    } as unknown;
+    } as HTMLInputElement;
     instance.change(testEvent, 'city');
     expect(instance.currentInfo.city).toBe('New York City');
   });
@@ -51,7 +52,7 @@ describe('PurchaseModalComponent', () => {
     const { instance } = await shallow.render();
     const testEvent = {
       value: 'abcdefg\nhijklmnop'
-    } as unknown;
+    } as HTMLTextAreaElement;
     instance.updateShipInfo(testEvent);
     expect(instance.shipInfo).toBe('abcdefg%0D%0Ahijklmnop');
   });
@@ -61,7 +62,7 @@ describe('PurchaseModalComponent', () => {
     instance.currentInfo = testInfo;
     const testEvent = {
       value: 'California'
-    } as unknown;
+    } as MatSelectChange;
     instance.stateChange(testEvent);
     expect(instance.currentInfo.state).toBe('California');
   });
