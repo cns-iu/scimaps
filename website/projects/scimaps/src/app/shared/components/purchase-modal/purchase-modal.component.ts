@@ -1,6 +1,7 @@
 import { Component, HostBinding } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 import { MatSelectChange } from '@angular/material/select';
+import {FormControl, Validators} from '@angular/forms';
 
 export interface PurchaseFormInfo {
   firstName: string;
@@ -21,6 +22,19 @@ export interface PurchaseFormInfo {
 export class PurchaseModalComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-purchase-modal';
+
+  firstName = new FormControl('', [Validators.required]);
+  lastName = new FormControl('', [Validators.required]);
+  address = new FormControl('', [Validators.required]);
+  city = new FormControl('', [Validators.required]);
+  state = new FormControl('', [Validators.required]);
+  zip = new FormControl('', [Validators.required]);
+  email = new FormControl('', [Validators.required, Validators.email]);
+  phone = new FormControl('', [Validators.required]);
+
+  getErrorMessage() {
+    return this.email.hasError('email') ? 'Not a valid email' : '';
+  };
 
   /**
    * Whether the confirmation screen has been reached
@@ -82,7 +96,9 @@ export class PurchaseModalComponent {
    * Opens the confirmation screen when send button is clicked
    */
   buttonClickSend(): void {
-    this.confirmation = true;
+    if (this.allValid()) {
+      this.confirmation = true;
+    }
   }
 
   /**
@@ -127,5 +143,16 @@ export class PurchaseModalComponent {
     this.mailLink = this.mailLink.concat(
       [mailName, mailAddress, mailEmail, mailPhone].join('%0D%0A')
     ).concat(`%0D%0A%0D%0A${this.shipInfo}`);
+  }
+
+  allValid(): boolean {
+    if (this.email.hasError('email') || this.email.hasError('required') || this.firstName.hasError('required') || 
+        this.lastName.hasError('required') || this.address.hasError('required') || this.city.hasError('required') || 
+        this.state.hasError('required') || this.zip.hasError('required') || this.phone.hasError('required') || 
+        this.shipInfo === '') {
+      return false;
+    } else {
+      return true;
+    }
   }
 }

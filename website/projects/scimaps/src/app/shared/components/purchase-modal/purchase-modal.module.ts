@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { PurchaseModalComponent } from './purchase-modal.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatInputModule } from '@angular/material/input';
-import {MatSelectModule} from '@angular/material/select';
-
+import { MatSelectModule } from '@angular/material/select';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [PurchaseModalComponent],
@@ -12,7 +12,8 @@ import {MatSelectModule} from '@angular/material/select';
     CommonModule,
     MatDialogModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+    ReactiveFormsModule
   ],
   exports: [PurchaseModalComponent]
 })

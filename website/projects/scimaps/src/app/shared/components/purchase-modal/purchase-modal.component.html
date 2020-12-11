@@ -22,27 +22,27 @@
           <div class="name-inputs">
             <mat-form-field class="first-name input" appearance="fill">
               <mat-label >First Name</mat-label>
-              <input (change)="change($event.target, 'firstName')" matInput>
+              <input (change)="change($event.target, 'firstName')" placeholder="Enter first name" [formControl]="firstName" matInput>
             </mat-form-field>
             <mat-form-field class="last-name input" appearance="fill">
               <mat-label>Last Name</mat-label>
-              <input (change)="change($event.target, 'lastName')" matInput>
+              <input (change)="change($event.target, 'lastName')" placeholder="Enter last name" [formControl]="lastName" matInput>
             </mat-form-field>
           </div>
           <div class="shipping-input">
             <mat-form-field class="shipping-address input" appearance="fill">
               <mat-label>Shipping Address</mat-label>
-              <input (change)="change($event.target, 'shipAddress')" matInput>
+              <input (change)="change($event.target, 'shipAddress')" placeholder="Enter shipping address" [formControl]="address" matInput>
             </mat-form-field>
           </div>
           <div class="address-inputs">
             <mat-form-field class="city input" appearance="fill">
               <mat-label>City</mat-label>
-              <input (change)="change($event.target, 'city')" matInput>
+              <input (change)="change($event.target, 'city')" placeholder="Enter city" [formControl]="city" matInput>
             </mat-form-field>
             <mat-form-field class="state input" appearance="fill">
               <mat-label>State</mat-label>
-              <mat-select (selectionChange)="stateChange($event)">
+              <mat-select (selectionChange)="stateChange($event)" [formControl]="state">
                 <mat-option *ngFor="let state of states" [value]="state">
                   {{state}}
                 </mat-option>
@@ -50,17 +50,18 @@
             </mat-form-field>
             <mat-form-field class="zip input" appearance="fill">
               <mat-label>Zip</mat-label>
-              <input (change)="change($event.target, 'zip')" matInput>
+              <input (change)="change($event.target, 'zip')" placeholder="xxxxx" [formControl]="zip" matInput>
             </mat-form-field>
           </div>
           <div class="contact-inputs">
             <mat-form-field class="email input" appearance="fill">
               <mat-label>Email</mat-label>
-              <input (change)="change($event.target, 'email')" matInput>
+              <input (change)="change($event.target, 'email')" placeholder="Enter email address" [formControl]="email" matInput>
+              <mat-error *ngIf="email.invalid">{{getErrorMessage('email')}}</mat-error>
             </mat-form-field>
             <mat-form-field class="phone input" appearance="fill">
               <mat-label>Phone</mat-label>
-              <input (change)="change($event.target, 'phone')" matInput>
+              <input (change)="change($event.target, 'phone')" placeholder="xxx-xxx-xxxx" [formControl]="phone" matInput>
             </mat-form-field>
           </div>
           <div class="shipping-info">
@@ -69,7 +70,7 @@
           </div>
           <div class="button-container">
             <button class="cancel button" (click)="close()">CANCEL</button>
-            <a class="send button" (click)="buttonClickSend()" href="{{mailLink}}">SEND</a>
+            <a class="send button" [class.disabled]="!allValid()" (click)="buttonClickSend()" href="{{mailLink}}">SEND</a>
           </div>
         </div>
       </div>
