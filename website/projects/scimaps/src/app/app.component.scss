@@ -14,5 +14,9 @@ $mobile: 640px;
     @media (max-width: $mobile) {
       height: 100%;
     }
+
+    .content {
+      padding: 1rem;
+    }
   }
 }

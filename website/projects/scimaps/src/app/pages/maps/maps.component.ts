@@ -1,5 +1,5 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
-import { DiscoverItem } from '../../core/models/discover-item';
+import { DiscoverItem, ThumbnailLink } from '../../core/models/discover-item';
 
 @Component({
   selector: 'sci-maps',
@@ -259,12 +259,27 @@ export class MapsComponent implements OnInit {
     }
   ];
   displayItems: DiscoverItem[] = [];
-
-  readonly slides = [
-    'assets/images/benches.jpg',
-    'assets/images/bridge.jpg',
-    'assets/images/flower.jpg',
-    'assets/images/garden.jpg',
+  highlightCarouselItems: ThumbnailLink[] = [
+    {
+      image: 'assets/images/benches.jpg',
+      title: 'Map 1 Description.',
+      link: 'www.google.com'
+    },
+    {
+      image: 'assets/images/bridge.jpg',
+      title: 'Map 2 Description.',
+      link: 'www.google.com'
+    },
+    {
+      image: 'assets/images/flower.jpg',
+      title: 'Map 3 Description.',
+      link: 'www.google.com'
+    },
+    {
+      image: 'assets/images/garden.jpg',
+      title: 'Map 4 Description.',
+      link: 'www.google.com'
+    }
   ];
 
   ngOnInit(): void {

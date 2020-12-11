@@ -3,7 +3,7 @@
   <p class="highlight-body">{{  highlightBody }}</p>
   <div class="carousel-container">
     <sci-carousel class="carousel">
-      <sci-carousel-item *ngFor="let carouselItem of highlightCarouselItems">
+      <sci-carousel-item class="sci-carousel-item" *ngFor="let carouselItem of highlightCarouselItems">
         <div class="carousel-item">
           <img [src]="carouselItem.image" class="carousel-image" [alt]="carouselItem.image.split('/')[3]">
           <div class="carousel-image-title">{{ carouselItem.title }}</div>
