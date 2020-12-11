@@ -57,7 +57,7 @@
             <mat-form-field class="email input" appearance="fill">
               <mat-label>Email</mat-label>
               <input (change)="change($event.target, 'email')" placeholder="Enter email address" [formControl]="email" matInput>
-              <mat-error *ngIf="email.invalid">{{getErrorMessage('email')}}</mat-error>
+              <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
             </mat-form-field>
             <mat-form-field class="phone input" appearance="fill">
               <mat-label>Phone</mat-label>
