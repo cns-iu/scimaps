@@ -33,7 +33,32 @@ describe('PurchaseModalComponent', () => {
   });
 
   it('switches to the confirmation screen when send button is clicked', async () => {
-    const { instance } = await shallow.render();
+    const { instance, find } = await shallow.render();
+    instance.shipInfo = 'test';
+    const firstName = find('.first-name-input');
+    firstName.nativeElement.value = 'test';
+    firstName.triggerEventHandler('input', { target: firstName.nativeElement });
+    const lastName = find('.last-name-input');
+    lastName.nativeElement.value = 'test';
+    lastName.triggerEventHandler('input', { target: lastName.nativeElement });
+    const address = find('.shipping-address-input');
+    address.nativeElement.value = 'test';
+    address.triggerEventHandler('input', { target: address.nativeElement });
+    const city = find('.city-input');
+    city.nativeElement.value = 'test';
+    city.triggerEventHandler('input', { target: city.nativeElement });
+    const state = find('.state-input');
+    city.nativeElement.value = 'Alaska';
+    city.triggerEventHandler('select', { target: state.nativeElement });
+    const zip = find('.zip-input');
+    zip.nativeElement.value = 'test';
+    zip.triggerEventHandler('input', { target: zip.nativeElement });
+    const email = find('.email-input');
+    email.nativeElement.value = 'test@gmail.com';
+    email.triggerEventHandler('input', { target: email.nativeElement });
+    const phone = find('.phone-input');
+    phone.nativeElement.value = 'test';
+    phone.triggerEventHandler('input', { target: phone.nativeElement });
     instance.buttonClickSend();
     expect(instance.confirmation).toBeTrue();
   });

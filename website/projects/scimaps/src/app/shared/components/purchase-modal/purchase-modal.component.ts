@@ -1,7 +1,7 @@
 import { Component, HostBinding } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 import { MatSelectChange } from '@angular/material/select';
-import {FormControl, Validators} from '@angular/forms';
+import { FormControl, Validators } from '@angular/forms';
 
 export interface PurchaseFormInfo {
   firstName: string;
@@ -31,10 +31,6 @@ export class PurchaseModalComponent {
   zip = new FormControl('', [Validators.required]);
   email = new FormControl('', [Validators.required, Validators.email]);
   phone = new FormControl('', [Validators.required]);
-
-  getErrorMessage() {
-    return this.email.hasError('email') ? 'Not a valid email' : '';
-  };
 
   /**
    * Whether the confirmation screen has been reached
@@ -146,13 +142,17 @@ export class PurchaseModalComponent {
   }
 
   allValid(): boolean {
-    if (this.email.hasError('email') || this.email.hasError('required') || this.firstName.hasError('required') || 
-        this.lastName.hasError('required') || this.address.hasError('required') || this.city.hasError('required') || 
-        this.state.hasError('required') || this.zip.hasError('required') || this.phone.hasError('required') || 
-        this.shipInfo === '') {
+      if (this.email.hasError('email') || this.email.hasError('required') || this.firstName.hasError('required') ||
+      this.lastName.hasError('required') || this.address.hasError('required') || this.city.hasError('required') ||
+      this.zip.hasError('required') || this.phone.hasError('required') ||
+      this.shipInfo === '') {
       return false;
     } else {
       return true;
     }
+  }
+
+  getErrorMessage(): string {
+    return this.email.hasError('email') ? 'Not a valid email' : '';
   }
 }

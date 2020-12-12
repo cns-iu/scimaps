@@ -20,48 +20,48 @@
       <div class="purchase-form-container">
         <div class="purchase-form">
           <div class="name-inputs">
-            <mat-form-field class="first-name input" appearance="fill">
+            <mat-form-field class="first-name" appearance="fill">
               <mat-label >First Name</mat-label>
-              <input (change)="change($event.target, 'firstName')" placeholder="Enter first name" [formControl]="firstName" matInput>
+              <input class="first-name-input" (change)="change($event.target, 'firstName')" placeholder="Enter first name" [formControl]="firstName" matInput>
             </mat-form-field>
-            <mat-form-field class="last-name input" appearance="fill">
+            <mat-form-field class="last-name" appearance="fill">
               <mat-label>Last Name</mat-label>
-              <input (change)="change($event.target, 'lastName')" placeholder="Enter last name" [formControl]="lastName" matInput>
+              <input class="last-name-input" (change)="change($event.target, 'lastName')" placeholder="Enter last name" [formControl]="lastName" matInput>
             </mat-form-field>
           </div>
           <div class="shipping-input">
-            <mat-form-field class="shipping-address input" appearance="fill">
+            <mat-form-field class="shipping-address" appearance="fill">
               <mat-label>Shipping Address</mat-label>
-              <input (change)="change($event.target, 'shipAddress')" placeholder="Enter shipping address" [formControl]="address" matInput>
+              <input class="shipping-address-input" (change)="change($event.target, 'shipAddress')" placeholder="Enter shipping address" [formControl]="address" matInput>
             </mat-form-field>
           </div>
           <div class="address-inputs">
-            <mat-form-field class="city input" appearance="fill">
+            <mat-form-field class="city" appearance="fill">
               <mat-label>City</mat-label>
-              <input (change)="change($event.target, 'city')" placeholder="Enter city" [formControl]="city" matInput>
+              <input class="city-input" (change)="change($event.target, 'city')" placeholder="Enter city" [formControl]="city" matInput>
             </mat-form-field>
-            <mat-form-field class="state input" appearance="fill">
+            <mat-form-field class="state" appearance="fill">
               <mat-label>State</mat-label>
-              <mat-select (selectionChange)="stateChange($event)" [formControl]="state">
+              <mat-select class="state-input" (selectionChange)="stateChange($event)" [formControl]="state">
                 <mat-option *ngFor="let state of states" [value]="state">
                   {{state}}
                 </mat-option>
               </mat-select>
             </mat-form-field>
-            <mat-form-field class="zip input" appearance="fill">
+            <mat-form-field class="zip" appearance="fill">
               <mat-label>Zip</mat-label>
-              <input (change)="change($event.target, 'zip')" placeholder="xxxxx" [formControl]="zip" matInput>
+              <input class="zip-input" (change)="change($event.target, 'zip')" placeholder="xxxxx" [formControl]="zip" matInput>
             </mat-form-field>
           </div>
           <div class="contact-inputs">
-            <mat-form-field class="email input" appearance="fill">
+            <mat-form-field class="email" appearance="fill">
               <mat-label>Email</mat-label>
-              <input (change)="change($event.target, 'email')" placeholder="Enter email address" [formControl]="email" matInput>
+              <input class="email-input" (change)="change($event.target, 'email')" placeholder="Enter email address" [formControl]="email" matInput>
               <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
             </mat-form-field>
-            <mat-form-field class="phone input" appearance="fill">
+            <mat-form-field class="phone" appearance="fill">
               <mat-label>Phone</mat-label>
-              <input (change)="change($event.target, 'phone')" placeholder="xxx-xxx-xxxx" [formControl]="phone" matInput>
+              <input class="phone-input" (change)="change($event.target, 'phone')" placeholder="xxx-xxx-xxxx" [formControl]="phone" matInput>
             </mat-form-field>
           </div>
           <div class="shipping-info">
