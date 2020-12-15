@@ -2,7 +2,9 @@
 @use './components/card-gallery/card-gallery.theme';
 @use './components/carousel/carousel.theme';
 @use './components/news-item/news-item.theme';
-@use './components/warning-dialog/warning-dialog.theme';
+@use './components/item-drawer/item-drawer.theme';
+@use './components/warning-dialog/warning-dialog.theme.scss';
+@use './components/purchase-modal/purchase-modal.theme.scss';
 @use './components/news-item-list/news-item-list.theme';
 @use './components/menu-icon/menu-icon.theme';
 @use './components/action-card/action-card.theme';
@@ -17,7 +19,9 @@
   @include card-gallery.theme($theme);
   @include carousel.theme($theme);
   @include news-item.theme($theme);
+  @include item-drawer.theme($theme);
   @include warning-dialog.theme($theme);
+  @include purchase-modal.theme($theme);
   @include news-item-list.theme($theme);
   @include call-out.theme($theme);
   @include menu-icon.theme($theme);

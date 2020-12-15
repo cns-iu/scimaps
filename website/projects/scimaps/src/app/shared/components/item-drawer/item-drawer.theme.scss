@@ -1,0 +1,48 @@
+@import "~@angular/material/theming";
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $primary: map-get($config, primary);
+  $accent: map-get($config, accent);
+
+  .sci-item-drawer {
+    background-color: white;
+
+    .purchase-button {
+      color: mat-color($primary);
+      border-color: mat-color($primary);
+
+      &:hover {
+        background-color: mat-color($primary);
+        color: white;
+      }
+    }
+
+    .details-makers {
+      background-color: mat-color($primary, lighter);
+    }
+
+
+    .language-selection {
+      .option {
+        &.active {
+          color: mat-color($accent);
+        }
+      }
+    }
+
+    .icon {
+      background-color: mat-color($primary, darker);
+      color: white;
+    }
+  }
+}
+
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+
+  @if $color {
+    @include color($color);
+  }
+}

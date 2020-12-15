@@ -15,7 +15,9 @@ $mobile: 640px;
   .text-content {
     flex-grow: 2;
     padding-left: 1rem;
-    padding-right: 2rem;
+    padding-right: 3rem;
+    width: 40%;
+
 
     @media (max-width: $tablet) {
       width: 100%;
@@ -34,7 +36,8 @@ $mobile: 640px;
     display: flex;
     flex-direction: row;
     width: 60%;
-    justify-content: end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 
     @media (max-width: $tablet) {
       width: 100%;
@@ -45,7 +48,6 @@ $mobile: 640px;
 
     @media (max-width: $mobile) {
       flex-wrap: wrap;
-      justify-content: space-around;
     }
 
     &:last-child {
@@ -53,11 +55,21 @@ $mobile: 640px;
     }
 
     .thumbnail {
-      cursor: pointer;
       margin-right: 1rem;
+      cursor: pointer;
+      margin-bottom: 1rem;
+      width: 22%;
 
       @media (max-width: $mobile) {
+        margin-right: 0;
         position: relative;
+        width: 46%;
+      }
+
+      .thumbnail-image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
       }
 
       .thumbnail-title {
@@ -75,6 +87,7 @@ $mobile: 640px;
     }
 
     .thumbnail.desktop {
+      margin-right: 1rem;
       @media (max-width: $mobile) {
         display: none;
       }
