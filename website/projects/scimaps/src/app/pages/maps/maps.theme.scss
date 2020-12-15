@@ -12,17 +12,17 @@
     }
 
     .carousel-image-title {
-      background-color: mat-color($primary, 500);
+      background-color: mat-color($primary);
       color: mat-color($primary, default-contrast);
     }
 
     .more-button {
-      background-color: mat-color($primary, 100);
-      color: mat-color($primary, 500);
+      background-color: mat-color($primary, lighter);
+      color: mat-color($primary);
       border: 1px solid mat-color($grey, 50);
 
       &:hover {
-        background-color: mat-color($primary, 500);
+        background-color: mat-color($primary);
         color: mat-color($primary, default-contrast);
       }
     }
