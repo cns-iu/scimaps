@@ -3,6 +3,7 @@ $mobile: 640px;
 :host {
   display: block;
   height: 100%;
+  overflow-y: auto;
 
   .header {
     position: sticky;
@@ -16,7 +17,7 @@ $mobile: 640px;
     }
 
     .content {
-      padding: 1rem;
+      padding: 0 1rem;
     }
   }
 }
