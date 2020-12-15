@@ -30,7 +30,7 @@ export class ItemDrawerComponent {
       'Reference 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit.' +
         'Fusce non dui euismod mauris faucibus euismod non lacinia quam.'
     ],
-    thumbnail: '../../../assets/maps/maps-2019/rose.jpg'
+    thumbnail: 'assets/maps/maps-2019/rose.jpg'
   };
 
   /**
