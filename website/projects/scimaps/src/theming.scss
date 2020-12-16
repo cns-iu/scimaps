@@ -7,6 +7,7 @@
 @use "./app/core/core.theme" as core;
 @use "./app/shared/shared.theme" as shared;
 @use "./app/pages/macroscopes/macroscopes.theme.scss" as macroscopes;
+@use "./app/pages/maps/maps.theme.scss" as maps;
 // @use "./app/pages/pages.theme" as pages;
 
 
@@ -24,6 +25,7 @@
   @include core.theme($theme);
   @include shared.theme($theme);
   @include macroscopes.theme($theme);
+  @include maps.theme($theme);
   // @include pages.theme($theme);
 }
 

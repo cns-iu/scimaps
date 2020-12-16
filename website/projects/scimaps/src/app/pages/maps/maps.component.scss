@@ -1,0 +1,203 @@
+$desktop: 1248px;
+$tablet: 960px;
+$mobile: 640px;
+$breakpoint: 768px;
+
+::ng-deep {
+  @media (max-width: $breakpoint) {
+    .swiper-button-prev, .swiper-button-next {
+      background-color: rgba(0, 0, 0, 0.75);
+      border-radius: 50%;
+      padding: 1.5rem;
+      top: 50% !important;
+    }
+  
+    .swiper-button-prev::after, .swiper-button-next::after {
+      color: white !important;
+    }
+  }
+}
+
+:host {
+  @media (max-width: $breakpoint) {
+    top: 0%;
+    transition: top 1s;
+    overflow-y: scroll;
+    z-index: 6;
+    
+    ::-webkit-scrollbar {
+      -webkit-appearance: none;
+    }
+  }
+
+  .details-drawer {
+    left: 0%;
+    transition: left 1s;
+    margin-right: 0;
+    overflow-y: scroll;
+    z-index: 6;
+
+    @media (max-width: $breakpoint) {
+     top: 0%;
+     left: 0%;
+     transition: top 1s;
+    }
+
+    &.hidden {
+      left: 100%;
+      margin-right: 1rem;
+
+      @media (max-width: $breakpoint) {
+        margin-right: 0;
+        top: -100%;
+        left: 0%;
+      }
+    }
+  }
+
+  .highlight-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+
+    @media (max-width: $mobile) {
+      flex-direction: column-reverse;
+      border: none;
+    }
+
+    .highlight-body {
+      width: 50%;
+      padding-right: 1rem;
+
+      @media (max-width: $mobile) {
+        width: 100%;
+        padding: 0rem;
+      }
+    }
+
+    .carousel-container {
+      display: flex;
+      justify-content: space-around;
+      width: 50%;
+
+      @media (max-width: $mobile) {
+        width: 100%;
+        padding: 0rem;
+        margin-bottom: 1rem;
+      }
+
+      .carousel {
+        width: 100%;
+
+        .sci-carousel-item {
+          .carousel-item {
+            display: flex;
+            flex-direction: column;
+
+            .carousel-image {
+              height: 20rem;
+              object-fit: cover;
+            }
+    
+            .carousel-image-title {
+              padding: 1rem;
+              height: 3.75rem;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  .discover-item {
+    margin-bottom: 2rem;
+
+    @media (max-width: $mobile) {
+      display: none;
+    }
+  }
+
+  .discover-maps {
+    @media (max-width: $mobile) {
+      display: none;
+    }
+  }
+
+  .more-button {
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+
+    @media (max-width: $mobile) {
+      display: none;
+    }
+  }
+
+  .mobile-button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-width: 1px 0;
+    border-style: solid;
+    padding: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+
+    .mobile-icon {
+      font-size: 1.5rem;
+      height: 1.5rem;
+      width: 1.5rem;
+      cursor: pointer;
+    }
+
+    @media (min-width: $mobile) {
+      display: none;
+    }
+  }
+
+  .fullscreen-modal {
+    @media (min-width: $mobile) {
+      display: none;
+    }
+
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    padding: 1rem;
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+
+      .mobile-icon {
+        cursor: pointer;
+      }
+
+      .mobile-title {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        h3 {
+          margin-bottom: 0rem !important;
+        }
+      }
+    }
+
+    .maps-carousel {
+      height: 100%;
+    }
+  }
+} 

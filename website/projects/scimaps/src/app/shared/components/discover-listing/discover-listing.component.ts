@@ -1,6 +1,5 @@
-import { Component, HostBinding, Input } from '@angular/core';
+import { Component, HostBinding, Input, Output, EventEmitter } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-
 import { DiscoverItem } from '../../../core/models/discover-item';
 import { WarningDialogComponent } from '../warning-dialog/warning-dialog.component';
 
@@ -16,6 +15,10 @@ export class DiscoverListingComponent {
   @Input() discoverItem!: DiscoverItem;
   mobileWarning = 'Macroscopes work best on desktop or larger tablet screens.  You may have a less than optimal experience on this device.';
 
+  @Input() type!: 'macroscopes' | 'maps';
+
+  @Output() openDrawer = new EventEmitter();
+
   constructor(private readonly dialog: MatDialog) { }
 
   imageSource(image: string): string {
@@ -23,16 +26,24 @@ export class DiscoverListingComponent {
   }
 
   mobileThumbnailClickHandler(link: string): void {
-    this.dialog.open(WarningDialogComponent, {
-      width: '95%',
-      data: {
-        warningMessage: this.mobileWarning,
-        closeLink: link
-      }
-    });
+    if (this.type === 'macroscopes') {
+      this.dialog.open(WarningDialogComponent, {
+        width: '95%',
+        data: {
+          warningMessage: this.mobileWarning,
+          closeLink: link
+        }
+      });
+    } else {
+      this.openDrawer.emit();
+    }
   }
 
   desktopThumbnailClickHandler(link: string): void {
-    window.open(link, '_blank');
+    if (this.type === 'macroscopes') {
+      window.open(link, '_blank');
+    } else {
+      this.openDrawer.emit();
+    }
   }
 }

@@ -143,7 +143,7 @@ export class AppComponent {
     date: new Date(2020, 2, 2),
     publication: 'Library News',
     institution: 'Virginia Tech',
-    thumbnail: '../../assets/images/rose.jpg',
+    thumbnail: 'assets/images/rose.jpg',
     pdfLink: 'link'
   };
 }

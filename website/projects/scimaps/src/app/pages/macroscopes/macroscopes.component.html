@@ -1,9 +1,9 @@
 <h2 class="header">Macroscopes</h2>
-<div class="highlight-content">
+<div *ngIf="!showModal" class="highlight-content">
   <p class="highlight-body">{{  highlightBody }}</p>
   <div class="carousel-container">
     <sci-carousel class="carousel">
-      <sci-carousel-item *ngFor="let carouselItem of highlightCarouselItems">
+      <sci-carousel-item class="sci-carousel-item" *ngFor="let carouselItem of highlightCarouselItems">
         <div class="carousel-item">
           <img [src]="carouselItem.image" class="carousel-image" [alt]="carouselItem.image.split('/')[3]">
           <div class="carousel-image-title">{{ carouselItem.title }}</div>
@@ -13,10 +13,10 @@
   </div>
 </div>
 
-<sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item"></sci-discover-listing>
+<sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item" [type]="'macroscopes'"></sci-discover-listing>
 
 <button *ngIf="moreMacroscopes()" class="more-button" (click)="showMoreMacroscopes()">Show More Macroscopes</button>
-<div class="mobile-button" (click)="showModal = true;">
+<div *ngIf="!showModal" class="mobile-button" (click)="showModal = true;">
   Discover Macroscopes
   <mat-icon class="mobile-icon">chevron_right</mat-icon>
 </div>
@@ -27,9 +27,9 @@
     <div class="mobile-title"><h3>Macroscopes</h3></div>
   </div>
 
-  <sci-carousel>
-    <sci-carousel-item *ngFor="let discoverItem of discoverItems">
-      <sci-discover-listing [discoverItem]="discoverItem"></sci-discover-listing>
+  <sci-carousel class="macroscopes-carousel">
+    <sci-carousel-item class="mobile-carousel" *ngFor="let discoverItem of discoverItems">
+      <sci-discover-listing [discoverItem]="discoverItem" [type]="'macroscopes'"></sci-discover-listing>
     </sci-carousel-item>
   </sci-carousel>
 </div>
