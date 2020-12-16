@@ -43,10 +43,12 @@ collections:
             label_singular: Language
             multiple: true
             widget: list
-            summary: '{{fields.label}}'
+            summary: '{{fields.language}}'
             fields:
-              - { name: code, label: 2-letter Code }
-              - { name: label, label: Label }
+              - { name: abbreviation, label: 3-letter Code }
+              - { name: abbr_short, label: 2-letter Code }
+              - { name: language, label: Language }
+              - { name: native, label: Native Spelling }
 
   - name: blog
     label: Blogs
@@ -70,14 +72,13 @@ collections:
     folder: content/person
     path: "{{slug}}/readme"
     create: true
-    slug: "{{firstName}}-{{lastName}}"
+    slug: "{{name}}"
     preview_path: person/{{slug}}
     media_folder: ''
     public_folder: ''
-    sortable_fields: [firstName, lastName, affiliation]
+    sortable_fields: [name, affiliation]
     fields:
-      - { name: firstName, label: First Name }
-      - { name: lastName, label: Last Name }
+      - { name: name, label: Name }
       - name: roles
         label: Roles
         label_singular: Role
@@ -178,6 +179,9 @@ collections:
     preview_path: map/{{iteration}}/{{sequence}}
     media_folder: ''
     public_folder: ''
+    default_sort: iteration
+    sortable_fields: [title, iteration]
+    summary: '{{fields.iteration}}.{{fields.sequence}} {{fields.title}}'
     fields:
       - { name: title, label: Title, i18n: true }
       - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
@@ -188,15 +192,23 @@ collections:
         widget: relation
         multiple: true
         collection: person
-        search_fields: ['firstName', 'lastName']
+        search_fields: ['name']
         value_field: '{{slug}}'
-        display_fields: ['{{firstName}} {{lastName}}']
-      - { name: location, label: Location, widget: map }
-      - { name: year, label: Year, widget: number, min: 2000, default: 2020 }
+        display_fields: ['{{name}}']
+      # - { name: location, label: Location, widget: map }
+      - { name: year, label: Year, widget: number, min: -2000, default: 2020 }
       - { name: creditLine, label: Translation Credit, required: false }
-      - { name: references, label: References, widget: list, summary: '{{fields.ref}}', allow_add: true, field: {name: ref, label: Reference, widget: string }}
-      - { name: image, label: Image, widget: image }
-      - { name: link, label: Map Link }
+      - { name: references, label: References, widget: list, summary: '{{fields.ref}}', allow_add: true, field: {name: ref, label: Reference, widget: markdown }}
+      - name: image
+        label: Image
+        widget: object
+        collapsed: false
+        fields:
+          - { name: sm, label: Small (80px Width), widget: image }
+          - { name: med, label: Medium (160px Width), widget: image }
+          - { name: lg, label: Large (865px Width), widget: image }
+          - { name: tiles, label: Tiled Image URL, widget: string }
+      - { name: externalLink, label: External Link, required: false }
 
   - name: macroscope
     label: Macroscopes
@@ -209,25 +221,35 @@ collections:
     preview_path: macroscope/{{iteration}}/{{sequence}}
     media_folder: ''
     public_folder: ''
+    default_sort: iteration
+    sortable_fields: [title, iteration]
+    summary: '{{fields.iteration}}.{{fields.sequence}} {{fields.title}}'
     fields:
       - { name: title, label: Title, i18n: true }
       - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
       - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
-      - { name: body, label: Description, widget: markdown }
+      - { name: body, label: Description, widget: markdown, i18n: true }
       - name: makers
         label: Makers
         widget: relation
         multiple: true
         collection: person
-        search_fields: ['firstName', 'lastName']
+        search_fields: ['name']
         value_field: '{{slug}}'
-        display_fields: ['{{firstName}} {{lastName}}']
-      - { name: location, label: Location, widget: map }
-      - { name: year, label: Year, widget: number, min: 2000, default: 2020 }
+        display_fields: ['{{name}}']
+      # - { name: location, label: Location, widget: map }
+      - { name: year, label: Year, widget: number, min: -2000, default: 2020 }
       - { name: creditLine, label: Translation Credit, required: false }
-      - { name: references, label: References, widget: list, summary: '{{fields.ref}}', allow_add: true, field: {name: ref, label: Reference, widget: string }}
-      - { name: image, label: Image, widget: image }
-      - { name: macroscopeLink, label: Macroscope Link }
+      - { name: references, label: References, widget: list, summary: '{{fields.ref}}', allow_add: true, field: {name: ref, label: Reference, widget: markdown }}
+      - name: image
+        label: Image
+        widget: object
+        collapsed: false
+        fields:
+          - { name: sm, label: Small (80px Width), widget: image }
+          - { name: med, label: Medium (160px Width), widget: image }
+          - { name: lg, label: Large (865px Width), widget: image }
+      - { name: externalLink, label: External Link, required: false }
 
   - name: mapIteration
     label: Map Iterations
@@ -259,6 +281,22 @@ collections:
       - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
       - { name: body, label: Description, widget: markdown }
 
+  - name: static-pages
+    label: Static Pages (deprecated)
+    label_singular: Static Page
+    folder: content/static-pages
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: id, label: ID, widget: number, required: false }
+      - { name: name, label: Name }
+      - { name: subpage, label: Subpage, required: false }
+      - { name: title, label: Title }
+      - { name: description, label: Description, required: false }
+      - { name: body, label: Content, widget: markdown }
+      - { name: last_update, label: Last Updated, widget: date, required: false }
+
 backend:
   name: github
   repo: cns-iu/scimaps
@@ -270,11 +308,11 @@ backend:
 # Uncomment below when using the default proxy server port
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ## Basically run `npx netlify-cms-proxy-server` and launch the angular site
-local_backend: true
+# local_backend: true
 
 i18n:
   structure: single_file
-  locales: [en, de, fr, jp]
+  locales: [en, es, zh, fr, pt, de, pl]
   default_locale: en
 
 media_folder: content/images/uploads

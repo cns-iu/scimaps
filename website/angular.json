@@ -27,8 +27,7 @@
               "projects/scimaps/src/favicon.ico",
               "projects/scimaps/src/assets",
               "projects/scimaps/src/content",
-              "projects/scimaps/src/indexes",
-              "projects/scimaps/src/admin"
+              "projects/scimaps/src/indexes"
             ],
             "stylePreprocessorOptions": {
               "includePaths": [

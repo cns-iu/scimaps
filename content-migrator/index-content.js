@@ -8,11 +8,12 @@ const pathJoin = require('path').join;
 const CONTENT = '../content';
 const INDEXES = '../website/projects/scimaps/src/indexes';
 
+function readMarkdown(mdFile) {
+  const data = frontMatter(fs.readFileSync(mdFile).toString());
+  return Object.assign(data.body ? {body: data.body} : {}, data.attributes);
+}
 function readFiles(globString) {
-  return glob.sync(globString).map(f => {
-    const data = frontMatter(fs.readFileSync(f).toString());
-    return Object.assign(data.body ? {body: data.body} : {}, data.attributes);
-  });
+  return glob.sync(globString).map(readMarkdown);
 }
 function writeJSON(path, data) {
   fs.writeFileSync(path, JSON.stringify(data, null, 2));
