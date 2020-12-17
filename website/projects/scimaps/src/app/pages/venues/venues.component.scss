@@ -1,0 +1,9 @@
+$desktop: 1248px;
+$tablet: 960px;
+$mobile: 640px;
+
+:host {
+  @media (min-width: $desktop) {
+    display: none;
+  }
+}

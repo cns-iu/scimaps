@@ -1,0 +1,151 @@
+$breakpoint: 768px;
+
+:host {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 2;
+  align-items: center;
+
+  .details-container {
+    width: 80%;
+    position: absolute;
+    top: 5rem;
+
+    .purchase-header {
+      display: flex;
+      width: 100%;
+      height: 2rem;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+
+      .back-button {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: #7996A3;
+
+        .back-icon {
+          margin-left: -0.5rem;
+          margin-right: 1rem;
+        }
+      }
+  
+      .purchase-button {
+        height: 2.25rem;
+        padding: 0 1rem;
+        border-width: 0.125rem;
+        border-style: solid;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+  
+    .body {
+      display: flex;
+
+      @media (max-width: $breakpoint) {
+        flex-direction: column-reverse;
+      }
+  
+      .details-content {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-right: 3rem;
+
+        @media (max-width: $breakpoint) {
+          width: 100%;
+          padding: 0;
+        }
+
+        .details-title {
+          @media (max-width: $breakpoint) {
+            display: none;
+          }
+        }
+
+        .details-makers {
+          display: flex;
+          margin-top: 1rem;
+          margin-bottom: 0.5rem;
+          height: 3rem;
+          align-items: center;
+        }
+
+        .makers-label,
+        .details-location,
+        .details-credit {
+          margin-left: 1rem;
+        }
+
+        .makers-label {
+          font-weight: bold;
+        }
+
+        .language-selection {
+          display: flex;
+          margin: 1rem 0;
+
+          .option {
+            cursor: pointer;
+          }
+        }
+
+        .details-description {
+          margin-bottom: 1rem;
+        }
+
+        .details-references {
+          font-size: 11px;
+          line-height: 16px;
+
+          .reference {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    
+      .details-image {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        @media (max-width: $breakpoint) {
+          width: 100%;
+        }
+        
+        .thumbnail {
+          object-fit: contain;
+          width: 100%;
+          cursor: pointer;
+        }
+
+        .icon {
+          position: absolute;
+          right: 1px;
+          height: 3rem;
+          width: 3rem;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          cursor: pointer;
+        }
+      }
+
+      .details-title {
+        &.mobile {
+          @media (min-width: $breakpoint) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

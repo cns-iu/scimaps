@@ -1,0 +1,18 @@
+<div class="text-content">
+  <h3 class="header">{{ discoverItem.title }}</h3>
+  <div class="body">{{ discoverItem.body }}</div>
+</div>
+
+<div class="image-content">
+  <div class="thumbnail desktop" *ngFor="let thumbnail of discoverItem.thumbnails" (click)="desktopThumbnailClickHandler(thumbnail.link)">
+    <img class="thumbnail-image" [src]="imageSource(thumbnail.image)" [alt]="thumbnail.image">
+    <div class="thumbnail-title">{{ thumbnail.title }}</div>
+  </div>
+
+  <div class="thumbnail mobile" *ngFor="let thumbnail of discoverItem.thumbnails" (click)="mobileThumbnailClickHandler(thumbnail.link)">
+    <img class="thumbnail-image" [src]="imageSource(thumbnail.image)" [alt]="thumbnail.image">
+    <div class="thumbnail-title">{{ thumbnail.title }}</div>
+  </div>
+</div>
+
+<div class="tablet-body">{{ discoverItem.body }}</div>

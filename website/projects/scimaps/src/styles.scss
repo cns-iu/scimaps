@@ -1,8 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+$breakpoint: 768px;
 
+@media (max-width: $breakpoint) {
+  ::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+  }
+}
 
 html {
+  @media (max-width: $breakpoint) {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
   box-sizing: border-box;
+  
+  &.cdk-global-scrollblock {
+    overflow-y: hidden;
+  }
 }
 
 *,
@@ -19,9 +33,64 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
 }
 
-a {
-  color: #6ea7ef;
+.cdk-global-overlay-wrapper {
+  overflow: auto;
+}
+
+.cdk-overlay-dark-backdrop {
+  background: rgba(0, 0, 0, 0.54) !important;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+// Swiper styles
+@import "~swiper/swiper";
+@import "~swiper/components/a11y/a11y";
+@import "~swiper/components/navigation/navigation";
+@import "~swiper/components/pagination/pagination";
+
+// Swiper style overrides
+.swiper {
+  .swiper-slide > img {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::after {
+      font-family: 'Material Icons';
+    }
+  }
+
+  .swiper-button-prev::after {
+    content: "chevron_left";
+  }
+
+  .swiper-button-next::after {
+    content: "chevron_right";
+  }
+
+  .swiper-pagination {
+    height: 1rem;
+
+    .swiper-pagination-bullet {
+      width: 1rem;
+      height: 1rem;
+      background: none;
+      border: 0.125rem solid;
+      outline: none;
+    }
+  }
 }

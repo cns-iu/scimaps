@@ -1,4 +1,12 @@
+@use './components/contact/contact.theme';
+@use './components/footer/footer.theme';
+@use './components/header/header.theme';
+@use './components/mobile-header-menu/mobile-header-menu.theme';
 
 
-@mixin theme($theme-or-config) {
+@mixin theme($theme) {
+  @include contact.theme($theme);
+  @include footer.theme($theme);
+  @include header.theme($theme);
+  @include mobile-header-menu.theme($theme);
 }
