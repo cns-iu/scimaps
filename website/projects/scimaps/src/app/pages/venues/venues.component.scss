@@ -3,7 +3,14 @@ $tablet: 960px;
 $mobile: 640px;
 
 :host {
-  @media (min-width: $desktop) {
-    display: none;
+  .lazy-table {
+    @media (max-width: $desktop) {
+      display: none;
+    }
+  }
+  .mobile-cards {
+    @media (min-width: $desktop) {
+      display: none;
+    }
   }
 }

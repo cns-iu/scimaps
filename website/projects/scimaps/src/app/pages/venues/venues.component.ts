@@ -1,5 +1,6 @@
 import { Component, HostBinding } from '@angular/core';
-import { Venue } from '../../core/models/venue';
+import { TableHeader } from '../../core/models/table-header';
+import { IconLink, Venue } from '../../core/models/venue';
 
 @Component({
   selector: 'sci-venues',
@@ -10,6 +11,39 @@ export class VenuesComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-venues';
 
+  tableHeaders: TableHeader[] = [
+    {
+      label: 'Start',
+      key: 'startDate',
+      format: 'text'
+    },
+    {
+      label: 'End',
+      key: 'endDate',
+      format: 'text'
+    },
+    {
+      label: 'Event',
+      key: 'event',
+      format: 'text'
+    },
+    {
+      label: 'Location',
+      key: 'location',
+      format: 'text'
+    },
+    {
+      label: 'Contact',
+      key: 'contace',
+      format: 'text'
+    },
+    {
+      label: 'Media',
+      key: 'media',
+      format: 'icon'
+    }
+  ]
+
   testVenues: Venue[] = [
     {
       startDate: '9/2/2020',
@@ -17,7 +51,12 @@ export class VenuesComponent {
       event: 'Technology Petting Zoo',
       location: 'Indiana University UITS, Bloomington, IN',
       contact: 'Jeannette Lehr',
-      photoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '3/2/2020',
@@ -25,8 +64,16 @@ export class VenuesComponent {
       event: 'Women in Data Science 2020 (Regional Event)',
       location: 'UNAM, Mexico City',
       contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'videocam',
+          url: 'www.google.com'
+        },
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '1/29/2020',
@@ -34,7 +81,12 @@ export class VenuesComponent {
       event: 'Tour for MetroStar Systems',
       location: 'Indiana University, Bloomington, IN',
       contact: '',
-      photoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '3/2/2020',
@@ -42,8 +94,16 @@ export class VenuesComponent {
       event: 'Women in Data Science 2020 (Regional Event)',
       location: 'UNAM, Mexico City',
       contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'videocam',
+          url: 'www.google.com'
+        },
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '11/12/2020',
@@ -51,8 +111,16 @@ export class VenuesComponent {
       event: 'Women in Data Science 2020 (Regional Event)',
       location: 'UNAM, Mexico City',
       contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'videocam',
+          url: 'www.google.com'
+        },
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '9/2/2020',
@@ -60,7 +128,12 @@ export class VenuesComponent {
       event: 'Technology Petting Zoo',
       location: 'Indiana University UITS, Bloomington, IN',
       contact: 'Jeannette Lehr',
-      photoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '3/2/2020',
@@ -68,8 +141,16 @@ export class VenuesComponent {
       event: 'Women in Data Science 2020 (Regional Event)',
       location: 'UNAM, Mexico City',
       contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'videocam',
+          url: 'www.google.com'
+        },
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '1/29/2020',
@@ -77,7 +158,12 @@ export class VenuesComponent {
       event: 'Tour for MetroStar Systems',
       location: 'Indiana University, Bloomington, IN',
       contact: '',
-      photoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '3/2/2020',
@@ -85,8 +171,16 @@ export class VenuesComponent {
       event: 'Women in Data Science 2020 (Regional Event)',
       location: 'UNAM, Mexico City',
       contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'videocam',
+          url: 'www.google.com'
+        },
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '11/12/2020',
@@ -94,8 +188,16 @@ export class VenuesComponent {
       event: 'Women in Data Science 2020 (Regional Event)',
       location: 'UNAM, Mexico City',
       contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'videocam',
+          url: 'www.google.com'
+        },
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '9/2/2020',
@@ -103,7 +205,12 @@ export class VenuesComponent {
       event: 'Technology Petting Zoo',
       location: 'Indiana University UITS, Bloomington, IN',
       contact: 'Jeannette Lehr',
-      photoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '3/2/2020',
@@ -111,8 +218,16 @@ export class VenuesComponent {
       event: 'Women in Data Science 2020 (Regional Event)',
       location: 'UNAM, Mexico City',
       contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'videocam',
+          url: 'www.google.com'
+        },
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '1/29/2020',
@@ -120,7 +235,12 @@ export class VenuesComponent {
       event: 'Tour for MetroStar Systems',
       location: 'Indiana University, Bloomington, IN',
       contact: '',
-      photoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '3/2/2020',
@@ -128,8 +248,16 @@ export class VenuesComponent {
       event: 'Women in Data Science 2020 (Regional Event)',
       location: 'UNAM, Mexico City',
       contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'videocam',
+          url: 'www.google.com'
+        },
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     },
     {
       startDate: '11/12/2020',
@@ -137,8 +265,16 @@ export class VenuesComponent {
       event: 'Women in Data Science 2020 (Regional Event)',
       location: 'UNAM, Mexico City',
       contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      media: [
+        {
+          icon: 'videocam',
+          url: 'www.google.com'
+        },
+        {
+          icon: 'insert_photo',
+          url: 'www.google.com'
+        }
+      ]
     }
   ];
 }

@@ -1,4 +1,5 @@
 import { Component, HostBinding, Input } from '@angular/core';
+import { TableHeader } from '../../../core/models/table-header';
 import { Venue } from '../../../core/models/venue';
 
 @Component({
@@ -10,6 +11,12 @@ export class LazyTableComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-lazy-table';
   @Input() data!: Venue[];
-  sort: 'startDate' | 'endDate' | 'eventName' | 'location' | 'contact' | 'media' = 'startDate';
-  sortDirection: 'ascending' | 'descending' = 'ascending';
+  @Input() itemsPerPage!: number;
+  @Input() headers!: TableHeader[];
+  @Input() sort!: string;
+  @Input() sortDirection: 'ascending' | 'descending' = 'ascending';
+
+  ngOnInit(): void {
+    console.log('data: ', this.data);
+  }
 }
