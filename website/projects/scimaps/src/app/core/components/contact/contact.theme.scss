@@ -1,0 +1,51 @@
+@import "~@angular/material/theming";
+
+$tablet: 960px;
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $accent: map-get($config, accent);
+  $grey: mat-palette($mat-grey);
+
+  .sci-contact {
+    .section-1 {
+      background-color: white;
+
+      @media (max-width: $tablet) {
+        background-color: mat-color($grey, 50);
+      }
+
+      .email {
+        color: black;
+      }
+    }
+
+    .section-2 {
+      background-color: mat-color($grey, 50);
+    }
+
+    .section-3 {
+      background-color: mat-color($accent, lighter);
+    }
+
+    .link {
+      color: mat-color($accent);
+    }
+
+    .icon {
+      color: mat-color($accent);
+    }
+
+    .social-icons .icon:hover {
+      background-color: mat-color($accent, default-contrast);
+    }
+  }
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+
+  @if $color {
+    @include color($color);
+  }
+}

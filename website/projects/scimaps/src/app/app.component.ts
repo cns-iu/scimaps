@@ -10,7 +10,7 @@ import { NewsItem } from './shared/components/news-item/news-item.model';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'scimaps';
+  sidenavOpen = false;
 
   newsItems: NewsItem[] = [
     {
@@ -143,7 +143,7 @@ export class AppComponent {
     date: new Date(2020, 2, 2),
     publication: 'Library News',
     institution: 'Virginia Tech',
-    thumbnail: '../../assets/images/rose.jpg',
+    thumbnail: 'assets/images/rose.jpg',
     pdfLink: 'link'
   };
 }

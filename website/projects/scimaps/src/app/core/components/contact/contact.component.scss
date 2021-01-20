@@ -1,0 +1,58 @@
+@use 'icon';
+
+$tablet: 960px;
+
+:host {
+  display: flex;
+  flex-direction: column;
+  min-width: 15rem;
+
+  a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .section-1, .section-2, .section-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+
+    & > * {
+      display: flex;
+      flex-direction: row;
+      height: 3rem;
+      align-items: center;
+    }
+  }
+
+  .section-2 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .section-2, .section-3 {
+    padding-bottom: 1.5rem;
+
+    .social-icons {
+      display: flex;
+      flex-direction: row;
+
+      .icon {
+        @include icon.size(2.25rem);
+        border: 1px solid;
+        border-radius: 0.25rem;
+
+        &:not(:last-child) {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: $tablet) {
+    .section-1 {
+      padding-top: 1rem;
+      padding-bottom: 0;
+    }
+  }
+}

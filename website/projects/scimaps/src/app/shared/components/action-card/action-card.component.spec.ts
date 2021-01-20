@@ -10,7 +10,7 @@ const testActionItem: ActionCardItem = {
   body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus vitae diam vel volutpat. Pellentesque venenatis velit lectus, tempor dictum tortor pretium nec.',
   buttonLabel: 'INFO/REGISTRATION',
   buttonLink: 'www.google.com',
-  imageSource: '../../../../assets/action-card/image1.png'
+  imageSource: 'assets/action-card/image1.png'
 };
 
 describe('ActionCardComponent', () => {
