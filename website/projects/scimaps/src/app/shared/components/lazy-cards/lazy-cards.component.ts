@@ -11,8 +11,8 @@ export class LazyCardsComponent {
   @HostBinding('class') readonly clsName = 'sci-lazy-cards';
 
   @Input() data!: Venue[];
-  ITEMS_TO_DISPLAY_INCREMENT = 6;
-  itemsToDisplay = 6;
+  @Input() itemsToDisplayIncrement = 6;
+  @Input() itemsToDisplay = 6;
 
   get displayItems(): Venue[] {
     return this.data.slice(0, this.itemsToDisplay);
@@ -27,6 +27,6 @@ export class LazyCardsComponent {
   }
 
   showMore(): void {
-    this.itemsToDisplay = this.itemsToDisplay + this.ITEMS_TO_DISPLAY_INCREMENT;
+    this.itemsToDisplay = this.itemsToDisplay + this.itemsToDisplayIncrement;
   }
 }

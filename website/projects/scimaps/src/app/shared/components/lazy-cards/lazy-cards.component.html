@@ -3,8 +3,9 @@
     <div class="card-header">
       <h3 class="dates">{{ item.startDate }} - {{ item.endDate }}</h3>
       <div class="media">
-        <mat-icon class="icon" *ngIf="!!item.photoLink" (click)="goToLink(item.photoLink)">insert_photo</mat-icon>
-        <mat-icon class="icon ml-50" *ngIf="!!item.videoLink" (click)="goToLink(item.videoLink)">videocam</mat-icon>
+        <div *ngIf="!!item.media" class="media-icons">
+          <mat-icon *ngFor="let link of item.media" class="icon" (click)="goToLink(link.url)">{{ link.icon }}</mat-icon>
+        </div>
       </div>
     </div>
     <div class="card-body">
