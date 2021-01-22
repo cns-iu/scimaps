@@ -1,9 +1,11 @@
 :host {
   table {
     width: 100%;
+    border-collapse: collapse;
 
     tr:nth-child(even) { background:#F9FCF5; }
     tr:nth-child(odd) { background: white; }
+    tr:first-of-type { border-bottom: 1px solid #7996A3; }
     tr {
       th, td {
         padding: 1rem;
@@ -14,13 +16,12 @@
         font-size: 1rem;
         cursor: pointer;
 
+        &.active {
+          color: #7996A3;
+        }
+
         .sort-icon {
           vertical-align: middle;
-          color: darkgray;
-
-          &.active {
-            color: black;
-          }
         }
       }
 
