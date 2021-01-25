@@ -3,17 +3,18 @@ import { ActivatedRouteSnapshot, Resolve, Router, RouterStateSnapshot } from '@a
 import { Observable } from 'rxjs';
 import { take } from 'rxjs/operators';
 
+import { DiscoverItem } from '../../core/models/discover-item';
 import { ContentService } from '../../shared/services/content.service';
 
 
 @Injectable({
   providedIn: 'root'
 })
-export class MapsBodyResolverService implements Resolve<{body: string}> {
+export class MacroscopesResolverService implements Resolve<DiscoverItem[]> {
 
   constructor(private content: ContentService, private router: Router) { }
 
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<{body: string}> | Observable<never> {
-    return this.content.getContent('site/whatIsAMap.md').pipe(take(1));
+  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<DiscoverItem[]> | Observable<never> {
+    return this.content.getIndex('app-macroscopes').pipe(take(1));
   }
 }

@@ -9,11 +9,11 @@ import { ContentService } from '../../shared/services/content.service';
 @Injectable({
   providedIn: 'root'
 })
-export class MapsBodyResolverService implements Resolve<{body: string}> {
+export class MacroscopesBodyResolverService implements Resolve<{body: string}> {
 
   constructor(private content: ContentService, private router: Router) { }
 
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<{body: string}> | Observable<never> {
-    return this.content.getContent('site/whatIsAMap.md').pipe(take(1));
+    return this.content.getContent('site/whatIsAMacroscope.md').pipe(take(1));
   }
 }

@@ -1,6 +1,6 @@
 <h2 class="header">Macroscopes</h2>
 <div *ngIf="!showModal" class="highlight-content">
-  <p class="highlight-body">{{  highlightBody }}</p>
+  <p markdown [data]="highlightBody" class="highlight-body"></p>
   <div class="carousel-container">
     <sci-carousel class="carousel">
       <sci-carousel-item class="sci-carousel-item" *ngFor="let carouselItem of highlightCarouselItems">

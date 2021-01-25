@@ -1,9 +1,19 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
+import { MacroscopesBodyResolverService } from './macroscopes-body-resolver.service';
+import { MacroscopesResolverService } from './macroscopes-resolver.service';
 import { MacroscopesComponent } from './macroscopes.component';
 
-const routes: Routes = [{ path: '', component: MacroscopesComponent }];
+
+const routes: Routes = [{
+  path: '',
+  component: MacroscopesComponent,
+  resolve: {
+    macroscopes: MacroscopesResolverService,
+    body: MacroscopesBodyResolverService
+  }
+}];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
