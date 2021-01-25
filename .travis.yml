@@ -17,8 +17,12 @@ branches:
   - /^pbi-.*$/
 cache: npm
 install:
-  - cd website/
+  - cd content-migrator/
   - npm ci
+  - npm run job
+  - cd ../website/
+  - npm ci
+
 script: skip
 jobs:
   include:
