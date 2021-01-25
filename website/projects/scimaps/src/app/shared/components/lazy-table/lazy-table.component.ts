@@ -19,6 +19,7 @@ export class LazyTableComponent {
   @Input() sort!: string;
   @Input() sortDirection: 'ascending' | 'descending' = 'ascending';
   @Input() moreButtonLabel = 'Show More';
+  @Input() lessButtonLabel = 'Show Less';
 
   itemsToShow = this.ITEMS_TO_SHOW_DEFAULT;
 
@@ -41,6 +42,14 @@ export class LazyTableComponent {
       return this.sortDirection === 'ascending' ? weight : weight*-1;
     });
     return sortedData.slice(0, this.itemsToShow);
+  }
+
+  get showButtonLabel(): string {
+    if (this.itemsToShow < this.data.length) {
+      return this.moreButtonLabel;
+    }
+
+    return this.lessButtonLabel;
   }
 
   getDataField(row: any, key: string): any {
@@ -73,12 +82,24 @@ export class LazyTableComponent {
     return false;
   }
 
-  increaseItemsToShow(): void {
+  handleShowButton(): void {
+    if (this.itemsToShow < this.data.length) {
+      this.showMoreItems();
+    } else {
+      this.showLessItems();
+    }
+  }
+
+  showMoreItems(): void {
     if (this.showMoreItemsIncrement === 0) {
       this.itemsToShow = this.data.length;
     }
 
     else this.itemsToShow = this.itemsToShow + this.showMoreItemsIncrement;
+  }
+
+  showLessItems(): void {
+    this.itemsToShow = this.initialItemsToShow;
   }
 
   getSortIcon(key: string): string {
