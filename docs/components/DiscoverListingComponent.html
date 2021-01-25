@@ -1,0 +1,908 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>scimaps documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">scimaps documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>DiscoverListingComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>projects/scimaps/src/app/shared/components/discover-listing/discover-listing.component.ts</code>
+</p>
+
+
+
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>sci-discover-listing</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./discover-listing.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./discover-listing.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#mobileWarning">mobileWarning</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#desktopThumbnailClickHandler">desktopThumbnailClickHandler</a>
+                            </li>
+                            <li>
+                                <a href="#imageSource">imageSource</a>
+                            </li>
+                            <li>
+                                <a href="#mobileThumbnailClickHandler">mobileThumbnailClickHandler</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#discoverItem">discoverItem</a>
+                            </li>
+                            <li>
+                                <a href="#type">type</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#openDrawer">openDrawer</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>HostBindings</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#class">class</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(dialog: MatDialog)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">projects/scimaps/src/app/shared/components/discover-listing/discover-listing.component.ts:20</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>dialog</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialog</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="discoverItem"></a>
+                        <b>discoverItem</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/DiscoverItem.html" target="_self" >DiscoverItem</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">projects/scimaps/src/app/shared/components/discover-listing/discover-listing.component.ts:15</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="type"></a>
+                        <b>type</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>&quot;macroscopes&quot; | &quot;maps&quot;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">projects/scimaps/src/app/shared/components/discover-listing/discover-listing.component.ts:18</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="openDrawer"></a>
+                        <b>openDrawer</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">projects/scimaps/src/app/shared/components/discover-listing/discover-listing.component.ts:20</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+    <section>
+    <h3>HostBindings</h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="class"></a>
+                        <span class="name">
+                            <b>
+                            class</b>
+                            <a href="#class"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;sci-discover-listing&#x27;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">projects/scimaps/src/app/shared/components/discover-listing/discover-listing.component.ts:13</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>HTML class name </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="desktopThumbnailClickHandler"></a>
+                    <span class="name">
+                        <b>
+                            desktopThumbnailClickHandler
+                        </b>
+                        <a href="#desktopThumbnailClickHandler"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>desktopThumbnailClickHandler(link: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="42"
+                            class="link-to-prism">projects/scimaps/src/app/shared/components/discover-listing/discover-listing.component.ts:42</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>link</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="imageSource"></a>
+                    <span class="name">
+                        <b>
+                            imageSource
+                        </b>
+                        <a href="#imageSource"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>imageSource(image: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="24"
+                            class="link-to-prism">projects/scimaps/src/app/shared/components/discover-listing/discover-listing.component.ts:24</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>image</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="mobileThumbnailClickHandler"></a>
+                    <span class="name">
+                        <b>
+                            mobileThumbnailClickHandler
+                        </b>
+                        <a href="#mobileThumbnailClickHandler"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>mobileThumbnailClickHandler(link: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="28"
+                            class="link-to-prism">projects/scimaps/src/app/shared/components/discover-listing/discover-listing.component.ts:28</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>link</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="mobileWarning"></a>
+                        <span class="name">
+                            <b>
+                            mobileWarning</b>
+                            <a href="#mobileWarning"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;Macroscopes work best on desktop or larger tablet screens.  You may have a less than optimal experience on this device.&#x27;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">projects/scimaps/src/app/shared/components/discover-listing/discover-listing.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, HostBinding, Input, Output, EventEmitter } from &#x27;@angular/core&#x27;;
+import { MatDialog } from &#x27;@angular/material/dialog&#x27;;
+import { DiscoverItem } from &#x27;../../../core/models/discover-item&#x27;;
+import { WarningDialogComponent } from &#x27;../warning-dialog/warning-dialog.component&#x27;;
+
+@Component({
+  selector: &#x27;sci-discover-listing&#x27;,
+  templateUrl: &#x27;./discover-listing.component.html&#x27;,
+  styleUrls: [&#x27;./discover-listing.component.scss&#x27;]
+})
+export class DiscoverListingComponent {
+  /** HTML class name */
+  @HostBinding(&#x27;class&#x27;) readonly clsName &#x3D; &#x27;sci-discover-listing&#x27;;
+
+  @Input() discoverItem!: DiscoverItem;
+  mobileWarning &#x3D; &#x27;Macroscopes work best on desktop or larger tablet screens.  You may have a less than optimal experience on this device.&#x27;;
+
+  @Input() type!: &#x27;macroscopes&#x27; | &#x27;maps&#x27;;
+
+  @Output() openDrawer &#x3D; new EventEmitter();
+
+  constructor(private readonly dialog: MatDialog) { }
+
+  imageSource(image: string): string {
+    return image.startsWith(&#x27;assets/&#x27;) ? image : &#x60;assets/${this.discoverItem.directory}/${this.discoverItem.slug}/${image}&#x60;;
+  }
+
+  mobileThumbnailClickHandler(link: string): void {
+    if (this.type &#x3D;&#x3D;&#x3D; &#x27;macroscopes&#x27;) {
+      this.dialog.open(WarningDialogComponent, {
+        width: &#x27;95%&#x27;,
+        data: {
+          warningMessage: this.mobileWarning,
+          closeLink: link
+        }
+      });
+    } else {
+      this.openDrawer.emit();
+    }
+  }
+
+  desktopThumbnailClickHandler(link: string): void {
+    if (this.type &#x3D;&#x3D;&#x3D; &#x27;macroscopes&#x27;) {
+      window.open(link, &#x27;_blank&#x27;);
+    } else {
+      this.openDrawer.emit();
+    }
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;text-content&quot;&gt;
+  &lt;h3 class&#x3D;&quot;header&quot;&gt;{{ discoverItem.title }}&lt;/h3&gt;
+  &lt;div markdown [data]&#x3D;&quot;discoverItem.body&quot; class&#x3D;&quot;body&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class&#x3D;&quot;image-content&quot;&gt;
+  &lt;div class&#x3D;&quot;thumbnail desktop&quot; *ngFor&#x3D;&quot;let thumbnail of discoverItem.thumbnails&quot; (click)&#x3D;&quot;desktopThumbnailClickHandler(thumbnail.link)&quot;&gt;
+    &lt;img class&#x3D;&quot;thumbnail-image&quot; [src]&#x3D;&quot;imageSource(thumbnail.image)&quot; [alt]&#x3D;&quot;thumbnail.image&quot;&gt;
+    &lt;div class&#x3D;&quot;thumbnail-title&quot;&gt;{{ thumbnail.title }}&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class&#x3D;&quot;thumbnail mobile&quot; *ngFor&#x3D;&quot;let thumbnail of discoverItem.thumbnails&quot; (click)&#x3D;&quot;mobileThumbnailClickHandler(thumbnail.link)&quot;&gt;
+    &lt;img class&#x3D;&quot;thumbnail-image&quot; [src]&#x3D;&quot;imageSource(thumbnail.image)&quot; [alt]&#x3D;&quot;thumbnail.image&quot;&gt;
+    &lt;div class&#x3D;&quot;thumbnail-title&quot;&gt;{{ thumbnail.title }}&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div markdown [data]&#x3D;&quot;discoverItem.body&quot; class&#x3D;&quot;tablet-body&quot;&gt;&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./discover-listing.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">$desktop: 1248px;
+$tablet: 960px;
+$mobile: 640px;
+
+:host {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+  @media (max-width: $tablet) {
+    flex-direction: column;
+  }
+
+  .text-content {
+    flex-grow: 2;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    width: 40%;
+
+
+    @media (max-width: $tablet) {
+      width: 100%;
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+
+    .body {
+      @media (max-width: $tablet) {
+        display: none;
+      }
+    }
+  }
+
+  .image-content {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+    @media (max-width: $tablet) {
+      width: 100%;
+      justify-content: space-between;
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+
+    @media (max-width: $mobile) {
+      flex-wrap: wrap;
+    }
+
+    &amp;:last-child {
+      margin-right: 0rem;
+    }
+
+    .thumbnail {
+      margin-right: 1rem;
+      cursor: pointer;
+      margin-bottom: 1rem;
+      width: 22%;
+
+      @media (max-width: $mobile) {
+        margin-right: 0;
+        position: relative;
+        width: 46%;
+      }
+
+      .thumbnail-image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .thumbnail-title {
+        @media (max-width: $mobile) {
+          margin-top: 0rem;
+          position: absolute;
+          bottom: .45rem;
+          z-index: 10;
+          color: white;
+          background-color: rgba(0, 0, 0, .5);
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+
+    .thumbnail.desktop {
+      margin-right: 1rem;
+      @media (max-width: $mobile) {
+        display: none;
+      }
+    }
+
+    .thumbnail.mobile {
+      @media (min-width: $mobile) {
+        display: none;
+      }
+    }
+  }
+
+  .tablet-body {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-top: 1rem;
+
+    @media (min-width: $tablet) {
+      display: none;
+    }
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="text-content">  <h3 class="header">{{ discoverItem.title }}</h3>  <div markdown [data]="discoverItem.body" class="body"></div></div><div class="image-content">  <div class="thumbnail desktop" *ngFor="let thumbnail of discoverItem.thumbnails" (click)="desktopThumbnailClickHandler(thumbnail.link)">    <img class="thumbnail-image" [src]="imageSource(thumbnail.image)" [alt]="thumbnail.image">    <div class="thumbnail-title">{{ thumbnail.title }}</div>  </div>  <div class="thumbnail mobile" *ngFor="let thumbnail of discoverItem.thumbnails" (click)="mobileThumbnailClickHandler(thumbnail.link)">    <img class="thumbnail-image" [src]="imageSource(thumbnail.image)" [alt]="thumbnail.image">    <div class="thumbnail-title">{{ thumbnail.title }}</div>  </div></div><div markdown [data]="discoverItem.body" class="tablet-body"></div></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'sci-about'},{'name': 'ActionCardComponent', 'selector': 'sci-action-card'},{'name': 'AppComponent', 'selector': 'sci-root'},{'name': 'BookOverviewComponent', 'selector': 'sci-book-overview'},{'name': 'BooksComponent', 'selector': 'sci-books'},{'name': 'CallForMacroscopesComponent', 'selector': 'sci-call-for-macroscopes'},{'name': 'CallOutComponent', 'selector': 'sci-call-out'},{'name': 'CardGalleryComponent', 'selector': 'sci-card-gallery'},{'name': 'CarouselComponent', 'selector': 'sci-carousel'},{'name': 'CarouselItemComponent', 'selector': 'sci-carousel-item'},{'name': 'ContactComponent', 'selector': 'sci-contact'},{'name': 'DiscoverListingComponent', 'selector': 'sci-discover-listing'},{'name': 'FooterComponent', 'selector': 'sci-footer'},{'name': 'HeaderComponent', 'selector': 'sci-header'},{'name': 'HomeComponent', 'selector': 'sci-home'},{'name': 'HostingComponent', 'selector': 'sci-hosting'},{'name': 'ItemDrawerComponent', 'selector': 'sci-item-drawer'},{'name': 'LazyCardsComponent', 'selector': 'sci-lazy-cards'},{'name': 'LearningCenterComponent', 'selector': 'sci-learning-center'},{'name': 'MacroscopesComponent', 'selector': 'sci-macroscopes'},{'name': 'MapsComponent', 'selector': 'sci-maps'},{'name': 'MenuIconComponent', 'selector': 'sci-menu-icon'},{'name': 'MobileHeaderMenuComponent', 'selector': 'sci-mobile-header-menu'},{'name': 'NewsItemComponent', 'selector': 'sci-news-item'},{'name': 'NewsItemListComponent', 'selector': 'sci-news-item-list'},{'name': 'ProfileGalleryComponent', 'selector': 'sci-profile-gallery'},{'name': 'PurchaseModalComponent', 'selector': 'sci-purchase-modal'},{'name': 'SocialSidebarComponent', 'selector': 'sci-social-sidebar'},{'name': 'VenuesComponent', 'selector': 'sci-venues'},{'name': 'WarningDialogComponent', 'selector': 'sci-warning-dialog'}];
+    var DIRECTIVES = [{'name': 'BreakpointDirective', 'selector': '[sciBreakpoint]'}];
+    var ACTUAL_COMPONENT = {'name': 'DiscoverListingComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'DiscoverListingComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

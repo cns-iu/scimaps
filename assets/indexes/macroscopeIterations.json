@@ -1,0 +1,32 @@
+[
+  {
+    "body": "Interactive data visualizations, or macroscopes, have great potential as tools for exploring, understanding, and communicating science. They empower individuals to interact with data and to make their very own maps. This iteration features macroscopes that:\n\n*   Track wind speed, temperature, pollution, and weather patterns in real time and worldwide.\n*   Organize 20 years of reports from four major research institutions, grouping and arranging them based on topics, popularity, and publication date.\n*   Illustrate connections between countries based on local news stories in more than 100 languages.\n*   Chart the movements of people and changing cultural influences by tracking the birth and death locations of 120,000 individuals over the past 2,600 years.",
+    "iteration": 11,
+    "title": "Macroscopes for Interacting with Science"
+  },
+  {
+    "body": "The world is complex. Macroscopes help us understand and manage that complexity. They are visual lenses we can use to focus on patterns and trends in large volumes of data.\n\n  \n\nThese four macroscopes use data that varies tremendously in terms of subject matter and method of collection: city smells derived from social media, a library collection mapped in time and space, institutional partnerships revealed through publications, and ship locations tracked by satellite. However, they each present data visually to make new perspectives possible.",
+    "iteration": 12,
+    "title": "Macroscopes for Making Sense of Science"
+  },
+  {
+    "body": "If you are lost in the details of a problem, some say you cannot see the forest for the trees. Macroscopes, however, allow you to view both the forest and the trees. Macroscopes can even provide a view of that forest from outer space, and then zoom in to show you one individual leaf. The macroscopes in this iteration are especially good at conveying a sense of scale and navigating through data at different scales. They include some of the largest data sets imaginable, like the cosmos and the history of the world. Yet, they also let you focus on an individual detail, like the most important paper in one scientist’s career.",
+    "iteration": 13,
+    "title": "Macroscopes for Playing with Scale"
+  },
+  {
+    "body": "We make decisions every day that affect our personal health, safety, and happiness. Each of these macroscopes provides a glimpse into data on a topic of great importance to our collective well-being.\n\n  \n\nHow we handle climate change, feed our bodies, address public health emergencies, and prevent violence have huge implications for human survival. Use these four macroscopes to explore the data behind the headlines, to develop a deeper understanding of each issue, and perhaps to devise creative solutions for the problems we face together.",
+    "iteration": 14,
+    "title": "Macroscopes for Ensuring our Well-being"
+  },
+  {
+    "body": "The flow of financial and human resources shapes the world, and understanding that flow can help you find your place in it. Your location, your income, your career skills, and the politics that have the ability to change the flow of all these resources affect where and how you live. View the complex flow of political opinion, the movement of refugees, changes in workplace demands, and resulting income inequalities through this collection of macroscopes.",
+    "iteration": 15,
+    "title": "Macroscopes for Tracking the Flow of Resources"
+  },
+  {
+    "body": "Macroscopes gather vast amounts of information, analyze it, and visualize it to gain clear insights from complex data. To do so, they use powerful algorithms. This iteration highlights different methods for analyzing and visualizing a dataset: scrollytelling, network analysis, dimensionality reduction, and natural language processing. Each can be used to create data portals of great power, utility, and beauty.",
+    "iteration": 16,
+    "title": "Macroscopes for Harnessing the Power of Data"
+  }
+]
