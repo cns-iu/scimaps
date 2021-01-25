@@ -1,0 +1,53 @@
+@use '~@angular/material/theming' as *;
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $primary: map-get($config, primary);
+  $grey: mat-palette($mat-grey);
+  $accent: map-get($config, accent);
+
+  .sci-lazy-table {
+    table {
+      tr:nth-child(even) { background:mat-color($accent, 100); }
+      tr:nth-child(odd) { background: mat-color($primary, default-contrast); }
+      tr:first-of-type { border-bottom: 1px solid mat-color($primary, 500); }
+      tr:last-child { border-bottom: 1px solid mat-color($grey, 300); }
+      tr {
+        th {
+          background-color: mat-color($primary, default-contrast);
+
+          &.active {
+            color: mat-color($primary, 500);
+          }
+        }
+      }
+    }
+
+    .more-button {
+      color: mat-color($primary, 500);
+      background-color: mat-color($grey, 100);;
+      border: 1px solid mat-color($primary, 500);
+
+      &:hover {
+        background-color: mat-color($primary, 500);
+        color: mat-color($primary, default-contrast);;
+      }
+    }
+  }
+}
+
+@mixin typography($config-or-theme) {
+  $config: mat-get-typography-config($config-or-theme);
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+  $typography: mat-get-typography-config($theme);
+
+  @if $color != null {
+    @include color($color);
+  }
+  @if $typography != null {
+    @include typography($typography);
+  }
+}
