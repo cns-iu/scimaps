@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "start": "npm-watch",
-    "job": "npm-run-all -p index sync",
+    "job": "npm-run-all mkindexdir index sync",
     "index": "node index-content.js",
+    "mkindexdir": "mkdirp ../website/projects/scimaps/src/assets/indexes",
     "migrate-old-data": "node old-website/convert-data.js",
     "sync": "rsync -avz --delete ../content ../website/projects/scimaps/src/assets",
     "test": "echo \"Error: no test specified\" && exit 1"
