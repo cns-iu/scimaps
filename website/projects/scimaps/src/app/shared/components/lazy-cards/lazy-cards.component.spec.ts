@@ -12,8 +12,16 @@ function getVenues(count: number): Venue[] {
     event: 'Technology Petting Zoo',
     location: 'Indiana University UITS, Bloomington, IN',
     contact: 'Jeannette Lehr',
-    photoLink: 'www.google.com',
-    videoLink: 'www.google.com'
+    media: [
+      {
+        icon: 'photo',
+        url: 'www.google.com'
+      },
+      {
+        icon: 'video',
+        url: 'www.google.com'
+      }
+    ]
   };
 
   for (let i = 0; i < count; i++) {
@@ -65,6 +73,6 @@ describe('LazyCardsComponent', () => {
     const before = instance.itemsToDisplay;
     instance.showMore();
     const after = instance.itemsToDisplay;
-    expect(after).toEqual(before + instance.ITEMS_TO_DISPLAY_INCREMENT);
+    expect(after).toEqual(before + instance.itemsToDisplayIncrement);
   });
 });

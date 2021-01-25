@@ -66,12 +66,9 @@ export class LazyTableComponent {
   }
 
   changeSortBy(key: string): void {
-    console.log('this.sort: ', this.sort, '\nkey: ', key);
     if (this.sort === key) {
       this.sortDirection = this.sortDirection === 'ascending' ? 'descending' : 'ascending';
-      console.log('CHANGE SORT DIRECTION TO: ', this.sortDirection);
     } else {
-      console.log('CHANGE SORT TO: ', key);
       this.sortDirection = 'ascending';
       this.sort = key;
     }
@@ -80,10 +77,9 @@ export class LazyTableComponent {
   is_date(input: string): boolean {
     const regex = new RegExp(/([0-9]{1,2}[/.-]{1}[0-9]{1,2}[/.-]{1}[0-9]{2,4})/);
     if (regex.test(input)) {
-      console.log('DATE');
       return true;
     }
-    console.log('NOT A DATE');
+
     return false;
   }
 
