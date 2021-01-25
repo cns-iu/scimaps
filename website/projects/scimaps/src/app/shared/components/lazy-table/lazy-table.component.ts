@@ -20,6 +20,7 @@ export class LazyTableComponent {
   @Input() sortDirection: 'ascending' | 'descending' = 'ascending';
   @Input() moreButtonLabel = 'Show More';
   @Input() lessButtonLabel = 'Show Less';
+  @Input() caption!: string;
 
   itemsToShow = this.ITEMS_TO_SHOW_DEFAULT;
 
@@ -50,6 +51,10 @@ export class LazyTableComponent {
     }
 
     return this.lessButtonLabel;
+  }
+
+  get recordCountLabel(): string {
+    return `${this.sortedData.length} of ${this.data.length}`
   }
 
   getDataField(row: any, key: string): any {

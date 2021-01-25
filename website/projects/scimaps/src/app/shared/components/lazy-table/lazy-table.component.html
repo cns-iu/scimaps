@@ -1,6 +1,7 @@
 <table>
+  <caption>{{ caption }}</caption>
   <tr>
-    <th (click)="changeSortBy(header.key)" [class.active]="sort === header.key" *ngFor="let header of headers">
+    <th (click)="changeSortBy(header.key)" [class.active]="sort === header.key" *ngFor="let header of headers" [scope]="header.label">
       {{ header.label }}
       <mat-icon class="sort-icon">{{ getSortIcon(header.key) }}</mat-icon>
     </th>
@@ -19,5 +20,5 @@
     </ng-container>
   </tr>
 </table>
-
+<div class="record-count">{{ recordCountLabel }}</div>
 <button class="more-button" (click)="handleShowButton()">{{ showButtonLabel }}</button>
