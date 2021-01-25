@@ -1,5 +1,8 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+
 import { DiscoverItem, ThumbnailLink } from '../../core/models/discover-item';
+
 
 @Component({
   selector: 'sci-maps',
@@ -282,8 +285,21 @@ export class MapsComponent implements OnInit {
     }
   ];
 
+  constructor(private route: ActivatedRoute) { }
+
   ngOnInit(): void {
-    this.updateDisplayItems();
+    this.route.data.subscribe((data) => {
+      this.highlightBody = data.body.body;
+      this.discoverItems = data.maps;
+      this.highlightCarouselItems = this.discoverItems
+        .reduce((acc, item) => {
+          const thumbs = item.thumbnails;
+          const randomThumbnailIndex = Math.round(Math.random() * (thumbs.length - 1));
+          return acc.concat(thumbs[randomThumbnailIndex]);
+        }, [] as ThumbnailLink[])
+
+      this.updateDisplayItems();
+    });
   }
 
   updateDisplayItems(): void {

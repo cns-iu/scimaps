@@ -7,7 +7,7 @@
     "job": "npm-run-all -p index sync",
     "index": "node index-content.js",
     "migrate-old-data": "node old-website/convert-data.js",
-    "sync": "rsync -avz --delete ../content ../website/projects/scimaps/src",
+    "sync": "rsync -avz --delete ../content ../website/projects/scimaps/src/assets",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "watch": {
@@ -27,6 +27,7 @@
     }
   },
   "devDependencies": {
+    "big-roman": "^1.0.1",
     "front-matter": "^4.0.2",
     "glob": "^7.1.6",
     "js-yaml": "^3.14.0",

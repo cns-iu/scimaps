@@ -126,6 +126,21 @@ function convertMapsAndMacroscopes() {
     });
 }
 
+function convertMapIterations() {
+  readTable('tblMapIteration')
+    .forEach((iteration) => {
+      const data = {
+        iteration: iteration.id,
+        title: iteration.title,
+        body: htmlToMarkdown(iteration.description)
+      };
+
+      const collection = data.iteration <= 10 ? 'mapIteration' : 'macroscopeIteration';
+      const mdFile = path.join(CONTENT_DIR, collection, '' + data.iteration, 'readme.md');
+      writeMarkdown(mdFile, data);
+    });
+}
+
 function convertStaticPages() {
   readTable('vwStaticPages').forEach((data) => {
     data.body = htmlToMarkdown(data.content);
@@ -140,4 +155,5 @@ function convertStaticPages() {
 convertMapAuthors();
 convertStaticPages();
 convertMapsAndMacroscopes();
+convertMapIterations();
 convertLanguages();

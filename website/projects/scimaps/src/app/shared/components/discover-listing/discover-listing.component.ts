@@ -22,7 +22,7 @@ export class DiscoverListingComponent {
   constructor(private readonly dialog: MatDialog) { }
 
   imageSource(image: string): string {
-    return `assets/${this.discoverItem.directory}/${this.discoverItem.slug}/${image}`;
+    return image.startsWith('assets/') ? image : `assets/${this.discoverItem.directory}/${this.discoverItem.slug}/${image}`;
   }
 
   mobileThumbnailClickHandler(link: string): void {
