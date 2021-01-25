@@ -17,14 +17,14 @@ export class ContentService {
 
   constructor(private http: HttpClient) { }
 
-  getIndex<T = any>(indexName: string): Observable<T[]> {
+  getIndex<T = unknown>(indexName: string): Observable<T[]> {
     if (!indexName.endsWith('.json')) {
       indexName += '.json';
     }
     return this.http.get<T[]>(`assets/indexes/${indexName}`);
   }
 
-  getContent<T = any>(contentPath: string, bodyAttribute = 'body'): Observable<T> {
+  getContent<T = unknown>(contentPath: string, bodyAttribute = 'body'): Observable<T> {
     if (!contentPath.endsWith('.md')) {
       if (!contentPath.endsWith('/readme')) {
         contentPath += '/readme.md';

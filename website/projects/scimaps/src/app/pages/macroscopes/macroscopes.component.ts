@@ -193,7 +193,7 @@ export class MacroscopesComponent implements OnInit {
           const thumbs = item.thumbnails;
           const randomThumbnailIndex = Math.round(Math.random() * (thumbs.length - 1));
           return acc.concat(thumbs[randomThumbnailIndex]);
-        }, [] as ThumbnailLink[])
+        }, [] as ThumbnailLink[]);
 
       this.updateDisplayItems();
     });
