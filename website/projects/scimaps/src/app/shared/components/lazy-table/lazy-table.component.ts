@@ -1,6 +1,6 @@
 import { Component, HostBinding, Input } from '@angular/core';
+
 import { TableHeader } from '../../../core/models/table-header';
-import { Venue } from '../../../core/models/venue';
 
 @Component({
   selector: 'sci-lazy-table',

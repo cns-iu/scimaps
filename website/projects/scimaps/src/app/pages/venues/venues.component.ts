@@ -1,6 +1,7 @@
 import { Component, HostBinding } from '@angular/core';
+
 import { TableHeader } from '../../core/models/table-header';
-import { IconLink, Venue } from '../../core/models/venue';
+import { Venue } from '../../core/models/venue';
 
 @Component({
   selector: 'sci-venues',
