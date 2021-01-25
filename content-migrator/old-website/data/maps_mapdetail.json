@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 4.0,
+    "map_id": 95.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 5.0,
+    "map_id": 26.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 6.0,
+    "map_id": 25.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 8.0,
+    "map_id": 30.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 9.0,
+    "map_id": 57.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 2.0,
+    "map_id": 92.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 10.0,
+    "map_id": 94.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 11.0,
+    "map_id": 58.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 12.0,
+    "map_id": 59.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 14.0,
+    "map_id": 9.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 15.0,
+    "map_id": 76.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 16.0,
+    "map_id": 77.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 17.0,
+    "map_id": 37.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 18.0,
+    "map_id": 78.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 19.0,
+    "map_id": 52.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 20.0,
+    "map_id": 56.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 21.0,
+    "map_id": 53.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 22.0,
+    "map_id": 54.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 23.0,
+    "map_id": 55.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 24.0,
+    "map_id": 38.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 25.0,
+    "map_id": 23.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 26.0,
+    "map_id": 73.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 27.0,
+    "map_id": 24.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 28.0,
+    "map_id": 74.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 29.0,
+    "map_id": 75.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 30.0,
+    "map_id": 60.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 31.0,
+    "map_id": 61.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 32.0,
+    "map_id": 49.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 33.0,
+    "map_id": 50.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 34.0,
+    "map_id": 51.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 36.0,
+    "map_id": 39.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 37.0,
+    "map_id": 4.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 38.0,
+    "map_id": 40.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 39.0,
+    "map_id": 41.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 40.0,
+    "map_id": 42.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 41.0,
+    "map_id": 5.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 42.0,
+    "map_id": 43.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 43.0,
+    "map_id": 44.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 44.0,
+    "map_id": 2.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 35.0,
+    "map_id": 3.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 45.0,
+    "map_id": 91.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 46.0,
+    "map_id": 82.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 47.0,
+    "map_id": 88.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 48.0,
+    "map_id": 87.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 49.0,
+    "map_id": 85.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 50.0,
+    "map_id": 89.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 51.0,
+    "map_id": 84.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 52.0,
+    "map_id": 83.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 53.0,
+    "map_id": 86.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 54.0,
+    "map_id": 90.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 55.0,
+    "map_id": 113.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 56.0,
+    "map_id": 115.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 57.0,
+    "map_id": 114.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 58.0,
+    "map_id": 116.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 59.0,
+    "map_id": 117.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 60.0,
+    "map_id": 120.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 61.0,
+    "map_id": 118.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 62.0,
+    "map_id": 121.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 63.0,
+    "map_id": 119.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 64.0,
+    "map_id": 122.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 70.0,
+    "map_id": 123.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 72.0,
+    "map_id": 124.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 73.0,
+    "map_id": 125.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 74.0,
+    "map_id": 126.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 75.0,
+    "map_id": 127.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 76.0,
+    "map_id": 128.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 77.0,
+    "map_id": 129.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 78.0,
+    "map_id": 130.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 79.0,
+    "map_id": 131.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 80.0,
+    "map_id": 132.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 81.0,
+    "map_id": 138.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 83.0,
+    "map_id": 140.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 84.0,
+    "map_id": 141.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 85.0,
+    "map_id": 142.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 86.0,
+    "map_id": 143.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 87.0,
+    "map_id": 144.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 88.0,
+    "map_id": 145.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 89.0,
+    "map_id": 146.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 90.0,
+    "map_id": 147.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 96.0,
+    "map_id": 152.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 93.0,
+    "map_id": 149.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 94.0,
+    "map_id": 150.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 95.0,
+    "map_id": 157.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 97.0,
+    "map_id": 159.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 98.0,
+    "map_id": 153.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 99.0,
+    "map_id": 151.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 100.0,
+    "map_id": 154.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 101.0,
+    "map_id": 155.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 102.0,
+    "map_id": 156.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 103.0,
+    "map_id": 158.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 104.0,
+    "map_id": 171.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 105.0,
+    "map_id": 172.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 106.0,
+    "map_id": 173.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 107.0,
+    "map_id": 174.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 108.0,
+    "map_id": 176.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 109.0,
+    "map_id": 177.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 110.0,
+    "map_id": 178.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 111.0,
+    "map_id": 179.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 112.0,
+    "map_id": 180.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  },
+  {
+    "id": 113.0,
+    "map_id": 181.0,
+    "zoom_origin": false,
+    "min_viewable_zoom": true,
+    "max_viewable_zoom": 4.0,
+    "background_color": "#333",
+    "tile_file_template": "#{zoom}_#{x}_#{y}.png",
+    "other_params_json": null
+  }
+]

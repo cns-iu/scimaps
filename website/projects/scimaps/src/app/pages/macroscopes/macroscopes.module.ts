@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MarkdownModule } from 'ngx-markdown';
 
 import { MacroscopesRoutingModule } from './macroscopes-routing.module';
 import { MacroscopesComponent } from './macroscopes.component';
@@ -15,6 +16,7 @@ import { CarouselModule } from '../../shared/components/carousel/carousel.module
     MacroscopesRoutingModule,
     DiscoverListingModule,
     MatIconModule,
+    MarkdownModule,
     CarouselModule
   ]
 })

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2.0,
+    "description": "Matte Inkjet Print",
+    "price": 45.0,
+    "standard": false
+  },
+  {
+    "id": 1.0,
+    "description": "Glossy Inkjet Print",
+    "price": 45.0,
+    "standard": false
+  }
+]

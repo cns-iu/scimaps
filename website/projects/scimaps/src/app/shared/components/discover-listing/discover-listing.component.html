@@ -1,6 +1,6 @@
 <div class="text-content">
   <h3 class="header">{{ discoverItem.title }}</h3>
-  <div class="body">{{ discoverItem.body }}</div>
+  <div markdown [data]="discoverItem.body" class="body"></div>
 </div>
 
 <div class="image-content">
@@ -15,4 +15,4 @@
   </div>
 </div>
 
-<div class="tablet-body">{{ discoverItem.body }}</div>
+<div markdown [data]="discoverItem.body" class="tablet-body"></div>

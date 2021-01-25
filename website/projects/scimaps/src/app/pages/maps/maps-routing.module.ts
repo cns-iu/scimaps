@@ -1,9 +1,19 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
+import { MapsBodyResolverService } from './maps-body-resolver.service';
+import { MapsResolverService } from './maps-resolver.service';
 import { MapsComponent } from './maps.component';
 
-const routes: Routes = [{ path: '', component: MapsComponent }];
+
+const routes: Routes = [{
+  path: '',
+  component: MapsComponent,
+  resolve: {
+    maps: MapsResolverService,
+    body: MapsBodyResolverService
+  }
+}];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

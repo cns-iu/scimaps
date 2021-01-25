@@ -17,8 +17,12 @@ branches:
   - /^pbi-.*$/
 cache: npm
 install:
-  - cd website/
+  - cd content-migrator/
   - npm ci
+  - npm run job
+  - cd ../website/
+  - npm ci
+
 script: skip
 jobs:
   include:
@@ -42,6 +46,7 @@ jobs:
     - touch dist/scimaps/.nojekyll
     - npm run compodoc
     - echo dev.scimaps.org > dist/scimaps/CNAME
+    - cp -r ../admin dist/scimaps
     deploy:
       provider: pages
       skip-cleanup: true
@@ -58,6 +63,7 @@ jobs:
     - cp dist/scimaps/index.html dist/scimaps/404.html
     - touch dist/scimaps/.nojekyll
     - npm run compodoc
+    - cp -r ../admin dist/scimaps
     deploy:
       provider: pages
       target-branch: staging
@@ -72,6 +78,7 @@ jobs:
     if: branch =~ /^pbi-.*$/ AND NOT(type = pull_request)
     script:
     - npm run build -- --output-hashing=none --base-href=/
+    - cp -r ../admin dist/scimaps
     deploy:
       provider: netlify
       skip-cleanup: true
