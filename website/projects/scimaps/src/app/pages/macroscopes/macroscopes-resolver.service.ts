@@ -15,6 +15,6 @@ export class MacroscopesResolverService implements Resolve<DiscoverItem[]> {
   constructor(private content: ContentService, private router: Router) { }
 
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<DiscoverItem[]> | Observable<never> {
-    return this.content.getIndex('app-macroscopes').pipe(take(1));
+    return this.content.getIndex<DiscoverItem>('app-macroscopes').pipe(take(1));
   }
 }

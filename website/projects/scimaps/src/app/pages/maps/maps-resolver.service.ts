@@ -15,6 +15,6 @@ export class MapsResolverService implements Resolve<DiscoverItem[]> {
   constructor(private content: ContentService, private router: Router) { }
 
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<DiscoverItem[]> | Observable<never> {
-    return this.content.getIndex('app-maps').pipe(take(1));
+    return this.content.getIndex<DiscoverItem>('app-maps').pipe(take(1));
   }
 }
