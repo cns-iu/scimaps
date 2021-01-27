@@ -172,4 +172,171 @@ describe('LazyTableComponent', () => {
 
     expect(reverseCheck).toBeTrue();
   });
+
+  it('showButtonLabel should be the more button label when all values are not displayed', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption }});
+    instance.itemsToShow = sortedData.length;
+
+    expect(instance.showButtonLabel).toEqual(instance.lessButtonLabel);
+  });
+
+  it('showButtonLabel should be the less button label when all values are displayed', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption }});
+    instance.itemsToShow = sortedData.length - 1;
+
+    expect(instance.showButtonLabel).toEqual(instance.moreButtonLabel);
+  });
+
+  it('should window.open when goToLink is called', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption }});
+    const spy = spyOn(window, 'open');
+    instance.goToLink('test.com');
+    expect(spy).toHaveBeenCalledWith('test.com', '_blank');
+  });
+
+  it('changeSortBy should should change the sort variable to the key passed in, if it is not already selected', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption }});
+    instance.changeSortBy('name');
+
+    expect(instance.sort).toEqual('name');
+  });
+
+  it('changeSortBy should should default the sort direction to ascending when a new key is passed in', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption }});
+    instance.sortDirection = 'descending';
+    instance.changeSortBy('name');
+
+    expect(instance.sortDirection).toEqual('ascending');
+  });
+
+  it('changeSortBy should should alternate the sortDirection if they key passed in is already selected', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption }});
+    instance.sortDirection =  'ascending';
+    instance.changeSortBy('id');
+
+    expect(instance.sortDirection).toEqual('descending');
+    instance.changeSortBy('id');
+    expect(instance.sortDirection).toEqual('ascending');
+  });
+
+  it('handleShowButton should call showMoreItems when there are more items than are currently showing', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption }});
+    instance.itemsToShow = instance.data.length - 1;
+    const spy = spyOn(instance, 'showMoreItems');
+    instance.handleShowButton();
+
+    expect(spy).toHaveBeenCalled();
+  });
+
+  it('handleShowButton should call showLessItems when all items are currently showing', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption }});
+    instance.itemsToShow = instance.data.length;
+    const spy = spyOn(instance, 'showLessItems');
+    instance.handleShowButton();
+
+    expect(spy).toHaveBeenCalled();
+  });
+
+  it('showMoreItems should increment itemsToShow by the showMoreItemsIncrement if one is set', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const showMoreItemsIncrement = 2;
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption, showMoreItemsIncrement }});
+    instance.itemsToShow = 0;
+    instance.showMoreItems();
+
+    expect(instance.itemsToShow).toEqual(2);
+  });
+
+  it('showMoreItems should set itemsToShow to the total number of data items if there is no showMoreItemsIncrement set', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption }});
+    instance.itemsToShow = 0;
+    instance.showMoreItems();
+
+    expect(instance.itemsToShow).toEqual(instance.data.length);
+  });
+
+  it('showLessItems should reset the itemsToShow back to the initialItemsToShow', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const initialItemsToShow = 5;
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption, initialItemsToShow }});
+    instance.itemsToShow = 10;
+    instance.showLessItems();
+
+    expect(instance.itemsToShow).toEqual(instance.itemsToShow);
+  });
+
+  it('getSortIcon should return arrow_drop_up if the key passed in is the current sort and the direction is descending', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption }});
+    instance.sortDirection = 'descending';
+
+    expect(instance.getSortIcon(instance.sort)).toEqual('arrow_drop_up');
+  });
+
+  it('getSortIcon should return arrow_drop_down if the key passed in is not the current sort icon', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption }});
+    instance.sortDirection = 'descending';
+
+    expect(instance.getSortIcon('name')).toEqual('arrow_drop_down');
+  });
+
+  it('getSortIcon should return arrow_drop_down if the sortDirection is not descending', async () => {
+    const sortedData = getSortedSampleData();
+    const headers = getHeaders();
+    const sort = 'id';
+    const caption = '';
+    const { instance } = await shallow.render({ bind: { data: sortedData, headers, sort, caption }});
+    instance.sortDirection = 'ascending';
+
+    expect(instance.getSortIcon('id')).toEqual('arrow_drop_down');
+  });
 });
