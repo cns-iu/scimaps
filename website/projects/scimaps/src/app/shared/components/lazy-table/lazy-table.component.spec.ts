@@ -1,7 +1,6 @@
 import { Shallow } from 'shallow-render';
 
 import { TableHeader } from '../../../core/models/table-header';
-import { Venue } from '../../../core/models/venue';
 import { LazyTableComponent } from './lazy-table.component';
 import { LazyTableModule } from './lazy-table.module';
 
@@ -60,7 +59,7 @@ function getSortedSampleData(): SampleData[] {
   }
 
   return data;
-};
+}
 
 /* Randomize array in-place using Durstenfeld shuffle algorithm */
 function shuffleArray(array: Array<any>) {

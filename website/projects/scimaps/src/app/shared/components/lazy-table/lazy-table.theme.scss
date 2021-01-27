@@ -25,12 +25,12 @@
 
     .more-button {
       color: mat-color($primary, 500);
-      background-color: mat-color($grey, 100);;
+      background-color: mat-color($grey, 100);
       border: 1px solid mat-color($primary, 500);
 
       &:hover {
         background-color: mat-color($primary, 500);
-        color: mat-color($primary, default-contrast);;
+        color: mat-color($primary, default-contrast);
       }
     }
   }
