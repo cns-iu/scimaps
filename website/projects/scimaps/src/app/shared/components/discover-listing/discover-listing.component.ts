@@ -1,4 +1,5 @@
 import { Component, HostBinding, Input, Output, EventEmitter } from '@angular/core';
+import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { DiscoverItem } from '../../../core/models/discover-item';
 import { WarningDialogComponent } from '../warning-dialog/warning-dialog.component';
@@ -19,7 +20,7 @@ export class DiscoverListingComponent {
 
   @Output() openDrawer = new EventEmitter();
 
-  constructor(private readonly dialog: MatDialog) { }
+  constructor(private readonly dialog: MatDialog, private router: Router) { }
 
   imageSource(image: string): string {
     return image.startsWith('assets/') ? image : `assets/${this.discoverItem.directory}/${this.discoverItem.slug}/${image}`;
@@ -40,10 +41,12 @@ export class DiscoverListingComponent {
   }
 
   desktopThumbnailClickHandler(link: string): void {
-    if (this.type === 'macroscopes') {
-      window.open(link, '_blank');
-    } else {
-      this.openDrawer.emit();
-    }
+    //update the route
+    this.router.navigate(['/', link]);
+    // if (this.type === 'macroscopes') {
+    //   window.open(link, '_blank');
+    // } else {
+    //   this.openDrawer.emit();
+    // }
   }
 }

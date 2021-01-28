@@ -1,7 +1,9 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { take } from 'rxjs/operators';
 
 import { DiscoverItem, ThumbnailLink } from '../../core/models/discover-item';
+import { ContentService } from '../../shared/services/content.service';
 
 
 @Component({
@@ -285,7 +287,7 @@ export class MapsComponent implements OnInit {
     }
   ];
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute, private content: ContentService) { }
 
   ngOnInit(): void {
     this.route.data.subscribe((data) => {
@@ -320,6 +322,11 @@ export class MapsComponent implements OnInit {
    * Opens the details drawer
    */
   openDetails(): void {
+    const mapSlug = 'map/5/1';
+    this.content.getContent(mapSlug).pipe(take(1)).subscribe((data) => {
+      console.log(data);
+    });
+
     this.showDrawer = true;
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;

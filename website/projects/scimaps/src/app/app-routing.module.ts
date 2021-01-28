@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'about', loadChildren: () => import('./pages/about/about.module').then(m => m.AboutModule) },
   { path: 'books', loadChildren: () => BooksModule },
   { path: 'maps', loadChildren: () => import('./pages/maps/maps.module').then(m => m.MapsModule) },
+  { path: 'map', loadChildren: () => import('./pages/map/map.module').then(m => m.MapModule) },
   { path: 'macroscopes', loadChildren: () => import('./pages/macroscopes/macroscopes.module').then(m => m.MacroscopesModule) },
   { path: 'hosting', loadChildren: () => import('./pages/hosting/hosting.module').then(m => m.HostingModule) },
   { path: 'venues', loadChildren: () => import('./pages/venues/venues.module').then(m => m.VenuesModule) },
