@@ -41,12 +41,6 @@ export class DiscoverListingComponent {
   }
 
   desktopThumbnailClickHandler(link: string): void {
-    //update the route
-    this.router.navigate(['/', link]);
-    // if (this.type === 'macroscopes') {
-    //   window.open(link, '_blank');
-    // } else {
-    //   this.openDrawer.emit();
-    // }
+    this.router.navigate(['/', ...link.split('/')]);
   }
 }

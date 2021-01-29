@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { MarkdownModule } from 'ngx-markdown';
 
 import { DiscoverListingComponent } from './discover-listing.component';
@@ -11,7 +12,8 @@ import { WarningDialogModule } from '../warning-dialog/warning-dialog.module';
   imports: [
     CommonModule,
     MarkdownModule,
-    WarningDialogModule
+    WarningDialogModule,
+    RouterModule
   ],
   exports: [DiscoverListingComponent]
 })

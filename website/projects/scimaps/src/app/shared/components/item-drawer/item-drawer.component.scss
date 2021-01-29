@@ -4,12 +4,14 @@ $breakpoint: 768px;
   display: flex;
   flex-direction: column;
   position: fixed;
+  left: -1rem;
   top: 0;
-  width: 100%;
+  width: calc(100% + 1rem);
   height: 100%;
   margin: 0 auto;
   z-index: 2;
   align-items: center;
+  overflow-y: scroll;
 
   .details-container {
     width: 80%;
@@ -75,7 +77,6 @@ $breakpoint: 768px;
           display: flex;
           margin-top: 1rem;
           margin-bottom: 0.5rem;
-          height: 3rem;
           align-items: center;
         }
 

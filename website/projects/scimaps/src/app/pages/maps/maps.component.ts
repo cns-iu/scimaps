@@ -14,10 +14,7 @@ import { ContentService } from '../../shared/services/content.service';
 export class MapsComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-maps';
-
-  /** Gives details-open class when showDrawer is true */
-  @HostBinding('class.details-open') showDrawer = false;
-
+  
   showModal = false;
   itemsToDisplay = 3;
   highlightBody = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dui euismod mauris faucibus euismod non lacinia quam. Morbi sit amet placerat dui. Sed ut dolor efficitur, consequat augue sed, pharetra orci. Nulla vitae mauris nisi. Aenean orci ipsum, scelerisque et arcu quis, molestie efficitur dui. Curabitur enim lacus, vehicula at arcu id, sagittis posuere est. Maecenas laoreet est eget tristique interdum. Fusce consequat, nisl ac bibendum facilisis, tellus nulla blandit orci, quis dignissim est mi ac justo. Pellentesque ultrices blandit diam quis pretium. Suspendisse ut ante in enim consequat semper id consectetur arcu. Proin ultricies vestibulum nulla sit amet.';
@@ -316,42 +313,5 @@ export class MapsComponent implements OnInit {
   showMoreMaps(): void {
     this.itemsToDisplay = this.itemsToDisplay + 3;
     this.updateDisplayItems();
-  }
-
-  /**
-   * Opens the details drawer
-   */
-  openDetails(): void {
-    const mapSlug = 'map/5/1';
-    this.content.getContent(mapSlug).pipe(take(1)).subscribe((data) => {
-      console.log(data);
-    });
-
-    this.showDrawer = true;
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
-    window.onscroll = () => {
-      window.scrollTo(scrollLeft, scrollTop);
-    };
-    const drawer = document.getElementsByClassName('details-drawer')[0] as HTMLElement;
-    if (window.innerWidth > 640) {
-      document.body.style.overflow = 'hidden';
-      document.body.style.marginRight = '1rem';
-      drawer.style.width = '100%';
-    }
-  }
-
-  /**
-   * Closes the details drawer
-   */
-  closeDetails(): void {
-    this.showDrawer = false;
-    window.onscroll = () => {};
-    const drawer = document.getElementsByClassName('details-drawer')[0] as HTMLElement;
-    if (window.innerWidth > 640) {
-      document.body.style.overflow = 'unset';
-      document.body.style.marginRight = '0';
-      drawer.style.width = 'calc(100% + 1rem)';
-    }
   }
 }

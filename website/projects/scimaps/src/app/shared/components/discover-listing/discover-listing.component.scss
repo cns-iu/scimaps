@@ -67,12 +67,12 @@ $mobile: 640px;
       }
 
       .thumbnail-image {
-        height: 100%;
         width: 100%;
         object-fit: cover;
       }
 
       .thumbnail-title {
+        height: 100%;
         @media (max-width: $mobile) {
           margin-top: 0rem;
           position: absolute;

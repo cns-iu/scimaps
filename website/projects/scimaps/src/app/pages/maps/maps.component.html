@@ -1,5 +1,3 @@
-<sci-item-drawer class="details-drawer" [class.hidden]="!showDrawer" (closeDrawer)="closeDetails()"></sci-item-drawer>
-
 <h2 class="header">Maps</h2>
 <div *ngIf="!showModal" class="highlight-content">
   <p markdown [data]="highlightBody" class="highlight-body"></p>
@@ -17,7 +15,7 @@
 
 <h2 class="header discover-maps">Discover Maps</h2>
 
-<sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item" [type]="'maps'" (openDrawer)="openDetails()"></sci-discover-listing>
+<sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item" [type]="'maps'"></sci-discover-listing>
 
 <button *ngIf="moreMaps()" class="more-button" (click)="showMoreMaps()">Show More Maps</button>
 <div *ngIf="!showModal" class="mobile-button" (click)="showModal = true;">
@@ -33,7 +31,7 @@
 
   <sci-carousel class="maps-carousel">
     <sci-carousel-item class="mobile-carousel-item" *ngFor="let discoverItem of discoverItems">
-      <sci-discover-listing [discoverItem]="discoverItem" [type]="'maps'" (openDrawer)="openDetails()"></sci-discover-listing>
+      <sci-discover-listing [discoverItem]="discoverItem" [type]="'maps'"></sci-discover-listing>
     </sci-carousel-item>
   </sci-carousel>
 </div>

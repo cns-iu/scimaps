@@ -18,9 +18,10 @@
       <div class="details-credit">{{item.credit}}</div>
       <div class="language-selection">
         <div>Languages:&nbsp;</div>
-        <div class="language option" [class.active]="selectedLanguage === 'English'" (click)="languageSelect('English')">English&nbsp;</div>|
-        <div class="language option" [class.active]="selectedLanguage === 'Chinese'" (click)="languageSelect('Chinese')">&nbsp;中文&nbsp;</div>|
-        <div class="language option" [class.active]="selectedLanguage === 'German'" (click)="languageSelect('German')">&nbsp;Deutsch</div>
+        <div class="language option" [class.active]="selectedLanguage === 'en'" (click)="languageSelect('en')">English&nbsp;</div>|
+        <div class="language option" [class.active]="selectedLanguage === 'es'" (click)="languageSelect('es')">Español&nbsp;</div>|
+        <div class="language option" [class.active]="selectedLanguage === 'zh'" (click)="languageSelect('zh')">&nbsp;中文&nbsp;</div>|
+        <div class="language option" [class.active]="selectedLanguage === 'de'" (click)="languageSelect('de')">&nbsp;Deutsch</div>
       </div>
       <div class="details-description">{{item.description}}</div>
       <div class="details-references">

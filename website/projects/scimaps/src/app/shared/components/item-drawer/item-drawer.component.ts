@@ -1,4 +1,5 @@
 import { Component, Input, HostBinding, Output, EventEmitter } from '@angular/core';
+import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { MapItem } from '../../../core/models/discover-item';
 import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.component';
@@ -34,11 +35,6 @@ export class ItemDrawerComponent {
   };
 
   /**
-   * Emitted when the drawer closes
-   */
-  @Output() closeDrawer = new EventEmitter();
-
-  /**
    * Emits the selected language when the language changes
    */
   @Output() languageChange = new EventEmitter<string>();
@@ -46,9 +42,9 @@ export class ItemDrawerComponent {
   /**
    * Currently selected language
    */
-  selectedLanguage = 'English';
+  selectedLanguage = 'en';
 
-  constructor(private readonly dialog: MatDialog) { }
+  constructor(private readonly dialog: MatDialog, private router: Router) { }
 
   /**
    * Combines the maker names
@@ -57,11 +53,8 @@ export class ItemDrawerComponent {
     return this.item.makers.join(', ');
   }
 
-  /**
-   * Closes the drawer
-   */
   close(): void {
-    this.closeDrawer.emit();
+    this.router.navigate(['/', 'maps']);
   }
 
   /**
