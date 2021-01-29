@@ -33,7 +33,7 @@ function getHeaders(): TableHeader[] {
       key: 'history',
       format: 'icon'
     }
-  ] as TableHeader[]
+  ] as TableHeader[];
 }
 
 
@@ -44,8 +44,8 @@ function getSortedSampleData(): SampleData[] {
                    'p', 'q', 'r', 's', 't',
                    'u', 'v', 'w', 'x', 'y',
                    'z' ];
-  let data: SampleData[] = []
-  let history: any = [];
+  const data: SampleData[] = [];
+  const history: number[] = [];
 
   for (let dataIndex = 0; dataIndex <= 25; dataIndex++) {
     data.push({
@@ -62,10 +62,10 @@ function getSortedSampleData(): SampleData[] {
 }
 
 /* Randomize array in-place using Durstenfeld shuffle algorithm */
-function shuffleArray(array: Array<any>) {
-  for (var i = array.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var temp = array[i];
+function shuffleArray(array: Array<SampleData>): Array<SampleData> {
+  for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
       array[i] = array[j];
       array[j] = temp;
   }

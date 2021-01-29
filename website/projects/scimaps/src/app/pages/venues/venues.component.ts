@@ -43,7 +43,7 @@ export class VenuesComponent {
       key: 'media',
       format: 'icon'
     }
-  ]
+  ];
 
   testVenues: Venue[] = [
     {

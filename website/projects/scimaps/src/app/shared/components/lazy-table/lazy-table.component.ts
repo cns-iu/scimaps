@@ -1,6 +1,10 @@
 import { Component, HostBinding, Input } from '@angular/core';
-
 import { TableHeader } from '../../../core/models/table-header';
+
+type TableField = string | number | Array<string | number>;
+interface TableData {
+  [key: string]: TableField;
+}
 
 @Component({
   selector: 'sci-lazy-table',
@@ -12,7 +16,7 @@ export class LazyTableComponent {
   @HostBinding('class') readonly clsName = 'sci-lazy-table';
   ITEMS_TO_SHOW_DEFAULT = 5;
 
-  @Input() data!: any;
+  @Input() data!: TableData[];
   @Input() initialItemsToShow = this.ITEMS_TO_SHOW_DEFAULT;
   @Input() showMoreItemsIncrement = 0;
   @Input() headers!: TableHeader[];
@@ -24,7 +28,7 @@ export class LazyTableComponent {
 
   itemsToShow = this.ITEMS_TO_SHOW_DEFAULT;
 
-  get sortedData(): any {
+  get sortedData(): TableData[] {
     const currentData = this.data;
     let weight = 0;
     const sortedData = currentData.sort((a: any, b: any) => {
@@ -40,7 +44,7 @@ export class LazyTableComponent {
         weight = a[this.sort] > b[this.sort] ? 1 : -1;
       }
 
-      return this.sortDirection === 'ascending' ? weight : weight*-1;
+      return this.sortDirection === 'ascending' ? weight : weight * -1;
     });
     return sortedData.slice(0, this.itemsToShow);
   }
@@ -54,10 +58,10 @@ export class LazyTableComponent {
   }
 
   get recordCountLabel(): string {
-    return `${this.sortedData.length} of ${this.data.length}`
+    return `${this.sortedData.length} of ${this.data.length}`;
   }
 
-  getDataField(row: any, key: string): any {
+  getDataField(row: TableData, key: string): TableField  {
     return row[key];
   }
 
@@ -94,9 +98,9 @@ export class LazyTableComponent {
   showMoreItems(): void {
     if (this.showMoreItemsIncrement === 0) {
       this.itemsToShow = this.data.length;
+    } else {
+      this.itemsToShow = this.itemsToShow + this.showMoreItemsIncrement;
     }
-
-    else this.itemsToShow = this.itemsToShow + this.showMoreItemsIncrement;
   }
 
   showLessItems(): void {
@@ -105,8 +109,8 @@ export class LazyTableComponent {
 
   getSortIcon(key: string): string {
     if (this.sort === key && this.sortDirection === 'descending') {
-      return 'arrow_drop_up'
+      return 'arrow_drop_up';
     }
-    return 'arrow_drop_down'
+    return 'arrow_drop_down';
   }
 }
