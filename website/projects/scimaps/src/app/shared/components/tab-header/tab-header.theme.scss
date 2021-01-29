@@ -1,0 +1,23 @@
+@import "~@angular/material/theming";
+
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $accent: map-get($config, accent);
+
+  .sci-tab-header {
+    .tab {
+      &.active {
+        border-bottom: 2px solid mat-color($accent, 500);
+      }
+    }
+  }
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+
+  @if $color {
+    @include color($color);
+  }
+}
