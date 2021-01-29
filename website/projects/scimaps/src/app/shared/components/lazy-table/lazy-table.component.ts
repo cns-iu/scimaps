@@ -1,8 +1,8 @@
 import { Component, HostBinding, Input } from '@angular/core';
 import { TableHeader } from '../../../core/models/table-header';
 
-type TableField = string | number | Array<string | number>;
-interface TableData {
+export type TableField = string | number | Array<string | number>;
+export interface TableData {
   [key: string]: TableField;
 }
 

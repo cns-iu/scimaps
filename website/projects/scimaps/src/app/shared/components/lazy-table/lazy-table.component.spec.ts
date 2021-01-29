@@ -1,15 +1,8 @@
 import { Shallow } from 'shallow-render';
 
 import { TableHeader } from '../../../core/models/table-header';
-import { LazyTableComponent } from './lazy-table.component';
+import { LazyTableComponent, TableData } from './lazy-table.component';
 import { LazyTableModule } from './lazy-table.module';
-
-interface SampleData {
-  id: number;
-  date: string;
-  name: string;
-  history: number[];
-}
 
 function getHeaders(): TableHeader[] {
   return [
@@ -36,15 +29,14 @@ function getHeaders(): TableHeader[] {
   ] as TableHeader[];
 }
 
-
-function getSortedSampleData(): SampleData[] {
+function getSortedSampleData(): TableData[] {
   const alphabet = [ 'a', 'b', 'c', 'd', 'e',
                    'f', 'g', 'h', 'i', 'j',
                    'k', 'l', 'm', 'n', 'o',
                    'p', 'q', 'r', 's', 't',
                    'u', 'v', 'w', 'x', 'y',
                    'z' ];
-  const data: SampleData[] = [];
+  const data: TableData[] = [];
   const history: number[] = [];
 
   for (let dataIndex = 0; dataIndex <= 25; dataIndex++) {
@@ -62,7 +54,7 @@ function getSortedSampleData(): SampleData[] {
 }
 
 /* Randomize array in-place using Durstenfeld shuffle algorithm */
-function shuffleArray(array: Array<SampleData>): Array<SampleData> {
+function shuffleArray(array: TableData[]): TableData[] {
   for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       const temp = array[i];
