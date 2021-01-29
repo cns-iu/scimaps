@@ -4,7 +4,7 @@ import { TabHeaderComponent } from './tab-header.component';
 import { TabHeaderModule } from './tab-header.module';
 
 function getArrayOfStringsByLength(length: number): string[] {
-  let array: string[] = [];
+  const array: string[] = [];
 
   for (let i = 0; i <= length; i++) {
     array.push(i.toString());
