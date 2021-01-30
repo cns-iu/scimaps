@@ -78,9 +78,14 @@ $breakpoint: 768px;
           margin-top: 1rem;
           margin-bottom: 0.5rem;
           align-items: center;
+
+          .makers-text {
+            display: flex;
+            padding: 1rem 0;
+            padding-left: 1rem;
+          }
         }
 
-        .makers-label,
         .details-location,
         .details-credit {
           margin-left: 1rem;
@@ -93,6 +98,7 @@ $breakpoint: 768px;
         .language-selection {
           display: flex;
           margin: 1rem 0;
+          margin-left: 1rem;
 
           .option {
             cursor: pointer;

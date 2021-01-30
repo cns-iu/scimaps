@@ -1,4 +1,4 @@
-import { Component, HostBinding, Input, Output, EventEmitter } from '@angular/core';
+import { Component, HostBinding, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { DiscoverItem } from '../../../core/models/discover-item';
@@ -18,8 +18,6 @@ export class DiscoverListingComponent {
 
   @Input() type!: 'macroscopes' | 'maps';
 
-  @Output() openDrawer = new EventEmitter();
-
   constructor(private readonly dialog: MatDialog, private router: Router) { }
 
   imageSource(image: string): string {
@@ -36,7 +34,7 @@ export class DiscoverListingComponent {
         }
       });
     } else {
-      this.openDrawer.emit();
+      this.router.navigate(['/', ...link.split('/')]);
     }
   }
 

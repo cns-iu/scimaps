@@ -13,6 +13,8 @@ export class ItemDrawerComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-item-drawer';
 
+  @Input() type!: 'map' | 'macroscope';
+
   /**
    * Item to be displayed in the drawer
    */

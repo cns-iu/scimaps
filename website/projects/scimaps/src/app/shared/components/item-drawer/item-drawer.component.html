@@ -4,19 +4,21 @@
       <mat-icon class="back-icon">chevron_left</mat-icon>
       <div>BACK</div>
     </div>
-    <div class="purchase-button" (click)="openPurchase()">PURCHASE</div>
+    <div class="purchase-button" *ngIf="type === 'map'" (click)="openPurchase()">PURCHASE</div>
   </div>
 
   <div class="body">
     <div class="details-content">
       <h2 class="details-title">{{item.title}}</h2>
       <div class="details-makers">
-        <div class="makers-label">Makers:&nbsp;</div>
-        <div>{{makers}}</div>
+        <div class="makers-text">
+          <div class="makers-label">Makers:&nbsp;</div>
+          <div>{{makers}}</div>
+        </div>
       </div>
       <div class="details-location">{{item.location}}</div>
       <div class="details-credit">{{item.credit}}</div>
-      <div class="language-selection">
+      <div *ngIf="type === 'map'" class="language-selection">
         <div>Languages:&nbsp;</div>
         <div class="language option" [class.active]="selectedLanguage === 'en'" (click)="languageSelect('en')">English&nbsp;</div>|
         <div class="language option" [class.active]="selectedLanguage === 'es'" (click)="languageSelect('es')">Español&nbsp;</div>|

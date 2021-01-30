@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, Resolve } from '@angular/router';
+import { ActivatedRouteSnapshot, Resolve} from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 
@@ -10,7 +10,7 @@ import { ContentService } from '../../shared/services/content.service';
 @Injectable({
   providedIn: 'root'
 })
-export class MapResolverService implements Resolve<MapItem> {
+export class MacroscopeResolverService implements Resolve<MapItem> {
 
   constructor(private content: ContentService) { }
 
@@ -18,7 +18,7 @@ export class MapResolverService implements Resolve<MapItem> {
     const language = 'en'; //how to change this?
     const iteration = route.paramMap.get('iteration');
     const sequence = route.paramMap.get('sequence');
-    const mapSlug = `map/${iteration}/${sequence}`;
+    const mapSlug = `macroscope/${iteration}/${sequence}`;
     return this.content.getContent(mapSlug).pipe(take(1), map<any, MapItem>((data) => {
       const item: MapItem = {} as MapItem;
       item.title = data[language].title;
@@ -33,7 +33,7 @@ export class MapResolverService implements Resolve<MapItem> {
       item.credit = data[language].creditLine;
       item.description = data[language].body;
       item.references = data[language].references;
-      item.thumbnail = `assets/content/map/${data.en.iteration}/${data.en.sequence}/${data.en.image.lg}`;
+      item.thumbnail = `assets/content/macroscope/${data.en.iteration}/${data.en.sequence}/${data.en.image.lg}`;
       return item;
     }));
   }
