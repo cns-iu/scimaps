@@ -7,4 +7,10 @@
   lessButtonLabel="Show Less Venues"
   caption="A table that lists venues with corresponding dates, locations, contacts and media links."
 ></sci-lazy-table>
-<sci-lazy-cards class="mobile-cards" [data]="testVenues"></sci-lazy-cards>
+<sci-lazy-cards
+  class="mobile-cards"
+  [data]="testVenues"
+  [getHeader]="cardHeaderFunction"
+  [getLinks]="cardLinkFunction"
+  moreButtonLabel="Show More Venues"
+></sci-lazy-cards>

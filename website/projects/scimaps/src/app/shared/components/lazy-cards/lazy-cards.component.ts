@@ -1,5 +1,5 @@
 import { Component, HostBinding, Input } from '@angular/core';
-import { TableData } from '../../../core/models/table-data';
+import { IconLink, TableData, TableField } from '../../../core/models/table-data';
 
 
 @Component({
@@ -14,6 +14,9 @@ export class LazyCardsComponent {
   @Input() data!: TableData[];
   @Input() itemsToDisplayIncrement = 6;
   @Input() itemsToDisplay = 6;
+  @Input() getHeader!: Function;
+  @Input() getLinks?: Function;
+  @Input() moreButtonLabel = 'Show More';
 
   get displayItems(): TableData[] {
     return this.data.slice(0, this.itemsToDisplay);
@@ -21,6 +24,18 @@ export class LazyCardsComponent {
 
   get moreItemsToDisplay(): boolean {
     return this.itemsToDisplay < this.data.length;
+  }
+
+  getFields(item: TableData): string[] {
+    return Object.keys(item);
+  }
+
+  getLabel(item: TableData, field: string): string {
+    return item[field].label;
+  }
+
+  fieldIsText(item: TableData, field: string): boolean {
+    return item[field].type === 'text';
   }
 
   goToLink(link: string): void {

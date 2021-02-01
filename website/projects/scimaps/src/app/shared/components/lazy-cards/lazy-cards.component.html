@@ -1,19 +1,19 @@
 <div class="card-tray">
   <div class="card mat-elevation-z4" *ngFor="let item of displayItems">
     <div class="card-header">
-      <h3 class="dates">{{ item.startDate.label }} - {{ item.endDate.label }}</h3>
+      <h3 class="dates">{{ getHeader(item) }}</h3>
       <div class="media">
-        <div *ngIf="!!item.media" class="media-icons">
-          <mat-icon *ngFor="let link of item.media.links" class="icon" (click)="goToLink(link.url)">{{ link.icon }}</mat-icon>
+        <div *ngIf="!!getLinks" class="media-icons">
+          <mat-icon *ngFor="let link of getLinks(item)" class="icon" (click)="goToLink(link.url)">{{ link.icon }}</mat-icon>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <div class="mb-45">{{ item.event.label }}</div>
-      <div class="mb-45">{{ item.location.label }}</div>
-      <div class="mb-45">{{ item.contact.label }}</div>
+      <ng-container *ngFor="let field of getFields(item)">
+        <div *ngIf="fieldIsText(item, field)" class="mb-45" >{{ getLabel(item, field) }}</div>
+      </ng-container>
     </div>
   </div>
 </div>
 
-<div class="more-button" (click)="showMore()" *ngIf="moreItemsToDisplay">Show More Venues</div>
+<div class="more-button" (click)="showMore()" *ngIf="moreItemsToDisplay">{{ moreButtonLabel }}</div>
