@@ -1,5 +1,6 @@
 import { Component, HostBinding, Input } from '@angular/core';
-import { Venue } from '../../../core/models/venue';
+import { TableData } from '../../../core/models/table-data';
+
 
 @Component({
   selector: 'sci-lazy-cards',
@@ -10,11 +11,11 @@ export class LazyCardsComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-lazy-cards';
 
-  @Input() data!: Venue[];
+  @Input() data!: TableData[];
   @Input() itemsToDisplayIncrement = 6;
   @Input() itemsToDisplay = 6;
 
-  get displayItems(): Venue[] {
+  get displayItems(): TableData[] {
     return this.data.slice(0, this.itemsToDisplay);
   }
 

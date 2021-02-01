@@ -4,7 +4,7 @@
       <h3 class="dates">{{ item.startDate }} - {{ item.endDate }}</h3>
       <div class="media">
         <div *ngIf="!!item.media" class="media-icons">
-          <mat-icon *ngFor="let link of item.media" class="icon" (click)="goToLink(link.url)">{{ link.icon }}</mat-icon>
+          <mat-icon *ngFor="let link of item.media.links" class="icon" (click)="goToLink(link.url)">{{ link.icon }}</mat-icon>
         </div>
       </div>
     </div>

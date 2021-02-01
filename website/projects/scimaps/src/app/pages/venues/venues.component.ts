@@ -1,7 +1,7 @@
 import { Component, HostBinding } from '@angular/core';
+import { TableData } from '../../core/models/table-data';
 
 import { TableHeader } from '../../core/models/table-header';
-import { Venue } from '../../core/models/venue';
 
 @Component({
   selector: 'sci-venues',
@@ -45,237 +45,74 @@ export class VenuesComponent {
     }
   ];
 
-  testVenues: Venue[] = [
+  testVenues: TableData[] = [
     {
-      startDate: '9/2/2020',
-      endDate: '9/30/2020',
-      event: 'Technology Petting Zoo',
-      location: 'Indiana University UITS, Bloomington, IN',
-      contact: 'Jeannette Lehr',
-      media: [
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
+      startDate: {
+        label: '9/2/2020',
+        type: 'date'
+      },
+      endDate: {
+        label: '9/30/2020',
+        type: 'date'
+      },
+      event: {
+        label: 'Technology Petting Zoo',
+        type: 'text'
+      },
+      location: {
+        label: 'Indiana University UITS, Bloomington, IN',
+        type: 'text'
+      },
+      contact: {
+        label: 'Jeannette Lehr',
+        type: 'text'
+      },
+      media: {
+        label: 'Media',
+        type: 'icons',
+        links: [
+          {
+            icon: 'insert_photo',
+            url: 'www.google.com'
+          }
+        ]
+      }
     },
     {
-      startDate: '3/2/2020',
-      endDate: '5/1/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      media: [
-        {
-          icon: 'videocam',
-          url: 'www.google.com'
-        },
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '1/29/2020',
-      endDate: '',
-      event: 'Tour for MetroStar Systems',
-      location: 'Indiana University, Bloomington, IN',
-      contact: '',
-      media: [
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '3/2/2020',
-      endDate: '9/1/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      media: [
-        {
-          icon: 'videocam',
-          url: 'www.google.com'
-        },
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '11/12/2020',
-      endDate: '11/15/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      media: [
-        {
-          icon: 'videocam',
-          url: 'www.google.com'
-        },
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '9/2/2020',
-      endDate: '9/30/2020',
-      event: 'Technology Petting Zoo',
-      location: 'Indiana University UITS, Bloomington, IN',
-      contact: 'Jeannette Lehr',
-      media: [
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '3/2/2020',
-      endDate: '5/1/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      media: [
-        {
-          icon: 'videocam',
-          url: 'www.google.com'
-        },
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '1/29/2020',
-      endDate: '',
-      event: 'Tour for MetroStar Systems',
-      location: 'Indiana University, Bloomington, IN',
-      contact: '',
-      media: [
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '3/2/2020',
-      endDate: '9/1/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      media: [
-        {
-          icon: 'videocam',
-          url: 'www.google.com'
-        },
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '11/12/2020',
-      endDate: '11/15/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      media: [
-        {
-          icon: 'videocam',
-          url: 'www.google.com'
-        },
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '9/2/2020',
-      endDate: '9/30/2020',
-      event: 'Technology Petting Zoo',
-      location: 'Indiana University UITS, Bloomington, IN',
-      contact: 'Jeannette Lehr',
-      media: [
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '3/2/2020',
-      endDate: '5/1/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      media: [
-        {
-          icon: 'videocam',
-          url: 'www.google.com'
-        },
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '1/29/2020',
-      endDate: '',
-      event: 'Tour for MetroStar Systems',
-      location: 'Indiana University, Bloomington, IN',
-      contact: '',
-      media: [
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '3/2/2020',
-      endDate: '9/1/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      media: [
-        {
-          icon: 'videocam',
-          url: 'www.google.com'
-        },
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
-    },
-    {
-      startDate: '11/12/2020',
-      endDate: '11/15/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      media: [
-        {
-          icon: 'videocam',
-          url: 'www.google.com'
-        },
-        {
-          icon: 'insert_photo',
-          url: 'www.google.com'
-        }
-      ]
+      startDate: {
+        label: '3/2/2020',
+        type: 'date'
+      },
+      endDate: {
+        label: '5/1/2020',
+        type: 'date'
+      },
+      event: {
+        label: 'Women in Data Science 2020 (Regional Event)',
+        type: 'text'
+      },
+      location: {
+        label: 'UNAM, Mexico City',
+        type: 'text'
+      },
+      contact: {
+        label: 'Mariana Espinosa',
+        type: 'text'
+      },
+      media: {
+        label: 'Media',
+        type: 'icons',
+        links: [
+          {
+            icon: 'videocam',
+            url: 'www.google.com'
+          },
+          {
+            icon: 'insert_photo',
+            url: 'www.google.com'
+          }
+        ]
+      }
     }
   ];
 }

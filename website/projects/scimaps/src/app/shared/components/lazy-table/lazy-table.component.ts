@@ -1,10 +1,6 @@
 import { Component, HostBinding, Input } from '@angular/core';
+import { IconLink, TableData, TableField } from '../../../core/models/table-data';
 import { TableHeader } from '../../../core/models/table-header';
-
-export type TableField = string | number | Array<string | number>;
-export interface TableData {
-  [key: string]: TableField;
-}
 
 @Component({
   selector: 'sci-lazy-table',
@@ -31,17 +27,17 @@ export class LazyTableComponent {
   get sortedData(): TableData[] {
     const currentData = this.data;
     let weight = 0;
-    const sortedData = currentData.sort((a: any, b: any) => {
-      a = a[this.sort];
-      b = b[this.sort];
-      if (Array.isArray(a[this.sort])) {
-        weight = a[this.sort].length > b[this.sort].length ? 1 : -1;
-      } else if (this.is_date(a)) {
-        const dateA = new Date(a);
-        const dateB = new Date(b);
+    const sortedData = currentData.sort((dataOne: TableData, dataTwo: TableData) => {
+      let a = dataOne[this.sort] as TableField;
+      let b = dataTwo[this.sort] as TableField;
+      if (a.type === 'icons' && a.links && b.links) {
+        weight = a.links.length > b.links.length ? 1 : -1;
+      } else if (a.type === 'date') {
+        const dateA = new Date(a.label);
+        const dateB = new Date(b.label);
         weight = dateA.getTime() > dateB.getTime() ? 1 : -1;
       } else {
-        weight = a[this.sort] > b[this.sort] ? 1 : -1;
+        weight = a.label > b.label ? 1 : -1;
       }
 
       return this.sortDirection === 'ascending' ? weight : weight * -1;
@@ -61,8 +57,17 @@ export class LazyTableComponent {
     return `${this.sortedData.length} of ${this.data.length}`;
   }
 
-  getDataField(row: TableData, key: string): TableField  {
-    return row[key];
+  getDataField(row: TableData, key: string): string  {
+    return row[key].label;
+  }
+
+  getLinks(row: TableData, field: string): any[] {
+    const item = row[field];
+    if (item.links) {
+      return item.links as Array<IconLink>;
+    }
+
+    return [];
   }
 
   goToLink(link: string): void {
@@ -76,15 +81,6 @@ export class LazyTableComponent {
       this.sortDirection = 'ascending';
       this.sort = key;
     }
-  }
-
-  is_date(input: string): boolean {
-    const regex = new RegExp(/([0-9]{1,2}[/.-]{1}[0-9]{1,2}[/.-]{1}[0-9]{2,4})/);
-    if (regex.test(input)) {
-      return true;
-    }
-
-    return false;
   }
 
   handleShowButton(): void {

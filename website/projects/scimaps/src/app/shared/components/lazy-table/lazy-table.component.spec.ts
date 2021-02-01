@@ -1,7 +1,8 @@
 import { Shallow } from 'shallow-render';
+import { IconLink, TableData } from '../../../core/models/table-data';
 
 import { TableHeader } from '../../../core/models/table-header';
-import { LazyTableComponent, TableData } from './lazy-table.component';
+import { LazyTableComponent } from './lazy-table.component';
 import { LazyTableModule } from './lazy-table.module';
 
 function getHeaders(): TableHeader[] {
@@ -37,17 +38,32 @@ function getSortedSampleData(): TableData[] {
                    'u', 'v', 'w', 'x', 'y',
                    'z' ];
   const data: TableData[] = [];
-  const history: number[] = [];
+  const history: IconLink[] = [];
 
   for (let dataIndex = 0; dataIndex <= 25; dataIndex++) {
     data.push({
-      id: dataIndex,
-      date: `01/${dataIndex}/2020`,
-      name: alphabet[dataIndex],
-      history
+      id: {
+        label: dataIndex.toString(),
+        type: 'number'
+      },
+      date: {
+        label: `01/${dataIndex}/2020`,
+        type: 'date'
+      },
+      name: {
+        label: alphabet[dataIndex],
+        type: 'text'
+      },
+      history: {
+        label: 'History',
+        type: 'icons',
+        links: [
+
+        ]
+      }
     });
 
-    history.push(dataIndex);
+    history.push({ icon: 'insert_photo', url: dataIndex.toString()});
   }
 
   return data;

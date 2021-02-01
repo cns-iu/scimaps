@@ -13,7 +13,7 @@
 
       <ng-template #notText>
         <td class="icons-cell">
-          <mat-icon *ngFor="let item of getDataField(row, field.key)" class="icon" (click)="goToLink(item.url)">{{ item.icon }}</mat-icon>
+          <mat-icon *ngFor="let link of getLinks(row, field.key)" class="icon" (click)="goToLink(link.url)">{{ link.icon }}</mat-icon>
         </td>
       </ng-template>
 
