@@ -62,7 +62,6 @@ export class LazyTableComponent {
   }
 
   getLabel(row: TableData, key: string): string  {
-    console.log('row: ', row, '\nkey: ', key);
     return row[key].label;
   }
 
