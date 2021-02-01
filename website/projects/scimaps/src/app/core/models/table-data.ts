@@ -11,7 +11,7 @@ export interface TableField {
   url?: string;
   icon?: string;
   links?: IconLink[];
-};
+}
 
 export interface TableData {
   [key: string]: TableField;

@@ -35,7 +35,7 @@ export class VenuesComponent {
     },
     {
       label: 'Contact',
-      key: 'contace',
+      key: 'contact',
       format: 'text'
     },
     {

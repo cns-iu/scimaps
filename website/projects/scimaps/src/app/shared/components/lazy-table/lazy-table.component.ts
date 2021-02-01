@@ -22,14 +22,14 @@ export class LazyTableComponent {
   @Input() lessButtonLabel = 'Show Less';
   @Input() caption!: string;
 
-  itemsToShow = this.ITEMS_TO_SHOW_DEFAULT;
+  itemsToShow = this.initialItemsToShow;
 
   get sortedData(): TableData[] {
     const currentData = this.data;
     let weight = 0;
     const sortedData = currentData.sort((dataOne: TableData, dataTwo: TableData) => {
-      let a = dataOne[this.sort] as TableField;
-      let b = dataTwo[this.sort] as TableField;
+      const a = dataOne[this.sort] as TableField;
+      const b = dataTwo[this.sort] as TableField;
       if (a.type === 'icons' && a.links && b.links) {
         weight = a.links.length > b.links.length ? 1 : -1;
       } else if (a.type === 'date') {
@@ -57,14 +57,19 @@ export class LazyTableComponent {
     return `${this.sortedData.length} of ${this.data.length}`;
   }
 
-  getDataField(row: TableData, key: string): string  {
+  get needShowButton(): boolean {
+    return this.initialItemsToShow < this.data.length;
+  }
+
+  getLabel(row: TableData, key: string): string  {
+    console.log('row: ', row, '\nkey: ', key);
     return row[key].label;
   }
 
-  getLinks(row: TableData, field: string): any[] {
+  getLinks(row: TableData, field: string): IconLink[] {
     const item = row[field];
     if (item.links) {
-      return item.links as Array<IconLink>;
+      return item.links;
     }
 
     return [];

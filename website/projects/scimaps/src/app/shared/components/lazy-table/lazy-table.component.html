@@ -9,7 +9,7 @@
   <tr *ngFor="let row of sortedData">
     <ng-container *ngFor="let field of headers">
 
-      <td *ngIf="field.format === 'text'; else notText">{{ getDataField(row, field.key) }}</td>
+      <td *ngIf="field.format === 'text'; else notText">{{ getLabel(row, field.key) }}</td>
 
       <ng-template #notText>
         <td class="icons-cell">
@@ -21,4 +21,4 @@
   </tr>
 </table>
 <div class="record-count">{{ recordCountLabel }}</div>
-<button class="more-button" (click)="handleShowButton()">{{ showButtonLabel }}</button>
+<button *ngIf="needShowButton" class="more-button" (click)="handleShowButton()">{{ showButtonLabel }}</button>
