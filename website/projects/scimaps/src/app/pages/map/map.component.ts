@@ -1,28 +1,45 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Subscription } from 'rxjs';
 
-import { MapItem } from '../../core/models/discover-item';
+import { MapMacroscopeItem } from '../../core/models/discover-item';
 
 @Component({
   selector: 'sci-map',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.scss']
 })
-export class MapComponent implements OnInit {
+export class MapComponent implements OnInit, OnDestroy {
 
-  selectedItem!: MapItem;
+  selectedItem!: MapMacroscopeItem;
 
   currentLanguage = 'en';
 
-  constructor(private route: ActivatedRoute) { }
+  private subscriptionA?: Subscription;
+  private subscriptionB?: Subscription;
+
+  constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
-    this.route.data.subscribe((data) => {
+    this.subscriptionA = this.route.data.subscribe((data) => {
       this.selectedItem = data.map;
+    });
+    this.subscriptionB = this.route.queryParamMap.subscribe((params) => {
+      this.currentLanguage = params.get('lang') || 'en';
     });
   }
 
   changeLanguage(language: string): void {
-    this.currentLanguage = language;
+    const iteration = this.route.snapshot.paramMap.get('iteration');
+    const sequence = this.route.snapshot.paramMap.get('sequence');
+    this.router.navigate(['/', 'map', iteration, sequence], { queryParams: {lang: language} });
+  }
+
+  /**
+   * Unsubscribe from Observables
+   */
+  ngOnDestroy(): void {
+    this.subscriptionA?.unsubscribe();
+    this.subscriptionB?.unsubscribe();
   }
 }

@@ -1,11 +1,11 @@
 import { Shallow } from 'shallow-render';
-import { MapItem } from '../../../core/models/discover-item';
+import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { ItemDrawerComponent } from './item-drawer.component';
 import { ItemDrawerModule } from './item-drawer.module';
 
 
 describe('ItemDrawerComponent', () => {
-  const testItem: MapItem = {
+  const testItem: MapMacroscopeItem = {
     title: 'Title Test',
     makers: ['Maker 1', 'Maker 2'],
     location: 'Test location',

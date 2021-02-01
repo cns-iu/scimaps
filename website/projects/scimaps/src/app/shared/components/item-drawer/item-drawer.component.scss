@@ -81,24 +81,28 @@ $breakpoint: 768px;
 
           .makers-text {
             display: flex;
-            padding: 1rem 0;
-            padding-left: 1rem;
+            padding: 1rem;
+            
+            .makers-label {
+              font-weight: bold;
+              padding-right: 0.5rem;
+            }
           }
         }
 
-        .details-location,
         .details-credit {
           margin-left: 1rem;
-        }
-
-        .makers-label {
-          font-weight: bold;
+          height: 4rem;
         }
 
         .language-selection {
           display: flex;
           margin: 1rem 0;
           margin-left: 1rem;
+          
+          .language-container {
+            display: flex;
+          }
 
           .option {
             cursor: pointer;

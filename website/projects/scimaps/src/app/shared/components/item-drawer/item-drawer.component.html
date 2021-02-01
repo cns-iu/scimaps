@@ -20,10 +20,10 @@
       <div class="details-credit">{{item.credit}}</div>
       <div *ngIf="type === 'map'" class="language-selection">
         <div>Languages:&nbsp;</div>
-        <div class="language option" [class.active]="selectedLanguage === 'en'" (click)="languageSelect('en')">English&nbsp;</div>|
-        <div class="language option" [class.active]="selectedLanguage === 'es'" (click)="languageSelect('es')">Español&nbsp;</div>|
-        <div class="language option" [class.active]="selectedLanguage === 'zh'" (click)="languageSelect('zh')">&nbsp;中文&nbsp;</div>|
-        <div class="language option" [class.active]="selectedLanguage === 'de'" (click)="languageSelect('de')">&nbsp;Deutsch</div>
+        <div class="language-container" *ngFor="let language of item.translations, index as i">
+          <div *ngIf="i !== 0" class="divider">&nbsp;&nbsp;|&nbsp;&nbsp;</div>
+          <div class="language option" [class.active]="selectedLanguage === language.abbr_short" (click)="languageSelect(language.abbr_short)">{{language.native}}</div>
+        </div>
       </div>
       <div class="details-description">{{item.description}}</div>
       <div class="details-references">

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { MapItem } from '../../core/models/discover-item';
+import { MapMacroscopeItem } from '../../core/models/discover-item';
 
 @Component({
   selector: 'sci-macroscope',
@@ -10,7 +10,7 @@ import { MapItem } from '../../core/models/discover-item';
 })
 export class MacroscopeComponent implements OnInit {
 
-  selectedItem!: MapItem;
+  selectedItem!: MapMacroscopeItem;
 
   constructor(private route: ActivatedRoute) { }
 

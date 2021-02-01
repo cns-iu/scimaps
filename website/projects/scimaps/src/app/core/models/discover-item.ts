@@ -13,10 +13,10 @@ export interface DiscoverItem {
 }
 
 /**
- * Interface for map items
+ * Interface for map and macroscope items
  */
-export interface MapItem {
-  /** Title of map item */
+export interface MapMacroscopeItem {
+  /** Title of item */
   title: string;
   /** Makers of the item */
   makers: string[];
@@ -32,4 +32,13 @@ export interface MapItem {
   references: string[];
   /** URL of thumbnail image */
   thumbnail: string;
+  /** Languages that the item has been translated into */
+  translations: Language[];
+}
+
+export interface Language {
+  abbreviation: string;
+  abbr_short: string;
+  language: string;
+  native: string;
 }

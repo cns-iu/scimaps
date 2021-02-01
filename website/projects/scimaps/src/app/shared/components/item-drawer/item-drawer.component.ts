@@ -1,7 +1,7 @@
 import { Component, Input, HostBinding, Output, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
-import { MapItem } from '../../../core/models/discover-item';
+import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.component';
 
 @Component({
@@ -13,28 +13,15 @@ export class ItemDrawerComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-item-drawer';
 
+  /**
+   * Type of item displayed
+   */
   @Input() type!: 'map' | 'macroscope';
 
   /**
    * Item to be displayed in the drawer
    */
-  @Input() item: MapItem = {
-    title: 'Sample Map Item',
-    makers: ['Homer Simpson', 'Elon Musk'],
-    location: 'Springfield',
-    credit: 'Credit line text',
-    year: '2000',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dui euismod mauris faucibus euismod non lacinia quam. Morbi sit amet placerat dui. Sed ut dolor efficitur, consequat augue sed, pharetra orci. Nulla vitae mauris nisi. Aenean orci ipsum, scelerisque et arcu quis, molestie efficitur dui. Curabitur enim lacus, vehicula at arcu id, sagittis posuere est. Maecenas laoreet est eget tristique interdum. Fusce consequat, nisl ac bibendum facilisis, tellus nulla blandit orci, quis dignissim est mi ac justo. Pellentesque ultrices blandit diam quis pretium. Suspendisse ut ante in enim consequat semper id consectetur arcu. Proin ultricies vestibulum nulla sit amet.',
-    references: [
-      'Reference 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.' +
-        'Fusce non dui euismod mauris faucibus euismod non lacinia quam.',
-      'Reference 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.' +
-        'Fusce non dui euismod mauris faucibus euismod non lacinia quam.',
-      'Reference 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit.' +
-        'Fusce non dui euismod mauris faucibus euismod non lacinia quam.'
-    ],
-    thumbnail: 'assets/maps/maps-2019/rose.jpg'
-  };
+  @Input() item!: MapMacroscopeItem;
 
   /**
    * Emits the selected language when the language changes
@@ -55,8 +42,11 @@ export class ItemDrawerComponent {
     return this.item.makers.join(', ');
   }
 
+  /**
+   * Closes item drawer component and returns to the maps or macroscopes page
+   */
   close(): void {
-    this.router.navigate(['/', 'maps']);
+    this.router.navigate(['/', this.type+'s']);
   }
 
   /**
