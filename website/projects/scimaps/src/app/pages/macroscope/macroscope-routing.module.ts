@@ -10,7 +10,8 @@ const routes: Routes = [{
   component: MacroscopeComponent,
   resolve: {
     macroscope: MacroscopeResolverService
-  }
+  },
+  runGuardsAndResolvers: 'paramsOrQueryParamsChange'
 }];
 
 @NgModule({

@@ -3,7 +3,7 @@ import { ActivatedRouteSnapshot, Resolve} from '@angular/router';
 import { combineLatest, Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 
-import { MapMacroscopeItem } from '../../core/models/discover-item';
+import { MapMacroscopeItem, Language } from '../../core/models/discover-item';
 import { ContentService } from '../../shared/services/content.service';
 
 
@@ -16,7 +16,7 @@ export class MacroscopeResolverService implements Resolve<MapMacroscopeItem> {
 
   resolve(route: ActivatedRouteSnapshot): Observable<MapMacroscopeItem> | Observable<never> {
     const languages$ = this.content.getContent('site/languages.md').pipe(take(1));
-    const language = 'en'; //how to change this?
+    const language = route.queryParamMap.get('lang') || 'en';
     const iteration = route.paramMap.get('iteration');
     const sequence = route.paramMap.get('sequence');
     const mapSlug = `macroscope/${iteration}/${sequence}`;
@@ -25,7 +25,7 @@ export class MacroscopeResolverService implements Resolve<MapMacroscopeItem> {
     return combineLatest([languages$, content$]).pipe(map<[any, any], MapMacroscopeItem>(([languages, data]) => {
       const item: MapMacroscopeItem = {} as MapMacroscopeItem;
       item.title = data[language].title;
-      item.makers = data[language].makers.map((m: any) => {
+      item.makers = data.en.makers.map((m: any) => {
         m = m.replace('/readme', '').replace('-', ' ');
         let names = m.split(' ')
         for (let i = 0, x = names.length; i < x; i++) {
@@ -37,7 +37,9 @@ export class MacroscopeResolverService implements Resolve<MapMacroscopeItem> {
       item.description = data[language].body;
       item.references = data[language].references;
       item.thumbnail = `assets/content/macroscope/${data.en.iteration}/${data.en.sequence}/${data.en.image.lg}`;
-      // item.translations = Object.keys(data).map(...)
+      item.translations = languages.languages.filter((language: Language) => {
+        return Object.keys(data).includes(language.abbr_short)
+      });
       return item;
     }));
   }

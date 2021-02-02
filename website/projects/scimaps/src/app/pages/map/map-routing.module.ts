@@ -7,7 +7,6 @@ import { MapComponent } from './map.component';
 
 const routes: Routes = [{
   path: ':iteration/:sequence',
-  
   component: MapComponent,
   resolve: {
     map: MapResolverService
