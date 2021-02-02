@@ -34,6 +34,7 @@ export interface MapMacroscopeItem {
   thumbnail: string;
   /** Languages that the item has been translated into */
   translations: Language[];
+  externalLink: string;
 }
 
 export interface Language {

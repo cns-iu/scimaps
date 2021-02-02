@@ -40,6 +40,7 @@ export class MapResolverService implements Resolve<MapMacroscopeItem> {
       item.translations = languages.languages.filter((language: Language) => {
         return Object.keys(data).includes(language.abbr_short)
       });
+      item.externalLink = data.en.externalLink;
       return item;
     }));
   }

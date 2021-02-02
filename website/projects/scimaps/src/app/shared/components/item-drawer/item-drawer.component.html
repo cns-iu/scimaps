@@ -34,7 +34,9 @@
     </div>
 
     <div class="details-image">
-      <img class="thumbnail" [src]="item.thumbnail" alt="item image">
+      <a href="{{item.externalLink}}">
+        <img class="thumbnail" [src]="item.thumbnail" alt="item image">
+      </a>
       <mat-icon class="zoom icon">zoom_in</mat-icon>
     </div>
 
