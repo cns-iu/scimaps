@@ -24,10 +24,12 @@
           <div class="language option" [class.active]="selectedLanguage === language.abbr_short" (click)="languageSelect(language.abbr_short)">{{language.native}}</div>
         </div>
       </div>
-      <div class="details-description">{{item.description}}</div>
+      <p markdown [data]="item.description" class="details-description"></p>
       <div class="details-references">
         <div>References</div>
-        <div class="reference" *ngFor="let reference of item.references">{{reference}}</div>
+        <div class="reference" *ngFor="let reference of item.references">
+          <p markdown [data]="reference"></p>
+        </div>
       </div>
     </div>
 
