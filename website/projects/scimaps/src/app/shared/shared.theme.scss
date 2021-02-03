@@ -13,6 +13,7 @@
 @use './components//profile-gallery/profile-gallery.theme';
 @use './components/lazy-cards/lazy-cards.theme';
 @use './components/lazy-table/lazy-table.theme.scss';
+@use './components/tab-header/tab-header.theme.scss';
 
 
 @mixin theme($theme) {
@@ -31,4 +32,5 @@
   @include profile-gallery.theme($theme);
   @include lazy-cards.theme($theme);
   @include lazy-table.theme($theme);
+  @include tab-header.theme($theme);
 }
