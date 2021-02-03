@@ -170,11 +170,13 @@ describe('LazyTableComponent', () => {
 
     let reverseCheck = true;
     let oppositeIndex = descendingData.length;
-    for (const ascendingDataItem of ascendingData) {
+    let index = 0;
+    while (oppositeIndex > 0) {
       oppositeIndex--;
-      if (ascendingDataItem !== descendingData[oppositeIndex]) {
+      if (ascendingData[index] !== descendingData[oppositeIndex]) {
         reverseCheck = false;
       }
+      index++;
     }
 
     expect(reverseCheck).toBeTrue();

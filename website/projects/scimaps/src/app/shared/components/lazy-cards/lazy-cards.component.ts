@@ -1,6 +1,6 @@
 import { Component, HostBinding, Input } from '@angular/core';
 
-import { TableData } from '../../../core/models/table-data';
+import { IconLink, TableData } from '../../../core/models/table-data';
 
 
 @Component({
@@ -15,8 +15,8 @@ export class LazyCardsComponent {
   @Input() data!: TableData[];
   @Input() itemsToDisplayIncrement = 6;
   @Input() itemsToDisplay = 6;
-  @Input() getHeader!: () => string;
-  @Input() getLinks?: () => string;
+  @Input() getHeader!: (arg0: TableData) => string;
+  @Input() getLinks?: (arg0: TableData) => IconLink[];
   @Input() moreButtonLabel = 'Show More';
 
   get displayItems(): TableData[] {

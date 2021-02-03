@@ -121,6 +121,6 @@ export class VenuesComponent {
   }
 
   cardLinkFunction = (row: TableData) => {
-    return row.media.links;
+    return row.media.links !== undefined ? row.media.links : [];
   }
 }
