@@ -1,4 +1,5 @@
-<p>about works!</p>
+<sci-tab-header class="tab-header" [tabs]="pageTabs" (activeTabIndexChanged)="updateActivePageTab($event)"></sci-tab-header>
+
 <sci-profile-gallery
   class="profile-gallery"
   [title]="'Curators'"
@@ -6,6 +7,7 @@
   [profiles]="placeholderProfilesShort"
   [compact]="false" [directory]="'profiles'">
 </sci-profile-gallery>
+
 <sci-profile-gallery
   [title]="'Advisory Board'"
   [description]="placeholderDescription"

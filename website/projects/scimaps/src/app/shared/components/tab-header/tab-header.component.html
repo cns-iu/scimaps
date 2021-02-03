@@ -1,0 +1,1 @@
+<div class="tab" [class.active]="i === activeTabIndex" *ngFor="let tab of tabs; index as i;" (click)="setActiveTabIndex(i)">{{ tab }}</div>

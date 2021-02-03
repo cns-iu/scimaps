@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { AboutRoutingModule } from './about-routing.module';
 import { AboutComponent } from './about.component';
 import { ProfileGalleryModule } from '../../shared/components/profile-gallery/profile-gallery.module';
+import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ProfileGalleryModule } from '../../shared/components/profile-gallery/pr
   imports: [
     CommonModule,
     AboutRoutingModule,
-    ProfileGalleryModule
+    ProfileGalleryModule,
+    TabHeaderModule
   ]
 })
 export class AboutModule { }
