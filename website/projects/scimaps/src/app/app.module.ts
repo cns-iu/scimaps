@@ -1,6 +1,5 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { BrowserModule, DomSanitizer } from '@angular/platform-browser';
@@ -12,9 +11,6 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { BreakpointRegistryService } from './shared/services/breakpoint-registry.service';
 import { SharedModule } from './shared/shared.module';
-
-import { MapsComponent } from '../app/pages/maps/maps.component';
-import { MapComponent } from '../app/pages/map/map.component';
 
 
 @NgModule({
@@ -38,11 +34,7 @@ import { MapComponent } from '../app/pages/map/map.component';
 
     AppRoutingModule,
     CoreModule,
-    SharedModule,
-    RouterModule.forRoot([
-      { path: 'maps', component: MapsComponent, data: {animation: 'Maps'}},
-      { path: 'map', component: MapComponent, data: {animation: 'Map'}}
-    ])
+    SharedModule
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]

@@ -6,8 +6,8 @@
     <sci-mobile-header-menu></sci-mobile-header-menu>
   </mat-sidenav>
 
-  <mat-sidenav-content>
-    <div [@routeAnimations]="outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation']" class="content">
+  <mat-sidenav-content class="sidenav-content">
+    <div [@routeAnimations]="prepareRoute(outlet)" class="content">
       <router-outlet #outlet="outlet"></router-outlet>
     </div>
     <sci-footer></sci-footer>

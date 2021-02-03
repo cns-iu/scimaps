@@ -15,7 +15,7 @@ import { NewsItem } from './shared/components/news-item/news-item.model';
 
 export const slideInAnimation =
   trigger('routeAnimations', [
-    transition('Maps <=> Map', [
+    transition('Maps => Map', [
       style({ position: 'relative' }),
       query(':enter, :leave', [
         style({
@@ -26,15 +26,15 @@ export const slideInAnimation =
         })
       ]),
       query(':enter', [
-        style({ left: '-100%' })
+        style({ left: '100%' })
       ]),
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('3000ms ease-out', style({ left: '100%' }))
+          animate('300ms ease-out', style({ left: '-100%' }))
         ]),
         query(':enter', [
-          animate('3000ms ease-out', style({ left: '0%' }))
+          animate('300ms ease-out', style({ left: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),
