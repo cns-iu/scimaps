@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/travis/build/cns-iu/scimaps/website/projects/scimaps/src/polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /home/runner/work/scimaps/scimaps/website/projects/scimaps/src/polyfills.ts */"hN/g");
 
 
 /***/ }),
@@ -85,7 +85,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ "nf2o":
 /*!*********************************************************************************************!*\
-  !*** /home/travis/build/cns-iu/scimaps/website/node_modules/zone.js/dist/zone-evergreen.js ***!
+  !*** /home/runner/work/scimaps/scimaps/website/node_modules/zone.js/dist/zone-evergreen.js ***!
   \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {

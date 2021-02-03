@@ -36,16 +36,16 @@ module.exports = content.locals || {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/travis/build/cns-iu/scimaps/website/projects/scimaps/src/styles.scss */"+EN/");
-__webpack_require__(/*! /home/travis/build/cns-iu/scimaps/website/projects/scimaps/src/theming.scss */"aYsS");
-module.exports = __webpack_require__(/*! /home/travis/build/cns-iu/scimaps/website/projects/scimaps/src/mat-overrides.scss */"9r/+");
+__webpack_require__(/*! /home/runner/work/scimaps/scimaps/website/projects/scimaps/src/styles.scss */"+EN/");
+__webpack_require__(/*! /home/runner/work/scimaps/scimaps/website/projects/scimaps/src/theming.scss */"aYsS");
+module.exports = __webpack_require__(/*! /home/runner/work/scimaps/scimaps/website/projects/scimaps/src/mat-overrides.scss */"9r/+");
 
 
 /***/ }),
 
 /***/ "7aM5":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /home/travis/build/cns-iu/scimaps/website/node_modules/css-loader/dist/cjs.js??ref--13-1!/home/travis/build/cns-iu/scimaps/website/node_modules/postcss-loader/src??embedded!/home/travis/build/cns-iu/scimaps/website/node_modules/resolve-url-loader??ref--13-3!/home/travis/build/cns-iu/scimaps/website/node_modules/sass-loader/dist/cjs.js??ref--13-4!./src/theming.scss ***!
+  !*** /home/runner/work/scimaps/scimaps/website/node_modules/css-loader/dist/cjs.js??ref--13-1!/home/runner/work/scimaps/scimaps/website/node_modules/postcss-loader/src??embedded!/home/runner/work/scimaps/scimaps/website/node_modules/resolve-url-loader??ref--13-3!/home/runner/work/scimaps/scimaps/website/node_modules/sass-loader/dist/cjs.js??ref--13-4!./src/theming.scss ***!
   \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -96,7 +96,7 @@ module.exports = content.locals || {};
 
 /***/ "PBB4":
 /*!*********************************************************************************************!*\
-  !*** /home/travis/build/cns-iu/scimaps/website/node_modules/css-loader/dist/runtime/api.js ***!
+  !*** /home/runner/work/scimaps/scimaps/website/node_modules/css-loader/dist/runtime/api.js ***!
   \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -201,7 +201,7 @@ function toComment(sourceMap) {
 
 /***/ "TSJu":
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /home/travis/build/cns-iu/scimaps/website/node_modules/css-loader/dist/cjs.js??ref--13-1!/home/travis/build/cns-iu/scimaps/website/node_modules/postcss-loader/src??embedded!/home/travis/build/cns-iu/scimaps/website/node_modules/resolve-url-loader??ref--13-3!/home/travis/build/cns-iu/scimaps/website/node_modules/sass-loader/dist/cjs.js??ref--13-4!./src/styles.scss ***!
+  !*** /home/runner/work/scimaps/scimaps/website/node_modules/css-loader/dist/cjs.js??ref--13-1!/home/runner/work/scimaps/scimaps/website/node_modules/postcss-loader/src??embedded!/home/runner/work/scimaps/scimaps/website/node_modules/resolve-url-loader??ref--13-3!/home/runner/work/scimaps/scimaps/website/node_modules/sass-loader/dist/cjs.js??ref--13-4!./src/styles.scss ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -252,7 +252,7 @@ module.exports = content.locals || {};
 
 /***/ "vB0K":
 /*!********************************************************************************************************************!*\
-  !*** /home/travis/build/cns-iu/scimaps/website/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  !*** /home/runner/work/scimaps/scimaps/website/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
   \********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -532,7 +532,7 @@ module.exports = function (list, options) {
 
 /***/ "xunB":
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /home/travis/build/cns-iu/scimaps/website/node_modules/css-loader/dist/cjs.js??ref--13-1!/home/travis/build/cns-iu/scimaps/website/node_modules/postcss-loader/src??embedded!/home/travis/build/cns-iu/scimaps/website/node_modules/resolve-url-loader??ref--13-3!/home/travis/build/cns-iu/scimaps/website/node_modules/sass-loader/dist/cjs.js??ref--13-4!./src/mat-overrides.scss ***!
+  !*** /home/runner/work/scimaps/scimaps/website/node_modules/css-loader/dist/cjs.js??ref--13-1!/home/runner/work/scimaps/scimaps/website/node_modules/postcss-loader/src??embedded!/home/runner/work/scimaps/scimaps/website/node_modules/resolve-url-loader??ref--13-3!/home/runner/work/scimaps/scimaps/website/node_modules/sass-loader/dist/cjs.js??ref--13-4!./src/mat-overrides.scss ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {

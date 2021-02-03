@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/travis/build/cns-iu/scimaps/website/projects/scimaps/src/main.ts */"zUnb");
+module.exports = __webpack_require__(/*! /home/runner/work/scimaps/scimaps/website/projects/scimaps/src/main.ts */"zUnb");
 
 
 /***/ }),
