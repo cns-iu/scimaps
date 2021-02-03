@@ -1,5 +1,6 @@
 import { Component, HostBinding, Input } from '@angular/core';
-import { IconLink, TableData, TableField } from '../../../core/models/table-data';
+
+import { IconLink, TableData } from '../../../core/models/table-data';
 import { TableHeader } from '../../../core/models/table-header';
 
 @Component({
