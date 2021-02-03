@@ -1,0 +1,2582 @@
+[
+  {
+    "id": 1.0,
+    "author_id": 1.0,
+    "map_id": 4.0,
+    "role": "Supervisor"
+  },
+  {
+    "id": 29.0,
+    "author_id": 32.0,
+    "map_id": 23.0,
+    "role": "Data & Visualization"
+  },
+  {
+    "id": 30.0,
+    "author_id": 34.0,
+    "map_id": 23.0,
+    "role": "Graphic Design"
+  },
+  {
+    "id": 31.0,
+    "author_id": 39.0,
+    "map_id": 24.0,
+    "role": "Research and Data"
+  },
+  {
+    "id": 32.0,
+    "author_id": 40.0,
+    "map_id": 24.0,
+    "role": "Research"
+  },
+  {
+    "id": 33.0,
+    "author_id": 34.0,
+    "map_id": 24.0,
+    "role": "Graphic Design"
+  },
+  {
+    "id": 53.0,
+    "author_id": 116.0,
+    "map_id": 38.0,
+    "role": "Author, Artist"
+  },
+  {
+    "id": 55.0,
+    "author_id": 130.0,
+    "map_id": 39.0,
+    "role": "Artist"
+  },
+  {
+    "id": 57.0,
+    "author_id": 131.0,
+    "map_id": 40.0,
+    "role": "Author, Artist"
+  },
+  {
+    "id": 60.0,
+    "author_id": 34.0,
+    "map_id": 41.0,
+    "role": "Graphic Design"
+  },
+  {
+    "id": 87.0,
+    "author_id": 34.0,
+    "map_id": 49.0,
+    "role": "Graphic Design"
+  },
+  {
+    "id": 90.0,
+    "author_id": 71.0,
+    "map_id": 51.0,
+    "role": "Author, Artist"
+  },
+  {
+    "id": 95.0,
+    "author_id": 34.0,
+    "map_id": 52.0,
+    "role": "Graphic Design"
+  },
+  {
+    "id": 96.0,
+    "author_id": 27.0,
+    "map_id": 53.0,
+    "role": "Author, Artist"
+  },
+  {
+    "id": 100.0,
+    "author_id": 27.0,
+    "map_id": 54.0,
+    "role": "Author, Artist"
+  },
+  {
+    "id": 101.0,
+    "author_id": 34.0,
+    "map_id": 54.0,
+    "role": "Graphic Design"
+  },
+  {
+    "id": 122.0,
+    "author_id": 87.0,
+    "map_id": 62.0,
+    "role": "Unidentified Author"
+  },
+  {
+    "id": 123.0,
+    "author_id": 88.0,
+    "map_id": 63.0,
+    "role": "Photographer"
+  },
+  {
+    "id": 124.0,
+    "author_id": 89.0,
+    "map_id": 64.0,
+    "role": "Photographer"
+  },
+  {
+    "id": 126.0,
+    "author_id": 91.0,
+    "map_id": 65.0,
+    "role": "Engraver"
+  },
+  {
+    "id": 3.0,
+    "author_id": 4.0,
+    "map_id": 8.0,
+    "role": null
+  },
+  {
+    "id": 139.0,
+    "author_id": 104.0,
+    "map_id": 73.0,
+    "role": "Writer"
+  },
+  {
+    "id": 140.0,
+    "author_id": 105.0,
+    "map_id": 73.0,
+    "role": "Graphic Artist"
+  },
+  {
+    "id": 141.0,
+    "author_id": 106.0,
+    "map_id": 73.0,
+    "role": "Statistican"
+  },
+  {
+    "id": 142.0,
+    "author_id": 107.0,
+    "map_id": 73.0,
+    "role": "Catalyst"
+  },
+  {
+    "id": 49.0,
+    "author_id": 36.0,
+    "map_id": 35.0,
+    "role": null
+  },
+  {
+    "id": 135.0,
+    "author_id": 100.0,
+    "map_id": 69.0,
+    "role": null
+  },
+  {
+    "id": 148.0,
+    "author_id": 111.0,
+    "map_id": 76.0,
+    "role": null
+  },
+  {
+    "id": 212.0,
+    "author_id": 177.0,
+    "map_id": 107.0,
+    "role": null
+  },
+  {
+    "id": 4.0,
+    "author_id": 6.0,
+    "map_id": 9.0,
+    "role": null
+  },
+  {
+    "id": 5.0,
+    "author_id": 18.0,
+    "map_id": 10.0,
+    "role": null
+  },
+  {
+    "id": 7.0,
+    "author_id": 38.0,
+    "map_id": 13.0,
+    "role": null
+  },
+  {
+    "id": 8.0,
+    "author_id": 20.0,
+    "map_id": 14.0,
+    "role": null
+  },
+  {
+    "id": 9.0,
+    "author_id": 37.0,
+    "map_id": 15.0,
+    "role": null
+  },
+  {
+    "id": 10.0,
+    "author_id": 17.0,
+    "map_id": 16.0,
+    "role": null
+  },
+  {
+    "id": 11.0,
+    "author_id": 30.0,
+    "map_id": 17.0,
+    "role": null
+  },
+  {
+    "id": 12.0,
+    "author_id": 21.0,
+    "map_id": 18.0,
+    "role": null
+  },
+  {
+    "id": 13.0,
+    "author_id": 22.0,
+    "map_id": 18.0,
+    "role": null
+  },
+  {
+    "id": 14.0,
+    "author_id": 23.0,
+    "map_id": 19.0,
+    "role": null
+  },
+  {
+    "id": 15.0,
+    "author_id": 24.0,
+    "map_id": 19.0,
+    "role": null
+  },
+  {
+    "id": 16.0,
+    "author_id": 25.0,
+    "map_id": 19.0,
+    "role": null
+  },
+  {
+    "id": 17.0,
+    "author_id": 26.0,
+    "map_id": 19.0,
+    "role": null
+  },
+  {
+    "id": 18.0,
+    "author_id": 27.0,
+    "map_id": 19.0,
+    "role": null
+  },
+  {
+    "id": 25.0,
+    "author_id": 5.0,
+    "map_id": 21.0,
+    "role": null
+  },
+  {
+    "id": 26.0,
+    "author_id": 11.0,
+    "map_id": 22.0,
+    "role": null
+  },
+  {
+    "id": 27.0,
+    "author_id": 31.0,
+    "map_id": 23.0,
+    "role": null
+  },
+  {
+    "id": 28.0,
+    "author_id": 33.0,
+    "map_id": 23.0,
+    "role": null
+  },
+  {
+    "id": 34.0,
+    "author_id": 19.0,
+    "map_id": 25.0,
+    "role": null
+  },
+  {
+    "id": 35.0,
+    "author_id": 20.0,
+    "map_id": 26.0,
+    "role": null
+  },
+  {
+    "id": 36.0,
+    "author_id": 122.0,
+    "map_id": 27.0,
+    "role": null
+  },
+  {
+    "id": 37.0,
+    "author_id": 120.0,
+    "map_id": 28.0,
+    "role": null
+  },
+  {
+    "id": 38.0,
+    "author_id": 69.0,
+    "map_id": 29.0,
+    "role": null
+  },
+  {
+    "id": 39.0,
+    "author_id": 123.0,
+    "map_id": 29.0,
+    "role": null
+  },
+  {
+    "id": 41.0,
+    "author_id": 125.0,
+    "map_id": 30.0,
+    "role": null
+  },
+  {
+    "id": 42.0,
+    "author_id": 126.0,
+    "map_id": 31.0,
+    "role": null
+  },
+  {
+    "id": 43.0,
+    "author_id": 127.0,
+    "map_id": 31.0,
+    "role": null
+  },
+  {
+    "id": 44.0,
+    "author_id": 119.0,
+    "map_id": 32.0,
+    "role": null
+  },
+  {
+    "id": 45.0,
+    "author_id": 41.0,
+    "map_id": 2.0,
+    "role": null
+  },
+  {
+    "id": 46.0,
+    "author_id": 42.0,
+    "map_id": 2.0,
+    "role": null
+  },
+  {
+    "id": 47.0,
+    "author_id": 28.0,
+    "map_id": 33.0,
+    "role": null
+  },
+  {
+    "id": 48.0,
+    "author_id": 128.0,
+    "map_id": 34.0,
+    "role": null
+  },
+  {
+    "id": 50.0,
+    "author_id": 129.0,
+    "map_id": 36.0,
+    "role": null
+  },
+  {
+    "id": 54.0,
+    "author_id": 4.0,
+    "map_id": 39.0,
+    "role": null
+  },
+  {
+    "id": 58.0,
+    "author_id": 132.0,
+    "map_id": 41.0,
+    "role": null
+  },
+  {
+    "id": 59.0,
+    "author_id": 13.0,
+    "map_id": 41.0,
+    "role": null
+  },
+  {
+    "id": 61.0,
+    "author_id": 133.0,
+    "map_id": 42.0,
+    "role": null
+  },
+  {
+    "id": 62.0,
+    "author_id": 136.0,
+    "map_id": 42.0,
+    "role": null
+  },
+  {
+    "id": 63.0,
+    "author_id": 137.0,
+    "map_id": 42.0,
+    "role": null
+  },
+  {
+    "id": 64.0,
+    "author_id": 135.0,
+    "map_id": 42.0,
+    "role": null
+  },
+  {
+    "id": 65.0,
+    "author_id": 138.0,
+    "map_id": 42.0,
+    "role": null
+  },
+  {
+    "id": 66.0,
+    "author_id": 139.0,
+    "map_id": 42.0,
+    "role": null
+  },
+  {
+    "id": 2.0,
+    "author_id": 2.0,
+    "map_id": 5.0,
+    "role": null
+  },
+  {
+    "id": 69.0,
+    "author_id": 49.0,
+    "map_id": 5.0,
+    "role": null
+  },
+  {
+    "id": 71.0,
+    "author_id": 51.0,
+    "map_id": 43.0,
+    "role": null
+  },
+  {
+    "id": 72.0,
+    "author_id": 52.0,
+    "map_id": 43.0,
+    "role": null
+  },
+  {
+    "id": 73.0,
+    "author_id": 53.0,
+    "map_id": 43.0,
+    "role": null
+  },
+  {
+    "id": 74.0,
+    "author_id": 23.0,
+    "map_id": 44.0,
+    "role": null
+  },
+  {
+    "id": 75.0,
+    "author_id": 26.0,
+    "map_id": 44.0,
+    "role": null
+  },
+  {
+    "id": 76.0,
+    "author_id": 66.0,
+    "map_id": 45.0,
+    "role": null
+  },
+  {
+    "id": 77.0,
+    "author_id": 65.0,
+    "map_id": 45.0,
+    "role": null
+  },
+  {
+    "id": 79.0,
+    "author_id": 141.0,
+    "map_id": 46.0,
+    "role": null
+  },
+  {
+    "id": 80.0,
+    "author_id": 23.0,
+    "map_id": 47.0,
+    "role": null
+  },
+  {
+    "id": 81.0,
+    "author_id": 68.0,
+    "map_id": 47.0,
+    "role": null
+  },
+  {
+    "id": 82.0,
+    "author_id": 13.0,
+    "map_id": 47.0,
+    "role": null
+  },
+  {
+    "id": 83.0,
+    "author_id": 26.0,
+    "map_id": 48.0,
+    "role": null
+  },
+  {
+    "id": 84.0,
+    "author_id": 69.0,
+    "map_id": 49.0,
+    "role": null
+  },
+  {
+    "id": 85.0,
+    "author_id": 70.0,
+    "map_id": 49.0,
+    "role": null
+  },
+  {
+    "id": 86.0,
+    "author_id": 23.0,
+    "map_id": 49.0,
+    "role": null
+  },
+  {
+    "id": 89.0,
+    "author_id": 23.0,
+    "map_id": 50.0,
+    "role": null
+  },
+  {
+    "id": 91.0,
+    "author_id": 62.0,
+    "map_id": 52.0,
+    "role": null
+  },
+  {
+    "id": 92.0,
+    "author_id": 13.0,
+    "map_id": 52.0,
+    "role": null
+  },
+  {
+    "id": 94.0,
+    "author_id": 73.0,
+    "map_id": 52.0,
+    "role": null
+  },
+  {
+    "id": 97.0,
+    "author_id": 13.0,
+    "map_id": 54.0,
+    "role": null
+  },
+  {
+    "id": 98.0,
+    "author_id": 69.0,
+    "map_id": 54.0,
+    "role": null
+  },
+  {
+    "id": 99.0,
+    "author_id": 70.0,
+    "map_id": 54.0,
+    "role": null
+  },
+  {
+    "id": 104.0,
+    "author_id": 74.0,
+    "map_id": 56.0,
+    "role": null
+  },
+  {
+    "id": 105.0,
+    "author_id": 75.0,
+    "map_id": 56.0,
+    "role": null
+  },
+  {
+    "id": 106.0,
+    "author_id": 76.0,
+    "map_id": 57.0,
+    "role": null
+  },
+  {
+    "id": 107.0,
+    "author_id": 77.0,
+    "map_id": 57.0,
+    "role": null
+  },
+  {
+    "id": 109.0,
+    "author_id": 79.0,
+    "map_id": 58.0,
+    "role": null
+  },
+  {
+    "id": 110.0,
+    "author_id": 23.0,
+    "map_id": 59.0,
+    "role": null
+  },
+  {
+    "id": 116.0,
+    "author_id": 54.0,
+    "map_id": 61.0,
+    "role": null
+  },
+  {
+    "id": 117.0,
+    "author_id": 82.0,
+    "map_id": 61.0,
+    "role": null
+  },
+  {
+    "id": 118.0,
+    "author_id": 83.0,
+    "map_id": 61.0,
+    "role": null
+  },
+  {
+    "id": 119.0,
+    "author_id": 84.0,
+    "map_id": 61.0,
+    "role": null
+  },
+  {
+    "id": 120.0,
+    "author_id": 85.0,
+    "map_id": 61.0,
+    "role": null
+  },
+  {
+    "id": 121.0,
+    "author_id": 86.0,
+    "map_id": 61.0,
+    "role": null
+  },
+  {
+    "id": 127.0,
+    "author_id": 92.0,
+    "map_id": 66.0,
+    "role": null
+  },
+  {
+    "id": 128.0,
+    "author_id": 93.0,
+    "map_id": 66.0,
+    "role": null
+  },
+  {
+    "id": 129.0,
+    "author_id": 94.0,
+    "map_id": 66.0,
+    "role": null
+  },
+  {
+    "id": 130.0,
+    "author_id": 96.0,
+    "map_id": 67.0,
+    "role": null
+  },
+  {
+    "id": 131.0,
+    "author_id": 95.0,
+    "map_id": 67.0,
+    "role": null
+  },
+  {
+    "id": 132.0,
+    "author_id": 97.0,
+    "map_id": 68.0,
+    "role": null
+  },
+  {
+    "id": 133.0,
+    "author_id": 98.0,
+    "map_id": 68.0,
+    "role": null
+  },
+  {
+    "id": 134.0,
+    "author_id": 99.0,
+    "map_id": 68.0,
+    "role": null
+  },
+  {
+    "id": 136.0,
+    "author_id": 101.0,
+    "map_id": 70.0,
+    "role": null
+  },
+  {
+    "id": 137.0,
+    "author_id": 102.0,
+    "map_id": 71.0,
+    "role": null
+  },
+  {
+    "id": 138.0,
+    "author_id": 103.0,
+    "map_id": 72.0,
+    "role": null
+  },
+  {
+    "id": 143.0,
+    "author_id": 108.0,
+    "map_id": 74.0,
+    "role": null
+  },
+  {
+    "id": 144.0,
+    "author_id": 109.0,
+    "map_id": 74.0,
+    "role": null
+  },
+  {
+    "id": 145.0,
+    "author_id": 110.0,
+    "map_id": 74.0,
+    "role": null
+  },
+  {
+    "id": 146.0,
+    "author_id": 43.0,
+    "map_id": 75.0,
+    "role": null
+  },
+  {
+    "id": 147.0,
+    "author_id": 44.0,
+    "map_id": 75.0,
+    "role": null
+  },
+  {
+    "id": 149.0,
+    "author_id": 112.0,
+    "map_id": 77.0,
+    "role": null
+  },
+  {
+    "id": 150.0,
+    "author_id": 113.0,
+    "map_id": 77.0,
+    "role": null
+  },
+  {
+    "id": 151.0,
+    "author_id": 114.0,
+    "map_id": 78.0,
+    "role": null
+  },
+  {
+    "id": 152.0,
+    "author_id": 143.0,
+    "map_id": 79.0,
+    "role": null
+  },
+  {
+    "id": 153.0,
+    "author_id": 144.0,
+    "map_id": 79.0,
+    "role": null
+  },
+  {
+    "id": 158.0,
+    "author_id": 146.0,
+    "map_id": 82.0,
+    "role": null
+  },
+  {
+    "id": 159.0,
+    "author_id": 148.0,
+    "map_id": 83.0,
+    "role": null
+  },
+  {
+    "id": 160.0,
+    "author_id": 149.0,
+    "map_id": 83.0,
+    "role": null
+  },
+  {
+    "id": 161.0,
+    "author_id": 151.0,
+    "map_id": 83.0,
+    "role": null
+  },
+  {
+    "id": 162.0,
+    "author_id": 150.0,
+    "map_id": 83.0,
+    "role": null
+  },
+  {
+    "id": 163.0,
+    "author_id": 152.0,
+    "map_id": 83.0,
+    "role": null
+  },
+  {
+    "id": 164.0,
+    "author_id": 153.0,
+    "map_id": 83.0,
+    "role": null
+  },
+  {
+    "id": 165.0,
+    "author_id": 154.0,
+    "map_id": 83.0,
+    "role": null
+  },
+  {
+    "id": 166.0,
+    "author_id": 69.0,
+    "map_id": 84.0,
+    "role": null
+  },
+  {
+    "id": 167.0,
+    "author_id": 123.0,
+    "map_id": 84.0,
+    "role": null
+  },
+  {
+    "id": 170.0,
+    "author_id": 156.0,
+    "map_id": 85.0,
+    "role": null
+  },
+  {
+    "id": 171.0,
+    "author_id": 23.0,
+    "map_id": 86.0,
+    "role": null
+  },
+  {
+    "id": 172.0,
+    "author_id": 26.0,
+    "map_id": 86.0,
+    "role": null
+  },
+  {
+    "id": 174.0,
+    "author_id": 158.0,
+    "map_id": 87.0,
+    "role": null
+  },
+  {
+    "id": 175.0,
+    "author_id": 159.0,
+    "map_id": 87.0,
+    "role": null
+  },
+  {
+    "id": 176.0,
+    "author_id": 160.0,
+    "map_id": 88.0,
+    "role": null
+  },
+  {
+    "id": 177.0,
+    "author_id": 161.0,
+    "map_id": 88.0,
+    "role": null
+  },
+  {
+    "id": 178.0,
+    "author_id": 162.0,
+    "map_id": 88.0,
+    "role": null
+  },
+  {
+    "id": 179.0,
+    "author_id": 163.0,
+    "map_id": 89.0,
+    "role": null
+  },
+  {
+    "id": 181.0,
+    "author_id": 164.0,
+    "map_id": 90.0,
+    "role": null
+  },
+  {
+    "id": 182.0,
+    "author_id": 165.0,
+    "map_id": 90.0,
+    "role": null
+  },
+  {
+    "id": 183.0,
+    "author_id": 147.0,
+    "map_id": 91.0,
+    "role": null
+  },
+  {
+    "id": 184.0,
+    "author_id": 6.0,
+    "map_id": 3.0,
+    "role": null
+  },
+  {
+    "id": 185.0,
+    "author_id": 166.0,
+    "map_id": 92.0,
+    "role": null
+  },
+  {
+    "id": 186.0,
+    "author_id": 29.0,
+    "map_id": 93.0,
+    "role": null
+  },
+  {
+    "id": 187.0,
+    "author_id": 168.0,
+    "map_id": 94.0,
+    "role": null
+  },
+  {
+    "id": 188.0,
+    "author_id": 169.0,
+    "map_id": 95.0,
+    "role": null
+  },
+  {
+    "id": 189.0,
+    "author_id": 170.0,
+    "map_id": 96.0,
+    "role": null
+  },
+  {
+    "id": 190.0,
+    "author_id": 171.0,
+    "map_id": 97.0,
+    "role": null
+  },
+  {
+    "id": 193.0,
+    "author_id": 174.0,
+    "map_id": 99.0,
+    "role": null
+  },
+  {
+    "id": 194.0,
+    "author_id": 175.0,
+    "map_id": 99.0,
+    "role": null
+  },
+  {
+    "id": 195.0,
+    "author_id": 176.0,
+    "map_id": 99.0,
+    "role": null
+  },
+  {
+    "id": 196.0,
+    "author_id": 12.0,
+    "map_id": 100.0,
+    "role": null
+  },
+  {
+    "id": 197.0,
+    "author_id": 13.0,
+    "map_id": 100.0,
+    "role": null
+  },
+  {
+    "id": 198.0,
+    "author_id": 14.0,
+    "map_id": 100.0,
+    "role": null
+  },
+  {
+    "id": 199.0,
+    "author_id": 15.0,
+    "map_id": 100.0,
+    "role": null
+  },
+  {
+    "id": 200.0,
+    "author_id": 16.0,
+    "map_id": 100.0,
+    "role": null
+  },
+  {
+    "id": 201.0,
+    "author_id": 60.0,
+    "map_id": 101.0,
+    "role": null
+  },
+  {
+    "id": 202.0,
+    "author_id": 61.0,
+    "map_id": 101.0,
+    "role": null
+  },
+  {
+    "id": 203.0,
+    "author_id": 13.0,
+    "map_id": 102.0,
+    "role": null
+  },
+  {
+    "id": 204.0,
+    "author_id": 58.0,
+    "map_id": 102.0,
+    "role": null
+  },
+  {
+    "id": 205.0,
+    "author_id": 59.0,
+    "map_id": 102.0,
+    "role": null
+  },
+  {
+    "id": 206.0,
+    "author_id": 118.0,
+    "map_id": 103.0,
+    "role": null
+  },
+  {
+    "id": 207.0,
+    "author_id": 13.0,
+    "map_id": 104.0,
+    "role": null
+  },
+  {
+    "id": 208.0,
+    "author_id": 68.0,
+    "map_id": 104.0,
+    "role": null
+  },
+  {
+    "id": 209.0,
+    "author_id": 23.0,
+    "map_id": 105.0,
+    "role": null
+  },
+  {
+    "id": 210.0,
+    "author_id": 13.0,
+    "map_id": 105.0,
+    "role": null
+  },
+  {
+    "id": 211.0,
+    "author_id": 74.0,
+    "map_id": 106.0,
+    "role": null
+  },
+  {
+    "id": 213.0,
+    "author_id": 57.0,
+    "map_id": 108.0,
+    "role": null
+  },
+  {
+    "id": 214.0,
+    "author_id": 56.0,
+    "map_id": 109.0,
+    "role": null
+  },
+  {
+    "id": 215.0,
+    "author_id": 13.0,
+    "map_id": 109.0,
+    "role": null
+  },
+  {
+    "id": 155.0,
+    "author_id": 56.0,
+    "map_id": 81.0,
+    "role": "Author"
+  },
+  {
+    "id": 156.0,
+    "author_id": 13.0,
+    "map_id": 81.0,
+    "role": "Author"
+  },
+  {
+    "id": 157.0,
+    "author_id": 145.0,
+    "map_id": 81.0,
+    "role": "Author"
+  },
+  {
+    "id": 125.0,
+    "author_id": 90.0,
+    "map_id": 65.0,
+    "role": "Author"
+  },
+  {
+    "id": 216.0,
+    "author_id": 45.0,
+    "map_id": 75.0,
+    "role": null
+  },
+  {
+    "id": 217.0,
+    "author_id": 46.0,
+    "map_id": 75.0,
+    "role": null
+  },
+  {
+    "id": 112.0,
+    "author_id": 69.0,
+    "map_id": 60.0,
+    "role": "Data Mining and Visualization"
+  },
+  {
+    "id": 113.0,
+    "author_id": 80.0,
+    "map_id": 60.0,
+    "role": "Data Mining and Visualization"
+  },
+  {
+    "id": 114.0,
+    "author_id": 81.0,
+    "map_id": 60.0,
+    "role": "Data Preparation"
+  },
+  {
+    "id": 218.0,
+    "author_id": 34.0,
+    "map_id": 60.0,
+    "role": "Graphic Design"
+  },
+  {
+    "id": 219.0,
+    "author_id": 13.0,
+    "map_id": 60.0,
+    "role": "Concept"
+  },
+  {
+    "id": 220.0,
+    "author_id": 178.0,
+    "map_id": 27.0,
+    "role": null
+  },
+  {
+    "id": 221.0,
+    "author_id": 69.0,
+    "map_id": 98.0,
+    "role": null
+  },
+  {
+    "id": 222.0,
+    "author_id": 70.0,
+    "map_id": 98.0,
+    "role": null
+  },
+  {
+    "id": 223.0,
+    "author_id": 179.0,
+    "map_id": 110.0,
+    "role": "Author"
+  },
+  {
+    "id": 224.0,
+    "author_id": 80.0,
+    "map_id": 110.0,
+    "role": "Author"
+  },
+  {
+    "id": 225.0,
+    "author_id": 34.0,
+    "map_id": 110.0,
+    "role": "Graphic Design"
+  },
+  {
+    "id": 226.0,
+    "author_id": 13.0,
+    "map_id": 110.0,
+    "role": "Author"
+  },
+  {
+    "id": 227.0,
+    "author_id": 180.0,
+    "map_id": 111.0,
+    "role": "Author"
+  },
+  {
+    "id": 228.0,
+    "author_id": 80.0,
+    "map_id": 111.0,
+    "role": "Author"
+  },
+  {
+    "id": 229.0,
+    "author_id": 34.0,
+    "map_id": 111.0,
+    "role": "Graphic Design"
+  },
+  {
+    "id": 230.0,
+    "author_id": 13.0,
+    "map_id": 111.0,
+    "role": "Author"
+  },
+  {
+    "id": 231.0,
+    "author_id": 69.0,
+    "map_id": 112.0,
+    "role": null
+  },
+  {
+    "id": 232.0,
+    "author_id": 56.0,
+    "map_id": 112.0,
+    "role": null
+  },
+  {
+    "id": 233.0,
+    "author_id": 34.0,
+    "map_id": 112.0,
+    "role": null
+  },
+  {
+    "id": 234.0,
+    "author_id": 13.0,
+    "map_id": 112.0,
+    "role": null
+  },
+  {
+    "id": 235.0,
+    "author_id": 182.0,
+    "map_id": 113.0,
+    "role": null
+  },
+  {
+    "id": 236.0,
+    "author_id": 183.0,
+    "map_id": 113.0,
+    "role": null
+  },
+  {
+    "id": 237.0,
+    "author_id": 184.0,
+    "map_id": 113.0,
+    "role": null
+  },
+  {
+    "id": 242.0,
+    "author_id": 187.0,
+    "map_id": 114.0,
+    "role": null
+  },
+  {
+    "id": 243.0,
+    "author_id": 188.0,
+    "map_id": 114.0,
+    "role": null
+  },
+  {
+    "id": 244.0,
+    "author_id": 189.0,
+    "map_id": 115.0,
+    "role": null
+  },
+  {
+    "id": 245.0,
+    "author_id": 190.0,
+    "map_id": 115.0,
+    "role": null
+  },
+  {
+    "id": 246.0,
+    "author_id": 191.0,
+    "map_id": 116.0,
+    "role": null
+  },
+  {
+    "id": 247.0,
+    "author_id": 192.0,
+    "map_id": 116.0,
+    "role": null
+  },
+  {
+    "id": 248.0,
+    "author_id": 193.0,
+    "map_id": 116.0,
+    "role": null
+  },
+  {
+    "id": 249.0,
+    "author_id": 194.0,
+    "map_id": 117.0,
+    "role": null
+  },
+  {
+    "id": 250.0,
+    "author_id": 195.0,
+    "map_id": 117.0,
+    "role": null
+  },
+  {
+    "id": 251.0,
+    "author_id": 196.0,
+    "map_id": 117.0,
+    "role": null
+  },
+  {
+    "id": 252.0,
+    "author_id": 197.0,
+    "map_id": 117.0,
+    "role": null
+  },
+  {
+    "id": 253.0,
+    "author_id": 198.0,
+    "map_id": 117.0,
+    "role": null
+  },
+  {
+    "id": 256.0,
+    "author_id": 201.0,
+    "map_id": 118.0,
+    "role": null
+  },
+  {
+    "id": 257.0,
+    "author_id": 202.0,
+    "map_id": 118.0,
+    "role": null
+  },
+  {
+    "id": 258.0,
+    "author_id": 203.0,
+    "map_id": 118.0,
+    "role": null
+  },
+  {
+    "id": 259.0,
+    "author_id": 204.0,
+    "map_id": 118.0,
+    "role": null
+  },
+  {
+    "id": 260.0,
+    "author_id": 205.0,
+    "map_id": 119.0,
+    "role": null
+  },
+  {
+    "id": 261.0,
+    "author_id": 206.0,
+    "map_id": 119.0,
+    "role": null
+  },
+  {
+    "id": 262.0,
+    "author_id": 207.0,
+    "map_id": 120.0,
+    "role": null
+  },
+  {
+    "id": 263.0,
+    "author_id": 208.0,
+    "map_id": 121.0,
+    "role": null
+  },
+  {
+    "id": 264.0,
+    "author_id": 209.0,
+    "map_id": 122.0,
+    "role": null
+  },
+  {
+    "id": 265.0,
+    "author_id": 210.0,
+    "map_id": 122.0,
+    "role": null
+  },
+  {
+    "id": 93.0,
+    "author_id": 211.0,
+    "map_id": 52.0,
+    "role": null
+  },
+  {
+    "id": 103.0,
+    "author_id": 206.0,
+    "map_id": 55.0,
+    "role": null
+  },
+  {
+    "id": 270.0,
+    "author_id": 216.0,
+    "map_id": 124.0,
+    "role": "Creator"
+  },
+  {
+    "id": 271.0,
+    "author_id": 217.0,
+    "map_id": 125.0,
+    "role": null
+  },
+  {
+    "id": 272.0,
+    "author_id": 218.0,
+    "map_id": 125.0,
+    "role": null
+  },
+  {
+    "id": 273.0,
+    "author_id": 220.0,
+    "map_id": 126.0,
+    "role": null
+  },
+  {
+    "id": 275.0,
+    "author_id": 222.0,
+    "map_id": 127.0,
+    "role": null
+  },
+  {
+    "id": 276.0,
+    "author_id": 223.0,
+    "map_id": 127.0,
+    "role": null
+  },
+  {
+    "id": 277.0,
+    "author_id": 224.0,
+    "map_id": 127.0,
+    "role": null
+  },
+  {
+    "id": 278.0,
+    "author_id": 225.0,
+    "map_id": 128.0,
+    "role": null
+  },
+  {
+    "id": 279.0,
+    "author_id": 226.0,
+    "map_id": 129.0,
+    "role": null
+  },
+  {
+    "id": 280.0,
+    "author_id": 227.0,
+    "map_id": 130.0,
+    "role": null
+  },
+  {
+    "id": 281.0,
+    "author_id": 228.0,
+    "map_id": 130.0,
+    "role": null
+  },
+  {
+    "id": 282.0,
+    "author_id": 229.0,
+    "map_id": 131.0,
+    "role": null
+  },
+  {
+    "id": 283.0,
+    "author_id": 230.0,
+    "map_id": 132.0,
+    "role": null
+  },
+  {
+    "id": 284.0,
+    "author_id": 231.0,
+    "map_id": 11.0,
+    "role": null
+  },
+  {
+    "id": 51.0,
+    "author_id": 9.0,
+    "map_id": 37.0,
+    "role": null
+  },
+  {
+    "id": 285.0,
+    "author_id": 232.0,
+    "map_id": 37.0,
+    "role": null
+  },
+  {
+    "id": 286.0,
+    "author_id": 233.0,
+    "map_id": 42.0,
+    "role": null
+  },
+  {
+    "id": 289.0,
+    "author_id": 237.0,
+    "map_id": 123.0,
+    "role": null
+  },
+  {
+    "id": 274.0,
+    "author_id": 240.0,
+    "map_id": 127.0,
+    "role": null
+  },
+  {
+    "id": 293.0,
+    "author_id": 23.0,
+    "map_id": 134.0,
+    "role": null
+  },
+  {
+    "id": 294.0,
+    "author_id": 26.0,
+    "map_id": 134.0,
+    "role": null
+  },
+  {
+    "id": 295.0,
+    "author_id": 241.0,
+    "map_id": 5.0,
+    "role": null
+  },
+  {
+    "id": 296.0,
+    "author_id": 242.0,
+    "map_id": 5.0,
+    "role": null
+  },
+  {
+    "id": 297.0,
+    "author_id": 243.0,
+    "map_id": 87.0,
+    "role": null
+  },
+  {
+    "id": 298.0,
+    "author_id": 244.0,
+    "map_id": 84.0,
+    "role": null
+  },
+  {
+    "id": 299.0,
+    "author_id": 245.0,
+    "map_id": 113.0,
+    "role": null
+  },
+  {
+    "id": 300.0,
+    "author_id": 246.0,
+    "map_id": 113.0,
+    "role": null
+  },
+  {
+    "id": 301.0,
+    "author_id": 247.0,
+    "map_id": 84.0,
+    "role": null
+  },
+  {
+    "id": 302.0,
+    "author_id": 116.0,
+    "map_id": 135.0,
+    "role": null
+  },
+  {
+    "id": 303.0,
+    "author_id": 116.0,
+    "map_id": 136.0,
+    "role": null
+  },
+  {
+    "id": 304.0,
+    "author_id": 116.0,
+    "map_id": 137.0,
+    "role": null
+  },
+  {
+    "id": 305.0,
+    "author_id": 248.0,
+    "map_id": 29.0,
+    "role": null
+  },
+  {
+    "id": 306.0,
+    "author_id": 249.0,
+    "map_id": 138.0,
+    "role": null
+  },
+  {
+    "id": 308.0,
+    "author_id": 251.0,
+    "map_id": 140.0,
+    "role": null
+  },
+  {
+    "id": 309.0,
+    "author_id": 252.0,
+    "map_id": 140.0,
+    "role": null
+  },
+  {
+    "id": 310.0,
+    "author_id": 253.0,
+    "map_id": 141.0,
+    "role": null
+  },
+  {
+    "id": 311.0,
+    "author_id": 254.0,
+    "map_id": 141.0,
+    "role": null
+  },
+  {
+    "id": 313.0,
+    "author_id": 256.0,
+    "map_id": 143.0,
+    "role": null
+  },
+  {
+    "id": 314.0,
+    "author_id": 257.0,
+    "map_id": 143.0,
+    "role": null
+  },
+  {
+    "id": 315.0,
+    "author_id": 258.0,
+    "map_id": 143.0,
+    "role": null
+  },
+  {
+    "id": 316.0,
+    "author_id": 259.0,
+    "map_id": 144.0,
+    "role": null
+  },
+  {
+    "id": 318.0,
+    "author_id": 261.0,
+    "map_id": 145.0,
+    "role": null
+  },
+  {
+    "id": 319.0,
+    "author_id": 262.0,
+    "map_id": 145.0,
+    "role": null
+  },
+  {
+    "id": 320.0,
+    "author_id": 263.0,
+    "map_id": 145.0,
+    "role": null
+  },
+  {
+    "id": 321.0,
+    "author_id": 264.0,
+    "map_id": 145.0,
+    "role": null
+  },
+  {
+    "id": 322.0,
+    "author_id": 265.0,
+    "map_id": 146.0,
+    "role": null
+  },
+  {
+    "id": 323.0,
+    "author_id": 266.0,
+    "map_id": 147.0,
+    "role": null
+  },
+  {
+    "id": 324.0,
+    "author_id": 267.0,
+    "map_id": 147.0,
+    "role": null
+  },
+  {
+    "id": 326.0,
+    "author_id": 268.0,
+    "map_id": 149.0,
+    "role": null
+  },
+  {
+    "id": 327.0,
+    "author_id": 294.0,
+    "map_id": 150.0,
+    "role": null
+  },
+  {
+    "id": 328.0,
+    "author_id": 279.0,
+    "map_id": 150.0,
+    "role": null
+  },
+  {
+    "id": 329.0,
+    "author_id": 295.0,
+    "map_id": 150.0,
+    "role": null
+  },
+  {
+    "id": 330.0,
+    "author_id": 278.0,
+    "map_id": 150.0,
+    "role": null
+  },
+  {
+    "id": 331.0,
+    "author_id": 282.0,
+    "map_id": 151.0,
+    "role": null
+  },
+  {
+    "id": 332.0,
+    "author_id": 275.0,
+    "map_id": 152.0,
+    "role": null
+  },
+  {
+    "id": 333.0,
+    "author_id": 285.0,
+    "map_id": 152.0,
+    "role": null
+  },
+  {
+    "id": 334.0,
+    "author_id": 280.0,
+    "map_id": 152.0,
+    "role": null
+  },
+  {
+    "id": 335.0,
+    "author_id": 272.0,
+    "map_id": 152.0,
+    "role": null
+  },
+  {
+    "id": 336.0,
+    "author_id": 276.0,
+    "map_id": 152.0,
+    "role": null
+  },
+  {
+    "id": 337.0,
+    "author_id": 270.0,
+    "map_id": 152.0,
+    "role": null
+  },
+  {
+    "id": 338.0,
+    "author_id": 269.0,
+    "map_id": 153.0,
+    "role": null
+  },
+  {
+    "id": 339.0,
+    "author_id": 292.0,
+    "map_id": 153.0,
+    "role": null
+  },
+  {
+    "id": 340.0,
+    "author_id": 293.0,
+    "map_id": 153.0,
+    "role": null
+  },
+  {
+    "id": 341.0,
+    "author_id": 283.0,
+    "map_id": 153.0,
+    "role": null
+  },
+  {
+    "id": 342.0,
+    "author_id": 288.0,
+    "map_id": 153.0,
+    "role": null
+  },
+  {
+    "id": 343.0,
+    "author_id": 273.0,
+    "map_id": 154.0,
+    "role": null
+  },
+  {
+    "id": 344.0,
+    "author_id": 287.0,
+    "map_id": 155.0,
+    "role": null
+  },
+  {
+    "id": 345.0,
+    "author_id": 286.0,
+    "map_id": 155.0,
+    "role": null
+  },
+  {
+    "id": 346.0,
+    "author_id": 277.0,
+    "map_id": 155.0,
+    "role": null
+  },
+  {
+    "id": 347.0,
+    "author_id": 275.0,
+    "map_id": 156.0,
+    "role": null
+  },
+  {
+    "id": 348.0,
+    "author_id": 285.0,
+    "map_id": 156.0,
+    "role": null
+  },
+  {
+    "id": 349.0,
+    "author_id": 280.0,
+    "map_id": 156.0,
+    "role": null
+  },
+  {
+    "id": 350.0,
+    "author_id": 272.0,
+    "map_id": 156.0,
+    "role": null
+  },
+  {
+    "id": 351.0,
+    "author_id": 270.0,
+    "map_id": 156.0,
+    "role": null
+  },
+  {
+    "id": 352.0,
+    "author_id": 271.0,
+    "map_id": 156.0,
+    "role": null
+  },
+  {
+    "id": 353.0,
+    "author_id": 289.0,
+    "map_id": 157.0,
+    "role": null
+  },
+  {
+    "id": 354.0,
+    "author_id": 284.0,
+    "map_id": 157.0,
+    "role": null
+  },
+  {
+    "id": 355.0,
+    "author_id": 290.0,
+    "map_id": 157.0,
+    "role": null
+  },
+  {
+    "id": 356.0,
+    "author_id": 291.0,
+    "map_id": 157.0,
+    "role": null
+  },
+  {
+    "id": 357.0,
+    "author_id": 23.0,
+    "map_id": 158.0,
+    "role": null
+  },
+  {
+    "id": 358.0,
+    "author_id": 26.0,
+    "map_id": 158.0,
+    "role": null
+  },
+  {
+    "id": 359.0,
+    "author_id": 125.0,
+    "map_id": 158.0,
+    "role": null
+  },
+  {
+    "id": 360.0,
+    "author_id": 274.0,
+    "map_id": 159.0,
+    "role": null
+  },
+  {
+    "id": 361.0,
+    "author_id": 281.0,
+    "map_id": 159.0,
+    "role": null
+  },
+  {
+    "id": 362.0,
+    "author_id": 296.0,
+    "map_id": 171.0,
+    "role": null
+  },
+  {
+    "id": 363.0,
+    "author_id": 297.0,
+    "map_id": 172.0,
+    "role": null
+  },
+  {
+    "id": 364.0,
+    "author_id": 298.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 365.0,
+    "author_id": 299.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 366.0,
+    "author_id": 300.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 367.0,
+    "author_id": 301.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 368.0,
+    "author_id": 302.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 369.0,
+    "author_id": 303.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 370.0,
+    "author_id": 304.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 371.0,
+    "author_id": 305.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 372.0,
+    "author_id": 306.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 373.0,
+    "author_id": 307.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 374.0,
+    "author_id": 308.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 375.0,
+    "author_id": 309.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 376.0,
+    "author_id": 310.0,
+    "map_id": 173.0,
+    "role": null
+  },
+  {
+    "id": 377.0,
+    "author_id": 311.0,
+    "map_id": 174.0,
+    "role": null
+  },
+  {
+    "id": 378.0,
+    "author_id": 312.0,
+    "map_id": 174.0,
+    "role": null
+  },
+  {
+    "id": 379.0,
+    "author_id": 268.0,
+    "map_id": 176.0,
+    "role": null
+  },
+  {
+    "id": 380.0,
+    "author_id": 313.0,
+    "map_id": 177.0,
+    "role": null
+  },
+  {
+    "id": 381.0,
+    "author_id": 314.0,
+    "map_id": 177.0,
+    "role": null
+  },
+  {
+    "id": 382.0,
+    "author_id": 315.0,
+    "map_id": 177.0,
+    "role": null
+  },
+  {
+    "id": 383.0,
+    "author_id": 316.0,
+    "map_id": 177.0,
+    "role": null
+  },
+  {
+    "id": 384.0,
+    "author_id": 196.0,
+    "map_id": 178.0,
+    "role": null
+  },
+  {
+    "id": 385.0,
+    "author_id": 317.0,
+    "map_id": 178.0,
+    "role": null
+  },
+  {
+    "id": 386.0,
+    "author_id": 318.0,
+    "map_id": 178.0,
+    "role": null
+  },
+  {
+    "id": 387.0,
+    "author_id": 319.0,
+    "map_id": 179.0,
+    "role": null
+  },
+  {
+    "id": 388.0,
+    "author_id": 320.0,
+    "map_id": 179.0,
+    "role": null
+  },
+  {
+    "id": 389.0,
+    "author_id": 321.0,
+    "map_id": 179.0,
+    "role": null
+  },
+  {
+    "id": 390.0,
+    "author_id": 322.0,
+    "map_id": 179.0,
+    "role": null
+  },
+  {
+    "id": 391.0,
+    "author_id": 323.0,
+    "map_id": 179.0,
+    "role": null
+  },
+  {
+    "id": 392.0,
+    "author_id": 26.0,
+    "map_id": 180.0,
+    "role": null
+  },
+  {
+    "id": 393.0,
+    "author_id": 23.0,
+    "map_id": 180.0,
+    "role": null
+  },
+  {
+    "id": 394.0,
+    "author_id": 324.0,
+    "map_id": 181.0,
+    "role": null
+  },
+  {
+    "id": 395.0,
+    "author_id": 325.0,
+    "map_id": 181.0,
+    "role": null
+  },
+  {
+    "id": 396.0,
+    "author_id": 326.0,
+    "map_id": 181.0,
+    "role": null
+  },
+  {
+    "id": 254.0,
+    "author_id": 342.0,
+    "map_id": 118.0,
+    "role": null
+  },
+  {
+    "id": 397.0,
+    "author_id": 327.0,
+    "map_id": 183.0,
+    "role": null
+  },
+  {
+    "id": 398.0,
+    "author_id": 328.0,
+    "map_id": 183.0,
+    "role": null
+  },
+  {
+    "id": 399.0,
+    "author_id": 329.0,
+    "map_id": 183.0,
+    "role": null
+  },
+  {
+    "id": 400.0,
+    "author_id": 330.0,
+    "map_id": 183.0,
+    "role": null
+  },
+  {
+    "id": 401.0,
+    "author_id": 331.0,
+    "map_id": 183.0,
+    "role": null
+  },
+  {
+    "id": 402.0,
+    "author_id": 332.0,
+    "map_id": 183.0,
+    "role": null
+  },
+  {
+    "id": 403.0,
+    "author_id": 13.0,
+    "map_id": 183.0,
+    "role": null
+  },
+  {
+    "id": 404.0,
+    "author_id": 333.0,
+    "map_id": 183.0,
+    "role": null
+  },
+  {
+    "id": 405.0,
+    "author_id": 290.0,
+    "map_id": 183.0,
+    "role": null
+  },
+  {
+    "id": 406.0,
+    "author_id": 335.0,
+    "map_id": 183.0,
+    "role": null
+  },
+  {
+    "id": 410.0,
+    "author_id": 339.0,
+    "map_id": 182.0,
+    "role": null
+  },
+  {
+    "id": 413.0,
+    "author_id": 337.0,
+    "map_id": 186.0,
+    "role": null
+  },
+  {
+    "id": 407.0,
+    "author_id": 340.0,
+    "map_id": 184.0,
+    "role": null
+  },
+  {
+    "id": 412.0,
+    "author_id": 338.0,
+    "map_id": 186.0,
+    "role": null
+  },
+  {
+    "id": 111.0,
+    "author_id": 206.0,
+    "map_id": 59.0,
+    "role": null
+  },
+  {
+    "id": 414.0,
+    "author_id": 23.0,
+    "map_id": 55.0,
+    "role": null
+  },
+  {
+    "id": 415.0,
+    "author_id": 341.0,
+    "map_id": 74.0,
+    "role": null
+  },
+  {
+    "id": 88.0,
+    "author_id": 206.0,
+    "map_id": 50.0,
+    "role": null
+  },
+  {
+    "id": 416.0,
+    "author_id": 343.0,
+    "map_id": 118.0,
+    "role": null
+  },
+  {
+    "id": 417.0,
+    "author_id": 344.0,
+    "map_id": 142.0,
+    "role": null
+  },
+  {
+    "id": 418.0,
+    "author_id": 345.0,
+    "map_id": 142.0,
+    "role": null
+  },
+  {
+    "id": 419.0,
+    "author_id": 346.0,
+    "map_id": 189.0,
+    "role": null
+  },
+  {
+    "id": 420.0,
+    "author_id": 348.0,
+    "map_id": 189.0,
+    "role": null
+  },
+  {
+    "id": 421.0,
+    "author_id": 349.0,
+    "map_id": 189.0,
+    "role": null
+  },
+  {
+    "id": 422.0,
+    "author_id": 196.0,
+    "map_id": 191.0,
+    "role": null
+  },
+  {
+    "id": 423.0,
+    "author_id": 350.0,
+    "map_id": 191.0,
+    "role": null
+  },
+  {
+    "id": 424.0,
+    "author_id": 351.0,
+    "map_id": 191.0,
+    "role": null
+  },
+  {
+    "id": 425.0,
+    "author_id": 352.0,
+    "map_id": 190.0,
+    "role": null
+  },
+  {
+    "id": 426.0,
+    "author_id": 353.0,
+    "map_id": 192.0,
+    "role": null
+  },
+  {
+    "id": 427.0,
+    "author_id": 354.0,
+    "map_id": 191.0,
+    "role": null
+  },
+  {
+    "id": 428.0,
+    "author_id": 355.0,
+    "map_id": 190.0,
+    "role": null
+  },
+  {
+    "id": 429.0,
+    "author_id": 210.0,
+    "map_id": 190.0,
+    "role": null
+  },
+  {
+    "id": 434.0,
+    "author_id": 358.0,
+    "map_id": 208.0,
+    "role": null
+  },
+  {
+    "id": 435.0,
+    "author_id": 49.0,
+    "map_id": 208.0,
+    "role": null
+  },
+  {
+    "id": 436.0,
+    "author_id": 359.0,
+    "map_id": 209.0,
+    "role": null
+  },
+  {
+    "id": 437.0,
+    "author_id": 360.0,
+    "map_id": 210.0,
+    "role": null
+  },
+  {
+    "id": 438.0,
+    "author_id": 358.0,
+    "map_id": 211.0,
+    "role": null
+  },
+  {
+    "id": 439.0,
+    "author_id": 357.0,
+    "map_id": 211.0,
+    "role": null
+  },
+  {
+    "id": 440.0,
+    "author_id": 362.0,
+    "map_id": 210.0,
+    "role": null
+  },
+  {
+    "id": 441.0,
+    "author_id": 363.0,
+    "map_id": 211.0,
+    "role": null
+  },
+  {
+    "id": 443.0,
+    "author_id": 364.0,
+    "map_id": 221.0,
+    "role": null
+  },
+  {
+    "id": 444.0,
+    "author_id": 365.0,
+    "map_id": 221.0,
+    "role": null
+  },
+  {
+    "id": 445.0,
+    "author_id": 366.0,
+    "map_id": 222.0,
+    "role": null
+  },
+  {
+    "id": 446.0,
+    "author_id": 367.0,
+    "map_id": 222.0,
+    "role": null
+  },
+  {
+    "id": 451.0,
+    "author_id": 372.0,
+    "map_id": 224.0,
+    "role": null
+  },
+  {
+    "id": 452.0,
+    "author_id": 373.0,
+    "map_id": 224.0,
+    "role": null
+  },
+  {
+    "id": 453.0,
+    "author_id": 374.0,
+    "map_id": 224.0,
+    "role": null
+  },
+  {
+    "id": 454.0,
+    "author_id": 375.0,
+    "map_id": 224.0,
+    "role": null
+  },
+  {
+    "id": 455.0,
+    "author_id": 376.0,
+    "map_id": 224.0,
+    "role": null
+  },
+  {
+    "id": 456.0,
+    "author_id": 377.0,
+    "map_id": 224.0,
+    "role": null
+  },
+  {
+    "id": 457.0,
+    "author_id": 378.0,
+    "map_id": 225.0,
+    "role": null
+  },
+  {
+    "id": 458.0,
+    "author_id": 379.0,
+    "map_id": 225.0,
+    "role": null
+  },
+  {
+    "id": 459.0,
+    "author_id": 380.0,
+    "map_id": 225.0,
+    "role": null
+  },
+  {
+    "id": 460.0,
+    "author_id": 381.0,
+    "map_id": 225.0,
+    "role": null
+  },
+  {
+    "id": 317.0,
+    "author_id": 382.0,
+    "map_id": 144.0,
+    "role": null
+  },
+  {
+    "id": 461.0,
+    "author_id": 260.0,
+    "map_id": 144.0,
+    "role": null
+  },
+  {
+    "id": 462.0,
+    "author_id": 383.0,
+    "map_id": 233.0,
+    "role": null
+  },
+  {
+    "id": 463.0,
+    "author_id": 384.0,
+    "map_id": 233.0,
+    "role": null
+  },
+  {
+    "id": 466.0,
+    "author_id": 385.0,
+    "map_id": 235.0,
+    "role": null
+  },
+  {
+    "id": 467.0,
+    "author_id": 387.0,
+    "map_id": 236.0,
+    "role": null
+  },
+  {
+    "id": 468.0,
+    "author_id": 386.0,
+    "map_id": 236.0,
+    "role": null
+  },
+  {
+    "id": 470.0,
+    "author_id": 365.0,
+    "map_id": 234.0,
+    "role": null
+  },
+  {
+    "id": 469.0,
+    "author_id": 388.0,
+    "map_id": 234.0,
+    "role": null
+  },
+  {
+    "id": 471.0,
+    "author_id": 364.0,
+    "map_id": 234.0,
+    "role": null
+  },
+  {
+    "id": 472.0,
+    "author_id": 389.0,
+    "map_id": 241.0,
+    "role": null
+  },
+  {
+    "id": 473.0,
+    "author_id": 390.0,
+    "map_id": 242.0,
+    "role": null
+  },
+  {
+    "id": 474.0,
+    "author_id": 391.0,
+    "map_id": 242.0,
+    "role": null
+  },
+  {
+    "id": 475.0,
+    "author_id": 392.0,
+    "map_id": 242.0,
+    "role": null
+  },
+  {
+    "id": 476.0,
+    "author_id": 393.0,
+    "map_id": 242.0,
+    "role": null
+  },
+  {
+    "id": 477.0,
+    "author_id": 394.0,
+    "map_id": 243.0,
+    "role": null
+  },
+  {
+    "id": 478.0,
+    "author_id": 395.0,
+    "map_id": 243.0,
+    "role": null
+  },
+  {
+    "id": 479.0,
+    "author_id": 396.0,
+    "map_id": 243.0,
+    "role": null
+  },
+  {
+    "id": 480.0,
+    "author_id": 397.0,
+    "map_id": 244.0,
+    "role": null
+  },
+  {
+    "id": 481.0,
+    "author_id": 398.0,
+    "map_id": 244.0,
+    "role": null
+  },
+  {
+    "id": 482.0,
+    "author_id": 399.0,
+    "map_id": 244.0,
+    "role": null
+  },
+  {
+    "id": 483.0,
+    "author_id": 400.0,
+    "map_id": 244.0,
+    "role": null
+  },
+  {
+    "id": 484.0,
+    "author_id": 401.0,
+    "map_id": 244.0,
+    "role": null
+  },
+  {
+    "id": 485.0,
+    "author_id": 402.0,
+    "map_id": 244.0,
+    "role": null
+  }
+]

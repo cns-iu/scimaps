@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MarkdownModule } from 'ngx-markdown';
 
 import { MapsRoutingModule } from './maps-routing.module';
 import { MapsComponent } from './maps.component';
@@ -15,6 +16,7 @@ import { CarouselModule } from '../../shared/components/carousel/carousel.module
     CommonModule,
     MapsRoutingModule,
     DiscoverListingModule,
+    MarkdownModule,
     MatIconModule,
     CarouselModule,
     ItemDrawerModule

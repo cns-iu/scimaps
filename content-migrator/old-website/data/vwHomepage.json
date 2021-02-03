@@ -1,0 +1,189 @@
+[
+  {
+    "id": 2.0,
+    "content_type": "maps",
+    "caption": "Zoom in to all 100 maps that comprise the <em>Places & Spaces</em> exhibit to see them in stunning detail",
+    "link": "/iteration/",
+    "image": "9th_thumb.jpg",
+    "image_alt": "see the maps",
+    "display_order": null,
+    "date_added": "2014-09-03",
+    "panel": false
+  },
+  {
+    "id": 3.0,
+    "content_type": "purchase",
+    "caption": "Have a favorite map? Have it printed and framed to hang in your home or office!",
+    "link": "/mapstore",
+    "image": "shelley_thumb.jpg",
+    "image_alt": "Purchase maps",
+    "display_order": null,
+    "date_added": "2014-09-03",
+    "panel": false
+  },
+  {
+    "id": 6.0,
+    "content_type": "hosting",
+    "caption": "Put your institution on the map by hosting the exhibit at your university, museum, or library",
+    "link": "hosting.html",
+    "image": "host_thumb.jpg",
+    "image_alt": "hosting",
+    "display_order": null,
+    "date_added": "2014-09-03",
+    "panel": false
+  },
+  {
+    "id": 5.0,
+    "content_type": "mapmakers",
+    "caption": "Over the years, the exhibit has employed over 240 mapmakers from around the world",
+    "link": "mapmakers.html",
+    "image": "mapmaker_thumb.jpg",
+    "image_alt": "Map maker expert",
+    "display_order": null,
+    "date_added": "2014-09-03",
+    "panel": false
+  },
+  {
+    "id": 4.0,
+    "content_type": "venues",
+    "caption": "Browse photos of Places & Spaces exhibits from around the world and see a full list of venues",
+    "link": "exhibitions.html",
+    "image": "venues_thumb.jpg",
+    "image_alt": "Exhibition venues",
+    "display_order": null,
+    "date_added": "2014-09-03",
+    "panel": false
+  },
+  {
+    "id": 1.0,
+    "content_type": "news",
+    "caption": "If you're new to science mapping or data visualization, here's an overview",
+    "link": "what_is_a_science_map.html",
+    "image": "whatis_thumb.jpg",
+    "image_alt": "What is science map",
+    "display_order": null,
+    "date_added": "2014-09-03",
+    "panel": false
+  },
+  {
+    "id": 20.0,
+    "content_type": "maps",
+    "caption": "Immerse yourself in a network of 24,000 galaxies",
+    "link": "http://scimaps.org/mapdetail/the_cosmic_web_208",
+    "image": "CosmicWeb_banner.jpg",
+    "image_alt": "Cosmic Web",
+    "display_order": 5.0,
+    "date_added": "2018-01-19",
+    "panel": true
+  },
+  {
+    "id": 9.0,
+    "content_type": "news",
+    "caption": "Meet Ingo Günther, the artist behind the <em>WorldProcessor</em> Globes, and other mapmakers",
+    "link": "mapmakers.html",
+    "image": "ingo_banner.jpg",
+    "image_alt": "Ingo G&#252;nther and other mapmakers",
+    "display_order": 3.0,
+    "date_added": "2014-09-03",
+    "panel": true
+  },
+  {
+    "id": 21.0,
+    "content_type": "maps",
+    "caption": "The Appalachian Overdose Mapping Tool ",
+    "link": "http://scimaps.org/mapdetail/the_appalachian_over_225",
+    "image": "opiod_banner.png",
+    "image_alt": "The Appalachian Overdose Mapping Tool ",
+    "display_order": 4.0,
+    "date_added": "2019-01-08",
+    "panel": true
+  },
+  {
+    "id": 23.0,
+    "content_type": "maps",
+    "caption": "Investigate the migration crisis",
+    "link": "http://refugeeflow.world/route/EasternMediterranean",
+    "image": "IT_15_refugee-flow.png",
+    "image_alt": "Macroscope: Refugee Flow",
+    "display_order": 2.0,
+    "date_added": "2019-10-18",
+    "panel": true
+  },
+  {
+    "id": 18.0,
+    "content_type": "news",
+    "caption": "New macroscopes on display at Virginia Tech this fall",
+    "link": "http://scimaps.org/virginia-tech",
+    "image": "virginia-tech_banner.jpg",
+    "image_alt": "The exhibit to open at Vanderbilt University",
+    "display_order": null,
+    "date_added": "2016-01-14",
+    "panel": false
+  },
+  {
+    "id": 15.0,
+    "content_type": "news",
+    "caption": "Börner's <em>Atlas of Knowledge</em> is now available for purchase",
+    "link": "http://scimaps.org/atlas2",
+    "image": "atlas2_banner_scimaps.jpg",
+    "image_alt": "B&#246;rner's Atlas of Knowledge is now available for purchase",
+    "display_order": 3.0,
+    "date_added": "2015-03-13",
+    "panel": false
+  },
+  {
+    "id": 8.0,
+    "content_type": "news",
+    "caption": "Have you ever wondered what a map of the Internet would look like?",
+    "link": "/mapdetail/map_of_the_internet_172",
+    "image": "MapOfTheInternet_banner.jpg",
+    "image_alt": "Mapping Internet Topics",
+    "display_order": 6.0,
+    "date_added": "2014-08-22",
+    "panel": false
+  },
+  {
+    "id": 12.0,
+    "content_type": "news",
+    "caption": "Meet the international team of reviewers that help select the maps that make up the exhibit",
+    "link": "advisory_board.html",
+    "image": "adboard_banner.jpg",
+    "image_alt": "Meet the international team of reviewers that help select the maps that make up the exhibit",
+    "display_order": 10.0,
+    "date_added": "2014-09-03",
+    "panel": false
+  },
+  {
+    "id": 10.0,
+    "content_type": "news",
+    "caption": "So...<br/>What IS a map of science anyway?",
+    "link": "what_is_a_science_map.html",
+    "image": "gorilla_banner.jpg",
+    "image_alt": "What is science map",
+    "display_order": 15.0,
+    "date_added": "2014-08-22",
+    "panel": false
+  },
+  {
+    "id": 11.0,
+    "content_type": "news",
+    "caption": "Choose your favorite map to be framed and sent right to your home or office!",
+    "link": "store.html",
+    "image": "purchasemap_banner.jpg",
+    "image_alt": "Purchase a map",
+    "display_order": 3.0,
+    "date_added": "2014-08-22",
+    "panel": true
+  },
+  {
+    "id": 24.0,
+    "content_type": "maps",
+    "caption": "Notable COVID-19 Visualizations",
+    "link": "http://scimaps.org/covid19.html",
+    "image": "ImpactOfAirTravel_banner.jpg",
+    "image_alt": "Image of Macroscope on Air Travel and Spread of Infectious Disease",
+    "display_order": 1.0,
+    "date_added": "2020-05-04",
+    "panel": true
+  }
+]

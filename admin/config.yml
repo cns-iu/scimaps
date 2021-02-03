@@ -1,0 +1,325 @@
+collections:
+  - name: siteSettings
+    label: Site Settings
+    files:
+      - label: Call to Action
+        name: callToAction
+        file: content/site/callToAction.md
+        fields:
+          - { name: title, label: Title }
+          - { name: date, label: Date, widget: datetime }
+          - { name: image, label: Image, widget: image }
+          - { name: link, label: Link }
+          - { name: linkLabel, label: Link Label }
+          - { name: body, label: Description, widget: markdown }
+
+      - label: About Places & Spaces
+        name: about
+        file: content/site/about.md
+        preview_path: about
+        fields:
+          - { name: body, label: Description, widget: markdown }
+
+      - label: What is a Map?
+        name: whatIsAMap
+        file: content/site/whatIsAMap.md
+        preview_path: maps
+        fields:
+          - { name: body, label: Description, widget: markdown }
+
+      - label: What is a Macroscope?
+        name: whatIsAMacroscope
+        file: content/site/whatIsAMacroscope.md
+        preview_path: macroscopes
+        fields:
+          - { name: body, label: Description, widget: markdown }
+
+      - label: Languages
+        name: languages
+        file: content/site/languages.md
+        fields:
+          - name: languages
+            label: Languages
+            label_singular: Language
+            multiple: true
+            widget: list
+            summary: '{{fields.language}}'
+            fields:
+              - { name: abbreviation, label: 3-letter Code }
+              - { name: abbr_short, label: 2-letter Code }
+              - { name: language, label: Language }
+              - { name: native, label: Native Spelling }
+
+  - name: blog
+    label: Blogs
+    label_singular: Blog
+    folder: content/blog
+    path: "{{year}}/{{month}}-{{day}}/{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: blog/{{year}}/{{month}}-{{day}}/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: date, label: Date, widget: date }
+      - { name: image, label: Image, widget: image }
+      - { name: body, label: Body, widget: markdown }
+
+  - name: person
+    label: People
+    label_singular: Person
+    folder: content/person
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{name}}"
+    preview_path: person/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    sortable_fields: [name, affiliation]
+    fields:
+      - { name: name, label: Name }
+      - name: roles
+        label: Roles
+        label_singular: Role
+        widget: select
+        multiple: true
+        options:
+          - { value: curator, label: Curator }
+          - { value: team, label: Team }
+          - { value: ambassador, label: Ambassador }
+          - { value: advisory_board, label: Advisory Board }
+          - { value: maker, label: Maker }
+      - { name: homepage, label: Personal Homepage }
+      - { name: jobTitle, label: Job Title }
+      - { name: affiliation, label: Affiliation }
+      - { name: location, label: Location, widget: map }
+      - { name: image, label: Image, widget: image }
+      - { name: body, label: Bio }
+
+  - name: book
+    label: Books
+    label_singular: Book
+    folder: content/book
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: book/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: date, label: Published Date, widget: datetime }
+      - { name: title, label: Title }
+      - name: author
+        label: Authors
+        widget: relation
+        multiple: true
+        collection: person
+        search_fields: ['firstName', 'lastName']
+        value_field: '{{slug}}'
+        display_fields: ['{{firstName}} {{lastName}}']
+      - { name: publisher, label: Publisher }
+      - { name: pdfLink, label: PDF Link }
+      - { name: amazonLink, label: Amazon Link }
+      - name: bookImages
+        label: Book Images
+        label_singular: Book Image
+        min: 1
+        summary: '{{fields.image}}'
+        widget: list
+        field: { name: image, label: Image, widget: image }
+      - { name: body, label: Abstract, widget: markdown }
+
+  - name: news
+    label: News
+    folder: content/news
+    path: "{{year}}/{{month}}-{{day}}/{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: news/{{year}}/{{month}}-{{day}}/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: source, label: Source }
+      - { name: pdfLink, label: PDF Link }
+      - { name: image, label: Image, widget: image }
+      - { name: body, label: Body, widget: markdown }
+
+  - name: gallery
+    label: Galleries
+    label_singular: Gallery
+    folder: content/gallery
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: gallery/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - name: images
+        label: Images
+        label_singular: Image
+        min: 1
+        summary: '{{fields.image}}'
+        widget: list
+        fields:
+          - { name: image, label: Image, widget: image }
+
+  - name: map
+    label: Maps
+    label_singular: Map
+    folder: content/map
+    path: '{{iteration}}/{{sequence}}/readme'
+    create: true
+    i18n: true
+    slug: '{{slug}}'
+    preview_path: map/{{iteration}}/{{sequence}}
+    media_folder: ''
+    public_folder: ''
+    default_sort: iteration
+    sortable_fields: [title, iteration]
+    summary: '{{fields.iteration}}.{{fields.sequence}} {{fields.title}}'
+    fields:
+      - { name: title, label: Title, i18n: true }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown, i18n: true }
+      - name: makers
+        label: Makers
+        widget: relation
+        multiple: true
+        collection: person
+        search_fields: ['name']
+        value_field: '{{slug}}'
+        display_fields: ['{{name}}']
+      # - { name: location, label: Location, widget: map }
+      - { name: year, label: Year, widget: number, min: -2000, default: 2020 }
+      - { name: creditLine, label: Translation Credit, required: false }
+      - { name: references, label: References, widget: list, summary: '{{fields.ref}}', allow_add: true, field: {name: ref, label: Reference, widget: markdown }}
+      - name: image
+        label: Image
+        widget: object
+        collapsed: false
+        fields:
+          - { name: sm, label: Small (80px Width), widget: image }
+          - { name: med, label: Medium (160px Width), widget: image }
+          - { name: lg, label: Large (865px Width), widget: image }
+          - { name: tiles, label: Tiled Image URL, widget: string }
+      - { name: externalLink, label: External Link, required: false }
+
+  - name: macroscope
+    label: Macroscopes
+    label_singular: Macroscope
+    folder: content/macroscope
+    path: '{{iteration}}/{{sequence}}/readme'
+    create: true
+    i18n: true
+    slug: '{{slug}}'
+    preview_path: macroscope/{{iteration}}/{{sequence}}
+    media_folder: ''
+    public_folder: ''
+    default_sort: iteration
+    sortable_fields: [title, iteration]
+    summary: '{{fields.iteration}}.{{fields.sequence}} {{fields.title}}'
+    fields:
+      - { name: title, label: Title, i18n: true }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown, i18n: true }
+      - name: makers
+        label: Makers
+        widget: relation
+        multiple: true
+        collection: person
+        search_fields: ['name']
+        value_field: '{{slug}}'
+        display_fields: ['{{name}}']
+      # - { name: location, label: Location, widget: map }
+      - { name: year, label: Year, widget: number, min: -2000, default: 2020 }
+      - { name: creditLine, label: Translation Credit, required: false }
+      - { name: references, label: References, widget: list, summary: '{{fields.ref}}', allow_add: true, field: {name: ref, label: Reference, widget: markdown }}
+      - name: image
+        label: Image
+        widget: object
+        collapsed: false
+        fields:
+          - { name: sm, label: Small (80px Width), widget: image }
+          - { name: med, label: Medium (160px Width), widget: image }
+          - { name: lg, label: Large (865px Width), widget: image }
+      - { name: externalLink, label: External Link, required: false }
+
+  - name: mapIteration
+    label: Map Iterations
+    label_singular: Map Iteration
+    folder: content/mapIteration
+    path: '{{iteration}}/readme'
+    create: true
+    slug: '{{slug}}'
+    preview_path: map/{{iteration}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown }
+
+  - name: macroscopeIteration
+    label: Macroscope Iterations
+    label_singular: Macroscope Iteration
+    folder: content/macroscopeIteration
+    path: '{{iteration}}/readme'
+    create: true
+    slug: '{{slug}}'
+    preview_path: macroscope/{{iteration}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown }
+
+  - name: static-pages
+    label: Static Pages (deprecated)
+    label_singular: Static Page
+    folder: content/static-pages
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: id, label: ID, widget: number, required: false }
+      - { name: name, label: Name }
+      - { name: subpage, label: Subpage, required: false }
+      - { name: title, label: Title }
+      - { name: description, label: Description, required: false }
+      - { name: body, label: Content, widget: markdown }
+      - { name: last_update, label: Last Updated, widget: date, required: false }
+
+backend:
+  name: github
+  repo: cns-iu/scimaps
+  branch: pbi-cms-setup
+
+# We'll switch to editorial workflow when we move closer to production
+# publish_mode: editorial_workflow
+
+# Uncomment below when using the default proxy server port
+## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+## Basically run `npx netlify-cms-proxy-server` and launch the angular site
+# local_backend: true
+
+i18n:
+  structure: single_file
+  locales: [en, es, zh, fr, pt, de, pl]
+  default_locale: en
+
+media_folder: content/images/uploads
+public_folder: /assets/images/uploads
+site_url: https://dev.scimaps.org
+display_url: https://dev.scimaps.org
+
+logo_url: http://scimaps.org/images/global/ps_logo.png
+
+show_preview_links: true

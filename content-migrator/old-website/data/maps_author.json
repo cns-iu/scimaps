@@ -1,0 +1,2007 @@
+[
+  {
+    "id": 1.0,
+    "name": "Francis Narin",
+    "thumbnail": "creators/FrancisNarin2007.jpg"
+  },
+  {
+    "id": 5.0,
+    "name": "Ruth Fry (Calyxa)",
+    "thumbnail": "creators/octworldlarge.jpg"
+  },
+  {
+    "id": 6.0,
+    "name": "Charles Joseph Minard",
+    "thumbnail": "creators/minard-sig.jpg"
+  },
+  {
+    "id": 7.0,
+    "name": "Chris Dodo",
+    "thumbnail": "creators/images.jpg"
+  },
+  {
+    "id": 9.0,
+    "name": "David Rumsey",
+    "thumbnail": "creators/david-rumsey.png"
+  },
+  {
+    "id": 10.0,
+    "name": "Edith M. Punt",
+    "thumbnail": "creators/images_.jpg"
+  },
+  {
+    "id": 11.0,
+    "name": "Dogan Seber",
+    "thumbnail": "creators/images__.jpg"
+  },
+  {
+    "id": 12.0,
+    "name": "Fileve Palmer",
+    "thumbnail": "creators/images___.jpg"
+  },
+  {
+    "id": 15.0,
+    "name": "Stephen Miles Uzzo",
+    "thumbnail": "creators/images_____.jpg"
+  },
+  {
+    "id": 17.0,
+    "name": "Haggi Ahmed",
+    "thumbnail": "creators/image005.jpg"
+  },
+  {
+    "id": 19.0,
+    "name": "Herman Moll",
+    "thumbnail": "creators/images______.jpg"
+  },
+  {
+    "id": 20.0,
+    "name": "Jan Jansson",
+    "thumbnail": "creators/jansson-pic.jpg"
+  },
+  {
+    "id": 21.0,
+    "name": "John Graham",
+    "thumbnail": "creators/johng.jpg"
+  },
+  {
+    "id": 22.0,
+    "name": "Eric Frost",
+    "thumbnail": "creators/tsunami.jpg"
+  },
+  {
+    "id": 24.0,
+    "name": "John Burgoon",
+    "thumbnail": "creators/images________.jpg"
+  },
+  {
+    "id": 28.0,
+    "name": "Leonardo da Vinci",
+    "thumbnail": "creators/images___________.jpg"
+  },
+  {
+    "id": 29.0,
+    "name": "Louisa Bufardeci",
+    "thumbnail": "creators/thumbnail.jpg"
+  },
+  {
+    "id": 33.0,
+    "name": "Lou Estey",
+    "thumbnail": "creators/160-Seismic.jpg"
+  },
+  {
+    "id": 36.0,
+    "name": "The Chronic Poverty Centre",
+    "thumbnail": "creators/images________________.jpg"
+  },
+  {
+    "id": 37.0,
+    "name": "Tom Van Sant",
+    "thumbnail": "creators/images_________________.jpg"
+  },
+  {
+    "id": 38.0,
+    "name": "The Eastern Telegraph Company",
+    "thumbnail": "creators/images__________________.jpg"
+  },
+  {
+    "id": 39.0,
+    "name": "Vittoria Colizza",
+    "thumbnail": "creators/vittoria-colizza.jpg"
+  },
+  {
+    "id": 40.0,
+    "name": "Alessandro Vespignani",
+    "thumbnail": "creators/Alessandro-Vespignani.jpg"
+  },
+  {
+    "id": 41.0,
+    "name": "Adrian White",
+    "thumbnail": "creators/188-Happyness.jpg"
+  },
+  {
+    "id": 42.0,
+    "name": "National Geographic EarthPulse Team",
+    "thumbnail": "creators/images___________________.jpg"
+  },
+  {
+    "id": 43.0,
+    "name": "Alex Soojung-Kim Pang",
+    "thumbnail": "creators/Alex_Soojung-Kim_Pang.jpg"
+  },
+  {
+    "id": 44.0,
+    "name": "David Pescovitz",
+    "thumbnail": "creators/David-Pescovitz.jpg"
+  },
+  {
+    "id": 52.0,
+    "name": "Hazel Tiffany",
+    "thumbnail": "creators/HazelTiffany.jpg"
+  },
+  {
+    "id": 53.0,
+    "name": "Ian Francis",
+    "thumbnail": "creators/IanFrancis.jpg"
+  },
+  {
+    "id": 54.0,
+    "name": "Chaomei Chen",
+    "thumbnail": "creators/chaomei-chen.jpg"
+  },
+  {
+    "id": 55.0,
+    "name": "Ray Paul",
+    "thumbnail": "creators/rpaul.jpg"
+  },
+  {
+    "id": 56.0,
+    "name": "Weimao Ke",
+    "thumbnail": "creators/weimao-ke.jpg"
+  },
+  {
+    "id": 57.0,
+    "name": "Teuvo Kohonen",
+    "thumbnail": "creators/teuvo-kohonen.jpg"
+  },
+  {
+    "id": 58.0,
+    "name": "Andrew Dillon",
+    "thumbnail": "creators/images_________________________.jpg"
+  },
+  {
+    "id": 59.0,
+    "name": "Margaret Dolinsky",
+    "thumbnail": "creators/margaret-dolinsky.jpg"
+  },
+  {
+    "id": 60.0,
+    "name": "Howard D. White",
+    "thumbnail": "creators/howard-white.jpg"
+  },
+  {
+    "id": 61.0,
+    "name": "Katherine W. McCain",
+    "thumbnail": "creators/kate-mccain.jpg"
+  },
+  {
+    "id": 62.0,
+    "name": "Eugene Garfield",
+    "thumbnail": "creators/eugene-garfield.jpg"
+  },
+  {
+    "id": 63.0,
+    "name": "Irving H. Sher",
+    "thumbnail": "creators/garfield-dna-historiograph.png"
+  },
+  {
+    "id": 64.0,
+    "name": "Richard J. Torpie",
+    "thumbnail": "creators/garfield-dna-historiograph_.png"
+  },
+  {
+    "id": 65.0,
+    "name": "Alex Galloway",
+    "thumbnail": "creators/alex-galloway.jpg"
+  },
+  {
+    "id": 66.0,
+    "name": "Mark Tribe",
+    "thumbnail": "creators/mark-tribe.jpg"
+  },
+  {
+    "id": 67.0,
+    "name": "John L. Old",
+    "thumbnail": "creators/john-old.jpg"
+  },
+  {
+    "id": 68.0,
+    "name": "Ketan K. Mane",
+    "thumbnail": "creators/ketan-mane.jpg"
+  },
+  {
+    "id": 69.0,
+    "name": "Bruce W. Herr, II",
+    "thumbnail": "creators/bruce-herr.jpg"
+  },
+  {
+    "id": 70.0,
+    "name": "Todd Holloway",
+    "thumbnail": "creators/todd-holloway.jpg"
+  },
+  {
+    "id": 71.0,
+    "name": "Daniel Zeller",
+    "thumbnail": "creators/zeller.jpg"
+  },
+  {
+    "id": 72.0,
+    "name": "Ludmilla Pollock",
+    "thumbnail": "creators/ludmilla-pollock.jpg"
+  },
+  {
+    "id": 73.0,
+    "name": "Jan Witkowski",
+    "thumbnail": "creators/jan-witowski.jpg"
+  },
+  {
+    "id": 74.0,
+    "name": "Martin Wattenberg",
+    "thumbnail": "creators/martin-wattenberg.jpg"
+  },
+  {
+    "id": 76.0,
+    "name": "Marc Smith",
+    "thumbnail": "creators/marc-smith.jpg"
+  },
+  {
+    "id": 77.0,
+    "name": "Danyel Fisher",
+    "thumbnail": "creators/danyel-fisher.jpg"
+  },
+  {
+    "id": 80.0,
+    "name": "Russell J. Duhon",
+    "thumbnail": "creators/russell-duhon.jpg"
+  },
+  {
+    "id": 81.0,
+    "name": "Shashikant Penumarthy",
+    "thumbnail": "creators/shashikant-penumarthy.jpg"
+  },
+  {
+    "id": 82.0,
+    "name": "Jian Zhang",
+    "thumbnail": "creators/zhang.jpg"
+  },
+  {
+    "id": 83.0,
+    "name": "Michael S. Vogeley",
+    "thumbnail": "creators/vogeley.jpg"
+  },
+  {
+    "id": 87.0,
+    "name": "posted by Svanes on Flickr",
+    "thumbnail": "creators/meal.jpg"
+  },
+  {
+    "id": 88.0,
+    "name": "Bertrand Eberhard",
+    "thumbnail": "creators/images____________________________.jpg"
+  },
+  {
+    "id": 89.0,
+    "name": "Kevin Hutchinson",
+    "thumbnail": "creators/36374942N00.jpg"
+  },
+  {
+    "id": 95.0,
+    "name": "Ben Worthen",
+    "thumbnail": "creators/images______________________________.jpg"
+  },
+  {
+    "id": 96.0,
+    "name": "William Cheswick",
+    "thumbnail": "creators/images_______________________________.jpg"
+  },
+  {
+    "id": 100.0,
+    "name": "Joseph Novak",
+    "thumbnail": "creators/jdn_pho.jpg"
+  },
+  {
+    "id": 102.0,
+    "name": "William A. Kealy",
+    "thumbnail": "creators/billk1.jpg"
+  },
+  {
+    "id": 108.0,
+    "name": "Michael Aschauer",
+    "thumbnail": "creators/michael-aschauer.jpg"
+  },
+  {
+    "id": 110.0,
+    "name": "Nik Thoenen",
+    "thumbnail": "creators/nik-thoenen.jpg"
+  },
+  {
+    "id": 112.0,
+    "name": "Murray Robertson",
+    "thumbnail": "creators/murray_robertson.jpg"
+  },
+  {
+    "id": 113.0,
+    "name": "John Emsley",
+    "thumbnail": "creators/john-emsley.jpg"
+  },
+  {
+    "id": 114.0,
+    "name": "Roger W. Sinnott, Interactive Factory",
+    "thumbnail": "creators/roger-sinnot.jpg"
+  },
+  {
+    "id": 115.0,
+    "name": "Unknown",
+    "thumbnail": "creators/poplcart.jpg"
+  },
+  {
+    "id": 117.0,
+    "name": "Anton Leuski",
+    "thumbnail": "creators/anton-leuski.jpg"
+  },
+  {
+    "id": 118.0,
+    "name": "Keith Andrews",
+    "thumbnail": "creators/keith-andrews.jpg"
+  },
+  {
+    "id": 120.0,
+    "name": "Darquati (Flickr)",
+    "thumbnail": "creators/71088526N00.jpg"
+  },
+  {
+    "id": 121.0,
+    "name": "Francis Narin",
+    "thumbnail": "creators/FrancisNarin2007_.jpg"
+  },
+  {
+    "id": 122.0,
+    "name": "James Turner",
+    "thumbnail": "creators/james_turner.gif"
+  },
+  {
+    "id": 106.0,
+    "name": "Michael Poremba ",
+    "thumbnail": "creators/Michael-Poremba.jpg"
+  },
+  {
+    "id": 107.0,
+    "name": "Richard Katz ",
+    "thumbnail": "creators/richard-katz.jpg"
+  },
+  {
+    "id": 105.0,
+    "name": "Dave Menninger ",
+    "thumbnail": "creators/dave-menninger.jpg"
+  },
+  {
+    "id": 18.0,
+    "name": "Henrich Bünting",
+    "thumbnail": "creators/image006.jpg"
+  },
+  {
+    "id": 35.0,
+    "name": "Sebastian Münster",
+    "thumbnail": "creators/images_______________.jpg"
+  },
+  {
+    "id": 49.0,
+    "name": "Albert-László Barabási",
+    "thumbnail": "creators/images_______________________.jpg"
+  },
+  {
+    "id": 75.0,
+    "name": "Fernanda Viégas",
+    "thumbnail": "creators/fernanda-viegas.jpg"
+  },
+  {
+    "id": 91.0,
+    "name": "François Chauveau",
+    "thumbnail": "creators/5704942.jpg"
+  },
+  {
+    "id": 116.0,
+    "name": "Ingo Günther",
+    "thumbnail": "creators/ingo-gunther.jpg"
+  },
+  {
+    "id": 124.0,
+    "name": "David Newman (UCI)",
+    "thumbnail": "creators/david-newman.jpg"
+  },
+  {
+    "id": 126.0,
+    "name": "Don R. Swanson",
+    "thumbnail": "creators/don-swanson.jpg"
+  },
+  {
+    "id": 23.0,
+    "name": "Kevin W. Boyack",
+    "thumbnail": "creators/kevin_boyack.jpg"
+  },
+  {
+    "id": 27.0,
+    "name": "W. Bradford Paley",
+    "thumbnail": "creators/bradford_paley.jpg"
+  },
+  {
+    "id": 32.0,
+    "name": "Chuck Meertens",
+    "thumbnail": "creators/chuck-meertens.jpg"
+  },
+  {
+    "id": 104.0,
+    "name": "Rob Bracken ",
+    "thumbnail": "creators/Rob-Bracken.jpg"
+  },
+  {
+    "id": 46.0,
+    "name": "Jean Hagan",
+    "thumbnail": "creators/jean-hagan.jpg"
+  },
+  {
+    "id": 45.0,
+    "name": "Marina Gorbis",
+    "thumbnail": "creators/marina-gorbis.jpg"
+  },
+  {
+    "id": 86.0,
+    "name": "Lisa Kershner",
+    "thumbnail": "creators/lisa-kershner.jpg"
+  },
+  {
+    "id": 85.0,
+    "name": "Mario Juric",
+    "thumbnail": "creators/mario-juric.jpg"
+  },
+  {
+    "id": 3.0,
+    "name": "Buckminster Fuller",
+    "thumbnail": "creators/buckminster-fuller.jpg"
+  },
+  {
+    "id": 4.0,
+    "name": "Buckminster Fuller",
+    "thumbnail": "creators/buckminster-fuller.jpg"
+  },
+  {
+    "id": 2.0,
+    "name": "Cesar A. Hidalgo",
+    "thumbnail": "creators/cesar-hidalgo.jpg"
+  },
+  {
+    "id": 47.0,
+    "name": "Cesar A. Hidalgo",
+    "thumbnail": "creators/cesar-hidalgo.jpg"
+  },
+  {
+    "id": 51.0,
+    "name": "John Caswell",
+    "thumbnail": "creators/john-caswell.jpg"
+  },
+  {
+    "id": 26.0,
+    "name": "Richard Klavans",
+    "thumbnail": "creators/richard_klavans.jpg"
+  },
+  {
+    "id": 123.0,
+    "name": "Gully Burns (USC)",
+    "thumbnail": "creators/gully-burns.jpg"
+  },
+  {
+    "id": 127.0,
+    "name": "Neil R. Smalheiser",
+    "thumbnail": "creators/neil-smalheiser.jpg"
+  },
+  {
+    "id": 129.0,
+    "name": "Mitchkitter",
+    "thumbnail": "creators/4916096_e9a129f62f_s.jpg"
+  },
+  {
+    "id": 131.0,
+    "name": "Mark Lombardi",
+    "thumbnail": "creators/Lombardi.png"
+  },
+  {
+    "id": 132.0,
+    "name": "Daniel O. Kutz",
+    "thumbnail": "creators/kutz.png"
+  },
+  {
+    "id": 133.0,
+    "name": "Danny Dorling",
+    "thumbnail": "creators/Dorling_Dann.jpg"
+  },
+  {
+    "id": 134.0,
+    "name": "Graham Allsopp",
+    "thumbnail": "creators/Allsopp_Graham_L.jpg"
+  },
+  {
+    "id": 137.0,
+    "name": "Graham Allsopp",
+    "thumbnail": "creators/Allsopp_Graham_L_.jpg"
+  },
+  {
+    "id": 140.0,
+    "name": "David Dorling",
+    "thumbnail": "creators/photodefault__.gif"
+  },
+  {
+    "id": 48.0,
+    "name": "Bailey Klinger",
+    "thumbnail": "creators/photodefault____.gif"
+  },
+  {
+    "id": 50.0,
+    "name": "Ricardo Hausmann",
+    "thumbnail": "creators/photodefault_____.gif"
+  },
+  {
+    "id": 141.0,
+    "name": "John L. Old",
+    "thumbnail": "creators/john-old_.jpg"
+  },
+  {
+    "id": 16.0,
+    "name": "Michael Lane",
+    "thumbnail": "creators/photodefault_______.gif"
+  },
+  {
+    "id": 78.0,
+    "name": "Tony Capone",
+    "thumbnail": "creators/photodefault________.gif"
+  },
+  {
+    "id": 92.0,
+    "name": "David Mintz",
+    "thumbnail": "creators/photodefault___________.gif"
+  },
+  {
+    "id": 93.0,
+    "name": "Terence Fitz-Simons",
+    "thumbnail": "creators/photodefault____________.gif"
+  },
+  {
+    "id": 94.0,
+    "name": "Michelle Wayland",
+    "thumbnail": "creators/photodefault_____________.gif"
+  },
+  {
+    "id": 97.0,
+    "name": "Mario Dvorkin",
+    "thumbnail": "creators/photodefault______________.gif"
+  },
+  {
+    "id": 98.0,
+    "name": "Romina Romano",
+    "thumbnail": "creators/photodefault_______________.gif"
+  },
+  {
+    "id": 99.0,
+    "name": "Eduardo Mercovich",
+    "thumbnail": "creators/photodefault________________.gif"
+  },
+  {
+    "id": 101.0,
+    "name": "Raymond Chen",
+    "thumbnail": "creators/photodefault_________________.gif"
+  },
+  {
+    "id": 143.0,
+    "name": "Jean-Daniel Fekete",
+    "thumbnail": "creators/fekete.jpg"
+  },
+  {
+    "id": 144.0,
+    "name": "Catherine Plaisant",
+    "thumbnail": "creators/images__________________________________.jpg"
+  },
+  {
+    "id": 145.0,
+    "name": "Lalitha Viswanath",
+    "thumbnail": "creators/lalitha-visvanath.jpg"
+  },
+  {
+    "id": 147.0,
+    "name": "Joseph P. Martino",
+    "thumbnail": "creators/JoeGoodPix.jpg"
+  },
+  {
+    "id": 155.0,
+    "name": "Edmund Talley",
+    "thumbnail": "creators/photodefault_____________________.gif"
+  },
+  {
+    "id": 157.0,
+    "name": "Sarah Williams",
+    "thumbnail": "creators/photodefault______________________.gif"
+  },
+  {
+    "id": 158.0,
+    "name": "Carlo Ratti",
+    "thumbnail": "creators/images________________________________________.jpg"
+  },
+  {
+    "id": 159.0,
+    "name": "Riccardo Maria Pulselli",
+    "thumbnail": "creators/images_________________________________________.jpg"
+  },
+  {
+    "id": 164.0,
+    "name": "The World Bank",
+    "thumbnail": "creators/images___________________________________________.jpg"
+  },
+  {
+    "id": 165.0,
+    "name": "The National Geographic Society",
+    "thumbnail": "creators/images____________________________________________.jpg"
+  },
+  {
+    "id": 167.0,
+    "name": "Louisa Bufardeci",
+    "thumbnail": "creators/thumbnail_.jpg"
+  },
+  {
+    "id": 170.0,
+    "name": "John Yunker",
+    "thumbnail": "creators/john_yunker.gif"
+  },
+  {
+    "id": 171.0,
+    "name": "Anton Leuski",
+    "thumbnail": "creators/anton-leuski_.jpg"
+  },
+  {
+    "id": 172.0,
+    "name": "Todd Holloway",
+    "thumbnail": "creators/todd-holloway_.jpg"
+  },
+  {
+    "id": 174.0,
+    "name": "Eugene Garfield",
+    "thumbnail": "creators/eugene-garfield_.jpg"
+  },
+  {
+    "id": 175.0,
+    "name": "Irving H. Sher",
+    "thumbnail": "creators/NO-PHOTO___.gif"
+  },
+  {
+    "id": 176.0,
+    "name": "Richard J. Torpie",
+    "thumbnail": "creators/NO-PHOTO____.gif"
+  },
+  {
+    "id": 14.0,
+    "name": "Julie Marie Smith",
+    "thumbnail": "creators/julie-smith.jpg"
+  },
+  {
+    "id": 177.0,
+    "name": "Pacific Northwest Laboratory",
+    "thumbnail": "creators/NO-PHOTO_____.gif"
+  },
+  {
+    "id": 103.0,
+    "name": "Danielle Hartman",
+    "thumbnail": "creators/photodefault__________________.gif"
+  },
+  {
+    "id": 149.0,
+    "name": "Herbert Van de Sompel",
+    "thumbnail": "creators/images______________________________________________.jpg"
+  },
+  {
+    "id": 111.0,
+    "name": "National Telecommunications and Information Administration",
+    "thumbnail": "creators/ntia.jpg"
+  },
+  {
+    "id": 25.0,
+    "name": "Peter Kennard",
+    "thumbnail": "creators/148-finalGeoMap9_reduced.jpg"
+  },
+  {
+    "id": 178.0,
+    "name": "original print from 1993",
+    "thumbnail": "creators/MapofHumanityOrig.gif"
+  },
+  {
+    "id": 179.0,
+    "name": "Weixia (Bonnie) Huang",
+    "thumbnail": "creators/bonnie-huang.jpg"
+  },
+  {
+    "id": 180.0,
+    "name": "Nianli Ma",
+    "thumbnail": "creators/nianli-ma.jpg"
+  },
+  {
+    "id": 181.0,
+    "name": "Weimao Ke",
+    "thumbnail": "creators/images.jpeg"
+  },
+  {
+    "id": 146.0,
+    "name": "Georgiy G. Dumenton",
+    "thumbnail": "creators/dumenton.jpg"
+  },
+  {
+    "id": 185.0,
+    "name": "Dr. Christian von Mering",
+    "thumbnail": "creators/tol_christian.jpg"
+  },
+  {
+    "id": 186.0,
+    "name": "Dr. Chris Creevey",
+    "thumbnail": "creators/tol_creevey.jpg"
+  },
+  {
+    "id": 211.0,
+    "name": "Ludmila Pollock",
+    "thumbnail": "creators/ludmila.jpg"
+  },
+  {
+    "id": 128.0,
+    "name": "Sebastian Münster",
+    "thumbnail": "creators/180px-Portrait_of_the_Cosmographer_Sebastien_Munster_WGA.jpg"
+  },
+  {
+    "id": 142.0,
+    "name": "François Chauveau",
+    "thumbnail": "creators/photodefault__________.gif"
+  },
+  {
+    "id": 166.0,
+    "name": "André Skupin",
+    "thumbnail": "creators/andre-skupin.jpg"
+  },
+  {
+    "id": 200.0,
+    "name": "Devin Becker",
+    "thumbnail": "creators/dbecker.jpg"
+  },
+  {
+    "id": 168.0,
+    "name": "Keith V. Nesbitt",
+    "thumbnail": "creators/keith_nesbitt.jpg"
+  },
+  {
+    "id": 206.0,
+    "name": "Richard Klavans",
+    "thumbnail": "creators/richard_klavans.jpg"
+  },
+  {
+    "id": 135.0,
+    "name": "Anna Barford",
+    "thumbnail": "creators/anna-barford.jpg"
+  },
+  {
+    "id": 34.0,
+    "name": "Elisha F. H. Allgood",
+    "thumbnail": "creators/elisha_allgood.jpg"
+  },
+  {
+    "id": 130.0,
+    "name": "John McHale, Sr.",
+    "thumbnail": "creators/john-mchale.jpg"
+  },
+  {
+    "id": 162.0,
+    "name": "Richard Merrick",
+    "thumbnail": "creators/richard-merrick.jpg"
+  },
+  {
+    "id": 161.0,
+    "name": "Michael A. Thompson",
+    "thumbnail": "creators/michael-thompson.jpg"
+  },
+  {
+    "id": 173.0,
+    "name": "Bruce Herr",
+    "thumbnail": "creators/bruce-herr.jpg"
+  },
+  {
+    "id": 160.0,
+    "name": "David N. Wiley",
+    "thumbnail": "creators/david-wiley.jpg"
+  },
+  {
+    "id": 156.0,
+    "name": "Jess Bachman",
+    "thumbnail": "creators/jess-bachman.jpg"
+  },
+  {
+    "id": 148.0,
+    "name": "Johan Bollen",
+    "thumbnail": "creators/johan-bollen.jpg"
+  },
+  {
+    "id": 152.0,
+    "name": "Ryan Chute",
+    "thumbnail": "creators/ryan-chute.jpg"
+  },
+  {
+    "id": 153.0,
+    "name": "Marko A. Rodriguez",
+    "thumbnail": "creators/marko-rodriguez.jpg"
+  },
+  {
+    "id": 154.0,
+    "name": "Lyudmila Balakireva",
+    "thumbnail": "creators/lyudmila-balakireva.jpg"
+  },
+  {
+    "id": 190.0,
+    "name": "Patric Hagmann",
+    "thumbnail": "creators/patric-hagmann.jpg"
+  },
+  {
+    "id": 150.0,
+    "name": "Luís M.A. Bettencourt",
+    "thumbnail": "creators/luis-bettencourt.jpg"
+  },
+  {
+    "id": 182.0,
+    "name": "Peer Bork",
+    "thumbnail": "creators/peer-bork.jpg"
+  },
+  {
+    "id": 183.0,
+    "name": "Francesca Ciccarelli",
+    "thumbnail": "creators/francesca-ciccarelli.jpg"
+  },
+  {
+    "id": 187.0,
+    "name": "Mathieu Bastien",
+    "thumbnail": "creators/mathieu-bastien.jpg"
+  },
+  {
+    "id": 189.0,
+    "name": "Olaf Sporns",
+    "thumbnail": "creators/olaf_sporns.jpg"
+  },
+  {
+    "id": 184.0,
+    "name": "Berend Snel",
+    "thumbnail": "creators/berend-snel.jpg"
+  },
+  {
+    "id": 191.0,
+    "name": "George Shaw",
+    "thumbnail": "creators/george-shaw.jpg"
+  },
+  {
+    "id": 188.0,
+    "name": "Sebastien Heymann",
+    "thumbnail": "creators/sebastien-heymann.jpg"
+  },
+  {
+    "id": 192.0,
+    "name": "Phillip DeCamp",
+    "thumbnail": "creators/phillip-decamp.jpg"
+  },
+  {
+    "id": 193.0,
+    "name": "Deb Roy",
+    "thumbnail": "creators/deb-roy.jpg"
+  },
+  {
+    "id": 197.0,
+    "name": "Gerhard Dirmoser",
+    "thumbnail": "creators/dirmoser-gerhard.jpg"
+  },
+  {
+    "id": 194.0,
+    "name": "Dietmar Offenhuber",
+    "thumbnail": "creators/dietmar-offenhuber.jpg"
+  },
+  {
+    "id": 196.0,
+    "name": "Moritz Stefaner",
+    "thumbnail": "creators/moritz-stefaner.jpg"
+  },
+  {
+    "id": 195.0,
+    "name": "Evelyn Münster",
+    "thumbnail": "creators/evelyn-munster.jpg"
+  },
+  {
+    "id": 198.0,
+    "name": "Jaume Nualart",
+    "thumbnail": "creators/jaume-nualart.jpg"
+  },
+  {
+    "id": 207.0,
+    "name": "Marco Quaggiotto",
+    "thumbnail": "creators/marco-quaggiotto.jpg"
+  },
+  {
+    "id": 201.0,
+    "name": "Bradford Demarest",
+    "thumbnail": "creators/bradford-demarest.jpg"
+  },
+  {
+    "id": 202.0,
+    "name": "Jonathan Tweedy",
+    "thumbnail": "creators/jonathan-tweedy.jpg"
+  },
+  {
+    "id": 204.0,
+    "name": "Laura Pence",
+    "thumbnail": "creators/laura-pence.jpg"
+  },
+  {
+    "id": 199.0,
+    "name": "John A. Walsh",
+    "thumbnail": "creators/john-walsh.jpg"
+  },
+  {
+    "id": 203.0,
+    "name": "Theodora Michaelidou",
+    "thumbnail": "creators/theodora-michaelidou.jpg"
+  },
+  {
+    "id": 208.0,
+    "name": "Loet Leydesdorff",
+    "thumbnail": "creators/loet-leysdesdorff.jpg"
+  },
+  {
+    "id": 205.0,
+    "name": "Kevin W. Boyack",
+    "thumbnail": "creators/kevin_boyack.jpg"
+  },
+  {
+    "id": 209.0,
+    "name": "Angela Zoss",
+    "thumbnail": "creators/angela-zoss.jpg"
+  },
+  {
+    "id": 84.0,
+    "name": "J. Richard Gott, III",
+    "thumbnail": "creators/jrgottIII.jpg"
+  },
+  {
+    "id": 163.0,
+    "name": "Council for Chemical Research",
+    "thumbnail": "creators/ccresearch.jpg"
+  },
+  {
+    "id": 138.0,
+    "name": "Ben Wheeler",
+    "thumbnail": "creators/bwheeler.jpg"
+  },
+  {
+    "id": 136.0,
+    "name": "Mark Newman",
+    "thumbnail": "creators/mnewman.jpg"
+  },
+  {
+    "id": 109.0,
+    "name": "Maia Gusberti",
+    "thumbnail": "creators/maia-gusberti.jpg"
+  },
+  {
+    "id": 31.0,
+    "name": "Michael W. Hamburger",
+    "thumbnail": "creators/hamburger.jpg"
+  },
+  {
+    "id": 119.0,
+    "name": "H. J. T. Ellingham",
+    "thumbnail": "creators/RoyalSocietyScienceMap2.jpg"
+  },
+  {
+    "id": 213.0,
+    "name": "Paul Marie Ghislain Otlet",
+    "thumbnail": "creators/001_otlet.jpg"
+  },
+  {
+    "id": 214.0,
+    "name": "Charles van den Heuvel",
+    "thumbnail": "creators/001_heuvel.jpg"
+  },
+  {
+    "id": 215.0,
+    "name": "W. Boyd Rayward ",
+    "thumbnail": "creators/001_rayward.jpg"
+  },
+  {
+    "id": 217.0,
+    "name": "Chris Harrison",
+    "thumbnail": "creators/003_chris_harrison.jpg"
+  },
+  {
+    "id": 219.0,
+    "name": "Rex Robison",
+    "thumbnail": "creators/004_robinson.jpg"
+  },
+  {
+    "id": 220.0,
+    "name": "Rex Robison",
+    "thumbnail": "creators/004_robinson_.jpg"
+  },
+  {
+    "id": 221.0,
+    "name": "Almila Akdag Salah",
+    "thumbnail": "creators/005_salah.jpg"
+  },
+  {
+    "id": 222.0,
+    "name": "Cheng Gao",
+    "thumbnail": "creators/005_cheng_gao.jpg"
+  },
+  {
+    "id": 223.0,
+    "name": "Krzysztof Suchecki",
+    "thumbnail": "creators/005_krzysztof_suchecki.jpg"
+  },
+  {
+    "id": 224.0,
+    "name": "Andrea Scharnhorst",
+    "thumbnail": "creators/005_scharnhorst.jpg"
+  },
+  {
+    "id": 228.0,
+    "name": "Jenn Riley",
+    "thumbnail": "creators/008_jenn_riley.jpg"
+  },
+  {
+    "id": 230.0,
+    "name": "Ward Shelley",
+    "thumbnail": "creators/010_shelley.jpg"
+  },
+  {
+    "id": 231.0,
+    "name": "Chris Dodo",
+    "thumbnail": "creators/dodo.jpg"
+  },
+  {
+    "id": 232.0,
+    "name": "Edith M. Punt",
+    "thumbnail": "creators/edith_punt.jpg"
+  },
+  {
+    "id": 234.0,
+    "name": "Charles van den Heuvel",
+    "thumbnail": "creators/van_den_heuvel_charles.jpg"
+  },
+  {
+    "id": 235.0,
+    "name": "W. Boyd Rayward",
+    "thumbnail": "creators/rayward_boyd.jpg"
+  },
+  {
+    "id": 236.0,
+    "name": "Paul Marie Ghislain Otlet",
+    "thumbnail": "creators/otlet_paul_marie_ghislain.jpg"
+  },
+  {
+    "id": 237.0,
+    "name": "Paul Marie Ghislain Otlet",
+    "thumbnail": "creators/otlet_paul_marie_ghislain_1.jpg"
+  },
+  {
+    "id": 238.0,
+    "name": "Charles van den Heuvel",
+    "thumbnail": "creators/van_den_heuvel_charles_1.jpg"
+  },
+  {
+    "id": 239.0,
+    "name": "W. Boyd Rayward",
+    "thumbnail": "creators/rayward_boyd_1.jpg"
+  },
+  {
+    "id": 240.0,
+    "name": "Alkim Almila Akdag Salah",
+    "thumbnail": "creators/005_salah_jpg_100x100_q85_1.jpg"
+  },
+  {
+    "id": 243.0,
+    "name": "Sarah Williams",
+    "thumbnail": "creators/sarahwilliams.jpg"
+  },
+  {
+    "id": 249.0,
+    "name": "U.S. Geological Survey",
+    "thumbnail": "creators/USGS_logo_green_100px.jpg"
+  },
+  {
+    "id": 250.0,
+    "name": "National Geographic Magazine",
+    "thumbnail": "creators/national_geo_logo_100px.jpg"
+  },
+  {
+    "id": 251.0,
+    "name": "Masha Turchinsky",
+    "thumbnail": "creators/Masha_100px.jpg"
+  },
+  {
+    "id": 252.0,
+    "name": "John Kerschbaum",
+    "thumbnail": "creators/JKersch_100px.jpg"
+  },
+  {
+    "id": 253.0,
+    "name": "David McCandless",
+    "thumbnail": "creators/DavidMcCandless_100px.jpg"
+  },
+  {
+    "id": 254.0,
+    "name": "Stefanie Posavec",
+    "thumbnail": "creators/StefaniePosavec_100px.jpg"
+  },
+  {
+    "id": 255.0,
+    "name": "Gapminder",
+    "thumbnail": "creators/gapminder_150px.jpg"
+  },
+  {
+    "id": 256.0,
+    "name": "James Burke",
+    "thumbnail": "creators/JamesBurke_100px.jpg"
+  },
+  {
+    "id": 257.0,
+    "name": "Patrick McKercher",
+    "thumbnail": "creators/PMcKercher_100px.jpg"
+  },
+  {
+    "id": 258.0,
+    "name": "Michael Stamper",
+    "thumbnail": "creators/MichaelStamper_100px.jpg"
+  },
+  {
+    "id": 259.0,
+    "name": "Lev Manovich",
+    "thumbnail": "creators/LevManovich_100px.jpg"
+  },
+  {
+    "id": 260.0,
+    "name": "Jay Chow",
+    "thumbnail": "creators/JayChow_100px.jpg"
+  },
+  {
+    "id": 261.0,
+    "name": "Matthew Richardson",
+    "thumbnail": "creators/MRichardson_100px.jpg"
+  },
+  {
+    "id": 262.0,
+    "name": "Judith Kamalski",
+    "thumbnail": "creators/JudithKamalski_100px.jpg"
+  },
+  {
+    "id": 263.0,
+    "name": "Sarah Huggett",
+    "thumbnail": "creators/SHuggett_100px.jpg"
+  },
+  {
+    "id": 264.0,
+    "name": "Andrew Plume",
+    "thumbnail": "creators/APlume_100px_1.jpg"
+  },
+  {
+    "id": 265.0,
+    "name": "Eric Fischer",
+    "thumbnail": "creators/EricFischer_100px.jpg"
+  },
+  {
+    "id": 266.0,
+    "name": "Benjamin Wiederkehr",
+    "thumbnail": "creators/BWiederkehr_100px.jpg"
+  },
+  {
+    "id": 216.0,
+    "name": "H.J.T. Ellingham",
+    "thumbnail": "creators/Ellingham_100px.jpg"
+  },
+  {
+    "id": 125.0,
+    "name": "Henry G. Small",
+    "thumbnail": "creators/henry-small.jpg"
+  },
+  {
+    "id": 269.0,
+    "name": "Alan Mislove",
+    "thumbnail": "creators/alan_mislove_100px.jpg"
+  },
+  {
+    "id": 270.0,
+    "name": "Andrew Winterman",
+    "thumbnail": "creators/andrew_winterman_100px.jpg"
+  },
+  {
+    "id": 271.0,
+    "name": "Andrew Witherspoon",
+    "thumbnail": "creators/andrew_witherspoon_100px.jpg"
+  },
+  {
+    "id": 272.0,
+    "name": "Brett Johnson",
+    "thumbnail": "creators/brett_johnson_100px.jpg"
+  },
+  {
+    "id": 273.0,
+    "name": "Brian Castellani",
+    "thumbnail": "creators/brian_castellani_100px.jpg"
+  },
+  {
+    "id": 274.0,
+    "name": "David Chavalarias",
+    "thumbnail": "creators/david_chavalarias_100px.jpg"
+  },
+  {
+    "id": 275.0,
+    "name": "Dino Citraro",
+    "thumbnail": "creators/dino_citraro_100px.jpg"
+  },
+  {
+    "id": 276.0,
+    "name": "Domanique Alicia",
+    "thumbnail": "creators/domanique_alicia_100px.jpg"
+  },
+  {
+    "id": 277.0,
+    "name": "Ferdy van Gool",
+    "thumbnail": "creators/ferdy_van_gool_100px.jpg"
+  },
+  {
+    "id": 278.0,
+    "name": "Gregory W. Shirah",
+    "thumbnail": "creators/greg_shirah_100px.jpg"
+  },
+  {
+    "id": 279.0,
+    "name": "Horace G. Mitchell",
+    "thumbnail": "creators/horace_g_mitchell_100px.jpg"
+  },
+  {
+    "id": 280.0,
+    "name": "Jacob O'Brien",
+    "thumbnail": "creators/jacob_obrien_100px.jpg"
+  },
+  {
+    "id": 281.0,
+    "name": "Jean-Philippe Cointet",
+    "thumbnail": "creators/jean_philippe_cointet_100px.jpg"
+  },
+  {
+    "id": 282.0,
+    "name": "John Nelson",
+    "thumbnail": "creators/john_nelson_100px.jpg"
+  },
+  {
+    "id": 283.0,
+    "name": "Jukka-Pekka Onnela",
+    "thumbnail": "creators/jukka_pekka_onnela_100px.jpg"
+  },
+  {
+    "id": 284.0,
+    "name": "Keiichi Nemoto",
+    "thumbnail": "creators/keiichi_nemoto_100px.jpg"
+  },
+  {
+    "id": 285.0,
+    "name": "Kim Rees",
+    "thumbnail": "creators/kim_rees_100px.jpg"
+  },
+  {
+    "id": 286.0,
+    "name": "Ludo Waltman",
+    "thumbnail": "creators/ludo_waltman_100px.jpg"
+  },
+  {
+    "id": 287.0,
+    "name": "Nees Jan van Eck",
+    "thumbnail": "creators/nees_jan_van_eck_100px.jpg"
+  },
+  {
+    "id": 289.0,
+    "name": "Peter A. Gloor",
+    "thumbnail": "creators/peter_gloor_100px.jpg"
+  },
+  {
+    "id": 291.0,
+    "name": "David E. Polley",
+    "thumbnail": "creators/david_e_polley_100px.jpg"
+  },
+  {
+    "id": 292.0,
+    "name": "Sune Lehmann",
+    "thumbnail": "creators/sune_lehmann_100px.jpg"
+  },
+  {
+    "id": 293.0,
+    "name": "Yong-Yeol Ahn",
+    "thumbnail": "creators/yong_yeol_ahn_100px.jpg"
+  },
+  {
+    "id": 294.0,
+    "name": "Dimitris Menemenlis",
+    "thumbnail": "creators/dimitris_menemenlis_100px.jpg"
+  },
+  {
+    "id": 295.0,
+    "name": "Christopher N. Hill",
+    "thumbnail": "creators/christopher_n_hill_100px.jpg"
+  },
+  {
+    "id": 288.0,
+    "name": "James Niels Rosenquist",
+    "thumbnail": "creators/niels_rosenquist_100px.jpg"
+  },
+  {
+    "id": 267.0,
+    "name": "Jérôme Cukier",
+    "thumbnail": "creators/JeromeCukier_100px.jpg"
+  },
+  {
+    "id": 268.0,
+    "name": "Randall Munroe",
+    "thumbnail": "creators/randall_munroe_80x100.jpg"
+  },
+  {
+    "id": 30.0,
+    "name": "Martin Waldseemüller",
+    "thumbnail": "creators/images____________.jpg"
+  },
+  {
+    "id": 90.0,
+    "name": "Madeleine de Scudéry",
+    "thumbnail": "creators/images_____________________________.jpg"
+  },
+  {
+    "id": 169.0,
+    "name": "Claudius Ptolemy",
+    "thumbnail": "creators/claudius_ptolemy.jpg"
+  },
+  {
+    "id": 233.0,
+    "name": "David Dorling",
+    "thumbnail": "creators/david-dorling.jpg"
+  },
+  {
+    "id": 139.0,
+    "name": "John Pritchard",
+    "thumbnail": "creators/john-pritchard.jpg"
+  },
+  {
+    "id": 241.0,
+    "name": "Bailey Klinger",
+    "thumbnail": "creators/bailey-klinger.jpg"
+  },
+  {
+    "id": 244.0,
+    "name": "Edmund Talley",
+    "thumbnail": "creators/edmund-talley.jpg"
+  },
+  {
+    "id": 242.0,
+    "name": "Ricardo Hausmann",
+    "thumbnail": "creators/Ricardo-Hausmann.jpg"
+  },
+  {
+    "id": 247.0,
+    "name": "David Newman",
+    "thumbnail": "creators/david-newman.jpg"
+  },
+  {
+    "id": 248.0,
+    "name": "David Newman",
+    "thumbnail": "creators/david-newman.jpg"
+  },
+  {
+    "id": 151.0,
+    "name": "Aric Hagberg",
+    "thumbnail": "creators/aric-hagberg.jpg"
+  },
+  {
+    "id": 245.0,
+    "name": "Chris Creevey",
+    "thumbnail": "creators/chris-creevey.jpg"
+  },
+  {
+    "id": 246.0,
+    "name": "Christian Von Mering",
+    "thumbnail": "creators/christian-von-mering.jpg"
+  },
+  {
+    "id": 218.0,
+    "name": "Pastor Christoph Römhild",
+    "thumbnail": "creators/christoph-romhild.jpg"
+  },
+  {
+    "id": 229.0,
+    "name": "Moritz Stefaner",
+    "thumbnail": "creators/moritz-stefaner.jpg"
+  },
+  {
+    "id": 227.0,
+    "name": "Devin Becker",
+    "thumbnail": "creators/devin-becker.jpg"
+  },
+  {
+    "id": 226.0,
+    "name": "Maximilian Schich",
+    "thumbnail": "creators/maximillian-schich.jpg"
+  },
+  {
+    "id": 225.0,
+    "name": "Olivier H. Beauchesne",
+    "thumbnail": "creators/olivier-beauchesne.jpg"
+  },
+  {
+    "id": 296.0,
+    "name": "Bernard Porter",
+    "thumbnail": "creators/bernard_porter_80x100.jpg"
+  },
+  {
+    "id": 297.0,
+    "name": "Martin Vargic",
+    "thumbnail": "creators/martin_vargic_80x100.jpg"
+  },
+  {
+    "id": 298.0,
+    "name": "John Brownstein",
+    "thumbnail": "creators/john_brownstein_80x100.jpg"
+  },
+  {
+    "id": 301.0,
+    "name": "Peter Daszak",
+    "thumbnail": "creators/peter_daszak_80x100.jpg"
+  },
+  {
+    "id": 300.0,
+    "name": "William Karesh",
+    "thumbnail": "creators/william_karesh_80x100.jpg"
+  },
+  {
+    "id": 302.0,
+    "name": "Nathan Wolfe",
+    "thumbnail": "creators/nathan_wolfe_80x100.jpg"
+  },
+  {
+    "id": 303.0,
+    "name": "Tracey Goldstein",
+    "thumbnail": "creators/tracey_goldstein_80x100.jpg"
+  },
+  {
+    "id": 304.0,
+    "name": "Susan Aman",
+    "thumbnail": "creators/susan_aman_80x100.jpg"
+  },
+  {
+    "id": 326.0,
+    "name": "Valeska Korff",
+    "thumbnail": "creators/valeska_korff_80x100.jpg"
+  },
+  {
+    "id": 325.0,
+    "name": "Achim Oberg",
+    "thumbnail": "creators/achim_oberg_80x100.jpg"
+  },
+  {
+    "id": 324.0,
+    "name": "Walter Powell",
+    "thumbnail": "creators/walter_powell_80x100.jpg"
+  },
+  {
+    "id": 305.0,
+    "name": "Clark Friefeld",
+    "thumbnail": "creators/clark_friefeld_80x100.jpg"
+  },
+  {
+    "id": 306.0,
+    "name": "Sumiko Mekaru",
+    "thumbnail": "creators/sumiko_mekaru_80x100.jpg"
+  },
+  {
+    "id": 307.0,
+    "name": "Tammie O'Rourke",
+    "thumbnail": "creators/tammie_orourke_80x100.jpg"
+  },
+  {
+    "id": 308.0,
+    "name": "Stephen Morse",
+    "thumbnail": "creators/stephen_morse_80x100.jpg"
+  },
+  {
+    "id": 310.0,
+    "name": "Jonna Mazet",
+    "thumbnail": "creators/jonna_mazet_80x100.jpg"
+  },
+  {
+    "id": 311.0,
+    "name": "Elijah Meeks",
+    "thumbnail": "creators/elijah_meeks_80x100.jpg"
+  },
+  {
+    "id": 312.0,
+    "name": "Walter Scheidel",
+    "thumbnail": "creators/walter_scheidel_80x100.jpg"
+  },
+  {
+    "id": 313.0,
+    "name": "Marc Bertin",
+    "thumbnail": "creators/marc_bertin_80x100.jpg"
+  },
+  {
+    "id": 314.0,
+    "name": "Iana Atanassova",
+    "thumbnail": "creators/iana_atanassova_80x100.jpg"
+  },
+  {
+    "id": 317.0,
+    "name": "Mario Diwersy",
+    "thumbnail": "creators/mario_diwersy_80x100.jpg"
+  },
+  {
+    "id": 316.0,
+    "name": "Yves Gingras",
+    "thumbnail": "creators/yves_gingras_80x100.jpg"
+  },
+  {
+    "id": 318.0,
+    "name": "Christian Herzog",
+    "thumbnail": "creators/christian_herzog_80x100.jpg"
+  },
+  {
+    "id": 319.0,
+    "name": "Luciano Kay",
+    "thumbnail": "creators/luciano_kay_80x100.jpg"
+  },
+  {
+    "id": 320.0,
+    "name": "Alan Porter",
+    "thumbnail": "creators/alan_porter_80x100.jpg"
+  },
+  {
+    "id": 321.0,
+    "name": "Ismael Rafols",
+    "thumbnail": "creators/ismael_rafols_80x100.jpg"
+  },
+  {
+    "id": 322.0,
+    "name": "Nils Newman",
+    "thumbnail": "creators/nils_newman_80x100.jpg"
+  },
+  {
+    "id": 323.0,
+    "name": "Jan Youtie",
+    "thumbnail": "creators/jan_youtie_80x100.jpg"
+  },
+  {
+    "id": 309.0,
+    "name": "Christine Kreuder Johnson",
+    "thumbnail": "creators/christine_kreuder_johnson_80x100.jpg"
+  },
+  {
+    "id": 315.0,
+    "name": "Vincent Larivière",
+    "thumbnail": "creators/Vincent_Lariviere_80W.jpg"
+  },
+  {
+    "id": 338.0,
+    "name": "Maximillian Schich",
+    "thumbnail": "creators/maximillian-schich.jpg"
+  },
+  {
+    "id": 344.0,
+    "name": "Anna Rosling R&ouml;nnlund",
+    "thumbnail": "creators/anna-rosling-ronnlund.jpg"
+  },
+  {
+    "id": 345.0,
+    "name": "Ola Rosling",
+    "thumbnail": "creators/ola-rosling.jpg"
+  },
+  {
+    "id": 8.0,
+    "name": "Claudius Ptolemy",
+    "thumbnail": "creators/claudius_ptolemy.jpg"
+  },
+  {
+    "id": 327.0,
+    "name": "Jeff Colosino",
+    "thumbnail": "creators/Jeff_Colosino_100px.jpg"
+  },
+  {
+    "id": 328.0,
+    "name": "Alphonse MacDonald",
+    "thumbnail": "creators/Alphonse_MacDonald_100px.jpg"
+  },
+  {
+    "id": 329.0,
+    "name": "Stephen Mautner",
+    "thumbnail": "creators/Stephen_Mautner_100px.jpg"
+  },
+  {
+    "id": 330.0,
+    "name": "Barbara Kline Pope ",
+    "thumbnail": "creators/BarbaraKleinPope_100px.jpg"
+  },
+  {
+    "id": 331.0,
+    "name": "JD Talasek",
+    "thumbnail": "creators/JD_Talasek_100px.jpg"
+  },
+  {
+    "id": 332.0,
+    "name": "Juan Thomassie ",
+    "thumbnail": "creators/Juan_Thomassie_100px.jpg"
+  },
+  {
+    "id": 333.0,
+    "name": "Chin Hua Kong",
+    "thumbnail": "creators/ChinHuaKong_100px.jpg"
+  },
+  {
+    "id": 334.0,
+    "name": "Samuel T. Mills",
+    "thumbnail": "creators/Samuel_Mills_100px.jpg"
+  },
+  {
+    "id": 335.0,
+    "name": "Adam Simpson",
+    "thumbnail": "creators/adam_simpson_100px.jpg"
+  },
+  {
+    "id": 337.0,
+    "name": "Mauro Martino",
+    "thumbnail": "creators/Mauro_Martino_100px.jpg"
+  },
+  {
+    "id": 299.0,
+    "name": "Damien Joly",
+    "thumbnail": "creators/damien-joly.jpg"
+  },
+  {
+    "id": 339.0,
+    "name": "Cameron Becarrio",
+    "thumbnail": "creators/cameron_becarrio_100px.jpg"
+  },
+  {
+    "id": 336.0,
+    "name": "Kalev H. Leetaru",
+    "thumbnail": "creators/Kalev_Leetaru_100px.jpg"
+  },
+  {
+    "id": 340.0,
+    "name": "Kalev Leetaru",
+    "thumbnail": "creators/Kalev_Leetaru_100px.jpg"
+  },
+  {
+    "id": 290.0,
+    "name": "Samuel T. Mills",
+    "thumbnail": "creators/samuel_t_mills_100px.jpg"
+  },
+  {
+    "id": 210.0,
+    "name": "Katy Börner",
+    "thumbnail": "creators/Katy_Borner_100px.jpg"
+  },
+  {
+    "id": 13.0,
+    "name": "Katy Börner",
+    "thumbnail": "creators/Katy_Borner_100px.jpg"
+  },
+  {
+    "id": 79.0,
+    "name": "Steven Morris",
+    "thumbnail": "creators/steven_morris.jpg"
+  },
+  {
+    "id": 341.0,
+    "name": "Sepp Deinhofer",
+    "thumbnail": "creators/sepp-deinhofer.jpg"
+  },
+  {
+    "id": 342.0,
+    "name": "Devin Becker",
+    "thumbnail": "creators/devin-becker.jpg"
+  },
+  {
+    "id": 343.0,
+    "name": "John A. Walsh",
+    "thumbnail": "creators/john-walsh.jpg"
+  },
+  {
+    "id": 374.0,
+    "name": "Gerhard Bliedung",
+    "thumbnail": "creators/gerhard-bliedung.jpg"
+  },
+  {
+    "id": 347.0,
+    "name": "Daniel Quercia",
+    "thumbnail": "creators/daniel-quercia.jpg"
+  },
+  {
+    "id": 364.0,
+    "name": "David Chavalarias",
+    "thumbnail": "creators/david-chavalarias.jpg"
+  },
+  {
+    "id": 346.0,
+    "name": "Daniel Quercia",
+    "thumbnail": "creators/daniel-quercia.jpg"
+  },
+  {
+    "id": 348.0,
+    "name": "Rossano Schifanella",
+    "thumbnail": "creators/rossano-schifanella.jpg"
+  },
+  {
+    "id": 349.0,
+    "name": "Luca Maria Aiello",
+    "thumbnail": "creators/luca-aiello.jpg"
+  },
+  {
+    "id": 351.0,
+    "name": "R&uuml;diger Mutz",
+    "thumbnail": "creators/rudiger-mutz.jpg"
+  },
+  {
+    "id": 350.0,
+    "name": "Lutz Bornmann",
+    "thumbnail": "creators/lutz-bornmann.jpg"
+  },
+  {
+    "id": 352.0,
+    "name": "David Reagan",
+    "thumbnail": "creators/david-reagan.jpg"
+  },
+  {
+    "id": 353.0,
+    "name": "FleetMon",
+    "thumbnail": "creators/fleetmon.jpg"
+  },
+  {
+    "id": 365.0,
+    "name": "Maziyar Panahi",
+    "thumbnail": "creators/maziyar-panahi.jpg"
+  },
+  {
+    "id": 355.0,
+    "name": "Lisel Record",
+    "thumbnail": "creators/lisel-record.jpg"
+  },
+  {
+    "id": 354.0,
+    "name": "Felix Moya Anegon",
+    "thumbnail": "creators/felix-moyaneg.jpg"
+  },
+  {
+    "id": 356.0,
+    "name": "Kim Albrecht",
+    "thumbnail": "creators/kim_albrecht_100px.jpg"
+  },
+  {
+    "id": 361.0,
+    "name": "Kim Albrecht",
+    "thumbnail": "creators/kim_albrecht_100px.jpg"
+  },
+  {
+    "id": 358.0,
+    "name": "Kim Albrecht",
+    "thumbnail": "creators/kim_albrecht_100px.jpg"
+  },
+  {
+    "id": 359.0,
+    "name": "Matan Stauber",
+    "thumbnail": "creators/matan_stauber_100px.jpg"
+  },
+  {
+    "id": 360.0,
+    "name": "Garrett Dash Nelson",
+    "thumbnail": "creators/garrett_d_nelson_100px.jpg"
+  },
+  {
+    "id": 362.0,
+    "name": "Alasdair Rae",
+    "thumbnail": "creators/alasdair_rae_100px.jpg"
+  },
+  {
+    "id": 367.0,
+    "name": "Yuri Vishnevsky",
+    "thumbnail": "creators/yuri-vishnevsky.jpg"
+  },
+  {
+    "id": 366.0,
+    "name": "Moritz Stefaner",
+    "thumbnail": "creators/14-moritz-stefaner.jpg"
+  },
+  {
+    "id": 363.0,
+    "name": "Roberta Sinatra",
+    "thumbnail": "creators/roberta_sinatra_100px.jpg"
+  },
+  {
+    "id": 368.0,
+    "name": "Ned English",
+    "thumbnail": "creators/edward-english.jpg"
+  },
+  {
+    "id": 369.0,
+    "name": "Megan Heffernan",
+    "thumbnail": "creators/megan-heffernan.jpg"
+  },
+  {
+    "id": 370.0,
+    "name": "Peter Herman",
+    "thumbnail": "creators/peter-herman.jpg"
+  },
+  {
+    "id": 357.0,
+    "name": "Albert-László Barabási",
+    "thumbnail": "creators/laszlo_barabasi_100px.jpg"
+  },
+  {
+    "id": 371.0,
+    "name": "Michael Meit",
+    "thumbnail": "creators/michael-meit.jpg"
+  },
+  {
+    "id": 373.0,
+    "name": "Ece Kavlak",
+    "thumbnail": "creators/ece-kavlak.jpg"
+  },
+  {
+    "id": 375.0,
+    "name": "Luc Guillemot",
+    "thumbnail": "creators/luc-guillemot.jpg"
+  },
+  {
+    "id": 376.0,
+    "name": "Peter Gassner",
+    "thumbnail": "creators/peter-gassner.jpg"
+  },
+  {
+    "id": 379.0,
+    "name": "Megan Heffernan",
+    "thumbnail": "creators/megan-heffernan.jpg"
+  },
+  {
+    "id": 377.0,
+    "name": "Tomas Carnecky",
+    "thumbnail": "creators/tomas-carnecky.jpg"
+  },
+  {
+    "id": 380.0,
+    "name": "Peter Herman",
+    "thumbnail": "creators/peter-herman.jpg"
+  },
+  {
+    "id": 381.0,
+    "name": "Michael Meit",
+    "thumbnail": "creators/michael-meit.jpg"
+  },
+  {
+    "id": 378.0,
+    "name": "Ned English",
+    "thumbnail": "creators/edward-english.jpg"
+  },
+  {
+    "id": 372.0,
+    "name": "Christian Siegrist",
+    "thumbnail": "creators/christian-siegrist.jpg"
+  },
+  {
+    "id": 382.0,
+    "name": "Jeremy Douglass",
+    "thumbnail": "creators/jeremy-douglass.jpg"
+  },
+  {
+    "id": 387.0,
+    "name": "Cath Sleeman",
+    "thumbnail": "creators/cath-sleeman.jpg"
+  },
+  {
+    "id": 386.0,
+    "name": "Jyldyz Djumalieva",
+    "thumbnail": "creators/jyldyz-djumalieva.jpg"
+  },
+  {
+    "id": 385.0,
+    "name": "Shing-yun Chiang",
+    "thumbnail": "creators/shing-yun-chiang.jpg"
+  },
+  {
+    "id": 388.0,
+    "name": "No&eacute; Gaumont",
+    "thumbnail": "creators/noe_gaumont_100px.jpg"
+  },
+  {
+    "id": 383.0,
+    "name": "Abin Abraham",
+    "thumbnail": "creators/abin-abraham.jpg"
+  },
+  {
+    "id": 384.0,
+    "name": "Will (Jiahao) Su",
+    "thumbnail": "creators/will-su.jpg"
+  },
+  {
+    "id": 396.0,
+    "name": "Dasha Kolmakova",
+    "thumbnail": "creators/dasha-kolmakova.jpg"
+  },
+  {
+    "id": 395.0,
+    "name": "Olya Stukova",
+    "thumbnail": "creators/olya-stukova.jpg"
+  },
+  {
+    "id": 394.0,
+    "name": "Nikita Rokotyan",
+    "thumbnail": "creators/nikita-rokotyan.jpg"
+  },
+  {
+    "id": 393.0,
+    "name": "Mauro Martino",
+    "thumbnail": "creators/mauro-martino.jpg"
+  },
+  {
+    "id": 392.0,
+    "name": "Megan Monroe",
+    "thumbnail": "creators/megan-monroe.jpg"
+  },
+  {
+    "id": 390.0,
+    "name": "Steven Ross",
+    "thumbnail": "creators/steven-ross.jpg"
+  },
+  {
+    "id": 389.0,
+    "name": "Andrew Levinson",
+    "thumbnail": "creators/andrew-levinson.jpg"
+  },
+  {
+    "id": 401.0,
+    "name": "Mauro Martino",
+    "thumbnail": "creators/mauro-martino.jpg"
+  },
+  {
+    "id": 400.0,
+    "name": "Onur Varol",
+    "thumbnail": "creators/onur-varol.jpg"
+  },
+  {
+    "id": 399.0,
+    "name": "Qing Ke",
+    "thumbnail": "creators/qing-ke.jpg"
+  },
+  {
+    "id": 398.0,
+    "name": "Alexander Gates",
+    "thumbnail": "creators/alexander-gates.jpg"
+  },
+  {
+    "id": 397.0,
+    "name": "Alice Grischchenko",
+    "thumbnail": "creators/alice-grischchenko.jpg"
+  },
+  {
+    "id": 391.0,
+    "name": "Timothy Stutts",
+    "thumbnail": "creators/tim-stutts.jpg"
+  },
+  {
+    "id": 402.0,
+    "name": "Albert-László Barabási",
+    "thumbnail": "creators/albert-laszlo-barabasi.jpg"
+  }
+]
