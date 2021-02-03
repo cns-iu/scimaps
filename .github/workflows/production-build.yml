@@ -1,9 +1,9 @@
-name: 'Staging Build'
+name: 'Production Build'
 
 on:
   workflow_run:
     workflows: ['Tests']
-    branches: ['develop']
+    branches: ['main']
     types:
       - completed
 
@@ -35,10 +35,9 @@ jobs:
       - run: cp -r admin website/dist/scimaps
         working-directory: '.'
 
-      - uses: jsmrcaga/action-netlify-deploy@master
+      - uses: peaceiris/actions-gh-pages@v3
         with:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_DEPLOY_MESSAGE: "Staging deploy -- ${{ github.event.head_commit.message }}"
-          NETLIFY_DEPLOY_TO_PROD: true
-          build_directory: website/dist/scimaps
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: website/dist/scimaps
+          cname: dev.scimaps.org
+          commit_message: "Production deploy -- ${{ github.event.head_commit.message }}"
