@@ -27,9 +27,9 @@ export class LazyTableComponent {
   get sortedData(): TableData[] {
     const currentData = this.data;
     let weight = 0;
-    const sortedData = currentData.sort((dataOne: TableData, dataTwo: TableData) => {
-      const a = dataOne[this.sort] as TableField;
-      const b = dataTwo[this.sort] as TableField;
+    currentData.sort((dataOne: TableData, dataTwo: TableData) => {
+      const a = dataOne[this.sort];
+      const b = dataTwo[this.sort];
       if (a.type === 'icons' && a.links && b.links) {
         weight = a.links.length > b.links.length ? 1 : -1;
       } else if (a.type === 'date') {
@@ -42,7 +42,7 @@ export class LazyTableComponent {
 
       return this.sortDirection === 'ascending' ? weight : weight * -1;
     });
-    return sortedData.slice(0, this.itemsToShow);
+    return currentData.slice(0, this.itemsToShow);
   }
 
   get showButtonLabel(): string {

@@ -57,9 +57,7 @@ function getSortedSampleData(): TableData[] {
       history: {
         label: 'History',
         type: 'icons',
-        links: [
-
-        ]
+        links: history
       }
     });
 
