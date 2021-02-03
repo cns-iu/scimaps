@@ -55,7 +55,7 @@ describe('LazyCardsComponent', () => {
 
   it('displayItems should be the same length as itemsToDisplay when there are >= number of items', async () => {
     const data = getTableData(3);
-    const getHeader = () => {return ''};
+    const getHeader = () => '';
     const { instance } = await shallow.render({ bind: { data, getHeader } });
     instance.itemsToDisplay = 2;
     expect(instance.displayItems.length).toEqual(instance.itemsToDisplay);
@@ -63,7 +63,7 @@ describe('LazyCardsComponent', () => {
 
   it('moreItemsToDisplay should be true when there are more items than itemsToDisplay', async () => {
     const data = getTableData(4);
-    const getHeader = () => {return ''};
+    const getHeader = () => '';
     const { instance } = await shallow.render({ bind: { data, getHeader } });
     instance.itemsToDisplay = 3;
     expect(instance.moreItemsToDisplay).toBeTrue();
@@ -71,7 +71,7 @@ describe('LazyCardsComponent', () => {
 
   it('moreItemsToDisplay should be false when there are not more items than itemsToDisplay', async () => {
     const data = getTableData(2);
-    const getHeader = () => {return ''};
+    const getHeader = () => '';
     const { instance } = await shallow.render({ bind: { data, getHeader } });
     instance.itemsToDisplay = 2;
     expect(instance.moreItemsToDisplay).toBeFalse();
@@ -79,7 +79,7 @@ describe('LazyCardsComponent', () => {
 
   it('should call window.open with the correct link when goToLink is called', async () => {
     const data = getTableData(1);
-    const getHeader = () => {return ''};
+    const getHeader = () => '';
     const { instance } = await shallow.render({ bind: { data, getHeader } });
     const spy = spyOn(window, 'open');
     instance.goToLink('www.test.com');
@@ -88,7 +88,7 @@ describe('LazyCardsComponent', () => {
 
   it('should incrememnet itemsToDisplay by ITEMS_TO_DISPLAY_INCREMEMENT when showMore is called', async () => {
     const data = getTableData(1);
-    const getHeader = () => {return ''};
+    const getHeader = () => '';
     const { instance } = await shallow.render({ bind: { data, getHeader } });
     const before = instance.itemsToDisplay;
     instance.showMore();

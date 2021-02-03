@@ -118,7 +118,8 @@ export class VenuesComponent {
 
   cardHeaderFunction = (row: TableData) => {
     return `${row.startDate.label} - ${row.endDate.label}`;
-  };
+  }
+
   cardLinkFunction = (row: TableData) => {
     return row.media.links;
   }
