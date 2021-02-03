@@ -1,0 +1,20 @@
+<div class="details-container">
+  <div class="back-button" (click)="close()">
+    <mat-icon class="back-icon">chevron_left</mat-icon>
+    <div>BACK</div>
+  </div>
+
+  <h2 class="makers-title">Makers: {{title}}</h2>
+
+  <div class="maker-container">
+    <div class="maker-info" *ngFor="let maker of makers">
+      <img class="thumbnail" [src]="maker.thumbnail" alt="maker image">
+      <div class="info">
+        <div class="name">{{maker.name}}</div>
+        <div class="job">{{maker.job}}</div>
+        <div class="bio">{{maker.bio}}</div>
+      </div>
+    </div>
+  </div>
+
+</div>

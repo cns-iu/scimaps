@@ -4,6 +4,9 @@ import { MatDialog } from '@angular/material/dialog';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.component';
 
+/**
+ * Drawer that opens when a map or macroscope item is selected
+ */
 @Component({
   selector: 'sci-item-drawer',
   templateUrl: './item-drawer.component.html',
@@ -33,13 +36,16 @@ export class ItemDrawerComponent {
    */
   selectedLanguage = 'en';
 
+  /** Whether the subdrawer containing maker info is open */
+  showSubdrawer = false;
+
   constructor(private readonly dialog: MatDialog, private router: Router) { }
 
   /**
    * Combines the maker names
    */
   get makers(): string {
-    return this.item.makers.join(', ');
+    return this.item.makers.map(maker => maker.name).join(', ');
   }
 
   /**
@@ -65,5 +71,15 @@ export class ItemDrawerComponent {
     this.dialog.open(PurchaseModalComponent, {
       width: window.innerWidth <= 768 ? '100%' : '738px'
     });
+  }
+
+  /** Opens the maker subdrawer */
+  openSubdrawer(): void {
+    this.showSubdrawer = true;
+  }
+
+  /** Closes the maker subdrawer */
+  closeSubdrawer(): void {
+    this.showSubdrawer = false;
   }
 }

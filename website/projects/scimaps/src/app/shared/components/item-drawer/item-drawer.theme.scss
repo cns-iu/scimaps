@@ -8,6 +8,10 @@
   .sci-item-drawer {
     background-color: white;
 
+    .back-button {
+      color: mat-color($primary);
+    }
+
     .purchase-button {
       color: mat-color($primary);
       border-color: mat-color($primary);

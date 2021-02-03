@@ -3,7 +3,7 @@ import { ActivatedRouteSnapshot, Resolve } from '@angular/router';
 import { combineLatest, Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 
-import { MapMacroscopeItem, Language } from '../../core/models/discover-item';
+import { MapMacroscopeItem, Language, MakerInfo } from '../../core/models/discover-item';
 import { ContentService } from '../../shared/services/content.service';
 
 
@@ -26,12 +26,18 @@ export class MapResolverService implements Resolve<MapMacroscopeItem> {
       const item: MapMacroscopeItem = {} as MapMacroscopeItem;
       item.title = data[language].title;
       item.makers = data.en.makers.map((m: any) => {
-        m = m.replace('/readme', '').replace('-', ' ');
-        let names = m.split(' ')
+        const m1 = m.replace('/readme', '');
+        const m2 = m1.replace(/-/g, ' ');
+        let names = m2.split(' ')
         for (let i = 0, x = names.length; i < x; i++) {
           names[i] = names[i][0].toUpperCase() + names[i].substr(1);
         }
-        return names.join(' ')
+        return {
+          name: names.join(' '),
+          job: 'Job Title',
+          bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dui euismod mauris faucibus euismod non lacinia quam. Morbi sit amet placerat dui. Sed ut dolor efficitur, consequat augue sed, pharetra orci.',
+          thumbnail: `assets/content/person/${m1}/image.jpg`
+        }
       });
       item.credit = data[language].creditLine;
       item.description = data[language].body;
