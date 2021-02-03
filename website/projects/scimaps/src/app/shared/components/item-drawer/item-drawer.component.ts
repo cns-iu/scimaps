@@ -56,7 +56,6 @@ export class ItemDrawerComponent {
   languageSelect(language: string): void {
     this.selectedLanguage = language;
     this.languageChange.emit(language);
-    console.log(this.item)
   }
 
   /**

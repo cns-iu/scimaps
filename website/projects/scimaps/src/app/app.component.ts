@@ -1,13 +1,53 @@
 import { Component } from '@angular/core';
-import { ImageCardItem } from './core/models/image-card-item';
+import { RouterOutlet } from '@angular/router';
+import {
+  trigger,
+  query,
+  style,
+  animate,
+  transition,
+  group,
+  animateChild
+} from '@angular/animations';
 
+import { ImageCardItem } from './core/models/image-card-item';
 import { NewsItem } from './shared/components/news-item/news-item.model';
 
+export const slideInAnimation =
+  trigger('routeAnimations', [
+    transition('Maps <=> Map', [
+      style({ position: 'relative' }),
+      query(':enter, :leave', [
+        style({
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%'
+        })
+      ]),
+      query(':enter', [
+        style({ left: '-100%' })
+      ]),
+      query(':leave', animateChild()),
+      group([
+        query(':leave', [
+          animate('3000ms ease-out', style({ left: '100%' }))
+        ]),
+        query(':enter', [
+          animate('3000ms ease-out', style({ left: '0%' }))
+        ])
+      ]),
+      query(':enter', animateChild()),
+    ])
+  ]);
 
 @Component({
   selector: 'sci-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  animations: [
+    slideInAnimation
+  ]
 })
 export class AppComponent {
   sidenavOpen = false;
@@ -146,4 +186,8 @@ export class AppComponent {
     thumbnail: 'assets/images/rose.jpg',
     pdfLink: 'link'
   };
+
+  prepareRoute(outlet: RouterOutlet) {
+    return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
+  }
 }
