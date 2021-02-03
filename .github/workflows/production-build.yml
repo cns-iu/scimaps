@@ -22,16 +22,22 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - name: npm ci for content-migrator
         run: npm ci
-        working-directory: ./content-migrator
+        working-directory: content-migrator
       - run: npm run job
-        working-directory: ./content-migrator
+        working-directory: content-migrator
       - name: npm ci for website
         run: npm ci
-        working-directory: ./website
+        working-directory: website
       - run: npm run build -- --output-hashing=none --base-href=/
-        working-directory: ./website
+        working-directory: website
       - run: cp -r admin website/dist/scimaps
         working-directory: '.'
 
