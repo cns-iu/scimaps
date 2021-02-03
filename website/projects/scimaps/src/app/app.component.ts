@@ -187,7 +187,7 @@ export class AppComponent {
     pdfLink: 'link'
   };
 
-  prepareRoute(outlet: RouterOutlet) {
+  prepareRoute(outlet: RouterOutlet): string {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
   }
 }

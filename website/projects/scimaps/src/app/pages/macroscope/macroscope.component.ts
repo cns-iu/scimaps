@@ -9,7 +9,7 @@ import { MapMacroscopeItem } from '../../core/models/discover-item';
   templateUrl: './macroscope.component.html',
   styleUrls: ['./macroscope.component.scss']
 })
-export class MacroscopeComponent implements OnInit {
+export class MacroscopeComponent implements OnInit, OnDestroy {
 
   selectedItem!: MapMacroscopeItem;
 

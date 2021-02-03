@@ -25,10 +25,10 @@ export class MacroscopeResolverService implements Resolve<MapMacroscopeItem> {
     return combineLatest([languages$, content$]).pipe(map<[any, any], MapMacroscopeItem>(([languages, data]) => {
       const item: MapMacroscopeItem = {} as MapMacroscopeItem;
       item.title = data[language].title;
-      item.makers = data.en.makers.map((m: any) => {
+      item.makers = data.en.makers.map((m: string) => {
         const m1 = m.replace('/readme', '');
         const m2 = m1.replace(/-/g, ' ');
-        let names = m2.split(' ')
+        const names = m2.split(' ');
         for (let i = 0, x = names.length; i < x; i++) {
           names[i] = names[i][0].toUpperCase() + names[i].substr(1);
         }
@@ -37,14 +37,14 @@ export class MacroscopeResolverService implements Resolve<MapMacroscopeItem> {
           job: 'Job Title',
           bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dui euismod mauris faucibus euismod non lacinia quam. Morbi sit amet placerat dui. Sed ut dolor efficitur, consequat augue sed, pharetra orci.',
           thumbnail: `assets/content/person/${m1}/image.jpg`
-        }
+        };
       });
       item.credit = data[language].creditLine;
       item.description = data[language].body;
       item.references = data[language].references;
       item.thumbnail = `assets/content/macroscope/${data.en.iteration}/${data.en.sequence}/${data.en.image.lg}`;
-      item.translations = languages.languages.filter((language: Language) => {
-        return Object.keys(data).includes(language.abbr_short)
+      item.translations = languages.languages.filter((lang: Language) => {
+        return Object.keys(data).includes(lang.abbr_short);
       });
       item.externalLink = data.en.externalLink;
       return item;
