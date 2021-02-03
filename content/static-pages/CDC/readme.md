@@ -1,10 +1,10 @@
 ---
-id: 83
-name: CDC
+id: 84
+name: cdc
 subpage: other
 title: CDC
 description: null
-last_updated: '2016-01-13'
+last_updated: '2016-01-15'
 ---
 ![](images/CDC/cdc_header.jpg)  
 
