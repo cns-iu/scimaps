@@ -1,5 +1,5 @@
 import { Component, Input, HostBinding, Output, EventEmitter } from '@angular/core';
-  
+
 import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';

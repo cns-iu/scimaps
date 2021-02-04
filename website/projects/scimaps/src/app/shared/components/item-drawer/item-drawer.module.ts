@@ -13,7 +13,7 @@ import { MacroscopesComponent } from '../../../pages/macroscopes/macroscopes.com
 const routes: Routes = [
   { path: 'maps', component: MapsComponent},
   { path: 'macroscopes', component: MacroscopesComponent}
-]
+];
 
 @NgModule({
   imports: [

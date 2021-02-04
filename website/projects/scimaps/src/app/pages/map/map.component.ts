@@ -45,7 +45,6 @@ export class MapComponent implements OnInit, OnDestroy {
     const iteration = this.route.snapshot.paramMap.get('iteration');
     const sequence = this.route.snapshot.paramMap.get('sequence');
     this.router.navigate(['/', 'map', iteration, sequence], { queryParams: {lang: language} });
-    console.log(this.route)
   }
 
   /**

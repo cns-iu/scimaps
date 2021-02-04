@@ -7,11 +7,11 @@ import { MapMacroscopeItem, Language, MakerInfo } from '../../core/models/discov
 import { ContentService } from '../../shared/services/content.service';
 
 
-interface MapData {
-  [lang: string]: {
-    [key: string]: unknown;
-  }
-};
+// interface MapData {
+//   [lang: string]: {
+//     [key: string]: unknown;
+//   }
+// };
 
 @Injectable({
   providedIn: 'root'

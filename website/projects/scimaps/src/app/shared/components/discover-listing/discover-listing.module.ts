@@ -9,7 +9,7 @@ import { WarningDialogModule } from '../warning-dialog/warning-dialog.module';
 const routes: Routes = [
   { path: 'map', loadChildren: () => import('../../../pages/map/map.module').then(m => m.MapModule)},
   { path: 'macroscope', loadChildren: () => import('../../../pages/macroscope/macroscope.module').then(m => m.MacroscopeModule) },
-]
+];
 
 @NgModule({
   declarations: [DiscoverListingComponent],
