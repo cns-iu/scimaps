@@ -26,7 +26,7 @@ export class MapComponent implements OnInit, OnDestroy {
   private subscriptionA?: Subscription;
   private subscriptionB?: Subscription;
 
-  constructor(public route: ActivatedRoute, public router: Router) { }
+  constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
     this.subscriptionA = this.route.data.subscribe((data) => {

@@ -1,5 +1,4 @@
 import { Shallow } from 'shallow-render';
-import { Location } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
 
