@@ -16,6 +16,7 @@ export class DiscoverListingComponent {
   @Input() discoverItem!: DiscoverItem;
   mobileWarning = 'Macroscopes work best on desktop or larger tablet screens.  You may have a less than optimal experience on this device.';
 
+  /** Type of discover list */
   @Input() type!: 'macroscopes' | 'maps';
 
   constructor(private readonly dialog: MatDialog, private router: Router) { }

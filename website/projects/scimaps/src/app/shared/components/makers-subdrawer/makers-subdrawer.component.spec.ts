@@ -1,25 +1,21 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { Shallow } from 'shallow-render';
 
 import { MakersSubdrawerComponent } from './makers-subdrawer.component';
+import { MakersSubdrawerModule } from './makers-subdrawer.module';
+
+const type = 'macroscopes';
 
 describe('MakersSubdrawerComponent', () => {
-  let component: MakersSubdrawerComponent;
-  let fixture: ComponentFixture<MakersSubdrawerComponent>;
+  let shallow: Shallow<MakersSubdrawerComponent>;
 
   beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ MakersSubdrawerComponent ]
-    })
-    .compileComponents();
+    shallow = new Shallow(MakersSubdrawerComponent, MakersSubdrawerModule);
   });
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(MakersSubdrawerComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
+  it('should close the subdrawer', async () => {
+    const { instance, find } = await shallow.render();
+    const closeButton = find('.back-button');
+    closeButton.triggerEventHandler('click', {});
+    expect(instance.closeDrawer.emit).toHaveBeenCalled();
   });
 });

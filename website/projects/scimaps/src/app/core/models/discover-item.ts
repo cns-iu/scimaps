@@ -51,9 +51,16 @@ export interface MapMacroscopeItem {
   externalLink: string;
 }
 
+/**
+ * Interface for language in map/macroscope items
+ */
 export interface Language {
+  /** Abbreviation of language */
   abbreviation: string;
+  /** Shorter abbreviation of language */
   abbr_short: string;
+  /** Name of language in English */
   language: string;
+  /** Name of language translated in that language */
   native: string;
 }

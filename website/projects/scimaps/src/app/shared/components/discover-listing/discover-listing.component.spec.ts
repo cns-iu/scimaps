@@ -1,9 +1,12 @@
 import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { Shallow } from 'shallow-render';
-
+import { Router, RouterModule, Routes } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing';
 import { DiscoverItem } from '../../../core/models/discover-item';
 import { DiscoverListingComponent } from './discover-listing.component';
 import { DiscoverListingModule } from './discover-listing.module';
+
+const routes: Routes = [{ path: 'home', component: class DummyComponent {} }];
 
 const discoverItem: DiscoverItem = {
   title: 'XV: macroscopes for Tracking the Flow of Resources (2019)',
@@ -45,7 +48,10 @@ describe('DiscoverListingComponent', () => {
   };
 
   beforeEach(async () => {
-    shallow = new Shallow(DiscoverListingComponent, DiscoverListingModule);
+    shallow = new Shallow(DiscoverListingComponent, DiscoverListingModule).replaceModule(
+      RouterModule,
+      RouterTestingModule.withRoutes(routes)
+    );
   });
 
   it('should create the correct image source', async () => {

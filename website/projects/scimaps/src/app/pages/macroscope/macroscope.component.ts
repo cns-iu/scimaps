@@ -4,15 +4,23 @@ import { Subscription } from 'rxjs';
 
 import { MapMacroscopeItem } from '../../core/models/discover-item';
 
+/**
+ * Component to displaying individual macroscope items
+ */
 @Component({
   selector: 'sci-macroscope',
   templateUrl: './macroscope.component.html',
   styleUrls: ['./macroscope.component.scss']
 })
 export class MacroscopeComponent implements OnInit, OnDestroy {
-
+  /**
+   * The current item displayed
+   */
   selectedItem!: MapMacroscopeItem;
 
+  /**
+   * Selected language
+   */
   currentLanguage = 'en';
 
   private subscriptionA?: Subscription;
@@ -29,6 +37,10 @@ export class MacroscopeComponent implements OnInit, OnDestroy {
     });
   }
 
+  /**
+   * Changes selected language and navigates to new language route
+   * @param language selected language
+   */
   changeLanguage(language: string): void {
     const iteration = this.route.snapshot.paramMap.get('iteration');
     const sequence = this.route.snapshot.paramMap.get('sequence');

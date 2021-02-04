@@ -4,21 +4,29 @@ import { Subscription } from 'rxjs';
 
 import { MapMacroscopeItem } from '../../core/models/discover-item';
 
+/**
+ * Component to displaying individual map items
+ */
 @Component({
   selector: 'sci-map',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.scss']
 })
 export class MapComponent implements OnInit, OnDestroy {
-
+  /**
+   * The current item displayed
+   */
   selectedItem!: MapMacroscopeItem;
 
+  /**
+   * Selected language
+   */
   currentLanguage = 'en';
 
   private subscriptionA?: Subscription;
   private subscriptionB?: Subscription;
 
-  constructor(private route: ActivatedRoute, private router: Router) { }
+  constructor(public route: ActivatedRoute, public router: Router) { }
 
   ngOnInit(): void {
     this.subscriptionA = this.route.data.subscribe((data) => {
@@ -29,10 +37,15 @@ export class MapComponent implements OnInit, OnDestroy {
     });
   }
 
+  /**
+   * Changes selected language and navigates to new language route
+   * @param language selected language
+   */
   changeLanguage(language: string): void {
     const iteration = this.route.snapshot.paramMap.get('iteration');
     const sequence = this.route.snapshot.paramMap.get('sequence');
     this.router.navigate(['/', 'map', iteration, sequence], { queryParams: {lang: language} });
+    console.log(this.route)
   }
 
   /**
