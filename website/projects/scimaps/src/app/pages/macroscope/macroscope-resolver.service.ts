@@ -22,6 +22,7 @@ export class MacroscopeResolverService implements Resolve<MapMacroscopeItem> {
     const mapSlug = `macroscope/${iteration}/${sequence}`;
     const content$ = this.content.getContent(mapSlug).pipe(take(1));
 
+    // tslint:disable-next-line: no-any
     return combineLatest([languages$, content$]).pipe(map<[any, any], MapMacroscopeItem>(([languages, data]) => {
       const item: MapMacroscopeItem = {} as MapMacroscopeItem;
       item.title = data[language].title;

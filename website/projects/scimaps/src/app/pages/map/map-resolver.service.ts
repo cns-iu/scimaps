@@ -7,12 +7,6 @@ import { MapMacroscopeItem, Language, MakerInfo } from '../../core/models/discov
 import { ContentService } from '../../shared/services/content.service';
 
 
-// interface MapData {
-//   [lang: string]: {
-//     [key: string]: unknown;
-//   }
-// };
-
 @Injectable({
   providedIn: 'root'
 })
@@ -28,7 +22,7 @@ export class MapResolverService implements Resolve<MapMacroscopeItem> {
     const mapSlug = `map/${iteration}/${sequence}`;
     const content$ = this.content.getContent(mapSlug).pipe(take(1));
 
-    // return combineLatest([languages$, content$]).pipe(map<[Language[], MapData], MapMacroscopeItem>(([languages, data]) => {
+    // tslint:disable-next-line: no-any
     return combineLatest([languages$, content$]).pipe(map<[any, any], MapMacroscopeItem>(([languages, data]) => {
       const item: MapMacroscopeItem = {} as MapMacroscopeItem;
       item.title = data[language].title;
