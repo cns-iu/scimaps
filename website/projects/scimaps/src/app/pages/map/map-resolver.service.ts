@@ -28,6 +28,7 @@ export class MapResolverService implements Resolve<MapMacroscopeItem> {
     const mapSlug = `map/${iteration}/${sequence}`;
     const content$ = this.content.getContent(mapSlug).pipe(take(1));
 
+    // return combineLatest([languages$, content$]).pipe(map<[Language[], MapData], MapMacroscopeItem>(([languages, data]) => {
     return combineLatest([languages$, content$]).pipe(map<[any, any], MapMacroscopeItem>(([languages, data]) => {
       const item: MapMacroscopeItem = {} as MapMacroscopeItem;
       item.title = data[language].title;

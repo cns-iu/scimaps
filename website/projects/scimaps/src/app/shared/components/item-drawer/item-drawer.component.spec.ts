@@ -1,4 +1,5 @@
 import { MatDialogRef, MatDialog } from '@angular/material/dialog';
+// import { Location } from '@angular/common';
 import { Shallow } from 'shallow-render';
 import { RouterModule, Routes } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
@@ -6,10 +7,10 @@ import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { ItemDrawerComponent } from './item-drawer.component';
 import { ItemDrawerModule } from './item-drawer.module';
 
-
 const routes: Routes = [
   {path: '', component: class DummyComponent {}}
 ];
+
 
 describe('ItemDrawerComponent', () => {
   const testItem: MapMacroscopeItem = {
@@ -91,4 +92,11 @@ describe('ItemDrawerComponent', () => {
     instance.closeSubdrawer();
     expect(instance.showSubdrawer).toBeFalse();
   });
+
+  // it('closes the item drawer', async () => {
+  //   const { instance, inject } = await shallow.render({ bind: { item: testItem, type: 'map' } });
+  //   const location = inject(Location);
+  //   instance.close();
+  //   expect(location.path()).toBe('/maps');
+  // });
 });

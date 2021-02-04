@@ -1,5 +1,5 @@
 import { Shallow } from 'shallow-render';
-import { RouterTestingModule } from "@angular/router/testing";
+import { RouterTestingModule } from '@angular/router/testing';
 import { RouterModule, Routes } from '@angular/router';
 
 import { MapsComponent } from './maps.component';
