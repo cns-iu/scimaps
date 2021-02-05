@@ -4,6 +4,8 @@ import { Subscription } from 'rxjs';
 
 import { MapMacroscopeItem } from '../../core/models/discover-item';
 
+import { of } from 'rxjs';
+
 /**
  * Component to displaying individual map items
  */
