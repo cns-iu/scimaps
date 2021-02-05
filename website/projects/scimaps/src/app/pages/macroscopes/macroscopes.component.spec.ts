@@ -51,7 +51,7 @@ describe('MacroscopesComponent', () => {
             discoverItem
           ]
         })
-      })
+      });
   });
 
   it('should create no more than itemsToDisplay number of sci-discover-listings', async () => {

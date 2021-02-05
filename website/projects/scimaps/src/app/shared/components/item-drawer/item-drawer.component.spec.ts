@@ -53,7 +53,7 @@ describe('ItemDrawerComponent', () => {
 
   beforeEach(async () => {
     shallow = new Shallow(ItemDrawerComponent, ItemDrawerModule)
-    .mock(Router, mockRouter)
+    .mock(Router, mockRouter);
   });
 
 

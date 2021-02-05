@@ -51,7 +51,7 @@ describe('DiscoverListingComponent', () => {
 
   beforeEach(async () => {
     shallow = new Shallow(DiscoverListingComponent, DiscoverListingModule)
-      .mock(Router, mockRouter)
+      .mock(Router, mockRouter);
   });
 
   it('should create the correct image source', async () => {
