@@ -3,7 +3,7 @@ import { ActivatedRouteSnapshot, Resolve } from '@angular/router';
 import { combineLatest, Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 
-import { MapMacroscopeItem, Language, MakerInfo } from '../../core/models/discover-item';
+import { MapMacroscopeItem, Language } from '../../core/models/discover-item';
 import { ContentService } from '../../shared/services/content.service';
 
 
