@@ -1,0 +1,50 @@
+:host {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    caption { visibility: collapse; }
+
+    tr {
+      th, td {
+        padding: 1rem;
+        text-align: left;
+      }
+
+      th {
+        font-size: 1rem;
+        cursor: pointer;
+
+        .sort-icon {
+          vertical-align: middle;
+        }
+      }
+
+      td .icons-cell {
+        white-space: nowrap;
+      }
+
+      td {
+        .icon {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .record-count {
+    text-align: right;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .more-button {
+    width: 100%;
+    text-align: center;
+    padding: .75rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+}

@@ -1,5 +1,7 @@
 import { Component, HostBinding } from '@angular/core';
-import { Venue } from '../../core/models/venue';
+import { TableData } from '../../core/models/table-data';
+
+import { TableHeader } from '../../core/models/table-header';
 
 @Component({
   selector: 'sci-venues',
@@ -10,135 +12,115 @@ export class VenuesComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-venues';
 
-  testVenues: Venue[] = [
+  tableHeaders: TableHeader[] = [
     {
-      startDate: '9/2/2020',
-      endDate: '9/30/2020',
-      event: 'Technology Petting Zoo',
-      location: 'Indiana University UITS, Bloomington, IN',
-      contact: 'Jeannette Lehr',
-      photoLink: 'www.google.com'
+      label: 'Start',
+      key: 'startDate',
+      format: 'text'
     },
     {
-      startDate: '3/2/2020',
-      endDate: '5/1/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      label: 'End',
+      key: 'endDate',
+      format: 'text'
     },
     {
-      startDate: '1/29/2020',
-      endDate: '',
-      event: 'Tour for MetroStar Systems',
-      location: 'Indiana University, Bloomington, IN',
-      contact: '',
-      photoLink: 'www.google.com'
+      label: 'Event',
+      key: 'event',
+      format: 'text'
     },
     {
-      startDate: '3/2/2020',
-      endDate: '9/1/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      label: 'Location',
+      key: 'location',
+      format: 'text'
     },
     {
-      startDate: '11/12/2020',
-      endDate: '11/15/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      label: 'Contact',
+      key: 'contact',
+      format: 'text'
     },
     {
-      startDate: '9/2/2020',
-      endDate: '9/30/2020',
-      event: 'Technology Petting Zoo',
-      location: 'Indiana University UITS, Bloomington, IN',
-      contact: 'Jeannette Lehr',
-      photoLink: 'www.google.com'
-    },
-    {
-      startDate: '3/2/2020',
-      endDate: '5/1/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
-    },
-    {
-      startDate: '1/29/2020',
-      endDate: '',
-      event: 'Tour for MetroStar Systems',
-      location: 'Indiana University, Bloomington, IN',
-      contact: '',
-      photoLink: 'www.google.com'
-    },
-    {
-      startDate: '3/2/2020',
-      endDate: '9/1/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
-    },
-    {
-      startDate: '11/12/2020',
-      endDate: '11/15/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
-    },
-    {
-      startDate: '9/2/2020',
-      endDate: '9/30/2020',
-      event: 'Technology Petting Zoo',
-      location: 'Indiana University UITS, Bloomington, IN',
-      contact: 'Jeannette Lehr',
-      photoLink: 'www.google.com'
-    },
-    {
-      startDate: '3/2/2020',
-      endDate: '5/1/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
-    },
-    {
-      startDate: '1/29/2020',
-      endDate: '',
-      event: 'Tour for MetroStar Systems',
-      location: 'Indiana University, Bloomington, IN',
-      contact: '',
-      photoLink: 'www.google.com'
-    },
-    {
-      startDate: '3/2/2020',
-      endDate: '9/1/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
-    },
-    {
-      startDate: '11/12/2020',
-      endDate: '11/15/2020',
-      event: 'Women in Data Science 2020 (Regional Event)',
-      location: 'UNAM, Mexico City',
-      contact: 'Mariana Espinosa',
-      photoLink: 'www.google.com',
-      videoLink: 'www.google.com'
+      label: 'Media',
+      key: 'media',
+      format: 'icon'
     }
   ];
+
+  testVenues: TableData[] = [
+    {
+      startDate: {
+        label: '9/2/2020',
+        type: 'date'
+      },
+      endDate: {
+        label: '9/30/2020',
+        type: 'date'
+      },
+      event: {
+        label: 'Technology Petting Zoo',
+        type: 'text'
+      },
+      location: {
+        label: 'Indiana University UITS, Bloomington, IN',
+        type: 'text'
+      },
+      contact: {
+        label: 'Jeannette Lehr',
+        type: 'text'
+      },
+      media: {
+        label: 'Media',
+        type: 'icons',
+        links: [
+          {
+            icon: 'insert_photo',
+            url: 'www.google.com'
+          }
+        ]
+      }
+    },
+    {
+      startDate: {
+        label: '3/2/2020',
+        type: 'date'
+      },
+      endDate: {
+        label: '5/1/2020',
+        type: 'date'
+      },
+      event: {
+        label: 'Women in Data Science 2020 (Regional Event)',
+        type: 'text'
+      },
+      location: {
+        label: 'UNAM, Mexico City',
+        type: 'text'
+      },
+      contact: {
+        label: 'Mariana Espinosa',
+        type: 'text'
+      },
+      media: {
+        label: 'Media',
+        type: 'icons',
+        links: [
+          {
+            icon: 'videocam',
+            url: 'www.google.com'
+          },
+          {
+            icon: 'insert_photo',
+            url: 'www.google.com'
+          }
+        ]
+      }
+    }
+  ];
+
+  cardHeaderFunction = (row: TableData) => {
+    return `${row.startDate.label} - ${row.endDate.label}`;
+  }
+
+  cardLinkFunction = (row: TableData) => {
+    return row.media.links !== undefined ? row.media.links : [];
+  }
 }

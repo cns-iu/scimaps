@@ -1,20 +1,19 @@
-<p>lazy-cards works!</p>
-
 <div class="card-tray">
   <div class="card mat-elevation-z4" *ngFor="let item of displayItems">
     <div class="card-header">
-      <h3 class="dates">{{ item.startDate }} - {{ item.endDate }}</h3>
+      <h3 class="dates">{{ getHeader(item) }}</h3>
       <div class="media">
-        <mat-icon class="icon" *ngIf="!!item.photoLink" (click)="goToLink(item.photoLink)">insert_photo</mat-icon>
-        <mat-icon class="icon ml-50" *ngIf="!!item.videoLink" (click)="goToLink(item.videoLink)">videocam</mat-icon>
+        <div *ngIf="!!getLinks" class="media-icons">
+          <mat-icon *ngFor="let link of getLinks(item)" class="icon" (click)="goToLink(link.url)">{{ link.icon }}</mat-icon>
+        </div>
       </div>
     </div>
     <div class="card-body">
-      <div class="mb-45">{{ item.event }}</div>
-      <div class="mb-45">{{ item.location }}</div>
-      <div class="mb-45">{{ item.contact }}</div>
+      <ng-container *ngFor="let field of getFields(item)">
+        <div *ngIf="fieldIsText(item, field)" class="mb-45" >{{ getLabel(item, field) }}</div>
+      </ng-container>
     </div>
   </div>
 </div>
 
-<div class="more-button" (click)="showMore()" *ngIf="moreItemsToDisplay">Show More Venues</div>
+<div class="more-button" (click)="showMore()" *ngIf="moreItemsToDisplay">{{ moreButtonLabel }}</div>

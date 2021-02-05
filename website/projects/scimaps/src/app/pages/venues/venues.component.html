@@ -1,3 +1,16 @@
-<p>venues works!</p>
-
-<sci-lazy-cards class="mobile-cards" [data]="testVenues"></sci-lazy-cards>
+<sci-lazy-table
+  class="lazy-table"
+  [data]="testVenues"
+  [headers]="tableHeaders"
+  sort="startDate"
+  moreButtonLabel="Show More Venues"
+  lessButtonLabel="Show Less Venues"
+  caption="A table that lists venues with corresponding dates, locations, contacts and media links."
+></sci-lazy-table>
+<sci-lazy-cards
+  class="mobile-cards"
+  [data]="testVenues"
+  [getHeader]="cardHeaderFunction"
+  [getLinks]="cardLinkFunction"
+  moreButtonLabel="Show More Venues"
+></sci-lazy-cards>

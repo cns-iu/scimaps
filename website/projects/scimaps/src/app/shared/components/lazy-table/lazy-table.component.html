@@ -1,0 +1,24 @@
+<table>
+  <caption>{{ caption }}</caption>
+  <tr>
+    <th (click)="changeSortBy(header.key)" [class.active]="sort === header.key" *ngFor="let header of headers" [scope]="header.label">
+      {{ header.label }}
+      <mat-icon class="sort-icon">{{ getSortIcon(header.key) }}</mat-icon>
+    </th>
+  </tr>
+  <tr *ngFor="let row of sortedData">
+    <ng-container *ngFor="let field of headers">
+
+      <td *ngIf="field.format === 'text'; else notText">{{ getLabel(row, field.key) }}</td>
+
+      <ng-template #notText>
+        <td class="icons-cell">
+          <mat-icon *ngFor="let link of getLinks(row, field.key)" class="icon" (click)="goToLink(link.url)">{{ link.icon }}</mat-icon>
+        </td>
+      </ng-template>
+
+    </ng-container>
+  </tr>
+</table>
+<div class="record-count">{{ recordCountLabel }}</div>
+<button *ngIf="needShowButton" class="more-button" (click)="handleShowButton()">{{ showButtonLabel }}</button>

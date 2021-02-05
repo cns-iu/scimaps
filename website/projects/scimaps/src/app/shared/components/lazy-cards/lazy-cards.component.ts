@@ -1,5 +1,7 @@
 import { Component, HostBinding, Input } from '@angular/core';
-import { Venue } from '../../../core/models/venue';
+
+import { IconLink, TableData } from '../../../core/models/table-data';
+
 
 @Component({
   selector: 'sci-lazy-cards',
@@ -10,11 +12,14 @@ export class LazyCardsComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-lazy-cards';
 
-  @Input() data!: Venue[];
-  ITEMS_TO_DISPLAY_INCREMENT = 6;
-  itemsToDisplay = 6;
+  @Input() data!: TableData[];
+  @Input() itemsToDisplayIncrement = 6;
+  @Input() itemsToDisplay = 6;
+  @Input() getHeader!: (arg0: TableData) => string;
+  @Input() getLinks?: (arg0: TableData) => IconLink[];
+  @Input() moreButtonLabel = 'Show More';
 
-  get displayItems(): Venue[] {
+  get displayItems(): TableData[] {
     return this.data.slice(0, this.itemsToDisplay);
   }
 
@@ -22,11 +27,23 @@ export class LazyCardsComponent {
     return this.itemsToDisplay < this.data.length;
   }
 
+  getFields(item: TableData): string[] {
+    return Object.keys(item);
+  }
+
+  getLabel(item: TableData, field: string): string {
+    return item[field].label;
+  }
+
+  fieldIsText(item: TableData, field: string): boolean {
+    return item[field].type === 'text';
+  }
+
   goToLink(link: string): void {
     window.open(link, '_blank');
   }
 
   showMore(): void {
-    this.itemsToDisplay = this.itemsToDisplay + this.ITEMS_TO_DISPLAY_INCREMENT;
+    this.itemsToDisplay = this.itemsToDisplay + this.itemsToDisplayIncrement;
   }
 }
