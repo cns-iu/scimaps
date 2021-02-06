@@ -1,25 +1,26 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, Resolve} from '@angular/router';
+import { ActivatedRouteSnapshot, Resolve } from '@angular/router';
 import { combineLatest, Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 
 import { MapMacroscopeItem, Language } from '../../core/models/discover-item';
-import { ContentService } from '../../shared/services/content.service';
+import { ContentService } from './content.service';
 
 
 @Injectable({
   providedIn: 'root'
 })
-export class MacroscopeResolverService implements Resolve<MapMacroscopeItem> {
+export class MapMacroscopeResolverService implements Resolve<MapMacroscopeItem> {
 
   constructor(private content: ContentService) { }
 
   resolve(route: ActivatedRouteSnapshot): Observable<MapMacroscopeItem> | Observable<never> {
     const languages$ = this.content.getContent('site/languages.md').pipe(take(1));
     const language = route.queryParamMap.get('lang') || 'en';
+    const type = route.data.type;
     const iteration = route.paramMap.get('iteration');
     const sequence = route.paramMap.get('sequence');
-    const mapSlug = `macroscope/${iteration}/${sequence}`;
+    const mapSlug = `${type}/${iteration}/${sequence}`;
     const content$ = this.content.getContent(mapSlug).pipe(take(1));
 
     // tslint:disable-next-line: no-any
@@ -43,7 +44,7 @@ export class MacroscopeResolverService implements Resolve<MapMacroscopeItem> {
       item.credit = data[language].creditLine;
       item.description = data[language].body;
       item.references = data[language].references;
-      item.thumbnail = `assets/content/macroscope/${data.en.iteration}/${data.en.sequence}/${data.en.image.lg}`;
+      item.thumbnail = `assets/content/${type}/${data.en.iteration}/${data.en.sequence}/${data.en.image.lg}`;
       item.translations = languages.languages.filter((lang: Language) => {
         return Object.keys(data).includes(lang.abbr_short);
       });
