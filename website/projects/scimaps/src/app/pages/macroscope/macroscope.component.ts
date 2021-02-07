@@ -4,6 +4,7 @@ import { Subscription } from 'rxjs';
 
 import { MapMacroscopeItem } from '../../core/models/discover-item';
 
+
 /**
  * Component to displaying individual macroscope items
  */
@@ -22,17 +23,13 @@ export class MacroscopeComponent implements OnInit, OnDestroy {
    */
   currentLanguage = 'en';
 
-  private subscriptionA?: Subscription;
-  private subscriptionB?: Subscription;
+  private subscription?: Subscription;
 
   constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
-    this.subscriptionA = this.route.data.subscribe((data) => {
+    this.subscription = this.route.data.subscribe((data) => {
       this.selectedItem = data.macroscope;
-    });
-    this.subscriptionB = this.route.queryParamMap.subscribe((params) => {
-      this.currentLanguage = params.get('lang') || 'en';
     });
   }
 
@@ -50,7 +47,6 @@ export class MacroscopeComponent implements OnInit, OnDestroy {
    * Unsubscribe from Observables
    */
   ngOnDestroy(): void {
-    this.subscriptionA?.unsubscribe();
-    this.subscriptionB?.unsubscribe();
+    this.subscription?.unsubscribe();
   }
 }
