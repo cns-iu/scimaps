@@ -1,9 +1,10 @@
 import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { Shallow } from 'shallow-render';
-
+import { Router } from '@angular/router';
 import { DiscoverItem } from '../../../core/models/discover-item';
 import { DiscoverListingComponent } from './discover-listing.component';
 import { DiscoverListingModule } from './discover-listing.module';
+
 
 const discoverItem: DiscoverItem = {
   title: 'XV: macroscopes for Tracking the Flow of Resources (2019)',
@@ -44,8 +45,13 @@ describe('DiscoverListingComponent', () => {
     }
   };
 
+  const mockRouter = {
+    navigate: jasmine.createSpy('navigate')
+  };
+
   beforeEach(async () => {
-    shallow = new Shallow(DiscoverListingComponent, DiscoverListingModule);
+    shallow = new Shallow(DiscoverListingComponent, DiscoverListingModule)
+      .mock(Router, mockRouter);
   });
 
   it('should create the correct image source', async () => {
@@ -54,11 +60,10 @@ describe('DiscoverListingComponent', () => {
     expect(imageSource).toEqual('assets/macroscopes/macroscopes-2019/image1.png');
   });
 
-  it('should call window.open when the desktop click handler is called', async () => {
+  it('should navigate when the desktop click handler is called', async () => {
     const { instance } = await shallow.render({ bind: { discoverItem, type }});
-    const spy = spyOn(window, 'open');
-    instance.desktopThumbnailClickHandler('www.google.com');
-    expect(spy).toHaveBeenCalledWith('www.google.com', '_blank');
+    instance.desktopThumbnailClickHandler('a/b/c');
+    expect(mockRouter.navigate).toHaveBeenCalledWith( [ '/', 'a', 'b', 'c' ] );
   });
 
   it('should launch the modal when the mobile click handler is called', async () => {

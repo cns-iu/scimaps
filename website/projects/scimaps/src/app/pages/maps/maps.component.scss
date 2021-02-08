@@ -30,31 +30,6 @@ $breakpoint: 768px;
     }
   }
 
-  .details-drawer {
-    left: 0%;
-    transition: left 1s;
-    margin-right: 0;
-    overflow-y: scroll;
-    z-index: 6;
-
-    @media (max-width: $breakpoint) {
-     top: 0%;
-     left: 0%;
-     transition: top 1s;
-    }
-
-    &.hidden {
-      left: 100%;
-      margin-right: 1rem;
-
-      @media (max-width: $breakpoint) {
-        margin-right: 0;
-        top: -100%;
-        left: 0%;
-      }
-    }
-  }
-
   .highlight-content {
     display: flex;
     flex-direction: row;
@@ -83,6 +58,7 @@ $breakpoint: 768px;
       display: flex;
       justify-content: space-around;
       width: 50%;
+      height: 28rem;
 
       @media (max-width: $mobile) {
         width: 100%;
@@ -173,6 +149,7 @@ $breakpoint: 768px;
     position: absolute;
     top: 0;
     z-index: 5;
+    left: 0;
     width: 100%;
     padding: 1rem;
 

@@ -1,0 +1,24 @@
+@import "~@angular/material/theming";
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $primary: map-get($config, primary);
+  $accent: map-get($config, accent);
+
+  .sci-makers-subdrawer {
+    background-color: white;
+
+    .back-button {
+      color: mat-color($primary);
+    }
+  }
+}
+
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+
+  @if $color {
+    @include color($color);
+  }
+}

@@ -7,10 +7,28 @@ import { BooksModule } from './pages/books/books.module';
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/home' },
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
-  { path: 'about', loadChildren: () => import('./pages/about/about.module').then(m => m.AboutModule) },
+  { path: 'about', loadChildren: () => import('./pages/about/about.module').then(m => m.AboutModule)},
   { path: 'books', loadChildren: () => BooksModule },
-  { path: 'maps', loadChildren: () => import('./pages/maps/maps.module').then(m => m.MapsModule) },
-  { path: 'macroscopes', loadChildren: () => import('./pages/macroscopes/macroscopes.module').then(m => m.MacroscopesModule) },
+  {
+    path: 'maps',
+    loadChildren: () => import('./pages/maps/maps.module').then(m => m.MapsModule),
+    data: { animation: 'Maps'}
+  },
+  {
+    path: 'map',
+    loadChildren: () => import('./pages/map/map.module').then(m => m.MapModule),
+    data: { animation: 'Map', type: 'map'}
+  },
+  {
+    path: 'macroscope',
+    loadChildren: () => import('./pages/macroscope/macroscope.module').then(m => m.MacroscopeModule),
+    data: { animation: 'Macroscope', type: 'macroscope'}
+  },
+  {
+    path: 'macroscopes',
+    loadChildren: () => import('./pages/macroscopes/macroscopes.module').then(m => m.MacroscopesModule),
+    data: { animation: 'Macroscopes'}
+  },
   { path: 'hosting', loadChildren: () => import('./pages/hosting/hosting.module').then(m => m.HostingModule) },
   { path: 'venues', loadChildren: () => import('./pages/venues/venues.module').then(m => m.VenuesModule) },
   {

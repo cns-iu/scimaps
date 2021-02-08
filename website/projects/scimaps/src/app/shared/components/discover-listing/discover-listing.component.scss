@@ -36,12 +36,10 @@ $mobile: 640px;
     display: flex;
     flex-direction: row;
     width: 60%;
-    justify-content: flex-end;
     flex-wrap: wrap;
 
     @media (max-width: $tablet) {
       width: 100%;
-      justify-content: space-between;
       padding-left: 0rem;
       padding-right: 0rem;
     }
@@ -55,33 +53,38 @@ $mobile: 640px;
     }
 
     .thumbnail {
+      display: flex;
+      flex-direction: column;
       margin-right: 1rem;
       cursor: pointer;
       margin-bottom: 1rem;
       width: 22%;
 
       @media (max-width: $mobile) {
-        margin-right: 0;
         position: relative;
-        width: 46%;
+        width: calc(50% - 1rem);
       }
 
       .thumbnail-image {
-        height: 100%;
         width: 100%;
+        height: 80%;
         object-fit: cover;
       }
 
       .thumbnail-title {
+        height: 20%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+
         @media (max-width: $mobile) {
           margin-top: 0rem;
-          position: absolute;
           bottom: .45rem;
           z-index: 10;
           color: white;
           background-color: rgba(0, 0, 0, .5);
           width: 100%;
-          text-align: center;
         }
       }
     }
