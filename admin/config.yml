@@ -86,6 +86,7 @@ collections:
         multiple: true
         options:
           - { value: curator, label: Curator }
+          - { value: co-curator, label: Co-Curator }
           - { value: team, label: Team }
           - { value: ambassador, label: Ambassador }
           - { value: advisory_board, label: Advisory Board }
@@ -95,6 +96,8 @@ collections:
       - { name: affiliation, label: Affiliation }
       - { name: location, label: Location, widget: map }
       - { name: image, label: Image, widget: image }
+      - { name: region, label: Region }
+      - { name: city, label: City }
       - { name: body, label: Bio }
 
   - name: book
