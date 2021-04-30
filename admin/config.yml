@@ -98,9 +98,9 @@ collections:
       - { name: image, label: Image, widget: image }
       - name: region
         label: Region
-        label_singular: Role
+        label_singular: Region
         widget: select
-        multiple: true
+        multiple: false
         options:
           - { value: n_america, label: North America }
           - { value: c_america, label: Central America }
