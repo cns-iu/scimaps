@@ -96,7 +96,19 @@ collections:
       - { name: affiliation, label: Affiliation }
       - { name: location, label: Location, widget: map }
       - { name: image, label: Image, widget: image }
-      - { name: region, label: Region }
+      - name: region
+        label: Region
+        label_singular: Role
+        widget: select
+        multiple: true
+        options:
+          - { value: n_america, label: North America }
+          - { value: c_america, label: Central America }
+          - { value: s_america, label: South America }
+          - { value: europe, label: Europe }
+          - { value: asia, label: Asia }
+          - { value: africa, label: Africa }
+          - { value: australia, label: Australia }
       - { name: city, label: City }
       - { name: body, label: Bio }
 
