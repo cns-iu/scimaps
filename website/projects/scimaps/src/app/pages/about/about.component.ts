@@ -1,12 +1,25 @@
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
 import { Profile } from '../../core/models/profile';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'sci-about',
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss']
 })
-export class AboutComponent {
+export class AboutComponent implements OnInit {
+  
+  constructor(private route: ActivatedRoute) {
+  }
+
+  ngOnInit(): void {
+    // console.log(this.route);
+    this.route.data.subscribe(data => {
+      const about = data.about
+      console.log(about)
+    })
+  }
+
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-about';
 
