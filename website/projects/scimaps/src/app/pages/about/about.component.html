@@ -1,17 +1,30 @@
 <sci-tab-header class="tab-header" [tabs]="pageTabs" (activeTabIndexChanged)="updateActivePageTab($event)"></sci-tab-header>
 
-<sci-profile-gallery
-  class="profile-gallery"
-  [title]="'Curators'"
-  [description]="placeholderDescription"
-  [profiles]="placeholderProfilesShort"
-  [compact]="false" [directory]="'profiles'">
-</sci-profile-gallery>
+<ng-template [ngIf]="activePageTab == 0">
+    <sci-profile-gallery
+    class="profile-gallery"
+    [title]="'Curators'"
+    [description]="placeholderDescription"
+    [profiles]="placeholderProfilesShort"
+    [compact]="false" [directory]="'profiles'">
+  </sci-profile-gallery>
+  
+  <sci-profile-gallery
+    [title]="'Advisory Board'"
+    [description]="placeholderDescription"
+    [profiles]="placeholderProfilesLong"
+    [compact]="true"
+    [directory]="'profiles'">
+  </sci-profile-gallery>  
+</ng-template>
 
-<sci-profile-gallery
-  [title]="'Advisory Board'"
-  [description]="placeholderDescription"
-  [profiles]="placeholderProfilesLong"
-  [compact]="true"
-  [directory]="'profiles'">
-</sci-profile-gallery>
+<ng-template [ngIf]="activePageTab == 1">
+    <sci-profile-gallery
+    [title]="'Ambassadors'"
+    [description]="placeholderDescription"
+    [profiles]="placeholderProfilesLong"
+    [compact]="true"
+    [directory]="'profiles'">
+  </sci-profile-gallery>  
+</ng-template>
+ 
