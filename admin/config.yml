@@ -79,7 +79,7 @@ collections:
     sortable_fields: [name, affiliation]
     fields:
       - { name: name, label: Display Name }
-      - { name: last_name, label: Last Name }
+      - { name: last_name, label: Last Name (for sorting) }
       - name: roles
         label: Roles
         label_singular: Role
