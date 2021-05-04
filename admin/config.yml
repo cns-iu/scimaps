@@ -78,7 +78,8 @@ collections:
     public_folder: ''
     sortable_fields: [name, affiliation]
     fields:
-      - { name: name, label: Name }
+      - { name: name, label: Display Name }
+      - { name: last_name, label: Last Name (for sorting) }
       - name: roles
         label: Roles
         label_singular: Role
@@ -86,6 +87,7 @@ collections:
         multiple: true
         options:
           - { value: curator, label: Curator }
+          - { value: co-curator, label: Co-Curator }
           - { value: team, label: Team }
           - { value: ambassador, label: Ambassador }
           - { value: advisory_board, label: Advisory Board }
@@ -93,7 +95,21 @@ collections:
       - { name: homepage, label: Personal Homepage }
       - { name: jobTitle, label: Job Title }
       - { name: affiliation, label: Affiliation }
-      - { name: location, label: Location, widget: map }
+      - { name: location, label: Location (lat/lon), widget: map }
+      - { name: location_name, label: Display Location }
+      - name: region
+        label: Region
+        label_singular: Region
+        widget: select
+        multiple: false
+        options:
+          - { value: n_america, label: North America }
+          - { value: c_america, label: Central America }
+          - { value: s_america, label: South America }
+          - { value: europe, label: Europe }
+          - { value: asia, label: Asia }
+          - { value: africa, label: Africa }
+          - { value: australia, label: Australia }
       - { name: image, label: Image, widget: image }
       - { name: body, label: Bio }
 
