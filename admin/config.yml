@@ -316,7 +316,7 @@ collections:
 backend:
   name: github
   repo: cns-iu/scimaps
-  branch: pbi-cms-setup
+  branch: pbi-content-staging
 
 # We'll switch to editorial workflow when we move closer to production
 # publish_mode: editorial_workflow
