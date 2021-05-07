@@ -17,7 +17,7 @@ export class ProfileGalleryComponent {
   @Input() description = '';
 
   getImageSource(profile: Profile): string {
-    return `assets/${this.directory}/${profile.slug}/image.png`;
+    return `assets/${this.directory}/${profile.slug}/${profile.image}`;
   }
 
   goToLink(link: string): void {

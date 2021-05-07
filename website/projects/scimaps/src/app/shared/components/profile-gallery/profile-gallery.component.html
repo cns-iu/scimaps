@@ -3,7 +3,7 @@
 
 <div class="profile-container">
   <div class="profile" *ngFor="let profile of profiles" (click)="goToLink(profile.link)">
-    <img class="profile-image" [src]="getImageSource(profile)" [alt]="profile.slug + '/image.png'">
+    <img class="profile-image" [src]="getImageSource(profile)" [alt]="profile.slug + profile.image">
     <div class="profile-about">
       <div class="profile-name">{{ profile.name }}</div>
       <div class="profile-title">{{ profile.title }}</div>
