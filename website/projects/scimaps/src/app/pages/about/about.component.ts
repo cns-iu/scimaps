@@ -15,7 +15,7 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
     this.route.data.subscribe(data => {
       const about = data.about
-      // Temporary code
+      // Temporary code. Later will be replaced with actual filtering logic.
       this.curatorProfiles = about.slice(0, 3)
       this.advisoryBoardProfiles = about.slice(3, 12)
       this.ambassadorProfiles = about.slice(12, 21)
