@@ -5,16 +5,16 @@
     class="profile-gallery"
     [title]="'Curators'"
     [description]="placeholderDescription"
-    [profiles]="placeholderProfilesShort"
-    [compact]="false" [directory]="'profiles'">
+    [profiles]="curatorProfiles"
+    [compact]="false" [directory]="directory">
   </sci-profile-gallery>
   
   <sci-profile-gallery
     [title]="'Advisory Board'"
     [description]="placeholderDescription"
-    [profiles]="placeholderProfilesLong"
+    [profiles]="advisoryBoardProfiles"
     [compact]="true"
-    [directory]="'profiles'">
+    [directory]="directory">
   </sci-profile-gallery>  
 </ng-template>
 
@@ -22,9 +22,9 @@
     <sci-profile-gallery
     [title]="'Ambassadors'"
     [description]="placeholderDescription"
-    [profiles]="placeholderProfilesLong"
+    [profiles]="ambassadorProfiles"
     [compact]="true"
-    [directory]="'profiles'">
+    [directory]="directory">
   </sci-profile-gallery>  
 </ng-template>
  
