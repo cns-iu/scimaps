@@ -10,7 +10,8 @@ const testProfile: Profile =     {
   affiliation: 'Affiliation',
   body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
   link: 'www.google.com',
-  slug: 'name-surname'
+  slug: 'name-surname',
+  image: 'image.jpg'
 };
 
 function getProfiles(numberOfProfiles: number): Profile[] {
