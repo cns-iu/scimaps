@@ -8,16 +8,16 @@ import { Profile } from '../../core/models/profile';
 @Injectable({
   providedIn: 'root'
 })
-export class AboutResolverService implements Resolve<{[key: string]: any}[]> {
+export class AboutResolverService implements Resolve<Profile[]> {
 
   constructor(private content: ContentService) { }
 
   resolve(): Observable<Profile[]> | Observable<never> {
     return this.content.getIndex<{[key: string]: string}>('people').pipe(
       take(1),
-      map((items: any[]) => {
-        return items.map((item: any) => {
-            const profile: Profile = {
+      map((items: {[key: string]: string}[]) => {
+        return items.map((item: {[key: string]: string}) => {
+          const profile: Profile = {
             name: item.name,
             slug: toSlug(item.name),
             title: item.jobTitle,
@@ -25,7 +25,7 @@ export class AboutResolverService implements Resolve<{[key: string]: any}[]> {
             body: item.body,
             affiliation: item.affiliation,
             image: item.image
-          }
+          };
           return profile;
         });
       }),
