@@ -11,6 +11,16 @@ import { Profile } from '../../core/models/profile';
 export class AboutResolverService implements Resolve<Profile[]> {
 
   constructor(private content: ContentService) { }
+  
+  /**
+   * getImageSource - used to generate full asset path of the image of the profile.
+   * @param - profile 
+   * @returns - string - relative path of the image in assets.
+   */
+  getImageSource(profile: Profile): string {
+    const directory = 'content/person'
+    return `assets/${directory}/${profile.slug}/${profile.image}`;
+  }
 
   resolve(): Observable<Profile[]> | Observable<never> {
     return this.content.getIndex<{[key: string]: string}>('people').pipe(
@@ -26,6 +36,7 @@ export class AboutResolverService implements Resolve<Profile[]> {
             affiliation: item.affiliation,
             image: item.image
           };
+          profile.image = this.getImageSource(profile)
           return profile;
         });
       }),

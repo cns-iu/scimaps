@@ -20,7 +20,6 @@ export class AboutComponent implements OnInit {
   placeholderDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam ligula felis, id blandit quam viverra auctor. Nullam quam dolor, mattis consequat tincidunt sed, condimentum id sapien. Pellentesque ut congue lectus. Sed leo velit, rutrum vitae sapien sed, faucibus tincidunt justo. Donec et vestibulum enim, a efficitur purus. Mauris quis lacinia nibh, eget suscipit felis. Suspendisse ut elementum metus, ac sagittis sem. ';
   pageTabs = ['Curators/Advisory Board', 'Ambassadors'];
   activePageTab = 0;
-  directory = 'content/person';
 
   ngOnInit(): void {
     this.route.data.subscribe(data => {

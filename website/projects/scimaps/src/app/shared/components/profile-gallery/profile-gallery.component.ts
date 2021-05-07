@@ -11,14 +11,9 @@ export class ProfileGalleryComponent {
   @HostBinding('class') readonly clsName = 'sci-profile-gallery';
 
   @Input() profiles!: Profile[];
-  @Input() directory!: string;
   @Input() compact = true;
   @Input() title = '';
   @Input() description = '';
-
-  getImageSource(profile: Profile): string {
-    return `assets/${this.directory}/${profile.slug}/${profile.image}`;
-  }
 
   goToLink(link: string): void {
     window.open(link, '_blank');
