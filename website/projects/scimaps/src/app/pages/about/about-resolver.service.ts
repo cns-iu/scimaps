@@ -20,15 +20,15 @@ export class AboutResolverService implements Resolve<{[key: string]: any}[]> {
             const profile: Profile = {
             name: item.name,
             slug: toSlug(item.name),
-            title: 'Title',
-            link: 'https://www.google.com',
-            body: 'Body',
-            affiliation: 'Affiliation',
+            title: item.jobTitle,
+            link: item.homepage,
+            body: item.body,
+            affiliation: item.affiliation,
             image: item.image
           }
           return profile;
         });
       }),
-    )
+    );
   }
 }
