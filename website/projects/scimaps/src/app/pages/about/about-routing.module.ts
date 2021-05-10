@@ -3,13 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AboutComponent } from './about.component';
 import { AboutResolverService } from './about-resolver.service';
+import { AboutBodyResolverService } from './about-body-resolver.service';
 
 const routes: Routes = [
   {
     path: '',
     component: AboutComponent,
     resolve: {
-      about: AboutResolverService
+      profiles: AboutResolverService,
+      body: AboutBodyResolverService
     }
   }
 ];
