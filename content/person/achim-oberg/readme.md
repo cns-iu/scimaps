@@ -1,6 +1,7 @@
 ---
 name: Achim Oberg
-image: image.jpg
+last_name: Oberg
 roles:
   - maker
+image: image.jpg
 ---
