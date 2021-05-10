@@ -18,7 +18,9 @@ collections:
         file: content/site/about.md
         preview_path: about
         fields:
-          - { name: body, label: Description, widget: markdown }
+          - { name: curatorsDescription, label: Curators Description, widget: markdown }
+          - { name: advisoryBoardDescription, label: Advisory Board Description, widget: markdown }
+          - { name: ambassadorsDescription, label: Ambassadors Description, widget: markdown }
 
       - label: What is a Map?
         name: whatIsAMap
@@ -324,7 +326,7 @@ backend:
 # Uncomment below when using the default proxy server port
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ## Basically run `npx netlify-cms-proxy-server` and launch the angular site
-# local_backend: true
+local_backend: true
 
 i18n:
   structure: single_file
