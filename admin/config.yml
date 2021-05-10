@@ -92,16 +92,17 @@ collections:
           - { value: ambassador, label: Ambassador }
           - { value: advisory_board, label: Advisory Board }
           - { value: maker, label: Maker }
-      - { name: homepage, label: Personal Homepage }
-      - { name: jobTitle, label: Job Title }
-      - { name: affiliation, label: Affiliation }
-      - { name: location, label: Location (lat/lon), widget: map }
-      - { name: location_name, label: Display Location }
+      - { name: homepage, label: Personal Homepage, required: false }
+      - { name: jobTitle, label: Job Title, required: false }
+      - { name: affiliation, label: Affiliation, required: false }
+      - { name: location, label: Location (lat/lon), widget: map, required: false }
+      - { name: location_name, label: Display Location, required: false }
       - name: region
         label: Region
         label_singular: Region
         widget: select
         multiple: false
+        required: false
         options:
           - { value: n_america, label: North America }
           - { value: c_america, label: Central America }
@@ -110,8 +111,8 @@ collections:
           - { value: asia, label: Asia }
           - { value: africa, label: Africa }
           - { value: australia, label: Australia }
-      - { name: image, label: Image, widget: image }
-      - { name: body, label: Bio }
+      - { name: image, label: Image, widget: image, required: false }
+      - { name: body, label: Bio, required: false }
 
   - name: book
     label: Books
