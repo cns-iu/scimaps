@@ -4,13 +4,18 @@ import { ContentService } from '../../shared/services/content.service';
 import { Resolve } from '@angular/router';
 import { Observable } from 'rxjs';
 
+interface AboutBody {
+  curatorsDescription: string;
+  advisoryBoardDescription: string;
+  ambassadorsDescription: string;
+}
 @Injectable({
   providedIn: 'root'
 })
-export class AboutBodyResolverService implements Resolve<{ body: {[key: string]: string} }> {
+export class AboutBodyResolverService implements Resolve<{ body: AboutBody }> {
   constructor(private content: ContentService) {}
 
-  resolve(): Observable<{ body: {[key: string]: string} }> | Observable<never> {
-    return this.content.getContent<{body: {[key: string]: string}}>('site/about.md').pipe(take(1));
+  resolve(): Observable<{ body: AboutBody }> | Observable<never> {
+    return this.content.getContent<{body: AboutBody}>('site/about.md').pipe(take(1));
   }
 }
