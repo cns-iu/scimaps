@@ -4,25 +4,25 @@
     <sci-profile-gallery
     class="profile-gallery"
     [title]="'Curators'"
-    [description]="placeholderDescription"
+    [description]="curatorsDescription"
     [profiles]="curatorProfiles"
     [compact]="false">
   </sci-profile-gallery>
   
   <sci-profile-gallery
     [title]="'Advisory Board'"
-    [description]="placeholderDescription"
+    [description]="advisoryBoardDescription"
     [profiles]="advisoryBoardProfiles"
-    [compact]="true">
+    [compact]="false">
   </sci-profile-gallery>  
 </ng-template>
 
 <ng-template [ngIf]="activePageTab == 1">
     <sci-profile-gallery
     [title]="'Ambassadors'"
-    [description]="placeholderDescription"
+    [description]="ambassadorsDescription"
     [profiles]="ambassadorProfiles"
-    [compact]="true">
+    [compact]="false">
   </sci-profile-gallery>  
 </ng-template>
  
