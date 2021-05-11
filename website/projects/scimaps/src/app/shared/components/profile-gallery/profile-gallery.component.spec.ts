@@ -48,7 +48,7 @@ describe('ProfileGalleryComponent', () => {
   itHasElementWithContent('.profile-body', testProfile.body, false);
 
   it('should create the correct image source', async () => {
-    const { instance, find } = await shallow.render({ bind: { profiles: getProfiles(1) }});
+    const { find } = await shallow.render({ bind: { profiles: getProfiles(1) }});
     const profileImage = find('.profile-image')[0];
     const link = profileImage.nativeNode.alt;
     expect(link).toEqual(testProfile.image);

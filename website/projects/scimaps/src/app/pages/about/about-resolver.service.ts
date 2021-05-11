@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Resolve } from '@angular/router';
 import { ContentService, toSlug } from '../../shared/services/content.service';
-import { take, map, tap } from 'rxjs/operators';
+import { take, map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { Profile } from '../../core/models/profile';
 
