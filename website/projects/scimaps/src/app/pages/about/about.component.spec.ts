@@ -6,7 +6,7 @@ import { ActivatedRoute } from '@angular/router';
 import { of } from 'rxjs';
 import { Profile } from '../../core/models/profile';
 
-function getProfiles(numberOfProfiles: number): Profile[] {
+export function getProfiles(numberOfProfiles: number): Profile[] {
   const profiles: Profile[] = [];
   for (let i = 0; i <= numberOfProfiles; i++) {
     profiles.push({
@@ -21,6 +21,7 @@ function getProfiles(numberOfProfiles: number): Profile[] {
   }
   return profiles;
 }
+
 describe('AboutComponent', () => {
   let shallow: Shallow<AboutComponent>;
 
