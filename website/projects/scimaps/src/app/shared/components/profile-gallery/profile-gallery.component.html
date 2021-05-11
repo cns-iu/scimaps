@@ -1,6 +1,5 @@
 <h2 class="title" *ngIf="title !== ''">{{ title }}</h2>
-<div class="description" *ngIf="description !== ''">{{ description }}</div>
-
+<div markdown class="description"  *ngIf="description !== ''" [data]="description"></div>
 <div class="profile-container">
   <div class="profile" *ngFor="let profile of profiles" (click)="goToLink(profile.link)">
     <img class="profile-image" [src]="profile.image" [alt]="profile.image">
