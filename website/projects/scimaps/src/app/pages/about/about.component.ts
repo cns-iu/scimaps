@@ -14,11 +14,11 @@ export class AboutComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-about';
 
-  curatorProfiles = [];
+  curatorProfiles: Profile[] = [];
   curatorsDescription = '';
-  advisoryBoardProfiles = [];
+  advisoryBoardProfiles: Profile[] = [];
   advisoryBoardDescription = '';
-  ambassadorProfiles = [];
+  ambassadorProfiles: Profile[] = [];
   ambassadorsDescription = '';
   pageTabs = ['Curators/Advisory Board', 'Ambassadors'];
   activePageTab = 0;
