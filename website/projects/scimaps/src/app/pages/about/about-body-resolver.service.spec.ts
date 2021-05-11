@@ -1,5 +1,4 @@
 import { TestBed } from '@angular/core/testing';
-
 import { AboutBodyResolverService } from './about-body-resolver.service';
 import { ContentService } from '../../shared/services/content.service';
 
