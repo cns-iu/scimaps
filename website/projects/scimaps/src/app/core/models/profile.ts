@@ -5,4 +5,5 @@ export interface Profile {
   body: string;
   link: string;
   slug: string;
+  image: string;
 }
