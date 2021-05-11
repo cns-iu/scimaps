@@ -26,10 +26,10 @@ describe('AboutComponent', () => {
 
   const testProfiles = getProfiles(30);
   const testBody = {
-    curatorsDescription: "Sample curators description",
-    advisoryBoardDescription: "Sample advisory board description",
-    ambassadorsDescription: "Sample sambassadors description"
-  }
+    curatorsDescription: 'Sample curators description',
+    advisoryBoardDescription: 'Sample advisory board description',
+    ambassadorsDescription: 'Sample sambassadors description'
+  };
 
   beforeEach(() => {
     shallow = new Shallow(AboutComponent, AboutModule)
@@ -40,7 +40,7 @@ describe('AboutComponent', () => {
             ...testBody
           }
         })
-      })
+      });
   });
 
   it('should update activePageTab to the one passed in', async () => {
@@ -74,19 +74,19 @@ describe('AboutComponent', () => {
 
   it('should have correct curator profiles', async () => {
     const { instance } = await shallow.render();
-    const curatorProfiles = testProfiles.slice(0, 3)
+    const curatorProfiles = testProfiles.slice(0, 3);
     expect(instance.curatorProfiles).toEqual(curatorProfiles);
   });
 
   it('should have correct advisory board profiles', async () => {
     const { instance } = await shallow.render();
-    const advisoryBoardProfiles = testProfiles.slice(3, 12)
+    const advisoryBoardProfiles = testProfiles.slice(3, 12);
     expect(instance.advisoryBoardProfiles).toEqual(advisoryBoardProfiles);
   });
 
   it('should have correct ambassadors profiles', async () => {
     const { instance } = await shallow.render();
-    const ambassadorProfiles = testProfiles.slice(12, 21)
+    const ambassadorProfiles = testProfiles.slice(12, 21);
     expect(instance.ambassadorProfiles).toEqual(ambassadorProfiles);
   });
 });
