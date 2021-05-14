@@ -10,15 +10,14 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./books.component.scss']
 })
 export class BooksComponent implements OnInit {
-  books = [];
+  books: Book[] = [];
 
   constructor(private route: ActivatedRoute) {
   }
 
-  ngOnInit() {
-    this.route.data.subscribe(data => {
-      // console.log('component', data);
+  ngOnInit(): void {
+    this.route.data.subscribe((data) => {
       this.books = data.books;
-    })
+    });
   }
 }

@@ -10,7 +10,7 @@ import { take, map, concatMap, mergeMap, tap, scan } from 'rxjs/operators';
 })
 export class BooksResolverService implements Resolve<Book[]> {
 
-  directory: string = 'content/book'
+  directory = 'content/book';
 
   constructor(private contentService: ContentService) { }
 
@@ -34,7 +34,7 @@ export class BooksResolverService implements Resolve<Book[]> {
       body: item.body,
       slug: toSlug(item.title),
       images: item.bookImages
-    }
+    };
     book.images = this.getImageSource(book);
     return book;
   }
@@ -49,7 +49,7 @@ export class BooksResolverService implements Resolve<Book[]> {
         items.forEach((item: Params) => {
           item.author.forEach((author: string) => {
             if (!slugs.includes(author)) {
-              slugs = slugs.concat(author)
+              slugs = slugs.concat(author);
             }
           });
         });
@@ -65,9 +65,9 @@ export class BooksResolverService implements Resolve<Book[]> {
             map((result: Params) => {
               return {
                 [slug]: result
-              }
+              };
             })
-          )
+          );
         });
         // [ {'s1': {}}, {'s2': {}} ]
         return forkJoin(forkJoins);
@@ -81,18 +81,17 @@ export class BooksResolverService implements Resolve<Book[]> {
         return result;
       })
     );
-    
     // Combine
     return combineLatest([person$, books$]).pipe(
       map((result: Params[]) => {
         const [hash, items] = result;
         return items.map((item: Params) => {
           const authorNames: string[] = item.author.map((slug: string) => {
-            return hash[slug]['name'];
-          })
-          return this.toBookUI({...item, author: authorNames.join(', ')})
-        })
+            return hash[slug].name;
+          });
+          return this.toBookUI({...item, author: authorNames.join(', ')});
+        });
       })
-    )
+    );
   }
 }
