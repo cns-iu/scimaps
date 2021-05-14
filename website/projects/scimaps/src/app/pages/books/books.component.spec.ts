@@ -15,10 +15,10 @@ export function getBooks(numberOfProfiles: number): Book[] {
       author: `author ${i}`,
       body: `body ${i}`,
       publisher: `publisher ${i}`,
-      slug: 'slug ${i}',
-      pdfLink: 'pdfLink${i}',
+      slug: `slug-${i}`,
+      pdfLink: `pdfLink${i}`,
       amazonLink: `amazonLink ${i}`,
-      images: []
+      images: ['a.jpg', 'b.jpg', 'c.jpg']
     });
   }
   return books;
