@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Resolve, Params } from '@angular/router';
 import { Book } from '../../shared/components/book-overview/book-overview.component';
-import { Observable, of, from, forkJoin, combineLatest } from 'rxjs';
+import { Observable, forkJoin, combineLatest } from 'rxjs';
 import { ContentService, toSlug } from '../../shared/services/content.service';
-import { take, map, concatMap, mergeMap, tap, scan } from 'rxjs/operators';
+import { take, map, mergeMap } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
