@@ -3,7 +3,7 @@ import { Resolve, Params } from '@angular/router';
 import { Book } from '../../shared/components/book-overview/book-overview.component';
 import { Observable, forkJoin, combineLatest } from 'rxjs';
 import { ContentService, toSlug } from '../../shared/services/content.service';
-import { take, map, mergeMap } from 'rxjs/operators';
+import { take, map, mergeMap, shareReplay } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -40,12 +40,15 @@ export class BooksResolverService implements Resolve<Book[]> {
   }
 
   resolve(): Observable<Book[]> | Observable<never> {
-    const books$ = this.contentService.getIndex<Params>('books').pipe(take(1));
+    const books$ = this.contentService.getIndex<Params>('books').pipe(
+      take(1),
+      shareReplay()
+    );
 
     const person$ = books$.pipe(
       map((items: Params[]) => {
         let slugs: string[] = [];
-        console.log('items', items);
+        // console.log('items', items);
         items.forEach((item: Params) => {
           item.author.forEach((author: string) => {
             if (!slugs.includes(author)) {
@@ -57,7 +60,7 @@ export class BooksResolverService implements Resolve<Book[]> {
         return slugs;
       }),
       mergeMap((slugs: string[]) => {
-        console.log('slugs', slugs);
+        // console.log('slugs', slugs);
         const forkJoins: Observable<Params>[] = slugs.map((slug: string) => {
           // {'s1': {}}, {'s2': {}}
           return this.contentService.getContent<Params>(`person/${slug}`).pipe(
