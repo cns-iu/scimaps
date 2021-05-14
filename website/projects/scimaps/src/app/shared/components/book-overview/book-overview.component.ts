@@ -9,7 +9,7 @@ export interface Book {
   pdfLink: string;
   amazonLink: string;
   slug: string;
-  images: string[];
+  images: {sm: string, lg: string}[];
 }
 
 

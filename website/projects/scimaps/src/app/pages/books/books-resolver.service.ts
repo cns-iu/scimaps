@@ -14,11 +14,14 @@ export class BooksResolverService implements Resolve<Book[]> {
 
   constructor(private contentService: ContentService) { }
 
-  getImageSource(book: Book): string[] {
-    let result: string[] = [];
+  getImageSource(book: Book): {sm: string, lg: string}[] {
+    let result: {sm: string, lg: string}[] = [];
     if (Array.isArray(book.images) && book.images.length > 0) {
-      result = book.images.map((image: string) => {
-        return `assets/${this.directory}/${book.slug}/${image}`;
+      result = book.images.map((image: {sm: string, lg: string}) => {
+        return {
+          sm: `assets/${this.directory}/${book.slug}/${image.sm}`,
+          lg: `assets/${this.directory}/${book.slug}/${image.lg}`
+        };
       });
     }
     return result;
