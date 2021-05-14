@@ -134,9 +134,9 @@ collections:
         widget: relation
         multiple: true
         collection: person
-        search_fields: ['firstName', 'lastName']
+        search_fields: ['name', 'lastName']
         value_field: '{{slug}}'
-        display_fields: ['{{firstName}} {{lastName}}']
+        display_fields: ['{{name}} {{lastName}}']
       - { name: publisher, label: Publisher }
       - { name: pdfLink, label: PDF Link }
       - { name: amazonLink, label: Amazon Link }
