@@ -146,7 +146,9 @@ collections:
         min: 1
         summary: '{{fields.image}}'
         widget: list
-        field: { name: image, label: Image, widget: image }
+        fields: 
+        - { name: sm, label: "Mobile (sm) Version" , widget: image }
+        - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
       - { name: body, label: Abstract, widget: markdown }
 
   - name: news

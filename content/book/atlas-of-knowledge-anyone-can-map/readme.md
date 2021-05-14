@@ -1,17 +1,17 @@
 ---
 bookImages:
-  - image1-lg.jpg
-  - image1-sm.jpg
-  - image2-lg.jpg
-  - image2-sm.jpg
-  - image3-lg.jpg
-  - image3-sm.jpg
-  - image4-lg.jpg
-  - image4-sm.jpg
-  - image5-lg.jpg
-  - image5-sm.jpg
-  - image6-lg.jpg
-  - image6-sm.jpg
+  - sm: image1-sm.jpg
+    lg: image1-lg.jpg
+  - sm: image2-sm.jpg
+    lg: image2-lg.jpg
+  - sm: image3-sm.jpg
+    lg: image3-lg.jpg
+  - sm: image4-sm.jpg
+    lg: image4-lg.jpg
+  - sm: image5-sm.jpg
+    lg: image5-lg.jpg
+  - sm: image6-sm.jpg
+    lg: image6-lg.jpg
 book_image: image1.jpg
 date: 2021-05-12T18:50:48.552Z
 title: "Atlas of Knowledge: Anyone Can Map"
