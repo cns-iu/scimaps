@@ -1,0 +1,98 @@
+import { Injectable } from '@angular/core';
+import { Resolve, Params } from '@angular/router';
+import { Book } from '../../shared/components/book-overview/book-overview.component';
+import { Observable, of, from, forkJoin, combineLatest } from 'rxjs';
+import { ContentService, toSlug } from '../../shared/services/content.service';
+import { take, map, concatMap, mergeMap, tap, scan } from 'rxjs/operators';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class BooksResolverService implements Resolve<Book[]> {
+
+  directory: string = 'content/book'
+
+  constructor(private contentService: ContentService) { }
+
+  getImageSource(book: Book): string[] {
+    let result: string[] = [];
+    if (Array.isArray(book.images) && book.images.length > 0) {
+      result = book.images.map((image: string) => {
+        return `assets/${this.directory}/${book.slug}/${image}`;
+      });
+    }
+    return result;
+  }
+
+  toBookUI(item: Params): Book {
+    const book: Book = {
+      title: item.title,
+      amazonLink: item.amazonLink,
+      pdfLink: item.pdfLink,
+      publisher: item.publisher,
+      author: item.author,
+      body: item.body,
+      slug: toSlug(item.title),
+      images: item.bookImages
+    }
+    book.images = this.getImageSource(book);
+    return book;
+  }
+
+  resolve(): Observable<Book[]> | Observable<never> {
+    const books$ = this.contentService.getIndex<Params>('books').pipe(take(1));
+
+    const person$ = books$.pipe(
+      map((items: Params[]) => {
+        let slugs: string[] = [];
+        console.log('items', items);
+        items.forEach((item: Params) => {
+          item.author.forEach((author: string) => {
+            if (!slugs.includes(author)) {
+              slugs = slugs.concat(author)
+            }
+          });
+        });
+        // ['s1', 's2']
+        return slugs;
+      }),
+      mergeMap((slugs: string[]) => {
+        console.log('slugs', slugs);
+        const forkJoins: Observable<Params>[] = slugs.map((slug: string) => {
+          // {'s1': {}}, {'s2': {}}
+          return this.contentService.getContent<Params>(`person/${slug}`).pipe(
+            take(1),
+            map((result: Params) => {
+              return {
+                [slug]: result
+              }
+            })
+          )
+        });
+        // [ {'s1': {}}, {'s2': {}} ]
+        return forkJoin(forkJoins);
+      }),
+      map((array: Params[]) => {
+        const result = {};
+        array.forEach(element => {
+          Object.assign(result, element);
+        });
+        // {'s1': {}, 's2': {}}
+        return result;
+      })
+    );
+    
+    // Combine
+    return combineLatest([person$, books$]).pipe(
+      map((result: Params[]) => {
+        const [hash, items] = result;
+        return items.map((item: Params) => {
+          const authorNames: string[] = item.author.map((slug: string) => {
+            return hash[slug]['name'];
+          })
+          return this.toBookUI({...item, author: authorNames.join(', ')})
+        })
+      })
+    )
+  }
+}
