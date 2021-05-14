@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 
 import { Book } from '../../shared/components/book-overview/book-overview.component';
 import { ActivatedRoute } from '@angular/router';
+import { Subscription } from 'rxjs';
 
 
 @Component({
@@ -9,15 +10,23 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './books.component.html',
   styleUrls: ['./books.component.scss']
 })
-export class BooksComponent implements OnInit {
+export class BooksComponent implements OnInit, OnDestroy {
+
   books: Book[] = [];
+  dataSubscription?: Subscription;
 
   constructor(private route: ActivatedRoute) {
   }
 
   ngOnInit(): void {
-    this.route.data.subscribe((data) => {
+    this.dataSubscription = this.route.data.subscribe((data) => {
       this.books = data.books;
     });
+  }
+
+  ngOnDestroy(): void {
+    if (this.dataSubscription) {
+      this.dataSubscription.unsubscribe();
+    }
   }
 }
