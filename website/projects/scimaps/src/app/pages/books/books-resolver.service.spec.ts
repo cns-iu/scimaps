@@ -40,8 +40,11 @@ describe('BooksResolverService', () => {
   it('should give correct relative image path', () => {
     const book = testBooks[0];
     const bookImages = service.getImageSource(book);
-    const results = book.images.map((image: string) => {
-      return `assets/${service.directory}/${book.slug}/${image}`;
+    const results = book.images.map((image: {sm: string, lg: string}) => {
+      return {
+        sm: `assets/${service.directory}/${book.slug}/${image.sm}`,
+        lg: `assets/${service.directory}/${book.slug}/${image.lg}`
+      };
     });
     expect(bookImages).toEqual(results);
   });
