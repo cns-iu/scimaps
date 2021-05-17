@@ -552,7 +552,7 @@ class AboutResolverService {
     }
     resolve() {
         return this.content.getIndex('people').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["take"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((items) => {
-            return items.map((item) => {
+            return items.filter(item => item.name).map((item) => {
                 const profile = {
                     name: item.name,
                     slug: Object(_shared_services_content_service__WEBPACK_IMPORTED_MODULE_1__["toSlug"])(item.name),
