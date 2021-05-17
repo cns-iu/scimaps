@@ -19,7 +19,12 @@
 <div class="carousel-column">
   <sci-carousel class="carousel">
     <sci-carousel-item *ngFor="let image of book.images; index as i">
-      <img [src]="image" alt="Image #{{ i }} for book {{ book.title }}">
+      <ng-container *sciBreakpoint="'mobile-'; else: desktop">
+        <img [src]="image.sm" alt="Image #{{ i }} for book {{ book.title }}">
+      </ng-container>
+      <ng-template #desktop>
+        <img [src]="image.lg" alt="Image #{{ i }} for book {{ book.title }}">
+      </ng-template>
     </sci-carousel-item>
   </sci-carousel>
 </div>
