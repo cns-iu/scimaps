@@ -1,6 +1,6 @@
 ---
-name: Anna Rosling R&ouml;nnlund
-last_name: Rosling Ronlund
+name: Anna Rosling Rönnlund
+last_name: Rönnlund
 image: image.jpg
 roles:
   - maker
