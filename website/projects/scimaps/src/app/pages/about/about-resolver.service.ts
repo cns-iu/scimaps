@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Resolve } from '@angular/router';
+import { Resolve, Params } from '@angular/router';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 import { take, map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
@@ -23,10 +23,10 @@ export class AboutResolverService implements Resolve<Profile[]> {
   }
 
   resolve(): Observable<Profile[]> | Observable<never> {
-    return this.content.getIndex<{[key: string]: string}>('people').pipe(
+    return this.content.getIndex<Params>('people').pipe(
       take(1),
       map((items: {[key: string]: string}[]) => {
-        return items.filter(item => item.name).map((item: {[key: string]: string}) => {
+        return items.filter(item => item.name).map((item: Params) => {
           const profile: Profile = {
             name: item.name,
             slug: toSlug(item.name),
@@ -34,7 +34,8 @@ export class AboutResolverService implements Resolve<Profile[]> {
             link: item.homepage,
             body: item.body,
             affiliation: item.affiliation,
-            image: item.image
+            image: item.image,
+            roles: item.roles || []
           };
           profile.image = this.getImageSource(profile);
           return profile;
