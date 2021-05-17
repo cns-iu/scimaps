@@ -20,7 +20,7 @@ export class AboutComponent implements OnInit {
   advisoryBoardDescription = '';
   ambassadorProfiles: Profile[] = [];
   ambassadorsDescription = '';
-  pageTabs = ['Curators/Advisory Board', 'Ambassadors'];
+  pageTabs = ['Curatorial Team / Advisory Board', 'Exhibit Ambassadors'];
   activePageTab = 0;
 
   ngOnInit(): void {
