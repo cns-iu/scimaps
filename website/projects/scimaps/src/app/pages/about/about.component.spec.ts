@@ -9,7 +9,7 @@ import { Profile } from '../../core/models/profile';
 export function getProfiles(numberOfProfiles: number): Profile[] {
   const profiles: Profile[] = [];
   for (let i = 0; i <= numberOfProfiles; i++) {
-    const roles = ['maker', 'advisory_board', 'ambassador'];
+    const roles = ['curator', 'advisory_board', 'ambassador'];
     const index = Math.floor(Math.random() * 3);
     profiles.push({
       affiliation: `IUB ${i}`,

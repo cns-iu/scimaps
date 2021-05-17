@@ -28,7 +28,7 @@ export class AboutComponent implements OnInit {
       const {profiles, body} = data;
       if (profiles && Array.isArray(profiles)) {
         this.curatorProfiles = profiles.filter((profile: Profile) => {
-          return profile.roles.includes('maker');
+          return profile.roles.includes('curator');
         });
         this.advisoryBoardProfiles = profiles.filter((profile: Profile) => {
           return profile.roles.includes('advisory_board');
