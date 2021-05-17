@@ -627,7 +627,17 @@
     "image": "image.jpg"
   },
   {
-    "body": "---Ed Noijons\nlast_name: Noijons\nroles:\n  - ambassador\njobTitle: Senior Researcher\naffiliation: CWTS Leiden University\nlocation: '{\"type\":\"Point\",\"coordinates\":[4.475818769721159,52.16869929247168]}'\nlocation_name: Leiden, Netherlands\nregion: europe\nimage: image.jpg\n---\n\n"
+    "name": "Ed Noijons",
+    "last_name": "Noijons",
+    "roles": [
+      "ambassador"
+    ],
+    "jobTitle": "Senior Researcher",
+    "affiliation": "CWTS Leiden University",
+    "location": "{\"type\":\"Point\",\"coordinates\":[4.475818769721159,52.16869929247168]}",
+    "location_name": "Leiden, Netherlands",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
     "name": "Edith M. Punt",
@@ -676,7 +686,17 @@
     ]
   },
   {
-    "body": "name: Eric Rodenbeck\nlast_name: Rodenbeck\nroles:\n  - ambassador\njobTitle: Founder and Creative Director of Stamen and member of the Board of Directors\naffiliation: Kenneth Rainin Foundationn\nlocation: '{\"type\":\"Point\",\"coordinates\":[-122.26392650174769,37.810993341852374]}'\nlocation_name: Oakland, CA, USA\nregion: n_america\nimage: image.jpg\n---\n\n"
+    "name": "Eric Rodenbeck",
+    "last_name": "Rodenbeck",
+    "roles": [
+      "ambassador"
+    ],
+    "jobTitle": "Founder and Creative Director of Stamen and member of the Board of Directors",
+    "affiliation": "Kenneth Rainin Foundationn",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-122.26392650174769,37.810993341852374]}",
+    "location_name": "Oakland, CA, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Eugene Garfield",
