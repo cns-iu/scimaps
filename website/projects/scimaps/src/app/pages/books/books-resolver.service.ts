@@ -96,8 +96,9 @@ export class BooksResolverService implements Resolve<Book[]> {
             if (slug in people) {
               const profile: Profile = people[slug];
               return profile.name;
+            } else {
+              return;
             }
-            return;
           }).filter((author: string | undefined) => author);
           return this.toBookUI({...book, author: authorNames.join(', ')});
         });
