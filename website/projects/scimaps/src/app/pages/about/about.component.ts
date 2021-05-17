@@ -29,7 +29,7 @@ export class AboutComponent implements OnInit {
       if (profiles && Array.isArray(profiles)) {
         this.curatorProfiles = profiles.filter((profile: Profile) => {
           return profile.roles.includes('maker');
-        })
+        });
         this.advisoryBoardProfiles = profiles.filter((profile: Profile) => {
           return profile.roles.includes('advisory_board');
         });

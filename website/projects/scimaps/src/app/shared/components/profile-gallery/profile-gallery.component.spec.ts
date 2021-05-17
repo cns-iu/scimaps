@@ -11,7 +11,8 @@ const testProfile: Profile =     {
   body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
   link: 'www.google.com',
   slug: 'name-surname',
-  image: 'image.jpg'
+  image: 'image.jpg',
+  roles: ['maker']
 };
 
 function getProfiles(numberOfProfiles: number): Profile[] {

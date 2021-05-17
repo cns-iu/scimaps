@@ -9,6 +9,8 @@ import { Profile } from '../../core/models/profile';
 export function getProfiles(numberOfProfiles: number): Profile[] {
   const profiles: Profile[] = [];
   for (let i = 0; i <= numberOfProfiles; i++) {
+    const roles = ['maker', 'advisory_board', 'ambassador'];
+    const index = Math.floor(Math.random() * 3);
     profiles.push({
       affiliation: `IUB ${i}`,
       body: `Sample body ${i}`,
@@ -17,6 +19,7 @@ export function getProfiles(numberOfProfiles: number): Profile[] {
       name: `Abin Abraham ${i}`,
       slug: `abin-abraham-${i}`,
       title: `Sample title ${i}`,
+      roles: [ roles[index] ]
     });
   }
   return profiles;
@@ -75,19 +78,25 @@ describe('AboutComponent', () => {
 
   it('should have correct curator profiles', async () => {
     const { instance } = await shallow.render();
-    const curatorProfiles = testProfiles.slice(0, 3);
+    const curatorProfiles = testProfiles.filter((profile: Profile) => {
+      return profile.roles.includes('maker');
+    });
     expect(instance.curatorProfiles).toEqual(curatorProfiles);
   });
 
   it('should have correct advisory board profiles', async () => {
     const { instance } = await shallow.render();
-    const advisoryBoardProfiles = testProfiles.slice(3, 12);
+    const advisoryBoardProfiles = testProfiles.filter((profile: Profile) => {
+      return profile.roles.includes('advisory_board');
+    });
     expect(instance.advisoryBoardProfiles).toEqual(advisoryBoardProfiles);
   });
 
   it('should have correct ambassadors profiles', async () => {
     const { instance } = await shallow.render();
-    const ambassadorProfiles = testProfiles.slice(12, 21);
+    const ambassadorProfiles = testProfiles.filter((profile: Profile) => {
+      return profile.roles.includes('ambassador');
+    });
     expect(instance.ambassadorProfiles).toEqual(ambassadorProfiles);
   });
 });
