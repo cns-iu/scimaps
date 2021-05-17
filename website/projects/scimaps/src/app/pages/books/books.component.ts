@@ -20,7 +20,7 @@ export class BooksComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.dataSubscription = this.route.data.subscribe((data) => {
-      if (data && data.hasOwnPropert('books') && Array.isArray(data.books)) {
+      if (data && data.hasOwnProperty('books') && Array.isArray(data.books)) {
         this.books = data.books;
       }
     });

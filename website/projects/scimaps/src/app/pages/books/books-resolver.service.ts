@@ -4,6 +4,7 @@ import { Book } from '../../shared/components/book-overview/book-overview.compon
 import { Observable, forkJoin, combineLatest } from 'rxjs';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 import { take, map, mergeMap, shareReplay } from 'rxjs/operators';
+import { Profile } from '../../core/models/profile';
 
 @Injectable({
   providedIn: 'root'
@@ -90,12 +91,17 @@ export class BooksResolverService implements Resolve<Book[]> {
     // Combine
     return combineLatest([person$, books$]).pipe(
       map((result: Params[]) => {
-        const [hash, items] = result;
-        return items.map((item: Params) => {
-          const authorNames: string[] = item.author.map((slug: string) => {
-            return hash[slug].name;
-          });
-          return this.toBookUI({...item, author: authorNames.join(', ')});
+        const [people, books] = result;
+        return books.map((book: Params) => {
+          const authorNames: string[] = book.author
+          .map((slug: string) => {
+            if (slug in people) {
+              const profile: Profile = people[slug];
+              return profile.name;
+            }
+            return;
+          }).filter((author: string | undefined) => author);
+          return this.toBookUI({...book, author: authorNames.join(', ')});
         });
       })
     );
