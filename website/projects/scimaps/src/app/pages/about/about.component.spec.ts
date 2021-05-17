@@ -79,7 +79,7 @@ describe('AboutComponent', () => {
   it('should have correct curator profiles', async () => {
     const { instance } = await shallow.render();
     const curatorProfiles = testProfiles.filter((profile: Profile) => {
-      return profile.roles.includes('maker');
+      return profile.roles.includes('curator');
     });
     expect(instance.curatorProfiles).toEqual(curatorProfiles);
   });
