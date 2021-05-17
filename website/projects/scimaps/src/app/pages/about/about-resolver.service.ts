@@ -26,7 +26,7 @@ export class AboutResolverService implements Resolve<Profile[]> {
     return this.content.getIndex<{[key: string]: string}>('people').pipe(
       take(1),
       map((items: {[key: string]: string}[]) => {
-        return items.map((item: {[key: string]: string}) => {
+        return items.filter(item => item.name).map((item: {[key: string]: string}) => {
           const profile: Profile = {
             name: item.name,
             slug: toSlug(item.name),
