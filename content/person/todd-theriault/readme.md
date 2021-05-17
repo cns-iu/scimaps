@@ -1,13 +1,8 @@
 ---
 name: Todd Theriault
-last_name: Theriault
 image: image.jpg
 jobTitle: Copy Writer and Editor at the Cyberinfrastructure for Network Science Center
-affiliation: Indiana University - Bloomington
-region: 
-  - north america
-location_name: Bloomington, Indiana
-location: {"type":"Point","coordinates":[39.175714828051944, -86.51265918770342]}
+location: 39.175714828051944, -86.51265918770342
 roles:
   - team
   - curator
