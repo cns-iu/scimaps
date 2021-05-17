@@ -1,27 +1,7 @@
 [
   {
-    "name": "Abin Abraham",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
     "name": "Achim Oberg",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Adam Simpson",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Adrian White",
+    "last_name": "Oberg",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -29,6 +9,7 @@
   },
   {
     "name": "Alan Mislove",
+    "last_name": "Mislove",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -36,20 +17,21 @@
   },
   {
     "name": "Alan Porter",
-    "image": "image.jpg",
+    "last_name": "Porter",
     "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Alasdair Rae",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
+      "maker",
+      "ambassador"
+    ],
+    "jobTitle": "Director",
+    "affiliation": "Search Technology, Inc",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-84.22125683500562,33.9715785246666]}",
+    "location_name": "Peachtree Corners, GA, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Albert-László Barabási",
+    "last_name": "Barabási",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -57,13 +39,7 @@
   },
   {
     "name": "Alessandro Vespignani",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Alex Galloway",
+    "last_name": "Vespignani",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -71,20 +47,7 @@
   },
   {
     "name": "Alex Soojung-Kim Pang",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Alexander Gates",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Alice Grischchenko",
+    "last_name": "Soojung-Kim Pang",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -92,62 +55,68 @@
   },
   {
     "name": "Alkim Almila Akdag Salah",
+    "last_name": "Salah",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Almila Akdag Salah",
+    "name": "Andr&eacute; Skupin",
     "image": "image.jpg",
+    "affiliation": "San Diego State University",
+    "region": "North America",
+    "city": "San Diego, CA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -117.07129621694821,
+        32.776079588285334
+      ]
+    },
     "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Alphonse MacDonald",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "André Skupin",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
+      "maker",
+      "advisory_board"
     ]
   },
   {
     "name": "Andrea Scharnhorst",
-    "image": "image.jpg",
+    "last_name": "Scharnhorst",
     "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Andrew Dillon",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Andrew Levinson",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
+      "maker",
+      "ambassador"
+    ],
+    "jobTitle": "Senior Research Fellow at Data Archiving and Networked Services Department",
+    "affiliation": "Royal Netherlands Academy of Arts and Sciences",
+    "location": "{\"type\":\"Point\",\"coordinates\":[4.402616800450721,52.54427500843068]}",
+    "location_name": "Amsterdam, Netherlands",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
     "name": "Andrew Plume",
+    "last_name": "Plume",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
+    "name": "Andrew Ravenscroft",
+    "last_name": "Ravenscroft",
+    "roles": [
+      "ambassador"
+    ],
+    "jobTitle": "Professor of Education and Director of Impact and Innovation; Director, International Centre for Public Pedagogy; REF Coordinator, Education",
+    "affiliation": "School of Education and Communities, Stratford Campus, University of East London",
+    "location": "{\"type\":\"Point\",\"coordinates\":[0.009041827377128683,51.54516571944237]}",
+    "location_name": "London, United Kingdom",
+    "region": "europe",
+    "image": "image.jpg"
+  },
+  {
     "name": "Andrew Winterman",
+    "last_name": "Winterman",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -155,6 +124,7 @@
   },
   {
     "name": "Andrew Witherspoon",
+    "last_name": "Witherspoon",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -162,6 +132,7 @@
   },
   {
     "name": "Angela Zoss",
+    "last_name": "Zoss",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -169,6 +140,7 @@
   },
   {
     "name": "Anna Barford",
+    "last_name": "Barford",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -176,13 +148,7 @@
   },
   {
     "name": "Anna Rosling R&ouml;nnlund",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Anton Leuski",
+    "last_name": "Rosling Ronlund",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -190,6 +156,7 @@
   },
   {
     "name": "Aric Hagberg",
+    "last_name": "Hagberg",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -197,13 +164,7 @@
   },
   {
     "name": "Bailey Klinger",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Barbara Kline Pope ",
+    "last_name": "Klinger",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -211,13 +172,7 @@
   },
   {
     "name": "Ben Wheeler",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Ben Worthen",
+    "last_name": "Wheeler",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -225,13 +180,22 @@
   },
   {
     "name": "Benjamin Wiederkehr",
-    "image": "image.jpg",
+    "last_name": "Wiederkehr",
     "roles": [
-      "maker"
-    ]
+      "maker",
+      "ambassador",
+      "advisory_board"
+    ],
+    "jobTitle": "Founding Partner and Managing Director",
+    "affiliation": "Interactive Things",
+    "location": "{\"type\":\"Point\",\"coordinates\":[8.52668995426697,47.37804970281839]}",
+    "location_name": "Zürich, Switzerland",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
     "name": "Berend Snel",
+    "last_name": "Snel",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -239,20 +203,50 @@
   },
   {
     "name": "Bernard Porter",
+    "last_name": "Porter",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Bertrand Eberhard",
-    "image": "image.jpg",
+    "name": "Bob Bishop",
+    "last_name": "Bishop",
     "roles": [
-      "maker"
-    ]
+      "ambassador"
+    ],
+    "jobTitle": "Chairman and Founder of BBWORLD Consulting Services Sàrl",
+    "affiliation": "ICES Foundation",
+    "location": "{\"type\":\"Point\",\"coordinates\":[6.193434369583757,46.22738994528579]}",
+    "location_name": "Geneva, Switzerland",
+    "region": "europe",
+    "image": "image.jpg"
+  },
+  {
+    "name": "Bonnie DeVarco",
+    "last_name": "DeVarco",
+    "roles": [
+      "ambassador",
+      "advisory_board"
+    ],
+    "jobTitle": "Media X Distinguished Visiting Scholar",
+    "affiliation": "Stanford University",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-122.17054420175457,37.42815025888914]}",
+    "location_name": "Palo Alto, CA, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Bradford Demarest",
+    "last_name": "Demarest",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Bradford Paley",
+    "last_name": "Paley",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -260,6 +254,7 @@
   },
   {
     "name": "Brett Johnson",
+    "last_name": "Johnson",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -267,20 +262,15 @@
   },
   {
     "name": "Brian Castellani",
+    "last_name": "Castellani",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Bruce Herr",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Bruce W. Herr, II",
+    "name": "Bruce Herr II",
+    "last_name": "Herr",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -288,13 +278,7 @@
   },
   {
     "name": "Buckminster Fuller",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Cameron Becarrio",
+    "last_name": "Fuller",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -302,27 +286,35 @@
   },
   {
     "name": "Carlo Ratti",
-    "image": "image.jpg",
+    "last_name": "Ratti",
     "roles": [
-      "maker"
-    ]
+      "maker",
+      "ambassador"
+    ],
+    "jobTitle": "Architect, Engineer, and Director of the SENSEable City Lab",
+    "affiliation": "Massachusetts Institute of Technology",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-71.09407417097717,42.36007512358106]}",
+    "location_name": "Cambridge, MA , USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
-    "name": "Cath Sleeman",
-    "image": "image.jpg",
+    "name": "Caroline S. Wagner",
+    "last_name": "Wagner",
     "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Catherine Plaisant",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
+      "ambassador",
+      "advisory_board"
+    ],
+    "jobTitle": "Wolf Chair in International Affairs",
+    "affiliation": "The Ohio State University",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-83.03049751704967,40.00670515125775]}",
+    "location_name": "Columbus, OH, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Cesar A. Hidalgo",
+    "last_name": "Hidalgo",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -330,20 +322,21 @@
   },
   {
     "name": "Chaomei Chen",
-    "image": "image.jpg",
+    "last_name": "Chen",
     "roles": [
-      "maker"
-    ]
+      "maker",
+      "ambassador"
+    ],
+    "jobTitle": "Professor in the College of Information Science and Technology",
+    "affiliation": "Drexel University",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-75.19005833776926,39.95744086961737]}",
+    "location_name": "Philadelphia, PA, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Charles Joseph Minard",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Charles van den Heuvel",
+    "last_name": "Minard",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -351,13 +344,7 @@
   },
   {
     "name": "Cheng Gao",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Chin Hua Kong",
+    "last_name": "Gao",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -365,13 +352,7 @@
   },
   {
     "name": "Chris Creevey",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Chris Dodo",
+    "last_name": "Creevey",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -379,6 +360,7 @@
   },
   {
     "name": "Chris Harrison",
+    "last_name": "Harrison",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -386,13 +368,7 @@
   },
   {
     "name": "Christian Herzog",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Christian Siegrist",
+    "last_name": "Herzog",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -400,6 +376,7 @@
   },
   {
     "name": "Christian Von Mering",
+    "last_name": "Von Mering",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -407,6 +384,7 @@
   },
   {
     "name": "Christine Kreuder Johnson",
+    "last_name": "Kreuder Johnson",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -414,6 +392,15 @@
   },
   {
     "name": "Christopher N. Hill",
+    "last_name": "Hill",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Christopher Romhild",
+    "last_name": "Romhild",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -421,6 +408,7 @@
   },
   {
     "name": "Chuck Meertens",
+    "last_name": "Meertens",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -428,6 +416,7 @@
   },
   {
     "name": "Clark Friefeld",
+    "last_name": "Friefeld",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -435,6 +424,7 @@
   },
   {
     "name": "Claudius Ptolemy",
+    "last_name": "Ptolemy",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -442,6 +432,7 @@
   },
   {
     "name": "Council for Chemical Research",
+    "last_name": "Council",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -449,6 +440,7 @@
   },
   {
     "name": "Damien Joly",
+    "last_name": "Joly",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -456,34 +448,23 @@
   },
   {
     "name": "Daniel O. Kutz",
+    "last_name": "Kutz",
     "image": "image.png",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Daniel Quercia",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
     "name": "Daniel Zeller",
+    "last_name": "Zeller",
     "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Danielle Hartman",
-    "image": "image.gif",
     "roles": [
       "maker"
     ]
   },
   {
     "name": "Danny Dorling",
+    "last_name": "Dorling",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -491,27 +472,15 @@
   },
   {
     "name": "Danyel Fisher",
+    "last_name": "Fisher",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Darquati (Flickr)",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Dasha Kolmakova",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Dave Menninger ",
+    "name": "Dave Menninger",
+    "last_name": "Menninger",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -519,13 +488,21 @@
   },
   {
     "name": "David Chavalarias",
-    "image": "image.jpg",
+    "last_name": "Chavalarias",
     "roles": [
-      "maker"
-    ]
+      "maker",
+      "ambassador"
+    ],
+    "jobTitle": "Professor",
+    "affiliation": "National Center for Scientific Research",
+    "location": "{\"type\":\"Point\",\"coordinates\":[2.263982669642494,48.84782254692198]}",
+    "location_name": "Paris, France",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
     "name": "David Dorling",
+    "last_name": "Dorling",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -533,6 +510,7 @@
   },
   {
     "name": "David E. Polley",
+    "last_name": "Polley",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -540,27 +518,15 @@
   },
   {
     "name": "David McCandless",
+    "last_name": "McCandless",
     "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "David Mintz",
-    "image": "image.gif",
     "roles": [
       "maker"
     ]
   },
   {
     "name": "David N. Wiley",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "David Newman (UCI)",
+    "last_name": "Wiley",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -568,6 +534,7 @@
   },
   {
     "name": "David Newman",
+    "last_name": "Newman",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -575,13 +542,7 @@
   },
   {
     "name": "David Pescovitz",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "David Reagan",
+    "last_name": "Pescovitz",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -589,6 +550,7 @@
   },
   {
     "name": "David Rumsey",
+    "last_name": "Rumsey",
     "image": "image.png",
     "roles": [
       "maker"
@@ -596,6 +558,7 @@
   },
   {
     "name": "Deb Roy",
+    "last_name": "Roy",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -603,6 +566,7 @@
   },
   {
     "name": "Devin Becker",
+    "last_name": "Becker",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -610,6 +574,7 @@
   },
   {
     "name": "Dietmar Offenhuber",
+    "last_name": "Offenhuber",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -617,6 +582,7 @@
   },
   {
     "name": "Dimitris Menemenlis",
+    "last_name": "Menemenlis",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -624,13 +590,15 @@
   },
   {
     "name": "Dino Citraro",
+    "last_name": "Citraro",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Dogan Seber",
+    "name": "Dirmoser Gerhard",
+    "last_name": "Gerhard",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -638,41 +606,32 @@
   },
   {
     "name": "Domanique Alicia",
+    "last_name": "Alicia",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Don R. Swanson",
-    "image": "image.jpg",
+    "name": "Donna J. Cox",
+    "last_name": "Cox",
     "roles": [
-      "maker"
-    ]
+      "ambassador",
+      "advisory_board"
+    ],
+    "jobTitle": "Director of the Advanced Visualization Laboratory at the National Center for Supercomputing Applications",
+    "affiliation": "University of Illinois at Urbana-Champaign",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-88.22704546843802,40.10213801714853]}",
+    "location_name": "Urbana, Il, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
-    "name": "Dr. Chris Creevey",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Dr. Christian von Mering",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Ece Kavlak",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
+    "body": "---Ed Noijons\nlast_name: Noijons\nroles:\n  - ambassador\njobTitle: Senior Researcher\naffiliation: CWTS Leiden University\nlocation: '{\"type\":\"Point\",\"coordinates\":[4.475818769721159,52.16869929247168]}'\nlocation_name: Leiden, Netherlands\nregion: europe\nimage: image.jpg\n---\n\n"
   },
   {
     "name": "Edith M. Punt",
+    "last_name": "Punt",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -680,27 +639,29 @@
   },
   {
     "name": "Edmund Talley",
+    "last_name": "Talley",
     "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Eduardo Mercovich",
-    "image": "image.gif",
     "roles": [
       "maker"
     ]
   },
   {
     "name": "Elijah Meeks",
-    "image": "image.jpg",
+    "last_name": "Meeks",
     "roles": [
-      "maker"
-    ]
+      "maker",
+      "advisory_board"
+    ],
+    "jobTitle": "Chief Visualization Officer & Co-Founder",
+    "affiliation": "Noteable",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-122.02859732371921,36.97417586599572]}",
+    "location_name": "Santa Cruz, CA, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Elisha F. H. Allgood",
+    "last_name": "Allgood",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -708,20 +669,18 @@
   },
   {
     "name": "Eric Fischer",
+    "last_name": "Fischer",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Eric Frost",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
+    "body": "name: Eric Rodenbeck\nlast_name: Rodenbeck\nroles:\n  - ambassador\njobTitle: Founder and Creative Director of Stamen and member of the Board of Directors\naffiliation: Kenneth Rainin Foundationn\nlocation: '{\"type\":\"Point\",\"coordinates\":[-122.26392650174769,37.810993341852374]}'\nlocation_name: Oakland, CA, USA\nregion: n_america\nimage: image.jpg\n---\n\n"
   },
   {
     "name": "Eugene Garfield",
+    "last_name": "Garfield",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -729,13 +688,7 @@
   },
   {
     "name": "Evelyn Münster",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Felix Moya Anegon",
+    "last_name": "Münster",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -743,6 +696,7 @@
   },
   {
     "name": "Ferdy van Gool",
+    "last_name": "van Gool",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -750,20 +704,7 @@
   },
   {
     "name": "Fernanda Viégas",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Fileve Palmer",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "FleetMon",
+    "last_name": "Viégas",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -771,41 +712,64 @@
   },
   {
     "name": "Francesca Ciccarelli",
+    "last_name": "Ciccarelli",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
+  },
+  {
+    "name": "Francis Harvey",
+    "last_name": "Harvey",
+    "roles": [
+      "ambassador",
+      "advisory_board"
+    ],
+    "jobTitle": "Professor of Visual Communication in Geography at the Liebnitz Institute for Regional Geography",
+    "affiliation": "Leipzig University",
+    "location": "{\"type\":\"Point\",\"coordinates\":[51.33890220030611,12.378567863312156]}",
+    "location_name": "Leipzig, Germany",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
     "name": "Francis Narin",
+    "last_name": "Narin",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "François Chauveau",
-    "image": "image.gif",
+    "name": "Gary Berg-Cross",
+    "last_name": "Berg-Cross",
     "roles": [
-      "maker"
-    ]
+      "ambassador",
+      "advisory_board"
+    ],
+    "jobTitle": "Cognitive Psychologist",
+    "affiliation": "SUNY–Stony Brook",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-73.12407219004582,40.904804288153514]}",
+    "location_name": "Potomac, MD, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
-    "name": "Gapminder",
-    "image": "image.jpg",
+    "name": "George Kampis",
+    "last_name": "Kampis",
     "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Garrett Dash Nelson",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
+      "ambassador"
+    ],
+    "jobTitle": "Eötvös University",
+    "affiliation": "SUNY–Stony Brook",
+    "location": "{\"type\":\"Point\",\"coordinates\":[19.019564701481098,47.49195420162594]}",
+    "location_name": "Budapest, Hungary",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
     "name": "George Shaw",
+    "last_name": "Shaw",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -813,20 +777,7 @@
   },
   {
     "name": "Georgiy G. Dumenton",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Gerhard Bliedung",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Gerhard Dirmoser",
+    "last_name": "Dumenton",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -834,6 +785,7 @@
   },
   {
     "name": "Graham Allsopp",
+    "last_name": "Allsopp",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -841,27 +793,23 @@
   },
   {
     "name": "Gregory W. Shirah",
+    "last_name": "Shirah",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Gully Burns (USC)",
+    "name": "Gully Burns",
+    "last_name": "Burns",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "H. J. T. Ellingham",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Haggi Ahmed",
+    "name": "Harold Johann Thomas Ellingham",
+    "last_name": "Ellingham",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -869,20 +817,15 @@
   },
   {
     "name": "Hazel Tiffany",
+    "last_name": "Tiffany",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Henrich Bünting",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Henry G. Small",
+    "name": "Henry G Medall",
+    "last_name": "Medall",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -890,6 +833,7 @@
   },
   {
     "name": "Herbert Van de Sompel",
+    "last_name": "Sompel",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -897,27 +841,15 @@
   },
   {
     "name": "Herman Moll",
+    "last_name": "Moll",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "H.J.T. Ellingham",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Horace G. Mitchell",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Howard D. White",
+    "name": "Horace G Mitchell",
+    "last_name": "Mitchell",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -925,6 +857,7 @@
   },
   {
     "name": "Ian Francis",
+    "last_name": "Francis",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -932,34 +865,50 @@
   },
   {
     "name": "Iana Atanassova",
+    "last_name": "Atanassova",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
+  },
+  {
+    "name": "Indira Chowdhury",
+    "last_name": "Chowdhury",
+    "roles": [
+      "ambassador"
+    ],
+    "jobTitle": "Director",
+    "affiliation": "Srishti-Manipal Institute of Art, Design and Technology",
+    "location": "{\"type\":\"Point\",\"coordinates\":[77.57609731331907,13.107774421985384]}",
+    "location_name": "Bengaluru, India",
+    "region": "asia",
+    "image": "image.jpg"
   },
   {
     "name": "Ingo Günther",
-    "image": "image.jpg",
+    "last_name": "Günther",
     "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Irving H. Sher",
-    "image": "image.gif",
-    "roles": [
-      "maker"
-    ]
+      "maker",
+      "advisory_board"
+    ],
+    "jobTitle": "Professor",
+    "affiliation": "Karlsruhe Univerity of Art and Design",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-86.23795510167477,41.69883169351983]}",
+    "location_name": "Karlsruhe, Germany",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
     "name": "Ismael Rafols",
+    "last_name": "Rafols",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "J. Richard Gott, III",
+    "name": "J. Richard Gott",
+    "last_name": "Gott",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -967,6 +916,7 @@
   },
   {
     "name": "Jacob O'Brien",
+    "last_name": "O'Brien",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -974,6 +924,7 @@
   },
   {
     "name": "James Burke",
+    "last_name": "Burke",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -981,27 +932,23 @@
   },
   {
     "name": "James Niels Rosenquist",
+    "last_name": "Rosenquist",
     "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "James Turner",
-    "image": "image.gif",
     "roles": [
       "maker"
     ]
   },
   {
     "name": "Jan Jansson",
+    "last_name": "Jansson",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Jan Witkowski",
+    "name": "Jan Witowski",
+    "last_name": "Witowski",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1009,6 +956,7 @@
   },
   {
     "name": "Jan Youtie",
+    "last_name": "Youtie",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1016,6 +964,7 @@
   },
   {
     "name": "Jaume Nualart",
+    "last_name": "Nualart",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1023,20 +972,7 @@
   },
   {
     "name": "Jay Chow",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "JD Talasek",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Jean-Daniel Fekete",
+    "last_name": "Chow",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1044,27 +980,36 @@
   },
   {
     "name": "Jean Hagan",
+    "last_name": "Hagan",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Jean-Philippe Cointet",
+    "name": "Jean Philippe Cointet",
+    "last_name": "Cointet",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Jeff Colosino",
-    "image": "image.jpg",
+    "name": "Jeffrey Piestrak",
+    "last_name": "Piestrak",
     "roles": [
-      "maker"
-    ]
+      "ambassador"
+    ],
+    "jobTitle": "Community Outreach Specialist",
+    "affiliation": "Cornell University",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-76.4733632267974,42.45344126316907]}",
+    "location_name": "Ithaca, NY, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Jenn Riley",
+    "last_name": "Riley",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1072,13 +1017,15 @@
   },
   {
     "name": "Jeremy Douglass",
+    "last_name": "Douglass",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Jérôme Cukier",
+    "name": "Jerome Cukier",
+    "last_name": "Cukier",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1086,6 +1033,7 @@
   },
   {
     "name": "Jess Bachman",
+    "last_name": "Bachman",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1093,6 +1041,7 @@
   },
   {
     "name": "Jian Zhang",
+    "last_name": "Zhang",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1100,13 +1049,15 @@
   },
   {
     "name": "Johan Bollen",
+    "last_name": "Bollen",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "John A. Walsh",
+    "name": "John A Walsh",
+    "last_name": "Walsh",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1114,13 +1065,7 @@
   },
   {
     "name": "John Brownstein",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "John Burgoon",
+    "last_name": "Brownstein",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1128,6 +1073,7 @@
   },
   {
     "name": "John Caswell",
+    "last_name": "Caswell",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1135,13 +1081,7 @@
   },
   {
     "name": "John Emsley",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "John Graham",
+    "last_name": "Emsley",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1149,20 +1089,15 @@
   },
   {
     "name": "John Kerschbaum",
+    "last_name": "Kerschbaum",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "John L. Old",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "John McHale, Sr.",
+    "name": "John McHale",
+    "last_name": "McHale",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1170,6 +1105,7 @@
   },
   {
     "name": "John Nelson",
+    "last_name": "Nelson",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1177,20 +1113,15 @@
   },
   {
     "name": "John Pritchard",
+    "last_name": "Pritchard",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "John Yunker",
-    "image": "image.gif",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
     "name": "Jonathan Tweedy",
+    "last_name": "Tweedy",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1198,13 +1129,7 @@
   },
   {
     "name": "Jonna Mazet",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Joseph Novak",
+    "last_name": "Mazet",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1212,13 +1137,7 @@
   },
   {
     "name": "Joseph P. Martino",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Juan Thomassie ",
+    "last_name": "Martino",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1226,48 +1145,15 @@
   },
   {
     "name": "Judith Kamalski",
+    "last_name": "Kamalski",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Jukka-Pekka Onnela",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Julie Marie Smith",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Jyldyz Djumalieva",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Kalev H. Leetaru",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Kalev Leetaru",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Katherine W. McCain",
+    "name": "Jukka Pekka Onnela",
+    "last_name": "Onnela",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1276,22 +1162,8 @@
   {
     "body": "Katy B&ouml;rner is the Victor H. Yngve Distinguished Professor of Engineering and Information Science in the Department of Intelligent Systems Engineering, School of Informatics and Computing, Core Faculty of Cognitive Science, and Founding Director of the Cyberinfrastructure for Network Science Center at Indiana University in Bloomington, IN. She is a Visiting Professor at the Royal Netherlands Academy of Arts and Sciences (KNAW) in The Netherlands and a curator of the international Places & Spaces: Mapping Science exhibit. She was elected as an American Association for the Advancement of Science (AAAS) Fellow in 2012 and as an Alexander von Humboldt Fellow in 2017.\n",
     "name": "Katy B&ouml;rner",
-    "last_name": "Borner",
     "image": "image.jpg",
     "jobTitle": "Director of the Cyberinfrastructure for Network Science Center",
-    "homepage": "http://www.linkedin.com/pub/katy-borner/0/837/a03",
-    "affiliation": "Indiana University - Bloomington",
-    "region": [
-      "north america"
-    ],
-    "location_name": "Bloomington, Indiana",
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        39.175714828051944,
-        -86.51265918770342
-      ]
-    },
     "roles": [
       "maker",
       "team",
@@ -1300,69 +1172,59 @@
   },
   {
     "name": "Keiichi Nemoto",
+    "last_name": "Nemoto",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Keith Andrews",
-    "image": "image.jpg",
+    "name": "Keith Nesbitt",
+    "last_name": "Nesbitt",
     "roles": [
-      "maker"
-    ]
+      "ambassador"
+    ],
+    "jobTitle": "Senior Lecturer in Information Technology",
+    "affiliation": "The University of Newcastle",
+    "location": "{\"type\":\"Point\",\"coordinates\":[151.7041882272292,-32.89278979868974]}",
+    "location_name": "Callaghan, Australia",
+    "region": "australia",
+    "image": "image.jpg"
   },
   {
     "name": "Keith V. Nesbitt",
+    "last_name": "Nesbitt",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Ketan K. Mane",
-    "image": "image.jpg",
+    "name": "Kevin Boyack",
+    "last_name": "Boyack",
     "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Kevin Hutchinson",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Kevin W. Boyack",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Kim Albrecht",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
+      "maker",
+      "ambassador",
+      "advisory_board"
+    ],
+    "jobTitle": "President",
+    "affiliation": "SciTech Strategies, Inc.",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-106.65553799273782,35.085480157937745]}",
+    "location_name": "Albuquerque, NM, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Kim Rees",
+    "last_name": "Rees",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Krzysztof Suchecki",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Lalitha Viswanath",
+    "name": "Krzysztof Sucheck",
+    "last_name": "Sucheck",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1370,13 +1232,7 @@
   },
   {
     "name": "Laura Pence",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Leonardo da Vinci",
+    "last_name": "Pence",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1384,13 +1240,22 @@
   },
   {
     "name": "Lev Manovich",
-    "image": "image.jpg",
+    "last_name": "Manovich",
     "roles": [
-      "maker"
-    ]
+      "maker",
+      "ambassador",
+      "advisory_board"
+    ],
+    "jobTitle": "Professor, The Graduate Center; Director, Software Studies Initiative",
+    "affiliation": "City University of New York",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-73.97720929016275,40.7389346026017]}",
+    "location_name": "New York, NY, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Lisa Kershner",
+    "last_name": "Kershner",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1399,21 +1264,8 @@
   {
     "body": "Lisel has been with CNS since 2013. With nearly 15 years of curatorial experience at a variety of nonprofit and public institutions, she has extensive experience in the planning and implementation of outreach activities in places of informal science learning. \n",
     "name": "Lisel Record",
-    "last_name": "Record",
     "image": "image.jpg",
     "jobTitle": "Associate Director of the Cyberinfrastructure for Network Science Center",
-    "affiliation": "Indiana University - Bloomington",
-    "region": [
-      "north america"
-    ],
-    "location_name": "Bloomington, Indiana",
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        39.175714828051944,
-        -86.51265918770342
-      ]
-    },
     "roles": [
       "team",
       "curator"
@@ -1421,34 +1273,21 @@
   },
   {
     "name": "Loet Leydesdorff",
-    "image": "image.jpg",
+    "last_name": "Leydesdorff",
     "roles": [
-      "maker"
-    ]
+      "maker",
+      "ambassador"
+    ],
+    "jobTitle": "Professor Emeritus",
+    "affiliation": "University of Amsterdam, Amsterdam School of Communication Research",
+    "location": "{\"type\":\"Point\",\"coordinates\":[4.9557155697257045,52.3558312851837]}",
+    "location_name": "Amsterdam, Netherlands",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
-    "name": "Lou Estey",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Louisa Bufardeci",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Luc Guillemot",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Luca Maria Aiello",
+    "name": "Loet Leysdesdorff",
+    "last_name": "Leysdesdorff",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1456,6 +1295,7 @@
   },
   {
     "name": "Luciano Kay",
+    "last_name": "Kay",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1463,13 +1303,7 @@
   },
   {
     "name": "Ludmila Pollock",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Ludmilla Pollock",
+    "last_name": "Pollock",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1477,20 +1311,15 @@
   },
   {
     "name": "Ludo Waltman",
+    "last_name": "Waltman",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Luís M.A. Bettencourt",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Lutz Bornmann",
+    "name": "Luis M. A. Bettencourt",
+    "last_name": "Bettencourt",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1498,13 +1327,7 @@
   },
   {
     "name": "Lyudmila Balakireva",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Madeleine de Scudéry",
+    "last_name": "Balakireva",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1512,20 +1335,36 @@
   },
   {
     "name": "Maia Gusberti",
+    "last_name": "Gusberti",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
+  },
+  {
+    "name": "Manuel Lima",
+    "last_name": "Lima",
+    "roles": [
+      "ambassador"
+    ],
+    "jobTitle": "Head of Google Cloud Datavis",
+    "affiliation": "Google",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-74.0034409458712,40.74168825746213]}",
+    "location_name": "New York, NY, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Marc Bertin",
+    "last_name": "Bertin",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Marc Smith",
+    "name": "Marc Medith",
+    "last_name": "Medith",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1533,20 +1372,41 @@
   },
   {
     "name": "Marco Quaggiotto",
+    "last_name": "Quaggiotto",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Margaret Dolinsky",
-    "image": "image.jpg",
+    "name": "Maria Rosaria D’Esposito",
+    "last_name": "D’Esposito",
     "roles": [
-      "maker"
-    ]
+      "ambassador"
+    ],
+    "jobTitle": "Professor",
+    "affiliation": "University of Salerno",
+    "location": "{\"type\":\"Point\",\"coordinates\":[14.792062407551883,40.76911700423897]}",
+    "location_name": "Salerno, Italy",
+    "region": "europe",
+    "image": "image.jpg"
+  },
+  {
+    "name": "Mariana Espinosa",
+    "last_name": "Espinosa",
+    "roles": [
+      "ambassador"
+    ],
+    "jobTitle": "Producer",
+    "affiliation": "Metropolitan Autonomous University-Cuajimalpa Unit",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-99.13672877315088,19.28733092048331]}",
+    "location_name": "Mexico City, Mexico",
+    "region": "c_america",
+    "image": "image.jpg"
   },
   {
     "name": "Marina Gorbis",
+    "last_name": "Gorbis",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1554,62 +1414,65 @@
   },
   {
     "name": "Mario Diwersy",
+    "last_name": "Diwersy",
     "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Mario Dvorkin",
-    "image": "image.gif",
     "roles": [
       "maker"
     ]
   },
   {
     "name": "Mario Juric",
+    "last_name": "Juric",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
+    "name": "Marjorie M. K. Hlava",
+    "last_name": "Hlava",
+    "roles": [
+      "ambassador"
+    ],
+    "jobTitle": "President, Chairman, and Founder",
+    "affiliation": "Access Innovations",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-106.57502125946517,35.10264816555351]}",
+    "location_name": "Albuquerque, NM, USA",
+    "region": "n_america",
+    "image": "image.jpg"
+  },
+  {
     "name": "Mark Lombardi",
-    "image": "image.png",
+    "last_name": "Lombardi",
+    "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
     "name": "Mark Newman",
+    "last_name": "Newman",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Mark Tribe",
-    "image": "image.jpg",
+    "name": "Martin Schaaper",
+    "last_name": "Schaaper",
     "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Marko A. Rodriguez",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
+      "ambassador"
+    ],
+    "jobTitle": "Senior ICT Analyst at Telecommunication Development Bureau (BDT)",
+    "affiliation": "International Telecommunication Union (ITU)",
+    "location": "{\"type\":\"Point\",\"coordinates\":[6.144002638602587,46.20437474114183]}",
+    "location_name": "Geneva, Switzerland",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
     "name": "Martin Vargic",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Martin Waldseemüller",
+    "last_name": "Vargic",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1617,6 +1480,7 @@
   },
   {
     "name": "Martin Wattenberg",
+    "last_name": "Wattenberg",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1624,13 +1488,7 @@
   },
   {
     "name": "Masha Turchinsky",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Matan Stauber",
+    "last_name": "Turchinsky",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1638,27 +1496,15 @@
   },
   {
     "name": "Mathieu Bastien",
+    "last_name": "Bastien",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Matthew Richardson",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Mauro Martino",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Maximilian Schich",
+    "name": "Matthew Richards",
+    "last_name": "Richards",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1666,27 +1512,7 @@
   },
   {
     "name": "Maximillian Schich",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Maziyar Panahi",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Megan Heffernan",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Megan Monroe",
+    "last_name": "Schich",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1694,6 +1520,7 @@
   },
   {
     "name": "Michael A. Thompson",
+    "last_name": "Thompson",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1701,27 +1528,42 @@
   },
   {
     "name": "Michael Aschauer",
+    "last_name": "Aschauer",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Michael Lane",
-    "image": "image.gif",
+    "name": "Michael Batty",
+    "last_name": "Batty",
     "roles": [
-      "maker"
-    ]
+      "ambassador"
+    ],
+    "jobTitle": "Chairman, Centre for Advanced Spatial Analysis",
+    "affiliation": "University College London",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-0.13455508556603102,51.526074437922304]}",
+    "location_name": "London, United Kingdom",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
-    "name": "Michael Meit",
-    "image": "image.jpg",
+    "name": "Michael J. Stamper",
+    "last_name": "Stamper",
     "roles": [
-      "maker"
-    ]
+      "maker",
+      "ambassador"
+    ],
+    "jobTitle": "Data Visualization Designer and Consultant for the Arts",
+    "affiliation": "Virginia Tech",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-80.42334159990905,37.22837573724096]}",
+    "location_name": "Blacksburg, VA, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
-    "name": "Michael Poremba ",
+    "name": "Michael Poremba",
+    "last_name": "Poremba",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1729,6 +1571,7 @@
   },
   {
     "name": "Michael S. Vogeley",
+    "last_name": "Vogeley",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1736,6 +1579,7 @@
   },
   {
     "name": "Michael Stamper",
+    "last_name": "Stamper",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1743,34 +1587,42 @@
   },
   {
     "name": "Michael W. Hamburger",
+    "last_name": "Hamburger",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Michelle Wayland",
-    "image": "image.gif",
+    "name": "Micki McGee",
+    "last_name": "McGee",
     "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Mitchkitter",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
+      "ambassador"
+    ],
+    "jobTitle": "Associate Professor of Sociology; Director, American Studies Program",
+    "affiliation": "Fordham University",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-73.98537740713033,40.77148688377341]}",
+    "location_name": "New York, NY, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Moritz Stefaner",
-    "image": "image.jpg",
+    "last_name": "Stefaner",
     "roles": [
-      "maker"
-    ]
+      "maker",
+      "ambassador"
+    ],
+    "jobTitle": "Truth & Beauty Operator",
+    "affiliation": "Truth & Beauty",
+    "location": "{\"type\":\"Point\",\"coordinates\":[8.96915218508779,53.15965793627962]}",
+    "location_name": "Lilienthal, Germany",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
     "name": "Murray Robertson",
+    "last_name": "Robertson",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1778,55 +1630,15 @@
   },
   {
     "name": "Nathan Wolfe",
+    "last_name": "Wolfe",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "National Geographic EarthPulse Team",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "National Geographic Magazine",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "National Telecommunications and Information Administration",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Ned English",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Nees Jan van Eck",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Neil R. Smalheiser",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Nianli Ma",
+    "name": "Nees Jan Van Eck",
+    "last_name": "Van Eck",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1834,13 +1646,7 @@
   },
   {
     "name": "Nik Thoenen",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Nikita Rokotyan",
+    "last_name": "Thoenen",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1848,13 +1654,15 @@
   },
   {
     "name": "Nils Newman",
+    "last_name": "Newman",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "No&eacute; Gaumont",
+    "name": "NTIA",
+    "last_name": "NTIA",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1862,6 +1670,7 @@
   },
   {
     "name": "Ola Rosling",
+    "last_name": "Rosling",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1869,48 +1678,28 @@
   },
   {
     "name": "Olaf Sporns",
+    "last_name": "Sporns",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
+  },
+  {
+    "name": "Olga Subirós",
+    "last_name": "Subiros",
+    "roles": [
+      "advisory_board"
+    ],
+    "jobTitle": "Curator of Big Bang Data and Founder of Olga Subirós Studio",
+    "affiliation": "Olga Subirós Studio",
+    "location": "{\"type\":\"Point\",\"coordinates\":[2.159623500168196,41.392821838412615]}",
+    "location_name": "Barcelona, Spain",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
     "name": "Olivier H. Beauchesne",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Olya Stukova",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Onur Varol",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "original print from 1993",
-    "image": "image.gif",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Pacific Northwest Laboratory",
-    "image": "image.gif",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Pastor Christoph Römhild",
+    "last_name": "Beauchesne",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1918,6 +1707,7 @@
   },
   {
     "name": "Patric Hagmann",
+    "last_name": "Hagmann",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1925,6 +1715,7 @@
   },
   {
     "name": "Patrick McKercher",
+    "last_name": "McKercher",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1932,6 +1723,7 @@
   },
   {
     "name": "Paul Marie Ghislain Otlet",
+    "last_name": "Otlet",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1939,6 +1731,7 @@
   },
   {
     "name": "Peer Bork",
+    "last_name": "Bork",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1946,55 +1739,50 @@
   },
   {
     "name": "Peter A. Gloor",
+    "last_name": "Gloor",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
+  },
+  {
+    "name": "Peter A. Hook",
+    "last_name": "Hook",
+    "roles": [
+      "ambassador",
+      "advisory_board"
+    ],
+    "jobTitle": "Associate Law Librarian",
+    "affiliation": "University of Notre Dame",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-86.23795510167477,41.69883169351983]}",
+    "location_name": "South Bend, IN, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Peter Daszak",
+    "last_name": "Daszak",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Peter Gassner",
-    "image": "image.jpg",
+    "name": "Petra Ahrweiler",
+    "last_name": "Ahrweiler",
     "roles": [
-      "maker"
-    ]
+      "ambassador"
+    ],
+    "jobTitle": "Professor of Technology and Innovation Assessment Institute of Sociology",
+    "affiliation": "Johannes Gutenberg University Mainz",
+    "location": "{\"type\":\"Point\",\"coordinates\":[8.241635139018463,49.99376452239427]}",
+    "location_name": "Mainz, Germany",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
-    "name": "Peter Herman",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Peter Kennard",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Phillip DeCamp",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "posted by Svanes on Flickr",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Qing Ke",
+    "name": "Phillip Decamp",
+    "last_name": "Decamp",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2002,34 +1790,15 @@
   },
   {
     "name": "Randall Munroe",
+    "last_name": "Munroe",
     "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "R&uuml;diger Mutz",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Ray Paul",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Raymond Chen",
-    "image": "image.gif",
     "roles": [
       "maker"
     ]
   },
   {
     "name": "Rex Robison",
+    "last_name": "Robison",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2037,6 +1806,7 @@
   },
   {
     "name": "Ricardo Hausmann",
+    "last_name": "Hausmann",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2044,20 +1814,15 @@
   },
   {
     "name": "Riccardo Maria Pulselli",
+    "last_name": "Pulselli",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Richard J. Torpie",
-    "image": "image.gif",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Richard Katz ",
+    "name": "Richard Katz",
+    "last_name": "Katz",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2065,6 +1830,7 @@
   },
   {
     "name": "Richard Klavans",
+    "last_name": "Klavans",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2072,62 +1838,39 @@
   },
   {
     "name": "Richard Merrick",
+    "last_name": "Merrick",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Rob Bracken ",
+    "name": "Rob Bracken",
+    "last_name": "Bracken",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Roberta Sinatra",
+    "name": "Roger Sinnot",
+    "last_name": "Sinnot",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Roger W. Sinnott, Interactive Factory",
+    "name": "Russell Duhon",
+    "last_name": "Duhon",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Romina Romano",
-    "image": "image.gif",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Rossano Schifanella",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Russell J. Duhon",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Ruth Fry (Calyxa)",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Ryan Chute",
+    "name": "Ray Chute",
+    "last_name": "Chute",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2135,13 +1878,28 @@
   },
   {
     "name": "Samuel T. Mills",
+    "last_name": "Mills",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Sarah Huggett",
+    "name": "Sara Fabrikant",
+    "last_name": "Fabrikant",
+    "roles": [
+      "ambassador"
+    ],
+    "jobTitle": "Professor of Geography, Head of the Department of Geography and Digital Society Initiative",
+    "affiliation": "University of Zurich",
+    "location": "{\"type\":\"Point\",\"coordinates\":[8.550852452417894,47.374293016645105]}",
+    "location_name": "Zürich, Switzerland",
+    "region": "europe",
+    "image": "image.jpg"
+  },
+  {
+    "name": "Sarah Hugget",
+    "last_name": "Hugget",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2149,20 +1907,28 @@
   },
   {
     "name": "Sarah Williams",
+    "last_name": "Williams",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Sebastian Münster",
-    "image": "image.jpg",
+    "name": "Scott B. Weingart",
+    "last_name": "Weingart",
     "roles": [
-      "maker"
-    ]
+      "ambassador"
+    ],
+    "jobTitle": "Program Director, Digital Humanities",
+    "affiliation": "Carnegie Mellon University",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-79.94274261334347,40.44324350522254]}",
+    "location_name": "Pittsburgh, PA, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Sebastien Heymann",
+    "last_name": "Heymann",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2170,6 +1936,7 @@
   },
   {
     "name": "Sepp Deinhofer",
+    "last_name": "Deinhofer",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2177,13 +1944,7 @@
   },
   {
     "name": "Shashikant Penumarthy",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Shing-yun Chiang",
+    "last_name": "Penumarthy",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2191,20 +1952,7 @@
   },
   {
     "name": "Stefanie Posavec",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Stephen Mautner",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Stephen Miles Uzzo",
+    "last_name": "Posavec",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2212,27 +1960,50 @@
   },
   {
     "name": "Stephen Morse",
+    "last_name": "Morse",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
+  },
+  {
+    "name": "Stephen Uzzo",
+    "last_name": "Uzzo",
+    "roles": [
+      "ambassador",
+      "advisory_board"
+    ],
+    "jobTitle": "Chief Scientist",
+    "affiliation": "New York Hall of Science",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-73.85185343422677,40.74741271353572]}",
+    "location_name": "New York, NY, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Steven Morris",
+    "last_name": "Morris",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Steven Ross",
-    "image": "image.jpg",
+    "name": "Sujit Bhattacharya",
+    "last_name": "Bhattacharya",
     "roles": [
-      "maker"
-    ]
+      "ambassador"
+    ],
+    "jobTitle": "Chief Scientist",
+    "affiliation": "National Institute of Science Technology and Development Studies",
+    "location": "{\"type\":\"Point\",\"coordinates\":[77.17346276852737,28.637217167416907]}",
+    "location_name": "New Delhi, India",
+    "region": "asia",
+    "image": "image.jpg"
   },
   {
     "name": "Sumiko Mekaru",
+    "last_name": "Mekaru",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2240,6 +2011,7 @@
   },
   {
     "name": "Sune Lehmann",
+    "last_name": "Lehmann",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2247,6 +2019,7 @@
   },
   {
     "name": "Susan Aman",
+    "last_name": "Aman",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2254,34 +2027,15 @@
   },
   {
     "name": "Tammie O'Rourke",
+    "last_name": "O'Rourke",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Terence Fitz-Simons",
-    "image": "image.gif",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Teuvo Kohonen",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "The Chronic Poverty Centre",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "The Eastern Telegraph Company",
+    "name": "The National Geographic Society Earthpulse Team",
+    "last_name": "The",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2289,6 +2043,7 @@
   },
   {
     "name": "The National Geographic Society",
+    "last_name": "The",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2296,6 +2051,7 @@
   },
   {
     "name": "The World Bank",
+    "last_name": "The",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2303,13 +2059,7 @@
   },
   {
     "name": "Theodora Michaelidou",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Timothy Stutts",
+    "last_name": "Michaelidou",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2317,6 +2067,7 @@
   },
   {
     "name": "Todd Holloway",
+    "last_name": "Holloway",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2325,63 +2076,25 @@
   {
     "body": "Todd joined CNS in 2012 as Exhibit Co-Curator and Copy Editor. With a BA in English from the University of Wisconsin-Milwaukee and an MA in English from Miami University of Ohio, he previously spent time teaching classes on poetry, fiction, and creative writing to students at Miami University, University of Cincinnati, Xavier University, and Indiana University.\n",
     "name": "Todd Theriault",
-    "last_name": "Theriault",
     "image": "image.jpg",
     "jobTitle": "Copy Writer and Editor at the Cyberinfrastructure for Network Science Center",
-    "affiliation": "Indiana University - Bloomington",
-    "region": [
-      "north america"
-    ],
-    "location_name": "Bloomington, Indiana",
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        39.175714828051944,
-        -86.51265918770342
-      ]
-    },
+    "location": "39.175714828051944, -86.51265918770342",
     "roles": [
       "team",
       "curator"
     ]
   },
   {
-    "name": "Tom Van Sant",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Tomas Carnecky",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Tony Capone",
-    "image": "image.gif",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
     "name": "Tracey Goldstein",
+    "last_name": "Goldstein",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Unknown",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "U.S. Geological Survey",
+    "name": "US Geological Survey",
+    "last_name": "US",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2389,34 +2102,42 @@
   },
   {
     "name": "Valeska Korff",
+    "last_name": "Korff",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
+  },
+  {
+    "name": "Veslava Osinska",
+    "last_name": "Osinska",
+    "roles": [
+      "ambassador"
+    ],
+    "jobTitle": "Associate Professor in the Institute of Information and Book Studies",
+    "affiliation": "Nicolas Copernicus University",
+    "location": "{\"type\":\"Point\",\"coordinates\":[18.566878362151815,53.02046958338345]}",
+    "location_name": "Torun, Poland",
+    "region": "europe",
+    "image": "image.jpg"
   },
   {
     "name": "Vincent Larivière",
-    "image": "image.jpg",
+    "last_name": "Larivière",
     "roles": [
-      "maker"
-    ]
+      "maker",
+      "advisory_board"
+    ],
+    "jobTitle": "Professor of Information Science at the École de Bibliothéconomie et des Sciences de L'information",
+    "affiliation": "Universitè de Montrèal",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-73.61556164597125,45.50373575011858]}",
+    "location_name": "Montréal, Canada",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
     "name": "Vittoria Colizza",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "W. Boyd Rayward",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "W. Bradford Paley",
+    "last_name": "Colizza",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2424,6 +2145,7 @@
   },
   {
     "name": "Walter Powell",
+    "last_name": "Powell",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2431,48 +2153,7 @@
   },
   {
     "name": "Walter Scheidel",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Ward Shelley",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Weimao Ke",
-    "image": "image.jpeg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Weixia (Bonnie) Huang",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "Will (Jiahao) Su",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "William A. Kealy",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
-    "name": "William Cheswick",
+    "last_name": "Scheidel",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2480,27 +2161,36 @@
   },
   {
     "name": "William Karesh",
+    "last_name": "Karesh",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Yong-Yeol Ahn",
+    "name": "Yong Yeol Ahn",
+    "last_name": "Ahn",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
-    "name": "Yuri Vishnevsky",
-    "image": "image.jpg",
+    "name": "Yuko Harayama",
+    "last_name": "Harayama",
     "roles": [
-      "maker"
-    ]
+      "ambassador"
+    ],
+    "jobTitle": "Executive Director",
+    "affiliation": "RIKEN",
+    "location": "{\"type\":\"Point\",\"coordinates\":[139.39995345589446,36.14447144962518]}",
+    "location_name": "Sendai, Japan",
+    "region": "asia",
+    "image": "image.jpg"
   },
   {
     "name": "Yves Gingras",
+    "last_name": "Gingras",
     "image": "image.jpg",
     "roles": [
       "maker"

@@ -1,14 +1,7 @@
 ---
 name: Katy B&ouml;rner
-last_name: Borner
 image: image.jpg
 jobTitle: Director of the Cyberinfrastructure for Network Science Center
-homepage: http://www.linkedin.com/pub/katy-borner/0/837/a03
-affiliation: Indiana University - Bloomington
-region: 
-  - north america
-location_name: Bloomington, Indiana
-location: {"type":"Point","coordinates":[39.175714828051944, -86.51265918770342]}
 roles:
   - maker
   - team

@@ -1,5 +1,6 @@
 ---
-name: Phillip DeCamp
+name: Phillip Decamp
+last_name: Decamp
 image: image.jpg
 roles:
   - maker

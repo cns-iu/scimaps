@@ -1,6 +1,7 @@
 ---
 name: Mark Lombardi
-image: image.png
+last_name: Lombardi
+image: image.jpg
 roles:
   - maker
 ---
