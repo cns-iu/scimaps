@@ -85,7 +85,6 @@ describe('BooksResolverService', () => {
     );
     const result = service.resolve();
     result.subscribe((books: Book[]) => {
-      console.log(books);
       const book = books[0];
       expect(book.author).toEqual('Author 1, Author 2');
       done();

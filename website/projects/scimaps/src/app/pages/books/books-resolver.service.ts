@@ -52,7 +52,6 @@ export class BooksResolverService implements Resolve<Book[]> {
     const person$ = books$.pipe(
       map((items: Params[]) => {
         let slugs: string[] = [];
-        // console.log('items', items);
         items.forEach((item: Params) => {
           item.author.forEach((author: string) => {
             if (!slugs.includes(author)) {
@@ -64,7 +63,6 @@ export class BooksResolverService implements Resolve<Book[]> {
         return slugs;
       }),
       mergeMap((slugs: string[]) => {
-        // console.log('slugs', slugs);
         const forkJoins: Observable<Params>[] = slugs.map((slug: string) => {
           // {'s1': {}}, {'s2': {}}
           return this.contentService.getContent<Params>(`person/${slug}`).pipe(
