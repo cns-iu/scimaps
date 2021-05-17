@@ -1,118 +1,40 @@
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
 import { Profile } from '../../core/models/profile';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'sci-about',
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss']
 })
-export class AboutComponent {
+export class AboutComponent implements OnInit {
+
+  constructor(private route: ActivatedRoute) {
+  }
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-about';
 
-  placeholderProfilesShort: Profile[] = [
-    {
-      name: 'Name Surname',
-      title: 'Job Title',
-      affiliation: 'Affiliation',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
-      link: 'www.google.com',
-      slug: 'name-surname'
-    },
-    {
-      name: 'Name Surname',
-      title: 'Job Title',
-      affiliation: 'Affiliation',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
-      link: 'www.google.com',
-      slug: 'name-surname'
-    },
-    {
-      name: 'Name Surname',
-      title: 'Job Title',
-      affiliation: 'Affiliation',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
-      link: 'www.google.com',
-      slug: 'name-surname'
-    }
-  ];
-  placeholderProfilesLong: Profile[] = [
-    {
-      name: 'Name Surname',
-      title: 'Job Title',
-      affiliation: 'Affiliation',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
-      link: 'www.google.com',
-      slug: 'name-surname'
-    },
-    {
-      name: 'Name Surname',
-      title: 'Job Title',
-      affiliation: 'Affiliation',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
-      link: 'www.google.com',
-      slug: 'name-surname'
-    },
-    {
-      name: 'Name Surname',
-      title: 'Job Title',
-      affiliation: 'Affiliation',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
-      link: 'www.google.com',
-      slug: 'name-surname'
-    },
-    {
-      name: 'Name Surname',
-      title: 'Job Title',
-      affiliation: 'Affiliation',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
-      link: 'www.google.com',
-      slug: 'name-surname'
-    },
-    {
-      name: 'Name Surname',
-      title: 'Job Title',
-      affiliation: 'Affiliation',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
-      link: 'www.google.com',
-      slug: 'name-surname'
-    },
-    {
-      name: 'Name Surname',
-      title: 'Job Title',
-      affiliation: 'Affiliation',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
-      link: 'www.google.com',
-      slug: 'name-surname'
-    },
-    {
-      name: 'Name Surname',
-      title: 'Job Title',
-      affiliation: 'Affiliation',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
-      link: 'www.google.com',
-      slug: 'name-surname'
-    },
-    {
-      name: 'Name Surname',
-      title: 'Job Title',
-      affiliation: 'Affiliation',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
-      link: 'www.google.com',
-      slug: 'name-surname'
-    },
-    {
-      name: 'Name Surname',
-      title: 'Job Title',
-      affiliation: 'Affiliation',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum, massa nec elementum convallis, ligula mi placerat ipsum, et volutpat ante orci ultricies odio. Duis.',
-      link: 'www.google.com',
-      slug: 'name-surname'
-    }
-  ];
-  placeholderDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam ligula felis, id blandit quam viverra auctor. Nullam quam dolor, mattis consequat tincidunt sed, condimentum id sapien. Pellentesque ut congue lectus. Sed leo velit, rutrum vitae sapien sed, faucibus tincidunt justo. Donec et vestibulum enim, a efficitur purus. Mauris quis lacinia nibh, eget suscipit felis. Suspendisse ut elementum metus, ac sagittis sem. ';
+  curatorProfiles: Profile[] = [];
+  curatorsDescription = '';
+  advisoryBoardProfiles: Profile[] = [];
+  advisoryBoardDescription = '';
+  ambassadorProfiles: Profile[] = [];
+  ambassadorsDescription = '';
   pageTabs = ['Curators/Advisory Board', 'Ambassadors'];
   activePageTab = 0;
+
+  ngOnInit(): void {
+    this.route.data.subscribe(data => {
+      const {profiles, body} = data;
+      // Temporary code. Later will be replaced with actual filtering logic.
+      this.curatorProfiles = profiles.slice(0, 3);
+      this.curatorsDescription = body.curatorsDescription;
+      this.advisoryBoardProfiles = profiles.slice(3, 12);
+      this.advisoryBoardDescription = body.advisoryBoardDescription;
+      this.ambassadorProfiles = profiles.slice(12, 21);
+      this.ambassadorsDescription = body.ambassadorsDescription;
+    });
+  }
 
   updateActivePageTab(index: number): void {
     this.activePageTab = index;
