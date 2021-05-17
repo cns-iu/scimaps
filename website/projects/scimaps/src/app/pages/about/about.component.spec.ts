@@ -6,11 +6,9 @@ import { ActivatedRoute } from '@angular/router';
 import { of } from 'rxjs';
 import { Profile } from '../../core/models/profile';
 
-export function getProfiles(numberOfProfiles: number): Profile[] {
+export function getProfiles(numberOfProfiles: number, roles = ['maker']): Profile[] {
   const profiles: Profile[] = [];
   for (let i = 0; i <= numberOfProfiles; i++) {
-    const roles = ['curator', 'advisory_board', 'ambassador'];
-    const index = Math.floor(Math.random() * 3);
     profiles.push({
       affiliation: `IUB ${i}`,
       body: `Sample body ${i}`,
@@ -19,7 +17,7 @@ export function getProfiles(numberOfProfiles: number): Profile[] {
       name: `Abin Abraham ${i}`,
       slug: `abin-abraham-${i}`,
       title: `Sample title ${i}`,
-      roles: [ roles[index] ]
+      roles
     });
   }
   return profiles;
@@ -27,8 +25,10 @@ export function getProfiles(numberOfProfiles: number): Profile[] {
 
 describe('AboutComponent', () => {
   let shallow: Shallow<AboutComponent>;
-
-  const testProfiles = getProfiles(30);
+  const curatorProfiles = getProfiles(10, ['curator']);
+  const advisoryBoardProfiles = getProfiles(10, ['advisory_board']);
+  const ambassadorProfiles = getProfiles(10, ['ambassador']);
+  const testProfiles = [...curatorProfiles, ...advisoryBoardProfiles, ...ambassadorProfiles];
   const testBody = {
     curatorsDescription: 'Sample curators description',
     advisoryBoardDescription: 'Sample advisory board description',
@@ -78,25 +78,16 @@ describe('AboutComponent', () => {
 
   it('should have correct curator profiles', async () => {
     const { instance } = await shallow.render();
-    const curatorProfiles = testProfiles.filter((profile: Profile) => {
-      return profile.roles.includes('curator');
-    });
     expect(instance.curatorProfiles).toEqual(curatorProfiles);
   });
 
   it('should have correct advisory board profiles', async () => {
     const { instance } = await shallow.render();
-    const advisoryBoardProfiles = testProfiles.filter((profile: Profile) => {
-      return profile.roles.includes('advisory_board');
-    });
     expect(instance.advisoryBoardProfiles).toEqual(advisoryBoardProfiles);
   });
 
   it('should have correct ambassadors profiles', async () => {
     const { instance } = await shallow.render();
-    const ambassadorProfiles = testProfiles.filter((profile: Profile) => {
-      return profile.roles.includes('ambassador');
-    });
     expect(instance.ambassadorProfiles).toEqual(ambassadorProfiles);
   });
 });
