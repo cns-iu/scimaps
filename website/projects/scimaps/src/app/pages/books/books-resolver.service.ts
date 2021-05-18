@@ -55,7 +55,7 @@ export class BooksResolverService implements Resolve<Book[]> {
         items.forEach((item: Params) => {
           item.author.forEach((author: string) => {
             if (!slugs.includes(author)) {
-              slugs = slugs.concat(author);
+              slugs = [...slugs, author];
             }
           });
         });
@@ -90,15 +90,19 @@ export class BooksResolverService implements Resolve<Book[]> {
     return combineLatest([person$, books$]).pipe(
       map((result: Params[]) => {
         const [people, books] = result;
-        return books.map((book: Params) => {
+        return books.filter((book: Params) => {
+          return book.title;
+        }).map((book: Params) => {
           const authorNames: string[] = book.author
           .map((slug: string) => {
-            if (slug in people) {
+            let authorName;
+            if (people.hasOwnProperty(slug) && people[slug]) {
               const profile: Profile = people[slug];
-              return profile.name;
-            } else {
-              return;
+              if (profile) {
+                authorName = profile.name;
+              }
             }
+            return authorName;
           }).filter((author: string | undefined) => author);
           return this.toBookUI({...book, author: authorNames.join(', ')});
         });
