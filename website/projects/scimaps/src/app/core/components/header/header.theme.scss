@@ -11,6 +11,7 @@
   .sci-header .nav-item,
   .sci-header-menu button {
     color: mat-color($primary, darker);
+    border-radius: 0;
 
     &.active,
     &:hover {
