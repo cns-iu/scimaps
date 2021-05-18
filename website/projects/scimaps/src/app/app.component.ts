@@ -187,6 +187,11 @@ export class AppComponent {
     pdfLink: 'link'
   };
 
+  footerParameters = {
+    phoneNumber: '812-855-9930',
+    acknowledgement: ''
+  }
+
   prepareRoute(outlet: RouterOutlet): string {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
   }
