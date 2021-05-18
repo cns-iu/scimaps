@@ -11,6 +11,10 @@ $mobile: 640px;
     z-index: 20;
   }
 
+  .mat-drawer-container {
+    background-color: white;;
+  }
+  
   .sidenav-container {
     @media (max-width: $mobile) {
       height: 100%;
