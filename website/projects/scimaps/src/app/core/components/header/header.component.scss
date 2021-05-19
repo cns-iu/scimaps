@@ -5,7 +5,11 @@
   height: 4.5rem;
   align-items: center;
 
-  .logo,
+  .logo {
+    height: 100%;
+    padding: 0;
+  }
+
   .sidenav-toggle,
   .nav-item,
   .search {
