@@ -25,7 +25,7 @@ $desktop: 1248px;
       padding: 0 1rem;
 
       @media (min-width: $desktop) {
-        width: 85%;
+        max-width: 80rem;
         margin: auto;
       }
       
