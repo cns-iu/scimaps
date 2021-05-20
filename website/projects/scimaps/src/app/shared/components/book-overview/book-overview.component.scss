@@ -55,8 +55,16 @@ $button-span-max-width: 480px;
     height: 28rem;
     .carousel {
       width: 100%;
-      img {
-        width: 100%;
+
+      .carousel-item {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
       }
     }
   }
