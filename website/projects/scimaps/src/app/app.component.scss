@@ -1,4 +1,5 @@
 $mobile: 640px;
+$desktop: 1248px;
 
 :host {
   display: block;
@@ -22,8 +23,12 @@ $mobile: 640px;
 
     .content {
       padding: 0 1rem;
-      width: 85%;
-      margin: auto;
+
+      @media (min-width: $desktop) {
+        width: 85%;
+        margin: auto;
+      }
+      
     }
   }
 }
