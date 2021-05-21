@@ -1,7 +1,12 @@
 <div class="text-column">
   <h3 class="title">{{ book.title }}</h3>
   <div class="author">Author: {{ book.author }}</div>
-  <div class="publisher">Published by: {{ book.publisher }}</div>
+  <div class="publisher">
+    Published by: 
+    <a href="http://mitpress.mit.edu/" rel="noreferrer noopener" target="_blank">
+      {{ book.publisher }}
+    </a>
+  </div>
   <div class="markdown full" markdown [data]="fullContent"></div>
   <div class="markdown partial" markdown [data]="partialContent"></div>
   <div *ngIf="hasLongContent" class="show-more" (click)="fullContentVisible = !fullContentVisible">
