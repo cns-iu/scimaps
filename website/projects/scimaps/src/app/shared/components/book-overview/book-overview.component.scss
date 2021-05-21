@@ -9,6 +9,7 @@ $button-span-max-width: 480px;
   .text-column,
   .carousel-column {
     width: 50%;
+    max-width: 600px;
   }
 
   .text-column {
@@ -52,7 +53,6 @@ $button-span-max-width: 480px;
   .carousel-column {
     display: flex;
     justify-content: space-around;
-    height: 28rem;
     .carousel {
       width: 100%;
 
@@ -61,8 +61,8 @@ $button-span-max-width: 480px;
         flex-direction: column;
 
         img {
-          height: 24.75rem;
-          object-fit: fill;
+          height: auto;
+          object-fit: cover;
         }
       }
     }
