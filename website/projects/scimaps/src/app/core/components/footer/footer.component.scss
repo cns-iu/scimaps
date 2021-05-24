@@ -13,7 +13,7 @@
     padding: 0 1rem 0 0.25rem;
 
     .social {
-      padding: 0.75rem;
+      padding: 0 0.75rem;
 
       .button {
         width: fit-content;
@@ -24,16 +24,22 @@
          background-color: #ffffff; 
         }
       }
+      .icon.font {
+        font-size: 2rem;
+      }
     }
 
     .phone {
       display: flex;
       flex-direction: row;
       align-items: center;
-      padding: 0.75rem 0 0.75rem 0.75rem;
+      // padding: 0.75rem 0 0.75rem 0.75rem;
 
       .text {
         padding: 0 0 0 0.75rem;
+      }
+      .icon.font {
+        font-size: 2rem;
       }
     }
 
