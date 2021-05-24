@@ -3,7 +3,7 @@
   <div class="author">Author: {{ book.author }}</div>
   <div class="publisher">
     Published by: 
-    <a href="http://mitpress.mit.edu/" rel="noreferrer noopener" target="_blank">
+    <a class="link" href="http://mitpress.mit.edu/" rel="noreferrer noopener" target="_blank">
       {{ book.publisher }}
     </a>
   </div>
@@ -12,7 +12,7 @@
   <div *ngIf="hasLongContent" class="show-more" (click)="fullContentVisible = !fullContentVisible">
     {{ fullContentVisible ? 'Show less' : 'Read more...' }}
   </div>
-  <div class="links">
+  <div class="buttons">
     <a *ngIf="book.pdfLink" class="button" target="_blank" rel="noreferrer noopener" [href]="book.pdfLink">
       BOOK EXCERPT (PDF)
     </a>

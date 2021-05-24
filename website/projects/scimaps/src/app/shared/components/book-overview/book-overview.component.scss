@@ -34,7 +34,7 @@ $button-span-max-width: 480px;
       cursor: pointer;
     }
 
-    .links {
+    .buttons {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -46,6 +46,14 @@ $button-span-max-width: 480px;
         border: 1px solid;
         text-decoration: none;
         white-space: nowrap;
+      }
+    }
+    .link {
+      text-decoration: none;
+      color: #8DC63F;
+
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
