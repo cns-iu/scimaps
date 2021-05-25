@@ -20,12 +20,12 @@ export class NewsItemListComponent implements OnInit {
   /**
    * All news items
    */
-  @Input() newsItems!: NewsItem[];
+  @Input() newsItems: NewsItem[] = [];
 
   /**
    * News items to be displayed
    */
-  displayedNewsItems!: NewsItem[];
+  displayedNewsItems: NewsItem[] = [];
 
   /**
    * Order for date sorting (ascending or descending)

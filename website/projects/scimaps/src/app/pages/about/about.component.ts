@@ -22,6 +22,35 @@ export class AboutComponent implements OnInit {
   ambassadorsDescription = '';
   pageTabs = ['Curatorial Team / Advisory Board', 'Exhibit Ambassadors'];
   activePageTab = 0;
+  newsItems = [{
+    pdfLink: 'abc',
+    thumbnail: 'abc',
+    title: 'title 2',
+    publication: 'publication',
+    institution: 'institution',
+    date: new Date()
+  }, {
+    pdfLink: 'abc',
+    thumbnail: 'abc',
+    title: 'title',
+    publication: 'publication',
+    institution: 'institution',
+    date: new Date()
+  }, {
+    pdfLink: 'abc',
+    thumbnail: 'abc',
+    title: 'title',
+    publication: 'publication',
+    institution: 'institution',
+    date: new Date()
+  }, {
+    pdfLink: 'abc',
+    thumbnail: 'abc',
+    title: 'title',
+    publication: 'publication',
+    institution: 'institution',
+    date: new Date()
+  }];
 
   ngOnInit(): void {
     this.route.data.subscribe(data => {

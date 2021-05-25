@@ -41,6 +41,7 @@ index('macroscope/**/readme.md', 'macroscopes.json');
 index('gallery/**/readme.md', 'galleries.json');
 index('person/**/readme.md', 'people.json');
 index('book/**/readme.md', 'books.json');
+index('news/**/readme.md', 'news.json');
 
 function writeAppMapIndex(mapType) {
   const iterations = readIndex(`${mapType}Iterations`).reduce((acc, iter) => {
