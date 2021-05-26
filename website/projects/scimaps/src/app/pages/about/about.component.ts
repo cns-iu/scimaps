@@ -20,20 +20,35 @@ export class AboutComponent implements OnInit {
   advisoryBoardDescription = '';
   ambassadorProfiles: Profile[] = [];
   ambassadorsDescription = '';
-  pageTabs = ['Curators/Advisory Board', 'Ambassadors'];
+  pageTabs = ['Curatorial Team / Advisory Board', 'Exhibit Ambassadors'];
   activePageTab = 0;
 
   ngOnInit(): void {
     this.route.data.subscribe(data => {
       const {profiles, body} = data;
-      // Temporary code. Later will be replaced with actual filtering logic.
-      this.curatorProfiles = profiles.slice(0, 3);
-      this.curatorsDescription = body.curatorsDescription;
-      this.advisoryBoardProfiles = profiles.slice(3, 12);
-      this.advisoryBoardDescription = body.advisoryBoardDescription;
-      this.ambassadorProfiles = profiles.slice(12, 21);
-      this.ambassadorsDescription = body.ambassadorsDescription;
-    });
+      if (profiles && Array.isArray(profiles)) {
+        this.curatorProfiles = profiles.filter((profile: Profile) => {
+          return profile.roles.includes('curator');
+        });
+        this.advisoryBoardProfiles = profiles.filter((profile: Profile) => {
+          return profile.roles.includes('advisory_board');
+        });
+        this.ambassadorProfiles = profiles.filter((profile: Profile) => {
+          return profile.roles.includes('ambassador');
+        });
+      }
+      if (body) {
+        if (body.hasOwnProperty('curatorsDescription') && body.curatorsDescription) {
+          this.curatorsDescription = body.curatorsDescription;
+        }
+        if (body.hasOwnProperty('advisoryBoardDescription') && body.advisoryBoardDescription) {
+          this.advisoryBoardDescription = body.advisoryBoardDescription;
+        }
+        if (body.hasOwnProperty('ambassadorsDescription') && body.ambassadorsDescription) {
+          this.ambassadorsDescription = body.ambassadorsDescription;
+        }
+      }
+     });
   }
 
   updateActivePageTab(index: number): void {
