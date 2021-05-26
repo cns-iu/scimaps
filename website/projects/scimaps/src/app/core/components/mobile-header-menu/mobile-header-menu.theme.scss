@@ -11,7 +11,8 @@
 
     button.link {
       color: mat-color($primary, lighter-contrast);
-
+      border-radius: 0;
+      
       &.active, &:hover {
         background-color: mat-color($primary, 0.15);
       }

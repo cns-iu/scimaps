@@ -44,7 +44,8 @@ export class CarouselComponent implements AfterViewInit {
       el: '.swiper-pagination',
       clickable: true,
       hideOnClick: false
-    }
+    },
+    loop: true
   };
 
   /**

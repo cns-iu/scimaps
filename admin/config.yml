@@ -134,11 +134,11 @@ collections:
         widget: relation
         multiple: true
         collection: person
-        search_fields: ['firstName', 'lastName']
+        search_fields: ['name', 'lastName']
         value_field: '{{slug}}'
-        display_fields: ['{{firstName}} {{lastName}}']
+        display_fields: ['{{name}} {{lastName}}']
       - { name: publisher, label: Publisher }
-      - { name: pdfLink, label: PDF Link }
+      - { name: pdfLink, label: PDF Link, required: false }
       - { name: amazonLink, label: Amazon Link }
       - name: bookImages
         label: Book Images
@@ -146,7 +146,9 @@ collections:
         min: 1
         summary: '{{fields.image}}'
         widget: list
-        field: { name: image, label: Image, widget: image }
+        fields: 
+          - { name: sm, label: "Mobile (sm) Version" , widget: image }
+          - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
       - { name: body, label: Abstract, widget: markdown }
 
   - name: news

@@ -1,4 +1,5 @@
 $mobile: 640px;
+$desktop: 1248px;
 
 :host {
   display: block;
@@ -11,6 +12,10 @@ $mobile: 640px;
     z-index: 20;
   }
 
+  .mat-drawer-container {
+    background-color: white;
+  }
+  
   .sidenav-container {
     @media (max-width: $mobile) {
       height: 100%;
@@ -18,6 +23,14 @@ $mobile: 640px;
 
     .content {
       padding: 0 1rem;
+
+      @media (min-width: $desktop) {
+        max-width: 80rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+      }
+      
     }
   }
 }
