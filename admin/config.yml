@@ -164,6 +164,7 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: source, label: Source }
+      - { name: sourceUrl, label: Source URL }
       - { name: pdfLink, label: PDF Link }
       - { name: image, label: Image, widget: image }
       - { name: body, label: Body, widget: markdown }
