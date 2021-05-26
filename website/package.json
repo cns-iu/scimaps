@@ -32,6 +32,7 @@
     "@ngxs/storage-plugin": "^3.7.0",
     "@ngxs/store": "^3.7.0",
     "front-matter": "^4.0.2",
+    "ng2-pdf-viewer": "^7.0.1",
     "ngx-google-analytics": "^9.1.1",
     "ngx-markdown": "^10.1.1",
     "ngx-swiper-wrapper": "^10.0.0",
