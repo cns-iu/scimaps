@@ -45,10 +45,6 @@ export class CarouselComponent implements AfterViewInit {
       clickable: true,
       hideOnClick: false
     },
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: true
-    },
     loop: true
   };
 
