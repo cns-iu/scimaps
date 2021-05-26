@@ -54,7 +54,8 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.data.subscribe(data => {
-      const {profiles, body} = data;
+      const {profiles, body, newsItems} = data;
+      // Profiles
       if (profiles && Array.isArray(profiles)) {
         this.curatorProfiles = profiles.filter((profile: Profile) => {
           return profile.roles.includes('curator');
@@ -66,6 +67,7 @@ export class AboutComponent implements OnInit {
           return profile.roles.includes('ambassador');
         });
       }
+      // Body
       if (body) {
         if (body.hasOwnProperty('curatorsDescription') && body.curatorsDescription) {
           this.curatorsDescription = body.curatorsDescription;
@@ -76,6 +78,11 @@ export class AboutComponent implements OnInit {
         if (body.hasOwnProperty('ambassadorsDescription') && body.ambassadorsDescription) {
           this.ambassadorsDescription = body.ambassadorsDescription;
         }
+      }
+      // newsItem
+      if (newsItems && Array.isArray(newsItems)) {
+        this.newsItems = newsItems;
+        console.log(newsItems);
       }
      });
   }
