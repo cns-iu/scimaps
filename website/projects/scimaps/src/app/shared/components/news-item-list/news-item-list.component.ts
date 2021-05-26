@@ -104,7 +104,10 @@ export class NewsItemListComponent implements OnInit {
    * List of options to be displayed in year select dropdown
    */
   get yearList(): string[] {
-    const years = this.newsItems.map(item => item.date.getFullYear().toString());
+    const years = this.newsItems.map((item: NewsItem) => {
+      const fullDate = new Date(item.date);
+      return fullDate.getFullYear().toString();
+    });
     return ['All'].concat([...new Set(years)]);
   }
 
