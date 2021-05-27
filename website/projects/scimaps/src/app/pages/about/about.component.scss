@@ -8,8 +8,9 @@
   }
 
   .partners {
-    h1 {
+    .header {
       text-align: center;
+      color: #757575;
     }
 
     .logos {
@@ -24,8 +25,9 @@
       img {
         max-width: 280px;
         max-height: 50px;
+        
         &:first-child {
-          margin-right: 1rem;
+          margin-right: 2rem;
         }
       }
 
@@ -35,13 +37,15 @@
           align-items: center;
         }
         img {
-          margin-bottom: 1rem;
-          margin-right: 0;
+          margin-bottom: 2rem;
+          &:first-child {
+            margin-right: 0;
+          }
         }
       }
       @media (min-width: 640px) {
         .row {
-          margin-bottom: 1rem;
+          margin-bottom: 2rem;
         }
       }
     } 
