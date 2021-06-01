@@ -1,6 +1,7 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { Profile } from '../../core/models/profile';
 import { ActivatedRoute } from '@angular/router';
+import { NewsItem } from '../../shared/components/news-item/news-item.model';
 
 @Component({
   selector: 'sci-about',
@@ -22,36 +23,8 @@ export class AboutComponent implements OnInit {
   ambassadorsDescription = '';
   pageTabs = ['Curatorial Team / Advisory Board', 'Exhibit Ambassadors'];
   activePageTab = 0;
-  newsItems = [{
-    pdfLink: 'abc',
-    thumbnail: 'abc',
-    title: 'title 2',
-    publication: 'publication',
-    institution: 'institution',
-    date: new Date()
-  }, {
-    pdfLink: 'abc',
-    thumbnail: 'abc',
-    title: 'title',
-    publication: 'publication',
-    institution: 'institution',
-    date: new Date()
-  }, {
-    pdfLink: 'abc',
-    thumbnail: 'abc',
-    title: 'title',
-    publication: 'publication',
-    institution: 'institution',
-    date: new Date()
-  }, {
-    pdfLink: 'abc',
-    thumbnail: 'abc',
-    title: 'title',
-    publication: 'publication',
-    institution: 'institution',
-    date: new Date()
-  }];
-
+  newsItems: NewsItem[] = [];
+  
   ngOnInit(): void {
     this.route.data.subscribe(data => {
       const {profiles, body, newsItems} = data;
@@ -82,7 +55,6 @@ export class AboutComponent implements OnInit {
       // newsItem
       if (newsItems && Array.isArray(newsItems)) {
         this.newsItems = newsItems;
-        console.log(newsItems);
       }
      });
   }
