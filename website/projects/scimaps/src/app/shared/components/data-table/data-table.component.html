@@ -1,0 +1,53 @@
+<!-- Filter input -->
+<!-- <mat-form-field>
+    <mat-label>Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Filter" #input />
+</mat-form-field> -->
+
+<!-- Table -->
+<table mat-table [dataSource]="dataSource" matSort class="news-table">
+    <tr mat-header-row *matHeaderRowDef="['date', 'title', 'source', 'author', 'pdfLink']"></tr>
+    <ng-container matColumnDef="date">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Date</th>
+        <td mat-cell *matCellDef="let element">
+            {{ element.date | date: "dd-MM-yyyy" }}
+        </td>
+    </ng-container>
+
+    <ng-container matColumnDef="title">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Article title</th>
+        <td mat-cell *matCellDef="let element">
+            <ng-template [ngIf]="element.pdfLink" [ngIfElse]="text">
+                <a [href]="element.pdfLink">
+                    {{ element.title }}
+                </a>
+            </ng-template>
+            <ng-template #text>
+                {{ element.title }}
+            </ng-template>
+        </td>
+    </ng-container>
+
+    <ng-container matColumnDef="source">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>
+            <strong> Source </strong>
+        </th>
+        <td mat-cell *matCellDef="let element">{{ element.publication }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="author">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Author</th>
+        <td mat-cell *matCellDef="let element">{{ element.author }}</td>
+    </ng-container>
+    <ng-container matColumnDef="pdfLink">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>PDF</th>
+        <td mat-cell *matCellDef="let element">{{ element.pdfLink }}</td>
+    </ng-container>
+
+    <!-- Rows -->
+    <tr mat-row *matRowDef="
+      let row;
+      columns: ['date', 'title', 'source', 'author', 'pdfLink']
+    "></tr>
+</table>
+<mat-paginator [length]="data.length" [pageSize]="5"></mat-paginator>

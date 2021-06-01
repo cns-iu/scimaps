@@ -1,0 +1,25 @@
+.news-table {
+    width: 100%;
+    tr {
+      height: 3.5rem;
+    }
+    th {
+      padding: 1rem;
+      border-bottom: none;
+      font-weight: bold;
+      font-size: 1rem;
+      color: black;
+
+      div.mat-sort-header-content {
+        margin: auto;
+      }
+    }
+    td {
+      padding: 1rem;
+      border-bottom: none;
+    }
+    a {
+      text-decoration: none;
+      color: #8DC63F
+    }
+  }
