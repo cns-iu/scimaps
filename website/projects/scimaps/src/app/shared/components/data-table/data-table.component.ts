@@ -4,7 +4,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { of, Subscription } from 'rxjs';
-import { debounceTime, distinctUntilChanged, filter, switchMap } from 'rxjs/operators';
+import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
 import { NewsItem } from '../news-item/news-item.model';
 
 @Component({
@@ -43,9 +43,11 @@ export class DataTableComponent implements OnInit, AfterViewInit, OnDestroy {
     })
     
     this.searchChangeSubscription = this.searchForm.get('search')?.valueChanges.pipe(
-      filter(searchKey => searchKey),
       debounceTime(400),
       distinctUntilChanged(),
+      map((searcKey: string) => {
+        return searcKey.trim().toLowerCase()
+      }),
       switchMap((searchKey: string) => {
         return of(searchKey);
       })
@@ -70,10 +72,11 @@ export class DataTableComponent implements OnInit, AfterViewInit, OnDestroy {
   filterData(item: NewsItem, filter: string) {
     const parsedFilter = JSON.parse(filter);
     let result = true;
-    if (parsedFilter.year) {
+    if (parsedFilter.year && parsedFilter.year !== 'all') {
       const year = new Date(item.date).getFullYear().toString();
       result = result && (year === parsedFilter.year);
     }
+
     if (parsedFilter.searchKey) {
       result = result && (item.title.toLowerCase().includes(parsedFilter.searchKey) || item.publication.toLowerCase().includes(parsedFilter.searchKey))
     }
