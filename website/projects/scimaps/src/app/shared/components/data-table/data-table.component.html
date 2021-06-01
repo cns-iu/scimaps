@@ -2,7 +2,10 @@
 <form [formGroup]="searchForm" class="searchForm">
     <mat-form-field class="input-year">
         <mat-label>Year</mat-label>
-        <mat-select [(value)]="selectedYear" (selectionChange)="onYearChange($event.value)" formControlName="year">
+        <mat-select formControlName="year">
+            <mat-option value="">
+                All
+            </mat-option>
             <mat-option *ngFor="let year of yearList" [value]="year">
                 {{year}}
             </mat-option>
@@ -12,7 +15,7 @@
     <!-- Search Filter -->
     <mat-form-field class="input-search">
         <mat-icon aria-hidden="false" aria-label="search" matSuffix>search</mat-icon>
-        <input matInput (keyup)="onSearchChange($event)" formControlName="search" placeholder="Type search" #input />
+        <input matInput formControlName="search" placeholder="Type search" #input />
     </mat-form-field>
 </form>
 
@@ -26,7 +29,6 @@
             {{ element.date | date: "dd-MM-yyyy" }}
         </td>
     </ng-container>
-
     <ng-container matColumnDef="title">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>Article title</th>
         <td mat-cell *matCellDef="let element">
@@ -40,14 +42,12 @@
             </ng-template>
         </td>
     </ng-container>
-
     <ng-container matColumnDef="publication">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>
             <strong> Source </strong>
         </th>
         <td mat-cell *matCellDef="let element">{{ element.publication }}</td>
     </ng-container>
-
     <ng-container matColumnDef="author">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>Author</th>
         <td mat-cell *matCellDef="let element">{{ element.author }}</td>
@@ -56,7 +56,6 @@
         <th mat-header-cell *matHeaderCellDef mat-sort-header>PDF</th>
         <td mat-cell *matCellDef="let element">{{ element.pdfLink }}</td>
     </ng-container>
-
     <!-- Rows -->
     <tr mat-row *matRowDef="
       let row;
