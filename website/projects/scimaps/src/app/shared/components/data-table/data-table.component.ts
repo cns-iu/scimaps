@@ -19,6 +19,7 @@ export class DataTableComponent implements OnInit, AfterViewInit {
   dataSource = new MatTableDataSource(this.data);
   yearList = ['2021', '2020']
   selectedYear = '2021';
+  columns = ['date', 'title', 'publication', 'author', 'pdfLink'];
   
   searchForm!: FormGroup;
 
@@ -36,6 +37,7 @@ export class DataTableComponent implements OnInit, AfterViewInit {
     //     console.log('value');
     //   })
     // )
+    // this.dataSource.
   }
 
   ngAfterViewInit() {

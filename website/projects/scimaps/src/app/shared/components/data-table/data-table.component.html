@@ -18,7 +18,7 @@
 
 <!-- Table -->
 <table mat-table [dataSource]="dataSource" matSort class="news-table">
-    <tr mat-header-row *matHeaderRowDef="['date', 'title', 'source', 'author', 'pdfLink']"></tr>
+    <tr mat-header-row *matHeaderRowDef="columns"></tr>
 
     <ng-container matColumnDef="date">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>Date</th>
@@ -41,7 +41,7 @@
         </td>
     </ng-container>
 
-    <ng-container matColumnDef="source">
+    <ng-container matColumnDef="publication">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>
             <strong> Source </strong>
         </th>
@@ -60,7 +60,7 @@
     <!-- Rows -->
     <tr mat-row *matRowDef="
       let row;
-      columns: ['date', 'title', 'source', 'author', 'pdfLink']
+      columns: columns
     "></tr>
 </table>
 
