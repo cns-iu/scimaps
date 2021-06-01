@@ -1,3 +1,17 @@
+.searchForm {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+
+  .input-year {
+    max-width: 4rem;
+    margin-right: 3rem;
+  }
+  
+  .input-search {
+    max-width: 10rem;;
+  }
+}
 .news-table {
     width: 100%;
     tr {
@@ -9,10 +23,6 @@
       font-weight: bold;
       font-size: 1rem;
       color: black;
-
-      div.mat-sort-header-content {
-        margin: auto;
-      }
     }
     td {
       padding: 1rem;
