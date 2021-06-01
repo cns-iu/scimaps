@@ -1,8 +1,18 @@
-<!-- Filter input -->
-<!-- <mat-form-field>
+<!-- Year dropdown -->
+<mat-form-field class="year-select" appearance="fill">
+    <mat-label>Year</mat-label>
+    <mat-select [(value)]="selectedYear" (selectionChange)="onYearChange($event.value)">
+        <mat-option *ngFor="let year of yearList" [value]="year">
+            {{year}}
+        </mat-option>
+    </mat-select>
+</mat-form-field>
+
+<!-- Search Filter -->
+<mat-form-field>
     <mat-label>Filter</mat-label>
-    <input matInput (keyup)="applyFilter($event)" placeholder="Filter" #input />
-</mat-form-field> -->
+    <input matInput (keyup)="applyFilter($event)" placeholder="Type search" #input />
+</mat-form-field>
 
 <!-- Table -->
 <table mat-table [dataSource]="dataSource" matSort class="news-table">
@@ -50,4 +60,6 @@
       columns: ['date', 'title', 'source', 'author', 'pdfLink']
     "></tr>
 </table>
-<mat-paginator [length]="data.length" [pageSize]="5"></mat-paginator>
+
+<!-- Paginator -->
+<mat-paginator [length]="dataSource.data.length" [pageSize]="5"></mat-paginator>
