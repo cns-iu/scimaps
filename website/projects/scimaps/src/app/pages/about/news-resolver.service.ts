@@ -16,10 +16,20 @@ export class NewsResolverService {
 
   getImageSource(newsItem: NewsItem): string {
     const fullDate = new Date(newsItem.date);
-    const year = fullDate.getFullYear(), date = fullDate.getDate();
-    const month = ('0' + (fullDate.getMonth() + 1)).slice(-2);
+    const year = fullDate.getFullYear();
+    const date = ('0' + (fullDate.getUTCDate())).slice(-2);
+    const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
     const slug = toSlug(newsItem.title);
     return `assets/${this.directory}/${year}/${month}-${date}/${slug}/${newsItem.thumbnail}`;
+  }
+
+  getPDFSource(newsItem: NewsItem): string {
+    const fullDate = new Date(newsItem.date);
+    const year = fullDate.getFullYear(); 
+    const date = ('0' + (fullDate.getUTCDate())).slice(-2);
+    const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
+    const slug = toSlug(newsItem.title);
+    return `assets/${this.directory}/${year}/${month}-${date}/${slug}/${newsItem.pdfLink}`;
   }
 
   toNewsItem(newsItem: Params): NewsItem {
@@ -40,6 +50,7 @@ export class NewsResolverService {
         return items.map((item: Params) => {
           const newsItem: NewsItem = this.toNewsItem(item);
           newsItem.thumbnail = this.getImageSource(newsItem);
+          newsItem.pdfLink = this.getPDFSource(newsItem);
           return newsItem;
         });
       })
