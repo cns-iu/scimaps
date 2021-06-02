@@ -18,7 +18,7 @@ export class DataTableComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild(MatSort) sort!: MatSort;
 
   dataSource = new MatTableDataSource(this.data);
-  yearList = ['2021', '2020', '2006']
+  yearList = ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'];
   columns = ['date', 'title', 'publication', 'author', 'pdfLink'];
   
   searchForm!: FormGroup;
@@ -37,10 +37,6 @@ export class DataTableComponent implements OnInit, AfterViewInit, OnDestroy {
       year: this.formBuilder.control(''),
       search: this.formBuilder.control('')
     });
-    this.searchForm.setValue({
-      year: '',
-      search: ''
-    })
     
     this.searchChangeSubscription = this.searchForm.get('search')?.valueChanges.pipe(
       debounceTime(400),
