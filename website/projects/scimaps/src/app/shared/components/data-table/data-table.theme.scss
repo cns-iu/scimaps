@@ -1,0 +1,12 @@
+@import "~@angular/material/theming";
+
+.news-table {
+  .mat-sort-header-arrow {
+    border-radius: 0.25rem;
+    color: black;
+    &:hover {
+        opacity: 1;
+        background-color: #e0e0e0;
+    }
+  }
+}
