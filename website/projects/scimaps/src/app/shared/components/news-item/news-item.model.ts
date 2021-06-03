@@ -20,4 +20,6 @@ export interface NewsItem {
 
   /** Link to PDF */
   pdfLink: string;
+
+  sourceUrl?: string;
 }

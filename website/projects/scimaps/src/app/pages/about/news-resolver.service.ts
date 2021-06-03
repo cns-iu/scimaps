@@ -38,7 +38,8 @@ export class NewsResolverService {
       date: newsItem.date,
       publication: newsItem.source,
       thumbnail: newsItem.image,
-      pdfLink: newsItem.pdfLink
+      pdfLink: newsItem.pdfLink,
+      sourceUrl: newsItem.sourceUrl
     }
     return result as NewsItem;
   }

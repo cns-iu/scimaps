@@ -32,8 +32,8 @@
     <ng-container matColumnDef="title">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>Article title</th>
         <td mat-cell *matCellDef="let element">
-            <ng-template [ngIf]="element.pdfLink" [ngIfElse]="text">
-                <a [href]="element.pdfLink">
+            <ng-template [ngIf]="element.sourceUrl" [ngIfElse]="text">
+                <a [href]="element.sourceUrl">
                     {{ element.title }}
                 </a>
             </ng-template>
