@@ -26,11 +26,13 @@
   </sci-profile-gallery>  
 </ng-template>
 
-<sci-news-item-list [newsItems]=newsItems>
+
+
+<sci-news-item-list *sciBreakpoint="'tablet-'; else desktop" [newsItems]=newsItems>
 </sci-news-item-list>
-
-
-<sci-data-table [data]="newsItems"></sci-data-table>
+<ng-template #desktop>
+  <sci-data-table [data]="newsItems"></sci-data-table>
+</ng-template>
 
 <!-- Partners -->
 <div class="partners">
