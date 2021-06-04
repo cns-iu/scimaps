@@ -21,7 +21,7 @@ export class NewsResolverService {
     const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
     const slug = toSlug(newsItem.title);
 
-    if (type == 'pdfLink') {
+    if (type === 'pdfLink') {
       return `assets/${this.directory}/${year}/${month}-${date}/${slug}/${newsItem.pdfLink}`;
     } else {
       return `assets/${this.directory}/${year}/${month}-${date}/${slug}/${newsItem.thumbnail}`;
@@ -36,7 +36,7 @@ export class NewsResolverService {
       thumbnail: newsItem.image,
       pdfLink: newsItem.pdfLink,
       sourceUrl: newsItem.sourceUrl
-    }
+    };
     return result as NewsItem;
   }
 

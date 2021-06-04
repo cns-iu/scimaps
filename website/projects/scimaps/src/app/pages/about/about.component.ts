@@ -24,7 +24,7 @@ export class AboutComponent implements OnInit {
   pageTabs = ['Curatorial Team / Advisory Board', 'Exhibit Ambassadors'];
   activePageTab = 0;
   newsItems: NewsItem[] = [];
-  
+
   ngOnInit(): void {
     this.route.data.subscribe(data => {
       const {profiles, body, newsItems} = data;
