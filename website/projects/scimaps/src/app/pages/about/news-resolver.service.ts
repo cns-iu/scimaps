@@ -14,22 +14,18 @@ export class NewsResolverService {
 
   constructor(private contentService: ContentService) { }
 
-  getImageSource(newsItem: NewsItem): string {
+  getSourceLink(newsItem: NewsItem, type: string = 'image'): string {
     const fullDate = new Date(newsItem.date);
     const year = fullDate.getFullYear();
     const date = ('0' + (fullDate.getUTCDate())).slice(-2);
     const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
     const slug = toSlug(newsItem.title);
-    return `assets/${this.directory}/${year}/${month}-${date}/${slug}/${newsItem.thumbnail}`;
-  }
 
-  getPDFSource(newsItem: NewsItem): string {
-    const fullDate = new Date(newsItem.date);
-    const year = fullDate.getFullYear(); 
-    const date = ('0' + (fullDate.getUTCDate())).slice(-2);
-    const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
-    const slug = toSlug(newsItem.title);
-    return `assets/${this.directory}/${year}/${month}-${date}/${slug}/${newsItem.pdfLink}`;
+    if (type == 'pdfLink') {
+      return `assets/${this.directory}/${year}/${month}-${date}/${slug}/${newsItem.pdfLink}`;
+    } else {
+      return `assets/${this.directory}/${year}/${month}-${date}/${slug}/${newsItem.thumbnail}`;
+    }
   }
 
   toNewsItem(newsItem: Params): NewsItem {
@@ -50,8 +46,8 @@ export class NewsResolverService {
       map((items: Params[]) => {
         return items.map((item: Params) => {
           const newsItem: NewsItem = this.toNewsItem(item);
-          newsItem.thumbnail = this.getImageSource(newsItem);
-          newsItem.pdfLink = this.getPDFSource(newsItem);
+          newsItem.thumbnail = this.getSourceLink(newsItem);
+          newsItem.pdfLink = this.getSourceLink(newsItem, 'pdfLink');
           return newsItem;
         });
       })
