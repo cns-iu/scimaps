@@ -6,7 +6,7 @@ import { AboutComponent } from './about.component';
 import { ProfileGalleryModule } from '../../shared/components/profile-gallery/profile-gallery.module';
 import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.module';
 import { NewsItemListModule } from '../../shared/components/news-item-list/news-item-list.module';
-import { DataTableModule } from '../../shared/components/data-table/data-table.module';
+import { NewsTableModule } from '../../shared/components/news-table/news-table.module';
 import { SharedModule } from '../../shared/shared.module';
 
 @NgModule({
@@ -17,7 +17,7 @@ import { SharedModule } from '../../shared/shared.module';
     ProfileGalleryModule,
     TabHeaderModule,
     NewsItemListModule,
-    DataTableModule,
+    NewsTableModule,
     SharedModule
   ]
 })

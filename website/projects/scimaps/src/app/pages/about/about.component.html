@@ -31,7 +31,7 @@
 <sci-news-item-list *sciBreakpoint="'tablet-'; else desktop" [newsItems]=newsItems>
 </sci-news-item-list>
 <ng-template #desktop>
-  <sci-data-table [data]="newsItems"></sci-data-table>
+  <sci-news-table [data]="newsItems"></sci-news-table>
 </ng-template>
 
 <!-- Partners -->

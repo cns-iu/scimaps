@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DataTableComponent } from './data-table.component';
+import { NewsTableComponent } from './news-table.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
@@ -23,7 +23,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatSelectModule,
     MatIconModule,
   ],
-  declarations: [DataTableComponent],
-  exports: [DataTableComponent]
+  declarations: [NewsTableComponent],
+  exports: [NewsTableComponent]
 })
-export class DataTableModule { }
+export class NewsTableModule { }

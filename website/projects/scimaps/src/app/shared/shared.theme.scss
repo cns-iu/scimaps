@@ -15,7 +15,7 @@
 @use './components/lazy-cards/lazy-cards.theme';
 @use './components/lazy-table/lazy-table.theme.scss';
 @use './components/tab-header/tab-header.theme.scss';
-@use './components/data-table/data-table.theme.scss';
+@use './components/news-table/news-table.theme.scss';
 
 @mixin theme($theme) {
   @include book-overview.theme($theme);

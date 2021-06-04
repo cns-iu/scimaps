@@ -8,11 +8,11 @@ import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operato
 import { NewsItem } from '../news-item/news-item.model';
 
 @Component({
-  selector: 'sci-data-table',
-  templateUrl: './data-table.component.html',
-  styleUrls: ['./data-table.component.scss']
+  selector: 'sci-news-table',
+  templateUrl: './news-table.component.html',
+  styleUrls: ['./news-table.component.scss']
 })
-export class DataTableComponent implements OnInit, AfterViewInit, OnDestroy {
+export class NewsTableComponent implements OnInit, AfterViewInit, OnDestroy {
   @Input() data: NewsItem[] = [];
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
