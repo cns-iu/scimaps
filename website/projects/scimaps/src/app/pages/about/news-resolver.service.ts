@@ -14,6 +14,7 @@ export class NewsResolverService {
 
   constructor(private contentService: ContentService) { }
 
+  // Used to get full path of resources.
   getSourceLink(newsItem: NewsItem, type: string = 'image'): string {
     const fullDate = new Date(newsItem.date);
     const year = fullDate.getFullYear();
@@ -28,6 +29,7 @@ export class NewsResolverService {
     }
   }
 
+  // Mapper
   toNewsItem(newsItem: Params): NewsItem {
     const result: NewsItem = {
       title: newsItem.title,
