@@ -68,5 +68,4 @@ describe('NewsTableComponent', () => {
     const { instance } = await shallow.render({ bind: { data: testItems } });
     expect(instance.data.length).toEqual(testItems.length);
   });
-  
 });

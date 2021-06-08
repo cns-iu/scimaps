@@ -32,7 +32,7 @@ export class NewsTableComponent implements OnInit, AfterViewInit, OnDestroy {
 
     // Assign predicate
     this.dataSource.filterPredicate = this.filterData;
-    
+
     // Initialize form
     this.searchForm = this.formBuilder.group({
       year: this.formBuilder.control(''),
