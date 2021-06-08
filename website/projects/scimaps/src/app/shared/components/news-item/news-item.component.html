@@ -7,7 +7,8 @@
         {{ item.date | date:'mediumDate' }}
       </div>
       <div class="download">
-        <a href="../../../../assets/icons/ico-pdf-download.svg">
+        <a *ngIf="item.pdfLink" [href]="item.pdfLink" download>
+          <img src="../../../../assets/icons/ico-pdf-download.svg" alt="Download pdf" width="20px" height="20px">
         </a>
       </div>
     </div>
