@@ -7,25 +7,26 @@
         {{ item.date | date:'mediumDate' }}
       </div>
       <div class="download">
-        icon
+        <a href="../../../../assets/icons/ico-pdf-download.svg">
+        </a>
       </div>
     </div>
 
     <div class="body">
       <!-- Title -->
-      <div class="row">
-        <div class="title">
+      <div class="title">
+        <ng-template [ngIf]="item.sourceUrl" [ngIfElse]="text">
+          <a [href]="item.sourceUrl">
+            {{ item.title }}
+          </a>
+        </ng-template>
+        <ng-template #text>
           {{ item.title }}
-        </div>
+        </ng-template>
       </div>
-
-      <!-- Source -->
-      <div class="row">
-        <div class="identifier">
-          {{ item.publication }} {{ item.institution ? 'at' + item.institution : '' }}
-        </div>
+      <div class="identifier">
+        {{ item.publication }} {{ item.institution ? 'at' + item.institution : '' }}
       </div>
     </div>
-
   </div>
 </a>

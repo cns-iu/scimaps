@@ -47,29 +47,29 @@
           overflow: hidden;
         }
         .download {
-          display: inline;
+          // display: inline;
         }
       }
       
       .body {
         padding: 1rem;
+        height: 72px;
 
-        .row {
-          display: flex;
-          flex-direction: row;
-          height: 36px;
+        .title {
+          font-size: 1rem;
+          overflow: hidden;
+          a {
+            text-decoration: none;
+            color: #8DC63F;
+          }
+        }
 
-          .title {
-            font-size: 1rem;
-            overflow: hidden;
-          }
-  
-          .identifier {
-            color: #757575;
-            font-size: 1rem;
-            overflow: hidden;
-          }
-        }  
+        .identifier {
+          margin-top: 0.25rem;
+          color: #757575;
+          font-size: 1rem;
+          overflow: hidden;
+        }
       }
     }
 
