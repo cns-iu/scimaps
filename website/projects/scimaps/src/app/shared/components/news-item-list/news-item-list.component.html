@@ -10,7 +10,7 @@
   </mat-form-field>
 
   <div class="sort-filters">
-    <div class="sort date" (click)="sort('date')">
+    <!-- <div class="sort date" (click)="sort('date')">
       <div>Date</div>
       <mat-icon [class.reversed]="dateOrder === 'desc'">filter_list</mat-icon>
     </div>
@@ -20,6 +20,10 @@
     </div>
     <div class="sort publication" (click)="sort('publication')">
       <div>Publication</div>
+      <mat-icon [class.reversed]="publicationOrder === 'asc'">filter_list</mat-icon>
+    </div> -->
+    <div class="sort publication" (click)="sort('publication')">
+      <div>Source</div>
       <mat-icon [class.reversed]="publicationOrder === 'asc'">filter_list</mat-icon>
     </div>
   </div>
