@@ -136,6 +136,6 @@ export class NewsItemListComponent implements OnInit {
    * @returns true if there are 4 or fewer items displayed
    */
   needShowMoreButton(): boolean {
-    return (this.displayedNewsItems.length < 5) ? false : true;
+    return (this.displayedNewsItems.length > 6) ? true : false;
   }
 }
