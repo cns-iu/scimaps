@@ -16,13 +16,19 @@
     <div class="body">
       <!-- Title -->
       <div class="title">
+        <!-- Link -->
         <ng-template [ngIf]="item.sourceUrl" [ngIfElse]="text">
-          <a [href]="item.sourceUrl">
-            {{ item.title }}
-          </a>
+          <div class="link">
+            <a [href]="item.sourceUrl">
+              {{ item.title }}
+            </a>
+          </div>
         </ng-template>
+        <!-- Title -->
         <ng-template #text>
-          {{ item.title }}
+          <div class="title">
+            {{ item.title }}
+          </div>
         </ng-template>
       </div>
       <div class="identifier">

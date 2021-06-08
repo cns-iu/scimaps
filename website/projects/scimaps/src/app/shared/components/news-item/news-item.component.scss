@@ -60,6 +60,13 @@
           overflow: hidden;
           white-space: nowrap;
           text-overflow: ellipsis;
+        }
+
+        .link {
+          font-size: 1rem;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
           color: #8DC63F;
           a {
             text-decoration: none;
