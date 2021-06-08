@@ -58,6 +58,8 @@
         .title {
           font-size: 1rem;
           overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
           a {
             text-decoration: none;
             color: #8DC63F;
@@ -65,6 +67,9 @@
         }
 
         .identifier {
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
           margin-top: 0.25rem;
           color: #757575;
           font-size: 1rem;
