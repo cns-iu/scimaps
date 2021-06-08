@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Params } from '@angular/router';
-import { Observable, of } from 'rxjs';
-import { map, take, tap } from 'rxjs/operators';
+import { Observable } from 'rxjs';
+import { map, take } from 'rxjs/operators';
 import { NewsItem } from '../../shared/components/news-item/news-item.model';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 
@@ -39,7 +39,7 @@ export class NewsResolverService {
       pdfLink: newsItem.pdfLink,
       sourceUrl: newsItem.sourceUrl
     };
-    return result as NewsItem;
+    return result;
   }
 
   resolve(): Observable<NewsItem[]> | Observable<never> {
