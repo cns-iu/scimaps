@@ -1,4 +1,6 @@
 import { Component, HostBinding, Input, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
+import { Subscription } from 'rxjs';
 
 import { NewsItem } from '../news-item/news-item.model';
 
@@ -47,17 +49,27 @@ export class NewsItemListComponent implements OnInit {
    */
   showAllItems = false;
 
-  /**
-   * Currently selected year
-   */
-  selectedYear = 'All';
+
+  form: FormGroup;
+  yearChangeSubscription: Subscription | undefined;
+  constructor(private fb: FormBuilder) {
+    this.form = this.fb.group({
+      year: this.fb.control(''),
+      search: this.fb.control('')
+    })
+  }
 
   /**
    * Sorts all items by date on init
    */
   ngOnInit(): void {
     this.displayedNewsItems = this.newsItems;
-    this.sort('date');
+    // this.sort('publication');
+    
+
+    this.yearChangeSubscription = this.form.get('year')?.valueChanges.subscribe((year: string) => {
+
+    });
   }
 
   /**
@@ -108,7 +120,7 @@ export class NewsItemListComponent implements OnInit {
       const fullDate = new Date(item.date);
       return fullDate.getFullYear().toString();
     });
-    return ['All'].concat([...new Set(years)]);
+    return [...new Set(years)];
   }
 
   /**
@@ -117,9 +129,8 @@ export class NewsItemListComponent implements OnInit {
    */
   onYearChange(value: string): void {
     this.sort('date');
-    if (value === 'All') {
-      this.displayedNewsItems = [...this.newsItems];
-    } else {
+    this.displayedNewsItems = [...this.newsItems];
+    if (value) {
       this.displayedNewsItems = [...this.newsItems].filter((item) => {
         const date = new Date(item.date);
         return date.getFullYear().toString() === value;

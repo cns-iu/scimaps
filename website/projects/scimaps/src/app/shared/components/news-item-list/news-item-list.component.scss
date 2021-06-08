@@ -1,6 +1,12 @@
 @use 'screen';
 
 :host {
+
+  .search-form {
+    display: flex;
+    flex-direction: row;
+  }
+
   .filter-header {
     display: flex;
     align-items: center;

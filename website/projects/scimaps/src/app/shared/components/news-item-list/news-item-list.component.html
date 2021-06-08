@@ -1,13 +1,26 @@
 <h2 class="header">In the news</h2>
 <div class="filter-header">
-  <mat-form-field class="year-select" appearance="fill">
-    <mat-label>Year</mat-label>
-    <mat-select [(value)]="selectedYear" (selectionChange)="onYearChange($event.value)">
-      <mat-option *ngFor="let year of yearList" [value]="year">
-        {{year}}
-      </mat-option>
-    </mat-select>
+  
+
+<!-- FormGroup -->
+<form [formGroup]="form" class="search-form">
+  <mat-form-field class="input-year">
+      <mat-label>Year</mat-label>
+      <mat-select formControlName="year">
+          <mat-option value="">
+              All
+          </mat-option>
+          <mat-option *ngFor="let year of yearList" [value]="year">
+              {{year}}
+          </mat-option>
+      </mat-select>
   </mat-form-field>
+  
+  <mat-form-field class="input-search">
+      <mat-icon aria-hidden="false" aria-label="search" matSuffix>search</mat-icon>
+      <input matInput formControlName="search" placeholder="Type search" #input />
+  </mat-form-field>
+</form>
 
   <div class="sort-filters">
     <!-- <div class="sort date" (click)="sort('date')">
@@ -26,6 +39,7 @@
       <div>Source</div>
       <mat-icon [class.reversed]="publicationOrder === 'asc'">arrow_downward</mat-icon>
     </div>
+    
   </div>
 </div>
 
