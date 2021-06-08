@@ -3,7 +3,7 @@
   
 
 <!-- FormGroup -->
-<form [formGroup]="form" class="search-form">
+<form [formGroup]="searchForm" class="search-form">
   <mat-form-field class="input-year">
       <mat-label>Year</mat-label>
       <mat-select formControlName="year">
@@ -35,7 +35,7 @@
       <div>Publication</div>
       <mat-icon [class.reversed]="publicationOrder === 'asc'">filter_list</mat-icon>
     </div> -->
-    <div class="sort publication" (click)="sort('publication')">
+    <div class="sort publication" (click)="toggleSort('publication')">
       <div>Source</div>
       <mat-icon [class.reversed]="publicationOrder === 'asc'">arrow_downward</mat-icon>
     </div>

@@ -1,6 +1,7 @@
-import { Component, HostBinding, Input, OnInit } from '@angular/core';
+import { Component, HostBinding, Input, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
-import { Subscription } from 'rxjs';
+import { of, Subscription } from 'rxjs';
+import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
 
 import { NewsItem } from '../news-item/news-item.model';
 
@@ -13,7 +14,7 @@ import { NewsItem } from '../news-item/news-item.model';
   templateUrl: './news-item-list.component.html',
   styleUrls: ['./news-item-list.component.scss']
 })
-export class NewsItemListComponent implements OnInit {
+export class NewsItemListComponent implements OnInit, OnDestroy {
   /**
    * Component class name
    */
@@ -32,17 +33,17 @@ export class NewsItemListComponent implements OnInit {
   /**
    * Order for date sorting (ascending or descending)
    */
-  dateOrder = 'asc';
+  dateOrder: 'asc' | 'desc' = 'asc';
 
   /**
    * Order for title sorting (ascending or descending)
    */
-  titleOrder = 'asc';
+  titleOrder: 'asc' | 'desc' = 'asc';
 
   /**
    * Order for publication sorting (ascending or descending)
    */
-  publicationOrder = 'asc';
+  publicationOrder: 'asc' | 'desc' = 'asc';
 
   /**
    * Whether all items should be displayed
@@ -50,10 +51,24 @@ export class NewsItemListComponent implements OnInit {
   showAllItems = false;
 
 
-  form: FormGroup;
+  searchForm: FormGroup;
   yearChangeSubscription: Subscription | undefined;
+  searchChangeSubscription: Subscription | undefined;
+
+
+  /**
+   * List of options to be displayed in year select dropdown
+   */
+  get yearList(): string[] {
+    const years = this.newsItems.map((item: NewsItem) => {
+      const fullDate = new Date(item.date);
+      return fullDate.getFullYear().toString();
+    });
+    return [...new Set(years)];
+  }
+
   constructor(private fb: FormBuilder) {
-    this.form = this.fb.group({
+    this.searchForm = this.fb.group({
       year: this.fb.control(''),
       search: this.fb.control('')
     })
@@ -64,11 +79,34 @@ export class NewsItemListComponent implements OnInit {
    */
   ngOnInit(): void {
     this.displayedNewsItems = this.newsItems;
-    // this.sort('publication');
-    
+    this.sort('publication', 'asc');
 
-    this.yearChangeSubscription = this.form.get('year')?.valueChanges.subscribe((year: string) => {
+    // Initialize listener for search input change
+    this.searchChangeSubscription = this.searchForm.get('search')?.valueChanges.pipe(
+      debounceTime(400),
+      distinctUntilChanged(),
+      map((searcKey: string) => {
+        return searcKey.trim().toLowerCase();
+      }),
+      switchMap((searchKey: string) => {
+        return of(searchKey);
+      })
+    ).subscribe((searchKey: string) => {
+      const year = this.searchForm.get('year')?.value;
+      this.filterData({year, searchKey});
+    });
 
+    // Initalize listener for year dropdown change
+    this.yearChangeSubscription = this.searchForm.get('year')?.valueChanges.pipe(
+      debounceTime(400),
+      distinctUntilChanged(),
+      switchMap((year: string) => {
+        return of(year);
+      })
+    ).subscribe((year: string) => {
+      let searchKey = this.searchForm.get('search')?.value;
+      searchKey = searchKey.trim().toLowerCase();
+      this.filterData({searchKey, year});
     });
   }
 
@@ -76,8 +114,8 @@ export class NewsItemListComponent implements OnInit {
    * Sorts displayed news items according to criteria
    * @param criteria Criteria to be sorted by
    */
-  sort(criteria: 'date' | 'publication' | 'title'): void {
-    let order;
+  toggleSort(criteria: 'date' | 'publication' | 'title'): void {
+    let order: 'asc' | 'desc';
     if (criteria === 'publication') {
       this.publicationOrder = this.publicationOrder === 'asc' ? 'desc' : 'asc';
       order = this.publicationOrder;
@@ -88,7 +126,21 @@ export class NewsItemListComponent implements OnInit {
       this.titleOrder = this.titleOrder === 'asc' ? 'desc' : 'asc';
       order = this.titleOrder;
     }
+    this.sort(criteria, order);
+  }
+
+  sort(criteria: 'date' | 'publication' | 'title', order: 'asc' | 'desc'): void {
     this.displayedNewsItems = [...this.displayedNewsItems].sort(this.compareValues(criteria, order));
+    
+    if (criteria == 'date') {
+      this.dateOrder = order;
+    }
+    if (criteria == 'publication') {
+      this.publicationOrder = order;
+    }
+    if (criteria == 'title') {
+      this.titleOrder = order;
+    }
   }
 
   /**
@@ -105,37 +157,30 @@ export class NewsItemListComponent implements OnInit {
       } else {
         comparison = a[key].localeCompare(b[key]);
       }
-
       return (
         (order === 'desc') ? (comparison * -1) : comparison
       );
     };
   }
 
-  /**
-   * List of options to be displayed in year select dropdown
-   */
-  get yearList(): string[] {
-    const years = this.newsItems.map((item: NewsItem) => {
-      const fullDate = new Date(item.date);
-      return fullDate.getFullYear().toString();
-    });
-    return [...new Set(years)];
-  }
-
-  /**
-   * Filters displayed news items by selected year
-   * @param value Selected value
-   */
-  onYearChange(value: string): void {
-    this.sort('date');
-    this.displayedNewsItems = [...this.newsItems];
-    if (value) {
-      this.displayedNewsItems = [...this.newsItems].filter((item) => {
-        const date = new Date(item.date);
-        return date.getFullYear().toString() === value;
-      });
+  // Predicate for filtering data.
+  filterData(filter: { searchKey: string, year: string }): void {
+    const predicateFilter = (item: NewsItem) => {
+      let result = true;
+      // year
+      if (filter.year) {
+        const year = new Date(item.date).getFullYear().toString();
+        result = result && (year === filter.year);
+      }
+      // SearchKey
+      if (filter.searchKey) {
+        result = result &&
+          (item.title.toLowerCase().includes(filter.searchKey) ||
+            item.publication.toLowerCase().includes(filter.searchKey));
+      }
+      return result;
     }
+    this.displayedNewsItems = [...this.newsItems].filter(predicateFilter);
   }
 
   /**
@@ -151,5 +196,14 @@ export class NewsItemListComponent implements OnInit {
    */
   needShowMoreButton(): boolean {
     return (this.displayedNewsItems.length > 6) ? true : false;
+  }
+
+  ngOnDestroy() {
+    if (this.yearChangeSubscription) {
+      this.yearChangeSubscription.unsubscribe();
+    }
+    if (this.searchChangeSubscription) {
+      this.searchChangeSubscription.unsubscribe();
+    }
   }
 }
