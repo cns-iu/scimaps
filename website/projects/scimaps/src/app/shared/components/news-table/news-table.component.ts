@@ -30,12 +30,16 @@ export class NewsTableComponent implements OnInit, AfterViewInit, OnDestroy {
   ngOnInit(): void {
     this.dataSource.data = this.data;
 
+    // Assign predicate
     this.dataSource.filterPredicate = this.filterData;
+    
+    // Initialize form
     this.searchForm = this.formBuilder.group({
       year: this.formBuilder.control(''),
       search: this.formBuilder.control('')
     });
 
+    // Initialize listener for search input change
     this.searchChangeSubscription = this.searchForm.get('search')?.valueChanges.pipe(
       debounceTime(400),
       distinctUntilChanged(),
@@ -50,6 +54,7 @@ export class NewsTableComponent implements OnInit, AfterViewInit, OnDestroy {
       this.dataSource.filter = JSON.stringify({ year, searchKey });
     });
 
+    // Initalize listener for year dropdown change
     this.yearChangeSubscription = this.searchForm.get('year')?.valueChanges.pipe(
       debounceTime(400),
       distinctUntilChanged(),
