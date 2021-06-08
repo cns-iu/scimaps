@@ -24,15 +24,16 @@
     </div> -->
     <div class="sort publication" (click)="sort('publication')">
       <div>Source</div>
-      <mat-icon [class.reversed]="publicationOrder === 'asc'">filter_list</mat-icon>
+      <mat-icon [class.reversed]="publicationOrder === 'asc'">arrow_downward</mat-icon>
     </div>
   </div>
 </div>
 
 <div class="news-item-list">
-  <div *ngFor="let item of displayedNewsItems" class="news-item">
-    <sci-news-item *ngIf="showAllItems || displayedNewsItems.indexOf(item) < 4" [item]="item"></sci-news-item>
+  <div *ngFor="let item of displayedNewsItems; let i = index" class="news-item">
+    <sci-news-item *ngIf="showAllItems || i < 6" [item]="item"></sci-news-item>
   </div>
   <div class="show-more" *ngIf="needShowMoreButton()" (click)="this.showAllItems = !this.showAllItems">
-    {{ showButtonText }}</div>
+    {{ showButtonText }}
+  </div>
 </div>

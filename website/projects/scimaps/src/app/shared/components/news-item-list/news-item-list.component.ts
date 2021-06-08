@@ -120,7 +120,10 @@ export class NewsItemListComponent implements OnInit {
     if (value === 'All') {
       this.displayedNewsItems = [...this.newsItems];
     } else {
-      this.displayedNewsItems = [...this.newsItems].filter((item) => item.date.getFullYear().toString() === value);
+      this.displayedNewsItems = [...this.newsItems].filter((item) => {
+        const date = new Date(item.date);
+        return date.getFullYear().toString() === value;
+      });
     }
   }
 
