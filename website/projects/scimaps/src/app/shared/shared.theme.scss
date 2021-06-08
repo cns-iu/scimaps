@@ -35,5 +35,5 @@
   @include lazy-cards.theme($theme);
   @include lazy-table.theme($theme);
   @include tab-header.theme($theme);
-  // @include data-table.theme($theme);
+  @include news-table.theme($theme);
 }
