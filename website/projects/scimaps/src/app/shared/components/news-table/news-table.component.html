@@ -21,11 +21,12 @@
 
 <!-- Table -->
 <table mat-table [dataSource]="dataSource" matSort class="news-table">
+    <caption> News table </caption>
     <tr mat-header-row *matHeaderRowDef="columns"></tr>
 
     <!-- Date -->
     <ng-container matColumnDef="date">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header>Date</th>
+        <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>Date</th>
         <td mat-cell *matCellDef="let element">
             {{ element.date | date: "dd-MM-yyyy" }}
         </td>
@@ -33,7 +34,7 @@
 
     <!-- Title -->
     <ng-container matColumnDef="title">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header>Article title</th>
+        <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>Article title</th>
         <td mat-cell *matCellDef="let element">
             <ng-template [ngIf]="element.sourceUrl" [ngIfElse]="text">
                 <a [href]="element.sourceUrl">
@@ -48,7 +49,7 @@
 
     <!-- Publication -->
     <ng-container matColumnDef="publication">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>
             <strong> Source </strong>
         </th>
         <td mat-cell *matCellDef="let element">{{ element.publication }}</td>
@@ -56,13 +57,13 @@
 
     <!-- Author -->
     <ng-container matColumnDef="author">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header>Author</th>
+        <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>Author</th>
         <td mat-cell *matCellDef="let element">{{ element.author }}</td>
     </ng-container>
 
     <!-- pdfLink -->
     <ng-container matColumnDef="pdfLink">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header>PDF</th>
+        <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>PDF</th>
         <td mat-cell *matCellDef="let element">
             <a [href]="element.pdfLink" download>
                 <img src="../../../../assets/icons/ico-pdf-download.svg" alt="Download pdf" width="40px" height="40px">
