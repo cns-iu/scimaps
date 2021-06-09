@@ -1,6 +1,10 @@
 @use 'screen';
 
 :host {
+  .header {
+    color: #757575;
+  }
+
   .search-form {
     display: flex;
     flex-direction: row;
