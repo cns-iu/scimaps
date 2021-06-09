@@ -71,7 +71,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
     this.searchForm = this.fb.group({
       year: this.fb.control(''),
       search: this.fb.control('')
-    })
+    });
   }
 
   /**
@@ -93,7 +93,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
       })
     ).subscribe((searchKey: string) => {
       const year = this.searchForm.get('year')?.value;
-      this.filterData({year, searchKey});
+      this.filterData({ year, searchKey });
     });
 
     // Initalize listener for year dropdown change
@@ -106,7 +106,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
     ).subscribe((year: string) => {
       let searchKey = this.searchForm.get('search')?.value;
       searchKey = searchKey.trim().toLowerCase();
-      this.filterData({searchKey, year});
+      this.filterData({ searchKey, year });
     });
   }
 
@@ -131,14 +131,14 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
 
   sort(criteria: 'date' | 'publication' | 'title', order: 'asc' | 'desc'): void {
     this.displayedNewsItems = [...this.displayedNewsItems].sort(this.compareValues(criteria, order));
-    
-    if (criteria == 'date') {
+
+    if (criteria === 'date') {
       this.dateOrder = order;
     }
-    if (criteria == 'publication') {
+    if (criteria === 'publication') {
       this.publicationOrder = order;
     }
-    if (criteria == 'title') {
+    if (criteria === 'title') {
       this.titleOrder = order;
     }
   }
@@ -179,7 +179,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
             item.publication.toLowerCase().includes(filter.searchKey));
       }
       return result;
-    }
+    };
     this.displayedNewsItems = [...this.newsItems].filter(predicateFilter);
   }
 
@@ -198,7 +198,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
     return (this.displayedNewsItems.length > 6) ? true : false;
   }
 
-  ngOnDestroy() {
+  ngOnDestroy(): void {
     if (this.yearChangeSubscription) {
       this.yearChangeSubscription.unsubscribe();
     }
