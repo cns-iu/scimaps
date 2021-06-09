@@ -1,29 +1,23 @@
 <h2 class="header">In the news</h2>
 <div class="filter-header">
-  
 
-<!-- FormGroup -->
-<form [formGroup]="searchForm" class="search-form">
-  <mat-form-field class="input-year">
+
+  <!-- FormGroup -->
+  <form [formGroup]="searchForm" class="search-form">
+    <mat-form-field class="input-year">
       <mat-label>Year</mat-label>
       <mat-select formControlName="year">
-          <mat-option value="">
-              All
-          </mat-option>
-          <mat-option *ngFor="let year of yearList" [value]="year">
-              {{year}}
-          </mat-option>
+        <mat-option value="">
+          All
+        </mat-option>
+        <mat-option *ngFor="let year of yearList" [value]="year">
+          {{year}}
+        </mat-option>
       </mat-select>
-  </mat-form-field>
-  
-  <mat-form-field class="input-search">
-      <mat-icon aria-hidden="false" aria-label="search" matSuffix>search</mat-icon>
-      <input matInput formControlName="search" placeholder="Type search" #input />
-  </mat-form-field>
-</form>
+    </mat-form-field>
 
-  <div class="sort-filters">
-    <!-- <div class="sort date" (click)="sort('date')">
+    <div class="sort-filters">
+      <!-- <div class="sort date" (click)="sort('date')">
       <div>Date</div>
       <mat-icon [class.reversed]="dateOrder === 'desc'">filter_list</mat-icon>
     </div>
@@ -35,12 +29,19 @@
       <div>Publication</div>
       <mat-icon [class.reversed]="publicationOrder === 'asc'">filter_list</mat-icon>
     </div> -->
-    <div class="sort publication" (click)="toggleSort('publication')">
-      <div>Source</div>
-      <mat-icon [class.reversed]="publicationOrder === 'asc'">arrow_downward</mat-icon>
+      <div class="sort publication" (click)="toggleSort('publication')">
+        <div>Source</div>
+        <mat-icon [class.reversed]="publicationOrder === 'asc'">arrow_downward</mat-icon>
+      </div>
     </div>
-    
-  </div>
+
+    <mat-form-field class="input-search">
+      <mat-icon aria-hidden="false" aria-label="search" matSuffix>search</mat-icon>
+      <input matInput formControlName="search" placeholder="Type search" #input />
+    </mat-form-field>
+  </form>
+
+
 </div>
 
 <div class="news-item-list">

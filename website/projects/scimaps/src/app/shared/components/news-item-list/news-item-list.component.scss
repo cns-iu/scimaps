@@ -5,12 +5,34 @@
   .search-form {
     display: flex;
     flex-direction: row;
+    padding: 0.5rem;
+    width: 100%;
+
+    // @include screen.breakpoint(mobile) {
+    //   flex-direction: column;
+    // }
+  
+    .input-year {
+      max-width: 4rem;
+      margin-right: 3rem;
+    }
+    
+    .input-search {
+      max-width: 10rem;
+      margin-left: auto;
+      // @include screen.breakpoint(mobile) {
+      //   margin-left: 0;
+      // }
+      input {
+        color: #212121;
+      }
+    }
   }
 
   .filter-header {
     display: flex;
     align-items: center;
-    margin-left: 0.5rem;
+    // margin-left: 0.5rem;
 
     @include screen.breakpoint(mobile) {
       flex-direction: column;
