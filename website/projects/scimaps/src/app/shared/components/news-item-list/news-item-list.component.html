@@ -36,17 +36,17 @@
     </div>
 
     <div class="search-overlay">
-      <mat-form-field class="input-search" *ngIf="isSearchOpen">
-        <!-- <mat-icon aria-hidden="false" aria-label="search" matSuffix>search</mat-icon> -->
-        <input matInput formControlName="search" placeholder="Type search" #input />
-      </mat-form-field>
+      <div class="input-search" [@isSearchOpenTrigger] *ngIf="isSearchOpen">
+        <mat-form-field>
+          <input matInput formControlName="search" placeholder="Type search" #input />
+        </mat-form-field>  
+      </div>
       <div class="search-icon">
-        <mat-icon aria-hidden="false" aria-label="search" (click)="isSearchOpen = !isSearchOpen; input?.nativeElement.focus()">search</mat-icon>
+        <mat-icon *ngIf="!isSearchOpen" aria-hidden="false" aria-label="search" (click)="isSearchOpen = true">search</mat-icon>
+        <mat-icon *ngIf="isSearchOpen" aria-hidden="false" aria-label="search" (click)="isSearchOpen = false">close</mat-icon>
       </div>
     </div>
   </form>
-
-
 </div>
 
 <div class="news-item-list">
