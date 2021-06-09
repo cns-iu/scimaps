@@ -165,8 +165,8 @@ collections:
       - { name: title, label: Title }
       - { name: source, label: Source }
       - { name: sourceUrl, label: Source URL }
-      - { name: pdfLink, label: PDF Link }
-      - { name: image, label: Image, widget: image }
+      - { name: pdfLink, label: PDF Link, widget: file }
+      - { name: image, label: Image, widget: image, required: false }
       - { name: body, label: Body, widget: markdown }
 
   - name: gallery
