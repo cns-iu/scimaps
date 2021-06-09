@@ -15,24 +15,24 @@
 
     <div class="body">
       <!-- Title -->
-      <div class="title">
+      <div class="text">
         <!-- Link -->
         <ng-template [ngIf]="item.sourceUrl" [ngIfElse]="text">
           <div class="link">
             <a [href]="item.sourceUrl" target="_blank" rel="noopener noreferrer">
-              {{ item.title }}
+              {{item.title}}
             </a>
           </div>
         </ng-template>
         <!-- Title -->
         <ng-template #text>
           <div class="title">
-            {{ item.title }}
+            {{item.title}}
           </div>
         </ng-template>
       </div>
       <div class="identifier">
-        {{ item.publication }} {{ item.institution ? 'at' + item.institution : '' }}
+        {{item.publication}} {{item.institution ? 'at ' + item.institution : '' }}
       </div>
     </div>
   </div>

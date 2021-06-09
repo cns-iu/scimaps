@@ -55,21 +55,23 @@
         padding: 1rem;
         height: 72px;
 
-        .title {
-          font-size: 1rem;
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-        }
-
-        .link {
-          font-size: 1rem;
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          a {
-            text-decoration: none;
-            color: #8DC63F;
+        .text {
+          .title {
+            font-size: 1rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
+  
+          .link {
+            font-size: 1rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            
+            a {
+              text-decoration: none;
+            }
           }
         }
 
