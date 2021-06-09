@@ -49,7 +49,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
    * Whether all items should be displayed
    */
   showAllItems = false;
-
+  isSearchOpen = false;
 
   searchForm: FormGroup;
   yearChangeSubscription: Subscription | undefined;

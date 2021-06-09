@@ -1,7 +1,6 @@
 @use 'screen';
 
 :host {
-
   .search-form {
     display: flex;
     flex-direction: row;
@@ -11,20 +10,31 @@
     // @include screen.breakpoint(mobile) {
     //   flex-direction: column;
     // }
-  
+
     .input-year {
       max-width: 4rem;
       margin-right: 3rem;
     }
-    
-    .input-search {
-      max-width: 10rem;
+
+    .search-overlay {
       margin-left: auto;
-      // @include screen.breakpoint(mobile) {
-      //   margin-left: 0;
-      // }
-      input {
-        color: #212121;
+      display: flex;
+      flex-direction: row;
+      .input-search {
+        max-width: 10rem;
+        // margin-left: auto;
+        // @include screen.breakpoint(mobile) {
+        //   margin-left: 0;
+        // }
+        input {
+          color: #212121;
+        }
+      }
+
+      .search-icon {
+        user-select: none;
+        margin: auto 0;
+        cursor: pointer;
       }
     }
   }
@@ -105,6 +115,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 2rem;
+    justify-content: space-between;
 
     .news-item {
       width: 33%;
