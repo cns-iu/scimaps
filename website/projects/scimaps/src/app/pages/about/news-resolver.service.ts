@@ -49,10 +49,14 @@ export class NewsResolverService {
         return items.map((item: Params) => {
           const newsItem: NewsItem = this.toNewsItem(item);
           newsItem.thumbnail = this.getSourceLink(newsItem);
-          newsItem.pdfLink = this.getSourceLink(newsItem, 'pdfLink');
+          if (newsItem.pdfLink) {
+            if (!newsItem.pdfLink.startsWith('http://') && !newsItem.pdfLink.startsWith('https://')) {
+              newsItem.pdfLink = this.getSourceLink(newsItem, 'pdfLink');
+            }
+          }
           return newsItem;
         });
       })
     );
   }
- }
+}
