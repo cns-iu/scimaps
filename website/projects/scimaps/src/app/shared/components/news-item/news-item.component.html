@@ -1,4 +1,4 @@
-<a class="news-item" [href]="item.pdfLink">
+<div class="news-item">
   <!-- <img class="thumb" [src]="item.thumbnail" alt="image thumbnail"> -->
   <div class="info">
 
@@ -19,7 +19,7 @@
         <!-- Link -->
         <ng-template [ngIf]="item.sourceUrl" [ngIfElse]="text">
           <div class="link">
-            <a [href]="item.sourceUrl">
+            <a [href]="item.sourceUrl" target="_blank" rel="noopener noreferrer">
               {{ item.title }}
             </a>
           </div>
@@ -36,4 +36,4 @@
       </div>
     </div>
   </div>
-</a>
+</div>
