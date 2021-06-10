@@ -95,4 +95,15 @@ describe('NewsResolverService', () => {
       done();
     });
   });
+  
+  it('When pdfLink is httpURL', async (done) => {
+    testItem.pdfLink = 'https://abc.com/sample.pdf';
+    (contentService.getIndex as jasmine.Spy).and.returnValue(of([testItem]));
+    const result = service.resolve();
+    result.subscribe((newsItems: NewsItem[]) => {
+      const newsItem = newsItems[0];
+      expect(newsItem.pdfLink).toEqual(testItem.pdfLink);
+      done();
+    });
+  });
 });
