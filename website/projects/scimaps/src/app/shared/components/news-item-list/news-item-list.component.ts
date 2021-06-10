@@ -1,4 +1,5 @@
-import { Component, HostBinding, Input, OnDestroy, OnInit } from '@angular/core';
+import { animate, AnimationEvent, state, style, transition, trigger } from '@angular/animations';
+import { Component, ElementRef, HostBinding, Input, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
@@ -12,7 +13,30 @@ import { NewsItem } from '../news-item/news-item.model';
 @Component({
   selector: 'sci-news-item-list',
   templateUrl: './news-item-list.component.html',
-  styleUrls: ['./news-item-list.component.scss']
+  styleUrls: ['./news-item-list.component.scss'],
+  animations: [
+    trigger('isSearchOpenTrigger', [
+      transition(':enter', [
+        style({
+          opacity: 0,
+          transform: 'translateX(25%)'
+        }),
+        animate('300ms ease-in', style({
+          opacity: 1,
+          transform: 'translateX(0%)'
+        }))
+      ]),
+      transition(':leave', [
+        style({
+          opacity: 1
+        }),
+        animate('300ms ease-out', style({
+          opacity: 0,
+          transform: 'translateX(25%)'
+        }))
+      ]),
+    ])
+  ]
 })
 export class NewsItemListComponent implements OnInit, OnDestroy {
   /**
@@ -24,6 +48,8 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
    * All news items
    */
   @Input() newsItems: NewsItem[] = [];
+
+  @ViewChild('input') input: ElementRef | undefined;
 
   /**
    * News items to be displayed
@@ -204,6 +230,15 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
     }
     if (this.searchChangeSubscription) {
       this.searchChangeSubscription.unsubscribe();
+    }
+  }
+
+
+  afterAnimation(event: AnimationEvent): void {
+    console.log(event);
+    if (event.fromState === 'void') {
+      // const searchControl = this.searchForm.get('search');
+      this.input?.nativeElement.focus();
     }
   }
 }
