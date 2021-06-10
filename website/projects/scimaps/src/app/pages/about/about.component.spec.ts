@@ -38,7 +38,7 @@ const testNewsItems = [{
   institution: 'test institution',
   thumbnail: 'test thumb',
   pdfLink: 'link'
-}]
+}];
 
 describe('AboutComponent', () => {
   let shallow: Shallow<AboutComponent>;
