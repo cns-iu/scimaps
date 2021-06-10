@@ -1,4 +1,4 @@
-import { animate, AnimationEvent, state, style, transition, trigger } from '@angular/animations';
+import { animate, AnimationEvent, style, transition, trigger } from '@angular/animations';
 import { Component, ElementRef, HostBinding, Input, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { of, Subscription } from 'rxjs';
