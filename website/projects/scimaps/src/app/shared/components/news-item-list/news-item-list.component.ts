@@ -76,6 +76,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
    */
   showAllItems = false;
   isSearchOpen = false;
+  displayLimit = 6;
 
   searchForm: FormGroup;
   yearChangeSubscription: Subscription | undefined;
@@ -161,10 +162,10 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
     if (criteria === 'date') {
       this.dateOrder = order;
     }
-    if (criteria === 'publication') {
+    else if (criteria === 'publication') {
       this.publicationOrder = order;
     }
-    if (criteria === 'title') {
+    else if (criteria === 'title') {
       this.titleOrder = order;
     }
   }
@@ -221,7 +222,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
    * @returns true if there are 4 or fewer items displayed
    */
   needShowMoreButton(): boolean {
-    return (this.displayedNewsItems.length > 6) ? true : false;
+    return (this.displayedNewsItems.length > this.displayLimit) ? true : false;
   }
 
   ngOnDestroy(): void {
@@ -234,8 +235,8 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
   }
 
 
+  // After Animation hook
   afterAnimation(event: AnimationEvent): void {
-    console.log(event);
     if (event.fromState === 'void') {
       // const searchControl = this.searchForm.get('search');
       this.input?.nativeElement.focus();

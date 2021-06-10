@@ -52,6 +52,14 @@ const testItems: NewsItem[] = [
     institution: 'test institution',
     thumbnail: 'test thumb',
     pdfLink: 'link'
+  },
+  {
+    title: 'Title 7',
+    date: new Date(2006, 1, 1),
+    publication: 'G',
+    institution: 'test institution',
+    thumbnail: 'test thumb',
+    pdfLink: 'link'
   }
 ];
 
@@ -90,5 +98,24 @@ describe('NewsItemListComponent', () => {
     const { instance } = await shallow.render({ bind: { newsItems: testItems } });
     instance.filterData({year: '', searchKey: ''});
     expect(instance.displayedNewsItems).toEqual(instance.newsItems);
+  });
+
+  it('initial show all items should be false', async () => {
+    const { instance } = await shallow.render({ bind: { newsItems: testItems } });
+    instance.filterData({year: '', searchKey: ''});
+    expect(instance.showAllItems).toEqual(false);
+  });
+
+  it('should display show more button when entries > displayLimit', async () => {
+    const { instance, find } = await shallow.render({ bind: { newsItems: testItems } });
+    instance.filterData({year: '', searchKey: ''});
+    const el = find('.show-more').nativeElement as Element;
+    expect(el.innerHTML).toContain('Show More');
+  });
+
+  it('show all items should be true after clicking showMore', async () => {
+    const { instance } = await shallow.render({ bind: { newsItems: testItems } });
+    instance.filterData({year: '', searchKey: ''});
+    expect(instance.showAllItems).toEqual(false);
   });
 });

@@ -51,7 +51,7 @@
 
 <div class="news-item-list">
   <div *ngFor="let item of displayedNewsItems; let i = index" class="news-item">
-    <sci-news-item *ngIf="showAllItems || i < 6" [item]="item"></sci-news-item>
+    <sci-news-item *ngIf="showAllItems || i < displayLimit" [item]="item"></sci-news-item>
   </div>
   <div class="show-more" *ngIf="needShowMoreButton()" (click)="this.showAllItems = !this.showAllItems">
     {{ showButtonText }}
