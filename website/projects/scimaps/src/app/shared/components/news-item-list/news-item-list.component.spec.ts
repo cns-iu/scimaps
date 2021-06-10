@@ -70,11 +70,18 @@ describe('NewsItemListComponent', () => {
     shallow = new Shallow(NewsItemListComponent, NewsItemListModule);
   });
 
-  // it('sorts displayed news items by title', async () => {
-  //   const { instance } = await shallow.render({ bind: { newsItems: testItems } });
-  //   instance.sort('title', 'asc');
-  //   expect(instance.displayedNewsItems[2].title).toBe('Title 4');
-  // });
+  it('sorts displayed news items by title', async () => {
+    const { instance } = await shallow.render({ bind: { newsItems: testItems } });
+    instance.sort('title', 'asc');
+    expect(instance.displayedNewsItems[2].title).toBe('Title 3');
+  });
+
+  it('should toggle sort with date', async () => {
+    const { instance } = await shallow.render({ bind: { newsItems: testItems } });
+    instance.sort('title', 'asc');
+    instance.toggleSort('title');
+    expect(instance.displayedNewsItems[0].title).toBe('Title 7');
+  });
 
   it('sorts displayed news items by publication', async () => {
     const { instance } = await shallow.render({ bind: { newsItems: testItems } });
@@ -82,15 +89,35 @@ describe('NewsItemListComponent', () => {
     expect(instance.displayedNewsItems[2].publication).toBe('C');
   });
 
-  // it('sorts displayed news items by date', async () => {
-  //   const { instance } = await shallow.render({ bind: { newsItems: testItems } });
-  //   instance.sort('date', 'asc');
-  //   expect(instance.displayedNewsItems[2].date).toEqual(new Date(2002, 1, 1));
-  // });
+  it('it should toggle sort with publication', async () => {
+    const { instance } = await shallow.render({ bind: { newsItems: testItems } });
+    instance.sort('publication', 'asc');
+    instance.toggleSort('publication');
+    expect(instance.displayedNewsItems[0].publication).toBe('G');
+  });
+
+  it('sorts displayed news items by date', async () => {
+    const { instance } = await shallow.render({ bind: { newsItems: testItems } });
+    instance.sort('date', 'asc');
+    expect(instance.displayedNewsItems[2].date).toEqual(new Date(2002, 1, 1));
+  });
+
+  it('it should toggle sort with date', async () => {
+    const { instance } = await shallow.render({ bind: { newsItems: testItems } });
+    instance.sort('date', 'asc');
+    instance.toggleSort('date');
+    expect(instance.displayedNewsItems[0].date).toEqual(new Date(2006, 1, 1));
+  });
 
   it('filters the news items by a selected year', async () => {
     const { instance } = await shallow.render({ bind: { newsItems: testItems } });
     instance.filterData({year: '2005', searchKey: ''});
+    expect(instance.displayedNewsItems[0].title).toBe('Title 3');
+  });
+
+  it('filters the news items by search Key', async () => {
+    const { instance } = await shallow.render({ bind: { newsItems: testItems } });
+    instance.filterData({year: '', searchKey: '3'});
     expect(instance.displayedNewsItems[0].title).toBe('Title 3');
   });
 
@@ -111,11 +138,5 @@ describe('NewsItemListComponent', () => {
     instance.filterData({year: '', searchKey: ''});
     const el = find('.show-more').nativeElement as Element;
     expect(el.innerHTML).toContain('Show More');
-  });
-
-  it('show all items should be true after clicking showMore', async () => {
-    const { instance } = await shallow.render({ bind: { newsItems: testItems } });
-    instance.filterData({year: '', searchKey: ''});
-    expect(instance.showAllItems).toEqual(false);
   });
 });

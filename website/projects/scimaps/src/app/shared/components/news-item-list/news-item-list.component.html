@@ -17,18 +17,6 @@
     </mat-form-field>
 
     <div class="sort-filters">
-      <!-- <div class="sort date" (click)="sort('date')">
-      <div>Date</div>
-      <mat-icon [class.reversed]="dateOrder === 'desc'">filter_list</mat-icon>
-    </div>
-    <div class="sort title" (click)="sort('title')">
-      <div>Title</div>
-      <mat-icon [class.reversed]="titleOrder === 'asc'">filter_list</mat-icon>
-    </div>
-    <div class="sort publication" (click)="sort('publication')">
-      <div>Publication</div>
-      <mat-icon [class.reversed]="publicationOrder === 'asc'">filter_list</mat-icon>
-    </div> -->
       <div class="sort publication" (click)="toggleSort('publication')">
         <div>Source</div>
         <mat-icon [class.reversed]="publicationOrder === 'asc'">arrow_downward</mat-icon>
@@ -38,7 +26,7 @@
     <div class="search-overlay">
       <div class="input-search" [@isSearchOpenTrigger] *ngIf="isSearchOpen" (@isSearchOpenTrigger.done)="afterAnimation($event)">
         <mat-form-field>
-          <input matInput formControlName="search" placeholder="Type search" #input />
+          <input matInput formControlName="search" placeholder="Type search" #searchInput />
         </mat-form-field>  
       </div>
       <div class="search-icon">

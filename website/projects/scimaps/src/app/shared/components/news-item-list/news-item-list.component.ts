@@ -6,7 +6,7 @@ import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operato
 
 import { NewsItem } from '../news-item/news-item.model';
 
-
+type SortColumn = 'publication' | 'date' | 'title';
 /**
  * Component for displaying news items
  */
@@ -49,7 +49,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
    */
   @Input() newsItems: NewsItem[] = [];
 
-  @ViewChild('input') input: ElementRef | undefined;
+  @ViewChild('searchInput') searchInput: ElementRef | undefined;
 
   /**
    * News items to be displayed
@@ -141,7 +141,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
    * Sorts displayed news items according to criteria
    * @param criteria Criteria to be sorted by
    */
-  toggleSort(criteria: 'date' | 'publication' | 'title'): void {
+  toggleSort(criteria: SortColumn): void {
     let order: 'asc' | 'desc';
     if (criteria === 'publication') {
       this.publicationOrder = this.publicationOrder === 'asc' ? 'desc' : 'asc';
@@ -156,7 +156,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
     this.sort(criteria, order);
   }
 
-  sort(criteria: 'date' | 'publication' | 'title', order: 'asc' | 'desc'): void {
+  sort(criteria: SortColumn, order: 'asc' | 'desc'): void {
     this.displayedNewsItems = [...this.displayedNewsItems].sort(this.compareValues(criteria, order));
 
     if (criteria === 'date') {
@@ -176,7 +176,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
    * @param order order to compare
    * @returns 1 if a[key] is greater than b[key], -1 if less (opposite for descending). 0 if equal.
    */
-  compareValues(key: 'date' | 'publication' | 'title', order: string): (a: NewsItem, b: NewsItem) => number {
+  compareValues(key: SortColumn, order: string): (a: NewsItem, b: NewsItem) => number {
     return (a, b) => {
       let comparison;
       if (key === 'date') {
@@ -225,21 +225,21 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
     return (this.displayedNewsItems.length > this.displayLimit) ? true : false;
   }
 
+  // After Animation hook
+  afterAnimation(event: AnimationEvent): void {
+    if (event.fromState === 'void') {
+      if (this.searchInput) {
+        this.searchInput.nativeElement.focus();
+      }
+    }
+  }
+
   ngOnDestroy(): void {
     if (this.yearChangeSubscription) {
       this.yearChangeSubscription.unsubscribe();
     }
     if (this.searchChangeSubscription) {
       this.searchChangeSubscription.unsubscribe();
-    }
-  }
-
-
-  // After Animation hook
-  afterAnimation(event: AnimationEvent): void {
-    if (event.fromState === 'void') {
-      // const searchControl = this.searchForm.get('search');
-      this.input?.nativeElement.focus();
     }
   }
 }

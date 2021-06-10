@@ -23,6 +23,23 @@ export function getProfiles(numberOfProfiles: number, roles = ['maker']): Profil
   return profiles;
 }
 
+const testNewsItems = [{
+  title: 'Title 3',
+  date: new Date(2005, 1, 1),
+  publication: 'C',
+  institution: 'test institution',
+  thumbnail: 'test thumb',
+  pdfLink: 'link'
+},
+{
+  title: 'Title 7',
+  date: new Date(2006, 1, 1),
+  publication: 'G',
+  institution: 'test institution',
+  thumbnail: 'test thumb',
+  pdfLink: 'link'
+}]
+
 describe('AboutComponent', () => {
   let shallow: Shallow<AboutComponent>;
   const curatorProfiles = getProfiles(10, ['curator']);
@@ -42,7 +59,8 @@ describe('AboutComponent', () => {
           profiles: testProfiles,
           body: {
             ...testBody
-          }
+          },
+          newsItems: testNewsItems
         })
       });
   });
@@ -89,5 +107,10 @@ describe('AboutComponent', () => {
   it('should have correct ambassadors profiles', async () => {
     const { instance } = await shallow.render();
     expect(instance.ambassadorProfiles).toEqual(ambassadorProfiles);
+  });
+
+  it('should have correct ambassadors profiles', async () => {
+    const { instance } = await shallow.render();
+    expect(instance.newsItems).toEqual(testNewsItems);
   });
 });

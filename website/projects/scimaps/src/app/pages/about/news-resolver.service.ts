@@ -31,7 +31,7 @@ export class NewsResolverService {
 
   // Mapper
   toNewsItem(newsItem: Params): NewsItem {
-    const result: NewsItem = {
+    return {
       title: newsItem.title,
       date: newsItem.date,
       publication: newsItem.source,
@@ -39,7 +39,6 @@ export class NewsResolverService {
       pdfLink: newsItem.pdfLink,
       sourceUrl: newsItem.sourceUrl
     };
-    return result;
   }
 
   resolve(): Observable<NewsItem[]> | Observable<never> {
