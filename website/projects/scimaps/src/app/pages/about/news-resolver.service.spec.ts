@@ -95,7 +95,7 @@ describe('NewsResolverService', () => {
       done();
     });
   });
-  
+
   it('When pdfLink is httpURL', async (done) => {
     testItem.pdfLink = 'https://abc.com/sample.pdf';
     (contentService.getIndex as jasmine.Spy).and.returnValue(of([testItem]));

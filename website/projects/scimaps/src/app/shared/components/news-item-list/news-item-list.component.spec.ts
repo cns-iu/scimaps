@@ -148,7 +148,7 @@ describe('NewsItemListComponent', () => {
 
 
 
-describe("NewsItemListComponenet with TestBed", () => {
+describe('NewsItemListComponenet with TestBed', () => {
   let component: NewsItemListComponent;
   let fixture: ComponentFixture<NewsItemListComponent>;
   let el: DebugElement;
@@ -198,5 +198,4 @@ describe("NewsItemListComponenet with TestBed", () => {
       fail();
     }})
   );
-
 });
