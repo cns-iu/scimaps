@@ -3,7 +3,7 @@ import { Shallow } from 'shallow-render';
 import { NewsItemListComponent } from './news-item-list.component';
 import { NewsItem } from '../news-item/news-item.model';
 import { NewsItemListModule } from './news-item-list.module';
-import { ComponentFixture, fakeAsync, flushMicrotasks, TestBed } from '@angular/core/testing';
+import { ComponentFixture, fakeAsync, flush, flushMicrotasks, TestBed, waitForAsync } from '@angular/core/testing';
 import { DebugElement } from '@angular/core';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { By } from '@angular/platform-browser';
@@ -172,7 +172,7 @@ describe('NewsItemListComponenet with TestBed', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should isSearchOpen be true when search icon is clicked', fakeAsync(() => {
+  it('should set isSearchOpen to true, when search icon is clicked', fakeAsync(() => {
     const icon = el.query(By.css('.search-icon'));
     if (icon) {
       icon.triggerEventHandler('click', {});
@@ -181,21 +181,48 @@ describe('NewsItemListComponenet with TestBed', () => {
       expect(component.isSearchOpen).toBeTruthy();
     } else {
       fail();
-    }})
+    }
+  })
   );
 
-  it('should isSearchOpen should close when icon is clicked again', fakeAsync(() => {
+  it('should set isSearchOpen false, when icon is clicked again', fakeAsync(() => {
+    component.isSearchOpen = true;
+    fixture.detectChanges();
+    flushMicrotasks();
     const icon = el.query(By.css('.search-icon'));
     if (icon) {
-      icon.triggerEventHandler('click', {});
-      fixture.detectChanges();
-      flushMicrotasks();
       icon.triggerEventHandler('click', {});
       fixture.detectChanges();
       flushMicrotasks();
       expect(component.isSearchOpen).toBeFalse();
     } else {
       fail();
-    }})
+    }
+  })
   );
+
+  it('should set correct search value', waitForAsync(() => {
+    component.isSearchOpen = true;
+    component.newsItems = testItems;
+    fixture.detectChanges();
+    component.searchForm.controls.search.setValue('3');
+    fixture.detectChanges();
+    fixture.whenStable().then(() => {
+      expect(component.searchChangeSubscription).toBeTruthy();
+      expect(component.searchInput?.nativeElement.value).toEqual('3');
+    });
+  })
+  );
+
+  it('should set correct year value', waitForAsync(() => {
+    component.isSearchOpen = true;
+    component.newsItems = testItems;
+    fixture.detectChanges();
+    component.searchForm.controls.year.setValue('2005');
+    fixture.detectChanges();
+    fixture.whenStable().then(() => {
+      expect(component.yearChangeSubscription).toBeTruthy();
+      expect(component.searchForm.controls.year.value).toEqual('2005');
+    });
+  }));
 });
