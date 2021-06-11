@@ -3,6 +3,11 @@ import { Shallow } from 'shallow-render';
 import { NewsItemListComponent } from './news-item-list.component';
 import { NewsItem } from '../news-item/news-item.model';
 import { NewsItemListModule } from './news-item-list.module';
+import { ComponentFixture, fakeAsync, flush, flushMicrotasks, TestBed } from '@angular/core/testing';
+import { DebugElement } from '@angular/core';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { By } from '@angular/platform-browser';
+
 
 const testItems: NewsItem[] = [
   {
@@ -76,7 +81,7 @@ describe('NewsItemListComponent', () => {
     expect(instance.displayedNewsItems[2].title).toBe('Title 3');
   });
 
-  it('should toggle sort with date', async () => {
+  it('should toggle sort with title', async () => {
     const { instance } = await shallow.render({ bind: { newsItems: testItems } });
     instance.sort('title', 'asc');
     instance.toggleSort('title');
@@ -111,32 +116,87 @@ describe('NewsItemListComponent', () => {
 
   it('filters the news items by a selected year', async () => {
     const { instance } = await shallow.render({ bind: { newsItems: testItems } });
-    instance.filterData({year: '2005', searchKey: ''});
+    instance.filterData({ year: '2005', searchKey: '' });
     expect(instance.displayedNewsItems[0].title).toBe('Title 3');
   });
 
   it('filters the news items by search Key', async () => {
     const { instance } = await shallow.render({ bind: { newsItems: testItems } });
-    instance.filterData({year: '', searchKey: '3'});
+    instance.filterData({ year: '', searchKey: '3' });
     expect(instance.displayedNewsItems[0].title).toBe('Title 3');
   });
 
   it('removes the year filter if All selected', async () => {
     const { instance } = await shallow.render({ bind: { newsItems: testItems } });
-    instance.filterData({year: '', searchKey: ''});
+    instance.filterData({ year: '', searchKey: '' });
     expect(instance.displayedNewsItems).toEqual(instance.newsItems);
   });
 
   it('initial show all items should be false', async () => {
     const { instance } = await shallow.render({ bind: { newsItems: testItems } });
-    instance.filterData({year: '', searchKey: ''});
+    instance.filterData({ year: '', searchKey: '' });
     expect(instance.showAllItems).toEqual(false);
   });
 
   it('should display show more button when entries > displayLimit', async () => {
     const { instance, find } = await shallow.render({ bind: { newsItems: testItems } });
-    instance.filterData({year: '', searchKey: ''});
+    instance.filterData({ year: '', searchKey: '' });
     const el = find('.show-more').nativeElement as Element;
     expect(el.innerHTML).toContain('Show More');
   });
+});
+
+
+
+describe("NewsItemListComponenet with TestBed", () => {
+  let component: NewsItemListComponent;
+  let fixture: ComponentFixture<NewsItemListComponent>;
+  let el: DebugElement;
+
+  beforeEach(async () => {
+
+    TestBed.configureTestingModule({
+      imports: [
+        NewsItemListModule,
+        NoopAnimationsModule
+      ]
+    }).compileComponents().then(() => {
+      fixture = TestBed.createComponent(NewsItemListComponent);
+      component = fixture.componentInstance;
+      el = fixture.debugElement;
+    });
+
+  });
+
+  it('should create component', () => {
+    expect(component).toBeTruthy();
+  });
+
+  it('should isSearchOpen be true when search icon is clicked', fakeAsync(() => {
+    const icon = el.query(By.css('.search-icon'));
+    if (icon) {
+      icon.triggerEventHandler('click', {});
+      fixture.detectChanges();
+      flush();
+      expect(component.isSearchOpen).toBeTruthy();
+    } else {
+      fail();
+    }})
+  );
+
+  it('should isSearchOpen should close when icon is clicked again', fakeAsync(() => {
+    const icon = el.query(By.css('.search-icon'));
+    if (icon) {
+      icon.triggerEventHandler('click', {});
+      fixture.detectChanges();
+      flush();
+      icon.triggerEventHandler('click', {});
+      fixture.detectChanges();
+      flush();
+      expect(component.isSearchOpen).toBeFalse();
+    } else {
+      fail();
+    }})
+  );
+
 });

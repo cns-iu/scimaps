@@ -29,9 +29,9 @@
           <input matInput formControlName="search" placeholder="Type search" #searchInput />
         </mat-form-field>  
       </div>
-      <div class="search-icon">
-        <mat-icon *ngIf="!isSearchOpen" aria-hidden="false" aria-label="search" (click)="isSearchOpen = true">search</mat-icon>
-        <mat-icon *ngIf="isSearchOpen" aria-hidden="false" aria-label="search" (click)="isSearchOpen = false">close</mat-icon>
+      <div class="search-icon" (click)="isSearchOpen = ! isSearchOpen">
+        <mat-icon *ngIf="!isSearchOpen" aria-hidden="false" aria-label="search">search</mat-icon>
+        <mat-icon *ngIf="isSearchOpen" aria-hidden="false" aria-label="search">close</mat-icon>
       </div>
     </div>
   </form>
