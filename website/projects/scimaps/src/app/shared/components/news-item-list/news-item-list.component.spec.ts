@@ -3,7 +3,7 @@ import { Shallow } from 'shallow-render';
 import { NewsItemListComponent } from './news-item-list.component';
 import { NewsItem } from '../news-item/news-item.model';
 import { NewsItemListModule } from './news-item-list.module';
-import { ComponentFixture, fakeAsync, flush, flushMicrotasks, TestBed } from '@angular/core/testing';
+import { ComponentFixture, fakeAsync, flushMicrotasks, TestBed } from '@angular/core/testing';
 import { DebugElement } from '@angular/core';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { By } from '@angular/platform-browser';
@@ -177,7 +177,7 @@ describe('NewsItemListComponenet with TestBed', () => {
     if (icon) {
       icon.triggerEventHandler('click', {});
       fixture.detectChanges();
-      flush();
+      flushMicrotasks();
       expect(component.isSearchOpen).toBeTruthy();
     } else {
       fail();
@@ -189,10 +189,10 @@ describe('NewsItemListComponenet with TestBed', () => {
     if (icon) {
       icon.triggerEventHandler('click', {});
       fixture.detectChanges();
-      flush();
+      flushMicrotasks();
       icon.triggerEventHandler('click', {});
       fixture.detectChanges();
-      flush();
+      flushMicrotasks();
       expect(component.isSearchOpen).toBeFalse();
     } else {
       fail();
