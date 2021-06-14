@@ -8,7 +8,7 @@
     margin: 0.5rem; // 8px
     border-radius: 0.125rem;
     max-height: 8rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.54);
+    border: 1px solid #e0e0e0;
 
     @include screen.breakpoint(mobile) {
       flex-direction: column;
