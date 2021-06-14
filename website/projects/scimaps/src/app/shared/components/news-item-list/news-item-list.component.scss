@@ -121,7 +121,7 @@
     margin-bottom: 2rem;
 
     .news-item {
-      width: 33%;
+      width: 33.33%;
       @include screen.breakpoint(tablet) {
         width: 50%;
       }
@@ -140,8 +140,6 @@
     cursor: pointer;
     user-select: none;
     -moz-user-select: none;
-    border-width: 1px;
-    border-style: solid;
     margin: 2rem 0;
 
     @include screen.breakpoint(mobile) {

@@ -214,7 +214,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
    * Text to be displayed in show more button
    */
   get showButtonText(): string {
-    return (this.showAllItems) ? 'Show Less' : 'Show More';
+    return (this.showAllItems) ? 'Show Less' : 'Show More News';
   }
 
   /**
