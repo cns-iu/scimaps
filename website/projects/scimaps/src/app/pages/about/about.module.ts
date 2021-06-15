@@ -7,6 +7,7 @@ import { ProfileGalleryModule } from '../../shared/components/profile-gallery/pr
 import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.module';
 import { NewsItemListModule } from '../../shared/components/news-item-list/news-item-list.module';
 import { SharedModule } from '../../shared/shared.module';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [AboutComponent],
@@ -16,6 +17,7 @@ import { SharedModule } from '../../shared/shared.module';
     ProfileGalleryModule,
     TabHeaderModule,
     NewsItemListModule,
+    MatSelectModule,
     SharedModule
   ]
 })
