@@ -35,16 +35,9 @@
 <div class="partners">
   <h2 class="header2"> Thanks to the following for their support </h2>
   <div class="logos">
-    <ng-container *ngFor="let partner of partners;let i = index;let even = even;">
-      <div class="row" *ngIf="even">
-        <div class="column1">
-          <img [src]="partner.logo" [alt]="partner.name" (click)="openLink(partners[i+1].link)">
-        </div>
-        <div class="column2">
-          <img *ngIf="(i+1) < partners.length" [src]="partners[i+1].logo" [alt]="partners[i+1].name" (click)="openLink(partners[i+1].link)">
-        </div>
-      </div>
-    </ng-container>
+    <div class="flex-item" *ngFor="let partner of partners;let i = index;let isEven = even;">
+      <img [ngClass]="isEven ? 'right-aligned': 'left-aligned'" [src]="partner.logo" [alt]="partner.name" (click)="openLink(partner.link)">
+    </div>
   </div>
 </div>
  
