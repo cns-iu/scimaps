@@ -1,5 +1,6 @@
-<sci-tab-header class="tab-header" [tabs]="pageTabs" (activeTabIndexChanged)="updateActivePageTab($event)"></sci-tab-header>
 
+<!-- Galary -->
+<sci-tab-header class="tab-header" [tabs]="pageTabs" (activeTabIndexChanged)="updateActivePageTab($event)"></sci-tab-header>
 <ng-template [ngIf]="activePageTab == 0">
     <sci-profile-gallery
     class="profile-gallery"
@@ -26,8 +27,7 @@
   </sci-profile-gallery>  
 </ng-template>
 
-
-
+<!-- News -->
 <sci-news-item-list [newsItems]=newsItems>
 </sci-news-item-list>
 
@@ -35,18 +35,16 @@
 <div class="partners">
   <h2 class="header2"> Thanks to the following for their support </h2>
   <div class="logos">
-    <div class="row">
-      <img src="../../../assets/logos/logo-cns.svg" alt="CNS">
-      <img src="../../../assets/logos/logo-luddy-school.svg" alt="Luddy">
-    </div>
-    <div class="row">
-      <img src="../../../assets/logos/logo-james-s-mcdonnell-foundation.svg" alt="James and Macdonnel foundation">
-      <img src="../../../assets/logos/logo-thomson-reuters.svg" alt="Thomson reuters">
-    </div>
-    <div class="row">
-      <img src="../../../assets/logos/logo-nsf.svg" alt="NSF">
-      <img src="../../../assets/logos/logo-elsevier.svg" alt="Elsevier">
-    </div>
+    <ng-container *ngFor="let partner of partners;let i = index;let even = even;">
+      <div class="row" *ngIf="even">
+        <div class="column1">
+          <img [src]="partner.logo" [alt]="partner.name" (click)="openLink(partners[i+1].link)">
+        </div>
+        <div class="column2">
+          <img *ngIf="(i+1) < partners.length" [src]="partners[i+1].logo" [alt]="partners[i+1].name" (click)="openLink(partners[i+1].link)">
+        </div>
+      </div>
+    </ng-container>
   </div>
 </div>
  

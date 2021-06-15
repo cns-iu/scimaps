@@ -21,7 +21,20 @@
         flex-direction: row;
         justify-content: center;
       }
+      .column1 {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        height: 50px;
+      }
+      .column2 {
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+        height: 50px;
+      }
       img {
+        width: fit-content;
         max-width: 280px;
         max-height: 50px;
         

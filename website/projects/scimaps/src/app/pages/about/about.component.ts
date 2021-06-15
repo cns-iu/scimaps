@@ -25,6 +25,33 @@ export class AboutComponent implements OnInit {
   activePageTab = 0;
   newsItems: NewsItem[] = [];
 
+  partners = [{
+    name: 'CNS',
+    logo: 'assets/logos/logo-cns.svg',
+    link: 'https://cns.iu.edu'
+  }, {
+    name: 'Luddy',
+    logo: 'assets/logos/logo-luddy-school.svg',
+    link: 'https://luddy.indiana.edu/index.html'
+  }, {
+    name: 'McDonnel',
+    logo: 'assets/logos/logo-james-s-mcdonnell-foundation.svg',
+    link: 'https://www.jsmf.org/'
+  }, {
+    name: 'reuters',
+    logo: 'assets/logos/logo-thomson-reuters.svg',
+    link: 'http://thomsonreuters.com/'
+  }, {
+    name: 'NSF',
+    logo: 'assets/logos/logo-nsf.svg',
+    link: 'https://www.nsf.gov/'
+  }, {
+    name: 'elsevier',
+    logo: 'assets/logos/logo-elsevier.svg',
+    link: 'https://www.elsevier.com/'
+  }
+]
+
   ngOnInit(): void {
     this.route.data.subscribe(data => {
       const {profiles, body, newsItems} = data;
@@ -61,5 +88,10 @@ export class AboutComponent implements OnInit {
 
   updateActivePageTab(index: number): void {
     this.activePageTab = index;
+  }
+
+
+  openLink(link: string) {
+    window.open(link, '_blank');
   }
 }
