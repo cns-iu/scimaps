@@ -8,7 +8,31 @@
   .profile-gallery {
     margin-bottom: 2.5rem;
   }
-
+  .intro {
+    .image-container {
+      width: 100%;
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        height: auto;
+      }
+      margin-bottom: 48px;
+    }
+  
+    .description {
+      display: flex;
+      flex-direction: row;
+      div {
+        flex: 1;
+      }
+      .right {
+        padding-left: 2rem;
+      }
+      margin-bottom: 24px;
+    }
+  }
   .reports {
     .row {
       display: flex row;
