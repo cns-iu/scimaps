@@ -48,6 +48,18 @@
         }
         .download {
           // display: inline;
+          border-radius: 100%;
+          align-self: center;
+          width: 36px;
+          height: 36px;
+          &:hover {
+            background-color: #DCE0E2;
+          }
+
+          img {
+            margin-left: 8px;
+            margin-top: 8px;
+          }
         }
       }
       

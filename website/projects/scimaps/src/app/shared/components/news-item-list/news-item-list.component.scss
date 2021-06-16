@@ -95,6 +95,8 @@
 
       .sort {
         display: flex;
+        justify-content: center;
+        align-items: center;
         margin-right: 1.5rem;
         cursor: pointer;
         user-select: none;
@@ -105,12 +107,24 @@
         }
 
         mat-icon {
-          transform: scaleY(-1);
+          width: 36px;
+          height: 36px;
+          border-radius: 100%;
+
+          padding-left: 6px;
+          padding-top: 6px;
+
+          transform: scale(-1);
           margin-left: 0.5rem;
+          color: #7997a3;
+
+          &:hover {
+            background-color: #DCE0E2;
+          }
         }
 
         .reversed {
-          transform: none;
+          transform: scale(1);
         }
       }
     }
