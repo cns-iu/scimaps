@@ -49,8 +49,9 @@ export class AboutComponent implements OnInit {
     name: 'elsevier',
     logo: 'assets/logos/logo-elsevier.svg',
     link: 'https://www.elsevier.com/'
-  }
-]
+  }];
+
+  annualReportYears: string[] = ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019'];
 
   ngOnInit(): void {
     this.route.data.subscribe(data => {

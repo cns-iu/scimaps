@@ -37,8 +37,8 @@
       <form action="">
         <mat-form-field>
           <mat-select placeholder="Annual Reports">
-            <mat-option value="1">
-              1
+            <mat-option *ngFor="let year of annualReportYears" [value]="year">
+              {{year}}
             </mat-option>
           </mat-select>  
         </mat-form-field>
