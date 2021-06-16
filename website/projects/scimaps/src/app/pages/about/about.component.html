@@ -34,15 +34,13 @@
 <div class="reports">
   <div class="row">
     <div class="annual-reports">
-      <form action="">
-        <mat-form-field>
-          <mat-select placeholder="Annual Reports">
-            <mat-option *ngFor="let year of annualReportYears" [value]="year">
-              {{year}}
-            </mat-option>
-          </mat-select>  
-        </mat-form-field>
-      </form>
+      <mat-form-field>
+        <mat-select placeholder="Annual Reports" (selectionChange)="getReport($event.value)">
+          <mat-option *ngFor="let year of annualReportYears" [value]="year">
+            {{year}}
+          </mat-option>
+        </mat-select>  
+      </mat-form-field>
     </div>  
   </div>  
 </div>

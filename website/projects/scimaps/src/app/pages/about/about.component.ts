@@ -95,4 +95,10 @@ export class AboutComponent implements OnInit {
   openLink(link: string): void {
     window.open(link, '_blank');
   }
+
+  getReport(year: string) {
+    if (year) {
+      window.open(`assets/annual-reports/${year}-ps-annual-report.pdf`, '_blank');
+    }
+  }
 }
