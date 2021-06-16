@@ -92,7 +92,7 @@ export class AboutComponent implements OnInit {
   }
 
 
-  openLink(link: string) {
+  openLink(link: string): void {
     window.open(link, '_blank');
   }
 }
