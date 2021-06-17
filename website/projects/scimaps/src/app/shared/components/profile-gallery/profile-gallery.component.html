@@ -1,4 +1,4 @@
-<h2 class="header2" *ngIf="title !== ''">{{ title }}</h2>
+<h2 class="header2 title" *ngIf="title !== ''">{{ title }}</h2>
 <div markdown class="description"  *ngIf="description !== ''" [data]="description"></div>
 <div class="profile-container">
   <div class="profile" *ngFor="let profile of profiles" (click)="goToLink(profile.link)">
