@@ -1,6 +1,6 @@
 import { animate, AnimationEvent, style, transition, trigger } from '@angular/animations';
-import { Component, ElementRef, HostBinding, Input, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { Component, ElementRef, Input, HostBinding, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { AbstractControl, FormBuilder, FormGroup } from '@angular/forms';
 import { of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
 
@@ -21,7 +21,7 @@ type SortColumn = 'publication' | 'date' | 'title';
           opacity: 0,
           transform: 'translateX(25%)'
         }),
-        animate('300ms ease-in', style({
+        animate('100ms ease-in', style({
           opacity: 1,
           transform: 'translateX(0%)'
         }))
@@ -30,7 +30,7 @@ type SortColumn = 'publication' | 'date' | 'title';
         style({
           opacity: 1
         }),
-        animate('300ms ease-out', style({
+        animate('100ms ease-out', style({
           opacity: 0,
           transform: 'translateX(25%)'
         }))
@@ -94,6 +94,17 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
     return [...new Set(years)];
   }
 
+  get searchControl(): AbstractControl | undefined {
+    let result: AbstractControl | undefined;
+    if (this.searchForm) {
+      const searchControl = this.searchForm.get('search');
+      if (searchControl) {
+        result = searchControl;
+      }
+    }
+    return result;
+  }
+
   constructor(private fb: FormBuilder) {
     this.searchForm = this.fb.group({
       year: this.fb.control(''),
@@ -109,7 +120,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
     this.sort('publication', 'asc');
 
     // Initialize listener for search input change
-    this.searchChangeSubscription = this.searchForm.get('search')?.valueChanges.pipe(
+    this.searchChangeSubscription = this.searchControl?.valueChanges.pipe(
       debounceTime(400),
       distinctUntilChanged(),
       map((searcKey: string) => {
@@ -231,6 +242,12 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
       if (this.searchInput) {
         this.searchInput.nativeElement.focus();
       }
+    }
+  }
+
+  clearSearch() {
+    if (this.searchControl) {
+      this.searchControl.setValue('');
     }
   }
 

@@ -1,7 +1,6 @@
 <h2 class="header2">In the News</h2>
 <div class="filter-header">
 
-
   <!-- FormGroup -->
   <form [formGroup]="searchForm" class="search-form">
     <mat-form-field class="input-year">
@@ -24,14 +23,20 @@
     </div>
 
     <div class="search-overlay">
+      <div class="icon-container search-off-icon-container">
+        <mat-icon *ngIf="isSearchOpen" (click)="isSearchOpen= false" class="icon-search-off" svgIcon="search:search_off" aria-hidden="false" aria-label="search"></mat-icon>
+      </div>
       <div class="input-search" [@isSearchOpenTrigger] *ngIf="isSearchOpen" (@isSearchOpenTrigger.done)="afterAnimation($event)">
         <mat-form-field>
+          <mat-label> </mat-label>
           <input matInput formControlName="search" placeholder="Type search" #searchInput />
         </mat-form-field>  
       </div>
-      <div class="search-icons" (click)="isSearchOpen = ! isSearchOpen">
-        <mat-icon *ngIf="!isSearchOpen" aria-hidden="false" aria-label="search">search</mat-icon>
-        <mat-icon *ngIf="isSearchOpen" aria-hidden="false" aria-label="search">close</mat-icon>
+      <div class="icon-container search-icon-container">
+        <mat-icon *ngIf="!isSearchOpen" (click)="isSearchOpen = true" class="icon-search" aria-hidden="false" aria-label="search">search</mat-icon>
+      </div>
+      <div class="icon-container close-icon-container">
+        <mat-icon *ngIf="isSearchOpen" (click)="clearSearch()"  class="icon-search-close" aria-hidden="true" svgIcon="search:search_close"></mat-icon>
       </div>
     </div>
   </form>

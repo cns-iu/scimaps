@@ -35,11 +35,15 @@
         }
       }
 
-      .search-icons {
+      .icon-container {
         z-index: 2;
         user-select: none;
         margin: auto 0;
         cursor: pointer;
+      }
+
+      .icon-search {
+        color:  #7997a3;
       }
     }
   }
