@@ -7,7 +7,7 @@
       </div>
       <div class="download">
         <a *ngIf="item.pdfLink" [href]="item.pdfLink" download>
-          <img src="../../../../assets/icons/ico-pdf-download.svg" alt="Download pdf" width="20px" height="20px">
+          <mat-icon class="icon-pdf-download" aria-hidden="true" svgIcon="file:download"></mat-icon>
         </a>
       </div>
     </div>
