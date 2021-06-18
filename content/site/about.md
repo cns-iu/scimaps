@@ -8,7 +8,7 @@ overviewParagraph: "Drawing from across cultures and across scholarly
   The exhibit is curated by the Cyberinfrastructure for Network Science Center
   at Indiana University. The exhibit has been on display at over 382 venues in
   28 countries on 6 continents. It showcases the work of 248 mapmakers that hail
-  from 17 different countries."
+  from 17 different countries"
 overviewQuote: >-
   *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -16,8 +16,6 @@ overviewQuote: >-
   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
   proident, sunt in culpa qui officia deserunt mollit anim id est laborum*
-
-
 
 
   \- Somebody
