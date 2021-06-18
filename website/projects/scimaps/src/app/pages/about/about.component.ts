@@ -96,7 +96,7 @@ export class AboutComponent implements OnInit {
         if (body.hasOwnProperty('overviewParagraph') && body.overviewParagraph) {
           this.overviewParagraph = body.overviewParagraph;
         }
-      if (body.hasOwnProperty('overviewQuote') && body.overviewQuote) {
+        if (body.hasOwnProperty('overviewQuote') && body.overviewQuote) {
           this.overviewQuote = body.overviewQuote;
         }
       }
