@@ -116,7 +116,7 @@ collections:
           - { value: africa, label: Africa }
           - { value: australia, label: Australia }
       - { name: image, label: Image, widget: image, required: false }
-      - { name: body, label: Bio, required: false }
+      - { name: body, label: Bio, required: false, widget: markdown }
 
   - name: book
     label: Books
