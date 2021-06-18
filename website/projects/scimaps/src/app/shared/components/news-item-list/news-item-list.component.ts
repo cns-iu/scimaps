@@ -117,8 +117,6 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
    */
   ngOnInit(): void {
     this.displayedNewsItems = this.newsItems;
-    this.sort('publication', 'asc');
-
     // Initialize listener for search input change
     this.searchChangeSubscription = this.searchControl?.valueChanges.pipe(
       debounceTime(400),
@@ -133,6 +131,8 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
       const year = this.searchForm.get('year')?.value;
       this.filterData({ year, searchKey });
     });
+    this.searchControl?.setValue('');
+    this.sort('publication', 'asc');
 
     // Initalize listener for year dropdown change
     this.yearChangeSubscription = this.searchForm.get('year')?.valueChanges.pipe(
@@ -245,7 +245,7 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
     }
   }
 
-  clearSearch() {
+  clearSearch(): void {
     if (this.searchControl) {
       this.searchControl.setValue('');
     }

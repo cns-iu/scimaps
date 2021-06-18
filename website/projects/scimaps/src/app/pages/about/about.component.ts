@@ -96,7 +96,7 @@ export class AboutComponent implements OnInit {
     window.open(link, '_blank');
   }
 
-  getReport(year: string) {
+  getReport(year: string): void {
     if (year) {
       window.open(`assets/annual-reports/${year}-ps-annual-report.pdf`, '_blank');
     }
