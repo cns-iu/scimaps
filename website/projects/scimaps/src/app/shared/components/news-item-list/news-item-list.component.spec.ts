@@ -173,7 +173,7 @@ describe('NewsItemListComponenet with TestBed', () => {
   });
 
   it('should set isSearchOpen to true, when search icon is clicked', fakeAsync(() => {
-    const icon = el.query(By.css('.search-icons'));
+    const icon = el.query(By.css('.search-icon-container'));
     if (icon) {
       icon.triggerEventHandler('click', {});
       fixture.detectChanges();
@@ -189,7 +189,7 @@ describe('NewsItemListComponenet with TestBed', () => {
     component.isSearchOpen = true;
     fixture.detectChanges();
     flushMicrotasks();
-    const icon = el.query(By.css('.search-icons'));
+    const icon = el.query(By.css('.search-off-icon-container'));
     if (icon) {
       icon.triggerEventHandler('click', {});
       fixture.detectChanges();

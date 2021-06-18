@@ -23,8 +23,8 @@
     </div>
 
     <div class="search-overlay">
-      <div class="icon-container search-off-icon-container">
-        <mat-icon *ngIf="isSearchOpen" (click)="isSearchOpen= false" class="icon-search-off" svgIcon="search:search_off" aria-hidden="false" aria-label="search"></mat-icon>
+      <div (click)="isSearchOpen= false" class="icon-container search-off-icon-container">
+        <mat-icon *ngIf="isSearchOpen" class="icon-search-off" svgIcon="search:search_off" aria-hidden="false" aria-label="search"></mat-icon>
       </div>
       <div class="input-search" [@isSearchOpenTrigger] *ngIf="isSearchOpen" (@isSearchOpenTrigger.done)="afterAnimation($event)">
         <mat-form-field>
@@ -32,8 +32,8 @@
           <input matInput formControlName="search" placeholder="Type search" #searchInput />
         </mat-form-field>  
       </div>
-      <div class="icon-container search-icon-container">
-        <mat-icon *ngIf="!isSearchOpen" (click)="isSearchOpen = true" class="icon-search" aria-hidden="false" aria-label="search">search</mat-icon>
+      <div class="icon-container search-icon-container" (click)="isSearchOpen = true" >
+        <mat-icon *ngIf="!isSearchOpen" class="icon-search" aria-hidden="false" aria-label="search">search</mat-icon>
       </div>
       <div class="icon-container close-icon-container">
         <mat-icon *ngIf="isSearchOpen" (click)="clearSearch()"  class="icon-search-close" aria-hidden="true" svgIcon="search:search_close"></mat-icon>
