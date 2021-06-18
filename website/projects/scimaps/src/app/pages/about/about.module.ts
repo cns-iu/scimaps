@@ -8,6 +8,7 @@ import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.m
 import { NewsItemListModule } from '../../shared/components/news-item-list/news-item-list.module';
 import { SharedModule } from '../../shared/shared.module';
 import { MatSelectModule } from '@angular/material/select';
+import { MarkdownModule } from 'ngx-markdown';
 
 @NgModule({
   declarations: [AboutComponent],
@@ -18,7 +19,8 @@ import { MatSelectModule } from '@angular/material/select';
     TabHeaderModule,
     NewsItemListModule,
     MatSelectModule,
-    SharedModule
+    SharedModule,
+    MarkdownModule,
   ]
 })
 export class AboutModule { }

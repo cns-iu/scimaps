@@ -15,6 +15,9 @@ export class AboutComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-about';
 
+  overviewParagraph = '';
+  overviewQuote = '';
+
   curatorProfiles: Profile[] = [];
   curatorsDescription = '';
   advisoryBoardProfiles: Profile[] = [];
@@ -78,6 +81,12 @@ export class AboutComponent implements OnInit {
         }
         if (body.hasOwnProperty('ambassadorsDescription') && body.ambassadorsDescription) {
           this.ambassadorsDescription = body.ambassadorsDescription;
+        }
+        if (body.hasOwnProperty('overviewParagraph') && body.overviewParagraph) {
+          this.overviewParagraph = body.overviewParagraph;
+        }
+      if (body.hasOwnProperty('overviewQuote') && body.overviewQuote) {
+          this.overviewQuote = body.overviewQuote;
         }
       }
       // newsItem

@@ -18,6 +18,8 @@ collections:
         file: content/site/about.md
         preview_path: about
         fields:
+          - { name: overviewParagraph, label: Overview Paragraph, widget: markdown }
+          - { name: overviewQuote, label: Overview Quote, widget: markdown }
           - { name: curatorsDescription, label: Curators Description, widget: markdown }
           - { name: advisoryBoardDescription, label: Advisory Board Description, widget: markdown }
           - { name: ambassadorsDescription, label: Ambassadors Description, widget: markdown }

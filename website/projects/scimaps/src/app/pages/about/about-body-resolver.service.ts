@@ -8,6 +8,8 @@ interface AboutBody {
   curatorsDescription: string;
   advisoryBoardDescription: string;
   ambassadorsDescription: string;
+  overviewParagraph: string,
+  overviewQuote: string
 }
 @Injectable({
   providedIn: 'root'
