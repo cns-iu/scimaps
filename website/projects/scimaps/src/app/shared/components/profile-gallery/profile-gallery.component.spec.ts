@@ -57,23 +57,8 @@ describe('ProfileGalleryComponent', () => {
   });
 
   it('should group profiles correctly', async () => {
-    const { instance, find } = await shallow.render({ bind: { profiles: getProfiles(10), groupBy: 'location_name' }});
+    const { instance } = await shallow.render({ bind: { profiles: getProfiles(10), groupBy: 'location_name' }});
     expect(instance.profilesByGroup).toBeTruthy();
     expect(Object.keys(instance.profilesByGroup).length).toBeGreaterThanOrEqual(1);
-  });
-
-  xit('should call the goToLink() method with the correct URL when a profile is clicked', async () => {
-    const { instance, find } = await shallow.render({ bind: { profiles: getProfiles(1) }});
-    // const spy = spyOn(instance, 'goToLink');
-    // const profile = find('.profile')[0];
-    // profile.triggerEventHandler('click', {});
-    // expect(spy).toHaveBeenCalledWith(testProfile.link);
-  });
-
-  xit('should call window.open when goToLink() is called', async () => {
-    const { instance } = await shallow.render({ bind: { profiles: getProfiles(1) }});
-    // const spy = spyOn(window, 'open');
-    // instance.goToLink('www.google.com');
-    // expect(spy).toHaveBeenCalledWith('www.google.com', '_blank');
   });
 });
