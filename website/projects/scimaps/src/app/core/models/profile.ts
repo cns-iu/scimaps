@@ -7,5 +7,6 @@ export interface Profile {
   slug: string;
   image: string;
   roles: string[];
+  region?: string;
   location_name?: string;
 }

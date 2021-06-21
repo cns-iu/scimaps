@@ -14,7 +14,7 @@ export class ProfileGalleryComponent implements OnInit {
   @Input() compact = true;
   @Input() title = '';
   @Input() description = '';
-  @Input() groupBy!: 'location_name';
+  @Input() groupBy!: 'location_name' | 'region';
 
   profilesByGroup: { [key: string]: Profile[] } = {};
 
@@ -33,8 +33,4 @@ export class ProfileGalleryComponent implements OnInit {
       }, {});
     }
   }
-
-  // goToLink(link: string): void {
-  //   window.open(link, '_blank');
-  // }
 }
