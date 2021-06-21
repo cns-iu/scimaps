@@ -23,7 +23,6 @@ export class AboutComponent implements OnInit {
   advisoryBoardProfiles: Profile[] = [];
   advisoryBoardDescription = '';
   ambassadorProfiles: Profile[] = [];
-  ambassadorProfilesByGroup: {[key: string]: Profile[]} = {};
   ambassadorsDescription = '';
   pageTabs = ['Curatorial Team / Advisory Board', 'Exhibit Ambassadors'];
   activePageTab = 0;
@@ -71,16 +70,6 @@ export class AboutComponent implements OnInit {
         this.ambassadorProfiles = profiles.filter((profile: Profile) => {
           return profile.roles.includes('ambassador');
         });
-        this.ambassadorProfilesByGroup = this.ambassadorProfiles.reduce((accumulator: {[key: string]: Profile[]}, profile: Profile) => {
-          if (profile.location_name) {
-            if (accumulator[profile.location_name]) {
-              accumulator[profile.location_name].push(profile);
-            } else {
-              accumulator[profile.location_name] = [profile];
-            }
-          }
-          return accumulator;
-        }, {});
       }
       // Body
       if (body) {
