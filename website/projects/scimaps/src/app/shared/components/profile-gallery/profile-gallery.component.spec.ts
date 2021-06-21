@@ -12,7 +12,8 @@ const testProfile: Profile =     {
   link: 'www.google.com',
   slug: 'name-surname',
   image: 'image.jpg',
-  roles: ['maker']
+  roles: ['maker'],
+  location_name: 'California'
 };
 
 function getProfiles(numberOfProfiles: number): Profile[] {
@@ -53,6 +54,12 @@ describe('ProfileGalleryComponent', () => {
     const profileImage = find('.profile-image')[0];
     const link = profileImage.nativeNode.alt;
     expect(link).toEqual(testProfile.image);
+  });
+
+  it('should group profiles correctly', async () => {
+    const { instance, find } = await shallow.render({ bind: { profiles: getProfiles(10), groupBy: 'location_name' }});
+    expect(instance.profilesByGroup).toBeTruthy();
+    expect(Object.keys(instance.profilesByGroup).length).toBeGreaterThanOrEqual(1);
   });
 
   xit('should call the goToLink() method with the correct URL when a profile is clicked', async () => {
