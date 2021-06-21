@@ -1,9 +1,11 @@
 <h2 class="header2 title" *ngIf="title !== ''">{{ title }}</h2>
 <div markdown class="description"  *ngIf="description !== ''" [data]="description"></div>
 
+<!-- Grouped Profiles -->
 <ng-container *ngIf="groupBy; else withoutGroup;">
+  
   <div *ngFor="let group of profilesByGroup | keyvalue;">
-    <h4>{{group.key}}</h4>
+    <h4>{{REGIONS[group.key] ? REGIONS[group.key] : group.key}}</h4>
     <ng-container *ngTemplateOutlet="profilesTemplate; context: {'profiles': group.value}">
     </ng-container>
   </div>
@@ -14,6 +16,7 @@
   </ng-container>
 </ng-template>
 
+<!-- Common Template for Array of Profiles -->
 <ng-template #profilesTemplate let-profiles="profiles">
   <div class="profile-container">
     <div class="profile" *ngFor="let profile of profiles">

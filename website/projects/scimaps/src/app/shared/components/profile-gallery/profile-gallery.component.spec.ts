@@ -13,7 +13,8 @@ const testProfile: Profile =     {
   slug: 'name-surname',
   image: 'image.jpg',
   roles: ['maker'],
-  location_name: 'California'
+  location_name: 'California',
+  region: 'n_america'
 };
 
 function getProfiles(numberOfProfiles: number): Profile[] {
@@ -57,7 +58,7 @@ describe('ProfileGalleryComponent', () => {
   });
 
   it('should group profiles correctly', async () => {
-    const { instance } = await shallow.render({ bind: { profiles: getProfiles(10), groupBy: 'location_name' }});
+    const { instance } = await shallow.render({ bind: { profiles: getProfiles(10), groupBy: 'region' }});
     expect(instance.profilesByGroup).toBeTruthy();
     expect(Object.keys(instance.profilesByGroup).length).toBeGreaterThanOrEqual(1);
   });

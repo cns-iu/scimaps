@@ -1,4 +1,5 @@
 import { Component, HostBinding, Input, OnInit } from '@angular/core';
+import { REGIONS } from '../../../constants/region-labels';
 import { Profile } from '../../../core/models/profile';
 
 @Component({
@@ -7,6 +8,8 @@ import { Profile } from '../../../core/models/profile';
   styleUrls: ['./profile-gallery.component.scss']
 })
 export class ProfileGalleryComponent implements OnInit {
+
+  readonly REGIONS = REGIONS;
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-profile-gallery';
 
@@ -14,7 +17,7 @@ export class ProfileGalleryComponent implements OnInit {
   @Input() compact = true;
   @Input() title = '';
   @Input() description = '';
-  @Input() groupBy!: 'location_name' | 'region';
+  @Input() groupBy!: 'region';
 
   profilesByGroup: { [key: string]: Profile[] } = {};
 
