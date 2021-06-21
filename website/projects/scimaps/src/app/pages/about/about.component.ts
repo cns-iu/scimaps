@@ -43,7 +43,7 @@ export class AboutComponent implements OnInit {
   }, {
     name: 'reuters',
     logo: 'assets/logos/logo-thomson-reuters.svg',
-    link: 'http://thomsonreuters.com/'
+    link: 'https://thomsonreuters.com/'
   }, {
     name: 'NSF',
     logo: 'assets/logos/logo-nsf.svg',
