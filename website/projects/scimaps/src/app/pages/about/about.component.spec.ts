@@ -113,4 +113,15 @@ describe('AboutComponent', () => {
     const { instance } = await shallow.render();
     expect(instance.newsItems).toEqual(testNewsItems);
   });
+
+  it('should open correct annual report', async () => {
+    const { instance } = await shallow.render();
+    const spy = spyOn(window, 'open');
+    const testYear = '2012';
+    instance.getReport(testYear);
+    const getPdfPath = (year: string) => {
+      return `assets/annual-reports/${year}-ps-annual-report.pdf`;
+    };
+    expect(spy).toHaveBeenCalledWith(getPdfPath(testYear), '_blank');
+  });
 });
