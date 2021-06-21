@@ -181,7 +181,7 @@ describe('NewsItemListComponenet with TestBed', () => {
       tick(500);
       expect(component.isSearchOpen).toBeTruthy();
     } else {
-      fail("couldnt find icon");
+      fail('couldnt find icon');
     }
   }));
 
@@ -195,7 +195,7 @@ describe('NewsItemListComponenet with TestBed', () => {
       tick(500);
       expect(component.isSearchOpen).toBeFalse();
     } else {
-      fail("couldnt find icon");
+      fail('couldnt find icon');
     }
   }));
 
