@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class PartnersComponent implements OnInit {
 
   @Input() data: {name: string, logo: string, link: string}[] = [];
-  
+
   constructor() { }
 
   ngOnInit(): void {
