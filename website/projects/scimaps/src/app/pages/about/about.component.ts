@@ -26,7 +26,7 @@ export class AboutComponent implements OnInit {
   activePageTab = 0;
   newsItems: NewsItem[] = [];
 
-  partners = [
+  partners: {name: string, logo: string, link: string}[] = [
     {
       name: 'CNS',
       logo: 'assets/logos/logo-cns.svg',
@@ -136,10 +136,6 @@ export class AboutComponent implements OnInit {
 
   updateActivePageTab(index: number): void {
     this.activePageTab = index;
-  }
-
-  openLink(link: string): void {
-    window.open(link, '_blank');
   }
 
   getReport(year: string): void {

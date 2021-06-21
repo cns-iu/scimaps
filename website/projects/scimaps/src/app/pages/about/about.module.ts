@@ -9,6 +9,7 @@ import { NewsItemListModule } from '../../shared/components/news-item-list/news-
 import { SharedModule } from '../../shared/shared.module';
 import { MatSelectModule } from '@angular/material/select';
 import { MarkdownModule } from 'ngx-markdown';
+import { PartnersModule } from '../../shared/components/partners/partners.module';
 
 @NgModule({
   declarations: [AboutComponent],
@@ -21,6 +22,7 @@ import { MarkdownModule } from 'ngx-markdown';
     MatSelectModule,
     SharedModule,
     MarkdownModule,
+    PartnersModule
   ]
 })
 export class AboutModule { }
