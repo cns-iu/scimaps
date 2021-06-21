@@ -21,7 +21,7 @@ type SortColumn = 'publication' | 'date' | 'title';
           opacity: 0,
           transform: 'translateX(25%)'
         }),
-        animate('100ms ease-in', style({
+        animate('300ms ease-in', style({
           opacity: 1,
           transform: 'translateX(0%)'
         }))
@@ -30,7 +30,7 @@ type SortColumn = 'publication' | 'date' | 'title';
         style({
           opacity: 1
         }),
-        animate('100ms ease-out', style({
+        animate('200ms ease-out', style({
           opacity: 0,
           transform: 'translateX(25%)'
         }))
