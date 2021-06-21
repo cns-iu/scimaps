@@ -3,7 +3,7 @@ import { Shallow } from 'shallow-render';
 import { NewsItemListComponent } from './news-item-list.component';
 import { NewsItem } from '../news-item/news-item.model';
 import { NewsItemListModule } from './news-item-list.module';
-import { ComponentFixture, discardPeriodicTasks, fakeAsync, flush, flushMicrotasks, TestBed, tick, waitForAsync } from '@angular/core/testing';
+import { ComponentFixture, fakeAsync, flushMicrotasks, TestBed, tick } from '@angular/core/testing';
 import { DebugElement } from '@angular/core';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { By } from '@angular/platform-browser';
