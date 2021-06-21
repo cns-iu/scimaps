@@ -1,0 +1,30 @@
+$desktop: 1248px;
+$tablet: 960px;
+$mobile: 640px;
+
+:host {
+  .profile-item {
+    display: flex;
+    
+    .profile-image {
+      height: 6rem;
+      width: auto;
+    }
+
+    .profile-name {
+      font-weight: bold;
+    }
+
+    .profile-about {
+      width: 50%;
+      padding-left: 1rem;
+      flex-grow: 2;
+
+      .profile-name,
+      .profile-title,
+      .profile-affiliation {
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
+}

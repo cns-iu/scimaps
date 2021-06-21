@@ -1,0 +1,14 @@
+<div class="profile-item">
+  <img class="profile-image" [src]="profile.image" [alt]="profile.image" />
+  <div class="profile-about">
+    <div class="profile-name">{{ profile.name }}</div>
+    <div class="profile-title">{{ profile.title }}</div>
+    <div class="profile-affiliation" *ngIf="compact === true">
+      {{ profile.affiliation }}
+    </div>
+    <div class="profile-body" *ngIf="compact === false">
+       
+      <div markdown [data]="profile.body"></div>
+    </div>
+  </div>
+</div>

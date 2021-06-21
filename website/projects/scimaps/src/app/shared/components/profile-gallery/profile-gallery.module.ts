@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProfileGalleryComponent } from './profile-gallery.component';
 import { MarkdownModule } from 'ngx-markdown';
+import { ProfileItemModule } from '../profile-item/profile-item.module';
 
 
 
@@ -9,7 +10,8 @@ import { MarkdownModule } from 'ngx-markdown';
   declarations: [ProfileGalleryComponent],
   imports: [
     CommonModule,
-    MarkdownModule
+    MarkdownModule,
+    ProfileItemModule
   ],
   exports: [ProfileGalleryComponent]
 })
