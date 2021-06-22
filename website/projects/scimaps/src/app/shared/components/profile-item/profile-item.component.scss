@@ -1,6 +1,7 @@
 $desktop: 1248px;
 $tablet: 960px;
 $mobile: 640px;
+$single-column-max-width: 768px;
 
 :host {
   .profile-item {
@@ -24,6 +25,21 @@ $mobile: 640px;
       .profile-title,
       .profile-affiliation {
         margin-bottom: 0.25rem;
+      }
+    }
+
+    .profile-body {
+
+      .show-more {
+        color: #8dc63f;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      // Normally
+      .markdown.full {
+        display: none;
       }
     }
   }
