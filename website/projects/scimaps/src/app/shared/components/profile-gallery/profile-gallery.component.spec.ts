@@ -45,17 +45,6 @@ describe('ProfileGalleryComponent', () => {
   });
 
   itHasElementWithContent('.title', title);
-  itHasElementWithContent('.profile-name', testProfile.name);
-  itHasElementWithContent('.profile-title', testProfile.title);
-  itHasElementWithContent('.profile-affiliation', testProfile.affiliation, true);
-  itHasElementWithContent('.profile-body', testProfile.body, false);
-
-  it('should create the correct image source', async () => {
-    const { find } = await shallow.render({ bind: { profiles: getProfiles(1) }});
-    const profileImage = find('.profile-image')[0];
-    const link = profileImage.nativeNode.alt;
-    expect(link).toEqual(testProfile.image);
-  });
 
   it('should group profiles correctly', async () => {
     const { instance } = await shallow.render({ bind: { profiles: getProfiles(10), groupBy: 'region' }});
