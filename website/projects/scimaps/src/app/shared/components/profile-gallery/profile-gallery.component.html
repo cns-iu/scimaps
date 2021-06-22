@@ -3,8 +3,7 @@
 
 <!-- Grouped Profiles -->
 <ng-container *ngIf="groupBy; else withoutGroup;">
-  
-  <div *ngFor="let group of profilesByGroup | keyvalue;">
+  <div class="profile-group" *ngFor="let group of profilesByGroup | keyvalue;">
     <h4>{{REGIONS[group.key] ? REGIONS[group.key] : group.key}}</h4>
     <ng-container *ngTemplateOutlet="profilesTemplate; context: {'profiles': group.value}">
     </ng-container>
