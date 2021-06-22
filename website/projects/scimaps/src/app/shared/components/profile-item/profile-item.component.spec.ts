@@ -5,7 +5,7 @@ import { Shallow } from 'shallow-render';
 import { Profile } from '../../../core/models/profile';
 import { ProfileItemModule } from './profile-item.module';
 
-const testProfile: Profile =     {
+export const testProfile: Profile =     {
   name: 'Name Surname',
   title: 'Job Title',
   affiliation: 'Affiliation',
@@ -18,21 +18,10 @@ const testProfile: Profile =     {
   region: 'n_america'
 };
 
-function getProfiles(numberOfProfiles: number): Profile[] {
-  const profiles: Profile[] = [];
-  for (let i = 0; i <= numberOfProfiles; i++) {
-    profiles.push(testProfile);
-  }
-  return profiles;
-}
-
-const title = 'test-title';
-const description = 'test-description';
-
 describe('ProfileItemComponent', () => {
   let shallow: Shallow<ProfileItemComponent>;
 
-  function itHasElementWithContent(selector: string, content: string, compact = true, profiles = 1): void {
+  function itHasElementWithContent(selector: string, content: string, compact = true): void {
     it(`has the correct content for ${selector}`, async () => {
       const { find } = await shallow
         .render({ bind: { compact, profile: testProfile }});

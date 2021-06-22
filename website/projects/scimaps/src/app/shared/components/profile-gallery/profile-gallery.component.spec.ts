@@ -1,21 +1,9 @@
 import { Shallow } from 'shallow-render';
 import { Profile } from '../../../core/models/profile';
+import { testProfile } from '../profile-item/profile-item.component.spec';
 
 import { ProfileGalleryComponent } from './profile-gallery.component';
 import { ProfileGalleryModule } from './profile-gallery.module';
-
-const testProfile: Profile =     {
-  name: 'Name Surname',
-  title: 'Job Title',
-  affiliation: 'Affiliation',
-  body: 'Lorem ipsum dolor sit amet',
-  link: 'www.google.com',
-  slug: 'name-surname',
-  image: 'image.jpg',
-  roles: ['maker'],
-  location_name: 'California',
-  region: 'n_america'
-};
 
 function getProfiles(numberOfProfiles: number): Profile[] {
   const profiles: Profile[] = [];
