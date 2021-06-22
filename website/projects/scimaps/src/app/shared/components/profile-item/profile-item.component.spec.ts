@@ -56,8 +56,8 @@ describe('ProfileItemComponent', () => {
     const profileImage = find('.profile-image');
     const link = profileImage.nativeNode.alt;
     expect(link).toEqual(testProfile.image);
+    });
   });
-  })
 
 
 describe('ProfileItemComponent', () => {

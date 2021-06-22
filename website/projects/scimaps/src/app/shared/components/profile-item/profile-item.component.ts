@@ -38,9 +38,8 @@ export class ProfileItemComponent implements OnInit {
   }
 
   fullContentVisible = false;
-  
+
   constructor() {}
-  
-  ngOnInit(): void {
-  }
+
+  ngOnInit(): void {}
 }
