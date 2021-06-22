@@ -4,7 +4,6 @@ import { ProfileItemComponent } from './profile-item.component';
 import { Shallow } from 'shallow-render';
 import { Profile } from '../../../core/models/profile';
 import { ProfileItemModule } from './profile-item.module';
-import { DebugElement } from '@angular/core';
 
 const testProfile: Profile =     {
   name: 'Name Surname',
@@ -63,7 +62,6 @@ describe('ProfileItemComponent', () => {
 describe('ProfileItemComponent', () => {
   let component: ProfileItemComponent;
   let fixture: ComponentFixture<ProfileItemComponent>;
-  let el: DebugElement;
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [ProfileItemModule]
@@ -74,7 +72,6 @@ describe('ProfileItemComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(ProfileItemComponent);
     component = fixture.componentInstance;
-    el = fixture.debugElement;
     component.profile = testProfile;
     fixture.detectChanges();
   });

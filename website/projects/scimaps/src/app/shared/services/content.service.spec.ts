@@ -1,7 +1,4 @@
-import { HttpRequest } from '@angular/common/http';
 import { TestBed } from '@angular/core/testing';
-import { EMPTY } from 'rxjs';
-
 import { ContentService } from './content.service';
 import {
   HttpClientTestingModule,

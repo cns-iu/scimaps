@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Profile } from '../../../core/models/profile';
 
 @Component({
@@ -6,7 +6,7 @@ import { Profile } from '../../../core/models/profile';
   templateUrl: './profile-item.component.html',
   styleUrls: ['./profile-item.component.scss'],
 })
-export class ProfileItemComponent implements OnInit {
+export class ProfileItemComponent {
   @Input() profile!: Profile;
   @Input() compact = true;
 
@@ -38,8 +38,4 @@ export class ProfileItemComponent implements OnInit {
   }
 
   fullContentVisible = false;
-
-  constructor() {}
-
-  ngOnInit(): void {}
 }
