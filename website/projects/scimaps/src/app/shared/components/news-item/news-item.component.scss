@@ -80,9 +80,14 @@
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis;
-            
             a {
               text-decoration: none;
+              .link-title {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                color: #8dc63f;
+              }
             }
           }
         }

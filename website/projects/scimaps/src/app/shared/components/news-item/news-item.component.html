@@ -19,7 +19,9 @@
         <ng-template [ngIf]="item.sourceUrl" [ngIfElse]="text">
           <div class="link">
             <a [href]="item.sourceUrl" target="_blank" rel="noopener noreferrer">
-              {{item.title}}
+              <div class="link-title">
+                {{item.title}}
+              </div>
             </a>
           </div>
         </ng-template>
