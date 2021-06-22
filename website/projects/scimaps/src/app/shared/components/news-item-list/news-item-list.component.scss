@@ -139,6 +139,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 2rem;
+    min-height: 20rem;
 
     .news-item {
       width: 33.33%;
@@ -166,4 +167,15 @@
       margin: 2rem 0.5rem;
     }
   }
+
+  .no-search {
+    // width: 100%;
+    align-self: center;
+    margin: auto;
+    .no-result-text {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
 }
