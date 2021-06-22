@@ -32,6 +32,9 @@
     .description {
       display: flex;
       flex-direction: row;
+      @include screen.breakpoint(mobile) {
+        flex-direction: column;
+      }
       div {
         flex: 1;
       }
@@ -40,6 +43,10 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: #757575;
         font-size: 20px;
+        @include screen.breakpoint(mobile) {
+          margin-top: 1rem;
+          padding-left: 0;
+        }
       }
       margin-bottom: 24px;
     }
