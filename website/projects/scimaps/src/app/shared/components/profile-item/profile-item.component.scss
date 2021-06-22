@@ -22,9 +22,11 @@ $single-column-max-width: 768px;
       flex-grow: 2;
 
       .profile-name,
-      .profile-title,
       .profile-affiliation {
         margin-bottom: 0.25rem;
+      }
+      .profile-title {
+        margin-bottom: 1rem;
       }
     }
 
