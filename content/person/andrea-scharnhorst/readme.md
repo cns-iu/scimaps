@@ -11,4 +11,4 @@ location_name: Amsterdam, Netherlands
 region: europe
 image: image.jpg
 ---
-
+Andrea Scharnhorst holds an MA in physics and a PhD in philosophy of science from the Humboldt University of Berlin, Germany. At KNAW, she is a senior research fellow, head of research at Data Archiving and Networked Services (DANS), and a member of the e-humanities group, with a focus on mathematical models and methods at the interface between physics, information sciences, social sciences, and the humanities.

@@ -11,4 +11,4 @@ location_name: Santa Cruz, CA, USA
 region: n_america
 image: image.jpg
 ---
-
+Elijah Meeks is the digital humanities specialist in Stanford University Library. His work has included design, software development and data modeling for projects such as the Digital Gazetteer of the Song Dynasty and Kindred Britain.
