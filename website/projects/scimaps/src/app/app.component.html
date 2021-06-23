@@ -1,4 +1,4 @@
-<sci-header class="header" [(sidenavOpen)]="sidenavOpen"></sci-header>
+<sci-header [ngClass]="{'scrolled' : hasPageScrolled}" class="header" [(sidenavOpen)]="sidenavOpen"></sci-header>
 
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav mode="over" position="end" fixedInViewport fixedTopGap="72" [opened]="sidenavOpen"

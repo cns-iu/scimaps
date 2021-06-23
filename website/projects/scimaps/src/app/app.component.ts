@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {
   trigger,
@@ -50,6 +50,18 @@ export const slideInAnimation =
   ]
 })
 export class AppComponent {
+  @HostListener('scroll', ['$event']) // for window scroll events
+  onScroll(event: Event) {
+    const target = event.target as Element
+    const scrollTop = target.scrollTop;
+    if (scrollTop == 0) {
+      this.hasPageScrolled = false;
+    } else {
+      this.hasPageScrolled = true;
+    }
+  }
+
+  hasPageScrolled = false;
   sidenavOpen = false;
 
   newsItems: NewsItem[] = [
