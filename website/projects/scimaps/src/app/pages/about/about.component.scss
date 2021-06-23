@@ -1,5 +1,9 @@
 @use 'screen';
 
+$mobile: 640px;
+$tablet: 960px;
+$desktop: 1248px;
+
 :host {
   .tab-header {
     margin-bottom: 1rem;
@@ -54,6 +58,22 @@
   .reports {
     .row {
       display: flex row;
+    }
+  }
+
+  .ambassador-map {
+    .container {
+      @media (max-width: $mobile) {
+        display: none;
+      }
+      @media (min-width: $mobile) and (max-width: $tablet) {
+        width: 100%;
+        margin: auto;
+      }
+      @media (min-width: $tablet) {
+        width: 70%;
+        margin: auto;
+      } 
     }
   }
 }
