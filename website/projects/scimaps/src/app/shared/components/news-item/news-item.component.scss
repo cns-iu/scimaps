@@ -31,7 +31,7 @@
       flex-direction: column;
       width: 100%;
       justify-content: space-between;
-      
+
       .card-header {
         display: flex;
         flex-direction: row;
@@ -39,7 +39,7 @@
         background-color: #f5f5f5;
         padding: 1rem;
         justify-content: space-between;
-        
+
         .date {
           color: #757575;
           text-transform: uppercase;
@@ -53,16 +53,16 @@
           width: 36px;
           height: 36px;
           &:hover {
-            background-color: #DCE0E2;
+            background-color: #dce0e2;
           }
-          
+
           .icon-pdf-download {
             margin-left: 6px;
             margin-top: 6px;
           }
         }
       }
-      
+
       .body {
         padding: 1rem;
         height: 72px;
@@ -74,20 +74,18 @@
             white-space: nowrap;
             text-overflow: ellipsis;
           }
-  
+
           .link {
             font-size: 1rem;
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis;
-            a {
-              text-decoration: none;
-              .link-title {
-                overflow: hidden;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                color: #8dc63f;
-              }
+
+            .link-title {
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              // color: #8dc63f;
             }
           }
         }
