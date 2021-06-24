@@ -1,7 +1,6 @@
 @use 'screen';
 
 :host {
-
   .header {
     color: #757575;
   }
@@ -9,7 +8,7 @@
   .search-form {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     padding: 0.5rem;
     width: 100%;
 
@@ -17,16 +16,77 @@
     //   flex-direction: column;
     // }
 
-    .input-year {
-      max-width: 4rem;
-      margin-right: 3rem;
-    }
-
-    .search-overlay {
-      margin-left: auto;
+    .group1 {
       display: flex;
       flex-direction: row;
+      width: 100%;
+      overflow: hidden;
+      .input-year {
+        max-width: 4rem;
+        margin-right: 2rem;
+        
+      }
+
+      .sort-filters {
+        display: flex;
+        height: 3rem;
+        align-items: center;
+        // justify-content: center;
+        overflow: hidden;
+        // width: 100%;
+
+        @include screen.breakpoint(mobile) {
+          // width: 100%;
+          // justify-content: space-between;
+        }
+      }
+
+      .sort {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // margin-right: 1.5rem;
+        cursor: pointer;
+        user-select: none;
+        -moz-user-select: none;
+
+        // @include screen.breakpoint(mobile) {
+        //   margin-right: 0.5rem;
+        // }
+
+        mat-icon {
+          width: 36px;
+          height: 36px;
+          border-radius: 100%;
+
+          padding-left: 6px;
+          padding-top: 6px;
+
+          transform: scale(-1);
+          margin-left: 0.5rem;
+          color: #7997a3;
+
+          &:hover {
+            background-color: #dce0e2;
+          }
+        }
+
+        .reversed {
+          transform: scale(1);
+        }
+      }
+    }
+    .search-overlay {
+      // margin-left: auto;
+      display: flex;
+      flex-direction: row;
+      overflow: visible;
+      z-index: 2;
       
+      &.open {
+        padding: 0 1rem;
+        box-shadow: 0px 5px 10px 0px #e0e0e0cc;    
+      }
       .input-search {
         // @include screen.breakpoint(mobile) {
         //   margin-left: 0;
@@ -44,93 +104,7 @@
       }
 
       .icon-search {
-        color:  #7997a3;
-      }
-    }
-  }
-
-  .filter-header {
-    display: flex;
-    align-items: center;
-    // margin-left: 0.5rem;
-
-    @include screen.breakpoint(mobile) {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .year-select {
-      margin-right: 1.5rem;
-
-      ::ng-deep .mat-form-field-wrapper {
-        height: 3rem;
-        margin-bottom: 1em;
-
-        @include screen.breakpoint(mobile) {
-          margin-bottom: 0.5rem;
-          align-items: center;
-          padding-bottom: 0;
-        }
-
-        .mat-form-field-flex {
-          .mat-form-field-infix {
-            width: 5rem;
-
-            .mat-select-arrow-wrapper {
-              display: block;
-            }
-          }
-        }
-
-        .mat-form-field-underline {
-          bottom: 0;
-        }
-      }
-    }
-
-    .sort-filters {
-      display: flex;
-      height: 3rem;
-      align-items: center;
-
-      @include screen.breakpoint(mobile) {
-        width: 100%;
-        justify-content: space-between;
-      }
-
-      .sort {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 1.5rem;
-        cursor: pointer;
-        user-select: none;
-        -moz-user-select: none;
-
-        @include screen.breakpoint(mobile) {
-          margin-right: 0.5rem;
-        }
-
-        mat-icon {
-          width: 36px;
-          height: 36px;
-          border-radius: 100%;
-
-          padding-left: 6px;
-          padding-top: 6px;
-
-          transform: scale(-1);
-          margin-left: 0.5rem;
-          color: #7997a3;
-
-          &:hover {
-            background-color: #DCE0E2;
-          }
-        }
-
-        .reversed {
-          transform: scale(1);
-        }
+        color: #7997a3;
       }
     }
   }
@@ -177,5 +151,4 @@
       font-size: 20px;
     }
   }
-  
 }
