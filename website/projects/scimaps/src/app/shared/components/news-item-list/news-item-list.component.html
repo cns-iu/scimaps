@@ -54,7 +54,10 @@
       No results matched your search
     </p>
   </div>
-  <div class="show-more" *ngIf="needShowMoreButton()" (click)="this.showAllItems = !this.showAllItems">
+  <div class="total">
+    {{ showAllItems ? displayedNewsItems.length : displayLimit }} / {{newsItems.length}}
+  </div>
+  <div class="show-more" *ngIf="needShowMoreButton()" (click)="showAllItems = !showAllItems">
     {{ showButtonText }}
   </div>
 </div>
