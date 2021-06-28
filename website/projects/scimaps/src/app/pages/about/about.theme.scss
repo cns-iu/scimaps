@@ -1,0 +1,61 @@
+@use '~@angular/material/theming' as *;
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $primary: map-get($config, primary);
+  $grey: mat-palette($mat-grey);
+}
+
+@mixin typography($config-or-theme) {
+  $config: mat-get-typography-config($config-or-theme);
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+  $typography: mat-get-typography-config($theme);
+
+  @if $color != null {
+    @include color($color);
+  }
+  @if $typography != null {
+    @include typography($typography);
+  }
+}
+
+// H1: 40px / LH 48px / MB 24px
+// H2: 32px / LH 40px / MB 24px
+// H3: 24px / LH 32px / MB 24px
+// H4 / Title over other headers: 18px / LH 24px / MB 24px / BOLD
+// Body Text: 14px / LH 24p
+
+.header1 {
+  font-size: 40px;
+  line-height: 3rem; // 48px
+  margin-bottom: 1.5rem; //24px
+  color: #757575;
+}
+.header2 {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 24px;
+  color: #757575;
+}
+.header3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 24px;
+  color: #757575;
+}
+.header4 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+.spacer-72 {
+  margin-bottom: 4.5rem;
+}
+.spacer-24 {
+  margin-bottom: 1.5rem;
+}

@@ -1,9 +1,10 @@
-<sci-header class="header" [(sidenavOpen)]="sidenavOpen"></sci-header>
+<sci-header [ngClass]="{'scrolled' : hasPageScrolled}" class="header" [(sidenavOpen)]="sidenavOpen"></sci-header>
 
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav mode="over" position="end" fixedInViewport fixedTopGap="72" [opened]="sidenavOpen"
                (closedStart)="sidenavOpen = false">
-    <sci-mobile-header-menu></sci-mobile-header-menu>
+    <sci-mobile-header-menu *sciBreakpoint="'tablet-'">
+    </sci-mobile-header-menu>
   </mat-sidenav>
 
   <mat-sidenav-content class="sidenav-content">

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {
   trigger,
@@ -50,6 +50,7 @@ export const slideInAnimation =
   ]
 })
 export class AppComponent {
+  hasPageScrolled = false;
   sidenavOpen = false;
 
   newsItems: NewsItem[] = [
@@ -191,6 +192,17 @@ export class AppComponent {
     phoneNumber: '812-855-9930',
     acknowledgement: 'This exhibit is supported by the National Science Foundation under Grant No. IIS-0238261, CHE-0524661, IIS-0534909 and IIS-0715303, the James S. McDonnell Foundation; Thomson Reuters; the Cyberinfrastructure for Network Science Center, University Information Technology Services, and the School of Library and Information Science, all three at Indiana University. Some of the data used to generate the science maps is from the Web of Science by Thomson Reuters and Scopus by Elsevier. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.'
   };
+
+  @HostListener('scroll', ['$event'])
+  onScroll(event: Event): void {
+    const target = event.target as Element;
+    const scrollTop = target.scrollTop;
+    if (scrollTop === 0) {
+      this.hasPageScrolled = false;
+    } else {
+      this.hasPageScrolled = true;
+    }
+  }
 
   prepareRoute(outlet: RouterOutlet): string {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;

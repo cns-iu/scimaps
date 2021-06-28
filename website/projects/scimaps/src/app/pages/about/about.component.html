@@ -1,5 +1,55 @@
-<sci-tab-header class="tab-header" [tabs]="pageTabs" (activeTabIndexChanged)="updateActivePageTab($event)"></sci-tab-header>
+<!-- Hero -->
+<div class="intro">
+  <h1 class="header1">About the <em>places & spaces</em> Exhibition</h1>
 
+  <div class="image-container">
+    <img *sciBreakpoint="'mobile-'; else: desktop" src="../../../assets/images/about/image.med.jpg" alt="">
+    <ng-template #desktop>
+      <img src="../../../assets/images/about/image.lg.jpg" alt="">
+    </ng-template>
+  </div>
+
+  <div class="description">
+    <div class="paragraph">
+      <div markdown [data]="overviewParagraph"></div>
+    </div>
+    <div class="quote">
+      <div markdown [data]="overviewQuote"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Reports -->
+<div class="reports">
+  <div class="row">
+    <div class="annual-reports">
+      <mat-form-field>
+        <mat-select placeholder="Annual Reports" (selectionChange)="getReport($event.value)">
+          <mat-option *ngFor="let year of annualReportYears" [value]="year">
+            {{year}}
+          </mat-option>
+        </mat-select>  
+      </mat-form-field>
+    </div>  
+  </div>  
+</div>
+
+<hr class="divider">
+<div class="spacer-24">
+</div>
+
+<!-- Ambassador Map -->
+<div class="ambassador-map">
+  <div class="container">
+    <img src="../../../assets/images/map-advisors-ambassadors.svg" alt="">
+  </div>
+</div>
+
+<div class="spacer-72">
+</div>
+
+<!-- Galary -->
+<sci-tab-header class="tab-header" [tabs]="pageTabs" (activeTabIndexChanged)="updateActivePageTab($event)"></sci-tab-header>
 <ng-template [ngIf]="activePageTab == 0">
     <sci-profile-gallery
     class="profile-gallery"
@@ -22,7 +72,21 @@
     [title]="'Exhibit Ambassadors'"
     [description]="ambassadorsDescription"
     [profiles]="ambassadorProfiles"
+    [groupBy]="'region'"
     [compact]="false">
   </sci-profile-gallery>  
 </ng-template>
+
+<div class="spacer-72">
+</div>
+
+<!-- News -->
+<sci-news-item-list [newsItems]=newsItems>
+</sci-news-item-list>
+
+<div class="spacer-72">
+</div>
+
+<!-- Partners -->
+<sci-partners [data]="partners"></sci-partners>
  

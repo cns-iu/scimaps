@@ -35,7 +35,9 @@ export class AboutResolverService implements Resolve<Profile[]> {
             body: item.body,
             affiliation: item.affiliation,
             image: item.image,
-            roles: item.roles || []
+            roles: item.roles || [],
+            location_name: item.location_name,
+            region: item.region,
           };
           profile.image = this.getImageSource(profile);
           return profile;

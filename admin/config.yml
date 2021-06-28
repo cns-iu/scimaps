@@ -18,6 +18,8 @@ collections:
         file: content/site/about.md
         preview_path: about
         fields:
+          - { name: overviewParagraph, label: Overview Paragraph, widget: markdown }
+          - { name: overviewQuote, label: Overview Quote, widget: markdown }
           - { name: curatorsDescription, label: Curators Description, widget: markdown }
           - { name: advisoryBoardDescription, label: Advisory Board Description, widget: markdown }
           - { name: ambassadorsDescription, label: Ambassadors Description, widget: markdown }
@@ -114,7 +116,7 @@ collections:
           - { value: africa, label: Africa }
           - { value: australia, label: Australia }
       - { name: image, label: Image, widget: image, required: false }
-      - { name: body, label: Bio, required: false }
+      - { name: body, label: Bio, required: false, widget: markdown }
 
   - name: book
     label: Books
@@ -165,8 +167,8 @@ collections:
       - { name: title, label: Title }
       - { name: source, label: Source }
       - { name: sourceUrl, label: Source URL }
-      - { name: pdfLink, label: PDF Link }
-      - { name: image, label: Image, widget: image }
+      - { name: pdfLink, label: PDF Link, widget: file }
+      - { name: image, label: Image, widget: image, required: false }
       - { name: body, label: Body, widget: markdown }
 
   - name: gallery

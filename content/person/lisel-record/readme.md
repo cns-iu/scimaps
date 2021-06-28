@@ -11,4 +11,6 @@ location_name: Bloomington, IN, USA
 region: n_america
 image: image.jpg
 ---
-Lisel has been with CNS since 2013. With nearly 15 years of curatorial experience at a variety of nonprofit and public institutions, she has extensive experience in the planning and implementation of outreach activities in places of informal science learning.
+Lisel has been with CNS since 2013, working originally with the Places & Spaces: Mapping Science exhibit and other outreach efforts. With nearly 15 years of curatorial experience at a variety of nonprofit and public institutions, she has extensive experience in the planning and implementation of outreach activities in places of informal science learning. As Associate Director, Lisel manages Center projects, proposal development, and strategic planning efforts as well as directing outreach activities and working with Center collaborators. 
+
+When she's not dragging her family to museums, you can find Lisel in her garden growing vegetables.
