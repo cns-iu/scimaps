@@ -1,6 +1,6 @@
 <!-- Hero -->
 <div class="intro">
-  <h1 class="header1">About the <em>places & spaces</em> Exhibition</h1>
+  <h1 class="header1">About the <em>Places & Spaces</em> Exhibition</h1>
 
   <div class="image-container">
     <img *sciBreakpoint="'mobile-'; else: desktop" src="../../../assets/images/about/image.med.jpg" alt="">
@@ -49,9 +49,11 @@
 </div>
 
 <!-- Galary -->
-<sci-tab-header class="tab-header" [tabs]="pageTabs" (activeTabIndexChanged)="updateActivePageTab($event)"></sci-tab-header>
+<sci-tab-header class="tab-header" [tabs]="pageTabs" (activeTabIndexChanged)="updateActivePageTab($event)">
+</sci-tab-header>
+
 <ng-template [ngIf]="activePageTab == 0">
-    <sci-profile-gallery
+  <sci-profile-gallery
     class="profile-gallery"
     [title]="'Curatorial Team'"
     [description]="curatorsDescription"
@@ -59,11 +61,14 @@
     [compact]="false">
   </sci-profile-gallery>
   
+  <div class="spacer-72">
+  </div>
+
   <sci-profile-gallery
     [title]="'Advisory Board'"
     [description]="advisoryBoardDescription"
     [profiles]="advisoryBoardProfiles"
-    [compact]="false">
+    [compact]="true">
   </sci-profile-gallery>  
 </ng-template>
 
@@ -73,7 +78,7 @@
     [description]="ambassadorsDescription"
     [profiles]="ambassadorProfiles"
     [groupBy]="'region'"
-    [compact]="false">
+    [compact]="true">
   </sci-profile-gallery>  
 </ng-template>
 
