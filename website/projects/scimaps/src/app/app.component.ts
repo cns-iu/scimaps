@@ -206,7 +206,7 @@ export class AppComponent implements OnInit, OnDestroy {
         return of(scrollY);
       })
     ).subscribe(scrollY => {
-      if (scrollY === 0) {
+      if (scrollY <= 0) {
         this.hasPageScrolled = false;
       } else {
         this.hasPageScrolled = true;
