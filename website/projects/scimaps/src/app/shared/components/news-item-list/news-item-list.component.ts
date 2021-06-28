@@ -105,6 +105,15 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
     return result;
   }
 
+  get totalResultsText(): string {
+    const denominator = this.displayedNewsItems.length;
+    let numerator: number = denominator;
+    if (!this.showAllItems && denominator > this.displayLimit) {
+      numerator = this.displayLimit;
+    } 
+    return `${numerator} / ${denominator};`
+  }
+
   constructor(private fb: FormBuilder) {
     this.searchForm = this.fb.group({
       year: this.fb.control(''),
