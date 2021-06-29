@@ -32,7 +32,7 @@
         height: 3rem;
         align-items: center;
         // justify-content: center;
-        overflow: hidden;
+        // overflow: hidden;
         // width: 100%;
 
         @include screen.breakpoint(mobile) {
@@ -63,16 +63,20 @@
           padding-top: 6px;
 
           transform: scale(-1);
+          transition: transform 200ms;
           margin-left: 0.5rem;
           color: #7997a3;
-
           &:hover {
             background-color: #dce0e2;
+            transform: scale(-1.1);
           }
         }
-
         .reversed {
           transform: scale(1);
+          &:hover {
+            background-color: #dce0e2;
+            transform: scale(1.1);
+          }
         }
       }
     }

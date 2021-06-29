@@ -52,8 +52,10 @@
           align-self: center;
           width: 36px;
           height: 36px;
+          transition: transform 200ms;
           &:hover {
             background-color: #dce0e2;
+            transform: scale(1.2);
           }
 
           .icon-pdf-download {
