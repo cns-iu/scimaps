@@ -51,14 +51,8 @@ export class ProfileItemComponent {
   get partialContent(): string {
     const {
       fullContent,
-      maxContentLength,
-      hasLongContent,
-      fullContentVisible,
+      maxContentLength
     } = this;
-
-    if (!hasLongContent || fullContentVisible) {
-      return fullContent;
-    }
     return `${fullContent.slice(0, maxContentLength)}...`;
   }
 
