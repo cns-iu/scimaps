@@ -23,7 +23,7 @@ import { Profile } from '../../../core/models/profile';
           opacity: 1,
           height: '*'
         }),
-        animate('300ms ease-in', style({
+        animate('200ms ease-in', style({
           opacity: 0,
           height: 0
         }))
