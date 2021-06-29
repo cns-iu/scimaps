@@ -15,10 +15,9 @@
       <!-- Desktop -->
       <div *sciBreakpoint="'mobile+'">
         <div *ngIf="!fullContentVisible" class="markdown partial" markdown [data]="partialContent"></div>
-        <div [@slideUpDown] *ngIf="fullContentVisible" class="markdown full" markdown [data]="fullContent"></div>
+        <div [@contentTrigger] *ngIf="fullContentVisible" class="markdown full" markdown [data]="fullContent"></div>
         <div
           *ngIf="hasLongContent"
-          [@slideUpDown]="fullContentVisible ? 'full' : 'partial'"
           class="show-more"
           (click)="fullContentVisible = !fullContentVisible"
         >

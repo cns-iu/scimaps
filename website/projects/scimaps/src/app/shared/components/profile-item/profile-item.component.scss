@@ -39,6 +39,9 @@ $single-column-max-width: 640px;
           text-decoration: underline;
         }
       }
+      .full {
+        overflow: hidden;
+      }
     }
   }
 }
