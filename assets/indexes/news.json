@@ -1,0 +1,247 @@
+[
+  {
+    "date": "2006-04-09T00:00:00.000Z",
+    "title": "NY exhibit shows a new take on maps",
+    "source": "USA Today",
+    "pdfLink": "20060409-hajela-deepti.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2006-04-16T00:00:00.000Z",
+    "title": "The New York Public Library Maps Scientific Discoveries, Innovation",
+    "source": "Govtech",
+    "pdfLink": "20060416-government-technology.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2006-05-10T00:00:00.000Z",
+    "title": "A tale of two libraries 1: Mapping and Thinking at the NYPL",
+    "source": "Graphpaper",
+    "pdfLink": "20060510-mapping-thinking-nypl.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2006-05-14T00:00:00.000Z",
+    "title": "Mapping Knowledge: Poetry in Aid of Science and Business",
+    "source": "Learning Lab",
+    "pdfLink": "20060514-poetry-in-aid-science.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2006-12-21T00:00:00.000Z",
+    "title": "Brilliant Display",
+    "source": "Nature",
+    "pdfLink": "20061221-brilliant-display.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2007-01-21T00:00:00.000Z",
+    "title": "Science in culture",
+    "source": "Nature",
+    "pdfLink": "20080124-chart-toppers-pc.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2007-03-18T00:00:00.000Z",
+    "title": "Cool Visualizations",
+    "source": "Crooked timber",
+    "pdfLink": "20070318-cool-visualizations-pc.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2007-03-19T00:00:00.000Z",
+    "title": "Digital Collections and Archives",
+    "source": "ComDig",
+    "pdfLink": "20070319-relationships-among-paradigms-pc.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2007-03-20T00:00:00.000Z",
+    "title": "Data Landscapes",
+    "source": "MetaFilter",
+    "pdfLink": "20070320-data-landscapes-pc.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2007-03-20T00:00:00.000Z",
+    "title": "Map of Science",
+    "source": "Neotorama",
+    "pdfLink": "20070320-map-of-science-pc.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2007-03-20T00:00:00.000Z",
+    "title": "How scientific paradigms relate",
+    "source": "Slashdot",
+    "pdfLink": "20070320-scientific-paradigms-pc.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2007-04-03T00:00:00.000Z",
+    "title": "The unity of science forms a network",
+    "source": "CPNSS",
+    "pdfLink": "20070403-unity-science-forms-pc.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2007-05-19T00:00:00.000Z",
+    "title": "Power struggle",
+    "source": "New Scientist",
+    "pdfLink": "20070519-power-struggle.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2007-05-21T00:00:00.000Z",
+    "title": "Visualizing the Wikipedia Power Struggle",
+    "source": "Slashdot",
+    "pdfLink": "20070521-wikipedia-power-struggle-pc.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2007-06-14T00:00:00.000Z",
+    "title": "Vol.4, no.9",
+    "source": "IU",
+    "pdfLink": "20070614-indiana-science-volume-pc.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2008-05-16T00:00:00.000Z",
+    "title": "Places&Spaces: Mapping Science opens at the Chinese Academy of Sciences",
+    "source": "IU",
+    "pdfLink": "20080516-mapping-science-chinese-academy.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2008-05-26T00:00:00.000Z",
+    "title": "Macroscopes",
+    "source": "Density Design",
+    "pdfLink": "20080526-density-design.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2008-06-08T00:00:00.000Z",
+    "title": "Mappping Science",
+    "source": "Open Learning",
+    "pdfLink": "20080608-mapping-science.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2009-01-01T00:00:00.000Z",
+    "title": "Map of Science Looks Like Milky Way",
+    "source": "Wired",
+    "pdfLink": "20090101-keim-brandon.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2009-03-11T00:00:00.000Z",
+    "title": "User Clickstreams Lead to a \"Map of Science\"",
+    "source": "Wired",
+    "pdfLink": "20090311-news-staff.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2009-05-10T00:00:00.000Z",
+    "title": "NextNow Collab Visualization Expert Bonnie DeVarco at Stanford Media",
+    "source": "Next Now Collaboratory",
+    "pdfLink": "20090510-nextnow-collaboratory.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2009-05-13T00:00:00.000Z",
+    "title": "Art and technology of Science Visualizations, Stanford University",
+    "source": "VizWorld",
+    "pdfLink": "20090513-vizworld.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2010-01-01T00:00:00.000Z",
+    "title": "Signs From Earth",
+    "source": "Dennis Dimick Blog",
+    "pdfLink": "20100101-signs-from-earth.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2010-05-26T00:00:00.000Z",
+    "title": "Science Maps Explore New Ways of Displaying Information",
+    "source": "Scientific American",
+    "pdfLink": "20100526-matson-john.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2010-11-20T00:00:00.000Z",
+    "title": "Atlas of Science: Visualizing What We Know",
+    "source": "MAA",
+    "pdfLink": "20101120-maa-review.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2010-11-28T00:00:00.000Z",
+    "title": "Santa's sleigh stuffed with science",
+    "source": "UsaToday",
+    "pdfLink": "20101128-vergano-dan.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2010-12-04T00:00:00.000Z",
+    "title": "Science News",
+    "source": "Science News Digital",
+    "pdfLink": "20101204-science-news.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2010-12-23T00:00:00.000Z",
+    "title": "Communication: Mapping Science",
+    "source": "Nature",
+    "pdfLink": "20101223-mapping-science.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2010-12-28T00:00:00.000Z",
+    "title": "Book - A Christmas List",
+    "source": "Nature",
+    "pdfLink": "20101228-book-christmas-list.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2011-01-28T00:00:00.000Z",
+    "title": "A day of maps and visualizations",
+    "source": "Sciblogs",
+    "pdfLink": "20110128-aimeee-whitcroft.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2011-02-11T00:00:00.000Z",
+    "title": "Data as Art: Bounds and Vision",
+    "source": "AAAS",
+    "pdfLink": "20110211-bounds-vision.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2011-03-08T00:00:00.000Z",
+    "title": "Data as Art: Striking Science Maps",
+    "source": "Wired",
+    "pdfLink": "20110308-data-as-art-striking-science.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2011-03-20T00:00:00.000Z",
+    "title": "Plotting a Library",
+    "source": "Chronicle",
+    "pdfLink": "20110320-plotting-a-library.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2011-03-28T00:00:00.000Z",
+    "title": "Atlas of Science: Visualizing What We Know",
+    "source": "Powells",
+    "pdfLink": "20110328-powell-book-atlas-of-science.pdf",
+    "image": "image.jpg"
+  },
+  {
+    "date": "2011-12-14T00:00:00.000Z",
+    "title": "The functional anatomy of science mapping",
+    "source": "AKJournals",
+    "pdfLink": "20111214-scientometrics-borner.pdf",
+    "image": "image.jpg"
+  }
+]
