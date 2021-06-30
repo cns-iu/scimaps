@@ -40,6 +40,15 @@ jobs:
         working-directory: website
       - run: cp -r admin website/dist/scimaps
         working-directory: '.'
+      - name: Setup GitHub Pages files
+        working-directory: website
+        run: |
+          cp dist/scimaps/index.html dist/scimaps/404.html
+          touch dist/scimaps/.nojekyll
+      - name: Setup Netlify files
+        working-directory: website
+        run: |
+          echo '/* /index.html 200' > dist/scimaps/_redirects
 
       - uses: peaceiris/actions-gh-pages@v3
         with:
@@ -54,4 +63,5 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_DEPLOY_MESSAGE: "Staging deploy to Netlify"
           NETLIFY_DEPLOY_TO_PROD: true
+          build_command: false
           build_directory: website/dist/scimaps
