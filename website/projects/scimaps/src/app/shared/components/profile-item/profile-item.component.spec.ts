@@ -1,7 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ProfileItemComponent } from './profile-item.component';
-
-import { Shallow } from 'shallow-render';
 import { Profile } from '../../../core/models/profile';
 import { ProfileItemModule } from './profile-item.module';
 import { DebugElement } from '@angular/core';
