@@ -47,10 +47,11 @@
             </div> 
         </div>
         <div *sciBreakpoint="'mobile-'" class="mobile-tabs">
-            <div class="mobile-tab">
-                Discover Macroscopes
+            <div class="mobile-button" *ngFor="let tab of tabHeaders;">
+                {{tab}}
                 <mat-icon class="mobile-icon">chevron_right</mat-icon>
             </div>
+            <div class="spacer-48"></div>
         </div>
     </div>
 
