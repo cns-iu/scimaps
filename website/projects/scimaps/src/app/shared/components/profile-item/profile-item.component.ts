@@ -1,3 +1,4 @@
+import { animate, style, transition, trigger } from '@angular/animations';
 import { Component, Input } from '@angular/core';
 import { Profile } from '../../../core/models/profile';
 
@@ -5,6 +6,30 @@ import { Profile } from '../../../core/models/profile';
   selector: 'sci-profile-item',
   templateUrl: './profile-item.component.html',
   styleUrls: ['./profile-item.component.scss'],
+  animations: [
+    trigger('contentTrigger', [
+      transition(':enter', [
+        style({
+          opacity: 1,
+          height: '0px',
+        }),
+        animate('300ms ease-out', style({
+          opacity: 1,
+          height: '*'
+        })),
+      ]),
+      transition(':leave', [
+        style({
+          opacity: 1,
+          height: '*'
+        }),
+        animate('200ms ease-in', style({
+          opacity: 0,
+          height: 0
+        }))
+      ]),
+    ])
+  ]
 })
 export class ProfileItemComponent {
   @Input() profile!: Profile;
@@ -26,14 +51,8 @@ export class ProfileItemComponent {
   get partialContent(): string {
     const {
       fullContent,
-      maxContentLength,
-      hasLongContent,
-      fullContentVisible,
+      maxContentLength
     } = this;
-
-    if (!hasLongContent || fullContentVisible) {
-      return fullContent;
-    }
     return `${fullContent.slice(0, maxContentLength)}...`;
   }
 

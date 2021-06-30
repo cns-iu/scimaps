@@ -39,20 +39,8 @@ $single-column-max-width: 640px;
           text-decoration: underline;
         }
       }
-      // Normally
-      .markdown.full {
-        display: none;
-      }
-      @media screen and (max-width: $mobile)  {
-        .markdown.full {
-          display: block;
-        }
-        .markdown.partial {
-          display: none;
-        }
-        .show-more {
-          display: none;
-        }
+      .full {
+        overflow: hidden;
       }
     }
   }

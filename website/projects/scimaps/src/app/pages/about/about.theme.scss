@@ -59,3 +59,15 @@
 .spacer-24 {
   margin-bottom: 1.5rem;
 }
+.spacer-48 {
+  margin-bottom: 3rem;
+}
+
+// Common style for all links
+a {
+  color: #8dc63f;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

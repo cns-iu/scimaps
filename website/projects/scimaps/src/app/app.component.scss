@@ -3,9 +3,8 @@ $desktop: 1248px;
 
 :host {
   display: block;
-  height: 100%;
-  overflow-y: auto;
-
+  // height: 100%;
+  // overflow-y: auto;
   .header {
     position: sticky;
     top: 0;
@@ -33,8 +32,4 @@ $desktop: 1248px;
       
     }
   }
-}
-
-:host(.scrolled) {
-  border-bottom: 1px solid red;
 }
