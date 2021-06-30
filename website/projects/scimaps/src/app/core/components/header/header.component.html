@@ -34,7 +34,7 @@
     <button mat-button class="mat-display-3" routerLink="/hosting" routerLinkActive="active">HOSTING</button>
   </mat-menu>
 
-  <button mat-button class="nav-item explore mat-display-3"
+  <button mat-button class="nav-item explore mat-display-3" *ngIf="false"
           [class.active]="(exploreTrigger.menuClosed | async) || exploreTrigger.menuOpen" [matMenuTriggerFor]="explore"
           #exploreTrigger="matMenuTrigger">
     EXPLORE
