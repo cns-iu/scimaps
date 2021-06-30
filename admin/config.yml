@@ -38,6 +38,17 @@ collections:
         fields:
           - { name: body, label: Description, widget: markdown }
 
+      - label: Call for Macroscopes
+        name: callForMacroscopes
+        file: content/site/callForMacroscopes.md
+        preview_path: call-for-macroscopes
+        fields:
+          - name: tabs
+            widget: list
+            fields:
+            - { name: header, label: Tab Header }
+            - { name: content, label: Tab Content, widget: markdown }
+          
       - label: Languages
         name: languages
         file: content/site/languages.md
