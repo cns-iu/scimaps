@@ -11,6 +11,7 @@
     <div [@routeAnimations]="prepareRoute(outlet)" class="content">
       <router-outlet #outlet="outlet"></router-outlet>
     </div>
-    <sci-footer [acknowledgement]="footerParameters.acknowledgement" [phoneNumber]="footerParameters.phoneNumber"></sci-footer>
   </mat-sidenav-content>
 </mat-sidenav-container>
+
+ <sci-footer [acknowledgement]="footerParameters.acknowledgement" [phoneNumber]="footerParameters.phoneNumber"></sci-footer>
