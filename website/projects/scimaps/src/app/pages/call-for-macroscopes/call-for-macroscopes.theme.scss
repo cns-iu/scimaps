@@ -4,6 +4,11 @@
   $config: mat-get-color-config($config-or-theme);
   $primary: map-get($config, primary);
   $grey: mat-palette($mat-grey);
+
+  .sci-call-for-macrosopes {
+
+  }
+
 }
 
 @mixin typography($config-or-theme) {

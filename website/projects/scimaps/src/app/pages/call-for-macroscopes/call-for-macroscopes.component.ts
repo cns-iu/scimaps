@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
@@ -7,7 +7,7 @@ import { ActivatedRoute, Params } from '@angular/router';
   styleUrls: ['./call-for-macroscopes.component.scss']
 })
 export class CallForMacroscopesComponent implements OnInit {
-  
+  @HostBinding('class') readonly clsName = 'sci-call-for-macrosopes';
   // tabHeaders = ['General Information', 'How to Submit', 'Review & Final Submission Process'];
   tabHeaders: string[] = [];
   tabContents: string[] = []
@@ -20,6 +20,8 @@ export class CallForMacroscopesComponent implements OnInit {
     ['Iteration ready for display', 'August 31, 2021']
   ];
 
+  pdfPath = 'assets/call-for-macroscopes/call-for-macroscopes.pdf'
+  submitLink = "https://docs.google.com/forms/d/e/1FAIpQLSdHsXb8EKx226ZFPhqoiAXXN2-qOerxDbCqEgxr5qoBuFyO7w/closedform"
 
   constructor(private route: ActivatedRoute) {
   }
@@ -42,5 +44,9 @@ export class CallForMacroscopesComponent implements OnInit {
 
   updateActivePageTab(index: number): void {
     this.activePageTab = index;
+  }
+
+  submitMacroscope(): void {
+    window.open(this.submitLink, '_blank');
   }
 }

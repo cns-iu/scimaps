@@ -1,17 +1,22 @@
 <h1 class="header1"> Call for Macroscopes </h1>
 
 <div>
-    Banner
+    Banners
+</div>
+
+<div class="spacer-72">
 </div>
 
 <div class="row">
     <div class="due">
-        Submissions due: March 15, 2021 /
+        <h4> Submissions due: March 15, 2021 / </h4>
     </div>
     <div class="download">
-        <a href="">
-            Download Details PDF
-        </a>
+        <h4>
+            <a [href]="pdfPath" target="_blank" rel="noopener noreferrer">
+                Download Details PDF
+            </a>
+        </h4>
     </div>
 </div>
 
@@ -24,7 +29,7 @@
         <div *sciBreakpoint="'mobile+'" class="tabs">
             <sci-tab-header class="tab-header" [tabs]="tabHeaders" (activeTabIndexChanged)="updateActivePageTab($event)">
             </sci-tab-header>
-            <div class="spacer-24">
+            <div class="spacer-48">
             </div>
             <div class="tab-content">
                 <ng-template [ngIf]="activePageTab == 0">
@@ -41,19 +46,18 @@
                 </ng-template> 
             </div> 
         </div>
-        <div *sciBreakpoint="'mobile-'">
-            <div>
-                Tabs for mobile
+        <div *sciBreakpoint="'mobile-'" class="mobile-tabs">
+            <div class="mobile-tab">
+                Discover Macroscopes
+                <mat-icon class="mobile-icon">chevron_right</mat-icon>
             </div>
         </div>
     </div>
 
     <div class="col2">
-        <div>
-            <button class="submit">
-                Submit a Macroscope
-            </button>
-        </div>
+        <button type="button"class="submit" (click)="submitMacroscope()">
+            SUBMIT MACROSCOPE
+        </button>
         <div class="spacer-16"></div>
         <div class="call-out">
             <sci-call-out [title]="'Important Dates'" [items]="importantDates"></sci-call-out>

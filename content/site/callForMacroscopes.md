@@ -79,4 +79,35 @@ tabs:
 
 
       Authors are welcome to use the expertise and resources of the exhibit curators and designers. The macroscopes are expected to be ready for display by August 31, 2021.
+
+
+      #### Exhibit Advisory Board
+
+
+      * Gary Berg-Cross, Cognitive psychologist
+
+      * Donna Cox, Advanced Visualization Laboratory, University of Illinois at Urbana-Champaign
+
+      * Bonnie DeVarco, Media X, Stanford University
+
+      * Ingo Günther, Karlsruhe Univerity of Art and Design
+
+      * Francis Harvey, Cartography and Visual Communication, Leipzig University
+
+      * Peter A. Hook, LawArXiv, Cornell Law Library
+
+      * Lev Manovich, Computer Science, The Graduate Center, City University of New York
+
+      * Elijah Meeks, Netflix
+
+      * André Skupin, Geography, San Diego State University
+
+      * Olga Subiros, Big Bang Data, Olga Subiros Studio
+
+      * Stephen Uzzo, New York Hall of Science
+
+      * Benjamin Wiederkehr, Interactive Things
+
+
+      Please feel free to send any questions you might have regarding the judging process to Katy Börner (ude.anaidni@ytak) and use the subject heading “Macroscope Inquiry.”
 ---

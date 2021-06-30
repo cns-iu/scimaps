@@ -8,7 +8,16 @@ $desktop: 1248px;
   .row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    @include screen.breakpoint(mobile) {
+      flex-direction: column;
+    }
+
+    .download {
+      margin-left: 0.5rem;
+      @include screen.breakpoint(mobile) {
+        margin-left: 0;
+      }
+    }
   }
 
   .main-content {
@@ -34,14 +43,25 @@ $desktop: 1248px;
           // border: 1px solid black;
         }
       }
+      .mobile-tabs {
+        display: flex;
+        flex-direction: column;
+        .mobile-tab {
+        }
+      }
     }
     .col2 {
       display: flex;
       flex-direction: column;
-
+      @include screen.breakpoint(tablet, desktop) {
+        margin-left: 4rem;
+      }
       button.submit {
         width: 100%;
-        border: 1px solid black;
+        height: 2rem;
+        background-color: white;
+        color: #7996a3;
+        border: 2px solid #7996a3;
       }
       .call-out {
         flex: 1;

@@ -7,6 +7,7 @@ import { CallOutModule } from '../../shared/components/call-out/call-out.module'
 import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.module';
 import { SharedModule } from '../../shared/shared.module';
 import { MarkdownModule } from 'ngx-markdown';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { MarkdownModule } from 'ngx-markdown';
     CallOutModule,
     TabHeaderModule,
     MarkdownModule,
+    MatIconModule,
     SharedModule
   ]
 })
