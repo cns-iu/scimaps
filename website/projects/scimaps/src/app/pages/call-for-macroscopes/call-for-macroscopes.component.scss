@@ -69,8 +69,9 @@ $desktop: 1248px;
     .col2 {
       display: flex;
       flex-direction: column;
-      @include screen.breakpoint(tablet, desktop) {
-        margin-left: 4rem;
+      margin-left: 2rem;
+      @include screen.breakpoint(mobile) {
+        margin-left: 0;
       }
       button.submit {
         width: 100%;
