@@ -12,4 +12,4 @@ location_name: New York, NY, USA
 region: n_america
 image: image.jpg
 ---
-
+Lev Manovich is professor at the City University of New York (CUNY) Graduate Center and author of several books on digital culture, including the recent Software Takes Command (Bloomsbury Academic, 2013). In 2007, Manovich founded the Software Studies Initiative in order to develop a new paradigm of Cultural Analytics through data analysis and interactive visualization of patterns and trends in media and visual cultures.

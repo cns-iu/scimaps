@@ -18,6 +18,8 @@ collections:
         file: content/site/about.md
         preview_path: about
         fields:
+          - { name: overviewParagraph, label: Overview Paragraph, widget: markdown }
+          - { name: overviewQuote, label: Overview Quote, widget: markdown }
           - { name: curatorsDescription, label: Curators Description, widget: markdown }
           - { name: advisoryBoardDescription, label: Advisory Board Description, widget: markdown }
           - { name: ambassadorsDescription, label: Ambassadors Description, widget: markdown }
@@ -114,7 +116,7 @@ collections:
           - { value: africa, label: Africa }
           - { value: australia, label: Australia }
       - { name: image, label: Image, widget: image, required: false }
-      - { name: body, label: Bio, required: false }
+      - { name: body, label: Bio, required: false, widget: markdown }
 
   - name: book
     label: Books
@@ -134,11 +136,11 @@ collections:
         widget: relation
         multiple: true
         collection: person
-        search_fields: ['firstName', 'lastName']
+        search_fields: ['name', 'lastName']
         value_field: '{{slug}}'
-        display_fields: ['{{firstName}} {{lastName}}']
+        display_fields: ['{{name}} {{lastName}}']
       - { name: publisher, label: Publisher }
-      - { name: pdfLink, label: PDF Link }
+      - { name: pdfLink, label: PDF Link, required: false }
       - { name: amazonLink, label: Amazon Link }
       - name: bookImages
         label: Book Images
@@ -146,7 +148,9 @@ collections:
         min: 1
         summary: '{{fields.image}}'
         widget: list
-        field: { name: image, label: Image, widget: image }
+        fields:
+          - { name: sm, label: "Mobile (sm) Version" , widget: image }
+          - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
       - { name: body, label: Abstract, widget: markdown }
 
   - name: news
@@ -162,9 +166,39 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: source, label: Source }
-      - { name: pdfLink, label: PDF Link }
-      - { name: image, label: Image, widget: image }
+      - { name: sourceUrl, label: Source URL }
+      - { name: pdfLink, label: PDF Link, widget: file }
+      - { name: image, label: Image, widget: image, required: false }
       - { name: body, label: Body, widget: markdown }
+
+  - name: venue
+    label: Venues
+    folder: content/venues
+    path: "{{year}}/{{month}}-{{day}}/{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: venue/{{year}}/{{month}}-{{day}}/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: dateStart, label: Start Date, widget: datetime }
+      - { name: dateEnd, label: End Date, widget: datetime }
+      - { name: title, label: Exhibit Name }
+      - { name: venue, label: Venue }
+      - { name: credit, label: Credit }
+      - { name: city, label: City }
+      - { name: state, label: State }
+      - { name: country, label: Country }
+      - { name: pdfLink, label: PDF Link, widget: file }
+      - name: venueImages
+        label: Venue Images
+        label_singular: Venue Image
+        min: 1
+        summary: '{{fields.image}}'
+        widget: list
+        fields:
+          - { name: sm, label: "Small Version", widget: image }
+          - { name: lg, label: "Large Version", widget: image }
 
   - name: gallery
     label: Galleries

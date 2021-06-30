@@ -1,5 +1,6 @@
 [
   {
+    "body": "Achim Oberg is senior researcher at the University of Mannheim and affiliated with the WU Vienna University of Economics and Business. His research focuses on organizational self-representations on the World Wide Web as a means to understand the structure of organizational fields and the diffusion of concepts in and between fields.\n",
     "name": "Achim Oberg",
     "last_name": "Oberg",
     "image": "image.jpg",
@@ -8,6 +9,7 @@
     ]
   },
   {
+    "body": "Alan Mislove is an assistant professor at the College of Computer and Information Science at Northeastern University. He received his PhD from Rice University in 2009, and was a postdoctoral researcher at the Max Planck Institute for Software Systems (MPI-SWS) in the summer of 2009. Prof. Mislove's research concerns distributed systems and networks, with a focus on using social networks to solve systems problems. In particular, his research is focused on studying computer systems that enable communication among people, such as online social networks, and designing, building, deploying, and evaluating innovative systems of this kind. He is a recipient of the prestigious NSF Career Award (2011), and his work has been covered by New Scientist, The New York Times, and the CBS Evening News.\n",
     "name": "Alan Mislove",
     "last_name": "Mislove",
     "image": "image.jpg",
@@ -16,6 +18,7 @@
     ]
   },
   {
+    "body": "Alan Porter is professor emeritus of Industrial & Systems Engineering, and of Public Policy, at Georgia Tech, where he is co-director of the Technology Policy and Assessment Center. He is also director of R&D for Search Technology, Inc., Norcross, GA (producers of VantagePoint and Thomson Data Analyzer software). He is author or co-author of some 230 articles and books, including Tech Mining (Wiley, 2005) and Forecasting and Management of Technology (Wiley, 2011). Current research emphasizes “forecasting innovation pathways” for newly emerging technologies. This entails text mining of science, technology, and innovation information resources to generate Competitive Technical Intelligence.\n",
     "name": "Alan Porter",
     "last_name": "Porter",
     "roles": [
@@ -30,6 +33,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Albert-László Barabási holds an MS in theoretical physics from Eötvös Loránd University in Budapest, Hungary, and a PhD from Boston University. He is a distinguished university professor at Northeastern University, where he directs the Center for Complex Network Research, and holds appointments in the Departments of Physics, Computer Science, Biology, and Medicine. He also teaches at Harvard Medical School and Brigham and Women’s Hospital. Barabási is a member of the Center for Cancer Systems Biology at Dana-Farber Cancer Institute. He authored Linked: The New Science of Networks and coedited The Structure and Dynamics of Networks.\n",
     "name": "Albert-László Barabási",
     "last_name": "Barabási",
     "image": "image.jpg",
@@ -38,6 +42,7 @@
     ]
   },
   {
+    "body": "Alessandro Vespignani is James H. Rudy Professor of Informatics and Computing and adjunct professor of physics and statistics at Indiana University, where he is also the director of the Center for Complex Networks and Systems Research (CNetS) and associate director of the Pervasive Technology Institute. He obtained his PhD at the University of Rome “La Sapienza.” After holding research positions at Yale University and Leiden University, he was a member of the condensed matter research group at the International Center for Theoretical Physics (UNESCO) in Trieste. Before joining Indiana University, Vespignani was faculty of the Laboratoire de Physique Théorique at the University of Paris-Sud, working for the French National Council for Scientific Research (CNRS), of which he is still a member at large. Vespignani is an elected fellow of the American Physical Society and is serving on the board/leadership of a variety of professional associations and journals and the Institute for Scientific Interchange Foundation in Turin, Italy.\n",
     "name": "Alessandro Vespignani",
     "last_name": "Vespignani",
     "image": "image.jpg",
@@ -46,6 +51,7 @@
     ]
   },
   {
+    "body": "Alex Soojung-Kim Pang is a research director at IFTF. He holds a PhD in history and sociology of science from the University of Pennsylvania. Pang brings strong historical and theoretical perspectives to his work on the future of pervasive computing, the end of cyberspace, and the coevolution of technology and society. He is also the founding editor of Future Now, IFTF's blog on emerging technologies, and is involved in other IFTF experiments involving social networking media, new publishing platforms, and futures research.\n",
     "name": "Alex Soojung-Kim Pang",
     "last_name": "Soojung-Kim Pang",
     "image": "image.jpg",
@@ -54,6 +60,7 @@
     ]
   },
   {
+    "body": "Alkim A. A. Salah received a BS in industrial design and an MA in art history from Istanbul Technical University and a PhD from UCLA’s Department of Art History. She designed this map while working as a postdoctoral researcher at the Royal Netherlands Academy of Arts and Sciences (KNAW). Her research focuses on digital humanities, art history, data visualization, and bibliometrics.\n",
     "name": "Alkim Almila Akdag Salah",
     "last_name": "Salah",
     "image": "image.jpg",
@@ -62,24 +69,23 @@
     ]
   },
   {
-    "name": "Andr&eacute; Skupin",
-    "image": "image.jpg",
-    "affiliation": "San Diego State University",
-    "region": "North America",
-    "city": "San Diego, CA",
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -117.07129621694821,
-        32.776079588285334
-      ]
-    },
+    "body": "André Skupin is an associate professor of geography at San Diego State University. Previously he held an associate professorship at the University of New Orleans. He received a master's degree in cartography at the Dresden University of Technology, Germany, and a doctoral degree in geography at the State University of New York at Buffalo. During his graduate studies he performed research at the National Center for Geographic Information and Analysis (NCGIA). He has worked in the geographic information systems (GIS) industry in Germany, the United States, and South Africa. Skupin's core research area is the application of geographic metaphors, cartographic principles, and computational methods in the visualization of nongeographic information. His research is strongly interdisciplinary, aimed especially at increased cross-fertilization between geography, information science, and computer science. For example, he has developed new approaches to creating map-like knowledge domain visualizations on the basis of high-dimensional vector space models and artificial neural networks. Other recent work includes novel methods for visualizing individual human movement and demographic change as trajectories in n-dimensional attribute space. His research results have been published in such journals as IEEE Computer Graphics and Applications, Computing in Science and Engineering, and the Proceedings of the National Academy of Sciences. Skupin has served as coeditor of a book on self-organizing maps, a special issue of Environment and Planning B: Planning and Design, and the 2007 U.S. National Report to the International Cartographic Association, which was published as a special issue of Cartography and Geographic Information Science.\n",
+    "name": "André Skupin",
+    "last_name": "Skupin",
     "roles": [
       "maker",
+      "ambassador",
       "advisory_board"
-    ]
+    ],
+    "jobTitle": "Associate Professor of Geography",
+    "affiliation": "San Diego State University",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-117.07129621694821, 32.776079588285334]}",
+    "location_name": "San Diego, CA, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
+    "body": "Andrea Scharnhorst holds an MA in physics and a PhD in philosophy of science from the Humboldt University of Berlin, Germany. At KNAW, she is a senior research fellow, head of research at Data Archiving and Networked Services (DANS), and a member of the e-humanities group, with a focus on mathematical models and methods at the interface between physics, information sciences, social sciences, and the humanities.\n",
     "name": "Andrea Scharnhorst",
     "last_name": "Scharnhorst",
     "roles": [
@@ -94,6 +100,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Andrew Plume holds a PhD in plant molecular biology and leads the team. He frequently presents on bibliometrics topics such as the emergence of alternative metrics.\n",
     "name": "Andrew Plume",
     "last_name": "Plume",
     "image": "image.jpg",
@@ -115,6 +122,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Andrew Winterman is currently a javascript engineer at Urban Airship.\n",
     "name": "Andrew Winterman",
     "last_name": "Winterman",
     "image": "image.jpg",
@@ -123,6 +131,7 @@
     ]
   },
   {
+    "body": "Andrew Witherspoon is an information and interactive designer currently living in New York City. By day he is dashboardin' at Chartbeat. At night he does freelance data & UI design. He was born and raised in Kansas, where his family lives.\n",
     "name": "Andrew Witherspoon",
     "last_name": "Witherspoon",
     "image": "image.jpg",
@@ -131,6 +140,7 @@
     ]
   },
   {
+    "body": "Angela Zoss holds a BA in cognitive science and in communication and culture from Indiana University and an MS in communication from Cornell University. She is a doctoral candidate at the Department of Information and Library Science, School of Informatics and Computing at Indiana University. Her research focuses on scientometric descriptions and evaluations of scholarly communication and the use of knowledge domain visualizations for navigation and information-seeking tasks. Additional research interests include visual literacy and differences in interpretation strategies across academic disciplines. She created this map when working as a research assistant in the Cyberinfrastructure for Network Science Center. In 2012, she joined Duke University as data visualization coordinator.\n",
     "name": "Angela Zoss",
     "last_name": "Zoss",
     "image": "image.jpg",
@@ -139,6 +149,7 @@
     ]
   },
   {
+    "body": "Anna Barford has an MA in the research methods of sociology from the University of Nottingham. She helped to oversee this project, wrote the informative text that accompanies each map, sourced the quotes used, and produced the posters.\n",
     "name": "Anna Barford",
     "last_name": "Barford",
     "image": "image.jpg",
@@ -147,14 +158,16 @@
     ]
   },
   {
-    "name": "Anna Rosling R&ouml;nnlund",
-    "last_name": "Rosling Ronlund",
+    "body": "Anna is a co-founder and board member of the Gapminder Foundation. She holds a degree in sociology and photography. Anna designed the user-interface of the famous animating bubble-chart tool called Trendalyzer, used by millions of students across the world, to understand multidimensional time series. The tool was acquired by Google where Anna worked as senior usability designer, where she designed interactive search results for statistical queries as well as the Motion Chart in Google Spreadsheets. Anna went back to Gapminder in 2011 to develop new free teaching material. As product manager, art director & usability lead of the Gapminder Foundation, she is running the Dollar Street project which makes everyone's living condition understandable to all, by using photos as big data.\n",
+    "name": "Anna Rosling Rönnlund",
+    "last_name": "Rönnlund",
     "image": "image.jpg",
     "roles": [
       "maker"
     ]
   },
   {
+    "body": "Aric Hagberg is a staff scientist at the Los Alamos National Laboratory. His research focuses on nonlinear dynamics, complex systems, and network dynamics. He led development of the NetworkX project, a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.\n",
     "name": "Aric Hagberg",
     "last_name": "Hagberg",
     "image": "image.jpg",
@@ -163,6 +176,7 @@
     ]
   },
   {
+    "body": "Bailey Klinger has an MPA in international development and a PhD in public policy from Harvard University's John F. Kennedy School of Government. His research focuses on entrepreneurship and small-business finance, as well as trade, structural transformation, and growth. He has consulted for the World Bank, United Nations, Inter-American Development Bank, Asian Development Bank, and various country governments in Africa, Asia, and Latin America.\n",
     "name": "Bailey Klinger",
     "last_name": "Klinger",
     "image": "image.jpg",
@@ -171,6 +185,7 @@
     ]
   },
   {
+    "body": "Ben Wheeler has a BS in environmental sciences from the University of East Anglia and a PhD from the University of Bristol, where he is currently a research fellow. His advice was invaluable toward ensuring optimal information quality for this project.\n",
     "name": "Ben Wheeler",
     "last_name": "Wheeler",
     "image": "image.jpg",
@@ -179,6 +194,7 @@
     ]
   },
   {
+    "body": "Benjamin Wiederkehr is an interaction designer with a focus on data visualization and interface design. He is founding partner and managing director of Interactive Things, a user-experience design and data visualization studio he established in 2010 together with Christian Siegrist and Jeremy Stucki. The Zurich-based team designs and implements interactive products and information visualizations for national and international clients including the UNDP, UNESCO, Mozilla, and National Geographic. Interactive Things is also part of the Open Government Data task force in Switzerland (Opendata.ch) and helps to facilitate an open access to government data for everyone. On Datavisualization.ch, Benjamin provides insight into his research and working process as well as documents topical use cases in the field of data visualization. His work and research interests center around persuasive technology, information, and knowledge visualization and cartography.\n",
     "name": "Benjamin Wiederkehr",
     "last_name": "Wiederkehr",
     "roles": [
@@ -194,6 +210,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Berend Snel holds a PhD from the University of Heidelberg and works as an associate professor in the Department of Biology at Utrecht University, Netherlands. He leads the Evolutionary Genomics and Integrative Bioinformatics group, which conducts research on evolutionary genomics, specifically the evolutionary dynamics of the genes within the genome from the point of view of their function in fundamental cellular processes.\n",
     "name": "Berend Snel",
     "last_name": "Snel",
     "image": "image.jpg",
@@ -202,6 +219,7 @@
     ]
   },
   {
+    "body": "Bern Porter was a 20th century Renaissance man who made his mark on a number of disparate fields, a testament to his capacious intellect and his boundless curiosity. Soon after being trained in physics at Colby College and Brown University, Porter contributed to the development of the cathode ray tube. During World War II, Porter was involved with the Manhattan Project, working with researchers in Oak Ridge, Tennessee, to separate highly enriched uranium for the purposes of creating nuclear weaponry. After the deployment of atomic weapons on Hiroshima and Nagasaki, Porter regretted his involvement in the project and became a committed pacifist. In the 1960s, Porter worked on NASA’s Saturn V manned rocket program. Along with his scientific achievements, Porter is also known as a significant figure among the literary avant-garde. His writing uses the material of popular culture (junk mail, instructional booklets, advertisements, etc.) to create an experimental poetics, what he called “Founds.”\n",
     "name": "Bernard Porter",
     "last_name": "Porter",
     "image": "image.jpg",
@@ -237,6 +255,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Bradford Demarest is a graduate student at the Department of Information and Library Science, School of Informatics and Computing at Indiana University. He started this project as part of his Information Visualization course work and completed it in close collaboration with John A. Walsh.\n",
     "name": "Bradford Demarest",
     "last_name": "Demarest",
     "image": "image.jpg",
@@ -253,6 +272,7 @@
     ]
   },
   {
+    "body": "Brett channels his substantial programming knowledge, analytic mind, and penchant for experimentation into the creation of lucid and compelling experiences. He is at ease writing algorithms for Mercator projections, Levenshtein distances, and intersections of quadratic curves. Enamored with all systems both complex and aesthetic, Brett enjoys music theory and designing typefaces. He holds a BFA with honors in applied visual art from Oregon State University.\n",
     "name": "Brett Johnson",
     "last_name": "Johnson",
     "image": "image.jpg",
@@ -261,6 +281,7 @@
     ]
   },
   {
+    "body": "Brian Castellani is professor of sociology and director of the Center for Complexity in Health, Kent State University, and also the Art and Science Factory, LLC. He is internationally recognized for his work in complexity methods; development of a case-based computational approach to modeling complex systems; involvement in complexity art; and the application of complexity theory to various topics in health and health care, including community health, medical professionalism, allostatic load, medical education, and addiction. You can follow him at his blog on all things complexity, art, and science at sacswebsite.blogspot.com.\n",
     "name": "Brian Castellani",
     "last_name": "Castellani",
     "image": "image.jpg",
@@ -269,6 +290,7 @@
     ]
   },
   {
+    "body": "Bruce W. Herr II received a BS in computer science from Indiana University. He designed this map as a full-time software developer at the Cyberinfrastructure for Network Science Center at Indiana University and subsequently joined ChalkLabs in July 2009. Herr enjoys making beautiful, extensible, usable, and maintainable software. His research interests include information visualization; human-computer interaction; taking advantage of cognitive processing in software, software design, and aesthetics in visualization; and extensible software. He made significant contributions to the functionality and design of Taxonomy Validator, InfoVis Cyberinfrastructure, Cyberinfrastructure Shell (CIShell), Network Workbench, and the Scimaps website.\n",
     "name": "Bruce Herr II",
     "last_name": "Herr",
     "image": "image.jpg",
@@ -277,6 +299,7 @@
     ]
   },
   {
+    "body": "Richard Buckminster \"Bucky\" Fuller was an inventor, philosopher, architect, engineer, cartographer, geometrician, author, and applied futurist. He is best known for the invention of the geodesic dome and the third allotrope of carbon. The “buckminsterfullerene” was named in his honor. As one of the most original thinkers of the 20th century, he was called by Marshall McLuhan \"the Leonardo da Vinci of our time.\" Fuller developed an approach to envisioning long-term trends and design artifacts for a global, sustainable environment; he called it Comprehensive Anticipatory Design Science. Fuller shaped this approach, or program, with the purpose of anticipating and solving humanity's most urgent survival problems through technologies inspired by nature's design. Fuller authored 28 books, thousands of articles, and hundreds of trend charts. He was awarded 28 U.S. patents and received 47 honorary doctorates.\n",
     "name": "Buckminster Fuller",
     "last_name": "Fuller",
     "image": "image.jpg",
@@ -285,6 +308,7 @@
     ]
   },
   {
+    "body": "\"Carlo Ratti studied civil engineering at the Politecnico di Torino, Italy, and the École Nationale des Ponts et Chaussées (ENPC) in Paris, France. He holds an MPhil and PhD in architecture from the University of Cambridge.\nHe is the director of MIT's SENSEable City Laboratory as well as lecturer at the Harvard Design School and visiting lecturer at the ENPC. Ratti is founding partner and director of Carlo Ratti Associati, an architectural design practice based in Turin, Italy. A junior fellow of the Aspen Institute, he has coauthored more than 30 scientific publications and several patents.\"\n",
     "name": "Carlo Ratti",
     "last_name": "Ratti",
     "roles": [
@@ -313,6 +337,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "César A. Hidalgo holds a bachelor's degree in physics from the Pontificia Universidad Católica de Chile and a PhD in physics from the University of Notre Dame. His work focuses on improving the understanding of economic, biologic, and social systems by using and developing concepts of complexity, evolution, and network science. In 2008, he joined the Kennedy School of Government at Harvard University as a research fellow.\n",
     "name": "Cesar A. Hidalgo",
     "last_name": "Hidalgo",
     "image": "image.jpg",
@@ -321,6 +346,7 @@
     ]
   },
   {
+    "body": "Chaomei Chen is an associate professor at the College of Information Science and Technology, Drexel University. His research interests include mapping scientific frontiers and visualization of emerging trends and patterns of scientific literature. He is the editor-in-chief of Information Visualization, and the author of Information Visualization: Beyond the Horizon (Springer-Verlag, 2004; 2nd edition, 2006) and Mapping Scientific Frontiers: The Quest for Knowledge Visualization (Springer-Verlag, 2003). He is the creator of CiteSpace, a free Java application for detecting and visualizing intellectual trends in scientific literature.\n",
     "name": "Chaomei Chen",
     "last_name": "Chen",
     "roles": [
@@ -335,6 +361,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Charles J. Minard (1781–1870) was a French civil engineer who liked to study streams and physics. In the course of his long career as an engineer, he took part in many prominent public works and the restoration of European canals, bridges, and roads after the Napoleonic Wars. Before his retirement, he published treatises on construction, including unique memoirs on partial routes, distances, traveling, and expenses. When he was nearly 65 years old, he began to publish cartes figuratives (figurative maps). Most of his early maps focused on the flow of goods and passengers along railroad, river, and sea routes of commerce. He used innovative techniques, such as pie charts, flow maps, and choropleth maps, to substitute mathematically proportioned images for dry and complicated columns of statistical data; as a result, a panoptic view became possible at first glance, and unprecedented comparisons could be made. By the early 1860s, at nearly 80 years of age, his interests shifted from economic phenomena to historical subjects, such as the movements of famous armies. In the last year of his life, he created the Carte figurative des pertes successives en hommes de l’Armée Française dans la campagne de Russie 1812–1813, also known as Napoleon’s March to Moscow.\n",
     "name": "Charles Joseph Minard",
     "last_name": "Minard",
     "image": "image.jpg",
@@ -343,6 +370,7 @@
     ]
   },
   {
+    "body": "Cheng Gao holds a BS in computer science from Beijing Language and Culture University and an MS in computer science from Beijing University of Posts and Telecommunications. She was the scientific programmer for this project while working at KNAW.\n",
     "name": "Cheng Gao",
     "last_name": "Gao",
     "image": "image.jpg",
@@ -351,6 +379,7 @@
     ]
   },
   {
+    "body": "Chris Creevey studied computer science, biology, and ecology before completing a PhD in bioinformatics at the National University of Ireland, Maynooth. As part of his postdoctoral research, he worked in the Bork Lab at EMBL, focusing on the quantification of gene-sharing events (horizontal gene transfer) in the tree of life. He is now a Stokes Lecturer at the Irish Agriculture and Food Development Authority (Teagasc), where his research group specializes in the use of next-generation genetic sequencing technologies to understand the interactions between digestive system microbial communities and their host with the aim of reducing the environmental impact of modern agricultural practices.\n",
     "name": "Chris Creevey",
     "last_name": "Creevey",
     "image": "image.jpg",
@@ -359,6 +388,7 @@
     ]
   },
   {
+    "body": "Chris Harrison holds a BS and MA in computer science from New York University’s Courant Institute of Mathematical Sciences. Since 2007, he has been a PhD student in the Human–Computer Interaction Institute at Carnegie Mellon University. Harrison has also interned at AT&T and Microsoft Research and worked as a research associate at Disney Research/Imagineering. His research interests primarily focus on mobile interaction techniques and input technologies, especially those that empower people to interact with small devices in big ways. He gets excited about large data sets and how, through computation, they can be given form via simple visual primitives that self-assemble into rich information tapestries.\n",
     "name": "Chris Harrison",
     "last_name": "Harrison",
     "image": "image.jpg",
@@ -367,6 +397,7 @@
     ]
   },
   {
+    "body": "Christian Herzog is one of the founders and managing director of ÜberResearch. He is a medical doctor by training and has also studied economics, both at the Witten/Herdecke University in Germany. Before founding ÜberResearch, Christian worked since 2010 at Elsevier, heading up as a VP the SciVal Custom Solution group and since 2012 in the role of VP Product Management for the entire SciVal product portfolio. Christian joined Elsevier in 2010 when Elsevier acquired Collexis, a European- and US-based start-up focusing in solutions for academic customers (research networking tools) and funding bodies. Christian served as EVP and managing director for Collexis for product management and sales for several years, heading up a global team. Christian lives with his family in Cologne, Germany.\n",
     "name": "Christian Herzog",
     "last_name": "Herzog",
     "image": "image.jpg",
@@ -375,6 +406,7 @@
     ]
   },
   {
+    "body": "Christian von Mering holds a BA in biochemistry from the Free University of Berlin and a PhD in developmental biology from the University of Zürich. He has worked as a postdoctoral researcher and a staff scientist at EMBL. Von Mering leads the Bioinformatics Group at the Institute of Molecular Life Sciences, University of Zürich, and the Swiss Institute of Bioinformatics in Lausanne, researching the genomes of microbial communities via a metagenomics approach.\n",
     "name": "Christian Von Mering",
     "last_name": "Von Mering",
     "image": "image.jpg",
@@ -383,6 +415,7 @@
     ]
   },
   {
+    "body": "Christine Kreuder Johnson is associate professor of epidemiology in the School of Veterinary Medicine, University of California, Davis where she works primarily on ecosystem-level process that impact wildlife and public health. Since appointment to the faculty in 2003, she has led scientific programs and large-scale population health investigations to address emerging wildlife disease, mortality events, and threats to public health and conservation. Before joining the faculty at UC Davis, she worked as a veterinarian in private equine racetrack practice. Current activities are focused on identifying situations likely to facilitate future disease emergence and developing risk-based approaches for disease surveillance and epidemiologic tools for integrating data across field studies from the local to global scale to provide evidence-based support for policy decisions.\n",
     "name": "Christine Kreuder Johnson",
     "last_name": "Kreuder Johnson",
     "image": "image.jpg",
@@ -391,6 +424,7 @@
     ]
   },
   {
+    "body": "Chris Hill specializes in the application of large-scale computation to all aspects of understanding Earth and planetary systems. He is a founding developer of the MIT general circulation model (MITgcm), a numerical simulation tool used for a wide range of basic science and applied studies in planetary fluid dynamics. Hill also helped launch the Earth System Modeling Framework (ESMF), a major open standard for creating multicomponent models of Earth system processes. Among various projects, Hill co-leads the research, education, and outreach committee of the Massachusetts Green High Performance Computing Center (MGHPCC), a multi-university enterprise dedicated to enhancing large-scale computing infrastructure.\n",
     "name": "Christopher N. Hill",
     "last_name": "Hill",
     "image": "image.jpg",
@@ -399,6 +433,7 @@
     ]
   },
   {
+    "body": "Christoph Römhild studied theology at universities in Berlin and Hamburg and at a Jewish college in London. Initially, he worked as a full-time software developer before becoming a Lutheran pastor in 2003. After some months at the Evangelical Church in Germany (EKD), where he developed a system for email response management, he moved to Hamburg and became a pastor at the North Elbian Evangelical Lutheran Church. Since 2009, Römhild has been the local project manager for the EKD-run Geistreich project, a best-practice portal for Protestant church practitioners aiming to strengthen cooperation and communication across Europe.\n",
     "name": "Christopher Romhild",
     "last_name": "Romhild",
     "image": "image.jpg",
@@ -407,6 +442,7 @@
     ]
   },
   {
+    "body": "Charles Meertens is the facility director and interim president of UNAVCO in Boulder, Colorado. UNAVCO provides GPS project support, technology development, and data management and archiving services to the UNAVCO research community—supported by the National Science Foundation (NSF)—and to NASA's Global GPS Network (GGN). He is also one of the co-principal investigators on GEON (the Geosciences Network), which began as a collaborative research project funded under the NSF Information Technology Research (ITR) program. GEON is conducting fundamental research toward developing a cyberinfrastructure for the earth sciences. Meertens is actively engaged in education and outreach activities at UNAVCO, particularly in the areas of visualization and data access. He received a PhD in geophysics from the University of Colorado in 1987 and subsequently conducted GPS research in earthquake, volcanic, and tectonic processes there, at the University of Utah, and at UCAR/UNAVCO (while the UNAVCO facility was still part of the University Corporation for Atmospheric Research).\n",
     "name": "Chuck Meertens",
     "last_name": "Meertens",
     "image": "image.jpg",
@@ -415,6 +451,7 @@
     ]
   },
   {
+    "body": "Clark Freifeld, PhD, is a research software developer at the Children's Hospital Informatics Program and co-founder of HealthMap. He studied computer science and mathematics at Yale University, and has over ten years of experience developing feature-rich web applications. His interests include web-based user-interface design, data visualization, text mining, and technologies for developing countries.\n",
     "name": "Clark Friefeld",
     "last_name": "Friefeld",
     "image": "image.jpg",
@@ -423,6 +460,7 @@
     ]
   },
   {
+    "body": "Claudius Ptolemy (circa AD 90–168) was a profoundly influential astronomer, astrologer, geographer, and mathematician. Also known as Claudius Ptolemaeus, Ptolomaeus, Klaudios Ptolemaios, and Ptolemeus, he lived and worked in Alexandria, Egypt. His curiosity about the dynamic relationships between celestial bodies and the causes and effects of climate led him to invent a longitude and latitude grid system to construct maps of the world. His mathematical proofs stating that the Earth is a sphere are still accepted today, in spite of the fact that he placed this sphere as a fixed point in the center of a universe that revolved around it daily. Ptolemy synthesized and extended Hipparchus’s system of epicycles and circles to develop a geocentric theory of the solar system. His theory required more than 80 epicycles to explain the motions of the sun, the moon, and the five planets known in his time. It is described in Mathematical Syntaxis—widely called the Almagest—a 13-book mathematical treatment of the phenomena of astronomy, providing a means of calculating positions. The Almagest included a star catalog of 48 constellations, listing the names we still use today. Ptolemy also made major contributions to the history of geography and cartography. Ptolemy’s is the first known projection of the sphere onto a plane. His geography remained the principal work on the subject until the work of Columbus.\n",
     "name": "Claudius Ptolemy",
     "last_name": "Ptolemy",
     "image": "image.jpg",
@@ -431,6 +469,7 @@
     ]
   },
   {
+    "body": "The Council for Chemical Research (CCR) is an organization based in Washington, D.C., the membership of which represents industry, academia, and government. CCR was formed in 1979 to promote cooperation in basic research and to encourage high-quality education in the chemical sciences and engineering. The mission of the CCR is to benefit society by advancing research in chemistry, chemical engineering, and related disciplines through leadership collaboration across disciplines, institutions, and sector boundaries. As of 2011, CCR’s membership represents most of the U.S. chemical research enterprise, comprising more than 200 companies, universities, and government laboratories with a combined R&D budget of more than $7 billion. More information can be found at http://www.ccrhq.org.\n",
     "name": "Council for Chemical Research",
     "last_name": "Council",
     "image": "image.jpg",
@@ -439,6 +478,7 @@
     ]
   },
   {
+    "body": "Dr. Damien Joly is an epidemiologist whose applied and basic research activities have focused on detecting, understanding, and managing transmission of infectious disease at the human-livestock-wildlife health interface. In addition to his epidemiological research, Damien has a great interest in developing and implementing systems for managing, integrating, and sharing data and other information relevant in a One Health context. He has a particular interest in emerging and novel technologies for detection of health threats (e.g., digital disease detection) and has collaborated with the leaders in this field, Healthmap.org, for a number of years.\n",
     "name": "Damien Joly",
     "last_name": "Joly",
     "image": "image.jpg",
@@ -447,6 +487,7 @@
     ]
   },
   {
+    "body": "Daniel Kutz's holds a BS and MS in computer science from Binghamton University. He is a doctoral student at the Department of Information and Library Science, School of Informatics and Computing at Indiana University. His research interests lie in social informatics, interaction design, and information visualization. Specifically, he studies how information systems mediate interaction in online social software and how the design and representation of participants in this space influences engagement. He is also interested in using data mining and information visualization techniques to analyze large datasets, such as patent data, in order to facilitate a better understanding of the given data. Kutz's recent work focuses on understanding how young, middle-aged, and older adults conceptualize and respond to ubiquitous health-tracking technology. He also has research experience in personal health records, games for health, and computer-mediated communication.\n",
     "name": "Daniel O. Kutz",
     "last_name": "Kutz",
     "image": "image.png",
@@ -455,6 +496,7 @@
     ]
   },
   {
+    "body": "Daniel Zeller holds a BFA and an MFA in sculpture from the University of Connecticut, Storrs, and the University of Massachusetts, Amherst, respectively. He lives and works in New York as a professional artist. Daniel Zeller's drawings depict abstract spaces with beauty and inspiring complexity. The visual language he developed stimulates people's intellect and emotions in unexpected ways.Zeller's works can be seen as travel documents—charts or aerial views that reflect a wide range of sources, from satellite imagery to electron micrographs, anatomical diagrams to road maps. For Zeller, drawing, like travel, is a fluid action, a continuous response to itself, an endless effort to be present where the mark is being made. It is also a discipline in which past experience and study inform the mark, guiding it in ways that can become increasingly predictable. It thus becomes imperative to combine learned patterns into something else, to alter the predictable and discover that which is different yet somehow familiar. It is exploration, an active desire to find what is uncharted or hidden. On a geographic level, people still engage in this activity as individuals. But collectively they have reached a certain level of saturation—most of the frontiers have met one another and disappeared. Maps and charts show people where to explore and how to get to places that others have already seen.Zeller was awarded a Pollock-Krasner Foundation grant in 2001. His work is featured in the collections of the Museum of Modern Art, the Arkansas Art Center, the Los Angeles County Museum of Art, and the Whitney Museum of American Art. Recent solo exhibitions include Drawings (2001), Empirical Cryptosis (2003), Cyclical Redundance (2005), and Geomorphical Fluxitosis (2008) at Pierogi Gallery (Brooklyn, New York); Recent Drawings (2004) and New Drawings (2007) at Daniel Weinberg Gallery (Los Angeles, California); Biodegradable (2004) and Erreur Infinie (2006) at g-module (Paris, France); and Drawings (2008) at Michel Soskine Inc. (Madrid, Spain).\n",
     "name": "Daniel Zeller",
     "last_name": "Zeller",
     "image": "image.jpg",
@@ -463,6 +505,7 @@
     ]
   },
   {
+    "body": "Danny Dorling leads the Social and Spatial Inequalities (SASI) research group in the Department of Geography at the University of Sheffield and has done much work in the development of cartograms and human cartography. Responsible for having devised this project, Dorling also orchestrated the research efforts involved in gathering all of the required data.\n",
     "name": "Danny Dorling",
     "last_name": "Dorling",
     "image": "image.jpg",
@@ -471,6 +514,7 @@
     ]
   },
   {
+    "body": "Danyel Fisher is a researcher in the VIBE (Visualization and Interaction for Business and Entertainment) group at Microsoft Research. He received an MS from the University of California, Berkeley, in 2000 and a PhD in computer science from the University of California, Irvine, in 2004. His research centers on using qualitative and quantitative social network analysis and visualization to understand the ways that people in online groups interact—via e-mail, Usenet, blogs, and contemporary social software. He uses these results to design the next generation of interfaces for social software, as well as to address broader questions of social structure. His recent research looks at visualizing large data sets created from human activities, including Web server logs.\n",
     "name": "Danyel Fisher",
     "last_name": "Fisher",
     "image": "image.jpg",
@@ -479,6 +523,7 @@
     ]
   },
   {
+    "body": "Dave Menninger received a bachelor's degree in visual design from Stanford University. Since then, he has worked as a graphic and user interface designer in the San Francisco Bay Area for various computer startup companies and America Online. In 2006, he presented to the Midwest Model United Nations on peak oil and its implications. He lives with his fiancée, Monica, and their cat in Kiev, Ukraine.\n",
     "name": "Dave Menninger",
     "last_name": "Menninger",
     "image": "image.jpg",
@@ -487,6 +532,7 @@
     ]
   },
   {
+    "body": "David Chavalarias is the director of the Complex Systems Institute of Paris Île-de-France (ISC-PIF - http://iscpif.fr) and Vice-President of the Complex Systems Society (http://cssociety.org). He holds a french PhD from the École Polytechnique in cognitive sciences and is graduated from the École Normale Supérieure de Cachan in Mathematics and Computer Sciences. Currently permanent researcher at the National Center for Scientific Research (CNRS) in France, he studies social and cognitive dynamics, both from the modeling and data-mining point of view. His research is strongly interdisciplinary and includes: quantitative epistemology, information visualization, modeling of the cultural dynamics, socio-semantic networks modeling, scientific discovery processes, and cognitive economics. He has been involved in the design of several interfaces for mapping knowledge dynamics from large corpora: academic digital repositories, online media, or press. Website: http://chavalarias.com\n",
     "name": "David Chavalarias",
     "last_name": "Chavalarias",
     "roles": [
@@ -501,6 +547,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "David Dorling, Danny Dorling's father, helped with the production of technical notes. His medical knowledge was particularly useful for producing a series of maps showing the world distribution of deaths from different causes.\n",
     "name": "David Dorling",
     "last_name": "Dorling",
     "image": "image.jpg",
@@ -509,6 +556,7 @@
     ]
   },
   {
+    "body": "David E. Polley holds a BA in political science from The College of Wooster and a master’s in library and information science from Indiana University–Bloomington. From January 2011 to January 2014, he was a research assistant with the Cyberinfrastructure for Network Science Center at IU. Currently, he is a social sciences librarian at Indiana University–Purdue University Indianapolis.\n",
     "name": "David E. Polley",
     "last_name": "Polley",
     "image": "image.jpg",
@@ -517,6 +565,7 @@
     ]
   },
   {
+    "body": "David McCandless is a London-based author, data-journalist and information designer, working across print, advertising, TV and web. His design work has appeared in over forty publications internationally including The Guardian, Wired and Die Zeit. His commercial clients include Google, GE, and the BBC. His blog and book Information Is Beautiful are dedicated to visualizing ideas, issues, knowledge and data—all with the minimum of text.\n",
     "name": "David McCandless",
     "last_name": "McCandless",
     "image": "image.jpg",
@@ -525,6 +574,7 @@
     ]
   },
   {
+    "body": "David N. Wiley received his PhD in environmental studies from Antioch University with a focus on environmental decision making and conservation biology. He is an adjunct professor at the College of Science and Mathematics at the University of Massachusetts–Boston and the research coordinator for the Stellwagen Bank National Marine Sanctuary of the National Oceanic and Atmospheric Administration (NOAA). His research has ranged from studying the reproductive and foraging ecology of endangered whales to mapping toxic and hazardous marine dump sites. He is the recipient of numerous honors, including an Excellence in Scientific Communication Award from the international Society for Marine Mammalogy, an Ian Axford (Fulbright) Fellowship in Public Policy, and a U.S. Department of Commerce Gold Medal for scientific leadership. In 2012, he was profiled in the book Wildlife Heroes as one of the world’s 40 leading wildlife conservationists.\n",
     "name": "David N. Wiley",
     "last_name": "Wiley",
     "image": "image.jpg",
@@ -533,6 +583,7 @@
     ]
   },
   {
+    "body": "David Newman received his PhD from Princeton University and was a post-doctoral scholar at the California Institute of Technology (Caltech). He is an associate researcher at the Department of Computer Science, University of California, Irvine. His research focuses on topic models as well as related text-mining and machine-learning techniques. The work is marked by a commitment to combining theoretical advances with practical applications in ways that broaden access and use for individuals and communities while improving the ways that people find, discover, analyze, and understand information.\n",
     "name": "David Newman",
     "last_name": "Newman",
     "image": "image.jpg",
@@ -541,6 +592,7 @@
     ]
   },
   {
+    "body": "David Pescovitz is a research director at IFTF; a writer-in-residence for the College of Engineering, including Electrical Engineering and Computer Sciences (EECS), at the University of California, Berkeley; and coeditor of the popular blog Boing Boing. Pescovitz holds a BFA in electronic media from the University of Cincinnati and an MS in journalism from the University of California, Berkeley. Pescovitz has also written for Scientific American, Popular Science, Business 2.0, The New York Times, The Washington Post, Salon, the Los Angeles Times, IEEE Spectrum, The Industry Standard, Spin, MTV (online), Interior Design, the Discovery Channel (online), Flash Art, Small Times, Britannica Online, and New Scientist, among many other publications and websites.\n",
     "name": "David Pescovitz",
     "last_name": "Pescovitz",
     "image": "image.jpg",
@@ -549,6 +601,7 @@
     ]
   },
   {
+    "body": "David Rumsey is president of Cartography Associates, a digital publishing company based in San Francisco, and director of Luna Imaging, a provider of enterprise software for online image collections. He was a founding member of Yale Research Associates in the Arts, a group of artists working with electronic technologies. He subsequently became associate director of the American Society for Eastern Arts in San Francisco. Later, he entered a 20-year career in real estate development and finance, during which he had a long association with the General Atlantic Holding Company of New York and served as president and director of several subsidiaries. General Atlantic eventually became the Atlantic Trust, a Bermuda-based philanthropic foundation that is now one of the world's largest charities. Rumsey retired from real estate in 1995 and founded Cartography Associates, beginning a third career as a digital publisher, online library builder, and software entrepreneur.\n",
     "name": "David Rumsey",
     "last_name": "Rumsey",
     "image": "image.png",
@@ -557,6 +610,7 @@
     ]
   },
   {
+    "body": "Deb Roy is a tenured member of the MIT faculty and directs the Cognitive Machines Group at the MIT Media Lab. A native of Canada, he received his BAS in computer engineering from the University of Waterloo and his PhD in cognitive science from MIT. He joined the MIT faculty in 2000 and was named AT&T Associate Professor of Media Arts and Sciences in 2003. Roy studies how children learn language and designs machines that learn to communicate in human-like ways. To enable this work, he has pioneered new data-driven methods for analyzing and modeling human linguistic and social behavior. He has authored numerous scientific papers on artificial intelligence, cognitive modeling, human–machine interaction, data mining, and information visualization. Roy’s research has been frequently featured in The New York Times, The Wall Street Journal, WIRED, National Geographic, and Science as well as on the BBC and National Public Radio.\n",
     "name": "Deb Roy",
     "last_name": "Roy",
     "image": "image.jpg",
@@ -565,6 +619,7 @@
     ]
   },
   {
+    "body": "Devin Becker holds a BA from Williams College, an MLS from Indiana University, and an MFA in English from the University of California at Irvine. He works as digital initiatives and scholarly communications librarian at the University of Idaho. Becker is also a codesigner of Literary Empires: Mapping Temporal and Spatial Settings of Victorian Poetry. Becker’s poetry appears in Cutbank, Prairie Schooner, and Faultline, among other journals, and his tutorials on cleaning and mapping Wikileaks data with Google Fusion Tables have been published in the online journal Spatial Humanities Step by Step.\n",
     "name": "Devin Becker",
     "last_name": "Becker",
     "image": "image.jpg",
@@ -573,6 +628,7 @@
     ]
   },
   {
+    "body": "Dietmar Offenhuber holds an MS in architecture from the Vienna University of Technology and an MS in media arts and sciences from the MIT Media Lab. He was a founding member of the Ars Electronica Futurelab. From 2009 to 2010, he worked as a professor at the University of Arts Linz and as a researcher at the Ludwig Boltzmann Institute Media.Art.Research. in Linz, Austria. In 2009, he joined MIT’s SENSEable City Lab as a PhD student and research fellow with a deep interest in the spatial concepts of cognition, representation, and behavior.\n",
     "name": "Dietmar Offenhuber",
     "last_name": "Offenhuber",
     "image": "image.jpg",
@@ -581,6 +637,7 @@
     ]
   },
   {
+    "body": "Dimitris Menemenlis is a research scientist at the Jet Propulsion Laboratory (JPL). His research interests pertain to studies of the global ocean circulation and its interaction with land ice, sea ice, and biogeochemical cycles; the utilization and interpretation of satellite and in-situ ocean and sea ice data; and the development and application of parameterizations and data assimilation strategies for the Massachusetts Institute of Technology general circulation model (MITgcm). Among various projects, Menemenlis leads Estimating the Circulation and Climate of Ocean-Ice interactions in Earth System models (ECCO-IcES) and is a member of Carbon Monitoring System Flux estimation and attribution (CMS-Flux).\n",
     "name": "Dimitris Menemenlis",
     "last_name": "Menemenlis",
     "image": "image.jpg",
@@ -589,6 +646,7 @@
     ]
   },
   {
+    "body": "Dino Citraro is Head of Strategic Design and Operations at Periscopic, and has a strong background in problem solving, creative direction, and writing. A sixteen-year veteran of the multimedia industry, his work has spanned traditional websites, interactive motion pictures, multi-player online games, immersive data visualizations, and interactive hardware installations. He is the Visualization Editor of the Big Data journal, as well as a contributing blogger to several industry sites. He is also an accomplished photographer, a published poet, and has written and illustrated seven children's books.\n",
     "name": "Dino Citraro",
     "last_name": "Citraro",
     "image": "image.jpg",
@@ -605,6 +663,7 @@
     ]
   },
   {
+    "body": "Dominique Alicia is Principal & Interactive Designer at Whitten & Burr.\n",
     "name": "Domanique Alicia",
     "last_name": "Alicia",
     "image": "image.jpg",
@@ -640,6 +699,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Edith M. Punt graduated from McGill University in Montreal with a BSc in physical geography and Northern studies. After an apprenticeship in cartography with Nunavik Graphics in Montreal, she went on to the College of Geographic Sciences in Nova Scotia, where she earned a diploma in cartography, and was recognized by the Nova Scotia House of Assembly for outstanding achievement in cartography. She was the recipient of the Nicholson Cartographic Scholarship in 1995 and the President's Prize for Best Colour Map in 1996—both from the Canadian Cartographic Association. In 1996 she also won the National Geographic Society Award in Cartography and the Intergraph Award in Computer Cartography from the Canadian Institute of Geomatics. She has been a cartographer and writer at ESRI in Redlands, California, since 1996.\n",
     "name": "Edith M. Punt",
     "last_name": "Punt",
     "image": "image.jpg",
@@ -648,6 +708,7 @@
     ]
   },
   {
+    "body": "Edmund (Ned) Talley received his PhD in neuroscience from the University of Virginia. He is a program director for basic research in synaptic transmission at the National Institute of Neurological Disorders and Stroke, part of the National Institutes of Health (NIH). His interest in textual analysis and visual analytics initially resulted from NIH strategic planning efforts in which the need for better analytic tools for assessing NIH funding became apparent.\n",
     "name": "Edmund Talley",
     "last_name": "Talley",
     "image": "image.jpg",
@@ -656,6 +717,7 @@
     ]
   },
   {
+    "body": "Elijah Meeks is the digital humanities specialist in Stanford University Library. His work has included design, software development and data modeling for projects such as the Digital Gazetteer of the Song Dynasty and Kindred Britain.\n",
     "name": "Elijah Meeks",
     "last_name": "Meeks",
     "roles": [
@@ -670,6 +732,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Elisha F. H. Allgood (formerly Hardy) holds a BA in fine arts and an MA in human computer interaction design from Indiana University. She was a member of the Cyberinfrastructure for Network Science Center, led by Katy Börner, and a graduate student in human–computer interaction design at IU’s School of Informatics and Computing when she designed this map. Currently, she is based in New York as the lead user experience (UX) designer for science curriculum at Wireless Generation, a company dedicated to improving education and technology’s use in education. She enjoys solving the challenging problems of teaching complex science concepts to students while integrating technology into the classroom.\n",
     "name": "Elisha F. H. Allgood",
     "last_name": "Allgood",
     "image": "image.jpg",
@@ -678,6 +741,7 @@
     ]
   },
   {
+    "body": "Eric Fischer is a data artist and software developer currently residing in Oakland, California. He holds a bachelor’s degree in linguistics from the University of Chicago. Over the course of his career, Fischer has served as a software engineer on the Android team at Google and was artist in residence at the Exploratorium in San Francisco. Currently, he creates innovative data visualizations for Mapbox, a mapping platform for developers. Fischer’s maps have been shown at the Museum of Modern Art and featured in many publications, including Wired, Popular Science, and Best American Infographics.\n",
     "name": "Eric Fischer",
     "last_name": "Fischer",
     "image": "image.jpg",
@@ -699,6 +763,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Eugene Garfield is chairman emeritus of the Institute for Scientific Information (ISI) of Thomson Reuters. He received an SB in chemistry, an MS in library science from Columbia University, and a PhD in structural linguistics from the University of Pennsylvania. He is a pioneer in information retrieval systems and inventor of Current Contents, Index Chemicus, Science Citation Index, and Arts and Humanities Citation Index. He is an eclectic science communicator, founding publisher/editor of The Scientist, author of more than 1,000 articles and books, and developer of HistCite. Garfield serves on the editorial boards of Scientometrics and the Journal of Information Science & Technology and is past president of the American Society for Information Science and Technology.\n",
     "name": "Eugene Garfield",
     "last_name": "Garfield",
     "image": "image.jpg",
@@ -707,6 +772,7 @@
     ]
   },
   {
+    "body": "Evelyn Münster studied media art at the Academy of Visual Arts Leipzig in Germany. Since 2000, she has worked as a Java web applications software developer on various projects involving enterprise content management systems, document and knowledge management systems, social software, and information visualization. In 2008, she became a visualization researcher at the Ludwig Boltzmann Institute Media.Art.Research.\n",
     "name": "Evelyn Münster",
     "last_name": "Münster",
     "image": "image.jpg",
@@ -715,6 +781,7 @@
     ]
   },
   {
+    "body": "Ferdy van Gool has a background in the fields of art and technology. He specializes in branding, interaction design, and conceptual development. Ferdy is always driven to find a balance between form, function, and technique. Since 2002, he has been working on a large number of (multimedia) projects. Ferdy currently works for KijkMijnHuis B.V. located in Delft, the Netherlands.\n",
     "name": "Ferdy van Gool",
     "last_name": "van Gool",
     "image": "image.jpg",
@@ -723,6 +790,7 @@
     ]
   },
   {
+    "body": "Fernanda B. Viégas received master's and PhD degrees in media arts and sciences from MIT. She joined the Visual Communication Lab at IBM in 2005. Her research focuses on the social side of visualization, exploring representations of online communities to support online identity, collective memory, and storytelling. Her current research interests include visualizing social dynamics in open-source communities, exploring collaborative uses of visualization applications, and investigating online privacy as it applies to visualization. Her projects have been exhibited at the Institute for Contemporary Art in Boston and in galleries in New York and Los Angeles.\n",
     "name": "Fernanda Viégas",
     "last_name": "Viégas",
     "image": "image.jpg",
@@ -731,6 +799,7 @@
     ]
   },
   {
+    "body": "Francesca Ciccarelli holds a PhD in natural science from the University of Heidelberg. She leads the Ciccarelli Lab at the Istituto Europeo di Oncologia (IEO) in Milan, Italy, which focuses on the analysis of the cancer genome.\n",
     "name": "Francesca Ciccarelli",
     "last_name": "Ciccarelli",
     "image": "image.jpg",
@@ -788,6 +857,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "George Shaw holds a BA in Visual Arts and Computer Science from Boston University and an MA from the MIT Media Lab. He devoted 15 years to commercial art as a web designer/developer and interactive creative director. After honing his online marketing skills at the now infamous “Big Gun Project” in Santa Monica, California, he launched his own design and development enterprise, One Ten Design Inc.. Shaw was the creative visionary behind more than 75 top entertainment marketing websites, including the mega-site for the Lord of the Rings franchise. In 2011, Shaw joined RetailNext as director of research and development.\n",
     "name": "George Shaw",
     "last_name": "Shaw",
     "image": "image.jpg",
@@ -796,6 +866,7 @@
     ]
   },
   {
+    "body": "Georgiy Georgievich Dumenton studied philosophy at Lomonosov Moscow State University. From 1956 to 1960, he worked for the humanities department of the Moscow Architectural Institute. From 1960 to 1972, he worked for the philosophy department in the Plekhanov Russian University of Economics. In 1965, he defended his thesis on development problems faced during the transition of a historically urban system to a communist society. Since 1972, he has been a senior researcher at the Russian Academy of Sciences. His sociological research has been financed by the Institute of the Architecture and Town Building History (1965-1966), the All-Union Institute for Planning Scientific Research Institutes, Laboratories, and Scientific Centres of the Academy of Sciences of the USSR (1967-1970), the All-Union Scientific Research Institute of Railway Transport (1988–1989), Institute of Experimental Mineralogy of USSR Academy of Science and Institute of Scientific Information on Social Sciences (INION) at the USSR Academy of Science (1990–1991), National Academy of Agriculture (1992), and by a grant from the Russian Humanities Fund (2007–2009).\n",
     "name": "Georgiy G. Dumenton",
     "last_name": "Dumenton",
     "image": "image.jpg",
@@ -804,6 +875,7 @@
     ]
   },
   {
+    "body": "Graham Allsopp is chief cartographer in Cartographic Services, a support unit of the Department of Geography at the University of Sheffield. His expertise in all things relating to maps and design has been utilized in many aspects of this project, particularly in the design of the posters.\n",
     "name": "Graham Allsopp",
     "last_name": "Allsopp",
     "image": "image.jpg",
@@ -812,6 +884,7 @@
     ]
   },
   {
+    "body": "Greg Shirah is a visualizer at NASA's Goddard Space Flight Center (GSFC) Scientific Visualization Studio (SVS). He leads the production of Earth Science visualizations within the SVS. Greg specializes in the development of cinematic-styled visualizations using state-of-the-art commercial rendering software augmented with custom in-house software. Greg has been involved in the creation of thousands of scientific visualization productions. It has been estimated that over one billion people have seen his work worldwide.\n",
     "name": "Gregory W. Shirah",
     "last_name": "Shirah",
     "image": "image.jpg",
@@ -820,6 +893,7 @@
     ]
   },
   {
+    "body": "Gully A.P.C. Burns holds a BS in physics from Imperial College London and a PhD in physiology from Oxford University, England. He is a project leader at the Information Sciences Institute (ISI) of the Viterbi School of Engineering, University of Southern California (USC). Burns is also a research assistant professor at the USC Dornsife College of Letters, Arts, and Sciences. His research group at ISI is concerned with advancing knowledge representation, mining, and reasoning to build open-source biomedical informatics systems for bench scientists, such as NeuroScholar and NeuARt II.\n",
     "name": "Gully Burns",
     "last_name": "Burns",
     "image": "image.jpg",
@@ -828,6 +902,7 @@
     ]
   },
   {
+    "body": "Harold J. T. (H.J.T.) Ellingham (1897–1975) was a British physical chemist, best known for his Ellingham diagrams, which summarize a large amount of information concerning extractive metallurgy. He studied at the Royal College of Science, which was then a part of Imperial College London, from 1914 to 1916. He became a demonstrator at the college in 1919 and a reader in physical chemistry in 1937. Ellingham was acting secretary of the Royal College of Science from 1940 to 1944 and of the Royal Institute of Chemistry from 1944 to 1963. He was made a fellow of Imperial College in 1949 and an Officer of the Order of the British Empire (OOBE) in 1962. From 1964 to 1970, he worked as a special assistant at Imperial College.\n",
     "name": "Harold Johann Thomas Ellingham",
     "last_name": "Ellingham",
     "image": "image.jpg",
@@ -836,6 +911,7 @@
     ]
   },
   {
+    "body": "Hazel Tiffany joined Group Partners in 2004 after 26 years working for the British government, for which she ultimately developed system- and service-oriented architecture that addressed cross-functional operational requirements. At Group Partners, Tiffany helps clients to both realize and hone the logic and structure that are inherent in their knowledge systems toward creating comprehensive and relevant communication for multiple audiences.\n",
     "name": "Hazel Tiffany",
     "last_name": "Tiffany",
     "image": "image.jpg",
@@ -852,6 +928,7 @@
     ]
   },
   {
+    "body": "Herbert Van de Sompel received a PhD in communication science from Ghent University, Belgium. Since 2002, he has led the Digital Library Research and Prototyping Team, exploring aspects of scholarly communication in the digital age at the Los Alamos National Laboratory. He has also played a major role in Open Archives and Open URL efforts.\n",
     "name": "Herbert Van de Sompel",
     "last_name": "Sompel",
     "image": "image.jpg",
@@ -860,6 +937,7 @@
     ]
   },
   {
+    "body": "Herman Moll (1654–1732) was known to be a Dutch geographer and cartographer, who may have lived in Germany and then settled in London, United Kingdom, in 1698. At the turn of the 17th century, Moll was the most famous map publisher in England. He was also the first cartographer to create an elegant map of England that correctly portrayed its shape. His style combined elaborate embellishment with clear, bold lettering—the latter used for important details. Moll lived in a time of great discoveries, amid the Anglo-Dutch wars to control the North Sea and the rise of the New Netherlands and North America. It was a time of great explorers and stories like those of Robert Hooke, Daniel Defoe, Jonathan Swift, Christian Huygens, and Antonie van Leeuwenhoek. Moll prided himself on his work and publicly rebuked mapmakers who republished preexisting maps under new titles without having investigated their accuracy or completion, as this could have proved fatal in cases where known depths of water and sands were omitted.\n",
     "name": "Herman Moll",
     "last_name": "Moll",
     "image": "image.jpg",
@@ -868,6 +946,7 @@
     ]
   },
   {
+    "body": "Horace Mitchell heads NASA's Goddard Space Flight Center (GSFC) Scientific Visualization Studio (SVS). Since 1997, Mitchell has led SVS in producing visualizations of NASA's scientific data for use in public media outlets, using many processes from the film and animation industry. Among various projects, Horace has directed or produced \"Multisensor Fire Observations,\" \"A Tour of the Cryosphere,\" \"Frozen,\" \"Towers in the Tempes,” \"Sentinels of the Heliosphere,\" and \"Perpetual Ocean.\" One groundbreaking SVS effort has been to put thousands of products on the web, bringing NASA research and mission results into the broadcast media, museums, documentaries, and educational institutions worldwide.\n",
     "name": "Horace G Mitchell",
     "last_name": "Mitchell",
     "image": "image.jpg",
@@ -876,6 +955,7 @@
     ]
   },
   {
+    "body": "Ian Francis specializes in design research and development, which allows for communication of the appropriate message, using the appropriate medium, within the appropriate design. His expertise also extends to print, interactive, video, sound, relational database, and CD-ROM design, shaped by his experience at a wide range of London-based agencies. Currently, he is the head of the Research & Development Studio at Group Partners.\n",
     "name": "Ian Francis",
     "last_name": "Francis",
     "image": "image.jpg",
@@ -884,6 +964,7 @@
     ]
   },
   {
+    "body": "Iana Atanassova is a postdoctoral fellow at Concordia University, Montreal, and collaborates on research projects with the Centre Interuniversitaire de Recherche sur la Science et la Technologie (CIRST), Université du Québec à Montréal, Canada. She completed her master's degree in computational linguistics and her PhD thesis in mathematics, informatics and applications in humanities at Paris-Sorbonne University on the subject of semantic information retrieval. Her research interests are in the fields of information extraction and semantic information retrieval, as well as semantic annotation using knowledge-based methods and machine learning.\n",
     "name": "Iana Atanassova",
     "last_name": "Atanassova",
     "image": "image.jpg",
@@ -905,6 +986,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Ingo Günther, a sculptor and media artist, is a visiting professor at the Tokyo University of the Arts. He studied ethnology and cultural anthropology at the Johann Wolfgang Goethe University (Frankfurt am Main) and art at the Düsseldorf Academy of Fine Arts, Germany. In the 1970s, his travels took him to Northern Africa, North and Central America, and Asia. Günther's early sculptural works with video led him toward more journalistic projects, which he pursued in TV, print, and art. Based in New York, he played a crucial role in the evaluation and interpretation of satellite data gathered from political and military crisis zones; the results were distributed internationally through print media and TV news. The goal was to make previously inaccessible military and ecological information available to the public in order to have a direct impact on political processes. Since 1988, Günther has used globes as a medium for his artistic and journalistic interests. In 1989, nine months before the unification of Germany, he founded the first independent TV station in Eastern Europe, Kanal X (Channel X), in Leipzig, in order to contribute to the establishment of a free media landscape. The interviews and research he conducted during a journey of several months through the Cambodian refugee camps in Thailand became the basis of a series of articles published in the German newspaper Die Tageszeitung (taz). This journey, and later travels to refugee camps around the world, became the foundation for Günther's concept of the Refugee Republic, on which he has been working ever since.\n",
     "name": "Ingo Günther",
     "last_name": "Günther",
     "roles": [
@@ -919,6 +1001,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Dr. Ismael Rafols is a science policy analyst at Ingenio (CSIC-UPV) since April 2012 and visiting fellow at SPRU, the Science Policy Research Unit at the University of Sussex, where he worked from 2005 until 2012. He studies the development and use of indicators and visualization tools in science policy, in particular regarding emergent technologies, such as nano- and biotechnologies with potential medical applications. Dr. Rafols received a PhD in biophysics from Tohoku University (Sendai, Japan) and was a postdoctorate researcher in nanobiotechnology at Cornell University.\n",
     "name": "Ismael Rafols",
     "last_name": "Rafols",
     "image": "image.jpg",
@@ -935,6 +1018,7 @@
     ]
   },
   {
+    "body": "Jacob is an experienced graphic designer, illustrator, identity designer, and interaction designer. His breadth of skills allows him to expertly craft and inform design during all project stages. Jacob received his BFA in visual design from the University of Oregon. Jacob is an avid biker and environmentalist. He frequently uses social media tools to let others know about new carbon footprint calculators, crowd-sourcing pollution gadgets, and other technology advancements that help keep things green.\n",
     "name": "Jacob O'Brien",
     "last_name": "O'Brien",
     "image": "image.jpg",
@@ -943,6 +1027,7 @@
     ]
   },
   {
+    "body": "James Burke was born in Northern Ireland and educated at Oxford; he also holds honorary doctorates for his work in communicating science and technology as his work is on the curriculum of universities and schools across the United States. He is a frequent consultant and speaker to technology companies, universities and government agencies such as NASA, MIT, IBM, Microsoft, US and European government agencies, and the World Affairs Council. In 1965 Burke began work with BBC-TV on Tomorrow's World and went on to become the BBC's chief reporter on the Apollo Moon missions. For over forty years he has produced, directed, written and presented award-winning television series on the BBC, PBS, Discovery Channel, and The Learning Channel. These include historical series, such as Connections (aired in 1979, it achieved the highest-ever documentary audience); The Day the Universe Changed; Connections2 and Connections3; a one-man science series, The Burke Special; a mini-series on the brain, The Neuron Suite; a series on the greenhouse effect, After the Warming; and a special for the National Art Gallery on Renaissance painting, Masters of Illusion.A bestselling author, his publications include: Tomorrow's World, Tomorrow's World II, Connections, The Day the Universe Changed, Chances, The Axemaker's Gift (with Robert Ornstein), The Pinball Effect, The Knowledge Web, Circles, and Twin Tracks: The Unexpected Origins of the Modern World. His most recent book, American Connections, focuses on the surprising connections among the seemingly unconnected people, events and discoveries that have shaped the U.S and our world. Burke has also written and hosted a bestselling CD-ROM, Connections: A Mind Game. He wrote a monthly column for Scientific American for six years. His most recent television work is a PBS retrospective of his work, ReConnections.At present, Burke is working on a large interactive knowledge system.\n",
     "name": "James Burke",
     "last_name": "Burke",
     "image": "image.jpg",
@@ -951,6 +1036,7 @@
     ]
   },
   {
+    "body": "Niels Rosenquist is a trained economist and psychiatrist with appointments at Massachusetts General Hospital and Harvard Medical School. Niels has published a number of papers in realms as diverse as genetics, social networks, applied economic theory, and social media. He is the CEO of Janys Analytics. A graduate of the University of Michigan (BS), The University of Pennsylvania (MD) and the Wharton School (PhD), Niels lives with his wife and son in Cambridge, Massachusetts.\n",
     "name": "James Niels Rosenquist",
     "last_name": "Rosenquist",
     "image": "image.jpg",
@@ -959,6 +1045,7 @@
     ]
   },
   {
+    "body": "Johannes Janssonius (1588–1664), more commonly known as Jan Jansson, is recognized today for having compiled and published the 17th-century Atlas Major. His father, Jan Janszoon the Elder, was a bookseller and publisher. In 1612, Jansson married the daughter of the cartographer Jodocus Hondius and set up business in Amsterdam as a book publisher. In 1616, he published his first maps of France and Italy, and he remained prolific thereafter. Jansson's maps closely resemble those of Willem Janszoon Blaeu and, in fact, were often copied from them. However, Jansson's maps, to many eyes, tend to be more flamboyant and decorative. From about 1630 to 1638, Jansson worked in partnership with his brother-in-law Henricus Hondius, issuing further editions of the Mercator/Hondius atlases to which his name was added. On the death of Henricus, he took over the business, expanding the work still further, until eventually he published the 11-volume Atlas Major.\n",
     "name": "Jan Jansson",
     "last_name": "Jansson",
     "image": "image.jpg",
@@ -967,6 +1054,7 @@
     ]
   },
   {
+    "body": "Jan Witkowski is the executive director of the Banbury Center at Cold Spring Harbor Laboratory (CSHL) and a professor at the Watson School of Biological Sciences. He obtained an SB at the University of Southampton and a PhD at the University of London. With James Watson, he coauthored the textbook Recombinant DNA. He also edited Illuminating Life and Inspiring Science: Jim Watson and the Age of DNA. Witkowski is a member of the Scientific Advisory Board of the Baker Veterinary Research Institute at Cornell University, editor-in-chief of Trends in Biochemical Sciences, and on the editorial board of Encyclopedia of the Life Sciences.\n",
     "name": "Jan Witowski",
     "last_name": "Witowski",
     "image": "image.jpg",
@@ -975,6 +1063,7 @@
     ]
   },
   {
+    "body": "Jan Youtie, PhD, is director of policy research services and principal research associate at Georgia Tech's Enterprise Innovation Institute; an adjunct professor in Georgia Tech's School of Public Policy; co-founder of the program in Science, Technology, and Innovation Policy; and co-director of the Innovation Co-Lab with Beijing Institute of Technology and University of Manchester. She is a co-principal investigator of the Center for Nanotechnology in Society at Arizona State University. Dr. Youtie's research focuses on manufacturing competitiveness, technology-based economic development, emerging-technology assessment, and innovation and knowledge measurement and evaluation. She holds a doctorate in political science from Emory University.\n",
     "name": "Jan Youtie",
     "last_name": "Youtie",
     "image": "image.jpg",
@@ -983,6 +1072,7 @@
     ]
   },
   {
+    "body": "Jaume Nualart is a Catalonian open-source software developer and researcher focusing on visualization tools and digital archiving. He is a member of the Research Center of Risk Governance (GRISC) at the Universitat Autònoma de Barcelona (UAB), where he is also a PhD student in law. Nualart runs the Riereta Hackerspace, founded in 2001.\n",
     "name": "Jaume Nualart",
     "last_name": "Nualart",
     "image": "image.jpg",
@@ -991,6 +1081,7 @@
     ]
   },
   {
+    "body": "Jay Chow holds a BA in interdisciplinary computing and the arts from the University of California, San Diego. He has worked as a web developer for Katana, an audience media solutions provider, and Motive Interactive, a performance-based ad platform. Currently, Chow is lead software engineer at Tradiv, the cannabis industry’s largest B2B wholesale marketplace.\n",
     "name": "Jay Chow",
     "last_name": "Chow",
     "image": "image.jpg",
@@ -999,6 +1090,7 @@
     ]
   },
   {
+    "body": "Jean Hagan is a creative director at IFTF and designer of Science & Technology Outlook: 2005-2055.\n",
     "name": "Jean Hagan",
     "last_name": "Hagan",
     "image": "image.jpg",
@@ -1007,6 +1099,7 @@
     ]
   },
   {
+    "body": "Jean-Philippe Cointet holds a PhD from the École Polyteichnique (2009) and a degree in general engineering (École Polytechnique, 2005). He is interested in the description, analysis, and modeling of large-scale socio-semantic systems. He has been involved in many empirical studies making use of textual corpora coming from various digital repositories sources: scientific datasets (academic publications, patents), but also online media (blogs, forums, social network sites) or press. His research interests include the following interrelated topics: organization and dynamics of socio-semantic networks, knowledge dynamics mapping and the modeling of public issues around science & technologies. He is a researcher at INRA-SenS and is an associate member of the Institut des Systèmes Complexes in Paris.\n",
     "name": "Jean Philippe Cointet",
     "last_name": "Cointet",
     "image": "image.jpg",
@@ -1028,6 +1121,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Jenn Riley holds a BM in music education from the Frost School of Music at the University of Miami, an MA in musicology from the Jacobs School of Music at Indiana University, and an MLS with specialization in music librarianship from the School of Library and Information Science at Indiana University. Until 2004, she was the metadata librarian for the Indiana University Digital Library Program. In 2004, she became the head of the Carolina Digital Library and Archives at the University of North Carolina at Chapel Hill, leading a department focused on digital production and digital publishing. Riley works to support faculty research and scholarship, build partnerships to advance the state of the art in digital libraries, and develop sustainable and streamlined workflows for the publication of digital content. For this map, she compiled a database of metadata standards in the cultural heritage sector together with their interrelationships.\n",
     "name": "Jenn Riley",
     "last_name": "Riley",
     "image": "image.jpg",
@@ -1044,6 +1138,7 @@
     ]
   },
   {
+    "body": "Jérôme Cukier holds a master’s degree in business administration and management from the École de Management de Lyon and an MBA in information management from The University of Texas at Austin. From 2004 to 2012, he was data visualization officer for the OECD, and he later served as data analyst at the World Bank and a data visualization designer for Facebook. Currently, Cukier is senior software engineer at Uber.\n",
     "name": "Jerome Cukier",
     "last_name": "Cukier",
     "image": "image.jpg",
@@ -1052,6 +1147,7 @@
     ]
   },
   {
+    "body": "Jess Bachman holds a BA in communications and media systems from the University of Massachusetts–Amherst. Bachman began his career by first mapping the federal government’s budget, after which he began to release the Death and Taxes map for the years 2007, 2008, and 2009—each version increasingly complex and aesthetically refined as well as more accurate due to more expansive and updated content. With the launch of the 2009 version, Bachman migrated the map operation online to WallStats.com, which continues to serve as the archive for all his informational design and posters. Bachman now specializes in infographics, creating popular and insightful visualizations for corporate and private projects. Since 2011, he has been the creative director of Visual.ly, a data visualization company.\n",
     "name": "Jess Bachman",
     "last_name": "Bachman",
     "image": "image.jpg",
@@ -1060,6 +1156,7 @@
     ]
   },
   {
+    "body": "Jian Zhang was a doctoral student at the College of Information Science and Technology, Drexel University. He received a master's degree in science and technology journalism from Texas A&M University.\n",
     "name": "Jian Zhang",
     "last_name": "Zhang",
     "image": "image.jpg",
@@ -1068,6 +1165,7 @@
     ]
   },
   {
+    "body": "Johan Bollen holds a PhD in psychology from the University of Brussels. He was an assistant professor in the Department of Computer Science of Old Dominion University from 2002 to 2006 and a staff scientist at the Los Alamos National Laboratory from 2005 to 2009, after which he joined the School of Informatics and Computing at Indiana University. His research interests include usage data mining, computational sociometrics, informetrics, and digital libraries. Bollen is the principal investigator of the MESUR project.\n",
     "name": "Johan Bollen",
     "last_name": "Bollen",
     "image": "image.jpg",
@@ -1076,6 +1174,7 @@
     ]
   },
   {
+    "body": "John A. Walsh holds an MA and a PhD in English from Indiana University—where he works as an assistant professor in the Department of Information and Library Science, School of Informatics and Computing. His research focuses on electronic textuality and the nature of the document in the digital age, with a particular focus on the relationship among graphics and text, the materiality of digital documents, and design as information. Walsh explores the evolution of the document, the book, and the literary text—both born-digital new media texts and digital representations of prior texts in the Swinburne Project, the Chymistry of Isaac Newton, and Comic Book Markup Language, among others.\n",
     "name": "John A Walsh",
     "last_name": "Walsh",
     "image": "image.jpg",
@@ -1084,6 +1183,7 @@
     ]
   },
   {
+    "body": "John Brownstein, PhD, is co-founder of HealthMap, an associate professor of pediatrics at Harvard Medical School, and has joint appointments in the Children’s Hospital Boston Informatics Program and Division of Emergency Medicine. He was trained as an epidemiologist in the Department of Epidemiology and Public Health at Yale University where he received his PhD. Dr. Brownstein works on novel statistical modeling and medical informatics approaches for accelerating the translation of public health surveillance research into practice.\n",
     "name": "John Brownstein",
     "last_name": "Brownstein",
     "image": "image.jpg",
@@ -1092,6 +1192,7 @@
     ]
   },
   {
+    "body": "John Caswell received a BFA from the Hogarth College of Fine Art in Cambridge. He was head of marketing and communication at Acorn Computers, and also helped to launch the BBC Microcomputer. At WPP, he led global accounts for RMG International and Ogilvy & Mather. In 2001, he founded the London-based consulting firm Group Partners, which develops methods and tools for the design and usage of structured visualizations to help solve the root causes of many twenty-first century business concerns. This includes using logic-based visuals to demonstrate how leadership teams either align or diverge in their goals.\n",
     "name": "John Caswell",
     "last_name": "Caswell",
     "image": "image.jpg",
@@ -1100,6 +1201,7 @@
     ]
   },
   {
+    "body": "John Emsley is a chemist as well as an award-winning popular science writer and broadcaster. His books include Nature's Building Blocks: An A-Z Guide to the Elements (Oxford University Press, 2003), Elements of Murder: A History of Poison (Oxford University Press, 2005), and Better Looking, Better Living, Better Loving (Wiley-VCH, 2007). He has written a comprehensive history of the periodic table of elements. The table was drawn by Robertson based on scientific data provided by Emsley. It was commissioned and supported by the Royal Society of Chemistry in the United Kingdom as part of an arts and science collaborative project called Visual Elements. The project aims to produce a new and vibrant visual assessment of the startling diversity of material that constitutes the world in which we live.\n",
     "name": "John Emsley",
     "last_name": "Emsley",
     "image": "image.jpg",
@@ -1108,6 +1210,7 @@
     ]
   },
   {
+    "body": "John Kerschbaum holds a degree from Parsons School of Design (1988) and works in New York City as an illustrator and cartoonist. His art has been featured in The New York Times, The Village Voice, The Associated Press, The Wall Street Journal, and many other publications.\n",
     "name": "John Kerschbaum",
     "last_name": "Kerschbaum",
     "image": "image.jpg",
@@ -1116,6 +1219,7 @@
     ]
   },
   {
+    "body": "John McHale (1922–1978) was an artist, sociologist, and the author of numerous texts on the impact of culture, technology, and mass communications. Producing work that ranged from fine arts and graphics to television and film, he was a founder of the Independent Group, a British movement that originated Pop Art, which itself grew out of a fascination with American mass culture and post-WWII technologies. In the 1960s, while on the design faculty of Southern Illinois University–Carbondale, McHale was an associate of R. Buckminster Fuller. As collaborators, McHale and Fuller coauthored a number of reports that were part of the World Design Science Decade documents, which included large-scale diagrams of unique scope, such as the one shown here.\n",
     "name": "John McHale",
     "last_name": "McHale",
     "image": "image.jpg",
@@ -1124,6 +1228,7 @@
     ]
   },
   {
+    "body": "John Nelson is a cartographer and designer in Lansing, Michigan. As the user experience and mapping manager at IDV Solutions, John helps Fortune 500 and government clients integrate and visualize data, concentrating on the intersection of time and place. He is a regular speaker at geoscience and technology conferences and writes about usability, design, and visualization at uxblog.idvsolutions.com. John was the winner of the 2004 National Geographic Society Award for Cartography, and his work has been featured in several science and visualization publications. When he's not doing these things, John revels amidst a lively whirlwind of family, chickens, and gardens.\n",
     "name": "John Nelson",
     "last_name": "Nelson",
     "image": "image.jpg",
@@ -1132,6 +1237,7 @@
     ]
   },
   {
+    "body": "John Pritchard provides technical and research support for the Social and Spatial Inequalities Research Group. He has been involved with various aspects of the project, including the development of the website, and gathering the data used in the later series of maps. John has a degree in psychology and maths from the University of Sunderland, and is studying part-time for an MSC in GIS at the University of Leeds.\n",
     "name": "John Pritchard",
     "last_name": "Pritchard",
     "image": "image.jpg",
@@ -1140,6 +1246,7 @@
     ]
   },
   {
+    "body": "Jonathan Tweedy is a graduate student at the Department of Information and Library Science, School of Informatics and Computing at Indiana University. He started this project as part of his Information Visualization course work and completed it in close collaboration with John A. Walsh.\n",
     "name": "Jonathan Tweedy",
     "last_name": "Tweedy",
     "image": "image.jpg",
@@ -1148,6 +1255,7 @@
     ]
   },
   {
+    "body": "Jonna Mazet, DVM, MPVM, PhD, is a professor of Epidemiology and Disease Ecology and executive director of the One Health Institute at UC Davis where she focuses on global health problem solving, especially for emerging infectious disease and conservation challenges. Dr. Mazet is active in international One Health research programs, especially disease transmission among wildlife, domestic animals, and people and the ecological drivers for disease emergence. She has recently been elected to the National Academies' Institute of Medicine in recognition of her successful and innovative approach to emerging environmental and global health threats.\n",
     "name": "Jonna Mazet",
     "last_name": "Mazet",
     "image": "image.jpg",
@@ -1156,6 +1264,7 @@
     ]
   },
   {
+    "body": "Joseph P. Martino earned a BA in physics at Miami University, an MS in electrical engineering at Purdue University, and a PhD in mathematics at Ohio State University. He then served in the U.S. Air Force for 22 years, in which he was a member of the Plans Staff of both the Air Force Avionics Laboratory and the Air Force Office of Scientific Research; he was also chief of the Environmental Analysis Division of the Air Force Office of Research and Analysis. In these positions, he was responsible for preparing the forecasts of critical technologies for future weapons systems. After retiring as a full-bird colonel, Martino was a senior research scientist at the University of Dayton Research Institute, where from 1975 to 1993 he conducted research for the Army Missile Command, Martin Marietta Materials, AT&T, IT&T, the Hobart Corporation, and other sponsors. He also created and taught graduate-level engineering courses on technological forecasting in R&D planning, business, and government and methods of anticipating the social, economic, and environmental consequences of new technology. Martino is the author of Technological Forecasting for Decision Making (1972) and Research and Development Project Selection (1995). He is now a private consultant in technology management and a fellow of the Institute of Electrical and Electronics Engineers, the American Institute of Aeronautics and Astronautics, and the American Association for the Advancement of Science.\n",
     "name": "Joseph P. Martino",
     "last_name": "Martino",
     "image": "image.jpg",
@@ -1164,6 +1273,7 @@
     ]
   },
   {
+    "body": "Judith Kamalski's PhD work focused on the role of language in persuasion. She regularly presents and writes on bibliometrics for both the academic and publishing community.\n",
     "name": "Judith Kamalski",
     "last_name": "Kamalski",
     "image": "image.jpg",
@@ -1172,6 +1282,7 @@
     ]
   },
   {
+    "body": "Jukka-Pekka \"JP\" Onnela is assistant professor in the Department of Biostatistics at the Harvard School of Public Health. He was previously a Postdoctoral Research Fellow at Harvard Medical School, a Fulbright Visiting Scholar at the Harvard Kennedy School, and a Junior Research Fellow at Oxford University. He obtained his doctorate at the Helsinki University of Technology in 2006. His current research focuses on statistical and mathematical analysis and modeling of social networks and their connection to human health; the development of metrics and methods for network analysis; and online social systems and social media.\n",
     "name": "Jukka Pekka Onnela",
     "last_name": "Onnela",
     "image": "image.jpg",
@@ -1180,17 +1291,23 @@
     ]
   },
   {
-    "body": "Katy B&ouml;rner is the Victor H. Yngve Distinguished Professor of Engineering and Information Science in the Department of Intelligent Systems Engineering, School of Informatics and Computing, Core Faculty of Cognitive Science, and Founding Director of the Cyberinfrastructure for Network Science Center at Indiana University in Bloomington, IN. She is a Visiting Professor at the Royal Netherlands Academy of Arts and Sciences (KNAW) in The Netherlands and a curator of the international Places & Spaces: Mapping Science exhibit. She was elected as an American Association for the Advancement of Science (AAAS) Fellow in 2012 and as an Alexander von Humboldt Fellow in 2017.\n",
-    "name": "Katy B&ouml;rner",
-    "image": "image.jpg",
-    "jobTitle": "Director of the Cyberinfrastructure for Network Science Center",
+    "body": "Katy Börner is the Victor H. Yngve Distinguished Professor of Information Science at the School of Library and Information Science, Adjunct Professor at the School of Informatics and Computing, Adjunct Professor at the Department of Statistics in the College of Arts and Sciences, Core Faculty of Cognitive Science, Research Affiliate of the Biocomplexity Institute, Fellow of the Center for Research on Learning and Technology, Member of the Advanced Visualization Laboratory, and Founding Director of the [Cyberinfrastructure for Network Science Center](http://cns.iu.edu) at Indiana University. [Learn more about Katy here](http://info.slis.indiana.edu/~katy/index.html).",
+    "name": "Katy Börner",
+    "last_name": "Börner",
     "roles": [
       "maker",
       "team",
       "curator"
-    ]
+    ],
+    "jobTitle": "Director of the Cyberinfrastructure for Network Science Center",
+    "affiliation": "Indiana University - Bloomington",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-86.51239096685244,39.17539877656838]}",
+    "location_name": "Bloomington, IN, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
+    "body": "Keiichi Nemoto is a research scientist of Communication Technology Laboratory at Fuji Xerox, and was a visiting scholar at the MIT Center for Collective Intelligence from 2009 to 2011. He studied computer science at Keio University. In 2003, he joined Fuji Xerox and has performed research on organizational behavior. He focuses on collaboration networks through the lens of social network analysis, using Wikipedias in different languages as a topic of analysis. His research interests also include the beauty of networks, visualizing collaboration, communication, and concept networks of massive collaborative data such as Wikipedia.\n",
     "name": "Keiichi Nemoto",
     "last_name": "Nemoto",
     "image": "image.jpg",
@@ -1199,6 +1316,7 @@
     ]
   },
   {
+    "body": "Keith V. Nesbitt is a senior lecturer in the School of Design, Communication, and Information Technology at the University of Newcastle, Australia. Previously, he worked at Charles Sturt University in Bathurst. He also spent 10 years at the applied research facility of Broken Hill Proprietary Company Ltd., where he applied advanced computing technologies to a cross-section of business domains, including exploration, mining, manufacture, logistics, and finance. He studied medicine before developing an interest in computing and subsequently receiving a bachelor's degree in mathematics from the University of Newcastle and a master's in computing and a PhD in computer science from Sydney University. His doctoral work investigated new conceptual models for designing multisensory user interfaces and included the design and evaluation of visual, auditory, and haptic displays for finding patterns in stock market data. Nesbitt summarizes his work as tool building that helps people find useful patterns in data. Related to this, Nesbitt also studies how the mind works and how people create and use ideas. His current scientific interests include designing multisensory displays, perception and cognition, complex systems, software engineering, user-interface design, and conceptual modeling.\n",
     "name": "Keith Nesbitt",
     "last_name": "Nesbitt",
     "roles": [
@@ -1212,14 +1330,7 @@
     "image": "image.jpg"
   },
   {
-    "name": "Keith V. Nesbitt",
-    "last_name": "Nesbitt",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
+    "body": "Kevin W. Boyack holds a PhD in chemical engineering from Brigham Young University. As the president of SciTech Strategies, Inc., his work centers on developing more accurate global maps of science. He has published nearly 30 articles dealing with various aspects of science mapping and related metrics. Previously, he worked in combustion (experimental and modeling), transport processes, socioeconomic war gaming, and science mapping for 17 years at Sandia National Laboratories. Current interests include detailed mapping of the structure and dynamics of science and technology, application of full text to science mapping and bibliometrics, and the identification of emerging topics.\n",
     "name": "Kevin Boyack",
     "last_name": "Boyack",
     "roles": [
@@ -1235,6 +1346,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Kim Rees is Head of Information Visualization at Periscopic, and is a prominent individual in the data visualization community. She has presented at several industry events including Strata, OSCON, Wolfram Data Summit, VisWeek, Tableau User Conference, NY Hacks/Hackers, and Portland Data Visualization, among others. She is an advisor to the US Congressional Budget Office. Kim has published papers in Parsons Journal of Information Mapping, was an award winner in the VAST 2010 Challenge, and is a guest blogger for Infosthetics and FlowingData. Recently, she was the technical editor of Visualize This, by Nathan Yau of FlowingData. She was a judge on the WikiViz Challenge 2011 and CommArts Interactive Annual 2012.\n",
     "name": "Kim Rees",
     "last_name": "Rees",
     "image": "image.jpg",
@@ -1243,6 +1355,7 @@
     ]
   },
   {
+    "body": "Krzysztof Suchecki obtained his MA and PhD in physics from the Warsaw University of Technology, Poland. He works at the Erasmus Studio of the Erasmus University in Rotterdam, Netherlands, specializing in complex networks and sociophysics.\n",
     "name": "Krzysztof Sucheck",
     "last_name": "Sucheck",
     "image": "image.jpg",
@@ -1251,6 +1364,7 @@
     ]
   },
   {
+    "body": "Laura Pence holds an MA in library science from the Department of Information and Library Science, School of Informatics and Computing at Indiana University. After working as a print and web designer at PenceLdesign, she became the director of creative strategy at the Indiana University School of Journalism in 2012.\n",
     "name": "Laura Pence",
     "last_name": "Pence",
     "image": "image.jpg",
@@ -1259,6 +1373,7 @@
     ]
   },
   {
+    "body": "Lev Manovich is professor at the City University of New York (CUNY) Graduate Center and author of several books on digital culture, including the recent Software Takes Command (Bloomsbury Academic, 2013). In 2007, Manovich founded the Software Studies Initiative in order to develop a new paradigm of Cultural Analytics through data analysis and interactive visualization of patterns and trends in media and visual cultures.\n",
     "name": "Lev Manovich",
     "last_name": "Manovich",
     "roles": [
@@ -1274,6 +1389,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Lisa Kershner is a graphic designer at the College of Information Science and Technology, Drexel University.\n",
     "name": "Lisa Kershner",
     "last_name": "Kershner",
     "image": "image.jpg",
@@ -1282,16 +1398,22 @@
     ]
   },
   {
-    "body": "Lisel has been with CNS since 2013. With nearly 15 years of curatorial experience at a variety of nonprofit and public institutions, she has extensive experience in the planning and implementation of outreach activities in places of informal science learning. \n",
+    "body": "Lisel has been with CNS since 2013, working originally with the Places & Spaces: Mapping Science exhibit and other outreach efforts. With nearly 15 years of curatorial experience at a variety of nonprofit and public institutions, she has extensive experience in the planning and implementation of outreach activities in places of informal science learning. As Associate Director, Lisel manages Center projects, proposal development, and strategic planning efforts as well as directing outreach activities and working with Center collaborators. \n\nWhen she's not dragging her family to museums, you can find Lisel in her garden growing vegetables.",
     "name": "Lisel Record",
-    "image": "image.jpg",
-    "jobTitle": "Associate Director of the Cyberinfrastructure for Network Science Center",
+    "last_name": "Record",
     "roles": [
       "team",
-      "curator"
-    ]
+      "co-curator"
+    ],
+    "jobTitle": "Associate Director of the Cyberinfrastructure for Network Science Center",
+    "affiliation": "Indiana University - Bloomington",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-86.51239096685244,39.17539877656838]}",
+    "location_name": "Bloomington, IN, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
+    "body": "Loet Leydesdorff holds a PhD in sociology, an MA in philosophy, and an MS in biochemistry from the University of Amsterdam (UvA). He a professor of science and technology dynamics at the Amsterdam School of Communications Research (ASCoR) of the UvA, a visiting professor of the Institute of Scientific and Technical Information of China (ISTIC) in Beijing, and an honorary fellow of the Science and Technology Policy Research Unit (SPRU) of the University of Sussex. He has published extensively in systems theory, social network analysis, scientometrics, and the sociology of innovation and is on the editorial boards of notable publications, such as Scientometrics, Social Science Information, Science and Public Policy, and Informetrics. Leydesdorff’s research interests are in the fields of the philosophy of science, social network analysis, scientometrics, and the sociology of innovation. His studies in communication in science, technology, and innovation enabled him to specify theory and methods for understanding the dynamics of knowledge-based development. He is the author of several monographs, including The Challenge of Scientometrics: The Development, Measurement, and Self-Organization of Scientific Communications (1995); A Sociological Theory of Communication: The Self-Organization of the Knowledge-Based Society (2001); and The Knowledge-Based Economy: Modeled, Measured, Simulated (2006). In 2003, he received the Derek de Solla Price Award for Scientometrics and Informetrics.\n",
     "name": "Loet Leydesdorff",
     "last_name": "Leydesdorff",
     "roles": [
@@ -1306,14 +1428,7 @@
     "image": "image.jpg"
   },
   {
-    "name": "Loet Leysdesdorff",
-    "last_name": "Leysdesdorff",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
+    "body": "Luciano Kay is postdoctoral scholar with the Center for Nanotechnology in Society at University of California—Santa Barbara (CNS-UCSB). His experience and research interests are in policy research and analysis related with economic development, science and technology (S&T), and innovation policy. His current research focuses on the societal and economic impacts of emerging technologies such as nanotechnology. He is author of Technological Innovation and Prize Incentives (Edward Elgar, 2012) and author/co-author of a number of journal articles, book chapters, and policy reports. He holds a PhD degree in public policy from the Georgia Institute of Technology. More information about Luciano is available at www.kay.com.ar.\n",
     "name": "Luciano Kay",
     "last_name": "Kay",
     "image": "image.jpg",
@@ -1322,6 +1437,7 @@
     ]
   },
   {
+    "body": "Ludmila Pollock has been the executive director of Libraries and Archives at the Cold Spring Harbor Laboratory (CSHL) in New York, which is responsible for cutting-edge research in cancer, genetics, bioinformatics, and neurobiology, since 1999. Pollock has been vice president and president of the Medical and Scientific Libraries of Long Island, in 1997 and 1998, respectively, and served on the library advisory committee for the Nature Publishing Group from 2002 to 2005. She is a member of the New York Academy of Sciences, the American Association for the Advancement of Science, the Oral History Association, and the History of Science Society.\n",
     "name": "Ludmila Pollock",
     "last_name": "Pollock",
     "image": "image.jpg",
@@ -1330,6 +1446,7 @@
     ]
   },
   {
+    "body": "Ludo Waltman has a background in the fields of computer science and economics. He is currently affiliated to the Centre for Science and Technology Studies at Leiden University in the Netherlands. His present research is in the field of scientometrics, with a special focus on the analysis and visualization of bibliometric networks. Together with Nees Jan van Eck, Ludo has developed the freely available VOSviewer software (www.vosviewer.com) for creating and visualizing bibliometric maps of science.\n",
     "name": "Ludo Waltman",
     "last_name": "Waltman",
     "image": "image.jpg",
@@ -1338,6 +1455,7 @@
     ]
   },
   {
+    "body": "Luís M. A. Bettencourt is a staff scientist at the Los Alamos National Laboratory, external faculty member of the Santa Fe Institute, and research professor at Arizona State University. His research deals with building new theory and quantitative modeling of social and biological complex systems.\n",
     "name": "Luis M. A. Bettencourt",
     "last_name": "Bettencourt",
     "image": "image.jpg",
@@ -1346,6 +1464,7 @@
     ]
   },
   {
+    "body": "Lyudmila Balakireva supports the scientific mission of the Digital Library Research and Prototyping Team at the Los Alamos National Laboratory, and supported the data management and analysis that underpinned the creation of this map.\n",
     "name": "Lyudmila Balakireva",
     "last_name": "Balakireva",
     "image": "image.jpg",
@@ -1354,6 +1473,7 @@
     ]
   },
   {
+    "body": "Maia Gusberti studies graphic design in Biel and media arts at the University of Applied Arts in Vienna. In 1999, she cofounded the design cooperative re-p.org—an independent unit for research, concepts, experiments, and output in the fields of visual design and art. Since 2007, she has worked as an artist and communications designer in Switzerland. Gusberti has received awards in Net Vision at Prix Ars Electronica (Linz, Austria) and a Premiere Grant from the University of Applied Arts. She has held residencies in Sofia, Bulgaria; Paris, France; and Cairo, Egypt.\n",
     "name": "Maia Gusberti",
     "last_name": "Gusberti",
     "image": "image.jpg",
@@ -1375,6 +1495,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Marc Bertin is postdoctoral fellow at CIRST from Université du Québec à Montréal (UQAM) and associate researcher at STIH laboratory, Paris-Sorbonne University. He holds his PhD with the highest level of distinction in mathematics, computer science and applications in humanities from the Paris-Sorbonne University. His current work is related to the application of natural language processing to bibliometrics, such as citation analysis or act of citation. His research interests include bibliometrics, linguistic ontologies, information retrieval, and the application of semantics and cognition to digital libraries. He has also worked on IT solutions for Japanese pharmaceutical companies.\n",
     "name": "Marc Bertin",
     "last_name": "Bertin",
     "image": "image.jpg",
@@ -1391,6 +1512,7 @@
     ]
   },
   {
+    "body": "Marco Quaggiotto holds a PhD in industrial design and multimedia communication from Politecnico di Milano, Italy—where he is now a researcher and teacher in communication design, working on interaction models for the exploration of geographic and abstract spaces. He also serves as a research scientist at the Complex Networks and Systems Lagrange Laboratory at the Institute for Scientific Interchange in Turin, working on the design of visual interfaces for real-life social and epidemic networks. The aim of his research is to extend the tools of cartography beyond the geographical space and to present the Atlas format as a narrative model able to intervene in complex, heterogeneous, dynamic realities. He developed an interface prototype for the exploration of research resources that allows users to manage bio-bibliographic resources in a shared environment and to access them through different maps and representations.\n",
     "name": "Marco Quaggiotto",
     "last_name": "Quaggiotto",
     "image": "image.jpg",
@@ -1425,6 +1547,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Marina Gorbis is the executive director of the Institute for the Future (IFTF) and director of the Technology Horizons Program, which focuses on innovations at the intersection of new technologies and social organization. She holds a master's in public policy from the University of California, Berkeley, a certificate in international business from the University of London, and a BA in industrial psychology from the University of California, Berkeley. A native of Odessa, Ukraine, Gorbis is particularly suited to see things from a global perspective. She has directed international programs and led international development projects for SRI International in China, Japan, Vietnam, India, and Eastern Europe. Gorbis has also authored publications on international business and economics, with an emphasis on regional innovation and competitiveness.\n",
     "name": "Marina Gorbis",
     "last_name": "Gorbis",
     "image": "image.jpg",
@@ -1433,6 +1556,7 @@
     ]
   },
   {
+    "body": "Mario Diwersy is one of the founders and managing director of ÜberResearch where he is responsible for technology and solution development and for coordinating the team of engineers. He previously worked at Elsevier where he led as vice president of technology a globally distributed development team (Chile, Germany, India, Netherlands, USA) for the SciVal product line. Mario joined Elsevier in 2010 when Elsevier acquired Collexis, a European- and US-based start-up focusing on solutions for academic customers (research networking tools) and funding bodies. Mario served as EVP and CTO for Collexis for several years. Mario lives with his family in Frankfurt, Germany.\n",
     "name": "Mario Diwersy",
     "last_name": "Diwersy",
     "image": "image.jpg",
@@ -1441,6 +1565,7 @@
     ]
   },
   {
+    "body": "Mario Juric is a member of the Institute for Advanced Study in Princeton, New Jersey. He holds a PhD in astrophysical sciences from Princeton University. Juric is a theorist working on a diverse set of topics, ranging from long-term dynamics of extrasolar planets and the structure and evolution of the Milky Way to studies of the properties of asteroids in the solar system.\n",
     "name": "Mario Juric",
     "last_name": "Juric",
     "image": "image.jpg",
@@ -1462,6 +1587,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Mark Lombardi (1951-2000) held a BA in art history from Syracuse University. While still an undergraduate, Lombardi was chief researcher for a 1973 exhibit entitled From Teapot Dome to Watergate, a multimedia collage whose elements focused on various U.S. governmental scandals, then motivated by the ongoing Watergate scandal. That work led to a curatorship at the Contemporary Arts Museum Houston, after which Lombardi became a reference librarian for the Fine Arts Department in the Houston Public Library system, where he started a regional artist archive. He then worked in gallery ownership, relocated to New York City, and ultimately developed a following for his carefully researched and constructed narrative structures of major political and financial scandals. Unlike many works of art, his maps were not created as depictions of hypothetical or imaginary events but were rendered according to facts derived from mainstream publications, such as The New York Times, The Washington Post, and the Los Angeles Times. Lombardi would carefully organize these facts into a handwritten database of over 14,000 cross-referenced index cards. He then iteratively composed flowcharts in colored pencil and graphite on paper. Following his death in 2000, the posthumous retrospective of his work, Mark Lombardi: Global Network, traveled to nine museums from 2003 to 2005.\n",
     "name": "Mark Lombardi",
     "last_name": "Lombardi",
     "image": "image.jpg",
@@ -1470,6 +1596,7 @@
     ]
   },
   {
+    "body": "Mark E. J. Newman is the Paul Dirac Collegiate Professor of Physics at the University of Michigan and a member of its Center for the Study of Complex Systems. Together with Michael Gastner, Newman developed the algorithm that is used in transforming the traditional world map into a series of cartograms. Newman also produced the figures and wrote the computer software that allowed for the creation of the cartograms.\n",
     "name": "Mark Newman",
     "last_name": "Newman",
     "image": "image.jpg",
@@ -1491,6 +1618,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Martin Vargic is a Slovakian artist and graphic designer who took up making maps as a hobby in 2012. Since then, his work has received notice from major news outlets, and he has been quickly recognized as a significant talent in the world of mapmaking. In April 2013, Vargic started work on his first massive-scale map, Political Map of the World. Shortly thereafter, he embarked on the Map of the Internet, which he has been updating periodically. His latest work is the Map of Stereotypes, which, like his other maps, is available for viewing at http://www.halcyonmaps.com.\n",
     "name": "Martin Vargic",
     "last_name": "Vargic",
     "image": "image.jpg",
@@ -1499,6 +1627,7 @@
     ]
   },
   {
+    "body": "Martin Wattenberg received an SM in mathematics from Stanford University in 1992 and a PhD in mathematics from the University of California, Berkeley, in 1996. Martin was the director of Research and Development at SmartMoney.com, where he designed Internet-based financial software. In 2002, he joined IBM Watson Research Center in Cambridge, Massachusetts, where he now leads the Visual Communication Lab. Wattenberg is known both for his scientific and applied work in the field of information visualization and for his information-based digital art. Wattenberg's work has been exhibited at Ars Electronica, Linz; the Institute of Contemporary Arts, London; the New Museum, New York; the Whitney Museum of American Art, New York; and at galleries and festivals internationally. Commissions include work created for Ars Electronica, the NASA Art Program, New Radio and Performing Arts, the Smithsonian National Museum of American History, the Walker Art Center, and the Whitney Museum of American Art. Technology Review named Wattenberg \"one of the world's 100 top young innovators.\"\n",
     "name": "Martin Wattenberg",
     "last_name": "Wattenberg",
     "image": "image.jpg",
@@ -1507,6 +1636,7 @@
     ]
   },
   {
+    "body": "Masha Turchinsky holds a BS in Russian studies from Georgetown University, an MA in education from New York University, and an EdM in international education development from Columbia University. For 19 years, Turchinsky worked at the Metropolitan Museum of Art, ending her tenure there in the position of Senior Manager and Senior Producer of Media Production and Online Features in Digital. In 2016, Turchinsky won awards from the The American Alliance of Museums, Museums and the Web, and the Webby Awards for her innovative online series, #MetKids. Recently, she became director of the Hudson River Museum.\n",
     "name": "Masha Turchinsky",
     "last_name": "Turchinsky",
     "image": "image.jpg",
@@ -1515,6 +1645,7 @@
     ]
   },
   {
+    "body": "Mathieu Bastian has an MS in computer science from the University of Technology of Compiègne, France. Proficient in Java, Swing, and OpenGL, he successfully led the 2007 to 2010 development of the Gephi project, an interactive network visualization platform that is recognized for its performance, usability, and extensible design. As a software architect, he was particularly interested in data visualization challenges, such as visualizing massive graph structures in real time. For two consecutive years, the project was selected for the Google Summer of Code program, during which Bastian mentored students while continuing his work on core development and documentation. In 2010, Bastian joined LinkedIn as a data scientist to build the next data-driven products, focusing on inferred identity, large graph analysis, and data visualization.\n",
     "name": "Mathieu Bastien",
     "last_name": "Bastien",
     "image": "image.jpg",
@@ -1523,6 +1654,7 @@
     ]
   },
   {
+    "body": "Matthew Richardson holds a master's degree in writing. He focuses on visualizing networks of scientific publications and fields to enable a deeper understanding of journals and disciplines.\n",
     "name": "Matthew Richards",
     "last_name": "Richards",
     "image": "image.jpg",
@@ -1531,6 +1663,7 @@
     ]
   },
   {
+    "body": "Maximilian Schich obtained his MA degrees in art history, classic archaeology, and general psychology at the Ludwig Maximilians University Munich and his PhD in art history from the Humboldt University of Berlin. He has over a decade of consulting experience, working with network data in art research and brokering within the tetrahedron of project partners, users, programmers, and customers. Among other projects, he has supported Projekt Dyabola, Bibliotheca Hertziana at the Max Planck Institute for Art History, the Munich Glyptothek, and Zentralinstitut für Kunstgeschichte. Since 2009, he has worked as DFG visiting research scientist at Barabási Lab—of the Center for Complex Network Research at Northeastern University, Boston—where he collaborates with network scientists in the study of complex art history and archaeology networks.\n",
     "name": "Maximillian Schich",
     "last_name": "Schich",
     "image": "image.jpg",
@@ -1539,6 +1672,7 @@
     ]
   },
   {
+    "body": "Michael A. Thompson is the spatial analyst for the Stellwagen Bank National Marine Sanctuary. His work ranges from mapping the distribution of whales and ships (such as represented by this map) to analyzing shipping noise and the underwater behavior of endangered whales based on multi-sensor tags placed on the animals.\n",
     "name": "Michael A. Thompson",
     "last_name": "Thompson",
     "image": "image.jpg",
@@ -1547,6 +1681,7 @@
     ]
   },
   {
+    "body": "Michael Aschauer earned a master's degree in digital arts/visual media design from the University of Applied Arts in Vienna. Prior to that, he studied philosophy at the University of Vienna and informatics at the Technical University of Vienna. He lives and works as an artist and freelance technical and artistic services provider in Vienna. His works have been shown at numerous international festivals and exhibitions.\n",
     "name": "Michael Aschauer",
     "last_name": "Aschauer",
     "image": "image.jpg",
@@ -1568,6 +1703,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Michael J. Stamper holds a BA in graphic design and art history and an MFA in graphic/interactive design, both from Indiana University–Bloomington. From September 2010 to August 2012, he was senior designer at the Cyberinfrastructure for Network Science Center at IU. Currently, he is design lead at the National Institute of Environmental Health Sciences (NIEHS) in Durham, North Carolina.\n",
     "name": "Michael J. Stamper",
     "last_name": "Stamper",
     "roles": [
@@ -1582,6 +1718,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Michael Poremba works as a statistician and data architect, designing and constructing information systems. He holds bachelor's degrees in computer science and philosophy with additional studies in art history and design. Following the U.S. invasion of Iraq in 2003, Poremba began studying resource wars, energy depletion, and related issues. He lives with his wife, Anna, in San Francisco.\n",
     "name": "Michael Poremba",
     "last_name": "Poremba",
     "image": "image.jpg",
@@ -1590,6 +1727,7 @@
     ]
   },
   {
+    "body": "Michael S. Vogeley is an associate professor of physics at Drexel University. His research interests include observational cosmology, formation and evolution of galaxies and active galactic nuclei, and statistical analysis of large data sets. He received a PhD in astronomy from Harvard University and has held positions at Johns Hopkins University, the Space Telescope Science Institute, and Princeton University.\n",
     "name": "Michael S. Vogeley",
     "last_name": "Vogeley",
     "image": "image.jpg",
@@ -1606,6 +1744,7 @@
     ]
   },
   {
+    "body": "Michael W. Hamburger is professor of geological sciences at Indiana University. His research interests center on the relation of earthquakes to global geological processes, earthquake hazards, and volcanic activity. His research in seismology and volcanology has included field investigations in Alaska, the Philippines, the South Pacific, Central Asia, and the central United States. Recent research involves the application of new satellite surveying techniques to studies of deformation of the Earth’s crust in the U.S. midcontinent and in active volcanoes in the Philippines. He has also taken on a leading role in creating the U.S. Educational Seismology Network (USESN), which brings seismology research instruments into hundreds of schools across the country. Hamburger has been involved in organizing campus and community response to major natural disasters, including the Indian Ocean tsunami of 2004 and the Pakistan earthquake of 2005.\n",
     "name": "Michael W. Hamburger",
     "last_name": "Hamburger",
     "image": "image.jpg",
@@ -1627,6 +1766,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Moritz Stefaner holds a BS in cognitive science from the University of Osnabrück, Germany, and an MA in interface design from the University of Applied Sciences in Potsdam, Germany. He works as a “truth and beauty operator” on the crossroads of data visualization, information aesthetics, and user-interface design. He is especially interested in the visualization of large-scale human activity, and his work beautifully balances the analytical and aesthetic aspects of mapping abstract and complex phenomena. In the past, he has helped clients such as the OECD, the World Economic Forum, Skype, Deutsche Presse-Agentur (DPA), Fédération Internationale de Football Association (FIFA), and the Max Planck Research Society to find insights and beauty in large data sets. In 2010, he was nominated for the Design Award of the Federal Republic of Germany, and his work has been exhibited at the Venice Architecture Biennale, SIGGRAPH, Ars Electronica, and the Max Planck Science Gallery. He is part of the advisory boards for the Places & Spaces exhibits and Prix Ars Electronica in the Digital Communities category. Stefaner serves as a reviewing expert for the Future and Emerging Technologies (FET) program of the European Commission. He has coauthored books published by O’Reilly Media, Springer, and others and has often spoken and lectured on the topic of information visualization. His personal portfolio is available at http://moritz.stefaner.eu, and he occasionally blogs at http://wellformed-data.net. Stefaner also publishes the Data Stories podcast together with Enrico Bertini.\n",
     "name": "Moritz Stefaner",
     "last_name": "Stefaner",
     "roles": [
@@ -1641,6 +1781,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Murray Robertson is an illustrator who has been involved with the visualization of ideas in science since 1998. As an artist and printmaker at Glasgow Print Studio, he exhibits regularly both within the United Kingdom and internationally. Robertson's works of graphic precision draw upon the iconography of signs and symbols inherent to the matrix of both mystical and scientific knowledge systems, echoing diverse cultures and empirical paradigms in an exploration of humanity's eternal and universal quest for knowledge and meaning. Projects have included working with Scottish Television (STV), the Medical Research Council, the UK Clinical Virology Network, and most recently the Electrical Engineering Department of Glasgow University, producing a series of images based on current developments in nanotechnology.\n",
     "name": "Murray Robertson",
     "last_name": "Robertson",
     "image": "image.jpg",
@@ -1649,6 +1790,7 @@
     ]
   },
   {
+    "body": "Nathan D. Wolfe, PhD, is an American virologist. He is currently Director of Global Viral and the Lorry I. Lokey Visiting Professor in Human Biology at Stanford University. Dr. Wolfe spent over eight years conducting biomedical research in both sub-Saharan Africa and Southeast Asia.\n",
     "name": "Nathan Wolfe",
     "last_name": "Wolfe",
     "image": "image.jpg",
@@ -1657,6 +1799,7 @@
     ]
   },
   {
+    "body": "Nees Jan van Eck has a background in computer science and has written a PhD thesis on the topic of bibliometric mapping of science. He works as a researcher at the Centre for Science and Technology Studies of Leiden University in the Netherlands. His research focuses mainly on network analysis and visualization. Nees Jan is the main developer of the freely available VOSviewer software (www.vosviewer.com) for creating and visualizing bibliometric maps of science.\n",
     "name": "Nees Jan Van Eck",
     "last_name": "Van Eck",
     "image": "image.jpg",
@@ -1665,6 +1808,7 @@
     ]
   },
   {
+    "body": "Nik Thoenen is a graduate of the School for Graphic Design in Biel. He is a cofounder of the design cooperative re-p.org in Vienna. Since 2007, he has worked as an artist as well as a graphic and type designer in Switzerland.\n",
     "name": "Nik Thoenen",
     "last_name": "Thoenen",
     "image": "image.jpg",
@@ -1673,6 +1817,7 @@
     ]
   },
   {
+    "body": "Nils C. Newman is the president and founder of IISC. Mr. Newman's research interests focus on the development of analytic tools for the management of technology including the assessment of development trends and the study of the innovation process. Prior to starting IISC in 1995, he was a research analyst at the Technology Policy and Assessment Center of Georgia Tech. He has also worked as a technology policy analyst at SRI International. Mr. Newman has a bachelor of mechanical engineering and an MS in technology and science policy from Georgia Tech. He is currently pursuing a PhD in economics from MERIT at the University of Maastricht.\n",
     "name": "Nils Newman",
     "last_name": "Newman",
     "image": "image.jpg",
@@ -1681,6 +1826,7 @@
     ]
   },
   {
+    "body": "The National Telecommunications and Information Administration (NTIA) is an agency within the U.S. Department of Commerce, established in 1978. Prior to NTIA's inception, the executive branch had established the Office of Telecommunications Policy (OTP) in order to spearhead the administration's communications policy in certain areas, most notably cable television. The NTIA succeeded this unit, combining the responsibilities and mission of the OTP with those of the Commerce Department's Office of Telecommunications. The agency is now the principal advisor to the president on both domestic and international telecommunications and information policy activities. The NTIA also manages the federal use of the spectrum; performs cutting-edge telecommunications research and engineering, such as resolving technical telecommunications issues for the federal government and private sector; administers infrastructure and public telecommunications facilities grants; and operates the research and engineering Institute for Telecommunication Sciences in Colorado.\n",
     "name": "NTIA",
     "last_name": "NTIA",
     "image": "image.jpg",
@@ -1689,6 +1835,7 @@
     ]
   },
   {
+    "body": "Ola Rosling is CEO & co-founder of Gapminder Foundation which he founded together with his father, Hans Rosling, and his wife, Anna Rosling Rönnlund. Since 1999, Ola lead the development of the Trendalyzer software, which was acquired by Google in 2007 where Anna and Ola turned it into the Google Motion Chart. As product manager for Google Public Data, Ola then democratized access to Public Statistics by integrating official statistical sources into Google Search results by introducing DSPL—Data Set Publishing Language. Ola then went back to Gapminder to develop free teaching materials. He initiated the Ignorance Project in 2013, to measure the widespread lack of knowledge of basic global facts.\n",
     "name": "Ola Rosling",
     "last_name": "Rosling",
     "image": "image.jpg",
@@ -1697,6 +1844,7 @@
     ]
   },
   {
+    "body": "Olaf Sporns received a PhD in neuroscience from the Rockefeller University and conducted postdoctoral work at the Neurosciences Institute in New York and San Diego. He is provost professor and head of the Computational Cognitive Neuroscience Laboratory in the Department of Psychological and Brain Sciences at Indiana University. His main research area is theoretical and computational neuroscience with an emphasis on network complexity, brain connectivity, and neurorobotics. He serves on the editorial boards of several journals, including PLOS ONE, PLOS Computational Biology, and Neuroinformatics. Sporns authored Networks of the Brain (2010) and Discovering the Human Connectome (2012), both with the MIT Press.\n",
     "name": "Olaf Sporns",
     "last_name": "Sporns",
     "image": "image.jpg",
@@ -1718,6 +1866,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Olivier H. Beauchesne is a Montréal-based data scientist with an interest in complex data visualization, social media analysis, public opinion, and big data. He also develops analytical and interactive data visualization tools. He holds an MS in political science, and he has previously worked as an analyst for a firm specializing in political opinion polls and market research.\n",
     "name": "Olivier H. Beauchesne",
     "last_name": "Beauchesne",
     "image": "image.jpg",
@@ -1726,6 +1875,7 @@
     ]
   },
   {
+    "body": "Patric Hagmann earned his medical degree from the University of Lausanne, Switzerland. In 2001, he completed his education with a postgraduate program in biomedical engineering at the École Polytechnique Fédérale de Lausanne (EPFL). From 2001 to 2005, he worked at the Signal Processing Institute (ITS) as a research assistant and also conducted studies at the Martinos Center for Biomedical Imaging of Harvard Medical School. In 2005, he received a PhD from the School of Computer and Communication Sciences at EPFL for his work entitled “From Diffusion MRI to Brain Connectomics.” Hagmann works at the University Hospital of Lausanne and also conducts research at EPFL and ITS. His current research includes the theoretical foundations of diffusion MRI and its mathematical representation; the relationship between the diffusion MRI signal and brain axonal trajectories, known as tractography or fiber tracking; the mathematical representation of brain connectivity, or the brain connectome, and its architecture; and comparative neuroanatomy between different classes of subjects.\n",
     "name": "Patric Hagmann",
     "last_name": "Hagmann",
     "image": "image.jpg",
@@ -1734,6 +1884,7 @@
     ]
   },
   {
+    "body": "Patrick McKercher teaches in the Writing Program at the University of California Santa Cruz. He did his doctoral work on the nature and use of metaphor in the Rhetoric and Linguistics program at the University of British Columbia in Vancouver, Canada. He has extensive outreach experience and worked on integrating digital technology into K-16 education, building computer labs in public schools and creating professional development workshops to train teachers to leverage and explore these resources. In particular, he has researched the educational potential of virtual worlds from the time of text-based MUDs/MOOs to the present. He frequently presents at education technology conferences such as EARLI, CUE and EdTech. More recently, he has been project manager for James Burke's Knowledge Web (K-Web.org).\n",
     "name": "Patrick McKercher",
     "last_name": "McKercher",
     "image": "image.jpg",
@@ -1742,6 +1893,7 @@
     ]
   },
   {
+    "body": "Paul M. G. Otlet (1868–1944) was a Belgian lawyer, bibliographer, and internationalist. He pioneered the field of what is today known as information science, which he first called “documentation.” Otlet is often considered the father of information management. In her 2002 documentary, The Man Who Wanted to Classify the World, Franзoise Levie chronicles Otlet’s obsession to categorize, encode, and unify published materials from all over the world. His classification system can be seen as the predecessor of hypertext. Otlet imagined a modern library with no physical books, the contents of which could be viewed onscreen. After 1918, long before the development of the Internet, Otlet had coined and used terms such as “web of knowledge,” “link,” and “knowledge network” to describe his vision for a central repository of all human knowledge.\n",
     "name": "Paul Marie Ghislain Otlet",
     "last_name": "Otlet",
     "image": "image.jpg",
@@ -1750,6 +1902,7 @@
     ]
   },
   {
+    "body": "Peer Bork holds a PhD in biochemistry and a habilitation in theoretical biophysics. He is a senior group leader and joint head of the Structural and Computational Biology unit at the European Molecular Biology Laboratory (EMBL) in Heidelberg, Germany. Bork works in various areas of computational biology and systems analysis with a focus on function prediction, comparative analysis, and data integration.\n",
     "name": "Peer Bork",
     "last_name": "Bork",
     "image": "image.jpg",
@@ -1758,6 +1911,7 @@
     ]
   },
   {
+    "body": "Peter A. Gloor is a research scientist at the Center for Collective Intelligence at MIT's Sloan School of Management where he leads a project exploring Collaborative Innovation Networks. He is also founder and chief creative officer of software company galaxyadvisors. In addition, Peter is an honorary professor at University of Cologne, a lecturer at Aalto University in Helsinki, and distinguished visiting professor at P. Universidad Católica de Chile. Previously, Peter was a partner with Deloitte Consulting, leading its e-Business practice for Europe, a partner with PricewaterhouseCoopers and the section leader for software engineering at UBS.\n",
     "name": "Peter A. Gloor",
     "last_name": "Gloor",
     "image": "image.jpg",
@@ -1780,6 +1934,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Dr. Peter Daszak, president of EcoHealth Alliance, is a leader in the field of conservation medicine and a respected disease ecologist. EcoHealth Alliance is a global organization dedicated to innovative conservation science linking ecology and the health of humans and wildlife. EcoHealth Alliance's mission is to provide scientists and educators with support for grassroots conservation efforts in 20 high-biodiversity countries in North America, Asia, Africa, and Latin America.\n",
     "name": "Peter Daszak",
     "last_name": "Daszak",
     "image": "image.jpg",
@@ -1801,6 +1956,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Philip J. DeCamp received his undergraduate degree at MIT and defended his PhD at the MIT Media Lab—where he is now a research assistant in the Cognitive Machines division, contributing significantly to the group’s data visualization work.\n",
     "name": "Phillip Decamp",
     "last_name": "Decamp",
     "image": "image.jpg",
@@ -1809,6 +1965,7 @@
     ]
   },
   {
+    "body": "Randall Munroe is the creator of the popular web comic xkcd and author of What If?: Serious Scientific Answers to Absurd Hypothetical Questions (John Murray, 2014) and Thing Explainer (Houghton Mifflin Harcourt, 2015). While earning a degree in physics from Christopher Newport University, Munroe worked at the Langley Research Center as a contract programmer and roboticist for NASA. When his contract was not renewed in October of 2006, Munroe moved to Boston and devoted himself to full-time work on xkcd.\n",
     "name": "Randall Munroe",
     "last_name": "Munroe",
     "image": "image.jpg",
@@ -1817,6 +1974,7 @@
     ]
   },
   {
+    "body": "Rex Robison holds a BS in mathematics and psychology from Purdue University, an MA in library science from the University of Maryland, and a PhD in biological psychology from Stanford University. He works as an informationist at the National Institutes of Health (NIH) Library in Bethesda, Maryland. The informationist program blends information science expertise with subject area knowledge, providing NIH staff with customized library services. Robison works mainly with staff who either conduct or provide funding for neuroscience and psychology research. His work at NIH has included searching the literature, coordinating the construction of databases and websites, conducting library research, and training and troubleshooting on the use of information resources. He is also active on the library’s instruction, emerging technologies, web, and collection development teams. Prior to working at NIH, Robinson’s employment included reviewing scientific and medical issues in product liability lawsuits and teaching at a community college in Hawaii.\n",
     "name": "Rex Robison",
     "last_name": "Robison",
     "image": "image.jpg",
@@ -1825,6 +1983,7 @@
     ]
   },
   {
+    "body": "Ricardo Hausmann holds a PhD in economics from Cornell University. He is the director of Harvard University's Center for International Development and professor of the Practice of Economic Development at the John F. Kennedy School of Government. From 1985 to 1991, Hausmann was professor of economics at Instituto de Estudios Superiores de Administración (IESA) in Caracas, Venezuela, where he founded the Center for Public Policy. He has also served as minister of planning in Venezuela from 1992 to 1993 and as the first chief economist of the Inter-American Development Bank from 1994 to 2000. His research interests include issues of growth, macroeconomic stability, international finance, and the social dimension of development.\n",
     "name": "Ricardo Hausmann",
     "last_name": "Hausmann",
     "image": "image.jpg",
@@ -1833,6 +1992,7 @@
     ]
   },
   {
+    "body": "Riccardo Maria Pulselli is an architect with a PhD in environmental chemistry from the University of Siena, Italy—and is now a member of the university's Ecodynamics group. In 2004, he was a visiting student at MIT's SENSEable City Laboratory. His research has focused on the study of regional and urban systems, promoting new investigative forms, and developing tools for understanding and managing contemporary cities in the framework of sustainability. With Enzo Tiezzi, he coauthored the book City Out of Chaos: Urban Self-Organization and Sustainability (2009).\n",
     "name": "Riccardo Maria Pulselli",
     "last_name": "Pulselli",
     "image": "image.jpg",
@@ -1841,6 +2001,7 @@
     ]
   },
   {
+    "body": "Richard Katz holds a degree in cinematography from New York University, and by invitation did advanced studies in cinematography at the American Film Institute. He has worked as a catalyst and secular evangelist at several major software companies including Intuit. Richard became interested in resource depletion in the early 1970s. He lives with his wife, Ann, their cat, and their dog in San Francisco.\n",
     "name": "Richard Katz",
     "last_name": "Katz",
     "image": "image.jpg",
@@ -1849,6 +2010,7 @@
     ]
   },
   {
+    "body": "Richard Klavans holds an engineering degree from Tufts University, an MA from the MIT Sloan School of Management, and a PhD in management from the Wharton School of the University of Pennsylvania. He is the founder of SciTech Strategies, Inc., and has published extensively on the science and art involved in science mapping. He has also created large-scale maps of science for research planning in industry (Abbott Laboratories, AstraZeneca, DuPont, GlaxoSmithKline and formerly SmithKline Beecham, Kellogg’s, Kraft Foods, and Unilever), at government agencies (DOE, NSF, and NIH), and at more than 20 universities. His most recent research initiative is the prediction of scientific breakthroughs using a dynamic microstructural map of science.\n",
     "name": "Richard Klavans",
     "last_name": "Klavans",
     "image": "image.jpg",
@@ -1857,6 +2019,7 @@
     ]
   },
   {
+    "body": "Richard Merrick holds a BS and an MS in city and regional planning from Clemson University, an MS in biological oceanography and an MS in marine resource management from Oregon State University, and a PhD in fisheries from the University of Washington. He joined NOAA Fisheries in 1985 as a marine mammal staff scientist at the Alaska Fisheries Science Center. In 1997, he transferred to the Northeast Fisheries Science Center, where he initially served as branch chief for protected species and then as chief of the Resource Evaluation and Assessment Division. While there, he directed the center’s assessment, ecological, and social-science research for fish and protected species and in the process created the map shown here. In 2011, Merrick began serving as chief science advisor and director of scientific programs. As the head of NOAA Fisheries’ scientific operations, he leads NOAA’s six regional Fisheries Science Centers, including 30 laboratories. He also spearheads the direct science efforts needed to support sustainable fisheries and ecosystems as well as to continue domestic progress in ending overfishing, rebuilding fish populations, saving critical species, and preserving vital habitats.\n",
     "name": "Richard Merrick",
     "last_name": "Merrick",
     "image": "image.jpg",
@@ -1865,6 +2028,7 @@
     ]
   },
   {
+    "body": "Rob Bracken is a writer and communications manager for a major software company. He holds a master's degree in English from the University of Missouri. Rob became interested in oil and energy issues several years ago, after reading The Party's Over by Richard Heinberg. Rob lives in San Francisco with his wife, Deidra, and their cat.\n",
     "name": "Rob Bracken",
     "last_name": "Bracken",
     "image": "image.jpg",
@@ -1873,6 +2037,7 @@
     ]
   },
   {
+    "body": "Roger W. Sinnott is the editor and author of numerous astronomy books. He coauthored Sky Catalogue 2000.0, a comprehensive collection of standard data for astronomical objects. The introduction contains a Messier list, an OB stellar association, and a Local Group and Cluster of Galaxies table—as well as photos of M45, M13, M24, M104, and several non-Messier objects; a comprehensive list of references; and a glossary of selected astronomical names. The Interactive Factory (iFactory) is a privately held company based in Boston. Its mission is to serve clients through the conception and execution of innovative, intelligent, and usable digital media solutions. IFactory thrives on the challenges of information architecture, content development, usability testing, and innovative, beautiful design. It believes in the fusion of purpose and play: that functional, useful tools should also compel and that engineering knowledge should encompass everything from legacy database systems to the latest tools for content management and graphics.Sky & Telescope magazine is an institution in the world of astronomy. From its birth in 1941 to the present day, it has managed to retain a high level of quality that has earned a devoted following. A complete history of the magazine is available online.\n",
     "name": "Roger Sinnot",
     "last_name": "Sinnot",
     "image": "image.jpg",
@@ -1881,6 +2046,7 @@
     ]
   },
   {
+    "body": "Russell J. Duhon designs, programs, parses, researches, and visualizes at the Cyberinfrastructure for Network Science Center at Indiana University. He likes making the little algorithms that fit between the big ones. His areas of interest include economics-inspired modeling of scientific activity, statistical methods for understanding data, and unusual data sets. He received a bachelor's degree in computer science from the School of Informatics at Indiana University in Bloomington, Indiana.\n",
     "name": "Russell Duhon",
     "last_name": "Duhon",
     "image": "image.jpg",
@@ -1889,6 +2055,7 @@
     ]
   },
   {
+    "body": "Ryan Chute supports the scientific mission of the Digital Library Research and Prototyping Team at the Los Alamos National Laboratory, and supported the data management and analysis that underpinned the creation of this map.\n",
     "name": "Ray Chute",
     "last_name": "Chute",
     "image": "image.jpg",
@@ -1897,6 +2064,7 @@
     ]
   },
   {
+    "body": "Samuel T. Mills holds a BFA in studio art and a BA in philosophy from Augustana College. From 2012 to August 2015, he was senior UX designer with the Cyberinfrastructure for Network Science Center at Indiana University–Bloomington. Currently, he is a web developer on the IU School of Education’s marketing and communications team.\n",
     "name": "Samuel T. Mills",
     "last_name": "Mills",
     "image": "image.jpg",
@@ -1911,13 +2079,14 @@
       "ambassador"
     ],
     "jobTitle": "Professor of Geography, Head of the Department of Geography and Digital Society Initiative",
-    "affiliation": "University of Zurich",
+    "affiliation": "University of Zürich",
     "location": "{\"type\":\"Point\",\"coordinates\":[8.550852452417894,47.374293016645105]}",
     "location_name": "Zürich, Switzerland",
     "region": "europe",
     "image": "image.jpg"
   },
   {
+    "body": "Sarah Huggett holds an MPhil in literature. She provides strategic insights to colleagues and publishing partners, and informs the bibliometrics debate through various communications.\n",
     "name": "Sarah Hugget",
     "last_name": "Hugget",
     "image": "image.jpg",
@@ -1926,6 +2095,7 @@
     ]
   },
   {
+    "body": "Sarah Williams holds a BA in geography and history from Clark University and an MA from the Massachusetts Institute of Technology (MIT) in city planning and urban design. With more than 13 years of experience in geographic information systems (GIS), she is currently an assistant professor of urban planning and the director of the Civic Data Design Project at MIT's School of Architecture + Planning. The Civic Data Design Project employs data visualization and mapping techniques to expose and communicate urban patterns and policy issues to broader audiences. Before coming to MIT and when making the map, Williams was codirector of the Spatial Information Design Lab at Columbia University. Williams has won numerous awards and was named one of Metropolis magazine's 2012 Game Changers and top 25 planners in technology. Her work is also part of the permanent collection in the Museum of Modern Art (MoMA) in New York.\n",
     "name": "Sarah Williams",
     "last_name": "Williams",
     "image": "image.jpg",
@@ -1947,6 +2117,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Sébastien Heymannis a research engineer at the Institute for Scientific and Technical Information (INISTCNRS) in France. He has an MS in computer science from the University of Technology of Compiègne, specializing in cognitive science and human–computer interaction. Passionate about open-source strategies, Heymann focuses on managing the community of the Gephi project. Deeply interested in network science and data visualization, he is working toward his PhD as part of the Complex Networks team at the Laboratoire d’Informatique de Paris 6, studying the dynamic topology of real-world networks, such as social networks, computer networks, and the Web overall.\n",
     "name": "Sebastien Heymann",
     "last_name": "Heymann",
     "image": "image.jpg",
@@ -1955,6 +2126,7 @@
     ]
   },
   {
+    "body": "Sepp Deinhofer studied informatics and computer science at the Vienna Technical University, as well as visual media design at the University of Applied Arts in Vienna. He lives and works in Vienna as a freelance software engineer, and is closely involved with the design cooperative re-p.org.\n",
     "name": "Sepp Deinhofer",
     "last_name": "Deinhofer",
     "image": "image.jpg",
@@ -1963,6 +2135,7 @@
     ]
   },
   {
+    "body": "Shashikant Penumarthy was a PhD student at the School of Library and Information Science, Indiana University, and holds a master's degree in computer science from that institution. His research pertains to enabling interoperability among visualization tools by using ontologies to describe and process visualization concepts in an automated manner. As part of this line of research, he developed the Virtual World Toolkit (VWTk), which is freely available via SourceForge. He also works as an independent consultant on the design and development of visualization-centric modeling and analysis tools and user interfaces.\n",
     "name": "Shashikant Penumarthy",
     "last_name": "Penumarthy",
     "image": "image.jpg",
@@ -1971,6 +2144,7 @@
     ]
   },
   {
+    "body": "Stefanie Posavec is a freelance graphic designer who focuses on projects ranging from data visualization and information design to designing books and book covers (or anything in between) for publishers and creative agencies. Her personal data projects have been exhibited internationally, including exhibitions at the Millennium Galleries, Sheffield, Somerset House, London and the Museum of Modern Art, New York.\n",
     "name": "Stefanie Posavec",
     "last_name": "Posavec",
     "image": "image.jpg",
@@ -1979,6 +2153,7 @@
     ]
   },
   {
+    "body": "Dr. Stephen S. Morse's interests focus on epidemiology and risk assessment of infectious diseases (particularly emerging infections, including influenza), and improving disease early warning systems. In 2000, he returned to Columbia after 4 years in government as program manager for Biodefense at the Defense Advanced Research Projects Agency (DARPA), Department of Defense, where he co-directed the Pathogen Countermeasures program and subsequently directed the Advanced Diagnostics program. Before coming to Columbia, he was assistant professor of Virology at The Rockefeller University in New York, and remains an adjunct faculty member.\n",
     "name": "Stephen Morse",
     "last_name": "Morse",
     "image": "image.jpg",
@@ -2001,6 +2176,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Steven A. Morris is an electrical engineer and native of Tulsa, Oklahoma. He earned BSEE and MSEE degrees from Tulsa University in 1983 and 1986, respectively, and worked as a research scientist in the petroleum industry for 15 years. Returning to academic studies in 1999, he conducted research in the mapping of journal and patent literature for technology forecasting and technology management applications. After earning a PhD in electrical engineering from Oklahoma State University in 2005, he developed crossmaps as a means to visually examine and communicate correlations among the diverse scholarly entities and their attributes.\n",
     "name": "Steven Morris",
     "last_name": "Morris",
     "image": "image.jpg",
@@ -2022,6 +2198,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Sumiko Mekaru, DVM, PhD, is a veterinarian and epidemiologist interested in environmental factors contributing to infectious disease outbreaks. Her doctoral research examined environmental risk factors for infectious diseases. She is a research fellow with the Computational Epidemiology Group at Boston Children's Hospital.\n",
     "name": "Sumiko Mekaru",
     "last_name": "Mekaru",
     "image": "image.jpg",
@@ -2030,6 +2207,7 @@
     ]
   },
   {
+    "body": "Sune Lehmann is an associate professor in the Department of Applied Mathematics and Computer Science at the Technical University of Denmark. In the past, he has worked as a postdoctoral fellow at the Institute for Quantitative Social Science at Harvard University and the Center for Complex Network Research at Northeastern University. Starting out as a physicist at the Niels Bohr Institute, Sune's interest in complex systems has gradually shifted his attention towards network science and massive datasets. He currently works in the intersection between physics, sociology, and computer science.\n",
     "name": "Sune Lehmann",
     "last_name": "Lehmann",
     "image": "image.jpg",
@@ -2038,6 +2216,7 @@
     ]
   },
   {
+    "body": "Susan Aman is a software developer at the Children's Hospital Informatics Program. She has over 10 years of experience in the internet industry, including system administration and web development work at Firefly Inc., iCast Corporation (a CMGi company), and most recently at Northeastern University.\n",
     "name": "Susan Aman",
     "last_name": "Aman",
     "image": "image.jpg",
@@ -2046,6 +2225,7 @@
     ]
   },
   {
+    "body": "Tammie O'Rourke is systems integrator and chief architect of the Global Animal Information System (GAINS), the wildlife health information management system in use for USAID PREDICT, a global endeavour to monitor for emerging zoonotic diseases of wildlife. Tammie has over 25 years experience developing systems and databases for various for-profit, non-profit, and government organizations, and is an expert at developing and implementing information management systems for use in a global context.\n",
     "name": "Tammie O'Rourke",
     "last_name": "O'Rourke",
     "image": "image.jpg",
@@ -2054,6 +2234,7 @@
     ]
   },
   {
+    "body": "National Geographic EarthPulse is a visual report on global trends published annually by National Geographic Maps and distributed worldwide in multiple languages. It aims to provide access to accurate, unbiased facts so that a world brimming with possibilities and perils can begin to make sense.\n",
     "name": "The National Geographic Society Earthpulse Team",
     "last_name": "The",
     "image": "image.jpg",
@@ -2062,6 +2243,7 @@
     ]
   },
   {
+    "body": "The National Geographic Society (NGS), has been inspiring people to care about our planet since 1888. It is one of the largest nonprofit scientific and educational institutions in the world—with interests that encompass not only geography, archaeology, and natural science, but also the promotion of environmental and historical conservation and the study of world culture and history. Headquartered in Washington, D.C., in the United States, it is one of the largest nonprofit scientific and educational institutions in the world.\n",
     "name": "The National Geographic Society",
     "last_name": "The",
     "image": "image.jpg",
@@ -2070,6 +2252,7 @@
     ]
   },
   {
+    "body": "The World Bank is an international financial institution that provides leveraged loans to developing countries for capital programs. It has a stated goal of reducing poverty and consists of five organizations: (1) The International Bank for Reconstruction and Development (IBRD) lends to governments of middle-income and credit worthy low-income countries. (2) The International Development Association (IDA) provides grants and interest-free loans, called \"credits,\" to the governments of the poorest countries. (3) The International Finance Corporation (IFC) provides loans, equity, and technical assistance to stimulate private-sector investment in developing countries. (4) The Multilateral Investment Guarantee Agency (MIGA) provides guarantees against losses caused by noncommercial risks to investors in developing countries. (5) The International Centre for Settlement of Investment Disputes (ICSID) provides international facilities for conciliation and arbitration of investment disputes.\n",
     "name": "The World Bank",
     "last_name": "The",
     "image": "image.jpg",
@@ -2078,6 +2261,7 @@
     ]
   },
   {
+    "body": "Theodora Michaelidou is a graduate student in the School of Education at Indiana University. Recently, she joined Option Six, an e-learning company based in Bloomington, Indiana.\n",
     "name": "Theodora Michaelidou",
     "last_name": "Michaelidou",
     "image": "image.jpg",
@@ -2086,6 +2270,7 @@
     ]
   },
   {
+    "body": "Todd M. Holloway was a PhD candidate in computer science at Indiana University. He holds a BA from Grinnell College and an SM from Indiana University, both in computer science. His research interests include data mining, case-based reasoning, information retrieval, personalization, and information visualization.\n",
     "name": "Todd Holloway",
     "last_name": "Holloway",
     "image": "image.jpg",
@@ -2094,17 +2279,22 @@
     ]
   },
   {
-    "body": "Todd joined CNS in 2012 as Exhibit Co-Curator and Copy Editor. With a BA in English from the University of Wisconsin-Milwaukee and an MA in English from Miami University of Ohio, he previously spent time teaching classes on poetry, fiction, and creative writing to students at Miami University, University of Cincinnati, Xavier University, and Indiana University.\n",
+    "body": "Todd joined CNS in 2012 as Exhibit Co-Curator and Copy Editor. With a BA in English from the University of Wisconsin-Milwaukee and an MA in English from Miami University of Ohio, he previously spent time teaching classes on poetry, fiction, and creative writing to students at Miami University, University of Cincinnati, Xavier University, and Indiana University.\n\nTodd is an invaluable writer and editor for the Center. Just about everything that's published by CNS makes it to Todd's desk first.",
     "name": "Todd Theriault",
-    "image": "image.jpg",
-    "jobTitle": "Copy Writer and Editor at the Cyberinfrastructure for Network Science Center",
-    "location": "39.175714828051944, -86.51265918770342",
+    "last_name": "Theriault",
     "roles": [
       "team",
-      "curator"
-    ]
+      "co-curator"
+    ],
+    "jobTitle": "Copy Writer and Editor at the Cyberinfrastructure for Network Science Center",
+    "affiliation": "Indiana University - Bloomington",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-86.51239096685244,39.17539877656838]}",
+    "location_name": "Bloomington, IN, USA",
+    "region": "n_america",
+    "image": "image.jpg"
   },
   {
+    "body": "Dr. Tracey Goldstein obtained her PhD at the University ofCalifornia, Davis studying phocine herpesviral infections in harbor seals and, following that, completed two postdoctoral training opportunities: at The Alaska Sealife Center focusing on population health and disease in Steller sea lions and sea otters and at The Marine Mammal Center, examining the sublethal effects of domoic acid on California sea lion health. She is currently in research position at the UC Davis Wildlife Health Center studying the effects of infectious and non-infectious disease in marine mammal populations.\n",
     "name": "Tracey Goldstein",
     "last_name": "Goldstein",
     "image": "image.jpg",
@@ -2113,6 +2303,7 @@
     ]
   },
   {
+    "body": "The United States Geological Survey is a governmental agency that studies the country’s landscape and natural resources, as well as the hazards that may endanger them. The USGS is part of the United States Department of the Interior and is headquartered in Reston, Virginia.\n",
     "name": "US Geological Survey",
     "last_name": "US",
     "image": "image.jpg",
@@ -2121,6 +2312,7 @@
     ]
   },
   {
+    "body": "Valeska P. Korff is Junior Professor of Methods in Organizational and Administrative Research at the University of Potsdam, Germany. Her research focuses on ambiguities and contestations associated with processes of institutionalization—such as prevalent in the context of the rationalization of civil society—and the role of organizations as drivers and sites of these dynamics. She holds a PhD in sociology from the University of Groningen, The Netherlands.\n",
     "name": "Valeska Korff",
     "last_name": "Korff",
     "image": "image.jpg",
@@ -2142,6 +2334,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Vincent Lariviére is assistant professor at the School of Library and Information Science, Université de Montréal, Associate Researcher at Observatoire des sciences et des technologies, Université du Québec à Montréal, and regular member of Centre interuniversitaire de recherche sur la science et la technologie, Université du Québec à Montréal. His research is oriented toward characterizing scientific research systems in Quebec, in Canada, and in the world, as well as the transformations in the production and diffusion of scientific knowledge in the digital world.\n",
     "name": "Vincent Larivière",
     "last_name": "Larivière",
     "roles": [
@@ -2156,6 +2349,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Vittoria Colizza is a research scientist at the Institute for Scientific Interchange (ISI Foundation, Turin, Italy) where she leads the Computational Epidemiology Laboratory. Vittoria obtained her PhD in physics at the International School for Advanced Studies (SISSA) in Trieste, Italy, in 2004. After holding a research position at the Indiana University School of Informatics in Bloomington, Indiana, she spent a year as visiting assistant professor at Indiana University (time of the creation of this map), and she joined the ISI Foundation in Turin in 2007. She was recently awarded a Starting Independent Career Grant in Life Sciences by the European Research Council Ideas Program.\n",
     "name": "Vittoria Colizza",
     "last_name": "Colizza",
     "image": "image.jpg",
@@ -2164,6 +2358,7 @@
     ]
   },
   {
+    "body": "Walter W. Powell is Professor of Education (and) Sociology, Organizational Behavior, Management Science and Engineering, Public Policy, and Communication at Stanford University. His interests focus on the processes through which knowledge is transferred across organizations, and the role of networks in facilitating or hindering innovation and of institutions in codifying ideas. He is the author or editor of Books: The Culture and Commerce of Publishing, with Lewis Coser and Charles Kadushin (Basic Books, 1982); Getting Into Print: The Decision-Making Process in Scholarly Publishing (U. of Chicago Press, 1985); The New Institutionalism in Organizational Analysis, with Paul DiMaggio (U. of Chicago Press, 1991); Private Action and the Public Good, with Elisabeth Clemens (Yale U. Press, 1997); and The Nonprofit Sector, with Richard Steinberg (Yale U. Press, 2006). His most recent book, with John Padgett, is The Emergence of Organizations and Markets (Princeton U. Press, 2012).\n",
     "name": "Walter Powell",
     "last_name": "Powell",
     "image": "image.jpg",
@@ -2180,6 +2375,7 @@
     ]
   },
   {
+    "body": "\"Dr. William Karesh is the Executive Vice President for Health and Policy at EcoHealth Alliance. He serves as the president of the World Animal Health Organization (OIE) Working Group on Wildlife Diseases and also chairs the International Union for the Conservation of Nature (IUCN) Wildlife Health Specialist Group, a network of wildlife and health experts around the world.\n\"\n",
     "name": "William Karesh",
     "last_name": "Karesh",
     "image": "image.jpg",
@@ -2188,6 +2384,7 @@
     ]
   },
   {
+    "body": "Yong-Yeol Ahn is an assistant professor at Indiana University's School of Informatics and Computing and a co-founder of Janys Analytics. He earned his PhD from the Physics Department at KAIST in early 2008 and was a postdoctoral researcher at the Center for Complex Network Research at Northeastern University and a visiting researcher at the Center for Cancer Systems Biology at Dana-Farber Cancer Institute from 2008 until 2011. He is interested in the structure and dynamics of complex systems, such as society and living organisms.\n",
     "name": "Yong Yeol Ahn",
     "last_name": "Ahn",
     "image": "image.jpg",
@@ -2209,6 +2406,7 @@
     "image": "image.jpg"
   },
   {
+    "body": "Yves Gingras is Canada Research Chair in the History and Sociology of Science at Université du Québec à Montréal (UQAM) and former director (2001-2005) of UQAM's Centre interuniversitaire de recherche sur la science et la technologie (CIRST). He is also scientific director of the Observatoire des sciences et des technologies (OST), a Canadian organization devoted to the quantitative study of science and technology. He has written, co-written or edited sixteen books, and published more than 150 papers. His most recent book analyzes the uses and abuses of research evaluation: Les dérives de l’évaluation de la recherche (Paris, Raisons d’agir, 2014).\n",
     "name": "Yves Gingras",
     "last_name": "Gingras",
     "image": "image.jpg",

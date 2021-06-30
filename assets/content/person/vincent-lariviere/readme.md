@@ -11,4 +11,4 @@ location_name: Montréal, Canada
 region: n_america
 image: image.jpg
 ---
-
+Vincent Lariviére is assistant professor at the School of Library and Information Science, Université de Montréal, Associate Researcher at Observatoire des sciences et des technologies, Université du Québec à Montréal, and regular member of Centre interuniversitaire de recherche sur la science et la technologie, Université du Québec à Montréal. His research is oriented toward characterizing scientific research systems in Quebec, in Canada, and in the world, as well as the transformations in the production and diffusion of scientific knowledge in the digital world.
