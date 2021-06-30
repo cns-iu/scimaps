@@ -99,14 +99,14 @@ describe('ProfileItemComponent', () => {
     });
     it ('should have hasLongContent True', () => {
       expect(component.hasLongContent).toBeTrue();
-    })
+    });
     it ('should have correct partial content', () => {
       expect(component.partialContent).toEqual(testProfile.body.substr(0, component.maxContentLength) + '...');
-    })
+    });
     it ('should have correct full content', () => {
       expect(component.fullContent).toEqual(testProfile.body);
-    })
-  })
+    });
+  });
 
   describe('hasContent should be False', () => {
     beforeEach(() => {
@@ -121,8 +121,8 @@ describe('ProfileItemComponent', () => {
       component.profile = testProfile;
       fixture.detectChanges();
       expect(component.hasLongContent).toBeFalse();
-    })
-  })
+    });
+  });
 });
 
 
