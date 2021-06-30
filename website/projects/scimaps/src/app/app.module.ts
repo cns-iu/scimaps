@@ -50,7 +50,11 @@ export class AppModule {
       { namespace: 'social', name: 'twitter', url: 'assets/social-media-logos/twitter.svg' },
       { namespace: 'social', name: 'instagram', url: 'assets/social-media-logos/instagram.svg' },
       { namespace: 'social', name: 'email', url: 'assets/social-media-logos/email.svg' },
-      { namespace: 'social', name: 'facebook', url: 'assets/social-media-logos/facebook.svg' }
+      { namespace: 'social', name: 'facebook', url: 'assets/social-media-logos/facebook.svg' },
+      { namespace: 'search', name: 'search', url: 'assets/icons/search.svg'},
+      { namespace: 'search', name: 'search_close', url: 'assets/icons/search_close.svg'},
+      { namespace: 'search', name: 'search_off', url: 'assets/icons/search_off.svg'},
+      { namespace: 'file', name: 'download', url: 'assets/icons/pdf_download.svg'}
     ];
 
     for (const icon of icons) {

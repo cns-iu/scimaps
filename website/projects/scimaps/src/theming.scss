@@ -9,6 +9,7 @@
 @use "./app/pages/macroscopes/macroscopes.theme.scss" as macroscopes;
 @use "./app/pages/maps/maps.theme.scss" as maps;
 // @use "./app/pages/pages.theme" as pages;
+@use './app/pages/about/about.theme.scss';
 
 
 // Include the common styles for Angular Material. We include this here so that you only
@@ -27,6 +28,7 @@
   @include macroscopes.theme($theme);
   @include maps.theme($theme);
   // @include pages.theme($theme);
+  @include about.theme($theme);
 }
 
 // Default theme

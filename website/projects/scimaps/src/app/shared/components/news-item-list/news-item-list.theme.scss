@@ -15,6 +15,17 @@
       background-color: mat-color($primary, lighter);
       border-color: mat-color($grey-palette, 300);
     }
+
+    .icon-search-close {
+      svg {
+        fill: grey;
+      }
+    }
+    .icon-search-off {
+      svg {
+        fill: #7997a3;
+      }
+    }
   }
 }
 

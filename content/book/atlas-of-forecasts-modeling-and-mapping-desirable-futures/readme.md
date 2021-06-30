@@ -9,6 +9,14 @@ amazonLink: https://www.amazon.com/Atlas-Forecasts-Modeling-Mapping-Desirable/dp
 bookImages:
   - sm: image01.med.jpg
     lg: image01.lg.jpg
+  - sm: image02.med.jpg
+    lg: image02.lg.jpg
+  - sm: image03.med.jpg
+    lg: image03.lg.jpg
+  - sm: image04.med.jpg
+    lg: image04.lg.jpg
+  - sm: image05.med.jpg
+    lg: image05.lg.jpg
 ---
 To envision and create the futures we want, society needs an appropriate understanding of the likely impact of alternative actions. Data models and visualizations offer a way to understand and intelligently manage complex, interlinked systems in science and technology, education, and policymaking. *Atlas of Forecasts*, from the creator of *Atlas of Science* and *Atlas of Knowledge*, shows how we can use data to predict, communicate, and ultimately attain desirable futures.\
 \

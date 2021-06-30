@@ -1,0 +1,10 @@
+<!-- Partners -->
+<div class="partners">
+    <h2 class="header2"> Thanks to the following for their support </h2>
+    <div class="logos">
+        <div class="flex-item" *ngFor="let partner of data;let i = index;let isEven = even;">
+            <img [ngClass]="isEven ? 'right-aligned': 'left-aligned'" [src]="partner.logo" [alt]="partner.name"
+                (click)="openLink(partner.link)">
+        </div>
+    </div>
+</div>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {
   trigger,
@@ -12,6 +12,8 @@ import {
 
 import { ImageCardItem } from './core/models/image-card-item';
 import { NewsItem } from './shared/components/news-item/news-item.model';
+import { fromEvent, of, Subscription } from 'rxjs';
+import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
 
 export const slideInAnimation =
   trigger('routeAnimations', [
@@ -49,9 +51,10 @@ export const slideInAnimation =
     slideInAnimation
   ]
 })
-export class AppComponent {
+export class AppComponent implements OnInit, OnDestroy {
+  hasPageScrolled = false;
   sidenavOpen = false;
-
+  windowScrollSubscription: Subscription | undefined;
   newsItems: NewsItem[] = [
     {
       title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
@@ -192,7 +195,32 @@ export class AppComponent {
     acknowledgement: 'This exhibit is supported by the National Science Foundation under Grant No. IIS-0238261, CHE-0524661, IIS-0534909 and IIS-0715303, the James S. McDonnell Foundation; Thomson Reuters; the Cyberinfrastructure for Network Science Center, University Information Technology Services, and the School of Library and Information Science, all three at Indiana University. Some of the data used to generate the science maps is from the Web of Science by Thomson Reuters and Scopus by Elsevier. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.'
   };
 
+  ngOnInit(): void {
+    this.windowScrollSubscription = fromEvent(window, 'scroll').pipe(
+      map(() => {
+        return window.scrollY;
+      }),
+      debounceTime(10),
+      distinctUntilChanged(),
+      switchMap((scrollY) => {
+        return of(scrollY);
+      })
+    ).subscribe(scrollY => {
+      if (scrollY <= 0) {
+        this.hasPageScrolled = false;
+      } else {
+        this.hasPageScrolled = true;
+      }
+    });
+  }
+
   prepareRoute(outlet: RouterOutlet): string {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
+  }
+
+  ngOnDestroy(): void {
+    if (this.windowScrollSubscription) {
+      this.windowScrollSubscription.unsubscribe();
+    }
   }
 }
