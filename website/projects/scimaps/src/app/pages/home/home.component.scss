@@ -6,12 +6,9 @@ $desktop: 1248px;
 
 :host {
   display: block;
-  min-height: 70vh;
-  height: 100%;
   background-color: grey;
   border: 1px solid black;
   width: 100%;
-  overflow-x: hidden;
 
   .action-card {
     position: absolute;
@@ -51,21 +48,14 @@ $desktop: 1248px;
       height: 100%;
       max-width: 100%;
       max-height: 100%;
-      // @media  screen and (min-width: $mobile)  {
-      //   img {
-      //     max-height: 100%;
-      //   }
-      // }
-      // @media  screen and (min-width: $desktop)  {
-      //   img {
-      //     max-width: 100%;
-      //     min-height: 100%;
-      //     max-height: 100%;
-      //   }
-      // }
-      // @media  screen and (max-width: $tablet)  {
-      //   max-height: 100%;
-      // }
+      overflow-x: hidden;
+      overflow-y: hidden;
+
+
+      .img {
+        max-width: 100%;
+        max-height: 100%;
+      }
     }
   }
 }
