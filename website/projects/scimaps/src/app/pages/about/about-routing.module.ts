@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about.component';
 import { AboutResolverService } from './about-resolver.service';
 import { AboutBodyResolverService } from './about-body-resolver.service';
+import { NewsResolverService } from './news-resolver.service';
 
 const routes: Routes = [
   {
@@ -11,6 +12,7 @@ const routes: Routes = [
     component: AboutComponent,
     resolve: {
       profiles: AboutResolverService,
+      newsItems: NewsResolverService,
       body: AboutBodyResolverService
     }
   }

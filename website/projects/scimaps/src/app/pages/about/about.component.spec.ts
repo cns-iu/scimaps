@@ -6,7 +6,7 @@ import { ActivatedRoute } from '@angular/router';
 import { of } from 'rxjs';
 import { Profile } from '../../core/models/profile';
 
-export function getProfiles(numberOfProfiles: number): Profile[] {
+export function getProfiles(numberOfProfiles: number, roles = ['maker']): Profile[] {
   const profiles: Profile[] = [];
   for (let i = 0; i <= numberOfProfiles; i++) {
     profiles.push({
@@ -17,15 +17,35 @@ export function getProfiles(numberOfProfiles: number): Profile[] {
       name: `Abin Abraham ${i}`,
       slug: `abin-abraham-${i}`,
       title: `Sample title ${i}`,
+      roles
     });
   }
   return profiles;
 }
 
+const testNewsItems = [{
+  title: 'Title 3',
+  date: new Date(2005, 1, 1),
+  publication: 'C',
+  institution: 'test institution',
+  thumbnail: 'test thumb',
+  pdfLink: 'link'
+},
+{
+  title: 'Title 7',
+  date: new Date(2006, 1, 1),
+  publication: 'G',
+  institution: 'test institution',
+  thumbnail: 'test thumb',
+  pdfLink: 'link'
+}];
+
 describe('AboutComponent', () => {
   let shallow: Shallow<AboutComponent>;
-
-  const testProfiles = getProfiles(30);
+  const curatorProfiles = getProfiles(10, ['curator']);
+  const advisoryBoardProfiles = getProfiles(10, ['advisory_board']);
+  const ambassadorProfiles = getProfiles(10, ['ambassador']);
+  const testProfiles = [...curatorProfiles, ...advisoryBoardProfiles, ...ambassadorProfiles];
   const testBody = {
     curatorsDescription: 'Sample curators description',
     advisoryBoardDescription: 'Sample advisory board description',
@@ -39,7 +59,8 @@ describe('AboutComponent', () => {
           profiles: testProfiles,
           body: {
             ...testBody
-          }
+          },
+          newsItems: testNewsItems
         })
       });
   });
@@ -75,19 +96,32 @@ describe('AboutComponent', () => {
 
   it('should have correct curator profiles', async () => {
     const { instance } = await shallow.render();
-    const curatorProfiles = testProfiles.slice(0, 3);
     expect(instance.curatorProfiles).toEqual(curatorProfiles);
   });
 
   it('should have correct advisory board profiles', async () => {
     const { instance } = await shallow.render();
-    const advisoryBoardProfiles = testProfiles.slice(3, 12);
     expect(instance.advisoryBoardProfiles).toEqual(advisoryBoardProfiles);
   });
 
   it('should have correct ambassadors profiles', async () => {
     const { instance } = await shallow.render();
-    const ambassadorProfiles = testProfiles.slice(12, 21);
     expect(instance.ambassadorProfiles).toEqual(ambassadorProfiles);
+  });
+
+  it('should have correct ambassadors profiles', async () => {
+    const { instance } = await shallow.render();
+    expect(instance.newsItems).toEqual(testNewsItems);
+  });
+
+  it('should open correct annual report', async () => {
+    const { instance } = await shallow.render();
+    const spy = spyOn(window, 'open');
+    const testYear = '2012';
+    instance.getReport(testYear);
+    const getPdfPath = (year: string) => {
+      return `assets/annual-reports/${year}-ps-annual-report.pdf`;
+    };
+    expect(spy).toHaveBeenCalledWith(getPdfPath(testYear), '_blank');
   });
 });

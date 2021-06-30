@@ -16,7 +16,6 @@
 @use './components/lazy-table/lazy-table.theme.scss';
 @use './components/tab-header/tab-header.theme.scss';
 
-
 @mixin theme($theme) {
   @include book-overview.theme($theme);
   @include card-gallery.theme($theme);

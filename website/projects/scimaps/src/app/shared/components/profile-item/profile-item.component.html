@@ -1,0 +1,28 @@
+<div class="profile-item">
+  <img class="profile-image" [src]="profile.image" [alt]="profile.image" />
+  <div class="profile-about">
+    <div class="profile-name">{{ profile.name }}</div>
+    <div class="profile-title">{{ profile.title }}</div>
+    <div class="profile-affiliation" *ngIf="compact === true">
+      {{ profile.affiliation }}
+    </div>
+    <div class="profile-body" *ngIf="compact === false">
+      <!-- Mobile -->
+      <div *sciBreakpoint="'mobile-'">
+        <div class="markdown full" markdown [data]="fullContent"></div>
+      </div>
+      
+      <!-- Desktop -->
+      <div *sciBreakpoint="'mobile+'">
+        <div *ngIf="!fullContentVisible" class="markdown partial" markdown [data]="partialContent"></div>
+        <div [@contentTrigger] *ngIf="fullContentVisible" class="markdown full" markdown [data]="fullContent"></div>
+        <div
+          *ngIf="hasLongContent"
+          class="show-more"
+          (click)="fullContentVisible = !fullContentVisible">
+          {{ fullContentVisible ? "Show less" : "Read more..." }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

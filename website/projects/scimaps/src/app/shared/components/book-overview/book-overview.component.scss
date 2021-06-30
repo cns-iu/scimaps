@@ -9,6 +9,7 @@ $button-span-max-width: 480px;
   .text-column,
   .carousel-column {
     width: 50%;
+    max-width: 600px;
   }
 
   .text-column {
@@ -33,7 +34,7 @@ $button-span-max-width: 480px;
       cursor: pointer;
     }
 
-    .links {
+    .buttons {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -47,16 +48,31 @@ $button-span-max-width: 480px;
         white-space: nowrap;
       }
     }
+    .link {
+      text-decoration: none;
+      color: #8DC63F;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   .carousel-column {
     display: flex;
     justify-content: space-around;
-
     .carousel {
       width: 100%;
-      max-width: 25rem;
-      height: 15.625rem;
+
+      .carousel-item {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          height: auto;
+          object-fit: cover;
+        }
+      }
     }
   }
 

@@ -5,7 +5,15 @@
   height: 4.5rem;
   align-items: center;
 
-  .logo,
+  .logo {
+    height: 100%;
+    padding: 12px 0;
+    margin-left: 1rem;
+    img {
+      height: 3rem;  // 48px
+    }
+  }
+
   .sidenav-toggle,
   .nav-item,
   .search {
@@ -31,6 +39,10 @@
   .filler {
     flex-grow: 1;
   }
+}
+
+:host(.scrolled) {
+  box-shadow: 0px 5px 10px 0px #e0e0e0cc;
 }
 
 // Annoying angular overlays...

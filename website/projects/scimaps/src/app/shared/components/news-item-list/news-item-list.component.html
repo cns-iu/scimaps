@@ -1,33 +1,63 @@
-<div class="filter-header">
-  <mat-form-field class="year-select" appearance="fill">
-    <mat-label>Year</mat-label>
-    <mat-select [(value)]="selectedYear" (selectionChange)="onYearChange($event.value)">
-      <mat-option *ngFor="let year of yearList" [value]="year">
-        {{year}}
-      </mat-option>
-    </mat-select>
-  </mat-form-field>
+<h2 class="header2">In the News</h2>
 
-  <div class="sort-filters">
-    <div class="sort date" (click)="sort('date')">
-      <div>Date</div>
-      <mat-icon [class.reversed]="dateOrder === 'desc'">filter_list</mat-icon>
+<!-- FormGroup -->
+<form [formGroup]="searchForm" class="search-form">
+  
+  <div class="group1">
+    <mat-form-field class="input-year">
+      <mat-label>Year</mat-label>
+      <mat-select formControlName="year">
+        <mat-option value="">
+          All
+        </mat-option>
+        <mat-option *ngFor="let year of yearList" [value]="year">
+          {{year}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  
+    <div class="sort-filters">
+      <div class="sort publication" (click)="toggleSort('publication')">
+        <div>Source</div>
+        <mat-icon [class.reversed]="publicationOrder === 'asc'">arrow_downward</mat-icon>
+      </div>
+    </div>  
+  </div>
+  
+  <div class="search-overlay" [ngClass]="{'open': isSearchOpen}">
+    <div (click)="isSearchOpen = false" class="icon-container search-off-icon-container">
+      <mat-icon *ngIf="isSearchOpen" class="icon-search-off" svgIcon="search:search_off" aria-hidden="false" aria-label="search"></mat-icon>
     </div>
-    <div class="sort title" (click)="sort('title')">
-      <div>Title</div>
-      <mat-icon [class.reversed]="titleOrder === 'asc'">filter_list</mat-icon>
+    <div class="input-search" [@isSearchOpenTrigger] *ngIf="isSearchOpen" (@isSearchOpenTrigger.done)="afterAnimation($event)">
+      <mat-form-field>
+        <mat-label> </mat-label>
+        <input matInput formControlName="search" placeholder="Type search" #searchInput />
+      </mat-form-field>  
     </div>
-    <div class="sort publication" (click)="sort('publication')">
-      <div>Publication</div>
-      <mat-icon [class.reversed]="publicationOrder === 'asc'">filter_list</mat-icon>
+    <div class="icon-container search-icon-container" (click)="isSearchOpen = true" >
+      <mat-icon *ngIf="!isSearchOpen" class="icon-search" aria-hidden="false" aria-label="search">search</mat-icon>
+    </div>
+    <div class="icon-container close-icon-container">
+      <mat-icon *ngIf="isSearchOpen" (click)="clearSearch()"  class="icon-search-close" aria-hidden="true" svgIcon="search:search_close"></mat-icon>
     </div>
   </div>
-</div>
+</form>
 
 <div class="news-item-list">
-  <div *ngFor="let item of displayedNewsItems" class="news-item">
-    <sci-news-item *ngIf="showAllItems || displayedNewsItems.indexOf(item) < 4" [item]="item"></sci-news-item>
+  <ng-container *ngIf="displayedNewsItems.length > 0">
+    <div *ngFor="let item of displayedNewsItems; let i = index" class="news-item">
+      <sci-news-item *ngIf="showAllItems || i < displayLimit" [item]="item"></sci-news-item>
+    </div>
+  </ng-container>
+  <div class="no-search" *ngIf="displayedNewsItems.length == 0">
+    <p class="no-result-text">
+      No results matched your search
+    </p>
   </div>
-  <div class="show-more" *ngIf="needShowMoreButton()" (click)="this.showAllItems = !this.showAllItems">
-    {{ showButtonText }}</div>
+  <div class="total">
+    {{ totalResultsText }}
+  </div>
+  <div class="show-more" *ngIf="needShowMoreButton()" (click)="showAllItems = !showAllItems">
+    {{ showButtonText }}
+  </div>
 </div>
