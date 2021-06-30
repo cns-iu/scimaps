@@ -1,0 +1,15 @@
+:host {
+    .main-content {
+        display: flex;
+        flex-direction: row;
+        
+
+        .tabs {
+            flex: 3
+        }
+        .call-out {
+            flex: 1
+        }
+    }
+
+}

@@ -1,2 +1,21 @@
-<p>call-for-macroscopes works!</p>
-<sci-call-out [title]="'Important Dates'" [items]="importantDates"></sci-call-out>
+<h1 class="header1"> Call for Microscopes </h1>
+
+<div>
+    Banner
+</div>
+
+<div>
+    Submissions due: March 15, 2021 / Download Details PDF
+</div>
+
+<sci-tab-header class="tab-header" [tabs]="pageTabs" (activeTabIndexChanged)="updateActivePageTab($event)">
+</sci-tab-header>
+
+<div class="main-content">
+    <div class="tabs">
+        Tabs
+    </div>
+    <div class="call-out">
+        <sci-call-out [title]="'Important Dates'" [items]="importantDates"></sci-call-out>
+    </div>
+</div>
