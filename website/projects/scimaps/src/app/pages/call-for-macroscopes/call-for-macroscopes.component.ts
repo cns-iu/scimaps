@@ -1,20 +1,46 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'sci-call-for-macroscopes',
   templateUrl: './call-for-macroscopes.component.html',
   styleUrls: ['./call-for-macroscopes.component.scss']
 })
-export class CallForMacroscopesComponent {
-  tabs = ['A', 'B', 'C'];
-  activeTab = 0;
+export class CallForMacroscopesComponent implements OnInit {
+  
+  // tabHeaders = ['General Information', 'How to Submit', 'Review & Final Submission Process'];
+  tabHeaders: string[] = [];
+  tabContents: string[] = []
+  activePageTab = 0;
+
   importantDates: Array<[string, string]> = [
-    ['Sunmissions due', 'February 1, 2020'],
-    ['Notification to mapmakers', 'March 15, 2020'],
-    ['Submit final entries', 'May 1, 2020'],
-    ['Iteration ready for display', 'September 1, 2020']
+    ['Sunmissions due', 'March 15, 2021'],
+    ['Notification to mapmakers', 'April 15, 2021'],
+    ['Submit final entries', 'May 30, 2021'],
+    ['Iteration ready for display', 'August 31, 2021']
   ];
 
+
+  constructor(private route: ActivatedRoute) {
+  }
+
+  ngOnInit(): void {
+    this.route.data.subscribe((data: Params) => {
+      const { body } = data;
+      if (body) {
+        const { tabs } = body;
+        if (tabs && Array.isArray(tabs)) {
+          tabs.forEach((tab: {header: string, content: string}) => {
+            this.tabHeaders.push(tab.header);
+            this.tabContents.push(tab.content);
+          });
+        }
+      }
+      console.log(data);
+    });
+  }
+
   updateActivePageTab(index: number): void {
+    this.activePageTab = index;
   }
 }

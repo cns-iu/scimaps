@@ -5,6 +5,8 @@ import { CallForMacroscopesRoutingModule } from './call-for-macroscopes-routing.
 import { CallForMacroscopesComponent } from './call-for-macroscopes.component';
 import { CallOutModule } from '../../shared/components/call-out/call-out.module';
 import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.module';
+import { SharedModule } from '../../shared/shared.module';
+import { MarkdownModule } from 'ngx-markdown';
 
 
 @NgModule({
@@ -13,7 +15,9 @@ import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.m
     CommonModule,
     CallForMacroscopesRoutingModule,
     CallOutModule,
-    TabHeaderModule
+    TabHeaderModule,
+    MarkdownModule,
+    SharedModule
   ]
 })
 export class CallForMacroscopesModule { }
