@@ -108,22 +108,16 @@ describe('ProfileItemComponent', () => {
     });
   });
 
-  describe('hasContent should be False', () => {
+  describe('hasLongContent should be False', () => {
     beforeEach(() => {
-      testProfile.body = 'Test body';
-      component.profile = testProfile;
+      const testProfile2 = {...testProfile, body: 'test Body'};
+      component.profile = testProfile2;
       component.compact = true;
       component.maxContentLength = 10;
       fixture.detectChanges();
     });
     it ('should have proper hasLongContent False', () => {
-      testProfile.body = 'test body';
-      component.profile = testProfile;
-      fixture.detectChanges();
       expect(component.hasLongContent).toBeFalse();
     });
   });
 });
-
-
-
