@@ -110,8 +110,8 @@ export class NewsItemListComponent implements OnInit, OnDestroy {
     let numerator: number = denominator;
     if (!this.showAllItems && denominator > this.displayLimit) {
       numerator = this.displayLimit;
-    } 
-    return `${numerator} / ${denominator};`
+    }
+    return `${numerator} / ${denominator}`;
   }
 
   constructor(private fb: FormBuilder) {

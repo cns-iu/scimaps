@@ -74,7 +74,7 @@ describe('ProfileItemComponent', () => {
       const profileBody = el.query(By.css('.profile-body'));
       expect(profileBody).toBeFalsy();
     });
-  })
+  });
 
   describe('compact = False',  () => {
     beforeEach(() => {
@@ -91,9 +91,6 @@ describe('ProfileItemComponent', () => {
       expect(profileAffiliation).toBeFalsy();
     });
   });
-
-
-  
 });
 
 
