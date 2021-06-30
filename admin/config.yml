@@ -148,7 +148,7 @@ collections:
         min: 1
         summary: '{{fields.image}}'
         widget: list
-        fields: 
+        fields:
           - { name: sm, label: "Mobile (sm) Version" , widget: image }
           - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
       - { name: body, label: Abstract, widget: markdown }
@@ -170,6 +170,35 @@ collections:
       - { name: pdfLink, label: PDF Link, widget: file }
       - { name: image, label: Image, widget: image, required: false }
       - { name: body, label: Body, widget: markdown }
+
+  - name: venue
+    label: Venues
+    folder: content/venues
+    path: "{{year}}/{{month}}-{{day}}/{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: venue/{{year}}/{{month}}-{{day}}/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: dateStart, label: Start Date, widget: datetime }
+      - { name: dateEnd, label: End Date, widget: datetime }
+      - { name: title, label: Exhibit Name }
+      - { name: venue, label: Venue }
+      - { name: credit, label: Credit }
+      - { name: city, label: City }
+      - { name: state, label: State }
+      - { name: country, label: Country }
+      - { name: pdfLink, label: PDF Link, widget: file }
+      - name: venueImages
+        label: Venue Images
+        label_singular: Venue Image
+        min: 1
+        summary: '{{fields.image}}'
+        widget: list
+        fields:
+          - { name: sm, label: "Small Version", widget: image }
+          - { name: lg, label: "Large Version", widget: image }
 
   - name: gallery
     label: Galleries
