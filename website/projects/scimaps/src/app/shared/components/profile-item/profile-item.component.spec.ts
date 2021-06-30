@@ -89,6 +89,40 @@ describe('ProfileItemComponent', () => {
       expect(profileAffiliation).toBeFalsy();
     });
   });
+
+  describe('Body Content', () => {
+    beforeEach(() => {
+      component.profile = testProfile;
+      component.compact = true;
+      component.maxContentLength = 10;
+      fixture.detectChanges();
+    });
+    it ('should have hasLongContent True', () => {
+      expect(component.hasLongContent).toBeTrue();
+    })
+    it ('should have correct partial content', () => {
+      expect(component.partialContent).toEqual(testProfile.body.substr(0, component.maxContentLength) + '...');
+    })
+    it ('should have correct full content', () => {
+      expect(component.fullContent).toEqual(testProfile.body);
+    })
+  })
+
+  describe('hasContent should be False', () => {
+    beforeEach(() => {
+      testProfile.body = 'Test body';
+      component.profile = testProfile;
+      component.compact = true;
+      component.maxContentLength = 10;
+      fixture.detectChanges();
+    });
+    it ('should have proper hasLongContent False', () => {
+      testProfile.body = 'test body';
+      component.profile = testProfile;
+      fixture.detectChanges();
+      expect(component.hasLongContent).toBeFalse();
+    })
+  })
 });
 
 
