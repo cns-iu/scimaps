@@ -1,7 +1,7 @@
 <h1 class="header1"> Call for Macroscopes </h1>
 <div class="image-content">
     <div class="thumbnail desktop" *ngFor="let thumbnail of lastIterationThumbnails">
-      <img class="thumbnail-image" [src]="thumbnail.image" [alt]="thumbnail.image">
+      <img class="thumbnail-image" [src]="thumbnail.image" [alt]="thumbnail.image" [routerLink]="['/', {outlets: { 'primary': thumbnail.link}}]">
       <div class="thumbnail-title">{{ thumbnail.title }}</div>
     </div>
   
