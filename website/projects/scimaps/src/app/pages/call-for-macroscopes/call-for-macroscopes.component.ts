@@ -1,11 +1,14 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
+import { drawerInOut } from '../../constants/drawer.animations';
 
 @Component({
   selector: 'sci-call-for-macroscopes',
   templateUrl: './call-for-macroscopes.component.html',
   styleUrls: ['./call-for-macroscopes.component.scss'],
-  animations: []
+  animations: [
+    drawerInOut
+  ]
 })
 export class CallForMacroscopesComponent implements OnInit {
   @HostBinding('class') readonly clsName = 'sci-call-for-macrosopes';
@@ -13,7 +16,7 @@ export class CallForMacroscopesComponent implements OnInit {
   tabHeaders: string[] = [];
   tabContents: string[] = []
   activePageTab = 0;
-
+  v = false
   importantDates: Array<[string, string]> = [
     ['Sunmissions due', 'March 15, 2021'],
     ['Notification to mapmakers', 'April 15, 2021'],

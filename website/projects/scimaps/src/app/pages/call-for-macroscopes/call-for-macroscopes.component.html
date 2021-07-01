@@ -51,9 +51,11 @@
                 {{tab}}
                 <mat-icon class="mobile-icon">chevron_right</mat-icon>
             </div>
-            <sci-drawer class="tab-drawer">
+            <p (click)="v = true">test</p>
+            <sci-drawer [@drawerInOut] *ngIf="v" class="tab-drawer">
                 <div drawer>
                     AAA
+                    <p (click)="v = false">close</p>
                 </div>
             </sci-drawer>
             <div class="spacer-48"></div>
