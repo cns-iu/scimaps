@@ -45,7 +45,7 @@ export class CallForMacroscopesComponent implements OnInit {
           });
         }
         // other keys
-        this.lastIteration = lastIteration || 16;
+        this.lastIteration = lastIteration;
         this.submitURL = submitURL;
         this.pdfLink = pdfLink;
       }
