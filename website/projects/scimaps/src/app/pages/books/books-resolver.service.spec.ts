@@ -62,9 +62,9 @@ describe('BooksResolverService', () => {
   });
 
   it('should map to correct pdflink object', () => {
-    const testBook = {...testBooks[0], pdfLink: 'file'};
-    const book = service.toBookUI({...testBook});
-    expect(book.pdfLink).toEqual(service.getSourceLink(testBook));
+    let book = {...testBooks[0], pdfLink: 'file'};
+    const book2 = service.toBookUI({...book});
+    expect(book2.pdfLink).toEqual(service.getSourceLink(book));
   });
 
   it('should should call contentService.getIndex once', () => {
