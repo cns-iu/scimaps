@@ -28,7 +28,11 @@ export class BooksResolverService implements Resolve<Book[]> {
     return result;
   }
 
-  toBookUI(item: Params): Book {
+  getSourceLink(book: Book): string {
+    return `assets/${this.directory}/${book.slug}/${book.pdfLink}`;
+  }
+
+  toBook(item: Params): Book {
     const book: Book = {
       title: item.title,
       amazonLink: item.amazonLink,
@@ -39,7 +43,16 @@ export class BooksResolverService implements Resolve<Book[]> {
       slug: toSlug(item.title),
       images: item.bookImages
     };
+    return book;
+  }
+
+  toBookUI(book: Book): Book {
     book.images = this.getImageSource(book);
+    if (book.pdfLink) {
+      if (!book.pdfLink.startsWith('http://') && !book.pdfLink.startsWith('https://')) {
+        book.pdfLink = this.getSourceLink(book);
+      }
+    }
     return book;
   }
 
@@ -92,8 +105,8 @@ export class BooksResolverService implements Resolve<Book[]> {
         const [people, books] = result;
         return books.filter((book: Params) => {
           return book.title;
-        }).map((book: Params) => {
-          const authorNames: string[] = book.author
+        }).map((bookParams: Params) => {
+          const authorNames: string[] = bookParams.author
           .map((slug: string) => {
             let authorName;
             if (people.hasOwnProperty(slug) && people[slug]) {
@@ -104,7 +117,9 @@ export class BooksResolverService implements Resolve<Book[]> {
             }
             return authorName;
           }).filter((author: string | undefined) => author);
-          return this.toBookUI({...book, author: authorNames.join(', ')});
+
+          const book =  this.toBook({...bookParams, author: authorNames.join(', ')});
+          return this.toBookUI(book);
         });
       })
     );
