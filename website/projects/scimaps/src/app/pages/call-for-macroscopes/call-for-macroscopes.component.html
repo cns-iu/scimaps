@@ -18,7 +18,7 @@
     <div class="due">
         <h4> Submissions due: March 15, 2021 / </h4>
     </div>
-    <div class="download">
+    <div class="download" *ngIf="pdfLink">
         <h4>
             <a [href]="pdfLink" target="_blank" rel="noopener noreferrer">
                 Download Details PDF

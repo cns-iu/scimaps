@@ -1,5 +1,6 @@
 ---
 lastIteration: 16
+pdfLink: call-for-macroscopes.pdf
 submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdHsXb8EKx226ZFPhqoiAXXN2-qOerxDbCqEgxr5qoBuFyO7w/closedform
 tabs:
   - header: Background and Goals

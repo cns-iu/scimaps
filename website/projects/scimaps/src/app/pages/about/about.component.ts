@@ -72,6 +72,7 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.data.subscribe((data) => {
+      console.log(data);
       const { profiles, body, newsItems } = data;
       // Profiles
       ({

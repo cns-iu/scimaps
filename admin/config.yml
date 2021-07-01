@@ -42,8 +42,10 @@ collections:
         name: callForMacroscopes
         file: content/site/callForMacroscopes.md
         preview_path: call-for-macroscopes
+        media_folder: ''
         fields:
           - { name: lastIteration, label: Previous Macroscope Iteration, widget: number, min: 11, max: 16, default: 16 }
+          - { name: pdfLink, label: PDF, widget: file, required: false }
           - { name: submitURL, label: Submit URL}
           - name: tabs
             widget: list

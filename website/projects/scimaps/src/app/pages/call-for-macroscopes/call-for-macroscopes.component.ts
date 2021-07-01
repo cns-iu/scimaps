@@ -27,17 +27,18 @@ export class CallForMacroscopesComponent implements OnInit {
   ];
 
   submitURL = '';
-  pdfLink = 'assets/call-for-macroscopes/call-for-macroscopes.pdf';
+  pdfLink = '';
 
   constructor(private route: ActivatedRoute) {
   }
 
   ngOnInit(): void {
     this.route.data.subscribe((data: Params) => {
+      console.log(data);
       const { body } = data;
       // Body
       if (body) {
-        const { lastIteration, submitURL, tabs } = body;
+        const { pdfLink, lastIteration, submitURL, tabs } = body;
         // Tabs
         if (tabs && Array.isArray(tabs)) {
           tabs.forEach((tab: {header: string, content: string}) => {
@@ -48,6 +49,7 @@ export class CallForMacroscopesComponent implements OnInit {
         // other keys
         this.lastIteration = lastIteration || 16;
         this.submitURL = submitURL;
+        this.pdfLink = pdfLink;
       }
       // Last Macroscope Iteraction
       const { macroscopes } = data;
