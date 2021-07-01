@@ -34,7 +34,6 @@ export class CallForMacroscopesComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.data.subscribe((data: Params) => {
-      console.log(data);
       const { body } = data;
       // Body
       if (body) {
