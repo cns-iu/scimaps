@@ -14,7 +14,8 @@ export class CallForMacroscopesComponent implements OnInit {
   @HostBinding('class') readonly clsName = 'sci-call-for-macrosopes';
   // tabHeaders = ['General Information', 'How to Submit', 'Review & Final Submission Process'];
   tabHeaders: string[] = [];
-  tabContents: string[] = []
+  tabContents: string[] = [];
+  previousIterationThumbnails: {image: string, title: string}[] = [];
   activePageTab = 0;
   showDrawer = false
   importantDates: Array<[string, string]> = [
@@ -32,6 +33,8 @@ export class CallForMacroscopesComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.data.subscribe((data: Params) => {
+
+      // Body
       const { body } = data;
       if (body) {
         const { tabs } = body;
@@ -42,7 +45,12 @@ export class CallForMacroscopesComponent implements OnInit {
           });
         }
       }
-      console.log(data);
+
+      // Banners
+      const { macroscopes } = data;
+      if (macroscopes && Array.isArray(macroscopes) && macroscopes.length > 0) {
+        this.previousIterationThumbnails = macroscopes[0].thumbnails;
+      }
     });
   }
 

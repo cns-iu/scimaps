@@ -94,6 +94,7 @@ $desktop: 1248px;
   .tab-drawer {
     position: absolute;
     top: 0;
+    z-index: 10;
     background-color: white;
     width: 100%;
     height: 100%;
@@ -114,6 +115,79 @@ $desktop: 1248px;
       margin-bottom: 0;
       h3 {
         margin-bottom: 0 !important;
+      }
+    }
+  }
+
+
+  // For banners
+  .image-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    @media (max-width: $tablet) {
+      width: 100%;
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+
+    @media (max-width: $mobile) {
+      flex-wrap: wrap;
+    }
+
+    &:last-child {
+      margin-right: 0rem;
+    }
+
+    .thumbnail {
+      display: flex;
+      flex-direction: column;
+      margin-right: 1rem;
+      cursor: pointer;
+      margin-bottom: 1rem;
+      width: 22%;
+
+      @media (max-width: $mobile) {
+        position: relative;
+        width: calc(50% - 1rem);
+      }
+
+      .thumbnail-image {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+      }
+
+      .thumbnail-title {
+        height: 20%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+
+        @media (max-width: $mobile) {
+          margin-top: 0rem;
+          bottom: .45rem;
+          z-index: 10;
+          color: white;
+          background-color: rgba(0, 0, 0, .5);
+          width: 100%;
+        }
+      }
+    }
+
+    .thumbnail.desktop {
+      margin-right: 1rem;
+      @media (max-width: $mobile) {
+        display: none;
+      }
+    }
+
+    .thumbnail.mobile {
+      @media (min-width: $mobile) {
+        display: none;
       }
     }
   }
