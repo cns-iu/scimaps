@@ -1,4 +1,4 @@
-import { animate, state, style, transition, trigger } from "@angular/animations";
+import { animate, state, style, transition, trigger } from '@angular/animations';
 
 export const drawerInOut = trigger('drawerInOut', [
     state('show', style({
@@ -18,8 +18,7 @@ export const drawerInOut = trigger('drawerInOut', [
         left: '120%'
       }),
       animate('500ms ease-out', style({
-        left: 0,
-        top: window.scrollY
+        left: 0
       }))
     ]),
     transition(':leave', [
@@ -30,4 +29,5 @@ export const drawerInOut = trigger('drawerInOut', [
         left: '120%'
       }))
     ]),
-  ])
+  ]);
+

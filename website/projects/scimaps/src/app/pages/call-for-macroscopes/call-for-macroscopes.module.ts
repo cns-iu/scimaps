@@ -10,7 +10,6 @@ import { MarkdownModule } from 'ngx-markdown';
 import { MatIconModule } from '@angular/material/icon';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 
-
 @NgModule({
   declarations: [CallForMacroscopesComponent],
   imports: [

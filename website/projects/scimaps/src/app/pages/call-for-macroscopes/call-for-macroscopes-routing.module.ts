@@ -11,7 +11,7 @@ const routes: Routes = [
     resolve: {
       body: CallForMacroscopesBodyResolver,
       macroscopes: MacroscopesResolverService
-    } 
+    }
   }
 ];
 

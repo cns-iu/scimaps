@@ -5,7 +5,8 @@ import { ContentService } from '../../shared/services/content.service';
 
 
 interface CallForMacroscopesBody {
-  tabs: {header: string, content: string}[]
+  lastIteration: number;
+  tabs: {header: string, content: string}[];
 }
 
 @Injectable({
