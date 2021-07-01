@@ -48,7 +48,6 @@ export class CallForMacroscopesComponent implements OnInit {
         const {lastIteration} = body;
         this.lastIteration = lastIteration || 16;
       }
-
       // Last Macroscope Iteraction
       const { macroscopes } = data;
       if (macroscopes && Array.isArray(macroscopes) && macroscopes.length > 0) {
