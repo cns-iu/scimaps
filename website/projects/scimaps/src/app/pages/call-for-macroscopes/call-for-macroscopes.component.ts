@@ -17,8 +17,8 @@ export class CallForMacroscopesComponent implements OnInit {
   tabContents: string[] = [];
   lastIterationThumbnails: {image: string, title: string}[] = [];
   activePageTab = 0;
-  showDrawer = false
-  lastIteration: number = 16;
+  showDrawer = false;
+  lastIteration = 16;
   importantDates: Array<[string, string]> = [
     ['Sunmissions due', 'March 15, 2021'],
     ['Notification to mapmakers', 'April 15, 2021'],
@@ -26,8 +26,8 @@ export class CallForMacroscopesComponent implements OnInit {
     ['Iteration ready for display', 'August 31, 2021']
   ];
 
-  pdfPath = 'assets/call-for-macroscopes/call-for-macroscopes.pdf'
-  submitLink = "https://docs.google.com/forms/d/e/1FAIpQLSdHsXb8EKx226ZFPhqoiAXXN2-qOerxDbCqEgxr5qoBuFyO7w/closedform"
+  pdfLink = 'assets/call-for-macroscopes/call-for-macroscopes.pdf';
+  submitLink = 'https://docs.google.com/forms/d/e/1FAIpQLSdHsXb8EKx226ZFPhqoiAXXN2-qOerxDbCqEgxr5qoBuFyO7w/closedform';
 
   constructor(private route: ActivatedRoute) {
   }

@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 
 import { CallForMacroscopesBodyResolver } from './call-for-macroscopes-body-resolver.service';
 
-describe('AbcService', () => {
+describe('CallForMacroscopesBody', () => {
   let service: CallForMacroscopesBodyResolver;
 
   beforeEach(() => {
