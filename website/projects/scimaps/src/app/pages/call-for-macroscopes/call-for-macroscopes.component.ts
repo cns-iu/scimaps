@@ -26,27 +26,28 @@ export class CallForMacroscopesComponent implements OnInit {
     ['Iteration ready for display', 'August 31, 2021']
   ];
 
+  submitURL = '';
   pdfLink = 'assets/call-for-macroscopes/call-for-macroscopes.pdf';
-  submitLink = 'https://docs.google.com/forms/d/e/1FAIpQLSdHsXb8EKx226ZFPhqoiAXXN2-qOerxDbCqEgxr5qoBuFyO7w/closedform';
 
   constructor(private route: ActivatedRoute) {
   }
 
   ngOnInit(): void {
     this.route.data.subscribe((data: Params) => {
-
-      // Body
       const { body } = data;
+      // Body
       if (body) {
-        const { tabs } = body;
+        const { lastIteration, submitURL, tabs } = body;
+        // Tabs
         if (tabs && Array.isArray(tabs)) {
           tabs.forEach((tab: {header: string, content: string}) => {
             this.tabHeaders.push(tab.header);
             this.tabContents.push(tab.content);
           });
         }
-        const {lastIteration} = body;
+        // other keys
         this.lastIteration = lastIteration || 16;
+        this.submitURL = submitURL;
       }
       // Last Macroscope Iteraction
       const { macroscopes } = data;
@@ -66,6 +67,8 @@ export class CallForMacroscopesComponent implements OnInit {
   }
 
   submitMacroscope(): void {
-    window.open(this.submitLink, '_blank');
+    if (this.submitURL) {
+      window.open(this.submitURL, '_blank');
+    }
   }
 }

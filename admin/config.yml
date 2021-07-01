@@ -43,7 +43,8 @@ collections:
         file: content/site/callForMacroscopes.md
         preview_path: call-for-macroscopes
         fields:
-          - {name: lastIteration, label: Previous Macroscope Iteration, widget: number, min: 11, max: 16, default: 16}
+          - { name: lastIteration, label: Previous Macroscope Iteration, widget: number, min: 11, max: 16, default: 16 }
+          - { name: submitURL, label: Submit URL}
           - name: tabs
             widget: list
             fields:
