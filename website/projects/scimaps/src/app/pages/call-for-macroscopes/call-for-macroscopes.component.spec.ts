@@ -7,7 +7,7 @@ import { of } from 'rxjs';
 import { CallForMacroscopesComponent } from './call-for-macroscopes.component';
 import { CallForMacroscopesModule } from './call-for-macroscopes.module';
 
-fdescribe('CallForMacroscopesComponent', () => {
+describe('CallForMacroscopesComponent', () => {
   let component: CallForMacroscopesComponent;
   let fixture: ComponentFixture<CallForMacroscopesComponent>;
   let el: DebugElement;
@@ -19,21 +19,18 @@ fdescribe('CallForMacroscopesComponent', () => {
     tabs: [
       { header: '1', content: 'content one' },
       { header: '2', content: 'content two' },
-      { header: '3', content: 'cotent three' }
-    ]
+      { header: '3', content: 'cotent three' },
+    ],
   };
   const macroscopes = [
-    { slug: '1', thumbnails: [ {image: 'one.jpg', title: 'title1'} ] },
-    { slug: '2', thumbnails: [ {image: 'two.jpg', title: 'title2'} ] },
-    { slug: '16', thumbnails:[ {image: 'sixteen.jpg', title: 'title16'} ] }
-  ]
+    { slug: '1', thumbnails: [{ image: 'one.jpg', title: 'title1' }] },
+    { slug: '2', thumbnails: [{ image: 'two.jpg', title: 'title2' }] },
+    { slug: '16', thumbnails: [{ image: 'sixteen.jpg', title: 'title16' }] },
+  ];
   beforeEach(async () => {
-
-    const route = ({ data: of({ body, macroscopes }) } as any) as ActivatedRoute;
+    const route = { data: of({ body, macroscopes }) };
     await TestBed.configureTestingModule({
-      imports: [
-        CallForMacroscopesModule
-      ],
+      imports: [CallForMacroscopesModule],
       providers: [{ provide: ActivatedRoute, useValue: route }],
     }).compileComponents();
   });
@@ -69,11 +66,15 @@ fdescribe('CallForMacroscopesComponent', () => {
   });
   it('should have correct tabs', () => {
     fixture.detectChanges();
-    expect(component.tabHeaders).toEqual(body.tabs.map(item => item.header));
-    expect(component.tabContents).toEqual(body.tabs.map(item => item.content));
+    expect(component.tabHeaders).toEqual(body.tabs.map((item) => item.header));
+    expect(component.tabContents).toEqual(
+      body.tabs.map((item) => item.content)
+    );
   });
   it('should select correct last macroscope', () => {
     fixture.detectChanges();
-    expect(component.lastIterationThumbnails).toEqual(macroscopes[1].thumbnails);
+    expect(component.lastIterationThumbnails).toEqual(
+      macroscopes[1].thumbnails
+    );
   });
 });

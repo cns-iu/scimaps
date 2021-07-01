@@ -1,7 +1,7 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { drawerInOut } from '../../constants/drawer.animations';
-import { DatePipe } from '@angular/common'
+import { DatePipe } from '@angular/common';
 @Component({
   selector: 'sci-call-for-macroscopes',
   templateUrl: './call-for-macroscopes.component.html',
@@ -43,7 +43,7 @@ export class CallForMacroscopesComponent implements OnInit {
         this.lastIteration = lastIteration;
         this.submitURL = submitURL;
         this.pdfLink = pdfLink;
-        this.importantDates = importantDates.map(((item: {label: string, date: any}) => {
+        this.importantDates = importantDates.map(((item: {label: string, date: Date}) => {
           return [item.label, this.datePipe.transform(item.date, 'MMM dd, yyyy')];
         }));
       }

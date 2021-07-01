@@ -20,8 +20,8 @@ import { DrawerModule } from '../../shared/components/drawer/drawer.module';
     MarkdownModule,
     MatIconModule,
     DrawerModule,
-    SharedModule
+    SharedModule,
   ],
-  providers: [ DatePipe] 
+  providers: [DatePipe],
 })
-export class CallForMacroscopesModule { }
+export class CallForMacroscopesModule {}
