@@ -2,23 +2,32 @@ import { animate, state, style, transition, trigger } from "@angular/animations"
 
 export const drawerInOut = trigger('drawerInOut', [
     state('show', style({
-      position: 'absolute',
       left: 0,
-      color: 'red',
-      'z-index': 5,
-      'overflow-y': 'scroll'
     })),
     state('hide', style({
-      position: 'absolute',
       left: '120%',
-      color: 'blue',
-      'z-index': 5,
-      'overflow-y': 'scroll'
     })),
     transition('hide => show', [
-      animate('1000ms ease-in')
+      animate('500ms ease-out')
     ]),
     transition('show => hide', [
-      animate('1000ms ease-in')
-    ])
+      animate('300ms ease-in')
+    ]),
+    transition(':enter', [
+      style({
+        left: '120%'
+      }),
+      animate('500ms ease-out', style({
+        left: 0,
+        top: window.scrollY
+      }))
+    ]),
+    transition(':leave', [
+      style({
+        left: 0
+      }),
+      animate('500ms ease-out', style({
+        left: '120%'
+      }))
+    ]),
   ])

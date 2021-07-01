@@ -1,8 +1,6 @@
 $breakpoint: 768px;
 
 :host {
-    width: 100%;
-    height: 100%;
-    background-color: green;
-    top: 0
+    padding: 1rem;
+    z-index: 2;
 }

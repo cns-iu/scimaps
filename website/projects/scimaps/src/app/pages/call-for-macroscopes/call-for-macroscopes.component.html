@@ -47,15 +47,23 @@
             </div> 
         </div>
         <div *sciBreakpoint="'mobile-'" class="mobile-tabs">
-            <div class="mobile-button" *ngFor="let tab of tabHeaders;">
+            <div class="mobile-button" *ngFor="let tab of tabHeaders; let i = index" (click)="updateActivePageTab(i); showDrawer = true">
                 {{tab}}
                 <mat-icon class="mobile-icon">chevron_right</mat-icon>
             </div>
-            <p (click)="v = true">test</p>
-            <sci-drawer [@drawerInOut] *ngIf="v" class="tab-drawer">
+            <sci-drawer [@drawerInOut]="showDrawer ? 'show' : 'hide'" *ngIf="showDrawer" class="tab-drawer">
                 <div drawer>
-                    AAA
-                    <p (click)="v = false">close</p>
+                    <div>
+                        <div class="drawer-header">
+                            <mat-icon class="mobile-icon" (click)="showDrawer = false;">chevron_left</mat-icon>
+                            <div class="mobile-title">
+                               <h3>{{tabHeaders[activePageTab]}} </h3> 
+                            </div>
+                        </div>
+                        <div>
+                            <div markdown [data]="tabContents[activePageTab]"></div>
+                        </div>
+                    </div>
                 </div>
             </sci-drawer>
             <div class="spacer-48"></div>

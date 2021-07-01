@@ -16,7 +16,7 @@ export class CallForMacroscopesComponent implements OnInit {
   tabHeaders: string[] = [];
   tabContents: string[] = []
   activePageTab = 0;
-  v = false
+  showDrawer = false
   importantDates: Array<[string, string]> = [
     ['Sunmissions due', 'March 15, 2021'],
     ['Notification to mapmakers', 'April 15, 2021'],
