@@ -15,9 +15,10 @@ export class CallForMacroscopesComponent implements OnInit {
   // tabHeaders = ['General Information', 'How to Submit', 'Review & Final Submission Process'];
   tabHeaders: string[] = [];
   tabContents: string[] = [];
-  previousIterationThumbnails: {image: string, title: string}[] = [];
+  lastIterationThumbnails: {image: string, title: string}[] = [];
   activePageTab = 0;
   showDrawer = false
+  lastIteration: number = 16;
   importantDates: Array<[string, string]> = [
     ['Sunmissions due', 'March 15, 2021'],
     ['Notification to mapmakers', 'April 15, 2021'],
@@ -44,12 +45,19 @@ export class CallForMacroscopesComponent implements OnInit {
             this.tabContents.push(tab.content);
           });
         }
+        const {lastIteration} = body;
+        this.lastIteration = lastIteration || 16;
       }
 
-      // Banners
+      // Last Macroscope Iteraction
       const { macroscopes } = data;
       if (macroscopes && Array.isArray(macroscopes) && macroscopes.length > 0) {
-        this.previousIterationThumbnails = macroscopes[0].thumbnails;
+        const lastmacroscope = macroscopes.find((macroscope: Params) => {
+          return macroscope.slug.includes(this.lastIteration);
+        });
+        if (lastmacroscope) {
+          this.lastIterationThumbnails = lastmacroscope.thumbnails;
+        }
       }
     });
   }
