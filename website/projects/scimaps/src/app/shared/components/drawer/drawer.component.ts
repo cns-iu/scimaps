@@ -5,11 +5,5 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './drawer.component.html',
   styleUrls: ['./drawer.component.scss'],
 })
-export class DrawerComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class DrawerComponent {
 }

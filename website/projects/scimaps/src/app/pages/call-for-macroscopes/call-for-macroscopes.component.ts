@@ -12,7 +12,6 @@ import { drawerInOut } from '../../constants/drawer.animations';
 })
 export class CallForMacroscopesComponent implements OnInit {
   @HostBinding('class') readonly clsName = 'sci-call-for-macrosopes';
-  // tabHeaders = ['General Information', 'How to Submit', 'Review & Final Submission Process'];
   tabHeaders: string[] = [];
   tabContents: string[] = [];
   lastIterationThumbnails: {image: string, title: string}[] = [];

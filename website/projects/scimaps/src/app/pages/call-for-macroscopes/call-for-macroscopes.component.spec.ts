@@ -7,7 +7,6 @@ import { CallForMacroscopesModule } from './call-for-macroscopes.module';
 describe('CallForMacroscopesComponent', () => {
   let component: CallForMacroscopesComponent;
   let fixture: ComponentFixture<CallForMacroscopesComponent>;
-  let el: DebugElement;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -18,7 +17,6 @@ describe('CallForMacroscopesComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(CallForMacroscopesComponent);
     component = fixture.componentInstance;
-    el = fixture.debugElement;
   });
 
   it('should create component', () => {
