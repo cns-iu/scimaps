@@ -4,7 +4,8 @@ import { ActivatedRoute, Params } from '@angular/router';
 @Component({
   selector: 'sci-call-for-macroscopes',
   templateUrl: './call-for-macroscopes.component.html',
-  styleUrls: ['./call-for-macroscopes.component.scss']
+  styleUrls: ['./call-for-macroscopes.component.scss'],
+  animations: []
 })
 export class CallForMacroscopesComponent implements OnInit {
   @HostBinding('class') readonly clsName = 'sci-call-for-macrosopes';

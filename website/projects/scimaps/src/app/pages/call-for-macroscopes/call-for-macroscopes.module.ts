@@ -8,6 +8,7 @@ import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.m
 import { SharedModule } from '../../shared/shared.module';
 import { MarkdownModule } from 'ngx-markdown';
 import { MatIconModule } from '@angular/material/icon';
+import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { MatIconModule } from '@angular/material/icon';
     TabHeaderModule,
     MarkdownModule,
     MatIconModule,
+    DrawerModule,
     SharedModule
   ]
 })

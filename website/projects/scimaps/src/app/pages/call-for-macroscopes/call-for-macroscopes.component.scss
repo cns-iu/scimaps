@@ -47,23 +47,23 @@ $desktop: 1248px;
         display: flex;
         flex-direction: column;
         .mobile-button {
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            padding: 0.75rem;
-            font-size: 1rem;
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          padding: 0.75rem;
+          font-size: 1rem;
+          cursor: pointer;
+          .mobile-icon {
+            font-size: 1.5rem;
+            height: 1.5rem;
+            width: 1.5rem;
             cursor: pointer;
-            .mobile-icon {
-              font-size: 1.5rem;
-              height: 1.5rem;
-              width: 1.5rem;
-              cursor: pointer;
-            }
-        
-            @media (min-width: $mobile) {
-              display: none;
-            }
           }
+
+          @media (min-width: $mobile) {
+            display: none;
+          }
+        }
       }
     }
     .col2 {
@@ -88,5 +88,9 @@ $desktop: 1248px;
         }
       }
     }
+  }
+
+  .tab-drawer {
+    
   }
 }
