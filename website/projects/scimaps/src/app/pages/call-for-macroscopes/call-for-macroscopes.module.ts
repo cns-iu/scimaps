@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, DatePipe } from '@angular/common';
 
 import { CallForMacroscopesRoutingModule } from './call-for-macroscopes-routing.module';
 import { CallForMacroscopesComponent } from './call-for-macroscopes.component';
@@ -21,6 +21,7 @@ import { DrawerModule } from '../../shared/components/drawer/drawer.module';
     MatIconModule,
     DrawerModule,
     SharedModule
-  ]
+  ],
+  providers: [ DatePipe] 
 })
 export class CallForMacroscopesModule { }

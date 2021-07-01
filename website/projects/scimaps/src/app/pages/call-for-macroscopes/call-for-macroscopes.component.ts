@@ -1,7 +1,7 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { drawerInOut } from '../../constants/drawer.animations';
-
+import { DatePipe } from '@angular/common'
 @Component({
   selector: 'sci-call-for-macroscopes',
   templateUrl: './call-for-macroscopes.component.html',
@@ -18,17 +18,12 @@ export class CallForMacroscopesComponent implements OnInit {
   activePageTab = 0;
   showDrawer = false;
   lastIteration = 16;
-  importantDates: Array<[string, string]> = [
-    ['Sunmissions due', 'March 15, 2021'],
-    ['Notification to mapmakers', 'April 15, 2021'],
-    ['Submit final entries', 'May 30, 2021'],
-    ['Iteration ready for display', 'August 31, 2021']
-  ];
+  importantDates: Array<[string, string]> = [];
 
   submitURL = '';
   pdfLink = '';
 
-  constructor(private route: ActivatedRoute) {
+  constructor(private route: ActivatedRoute, private datePipe: DatePipe) {
   }
 
   ngOnInit(): void {
@@ -36,7 +31,7 @@ export class CallForMacroscopesComponent implements OnInit {
       const { body } = data;
       // Body
       if (body) {
-        const { pdfLink, lastIteration, submitURL, tabs } = body;
+        const { importantDates, pdfLink, lastIteration, submitURL, tabs } = body;
         // Tabs
         if (tabs && Array.isArray(tabs)) {
           tabs.forEach((tab: {header: string, content: string}) => {
@@ -48,6 +43,9 @@ export class CallForMacroscopesComponent implements OnInit {
         this.lastIteration = lastIteration;
         this.submitURL = submitURL;
         this.pdfLink = pdfLink;
+        this.importantDates = importantDates.map(((item: {label: string, date: any}) => {
+          return [item.label, this.datePipe.transform(item.date, 'MMM dd, yyyy')];
+        }));
       }
       // Last Macroscope Iteraction
       const { macroscopes } = data;

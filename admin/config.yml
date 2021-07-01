@@ -52,6 +52,11 @@ collections:
             fields:
             - { name: header, label: Tab Header }
             - { name: content, label: Tab Content, widget: markdown }
+          - name: importantDates
+            widget: list
+            fields:
+            - { name: label, label: Label}
+            - { name: date, widget: date, label: Date }
           
       - label: Languages
         name: languages

@@ -113,4 +113,13 @@ tabs:
 
 
       Please feel free to send any questions you might have regarding the judging process to Katy Börner (ude.anaidni@ytak) and use the subject heading “Macroscope Inquiry.”
+importantDates:
+  - date: 2021-03-15T19:22:23.487Z
+    label: Submissions due
+  - date: 2021-04-15T19:23:00.760Z
+    label: Notification to mapmakers
+  - date: 2021-05-30T19:23:32.191Z
+    label: Submit final entries
+  - date: 2021-08-31T19:23:56.435Z
+    label: Iteration ready for display
 ---
