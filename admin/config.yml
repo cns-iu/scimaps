@@ -56,7 +56,7 @@ collections:
             widget: list
             fields:
             - { name: label, label: Label}
-            - { name: date, widget: date, label: Date }
+            - { name: date, widget: date, label: Date, format: DD MM YY }
           
       - label: Languages
         name: languages
