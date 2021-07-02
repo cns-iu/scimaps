@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, HostBinding } from '@angular/core';
+import { ChangeDetectionStrategy, Component, EventEmitter, HostBinding, Output } from '@angular/core';
 
 
 @Component({
@@ -8,6 +8,7 @@ import { ChangeDetectionStrategy, Component, HostBinding } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MobileHeaderMenuComponent {
+  @Output() sidenavClose = new EventEmitter();
   /** HTML class */
   @HostBinding('class') readonly clsName = 'sci-mobile-header-menu mat-dispay-3';
 }
