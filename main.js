@@ -2122,7 +2122,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function AppComponent_sci_mobile_header_menu_3_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "sci-mobile-header-menu");
+    const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "sci-mobile-header-menu", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("sidenavClose", function AppComponent_sci_mobile_header_menu_3_Template_sci_mobile_header_menu_sidenavClose_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r2.sidenavOpen = false; });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 const _c0 = function (a0) { return { "scrolled": a0 }; };
 const slideInAnimation = Object(_angular_animations__WEBPACK_IMPORTED_MODULE_1__["trigger"])('routeAnimations', [
@@ -2316,7 +2319,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["sci-root"]], decls: 9, vars: 9, consts: [[1, "header", 3, "ngClass", "sidenavOpen", "sidenavOpenChange"], [1, "sidenav-container"], ["autoFocus", "false", "mode", "over", "position", "end", "fixedInViewport", "", "fixedTopGap", "72", 3, "opened", "closedStart"], [4, "sciBreakpoint"], [1, "sidenav-content"], [1, "content"], ["outlet", "outlet"], [3, "acknowledgement", "phoneNumber"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["sci-root"]], decls: 9, vars: 9, consts: [[1, "header", 3, "ngClass", "sidenavOpen", "sidenavOpenChange"], [1, "sidenav-container"], ["autoFocus", "false", "mode", "over", "position", "end", "fixedInViewport", "", "fixedTopGap", "72", 3, "opened", "closedStart"], [3, "sidenavClose", 4, "sciBreakpoint"], [1, "sidenav-content"], [1, "content"], ["outlet", "outlet"], [3, "acknowledgement", "phoneNumber"], [3, "sidenavClose"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "sci-header", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("sidenavOpenChange", function AppComponent_Template_sci_header_sidenavOpenChange_0_listener($event) { return ctx.sidenavOpen = $event; });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -3186,6 +3189,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class MobileHeaderMenuComponent {
     constructor() {
+        this.sidenavClose = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
         /** HTML class */
         this.clsName = 'sci-mobile-header-menu mat-dispay-3';
     }
@@ -3193,28 +3197,35 @@ class MobileHeaderMenuComponent {
 MobileHeaderMenuComponent.ɵfac = function MobileHeaderMenuComponent_Factory(t) { return new (t || MobileHeaderMenuComponent)(); };
 MobileHeaderMenuComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MobileHeaderMenuComponent, selectors: [["sci-mobile-header-menu"]], hostVars: 2, hostBindings: function MobileHeaderMenuComponent_HostBindings(rf, ctx) { if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.clsName);
-    } }, decls: 18, vars: 7, consts: [[1, "top-border-overlay"], [1, "search"], ["mat-button", "", "routerLink", "/about", 1, "link", "mat-display-3", 3, "routerLinkActive"], ["mat-button", "", "routerLink", "/maps", 1, "link", "mat-display-3", 3, "routerLinkActive"], ["mat-button", "", "routerLink", "/macroscopes", 1, "link", "mat-display-3", 3, "routerLinkActive"], ["mat-button", "", "routerLink", "/books", 1, "link", "mat-display-3", 3, "routerLinkActive"], ["mat-button", "", "routerLink", "/call-for-macroscopes", 1, "link", "mat-display-3", 3, "routerLinkActive"], ["mat-button", "", "routerLink", "/venues", 1, "link", "mat-display-3", 3, "routerLinkActive"], ["mat-button", "", "routerLink", "/hosting", 1, "link", "mat-display-3", 3, "routerLinkActive"], [1, "filler"]], template: function MobileHeaderMenuComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, outputs: { sidenavClose: "sidenavClose" }, decls: 18, vars: 7, consts: [[1, "top-border-overlay"], [1, "search"], ["mat-button", "", "routerLink", "/about", 1, "link", "mat-display-3", 3, "routerLinkActive", "click"], ["mat-button", "", "routerLink", "/maps", 1, "link", "mat-display-3", 3, "routerLinkActive", "click"], ["mat-button", "", "routerLink", "/macroscopes", 1, "link", "mat-display-3", 3, "routerLinkActive", "click"], ["mat-button", "", "routerLink", "/books", 1, "link", "mat-display-3", 3, "routerLinkActive", "click"], ["mat-button", "", "routerLink", "/call-for-macroscopes", 1, "link", "mat-display-3", 3, "routerLinkActive", "click"], ["mat-button", "", "routerLink", "/venues", 1, "link", "mat-display-3", 3, "routerLinkActive", "click"], ["mat-button", "", "routerLink", "/hosting", 1, "link", "mat-display-3", 3, "routerLinkActive", "click"], [1, "filler"]], template: function MobileHeaderMenuComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "button", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function MobileHeaderMenuComponent_Template_button_click_2_listener() { return ctx.sidenavClose.emit(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "ABOUT");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "button", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function MobileHeaderMenuComponent_Template_button_click_4_listener() { return ctx.sidenavClose.emit(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "MAPS");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "button", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function MobileHeaderMenuComponent_Template_button_click_6_listener() { return ctx.sidenavClose.emit(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "MACROSCOPES");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "button", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function MobileHeaderMenuComponent_Template_button_click_8_listener() { return ctx.sidenavClose.emit(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "BOOKS");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "button", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function MobileHeaderMenuComponent_Template_button_click_10_listener() { return ctx.sidenavClose.emit(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "CALL FOR MACROSCOPES");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "button", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function MobileHeaderMenuComponent_Template_button_click_12_listener() { return ctx.sidenavClose.emit(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "VENUES");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "button", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function MobileHeaderMenuComponent_Template_button_click_14_listener() { return ctx.sidenavClose.emit(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "HOSTING");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "sci-contact");
@@ -3243,7 +3254,9 @@ MobileHeaderMenuComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
                 styleUrls: ['./mobile-header-menu.component.scss'],
                 changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush
             }]
-    }], null, { clsName: [{
+    }], null, { sidenavClose: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], clsName: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"],
             args: ['class']
         }] }); })();
@@ -3272,7 +3285,7 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     { path: '', pathMatch: 'full', redirectTo: '/home' },
     { path: 'home', loadChildren: () => __webpack_require__.e(/*! import() | pages-home-home-module */ "pages-home-home-module").then(__webpack_require__.bind(null, /*! ./pages/home/home.module */ "99Un")).then(m => m.HomeModule) },
-    { path: 'about', loadChildren: () => __webpack_require__.e(/*! import() | pages-about-about-module */ "pages-about-about-module").then(__webpack_require__.bind(null, /*! ./pages/about/about.module */ "UoYK")).then(m => m.AboutModule) },
+    { path: 'about', loadChildren: () => Promise.all(/*! import() | pages-about-about-module */[__webpack_require__.e("common"), __webpack_require__.e("pages-about-about-module")]).then(__webpack_require__.bind(null, /*! ./pages/about/about.module */ "UoYK")).then(m => m.AboutModule) },
     { path: 'books', loadChildren: () => _pages_books_books_module__WEBPACK_IMPORTED_MODULE_2__["BooksModule"] },
     {
         path: 'maps',
@@ -3302,7 +3315,7 @@ const routes = [
     },
     {
         path: 'call-for-macroscopes',
-        loadChildren: () => __webpack_require__.e(/*! import() | pages-call-for-macroscopes-call-for-macroscopes-module */ "pages-call-for-macroscopes-call-for-macroscopes-module").then(__webpack_require__.bind(null, /*! ./pages/call-for-macroscopes/call-for-macroscopes.module */ "uXZP")).then(m => m.CallForMacroscopesModule)
+        loadChildren: () => Promise.all(/*! import() | pages-call-for-macroscopes-call-for-macroscopes-module */[__webpack_require__.e("common"), __webpack_require__.e("pages-call-for-macroscopes-call-for-macroscopes-module")]).then(__webpack_require__.bind(null, /*! ./pages/call-for-macroscopes/call-for-macroscopes.module */ "uXZP")).then(m => m.CallForMacroscopesModule)
     },
 ];
 class AppRoutingModule {
