@@ -38,6 +38,27 @@ collections:
         fields:
           - { name: body, label: Description, widget: markdown }
 
+      - label: Call for Macroscopes
+        name: callForMacroscopes
+        file: content/site/callForMacroscopes.md
+        preview_path: call-for-macroscopes
+        media_folder: ''
+        fields:
+          - { name: lastIteration, label: Previous Macroscope Iteration, widget: number, min: 11, max: 20, default: 16 }
+          - { name: pdfLink, label: PDF, widget: file, required: false }
+          - { name: submitURL, label: Submit URL}
+          - name: tabs
+            widget: list
+            fields:
+            - { name: header, label: Tab Header }
+            - { name: content, label: Tab Content, widget: markdown }
+          - name: importantDates 
+            label: Important Dates
+            widget: list
+            fields:
+            - { name: label, label: Label}
+            - { name: date, widget: date, label: Date, format: DD MM YY }
+          
       - label: Languages
         name: languages
         file: content/site/languages.md
