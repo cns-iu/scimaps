@@ -124,7 +124,7 @@ $desktop: 1248px;
   .image-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 
     @media (max-width: $tablet) {
@@ -145,7 +145,6 @@ $desktop: 1248px;
       display: flex;
       flex-direction: column;
       margin-right: 1rem;
-      cursor: pointer;
       margin-bottom: 1rem;
       width: 22%;
 
@@ -156,7 +155,7 @@ $desktop: 1248px;
 
       .thumbnail-image {
         width: 100%;
-        height: 80%;
+        height: 100%;
         object-fit: cover;
       }
 
