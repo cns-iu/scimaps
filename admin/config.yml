@@ -23,7 +23,13 @@ collections:
           - { name: curatorsDescription, label: Curators Description, widget: markdown }
           - { name: advisoryBoardDescription, label: Advisory Board Description, widget: markdown }
           - { name: ambassadorsDescription, label: Ambassadors Description, widget: markdown }
-
+          - name: annulReports
+            label: Annual Reports 
+            widget: list
+            required: false
+            fields:
+            - { name: year, widget: date, label: Year, format: YY }
+            - { name: File, label: File, widget: file }
       - label: What is a Map?
         name: whatIsAMap
         file: content/site/whatIsAMap.md
