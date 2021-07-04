@@ -26,12 +26,13 @@ export class AboutBodyResolverService implements Resolve<AboutBody> {
       map((body: AboutBody) => {
         const { annualReports } = body;
         if (annualReports && Array.isArray(annualReports)) {
-          body.annualReports = annualReports.map((report: {year: string, pdfLink: string}) => {
-            return {
-              year: report.year,
-              pdfLink: `${this.directory}/${report.pdfLink}`
-            };
+          annualReports.forEach((report: {year: string, pdfLink: string}) => {
+            const pdfLink = report.pdfLink
+            if (!pdfLink.startsWith('http://') || pdfLink.startsWith('https://')) {
+              report.pdfLink = `${this.directory}/${report.pdfLink}`
+            }
           });
+          body.annualReports = annualReports;
         }
         return body;
       }),
