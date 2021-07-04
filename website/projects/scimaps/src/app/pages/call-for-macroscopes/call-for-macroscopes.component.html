@@ -1,2 +1,87 @@
-<p>call-for-macroscopes works!</p>
-<sci-call-out [title]="'Important Dates'" [items]="importantDates"></sci-call-out>
+<h1 class="header1"> Call for Macroscopes </h1>
+<div class="image-content">
+    <div class="thumbnail desktop" *ngFor="let thumbnail of lastIterationThumbnails">
+      <img class="thumbnail-image" [src]="thumbnail.image" [alt]="thumbnail.image">
+    </div>
+  
+    <div class="thumbnail mobile" *ngFor="let thumbnail of lastIterationThumbnails">
+      <img class="thumbnail-image" [src]="thumbnail.image" [alt]="thumbnail.image">
+    </div>
+</div>
+
+<div class="spacer-48">
+</div>
+
+<div class="row">
+    <div class="due">
+        <h4> Submissions due: March 15, 2021 / </h4>
+    </div>
+    <div class="download" *ngIf="pdfLink">
+        <h4>
+            <a [href]="pdfLink" target="_blank" rel="noopener noreferrer">
+                Download Details PDF
+            </a>
+        </h4>
+    </div>
+</div>
+
+<div class="spacer-24">
+</div>
+
+
+<div class="main-content">
+    <div class="col1">
+        <div *sciBreakpoint="'mobile+'" class="tabs">
+            <sci-tab-header class="tab-header" [tabs]="tabHeaders" (activeTabIndexChanged)="updateActivePageTab($event)">
+            </sci-tab-header>
+            <div class="spacer-48">
+            </div>
+            <div class="tab-content">
+                <ng-template [ngIf]="activePageTab == 0">
+                    <div markdown [data]="tabContents[0]">
+                    </div>
+                </ng-template>
+                <ng-template [ngIf]="activePageTab == 1">
+                    <div markdown [data]="tabContents[1]">
+                    </div>
+                </ng-template>
+                <ng-template [ngIf]="activePageTab == 2">
+                    <div markdown [data]="tabContents[2]">
+                    </div>
+                </ng-template> 
+            </div> 
+        </div>
+        <div *sciBreakpoint="'mobile-'" class="mobile-tabs">
+            <div class="mobile-button" *ngFor="let tab of tabHeaders; let i = index" (click)="updateActivePageTab(i); showDrawer = true">
+                {{tab}}
+                <mat-icon class="mobile-icon">chevron_right</mat-icon>
+            </div>
+            <sci-drawer [@drawerInOut]="showDrawer ? 'show' : 'hide'" *ngIf="showDrawer" class="tab-drawer">
+                <div drawer>
+                    <div>
+                        <div class="drawer-header">
+                            <mat-icon class="mobile-icon" (click)="showDrawer = false;">chevron_left</mat-icon>
+                            <div class="mobile-title">
+                               <h3>{{tabHeaders[activePageTab]}} </h3> 
+                            </div>
+                        </div>
+                        <div>
+                            <div markdown [data]="tabContents[activePageTab]"></div>
+                        </div>
+                    </div>
+                </div>
+            </sci-drawer>
+            <div class="spacer-48"></div>
+        </div>
+    </div>
+
+    <div class="col2">
+        <button type="button"class="submit" (click)="submitMacroscope()">
+            SUBMIT MACROSCOPE
+        </button>
+        <div class="spacer-16"></div>
+        <div class="call-out">
+            <sci-call-out [title]="'Important Dates'" [items]="importantDates"></sci-call-out>
+        </div>
+    </div>
+</div>

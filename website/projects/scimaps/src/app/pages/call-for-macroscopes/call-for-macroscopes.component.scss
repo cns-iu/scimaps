@@ -1,0 +1,192 @@
+@use 'screen';
+
+$mobile: 640px;
+$tablet: 960px;
+$desktop: 1248px;
+
+:host {
+  .row {
+    display: flex;
+    flex-direction: row;
+    @include screen.breakpoint(mobile) {
+      flex-direction: column;
+    }
+
+    .download {
+      margin-left: 0.5rem;
+      @include screen.breakpoint(mobile) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .main-content {
+    // border: 1px solid black;   // comment
+    display: flex;
+    flex-direction: row;
+    @include screen.breakpoint(mobile) {
+      flex-direction: column;
+    }
+
+    .col1 {
+      flex: 3; // 75% - 25%
+      // tab and tab header
+      display: flex;
+      flex-direction: column;
+      // on mobile 100%
+      @include screen.breakpoint(mobile) {
+        flex: 1;
+      }
+      .tabs {
+        .tab-content {
+          // padding: 1rem;
+          // border: 1px solid black;
+        }
+      }
+      .mobile-tabs {
+        display: flex;
+        flex-direction: column;
+        .mobile-button {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          padding: 0.75rem;
+          font-size: 1rem;
+          cursor: pointer;
+          .mobile-icon {
+            font-size: 1.5rem;
+            height: 1.5rem;
+            width: 1.5rem;
+            cursor: pointer;
+          }
+
+          @media (min-width: $mobile) {
+            display: none;
+          }
+        }
+      }
+    }
+    .col2 {
+      display: flex;
+      flex-direction: column;
+      margin-left: 2rem;
+      @include screen.breakpoint(mobile) {
+        margin-left: 0;
+      }
+      button.submit {
+        width: 100%;
+        height: 2rem;
+        background-color: white;
+        color: #7996a3;
+        border: 2px solid #7996a3;
+      }
+      .call-out {
+        flex: 1;
+        @include screen.breakpoint(mobile) {
+          flex: 1;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // Position drawers from Parent.
+  .tab-drawer {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+  }
+
+  .drawer-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    .mobile-icon {
+      cursor: pointer;
+    }
+    .mobile-title {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin-bottom: 0;
+      h3 {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+
+
+  // For banners
+  .image-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: $tablet) {
+      width: 100%;
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+
+    @media (max-width: $mobile) {
+      flex-wrap: wrap;
+    }
+
+    &:last-child {
+      margin-right: 0rem;
+    }
+
+    .thumbnail {
+      display: flex;
+      flex-direction: column;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      width: 22%;
+
+      @media (max-width: $mobile) {
+        position: relative;
+        width: calc(50% - 1rem);
+      }
+
+      .thumbnail-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .thumbnail-title {
+        height: 20%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+
+        @media (max-width: $mobile) {
+          margin-top: 0rem;
+          bottom: .45rem;
+          z-index: 10;
+          color: white;
+          background-color: rgba(0, 0, 0, .5);
+          width: 100%;
+        }
+      }
+    }
+
+    .thumbnail.desktop {
+      margin-right: 1rem;
+      @media (max-width: $mobile) {
+        display: none;
+      }
+    }
+
+    .thumbnail.mobile {
+      @media (min-width: $mobile) {
+        display: none;
+      }
+    }
+  }
+}
