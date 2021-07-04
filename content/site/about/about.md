@@ -42,5 +42,8 @@ ambassadorsDescription: These men and women from around the globe work
   Spaces* the vital exhibit it is today. Those whom are also members of
   the [Advisory Board](http://scimaps.org/advisory_board.html) not only work to
   build public awareness of the exhibit, but also participate in the map
-  selection process.
+  selection process.aa
+annulReports:
+  - year: "2012"
+    File: reports/2012-ps-annual-report.pdf
 ---
