@@ -5,7 +5,8 @@ import { HostingBodyResolverService } from './hosting-body-resolver.service';
 import { HostingComponent } from './hosting.component';
 
 const routes: Routes = [
-  { path: '',
+  { 
+    path: '',
     component: HostingComponent,
     resolve: {
       body: HostingBodyResolverService
