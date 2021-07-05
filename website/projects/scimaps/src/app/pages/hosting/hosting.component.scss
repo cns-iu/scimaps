@@ -151,4 +151,11 @@ $mobile: 640px;
       }
     }
   }
+
+  .bannerText {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #f9fcf5;
+  }
 }

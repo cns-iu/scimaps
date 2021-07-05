@@ -10,6 +10,7 @@ import { SharedModule } from '../../shared/shared.module';
 import { MatIconModule } from '@angular/material/icon';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -20,10 +21,10 @@ import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.m
     CardLinkModule,
     CarouselModule,
     MarkdownModule,
-    SharedModule,
     MatIconModule,
     DrawerModule,
-    TabHeaderModule
+    TabHeaderModule,
+    SharedModule,
   ]
 })
 export class HostingModule { }
