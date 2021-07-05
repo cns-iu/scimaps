@@ -1,12 +1,14 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
+import { drawerInOut } from '../../constants/drawer.animations';
 import { CardLinkItem } from '../../core/models/card-link-item';
 import { HostingBody } from './hosting-body-resolver.service';
 
 @Component({
   selector: 'sci-hosting',
   templateUrl: './hosting.component.html',
-  styleUrls: ['./hosting.component.scss']
+  styleUrls: ['./hosting.component.scss'],
+  animations: [drawerInOut]
 })
 export class HostingComponent implements OnInit {
   /** HTML class name */
