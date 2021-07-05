@@ -65,12 +65,9 @@ collections:
         media_folder: ''
         preview_path: 'hosting'
         fields:
-          - name: overview
-            label: Overview
-            fields:
-              - { name: paragraph, label: Overview}
-              - { name: install_guide, label: Exhibit Install Guide, widget: file}
-              - { name: master_booklet, label: Exhibit Master Booklet, widget: file}
+          - { name: overview, label: Overview, widget: markdown }
+          - { name: install_guide, label: Exhibit Install Guide, widget: file}
+          - { name: master_booklet, label: Exhibit Master Booklet, widget: file}
           
           - name: carousel
             label: Images for carousel
@@ -81,9 +78,10 @@ collections:
               - { name: sm, label: "Mobile (sm) Version" , widget: image }
               - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
           
-          - name: tabBannerText
-            label: Tab Banner Text
+          - name: bannertext
+            label: Banner Text
             widget: markdown
+
           - name: tabs
             widget: list
             fields:
