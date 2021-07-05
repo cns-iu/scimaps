@@ -58,6 +58,37 @@ collections:
             fields:
             - { name: label, label: Label}
             - { name: date, widget: date, label: Date, format: DD MM YY }
+      
+      - label: Hosting
+        name: Hosting
+        file: content/site/hosting/hosting.md
+        media_folder: ''
+        preview_path: 'hosting'
+        fields:
+          - name: overview
+            label: Overview
+            fields:
+              - { name: paragraph, label: Overview}
+              - { name: install_guide, label: Exhibit Install Guide, widget: file}
+              - { name: master_booklet, label: Exhibit Master Booklet, widget: file}
+          
+          - name: carousel
+            label: Images for carousel
+            min: 1
+            widget: list
+            summary: '{{fields.image}}'
+            fields:
+              - { name: sm, label: "Mobile (sm) Version" , widget: image }
+              - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
+          
+          - name: tabBannerText
+            label: Tab Banner Text
+            widget: markdown
+          - name: tabs
+            widget: list
+            fields:
+            - { name: header, label: Tab Header }
+            - { name: content, label: Tab Content, widget: markdown }
           
       - label: Languages
         name: languages
