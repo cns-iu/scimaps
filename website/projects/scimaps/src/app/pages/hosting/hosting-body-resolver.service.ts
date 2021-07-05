@@ -5,7 +5,7 @@ import { map, take } from 'rxjs/operators';
 import { isHttp } from '../../constants/utils';
 import { ContentService } from '../../shared/services/content.service';
 
-interface HostingBody {
+export interface HostingBody {
   overview: string;
   carousel: {sm: string, lg: string}[];
   install_guide: string;
@@ -33,7 +33,7 @@ export class HostingBodyResolverService implements Resolve<HostingBody> {
 
  
   // converts paths to absolute paths.
-  updatePaths(body: HostingBody) {
+  updatePaths(body: HostingBody): HostingBody {
     if (body.install_guide) {
       if (!isHttp(body.install_guide)) {
         body.install_guide = `${this.directory}/${body.install_guide}`;

@@ -33,13 +33,17 @@ master_booklet: exhibit-master-booklet.pdf
 carousel:
   - sm: image1.med.jpg
     lg: image1.lg.jpg
+    title: Hello
   - sm: image3.med.jpg
     lg: image3.lg.jpg
+    title: Hello 2
   - sm: image4.med.jpg
     lg: image4.lg.jpg
+    title: Hello 3
   - sm: image5.med.jpg
     lg: image5.lg.jpg
-bannertext: |-
+    title: Hello 4
+banner_text: |-
   To host the exhibit, contact
 
   Places & Spaces Team

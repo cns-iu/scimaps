@@ -75,10 +75,11 @@ collections:
             widget: list
             summary: '{{fields.image}}'
             fields:
+              - { name: title, label: Title, required: false }
               - { name: sm, label: "Mobile (sm) Version" , widget: image }
               - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
           
-          - name: bannertext
+          - name: banner_text
             label: Banner Text
             widget: markdown
 
