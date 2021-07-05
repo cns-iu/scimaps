@@ -20,10 +20,23 @@ export class HostingComponent implements OnInit {
   installGuide = '';
   masterBooklet = '';
   bannerText = '';
+  activePageTab = 0;
   tabs = []
+  tabHeaders: string[] = [];
+  tabContents: string[] = [];
+  showDrawer = false;
   ngOnInit() {
     // this.route
     this.route.data.subscribe(({body}) => {
+      // Tabs
+      const { tabs } = body;
+      if (tabs && Array.isArray(tabs)) {
+        tabs.forEach((tab: {header: string, content: string}) => {
+          this.tabHeaders.push(tab.header);
+          this.tabContents.push(tab.content);
+        });
+      }
+      // Other keys
       ({ overview: this.overviewText,
         install_guide: this.installGuide,
         master_booklet: this.masterBooklet,
@@ -32,12 +45,11 @@ export class HostingComponent implements OnInit {
         tabs: this.tabs
       } = this.getBodyContent(body));
     });
-    console.log(this.carouselImages);
   }
 
   getBodyContent(body: Params): Params {
     const result: Params = {};
-    const keys = ['overview', 'carousel', 'install_guide', 'master_booklet', 'tabs', 'banner_text']
+    const keys = ['overview', 'carousel', 'install_guide', 'master_booklet', 'banner_text']
     keys.forEach((key: string) => {
       if (body.hasOwnProperty(key) && body[key]) {
         result[key] = body[key];
@@ -45,16 +57,8 @@ export class HostingComponent implements OnInit {
     });
     return result;
   }
-  // testCards: CardLinkItem[] = [
-  //   {
-  //     label: 'Humanexus',
-  //     imageSource: 'assets/images/benches.jpg',
-  //     link: 'www.google.com'
-  //   },
-  //   {
-  //     label: 'WorldProcessor Globes',
-  //     imageSource: 'assets/images/bridge.jpg',
-  //     link: 'www.github.com'
-  //   }
-  // ];
+
+  updateActivePageTab(index: number) {
+    this.activePageTab = index;
+  }
 }

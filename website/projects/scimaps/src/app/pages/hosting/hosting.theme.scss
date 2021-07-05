@@ -10,6 +10,16 @@
       background-color: mat-color($primary, 500);
       color: mat-color($primary, default-contrast);
     }
+
+    .mobile-button {
+      border-top: 1px solid mat-color($grey, 300);
+      border-bottom: 1px solid mat-color($grey, 300);
+      color:  mat-color($grey, 600);
+    }
+
+    .mobile-icon {
+      color: mat-color($grey, 600);
+    }
   }
 
 }

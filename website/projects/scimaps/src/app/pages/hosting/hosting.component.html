@@ -29,3 +29,45 @@
         </sci-carousel>
     </div>
 </div>
+
+<div class="spacer-72"></div>
+<hr class="divider">
+
+<div class="main-content">
+    <div class="col1">
+        <div *sciBreakpoint="'mobile+'" class="tabs">
+            <sci-tab-header class="tab-header" [tabs]="tabHeaders" (activeTabIndexChanged)="updateActivePageTab($event)">
+            </sci-tab-header>
+            <div class="spacer-48">
+            </div>
+            <div class="tab-content">
+                <ng-container *ngFor="let tab of tabHeaders; let i = index;">
+                    <div *ngIf="i == activePageTab" markdown [data]="tabContents[activePageTab]">
+                    </div>
+                </ng-container> 
+            </div> 
+        </div>
+        <div *sciBreakpoint="'mobile-'" class="mobile-tabs">
+            <div class="mobile-button" *ngFor="let tab of tabHeaders; let i = index" (click)="updateActivePageTab(i); showDrawer = true">
+                {{tab}}
+                <mat-icon class="mobile-icon">chevron_right</mat-icon>
+            </div>
+            <sci-drawer [@drawerInOut]="showDrawer ? 'show' : 'hide'" *ngIf="showDrawer" class="tab-drawer">
+                <div drawer>
+                    <div>
+                        <div class="drawer-header">
+                            <mat-icon class="mobile-icon" (click)="showDrawer = false;">chevron_left</mat-icon>
+                            <div class="mobile-title">
+                               <h3>{{tabHeaders[activePageTab]}} </h3> 
+                            </div>
+                        </div>
+                        <div>
+                            <div markdown [data]="tabContents[activePageTab]"></div>
+                        </div>
+                    </div>
+                </div>
+            </sci-drawer>
+            <div class="spacer-48"></div>
+        </div>
+    </div>
+</div>

@@ -21,7 +21,6 @@ $desktop: 1248px;
   }
 
   .main-content {
-    // border: 1px solid black;   // comment
     display: flex;
     flex-direction: row;
     @include screen.breakpoint(mobile) {
