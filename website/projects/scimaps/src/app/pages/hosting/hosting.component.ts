@@ -1,4 +1,5 @@
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { CardLinkItem } from '../../core/models/card-link-item';
 
 @Component({
@@ -6,10 +7,18 @@ import { CardLinkItem } from '../../core/models/card-link-item';
   templateUrl: './hosting.component.html',
   styleUrls: ['./hosting.component.scss']
 })
-export class HostingComponent {
+export class HostingComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-hosting';
 
+
+  constructor(private route: ActivatedRoute) {
+  }
+
+  ngOnInit() {
+    // this.route
+    console.log(this.route);
+  }
   testCards: CardLinkItem[] = [
     {
       label: 'Humanexus',
