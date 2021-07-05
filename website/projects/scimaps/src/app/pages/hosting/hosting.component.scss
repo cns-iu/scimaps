@@ -15,11 +15,22 @@ $mobile: 640px;
     }
 
     .overview-container {
+      display: flex;
+      flex-direction: column;
       width: 50%;
       padding-right: 1rem;
       @media (max-width: $tablet) {
         width: 100%;
         padding: 0rem;
+      }
+
+      .pdf-docs {
+          display: flex;
+          flex-direction: row;
+
+          .install-guide {
+              margin-left: 2rem;
+          }
       }
     }
 
