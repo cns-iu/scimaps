@@ -1,2 +1,26 @@
 <!-- <sci-card-link *ngFor="let card of testCards" [cardData]="card"></sci-card-link> -->
 <h1 class="header1"> Hosting </h1>
+
+<div class="highlight-content">
+    <div class="overview-container">
+        <p markdown [data]="overviewText"></p>
+    </div>
+    <div class="carousel-container">
+        <sci-carousel *sciBreakpoint="'desktop'" class="carousel">
+            <sci-carousel-item class="sci-carousel-item" *ngFor="let item of carouselImages">
+                <div class="carousel-item">
+                    <img [src]="item.lg" class="carousel-image" [alt]="item.lg.split('/')[3]">
+                    <div class="carousel-image-title">{{ item.title }}</div>
+                </div>
+            </sci-carousel-item>
+        </sci-carousel>
+        <sci-carousel *sciBreakpoint="'desktop-'" class="carousel">
+            <sci-carousel-item class="sci-carousel-item" *ngFor="let item of carouselImages">
+                <div class="carousel-item">
+                    <img [src]="item.sm" class="carousel-image" [alt]="item.sm.split('/')[3]">
+                    <div class="carousel-image-title">{{ item.title }}</div>
+                </div>
+            </sci-carousel-item>
+        </sci-carousel>
+    </div>
+</div>

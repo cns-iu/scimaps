@@ -44,6 +44,22 @@ export class HostingBodyResolverService implements Resolve<HostingBody> {
         body.master_booklet = `${this.directory}/${body.master_booklet}`;
       }
     }
+    const {carousel} = body;
+    if (carousel && Array.isArray(carousel)) {
+      carousel.forEach(image => {
+        if (image.lg) {
+          if (!isHttp(image.lg)) {
+            image.lg = `${this.directory}/${image.lg}`;  
+          }
+        }
+        if (image.sm) {
+          if (!isHttp(image.sm)) {
+            image.sm = `${this.directory}/${image.sm}`;  
+          }
+        }
+      });
+      body.carousel = carousel;
+    }
     return body;
   }
 }

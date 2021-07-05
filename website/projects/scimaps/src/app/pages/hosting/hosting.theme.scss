@@ -6,6 +6,10 @@
   $grey: mat-palette($mat-grey);
 
   .sci-hosting {
+    .carousel-image-title {
+      background-color: mat-color($primary, 500);
+      color: mat-color($primary, default-contrast);
+    }
   }
 
 }

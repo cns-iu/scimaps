@@ -6,6 +6,7 @@ import { HostingComponent } from './hosting.component';
 import { CardLinkModule } from '../../shared/components/card-link/card-link.module';
 import { MarkdownModule } from 'ngx-markdown';
 import { CarouselModule } from '../../shared/components/carousel/carousel.module';
+import { SharedModule } from '../../shared/shared.module';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CarouselModule } from '../../shared/components/carousel/carousel.module
     HostingRoutingModule,
     CardLinkModule,
     CarouselModule,
-    MarkdownModule
+    MarkdownModule,
+    SharedModule
   ]
 })
 export class HostingModule { }
