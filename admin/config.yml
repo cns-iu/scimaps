@@ -73,7 +73,7 @@ collections:
             label: Images for carousel
             min: 1
             widget: list
-            summary: '{{fields.image}}'
+            summary: '{{fields.title}}'
             fields:
               - { name: title, label: Title, required: false }
               - { name: sm, label: "Mobile (sm) Version" , widget: image }
@@ -105,6 +105,28 @@ collections:
               - { name: language, label: Language }
               - { name: native, label: Native Spelling }
 
+  - name: learning-material
+    label: Learning Material
+    label_singular: Learning Material
+    folder: content/learning-material
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{title}}"
+    preview_path: person/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: content, label: content, widget: markdown }
+      - name: carousel,
+        label: carousel Images,
+        widget: list
+        fields:
+          - { name: title, label: Title, required: false }
+          - { name: sm, label: "Mobile (sm) Version" , widget: image }
+          - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
+
+      
   - name: blog
     label: Blogs
     label_singular: Blog
