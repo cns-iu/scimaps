@@ -153,4 +153,68 @@ $mobile: 640px;
       }
     }
   }
+
+
+
+
+  .learning-material-container {
+    .lm-desktop {
+     .lm-list {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+        .lm-item {
+          flex: 1;
+          margin: 1rem;
+          display: flex;
+          flex-direction: column;
+          .row2 {
+            h4 {
+              margin-bottom: 0;
+            }
+          }
+          .row3 {
+
+          }
+        }
+     } 
+    }
+    .lm-mobile {
+      .lm-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .lm-item {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 1rem;
+          padding: 0;
+          .col1 {
+            flex: 2;
+            height: 100%;
+            width: 72px;
+            img {
+              width: 72px;
+              height: 64px;
+            }
+          }
+          .col2 {
+            flex: 3;
+            display: flex;
+            align-items: center;
+            h4 {
+              margin-bottom: 0;
+            }
+          }
+          .col3 {
+            flex: 1;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
 }

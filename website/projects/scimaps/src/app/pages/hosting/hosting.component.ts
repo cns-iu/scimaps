@@ -27,6 +27,38 @@ export class HostingComponent implements OnInit {
   tabHeaders: string[] = [];
   tabContents: string[] = [];
   showDrawer = false;
+
+  // 
+  lms = [
+    {
+    title: 'Hello',
+    content: 'Content',
+    image: { sm: 'assets/content/site/hosting/image1.med.jpg',
+        lg: 'assets/content/site/hosting/image1.lg.jpg'
+      }
+    },
+    {
+      title: 'Hello 2',
+      content: 'Content 2',
+      image: { sm: 'assets/content/site/hosting/image1.med.jpg',
+          lg: 'assets/content/site/hosting/image1.lg.jpg'
+        },
+      },
+      {
+        title: 'Hello',
+        content: 'Content',
+        image: { sm: 'assets/content/site/hosting/image1.med.jpg',
+            lg: 'assets/content/site/hosting/image1.lg.jpg'
+          }
+        },
+        {
+          title: 'Hello 2',
+          content: 'Content 2',
+          image: { sm: 'assets/content/site/hosting/image1.med.jpg',
+              lg: 'assets/content/site/hosting/image1.lg.jpg'
+            },
+          }
+  ]
   ngOnInit() {
     // this.route
     this.route.data.subscribe(({body}) => {

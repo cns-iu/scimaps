@@ -36,7 +36,8 @@
 <div class="main-content">
     <div class="col1">
         <div *sciBreakpoint="'mobile+'" class="tabs">
-            <sci-tab-header class="tab-header" [tabs]="tabHeaders" (activeTabIndexChanged)="updateActivePageTab($event)">
+            <sci-tab-header class="tab-header" [tabs]="tabHeaders"
+                (activeTabIndexChanged)="updateActivePageTab($event)">
             </sci-tab-header>
             <div class="spacer-48">
             </div>
@@ -44,11 +45,12 @@
                 <ng-container *ngFor="let tab of tabHeaders; let i = index;">
                     <div *ngIf="i == activePageTab" markdown [data]="tabContents[activePageTab]">
                     </div>
-                </ng-container> 
-            </div> 
+                </ng-container>
+            </div>
         </div>
         <div *sciBreakpoint="'mobile-'" class="mobile-tabs">
-            <div class="mobile-button" *ngFor="let tab of tabHeaders; let i = index" (click)="updateActivePageTab(i); showDrawer = true">
+            <div class="mobile-button" *ngFor="let tab of tabHeaders; let i = index"
+                (click)="updateActivePageTab(i); showDrawer = true">
                 {{tab}}
                 <mat-icon class="mobile-icon">chevron_right</mat-icon>
             </div>
@@ -58,7 +60,7 @@
                         <div class="drawer-header">
                             <mat-icon class="mobile-icon" (click)="showDrawer = false;">chevron_left</mat-icon>
                             <div class="mobile-title">
-                               <h3>{{tabHeaders[activePageTab]}} </h3> 
+                                <h3>{{tabHeaders[activePageTab]}} </h3>
                             </div>
                         </div>
                         <div>
@@ -87,12 +89,34 @@
 <h1 class="header1">
     Learning Material that come with Exhibit.
 </h1>
-
 <div class="learning-material-container">
-    <div class="lm-desktop">
-
+    <div *sciBreakpoint="'mobile+'" class="lm-desktop">
+        <div class="lm-list">
+            <mat-card class="lm-item" *ngFor="let item of lms">
+                <img mat-card-image [src]="item.image.lg">
+                <mat-card-title class="row2">
+                    <h4 class="header4">{{item.title}}</h4>
+                </mat-card-title>
+                <mat-card-content class="row3" markdown [data]="item.content">
+                </mat-card-content>
+            </mat-card>
+        </div>
     </div>
-    <div class="lm-mobile">
-        
+    <div *sciBreakpoint="'mobile-'" class="lm-mobile">
+        <div class="lm-list">
+            <mat-card class="lm-item" *ngFor="let item of lms">
+                <div class="col1">
+                    <img class="col1" mat-card-img src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                </div>
+                <div class="col2">
+                    <mat-card-title class="col2">
+                        <h4 class="header4">{{item.title}}</h4>
+                    </mat-card-title>    
+                </div>
+                <div class="col3">
+                    <mat-icon class="mobile-icon">chevron_right</mat-icon>   
+                </div>
+            </mat-card>
+        </div>
     </div>
 </div>
