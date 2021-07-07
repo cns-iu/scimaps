@@ -11,6 +11,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.module';
 import { MatCardModule } from '@angular/material/card';
+import { LearningMaterialsListModule } from '../../shared/components/learning-material-list/learning-materials-list.module';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { MatCardModule } from '@angular/material/card';
     TabHeaderModule,
     MatCardModule,
     SharedModule,
+    LearningMaterialsListModule
   ]
 })
 export class HostingModule { }

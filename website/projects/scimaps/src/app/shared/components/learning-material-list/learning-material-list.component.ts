@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostBinding, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'sci-learning-material-list',
@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./learning-material-list.component.scss']
 })
 export class LearningMaterialListComponent implements OnInit {
+
+  @HostBinding('class') readonly classname = 'sci-learning-material-list';
+  
+  @Input() items: any[] = []
+  @Input() header = '';
 
   constructor() { }
 

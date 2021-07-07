@@ -8,6 +8,7 @@ import { LearningMaterialItemComponent } from './learning-material-item.componen
   declarations: [LearningMaterialItemComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [LearningMaterialItemComponent]
 })
 export class LearningMaterialItemModule { }
