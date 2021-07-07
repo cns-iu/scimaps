@@ -42,9 +42,14 @@
             <div class="spacer-48">
             </div>
             <div class="tab-content">
-                <ng-container *ngFor="let tab of tabHeaders; let i = index;">
-                    <div *ngIf="i == activePageTab" markdown [data]="tabContents[activePageTab]">
-                    </div>
+                <ng-container *ngFor="let tab of tabs; let i = index;">
+                    <ng-template [ngIf]="i == activePageTab">
+                        <div class="col1">
+                            <img [src]="tabs[activePageTab].image" alt="">
+                        </div>
+                        <div class="col2" markdown [data]="tabs[activePageTab].content">
+                        </div>
+                    </ng-template>
                 </ng-container>
             </div>
         </div>
@@ -63,8 +68,13 @@
                                 <h3>{{tabHeaders[activePageTab]}} </h3>
                             </div>
                         </div>
-                        <div>
-                            <div markdown [data]="tabContents[activePageTab]"></div>
+                        <div class="tab-content">
+                            <div class="row1">
+                                <img [src]="tabs[activePageTab].image" alt="">
+                            </div>
+                            <div class="row2">
+                                <div markdown [data]="tabs[activePageTab].content"></div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,9 @@ export class HostingComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-hosting';
 
-
+  get tabHeaders(): string[] {
+    return this.tabs.map((tab: {header: string}) => tab.header);
+  }
   constructor(private route: ActivatedRoute) {
   }
   overviewText = 'Hello';
@@ -23,9 +25,7 @@ export class HostingComponent implements OnInit {
   masterBooklet = '';
   bannerText = '';
   activePageTab = 0;
-  tabs = []
-  tabHeaders: string[] = [];
-  tabContents: string[] = [];
+  tabs = [];
   showDrawer = false;
 
   // 
@@ -62,14 +62,6 @@ export class HostingComponent implements OnInit {
   ngOnInit() {
     // this.route
     this.route.data.subscribe(({body}) => {
-      // Tabs
-      const { tabs } = body;
-      if (tabs && Array.isArray(tabs)) {
-        tabs.forEach((tab: {header: string, content: string}) => {
-          this.tabHeaders.push(tab.header);
-          this.tabContents.push(tab.content);
-        });
-      }
       // Other keys
       ({ overview: this.overviewText,
         install_guide: this.installGuide,
@@ -83,7 +75,7 @@ export class HostingComponent implements OnInit {
 
   getBodyContent(body: Params): Params {
     const result: Params = {};
-    const keys = ['overview', 'carousel', 'install_guide', 'master_booklet', 'banner_text']
+    const keys = ['overview', 'tabs', 'carousel', 'install_guide', 'master_booklet', 'banner_text']
     keys.forEach((key: string) => {
       if (body.hasOwnProperty(key) && body[key]) {
         result[key] = body[key];
