@@ -42,15 +42,11 @@
             <div class="spacer-48">
             </div>
             <div class="tab-content">
-                <ng-container *ngFor="let tab of tabs; let i = index;">
-                    <ng-template [ngIf]="i == activePageTab">
-                        <div class="col1">
-                            <img [src]="tabs[activePageTab].image" alt="">
-                        </div>
-                        <div class="col2" markdown [data]="tabs[activePageTab].content">
-                        </div>
-                    </ng-template>
-                </ng-container>
+                <div class="col1">
+                    <img [src]="tabs[activePageTab].image" alt="">
+                </div>
+                <div class="col2" markdown [data]="tabs[activePageTab].content">
+                </div>
             </div>
         </div>
         <div *sciBreakpoint="'mobile-'" class="mobile-tabs">

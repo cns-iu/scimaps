@@ -25,7 +25,7 @@ export class HostingComponent implements OnInit {
   masterBooklet = '';
   bannerText = '';
   activePageTab = 0;
-  tabs = [];
+  tabs: {header: string, content: string, image: string}[] = [];
   showDrawer = false;
 
   // 
