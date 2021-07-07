@@ -192,20 +192,23 @@ $mobile: 640px;
           margin-bottom: 1rem;
           padding: 0;
           .col1 {
-            flex: 2;
             height: 100%;
-            width: 72px;
+            justify-content: center;
+            margin-right: 1rem;
             img {
               width: 72px;
-              height: 64px;
+              height: 66px;
             }
           }
           .col2 {
             flex: 3;
             display: flex;
             align-items: center;
-            h4 {
+            mat-card-title {
               margin-bottom: 0;
+              h4 {
+                margin-bottom: 0;
+              }
             }
           }
           .col3 {
