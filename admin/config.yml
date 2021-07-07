@@ -105,8 +105,8 @@ collections:
               - { name: language, label: Language }
               - { name: native, label: Native Spelling }
 
-  - name: learning-material
-    label: Learning Material
+  - name: learning-materials
+    label: Learning Materials
     label_singular: Learning Material
     folder: content/learning-material
     path: "{{slug}}/readme"
