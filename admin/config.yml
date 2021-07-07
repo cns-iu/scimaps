@@ -117,12 +117,11 @@ collections:
     public_folder: ''
     fields:
       - { name: title, label: Title }
-      - { name: content, label: content, widget: markdown }
-      - name: carousel,
-        label: carousel Images,
+      - { name: body, label: Body, widget: markdown }
+      - name: images,
+        label: Images,
         widget: list
         fields:
-          - { name: title, label: Title, required: false }
           - { name: sm, label: "Mobile (sm) Version" , widget: image }
           - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
 
