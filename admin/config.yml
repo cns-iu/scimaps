@@ -63,6 +63,7 @@ collections:
         name: Hosting
         file: content/site/hosting/hosting.md
         media_folder: ''
+        public_folder: ''
         preview_path: 'hosting'
         fields:
           - { name: overview, label: Overview, widget: markdown }
@@ -73,7 +74,7 @@ collections:
             label: Images for carousel
             min: 1
             widget: list
-            summary: '{{fields.title}}'
+            media_folder: './carousel'
             fields:
               - { name: title, label: Title, required: false }
               - { name: sm, label: "Mobile (sm) Version" , widget: image }
@@ -85,8 +86,10 @@ collections:
 
           - name: tabs
             widget: list
+            media_folder: './tabs'
             fields:
             - { name: header, label: Tab Header }
+            - { name: image, label: Image, widget: file, required: false }
             - { name: content, label: Tab Content, widget: markdown }
           
       - label: Languages

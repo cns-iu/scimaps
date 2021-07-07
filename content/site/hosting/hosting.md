@@ -31,17 +31,17 @@ overview: >-
 install_guide: exhibit-install-guide.pdf
 master_booklet: exhibit-master-booklet.pdf
 carousel:
-  - sm: image1.med.jpg
-    lg: image1.lg.jpg
+  - sm: carousel/image1.med.jpg
+    lg: carousel/image1.lg.jpg
     title: Hello
-  - sm: image3.med.jpg
-    lg: image3.lg.jpg
+  - sm: carousel/image3.med.jpg
+    lg: carousel/image3.lg.jpg
     title: Hello 2
-  - sm: image4.med.jpg
-    lg: image4.lg.jpg
+  - sm: carousel/image4.med.jpg
+    lg: carousel/image4.lg.jpg
     title: Hello 3
-  - sm: image5.med.jpg
-    lg: image5.lg.jpg
+  - sm: carousel/image5.med.jpg
+    lg: carousel/image5.lg.jpg
     title: Hello 4
 banner_text: |-
   To host the exhibit, contact
@@ -78,6 +78,7 @@ tabs:
       * 520 ft. (158 m) of wall space
 
       * 350 sq. ft. (33 m²) of floor space
+    image: tabs/image.lg.jpg
   - header: Maps-Only Physical Exhibit
     content: >-
       ### Contains:
@@ -108,6 +109,7 @@ tabs:
 
 
       \*Plus shipping. Unmounted prints also available at a reduced cost.
+    image: tabs/image02.lg.jpg
   - content: >-
       ### Contains:
 
@@ -146,6 +148,7 @@ tabs:
 
       \*Plus shipping
     header: Poster Exhibit
+    image: tabs/image03.lg.jpg
   - header: Digital Exhibit
     content: >-
       ### Contains:
@@ -186,4 +189,5 @@ tabs:
 
 
       \*Cost will vary depending on the level of customization. Please [contact us](http://scimaps.org/contact.html) to discuss the options available.
+    image: tabs/image04.lg.jpg
 ---
