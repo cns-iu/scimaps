@@ -222,7 +222,7 @@ collections:
         value_field: '{{slug}}'
         display_fields: ['{{name}} {{lastName}}']
       - { name: publisher, label: Publisher }
-      - { name: pdfLink, label: PDF Link, required: false }
+      - { name: pdfLink, label: PDF Link, required: false, widget: file }
       - { name: amazonLink, label: Amazon Link }
       - name: bookImages
         label: Book Images
