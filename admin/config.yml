@@ -111,7 +111,7 @@ collections:
   - name: learning-materials
     label: Learning Materials
     label_singular: Learning Material
-    folder: content/learning-material
+    folder: content/learning-materials
     path: "{{slug}}/readme"
     create: true
     slug: "{{title}}"
