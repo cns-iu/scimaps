@@ -5,6 +5,7 @@ import { Observable, forkJoin, combineLatest } from 'rxjs';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 import { take, map, mergeMap, shareReplay } from 'rxjs/operators';
 import { Profile } from '../../core/models/profile';
+import { isHttp } from '../../constants/utils';
 
 @Injectable({
   providedIn: 'root'
@@ -49,7 +50,7 @@ export class BooksResolverService implements Resolve<Book[]> {
   toBookUI(book: Book): Book {
     book.images = this.getImageSource(book);
     if (book.pdfLink) {
-      if (!book.pdfLink.startsWith('http://') && !book.pdfLink.startsWith('https://')) {
+      if (!isHttp(book.pdfLink)) {
         book.pdfLink = this.getSourceLink(book);
       }
     }

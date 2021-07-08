@@ -3,6 +3,7 @@ import { catchError, map, take } from 'rxjs/operators';
 import { ContentService } from '../../shared/services/content.service';
 import { Resolve } from '@angular/router';
 import { Observable, of } from 'rxjs';
+import { isHttp } from '../../constants/utils';
 
 interface AboutBody {
   curatorsDescription: string;
@@ -28,7 +29,7 @@ export class AboutBodyResolverService implements Resolve<AboutBody> {
         if (annualReports && Array.isArray(annualReports)) {
           annualReports.forEach((report: {year: string, pdfLink: string}) => {
             const pdfLink = report.pdfLink
-            if (!pdfLink.startsWith('http://') || pdfLink.startsWith('https://')) {
+            if (!isHttp(pdfLink)) {
               report.pdfLink = `${this.directory}/${report.pdfLink}`
             }
           });

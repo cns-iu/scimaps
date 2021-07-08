@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Params } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
+import { isHttp } from '../../constants/utils';
 import { NewsItem } from '../../shared/components/news-item/news-item.model';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 
@@ -49,7 +50,7 @@ export class NewsResolverService {
           const newsItem: NewsItem = this.toNewsItem(item);
           newsItem.thumbnail = this.getSourceLink(newsItem);
           if (newsItem.pdfLink) {
-            if (!newsItem.pdfLink.startsWith('http://') && !newsItem.pdfLink.startsWith('https://')) {
+            if (!isHttp(newsItem.pdfLink)) {
               newsItem.pdfLink = this.getSourceLink(newsItem, 'pdfLink');
             }
           }
