@@ -3,6 +3,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { drawerInOut } from '../../constants/drawer.animations';
 import { CardLinkItem } from '../../core/models/card-link-item';
 import { HostingBody } from './hosting-body-resolver.service';
+import { LearningMaterial } from './learning-material-resolver.service';
 
 @Component({
   selector: 'sci-hosting',
@@ -14,6 +15,7 @@ export class HostingComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-hosting';
 
+  learningMaterials: LearningMaterial[] = []
   get tabHeaders(): string[] {
     return this.tabs.map((tab: {header: string}) => tab.header);
   }
@@ -28,41 +30,15 @@ export class HostingComponent implements OnInit {
   tabs: {header: string, content: string, image: string}[] = [];
   showDrawer = false;
 
-  // 
-  lms = [
-    {
-    title: 'Hello',
-    content: 'Content',
-    image: { sm: 'assets/content/site/hosting/image1.med.jpg',
-        lg: 'assets/content/site/hosting/image1.lg.jpg'
-      }
-    },
-    {
-      title: 'Hello 2',
-      content: 'Content 2',
-      image: { sm: 'assets/content/site/hosting/image1.med.jpg',
-          lg: 'assets/content/site/hosting/image1.lg.jpg'
-        },
-      },
-      {
-        title: 'Hello',
-        content: 'Content',
-        image: { sm: 'assets/content/site/hosting/image1.med.jpg',
-            lg: 'assets/content/site/hosting/image1.lg.jpg'
-          }
-        },
-        {
-          title: 'Hello 2',
-          content: 'Content 2',
-          image: { sm: 'assets/content/site/hosting/image1.med.jpg',
-              lg: 'assets/content/site/hosting/image1.lg.jpg'
-            },
-          }
-  ]
+  //
   ngOnInit() {
     // this.route
-    this.route.data.subscribe(({body}) => {
+    this.route.data.subscribe((data) => {
       // Other keys
+      const {body, learningMaterials} = data;
+      if (learningMaterials) {
+        this.learningMaterials = learningMaterials;
+      }
       ({ overview: this.overviewText,
         install_guide: this.installGuide,
         master_booklet: this.masterBooklet,

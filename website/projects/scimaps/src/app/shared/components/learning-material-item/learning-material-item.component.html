@@ -1,10 +1,12 @@
 <!-- desktop -->
 <mat-card *sciBreakpoint="'mobile+'" class="lm-item-desktop">
-  <img mat-card-image [src]="item.image.lg" />
+  <div class="row1">
+    <img mat-card-image [src]="item.image.sm" />
+  </div>
   <mat-card-title class="row2">
     <h4 class="header4">{{ item.title }}</h4>
   </mat-card-title>
-  <mat-card-content class="row3" markdown [data]="item.content">
+  <mat-card-content class="row3" markdown [data]="item.body">
   </mat-card-content>
 </mat-card>
 

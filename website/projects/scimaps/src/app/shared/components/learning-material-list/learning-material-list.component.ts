@@ -1,4 +1,5 @@
 import { Component, HostBinding, Input, OnInit } from '@angular/core';
+import { LearningMaterial } from '../../../pages/hosting/learning-material-resolver.service';
 
 @Component({
   selector: 'sci-learning-material-list',
@@ -9,7 +10,7 @@ export class LearningMaterialListComponent implements OnInit {
 
   @HostBinding('class') readonly classname = 'sci-learning-material-list';
   
-  @Input() items: any[] = []
+  @Input() items: LearningMaterial[] = []
   @Input() header = '';
 
   constructor() { }

@@ -1,6 +1,6 @@
 ---
 title: "Inside the Museum: The Metropolitan Museum of Art"
-images:
+image:
   sm: image.sm.jpg
   lg: image.lg.jpg
 ---

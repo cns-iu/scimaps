@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { LearningMaterial } from '../../../pages/hosting/learning-material-resolver.service';
 
 @Component({
   selector: 'sci-learning-material-item',
@@ -7,14 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class LearningMaterialItemComponent implements OnInit {
 
-  @Input() item!: {
-    title: string,
-    content: string,
-    image: {
-      lg:string,
-      sm: string
-    }
-  };
+  @Input() item!: LearningMaterial;
+
   constructor() { }
 
   ngOnInit(): void {

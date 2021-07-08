@@ -1,6 +1,6 @@
 ---
 title: The Fundamental Interconnectedness of All Things
-images:
+image:
   sm: image.sm.jpg
   lg: image.lg.png
 ---
