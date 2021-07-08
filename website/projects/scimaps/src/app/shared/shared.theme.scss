@@ -16,6 +16,8 @@
 @use './components/lazy-table/lazy-table.theme.scss';
 @use './components/tab-header/tab-header.theme.scss';
 @use './components/drawer/drawer.theme.scss';
+@use './components/learning-material-list/learning-material-list.theme.scss';
+@use './components/learning-material-item//learning-material-item.theme.scss';
 
 @mixin theme($theme) {
   @include book-overview.theme($theme);
@@ -36,4 +38,6 @@
   @include lazy-table.theme($theme);
   @include tab-header.theme($theme);
   @include drawer.theme($theme);
+  @include learning-material-list.theme($theme);
+  @include learning-material-item.theme($theme);
 }

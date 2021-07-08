@@ -1,1 +1,24 @@
-<p>learning-material-item works!</p>
+<!-- desktop -->
+<mat-card *sciBreakpoint="'mobile+'" class="lm-item-desktop">
+  <img mat-card-image [src]="item.image.lg" />
+  <mat-card-title class="row2">
+    <h4 class="header4">{{ item.title }}</h4>
+  </mat-card-title>
+  <mat-card-content class="row3" markdown [data]="item.content">
+  </mat-card-content>
+</mat-card>
+
+<!-- mobile -->
+<mat-card *sciBreakpoint="'mobile-'" class="lm-item-mobile">
+  <div class="col1">
+    <img mat-card-img [src]="item.image.sm" alt="" />
+  </div>
+  <div class="col2">
+    <mat-card-title class="col2">
+      <h4 class="header4">{{ item.title }}</h4>
+    </mat-card-title>
+  </div>
+  <div class="col3">
+    <mat-icon class="mobile-icon">chevron_right</mat-icon>
+  </div>
+</mat-card>
