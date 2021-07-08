@@ -1,8 +1,8 @@
 ---
 title: Gapminder Card Game
 image:
-  - sm: image.sm.jpg
-    lg: image.lg.png
+  sm: image.sm.jpg
+  lg: image.lg.png
 ---
 ## Gapminder Card Game
 

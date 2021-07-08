@@ -1,8 +1,8 @@
 ---
 title: Sculptures of Science
 images:
-  - sm: image.sm.jpg
-    lg: image.lg.jpg
+  sm: image.sm.jpg
+  lg: image.lg.jpg
 ---
 ## Sculptures of Science
 

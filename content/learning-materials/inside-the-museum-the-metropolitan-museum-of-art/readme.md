@@ -1,8 +1,8 @@
 ---
 title: "Inside the Museum: The Metropolitan Museum of Art"
 images:
-  - sm: image.sm.jpg
-    lg: image.lg.jpg
+  sm: image.sm.jpg
+  lg: image.lg.jpg
 ---
 ## Inside the Museum: The Metropolitan Museum of Art
 

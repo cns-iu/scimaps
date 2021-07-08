@@ -1,8 +1,8 @@
 ---
 title: Humanexus
 image:
-  - sm: image.sm.jpg
-    lg: image.lg.png
+  sm: image.sm.jpg
+  lg: image.lg.png
 ---
 [Watch the official trailer »](https://www.youtube.com/watch?v=XP7BirC7hFI&feature=youtu.be)
 

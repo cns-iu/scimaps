@@ -1,8 +1,8 @@
 ---
 title: Science Maps for Kids
 images:
-  - sm: image.sm.jpg
-    lg: image.lg.jpg
+  sm: image.sm.jpg
+  lg: image.lg.jpg
 ---
 ## Science Maps for Kids
 

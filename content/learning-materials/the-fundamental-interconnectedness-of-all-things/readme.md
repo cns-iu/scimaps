@@ -1,8 +1,8 @@
 ---
 title: The Fundamental Interconnectedness of All Things
 images:
-  - sm: image.sm.jpg
-    lg: image.lg.png
+  sm: image.sm.jpg
+  lg: image.lg.png
 ---
 ## The Fundamental Interconnectedness of All Things \[dynamic format]
 

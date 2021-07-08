@@ -1,8 +1,8 @@
 ---
 title: My Science Story Coloring Book
 image:
-  - sm: image.sm.jpg
-    lg: image.lg.jpg
+  sm: image.sm.jpg
+  lg: image.lg.jpg
 ---
 ## My Science Story Coloring Book
 

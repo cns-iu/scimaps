@@ -1,24 +1,28 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, Resolve, RouterStateSnapshot } from '@angular/router';
+import { ActivatedRouteSnapshot, Params, Resolve, RouterStateSnapshot } from '@angular/router';
 import { Observable } from 'rxjs';
+import { take } from 'rxjs/operators';
+import { ContentService } from '../../shared/services/content.service';
 
-interface LearningMaterial {
+export interface LearningMaterial {
   title: string;
-  content: string;
-  image: {
+  body: string;
+  images: {
     sm: string,
     lg: string
-  };
+  }[];
 }
 @Injectable({
   providedIn: 'root'
 })
 export class LearningMaterialResolverService implements Resolve<LearningMaterial[]> {
 
-  constructor() { }
+  constructor(private contentService: ContentService) { }
 
 
-  resolve(): LearningMaterial[] | Observable<LearningMaterial[]> | Promise<LearningMaterial[]> {
-    throw new Error('Method not implemented.');
+  resolve(): LearningMaterial[] | Observable<LearningMaterial[]> {
+    return this.contentService.getIndex<LearningMaterial>('learning-materials').pipe(
+      take(1)
+    )
   }
 }
