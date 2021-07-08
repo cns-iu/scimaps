@@ -15,15 +15,22 @@ collections:
 
       - label: About Places & Spaces
         name: about
-        file: content/site/about.md
+        file: content/site/about/about.md
         preview_path: about
+        media_folder: ''
         fields:
           - { name: overviewParagraph, label: Overview Paragraph, widget: markdown }
           - { name: overviewQuote, label: Overview Quote, widget: markdown }
           - { name: curatorsDescription, label: Curators Description, widget: markdown }
           - { name: advisoryBoardDescription, label: Advisory Board Description, widget: markdown }
           - { name: ambassadorsDescription, label: Ambassadors Description, widget: markdown }
-
+          - name: annualReports
+            label: Annual Reports 
+            widget: list
+            required: false
+            fields:
+            - { name: year, label: Year }
+            - { name: pdfLink, label: File, widget: file }
       - label: What is a Map?
         name: whatIsAMap
         file: content/site/whatIsAMap.md

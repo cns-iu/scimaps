@@ -117,11 +117,8 @@ describe('AboutComponent', () => {
   it('should open correct annual report', async () => {
     const { instance } = await shallow.render();
     const spy = spyOn(window, 'open');
-    const testYear = '2012';
-    instance.getReport(testYear);
-    const getPdfPath = (year: string) => {
-      return `assets/annual-reports/${year}-ps-annual-report.pdf`;
-    };
-    expect(spy).toHaveBeenCalledWith(getPdfPath(testYear), '_blank');
+    const testLink = 'link';
+    instance.getReport(testLink);
+    expect(spy).toHaveBeenCalledWith(testLink, '_blank');
   });
 });
