@@ -1,6 +1,6 @@
 ---
 title: Gapminder Card Game
-"images,":
+image:
   - sm: image.sm.jpg
     lg: image.lg.png
 ---

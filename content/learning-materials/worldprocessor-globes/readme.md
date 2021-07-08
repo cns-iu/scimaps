@@ -23,11 +23,7 @@ content: >-
   Shape of Science – Science Universe\
 
   Sculptor and media artist Ingo Günther has mapped social, scientific, political, and economic data on globes as navigational guides in a globalized world. This representation of the space that science would occupy when mapped out on a sphere is one of several prototypes for a tangible sculpture titled “Shape of Science.” The concept of a three-dimensional shape of science is based on the research of Richard Klavans and Kevin Boyack, who through spatial and quantifiable means, notably co-citation networks and network analysis, identify the connectivities and relative flows of inquiry within the world of science. This version differentiates each of the 13 fields of science stylistically. The names of the fields are written along their border. To explore other WorldProcessor globes, visit <http://worldprocessor.org>.
-"carousel,":
-  - title: WorldProcessor Globes
-    sm: image01.lg.jpg
-    lg: image02.lg.jpg
-"images,":
+images:
   - sm: image01.lg.jpg
     lg: image02.lg.jpg
 ---

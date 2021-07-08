@@ -1,9 +1,6 @@
 ---
 title: Humanexus
-"carousel,":
-  - sm: image.sm.jpg
-    lg: image.lg.png
-"images,":
+image:
   - sm: image.sm.jpg
     lg: image.lg.png
 ---

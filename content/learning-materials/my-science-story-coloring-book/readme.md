@@ -1,6 +1,6 @@
 ---
 title: My Science Story Coloring Book
-"images,":
+image:
   - sm: image.sm.jpg
     lg: image.lg.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 title: Illuminated Diagram Display
-"images,":
+image:
   - sm: image.sm.jpg
     lg: image.lg.jpg
 ---

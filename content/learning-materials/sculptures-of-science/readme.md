@@ -1,6 +1,6 @@
 ---
 title: Sculptures of Science
-"images,":
+images:
   - sm: image.sm.jpg
     lg: image.lg.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 title: Adventures in Knowledge Land Comic Book
-"images,":
+image:
   - sm: image.sm.jpg
     lg: image.lg.jpg
 ---
