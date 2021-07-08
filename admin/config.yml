@@ -128,8 +128,8 @@ collections:
     fields:
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-      - name: images,
-        label: Images,
+      - name: images
+        label: Images
         widget: list
         fields:
           - { name: sm, label: "Mobile (sm) Version" , widget: image }
