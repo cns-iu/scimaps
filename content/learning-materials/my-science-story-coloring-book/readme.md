@@ -4,8 +4,6 @@ image:
   sm: image.sm.jpg
   lg: image.lg.jpg
 ---
-## My Science Story Coloring Book
-
 My Science Story was created by Nicole (Nikki) Roberg in December, 2005 and is based on the following work:
 
 * Boyack, Kevin W., Klavans, R. and Börner, Katy. (2005). Mapping the Backbone of Science. Scientometrics. 64(3), 351-374.

@@ -4,8 +4,6 @@ image:
   sm: image.sm.jpg
   lg: image.lg.jpg
 ---
-## Illuminated Diagram Display
-
 The Illuminated Diagram features a geographic map and a science map controlled by a touch panel, which allows users to learn what areas of science are producing the most publications, and where in the world this research is coming from. The display features research and node layout by Kevin W. Boyack and Richard Klavans, data preparation by Chin Hua Kong and Nianli Ma, layout and design created by Michael J. Stamper and Katy Börner, and programming provided by Jagannathan Lakshmipathy and David M. Reagan. The original design, cartography, and programming were created by W. Bradford Paley, John Burgoon, and Peter Kennard. 
 
 Topic Map\
