@@ -11,6 +11,7 @@
         </div>
     </div>
     <div class="carousel-container">
+        <!-- desktop carousel -->
         <sci-carousel *sciBreakpoint="'desktop'" class="carousel">
             <sci-carousel-item class="sci-carousel-item" *ngFor="let item of carouselImages">
                 <div class="carousel-item">
@@ -19,6 +20,8 @@
                 </div>
             </sci-carousel-item>
         </sci-carousel>
+
+        <!-- mobile carousel -->
         <sci-carousel *sciBreakpoint="'desktop-'" class="carousel">
             <sci-carousel-item class="sci-carousel-item" *ngFor="let item of carouselImages">
                 <div class="carousel-item">
@@ -35,6 +38,7 @@
 
 <div class="main-content">
     <div class="col1">
+        <!-- desktop tab header and tab content -->
         <div *sciBreakpoint="'mobile+'" class="tabs">
             <sci-tab-header class="tab-header" [tabs]="tabHeaders"
                 (activeTabIndexChanged)="updateActivePageTab($event)">
@@ -49,6 +53,7 @@
                 </div>
             </div>
         </div>
+        <!-- mobile drawer controller and drawers -->
         <div *sciBreakpoint="'mobile-'" class="mobile-tabs">
             <div class="mobile-button" *ngFor="let tab of tabHeaders; let i = index"
                 (click)="updateActivePageTab(i); showDrawer = true">
