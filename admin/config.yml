@@ -40,9 +40,18 @@ collections:
 
       - label: What is a Macroscope?
         name: whatIsAMacroscope
-        file: content/site/whatIsAMacroscope.md
+        file: content/site/macroscopes/whatIsAMacroscope.md
+        media_folder: ''
         preview_path: macroscopes
         fields:
+          - name: carousel
+            label: Carousel
+            widget: list
+            media_folder: './carousel'
+            fields:
+            - { name: title, label: Title, required: false }
+            - { name: sm, label: "Mobile (sm) Version" , widget: image }
+            - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
           - { name: body, label: Description, widget: markdown }
 
       - label: Call for Macroscopes
