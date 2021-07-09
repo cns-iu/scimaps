@@ -11,20 +11,16 @@
         </div>
     </div>
     <div class="carousel-container">
-        <!-- desktop carousel -->
-        <sci-carousel *sciBreakpoint="'desktop'" class="carousel">
+        <!-- mobile carousel -->
+        <sci-carousel class="carousel">
             <sci-carousel-item class="sci-carousel-item" *ngFor="let item of carouselImages">
-                <div class="carousel-item">
+                <!-- desktop -->
+                <div *sciBreakpoint="'desktop'" class="carousel-item">
                     <img [src]="item.lg" class="carousel-image" [alt]="item.lg.split('/')[3]">
                     <div class="carousel-image-title">{{ item.title }}</div>
                 </div>
-            </sci-carousel-item>
-        </sci-carousel>
-
-        <!-- mobile carousel -->
-        <sci-carousel *sciBreakpoint="'desktop-'" class="carousel">
-            <sci-carousel-item class="sci-carousel-item" *ngFor="let item of carouselImages">
-                <div class="carousel-item">
+                <!-- mobile / tablet -->
+                <div *sciBreakpoint="'desktop-'" class="carousel-item">
                     <img [src]="item.sm" class="carousel-image" [alt]="item.sm.split('/')[3]">
                     <div class="carousel-image-title">{{ item.title }}</div>
                 </div>
