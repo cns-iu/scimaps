@@ -16,6 +16,8 @@ $desktop: 1248px;
   }
   .lm-item-desktop {
     flex: 1;
+    padding: 0;
+    overflow: hidden;
     margin-right: 1rem;
     margin-bottom: 1rem;
     display: flex;
@@ -24,12 +26,21 @@ $desktop: 1248px;
     .row1 {
       img {
         max-height: 100%;
+        margin: 0;
       }
     }
     .row2 {
-      text-overflow: ellipsis;
+      padding: 1rem;
+      overflow: hidden;
       h4 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
         margin-bottom: 0;
+      }
+      .content {
+        mat-card-content {
+        }
       }
     }
     .row3 {
@@ -43,7 +54,6 @@ $desktop: 1248px;
     flex-direction: row;
     margin-bottom: 1rem;
     padding: 0;
-    // flex-wrap: wrap;
     cursor: pointer;
     .col1 {
       flex: 2;

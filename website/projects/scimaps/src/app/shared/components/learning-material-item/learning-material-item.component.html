@@ -3,11 +3,15 @@
   <div class="row1">
     <img mat-card-image [src]="item.image.sm" />
   </div>
-  <!-- <mat-card-title class="row2">
-    <h4 class="header4">{{ item.title }}</h4>
-  </mat-card-title> -->
-  <!-- <mat-card-content class="row3" markdown [data]="item.body">
-  </mat-card-content> -->
+  <div class="row2">
+    <mat-card-title>
+      <h4 class="header4">{{ item.title }}</h4>
+    </mat-card-title>
+    <div class="content">
+      <mat-card-content markdown [data]="item.body.length > 80 ? item.body.slice(0, 80) + '...' : item.body">
+      </mat-card-content>  
+    </div>
+  </div>
 </mat-card>
 
 <!-- mobile -->
