@@ -52,16 +52,16 @@
         <!-- mobile drawer controller and drawers -->
         <div *sciBreakpoint="'mobile-'" class="mobile-tabs">
             <div class="mobile-button" *ngFor="let tab of tabHeaders; let i = index"
-                (click)="updateActivePageTab(i); showDrawer = true">
+                (click)="updateActivePageTab(i); showTab = true">
                 {{tab}}
                 <mat-icon class="mobile-icon">chevron_right</mat-icon>
             </div>
             <!-- drawer -->
-            <sci-drawer [@drawerInOut] *ngIf="showDrawer" class="tab-drawer">
+            <sci-drawer [@drawerInOut] *ngIf="showTab" class="tab-drawer">
                 <div drawer>
                     <div>
                         <div class="drawer-header">
-                            <mat-icon class="mobile-icon" (click)="showDrawer = false;">chevron_left</mat-icon>
+                            <mat-icon class="mobile-icon" (click)="showTab = false;">chevron_left</mat-icon>
                             <div class="mobile-title">
                                 <h3>{{tabHeaders[activePageTab]}} </h3>
                             </div>

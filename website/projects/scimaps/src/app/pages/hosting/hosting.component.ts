@@ -28,9 +28,8 @@ export class HostingComponent implements OnInit {
   bannerText = '';
   activePageTab = 0;
   tabs: {header: string, content: string, image: string}[] = [];
-  showDrawer = false;
+  showTab = false; // maintains drawer show/hide for tab
 
-  //
   ngOnInit() {
     // this.route
     this.route.data.subscribe((data) => {

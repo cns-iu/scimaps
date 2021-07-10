@@ -5,6 +5,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MarkdownModule } from 'ngx-markdown';
 import { SharedModule } from '../../shared.module';
+import { DrawerModule } from '../drawer/drawer.module';
 
 
 
@@ -15,7 +16,8 @@ import { SharedModule } from '../../shared.module';
     MatCardModule,
     MarkdownModule,
     SharedModule,
-    CommonModule
+    CommonModule,
+    DrawerModule
   ],
   exports: [LearningMaterialItemComponent]
 })

@@ -9,13 +9,13 @@
     </mat-card-title>
     <div class="content">
       <mat-card-content markdown [data]="item.body.length > 80 ? item.body.slice(0, 80) + '...' : item.body">
-      </mat-card-content>  
+      </mat-card-content>
     </div>
   </div>
 </mat-card>
 
 <!-- mobile -->
-<mat-card *sciBreakpoint="'mobile-'" class="lm-item-mobile">
+<mat-card *sciBreakpoint="'mobile-'" class="lm-item-mobile" (click)="showDrawer = true">
   <div class="col1">
     <img mat-card-img [src]="item.image.sm" alt="" />
   </div>
@@ -28,3 +28,25 @@
     <mat-icon class="mobile-icon">chevron_right</mat-icon>
   </div>
 </mat-card>
+
+
+<sci-drawer [@drawerInOut] *ngIf="showDrawer" class="tab-drawer">
+  <div drawer>
+    <div>
+      <div class="drawer-header">
+        <mat-icon class="mobile-icon" (click)="showDrawer = false">chevron_left</mat-icon>
+        <div class="mobile-title">
+          <h3>{{item.title}} </h3>
+        </div>
+      </div>
+      <div class="tab-content">
+        <div class="row1">
+          <img [src]="item.image.lg" alt="">
+        </div>
+        <div class="row2">
+          <div markdown [data]="item.body"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</sci-drawer>
