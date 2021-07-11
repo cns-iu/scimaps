@@ -115,15 +115,24 @@ $desktop: 1248px;
     .tab-content {
       display: flex;
       flex-direction: column;
+      @media (min-width: $desktop) {
+        flex-direction: row-reverse;
+      }
       width: 100%;
       .row1 {
+        flex: 1; 
+        display: flex;
+        justify-content: center;
         margin-bottom: 2rem;
         img {
           max-width: 100%;
         }
       }
       .row2 {
-
+        @media (min-width: $desktop) {
+          margin-left: 2rem;
+        }
+        flex: 1;
       }
     }
   }
