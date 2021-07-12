@@ -1,17 +1,32 @@
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { TableData } from '../../core/models/table-data';
 
 import { TableHeader } from '../../core/models/table-header';
+import { Venue } from './venues-resolver.service';
 
 @Component({
   selector: 'sci-venues',
   templateUrl: './venues.component.html',
   styleUrls: ['./venues.component.scss']
 })
-export class VenuesComponent {
+export class VenuesComponent implements OnInit {
+  
+  constructor(private activatedRoute: ActivatedRoute) {
+  }
+  venues: Venue[] = [];
+  ngOnInit(): void {
+    this.activatedRoute.data.subscribe((data) => {
+      const {venues} = data;
+      if (venues && Array.isArray(venues)) {
+        this.venues = venues;
+      }
+    });
+  }
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-venues';
 
+  
   tableHeaders: TableHeader[] = [
     {
       label: 'Start',
