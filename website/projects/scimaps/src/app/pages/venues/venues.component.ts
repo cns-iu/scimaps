@@ -7,6 +7,8 @@ import { TableData } from '../../core/models/table-data';
 import { MatTableDataSource } from '@angular/material/table';
 import { TableHeader } from '../../core/models/table-header';
 import { Venue } from './venues-resolver.service';
+import { MatPaginator } from '@angular/material/paginator';
+import { MatSort } from '@angular/material/sort';
 
 @Component({
   selector: 'sci-venues',
@@ -21,8 +23,8 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
   constructor(private activatedRoute: ActivatedRoute, private formBuilder: FormBuilder) {
   }
   venues: Venue[] = [];
-  // @ViewChild(MatPaginator) paginator!;
-  // @ViewChild(MatSort) sort: MatSort;
+  @ViewChild(MatPaginator) paginator!: MatPaginator;
+  @ViewChild(MatSort) sort!: MatSort;
 
   dataSource = new MatTableDataSource(this.venues);
   yearList = ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015',
@@ -107,8 +109,8 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
 
 
   ngAfterViewInit(): void {
-    // this.dataSource.paginator = this.paginator;
-    // this.dataSource.sort = this.sort;
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
   }
 
   ngOnDestroy(): void {
