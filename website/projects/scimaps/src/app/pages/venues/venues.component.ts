@@ -201,11 +201,3 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
     return row.media.links !== undefined ? row.media.links : [];
   }
 }
-function MatPaginator(MatPaginator: any) {
-  throw new Error('Function not implemented.');
-}
-
-function MatSort(MatSort: any) {
-  throw new Error('Function not implemented.');
-}
-
