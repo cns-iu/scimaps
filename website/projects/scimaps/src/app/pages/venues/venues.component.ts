@@ -4,8 +4,6 @@ import { ActivatedRoute } from '@angular/router';
 import { of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
 import { TableData } from '../../core/models/table-data';
-import { MatPaginator } from '@angular/material/paginator';
-import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { TableHeader } from '../../core/models/table-header';
 import { Venue } from './venues-resolver.service';
@@ -23,31 +21,36 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
   constructor(private activatedRoute: ActivatedRoute, private formBuilder: FormBuilder) {
   }
   venues: Venue[] = [];
-  @ViewChild(MatPaginator) paginator!: MatPaginator;
-  @ViewChild(MatSort) sort!: MatSort;
+  // @ViewChild(MatPaginator) paginator!;
+  // @ViewChild(MatSort) sort: MatSort;
 
   dataSource = new MatTableDataSource(this.venues);
   yearList = ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015',
     '2016', '2017', '2018', '2019', '2020', '2021'];
-  columns = ['dateStart', 'title', 'publication', 'author', 'pdfLink'];
   searchForm!: FormGroup;
   searchChangeSubscription: Subscription | undefined;
   yearChangeSubscription: Subscription | undefined;
-
+  tableHeaders = [
+    { label: 'Start', key: 'dateStart', type: 'date'}, 
+    { label: 'End', key: 'dateEnd', type: 'date' },
+    { label: 'Event', key: 'title', type: 'text'},
+    { label: 'Location', key: 'city', type: 'text'},
+    { label: 'Contact', key: 'organizer', type: 'text'}
+  ]
+  columns = this.tableHeaders.map(header => header.key);
   ngOnInit(): void {
     // data
     this.activatedRoute.data.subscribe((data) => {
       const { venues } = data;
       if (venues && Array.isArray(venues)) {
-        this.venues = venues;
+        this.venues = venues; 
+        this.dataSource.data = this.venues;
+        // Assign predicate
+        this.dataSource.filterPredicate = this.filterData;
       }
     });
 
-    // 
-    this.dataSource.data = this.venues;
-
-    // Assign predicate
-    this.dataSource.filterPredicate = this.filterData;
+    
 
     // Initialize form
     this.searchForm = this.formBuilder.group({
@@ -104,8 +107,8 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
 
 
   ngAfterViewInit(): void {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
+    // this.dataSource.paginator = this.paginator;
+    // this.dataSource.sort = this.sort;
   }
 
   ngOnDestroy(): void {
@@ -116,39 +119,6 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
       this.yearChangeSubscription.unsubscribe();
     }
   }
-
-  tableHeaders: TableHeader[] = [
-    {
-      label: 'Start',
-      key: 'startDate',
-      format: 'text'
-    },
-    {
-      label: 'End',
-      key: 'endDate',
-      format: 'text'
-    },
-    {
-      label: 'Event',
-      key: 'event',
-      format: 'text'
-    },
-    {
-      label: 'Location',
-      key: 'location',
-      format: 'text'
-    },
-    {
-      label: 'Contact',
-      key: 'contact',
-      format: 'text'
-    },
-    {
-      label: 'Media',
-      key: 'media',
-      format: 'icon'
-    }
-  ];
 
   testVenues: TableData[] = [
     {
