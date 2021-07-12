@@ -33,11 +33,11 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
   searchChangeSubscription: Subscription | undefined;
   yearChangeSubscription: Subscription | undefined;
   tableHeaders = [
-    { label: 'Start', key: 'dateStart', type: 'date'}, 
-    { label: 'End', key: 'dateEnd', type: 'date' },
-    { label: 'Event', key: 'title', type: 'text'},
-    { label: 'Location', key: 'city', type: 'text'},
-    { label: 'Contact', key: 'organizer', type: 'text'}
+    { label: 'Start', key: 'dateStart', type: 'date', width: 15}, 
+    { label: 'End', key: 'dateEnd', type: 'date', width: 15 },
+    { label: 'Event', key: 'title', type: 'text', width: 30},
+    { label: 'Location', key: 'city', type: 'text', width: 20},
+    { label: 'Contact', key: 'organizer', type: 'text', width: 20}
   ]
   columns = this.tableHeaders.map(header => header.key);
   ngOnInit(): void {
