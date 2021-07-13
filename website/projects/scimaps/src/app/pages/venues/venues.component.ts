@@ -79,8 +79,6 @@ export class VenuesComponent implements OnInit {
   }
 
   addFilter(filter: string) {
-
-
     this.dataSource.filter = filter;
   }
 
