@@ -128,8 +128,8 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
 
     if (parsedFilter.searchKey) {
       result = result &&
-        (item.title.toLowerCase().includes(parsedFilter.searchKey) ||
-          item.venue.toLowerCase().includes(parsedFilter.searchKey));
+        (item.title?.toLowerCase().includes(parsedFilter.searchKey) ||
+          item.venue?.toLowerCase().includes(parsedFilter.searchKey));
     }
     return result;
   }
