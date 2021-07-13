@@ -27,8 +27,7 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild(MatSort) sort!: MatSort;
 
   dataSource = new MatTableDataSource(this.venues);
-  yearList = ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015',
-    '2016', '2017', '2018', '2019', '2020', '2021'];
+  yearList: string[] = [];
   searchForm!: FormGroup;
   searchChangeSubscription: Subscription | undefined;
   yearChangeSubscription: Subscription | undefined;
@@ -47,6 +46,12 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
       if (venues && Array.isArray(venues)) {
         this.venues = venues; 
         this.dataSource.data = this.venues;
+        this.venues.forEach((venue: Venue) => {
+          const year = new Date(venue.dateStart).getFullYear().toString();
+          if (!this.yearList.includes(year)) {
+            this.yearList.push(year);
+          } 
+        });
         // Assign predicate
         this.dataSource.filterPredicate = this.filterData;
       }
