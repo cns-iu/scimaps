@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ElementRef, HostBinding, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { AbstractControl, FormBuilder, FormGroup } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
-import { of, Subscription } from 'rxjs';
+import { Observable, of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
 import { TableData } from '../../core/models/table-data';
 import { MatTableDataSource } from '@angular/material/table';
@@ -18,7 +18,7 @@ import { VenuesBody } from './venues-body-resolver.service';
   styleUrls: ['./venues.component.scss'],
   animations: [isSearchOpenTrigger ]
 })
-export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
+export class VenuesComponent implements OnInit, OnDestroy {
 
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-venues';
@@ -29,7 +29,6 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
-  dataSource = new MatTableDataSource(this.venues);
   searchForm!: FormGroup;
   searchChangeSubscription: Subscription | undefined;
   yearChangeSubscription: Subscription | undefined;
@@ -41,9 +40,10 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
     { label: 'Location', key: 'city', type: 'text', width: 20},
     { label: 'Contact', key: 'organizer', type: 'text', width: 20}
   ]
-  columns = this.tableHeaders.map(header => header.key);
   @ViewChild('searchInput') searchInput: ElementRef | undefined;
   
+  dataSource: MatTableDataSource<Venue> = new MatTableDataSource();
+
   body!: VenuesBody;
 
   get yearList(): string[] {
@@ -131,12 +131,6 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
           item.venue?.toLowerCase().includes(parsedFilter.searchKey));
     }
     return result;
-  }
-
-
-  ngAfterViewInit(): void {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
   }
 
   ngOnDestroy(): void {

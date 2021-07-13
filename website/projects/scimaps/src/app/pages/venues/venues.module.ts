@@ -16,6 +16,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
 
 import { AccordianModule } from '../../shared/components/accordian/accordian.module';
+import { VenuesTableModule } from '../../shared/components/venues-table/venues-table.module';
 
 @NgModule({
   declarations: [VenuesComponent],
@@ -28,12 +29,10 @@ import { AccordianModule } from '../../shared/components/accordian/accordian.mod
     MatFormFieldModule,
     MatInputModule,
     LazyTableModule,
-    MatTableModule,
-    MatSortModule,
-    MatPaginatorModule,
     MatSelectModule,
     MatIconModule,
-    AccordianModule
+    AccordianModule,
+    VenuesTableModule
   ],
   providers: [DatePipe]
 })
