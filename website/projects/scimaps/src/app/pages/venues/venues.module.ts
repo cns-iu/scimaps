@@ -14,8 +14,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import {MatExpansionModule} from '@angular/material/expansion';
-import { MarkdownModule } from 'ngx-markdown';
+
+import { AccordianModule } from '../../shared/components/accordian/accordian.module';
 
 @NgModule({
   declarations: [VenuesComponent],
@@ -33,8 +33,7 @@ import { MarkdownModule } from 'ngx-markdown';
     MatPaginatorModule,
     MatSelectModule,
     MatIconModule,
-    MatExpansionModule,
-    MarkdownModule
+    AccordianModule
   ],
   providers: [DatePipe]
 })

@@ -70,20 +70,12 @@
 <mat-paginator [length]="dataSource.data.length" [pageSizeOptions]="[5, 10, 20]" [pageSize]="5"></mat-paginator>
 
 
-
-
 <div class="spacer-48">
 </div>
 
 <!-- Expand Collapse -->
-<mat-accordion class="example-headers-align" multi>
-    <mat-expansion-panel>
-        <mat-expansion-panel-header>
-            <mat-panel-title>
-                {{body.accordianHeader}}
-            </mat-panel-title>
-        </mat-expansion-panel-header>
-        <div markdown [data]="body.accordianContent">
-        </div>
-    </mat-expansion-panel>
-</mat-accordion>
+
+<sci-accordian
+    [header]="body.accordianHeader" [content]="body.accordianContent">
+</sci-accordian>
+
