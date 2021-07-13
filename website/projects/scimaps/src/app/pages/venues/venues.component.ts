@@ -1,16 +1,10 @@
-import { AfterViewInit, Component, ElementRef, HostBinding, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import { AbstractControl, FormBuilder, FormGroup } from '@angular/forms';
+import { Component, HostBinding, OnInit } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
-import { Observable, of, Subscription } from 'rxjs';
-import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
 import { TableData } from '../../core/models/table-data';
 import { MatTableDataSource } from '@angular/material/table';
-import { TableHeader } from '../../core/models/table-header';
 import { Venue } from './venues-resolver.service';
-import { MatPaginator } from '@angular/material/paginator';
-import { MatSort } from '@angular/material/sort';
 import { isSearchOpenTrigger } from '../../constants/drawer.animations';
-
 import { VenuesBody } from './venues-body-resolver.service';
 @Component({
   selector: 'sci-venues',

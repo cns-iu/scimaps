@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { VenuesListComponent } from './venues-list/venues-list.component';
+import { VenuesListComponent } from './venues-list.component';
+
 
 
 
@@ -8,6 +9,7 @@ import { VenuesListComponent } from './venues-list/venues-list.component';
   declarations: [VenuesListComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [VenuesListComponent]
 })
 export class VenuesListModule { }
