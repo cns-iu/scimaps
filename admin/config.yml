@@ -107,7 +107,17 @@ collections:
             - { name: header, label: Tab Header }
             - { name: image, label: Image, widget: file, required: false }
             - { name: content, label: Tab Content, widget: markdown }
-          
+      
+      - label: Venues
+        name: venues
+        file: content/site/venues/venues.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'venues'
+        fields:
+          - { name: accordianHeader, label: Header }
+          - { name: accordianContent, label: Content, widget: markdown }
+
       - label: Languages
         name: languages
         file: content/site/languages.md

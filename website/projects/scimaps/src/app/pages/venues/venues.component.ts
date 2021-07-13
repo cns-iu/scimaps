@@ -10,7 +10,7 @@ import { Venue } from './venues-resolver.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { isSearchOpenTrigger } from '../../constants/drawer.animations';
-
+import { AnimationEvent } from '@angular/animations';
 @Component({
   selector: 'sci-venues',
   templateUrl: './venues.component.html',
