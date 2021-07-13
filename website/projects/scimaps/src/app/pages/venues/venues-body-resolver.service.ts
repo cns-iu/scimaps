@@ -4,17 +4,22 @@ import { Observable } from 'rxjs';
 import { take } from 'rxjs/operators';
 import { ContentService } from '../../shared/services/content.service';
 
+
+export interface VenuesBody {
+  accordianHeader: string;
+  accordianContent: string;
+} 
 @Injectable({
   providedIn: 'root'
 })
-export class VenuesBodyResolverService implements Resolve<Params> {
+export class VenuesBodyResolverService implements Resolve<VenuesBody> {
   
-  mdPath = 'site/about/about.md';
+  mdPath = 'site/venues/venues.md';
 
   constructor(private content: ContentService) { }
   
-  resolve(): Params | Observable<Params> | Promise<Params> {
-    return this.content.getContent<Params>(this.mdPath).pipe(
+  resolve(): VenuesBody | Observable<VenuesBody> | Promise<VenuesBody> {
+    return this.content.getContent<VenuesBody>(this.mdPath).pipe(
       take(1),
     )
   }

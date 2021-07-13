@@ -11,6 +11,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { isSearchOpenTrigger } from '../../constants/drawer.animations';
 import { AnimationEvent } from '@angular/animations';
+import { VenuesBody } from './venues-body-resolver.service';
 @Component({
   selector: 'sci-venues',
   templateUrl: './venues.component.html',
@@ -42,6 +43,8 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
   ]
   columns = this.tableHeaders.map(header => header.key);
   @ViewChild('searchInput') searchInput: ElementRef | undefined;
+  
+  body!: VenuesBody;
 
   get yearList(): string[] {
     const years = this.venues.map((item: Venue) => {
@@ -64,16 +67,12 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
   ngOnInit(): void {
     // data
     this.activatedRoute.data.subscribe((data) => {
-      const { venues } = data;
+      const { venues, body } = data;
+      this.body = body;
+      console.log(this.body)
       if (venues && Array.isArray(venues)) {
         this.venues = venues; 
         this.dataSource.data = this.venues;
-        this.venues.forEach((venue: Venue) => {
-          const year = new Date(venue.dateStart).getFullYear().toString();
-          if (!this.yearList.includes(year)) {
-            this.yearList.push(year);
-          } 
-        });
         // Assign predicate
         this.dataSource.filterPredicate = this.filterData;
       }

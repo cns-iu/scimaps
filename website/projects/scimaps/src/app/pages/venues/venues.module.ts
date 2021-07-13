@@ -14,6 +14,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { MarkdownModule } from 'ngx-markdown';
 
 @NgModule({
   declarations: [VenuesComponent],
@@ -31,6 +33,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     MatPaginatorModule,
     MatSelectModule,
     MatIconModule,
+    MatExpansionModule,
+    MarkdownModule
   ],
   providers: [DatePipe]
 })

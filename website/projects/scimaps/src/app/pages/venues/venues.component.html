@@ -17,19 +17,23 @@
     <!-- Search Filter -->
     <div class="search-overlay" [ngClass]="{'open': isSearchOpen}">
         <div (click)="isSearchOpen = false" class="icon-container search-off-icon-container">
-          <mat-icon *ngIf="isSearchOpen" class="icon-search-off" svgIcon="search:search_off" aria-hidden="false" aria-label="search"></mat-icon>
+            <mat-icon *ngIf="isSearchOpen" class="icon-search-off" svgIcon="search:search_off" aria-hidden="false"
+                aria-label="search"></mat-icon>
         </div>
-        <div class="input-search" [@isSearchOpenTrigger] *ngIf="isSearchOpen" (@isSearchOpenTrigger.done)="afterAnimation($event)">
-          <mat-form-field>
-            <mat-label> </mat-label>
-            <input matInput formControlName="search" placeholder="Type search" #searchInput />
-          </mat-form-field>  
+        <div class="input-search" [@isSearchOpenTrigger] *ngIf="isSearchOpen"
+            (@isSearchOpenTrigger.done)="afterAnimation($event)">
+            <mat-form-field>
+                <mat-label> </mat-label>
+                <input matInput formControlName="search" placeholder="Type search" #searchInput />
+            </mat-form-field>
         </div>
-        <div class="icon-container search-icon-container" (click)="isSearchOpen = true" >
-          <mat-icon *ngIf="!isSearchOpen" class="icon-search" aria-hidden="false" aria-label="search">search</mat-icon>
+        <div class="icon-container search-icon-container" (click)="isSearchOpen = true">
+            <mat-icon *ngIf="!isSearchOpen" class="icon-search" aria-hidden="false" aria-label="search">search
+            </mat-icon>
         </div>
         <div class="icon-container close-icon-container">
-          <mat-icon *ngIf="isSearchOpen" (click)="clearSearch()"  class="icon-search-close" aria-hidden="true" svgIcon="search:search_close"></mat-icon>
+            <mat-icon *ngIf="isSearchOpen" (click)="clearSearch()" class="icon-search-close" aria-hidden="true"
+                svgIcon="search:search_close"></mat-icon>
         </div>
     </div>
 
@@ -67,5 +71,19 @@
 
 
 
-<!-- Expand Collapse -->
 
+<div class="spacer-48">
+</div>
+
+<!-- Expand Collapse -->
+<mat-accordion class="example-headers-align" multi>
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                {{body.accordianHeader}}
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div markdown [data]="body.accordianContent">
+        </div>
+    </mat-expansion-panel>
+</mat-accordion>
