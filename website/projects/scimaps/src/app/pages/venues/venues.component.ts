@@ -53,6 +53,11 @@ export class VenuesComponent implements OnInit {
         this.dataSource.filterPredicate = this.filterData;
       }
     });
+
+    // For using same filtered data for table and cards.
+    this.dataSource.connect().subscribe(data => {
+      this.venues = data;
+    });
   }
 
   // Predicate for filtering data.
