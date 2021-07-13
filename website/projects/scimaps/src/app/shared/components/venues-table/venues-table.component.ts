@@ -19,7 +19,7 @@ export class VenuesTableComponent implements OnInit {
   
   @Input() dataSource: MatTableDataSource<Venue> = new MatTableDataSource();
   @Input() tableHeaders: {key: string, label: string, width: number, type: string}[] = [];
-  
+
   columns: string[] = [];
 
   constructor() {
@@ -27,10 +27,12 @@ export class VenuesTableComponent implements OnInit {
 
   ngOnInit(): void {
     this.columns = this.tableHeaders.map(header => header.key);
+    console.log(this.dataSource.data);
   }
 
   ngAfterViewInit(): void {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
+    console.log(this.sort);
   }
 }

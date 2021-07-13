@@ -10,7 +10,7 @@ import { Venue } from './venues-resolver.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { isSearchOpenTrigger } from '../../constants/drawer.animations';
-import { AnimationEvent } from '@angular/animations';
+
 import { VenuesBody } from './venues-body-resolver.service';
 @Component({
   selector: 'sci-venues',
@@ -18,7 +18,7 @@ import { VenuesBody } from './venues-body-resolver.service';
   styleUrls: ['./venues.component.scss'],
   animations: [isSearchOpenTrigger ]
 })
-export class VenuesComponent implements OnInit, OnDestroy {
+export class VenuesComponent implements OnInit {
 
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-venues';
@@ -26,13 +26,7 @@ export class VenuesComponent implements OnInit, OnDestroy {
   constructor(private activatedRoute: ActivatedRoute, private formBuilder: FormBuilder) {
   }
   venues: Venue[] = [];
-  @ViewChild(MatPaginator) paginator!: MatPaginator;
-  @ViewChild(MatSort) sort!: MatSort;
-
-  searchForm!: FormGroup;
-  searchChangeSubscription: Subscription | undefined;
-  yearChangeSubscription: Subscription | undefined;
-  isSearchOpen = false;
+  // table
   tableHeaders = [
     { label: 'Start', key: 'dateStart', type: 'date', width: 15}, 
     { label: 'End', key: 'dateEnd', type: 'date', width: 15 },
@@ -40,10 +34,8 @@ export class VenuesComponent implements OnInit, OnDestroy {
     { label: 'Location', key: 'city', type: 'text', width: 20},
     { label: 'Contact', key: 'organizer', type: 'text', width: 20}
   ]
-  @ViewChild('searchInput') searchInput: ElementRef | undefined;
-  
   dataSource: MatTableDataSource<Venue> = new MatTableDataSource();
-
+  // this page
   body!: VenuesBody;
 
   get yearList(): string[] {
@@ -54,16 +46,6 @@ export class VenuesComponent implements OnInit, OnDestroy {
     return [...new Set(years)];
   }
 
-  get searchControl(): AbstractControl | undefined {
-    let result: AbstractControl | undefined;
-    if (this.searchForm) {
-      const searchControl = this.searchForm.get('search');
-      if (searchControl) {
-        result = searchControl;
-      }
-    }
-    return result;
-  }
   ngOnInit(): void {
     // data
     this.activatedRoute.data.subscribe((data) => {
@@ -77,44 +59,7 @@ export class VenuesComponent implements OnInit, OnDestroy {
         this.dataSource.filterPredicate = this.filterData;
       }
     });
-
-    
-
-    // Initialize form
-    this.searchForm = this.formBuilder.group({
-      year: this.formBuilder.control(''),
-      search: this.formBuilder.control('')
-    });
-
-    // Initialize listener for search input change
-    this.searchChangeSubscription = this.searchForm.get('search')?.valueChanges.pipe(
-      debounceTime(400),
-      distinctUntilChanged(),
-      map((searcKey: string) => {
-        return searcKey.trim().toLowerCase();
-      }),
-      switchMap((searchKey: string) => {
-        return of(searchKey);
-      })
-    ).subscribe((searchKey: string) => {
-      const year = this.searchForm.get('year')?.value;
-      this.dataSource.filter = JSON.stringify({ year, searchKey });
-    });
-
-    // Initalize listener for year dropdown change
-    this.yearChangeSubscription = this.searchForm.get('year')?.valueChanges.pipe(
-      debounceTime(400),
-      distinctUntilChanged(),
-      switchMap((year: string) => {
-        return of(year);
-      })
-    ).subscribe((year: string) => {
-      let searchKey = this.searchForm.get('search')?.value;
-      searchKey = searchKey.trim().toLowerCase();
-      this.dataSource.filter = JSON.stringify({ year, searchKey });
-    });
   }
-
 
   // Predicate for filtering data.
   filterData(item: Venue, filter: string): boolean {
@@ -133,13 +78,10 @@ export class VenuesComponent implements OnInit, OnDestroy {
     return result;
   }
 
-  ngOnDestroy(): void {
-    if (this.searchChangeSubscription) {
-      this.searchChangeSubscription.unsubscribe();
-    }
-    if (this.yearChangeSubscription) {
-      this.yearChangeSubscription.unsubscribe();
-    }
+  addFilter(filter: string) {
+
+
+    this.dataSource.filter = filter;
   }
 
   cardHeaderFunction = (row: TableData) => {
@@ -148,20 +90,5 @@ export class VenuesComponent implements OnInit, OnDestroy {
 
   cardLinkFunction = (row: TableData) => {
     return row.media.links !== undefined ? row.media.links : [];
-  }
-
-  // After Animation hook
-  afterAnimation(event: AnimationEvent): void {
-    if (event.fromState === 'void') {
-      if (this.searchInput) {
-        this.searchInput.nativeElement.focus();
-      }
-    }
-  }
-
-  clearSearch(): void {
-    if (this.searchControl) {
-      this.searchControl.setValue('');
-    }
   }
 }

@@ -17,6 +17,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 
 import { AccordianModule } from '../../shared/components/accordian/accordian.module';
 import { VenuesTableModule } from '../../shared/components/venues-table/venues-table.module';
+import { FilterBarModule } from '../../shared/components/filter-bar/filter-bar.module';
 
 @NgModule({
   declarations: [VenuesComponent],
@@ -25,14 +26,11 @@ import { VenuesTableModule } from '../../shared/components/venues-table/venues-t
     VenuesRoutingModule,
     // LazyCardsModule,
     // LazyTableModule,
-    ReactiveFormsModule,
-    MatFormFieldModule,
-    MatInputModule,
-    LazyTableModule,
-    MatSelectModule,
     MatIconModule,
+    LazyTableModule,
     AccordianModule,
-    VenuesTableModule
+    VenuesTableModule,
+    FilterBarModule
   ],
   providers: [DatePipe]
 })
