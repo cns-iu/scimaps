@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Venue } from '../../../pages/venues/venues-resolver.service';
 
 @Component({
   selector: 'sci-venue-item',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./venue-item.component.scss']
 })
 export class VenueItemComponent implements OnInit {
+
+  @Input() item!: Venue;
 
   constructor() { }
 

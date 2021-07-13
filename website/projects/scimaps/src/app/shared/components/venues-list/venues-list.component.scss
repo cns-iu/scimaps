@@ -1,0 +1,9 @@
+:host {
+    .venues-container {
+        .venues-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+}

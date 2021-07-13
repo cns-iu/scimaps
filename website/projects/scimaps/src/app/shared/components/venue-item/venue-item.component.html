@@ -1,1 +1,30 @@
-<p>venue-item works!</p>
+<div class="venue-item">
+  
+    <div class="main">
+      <div class="card-header">
+        <div class="date mat-display-1">
+          {{ item.dateStart | date:'mediumDate' }} {{item.dateEnd ? '-' : ''}} {{item.dateEnd | date: 'mediumDate': ''}}
+        </div>
+        <div class="download">
+          <a download>
+            <mat-icon class="icon-pdf-download" aria-hidden="true" svgIcon="file:download"></mat-icon>
+          </a>
+        </div>
+      </div>
+  
+      <div class="body">
+            <div class="title">
+                {{item.title}}
+            </div>
+            <div class="venue">
+                {{item.venue}}
+            </div>
+            <div class="city">
+                {{item.city}}
+            </div>
+            <div class="organizer">
+                {{item.organizer}}
+            </div>
+      </div>
+    </div>
+  </div>

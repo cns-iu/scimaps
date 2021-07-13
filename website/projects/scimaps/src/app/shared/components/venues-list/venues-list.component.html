@@ -1,4 +1,7 @@
-
-<div>
-    {{venues.length}}
+<div class="venues-container">
+  <div class="venues-list">
+    <ng-container *ngFor="let venue of venues">
+      <sci-venue-item [item]="venue"></sci-venue-item>
+    </ng-container>
+  </div>
 </div>

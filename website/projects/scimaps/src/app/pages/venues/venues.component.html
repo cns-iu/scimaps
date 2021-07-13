@@ -8,12 +8,12 @@
 >
 </sci-filter-bar>
 
-<sci-venues-list
+<sci-venues-list *sciBreakpoint="'desktop-'"
     [venues]="venues"
 >
 </sci-venues-list>
 
-<sci-venues-table 
+<sci-venues-table *sciBreakpoint="'desktop'"
     [dataSource]="dataSource"
     [tableHeaders]="tableHeaders">
 </sci-venues-table>

@@ -13,12 +13,8 @@
       </mat-select>
     </mat-form-field>
 
-    <!-- <div class="sort-filters">
-      <div class="sort publication" (click)="toggleSort('publication')">
-        <div>Source</div>
-        <mat-icon [class.reversed]="publicationOrder === 'asc'">arrow_downward</mat-icon>
-      </div>
-    </div> -->
+    <ng-content select="[filters]">
+    </ng-content>
   </div>
 
   <div class="search-overlay" [ngClass]="{'open': isSearchOpen}">

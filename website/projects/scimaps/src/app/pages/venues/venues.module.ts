@@ -10,6 +10,7 @@ import { AccordianModule } from '../../shared/components/accordian/accordian.mod
 import { VenuesTableModule } from '../../shared/components/venues-table/venues-table.module';
 import { FilterBarModule } from '../../shared/components/filter-bar/filter-bar.module';
 import { VenuesListModule } from '../../shared/components/venues-list/venues-list.module';
+import { SharedModule } from '../../shared/shared.module';
 
 @NgModule({
   declarations: [VenuesComponent],
@@ -23,7 +24,8 @@ import { VenuesListModule } from '../../shared/components/venues-list/venues-lis
     AccordianModule,
     VenuesTableModule,
     FilterBarModule,
-    VenuesListModule
+    VenuesListModule,
+    SharedModule
   ],
   providers: [DatePipe]
 })

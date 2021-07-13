@@ -75,12 +75,4 @@ export class VenuesComponent implements OnInit {
   addFilter(filter: string) {
     this.dataSource.filter = filter;
   }
-
-  cardHeaderFunction = (row: TableData) => {
-    return `${row.startDate.label} - ${row.endDate.label}`;
-  }
-
-  cardLinkFunction = (row: TableData) => {
-    return row.media.links !== undefined ? row.media.links : [];
-  }
 }
