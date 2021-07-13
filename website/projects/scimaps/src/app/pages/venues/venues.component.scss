@@ -18,7 +18,7 @@ $mobile: 640px;
     display: flex;
     flex-direction: row;
     padding: 1rem;
-  
+    justify-content: space-between;
     .input-year {
       max-width: 4rem;
       margin-right: 3rem;
@@ -51,5 +51,37 @@ $mobile: 640px;
         text-decoration: none;
         color: #8DC63F
       }
+  }
+
+  .search-overlay {
+    // margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    z-index: 2;
+    
+    &.open {
+      padding: 0 1rem;
+      box-shadow: 0px 5px 10px 0px #e0e0e0cc;    
     }
+    .input-search {
+      // @include screen.breakpoint(mobile) {
+      //   margin-left: 0;
+      // }
+      input {
+        color: #212121;
+      }
+    }
+
+    .icon-container {
+      z-index: 2;
+      user-select: none;
+      margin: auto 0;
+      cursor: pointer;
+    }
+
+    .icon-search {
+      color: #7997a3;
+    }
+  }
 }

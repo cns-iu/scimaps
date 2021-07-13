@@ -1,5 +1,5 @@
-import { AfterViewInit, Component, HostBinding, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { AfterViewInit, Component, ElementRef, HostBinding, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { AbstractControl, FormBuilder, FormGroup } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
@@ -9,11 +9,13 @@ import { TableHeader } from '../../core/models/table-header';
 import { Venue } from './venues-resolver.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
+import { isSearchOpenTrigger } from '../../constants/drawer.animations';
 
 @Component({
   selector: 'sci-venues',
   templateUrl: './venues.component.html',
-  styleUrls: ['./venues.component.scss']
+  styleUrls: ['./venues.component.scss'],
+  animations: [isSearchOpenTrigger ]
 })
 export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
 
@@ -27,10 +29,10 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild(MatSort) sort!: MatSort;
 
   dataSource = new MatTableDataSource(this.venues);
-  yearList: string[] = [];
   searchForm!: FormGroup;
   searchChangeSubscription: Subscription | undefined;
   yearChangeSubscription: Subscription | undefined;
+  isSearchOpen = false;
   tableHeaders = [
     { label: 'Start', key: 'dateStart', type: 'date', width: 15}, 
     { label: 'End', key: 'dateEnd', type: 'date', width: 15 },
@@ -39,6 +41,26 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
     { label: 'Contact', key: 'organizer', type: 'text', width: 20}
   ]
   columns = this.tableHeaders.map(header => header.key);
+  @ViewChild('searchInput') searchInput: ElementRef | undefined;
+
+  get yearList(): string[] {
+    const years = this.venues.map((item: Venue) => {
+      const fullDate = new Date(item.dateStart);
+      return fullDate.getFullYear().toString();
+    });
+    return [...new Set(years)];
+  }
+
+  get searchControl(): AbstractControl | undefined {
+    let result: AbstractControl | undefined;
+    if (this.searchForm) {
+      const searchControl = this.searchForm.get('search');
+      if (searchControl) {
+        result = searchControl;
+      }
+    }
+    return result;
+  }
   ngOnInit(): void {
     // data
     this.activatedRoute.data.subscribe((data) => {
@@ -133,5 +155,20 @@ export class VenuesComponent implements OnInit, AfterViewInit, OnDestroy {
 
   cardLinkFunction = (row: TableData) => {
     return row.media.links !== undefined ? row.media.links : [];
+  }
+
+  // After Animation hook
+  afterAnimation(event: AnimationEvent): void {
+    if (event.fromState === 'void') {
+      if (this.searchInput) {
+        this.searchInput.nativeElement.focus();
+      }
+    }
+  }
+
+  clearSearch(): void {
+    if (this.searchControl) {
+      this.searchControl.setValue('');
+    }
   }
 }
