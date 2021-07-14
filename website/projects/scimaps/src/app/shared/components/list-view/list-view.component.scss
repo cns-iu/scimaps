@@ -1,5 +1,9 @@
 @use 'screen';
 
+:host(.venues-list) {
+  // Customization for individual list.
+}
+
 :host {
   .list-container {
     display: flex;
@@ -41,7 +45,9 @@
       user-select: none;
       -moz-user-select: none;
       margin-bottom: 2rem;
-
+      color: #7996a3;
+      background-color: #ebf0f1;
+      border-color: #e0e0e0;
       @include screen.breakpoint(mobile) {
         margin: 2rem 0.5rem;
       }

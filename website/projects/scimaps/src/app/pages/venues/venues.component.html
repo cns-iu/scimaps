@@ -7,16 +7,17 @@
         <sci-select [select]="year" [options]="yearList" (selectChange)="onSelectChange($event)">
         </sci-select>
         <sci-sort-headers *sciBreakpoint="'desktop-'" [dataSource]="dataSource" [tableHeaders]="tableHeaders" filters>
-        </sci-sort-headers>    
+        </sci-sort-headers>
     </div>
     <sci-search-overlay [search]="searchKey" (searchChange)="onSearchChange($event)">
-    </sci-search-overlay>    
+    </sci-search-overlay>
 </div>
 
 
 <!-- Card View -->
-<sci-venues-list *sciBreakpoint="'desktop-'" [items]="(dataSource.connect().asObservable() | async) || []">
-</sci-venues-list>
+<sci-list-view *sciBreakpoint="'desktop-'" class="venues-list"
+    [config]="{type: 'venues', items: (dataSource.connect().asObservable() | async) || [], displayLimit: 6, showAllItems: false}">
+</sci-list-view>
 
 <!-- Table View -->
 <sci-venues-table *sciBreakpoint="'desktop'" [dataSource]="dataSource" [tableHeaders]="tableHeaders">

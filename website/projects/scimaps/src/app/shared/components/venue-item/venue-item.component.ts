@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Params } from '@angular/router';
 import { Venue } from '../../../pages/venues/venues-resolver.service';
 
 @Component({
@@ -8,7 +9,7 @@ import { Venue } from '../../../pages/venues/venues-resolver.service';
 })
 export class VenueItemComponent implements OnInit {
 
-  @Input() item!: Venue;
+  @Input() item!: Venue | Params;
 
   constructor() { }
 

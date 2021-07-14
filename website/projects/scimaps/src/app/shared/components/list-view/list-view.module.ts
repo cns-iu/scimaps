@@ -1,17 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { VenuesListComponent } from './venues-list.component';
+import { ListViewComponent } from './list-view.component';
 import { VenueItemModule } from '../venue-item/venue-item.module';
 
 
 
-
 @NgModule({
-  declarations: [VenuesListComponent],
+  declarations: [ListViewComponent],
   imports: [
     CommonModule,
     VenueItemModule
   ],
-  exports: [VenuesListComponent]
+  exports: [ListViewComponent]
 })
-export class VenuesListModule { }
+export class ListViewModule { }
