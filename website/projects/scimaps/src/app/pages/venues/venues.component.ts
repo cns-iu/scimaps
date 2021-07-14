@@ -19,7 +19,6 @@ export class VenuesComponent implements OnInit {
 
   constructor(private activatedRoute: ActivatedRoute, private formBuilder: FormBuilder) {
   }
-  venues: Venue[] = [];
   // table
   tableHeaders = [
     { label: 'Start', key: 'dateStart', type: 'date', width: 15}, 
@@ -33,7 +32,7 @@ export class VenuesComponent implements OnInit {
   body!: VenuesBody;
 
   get yearList(): string[] {
-    const years = this.venues.map((item: Venue) => {
+    const years = this.dataSource.data.map((item: Venue) => {
       const fullDate = new Date(item.dateStart);
       return fullDate.getFullYear().toString();
     });
@@ -46,16 +45,10 @@ export class VenuesComponent implements OnInit {
       const { venues, body } = data;
       this.body = body;
       if (venues && Array.isArray(venues)) {
-        this.venues = venues; 
-        this.dataSource.data = this.venues;
+        this.dataSource.data = venues;
         // Assign predicate
         this.dataSource.filterPredicate = this.filterData;
       }
-    });
-
-    // For using same filtered data for table and cards.
-    this.dataSource.connect().subscribe(data => {
-      this.venues = this.dataSource.filteredData;
     });
   }
 

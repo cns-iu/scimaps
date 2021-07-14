@@ -11,6 +11,7 @@ import { VenuesTableModule } from '../../shared/components/venues-table/venues-t
 import { FilterBarModule } from '../../shared/components/filter-bar/filter-bar.module';
 import { VenuesListModule } from '../../shared/components/venues-list/venues-list.module';
 import { SharedModule } from '../../shared/shared.module';
+import { SortHeadersModule } from '../../shared/components/sort-headers/sort-headers.module';
 
 @NgModule({
   declarations: [VenuesComponent],
@@ -25,6 +26,7 @@ import { SharedModule } from '../../shared/shared.module';
     VenuesTableModule,
     FilterBarModule,
     VenuesListModule,
+    SortHeadersModule,
     SharedModule
   ],
   providers: [DatePipe]

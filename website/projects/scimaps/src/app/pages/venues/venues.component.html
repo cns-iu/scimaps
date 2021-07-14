@@ -1,29 +1,38 @@
 <!-- Year dropdown -->
-<h1 class="header1"> Venues </h1>
+<h1 class="header1">Venues</h1>
 
 <sci-filter-bar
-    [yearList]="yearList"
-    (yearChange)="addFilter($event)"
-    (searchChange)="addFilter($event)"
+  [yearList]="yearList"
+  (yearChange)="addFilter($event)"
+  (searchChange)="addFilter($event)"
 >
+  <sci-sort-headers
+    *sciBreakpoint="'desktop-'"
+    [dataSource]="dataSource"
+    [tableHeaders]="tableHeaders"
+    filters
+  >
+  </sci-sort-headers>
 </sci-filter-bar>
 
-<sci-venues-list *sciBreakpoint="'desktop-'"
-    [items]="venues"
->
-</sci-venues-list>
+<sci-venues-list
+  *sciBreakpoint="'desktop-'"
+  [items]="(dataSource.connect().asObservable() | async) || []"
+></sci-venues-list>
 
-<sci-venues-table *sciBreakpoint="'desktop'"
-    [dataSource]="dataSource"
-    [tableHeaders]="tableHeaders">
+<sci-venues-table
+  *sciBreakpoint="'desktop'"
+  [dataSource]="dataSource"
+  [tableHeaders]="tableHeaders"
+>
 </sci-venues-table>
 
-<hr class="divider">
-<div class="spacer-48">
-</div>
-
+<hr class="divider" />
+<div class="spacer-48"></div>
 
 <!-- Expand Collapse -->
 <sci-accordian
-    [header]="body.accordianHeader" [content]="body.accordianContent">
+  [header]="body.accordianHeader"
+  [content]="body.accordianContent"
+>
 </sci-accordian>

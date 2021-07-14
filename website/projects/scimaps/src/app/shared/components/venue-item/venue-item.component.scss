@@ -4,7 +4,7 @@ $desktop: 1248px;
 
 :host {
   width: 100%;
-  @media (min-width: $tablet) {
+  @media (min-width: $mobile) {
     width: 50%;
   }
   .venue-item {
