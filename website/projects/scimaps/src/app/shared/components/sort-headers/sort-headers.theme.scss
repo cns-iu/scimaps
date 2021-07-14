@@ -6,6 +6,9 @@
   $accent: map-get($config, accent);
 
   .sci-sort-headers {
+    .mat-sort-header-content {
+      margin: 0 1rem;
+    }
     .mat-sort-header-arrow {
       display: none;
     }
