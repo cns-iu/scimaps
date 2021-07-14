@@ -11,10 +11,11 @@ import { Venue } from '../../../pages/venues/venues-resolver.service';
 })
 export class SortHeadersComponent implements OnInit, AfterViewInit {
   @HostBinding('class') readonly clsName = 'sci-sort-headers';
-  @ViewChild(MatSort) sort!: MatSort;
+  @ViewChild(MatSort) matSort!: MatSort;
   @Input() dataSource: MatTableDataSource<Venue> = new MatTableDataSource();
   @Input() tableHeaders: {key: string, label: string, width: number, type: string}[] = [];
   columns: string[] = [];
+  
   constructor() { }
 
   ngOnInit(): void {
@@ -23,7 +24,7 @@ export class SortHeadersComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    this.dataSource.sort = this.sort;
+    this.dataSource.sort = this.matSort;
   }
   
 

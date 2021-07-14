@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SortHeadersComponent } from './sort-headers.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
+import { MatIconModule } from '@angular/material/icon';
 
 
 
@@ -11,7 +12,8 @@ import { MatSortModule } from '@angular/material/sort';
   imports: [
     CommonModule,
     MatTableModule,
-    MatSortModule
+    MatSortModule,
+    MatIconModule
   ],
   exports: [SortHeadersComponent]
 })

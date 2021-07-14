@@ -1,10 +1,54 @@
 :host {
-    .sort-headers {
-        width: 100%;
-        th {
-            border: none;
-            // margin-left: 1rem;
-            font-size: 14px;
+  .sort-headers {
+    width: 100%;
+    th {
+      border: none;
+      // margin-left: 1rem;
+      font-size: 16px;
+    }
+
+    // label and icon
+    .sort {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      // margin-right: 1.5rem;
+      cursor: pointer;
+      user-select: none;
+      -moz-user-select: none;
+
+      mat-icon {
+        width: 36px;
+        height: 36px;
+        border-radius: 100%;
+        padding-top: 6px;
+        opacity: 0.4;
+        transform: scale(1);
+        transition: transform 200ms;
+        margin-left: 0.5rem;
+        color: #7997a3;
+        &:hover {
+          background-color: #dce0e2;
+          transform: scale(1.1);
         }
-    }  
+      }
+      .active {
+        opacity: 1;
+        transform: scale(1);
+        &:hover {
+          background-color: #dce0e2;
+          transform: scale(1.1);
+        }
+      }
+      .active.reversed {
+        opacity: 1;
+        transform: scale(-1);
+        &:hover {
+          background-color: #dce0e2;
+          transform: scale(-1.1);
+        }
+      }
+    }
+  }
 }

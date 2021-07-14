@@ -1,9 +1,14 @@
-<table mat-table [dataSource]="dataSource" matSort class="sort-headers">
+<table mat-table [dataSource]="dataSource" matSort class="sort-headers" matSortDisableClear>
     <!-- <caption> Venue table </caption> -->
     <tr mat-header-row *matHeaderRowDef="columns"></tr>
     <ng-container *ngFor="let header of tableHeaders" [matColumnDef]="header.key">
         <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>
-            {{header.label}}
+            <div class="sort">
+                <div>
+                    {{header.label}}
+                </div>
+                <mat-icon [ngClass]="{'active': matSort?.active == header.key, 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>  
+            </div>    
         </th>
     </ng-container>
 </table>
