@@ -6,17 +6,6 @@
   $config: mat-get-color-config($config-or-theme);
   $primary: map-get($config, primary);
   $accent: map-get($config, accent);
-
-  .venues-table {
-    .mat-sort-header-arrow {
-      border-radius: 0.25rem;
-      color: black;
-      &:hover {
-          opacity: 1;
-          background-color: #e0e0e0;
-      }
-    }
-  }
 }
 
 @mixin typography($config-or-theme) {
