@@ -14,8 +14,7 @@
     {{ totalResultsText }}
   </div>
   
-  <div class="show-more" *ngIf="items.length > displayLimit" (click)="showAllItems = !showAllItems">
+  <div *ngIf="items.length > displayLimit" class="show-more" (click)="showAllItems = !showAllItems">
     {{ showAllItems ? 'Show Less' : 'Show More News' }}
   </div>
-
 </div>

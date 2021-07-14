@@ -56,7 +56,7 @@ export class VenuesComponent implements OnInit {
 
     // For using same filtered data for table and cards.
     this.dataSource.connect().subscribe(data => {
-      this.venues = data;
+      this.venues = this.dataSource.filteredData;
     });
   }
 
