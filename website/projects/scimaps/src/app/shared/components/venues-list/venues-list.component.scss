@@ -1,9 +1,50 @@
+@use 'screen';
+
 :host {
-    .venues-container {
-        .venues-list {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 20rem;
+    
+    .list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
+
+    .no-search {
+      align-self: center;
+      margin: auto;
+      .no-result-text {
+        text-align: center;
+        font-size: 20px;
+      }
+    }
+
+    .total {
+      color: #757575;
+      display: flex;
+      width: 100%;
+      margin-top: 2rem;
+      padding: 1rem;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    .show-more {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2.5rem;
+        width: 100%;
+        cursor: pointer;
+        user-select: none;
+        -moz-user-select: none;
+        margin-bottom: 2rem;
+    
+        @include screen.breakpoint(mobile) {
+          margin: 2rem 0.5rem;
+        }
+      }
+  }
 }

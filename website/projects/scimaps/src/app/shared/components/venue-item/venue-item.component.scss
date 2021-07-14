@@ -3,11 +3,9 @@ $tablet: 960px;
 $desktop: 1248px;
 
 :host {
+  width: 100%;
   @media (min-width: $tablet) {
     width: 50%;
-  }
-  @media (max-width: $mobile) {
-    width: 100%;
   }
   .venue-item {
     display: flex;

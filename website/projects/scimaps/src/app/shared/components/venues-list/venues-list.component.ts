@@ -8,8 +8,19 @@ import { Venue } from '../../../pages/venues/venues-resolver.service';
 })
 export class VenuesListComponent implements OnInit {
 
-  @Input() venues: Venue[] = [];
+  @Input() items: Venue[] = [];
   
+  displayLimit = 6;
+  showAllItems = false;
+  
+  get totalResultsText(): string {
+    const denominator = this.items.length;
+    let numerator: number = denominator;
+    if (!this.showAllItems && denominator > this.displayLimit) {
+      numerator = this.displayLimit;
+    }
+    return `${numerator} / ${denominator}`;
+  }
   constructor() { }
 
   ngOnInit(): void {

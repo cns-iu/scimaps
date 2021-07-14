@@ -9,7 +9,7 @@
 </sci-filter-bar>
 
 <sci-venues-list *sciBreakpoint="'desktop-'"
-    [venues]="venues"
+    [items]="venues"
 >
 </sci-venues-list>
 
@@ -18,8 +18,10 @@
     [tableHeaders]="tableHeaders">
 </sci-venues-table>
 
+<hr class="divider">
 <div class="spacer-48">
 </div>
+
 
 <!-- Expand Collapse -->
 <sci-accordian

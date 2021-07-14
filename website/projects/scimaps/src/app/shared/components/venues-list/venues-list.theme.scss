@@ -1,0 +1,38 @@
+@import "~@angular/material/theming";
+
+@mixin color($config-or-theme) {
+  $config: mat-get-color-config($config-or-theme);
+  $primary: map-get($config, primary);
+  $grey-palette: mat-palette($mat-grey);
+
+  .list-container {
+    .mat-form-field-flex {
+      background-color: white;
+    }
+    
+    .show-more {
+      color: mat-color($primary);
+      background-color: mat-color($primary, lighter);
+      border-color: mat-color($grey-palette, 300);
+    }
+
+    .icon-search-close {
+      svg {
+        fill: grey;
+      }
+    }
+    .icon-search-off {
+      svg {
+        fill: #7997a3;
+      }
+    }
+  }
+}
+
+@mixin theme($theme) {
+  $color: mat-get-color-config($theme);
+
+  @if $color {
+    @include color($color);
+  }
+}

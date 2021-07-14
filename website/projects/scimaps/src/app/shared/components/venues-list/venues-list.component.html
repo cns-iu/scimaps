@@ -1,7 +1,21 @@
-<div class="venues-container">
-  <div class="venues-list">
-    <ng-container *ngFor="let venue of venues">
-      <sci-venue-item [item]="venue"></sci-venue-item>
+<div class="list-container">
+  <div class="list" *ngIf="items.length > 0">
+    <ng-container *ngFor="let item of items; let i = index;">
+      <sci-venue-item *ngIf="showAllItems || i < displayLimit" [item]="item"></sci-venue-item>
     </ng-container>
   </div>
+  <div class="no-search" *ngIf="items.length == 0">
+    <p class="no-result-text">
+      No results matched your search
+    </p>
+  </div>
+
+  <div class="total">
+    {{ totalResultsText }}
+  </div>
+  
+  <div class="show-more" *ngIf="items.length > displayLimit" (click)="showAllItems = !showAllItems">
+    {{ showAllItems ? 'Show Less' : 'Show More News' }}
+  </div>
+
 </div>
