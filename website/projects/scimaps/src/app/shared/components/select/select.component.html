@@ -1,0 +1,11 @@
+<div [formGroup]="selectForm">
+    <mat-form-field class="input-year">
+        <mat-label>Year</mat-label>
+        <mat-select formControlName="select">
+            <mat-option value=""> All </mat-option>
+            <mat-option *ngFor="let option of options" [value]="option">
+                {{ option }}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>
