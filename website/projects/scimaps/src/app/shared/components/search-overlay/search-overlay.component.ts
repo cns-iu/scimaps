@@ -12,7 +12,7 @@ import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operato
   animations: [isSearchOpenTrigger]
 })
 export class SearchOverlayComponent implements OnInit, OnDestroy {
-  @HostBinding('class') readonly clsName = 'sci-search-overlay';
+  @HostBinding('class') readonly className = 'sci-search-overlay';
 
   @Input() search: string = '';
   @ViewChild('searchInput') searchInput: ElementRef | undefined;  // needed for focus.\

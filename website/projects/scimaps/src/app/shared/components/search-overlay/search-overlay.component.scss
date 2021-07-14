@@ -1,11 +1,12 @@
 :host {
+  margin-top: auto;
+  margin-bottom: auto;
   .search-overlay {
     // margin-left: auto;
     display: flex;
     flex-direction: row;
     overflow: visible;
     z-index: 2;
-
     &.open {
       padding: 0 1rem;
       box-shadow: 0px 5px 10px 0px #e0e0e0cc;

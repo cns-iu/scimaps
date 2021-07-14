@@ -20,6 +20,7 @@
 @use './components/learning-material-item//learning-material-item.theme.scss';
 @use './components/venues-table/venues-table.theme.scss';
 @use './components/venues-list/venues-list.theme.scss';
+@use './components/search-overlay/search-overlay.theme.scss';
 
 @mixin theme($theme) {
   @include book-overview.theme($theme);
@@ -44,4 +45,5 @@
   @include learning-material-item.theme($theme);
   @include venues-table.theme($theme);
   @include venues-list.theme($theme);
+  @include search-overlay.theme($theme);
 }

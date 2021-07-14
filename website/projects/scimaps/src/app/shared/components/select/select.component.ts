@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnDestroy, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, HostBinding, Input, OnDestroy, OnInit, Output } from '@angular/core';
 import { AbstractControl, FormBuilder, FormGroup } from '@angular/forms';
 import { of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
@@ -9,7 +9,7 @@ import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
   styleUrls: ['./select.component.scss']
 })
 export class SelectComponent implements OnInit, OnDestroy {
-
+  @HostBinding('class') readonly className = 'sci-select';
   selectForm!: FormGroup;
   @Input() select = '';
   @Input() options: string[] = [];

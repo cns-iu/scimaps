@@ -15,7 +15,7 @@ import { VenuesBody } from './venues-body-resolver.service';
 export class VenuesComponent implements OnInit {
 
   /** HTML class name */
-  @HostBinding('class') readonly clsName = 'sci-venues';
+  @HostBinding('class') readonly className = 'sci-venues';
 
   constructor(private activatedRoute: ActivatedRoute, private formBuilder: FormBuilder) {
   }
@@ -30,6 +30,9 @@ export class VenuesComponent implements OnInit {
   dataSource: MatTableDataSource<Venue> = new MatTableDataSource();
   // this page
   body!: VenuesBody;
+
+  searchKey = ''
+  year = '';
 
   get yearList(): string[] {
     const years = this.dataSource.data.map((item: Venue) => {
@@ -69,7 +72,18 @@ export class VenuesComponent implements OnInit {
     return result;
   }
 
-  addFilter(filter: string) {
-    this.dataSource.filter = filter;
+  
+  onSearchChange(searchKey: string) {
+    this.searchKey = searchKey;
+    this.applyFilter();
+  }
+  onSelectChange(year: string) {
+    this.year = year;
+    this.applyFilter();
+  }
+  applyFilter() {
+    const filter = {year: this.year, searchKey: this.searchKey};
+    const filterString = JSON.stringify(filter);
+    this.dataSource.filter = filterString;
   }
 }
