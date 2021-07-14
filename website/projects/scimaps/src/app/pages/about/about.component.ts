@@ -2,6 +2,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 import { Profile } from '../../core/models/profile';
 import { ActivatedRoute, Params } from '@angular/router';
 import { NewsItem } from '../../shared/components/news-item/news-item.model';
+import { MatTableDataSource } from '@angular/material/table';
 
 @Component({
   selector: 'sci-about',
@@ -60,6 +61,23 @@ export class AboutComponent implements OnInit {
     },
   ];
 
+  sortHeaders = [{
+    label: 'Source',
+    key: 'publication'
+  }]
+
+  dataSource: MatTableDataSource<NewsItem> = new MatTableDataSource();
+  searchKey = '';
+  year = '';
+
+  get yearList(): string[] {
+    const years = this.dataSource.data.map((item: NewsItem) => {
+      const fullDate = new Date(item.date);
+      return fullDate.getFullYear().toString();
+    });
+    return [...new Set(years)];
+  }
+
   ngOnInit(): void {
     this.route.data.subscribe((data) => {
       const { profiles, body, newsItems } = data;
@@ -78,9 +96,11 @@ export class AboutComponent implements OnInit {
         overviewQuote: this.overviewQuote,
         annualReports: this.annualReports
       } = this.getStaticContent(body));
-      // newsItem
+      // NewsItems
       if (newsItems && Array.isArray(newsItems)) {
         this.newsItems = newsItems;
+        this.dataSource.data = newsItems;
+        this.dataSource.filterPredicate = this.filterData;
       }
     });
   }
@@ -137,5 +157,35 @@ export class AboutComponent implements OnInit {
         '_blank'
       );
     }
+  }
+
+  // Predicate for filtering data.
+  filterData(item: NewsItem, filter: string): boolean {
+    const parsedFilter = JSON.parse(filter);
+    let result = true;
+    if (parsedFilter.year && parsedFilter.year !== 'all') {
+      const year = new Date(item.date).getFullYear().toString();
+      result = result && (year === parsedFilter.year);
+    }
+
+    if (parsedFilter.searchKey) {
+      result = result &&
+        (item.title?.toLowerCase().includes(parsedFilter.searchKey) ||
+          item.publication?.toLowerCase().includes(parsedFilter.searchKey));
+    }
+    return result;
+  }
+  onSearchChange(searchKey: string) {
+    this.searchKey = searchKey;
+    this.applyFilter();
+  }
+  onSelectChange(year: string) {
+    this.year = year;
+    this.applyFilter();
+  }
+  applyFilter() {
+    const filter = {year: this.year, searchKey: this.searchKey};
+    const filterString = JSON.stringify(filter);
+    this.dataSource.filter = filterString;
   }
 }

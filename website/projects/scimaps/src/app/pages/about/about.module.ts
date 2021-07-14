@@ -10,6 +10,10 @@ import { SharedModule } from '../../shared/shared.module';
 import { MatSelectModule } from '@angular/material/select';
 import { MarkdownModule } from 'ngx-markdown';
 import { PartnersModule } from '../../shared/components/partners/partners.module';
+import { SortHeadersModule } from '../../shared/components/sort-headers/sort-headers.module';
+import { SelectModule } from '../../shared/components/select/select.module';
+import { SearchOverlayModule } from '../../shared/components/search-overlay/search-overlay.module';
+import { ListViewModule } from '../../shared/components/list-view/list-view.module';
 
 @NgModule({
   declarations: [AboutComponent],
@@ -22,7 +26,11 @@ import { PartnersModule } from '../../shared/components/partners/partners.module
     MatSelectModule,
     SharedModule,
     MarkdownModule,
-    PartnersModule
+    PartnersModule,
+    SortHeadersModule,
+    SelectModule,
+    SearchOverlayModule,
+    ListViewModule
   ]
 })
 export class AboutModule { }

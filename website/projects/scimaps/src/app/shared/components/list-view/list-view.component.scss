@@ -3,12 +3,15 @@
 :host(.venues-list) {
   // Customization for individual list.
 }
+:host(.news-list) {
+}
 
 :host {
   .list-container {
     display: flex;
     flex-direction: column;
     min-height: 20rem;
+    margin-bottom: 2rem;
 
     .list {
       display: flex;

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ListViewComponent } from './list-view.component';
 import { VenueItemModule } from '../venue-item/venue-item.module';
+import { NewsItemModule } from '../news-item/news-item.module';
 
 
 
@@ -9,7 +10,8 @@ import { VenueItemModule } from '../venue-item/venue-item.module';
   declarations: [ListViewComponent],
   imports: [
     CommonModule,
-    VenueItemModule
+    VenueItemModule,
+    NewsItemModule
   ],
   exports: [ListViewComponent]
 })

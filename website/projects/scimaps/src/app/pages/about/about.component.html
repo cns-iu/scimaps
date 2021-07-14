@@ -86,8 +86,24 @@
 </div>
 
 <!-- News -->
-<sci-news-item-list [newsItems]=newsItems>
-</sci-news-item-list>
+
+<h2 class="header2">In the News</h2>
+<div class="row">
+  <div class="group1">
+      <sci-select [select]="year" [options]="yearList" (selectChange)="onSelectChange($event)">
+      </sci-select>
+      <sci-sort-headers *sciBreakpoint="'desktop-'" [dataSource]="dataSource" [sortHeaders]="sortHeaders" filters>
+      </sci-sort-headers>
+  </div>
+  <sci-search-overlay [search]="searchKey" (searchChange)="onSearchChange($event)">
+  </sci-search-overlay>
+</div>
+
+<!-- <sci-news-item-list [newsItems]=newsItems>
+</sci-news-item-list> -->
+<sci-list-view class="news-list"
+    [config]="{type: 'news', items: (dataSource.connect().asObservable() | async) || [], displayLimit: 6, showAllItems: false}">
+</sci-list-view>
 
 <div class="spacer-72">
 </div>
