@@ -6,7 +6,6 @@
 @use './components/makers-subdrawer/makers-subdrawer.theme';
 @use './components/warning-dialog/warning-dialog.theme.scss';
 @use './components/purchase-modal/purchase-modal.theme.scss';
-@use './components/news-item-list/news-item-list.theme';
 @use './components/menu-icon/menu-icon.theme';
 @use './components/action-card/action-card.theme';
 @use './components/call-out/call-out.theme';
@@ -31,7 +30,6 @@
   @include makers-subdrawer.theme($theme);
   @include warning-dialog.theme($theme);
   @include purchase-modal.theme($theme);
-  @include news-item-list.theme($theme);
   @include call-out.theme($theme);
   @include menu-icon.theme($theme);
   @include action-card.theme($theme);

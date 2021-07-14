@@ -24,7 +24,6 @@ export class SortHeadersComponent implements OnInit, AfterViewInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.dataSource);
     this.columns = this.sortHeaders.map((header: SortHeader) => header.key);
   }
 
