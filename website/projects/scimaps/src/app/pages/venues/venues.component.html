@@ -1,38 +1,30 @@
 <!-- Year dropdown -->
 <h1 class="header1">Venues</h1>
 
-<sci-filter-bar
-  [yearList]="yearList"
-  (yearChange)="addFilter($event)"
-  (searchChange)="addFilter($event)"
->
-  <sci-sort-headers
-    *sciBreakpoint="'desktop-'"
-    [dataSource]="dataSource"
-    [tableHeaders]="tableHeaders"
-    filters
-  >
-  </sci-sort-headers>
-</sci-filter-bar>
 
-<sci-venues-list
-  *sciBreakpoint="'desktop-'"
-  [items]="(dataSource.connect().asObservable() | async) || []"
-></sci-venues-list>
+<div class="row">
+    <div class="group1">
+        <sci-select [select]="year" [options]="yearList" (selectChange)="onSelectChange($event)">
+        </sci-select>
+        <sci-sort-headers *sciBreakpoint="'desktop-'" [dataSource]="dataSource" [tableHeaders]="tableHeaders" filters>
+        </sci-sort-headers>    
+    </div>
+    <sci-search-overlay [search]="searchKey" (searchChange)="onSearchChange($event)">
+    </sci-search-overlay>    
+</div>
 
-<sci-venues-table
-  *sciBreakpoint="'desktop'"
-  [dataSource]="dataSource"
-  [tableHeaders]="tableHeaders"
->
+
+<!-- Card View -->
+<sci-venues-list *sciBreakpoint="'desktop-'" [items]="(dataSource.connect().asObservable() | async) || []">
+</sci-venues-list>
+
+<!-- Table View -->
+<sci-venues-table *sciBreakpoint="'desktop'" [dataSource]="dataSource" [tableHeaders]="tableHeaders">
 </sci-venues-table>
 
 <hr class="divider" />
 <div class="spacer-48"></div>
 
 <!-- Expand Collapse -->
-<sci-accordian
-  [header]="body.accordianHeader"
-  [content]="body.accordianContent"
->
+<sci-accordian [header]="body.accordianHeader" [content]="body.accordianContent">
 </sci-accordian>

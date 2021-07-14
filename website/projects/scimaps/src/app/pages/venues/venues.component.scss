@@ -12,5 +12,30 @@ $mobile: 640px;
     @media (min-width: $desktop) {
       display: none;
     }
-  }  
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0.5rem;
+    // select box
+    .group1 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      overflow: hidden;
+
+      .sci-select {
+        flex: 1;
+      }
+      .sci-sort-headers {
+        width: 100%;
+        flex: 9;
+      }
+    }
+    .sci-search-overlay {
+      overflow: visible;
+    }
+  }
 }
