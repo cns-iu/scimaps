@@ -1,0 +1,11 @@
+:host {
+    flex: 1; 
+    overflow: hidden;
+    .sort-headers {
+        width: 100%;
+
+        th {
+            border: none;
+        }
+    }  
+}
