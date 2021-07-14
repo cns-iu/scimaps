@@ -27,12 +27,10 @@ export class VenuesTableComponent implements OnInit {
 
   ngOnInit(): void {
     this.columns = this.tableHeaders.map(header => header.key);
-    console.log(this.dataSource.data);
   }
 
   ngAfterViewInit(): void {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
-    console.log(this.sort);
   }
 }

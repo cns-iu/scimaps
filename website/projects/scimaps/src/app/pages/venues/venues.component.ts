@@ -45,7 +45,6 @@ export class VenuesComponent implements OnInit {
     this.activatedRoute.data.subscribe((data) => {
       const { venues, body } = data;
       this.body = body;
-      console.log(this.body)
       if (venues && Array.isArray(venues)) {
         this.venues = venues; 
         this.dataSource.data = this.venues;

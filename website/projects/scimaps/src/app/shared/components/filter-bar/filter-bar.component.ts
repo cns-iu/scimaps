@@ -55,7 +55,6 @@ export class FilterBarComponent implements OnInit, OnDestroy {
         return of(searchKey);
       })
     ).subscribe((searchKey: string) => {
-      console.log(searchKey);
       const year = this.searchForm.get('year')?.value;
       const filter = JSON.stringify({ year, searchKey });
       this.searchChange.emit(filter);
@@ -71,7 +70,6 @@ export class FilterBarComponent implements OnInit, OnDestroy {
     ).subscribe((year: string) => {
       let searchKey = this.searchForm.get('search')?.value;
       searchKey = searchKey.trim().toLowerCase();
-      console.log(searchKey);
       const filter = JSON.stringify({ year, searchKey });
       this.yearChange.emit(filter);
     });
