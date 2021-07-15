@@ -1,9 +1,6 @@
 import { AfterViewInit, Component, HostBinding, Input, OnInit, ViewChild } from '@angular/core';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { Params } from '@angular/router';
-import { Venue } from '../../../pages/venues/venues-resolver.service';
-import { NewsItem } from '../news-item/news-item.model';
 
 export interface SortHeader {
   key: string;

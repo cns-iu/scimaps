@@ -1,9 +1,7 @@
 import { Injectable } from '@angular/core';
 import {
-  ActivatedRouteSnapshot,
   Resolve,
-  Router,
-  RouterStateSnapshot,
+  Router
 } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';

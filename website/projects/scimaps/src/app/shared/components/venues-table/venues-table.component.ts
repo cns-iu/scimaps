@@ -2,8 +2,6 @@ import { AfterViewInit, Component, HostBinding, Input, OnInit, ViewChild } from 
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { Params } from '@angular/router';
-import { Observable } from 'rxjs';
 import { Venue } from '../../../pages/venues/venues-resolver.service';
 
 @Component({

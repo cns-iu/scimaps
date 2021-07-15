@@ -1,5 +1,5 @@
-import { Component, ElementRef, EventEmitter, forwardRef, HostBinding, Input, OnDestroy, OnInit, Output, ViewChild } from '@angular/core';
-import { AbstractControl, FormBuilder, FormControl, FormGroup, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { Component, ElementRef, EventEmitter, HostBinding, Input, OnDestroy, OnInit, Output, ViewChild } from '@angular/core';
+import { AbstractControl, FormBuilder, FormGroup } from '@angular/forms';
 import { AnimationEvent } from '@angular/animations';
 import { isSearchOpenTrigger } from '../../../constants/drawer.animations';
 import { of, Subscription } from 'rxjs';

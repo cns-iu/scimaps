@@ -1,8 +1,6 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { drawerInOut } from '../../constants/drawer.animations';
-import { CardLinkItem } from '../../core/models/card-link-item';
-import { HostingBody } from './hosting-body-resolver.service';
 import { LearningMaterial } from './learning-material-resolver.service';
 
 @Component({
