@@ -92,7 +92,7 @@
   <div class="group1">
       <sci-select [select]="year" [options]="yearList" (selectChange)="onSelectChange($event)">
       </sci-select>
-      <sci-sort-headers *sciBreakpoint="'desktop-'" [dataSource]="dataSource" [sortHeaders]="sortHeaders" filters>
+      <sci-sort-headers [dataSource]="dataSource" [sortHeaders]="sortHeaders" filters>
       </sci-sort-headers>
   </div>
   <sci-search-overlay [search]="searchKey" (searchChange)="onSearchChange($event)">
