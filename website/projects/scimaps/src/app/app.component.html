@@ -1,4 +1,4 @@
-<sci-header [ngClass]="{'scrolled' : hasPageScrolled}" class="header" [(sidenavOpen)]="sidenavOpen"></sci-header>
+<sci-header [ngClass]="{'scrolled' : true}" class="header" [(sidenavOpen)]="sidenavOpen"></sci-header>
 
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav autoFocus="false" mode="over" position="end" fixedInViewport fixedTopGap="72" [opened]="sidenavOpen"
@@ -11,7 +11,7 @@
     <div [@routeAnimations]="prepareRoute(outlet)" class="content">
       <router-outlet #outlet="outlet"></router-outlet>
     </div>
+    <sci-footer [acknowledgement]="footerParameters.acknowledgement" [phoneNumber]="footerParameters.phoneNumber"></sci-footer>
   </mat-sidenav-content>
 </mat-sidenav-container>
 
- <sci-footer [acknowledgement]="footerParameters.acknowledgement" [phoneNumber]="footerParameters.phoneNumber"></sci-footer>
