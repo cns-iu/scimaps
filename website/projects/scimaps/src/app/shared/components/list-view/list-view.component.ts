@@ -15,8 +15,7 @@ export interface ListConfig {
 })
 export class ListViewComponent implements OnInit {
   @Input() config!: ListConfig;
-  
-  
+
   get totalResultsText(): string {
     const denominator = this.config.items.length;
     let numerator: number = denominator;

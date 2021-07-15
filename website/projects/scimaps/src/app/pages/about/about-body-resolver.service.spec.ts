@@ -50,7 +50,7 @@ describe('AboutBodyResolverService', () => {
     flushMicrotasks();
     data.subscribe((body) => {
       expect(body.annualReports).toBeTruthy();
-      expect(body.annualReports.length).toEqual(1)
+      expect(body.annualReports.length).toEqual(1);
       expect(body.annualReports[0].pdfLink).toEqual(`${service.directory}/testLink.pdf`);
     });
   }));

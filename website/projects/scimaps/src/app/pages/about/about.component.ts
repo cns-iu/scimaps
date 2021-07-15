@@ -26,9 +26,9 @@ export class AboutComponent implements OnInit {
   pageTabs = ['Curatorial Team / Advisory Board', 'Exhibit Ambassadors'];
   activePageTab = 0;
   newsItems: NewsItem[] = [];
-  annualReports: {year: string, pdfLink: string}[] = [];
+  annualReports: { year: string; pdfLink: string }[] = [];
 
-  partners: {name: string, logo: string, link: string}[] = [
+  partners: { name: string; logo: string; link: string }[] = [
     {
       name: 'CNS',
       logo: 'assets/logos/logo-cns.svg',
@@ -61,10 +61,12 @@ export class AboutComponent implements OnInit {
     },
   ];
 
-  sortHeaders = [{
-    label: 'Source',
-    key: 'publication'
-  }]
+  sortHeaders = [
+    {
+      label: 'Source',
+      key: 'publication',
+    },
+  ];
 
   dataSource: MatTableDataSource<NewsItem> = new MatTableDataSource();
   searchKey = '';
@@ -94,7 +96,7 @@ export class AboutComponent implements OnInit {
         ambassadorsDescription: this.ambassadorsDescription,
         overviewParagraph: this.overviewParagraph,
         overviewQuote: this.overviewQuote,
-        annualReports: this.annualReports
+        annualReports: this.annualReports,
       } = this.getStaticContent(body));
       // NewsItems
       if (newsItems && Array.isArray(newsItems)) {
@@ -133,7 +135,7 @@ export class AboutComponent implements OnInit {
       'ambassadorsDescription',
       'overviewParagraph',
       'overviewQuote',
-      'annualReports'
+      'annualReports',
     ];
     const result: Params = {};
     keys.forEach((key: string) => {
@@ -152,10 +154,7 @@ export class AboutComponent implements OnInit {
 
   getReport(report: string): void {
     if (report) {
-      window.open(
-        report,
-        '_blank'
-      );
+      window.open(report, '_blank');
     }
   }
 
@@ -165,26 +164,27 @@ export class AboutComponent implements OnInit {
     let result = true;
     if (parsedFilter.year && parsedFilter.year !== 'all') {
       const year = new Date(item.date).getFullYear().toString();
-      result = result && (year === parsedFilter.year);
+      result = result && year === parsedFilter.year;
     }
 
     if (parsedFilter.searchKey) {
-      result = result &&
+      result =
+        result &&
         (item.title?.toLowerCase().includes(parsedFilter.searchKey) ||
           item.publication?.toLowerCase().includes(parsedFilter.searchKey));
     }
     return result;
   }
-  onSearchChange(searchKey: string) {
+  onSearchChange(searchKey: string): void {
     this.searchKey = searchKey;
     this.applyFilter();
   }
-  onSelectChange(year: string) {
+  onSelectChange(year: string): void {
     this.year = year;
     this.applyFilter();
   }
-  applyFilter() {
-    const filter = {year: this.year, searchKey: this.searchKey};
+  applyFilter(): void {
+    const filter = { year: this.year, searchKey: this.searchKey };
     const filterString = JSON.stringify(filter);
     this.dataSource.filter = filterString;
   }

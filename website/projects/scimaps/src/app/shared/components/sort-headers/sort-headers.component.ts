@@ -20,16 +20,14 @@ export class SortHeadersComponent implements OnInit, AfterViewInit {
   @Input() dataSource: MatTableDataSource<any> = new MatTableDataSource();
   @Input() sortHeaders: SortHeader[] = [];
   columns: string[] = [];
-  
+
   constructor() { }
 
   ngOnInit(): void {
     this.columns = this.sortHeaders.map((header: SortHeader) => header.key);
   }
 
-  ngAfterViewInit() {
+  ngAfterViewInit(): void {
     this.dataSource.sort = this.matSort;
   }
-  
-
 }

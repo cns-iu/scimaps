@@ -4,18 +4,11 @@ import { LearningMaterial } from '../../../pages/hosting/learning-material-resol
 @Component({
   selector: 'sci-learning-material-list',
   templateUrl: './learning-material-list.component.html',
-  styleUrls: ['./learning-material-list.component.scss']
+  styleUrls: ['./learning-material-list.component.scss'],
 })
-export class LearningMaterialListComponent implements OnInit {
-
+export class LearningMaterialListComponent {
   @HostBinding('class') readonly classname = 'sci-learning-material-list';
-  
-  @Input() items: LearningMaterial[] = []
+
+  @Input() items: LearningMaterial[] = [];
   @Input() header = '';
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

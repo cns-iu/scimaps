@@ -14,13 +14,13 @@ import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operato
 export class SearchOverlayComponent implements OnInit, OnDestroy {
   @HostBinding('class') readonly className = 'sci-search-overlay';
 
-  @Input() search: string = '';
+  @Input() search = '';
   @ViewChild('searchInput') searchInput: ElementRef | undefined;  // needed for focus.\
   @Output() searchChange: EventEmitter<string> = new EventEmitter();
 
   isSearchOpen = false;
   searchChangeSubscription: Subscription | undefined;
-  searchForm!: FormGroup
+  searchForm!: FormGroup;
 
   get searchControl(): AbstractControl | undefined {
     let result: AbstractControl | undefined;
@@ -70,7 +70,7 @@ export class SearchOverlayComponent implements OnInit, OnDestroy {
     }
   }
 
-  ngOnDestroy() {
+  ngOnDestroy(): void {
     if (this.searchChangeSubscription) {
       this.searchChangeSubscription.unsubscribe();
     }

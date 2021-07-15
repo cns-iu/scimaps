@@ -46,7 +46,7 @@ export class SelectComponent implements OnInit, OnDestroy {
     });
   }
 
-  ngOnDestroy() {
+  ngOnDestroy(): void {
     if (this.selectChangeSubscription) {
       this.selectChangeSubscription.unsubscribe();
     }

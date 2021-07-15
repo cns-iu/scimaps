@@ -6,18 +6,18 @@ import { HostingComponent } from './hosting.component';
 import { LearningMaterialResolverService } from './learning-material-resolver.service';
 
 const routes: Routes = [
-  { 
+  {
     path: '',
     component: HostingComponent,
     resolve: {
       body: HostingBodyResolverService,
-      learningMaterials: LearningMaterialResolverService
-    }
-  }
+      learningMaterials: LearningMaterialResolverService,
+    },
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class HostingRoutingModule { }
+export class HostingRoutingModule {}

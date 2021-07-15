@@ -11,14 +11,13 @@ interface AboutBody {
   ambassadorsDescription: string;
   overviewParagraph: string;
   overviewQuote: string;
-  annualReports: {year: string, pdfLink: string }[]
+  annualReports: {year: string, pdfLink: string }[];
 }
 @Injectable({
   providedIn: 'root'
 })
 export class AboutBodyResolverService implements Resolve<AboutBody> {
-  
-  directory = 'assets/content/site/about'
+  directory = 'assets/content/site/about';
   constructor(private content: ContentService) {}
   resolve(): Observable<AboutBody> | Observable<never> {
     const mdPath = 'site/about/about.md';
@@ -28,9 +27,9 @@ export class AboutBodyResolverService implements Resolve<AboutBody> {
         const { annualReports } = body;
         if (annualReports && Array.isArray(annualReports)) {
           annualReports.forEach((report: {year: string, pdfLink: string}) => {
-            const pdfLink = report.pdfLink
+            const pdfLink = report.pdfLink;
             if (!isHttp(pdfLink)) {
-              report.pdfLink = `${this.directory}/${report.pdfLink}`
+              report.pdfLink = `${this.directory}/${report.pdfLink}`;
             }
           });
           body.annualReports = annualReports;

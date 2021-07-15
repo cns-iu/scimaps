@@ -4,15 +4,9 @@ import { LearningMaterialListComponent } from './learning-material-list.componen
 import { SharedModule } from '../../shared.module';
 import { LearningMaterialItemModule } from '../learning-material-item/learning-material-item.module';
 
-
-
 @NgModule({
   declarations: [LearningMaterialListComponent],
-  imports: [
-    LearningMaterialItemModule,
-    CommonModule,
-    SharedModule
-  ], 
-  exports: [LearningMaterialListComponent]
+  imports: [LearningMaterialItemModule, CommonModule, SharedModule],
+  exports: [LearningMaterialListComponent],
 })
-export class LearningMaterialsListModule { }
+export class LearningMaterialsListModule {}

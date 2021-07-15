@@ -5,7 +5,6 @@ import { map, take } from 'rxjs/operators';
 import { isHttp } from '../../constants/utils';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 
-
 export interface Venue {
   dateStart: string;
   dateEnd: string;
@@ -17,33 +16,36 @@ export interface Venue {
   state: string;
   country: string;
   pdfLink: string;
-  venueImages: {sm: string, lg: string}[];
+  venueImages: { sm: string; lg: string }[];
 }
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class VenuesResolverService implements Resolve<Venue[]> {
-
   directory = 'content/venues';
-  constructor(private contentService: ContentService) { }
+  constructor(private contentService: ContentService) {}
 
   // Used to get full path of resources.
   updatePaths(venue: Venue): Venue {
     const fullDate = new Date(venue.dateStart);
     const year = fullDate.getFullYear();
-    const date = ('0' + (fullDate.getUTCDate())).slice(-2);
+    const date = ('0' + fullDate.getUTCDate()).slice(-2);
     const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
     const slug = toSlug(venue.title);
 
     if (venue.pdfLink && !isHttp(venue.pdfLink)) {
-      venue.pdfLink =  `assets/${this.directory}/${year}/${month}-${date}/${slug}/${venue.pdfLink}`;
+      venue.pdfLink = `assets/${this.directory}/${year}/${month}-${date}/${slug}/${venue.pdfLink}`;
     }
-    if (venue.venueImages && Array.isArray(venue.venueImages) && venue.venueImages.length) {
-      venue.venueImages =  venue.venueImages.map(image => {
+    if (
+      venue.venueImages &&
+      Array.isArray(venue.venueImages) &&
+      venue.venueImages.length
+    ) {
+      venue.venueImages = venue.venueImages.map((image) => {
         return {
           sm: `assets/${this.directory}/${year}/${month}-${date}/${slug}/${image.sm}`,
-          lg: `assets/${this.directory}/${year}/${month}-${date}/${slug}/${image.lg}`
+          lg: `assets/${this.directory}/${year}/${month}-${date}/${slug}/${image.lg}`,
         };
       });
     }
@@ -62,8 +64,8 @@ export class VenuesResolverService implements Resolve<Venue[]> {
       state: item.state,
       country: item.country,
       pdfLink: item.pdfLink,
-      venueImages: item.venueImages
-    } 
+      venueImages: item.venueImages,
+    };
   }
 
   resolve(): Venue[] | Observable<Venue[]> | Promise<Venue[]> {
@@ -75,6 +77,6 @@ export class VenuesResolverService implements Resolve<Venue[]> {
           return this.updatePaths(venue);
         });
       })
-    )
+    );
   }
 }

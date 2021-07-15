@@ -9,48 +9,55 @@ import { LearningMaterial } from './learning-material-resolver.service';
   selector: 'sci-hosting',
   templateUrl: './hosting.component.html',
   styleUrls: ['./hosting.component.scss'],
-  animations: [drawerInOut]
+  animations: [drawerInOut],
 })
 export class HostingComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-hosting';
 
-  learningMaterials: LearningMaterial[] = []
+  learningMaterials: LearningMaterial[] = [];
   get tabHeaders(): string[] {
-    return this.tabs.map((tab: {header: string}) => tab.header);
+    return this.tabs.map((tab: { header: string }) => tab.header);
   }
-  constructor(private route: ActivatedRoute) {
-  }
+  constructor(private route: ActivatedRoute) {}
   overviewText = 'Hello';
-  carouselImages: {lg: string, sm: string, title: string}[] = [];
+  carouselImages: { lg: string; sm: string; title: string }[] = [];
   installGuide = '';
   masterBooklet = '';
   bannerText = '';
   activePageTab = 0;
-  tabs: {header: string, content: string, image: string}[] = [];
+  tabs: { header: string; content: string; image: string }[] = [];
   showTab = false; // maintains drawer show/hide for tab
 
-  ngOnInit() {
+  ngOnInit(): void {
     // this.route
     this.route.data.subscribe((data) => {
       // Other keys
-      const {body, learningMaterials} = data;
+      const { body, learningMaterials } = data;
       if (learningMaterials) {
         this.learningMaterials = learningMaterials;
       }
-      ({ overview: this.overviewText,
+      ({
+        overview: this.overviewText,
         install_guide: this.installGuide,
         master_booklet: this.masterBooklet,
         carousel: this.carouselImages,
         banner_text: this.bannerText,
-        tabs: this.tabs
+        tabs: this.tabs,
       } = this.getBodyContent(body));
     });
   }
 
   getBodyContent(body: Params): Params {
     const result: Params = {};
-    const keys = ['overview', 'tabs', 'carousel', 'install_guide', 'master_booklet', 'banner_text']
+    const keys = [
+      'overview',
+      'tabs',
+      'carousel',
+      'install_guide',
+      'master_booklet',
+      'banner_text',
+    ];
     keys.forEach((key: string) => {
       if (body.hasOwnProperty(key) && body[key]) {
         result[key] = body[key];
@@ -59,7 +66,7 @@ export class HostingComponent implements OnInit {
     return result;
   }
 
-  updateActivePageTab(index: number) {
+  updateActivePageTab(index: number): void {
     this.activePageTab = index;
   }
 }
