@@ -31,14 +31,7 @@ export class VenuesComponent implements OnInit {
 
   searchKey = '';
   year = '';
-
-  get yearList(): string[] {
-    const years = this.dataSource.data.map((item: Venue) => {
-      const fullDate = new Date(item.dateStart);
-      return fullDate.getFullYear().toString();
-    });
-    return [...new Set(years)];
-  }
+  yearList: string[] = [];
 
   ngOnInit(): void {
     // data
@@ -51,6 +44,19 @@ export class VenuesComponent implements OnInit {
         this.dataSource.filterPredicate = this.filterData;
       }
     });
+    this.setYears();
+  }
+
+  setYears() {
+    const years  = new Set<string>();
+    this.dataSource.data.forEach((item: Venue) => {
+      const fullDate = new Date(item.dateStart);
+      const year = fullDate.getFullYear().toString();
+      if (!years.has(year)) {
+        years.add(year);
+      }
+    });
+    this.yearList = Array.from(years).sort().reverse();
   }
 
   // Predicate for filtering data.

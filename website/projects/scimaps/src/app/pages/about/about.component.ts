@@ -28,39 +28,6 @@ export class AboutComponent implements OnInit {
   newsItems: NewsItem[] = [];
   annualReports: { year: string; pdfLink: string }[] = [];
 
-  partners: { name: string; logo: string; link: string }[] = [
-    {
-      name: 'CNS',
-      logo: 'assets/logos/logo-cns.svg',
-      link: 'https://cns.iu.edu',
-    },
-    {
-      name: 'Luddy',
-      logo: 'assets/logos/logo-luddy-school.svg',
-      link: 'https://luddy.indiana.edu/index.html',
-    },
-    {
-      name: 'McDonnel',
-      logo: 'assets/logos/logo-james-s-mcdonnell-foundation.svg',
-      link: 'https://www.jsmf.org/',
-    },
-    {
-      name: 'reuters',
-      logo: 'assets/logos/logo-thomson-reuters.svg',
-      link: 'https://thomsonreuters.com/',
-    },
-    {
-      name: 'NSF',
-      logo: 'assets/logos/logo-nsf.svg',
-      link: 'https://www.nsf.gov/',
-    },
-    {
-      name: 'elsevier',
-      logo: 'assets/logos/logo-elsevier.svg',
-      link: 'https://www.elsevier.com/',
-    },
-  ];
-
   sortHeaders = [
     {
       label: 'Source',
@@ -71,14 +38,7 @@ export class AboutComponent implements OnInit {
   dataSource: MatTableDataSource<NewsItem> = new MatTableDataSource();
   searchKey = '';
   year = '';
-
-  get yearList(): string[] {
-    const years = this.dataSource.data.map((item: NewsItem) => {
-      const fullDate = new Date(item.date);
-      return fullDate.getFullYear().toString();
-    });
-    return [...new Set(years)];
-  }
+  yearList: string[] = [];
 
   ngOnInit(): void {
     this.route.data.subscribe((data) => {
@@ -105,6 +65,7 @@ export class AboutComponent implements OnInit {
         this.dataSource.filterPredicate = this.filterData;
       }
     });
+    this.setYears();
   }
 
   groupProfiles(profiles: Profile[]): { [key: string]: Profile[] } {
@@ -187,5 +148,16 @@ export class AboutComponent implements OnInit {
     const filter = { year: this.year, searchKey: this.searchKey };
     const filterString = JSON.stringify(filter);
     this.dataSource.filter = filterString;
+  }
+  setYears() {
+    const years  = new Set<string>();
+    this.dataSource.data.forEach((item: NewsItem) => {
+      const fullDate = new Date(item.date);
+      const year = fullDate.getFullYear().toString();
+      if (!years.has(year)) {
+        years.add(year);
+      }
+    });
+    this.yearList = Array.from(years).sort().reverse();
   }
 }
