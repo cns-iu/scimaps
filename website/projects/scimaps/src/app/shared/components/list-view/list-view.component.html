@@ -20,6 +20,6 @@
     </div>
 
     <div *ngIf="config.items.length > config.displayLimit" class="show-more" (click)="config.showAllItems = !config.showAllItems">
-        {{ config.showAllItems ? 'Show Less' : 'Show More' }}
+        {{ showText | titlecase }}
     </div>
 </div>

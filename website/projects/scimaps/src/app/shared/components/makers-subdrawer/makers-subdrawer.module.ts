@@ -1,4 +1,4 @@
-import { CommonModule, TitleCasePipe } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { MatIconModule } from '@angular/material/icon';
@@ -12,7 +12,6 @@ import { PurchaseModalModule } from '../purchase-modal/purchase-modal.module';
     PurchaseModalModule
   ],
   declarations: [MakersSubdrawerComponent],
-  exports: [MakersSubdrawerComponent],
-  providers: [TitleCasePipe]
+  exports: [MakersSubdrawerComponent]
 })
 export class MakersSubdrawerModule { }

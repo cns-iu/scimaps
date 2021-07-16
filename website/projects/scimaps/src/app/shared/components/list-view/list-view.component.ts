@@ -24,6 +24,14 @@ export class ListViewComponent implements OnInit {
     }
     return `${numerator} / ${denominator}`;
   }
+
+  get showText(): string {
+    if (this.config.showAllItems) {
+      return 'Show Less'
+    } else {
+      return `Show More ${this.config.type}` 
+    }
+  }
   constructor() { }
 
   ngOnInit(): void {
