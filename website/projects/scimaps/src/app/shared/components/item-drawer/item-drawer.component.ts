@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.component';
+import { drawerInOut } from '../../../constants/drawer.animations';
 
 /**
  * Drawer that opens when a map or macroscope item is selected
@@ -11,7 +12,8 @@ import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.compone
 @Component({
   selector: 'sci-item-drawer',
   templateUrl: './item-drawer.component.html',
-  styleUrls: ['./item-drawer.component.scss']
+  styleUrls: ['./item-drawer.component.scss'],
+  animations: [drawerInOut]
 })
 export class ItemDrawerComponent {
   /** HTML class name */

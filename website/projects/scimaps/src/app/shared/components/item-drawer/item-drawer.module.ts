@@ -7,14 +7,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { ItemDrawerComponent } from './item-drawer.component';
 import { PurchaseModalModule } from '../purchase-modal/purchase-modal.module';
 import { MakersSubdrawerModule } from '../makers-subdrawer/makers-subdrawer.module';
-import { MapsComponent } from '../../../pages/maps/maps.component';
-import { MacroscopesComponent } from '../../../pages/macroscopes/macroscopes.component';
-
-const routes: Routes = [
-  { path: 'maps', component: MapsComponent},
-  { path: 'macroscopes', component: MacroscopesComponent}
-];
-
+import { DrawerModule } from '../drawer/drawer.module';
 @NgModule({
   imports: [
     CommonModule,
@@ -22,9 +15,7 @@ const routes: Routes = [
     PurchaseModalModule,
     MarkdownModule,
     MakersSubdrawerModule,
-    RouterModule.forChild(
-      routes
-    )
+    DrawerModule
   ],
   declarations: [ItemDrawerComponent],
   exports: [ItemDrawerComponent]
