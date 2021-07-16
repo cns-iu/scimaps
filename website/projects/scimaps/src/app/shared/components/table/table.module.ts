@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule, DatePipe } from '@angular/common';
-import { VenuesTableComponent } from './venues-table.component';
+import { TableComponent } from './table.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
@@ -10,7 +10,7 @@ import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
-  declarations: [VenuesTableComponent],
+  declarations: [TableComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
@@ -19,7 +19,7 @@ import { MatIconModule } from '@angular/material/icon';
     MatSortModule,
     MatIconModule
   ],
-  exports: [VenuesTableComponent],
+  exports: [TableComponent],
   providers: [DatePipe]
 })
-export class VenuesTableModule { }
+export class TableModule { }

@@ -17,9 +17,8 @@
 @use './components/drawer/drawer.theme.scss';
 @use './components/learning-material-list/learning-material-list.theme.scss';
 @use './components/learning-material-item//learning-material-item.theme.scss';
-@use './components/venues-table/venues-table.theme.scss';
+@use './components/table/table.theme.scss';
 @use './components/search-overlay/search-overlay.theme.scss';
-@use './components//sort-headers/sort-headers.theme.scss';
 
 @mixin theme($theme) {
   @include book-overview.theme($theme);
@@ -41,7 +40,6 @@
   @include drawer.theme($theme);
   @include learning-material-list.theme($theme);
   @include learning-material-item.theme($theme);
-  @include venues-table.theme($theme);
+  @include table.theme($theme);
   @include search-overlay.theme($theme);
-  @include sort-headers.theme($theme);
 }

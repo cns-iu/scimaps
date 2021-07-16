@@ -9,10 +9,10 @@ import { SharedModule } from '../../shared/shared.module';
 import { MatSelectModule } from '@angular/material/select';
 import { MarkdownModule } from 'ngx-markdown';
 import { PartnersModule } from '../../shared/components/partners/partners.module';
-import { SortHeadersModule } from '../../shared/components/sort-headers/sort-headers.module';
 import { SelectModule } from '../../shared/components/select/select.module';
 import { SearchOverlayModule } from '../../shared/components/search-overlay/search-overlay.module';
 import { ListViewModule } from '../../shared/components/list-view/list-view.module';
+import { TableModule } from '../../shared/components/table/table.module';
 
 @NgModule({
   declarations: [AboutComponent],
@@ -25,10 +25,10 @@ import { ListViewModule } from '../../shared/components/list-view/list-view.modu
     SharedModule,
     MarkdownModule,
     PartnersModule,
-    SortHeadersModule,
     SelectModule,
     SearchOverlayModule,
-    ListViewModule
+    ListViewModule,
+    TableModule
   ]
 })
 export class AboutModule { }

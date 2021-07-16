@@ -1,18 +1,8 @@
-@use "~@angular/material/theming" as *;
+@import "~@angular/material/theming";
 
 @mixin color($config-or-theme) {
   $config: mat-get-color-config($config-or-theme);
   $primary: map-get($config, primary);
-  $accent: map-get($config, accent);
-
-  .sci-sort-headers {
-    .mat-sort-header-content {
-      margin: 0 1rem;
-    }
-    .mat-sort-header-arrow {
-      display: none;
-    }
-  }
 }
 
 @mixin typography($config-or-theme) {
@@ -23,10 +13,23 @@
   $color: mat-get-color-config($theme);
   $typography: mat-get-typography-config($theme);
 
-  @if $color != null {
+  @if $color {
     @include color($color);
   }
   @if $typography != null {
     @include typography($typography);
   }
 }
+
+.sci-table {
+    .mat-sort-header-sorted {
+        .mat-sort-header-arrow {
+            transform: scale(1.7) translateY(0px) !important;
+        }
+    }
+    .mat-sort-header-arrow {
+      display: none;
+    }
+}
+
+

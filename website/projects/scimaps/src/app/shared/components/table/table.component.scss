@@ -1,13 +1,26 @@
 :host {
-  .sort-headers {
     width: 100%;
+    tr {
+      height: 3.5rem;
+    }
     th {
-      border: none;
-      // margin-left: 1rem;
-      font-size: 16px;
+      padding: 1rem;
+      border-bottom: none;
+      font-weight: bold;
+      font-size: 1rem;
+      color: black;
+    }
+    td {
+      padding: 1rem;
+      border-bottom: none;
+    }
+    a {
+      text-decoration: none;
+      color: #8dc63f;
     }
 
-    // label and icon
+
+    // Sort Icon
     .sort {
       display: flex;
       flex-direction: row;
@@ -52,4 +65,3 @@
       }
     }
   }
-}

@@ -92,8 +92,8 @@
   <div class="group1">
       <sci-select [select]="year" [options]="yearList" (selectChange)="onSelectChange($event)">
       </sci-select>
-      <sci-sort-headers [dataSource]="dataSource" [sortHeaders]="sortHeaders" filters>
-      </sci-sort-headers>
+      <sci-table [dataSource]="dataSource" [tableHeaders]="sortHeaders" [headersOnly]="true" filters>
+      </sci-table>
   </div>
   <sci-search-overlay [search]="searchKey" (searchChange)="onSearchChange($event)">
   </sci-search-overlay>

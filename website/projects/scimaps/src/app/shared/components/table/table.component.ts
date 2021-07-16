@@ -2,20 +2,19 @@ import { AfterViewInit, Component, HostBinding, Input, OnInit, ViewChild } from 
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { Venue } from '../../../pages/venues/venues-resolver.service';
 
 @Component({
-  selector: 'sci-venues-table',
-  templateUrl: './venues-table.component.html',
-  styleUrls: ['./venues-table.component.scss']
+  selector: 'sci-table',
+  templateUrl: './table.component.html',
+  styleUrls: ['./table.component.scss']
 })
-export class VenuesTableComponent implements OnInit, AfterViewInit {
-  @HostBinding('class') readonly clsName = 'sci-venues-table';
+export class TableComponent implements OnInit, AfterViewInit {
+  @HostBinding('class') readonly clsName = 'sci-table';
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) matSort!: MatSort;
-  @Input() dataSource: MatTableDataSource<Venue> = new MatTableDataSource();
-  @Input() tableHeaders: {key: string, label: string, width: number, type: string}[] = [];
-
+  @Input() dataSource: MatTableDataSource<any> = new MatTableDataSource();
+  @Input() tableHeaders: {key: string, label: string, width?: number, type?: string}[] = [];
+  @Input() headersOnly = false;
   columns: string[] = [];
 
   constructor() {
