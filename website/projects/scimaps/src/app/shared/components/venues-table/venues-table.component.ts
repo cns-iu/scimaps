@@ -12,7 +12,7 @@ import { Venue } from '../../../pages/venues/venues-resolver.service';
 export class VenuesTableComponent implements OnInit, AfterViewInit {
   @HostBinding('class') readonly clsName = 'sci-venues-table';
   @ViewChild(MatPaginator) paginator!: MatPaginator;
-  @ViewChild(MatSort) sort!: MatSort;
+  @ViewChild(MatSort) matSort!: MatSort;
   @Input() dataSource: MatTableDataSource<Venue> = new MatTableDataSource();
   @Input() tableHeaders: {key: string, label: string, width: number, type: string}[] = [];
 
@@ -27,6 +27,6 @@ export class VenuesTableComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit(): void {
     this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
+    this.dataSource.sort = this.matSort;
   }
 }
