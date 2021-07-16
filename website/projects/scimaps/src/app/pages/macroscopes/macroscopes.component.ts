@@ -1,5 +1,6 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { drawerInOut } from '../../constants/drawer.animations';
 
 import { DiscoverItem, ThumbnailLink } from '../../core/models/discover-item';
 
@@ -7,7 +8,8 @@ import { DiscoverItem, ThumbnailLink } from '../../core/models/discover-item';
 @Component({
   selector: 'sci-macroscopes',
   templateUrl: './macroscopes.component.html',
-  styleUrls: ['./macroscopes.component.scss']
+  styleUrls: ['./macroscopes.component.scss'],
+  animations: [drawerInOut]
 })
 export class MacroscopesComponent implements OnInit {
   /** HTML class name */

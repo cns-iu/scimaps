@@ -8,6 +8,7 @@ import { DiscoverListingModule } from '../../shared/components/discover-listing/
 import { MatIconModule } from '@angular/material/icon';
 import { CarouselModule } from '../../shared/components/carousel/carousel.module';
 import { SharedModule } from '../../shared/shared.module';
+import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { SharedModule } from '../../shared/shared.module';
     MatIconModule,
     MarkdownModule,
     CarouselModule,
-    SharedModule
+    SharedModule,
+    DrawerModule
   ]
 })
 export class MacroscopesModule { }

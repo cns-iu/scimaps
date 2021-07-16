@@ -1,5 +1,5 @@
 <h2 class="header">Macroscopes</h2>
-<div *ngIf="!showModal" class="highlight-content">
+<div class="highlight-content">
   <p markdown [data]="highlightBody" class="highlight-body"></p>
   <div class="carousel-container">
     <sci-carousel class="carousel">
@@ -20,20 +20,27 @@
 <sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item" [type]="'macroscopes'"></sci-discover-listing>
 
 <button *ngIf="moreMacroscopes()" class="more-button" (click)="showMoreMacroscopes()">Show More Macroscopes</button>
-<div *ngIf="!showModal" class="mobile-button" (click)="showModal = true;">
+<div class="mobile-button" (click)="showModal = true;">
   Discover Macroscopes
   <mat-icon class="mobile-icon">chevron_right</mat-icon>
 </div>
 
-<div class="fullscreen-modal" *ngIf="showModal">
-  <div class="modal-header">
-    <mat-icon class="mobile-icon" (click)="showModal = false;">chevron_left</mat-icon>
-    <div class="mobile-title"><h3>Macroscopes</h3></div>
+<sci-drawer [@drawerInOut] *ngIf="showModal" class="drawer">
+  <div drawer>
+    <div>
+        <div class="drawer-header">
+            <mat-icon class="mobile-icon" (click)="showModal = false;">chevron_left</mat-icon>
+            <div class="mobile-title">
+                <h3> Macroscopes </h3>
+            </div>
+        </div>
+        <div class="drawer-content">
+          <sci-carousel class="macroscopes-carousel">
+            <sci-carousel-item class="mobile-carousel" *ngFor="let discoverItem of discoverItems">
+              <sci-discover-listing [discoverItem]="discoverItem" [type]="'macroscopes'"></sci-discover-listing>
+            </sci-carousel-item>
+          </sci-carousel>
+        </div>
+    </div>
   </div>
-
-  <sci-carousel class="macroscopes-carousel">
-    <sci-carousel-item class="mobile-carousel" *ngFor="let discoverItem of discoverItems">
-      <sci-discover-listing [discoverItem]="discoverItem" [type]="'macroscopes'"></sci-discover-listing>
-    </sci-carousel-item>
-  </sci-carousel>
-</div>
+</sci-drawer>
