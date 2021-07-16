@@ -1,5 +1,6 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { drawerInOut } from '../../constants/drawer.animations';
 
 import { DiscoverItem, ThumbnailLink } from '../../core/models/discover-item';
 
@@ -7,7 +8,8 @@ import { DiscoverItem, ThumbnailLink } from '../../core/models/discover-item';
 @Component({
   selector: 'sci-maps',
   templateUrl: './maps.component.html',
-  styleUrls: ['./maps.component.scss']
+  styleUrls: ['./maps.component.scss'],
+  animations: [drawerInOut]
 })
 export class MapsComponent implements OnInit {
   /** HTML class name */
