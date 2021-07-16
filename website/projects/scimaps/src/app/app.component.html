@@ -1,6 +1,6 @@
 <sci-header [ngClass]="{'scrolled' : true}" class="header" [(sidenavOpen)]="sidenavOpen"></sci-header>
 
-<mat-sidenav-container class="sidenav-container">
+<mat-sidenav-container class="sidenav-container" autosize>
   <mat-sidenav autoFocus="false" mode="over" position="end" fixedInViewport fixedTopGap="72" [opened]="sidenavOpen"
                (closedStart)="sidenavOpen = false">
     <sci-mobile-header-menu *sciBreakpoint="'tablet-'" (sidenavClose)="sidenavOpen = false">
