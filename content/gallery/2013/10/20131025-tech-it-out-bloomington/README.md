@@ -1,5 +1,5 @@
 ---
-title: "Tech It Out" Scavenger Hunt, WESit, Indiana University
+title: "Tech It Out Scavenger Hunt, WESit, Indiana University"
 date: "2013-10-25"
 location: Bloomington, Indiana
 credit: Places & Spaces

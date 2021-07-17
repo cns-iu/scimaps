@@ -1,5 +1,5 @@
 ---
-title: "Culture & Technology" - The European Summer University in Digital Humanities
+title: "Culture & Technology - The European Summer University in Digital Humanities"
 start: "2018-07-13"
 end: "2018-07-30"
 location: University of Leipzig, Leipzig, Germany 

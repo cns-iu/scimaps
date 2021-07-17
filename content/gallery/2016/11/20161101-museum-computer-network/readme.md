@@ -1,5 +1,5 @@
 ---
-title: Workshop: Museum Computer Network
+title: "Workshop: Museum Computer Network"
 start: "2016-11-01"
 end: "2016-11-04"
 location: New Orleans
