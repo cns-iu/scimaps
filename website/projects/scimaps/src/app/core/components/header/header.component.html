@@ -18,18 +18,18 @@
   </button>
 
   <button mat-button class="nav-item exhibit mat-display-3"
-          [class.active]="(exhibitTrigger.menuClosed | async) || exhibitTrigger.menuOpen" [matMenuTriggerFor]="exhibit"
-          #exhibitTrigger="matMenuTrigger">EXHIBIT
+    [ngClass]="{'active': (exhibitTrigger.menuClosed | async) || exhibitTrigger.menuOpen || maps.isActive || macroscopes.isActive || books.isActive || cfm.isActive || venues.isActive || hosting.isActive }" [matMenuTriggerFor]="exhibit"
+    #exhibitTrigger="matMenuTrigger">EXHIBIT
     <mat-icon>expand_more</mat-icon>
   </button>
 
   <mat-menu class="sci-header-menu" #exhibit="matMenu">
-    <button mat-button class="mat-display-3" routerLink="/maps" routerLinkActive="active">MAPS</button>
-    <button mat-button class="mat-display-3" routerLink="/macroscopes" routerLinkActive="active">MACROSCOPES</button>
-    <button mat-button class="mat-display-3" routerLink="/books" routerLinkActive="active">BOOKS</button>
-    <button mat-button class="mat-display-3" routerLink="/call-for-macroscopes" routerLinkActive="active">CALL FOR MACROSCOPES</button>
-    <button mat-button class="mat-display-3" routerLink="/venues" routerLinkActive="active">VENUES</button>
-    <button mat-button class="mat-display-3" routerLink="/hosting" routerLinkActive="active">HOSTING</button>
+    <button mat-button class="mat-display-3" routerLink="/maps" routerLinkActive="active" #maps="routerLinkActive">MAPS</button>
+    <button mat-button class="mat-display-3" routerLink="/macroscopes" routerLinkActive="active" #macroscopes="routerLinkActive">MACROSCOPES</button>
+    <button mat-button class="mat-display-3" routerLink="/books" routerLinkActive="active" #books="routerLinkActive">BOOKS</button>
+    <button mat-button class="mat-display-3" routerLink="/call-for-macroscopes" routerLinkActive="active" #cfm="routerLinkActive">CALL FOR MACROSCOPES</button>
+    <button mat-button class="mat-display-3" routerLink="/venues" routerLinkActive="active" #venues="routerLinkActive">VENUES</button>
+    <button mat-button class="mat-display-3" routerLink="/hosting" routerLinkActive="active" #hosting="routerLinkActive">HOSTING</button>
   </mat-menu>
 
   <button mat-button class="nav-item explore mat-display-3" *ngIf="false"
