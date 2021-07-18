@@ -30,20 +30,23 @@
 </mat-card>
 
 
-<sci-drawer [@drawerInOut] *ngIf="showDrawer" class="tab-drawer">
+<sci-drawer [@drawerInOut] *ngIf="showDrawer" class="drawer">
   <div drawer>
-    <div>
+    <div class="container">
       <div class="drawer-header">
-        <mat-icon class="mobile-icon" (click)="showDrawer = false">chevron_left</mat-icon>
-        <div class="mobile-title">
-          <h3>{{item.title}} </h3>
+        <div class="back-button" (click)="showDrawer = false">
+          <mat-icon class="back-icon">chevron_left</mat-icon>
+          <div>BACK</div>
         </div>
       </div>
-      <div class="tab-content">
+      <div class="drawer-content">
         <div class="row1">
           <img [src]="item.image.lg" alt="">
         </div>
         <div class="row2">
+          <div class="title">
+            <h3>{{item.title}} </h3>
+          </div>
           <div markdown [data]="item.body"></div>
         </div>
       </div>
