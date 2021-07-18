@@ -18,7 +18,7 @@
 </div>
 
 <ng-container *ngFor="let item of displayItems; let i = index;">
-  <sci-discover-listing *ngIf="showAllItems || i < displayLimit" class="discover-item"  [discoverItem]="item" [type]="'macroscopes'"></sci-discover-listing>
+  <sci-discover-listing *ngIf="showAllItems || i < displayLimit" class="discover-item macroscopes"  [discoverItem]="item" [type]="'macroscopes'"></sci-discover-listing>
 </ng-container>
 
 <button *ngIf="!showAllItems" class="more-button" (click)="showAllItems = true">Show More Macroscopes</button>

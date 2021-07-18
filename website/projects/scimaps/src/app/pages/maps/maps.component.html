@@ -16,7 +16,7 @@
 <h2 class="header discover-maps">Discover Maps</h2>
 
 <ng-container *ngFor="let item of displayItems; let i = index;">
-  <sci-discover-listing *ngIf="showAllItems || i < displayLimit" class="discover-item" [discoverItem]="item" [type]="'maps'"></sci-discover-listing>
+  <sci-discover-listing *ngIf="showAllItems || i < displayLimit" class="discover-item maps" [discoverItem]="item" [type]="'maps'"></sci-discover-listing>
 </ng-container>
 
 <button *ngIf="!showAllItems" class="more-button" (click)="showAllItems = true">Show More Maps</button>
