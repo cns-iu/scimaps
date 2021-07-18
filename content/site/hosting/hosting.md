@@ -46,7 +46,7 @@ carousel:
 banner_text: |-
   To host the exhibit, contact
 
-  Places & Spaces Team
+  *Places & Spaces Team*
 
   cnscntr@indiana.edu
 tabs:
