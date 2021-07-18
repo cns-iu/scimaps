@@ -1,5 +1,6 @@
 ---
 title: Science Maps for Kids
+order: 8
 image:
   sm: image.sm.jpg
   lg: image.lg.jpg

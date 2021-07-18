@@ -1,5 +1,6 @@
 ---
 title: My Science Story Coloring Book
+order: 11
 image:
   sm: image.sm.jpg
   lg: image.lg.jpg

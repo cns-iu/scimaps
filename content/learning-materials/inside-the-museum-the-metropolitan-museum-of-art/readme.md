@@ -1,5 +1,6 @@
 ---
 title: "Inside the Museum: The Metropolitan Museum of Art"
+order: 5
 image:
   sm: image.sm.jpg
   lg: image.lg.jpg

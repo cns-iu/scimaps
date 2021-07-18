@@ -1,5 +1,6 @@
 ---
 title: The Fundamental Interconnectedness of All Things
+order: 6
 image:
   sm: image.sm.jpg
   lg: image.lg.png

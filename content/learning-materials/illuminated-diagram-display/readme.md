@@ -1,5 +1,6 @@
 ---
 title: Illuminated Diagram Display
+order: 3
 image:
   sm: image.sm.jpg
   lg: image.lg.jpg

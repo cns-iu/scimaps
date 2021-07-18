@@ -1,5 +1,6 @@
 ---
 title: Gapminder Card Game
+order: 7
 image:
   sm: image.sm.jpg
   lg: image.lg.png

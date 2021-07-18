@@ -1,5 +1,6 @@
 ---
 title: Sculptures of Science
+order: 4
 image:
   sm: image.sm.jpg
   lg: image.lg.jpg

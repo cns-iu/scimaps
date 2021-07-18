@@ -141,12 +141,15 @@ collections:
     path: "{{slug}}/readme"
     create: true
     slug: "{{title}}"
+    sortable_fields: [title, order]
     preview_path: person/{{slug}}
     media_folder: ''
     public_folder: ''
     fields:
+      - { name: order, label: Order, widget: number, min: 1, default: 100 }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+     
       - name: image
         label: Image
         widget: object

@@ -1,5 +1,6 @@
 ---
 title: Humanexus
+order: 1
 image:
   sm: image.sm.jpg
   lg: image.lg.png

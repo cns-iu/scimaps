@@ -1,5 +1,6 @@
 ---
 title: WorldProcessor Globes
+order: 2
 image:
   sm: image01.lg.jpg
   lg: image02.lg.jpg
