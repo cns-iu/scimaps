@@ -137,6 +137,10 @@ $breakpoint: 768px;
       width: 1.5rem;
       cursor: pointer;
     }
+
+    @media (min-width: $mobile) {
+      display: none;
+    }
   }
 
   .drawer-header {
