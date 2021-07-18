@@ -46,11 +46,12 @@ $mobile: 640px;
       justify-content: space-around;
       width: 50%;
       max-height: 28rem;
-
+      margin-left: 3rem;
       @media (max-width: $tablet) {
         width: 100%;
         padding: 0rem;
         margin-bottom: 1rem;
+        margin-left: 0rem;
       }
 
       .carousel {
