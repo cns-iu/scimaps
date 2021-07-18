@@ -15,9 +15,11 @@
 
 <h2 class="header discover-maps">Discover Maps</h2>
 
-<sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item" [type]="'maps'"></sci-discover-listing>
+<ng-container *ngFor="let item of displayItems; let i = index;">
+  <sci-discover-listing *ngIf="showAllItems || i < displayLimit" class="discover-item" [discoverItem]="item" [type]="'maps'"></sci-discover-listing>
+</ng-container>
 
-<button *ngIf="moreMaps()" class="more-button" (click)="showMoreMaps()">Show More Maps</button>
+<button *ngIf="!showAllItems" class="more-button" (click)="showAllItems = true">Show More Maps</button>
 <div class="mobile-button" (click)="showModal = true;">
   Discover Maps
   <mat-icon class="mobile-icon">chevron_right</mat-icon>

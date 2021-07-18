@@ -17,9 +17,11 @@
   </div>
 </div>
 
-<sci-discover-listing class="discover-item" *ngFor="let item of displayItems" [discoverItem]="item" [type]="'macroscopes'"></sci-discover-listing>
+<ng-container *ngFor="let item of displayItems; let i = index;">
+  <sci-discover-listing *ngIf="showAllItems || i < displayLimit" class="discover-item"  [discoverItem]="item" [type]="'macroscopes'"></sci-discover-listing>
+</ng-container>
 
-<button *ngIf="moreMacroscopes()" class="more-button" (click)="showMoreMacroscopes()">Show More Macroscopes</button>
+<button *ngIf="!showAllItems" class="more-button" (click)="showAllItems = true">Show More Macroscopes</button>
 <div class="mobile-button" (click)="showModal = true;">
   Discover Macroscopes
   <mat-icon class="mobile-icon">chevron_right</mat-icon>
