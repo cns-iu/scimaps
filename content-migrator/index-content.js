@@ -61,7 +61,7 @@ function writeAppMapIndex(mapType) {
     const link = `${mapType}/${map.en.iteration}/${map.en.sequence}`;
     iterations[map.en.iteration].thumbnails[map.en.sequence] = {
       title: map.en.title,
-      image: `assets/content/${link}/${map.en.image.lg}`,
+      image: `assets/content/${link}/${map.en.image.sm}`,
       link
     };
   }

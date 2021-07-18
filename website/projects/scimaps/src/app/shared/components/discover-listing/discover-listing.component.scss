@@ -2,6 +2,13 @@ $desktop: 1248px;
 $tablet: 960px;
 $mobile: 640px;
 
+
+:host(.maps) {
+}
+
+:host(.macroscopes) {
+}
+
 :host {
   display: flex;
   flex-direction: row;
@@ -67,7 +74,7 @@ $mobile: 640px;
 
       .thumbnail-image {
         width: 100%;
-        height: 80%;
+        // height: 80%;
         object-fit: cover;
       }
 
