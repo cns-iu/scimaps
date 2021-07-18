@@ -22,14 +22,17 @@ $desktop: 1248px;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
+    height: 18rem;
     cursor: pointer;
     .row1 {
+      height: 60%;
       img {
-        max-height: 100%;
+        height: 100%;
         margin: 0;
       }
     }
     .row2 {
+      height: 40%;
       padding: 1rem;
       overflow: hidden;
       h4 {
@@ -44,9 +47,6 @@ $desktop: 1248px;
           font-size: 14px;
         }
       }
-    }
-    .row3 {
-      text-overflow: ellipsis;
     }
   }
 
