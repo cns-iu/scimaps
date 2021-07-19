@@ -16,6 +16,12 @@ export interface ListConfig {
 export class ListViewComponent implements OnInit {
   @Input() config!: ListConfig;
 
+  defaultConfig: ListConfig = {
+    type: '',
+    items: [],
+    displayLimit: 6,
+    showAllItems: true
+  }
   get totalResultsText(): string {
     const denominator = this.config.items.length;
     let numerator: number = denominator;
@@ -35,5 +41,6 @@ export class ListViewComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.config = {...this.defaultConfig, ...this.config}
   }
 }
