@@ -38,18 +38,19 @@ $desktop: 1248px;
           overflow: hidden;
         }
         // icon
-        .download {
+        .gallery {
           border-radius: 100%;
           align-self: center;
           width: 36px;
           height: 36px;
           transition: transform 200ms;
+          cursor: pointer;
           &:hover {
             background-color: #dce0e2;
             transform: scale(1.2);
           }
 
-          .icon-pdf-download {
+          .icon-gallery {
             margin-left: 6px;
             margin-top: 6px;
           }
