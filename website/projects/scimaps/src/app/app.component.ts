@@ -217,6 +217,9 @@ export class AppComponent implements OnInit, OnDestroy {
   prepareRoute(outlet: RouterOutlet): string {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
   }
+  prepareClass(outlet: RouterOutlet): string {
+    return outlet && outlet.activatedRouteData && outlet.activatedRouteData.class;
+  }
 
   ngOnDestroy(): void {
     if (this.windowScrollSubscription) {

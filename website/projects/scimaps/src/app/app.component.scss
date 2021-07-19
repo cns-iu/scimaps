@@ -3,8 +3,8 @@ $desktop: 1248px;
 
 :host {
   display: block;
-  height: 100%;
-  overflow-y: auto;
+  // height: 100%;
+  // overflow-y: auto;
   .header {
     position: sticky;
     top: 0;
@@ -17,7 +17,7 @@ $desktop: 1248px;
   
   .sidenav-container {
     @media (max-width: $mobile) {
-      height: calc(100% - 72px);
+      height: 100%;
     }
 
     .content {
@@ -29,7 +29,12 @@ $desktop: 1248px;
         margin-right: auto;
         margin-top: 3rem;
       }
-      
+
+      &.home-module {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
     }
   }
 }
