@@ -1,1 +1,7 @@
-<p>galleries works!</p>
+<div class="galleries-container">
+    <div class="galleries-list">
+        <sci-gallery-item *ngFor="let item of items;"
+            [item]="item">
+        </sci-gallery-item>
+    </div>
+</div>

@@ -12,6 +12,8 @@ export class GalleryItemComponent implements OnInit {
   @Input() item!: Gallery | Params;
   constructor() { }
 
+  showOverlay = false;
+  overlayImage = '';
   ngOnInit(): void {
     console.log(this.item);
   }
