@@ -15,7 +15,7 @@ $desktop: 1248px;
 
     .content {
       padding: 0 1rem;
-
+      margin-bottom: 7.5rem;
       @media (min-width: $desktop) {
         max-width: 80rem;
         margin-left: auto;
