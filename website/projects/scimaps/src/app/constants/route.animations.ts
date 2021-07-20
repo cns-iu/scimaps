@@ -147,7 +147,7 @@ export const transformer = trigger('routeAnimations', [
 
 
 export const routeTransitionAnimations = trigger('routeAnimations', [
-	transition('Maps => Map', [
+	transition('Maps => Map, Macroscopes => Macroscope', [
 		style({ position: 'relative' }),
 		query(':enter, :leave', [
 			style({
@@ -165,7 +165,7 @@ export const routeTransitionAnimations = trigger('routeAnimations', [
 		]),
 		query(':enter', animateChild())
 	]),
-	transition('Map => Maps', [
+	transition('Map => Maps, Macroscope => Macroscopes', [
 		style({ position: 'relative' }),
 		query(':enter, :leave', [
 			style({
