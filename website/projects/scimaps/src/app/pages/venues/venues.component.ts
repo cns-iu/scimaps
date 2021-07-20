@@ -26,6 +26,9 @@ export class VenuesComponent implements OnInit {
     { label: 'Location', key: 'city', type: 'text', width: 20 },
     { label: 'Contact', key: 'organizer', type: 'text', width: 20 },
   ];
+  sortHeaders = this.tableHeaders.filter(item => {
+    return item.key === 'dateStart' || item.key === 'title' || item.key === 'city';
+  })
   dataSource: MatTableDataSource<Venue> = new MatTableDataSource();
   // this page
   body!: VenuesBody;
