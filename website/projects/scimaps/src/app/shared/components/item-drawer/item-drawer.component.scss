@@ -8,6 +8,9 @@ $breakpoint: 768px;
 
 
 :host {
+  // z-index: 3;
+  // position: relative;
+  // top: -72px;
   display: flex;
   flex-direction: column;
   width: 100%;
