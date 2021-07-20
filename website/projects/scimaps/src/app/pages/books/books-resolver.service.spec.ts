@@ -17,7 +17,7 @@ describe('BooksResolverService', () => {
     author: [`author-slug1`, 'author-slug2'],
     body: `body 1`,
     publisher: `publisher 1`,
-    pdfLink: `pdfLink 1`,
+    pdfLink: `https://pdfLink1`,
     amazonLink: `amazonLink 1`,
     images: ['a.jpg', 'b.jpg', 'c.jpg']
   };
@@ -50,7 +50,8 @@ describe('BooksResolverService', () => {
   });
 
   it('should map to correct book object', () => {
-    const book = service.toBookUI(testBook);
+    let book = service.toBook(testBook);
+    book = service.toBookUI(book);
     expect(book.slug).toEqual(toSlug(testBook.title));
     expect(book.title).toEqual(testBook.title);
     expect(book.author).toEqual(testBook.author);
@@ -58,6 +59,12 @@ describe('BooksResolverService', () => {
     expect(book.publisher).toEqual(testBook.publisher);
     expect(book.pdfLink).toEqual(testBook.pdfLink);
     expect(book.amazonLink).toEqual(testBook.amazonLink);
+  });
+
+  it('should map to correct pdflink object', () => {
+    const book = {...testBooks[0], pdfLink: 'file'};
+    const book2 = service.toBookUI({...book});
+    expect(book2.pdfLink).toEqual(service.getSourceLink(book));
   });
 
   it('should should call contentService.getIndex once', () => {

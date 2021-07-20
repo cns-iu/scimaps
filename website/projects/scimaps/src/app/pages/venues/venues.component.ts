@@ -1,126 +1,105 @@
-import { Component, HostBinding } from '@angular/core';
-import { TableData } from '../../core/models/table-data';
-
-import { TableHeader } from '../../core/models/table-header';
-
+import { Component, HostBinding, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { MatTableDataSource } from '@angular/material/table';
+import { Venue } from './venues-resolver.service';
+import { isSearchOpenTrigger } from '../../constants/drawer.animations';
+import { VenuesBody } from './venues-body-resolver.service';
+import { Gallery } from './galleries-resolver.service';
 @Component({
   selector: 'sci-venues',
   templateUrl: './venues.component.html',
-  styleUrls: ['./venues.component.scss']
+  styleUrls: ['./venues.component.scss'],
+  animations: [isSearchOpenTrigger],
 })
-export class VenuesComponent {
+export class VenuesComponent implements OnInit {
   /** HTML class name */
-  @HostBinding('class') readonly clsName = 'sci-venues';
+  @HostBinding('class') readonly className = 'sci-venues';
 
-  tableHeaders: TableHeader[] = [
-    {
-      label: 'Start',
-      key: 'startDate',
-      format: 'text'
-    },
-    {
-      label: 'End',
-      key: 'endDate',
-      format: 'text'
-    },
-    {
-      label: 'Event',
-      key: 'event',
-      format: 'text'
-    },
-    {
-      label: 'Location',
-      key: 'location',
-      format: 'text'
-    },
-    {
-      label: 'Contact',
-      key: 'contact',
-      format: 'text'
-    },
-    {
-      label: 'Media',
-      key: 'media',
-      format: 'icon'
-    }
+  constructor(
+    private activatedRoute: ActivatedRoute
+  ) {}
+  // table
+  tableHeaders = [
+    { label: 'Start', key: 'dateStart', type: 'date', width: 15 },
+    { label: 'End', key: 'dateEnd', type: 'date', width: 15 },
+    { label: 'Event', key: 'title', type: 'text', width: 30 },
+    { label: 'Location', key: 'city', type: 'text', width: 20 },
+    { label: 'Contact', key: 'organizer', type: 'text', width: 20 },
   ];
+  dataSource: MatTableDataSource<Venue> = new MatTableDataSource();
+  // this page
+  body!: VenuesBody;
 
-  testVenues: TableData[] = [
+  searchKey = '';
+  year = '';
+  yearList: string[] = [];
+
+  // dummy
+  galleries: Gallery[] = [
     {
-      startDate: {
-        label: '9/2/2020',
-        type: 'date'
-      },
-      endDate: {
-        label: '9/30/2020',
-        type: 'date'
-      },
-      event: {
-        label: 'Technology Petting Zoo',
-        type: 'text'
-      },
-      location: {
-        label: 'Indiana University UITS, Bloomington, IN',
-        type: 'text'
-      },
-      contact: {
-        label: 'Jeannette Lehr',
-        type: 'text'
-      },
-      media: {
-        label: 'Media',
-        type: 'icons',
-        links: [
-          {
-            icon: 'insert_photo',
-            url: 'www.google.com'
-          }
-        ]
-      }
-    },
-    {
-      startDate: {
-        label: '3/2/2020',
-        type: 'date'
-      },
-      endDate: {
-        label: '5/1/2020',
-        type: 'date'
-      },
-      event: {
-        label: 'Women in Data Science 2020 (Regional Event)',
-        type: 'text'
-      },
-      location: {
-        label: 'UNAM, Mexico City',
-        type: 'text'
-      },
-      contact: {
-        label: 'Mariana Espinosa',
-        type: 'text'
-      },
-      media: {
-        label: 'Media',
-        type: 'icons',
-        links: [
-          {
-            icon: 'videocam',
-            url: 'www.google.com'
-          },
-          {
-            icon: 'insert_photo',
-            url: 'www.google.com'
-          }
-        ]
-      }
+      title: "IBS Workshop Media Computing, IBS Convention Center",
+      date: "2019-02-05",
+      location: "Lauta, Germany",
+      credit: "Places & Spaces",
+      images: ["assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image01.lg.jpg", "assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image02.lg.jpg"],
+      thumbs: ["assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image01.sm.jpg", "assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image02.sm.jpg"]
     }
-  ];
-
-  cardHeaderFunction = (row: TableData) => {
-    return `${row.startDate.label} - ${row.endDate.label}`;
+  ]
+  ngOnInit(): void {
+    // data
+    this.activatedRoute.data.subscribe((data) => {
+      const { venues, body } = data;
+      this.body = body;
+      if (venues && Array.isArray(venues)) {
+        this.dataSource.data = venues;
+        // Assign predicate
+        this.dataSource.filterPredicate = this.filterData;
+      }
+    });
+    this.setYears();
   }
 
-  cardLinkFunction = (row: TableData) => {
-    return row.media.links !== undefined ? row.media.links : [];
+  setYears() {
+    const years  = new Set<string>();
+    this.dataSource.data.forEach((item: Venue) => {
+      const fullDate = new Date(item.dateStart);
+      const year = fullDate.getFullYear().toString();
+      if (!years.has(year)) {
+        years.add(year);
+      }
+    });
+    this.yearList = Array.from(years).sort().reverse();
+  }
+
+  // Predicate for filtering data.
+  filterData(item: Venue, filter: string): boolean {
+    const parsedFilter = JSON.parse(filter);
+    let result = true;
+    if (parsedFilter.year && parsedFilter.year !== 'all') {
+      const year = new Date(item.dateStart).getFullYear().toString();
+      result = result && year === parsedFilter.year;
+    }
+
+    if (parsedFilter.searchKey) {
+      result =
+        result &&
+        (item.title?.toLowerCase().includes(parsedFilter.searchKey) ||
+          item.venue?.toLowerCase().includes(parsedFilter.searchKey));
+    }
+    return result;
+  }
+
+  onSearchChange(searchKey: string): void {
+    this.searchKey = searchKey;
+    this.applyFilter();
+  }
+  onSelectChange(year: string): void {
+    this.year = year;
+    this.applyFilter();
+  }
+  applyFilter(): void {
+    const filter = { year: this.year, searchKey: this.searchKey };
+    const filterString = JSON.stringify(filter);
+    this.dataSource.filter = filterString;
   }
 }

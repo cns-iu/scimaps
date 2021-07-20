@@ -1,4 +1,5 @@
 import { Component, HostBinding, Input } from '@angular/core';
+import { Params } from '@angular/router';
 
 import { NewsItem } from './news-item.model';
 
@@ -19,5 +20,5 @@ export class NewsItemComponent {
   /**
    * News item info
    */
-  @Input() item!: NewsItem;
+  @Input() item!: NewsItem | Params;
 }

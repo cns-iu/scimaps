@@ -15,6 +15,9 @@ $desktop: 1248px;
     bottom: 0;
     right: 0;
     z-index: 1;
+    @include screen.breakpoint(mobile) {
+      width: 100%;
+    }
   }
 
   .logo {

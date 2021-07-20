@@ -1,0 +1,18 @@
+<h1 class="header1">{{ header }}</h1>
+
+<div class="spacer-48">
+</div>
+<div class="learning-material-container">
+  <!-- desktop list-->
+  <div *sciBreakpoint="'mobile+'" class="lm-list-desktop">
+    <ng-container *ngFor="let item of items">
+      <sci-learning-material-item [item]="item"></sci-learning-material-item>
+    </ng-container>
+  </div>
+  <!-- mobile list -->
+  <div *sciBreakpoint="'mobile-'" class="lm-list-mobile">
+    <ng-container *ngFor="let item of items">
+      <sci-learning-material-item [item]="item"></sci-learning-material-item>
+    </ng-container>
+  </div>
+</div>

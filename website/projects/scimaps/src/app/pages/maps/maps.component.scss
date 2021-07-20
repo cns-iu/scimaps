@@ -59,11 +59,13 @@ $breakpoint: 768px;
       justify-content: space-around;
       width: 50%;
       height: 28rem;
+      margin-left: 3rem;
 
       @media (max-width: $mobile) {
         width: 100%;
         padding: 0rem;
         margin-bottom: 1rem;
+        margin-left: 0;
       }
 
       .carousel {
@@ -141,40 +143,23 @@ $breakpoint: 768px;
     }
   }
 
-  .fullscreen-modal {
-    @media (min-width: $mobile) {
-      display: none;
+  .drawer-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    .mobile-icon {
+      cursor: pointer;
     }
 
-    position: absolute;
-    top: 0;
-    z-index: 5;
-    left: 0;
-    width: 100%;
-    padding: 1rem;
-
-    .modal-header {
+    .mobile-title {
       display: flex;
-      align-items: center;
-      margin-bottom: 1.5rem;
+      justify-content: space-around;
+      width: 100%;
 
-      .mobile-icon {
-        cursor: pointer;
+      h3 {
+        margin-bottom: 0rem !important;
       }
-
-      .mobile-title {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-
-        h3 {
-          margin-bottom: 0rem !important;
-        }
-      }
-    }
-
-    .maps-carousel {
-      height: 100%;
     }
   }
 } 

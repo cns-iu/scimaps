@@ -12,14 +12,7 @@ $desktop: 1248px;
   .profile-gallery {
     margin-bottom: 2.5rem;
   }
-  .divider {
-    background-color: #e0e0e0;
-    border-bottom-color: #e0e0e0;
-    border-left-color: #e0e0e0;
-    border-right-color: #e0e0e0;
-    border-top: 0px solid #e0e0e0;
-    margin: 12px 0;
-  }
+  
   .intro {
     .image-container {
       width: 100%;
@@ -74,6 +67,28 @@ $desktop: 1248px;
         width: 70%;
         margin: auto;
       } 
+    }
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0.5rem;
+    // select box
+    .group1 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      overflow: hidden;
+
+      .sci-select {
+      }
+      .sci-sort-headers {
+      }
+    }
+    .sci-search-overlay {
+      overflow: visible;
     }
   }
 }

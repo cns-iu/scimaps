@@ -35,8 +35,8 @@ en:
 
       .next { width: 55%; } .prev { width: 43%; }
   image:
-    sm: image.sm.png
-    med: image.med.png
-    lg: image.lg.png
+    sm: image.sm.jpg
+    med: image.med.jpg
+    lg: image.lg.jpg
   externalLink: 'http://www.scimaps.org/'
 ---

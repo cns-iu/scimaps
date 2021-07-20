@@ -34,10 +34,13 @@ $tablet: 960px;
 
     .icon {
       color: mat-color($accent);
+      cursor: pointer;
     }
 
+
     .social-icons .icon:hover {
-      background-color: mat-color($accent, default-contrast);
+      color: white;
+      background-color: mat-color($accent);
     }
   }
 }

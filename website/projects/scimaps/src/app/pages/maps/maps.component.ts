@@ -1,5 +1,6 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { drawerInOut } from '../../constants/drawer.animations';
 
 import { DiscoverItem, ThumbnailLink } from '../../core/models/discover-item';
 
@@ -7,19 +8,20 @@ import { DiscoverItem, ThumbnailLink } from '../../core/models/discover-item';
 @Component({
   selector: 'sci-maps',
   templateUrl: './maps.component.html',
-  styleUrls: ['./maps.component.scss']
+  styleUrls: ['./maps.component.scss'],
+  animations: [drawerInOut]
 })
 export class MapsComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-maps';
 
   showModal = false;
-  itemsToDisplay = 3;
   highlightBody = '';
   discoverItems: DiscoverItem[] = [];
   displayItems: DiscoverItem[] = [];
   highlightCarouselItems: ThumbnailLink[] = [];
-
+  displayLimit = 3
+  showAllItems = false;
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
@@ -39,15 +41,6 @@ export class MapsComponent implements OnInit {
 
   updateDisplayItems(): void {
     const items: DiscoverItem[] = [...this.discoverItems];
-    this.displayItems = items.splice(0, this.itemsToDisplay);
-  }
-
-  moreMaps(): boolean {
-    return this.itemsToDisplay < this.discoverItems.length;
-  }
-
-  showMoreMaps(): void {
-    this.itemsToDisplay = this.itemsToDisplay + 3;
-    this.updateDisplayItems();
+    this.displayItems = items;
   }
 }

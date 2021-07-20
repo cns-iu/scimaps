@@ -42,6 +42,8 @@ index('gallery/**/readme.md', 'galleries.json');
 index('person/**/readme.md', 'people.json');
 index('book/**/readme.md', 'books.json');
 index('news/**/readme.md', 'news.json');
+index('learning-materials/**/readme.md', 'learning-materials.json')
+index('venues/**/readme.md', 'venues.json');
 
 function writeAppMapIndex(mapType) {
   const iterations = readIndex(`${mapType}Iterations`).reduce((acc, iter) => {
@@ -59,7 +61,7 @@ function writeAppMapIndex(mapType) {
     const link = `${mapType}/${map.en.iteration}/${map.en.sequence}`;
     iterations[map.en.iteration].thumbnails[map.en.sequence] = {
       title: map.en.title,
-      image: `assets/content/${link}/${map.en.image.lg}`,
+      image: `assets/content/${link}/${map.en.image.sm}`,
       link
     };
   }

@@ -1,0 +1,15 @@
+:host {
+  .learning-material-container {
+    .lm-list-desktop {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .lm-list-mobile {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+}

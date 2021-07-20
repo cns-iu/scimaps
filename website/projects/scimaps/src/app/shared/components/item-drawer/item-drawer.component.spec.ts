@@ -12,15 +12,23 @@ describe('ItemDrawerComponent', () => {
     makers: [
       {
         name: 'Maker 1',
-        job: 'Job',
-        bio: 'test bio',
-        thumbnail: 'test thumbnail'
+        title: 'Job',
+        body: 'test bio',
+        image: 'thumbnail',
+        affiliation: '',
+        link: '',
+        slug: '',
+        roles: []
       },
       {
         name: 'Maker 2',
-        job: 'Job',
-        bio: 'test bio',
-        thumbnail: 'test thumbnail'
+        title: 'Job',
+        body: 'test bio',
+        image: 'thumbnail',
+        affiliation: '',
+        link: '',
+        slug: '',
+        roles: []
       }
     ],
     location: 'Test location',

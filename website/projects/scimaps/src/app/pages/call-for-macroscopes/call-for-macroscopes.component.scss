@@ -21,7 +21,6 @@ $desktop: 1248px;
   }
 
   .main-content {
-    // border: 1px solid black;   // comment
     display: flex;
     flex-direction: row;
     @include screen.breakpoint(mobile) {
@@ -92,11 +91,7 @@ $desktop: 1248px;
 
   // Position drawers from Parent.
   .tab-drawer {
-    position: absolute;
-    top: 0;
-    background-color: white;
-    width: 100%;
-    height: 100%;
+    
   }
 
   .drawer-header {

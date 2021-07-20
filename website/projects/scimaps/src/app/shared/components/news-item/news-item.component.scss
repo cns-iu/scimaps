@@ -1,6 +1,13 @@
 @use 'screen';
 
 :host {
+  width: 33.33%;
+  @include screen.breakpoint(tablet) {
+    width: 50%;
+  }
+  @include screen.breakpoint(mobile) {
+    width: 100%;
+  }
   .news-item {
     display: flex;
     flex-direction: row;

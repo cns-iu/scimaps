@@ -1,20 +1,31 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, DatePipe } from '@angular/common';
 
 import { VenuesRoutingModule } from './venues-routing.module';
 import { VenuesComponent } from './venues.component';
-
-import { LazyCardsModule } from '../../shared/components/lazy-cards/lazy-cards.module';
-import { LazyTableModule } from '../../shared/components/lazy-table/lazy-table.module';
-
+import { MatIconModule } from '@angular/material/icon';
+import { AccordianModule } from '../../shared/components/accordian/accordian.module';
+import { TableModule } from '../../shared/components/table/table.module';
+import { SharedModule } from '../../shared/shared.module';
+import { SelectModule } from '../../shared/components/select/select.module';
+import { SearchOverlayModule } from '../../shared/components/search-overlay/search-overlay.module';
+import { ListViewModule } from '../../shared/components/list-view/list-view.module';
+import { GalleriesModule } from '../../shared/components/galleries/galleries.module';
 
 @NgModule({
   declarations: [VenuesComponent],
   imports: [
     CommonModule,
     VenuesRoutingModule,
-    LazyCardsModule,
-    LazyTableModule
-  ]
+    MatIconModule,
+    AccordianModule,
+    TableModule,
+    SharedModule,
+    SelectModule,
+    SearchOverlayModule,
+    ListViewModule,
+    GalleriesModule
+  ],
+  providers: [DatePipe]
 })
 export class VenuesModule { }

@@ -1,0 +1,28 @@
+<div class="venue-item">
+  
+    <div class="main">
+      <div class="card-header">
+        <div class="date mat-display-1">
+          {{ item.dateStart | date:'mediumDate' }} {{item.dateEnd ? '-' : ''}} {{item.dateEnd | date: 'mediumDate': ''}}
+        </div>
+        <div class="gallery">
+          <mat-icon class="icon-gallery" aria-hidden="true">image</mat-icon>
+        </div>
+      </div>
+  
+      <div class="body">
+            <div class="title">
+                {{item.title}}
+            </div>
+            <div class="venue">
+                {{item.venue}}
+            </div>
+            <div class="city">
+                {{item.city}}
+            </div>
+            <div class="organizer">
+                {{item.organizer}}
+            </div>
+      </div>
+    </div>
+  </div>

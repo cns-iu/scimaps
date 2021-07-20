@@ -1,5 +1,6 @@
 import { Component, Input, Output, HostBinding, EventEmitter } from '@angular/core';
 import { MakerInfo } from '../../../core/models/discover-item';
+import { Profile } from '../../../core/models/profile';
 
 /**
  * Subdrawer of the item drawer containing maker information
@@ -17,7 +18,7 @@ export class MakersSubdrawerComponent {
   @Input() title!: string;
 
   /** Information on each maker of the item */
-  @Input() makers!: MakerInfo[];
+  @Input() makers!: Profile[];
 
   /**
    * Emitted when the drawer closes

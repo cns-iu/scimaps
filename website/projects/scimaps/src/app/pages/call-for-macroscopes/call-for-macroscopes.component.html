@@ -37,18 +37,7 @@
             <div class="spacer-48">
             </div>
             <div class="tab-content">
-                <ng-template [ngIf]="activePageTab == 0">
-                    <div markdown [data]="tabContents[0]">
-                    </div>
-                </ng-template>
-                <ng-template [ngIf]="activePageTab == 1">
-                    <div markdown [data]="tabContents[1]">
-                    </div>
-                </ng-template>
-                <ng-template [ngIf]="activePageTab == 2">
-                    <div markdown [data]="tabContents[2]">
-                    </div>
-                </ng-template> 
+                <div markdown [data]="tabContents[activePageTab]"></div> 
             </div> 
         </div>
         <div *sciBreakpoint="'mobile-'" class="mobile-tabs">

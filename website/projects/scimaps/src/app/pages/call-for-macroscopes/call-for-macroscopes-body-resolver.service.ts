@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Resolve } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, take} from 'rxjs/operators';
+import { isHttp } from '../../constants/utils';
 import { ContentService } from '../../shared/services/content.service';
 
 
@@ -25,7 +26,7 @@ export class CallForMacroscopesBodyResolver implements Resolve<CallForMacroscope
       take(1),
       map((response: CallForMacroscopesBody) => {
         if (response.pdfLink) {
-          if (!response.pdfLink.startsWith('http://') || !response.pdfLink.startsWith('//https://')) {
+          if (!isHttp(response.pdfLink)) {
             response.pdfLink = `${this.directory}/${response.pdfLink}`;
           }
         }
