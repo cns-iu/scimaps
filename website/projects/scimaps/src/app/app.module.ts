@@ -1,3 +1,4 @@
+import { ScrollingModule } from '@angular/cdk/scrolling';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
@@ -34,7 +35,8 @@ import { SharedModule } from './shared/shared.module';
 
     AppRoutingModule,
     CoreModule,
-    SharedModule
+    SharedModule,
+    ScrollingModule
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]

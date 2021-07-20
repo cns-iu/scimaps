@@ -1,185 +1,26 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { AfterViewInit, Component, NgZone, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {
-  trigger,
-  query,
-  style,
-  animate,
-  transition,
-  group,
-  animateChild
-} from '@angular/animations';
 
-import { ImageCardItem } from './core/models/image-card-item';
 import { NewsItem } from './shared/components/news-item/news-item.model';
-import { fromEvent, of, Subscription } from 'rxjs';
+import { of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
-
-export const slideInAnimation =
-  trigger('routeAnimations', [
-    transition('Maps => Map', [
-      style({ position: 'relative' }),
-      query(':enter, :leave', [
-        style({
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%'
-        })
-      ]),
-      query(':enter', [
-        style({ left: '100%' })
-      ]),
-      query(':leave', animateChild()),
-      group([
-        query(':leave', [
-          animate('300ms ease-out', style({ left: '-100%' }))
-        ]),
-        query(':enter', [
-          animate('300ms ease-out', style({ left: '0%' }))
-        ])
-      ]),
-      query(':enter', animateChild()),
-    ])
-  ]);
+import { routeTransitionAnimations } from './constants/route.animations';
+import { MatSidenavContainer } from '@angular/material/sidenav';
 
 @Component({
   selector: 'sci-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   animations: [
-    slideInAnimation
+    routeTransitionAnimations
   ]
 })
-export class AppComponent implements OnInit, OnDestroy {
+export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
+  @ViewChild(MatSidenavContainer) sidenavContainer!: MatSidenavContainer;
+
   hasPageScrolled = false;
   sidenavOpen = false;
   windowScrollSubscription: Subscription | undefined;
-  newsItems: NewsItem[] = [
-    {
-      title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
-      date: new Date(2020, 2, 2),
-      publication: 'Library News',
-      institution: 'Virginia Tech',
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'International exhibit unites students, faculty and staff in celebrating mapping technology',
-      date: new Date(2020, 2, 1),
-      publication: 'Research News',
-      institution: 'Vanderbilt',
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'Exhibit travels to the Centers for Disease Control and Prevention Museum in Atlanta',
-      date: new Date(2020, 2, 2),
-      publication: 'SolC News',
-      institution: null,
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'Article from 2019',
-      date: new Date(2019, 3, 1),
-      publication: 'Science News',
-      institution: 'Washington University',
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
-      date: new Date(2020, 2, 2),
-      publication: 'Library News',
-      institution: 'Virginia Tech',
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'International exhibit unites students, faculty and staff in celebrating mapping technology',
-      date: new Date(2020, 2, 1),
-      publication: 'Research News',
-      institution: 'Vanderbilt',
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'Exhibit travels to the Centers for Disease Control and Prevention Museum in Atlanta',
-      date: new Date(2020, 2, 2),
-      publication: 'SolC News',
-      institution: null,
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'Article from 2019',
-      date: new Date(2019, 3, 1),
-      publication: 'Science News',
-      institution: 'Washington University',
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    }
-  ];
-  learningItems: ImageCardItem[] = [
-    {
-      title: 'Humanexus',
-      body: 'A short film that visualizes human communication from the Stone Age to today...and beyond.',
-      slug: 'humanexus'
-    },
-    {
-      title: 'WorldProcessor Globes',
-      body: 'Explore mapped social, scientific, political and economic data on three globes as navigation guides in a "globalized" world.',
-      slug: 'worldprocess-globes'
-    },
-    {
-      title: 'Illuminated Diagram Display',
-      body: 'Explore mapped social, scientific, political and economic data on three globes as navigation guides in a "globalized" world.',
-      slug: 'illluminated-diagram-display'
-    },
-    {
-      title: 'Scultpures of Science',
-      body: 'The history of science realized in tangible form.',
-      slug: 'sculptures-of-science'
-    },
-    {
-      title: 'Inside the Museum',
-      body: 'An imaginative look at the inside of the Metropolitan Museum of Art\'s holdings and spaces.',
-      slug: 'inside-the-museum'
-    },
-    {
-      title: 'The Fundamental Interconnectedness of All Things [dynamic format]',
-      body: '',
-      slug: 'interconnectedness-of-all-things'
-    },
-    {
-      title: 'Gapminder Card Game',
-      body: 'Country cards are arranged to reflect the gaps in the world today, then compared to the Gapminder World Map.',
-      slug: 'gapminder-card-game'
-    },
-    {
-      title: 'Science Maps for Kids',
-      body: 'The hands-on science maps for kids invite children to see, explore, and understand science from above.',
-      slug: 'science-maps-for-kids'
-    },
-    {
-      title: 'Adventures in Knowledge Land Comic Book',
-      body: 'Explores the Atlas of Science book using comics as a forum.',
-      slug: 'knowledge-land-comic'
-    },
-    {
-      title: 'My Science Story Coloring Book',
-      body: 'Kids learn science by coloring.',
-      slug: 'science-coloring-book'
-    }
-  ];
-
-  readonly slides = [
-    'assets/images/benches.jpg',
-    'assets/images/bridge.jpg',
-    'assets/images/flower.jpg',
-    'assets/images/garden.jpg',
-  ];
 
   newsItem: NewsItem = {
     title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
@@ -195,23 +36,10 @@ export class AppComponent implements OnInit, OnDestroy {
     acknowledgement: 'This exhibit is supported by the National Science Foundation under Grant No. IIS-0238261, CHE-0524661, IIS-0534909 and IIS-0715303, the James S. McDonnell Foundation; Thomson Reuters; the Cyberinfrastructure for Network Science Center, University Information Technology Services, and the School of Library and Information Science, all three at Indiana University. Some of the data used to generate the science maps is from the Web of Science by Thomson Reuters and Scopus by Elsevier. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.'
   };
 
+  constructor(private zone: NgZone) {
+  }
+
   ngOnInit(): void {
-    this.windowScrollSubscription = fromEvent(window, 'scroll').pipe(
-      map(() => {
-        return window.scrollY;
-      }),
-      debounceTime(10),
-      distinctUntilChanged(),
-      switchMap((scrollY) => {
-        return of(scrollY);
-      })
-    ).subscribe(scrollY => {
-      if (scrollY <= 0) {
-        this.hasPageScrolled = false;
-      } else {
-        this.hasPageScrolled = true;
-      }
-    });
   }
 
   prepareRoute(outlet: RouterOutlet): string {
@@ -225,5 +53,37 @@ export class AppComponent implements OnInit, OnDestroy {
     if (this.windowScrollSubscription) {
       this.windowScrollSubscription.unsubscribe();
     }
+  }
+
+  hello(event: Event) {
+    console.log('hello');
+    console.log(event);
+  }
+
+  ngAfterViewInit() {
+    const cdkScrollable = this.sidenavContainer.scrollable;
+    this.windowScrollSubscription = cdkScrollable.elementScrolled().pipe(
+      map(() => {
+        return cdkScrollable.measureScrollOffset('top')
+      }),
+      debounceTime(10),
+      distinctUntilChanged(),
+      switchMap((scrollY: number) => {
+        return of(scrollY);
+      })
+    ).subscribe((scrollY: number) => {
+      this.zone.run(() => {
+        if (scrollY <= 0) {
+          this.hasPageScrolled = false;
+        } else {
+          this.hasPageScrolled = true;
+        }
+      });
+    })
+  }
+
+  onActivate() {
+    const cdkScrollable = this.sidenavContainer.scrollable;
+    cdkScrollable.scrollTo({top: 0, left: 0});
   }
 }
