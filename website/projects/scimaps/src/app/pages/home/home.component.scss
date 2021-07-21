@@ -6,9 +6,10 @@ $desktop: 1248px;
 
 :host {
   display: block;
-  background-color: black;
+  // background-color: black;
   border: 1px solid black;
   width: 100%;
+  height: 100vh;
 
   .action-card {
     position: absolute;
@@ -36,8 +37,12 @@ $desktop: 1248px;
     width: 100%;
     height: 100%;
     .image-container {
+      height: 100%;
       position: relative;
       overflow-x: hidden;
+      background: url('../../../assets/images/home/image01.png');
+      background-size: cover;
+      background-repeat: no-repeat;
       img {
         // width: 100%;
         // height: 100%;
