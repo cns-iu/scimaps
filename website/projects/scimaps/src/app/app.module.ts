@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { DrawerModule } from './shared/components/drawer/drawer.module';
+import { GalleryItemModule } from './shared/components/gallery-item/gallery-item.module';
 import { BreakpointRegistryService } from './shared/services/breakpoint-registry.service';
 import { SharedModule } from './shared/shared.module';
 
@@ -38,7 +39,8 @@ import { SharedModule } from './shared/shared.module';
     CoreModule,
     SharedModule,
     ScrollingModule,
-    DrawerModule
+    DrawerModule,
+    GalleryItemModule
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]

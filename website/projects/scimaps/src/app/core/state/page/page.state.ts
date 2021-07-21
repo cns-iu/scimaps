@@ -19,7 +19,9 @@ interface PageStateModel {
     placeholder: 0,
     app: {
       test: 'test',
-      showDrawer: false
+      drawer: {
+        showDrawer: false
+      }
     }
   }
 })
@@ -30,8 +32,13 @@ export class PageState extends NgxsImmutableDataRepository<PageStateModel> {
     return state.app;
   }
 
+  @Selector()
+  static drawer(state: PageStateModel) {
+    return state.app.drawer;
+  }
+
   @Action(SetAppState)
-  setAppState({getState, patchState}: StateContext<PageStateModel>, {payload}: SetAppState) {
+  setAppState({getState, patchState}: StateContext<PageStateModel>, {payload}: Partial<SetAppState>) {
     const state = getState();
     patchState({
       app: {...state.app, ...payload}

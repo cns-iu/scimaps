@@ -6,7 +6,7 @@
           {{ item.dateStart | date:'mediumDate' }} {{item.dateEnd ? '-' : ''}} {{item.dateEnd | date: 'mediumDate': ''}}
         </div>
         <div class="gallery" *ngIf="item.venueImages">
-          <mat-icon class="icon-gallery" aria-hidden="true">image</mat-icon>
+          <mat-icon class="icon-gallery" aria-hidden="true" (click)="openDrawer(item)">image</mat-icon>
         </div>
       </div>
   

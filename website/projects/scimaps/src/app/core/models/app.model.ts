@@ -1,4 +1,10 @@
+import { Params } from "@angular/router";
+
 export interface AppState {
     test: string;
-    showDrawer: boolean;
+    drawer?: {
+        showDrawer: boolean,
+        drawerName?: string,
+        drawerPayload?: Params
+    }
 };

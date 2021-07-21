@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Params } from '@angular/router';
+import { Venue } from '../../../pages/venues/venues-resolver.service';
 
 @Component({
   selector: 'sci-gallery-item',
@@ -8,13 +9,12 @@ import { Params } from '@angular/router';
 })
 export class GalleryItemComponent implements OnInit {
 
-  @Input() item!: Params;
+  @Input() item!: Params | Venue;
   constructor() { }
 
   showOverlay = false;
   overlayImage = '';
   ngOnInit(): void {
-    console.log(this.item);
   }
 
 }
