@@ -10,6 +10,7 @@ import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
+import { DrawerModule } from './shared/components/drawer/drawer.module';
 import { BreakpointRegistryService } from './shared/services/breakpoint-registry.service';
 import { SharedModule } from './shared/shared.module';
 
@@ -36,7 +37,8 @@ import { SharedModule } from './shared/shared.module';
     AppRoutingModule,
     CoreModule,
     SharedModule,
-    ScrollingModule
+    ScrollingModule,
+    DrawerModule
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]

@@ -6,13 +6,15 @@ import { of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
 import { routeTransitionAnimations } from './constants/route.animations';
 import { MatSidenavContainer } from '@angular/material/sidenav';
+import { drawerInOut } from './constants/drawer.animations';
 
 @Component({
   selector: 'sci-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   animations: [
-    routeTransitionAnimations
+    routeTransitionAnimations,
+    drawerInOut
   ]
 })
 export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
@@ -36,6 +38,8 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
     acknowledgement: 'This exhibit is supported by the National Science Foundation under Grant No. IIS-0238261, CHE-0524661, IIS-0534909 and IIS-0715303, the James S. McDonnell Foundation; Thomson Reuters; the Cyberinfrastructure for Network Science Center, University Information Technology Services, and the School of Library and Information Science, all three at Indiana University. Some of the data used to generate the science maps is from the Web of Science by Thomson Reuters and Scopus by Elsevier. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.'
   };
 
+  showDrawer = false;
+
   constructor(private zone: NgZone) {
   }
 
@@ -53,11 +57,6 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
     if (this.windowScrollSubscription) {
       this.windowScrollSubscription.unsubscribe();
     }
-  }
-
-  hello(event: Event) {
-    console.log('hello');
-    console.log(event);
   }
 
   ngAfterViewInit() {
