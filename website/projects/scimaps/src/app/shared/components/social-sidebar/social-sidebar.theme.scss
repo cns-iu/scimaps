@@ -12,6 +12,11 @@
       background-color: mat-color($primary, 500);
       color: mat-color($primary, default-contrast);
       border-bottom: 1px solid mat-color($primary, default-contrast);
+
+      :hover {
+        background-color: mat-color($primary, default-contrast);
+        color: mat-color($primary, 500);
+      }
     }
   }
 }
