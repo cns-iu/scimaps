@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Gallery } from '../../../pages/venues/galleries-resolver.service';
+import { Params } from '@angular/router';
 
 @Component({
   selector: 'sci-galleries',
@@ -8,7 +8,7 @@ import { Gallery } from '../../../pages/venues/galleries-resolver.service';
 })
 export class GalleriesComponent implements OnInit {
 
-  @Input() items: Gallery[] = [];
+  @Input() items: Params[] = [];
   constructor() { }
 
   ngOnInit(): void {

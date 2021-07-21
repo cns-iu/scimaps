@@ -1,10 +1,9 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Params } from '@angular/router';
 import { MatTableDataSource } from '@angular/material/table';
 import { Venue } from './venues-resolver.service';
 import { isSearchOpenTrigger } from '../../constants/drawer.animations';
 import { VenuesBody } from './venues-body-resolver.service';
-import { Gallery } from './galleries-resolver.service';
 @Component({
   selector: 'sci-venues',
   templateUrl: './venues.component.html',
@@ -38,7 +37,7 @@ export class VenuesComponent implements OnInit {
   yearList: string[] = [];
 
   // dummy
-  galleries: Gallery[] = [
+  galleries: Params[] = [
     {
       title: "IBS Workshop Media Computing, IBS Convention Center",
       date: "2019-02-05",
@@ -47,7 +46,7 @@ export class VenuesComponent implements OnInit {
       images: ["assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image01.lg.jpg", "assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image02.lg.jpg"],
       thumbs: ["assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image01.sm.jpg", "assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image02.sm.jpg"]
     }
-  ]
+  ];
   ngOnInit(): void {
     // data
     this.activatedRoute.data.subscribe((data) => {
