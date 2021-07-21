@@ -8,7 +8,7 @@ credit: "Places & Spaces"
 city: Chicago
 state: IL
 country: USA
-pdfLink:
+pdfLink: 20150515-computaional-social-science.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

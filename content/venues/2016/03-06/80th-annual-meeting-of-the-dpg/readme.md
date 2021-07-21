@@ -8,7 +8,7 @@ credit: Andrea Scharnhorst
 city: Regensburg
 state:
 country: Germany
-pdfLink:
+pdfLink: 20160306-80-annual-meeting-dpg.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

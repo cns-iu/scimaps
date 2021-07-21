@@ -8,7 +8,7 @@ credit: "Places & Spaces"
 city: Bloomington
 state: IN
 country: USA
-pdfLink:
+pdfLink: 20140623-acm-web-conference.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

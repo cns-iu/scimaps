@@ -8,7 +8,7 @@ credit: "Places & Spaces"
 city: New York
 state: NY
 country: USA
-pdfLink:
+pdfLink: 20141017-science-film-festival.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

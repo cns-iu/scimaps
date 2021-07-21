@@ -8,6 +8,6 @@ credit: "Places & Spaces"
 city: Bloomington
 state: IN
 country: USA
-pdfLink:
+pdfLink: 20141103-plug-play-macroscope.pdf
 venueImages:
 ---

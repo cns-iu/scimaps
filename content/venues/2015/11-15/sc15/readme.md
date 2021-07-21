@@ -8,7 +8,7 @@ credit: Laura Diaz
 city: Austin
 state: TX
 country: USA
-pdfLink:
+pdfLink: 20151115-supercomputing-conference.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

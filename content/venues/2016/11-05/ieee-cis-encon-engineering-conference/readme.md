@@ -8,7 +8,7 @@ credit: "Katy Börner"
 city: Indianapolis
 state: IN
 country: USA
-pdfLink:
+pdfLink: 20161105-ieee-cis-encon.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

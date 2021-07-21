@@ -8,7 +8,7 @@ credit: "Katy Börner"
 city: Atlanta
 state: GA
 country: USA
-pdfLink:
+pdfLink: 20160125-places-spaces-cdc-museum.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

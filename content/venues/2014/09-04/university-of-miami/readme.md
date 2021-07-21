@@ -75,6 +75,8 @@ venueImages:
  - sm: image32.sm.jpg
    lg: image32.lg.jpg
  - sm: image33.sm.jpg
+   lg: image33.lg.jpg
+ - sm: image34.sm.jpg
    lg: image34.lg.jpg
  - sm: image35.sm.jpg
    lg: image35.lg.jpg

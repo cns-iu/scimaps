@@ -8,7 +8,7 @@ credit: "Places & Spaces"
 city: Copenhagen
 state:
 country: Denmark
-pdfLink:
+pdfLink: 20140622-euro-science-open-forum.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

@@ -8,6 +8,6 @@ credit:
 city: New York
 state: NY
 country: USA
-pdfLink:
+pdfLink: 20150328-newyork-bigdata-fest.pdf
 venueImages:
 ---

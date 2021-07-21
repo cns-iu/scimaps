@@ -8,7 +8,7 @@ credit: Lisel Record
 city: Bloomington
 state: IN
 country: USA
-pdfLink:
+pdfLink: 20160418-Talks-carrielongley-recontextualizing-form.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

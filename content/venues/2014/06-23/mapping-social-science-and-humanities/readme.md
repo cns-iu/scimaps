@@ -8,6 +8,6 @@ credit:
 city: Copenhagen
 state:
 country: Denmark
-pdfLink:
+pdfLink: 20140623-maping-social-science.pdf
 venueImages:
 ---

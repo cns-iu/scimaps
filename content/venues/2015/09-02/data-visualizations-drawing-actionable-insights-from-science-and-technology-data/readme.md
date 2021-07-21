@@ -8,7 +8,7 @@ credit: John Casti
 city: Hoboken
 state: NJ
 country: USA
-pdfLink:
+pdfLink: 20150902-drawing-actionable-insights.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

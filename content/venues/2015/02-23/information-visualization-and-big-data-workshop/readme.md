@@ -8,7 +8,7 @@ credit: "Places & Spaces"
 city: Toronto
 state:
 country: Canada
-pdfLink:
+pdfLink: 20150223-visualization-big-data.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

@@ -8,6 +8,6 @@ credit: "Places & Spaces"
 city: "Montréal"
 state:
 country: Canada
-pdfLink:
+pdfLink: 20140707-web-science-mind.pdf
 venueImages:
 ---

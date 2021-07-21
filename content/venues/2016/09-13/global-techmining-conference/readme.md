@@ -8,7 +8,7 @@ credit: Ismael Rafols
 city: "València"
 state:
 country: Spain
-pdfLink:
+pdfLink: 20160913-global-techmining-conference.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

@@ -8,7 +8,7 @@ credit: Andrew Lumsdaine
 city: New Orleans
 state: LA
 country: USA
-pdfLink:
+pdfLink: 20141116-conference-high-performance.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

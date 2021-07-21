@@ -8,7 +8,7 @@ credit: Jamie Blustein
 city: Halifax
 state: Nova Scotia
 country: Canada
-pdfLink:
+pdfLink: 20160710-acm-hypertext-conference.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

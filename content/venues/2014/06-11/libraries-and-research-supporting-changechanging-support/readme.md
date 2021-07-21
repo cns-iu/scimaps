@@ -8,6 +8,6 @@ credit:
 city: Amsterdam
 state:
 country: Netherlands
-pdfLink:
+pdfLink: 20140611-libraries-research.pdf
 venueImages:
 ---

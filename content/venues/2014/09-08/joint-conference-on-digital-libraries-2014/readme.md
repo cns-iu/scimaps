@@ -8,7 +8,7 @@ credit: "Places & Spaces"
 city: London
 state:
 country: United Kingdom
-pdfLink:
+pdfLink: 20140908-conference-digital-libraries.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

@@ -8,7 +8,7 @@ credit: Andrea Scharnhorst
 city: The Hague
 state:
 country: Netherlands
-pdfLink:
+pdfLink: 20150527-royal-netherlands-academy.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

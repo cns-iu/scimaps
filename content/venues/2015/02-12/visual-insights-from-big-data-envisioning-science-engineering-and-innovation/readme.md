@@ -8,7 +8,7 @@ credit: "Places & Spaces"
 city: San Jose
 state: CA
 country: USA
-pdfLink:
+pdfLink: 20150212-visualization-insights-big-data.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

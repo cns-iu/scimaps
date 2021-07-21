@@ -8,7 +8,7 @@ credit: Dashun Wang
 city: Tempe
 state: AZ
 country: USA
-pdfLink:
+pdfLink: 20151001-conference-complex-systems.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

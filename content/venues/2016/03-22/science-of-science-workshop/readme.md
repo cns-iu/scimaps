@@ -5,10 +5,10 @@ title: "Science of Science Workshop"
 venue: "Library of Congress"
 organizer: Todd Theriault, Tom Evans
 credit: "Places & Spaces"
-city: Washington, DC
+city: "Washington, DC"
 state: 
 country: USA
-pdfLink:
+pdfLink: 20160322-science-science-workshop.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

@@ -8,7 +8,7 @@ credit: "Places & Spaces"
 city: Leiden
 state:
 country: The Netherlands
-pdfLink:
+pdfLink: 20140407-simulating-social-processes.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

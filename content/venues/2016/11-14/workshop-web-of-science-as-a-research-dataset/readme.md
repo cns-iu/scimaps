@@ -8,7 +8,7 @@ credit: "Places & Spaces"
 city: Bloomington
 state: IN
 country: USA
-pdfLink:
+pdfLink: 20161114-ws-webofscience.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

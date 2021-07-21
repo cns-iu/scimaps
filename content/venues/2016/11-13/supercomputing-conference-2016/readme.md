@@ -8,7 +8,7 @@ credit: Mike Boyles
 city: Salt Lake City
 state: UT
 country: USA
-pdfLink:
+pdfLink: 20161113-supercomputing-conference.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

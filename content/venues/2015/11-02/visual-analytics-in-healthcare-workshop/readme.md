@@ -8,7 +8,7 @@ credit: "Katy Börner"
 city: Bloomington
 state: IN
 country: USA
-pdfLink:
+pdfLink: 20151102-visual-analytics-healthcare.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

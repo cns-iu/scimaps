@@ -8,7 +8,7 @@ credit: "Katy Börner, Andreas Bueckle"
 city: Los Angeles
 state: CA
 country: USA
-pdfLink:
+pdfLink: 20160411-culture-analytics-tim-la.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

@@ -8,7 +8,7 @@ credit: Daniel Halsey
 city: West Lafayette
 state: IN
 country: USA
-pdfLink:
+pdfLink: 20160803-cra-wcdc-cadens.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

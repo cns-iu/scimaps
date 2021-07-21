@@ -8,7 +8,7 @@ credit: Julie Overfield
 city: Bloomington
 state: IN
 country: USA
-pdfLink:
+pdfLink: 20161219-intelligent-systems-engineering.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

@@ -8,6 +8,6 @@ credit:
 city: Lansing
 state: MI
 country: USA
-pdfLink:
+pdfLink: 20150529-hastac-humanexus-screening.pdf
 venueImages:
 ---

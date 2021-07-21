@@ -8,7 +8,7 @@ credit: "Paweł Brzezinski, Agnieszka Uzieblo"
 city: Warsaw
 state:
 country: Poland
-pdfLink:
+pdfLink: 20150918-visualization-science.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

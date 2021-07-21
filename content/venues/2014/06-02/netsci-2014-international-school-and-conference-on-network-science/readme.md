@@ -8,6 +8,6 @@ credit:
 city: Berkeley
 state: CA
 country: USA
-pdfLink:
+pdfLink: 20140602-netsci-conference.pdf
 venueImages:
 ---

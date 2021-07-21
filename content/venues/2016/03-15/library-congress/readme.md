@@ -8,7 +8,7 @@ credit: Dr. Francis Harvey
 city: Leipzig
 state:
 country: Germany
-pdfLink:
+pdfLink: 20160315-library-congress.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

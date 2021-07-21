@@ -5,9 +5,9 @@ title: "Linking International Databases to Build Strategic Academic Partnerships
 venue:
 organizer:
 credit:
-city: Washington, DC
+city: "Washington, DC"
 state:
 country: USA
-pdfLink:
+pdfLink: 20140514-linking-international-databases.pdf
 venueImages:
 ---
