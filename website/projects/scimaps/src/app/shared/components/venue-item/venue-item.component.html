@@ -5,7 +5,7 @@
         <div class="date mat-display-1">
           {{ item.dateStart | date:'mediumDate' }} {{item.dateEnd ? '-' : ''}} {{item.dateEnd | date: 'mediumDate': ''}}
         </div>
-        <div class="gallery">
+        <div class="gallery" *ngIf="item.venueImages">
           <mat-icon class="icon-gallery" aria-hidden="true">image</mat-icon>
         </div>
       </div>
@@ -26,3 +26,10 @@
       </div>
     </div>
   </div>
+
+  <sci-drawer *ngIf="false">
+    <div drawer>
+      <sci-gallery-item [item]="item">
+      </sci-gallery-item>
+    </div>
+  </sci-drawer>
