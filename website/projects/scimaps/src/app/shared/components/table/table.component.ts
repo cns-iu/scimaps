@@ -2,6 +2,9 @@ import { AfterViewInit, Component, HostBinding, Input, OnInit, ViewChild } from 
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
+import { Params } from '@angular/router';
+import { Store } from '@ngxs/store';
+import { SetAppState } from '../../../core/actions/app.actions';
 
 @Component({
   selector: 'sci-table',
@@ -13,11 +16,17 @@ export class TableComponent implements OnInit, AfterViewInit {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) matSort!: MatSort;
   @Input() dataSource: MatTableDataSource<any> = new MatTableDataSource();
-  @Input() tableHeaders: {key: string, label: string, width?: number, type?: string}[] = [];
+  @Input() tableHeaders: {
+    key: string,
+    label: string,
+    width?: number,
+    type?: string,
+    icon?: string
+  }[] = [];
   @Input() headersOnly = false;
   columns: string[] = [];
 
-  constructor() {
+  constructor(private store: Store) {
   }
 
   ngOnInit(): void {
@@ -27,5 +36,13 @@ export class TableComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.matSort;
+  }
+
+  openVenueGalleryDrawer(item: Params) {
+    this.store.dispatch(new SetAppState({drawer: {
+      showDrawer: true,
+      drawerName: 'venue-gallery',
+      drawerPayload: item as Params
+    }}));
   }
 }

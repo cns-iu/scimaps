@@ -21,9 +21,10 @@ export class VenuesComponent implements OnInit {
   tableHeaders = [
     { label: 'Start', key: 'dateStart', type: 'date', width: 15 },
     { label: 'End', key: 'dateEnd', type: 'date', width: 15 },
-    { label: 'Event', key: 'title', type: 'text', width: 30 },
+    { label: 'Event', key: 'title', type: 'text', width: 25 },
     { label: 'Location', key: 'city', type: 'text', width: 20 },
     { label: 'Contact', key: 'organizer', type: 'text', width: 20 },
+    { label: 'Gallery', key: 'venueImages', type: 'icon', icon: 'image', width: 5 },
   ];
   sortHeaders = this.tableHeaders.filter(item => {
     return item.key === 'dateStart' || item.key === 'title' || item.key === 'city';

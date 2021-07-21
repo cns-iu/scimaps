@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
 import { Params } from '@angular/router';
 import { Venue } from '../../../pages/venues/venues-resolver.service';
 
