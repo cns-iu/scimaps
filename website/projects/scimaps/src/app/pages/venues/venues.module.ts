@@ -10,7 +10,6 @@ import { SharedModule } from '../../shared/shared.module';
 import { SelectModule } from '../../shared/components/select/select.module';
 import { SearchOverlayModule } from '../../shared/components/search-overlay/search-overlay.module';
 import { ListViewModule } from '../../shared/components/list-view/list-view.module';
-import { GalleriesModule } from '../../shared/components/galleries/galleries.module';
 
 @NgModule({
   declarations: [VenuesComponent],
@@ -23,8 +22,7 @@ import { GalleriesModule } from '../../shared/components/galleries/galleries.mod
     SharedModule,
     SelectModule,
     SearchOverlayModule,
-    ListViewModule,
-    GalleriesModule
+    ListViewModule
   ],
   providers: [DatePipe]
 })
