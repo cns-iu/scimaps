@@ -1,5 +1,6 @@
-import { Component, Input, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Params } from '@angular/router';
+
 import { Venue } from '../../../pages/venues/venues-resolver.service';
 
 @Component({
@@ -10,6 +11,8 @@ import { Venue } from '../../../pages/venues/venues-resolver.service';
 export class GalleryItemComponent implements OnInit {
 
   @Input() item!: Params | Venue;
+  @Output() closed: EventEmitter<string> = new EventEmitter<string>();
+  
   constructor() { }
 
   showOverlay = false;
@@ -17,4 +20,7 @@ export class GalleryItemComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  closeDrawer() {
+    this.closed.emit('close');
+  }
 }

@@ -17,11 +17,8 @@
 
 <sci-drawer [@drawerInOut] *ngIf="(drawer$ | async)?.showDrawer">
   <div drawer>
-    <div (click)="closeDrawer()">
-      Close
-    </div>
     <ng-container [ngSwitch]="(drawer$ | async)?.drawerName">
-      <sci-gallery-item *ngSwitchCase="'venue-gallery'" [item]="(drawer$ | async)?.drawerPayload">
+      <sci-gallery-item *ngSwitchCase="'venue-gallery'" [item]="(drawer$ | async)?.drawerPayload" (closed)="closeDrawer()">
       </sci-gallery-item>
     </ng-container>
   </div>

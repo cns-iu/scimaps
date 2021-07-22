@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule, DatePipe } from '@angular/common';
 import { GalleryItemComponent } from './gallery-item.component';
 import { DrawerModule } from '../drawer/drawer.module';
+import { MatIconModule } from '@angular/material/icon';
 
 
 
@@ -9,7 +10,8 @@ import { DrawerModule } from '../drawer/drawer.module';
   declarations: [GalleryItemComponent],
   imports: [
     CommonModule,
-    DrawerModule
+    DrawerModule,
+    MatIconModule
   ],
   exports: [GalleryItemComponent]
 })
