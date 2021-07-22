@@ -50,9 +50,14 @@
   .close-icon {
     position: absolute;
     right: 1%;
-    margin-top: 0.25rem;
     cursor: pointer;
+    border-radius: 50%;
+    &:hover {
+      background-color: #7997a3;
+    }
   }
+
+  
 
   .hidden {
     display: none !important;
