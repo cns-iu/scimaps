@@ -26,7 +26,7 @@ en:
     innovations, and confirms that the identified emerging topics have high face
     validity.
   makers:
-    - kevin-w-boyack/readme
+    - kevin-boyack/readme
     - richard-klavans/readme
     - henry-g-small/readme
   year: 2013

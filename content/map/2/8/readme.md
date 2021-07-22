@@ -27,7 +27,7 @@ en:
     - w-bradford-paley/readme
     - elisha-f-h-allgood/readme
     - katy-borner/readme
-    - bruce-w-herr-ii/readme
+    - bruce-herr-ii/readme
     - todd-holloway/readme
   year: 2006
   references:
