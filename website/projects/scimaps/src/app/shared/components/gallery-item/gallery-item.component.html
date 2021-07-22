@@ -6,7 +6,8 @@
     </div>
     <div class="thumbnails-container">
         <div class="thumbnail" *ngFor="let image of item.venueImages;let i = index" (click)="overlayImage = item.venueImages[i].lg; showOverlay = true">
-            <img [src]="image.sm" [alt]="image">
+            <img [src]="image.sm" [alt]="image.sm">
+
         </div>
     </div>
 </div>
@@ -19,7 +20,7 @@
             Close
         </div>
         <div class="overlay-container">
-            <img [src]="overlayImage" alt="">
+            <img [src]="overlayImage" [alt]="overlayImage">
         </div>
     </div>
 </sci-drawer>
