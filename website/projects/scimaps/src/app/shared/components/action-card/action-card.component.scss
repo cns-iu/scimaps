@@ -4,15 +4,16 @@
     flex-direction: row;
     justify-content: space-between;
     border-bottom: none;
+    position: relative;
+    margin-left: auto;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    width: 27.6875rem;
+    max-width: 27.6875rem;
     height: 13rem;
 
     .text-content {
       padding: 1.5rem;
       width: 65%;
-
       .title {
         font-weight: 500;
         margin-bottom: .8rem;
