@@ -32,6 +32,12 @@
     td {
       padding: 1rem;
       border-bottom: none;
+
+      mat-icon {
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
     
   }
