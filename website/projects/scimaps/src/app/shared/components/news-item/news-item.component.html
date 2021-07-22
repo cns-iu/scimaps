@@ -3,7 +3,7 @@
   <div class="info">
     <div class="card-header">
       <div class="date mat-display-1">
-        {{ item.date | date:'mediumDate' }}
+        {{ item.date | date:'mediumDate':'+0000' }}
       </div>
       <div class="download">
         <a *ngIf="item.pdfLink" [href]="item.pdfLink" download>

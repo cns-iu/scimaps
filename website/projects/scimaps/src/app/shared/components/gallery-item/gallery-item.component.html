@@ -1,13 +1,12 @@
 <div class="gallery-item">
     <h2 class="header2">{{item.title}}</h2>
     <div class="details">
-        <div>Date: {{item.dateStart | date:'mediumDate' }}</div>
+        <div>Date: {{item.dateStart | date:'mediumDate':'+0000' }}</div>
         <div>Photoes By: {{item.credit}}</div>
     </div>
     <div class="thumbnails-container">
         <div class="thumbnail" *ngFor="let image of item.venueImages;let i = index" (click)="overlayImage = item.venueImages[i].lg; showOverlay = true">
             <img [src]="image.sm" [alt]="image.sm">
-
         </div>
     </div>
 </div>

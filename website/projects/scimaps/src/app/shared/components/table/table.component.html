@@ -20,7 +20,7 @@
         </ng-template>
         <ng-template [ngIf]="header.type == 'date' && !headersOnly">
             <td mat-cell *matCellDef="let element" [ngStyle]="{'width': header.width + '%'}">
-                {{element[header.key] | date: 'dd-MM-yyyy'}}
+                {{element[header.key] | date: 'dd-MM-yyyy':'+0000'}}
             </td>
         </ng-template>
         <ng-template [ngIf]="header.type == 'icon' && !headersOnly">
