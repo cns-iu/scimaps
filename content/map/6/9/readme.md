@@ -22,7 +22,7 @@ en:
     fabric of science can help researchers to understand and discover ways to
     change their strategic positions in science.
   makers:
-    - kevin-w-boyack/readme
+    - kevin-boyack/readme
     - richard-klavans/readme
   year: 2010
   references:

@@ -25,7 +25,7 @@ en:
     areas in which those nations have a leadership role that is not matched by
     the U.S.
   makers:
-    - kevin-w-boyack/readme
+    - kevin-boyack/readme
     - richard-klavans/readme
   year: 2008
   references:

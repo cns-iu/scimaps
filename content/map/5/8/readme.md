@@ -25,7 +25,7 @@ en:
     - johan-bollen/readme
     - herbert-van-de-sompel/readme
     - aric-hagberg/readme
-    - luis-ma-bettencourt/readme
+    - luis-m-a-bettencourt/readme
     - ryan-chute/readme
     - marko-a-rodriguez/readme
     - lyudmila-balakireva/readme
