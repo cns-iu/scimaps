@@ -9,8 +9,6 @@ $desktop: 1248px;
   // background-color: black;
   border: 1px solid black;
   width: 100%;
-  height: 100vh;
-
   .action-card {
     position: absolute;
     bottom: 0;
@@ -26,7 +24,7 @@ $desktop: 1248px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+    z-index: 5;
     img {
       width: 100%;
       height: 100%;
@@ -36,6 +34,7 @@ $desktop: 1248px;
   .home {
     width: 100%;
     height: 100%;
+    height: calc(100vh - 72px);
     .image-container {
       height: 100%;
       position: relative;
