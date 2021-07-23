@@ -16,7 +16,7 @@
       <!-- Title -->
       <div class="text">
         <!-- Link -->
-        <ng-template [ngIf]="item.sourceUrl" [ngIfElse]="text">
+        <!-- <ng-template [ngIf]="item.sourceUrl" [ngIfElse]="text">
           <div class="link">
             <a [href]="item.sourceUrl" target="_blank" rel="noopener noreferrer">
               <div class="link-title">
@@ -24,13 +24,13 @@
               </div>
             </a>
           </div>
-        </ng-template>
+        </ng-template> -->
         <!-- Title -->
-        <ng-template #text>
+        <!-- <ng-template #text> -->
           <div class="title">
             {{item.title}}
           </div>
-        </ng-template>
+        <!-- </ng-template> -->
       </div>
       <div class="identifier">
         {{item.publication}} {{item.institution ? 'at ' + item.institution : '' }}
