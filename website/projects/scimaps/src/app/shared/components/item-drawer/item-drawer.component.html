@@ -41,8 +41,10 @@
       <a [href]="item.externalLink" target="_blank" rel="noopener noreferrer">
         <img class="thumbnail" [src]="item.thumbnail" alt="item image">
       </a>
-      <mat-icon *ngIf="type === 'map'" class="zoom icon">zoom_in</mat-icon>
-      <mat-icon *ngIf="type === 'macroscope'" class="launch icon">launch</mat-icon>
+      <a class="icon" [href]="item.externalLink" target="_blank" rel="noopener noreferrer">
+        <mat-icon *ngIf="type === 'map'" class="zoom">zoom_in</mat-icon>
+        <mat-icon *ngIf="type === 'macroscope'" class="launch">launch</mat-icon>
+      </a>
     </div>
 
     <h2 class="details-title mobile">{{item.title}}</h2>
