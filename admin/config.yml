@@ -33,7 +33,7 @@ collections:
             - { name: pdfLink, label: File, widget: file }
       - label: What is a Map?
         name: whatIsAMap
-        file: content/site/whatIsAMap.md
+        file: content/site/maps/whatIsAMap.md
         media_folder: ''
         preview_path: maps
         fields:

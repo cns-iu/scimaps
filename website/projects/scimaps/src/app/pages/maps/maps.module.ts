@@ -9,6 +9,7 @@ import { ItemDrawerModule } from '../../shared/components/item-drawer/item-drawe
 import { MatIconModule } from '@angular/material/icon';
 import { CarouselModule } from '../../shared/components/carousel/carousel.module';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
+import { SharedModule } from '../../shared/shared.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { DrawerModule } from '../../shared/components/drawer/drawer.module';
     MatIconModule,
     CarouselModule,
     ItemDrawerModule,
-    DrawerModule
+    DrawerModule,
+    SharedModule
   ]
 })
 export class MapsModule { }
