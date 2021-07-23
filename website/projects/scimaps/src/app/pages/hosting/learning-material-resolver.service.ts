@@ -21,7 +21,21 @@ export class LearningMaterialResolverService
   implements Resolve<LearningMaterial[]>
 {
   directory = 'assets/content/learning-materials';
-  constructor(private contentService: ContentService) {}
+  constructor(private contentService: ContentService) { }
+
+  updatePaths(lm: LearningMaterial): LearningMaterial {
+    lm.slug = toSlug(lm.title);
+    if (lm.image) {
+      if (lm.image.sm && !isHttp(lm.image.sm)) {
+        lm.image.sm = `${this.directory}/${lm.slug}/${lm.image.sm}`;
+      }
+      if (lm.image.lg && !isHttp(lm.image.lg)) {
+        lm.image.lg = `${this.directory}/${lm.slug}/${lm.image.lg}`;
+      }
+    }
+    return lm;
+  }
+
   resolve(): LearningMaterial[] | Observable<LearningMaterial[]> {
     return this.contentService
       .getIndex<LearningMaterial>('learning-materials')
@@ -29,16 +43,7 @@ export class LearningMaterialResolverService
         take(1),
         map((response: LearningMaterial[]) => {
           return response.map((lm: LearningMaterial) => {
-            lm.slug = toSlug(lm.title);
-            if (lm.image) {
-              if (lm.image.sm && !isHttp(lm.image.sm)) {
-                lm.image.sm = `${this.directory}/${lm.slug}/${lm.image.sm}`;
-              }
-              if (lm.image.lg && !isHttp(lm.image.lg)) {
-                lm.image.lg = `${this.directory}/${lm.slug}/${lm.image.lg}`;
-              }
-            }
-            return lm;
+            return this.updatePaths(lm);
           });
         })
       );
