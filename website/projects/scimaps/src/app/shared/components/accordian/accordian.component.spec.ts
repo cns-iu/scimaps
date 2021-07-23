@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AccordianComponent } from './accordian.component';
+import { AccordianModule } from './accordian.module';
 
 describe('AccordianComponent', () => {
   let component: AccordianComponent;
@@ -8,7 +9,8 @@ describe('AccordianComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AccordianComponent ]
+      declarations: [ AccordianComponent ],
+      imports: [AccordianModule]
     })
     .compileComponents();
   });
