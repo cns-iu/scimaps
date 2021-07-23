@@ -15,6 +15,7 @@ export class TableComponent implements OnInit, AfterViewInit {
   @HostBinding('class') readonly clsName = 'sci-table';
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) matSort!: MatSort;
+  // tslint:disable-next-line: no-any
   @Input() dataSource: MatTableDataSource<any> = new MatTableDataSource();
   @Input() tableHeaders: {
     key: string,

@@ -6,7 +6,7 @@ import { Venue, VenuesResolverService } from './venues-resolver.service';
 
 export const getVenues = (n: number): Venue[] => {
   const result: Venue[] = [];
-  for (let i=0; i< n; i++) {
+  for (let i = 0; i < n; i++) {
     result.push({
       dateStart: '2012-02-02',
       dateEnd: '',
@@ -63,8 +63,8 @@ describe('VenuesResolverService', () => {
     const date = ('0' + fullDate.getUTCDate()).slice(-2);
     const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
     const slug = toSlug(venue.title);
-    
+
     expect(newVenue.pdfLink).toEqual(`${service.directory}/${year}/${month}-${date}/${slug}/${venue.pdfLink}`);
-    expect(newVenue.venueImages[0].sm).toEqual(`${service.directory}/${year}/${month}-${date}/${slug}/${venue.venueImages[0].sm}`)
+    expect(newVenue.venueImages[0].sm).toEqual(`${service.directory}/${year}/${month}-${date}/${slug}/${venue.venueImages[0].sm}`);
   });
 });
