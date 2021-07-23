@@ -133,7 +133,6 @@ $breakpoint: 768px;
         flex-direction: column;
         width: 50%;
         position: relative;
-
         @media (max-width: $breakpoint) {
           width: 100%;
         }
@@ -142,6 +141,9 @@ $breakpoint: 768px;
           object-fit: contain;
           width: 100%;
           cursor: pointer;
+          &:hover {
+            opacity: 70%;
+          }  
         }
 
         .icon {
