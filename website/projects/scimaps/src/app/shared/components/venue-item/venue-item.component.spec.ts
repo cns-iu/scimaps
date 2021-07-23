@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { NgxsModule } from '@ngxs/store';
 import { Venue } from '../../../pages/venues/venues-resolver.service';
 
 import { VenueItemComponent } from './venue-item.component';
@@ -24,14 +25,14 @@ export const getVenues = (n: number): Venue[] => {
   }
   return result;
 }
-describe('VenueItemComponent', () => {
+fdescribe('VenueItemComponent', () => {
   let component: VenueItemComponent;
   let fixture: ComponentFixture<VenueItemComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ VenueItemComponent ],
-      imports: [VenueItemModule]
+      imports: [VenueItemModule, NgxsModule.forRoot([])]
     })
     .compileComponents();
   });
