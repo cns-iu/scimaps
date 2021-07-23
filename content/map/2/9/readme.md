@@ -22,7 +22,7 @@ en:
     scientific paradigms.
   makers:
     - richard-klavans/readme
-    - kevin-w-boyack/readme
+    - kevin-boyack/readme
   year: 2006
   references:
     - >-

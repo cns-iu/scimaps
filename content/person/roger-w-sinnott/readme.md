@@ -1,6 +1,6 @@
 ---
 name: Roger W. Sinnott
-last_name: Sinnot
+last_name: Sinnott
 image: image.jpg
 roles:
   - maker

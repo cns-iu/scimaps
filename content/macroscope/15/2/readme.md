@@ -32,7 +32,7 @@ en:
     "Macrosope: Politoscope").
   makers:
     - maziyar-panahi/readme
-    - noandeacute-gaumont/readme
+    - noe-gaumont/readme
     - david-chavalarias/readme
   year: 2017
   references:

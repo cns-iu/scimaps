@@ -37,7 +37,7 @@ en:
     "Macroscope: Refugee Flow").
   makers:
     - abin-abraham/readme
-    - will-jiahao-su/readme
+    - will-su/readme
   year: 2018
   references:
     - >-
