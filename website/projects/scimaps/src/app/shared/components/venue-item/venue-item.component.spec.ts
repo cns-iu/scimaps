@@ -25,7 +25,7 @@ export const getVenues = (n: number): Venue[] => {
   }
   return result;
 }
-fdescribe('VenueItemComponent', () => {
+describe('VenueItemComponent', () => {
   let component: VenueItemComponent;
   let fixture: ComponentFixture<VenueItemComponent>;
 
