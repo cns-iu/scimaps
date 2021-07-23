@@ -9,4 +9,7 @@ import { ChangeDetectionStrategy, Component, HostBinding } from '@angular/core';
 })
 export class ContactComponent {
   @HostBinding('class') readonly clsName = 'sci-contact mat-display-3';
+  facebook = 'https://www.facebook.com/mappingscience';
+  twitter = 'https://www.twitter.com/mappingscience';
+  instagram = 'https://www.instagram.com/cns_at_iu';
 }

@@ -38,7 +38,7 @@
     </div>
 
     <div class="details-image">
-      <a href="{{item.externalLink}}">
+      <a [href]="item.externalLink" target="_blank" rel="noopener noreferrer">
         <img class="thumbnail" [src]="item.thumbnail" alt="item image">
       </a>
       <mat-icon *ngIf="type === 'map'" class="zoom icon">zoom_in</mat-icon>
