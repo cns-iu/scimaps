@@ -12,9 +12,9 @@ import { ContentService } from '../../shared/services/content.service';
 })
 export class MacroscopesResolverService implements Resolve<DiscoverItem[]> {
 
-  constructor(private content: ContentService, private router: Router) { }
+  constructor(private content: ContentService) { }
 
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<DiscoverItem[]> | Observable<never> {
+  resolve(): Observable<DiscoverItem[]> | Observable<never> {
     return this.content.getIndex<DiscoverItem>('app-macroscopes').pipe(take(1));
   }
 }

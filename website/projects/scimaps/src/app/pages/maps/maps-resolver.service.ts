@@ -12,9 +12,9 @@ import { ContentService } from '../../shared/services/content.service';
 })
 export class MapsResolverService implements Resolve<DiscoverItem[]> {
 
-  constructor(private content: ContentService, private router: Router) { }
+  constructor(private content: ContentService) { }
 
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<DiscoverItem[]> | Observable<never> {
+  resolve(): Observable<DiscoverItem[]> | Observable<never> {
     return this.content.getIndex<DiscoverItem>('app-maps').pipe(take(1));
   }
 }
