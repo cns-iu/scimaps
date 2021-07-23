@@ -23,7 +23,7 @@ export class MapsBodyResolverService implements Resolve<MapsBody> {
   constructor(private content: ContentService, private router: Router) { }
 
   resolve(): Observable<MapsBody> | Observable<never> {
-    return this.content.getContent<MapsBody>('site/whatIsAMap.md').pipe(
+    return this.content.getContent<MapsBody>('site/maps/whatIsAMap.md').pipe(
       take(1),
       map((response) => {
         return this.updatePaths(response);
