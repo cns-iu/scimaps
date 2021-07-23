@@ -23,7 +23,7 @@ export interface Venue {
   providedIn: 'root',
 })
 export class VenuesResolverService implements Resolve<Venue[]> {
-  directory = 'content/venues';
+  directory = 'assets/content/venues';
   constructor(private contentService: ContentService) {}
 
   // Used to get full path of resources.
@@ -35,7 +35,7 @@ export class VenuesResolverService implements Resolve<Venue[]> {
     const slug = toSlug(venue.title);
 
     if (venue.pdfLink && !isHttp(venue.pdfLink)) {
-      venue.pdfLink = `assets/${this.directory}/${year}/${month}-${date}/${slug}/${venue.pdfLink}`;
+      venue.pdfLink = `${this.directory}/${year}/${month}-${date}/${slug}/${venue.pdfLink}`;
     }
     if (
       venue.venueImages &&
@@ -44,8 +44,8 @@ export class VenuesResolverService implements Resolve<Venue[]> {
     ) {
       venue.venueImages = venue.venueImages.map((image) => {
         return {
-          sm: `assets/${this.directory}/${year}/${month}-${date}/${slug}/${image.sm}`,
-          lg: `assets/${this.directory}/${year}/${month}-${date}/${slug}/${image.lg}`,
+          sm: `${this.directory}/${year}/${month}-${date}/${slug}/${image.sm}`,
+          lg: `${this.directory}/${year}/${month}-${date}/${slug}/${image.lg}`,
         };
       });
     }
@@ -68,7 +68,7 @@ export class VenuesResolverService implements Resolve<Venue[]> {
     };
   }
 
-  resolve(): Venue[] | Observable<Venue[]> | Promise<Venue[]> {
+  resolve(): Observable<Venue[]> {
     return this.contentService.getIndex<Venue[]>('venues').pipe(
       take(1),
       map((venues: Params[]) => {
