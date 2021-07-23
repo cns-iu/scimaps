@@ -6,7 +6,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
-import { Store } from '@ngxs/store';
+import { NgxsModule, Store } from '@ngxs/store';
 
 
 
@@ -18,9 +18,9 @@ import { Store } from '@ngxs/store';
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    MatIconModule,
+    MatIconModule
   ],
   exports: [TableComponent],
-  providers: [Store]
+  providers: []
 })
 export class TableModule { }
