@@ -5,6 +5,8 @@ import { AboutModule } from './about.module';
 import { ActivatedRoute } from '@angular/router';
 import { of } from 'rxjs';
 import { Profile } from '../../core/models/profile';
+import { DebugElement } from '@angular/core';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 export function getProfiles(numberOfProfiles: number, roles = ['maker']): Profile[] {
   const profiles: Profile[] = [];
@@ -40,17 +42,44 @@ const testNewsItems = [{
   pdfLink: 'link'
 }];
 
+const curatorProfiles = getProfiles(10, ['curator']);
+const advisoryBoardProfiles = getProfiles(10, ['advisory_board']);
+const ambassadorProfiles = getProfiles(10, ['ambassador']);
+const testProfiles = [...curatorProfiles, ...advisoryBoardProfiles, ...ambassadorProfiles];
+const testBody = {
+  curatorsDescription: 'Sample curators description',
+  advisoryBoardDescription: 'Sample advisory board description',
+  ambassadorsDescription: 'Sample sambassadors description'
+};
+
+xdescribe('About', () => {
+  let component: AboutComponent;
+  let fixture: ComponentFixture<AboutComponent>;
+  let el: DebugElement;
+
+  beforeEach(async () => {
+    const route = { data: of({ }) };
+    await TestBed.configureTestingModule({
+      imports: [AboutModule],
+      providers: [{ provide: ActivatedRoute, useValue: route },],
+    }).compileComponents();
+  });
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(AboutComponent);
+    component = fixture.componentInstance;
+    el = fixture.debugElement;
+  });
+
+  it('should create component', () => {
+    fixture.detectChanges();
+    expect(component).toBeTruthy();
+  });
+});
+
 describe('AboutComponent', () => {
   let shallow: Shallow<AboutComponent>;
-  const curatorProfiles = getProfiles(10, ['curator']);
-  const advisoryBoardProfiles = getProfiles(10, ['advisory_board']);
-  const ambassadorProfiles = getProfiles(10, ['ambassador']);
-  const testProfiles = [...curatorProfiles, ...advisoryBoardProfiles, ...ambassadorProfiles];
-  const testBody = {
-    curatorsDescription: 'Sample curators description',
-    advisoryBoardDescription: 'Sample advisory board description',
-    ambassadorsDescription: 'Sample sambassadors description'
-  };
+  
 
   beforeEach(() => {
     shallow = new Shallow(AboutComponent, AboutModule)

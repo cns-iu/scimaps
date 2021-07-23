@@ -23,12 +23,12 @@ import { TableModule } from '../../shared/components/table/table.module';
     TabHeaderModule,
     MatSelectModule,
     SharedModule,
-    MarkdownModule,
     PartnersModule,
     SelectModule,
     SearchOverlayModule,
     ListViewModule,
-    TableModule
+    TableModule,
+    MarkdownModule
   ]
 })
 export class AboutModule { }

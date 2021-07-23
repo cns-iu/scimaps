@@ -100,7 +100,7 @@ export class AboutComponent implements OnInit {
     ];
     const result: Params = {};
     keys.forEach((key: string) => {
-      if (body.hasOwnProperty(key) && body[key]) {
+      if (body && body.hasOwnProperty(key) && body[key]) {
         result[key] = body[key];
       } else {
         result[key] = '';
