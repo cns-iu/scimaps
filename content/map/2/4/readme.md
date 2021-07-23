@@ -23,7 +23,7 @@ en:
     Sky Chart_ can be found at
     [http://skyandtelescope.com/observing/skychart](http://skyandtelescope.com/observing/skychart).
   makers:
-    - roger-w-sinnott-interactive-factory/readme
+    - roger-w-sinnott/readme
   year: 2006
   references:
     - >-

@@ -1,5 +1,5 @@
 ---
-name: Edward English
+name: Ned English
 last_name: English
 image: image.jpg
 roles:
