@@ -138,13 +138,13 @@ $desktop: 1248px;
     .thumbnail {
       display: flex;
       flex-direction: column;
-      margin-right: 1rem;
-      margin-bottom: 1rem;
-      width: 22%;
+      // margin-right: 1rem;
+      // margin-bottom: 1rem;
+      width: 25%;
 
       @media (max-width: $mobile) {
         position: relative;
-        width: calc(50% - 1rem);
+        width: 50%;
       }
 
       .thumbnail-image {
@@ -172,7 +172,7 @@ $desktop: 1248px;
     }
 
     .thumbnail.desktop {
-      margin-right: 1rem;
+      // margin-right: 1rem;
       @media (max-width: $mobile) {
         display: none;
       }
