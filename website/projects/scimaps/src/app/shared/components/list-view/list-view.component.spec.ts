@@ -24,4 +24,19 @@ describe('ListViewComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should create', () => {
+    component.config = {
+      showAllItems: true,
+      displayLimit: 6,
+      items: [],
+      type: 'venues'
+    };
+    fixture.detectChanges();
+    expect(component.showText).toEqual('Show Less');
+
+    component.config.showAllItems = false;
+    fixture.detectChanges();
+    expect(component.showText).toEqual(`Show More ${component.config.type}`);
+  });
 });
