@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { LearningMaterialItemComponent } from './learning-material-item.component';
+import { LearningMaterialItemModule } from './learning-material-item.module';
 
 describe('LearningMaterialItemComponent', () => {
   let component: LearningMaterialItemComponent;
@@ -8,7 +9,8 @@ describe('LearningMaterialItemComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LearningMaterialItemComponent ]
+      declarations: [ LearningMaterialItemComponent ],
+      imports: [LearningMaterialItemModule]
     })
     .compileComponents();
   });

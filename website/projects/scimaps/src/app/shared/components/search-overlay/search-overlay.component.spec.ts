@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SearchOverlayComponent } from './search-overlay.component';
+import { SearchOverlayModule } from './search-overlay.module';
 
 describe('SearchOverlayComponent', () => {
   let component: SearchOverlayComponent;
@@ -8,7 +9,8 @@ describe('SearchOverlayComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SearchOverlayComponent ]
+      declarations: [ SearchOverlayComponent ],
+      imports: [SearchOverlayModule]
     })
     .compileComponents();
   });
