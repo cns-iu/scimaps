@@ -4,7 +4,6 @@ import { SelectComponent } from './select.component';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -13,7 +12,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     CommonModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule,
     MatFormFieldModule,
     MatSelectModule
   ],
