@@ -19,22 +19,21 @@ export class MapsComponent implements OnInit {
   highlightBody = '';
   discoverItems: DiscoverItem[] = [];
   displayItems: DiscoverItem[] = [];
-  highlightCarouselItems: ThumbnailLink[] = [];
+  carouselItems: {sm: string, lg: string, title: string}[] = [];
   displayLimit = 3
   showAllItems = false;
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.route.data.subscribe((data) => {
-      this.highlightBody = data.body.body;
-      this.discoverItems = data.maps;
-      this.highlightCarouselItems = this.discoverItems
-        .reduce((acc, item) => {
-          const thumbs = item.thumbnails;
-          const randomThumbnailIndex = Math.round(Math.random() * (thumbs.length - 1));
-          return acc.concat(thumbs[randomThumbnailIndex]);
-        }, [] as ThumbnailLink[]);
-
+      const {body, maps} = data;
+      if (body) {
+        this.highlightBody = body.body;
+      }
+      this.discoverItems = maps;
+      if (body.carousel) {
+        this.carouselItems = body.carousel;
+      }
       this.updateDisplayItems();
     });
   }
