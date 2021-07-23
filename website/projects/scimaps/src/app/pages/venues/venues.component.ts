@@ -28,7 +28,7 @@ export class VenuesComponent implements OnInit {
   ];
   sortHeaders = this.tableHeaders.filter(item => {
     return item.key === 'dateStart' || item.key === 'title' || item.key === 'city';
-  })
+  });
   dataSource: MatTableDataSource<Venue> = new MatTableDataSource();
   // this page
   body!: VenuesBody;
@@ -40,12 +40,12 @@ export class VenuesComponent implements OnInit {
   // dummy
   galleries: Params[] = [
     {
-      title: "IBS Workshop Media Computing, IBS Convention Center",
-      date: "2019-02-05",
-      location: "Lauta, Germany",
-      credit: "Places & Spaces",
-      images: ["assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image01.lg.jpg", "assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image02.lg.jpg"],
-      thumbs: ["assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image01.sm.jpg", "assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image02.sm.jpg"]
+      title: 'IBS Workshop Media Computing, IBS Convention Center',
+      date: '2019-02-05',
+      location: 'Lauta, Germany',
+      credit: 'Places & Spaces',
+      images: ['assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image01.lg.jpg', 'assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image02.lg.jpg'],
+      thumbs: ['assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image01.sm.jpg', 'assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image02.sm.jpg']
     }
   ];
   ngOnInit(): void {
@@ -62,7 +62,7 @@ export class VenuesComponent implements OnInit {
     this.setYears();
   }
 
-  setYears() {
+  setYears(): void {
     const years  = new Set<string>();
     this.dataSource.data.forEach((item: Venue) => {
       const fullDate = new Date(item.dateStart);

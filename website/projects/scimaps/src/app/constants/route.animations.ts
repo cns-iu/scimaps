@@ -11,24 +11,32 @@ import {
 // apply on main and main should have relative position on it.
 export const fader = trigger('routeAnimations', [
   transition('* <=> *', [
-    query(':enter, :leave', [
-      style({
-        position: 'absolute',
-        left: 0,
-        width: '100%',
-        opacity: 0,
-        transform: 'scale(0) translateY()',
-      }),
-    ], {optional: true}),
-    query(':enter', [
-      animate(
-        '200ms ease',
+    query(
+      ':enter, :leave',
+      [
         style({
-          opacity: 1,
-          transform: 'scale(1) translateY(0)',
-        })
-      ),
-    ], {optional: true}),
+          position: 'absolute',
+          left: 0,
+          width: '100%',
+          opacity: 0,
+          transform: 'scale(0) translateY()',
+        }),
+      ],
+      { optional: true }
+    ),
+    query(
+      ':enter',
+      [
+        animate(
+          '200ms ease',
+          style({
+            opacity: 1,
+            transform: 'scale(1) translateY(0)',
+          })
+        ),
+      ],
+      { optional: true }
+    ),
   ]),
 ]);
 
@@ -143,44 +151,49 @@ export const transformer = trigger('routeAnimations', [
   transition('isLeft => *', transformTo({ x: -100, y: -100, rotate: -720 })),
 ]);
 
-
-
-
 export const routeTransitionAnimations = trigger('routeAnimations', [
-	transition('Maps => Map, Macroscopes => Macroscope', [
-		style({ position: 'relative' }),
-		query(':enter, :leave', [
-			style({
-				position: 'absolute',
-				top: 0,
-				right: 0,
-				width: '100%'
-			})
-		]),
-		query(':enter', [style({ right: '-100%', opacity: 0 })]),
-		query(':leave', animateChild()),
-		group([
-			query(':leave', [animate('500ms ease-out', style({ right: '100%', opacity: 0 }))]),
-			query(':enter', [animate('500ms ease-out', style({ right: '0%', opacity: 1 }))])
-		]),
-		query(':enter', animateChild())
-	]),
-	transition('Map => Maps, Macroscope => Macroscopes', [
-		style({ position: 'relative' }),
-		query(':enter, :leave', [
-			style({
-				position: 'absolute',
-				top: 0,
-				left: 0,
-				width: '100%'
-			})
-		]),
-		query(':enter', [style({ left: '-100%', opacity: 0 })]),
-		query(':leave', animateChild()),
-		group([
-			query(':leave', [animate('300ms ease-out', style({ left: '100%', opacity: 0 }))]),
-			query(':enter', [animate('300ms ease-out', style({ left: '0%', opacity: 1 }))])
-		]),
-		query(':enter', animateChild())
-	])
+  transition('Maps => Map, Macroscopes => Macroscope', [
+    style({ position: 'relative' }),
+    query(':enter, :leave', [
+      style({
+        position: 'absolute',
+        top: 0,
+        right: 0,
+        width: '100%',
+      }),
+    ]),
+    query(':enter', [style({ right: '-100%', opacity: 0 })]),
+    query(':leave', animateChild()),
+    group([
+      query(':leave', [
+        animate('500ms ease-out', style({ right: '100%', opacity: 0 })),
+      ]),
+      query(':enter', [
+        animate('500ms ease-out', style({ right: '0%', opacity: 1 })),
+      ]),
+    ]),
+    query(':enter', animateChild()),
+  ]),
+  transition('Map => Maps, Macroscope => Macroscopes', [
+    style({ position: 'relative' }),
+    query(':enter, :leave', [
+      style({
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+      }),
+    ]),
+    query(':enter', [style({ left: '-100%', opacity: 0 })]),
+    query(':leave', animateChild()),
+    group([
+      query(':leave', [
+        animate('300ms ease-out', style({ left: '100%', opacity: 0 })),
+      ]),
+      query(':enter', [
+        animate('300ms ease-out', style({ left: '0%', opacity: 1 })),
+      ]),
+    ]),
+    query(':enter', animateChild()),
+  ]),
 ]);

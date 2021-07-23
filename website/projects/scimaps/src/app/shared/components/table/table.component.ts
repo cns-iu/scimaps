@@ -38,7 +38,7 @@ export class TableComponent implements OnInit, AfterViewInit {
     this.dataSource.sort = this.matSort;
   }
 
-  openVenueGalleryDrawer(item: Params) {
+  openVenueGalleryDrawer(item: Params): void {
     this.store.dispatch(new SetAppState({drawer: {
       showDrawer: true,
       drawerName: 'venue-gallery',

@@ -8,7 +8,7 @@ import { VenueItemModule } from './venue-item.module';
 
 export const getVenues = (n: number): Venue[] => {
   const result: Venue[] = [];
-  for (let i = 0;i < n; i++) {
+  for (let i = 0; i < n; i++) {
     result.push({
       dateStart: '2012-01-02',
       dateEnd: '2012-01-05',
@@ -24,7 +24,7 @@ export const getVenues = (n: number): Venue[] => {
     });
   }
   return result;
-}
+};
 describe('VenueItemComponent', () => {
   let component: VenueItemComponent;
   let fixture: ComponentFixture<VenueItemComponent>;

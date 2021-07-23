@@ -9,7 +9,7 @@ import { AppState } from '../../models/app.model';
 
 interface PageStateModel {
   placeholder: unknown; // Remove when other fields are added
-  app: AppState
+  app: AppState;
 }
 
 @StateRepository()
@@ -28,20 +28,20 @@ interface PageStateModel {
 @Injectable()
 export class PageState extends NgxsImmutableDataRepository<PageStateModel> {
   @Selector()
-  static getAppState(state: PageStateModel) {
+  static getAppState(state: PageStateModel): AppState {
     return state.app;
   }
 
   @Selector()
-  static drawer(state: PageStateModel) {
+  static drawer(state: PageStateModel): Params | undefined {
     return state.app.drawer;
   }
 
   @Action(SetAppState)
-  setAppState({getState, patchState}: StateContext<PageStateModel>, {payload}: Partial<SetAppState>) {
+  setAppState({getState, patchState}: StateContext<PageStateModel>, {payload}: Partial<SetAppState>): void {
     const state = getState();
     patchState({
       app: {...state.app, ...payload}
-    })
+    });
   }
 }

@@ -1,4 +1,4 @@
-import { Params } from "@angular/router";
+import { Params } from '@angular/router';
 
 export interface AppState {
     test: string;
@@ -6,5 +6,5 @@ export interface AppState {
         showDrawer: boolean,
         drawerName?: string,
         drawerPayload?: Params
-    }
-};
+    };
+}

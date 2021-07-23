@@ -16,7 +16,7 @@ export class VenuesBodyResolverService implements Resolve<VenuesBody> {
 
   constructor(private content: ContentService) {}
 
-  resolve(): VenuesBody | Observable<VenuesBody> | Promise<VenuesBody> {
+  resolve(): Observable<VenuesBody> | Promise<VenuesBody> {
     return this.content.getContent<VenuesBody>(this.mdPath).pipe(take(1));
   }
 }

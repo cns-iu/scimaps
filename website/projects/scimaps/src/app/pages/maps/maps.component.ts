@@ -20,7 +20,7 @@ export class MapsComponent implements OnInit {
   discoverItems: DiscoverItem[] = [];
   displayItems: DiscoverItem[] = [];
   carouselItems: {sm: string, lg: string, title: string}[] = [];
-  displayLimit = 3
+  displayLimit = 3;
   showAllItems = false;
   constructor(private route: ActivatedRoute) { }
 
@@ -34,7 +34,7 @@ export class MapsComponent implements OnInit {
       if (body.carousel) {
         this.carouselItems = body.carousel;
       }
-      console.log(this.carouselItems)
+      console.log(this.carouselItems);
       this.updateDisplayItems();
     });
   }

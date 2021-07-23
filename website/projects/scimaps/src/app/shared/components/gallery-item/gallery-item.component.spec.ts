@@ -5,8 +5,8 @@ import { GalleryItemComponent } from './gallery-item.component';
 import { GalleryItemModule } from './gallery-item.module';
 
 export const getVenues = (n: number) => {
-  const result: Venue[] = []
-  for (let i=0; i< n; i ++) {
+  const result: Venue[] = [];
+  for (let i = 0; i < n; i ++) {
     result.push({
       dateStart: `2012-02-0${i}`,
       dateEnd: '',
@@ -25,7 +25,7 @@ export const getVenues = (n: number) => {
     });
   }
   return result;
-}
+};
 describe('GalleryItemComponent', () => {
   let component: GalleryItemComponent;
   let fixture: ComponentFixture<GalleryItemComponent>;

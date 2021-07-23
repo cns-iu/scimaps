@@ -11,7 +11,8 @@
     "test": "ng test",
     "test:wsl": "ng test --browsers=ChromeHeadlessWSL",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "tslint-fix": "tslint --fix --project ./tsconfig.json"
   },
   "private": true,
   "dependencies": {

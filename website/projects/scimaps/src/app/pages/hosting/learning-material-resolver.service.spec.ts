@@ -7,7 +7,7 @@ import { LearningMaterial, LearningMaterialResolverService } from './learning-ma
 
 export const getLearningMaterials = (n: number): LearningMaterial[] => {
   const result: LearningMaterial[] = [];
-  for (let i = 0; i < n; i+= 1) {
+  for (let i = 0; i < n; i += 1) {
     result.push({
       title: `title-${i}`,
       body: `body-${i}`,
@@ -19,11 +19,11 @@ export const getLearningMaterials = (n: number): LearningMaterial[] => {
     });
   }
   return result;
-}
+};
 describe('LearningMaterialResolverService', () => {
   let service: LearningMaterialResolverService;
   let contentService: Params;
-  
+
   beforeEach(() => {
     const contentServiceSpy = jasmine.createSpyObj('ContentService', ['getIndex']);
     TestBed.configureTestingModule({
@@ -50,8 +50,8 @@ describe('LearningMaterialResolverService', () => {
 
   it('should call getIndex exactly once', () => {
     const lm = getLearningMaterials(1)[0];
-    const new_lm = service.updatePaths(JSON.parse(JSON.stringify(lm)));
-    expect(new_lm.image.sm).toEqual(service.directory + '/' + lm.slug + '/' + lm.image.sm);
-    expect(new_lm.image.lg).toEqual(service.directory + '/' + lm.slug + '/' + lm.image.lg);
+    const lmNew = service.updatePaths(JSON.parse(JSON.stringify(lm)));
+    expect(lmNew.image.sm).toEqual(service.directory + '/' + lm.slug + '/' + lm.image.sm);
+    expect(lmNew.image.lg).toEqual(service.directory + '/' + lm.slug + '/' + lm.image.lg);
   });
 });

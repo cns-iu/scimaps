@@ -6,7 +6,7 @@ import { VenuesBodyResolverService } from './venues-body-resolver.service';
 describe('VenuesBodyResolverService', () => {
   let service: VenuesBodyResolverService;
   let contentService: ContentService;
-  
+
   beforeEach(() => {
     const contentServiceSpy = jasmine.createSpyObj('ContentService', ['getContent']);
     TestBed.configureTestingModule({

@@ -55,7 +55,7 @@ describe('HostingBodyResolverService', () => {
       master_booklet: 'master_booklet'
     };
     const result = service.updatePaths(JSON.parse(JSON.stringify(actualResponse)));
-    
+
     expect(result.tabs).not.toEqual(actualResponse.tabs);
     expect(result.carousel).not.toEqual(actualResponse.carousel);
     expect(result.install_guide).not.toEqual(actualResponse.install_guide);

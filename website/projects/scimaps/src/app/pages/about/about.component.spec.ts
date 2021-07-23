@@ -61,7 +61,7 @@ xdescribe('About', () => {
     const route = { data: of({ }) };
     await TestBed.configureTestingModule({
       imports: [AboutModule],
-      providers: [{ provide: ActivatedRoute, useValue: route },],
+      providers: [{ provide: ActivatedRoute, useValue: route }, ],
     }).compileComponents();
   });
 
@@ -79,7 +79,7 @@ xdescribe('About', () => {
 
 describe('AboutComponent', () => {
   let shallow: Shallow<AboutComponent>;
-  
+
 
   beforeEach(() => {
     shallow = new Shallow(AboutComponent, AboutModule)

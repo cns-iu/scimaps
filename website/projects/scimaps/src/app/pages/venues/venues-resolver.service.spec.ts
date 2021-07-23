@@ -5,7 +5,7 @@ import { VenuesResolverService } from './venues-resolver.service';
 
 describe('VenuesResolverService', () => {
   let service: VenuesResolverService;
-  let contentService: ContentService
+  let contentService: ContentService;
   beforeEach(() => {
     const contentServiceSpy = jasmine.createSpyObj('ContentService', ['getContent']);
     TestBed.configureTestingModule({

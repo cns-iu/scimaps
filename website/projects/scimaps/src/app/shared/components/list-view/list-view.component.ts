@@ -21,7 +21,7 @@ export class ListViewComponent implements OnInit {
     items: [],
     displayLimit: 6,
     showAllItems: true
-  }
+  };
   get totalResultsText(): string {
     const denominator = this.config.items.length;
     let numerator: number = denominator;
@@ -33,14 +33,14 @@ export class ListViewComponent implements OnInit {
 
   get showText(): string {
     if (this.config.showAllItems) {
-      return 'Show Less'
+      return 'Show Less';
     } else {
-      return `Show More ${this.config.type}` 
+      return `Show More ${this.config.type}`;
     }
   }
   constructor() { }
 
   ngOnInit(): void {
-    this.config = {...this.defaultConfig, ...this.config}
+    this.config = {...this.defaultConfig, ...this.config};
   }
 }

@@ -50,7 +50,7 @@ describe('BooksResolverService', () => {
   });
 
   it('should map to correct book object', () => {
-    let book1 = service.toBook(testBook);
+    const book1 = service.toBook(testBook);
     const book = service.toBookUI({...book1});
     expect(book.slug).toEqual(toSlug(testBook.title));
     expect(book.title).toEqual(testBook.title);

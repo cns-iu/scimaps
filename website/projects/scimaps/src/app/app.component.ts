@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, NgZone, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Params, RouterOutlet } from '@angular/router';
 
 import { NewsItem } from './shared/components/news-item/news-item.model';
 import { Observable, of, Subscription } from 'rxjs';
@@ -41,7 +41,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
     acknowledgement: 'This exhibit is supported by the National Science Foundation under Grant No. IIS-0238261, CHE-0524661, IIS-0534909 and IIS-0715303, the James S. McDonnell Foundation; Thomson Reuters; the Cyberinfrastructure for Network Science Center, University Information Technology Services, and the School of Library and Information Science, all three at Indiana University. Some of the data used to generate the science maps is from the Web of Science by Thomson Reuters and Scopus by Elsevier. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.'
   };
 
-  @Select(PageState.drawer) drawer$!: Observable<any>;
+  @Select(PageState.drawer) drawer$!: Observable<Params>;
   constructor(private zone: NgZone, private store: Store) {
   }
 
@@ -61,11 +61,11 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
     }
   }
 
-  ngAfterViewInit() {
+  ngAfterViewInit(): void {
     const cdkScrollable = this.sidenavContainer.scrollable;
     this.windowScrollSubscription = cdkScrollable.elementScrolled().pipe(
       map(() => {
-        return cdkScrollable.measureScrollOffset('top')
+        return cdkScrollable.measureScrollOffset('top');
       }),
       debounceTime(10),
       distinctUntilChanged(),
@@ -80,15 +80,15 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
           this.hasPageScrolled = true;
         }
       });
-    })
+    });
   }
 
-  onActivate() {
+  onActivate(): void {
     const cdkScrollable = this.sidenavContainer.scrollable;
     cdkScrollable.scrollTo({top: 0, left: 0});
   }
 
-  closeDrawer() {
+  closeDrawer(): void {
     this.store.dispatch(new SetAppState({drawer: {
       showDrawer: false
     }}));

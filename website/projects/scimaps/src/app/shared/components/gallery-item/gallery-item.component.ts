@@ -12,7 +12,7 @@ export class GalleryItemComponent implements OnInit {
 
   @Input() item!: Params | Venue;
   @Output() closed: EventEmitter<string> = new EventEmitter<string>();
-  
+
   constructor() { }
 
   showOverlay = false;
@@ -20,7 +20,7 @@ export class GalleryItemComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  closeDrawer() {
+  closeDrawer(): void {
     this.closed.emit('close');
   }
 }

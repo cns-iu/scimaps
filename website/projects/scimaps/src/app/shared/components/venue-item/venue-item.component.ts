@@ -18,7 +18,7 @@ export class VenueItemComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  openDrawer(item: Venue | Params) {
+  openDrawer(item: Venue | Params): void {
     this.store.dispatch(new SetAppState({drawer: {
       showDrawer: true,
       drawerName: 'venue-gallery',

@@ -5,10 +5,10 @@ import { HomeComponent } from './home.component';
 
 
 const routes: Routes = [
-  { 
-    path: '', 
+  {
+    path: '',
     component: HomeComponent,
-    data :{
+    data : {
       class: 'home-module'
     }
   }

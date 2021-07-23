@@ -149,7 +149,7 @@ export class AboutComponent implements OnInit {
     const filterString = JSON.stringify(filter);
     this.dataSource.filter = filterString;
   }
-  setYears() {
+  setYears(): void {
     const years  = new Set<string>();
     this.dataSource.data.forEach((item: NewsItem) => {
       const fullDate = new Date(item.date);
