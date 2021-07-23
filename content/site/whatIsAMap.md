@@ -1,3 +1,12 @@
+---
+carousel:
+  - sm: /assets/images/uploads/image01.sm.jpg
+    lg: /assets/images/uploads/image01.lg.jpg
+  - sm: /assets/images/uploads/image02.sm.jpg
+    lg: /assets/images/uploads/image02.lg.jpg
+  - sm: /assets/images/uploads/image03.sm.jpg
+    lg: /assets/images/uploads/image03.lg.jpg
+---
 Science maps serve as visual interfaces to immense amounts of data, depicting myriad objects in ways that allow us to effectively discern apparent outliers, clusters, and trends. The _Places & Spaces: Mapping Science_ exhibit aims to introduce science mapping techniques to the general public and to experts across diverse disciplines for educational, scientific, and practical purposes. It is meant to inspire cross-disciplinary discussion on how to best track and communicate scholarly activity and scientific progress on a global scale.  
   
 For centuries, cartographic maps of earth and water have guided human exploration. They have marked the border between the known and the unknown, firing the imagination and fueling the desire for new knowledge and new experience. Over time, geographic maps became more accurate, more sophisticated, but the thirst for discovery, along with the need for maps to guide our travels, remains undiminished.  

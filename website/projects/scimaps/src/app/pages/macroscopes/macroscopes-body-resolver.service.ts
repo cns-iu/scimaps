@@ -20,11 +20,13 @@ interface MacroscopesBody {
 @Injectable({
   providedIn: 'root',
 })
-export class MacroscopesBodyResolverService
-  implements Resolve<MacroscopesBody>
-{
-  constructor(private content: ContentService, private router: Router) {}
+export class MacroscopesBodyResolverService implements Resolve<MacroscopesBody> {
+  
+  
+  constructor(private content: ContentService) {}
+  
   directory = 'assets/content/site/macroscopes';
+  
   resolve(): Observable<MacroscopesBody> | Observable<never> {
     return this.content
       .getContent<MacroscopesBody>('site/macroscopes/whatIsAMacroscope.md')
