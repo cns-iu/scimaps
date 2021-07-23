@@ -262,7 +262,7 @@ collections:
           - { name: med, label: Medium (160px Width), widget: image }
           - { name: lg, label: Large (865px Width), widget: image }
           - { name: tiles, label: Tiled Image URL, widget: string }
-          - { name: externalLink, label: External Link, required: false }
+      - { name: externalLink, label: External Link, required: false }
 
   - name: macroscope
     label: Macroscopes
@@ -303,7 +303,7 @@ collections:
           - { name: sm, label: Small (80px Width), widget: image }
           - { name: med, label: Medium (160px Width), widget: image }
           - { name: lg, label: Large (865px Width), widget: image }
-          - { name: externalLink, label: External Link, required: false }
+      - { name: externalLink, label: External Link, required: false }
 
   - name: mapIteration
     label: Map Iterations
