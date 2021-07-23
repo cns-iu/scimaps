@@ -8,7 +8,7 @@ import { isHttp } from '../../constants/utils';
 import { ContentService } from '../../shared/services/content.service';
 
 export interface HostingBody {
-  tabs: Array<{ image: string }>;
+  tabs: Array<{ header: string, image: string, content: string }>;
   overview: string;
   carousel: { sm: string; lg: string }[];
   install_guide: string;
@@ -23,7 +23,7 @@ export class HostingBodyResolverService implements Resolve<HostingBody> {
   directory = 'assets/content/site/hosting';
   constructor(private content: ContentService) {}
 
-  resolve(): HostingBody | Observable<HostingBody> {
+  resolve(): Observable<HostingBody> | Observable<never> {
     return this.content.getContent<HostingBody>(this.mdPath).pipe(
       take(1),
       map((body: HostingBody) => {
