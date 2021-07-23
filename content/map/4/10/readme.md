@@ -26,7 +26,7 @@ en:
     [http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse).
   makers:
     - adrian-white/readme
-    - national-geographic-earthpulse-team/readme
+    - the-national-geographic-society-earthpulse-team/readme
   year: 2008
   references:
     - >-
