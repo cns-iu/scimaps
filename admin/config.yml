@@ -34,6 +34,7 @@ collections:
       - label: What is a Map?
         name: whatIsAMap
         file: content/site/whatIsAMap.md
+        media_folder: ''
         preview_path: maps
         fields:
           - name: carousel
