@@ -12,11 +12,11 @@ export class HomeComponent {
   @HostBinding('class') readonly clsName = 'sci-home';
 
   testActionItem: ActionCardItem = {
-    title: 'Course Title',
-    subtitle: 'April 28, 2020',
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus vitae diam vel volutpat. Pellentesque venenatis velit lectus, tempor dictum tortor pretium nec.',
-    buttonLabel: 'INFO/REGISTRATION',
-    buttonLink: 'www.google.com',
-    imageSource: 'assets/action-card/image1.png'
+    title: 'Visual Analytics Certificate',
+    subtitle: 'Sept 20-Oct 30, 2022',
+    body: 'A six-week online course focused on understanding and creating data visualizations that translate complex data into actionable insights.',
+    buttonLabel: 'Register',
+    buttonLink: 'https://visanalytics.cns.iu.edu/',
+    imageSource: 'assets/action-card/image1.jpg'
   };
 }
