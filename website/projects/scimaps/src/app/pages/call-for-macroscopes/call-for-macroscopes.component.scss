@@ -36,12 +36,6 @@ $desktop: 1248px;
       @include screen.breakpoint(mobile) {
         flex: 1;
       }
-      .tabs {
-        .tab-content {
-          // padding: 1rem;
-          // border: 1px solid black;
-        }
-      }
       .mobile-tabs {
         display: flex;
         flex-direction: column;
@@ -87,11 +81,6 @@ $desktop: 1248px;
         }
       }
     }
-  }
-
-  // Position drawers from Parent.
-  .tab-drawer {
-    // tab drawer styles
   }
 
   .drawer-header {
