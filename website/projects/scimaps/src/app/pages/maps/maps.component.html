@@ -6,11 +6,9 @@
       <sci-carousel-item *ngFor="let carouselItem of carouselItems">
         <div class="carousel-item" *sciBreakpoint="'desktop'">
           <img [src]="carouselItem.lg" class="carousel-image" [alt]="carouselItem.lg.split('/')[3]">
-          <!-- <div class="carousel-image-title">{{ carouselItem.title }}</div> -->
         </div>
         <div class="carousel-item" *sciBreakpoint="'desktop-'">
           <img [src]="carouselItem.sm" class="carousel-image" [alt]="carouselItem.sm.split('/')[3]">
-          <!-- <div class="carousel-image-title">{{ carouselItem.title }}</div> -->
         </div>
       </sci-carousel-item>
     </sci-carousel>

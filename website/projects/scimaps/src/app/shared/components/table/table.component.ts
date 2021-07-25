@@ -43,7 +43,7 @@ export class TableComponent implements OnInit, AfterViewInit {
     this.store.dispatch(new SetAppState({drawer: {
       showDrawer: true,
       drawerName: 'venue-gallery',
-      drawerPayload: item as Params
+      drawerPayload: item
     }}));
   }
 }

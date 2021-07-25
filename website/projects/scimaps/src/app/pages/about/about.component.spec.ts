@@ -1,12 +1,11 @@
-import { Shallow } from 'shallow-render';
-
-import { AboutComponent } from './about.component';
-import { AboutModule } from './about.module';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ActivatedRoute } from '@angular/router';
 import { of } from 'rxjs';
+import { Shallow } from 'shallow-render';
 import { Profile } from '../../core/models/profile';
-import { DebugElement } from '@angular/core';
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { AboutComponent } from './about.component';
+import { AboutModule } from './about.module';
+
 
 export function getProfiles(numberOfProfiles: number, roles = ['maker']): Profile[] {
   const profiles: Profile[] = [];
@@ -55,7 +54,6 @@ const testBody = {
 xdescribe('About', () => {
   let component: AboutComponent;
   let fixture: ComponentFixture<AboutComponent>;
-  let el: DebugElement;
 
   beforeEach(async () => {
     const route = { data: of({ }) };
@@ -68,7 +66,6 @@ xdescribe('About', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(AboutComponent);
     component = fixture.componentInstance;
-    el = fixture.debugElement;
   });
 
   it('should create component', () => {

@@ -124,7 +124,6 @@ $desktop: 1248px;
         @media (min-width: $desktop) {
           flex-direction: row-reverse;
         }
-        width: 100%;
         .row1 {
           flex: 1;
           display: flex;

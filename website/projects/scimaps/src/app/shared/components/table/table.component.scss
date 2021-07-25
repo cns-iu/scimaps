@@ -15,9 +15,6 @@
         }              
       }
       &.data-row {
-        &:nth-child(even) {
-        }
-
         &:nth-child(odd) {
           background-color: #f5f5f5;
         }

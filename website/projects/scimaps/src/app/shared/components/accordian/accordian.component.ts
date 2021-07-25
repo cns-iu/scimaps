@@ -5,13 +5,10 @@ import { Component, HostBinding, Input, OnInit } from '@angular/core';
   templateUrl: './accordian.component.html',
   styleUrls: ['./accordian.component.scss'],
 })
-export class AccordianComponent implements OnInit {
+export class AccordianComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-accordian';
 
   @Input() header = '';
   @Input() content = '';
-
-  constructor() {}
-  ngOnInit(): void {}
 }

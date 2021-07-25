@@ -34,7 +34,7 @@ export class BooksResolverService implements Resolve<Book[]> {
   }
 
   toBook(item: Params): Book {
-    const book: Book = {
+    return {
       title: item.title,
       amazonLink: item.amazonLink,
       pdfLink: item.pdfLink,
@@ -44,7 +44,6 @@ export class BooksResolverService implements Resolve<Book[]> {
       slug: toSlug(item.title),
       images: item.bookImages
     };
-    return book;
   }
 
   toBookUI(book: Book): Book {

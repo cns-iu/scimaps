@@ -99,8 +99,6 @@
   </sci-search-overlay>
 </div>
 
-<!-- <sci-news-item-list [newsItems]=newsItems>
-</sci-news-item-list> -->
 <sci-list-view class="news-list"
     [config]="{type: 'news', items: (dataSource.connect().asObservable() | async) || [], displayLimit: 6, showAllItems: false}">
 </sci-list-view>

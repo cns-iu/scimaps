@@ -9,14 +9,11 @@ import { Venue } from '../../../pages/venues/venues-resolver.service';
   templateUrl: './venue-item.component.html',
   styleUrls: ['./venue-item.component.scss']
 })
-export class VenueItemComponent implements OnInit {
+export class VenueItemComponent {
 
   @Input() item!: Venue | Params;
 
   constructor(private store: Store) { }
-
-  ngOnInit(): void {
-  }
 
   openDrawer(item: Venue | Params): void {
     this.store.dispatch(new SetAppState({drawer: {

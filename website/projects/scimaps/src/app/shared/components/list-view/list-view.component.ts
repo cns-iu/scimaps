@@ -38,7 +38,6 @@ export class ListViewComponent implements OnInit {
       return `Show More ${this.config.type}`;
     }
   }
-  constructor() { }
 
   ngOnInit(): void {
     this.config = {...this.defaultConfig, ...this.config};

@@ -20,7 +20,7 @@ import { SetAppState } from './core/actions/app.actions';
     drawerInOut
   ]
 })
-export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
+export class AppComponent implements OnDestroy, AfterViewInit {
   @ViewChild(MatSidenavContainer) sidenavContainer!: MatSidenavContainer;
 
   hasPageScrolled = false;
@@ -43,9 +43,6 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
 
   @Select(PageState.drawer) drawer$!: Observable<Params>;
   constructor(private zone: NgZone, private store: Store) {
-  }
-
-  ngOnInit(): void {
   }
 
   prepareRoute(outlet: RouterOutlet): string {
