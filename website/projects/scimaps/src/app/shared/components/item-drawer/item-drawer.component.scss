@@ -85,6 +85,11 @@ $breakpoint: 768px;
           cursor: pointer;
           justify-content: space-between;
 
+          &:hover {
+            color: white;
+            background-color: #7996a3;
+          }
+
           .makers-text {
             display: flex;
             padding: 1rem;
