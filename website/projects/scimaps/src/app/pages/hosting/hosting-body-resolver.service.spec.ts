@@ -64,9 +64,9 @@ describe('HostingBodyResolverService', () => {
 
   it('should not update http paths', () => {
     const actualResponse: HostingBody = {
-      tabs: [{header: 'tab1 header', image: 'http://tab1image', content: 'tab1 content'}],
+      tabs: [{header: 'tab1 header', image: 'https://tab1image', content: 'tab1 content'}],
       overview: 'Hosting overview',
-      carousel: [{sm: 'https://small.sm.jpg', lg: 'http://large.lg.jpg'}],
+      carousel: [{sm: 'https://small.sm.jpg', lg: 'https://large.lg.jpg'}],
       install_guide: 'https://install_guide',
       master_booklet: 'https://master_booklet'
     };

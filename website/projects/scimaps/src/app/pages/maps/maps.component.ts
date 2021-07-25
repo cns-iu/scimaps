@@ -1,8 +1,8 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { drawerInOut } from '../../constants/drawer.animations';
+import { DiscoverItem } from '../../core/models/discover-item';
 
-import { DiscoverItem, ThumbnailLink } from '../../core/models/discover-item';
 
 
 @Component({

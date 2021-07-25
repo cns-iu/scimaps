@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, Resolve, Router, RouterStateSnapshot } from '@angular/router';
+import { Resolve } from '@angular/router';
 import { Observable } from 'rxjs';
 import { take } from 'rxjs/operators';
-
 import { DiscoverItem } from '../../core/models/discover-item';
 import { ContentService } from '../../shared/services/content.service';
+
 
 
 @Injectable({
