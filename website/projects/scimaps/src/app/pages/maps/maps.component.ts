@@ -34,7 +34,6 @@ export class MapsComponent implements OnInit {
       if (body.carousel) {
         this.carouselItems = body.carousel;
       }
-      console.log(this.carouselItems);
       this.updateDisplayItems();
     });
   }

@@ -62,16 +62,10 @@ describe('MapsComponent', () => {
   });
 
   it('calling showMoreMaps() should increase itemsToDisplay', async () => {
-    const { instance } = await shallow.render();
-    const oldValue = instance.displayLimit;
+    const { instance, find } = await shallow.render();
     instance.showAllItems = true;
-    expect(instance.displayLimit).toBeGreaterThan(oldValue);
-  });
-
-  it('calling when you call showMoreMaps() it should update the display items', async () => {
-    const { instance } = await shallow.render();
-    const spy = spyOn(instance, 'updateDisplayItems');
-    instance.showAllItems = true;
-    expect(spy).toHaveBeenCalled();
+    instance.updateDisplayItems();
+    const overviews = find('sci-discover-listing');
+    expect(overviews.length).toBeGreaterThanOrEqual(instance.displayLimit);
   });
 });
