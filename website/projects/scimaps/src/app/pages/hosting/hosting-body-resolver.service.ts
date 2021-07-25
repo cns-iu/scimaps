@@ -45,7 +45,7 @@ export class HostingBodyResolverService implements Resolve<HostingBody> {
     return body;
   }
 
-  updateCarouselPaths(body: HostingBody) {
+  updateCarouselPaths(body: HostingBody): void {
     const { carousel } = body;
     if (carousel && Array.isArray(carousel)) {
       carousel.forEach((image) => {
@@ -60,7 +60,7 @@ export class HostingBodyResolverService implements Resolve<HostingBody> {
     }
   }
 
-  updateTabsPaths(body: HostingBody) {
+  updateTabsPaths(body: HostingBody): void {
     const { tabs } = body;
     tabs.forEach((tab) => {
       if (tab.image && !isHttp(tab.image)) {

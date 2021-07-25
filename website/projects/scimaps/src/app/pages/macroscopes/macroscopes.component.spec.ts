@@ -61,8 +61,8 @@ describe('MacroscopesComponent', () => {
   });
 
   it('calling showMoreMacroscopes() should increase itemsToDisplay', async () => {
-    const { instance, find } = await shallow.render()
-    instance.showAllItems = true
+    const { instance, find } = await shallow.render();
+    instance.showAllItems = true;
     instance.updateDisplayItems();
     const overviews = find('sci-discover-listing');
     expect(overviews.length).toBeGreaterThanOrEqual(instance.displayLimit);
