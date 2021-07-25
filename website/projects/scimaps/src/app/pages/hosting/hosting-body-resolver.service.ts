@@ -40,7 +40,12 @@ export class HostingBodyResolverService implements Resolve<HostingBody> {
     if (body.master_booklet && !isHttp(body.master_booklet)) {
       body.master_booklet = `${this.directory}/${body.master_booklet}`;
     }
-    // Carousel
+    this.updateCarouselPaths(body);
+    this.updateTabsPaths(body);
+    return body;
+  }
+
+  updateCarouselPaths(body: HostingBody) {
     const { carousel } = body;
     if (carousel && Array.isArray(carousel)) {
       carousel.forEach((image) => {
@@ -53,13 +58,14 @@ export class HostingBodyResolverService implements Resolve<HostingBody> {
       });
       body.carousel = carousel;
     }
-    // Tabs
+  }
+
+  updateTabsPaths(body: HostingBody) {
     const { tabs } = body;
     tabs.forEach((tab) => {
       if (tab.image && !isHttp(tab.image)) {
         tab.image = `${this.directory}/${tab.image}`;
       }
     });
-    return body;
   }
 }

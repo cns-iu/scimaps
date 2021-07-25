@@ -12,22 +12,22 @@ const testItem: MapMacroscopeItem = {
   makers: [
     {
       name: 'Maker 1',
-      title: 'Job',
-      body: 'test bio',
-      image: 'thumbnail',
-      affiliation: '',
-      link: '',
-      slug: '',
+      title: 'Job1',
+      body: 'test bio1',
+      image: 'thumbnail1',
+      affiliation: 'aff1',
+      link: 'link1',
+      slug: 'slug1',
       roles: []
     },
     {
       name: 'Maker 2',
-      title: 'Job',
-      body: 'test bio',
+      title: 'Job2',
+      body: 'test bio2',
       image: 'thumbnail',
-      affiliation: '',
-      link: '',
-      slug: '',
+      affiliation: 'aff2',
+      link: 'link2',
+      slug: 'slug2',
       roles: []
     }
   ],

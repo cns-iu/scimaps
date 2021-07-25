@@ -12,24 +12,24 @@ const discoverItem: DiscoverItem = {
   body: 'test',
   thumbnails: [
     {
-      title: 'test',
-      link: 'test',
-      image: 'test'
+      title: 'test1',
+      link: 'test1',
+      image: 'test1'
     },
     {
-      title: 'test',
-      link: 'test',
-      image: 'test'
+      title: 'test2',
+      link: 'test2',
+      image: 'test2'
     },
     {
-      title: 'test',
-      link: 'test',
-      image: 'test'
+      title: 'test3',
+      link: 'test3',
+      image: 'test3'
     },
     {
-      title: 'test',
-      link: 'test',
-      image: 'test'
+      title: 'test4',
+      link: 'test4',
+      image: 'test4'
     }
   ],
   slug: 'test',

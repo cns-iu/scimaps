@@ -20,11 +20,11 @@ describe('MapsResolverService', () => {
     contentService = TestBed.inject(ContentService);
   });
 
-  it('can load instance', () => {
+  it('should create instance', () => {
     expect(service).toBeTruthy();
   });
 
-  it('makes expected calls', () => {
+  it('should call getIndex exactly once', () => {
     (contentService.getIndex as jasmine.Spy).withArgs('app-maps').and.returnValue(of([]));
     service.resolve();
     expect(contentService.getIndex).toHaveBeenCalled();
