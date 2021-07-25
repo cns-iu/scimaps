@@ -1,5 +1,4 @@
-import { Component, Input, Output, HostBinding, EventEmitter } from '@angular/core';
-import { MakerInfo } from '../../../core/models/discover-item';
+import { Component, EventEmitter, HostBinding, Input, Output } from '@angular/core';
 import { Profile } from '../../../core/models/profile';
 
 /**

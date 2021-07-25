@@ -1,9 +1,8 @@
-import { Component, HostBinding, Input, OnInit } from '@angular/core';
+import { Component, HostBinding, Input } from '@angular/core';
 
 @Component({
   selector: 'sci-accordian',
-  templateUrl: './accordian.component.html',
-  styleUrls: ['./accordian.component.scss'],
+  templateUrl: './accordian.component.html'
 })
 export class AccordianComponent {
   /** HTML class name */

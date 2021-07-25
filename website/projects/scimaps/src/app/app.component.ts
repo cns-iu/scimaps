@@ -1,15 +1,15 @@
-import { AfterViewInit, Component, NgZone, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, NgZone, OnDestroy, ViewChild } from '@angular/core';
+import { MatSidenavContainer } from '@angular/material/sidenav';
 import { Params, RouterOutlet } from '@angular/router';
-
-import { NewsItem } from './shared/components/news-item/news-item.model';
+import { Select, Store } from '@ngxs/store';
 import { Observable, of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
-import { routeTransitionAnimations } from './constants/route.animations';
-import { MatSidenavContainer } from '@angular/material/sidenav';
 import { drawerInOut } from './constants/drawer.animations';
-import { Select, Store } from '@ngxs/store';
-import { PageState } from './core/state/page/page.state';
+import { routeTransitionAnimations } from './constants/route.animations';
 import { SetAppState } from './core/actions/app.actions';
+import { PageState } from './core/state/page/page.state';
+import { NewsItem } from './shared/components/news-item/news-item.model';
+
 
 @Component({
   selector: 'sci-root',
