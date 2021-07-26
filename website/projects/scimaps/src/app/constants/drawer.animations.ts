@@ -75,9 +75,9 @@ export const isSearchOpenTrigger = trigger('isSearchOpenTrigger', [
   ]),
 ]);
 
-export const testAnimation = trigger('routeAnimations', [
+export const slideWithTransform = trigger('routeAnimations', [
   transition('Maps => Map', [
-    style({ height: '!' }),
+    style({ height: '!', width: '!' }),
     query(
       ':enter',
       style({
@@ -88,6 +88,7 @@ export const testAnimation = trigger('routeAnimations', [
       ':enter, :leave',
       style({
         position: 'absolute',
+        'max-width': '80%',
         top: 0,
         left: 0,
       })
@@ -99,6 +100,35 @@ export const testAnimation = trigger('routeAnimations', [
           style({ transform: 'translateX(-100%)' })
         ),
       ]),
+      query(
+        ':enter',
+        animate(
+          '0.6s cubic-bezier(.35,0,.25,1)',
+          style({ transform: 'translateX(10%)' })
+        )
+      ),
+    ]),
+  ]),
+  transition('Map => Maps, 2 => 1', [
+    style({ height: '!', width: '!' }),
+    query(':enter', style({ transform: 'translateX(-100%)' })),
+    query(
+      ':enter, :leave',
+      style({
+        position: 'absolute',
+        'max-width': '80%',
+        top: 0, left: 0, right: 0
+       })
+    ),
+    // animate the leave page away
+    group([
+      query(':leave', [
+        animate(
+          '0.6s cubic-bezier(.35,0,.25,1)',
+          style({ transform: 'translateX(100%)' })
+        ),
+      ]),
+      // and now reveal the enter
       query(
         ':enter',
         animate(

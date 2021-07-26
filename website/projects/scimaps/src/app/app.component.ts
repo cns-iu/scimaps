@@ -4,7 +4,7 @@ import { Params, RouterOutlet } from '@angular/router';
 import { Select, Store } from '@ngxs/store';
 import { Observable, of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
-import { drawerInOut } from './constants/drawer.animations';
+import { drawerInOut, slideWithTransform } from './constants/drawer.animations';
 import { routeTransitionAnimations } from './constants/route.animations';
 import { SetAppState } from './core/actions/app.actions';
 import { PageState } from './core/state/page/page.state';
@@ -16,7 +16,8 @@ import { NewsItem } from './shared/components/news-item/news-item.model';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   animations: [
-    routeTransitionAnimations,
+    // routeTransitionAnimations,
+    slideWithTransform,
     drawerInOut
   ]
 })
