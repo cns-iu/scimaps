@@ -11,7 +11,7 @@ import { VenuesModule } from './venues.module';
 const body: VenuesBody = {
   accordianHeader: 'header',
   accordianContent: '',
-}
+};
 
 const venues: Venue[] = [];
 

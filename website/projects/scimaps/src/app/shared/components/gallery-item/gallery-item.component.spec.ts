@@ -49,4 +49,9 @@ describe('GalleryItemComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('should emit event on close', () => {
+    const spy = spyOn(component.closed, 'emit');
+    component.closeDrawer();
+    expect(spy).toHaveBeenCalled();
+  });
 });
