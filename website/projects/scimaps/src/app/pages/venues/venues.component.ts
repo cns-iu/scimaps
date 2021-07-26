@@ -1,126 +1,97 @@
-import { Component, HostBinding } from '@angular/core';
-import { TableData } from '../../core/models/table-data';
-
-import { TableHeader } from '../../core/models/table-header';
-
+import { Component, HostBinding, OnInit } from '@angular/core';
+import { MatTableDataSource } from '@angular/material/table';
+import { ActivatedRoute } from '@angular/router';
+import { isSearchOpenTrigger } from '../../constants/drawer.animations';
+import { VenuesBody } from './venues-body-resolver.service';
+import { Venue } from './venues-resolver.service';
 @Component({
   selector: 'sci-venues',
   templateUrl: './venues.component.html',
-  styleUrls: ['./venues.component.scss']
+  styleUrls: ['./venues.component.scss'],
+  animations: [isSearchOpenTrigger],
 })
-export class VenuesComponent {
+export class VenuesComponent implements OnInit {
   /** HTML class name */
-  @HostBinding('class') readonly clsName = 'sci-venues';
+  @HostBinding('class') readonly className = 'sci-venues';
 
-  tableHeaders: TableHeader[] = [
-    {
-      label: 'Start',
-      key: 'startDate',
-      format: 'text'
-    },
-    {
-      label: 'End',
-      key: 'endDate',
-      format: 'text'
-    },
-    {
-      label: 'Event',
-      key: 'event',
-      format: 'text'
-    },
-    {
-      label: 'Location',
-      key: 'location',
-      format: 'text'
-    },
-    {
-      label: 'Contact',
-      key: 'contact',
-      format: 'text'
-    },
-    {
-      label: 'Media',
-      key: 'media',
-      format: 'icon'
-    }
+  constructor(
+    private activatedRoute: ActivatedRoute
+  ) {}
+  // table
+  tableHeaders = [
+    { label: 'Start', key: 'dateStart', type: 'date', width: 15 },
+    { label: 'End', key: 'dateEnd', type: 'date', width: 15 },
+    { label: 'Event', key: 'title', type: 'text', width: 25 },
+    { label: 'Location', key: 'city', type: 'text', width: 20 },
+    { label: 'Contact', key: 'organizer', type: 'text', width: 20 },
+    { label: 'Media', key: 'venueImages', type: 'icon', icon: 'image', width: 5 },
   ];
+  sortHeaders = this.tableHeaders.filter(item => {
+    return item.key === 'dateStart' || item.key === 'title' || item.key === 'city';
+  });
+  dataSource: MatTableDataSource<Venue> = new MatTableDataSource();
+  // this page
+  body!: VenuesBody;
 
-  testVenues: TableData[] = [
-    {
-      startDate: {
-        label: '9/2/2020',
-        type: 'date'
-      },
-      endDate: {
-        label: '9/30/2020',
-        type: 'date'
-      },
-      event: {
-        label: 'Technology Petting Zoo',
-        type: 'text'
-      },
-      location: {
-        label: 'Indiana University UITS, Bloomington, IN',
-        type: 'text'
-      },
-      contact: {
-        label: 'Jeannette Lehr',
-        type: 'text'
-      },
-      media: {
-        label: 'Media',
-        type: 'icons',
-        links: [
-          {
-            icon: 'insert_photo',
-            url: 'www.google.com'
-          }
-        ]
-      }
-    },
-    {
-      startDate: {
-        label: '3/2/2020',
-        type: 'date'
-      },
-      endDate: {
-        label: '5/1/2020',
-        type: 'date'
-      },
-      event: {
-        label: 'Women in Data Science 2020 (Regional Event)',
-        type: 'text'
-      },
-      location: {
-        label: 'UNAM, Mexico City',
-        type: 'text'
-      },
-      contact: {
-        label: 'Mariana Espinosa',
-        type: 'text'
-      },
-      media: {
-        label: 'Media',
-        type: 'icons',
-        links: [
-          {
-            icon: 'videocam',
-            url: 'www.google.com'
-          },
-          {
-            icon: 'insert_photo',
-            url: 'www.google.com'
-          }
-        ]
-      }
-    }
-  ];
+  searchKey = '';
+  year = '';
+  yearList: string[] = [];
 
-  cardHeaderFunction = (row: TableData) => {
-    return `${row.startDate.label} - ${row.endDate.label}`;
+  ngOnInit(): void {
+    // data
+    this.activatedRoute.data.subscribe((data) => {
+      const { venues, body } = data;
+      this.body = body;
+      if (venues && Array.isArray(venues)) {
+        this.dataSource.data = venues;
+        // Assign predicate
+        this.dataSource.filterPredicate = this.filterData;
+      }
+    });
+    this.setYears();
   }
 
-  cardLinkFunction = (row: TableData) => {
-    return row.media.links !== undefined ? row.media.links : [];
+  setYears(): void {
+    const years  = new Set<string>();
+    this.dataSource.data.forEach((item: Venue) => {
+      const fullDate = new Date(item.dateStart);
+      const year = fullDate.getFullYear().toString();
+      if (!years.has(year)) {
+        years.add(year);
+      }
+    });
+    this.yearList = Array.from(years).sort().reverse();
+  }
+
+  // Predicate for filtering data.
+  filterData(item: Venue, filter: string): boolean {
+    const parsedFilter = JSON.parse(filter);
+    let result = true;
+    if (parsedFilter.year && parsedFilter.year !== 'all') {
+      const year = new Date(item.dateStart).getFullYear().toString();
+      result = result && year === parsedFilter.year;
+    }
+
+    if (parsedFilter.searchKey) {
+      result =
+        result &&
+        (item.title?.toLowerCase().includes(parsedFilter.searchKey) ||
+          item.venue?.toLowerCase().includes(parsedFilter.searchKey));
+    }
+    return result;
+  }
+
+  onSearchChange(searchKey: string): void {
+    this.searchKey = searchKey;
+    this.applyFilter();
+  }
+  onSelectChange(year: string): void {
+    this.year = year;
+    this.applyFilter();
+  }
+  applyFilter(): void {
+    const filter = { year: this.year, searchKey: this.searchKey };
+    const filterString = JSON.stringify(filter);
+    this.dataSource.filter = filterString;
   }
 }

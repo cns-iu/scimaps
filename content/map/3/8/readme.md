@@ -27,9 +27,9 @@ en:
     [http://scimaps.org/web/maps/wikipedia/](http://scimaps.org/web/maps/wikipedia/).
   makers:
     - elisha-f-h-allgood/readme
-    - bruce-w-herr-ii/readme
+    - bruce-herr-ii/readme
     - todd-holloway/readme
-    - kevin-w-boyack/readme
+    - kevin-boyack/readme
   year: 2007
   references:
     - >-

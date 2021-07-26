@@ -1,0 +1,25 @@
+<div class="list-container">
+    <div class="list" *ngIf="config.items.length > 0">
+        <ng-container *ngFor="let item of config.items; let i = index;">
+            <ng-template [ngIf]="config.showAllItems || i < config.displayLimit">
+                <ng-container [ngSwitch]="config.type">
+                    <sci-venue-item *ngSwitchCase="'venues'" [item]="item"></sci-venue-item>
+                    <sci-news-item *ngSwitchCase="'news'" [item]="item"></sci-news-item>
+                </ng-container>
+            </ng-template>
+        </ng-container>
+    </div>
+    <div class="no-search" *ngIf="config.items.length == 0">
+        <p class="no-result-text">
+            No results matched your search
+        </p>
+    </div>
+
+    <div class="total">
+        {{ totalResultsText }}
+    </div>
+
+    <div *ngIf="config.items.length > config.displayLimit" class="show-more" (click)="config.showAllItems = !config.showAllItems">
+        {{ showText | titlecase }}
+    </div>
+</div>

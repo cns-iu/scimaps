@@ -6,15 +6,21 @@ $desktop: 1248px;
 
 :host {
   display: block;
-  background-color: grey;
+  // background-color: black;
   border: 1px solid black;
   width: 100%;
-
+  height: calc(100vh - 72px);
   .action-card {
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: 1;
+    @media  screen and (min-width: $mobile) {
+      width: 100%; 
+    }
+    @media screen and (min-width: $tablet) {
+      right: 3rem;
+    }
   }
 
   .logo {
@@ -22,7 +28,7 @@ $desktop: 1248px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+    z-index: 5;
     img {
       width: 100%;
       height: 100%;
@@ -31,14 +37,14 @@ $desktop: 1248px;
 
   .home {
     width: 100%;
-    height: 100%;
+    height: calc(100vh - 72px);
     .image-container {
+      height: calc(100vh - 72px);
       position: relative;
       overflow-x: hidden;
-      img {
-        // width: 100%;
-        // height: 100%;
-      }
+      background: url('../../../assets/images/home/image01.png');
+      background-size: cover;
+      background-repeat: no-repeat;
     }
   }
 }

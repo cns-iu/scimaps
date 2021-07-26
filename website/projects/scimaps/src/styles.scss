@@ -43,10 +43,6 @@ body {
   background: rgba(0, 0, 0, 0.54) !important;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 // Swiper styles
 @import "~swiper/swiper";
 @import "~swiper/components/a11y/a11y";
@@ -125,6 +121,7 @@ a:hover {
   line-height: 24px;
   margin-bottom: 24px;
   font-weight: bold;
+  color: #757575;
 }
 
 .spacer-16 {
@@ -153,4 +150,17 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+
+.divider {
+  background-color: #e0e0e0;
+  border-bottom-color: #e0e0e0;
+  border-left-color: #e0e0e0;
+  border-right-color: #e0e0e0;
+  border-top: 0px solid #e0e0e0;
+  margin: 12px 0;
+}
+
+.mat-menu-panel.ng-trigger {
+  border-radius: 0px;
 }

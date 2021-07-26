@@ -1,0 +1,55 @@
+<!-- desktop -->
+<mat-card *sciBreakpoint="'mobile+'" class="lm-item-desktop" (click)="showDrawer = true">
+  <div class="row1">
+    <img mat-card-image [src]="item.image.sm" [alt]="item.image.sm"/>
+  </div>
+  <div class="row2">
+    <mat-card-title>
+      <h4 class="header4">{{ item.title }}</h4>
+    </mat-card-title>
+    <div class="content">
+      <mat-card-content markdown [data]="item.body.length > 80 ? item.body.slice(0, 80) + '...' : item.body">
+      </mat-card-content>
+    </div>
+  </div>
+</mat-card>
+
+<!-- mobile -->
+<mat-card *sciBreakpoint="'mobile-'" class="lm-item-mobile" (click)="showDrawer = true">
+  <div class="col1">
+    <img mat-card-img [src]="item.image.sm" alt="" />
+  </div>
+  <div class="col2">
+    <mat-card-title>
+      <h4 class="header4">{{ item.title }}</h4>
+    </mat-card-title>
+  </div>
+  <div class="col3">
+    <mat-icon class="mobile-icon">chevron_right</mat-icon>
+  </div>
+</mat-card>
+
+
+<sci-drawer [@drawerInOut] *ngIf="showDrawer" class="drawer">
+  <div drawer>
+    <div class="container">
+      <div class="drawer-header">
+        <div class="back-button" (click)="showDrawer = false">
+          <mat-icon class="back-icon">chevron_left</mat-icon>
+          <div>BACK</div>
+        </div>
+      </div>
+      <div class="drawer-content">
+        <div class="row1">
+          <img [src]="item.image.lg" alt="">
+        </div>
+        <div class="row2">
+          <div class="title">
+            <h3>{{item.title}} </h3>
+          </div>
+          <div markdown [data]="item.body"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</sci-drawer>

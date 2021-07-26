@@ -1,0 +1,47 @@
+<!-- Table -->
+<table aria-describedby="table" mat-table [dataSource]="dataSource" matSort matSortDisableClear>
+    <tr [ngClass]="{'sort-header': headersOnly}" mat-header-row *matHeaderRowDef="columns"></tr>
+
+    <ng-container *ngFor="let header of tableHeaders" [matColumnDef]="header.key">
+        <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>
+            <div class="sort">
+                <div>
+                    {{header.label}}
+                </div>
+                <mat-icon [ngClass]="{'active': matSort?.active == header.key, 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>  
+            </div>  
+        </th>
+        
+        <ng-template [ngIf]="header.type == 'text' && !headersOnly">
+            <td mat-cell *matCellDef="let element" [ngStyle]="{'width': header.width + '%'}">
+            {{element[header.key]}}
+            </td>
+        </ng-template>
+        <ng-template [ngIf]="header.type == 'date' && !headersOnly">
+            <td mat-cell *matCellDef="let element" [ngStyle]="{'width': header.width + '%'}">
+                {{element[header.key] | date: 'dd-MM-yyyy':'+0000'}}
+            </td>
+        </ng-template>
+        <ng-template [ngIf]="header.type == 'icon' && !headersOnly">
+            <td mat-cell *matCellDef="let element" [ngStyle]="{'width': header.width + '%'}">
+                <ng-template [ngIf]="element.venueImages">
+                    <mat-icon (click)="openVenueGalleryDrawer(element)">{{header.icon}}</mat-icon>
+                </ng-template>
+                <ng-template [ngIf]="element.pdfLink">
+                    <a [href]="element.pdfLink" target="_blank" rel="noopener noreferrer">
+                        <mat-icon class="icon">download</mat-icon>
+                    </a>
+                </ng-template>
+            </td>
+        </ng-template>
+    </ng-container>
+    <!-- Rows -->
+    <ng-template [ngIf]="!headersOnly">
+        <tr class="data-row" mat-row *matRowDef="let row; columns: columns"></tr>
+    </ng-template>
+    
+</table>
+<!-- Paginator -->
+<ng-template [ngIf]="!headersOnly">
+    <mat-paginator [length]="dataSource.data.length" [pageSizeOptions]="[5, 10, 20]" [pageSize]="5"></mat-paginator>
+</ng-template>

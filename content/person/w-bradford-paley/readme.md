@@ -1,0 +1,8 @@
+---
+name: W. Bradford Paley
+last_name: Paley
+image: image.jpg
+roles:
+  - maker
+---
+W. Bradford Paley uses computers to create visual displays with the goal of making readable, clear, and engaging expressions of complex data. His visual representations are inspired by the calm, richly layered information in natural scenes. He applies rendering methods used by fine artists and graphic artists, informed by their possible underpinnings in human perception, and uses them to create narrowly scoped, almost idiosyncratic representations whose visual semantics are often driven by the real-world metaphors of the experts who know the domains best. Paley rendered his first computer graphics in 1973; graduated Phi Beta Kappa from the University of California, Berkeley, in 1981; founded Digital Image Design Incorporated in 1982; and started creating financial and statistical data visualization in 1986. He has exhibited at the Museum of Modern Art, is in the Artport permanent collection of the Whitney Museum of American Art, and has received multiple grants and awards for both art and design. He recently finished redesigning the interface at the center of the New York Stock Exchange trading floor. He is an adjunct associate professor at Columbia University and is director of Information Esthetics, an interdisciplinary group exploring the creation and interpretation of data representations that are both readable and aesthetically satisfying.

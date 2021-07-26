@@ -32,7 +32,7 @@ en:
     "Macrosope: Politoscope").
   makers:
     - maziyar-panahi/readme
-    - noandeacute-gaumont/readme
+    - noe-gaumont/readme
     - david-chavalarias/readme
   year: 2017
   references:
@@ -50,8 +50,8 @@ en:
       e0201879.
       [https://doi.org/10.1371/journal.pone.0201879](https://doi.org/10.1371/journal.pone.0201879).
   image:
-    sm: image.sm.png
-    med: image.med.png
-    lg: image.lg.png
+    sm: image.sm.jpg
+    med: image.med.jpg
+    lg: image.lg.jpg
   externalLink: 'https://presidential2017.politoscope.org/'
 ---

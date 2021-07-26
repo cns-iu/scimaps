@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, Resolve, Router, RouterStateSnapshot } from '@angular/router';
+import { Resolve } from '@angular/router';
 import { Observable } from 'rxjs';
 import { take } from 'rxjs/operators';
-
 import { DiscoverItem } from '../../core/models/discover-item';
 import { ContentService } from '../../shared/services/content.service';
+
 
 
 @Injectable({
@@ -12,9 +12,9 @@ import { ContentService } from '../../shared/services/content.service';
 })
 export class MacroscopesResolverService implements Resolve<DiscoverItem[]> {
 
-  constructor(private content: ContentService, private router: Router) { }
+  constructor(private content: ContentService) { }
 
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<DiscoverItem[]> | Observable<never> {
+  resolve(): Observable<DiscoverItem[]> | Observable<never> {
     return this.content.getIndex<DiscoverItem>('app-macroscopes').pipe(take(1));
   }
 }

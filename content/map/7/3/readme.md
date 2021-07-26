@@ -21,7 +21,7 @@ en:
     [http://chrisharrison.net/projects/bibleviz](http://chrisharrison.net/projects/bibleviz).
   makers:
     - chris-harrison/readme
-    - pastor-christoph-romhild/readme
+    - christoph-romhild/readme
   year: 2008
   references:
     - >-

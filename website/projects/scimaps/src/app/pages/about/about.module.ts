@@ -5,11 +5,14 @@ import { AboutRoutingModule } from './about-routing.module';
 import { AboutComponent } from './about.component';
 import { ProfileGalleryModule } from '../../shared/components/profile-gallery/profile-gallery.module';
 import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.module';
-import { NewsItemListModule } from '../../shared/components/news-item-list/news-item-list.module';
 import { SharedModule } from '../../shared/shared.module';
 import { MatSelectModule } from '@angular/material/select';
 import { MarkdownModule } from 'ngx-markdown';
 import { PartnersModule } from '../../shared/components/partners/partners.module';
+import { SelectModule } from '../../shared/components/select/select.module';
+import { SearchOverlayModule } from '../../shared/components/search-overlay/search-overlay.module';
+import { ListViewModule } from '../../shared/components/list-view/list-view.module';
+import { TableModule } from '../../shared/components/table/table.module';
 
 @NgModule({
   declarations: [AboutComponent],
@@ -18,11 +21,14 @@ import { PartnersModule } from '../../shared/components/partners/partners.module
     AboutRoutingModule,
     ProfileGalleryModule,
     TabHeaderModule,
-    NewsItemListModule,
     MatSelectModule,
     SharedModule,
-    MarkdownModule,
-    PartnersModule
+    PartnersModule,
+    SelectModule,
+    SearchOverlayModule,
+    ListViewModule,
+    TableModule,
+    MarkdownModule
   ]
 })
 export class AboutModule { }

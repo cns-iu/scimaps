@@ -1,2 +1,96 @@
-<p>hosting works!</p>
-<sci-card-link *ngFor="let card of testCards" [cardData]="card"></sci-card-link>
+<h1 class="header1"> Hosting </h1>
+
+<div class="highlight-content">
+    <div class="overview-container">
+        <div markdown [data]="overviewText"></div>
+        <div class="spacer-24"></div>
+        <div class="pdf-docs">
+            <a [href]="masterBooklet" class="master-booklet" target="_blank" rel="noopener noreferrer">Information Booklet (PDF)</a>
+            <a [href]="installGuide" class="install-guide" target="_blank" rel="noopener noreferrer">Installation Guide (PDF)</a>
+        </div>
+    </div>
+    <div class="carousel-container">
+        <!-- mobile carousel -->
+        <sci-carousel class="carousel">
+            <sci-carousel-item class="sci-carousel-item" *ngFor="let item of carouselImages">
+                <!-- desktop -->
+                <div *sciBreakpoint="'desktop'" class="carousel-item">
+                    <img [src]="item.lg" class="carousel-image" [alt]="item.lg.split('/')[3]">
+                    <div class="carousel-image-title">{{ item.title }}</div>
+                </div>
+                <!-- mobile / tablet -->
+                <div *sciBreakpoint="'desktop-'" class="carousel-item">
+                    <img [src]="item.sm" class="carousel-image" [alt]="item.sm.split('/')[3]">
+                    <div class="carousel-image-title">{{ item.title }}</div>
+                </div>
+            </sci-carousel-item>
+        </sci-carousel>
+    </div>
+</div>
+
+<div class="spacer-72"></div>
+<hr class="divider">
+
+<div class="main-content">
+    <div class="col1">
+        <!-- desktop tab header and tab content -->
+        <div *sciBreakpoint="'mobile+'" class="tabs">
+            <sci-tab-header class="tab-header" [tabs]="tabHeaders"
+                (activeTabIndexChanged)="updateActivePageTab($event)">
+            </sci-tab-header>
+            <div class="spacer-48">
+            </div>
+            <div class="tab-content">
+                <div class="col1">
+                    <img [src]="tabs[activePageTab].image" alt="">
+                </div>
+                <div class="col2" markdown [data]="tabs[activePageTab].content">
+                </div>
+            </div>
+        </div>
+        <!-- mobile drawer controller and drawers -->
+        <div *sciBreakpoint="'mobile-'" class="mobile-tabs">
+            <div class="mobile-button" *ngFor="let tab of tabHeaders; let i = index"
+                (click)="updateActivePageTab(i); showTab = true">
+                {{tab}}
+                <mat-icon class="mobile-icon">chevron_right</mat-icon>
+            </div>
+            <!-- drawer -->
+            <sci-drawer [@drawerInOut] *ngIf="showTab" class="tab-drawer">
+                <div drawer>
+                    <div>
+                        <div class="drawer-header">
+                            <mat-icon class="mobile-icon" (click)="showTab = false;">chevron_left</mat-icon>
+                            <div class="mobile-title">
+                                <h3>{{tabHeaders[activePageTab]}} </h3>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="row1">
+                                <img [src]="tabs[activePageTab].image" alt="">
+                            </div>
+                            <div class="row2">
+                                <div markdown [data]="tabs[activePageTab].content"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </sci-drawer>
+            <div class="spacer-48"></div>
+        </div>
+    </div>
+</div>
+
+<div class="spacer-72">
+</div>
+
+<div class="bannerText">
+    <div markdown [data]="bannerText">
+    </div>
+</div>
+
+<div class="spacer-72">
+</div>
+
+<sci-learning-material-list header="Learning Material that come with Exhibit." [items]="learningMaterials">
+</sci-learning-material-list>

@@ -1,3 +1,5 @@
+import { Profile } from './profile';
+
 export interface ThumbnailLink {
   title: string;
   image: string;
@@ -33,7 +35,7 @@ export interface MapMacroscopeItem {
   /** Title of item */
   title: string;
   /** Makers of the item */
-  makers: MakerInfo[];
+  makers: Profile[];
   /** Location where the item was made */
   location: string;
   /** Credit text */

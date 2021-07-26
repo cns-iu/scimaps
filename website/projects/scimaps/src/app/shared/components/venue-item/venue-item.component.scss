@@ -1,0 +1,74 @@
+$mobile: 640px;
+$tablet: 960px;
+$desktop: 1248px;
+
+:host {
+  width: 100%;
+  @media (min-width: $mobile) {
+    width: 50%;
+  }
+  .venue-item {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin: 0.5rem; // 8px
+    border-radius: 0.125rem;
+    max-height: 12rem;
+    border: 1px solid #e0e0e0;
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: space-between;
+
+      .card-header {
+        display: flex;
+        flex-direction: row;
+        height: 3rem; // 48px
+        background-color: #f5f5f5;
+        padding: 1rem;
+        justify-content: space-between;
+
+        // date text
+        .date {
+          color: #757575;
+          text-transform: uppercase;
+          font-size: 1rem;
+          overflow: hidden;
+        }
+        // icon
+        .gallery {
+          border-radius: 100%;
+          align-self: center;
+          width: 36px;
+          height: 36px;
+          transition: transform 200ms;
+          cursor: pointer;
+          &:hover {
+            background-color: #dce0e2;
+            transform: scale(1.2);
+          }
+
+          .icon-gallery {
+            margin-left: 6px;
+            margin-top: 6px;
+          }
+        }
+      }
+
+      .body {
+        padding: 1rem;
+        height: 7rem;
+
+        .title {
+          font-size: 1rem;
+          font-weight: 700;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}

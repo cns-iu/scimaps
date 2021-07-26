@@ -1,0 +1,35 @@
+<div class="venue-item">
+  
+    <div class="main">
+      <div class="card-header">
+        <div class="date mat-display-1">
+          {{ item.dateStart | date:'mediumDate' : '+0000' }} {{item.dateEnd ? '-' : ''}} {{item.dateEnd | date: 'mediumDate':'+0000'}}
+        </div>
+        <div class="gallery" *ngIf="item.venueImages">
+          <mat-icon class="icon-gallery" aria-hidden="true" (click)="openDrawer(item)">image</mat-icon>
+        </div>
+      </div>
+  
+      <div class="body">
+            <div class="title">
+                {{item.title}}
+            </div>
+            <div class="venue">
+                {{item.venue}}
+            </div>
+            <div class="city">
+                {{item.city}}
+            </div>
+            <div class="organizer">
+                {{item.organizer}}
+            </div>
+      </div>
+    </div>
+  </div>
+
+  <sci-drawer *ngIf="false">
+    <div drawer>
+      <sci-gallery-item [item]="item">
+      </sci-gallery-item>
+    </div>
+  </sci-drawer>

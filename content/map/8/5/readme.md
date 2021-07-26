@@ -22,7 +22,7 @@ en:
     the map, are there any surprises? Find out more at
     [http://www.gapminder.org/for-teachers](http://www.gapminder.org/for-teachers)
   makers:
-    - anna-rosling-randoumlnnlund/readme
+    - anna-rosling-ronnlund/readme
     - ola-rosling/readme
   year: 2010
   references:

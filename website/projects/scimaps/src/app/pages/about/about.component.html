@@ -25,8 +25,8 @@
     <div class="annual-reports">
       <mat-form-field>
         <mat-select placeholder="Annual Reports" (selectionChange)="getReport($event.value)">
-          <mat-option *ngFor="let year of annualReportYears" [value]="year">
-            {{year}}
+          <mat-option *ngFor="let report of annualReports" [value]="report.pdfLink">
+            {{report.year}}
           </mat-option>
         </mat-select>  
       </mat-form-field>
@@ -86,12 +86,26 @@
 </div>
 
 <!-- News -->
-<sci-news-item-list [newsItems]=newsItems>
-</sci-news-item-list>
+
+<h2 class="header2">In the News</h2>
+<div class="row">
+  <div class="group1">
+      <sci-select [select]="year" [options]="yearList" (selectChange)="onSelectChange($event)">
+      </sci-select>
+      <sci-table [dataSource]="dataSource" [tableHeaders]="sortHeaders" [headersOnly]="true" filters>
+      </sci-table>
+  </div>
+  <sci-search-overlay [search]="searchKey" (searchChange)="onSearchChange($event)">
+  </sci-search-overlay>
+</div>
+
+<sci-list-view class="news-list"
+    [config]="{type: 'news', items: (dataSource.connect().asObservable() | async) || [], displayLimit: 6, showAllItems: false}">
+</sci-list-view>
 
 <div class="spacer-72">
 </div>
 
 <!-- Partners -->
-<sci-partners [data]="partners"></sci-partners>
+<sci-partners></sci-partners>
  

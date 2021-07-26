@@ -7,29 +7,29 @@ import { DiscoverItem } from '../../core/models/discover-item';
 
 import { of } from 'rxjs';
 
-const discoverItem: DiscoverItem = {
+export const discoverItem: DiscoverItem = {
   title: 'test',
   body: 'test',
   thumbnails: [
     {
-      title: 'test',
-      link: 'test',
-      image: 'test'
+      title: 'test1',
+      link: 'test1',
+      image: 'test1'
     },
     {
-      title: 'test',
-      link: 'test',
-      image: 'test'
+      title: 'test2',
+      link: 'test2',
+      image: 'test2'
     },
     {
-      title: 'test',
-      link: 'test',
-      image: 'test'
+      title: 'test3',
+      link: 'test3',
+      image: 'test3'
     },
     {
-      title: 'test',
-      link: 'test',
-      image: 'test'
+      title: 'test4',
+      link: 'test4',
+      image: 'test4'
     }
   ],
   slug: 'test',
@@ -57,27 +57,14 @@ describe('MacroscopesComponent', () => {
   it('should create no more than itemsToDisplay number of sci-discover-listings', async () => {
     const { find, instance } = await shallow.render();
     const overviews = find('sci-discover-listing');
-    expect(overviews.length).toBeLessThanOrEqual(instance.itemsToDisplay);
+    expect(overviews.length).toBeLessThanOrEqual(instance.displayLimit);
   });
 
   it('calling showMoreMacroscopes() should increase itemsToDisplay', async () => {
-    const { instance } = await shallow.render();
-    const oldValue = instance.itemsToDisplay;
-    instance.showMoreMacroscopes();
-    expect(instance.itemsToDisplay).toBeGreaterThan(oldValue);
-  });
-
-  it('calling when you call showMoreMacroscopes() it should update the display items', async () => {
-    const { instance } = await shallow.render();
-    const spy = spyOn(instance, 'updateDisplayItems');
-    instance.showMoreMacroscopes();
-    expect(spy).toHaveBeenCalled();
-  });
-
-  it('moreMacroscopes() should return true if there are more items to display and false otherwise', async () => {
-    const { instance } = await shallow.render();
-    expect(instance.moreMacroscopes()).toBeTrue();
-    instance.itemsToDisplay = instance.discoverItems.length + 1;
-    expect(instance.moreMacroscopes()).toBeFalse();
+    const { instance, find } = await shallow.render();
+    instance.showAllItems = true;
+    instance.updateDisplayItems();
+    const overviews = find('sci-discover-listing');
+    expect(overviews.length).toBeGreaterThanOrEqual(instance.displayLimit);
   });
 });

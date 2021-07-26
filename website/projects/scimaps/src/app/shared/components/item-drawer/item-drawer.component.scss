@@ -1,48 +1,27 @@
 $breakpoint: 768px;
 
+// :host(.maps) {
+// }
+
+// :host(.macrscopes) {
+// }
+
+
 :host {
+  // z-index: 3;
+  // position: relative;
+  // top: -72px;
   display: flex;
   flex-direction: column;
-  position: fixed;
-  left: -1rem;
-  top: 0;
-  width: calc(100% + 1rem);
-  height: 100%;
-  margin: 0 auto;
-  z-index: 2;
+  width: 100%;
   align-items: center;
-  overflow-y: scroll;
 
-  .makers-subdrawer {
-    left: 0%;
-    transition: left 1s;
-    margin-right: 0;
-    overflow-y: scroll;
-    z-index: 6;
-
-    @media (max-width: $breakpoint) {
-      top: 0%;
-      left: 0%;
-      transition: top 1s;
-    }
-
-    &.hidden {
-      left: 100%;
-      margin-right: 1rem;
-
-      @media (max-width: $breakpoint) {
-        margin-right: 0;
-        top: -100%;
-        left: 0%;
-      }
-    }
+  @media screen and (max-width: $breakpoint) {
+    padding: 1rem;
   }
 
   .details-container {
-    width: 80%;
-    position: absolute;
-    top: 5rem;
-
+    padding-top: 1rem;
     .purchase-header {
       display: flex;
       width: 100%;
@@ -106,6 +85,11 @@ $breakpoint: 768px;
           cursor: pointer;
           justify-content: space-between;
 
+          &:hover {
+            color: white;
+            background-color: #7996a3;
+          }
+
           .makers-text {
             display: flex;
             padding: 1rem;
@@ -123,9 +107,9 @@ $breakpoint: 768px;
 
         .language-selection {
           display: flex;
-          margin: 1rem 0;
+          margin-top: 1rem;
           margin-left: 1rem;
-          
+          align-items: center;
           .language-container {
             display: flex;
           }
@@ -136,13 +120,13 @@ $breakpoint: 768px;
         }
 
         .details-description {
+          margin-top: 1rem;
           margin-bottom: 1rem;
         }
 
         .details-references {
           font-size: 11px;
           line-height: 16px;
-
           .reference {
             margin-bottom: 1rem;
           }
@@ -153,7 +137,7 @@ $breakpoint: 768px;
         display: flex;
         flex-direction: column;
         width: 50%;
-
+        position: relative;
         @media (max-width: $breakpoint) {
           width: 100%;
         }
@@ -162,11 +146,14 @@ $breakpoint: 768px;
           object-fit: contain;
           width: 100%;
           cursor: pointer;
+          &:hover {
+            opacity: 70%;
+          }  
         }
 
         .icon {
           position: absolute;
-          right: 1px;
+          right: 0px;
           height: 3rem;
           width: 3rem;
           justify-content: center;
