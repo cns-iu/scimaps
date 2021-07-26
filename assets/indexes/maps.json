@@ -52,7 +52,7 @@
       "sequence": 10,
       "body": "Kevin W. Boyack and Richard Klavans share a deep interest in the mapping of science as a platform for planning and evaluation on the national, corporate, and personal levels. Through a multistep process, this galaxy-like map of science was created from citation patterns in 800,000 scientific papers published in 2002. Each dot represents one of 96,000 active research communities. Over time, communities can be born, grow, split, merge, or die. By coupling coefficients between papers, using the VxOrd layout algorithm and a modified single-link clustering routine, Boyack and Klavans were able to calculate the placement of research communities. For example, communities made up solely of papers in biochemistry journals show up in the biochemistry section, while communities that are evenly split between biochemistry and chemistry journals show up midway between biochemistry and chemistry. In 2005, this was the most comprehensive and most accurate literature map ever generated.",
       "makers": [
-        "kevin-w-boyack/readme",
+        "kevin-boyack/readme",
         "richard-klavans/readme"
       ],
       "year": 2005,
@@ -283,7 +283,7 @@
       "sequence": 6,
       "body": "Computer scientist Keith V. Nesbitt’s hand-drawn map, which was inspired by the Sydney metro map, shows interconnecting ideas running through his Ph.D. thesis. Nesbitt’s thesis concerns the design of multisensory displays of abstract data with the motivation of mining this data. On the map, each separate “track of abstract thought” in the thesis is represented by a different color. Related ideas correspond to category stations along that track. Overlapping ideas are shown as connected stations. The familiarity of metro maps makes the diagram easy for readers to interpret. As the space in which the tracks are laid is invariant to rotation and mirroring, it is possible to read the map in any direction. However, there is a cultural bias for the tracks to be followed from left to right and top to bottom.",
       "makers": [
-        "keith-v-nesbitt/readme"
+        "keith-nesbitt/readme"
       ],
       "year": 2004,
       "references": [
@@ -979,7 +979,7 @@
       "body": "Richard Klavans and Kevin W. Boyack are known for groundbreaking maps of science that serve as platforms for planning and evaluation. This work, their eighth contribution to the exhibit, shows several relationships between the worlds of altruism and science using maps of the two spaces. The map of altruism was created using text from the websites of 125,000 non-profit organizations (NPOs) in the U.S. using domain names provided by GuideStar USA, Inc. MALLET topic modeling was run on nearly 4 million web pages, and the mission-related topics were located in a two-dimensional space. The map shows the locations of nearly 100,000 NPOs overlaid on this topic space. A map of science was created from 43 million Scopus documents using a two-step process: documents were grouped into 156,000 clusters using a direct citation methodology, and the clusters were mapped using textual similarity. Together, the results demonstrate that, while most NPO efforts support day-to-day activities related to altruistic missions, a surprising amount is used to fund scientific research, particularly in topics related to innovation, environment, and medicine. In contrast, very little NPO effort is used to support research in altruistic missions dealing with different aspects of childhood development. Funding of more research to increase our understanding of these areas could lead to revolutionary advances that parallel those made in technology and medicine in recent years.",
       "makers": [
         "richard-klavans/readme",
-        "kevin-w-boyack/readme"
+        "kevin-boyack/readme"
       ],
       "year": 2014,
       "references": [
@@ -1219,7 +1219,7 @@
       "sequence": 4,
       "body": "The _Interactive Sky Chart_, designed by Roger W. Sinnott and The Interactive Factory for _Sky & Telescope_, can simulate a naked-eye view of the sky from any location on Earth, at any time of night, on any date from 1600 to 2400. The circle seen here simulates the view of a dome centered over New York City in April 2006. The yellow rectangle represents the view looking into the southeastern part of the dome. The purple rectangle is a view into deep space. The stars and planets charted are those typically visible without optical aid under clear suburban skies. Deep-sky objects that can be seen through binoculars are also plotted. Observations over many centuries are used to predict which stars and planets will be visible from different areas at various times of the year. To specify a point on the Earth or celestial sphere, geometers use spherical coordinates. In the case of Earth, these are named latitude and longitude. Astronomers expand Earth’s coordinates out into the celestial sphere using coordinates called declination and right ascension that stay fixed with respect to the stars. This is why they can be permanently printed on star maps. The _Interactive Sky Chart_ can be found at [http://skyandtelescope.com/observing/skychart](http://skyandtelescope.com/observing/skychart).",
       "makers": [
-        "roger-w-sinnott-interactive-factory/readme"
+        "roger-w-sinnott/readme"
       ],
       "year": 2006,
       "references": [
@@ -1411,7 +1411,7 @@
         "w-bradford-paley/readme",
         "elisha-f-h-allgood/readme",
         "katy-borner/readme",
-        "bruce-w-herr-ii/readme",
+        "bruce-herr-ii/readme",
         "todd-holloway/readme"
       ],
       "year": 2006,
@@ -1459,7 +1459,7 @@
       "body": "Kevin W. Boyack and Richard Klavans create maps of science that can be used for planning and evaluation on the national, corporate, and personal levels. Science itself can be thought of as containing themes and paradigms: themes are current areas of research, while paradigms comprise the dominant tool sets and existing knowledge that are used by current researchers. To visualize these scientific paradigms, Boyack and Klavans used the VxOrd graph layout tool to recursively cluster the 820,000 most important papers referenced in 2003, resulting in 776 paradigms. The most dominant relationships between paradigms were also calculated and are shown as lines between paradigms. The map of scientific paradigms constitutes a reference system that can be used for multiple purposes. Countries, industries, companies, and individual researchers can all locate themselves within the map, either as a single point or as a specific collection of paradigms. Science education and discovery can also be enhanced by linking to the map stories and facts that exemplify content and relationships between scientific paradigms.",
       "makers": [
         "richard-klavans/readme",
-        "kevin-w-boyack/readme"
+        "kevin-boyack/readme"
       ],
       "year": 2006,
       "references": [
@@ -1803,7 +1803,7 @@
       "sequence": 6,
       "body": "Research programmers Bruce W. Herr II and Russell J. Duhon, graphic designer Elisha F. Hardy, data analyst Shashikant Penumarthy, and information scientist Katy Börner develop infrastructures to analyze, model, and map large-scale scholarly datasets. The 113-year _Physical Review_ dataset shown here is one example of this work. The visualization aggregates 389,899 articles published in 720 volumes of 11 journals between 1893 and 2005 using the Physics and Astronomy Classification Scheme (PACS) codes introduced in 1975. The 91,762 articles published from 1893 to 1976 take up the left third of the map. The 217,503 articles from 1977 to 2000, for which partial citation and PACS data is available, occupy the middle third on the map. The 80,634 articles from 2001 to 2005, for which complete citation and PACS data is available, fill the last third of the map. On top of this base map, all citations from the papers in every top-level PACS code in 2005 are overlaid. Each year, Thomson Reuters predicts three Nobel Prize awardees in physics based on citation counts, high-impact papers, and discoveries or themes worthy of special recognition. The small Nobel Prize medals indicate all Nobel prize-winning papers, and all correct predictions by Thomson Reuters are highlighted.",
       "makers": [
-        "bruce-w-herr-ii/readme",
+        "bruce-herr-ii/readme",
         "russell-j-duhon/readme",
         "shashikant-penumarthy/readme",
         "elisha-f-h-allgood/readme",
@@ -1905,9 +1905,9 @@
       "body": "Developed by research programmers Bruce W. Herr II and Todd M. Holloway, graphic designer Elisha F. Hardy, and information scientists Kevin W. Boyack and Katy Börner, this map shows the structure and dynamics of the English Wikipedia based on 659,388 articles and their editing activity. The similarity of each article-article pair was calculated as the number of shared links to other articles. The resulting similarity matrix was read into VxOrd to generate the base map layout. An invisible 37 x 37 half-inch grid was drawn underneath the network and filled with relevant images from key articles. Overlaid are 3,599 math, 6,474 science, and 3,164 technology articles. They are color-coded in blue, green, and yellow, respectively, with all other articles appearing in grey. Exactly 8,181 articles are in one category, 2,348 in two, and 73 in all three categories. The four corners show smaller versions of the map with articles size-coded according to article edit activity (top left), number of major edits from January 1st, 2007, to April 6th, 2007 (top right), number of bursts in edit activity (bottom right), and the number of times other articles link to an article (bottom left). These visualizations serve to highlight current trends and predict future editing activity and growth in Wikipedia articles related to science, technology, and mathematics. Interactive Wikipedia maps are available at [http://scimaps.org/web/maps/wikipedia/](http://scimaps.org/web/maps/wikipedia/).",
       "makers": [
         "elisha-f-h-allgood/readme",
-        "bruce-w-herr-ii/readme",
+        "bruce-herr-ii/readme",
         "todd-holloway/readme",
-        "kevin-w-boyack/readme"
+        "kevin-boyack/readme"
       ],
       "year": 2007,
       "references": [
@@ -1953,7 +1953,7 @@
       "sequence": 9,
       "body": "Richard Klavans and Kevin W. Boyack share a deep interest in the mapping of science as a valuable tool for planning and evaluation on the national, corporate, and personal levels. The map featured here is based on the largest set of scientific literature mapped by 2007: 7.2 million papers and over 16,000 separate journals, proceedings, and series from a five-year period, 2001-2005. Groups of journals characterizing the disciplines on the map were defined using a metric based on a combination of the bibliographic coupling of references and keyword vectors. A three-dimensional layout of the disciplines (groups of journals) places those disciplines on a sphere, which is then unfolded using a Mercator projection to give a two-dimensional version of the map. A forecast of how the structure of science may change in the near future was generated by evaluating the change in the connectedness of various regions of the map over time. The structure of science is very likely to change in the future, and these maps can show us how. More information can be found at [http://mapofscience.com](http://mapofscience.com).",
       "makers": [
-        "kevin-w-boyack/readme",
+        "kevin-boyack/readme",
         "richard-klavans/readme"
       ],
       "year": 2007,
@@ -2047,7 +2047,7 @@
       "body": "_EarthPulse_ by National Geographic is a visual guide to global trends. It explores our complex connections with vivid and informative imagery, maps, diagrams, and interactives to illuminate where we are today, how we got here, and how our actions may affect the future of life on Earth. The very first issue of _EarthPulse_ features a global map of subjective well-being (SWB). A ranking of the world’s happiest places is given on the right. The data on SWB was extracted from a meta-analysis by Nic Marks, Saamah Abdallah, Andrew Simms, and Sam Thompson in 2006 ([http://happyplanetindex.org](http://happyplanetindex.org)). It is immediately evident that there is an effect of poverty on levels of SWB. The map itself mirrors other projections of poverty and gross domestic product. Adrian White compared the data on SWB with the 2005 data on access to education provided by the United Nations Educational, Scientific and Cultural Organization (UNESCO), 2005 health data made available by the United Nations (UN), and 2006 poverty data downloaded from the Central Intelligence Agency (CIA). It was found that SWB correlates most strongly with health (.7), wealth (.6), and access to basic education (.6). This adds to the evidence that, from a global perspective, the biggest factors affecting SWB are poverty and associated variables. Learn more at [http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse).",
       "makers": [
         "adrian-white/readme",
-        "national-geographic-earthpulse-team/readme"
+        "the-national-geographic-society-earthpulse-team/readme"
       ],
       "year": 2008,
       "references": [
@@ -2093,7 +2093,7 @@
       "sequence": 2,
       "body": "R. Buckminster Fuller, the noted visionary and applied futurist, was one of the first to chart long-term trends of industrialization and globalization as early as the 1930s. In 1961, Fuller made a proposal to the International Union of Architects at their VIIth Congress to encourage architectural schools around the world to commit the next ten years to addressing how to make the world’s total resources, which then served only 40% of the world population, serve 100% of humanity. This was the beginning of a World Design Science Decade (WDSD), an international program to apply his strategies for Comprehensive Anticipatory Design Science. The program itself never took off; however, the documents themselves reveal early ecological thinking in the 20th century. This trend chart from Document 6, produced by Fuller and his associate John McHale, shows how the confluence of human communication and transportation technologies produce a “shrinking Earth.” During the same decade that Gordon E. Moore predicted the acceleration curve of computing technologies (Moore’s Law), Fuller applied his comprehensive approach to map the global impact of what he termed “accelerating acceleration” and “ephemeralization” (tendency to develop smaller and more efficient technologies).",
       "makers": [
-        "john-mchale-sr/readme",
+        "john-mchale/readme",
         "buckminster-fuller/readme"
       ],
       "year": 1965,
@@ -2429,7 +2429,7 @@
       "sequence": 9,
       "body": "Kevin W. Boyack and Richard Klavans are interested in creating high-quality maps of science that can be used as tools for planning and evaluation on multiple levels. In this work, Boyack and Klavans simplify their _Maps of Science: Forecasting Large Trends in Science_ (featured in the third iteration of this exhibit) into a circular map. The 554 scientific disciplines, representing over 16,000 journals and proceedings, are placed in a logical order around the perimeter of a circle. The resulting “circle of science” is used as a reference system to show the scientific roots of technology. Over 18,000 inventor-authors from the Scopus publication and _United States Patent and Trademark Office_ databases (2002-2006) were identified to link technological output (patents) from inventors to scientific output (papers) of authors. Authors are located within the circle map at the average position of their scientific papers using the disciplines in which they publish. Patents by these authors are then placed at the authors’ locations on the map. Some patents and classes are tied to one area of science (e.g., ‘G06F,’ near the edge), while others build on multiple areas of science (e.g., ‘C07D,’ near the center). Some areas of science (e.g., physics, computer science) are tied to large numbers of patents, while other areas of science (e.g., social sciences) are tied to very few patents.",
       "makers": [
-        "kevin-w-boyack/readme",
+        "kevin-boyack/readme",
         "richard-klavans/readme"
       ],
       "year": 2008,
@@ -2803,8 +2803,8 @@
       "sequence": 7,
       "body": "This map was developed by research programmer Bruce W. Herr II, biomedical researcher Gully A.P.C. Burns, computer scientist David Newman, and National Institutes of Health (NIH) program director Edmund Talley. It is a similarity-based cluster map of all grants awarded by NIH in 2007. Approximately 60,000 grants are represented as dots, color-coded by NIH Institute. To generate the map, the content of each grant was assessed using topic modeling, an unsupervised machine-learning method based on statistics of co-occurring words in the grants’ abstracts. Grants were placed on the map using a layout algorithm that clusters together grants with similar topic mixtures. Clusters are labeled by the computationally derived topics with the highest word allocations in the underlying grants. The map provides a global view of the NIH funding: what topics of research are being heavily pursued, how the topics relate to one another, and what research topics interest each institute. Data can be examined at multiple levels (see zooms for ‘Cardiac Diseases Research’ and ‘Neural Circuit Research’ below) and at different resolutions (see funding portfolios of four institutes together with their top-10 topics on the right). The interactive version is shown on the left and can be explored at [http://nihmaps.org](http://nihmaps.org).",
       "makers": [
-        "bruce-w-herr-ii/readme",
-        "gully-burns-usc/readme",
+        "bruce-herr-ii/readme",
+        "gully-burns/readme",
         "edmund-talley/readme",
         "david-newman/readme"
       ],
@@ -2855,7 +2855,7 @@
         "johan-bollen/readme",
         "herbert-van-de-sompel/readme",
         "aric-hagberg/readme",
-        "luis-ma-bettencourt/readme",
+        "luis-m-a-bettencourt/readme",
         "ryan-chute/readme",
         "marko-a-rodriguez/readme",
         "lyudmila-balakireva/readme"
@@ -2904,7 +2904,7 @@
       "sequence": 9,
       "body": "Kevin W. Boyack and Richard Klavans create maps of science that serve as a platform for planning and evaluation on the national, corporate, and personal levels. Traditional methods of comparing scientific strengths of nations are based on counting papers and citations within journal categories. However, journal category structures are too coarse to accurately show the strengths of smaller nations. Journal-based methods also fail to show the subdisciplinary or multidisciplinary nature of many countries’ strengths. In this map, Boyack and Klavans introduce a method to identify and visualize research leadership using a classification system in which millions of research papers are segmented into over 80,000 clusters. These 80,000 building blocks are individually reassembled for each nation to reveal their areas of research leadership. Analysis of the top-13 publishing nations shows that this new method for measuring research leadership gives a much more accurate and detailed accounting of the actual scientific strengths of nations than does the journal-based method. In particular, the strengths of small nations, along with subdisciplinary and multidisciplinary strength, are more accurately identified using the new method. Overlaying U.S. strengths with those from the top-12 competitive nations shows the areas in which those nations have a leadership role that is not matched by the U.S.",
       "makers": [
-        "kevin-w-boyack/readme",
+        "kevin-boyack/readme",
         "richard-klavans/readme"
       ],
       "year": 2008,
@@ -3383,7 +3383,7 @@
       "sequence": 9,
       "body": "Richard Klavans and Kevin W. Boyack share a deep interest in the mapping of science as a platform for planning and evaluation on the national, corporate, and personal levels. This map represents science as a set of fabrics in which scientific topics are woven by scholars over time. Just as a textile contains a perpendicular weaving of threads, this representation of the fabric of science consists of a perpendicular weave, with horizontal threads (temporal sequences of topics) and vertical weaving of those topics by leading researchers. Five annual models of science were created using _Scopus_ data. Topics from these five annual models were linked in time to form the horizontal threads. Leading researchers publish in multiple threads, thus weaving them together into micro-fabrics. Overlaps in leadership between multiple researchers stitch the micro-fabrics into larger fabrics. This poster shows the fabrics of science in two areas: ‘Cardiology’ and ‘Data Security.’ Fabrics can help scientists see the evolution and linkage of topic space and distinguish thread builders from weavers. The fabric of science can help researchers to understand and discover ways to change their strategic positions in science.",
       "makers": [
-        "kevin-w-boyack/readme",
+        "kevin-boyack/readme",
         "richard-klavans/readme"
       ],
       "year": 2010,
@@ -3530,7 +3530,7 @@
       "sequence": 2,
       "body": "Harold Johann Thomas (H.J.T.) Ellingham was a professor of chemistry at the Imperial College of Science, Technology and Medicine in London and a member of the Royal Institute of Chemistry. In 1948, he produced a hand-drawn map showing the relationships between the branches of natural science and technology. The work is premised on the distance-similarity metaphor, in which objects more similar to each other are more proximate in space. Additional relationships are indicated by the direction of the labels. Ellingham’s map is one of the earliest known examples of a visual frontend to a body of literature. Ellingham overlies the coverage of each of the available index and abstracting services in the United Kingdom onto the chart to indicate which areas of science the indexes covered. Overlay 1 features broad index and abstract services that cover large areas of science. Overlay 2 features more focused index and abstract services that cover specific areas of scientific research. Ellingham also intended that his two-dimensional map should be wrapped as if around a cylinder to show the continued relationships of topics on the extreme left side with those on the extreme right side.",
       "makers": [
-        "hjt-ellingham/readme"
+        "harold-johann-thomas-ellingham/readme"
       ],
       "year": 1948,
       "references": [
@@ -3577,7 +3577,7 @@
       "body": "Few books can claim to have been as thoroughly analyzed as the Bible. For millennia, scholars from many religions have pored over the text, extracting meaning and guidance from its pages. Following in this long tradition, Chris Harrison, a Ph.D. student in the Human-Computer Interaction Institute at Carnegie Mellon University, and Christoph Römhild, a Lutheran pastor, collaborated to create a multi-colored arc diagram of cross-references found in the Lutheran Bible. In this visualization, information found on thousands of pages of text is collapsed into a visual overview. The bar graph that runs along the bottom represents all of the chapters in the Bible. Chapters alternate in color between white and light grey. The length of each bar denotes the number of verses in the chapter. Each one of the 63,779 cross-references found in the Bible is depicted by a single arc—the color corresponds to the distance between the two chapters, creating a rainbow-like effect. More information can be found at [http://chrisharrison.net/projects/bibleviz](http://chrisharrison.net/projects/bibleviz).",
       "makers": [
         "chris-harrison/readme",
-        "pastor-christoph-romhild/readme"
+        "christoph-romhild/readme"
       ],
       "year": 2008,
       "references": [
@@ -4192,7 +4192,7 @@
       "sequence": 5,
       "body": "Who in the world is rich or poor, and who lives the longest? Gapminder, a non-profit foundation based in Stockholm, has developed classroom materials to stimulate an interest in using statistics to understand the world. This sorting game developed by Mattias Lindgren based on an idea by Paula Cooper was designed to replace devastating myths with a fact-based worldview. Students are given a number of “country cards.” They are asked to group the cards in a way that reflects the development level of these countries. Any grouping—sorting into two or more groups or arranging them into one line—is fine. Next, students are asked to explain how they arranged the cards—does the sorting reflect incomes, health, or development in a more general sense? Subsequently, the teacher introduces the _Gapminder World Map_ shown here: The Y-axis is life expectancy (increases bottom-up); the X-axis is income per person (less than $500 per year on left to more than $50,000 on right). Each bubble is a country, color-coded by continent and size-coded by country population. When the sorting is compared with the placement of bubbles on the map, are there any surprises? Find out more at [http://www.gapminder.org/for-teachers](http://www.gapminder.org/for-teachers)",
       "makers": [
-        "anna-rosling-randoumlnnlund/readme",
+        "anna-rosling-ronnlund/readme",
         "ola-rosling/readme"
       ],
       "year": 2010,
@@ -4939,7 +4939,7 @@
       "sequence": 9,
       "body": "Frequent contributors to the exhibit, Kevin W. Boyack and Richard Klavans create maps of science that are useful for planning and evaluation on national, corporate, and personal levels. Together with Henry G. Small, the creator of the very first map of all of science (_1996 Map of Science_, featured in the first iteration of this exhibit), Boyack and Klavans have developed a novel approach to identifying emerging topics in science and technology. Two models of science and technology have been created using 20 million Scopus papers and 3 million patents from USPTO published in 1996-2011. These two models—one based on direct citation, and one based on co-citation—are used together to nominate the most emergent clusters of documents at a particular point in time. Each map was created using a multistep process in which 1) papers from Scopus were clustered using citation characteristics, 2) patents were clustered separately using citation characteristics, 3) a map was created using the OpenOrd graph layout routine to combine paper clusters and patent clusters using a cluster-to-cluster BM25 text similarity measure, and (4) a difference function was used to identify which clusters are most emergent based on where papers occur in both maps. A detailed analysis shows that the emerging topics can be classified as either scientific discoveries or technological innovations, and confirms that the identified emerging topics have high face validity.",
       "makers": [
-        "kevin-w-boyack/readme",
+        "kevin-boyack/readme",
         "richard-klavans/readme",
         "henry-g-small/readme"
       ],

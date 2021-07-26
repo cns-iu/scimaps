@@ -143,7 +143,7 @@ class MacroscopeComponent {
     }
 }
 MacroscopeComponent.ɵfac = function MacroscopeComponent_Factory(t) { return new (t || MacroscopeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
-MacroscopeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MacroscopeComponent, selectors: [["sci-macroscope"]], decls: 1, vars: 2, consts: [[3, "item", "type", "languageChange"]], template: function MacroscopeComponent_Template(rf, ctx) { if (rf & 1) {
+MacroscopeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MacroscopeComponent, selectors: [["sci-macroscope"]], decls: 1, vars: 2, consts: [[1, "macroscope", 3, "item", "type", "languageChange"]], template: function MacroscopeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "sci-item-drawer", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("languageChange", function MacroscopeComponent_Template_sci_item_drawer_languageChange_0_listener($event) { return ctx.changeLanguage($event); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();

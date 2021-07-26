@@ -28,7 +28,7 @@ en:
     the full functionality at
     [http://earth.nullschool.net](http://earth.nullschool.net).
   makers:
-    - cameron-becarrio/readme
+    - cameron-beccario/readme
   year: 2015
   references:
     - >-

@@ -51,7 +51,7 @@ TabHeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, TabHeaderComponent_div_0_Template, 2, 3, "div", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.tabs);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]], styles: ["[_nghost-%COMP%] {\n  display: flex;\n  flex-direction: row;\n}\n[_nghost-%COMP%]   .tab[_ngcontent-%COMP%] {\n  border-bottom: 2px solid transparent;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  cursor: pointer;\n  height: 3rem;\n  font-size: 1rem;\n  text-align: center;\n  line-height: 3rem;\n}\n[_nghost-%COMP%]   .tab.active[_ngcontent-%COMP%] {\n  border-bottom: 2px solid #8dc63f;\n}\n[_nghost-%COMP%]   .tab[_ngcontent-%COMP%]:not(:first-child) {\n  margin-left: 1rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9zaGFyZWQvY29tcG9uZW50cy90YWItaGVhZGVyL3RhYi1oZWFkZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFBO0VBQ0EsbUJBQUE7QUFDRjtBQUNFO0VBQ0Usb0NBQUE7RUFDQSxrQkFBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtBQUNKO0FBQ0k7RUFDRSxnQ0FBQTtBQUNOO0FBRUk7RUFDRSxpQkFBQTtBQUFOIiwiZmlsZSI6InByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9zaGFyZWQvY29tcG9uZW50cy90YWItaGVhZGVyL3RhYi1oZWFkZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiByb3c7XG5cbiAgLnRhYiB7XG4gICAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkIHRyYW5zcGFyZW50O1xuICAgIHBhZGRpbmctbGVmdDogMXJlbTtcbiAgICBwYWRkaW5nLXJpZ2h0OiAxcmVtO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBoZWlnaHQ6IDNyZW07XG4gICAgZm9udC1zaXplOiAxcmVtO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBsaW5lLWhlaWdodDogM3JlbTtcblxuICAgICYuYWN0aXZlIHtcbiAgICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCAgIzhkYzYzZjtcbiAgICB9XG5cbiAgICAmOm5vdCg6Zmlyc3QtY2hpbGQpIHtcbiAgICAgIG1hcmdpbi1sZWZ0OiAxcmVtO1xuICAgIH1cbiAgfVxufSJdfQ== */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]], styles: ["[_nghost-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  border-bottom: 1px solid #e0e0e0;\n}\n[_nghost-%COMP%]   .tab[_ngcontent-%COMP%] {\n  border-bottom: 2px solid transparent;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  cursor: pointer;\n  height: 3rem;\n  font-size: 1rem;\n  text-align: center;\n  line-height: 3rem;\n}\n[_nghost-%COMP%]   .tab.active[_ngcontent-%COMP%] {\n  border-bottom: 2px solid #8dc63f;\n  background-color: #f5f5f5;\n}\n[_nghost-%COMP%]   .tab[_ngcontent-%COMP%]:not(:first-child) {\n  margin-left: 1rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9zaGFyZWQvY29tcG9uZW50cy90YWItaGVhZGVyL3RhYi1oZWFkZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQ0FBQTtBQUNGO0FBQ0U7RUFDRSxvQ0FBQTtFQUNBLGtCQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtFQUNBLGlCQUFBO0FBQ0o7QUFDSTtFQUNFLGdDQUFBO0VBQ0EseUJBQUE7QUFDTjtBQUVJO0VBQ0UsaUJBQUE7QUFBTiIsImZpbGUiOiJwcm9qZWN0cy9zY2ltYXBzL3NyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvdGFiLWhlYWRlci90YWItaGVhZGVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3Qge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2UwZTBlMDtcblxuICAudGFiIHtcbiAgICBib3JkZXItYm90dG9tOiAycHggc29saWQgdHJhbnNwYXJlbnQ7XG4gICAgcGFkZGluZy1sZWZ0OiAxcmVtO1xuICAgIHBhZGRpbmctcmlnaHQ6IDFyZW07XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGhlaWdodDogM3JlbTtcbiAgICBmb250LXNpemU6IDFyZW07XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGxpbmUtaGVpZ2h0OiAzcmVtO1xuXG4gICAgJi5hY3RpdmUge1xuICAgICAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkICAjOGRjNjNmO1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Y1ZjVmNTtcbiAgICB9XG5cbiAgICAmOm5vdCg6Zmlyc3QtY2hpbGQpIHtcbiAgICAgIG1hcmdpbi1sZWZ0OiAxcmVtO1xuICAgIH1cbiAgfVxufSJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TabHeaderComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -111,63 +111,6 @@ TabHeaderModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineIn
 
 /***/ }),
 
-/***/ "RxUJ":
-/*!*******************************************************************************!*\
-  !*** ./src/app/shared/components/discover-listing/discover-listing.module.ts ***!
-  \*******************************************************************************/
-/*! exports provided: DiscoverListingModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DiscoverListingModule", function() { return DiscoverListingModule; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "2kYt");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "sEIs");
-/* harmony import */ var ngx_markdown__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ngx-markdown */ "DgXe");
-/* harmony import */ var _discover_listing_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./discover-listing.component */ "0zur");
-/* harmony import */ var _warning_dialog_warning_dialog_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../warning-dialog/warning-dialog.module */ "yE48");
-
-
-
-
-
-
-
-
-const routes = [
-    { path: 'map', loadChildren: () => Promise.all(/*! import() | pages-map-map-module */[__webpack_require__.e("default~pages-macroscope-macroscope-module~pages-macroscopes-macroscopes-module~pages-map-map-module~6842d2ab"), __webpack_require__.e("default~pages-macroscope-macroscope-module~pages-map-map-module~pages-maps-maps-module"), __webpack_require__.e("common"), __webpack_require__.e("pages-map-map-module")]).then(__webpack_require__.bind(null, /*! ../../../pages/map/map.module */ "862v")).then(m => m.MapModule) },
-    { path: 'macroscope', loadChildren: () => Promise.all(/*! import() | pages-macroscope-macroscope-module */[__webpack_require__.e("default~pages-macroscope-macroscope-module~pages-macroscopes-macroscopes-module~pages-map-map-module~6842d2ab"), __webpack_require__.e("default~pages-macroscope-macroscope-module~pages-map-map-module~pages-maps-maps-module"), __webpack_require__.e("common"), __webpack_require__.e("pages-macroscope-macroscope-module")]).then(__webpack_require__.bind(null, /*! ../../../pages/macroscope/macroscope.module */ "+1hx")).then(m => m.MacroscopeModule) },
-];
-class DiscoverListingModule {
-}
-DiscoverListingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: DiscoverListingModule });
-DiscoverListingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function DiscoverListingModule_Factory(t) { return new (t || DiscoverListingModule)(); }, imports: [[
-            _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
-            ngx_markdown__WEBPACK_IMPORTED_MODULE_3__["MarkdownModule"],
-            _warning_dialog_warning_dialog_module__WEBPACK_IMPORTED_MODULE_5__["WarningDialogModule"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forChild(routes)
-        ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](DiscoverListingModule, { declarations: [_discover_listing_component__WEBPACK_IMPORTED_MODULE_4__["DiscoverListingComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
-        ngx_markdown__WEBPACK_IMPORTED_MODULE_3__["MarkdownModule"],
-        _warning_dialog_warning_dialog_module__WEBPACK_IMPORTED_MODULE_5__["WarningDialogModule"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]], exports: [_discover_listing_component__WEBPACK_IMPORTED_MODULE_4__["DiscoverListingComponent"]] }); })();
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DiscoverListingModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
-        args: [{
-                declarations: [_discover_listing_component__WEBPACK_IMPORTED_MODULE_4__["DiscoverListingComponent"]],
-                imports: [
-                    _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
-                    ngx_markdown__WEBPACK_IMPORTED_MODULE_3__["MarkdownModule"],
-                    _warning_dialog_warning_dialog_module__WEBPACK_IMPORTED_MODULE_5__["WarningDialogModule"],
-                    _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forChild(routes)
-                ],
-                exports: [_discover_listing_component__WEBPACK_IMPORTED_MODULE_4__["DiscoverListingComponent"]]
-            }]
-    }], null, null); })();
-
-
-/***/ }),
-
 /***/ "UTmY":
 /*!********************************************************************!*\
   !*** ./src/app/shared/services/map-macroscope-resolver.service.ts ***!
@@ -192,7 +135,9 @@ class MapMacroscopeResolverService {
         this.content = content;
     }
     resolve(route) {
-        const languages$ = this.content.getContent('site/languages.md').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["take"])(1));
+        const languages$ = this.content
+            .getContent('site/languages.md')
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["take"])(1));
         const language = route.queryParamMap.get('lang') || 'en';
         const type = route.data.type;
         const iteration = route.paramMap.get('iteration');
@@ -200,23 +145,11 @@ class MapMacroscopeResolverService {
         const mapSlug = `${type}/${iteration}/${sequence}`;
         const content$ = this.content.getContent(mapSlug).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["take"])(1));
         // tslint:disable-next-line: no-any
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["combineLatest"])([languages$, content$]).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(([languages, data]) => {
+        const response$ = Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["combineLatest"])([languages$, content$]).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((response) => {
             const item = {};
+            const [languages, data] = response;
             item.title = data[language].title;
-            item.makers = data.en.makers.map((m) => {
-                const m1 = m.replace('/readme', '');
-                const m2 = m1.replace(/-/g, ' ');
-                const names = m2.split(' ');
-                for (let i = 0, x = names.length; i < x; i++) {
-                    names[i] = names[i][0].toUpperCase() + names[i].substr(1);
-                }
-                return {
-                    name: names.join(' '),
-                    job: 'Job Title',
-                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dui euismod mauris faucibus euismod non lacinia quam. Morbi sit amet placerat dui. Sed ut dolor efficitur, consequat augue sed, pharetra orci.',
-                    thumbnail: `assets/content/person/${m1}/image.jpg`
-                };
-            });
+            item.makers = data.en.makers;
             item.credit = data[language].creditLine;
             item.description = data[language].body;
             item.references = data[language].references;
@@ -227,6 +160,50 @@ class MapMacroscopeResolverService {
             item.externalLink = data.en.externalLink;
             return item;
         }));
+        const people$ = response$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((items) => items.makers), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["mergeMap"])((slugs) => {
+            const forkJoins = slugs.map((slug) => {
+                // {'s1': {}}, {'s2': {}}
+                return this.content.getContent(`person/${slug}`).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["take"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((result) => {
+                    return {
+                        [slug]: result,
+                    };
+                }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(() => {
+                    return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])({});
+                }));
+            });
+            // [ {'s1': {}}, {'s2': {}} ]
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["forkJoin"])(forkJoins);
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((array) => {
+            const result = {};
+            array.forEach((element) => {
+                Object.assign(result, element);
+            });
+            // {'s1': {}, 's2': {}}
+            return result;
+        }));
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["combineLatest"])([response$, people$]).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((result) => {
+            const [response, people] = result;
+            const makers = response.makers
+                .map((slug) => {
+                if (people.hasOwnProperty(slug) && people[slug]) {
+                    const profile = people[slug];
+                    if (profile) {
+                        const folder = slug.split('/')[0];
+                        profile.image = `assets/content/person/${folder}/${profile.image}`;
+                        return profile;
+                    }
+                }
+                else {
+                    return {
+                        name: slug.split('/')[0].replace('-', ' '),
+                        body: 'Lorem Ipsum'
+                    };
+                }
+            })
+                .filter((profile) => profile);
+            response.makers = makers;
+            return response;
+        }));
     }
 }
 MapMacroscopeResolverService.ɵfac = function MapMacroscopeResolverService_Factory(t) { return new (t || MapMacroscopeResolverService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_content_service__WEBPACK_IMPORTED_MODULE_3__["ContentService"])); };
@@ -234,7 +211,7 @@ MapMacroscopeResolverService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MapMacroscopeResolverService, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
         args: [{
-                providedIn: 'root'
+                providedIn: 'root',
             }]
     }], function () { return [{ type: _content_service__WEBPACK_IMPORTED_MODULE_3__["ContentService"] }]; }, null); })();
 
@@ -254,77 +231,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "0Wlh");
 /* harmony import */ var _shared_services_content_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/services/content.service */ "qc/9");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "sEIs");
-
 
 
 
 
 class MacroscopesResolverService {
-    constructor(content, router) {
+    constructor(content) {
         this.content = content;
-        this.router = router;
     }
-    resolve(route, state) {
+    resolve() {
         return this.content.getIndex('app-macroscopes').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["take"])(1));
     }
 }
-MacroscopesResolverService.ɵfac = function MacroscopesResolverService_Factory(t) { return new (t || MacroscopesResolverService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_shared_services_content_service__WEBPACK_IMPORTED_MODULE_2__["ContentService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"])); };
+MacroscopesResolverService.ɵfac = function MacroscopesResolverService_Factory(t) { return new (t || MacroscopesResolverService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_shared_services_content_service__WEBPACK_IMPORTED_MODULE_2__["ContentService"])); };
 MacroscopesResolverService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: MacroscopesResolverService, factory: MacroscopesResolverService.ɵfac, providedIn: 'root' });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MacroscopesResolverService, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
         args: [{
                 providedIn: 'root'
             }]
-    }], function () { return [{ type: _shared_services_content_service__WEBPACK_IMPORTED_MODULE_2__["ContentService"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] }]; }, null); })();
-
-
-/***/ }),
-
-/***/ "yE48":
-/*!***************************************************************************!*\
-  !*** ./src/app/shared/components/warning-dialog/warning-dialog.module.ts ***!
-  \***************************************************************************/
-/*! exports provided: WarningDialogModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WarningDialogModule", function() { return WarningDialogModule; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "2kYt");
-/* harmony import */ var _warning_dialog_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./warning-dialog.component */ "QAr1");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/dialog */ "OZ4H");
-/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/icon */ "bFHC");
-
-
-
-
-
-
-class WarningDialogModule {
-}
-WarningDialogModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: WarningDialogModule });
-WarningDialogModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function WarningDialogModule_Factory(t) { return new (t || WarningDialogModule)(); }, imports: [[
-            _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
-            _angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__["MatDialogModule"],
-            _angular_material_icon__WEBPACK_IMPORTED_MODULE_4__["MatIconModule"]
-        ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](WarningDialogModule, { declarations: [_warning_dialog_component__WEBPACK_IMPORTED_MODULE_2__["WarningDialogComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
-        _angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__["MatDialogModule"],
-        _angular_material_icon__WEBPACK_IMPORTED_MODULE_4__["MatIconModule"]], exports: [_warning_dialog_component__WEBPACK_IMPORTED_MODULE_2__["WarningDialogComponent"]] }); })();
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](WarningDialogModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
-        args: [{
-                declarations: [_warning_dialog_component__WEBPACK_IMPORTED_MODULE_2__["WarningDialogComponent"]],
-                imports: [
-                    _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
-                    _angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__["MatDialogModule"],
-                    _angular_material_icon__WEBPACK_IMPORTED_MODULE_4__["MatIconModule"]
-                ],
-                exports: [_warning_dialog_component__WEBPACK_IMPORTED_MODULE_2__["WarningDialogComponent"]]
-            }]
-    }], null, null); })();
+    }], function () { return [{ type: _shared_services_content_service__WEBPACK_IMPORTED_MODULE_2__["ContentService"] }]; }, null); })();
 
 
 /***/ })

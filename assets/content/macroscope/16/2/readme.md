@@ -30,7 +30,7 @@ en:
     "Link to Watson News Explorer macroscope").
   makers:
     - steven-ross/readme
-    - timothy-stutts/readme
+    - tim-stutts/readme
     - megan-monroe/readme
     - mauro-martino/readme
   year: 2020

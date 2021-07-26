@@ -4,7 +4,7 @@ title: "Atlas of Forecasts: Modeling and Mapping Desirable Futures"
 author:
   - katy-borner/readme
 publisher: MIT Press
-pdfLink: ""
+pdfLink: atlas-of-forecasts.pdf
 amazonLink: https://www.amazon.com/Atlas-Forecasts-Modeling-Mapping-Desirable/dp/0262045958/ref=sr_1_1?dchild=1&keywords=borner+atlas+forecast&qid=1620409272&s=books&sr=1-1
 bookImages:
   - sm: image01.med.jpg

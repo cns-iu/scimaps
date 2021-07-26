@@ -6,7 +6,7 @@
       "sequence": 1,
       "body": "Whether we like it or complain about it, bask in it or suffer from it, we all are affected by the weather. This essential truth becomes readily apparent when viewing _Earth_, the work of software engineer Cameron Beccario.  \n  \nUsing data from the Global Forecast System, _Earth_ visualizes worldwide weather patterns using animated wind streams, color coded according to velocity, that sweep across a three-dimensional globe. Truly interactive, the visualization allows the user to spin the globe and zoom in on a desired location. Tapping on that location will then bring up further information about exact coordinates, wind speed, and temperature, with all information updated every three hours.  \n  \nThe world itself may be seen from different perspectives, as the visualization offers nine different projections, such as conic equidistant, stereographic, or Waterman Butterfly. When Earth was first introduced in December 2013, it only visualized wind patterns. Since then, however, Beccario has increased the number of overlays to include such factors as carbon monoxide concentration, dust and sulfate extinction, along with the measured temperature. Earth also shows the perceived temperature which Beccario calls the Misery Index, borrowing a term from economics. Explore the full functionality at [http://earth.nullschool.net](http://earth.nullschool.net).",
       "makers": [
-        "cameron-becarrio/readme"
+        "cameron-beccario/readme"
       ],
       "year": 2015,
       "references": [
@@ -79,7 +79,7 @@
       "body": "University of Texas art historian Maximilian Schich and Mauro Martino, head of IBM’s Watson Cognitive Visualization Lab, created Charting Culture, which debuted in August of 2014 and went on to accumulate over 1 million views on YouTube.  \n  \nIn just five minutes, the animation covers 2,600 years of European and American history, from 600 BCE to 2012 CE, by tracking 120,000 individuals whose birth and death locations were recorded in the knowledge web Freebase. The figures whose migrations are traced are remarkably varied: from the Greek mathematician Pythagoras to the American Jazz Age entertainer Al Jolson, from the Roman emperor Marcus Aurelius to the Gothic painter Henry Fuseli, and from the composer Carl Maria von Weber to the father of sexuality studies, Havelock Ellis.  \n  \nBirthplaces, represented by blue dots, are connected by arcs to places of death, denoted by red dots. The animation reveals how increased concentrations of death places indicate how different cultural centers rise and fall in importance: for instance, how Paris and London supplant the dominance of Rome, how New York pulls Europeans from their places of birth, and how America’s west coast lures Easterners to cross plains and mountains with promises of a new life. Further information on the data, making, and research behind this project can be found at [http://cultsci.net](http://cultsci.net).",
       "makers": [
         "mauro-martino/readme",
-        "maximillian-schich/readme"
+        "maximilian-schich/readme"
       ],
       "year": 2014,
       "references": [
@@ -148,8 +148,8 @@
       "makers": [
         "moritz-stefaner/readme",
         "lutz-bornmann/readme",
-        "randuumldiger-mutz/readme",
-        "felix-moya-anegon/readme"
+        "rudiger-mutz/readme",
+        "felix-moyaneg/readme"
       ],
       "year": 2016,
       "references": [
@@ -287,9 +287,9 @@
         "Chavalarias, David and Maziyar Panahi. 2018. _Climate Tweetoscope_. In “14th Iteration (2018): Macroscopes for Ensuring our Well-being.\" _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)"
       ],
       "image": {
-        "sm": "image.sm.png",
-        "med": "image.med.png",
-        "lg": "image.lg.png"
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
       },
       "externalLink": "http://www.scimaps.org/"
     }
@@ -309,9 +309,9 @@
         "Stefaner, Moritz and Yuri Vishnevsky, 2018. _Rhythm of Food_. In “14th Iteration (2018): Macroscopes for Ensuring our Well-being.\" _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)\n\n.next { width: 55%; } .prev { width: 43%; }"
       ],
       "image": {
-        "sm": "image.sm.png",
-        "med": "image.med.png",
-        "lg": "image.lg.png"
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
       },
       "externalLink": "http://www.scimaps.org/"
     }
@@ -333,9 +333,9 @@
         "English, Ned, Megan Heffernan, Peter Herman, and Michael Meit. 2018. _The Appalachian Overdose Mapping Tool_. In “14th Iteration (2017): Macroscopes for Tackling Tough Topics, _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record.\n\n  \n\nMeit, Michael, Megan Heffernan, Erin Tanenbaum, and Topher Hoffman. 2018. _Appalachian Diseases of Despair: Final Report_. Prepared for the Appalachian Regional Commission. [http://scimaps.org](http://scimaps.org)"
       ],
       "image": {
-        "sm": "image.sm.png",
-        "med": "image.med.png",
-        "lg": "image.lg.png"
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
       },
       "externalLink": "https://www.scimaps.org/"
     }
@@ -359,9 +359,9 @@
         "Siegrist, Christian, Ece Kavlak, Garhard Beliedung, Luc Guillemot, Peter Gassner, and Tomas Carnecky. 2018._Violence Info_. In “14th Iteration (2018): Macroscopes for Ensuring our Well-being.\" _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)\n\n.prev { width: 55%; } .next { width: 43%; }"
       ],
       "image": {
-        "sm": "image.sm.png",
-        "med": "image.med.png",
-        "lg": "image.lg.png"
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
       },
       "externalLink": "http://www.scimaps.org/"
     }
@@ -374,16 +374,16 @@
       "body": "Beginning in 2015, Europe saw a dramatic increase in the number of people seeking refuge from drought, poverty, and violence. Many crossed the Mediterranean Sea or traveled by land through Southeast Europe from the Middle East and Africa. _Refugee Flow_ is a tool for the exploratory investigation of this migration crisis. Combining multiple data sets with interactive visualizations, the project aims to increase understanding of human trajectories.\n\n  \n\nThe United Nations High Commissioner for Refugees (UNHCR) reports that 68.5 million people are forcibly displaced around the world. Funding to tackle the current challenge is decreasing, not increasing. By 2050, the continued impact of climate change will forcibly displace 1 billion people.\n\n  \n\nCollecting data on people who, because of circumstances beyond their control, are unlikely to be documented, is a challenge. Refugee Flow draws on data from the Armed Conflict Location & Event Data Project (ACLED) to visualize factors that cause people to leave their home countries. This data is combined with the International Organization for Migration’s _Missing Migrants_ data set to visualize causes of death for those en route. A third data set connects adverse outcomes upon arrival with news stories of struggles faced by migrants.\n\n  \n\n_Refugee Flow_ and its companion website can be found at [http://refugeeflow.world/landing](http://refugeeflow.world/landing \"Macroscope: Refugee Flow\").",
       "makers": [
         "abin-abraham/readme",
-        "will-jiahao-su/readme"
+        "will-su/readme"
       ],
       "year": 2018,
       "references": [
         "Abraham, Abin and Will (Jiahao) Su. 2018. Refugee Flow. In “15th Iteration (2019): Macroscopes for Tracking the Flow of Resources.” _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
       ],
       "image": {
-        "sm": "image.sm.png",
-        "med": "image.med.png",
-        "lg": "image.lg.png"
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
       },
       "externalLink": "http://refugeeflow.world/landing"
     }
@@ -396,7 +396,7 @@
       "body": "Designed for the 2017 French presidential election, _Politoscope_ has since been on display in the Terra Data exhibit at the Cité des Sciences, the biggest science museum in Europe. _Politoscope_ provided a way for the public to take the pulse of online communities during the last month of the 2017 French presidential election, and provided access to the candidates’ positions on major political issues over several months.\n\n  \n\n_Politoscope_ uses millions of political and media tweets to visualize socio-semantic trends using a new methodology to reconstruct the socio-semantic dynamics of political activist Twitter networks. The macroscope makers are convinced of the need to make this kind of analysis of social media available to regular citizens as well as political elites.\n\n  \n\nHow do you feel about the connection between social networks and electoral processes worldwide? Has real-time analysis of social media ever influenced your political opinion? Should it?\n\n  \n\n_Politoscope_ and its companion website can be found at [https://presidential2017.politoscope.org/](https://presidential2017.politoscope.org/ \"Macrosope: Politoscope\").",
       "makers": [
         "maziyar-panahi/readme",
-        "noandeacute-gaumont/readme",
+        "noe-gaumont/readme",
         "david-chavalarias/readme"
       ],
       "year": 2017,
@@ -404,9 +404,9 @@
         "Gaumont, Noé, Maziyar Panahi, and David Chavalarias. 2019. _Politoscope_. In “15th Iteration (2019): Macroscopes for Tracking the Flow of Resources.” _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org).\n\n  \n\nGaumont N, Panahi M, Chavalarias D. 2018. “Reconstruction of the socio-semantic dynamics of political activist Twitter networks—Method and application to the 2017 French presidential election.” PLoS ONE 13(9): e0201879. [https://doi.org/10.1371/journal.pone.0201879](https://doi.org/10.1371/journal.pone.0201879)."
       ],
       "image": {
-        "sm": "image.sm.png",
-        "med": "image.med.png",
-        "lg": "image.lg.png"
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
       },
       "externalLink": "https://presidential2017.politoscope.org/"
     }
@@ -425,9 +425,9 @@
         "Chiang, Shing-Yun. 2019. _Income Disparity_. In “15th Iteration (2019): Macroscopes for Tracking the Flow of Resources.” _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
       ],
       "image": {
-        "sm": "image.sm.png",
-        "med": "image.med.png",
-        "lg": "image.lg.png"
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
       },
       "externalLink": "https://shingyun.github.io/income-disparity/"
     }
@@ -447,9 +447,9 @@
         "Djumalieva, Jyldyz and Cath Sleeman. 2019. _Making Sense of Skills_. In “15th Iteration (2019): Macroscopes for Tracking the Flow of Resources.” _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
       ],
       "image": {
-        "sm": "image.sm.png",
-        "med": "image.med.png",
-        "lg": "image.lg.png"
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
       },
       "externalLink": "https://www.nesta.org.uk/data-visualisation-and-interactive/making-sense-skills/"
     }
@@ -483,7 +483,7 @@
       "body": "Watson News Explorer makes use of Watson Discovery News, which scans 300,000 English-language news articles daily and uses natural language processing to convert them into a searchable network of topics. Natural language processing is a branch of artificial intelligence that combines linguistics with computing power. Natural language processing is at work in language translation apps, grammar checkers, and computerized personal assistants like Siri and Alexa. This macroscope, designed by Steven Ross, Timothy Stutts, Megan Monroe, and Mauro Martino of IBM’s Visual AI Lab, uses natural language processing to identify and link entities like names, locations, companies, and organizations.\n\n  \n\nThe macroscope offers four ways to dive into the news: a world map, a timeline, a word cloud, and a network. These visualizations are linked, so that searching in one will highlight connections in the others. You can also search for multiple keywords to reveal links that connect seemingly unrelated topics.\n\n  \n\nWatson News Explorer can be found at [https://news-explorer.mybluemix.net/](https://news-explorer.mybluemix.net/ \"Link to Watson News Explorer macroscope\").",
       "makers": [
         "steven-ross/readme",
-        "timothy-stutts/readme",
+        "tim-stutts/readme",
         "megan-monroe/readme",
         "mauro-martino/readme"
       ],

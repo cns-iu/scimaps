@@ -1,7 +1,7 @@
 ---
 name: Daniel O. Kutz
 last_name: Kutz
-image: image.png
+image: image.jpg
 roles:
   - maker
 ---

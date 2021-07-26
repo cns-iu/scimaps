@@ -24,7 +24,7 @@ en:
     the continued relationships of topics on the extreme left side with those on
     the extreme right side.
   makers:
-    - hjt-ellingham/readme
+    - harold-johann-thomas-ellingham/readme
   year: 1948
   references:
     - >-
