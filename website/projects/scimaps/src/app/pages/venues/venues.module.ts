@@ -24,6 +24,6 @@ import { ListViewModule } from '../../shared/components/list-view/list-view.modu
     SearchOverlayModule,
     ListViewModule
   ],
-  providers: [DatePipe]
+  providers: []
 })
 export class VenuesModule { }

@@ -1,15 +1,13 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Params } from '@angular/router';
+import { MarkdownModule } from 'ngx-markdown';
+import { of } from 'rxjs';
+import { HostingBody } from './hosting-body-resolver.service';
 import { HostingComponent } from './hosting.component';
 import { HostingModule } from './hosting.module';
-import { of } from 'rxjs';
 import { LearningMaterial } from './learning-material-resolver.service';
-import { HostingBody } from './hosting-body-resolver.service';
-import { MarkdownModule } from 'ngx-markdown';
 
-fdescribe('HostingComponent', () => {
+describe('HostingComponent', () => {
   let component: HostingComponent;
   let fixture: ComponentFixture<HostingComponent>;
 
