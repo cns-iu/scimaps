@@ -37,17 +37,6 @@ export class VenuesComponent implements OnInit {
   year = '';
   yearList: string[] = [];
 
-  // dummy
-  galleries: Params[] = [
-    {
-      title: 'IBS Workshop Media Computing, IBS Convention Center',
-      date: '2019-02-05',
-      location: 'Lauta, Germany',
-      credit: 'Places & Spaces',
-      images: ['assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image01.lg.jpg', 'assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image02.lg.jpg'],
-      thumbs: ['assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image01.sm.jpg', 'assets/content/gallery/2019/02/20190205-ibs-workshop-media-computing/image02.sm.jpg']
-    }
-  ];
   ngOnInit(): void {
     // data
     this.activatedRoute.data.subscribe((data) => {
