@@ -298,6 +298,7 @@ collections:
       - { name: dateEnd, label: End Date, widget: datetime }
       - { name: title, label: Exhibit Name }
       - { name: venue, label: Venue }
+      - { name: organizer, label: Organizer }
       - { name: credit, label: Credit }
       - { name: city, label: City }
       - { name: state, label: State }
