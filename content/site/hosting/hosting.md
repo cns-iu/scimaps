@@ -1,16 +1,11 @@
 ---
 overview: >-
-  The exhibit can be displayed in four different setups. The [Physical
-  Exhibit](http://scimaps.org/host_physical.html) is a traveling exhibit which
-  stays at your venue for a set period of time; the [Maps-Only Physical
-  Exhibit](http://scimaps.org/host_mapsonly.html) allows you to select
-  high-quality exhibit maps to keep permanently; the [Poster
-  Exhibit](http://scimaps.org/host_poster.html) offers smaller size poster
-  versions of the exhibit to keep permanently; and the [Digital
-  Exhibit](http://scimaps.org/host_digital.html) is a high-resolution slideshow
-  of all exhibit maps that can be customized to fit your space. 
-
-
+  The exhibit can be displayed in four different setups. The Physical Exhibit is
+  a traveling exhibit which stays at your venue for a set period of time;
+  the Maps-Only Physical Exhibit allows you to select high-quality exhibit maps
+  to keep permanently; the Poster Exhibit offers smaller size poster versions of
+  the exhibit to keep permanently; and the Digital Exhibit is a high-resolution
+  slideshow of all exhibit maps that can be customized to fit your space. 
 
 
   Depending on the exhibit space, some or all of the items listed below should be considered in conjunction with the exhibit:
@@ -161,8 +156,6 @@ tabs:
       * Slideshow of 100 maps customized to fit your space
 
 
-
-
       ### Setup Requirements:
 
 
@@ -188,6 +181,6 @@ tabs:
       for customized slideshow
 
 
-      \*Cost will vary depending on the level of customization. Please [contact us](http://scimaps.org/contact.html) to discuss the options available.
+      \*Cost will vary depending on the level of customization.
     image: tabs/image04.lg.jpg
 ---
