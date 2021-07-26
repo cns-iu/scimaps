@@ -3,56 +3,10 @@ import { ActivatedRoute, Router } from '@angular/router';
 
 import { MacroscopeComponent } from './macroscope.component';
 import { MacroscopeModule } from './macroscope.module';
-import { MapMacroscopeItem } from '../../core/models/discover-item';
 
 import { of } from 'rxjs';
+import { testItem } from '../../shared/components/item-drawer/item-drawer.component.spec';
 
-const testItem: MapMacroscopeItem = {
-  title: 'Title Test',
-  makers: [
-    {
-      name: 'Maker 1',
-      title: 'Job',
-      body: 'test bio',
-      image: 'thumbnail',
-      affiliation: '',
-      link: '',
-      slug: '',
-      roles: []
-    },
-    {
-      name: 'Maker 2',
-      title: 'Job',
-      body: 'test bio',
-      image: 'thumbnail',
-      affiliation: '',
-      link: '',
-      slug: '',
-      roles: []
-    }
-  ],
-  location: 'Test location',
-  credit: 'Test credits',
-  year: '9999',
-  description: 'test description',
-  references: ['Reference 1', 'Reference 2', 'Reference 3'],
-  thumbnail: 'test thumbnail',
-  translations: [
-    {
-      abbreviation: 'en',
-      abbr_short: 'en',
-      language: 'en',
-      native: 'en'
-    },
-    {
-      abbreviation: 'zh',
-      abbr_short: 'zh',
-      language: 'zh',
-      native: 'zh'
-    }
-  ],
-  externalLink: 'testlink'
-};
 
 describe('MacroscopeComponent', () => {
   let shallow: Shallow<MacroscopeComponent>;

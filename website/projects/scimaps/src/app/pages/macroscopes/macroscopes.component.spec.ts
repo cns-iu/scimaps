@@ -7,7 +7,7 @@ import { DiscoverItem } from '../../core/models/discover-item';
 
 import { of } from 'rxjs';
 
-const discoverItem: DiscoverItem = {
+export const discoverItem: DiscoverItem = {
   title: 'test',
   body: 'test',
   thumbnails: [

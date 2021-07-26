@@ -6,35 +6,7 @@ import { MapsModule } from './maps.module';
 import { DiscoverItem } from '../../core/models/discover-item';
 
 import { of } from 'rxjs';
-
-const discoverItem: DiscoverItem = {
-  title: 'test',
-  body: 'test',
-  thumbnails: [
-    {
-      title: 'test1',
-      link: 'test1',
-      image: 'test1'
-    },
-    {
-      title: 'test2',
-      link: 'test2',
-      image: 'test2'
-    },
-    {
-      title: 'test3',
-      link: 'test3',
-      image: 'test3'
-    },
-    {
-      title: 'test4',
-      link: 'test4',
-      image: 'test4'
-    }
-  ],
-  slug: 'test',
-  directory: 'test'
-};
+import { discoverItem } from '../macroscopes/macroscopes.component.spec';
 
 
 describe('MapsComponent', () => {
