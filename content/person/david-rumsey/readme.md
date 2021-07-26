@@ -1,7 +1,7 @@
 ---
 name: David Rumsey
 last_name: Rumsey
-image: image.png
+image: image.jpg
 roles:
   - maker
 ---
