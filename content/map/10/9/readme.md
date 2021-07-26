@@ -27,7 +27,7 @@ en:
     years.
   makers:
     - richard-klavans/readme
-    - kevin-w-boyack/readme
+    - kevin-boyack/readme
   year: 2014
   references:
     - >-

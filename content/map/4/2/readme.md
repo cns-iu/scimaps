@@ -23,7 +23,7 @@ en:
     “ephemeralization” (tendency to develop smaller and more efficient
     technologies).
   makers:
-    - john-mchale-sr/readme
+    - john-mchale/readme
     - buckminster-fuller/readme
   year: 1965
   references:

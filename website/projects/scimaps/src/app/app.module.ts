@@ -1,3 +1,4 @@
+import { ScrollingModule } from '@angular/cdk/scrolling';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
@@ -9,6 +10,8 @@ import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
+import { DrawerModule } from './shared/components/drawer/drawer.module';
+import { GalleryItemModule } from './shared/components/gallery-item/gallery-item.module';
 import { BreakpointRegistryService } from './shared/services/breakpoint-registry.service';
 import { SharedModule } from './shared/shared.module';
 
@@ -34,7 +37,10 @@ import { SharedModule } from './shared/shared.module';
 
     AppRoutingModule,
     CoreModule,
-    SharedModule
+    SharedModule,
+    ScrollingModule,
+    DrawerModule,
+    GalleryItemModule
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]

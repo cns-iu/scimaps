@@ -37,7 +37,7 @@ en:
     "Macroscope: Refugee Flow").
   makers:
     - abin-abraham/readme
-    - will-jiahao-su/readme
+    - will-su/readme
   year: 2018
   references:
     - >-
@@ -46,8 +46,8 @@ en:
       Mapping Science_, edited by Katy Börner and Lisel Record.
       [http://scimaps.org](http://scimaps.org).
   image:
-    sm: image.sm.png
-    med: image.med.png
-    lg: image.lg.png
+    sm: image.sm.jpg
+    med: image.med.jpg
+    lg: image.lg.jpg
   externalLink: 'http://refugeeflow.world/landing'
 ---

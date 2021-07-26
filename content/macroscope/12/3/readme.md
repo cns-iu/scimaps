@@ -31,8 +31,8 @@ en:
   makers:
     - moritz-stefaner/readme
     - lutz-bornmann/readme
-    - randuumldiger-mutz/readme
-    - felix-moya-anegon/readme
+    - rudiger-mutz/readme
+    - felix-moyaneg/readme
   year: 2016
   references:
     - >-

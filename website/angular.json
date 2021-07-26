@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": ["front-matter"],
             "outputPath": "dist/scimaps",
             "index": "projects/scimaps/src/index.html",
             "main": "projects/scimaps/src/main.ts",

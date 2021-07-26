@@ -25,7 +25,7 @@ en:
     while other areas of science (e.g., social sciences) are tied to very few
     patents.
   makers:
-    - kevin-w-boyack/readme
+    - kevin-boyack/readme
     - richard-klavans/readme
   year: 2008
   references:

@@ -15,27 +15,52 @@ collections:
 
       - label: About Places & Spaces
         name: about
-        file: content/site/about.md
+        file: content/site/about/about.md
         preview_path: about
+        media_folder: ''
         fields:
           - { name: overviewParagraph, label: Overview Paragraph, widget: markdown }
           - { name: overviewQuote, label: Overview Quote, widget: markdown }
           - { name: curatorsDescription, label: Curators Description, widget: markdown }
           - { name: advisoryBoardDescription, label: Advisory Board Description, widget: markdown }
           - { name: ambassadorsDescription, label: Ambassadors Description, widget: markdown }
-
+          - name: annualReports
+            label: Annual Reports 
+            widget: list
+            required: false
+            fields:
+            - { name: year, label: Year }
+            - { name: pdfLink, label: File, widget: file }
       - label: What is a Map?
         name: whatIsAMap
-        file: content/site/whatIsAMap.md
+        file: content/site/maps/whatIsAMap.md
+        media_folder: ''
         preview_path: maps
         fields:
+          - name: carousel
+            label: Carousel
+            widget: list
+            media_folder: './carousel'
+            fields:
+            - { name: title, label: Title, required: false }
+            - { name: sm, label: "Mobile (sm) Version" , widget: image }
+            - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
           - { name: body, label: Description, widget: markdown }
 
       - label: What is a Macroscope?
         name: whatIsAMacroscope
-        file: content/site/whatIsAMacroscope.md
+        file: content/site/macroscopes/whatIsAMacroscope.md
+        media_folder: ''
         preview_path: macroscopes
         fields:
+          - name: carousel
+            label: Carousel
+            widget: list
+            media_folder: './carousel'
+            fields:
+            - { name: title, label: Title, required: false }
+            - { name: sm, label: "Mobile (sm) Version" , widget: image }
+            - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
           - { name: body, label: Description, widget: markdown }
 
       - label: Call for Macroscopes
@@ -58,7 +83,50 @@ collections:
             fields:
             - { name: label, label: Label}
             - { name: date, widget: date, label: Date, format: DD MM YY }
+      
+      - label: Hosting
+        name: Hosting
+        file: content/site/hosting/hosting.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'hosting'
+        fields:
+          - { name: overview, label: Overview, widget: markdown }
+          - { name: install_guide, label: Exhibit Install Guide, widget: file}
+          - { name: master_booklet, label: Exhibit Master Booklet, widget: file}
           
+          - name: carousel
+            label: Images for carousel
+            min: 1
+            widget: list
+            media_folder: './carousel'
+            fields:
+              - { name: title, label: Title, required: false }
+              - { name: sm, label: "Mobile (sm) Version" , widget: image }
+              - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
+          
+          - name: banner_text
+            label: Banner Text
+            widget: markdown
+
+          - name: tabs
+            widget: list
+            media_folder: './tabs'
+            fields:
+            - { name: header, label: Tab Header }
+            - { name: image, label: Image, widget: file, required: false }
+            - { name: content, label: Tab Content, widget: markdown }
+      
+      - label: Venues
+        name: venues
+        file: content/site/venues/venues.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'venues'
+        fields:
+          - { name: accordianHeader, label: Header }
+          - { name: accordianContent, label: Content, widget: markdown }
+
       - label: Languages
         name: languages
         file: content/site/languages.md
@@ -75,6 +143,30 @@ collections:
               - { name: language, label: Language }
               - { name: native, label: Native Spelling }
 
+  - name: learning-materials
+    label: Learning Materials
+    label_singular: Learning Material
+    folder: content/learning-materials
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{title}}"
+    sortable_fields: [title, order]
+    preview_path: person/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: order, label: Order, widget: number, min: 1, default: 100 }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
+     
+      - name: image
+        label: Image
+        widget: object
+        fields:
+          - { name: sm, label: "Mobile (sm) Version" , widget: image }
+          - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
+
+      
   - name: blog
     label: Blogs
     label_singular: Blog
@@ -161,7 +253,7 @@ collections:
         value_field: '{{slug}}'
         display_fields: ['{{name}} {{lastName}}']
       - { name: publisher, label: Publisher }
-      - { name: pdfLink, label: PDF Link, required: false }
+      - { name: pdfLink, label: PDF Link, required: false, widget: file }
       - { name: amazonLink, label: Amazon Link }
       - name: bookImages
         label: Book Images

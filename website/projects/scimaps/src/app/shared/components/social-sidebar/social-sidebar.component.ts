@@ -9,6 +9,10 @@ export class SocialSidebarComponent {
   // Component class name
   @HostBinding('class') readonly clsName = 'sci-social-sidebar';
 
+  facebook = 'https://www.facebook.com/mappingscience';
+  twitter = 'https://www.twitter.com/mappingscience';
+  instagram = 'https://www.instagram.com/cns_at_iu';
+
   goToLink(link: string): void {
     window.open(link, '_blank');
   }

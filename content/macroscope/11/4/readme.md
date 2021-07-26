@@ -29,7 +29,7 @@ en:
     [http://cultsci.net](http://cultsci.net).
   makers:
     - mauro-martino/readme
-    - maximillian-schich/readme
+    - maximilian-schich/readme
   year: 2014
   references:
     - >-

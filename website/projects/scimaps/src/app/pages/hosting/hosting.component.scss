@@ -1,4 +1,179 @@
+$desktop: 1248px;
+$tablet: 960px;
+$mobile: 640px;
+@use 'screen';
+
 :host {
+  .divider {
+    background-color: #e0e0e0;
+    border-bottom-color: #e0e0e0;
+    border-left-color: #e0e0e0;
+    border-right-color: #e0e0e0;
+    border-top: 0px solid #e0e0e0;
+    margin: 12px 0;
+  }
+  .highlight-content {
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    padding: 2rem;
+
+    @media (max-width: $tablet) {
+      flex-direction: column-reverse;
+      border: none;
+    }
+
+    .overview-container {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin-right: 3rem;
+      @media (max-width: $tablet) {
+        width: 100%;
+        margin: 0rem;
+      }
+
+      .pdf-docs {
+        display: flex;
+        flex-direction: row;
+
+        .install-guide {
+          margin-left: 2rem;
+        }
+      }
+    }
+
+    .carousel-container {
+      display: flex;
+      justify-content: space-around;
+      width: 50%;
+      max-height: 28rem;
+
+      @media (max-width: $tablet) {
+        width: 100%;
+        padding: 0rem;
+        margin-bottom: 1rem;
+      }
+
+      .carousel {
+        width: 100%;
+
+        .sci-carousel-item {
+          .carousel-item {
+            display: flex;
+            flex-direction: column;
+
+            .carousel-image {
+              height: 20rem;
+              object-fit: cover;
+            }
+
+            .carousel-image-title {
+              padding: 1rem;
+              height: 3.75rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    @include screen.breakpoint(mobile) {
+      flex-direction: column;
+    }
+
+    .col1 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      @include screen.breakpoint(mobile) {
+        flex: 1;
+      }
+      .tabs {
+        .tab-content {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 100%;
+          .col1 {
+            width: 50%;
+            img {
+              max-height: 100%;
+              // width: 100%;
+            }
+          }
+          .col2 {
+            width: 50%;
+            margin-left: 3rem;
+            flex: 1
+          }
+        }
+      }
+      .mobile-tabs {
+        display: flex;
+        flex-direction: column;
+        .mobile-button {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          padding: 0.75rem;
+          font-size: 1rem;
+          cursor: pointer;
+          .mobile-icon {
+            font-size: 1.5rem;
+            height: 1.5rem;
+            width: 1.5rem;
+            cursor: pointer;
+          }
+
+          @media (min-width: $mobile) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .bannerText {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #f9fcf5;
+  }
+
+  .tab-drawer {
+    .drawer-header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      .mobile-icon {
+        cursor: pointer;
+      }
+      .mobile-title {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 0;
+        h3 {
+          margin-bottom: 0 !important;
+        }
+      }
+    }
+
+    .tab-content {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .row1 {
+        margin-bottom: 2rem;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  
 }
