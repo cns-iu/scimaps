@@ -42,6 +42,16 @@ describe('VenuesComponent', () => {
     expect(component.yearList).toEqual([]);
   });
 
+  it(`search change assigns value`, () => {
+    component.onSearchChange('maps');
+    expect(component.searchKey).toEqual('maps');
+  });
+
+  it(`yearList has default value`, () => {
+    component.onSelectChange('2017');
+    expect(component.year).toEqual('2017');
+  });
+
   describe('ngOnInit', () => {
     it('makes expected calls', () => {
       spyOn(component, 'setYears').and.callThrough();
