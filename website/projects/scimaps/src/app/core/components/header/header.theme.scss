@@ -23,6 +23,10 @@
     .sidenav-toggle.open {
       border-left-color: rgba(0, 0, 0, 0.2);
     }
+
+    .mat-menu-panel {
+      border-radius: 0;
+    }
   }
 }
 
