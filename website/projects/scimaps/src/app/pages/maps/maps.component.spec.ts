@@ -1,12 +1,11 @@
-import { Shallow } from 'shallow-render';
 import { ActivatedRoute } from '@angular/router';
-
+import { of } from 'rxjs';
+import { Shallow } from 'shallow-render';
+import { discoverItem } from '../macroscopes/macroscopes.component.spec';
 import { MapsComponent } from './maps.component';
 import { MapsModule } from './maps.module';
-import { DiscoverItem } from '../../core/models/discover-item';
 
-import { of } from 'rxjs';
-import { discoverItem } from '../macroscopes/macroscopes.component.spec';
+
 
 
 describe('MapsComponent', () => {
