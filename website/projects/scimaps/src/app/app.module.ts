@@ -44,12 +44,12 @@ import { SharedModule } from './shared/shared.module';
     DrawerModule,
     GalleryItemModule
   ],
-  // providers: [
-  //   {
-  //     provide: RouteReuseStrategy,
-  //     useClass: CustomRouteReuseStrategy
-  //   }
-  // ],
+  providers: [
+    {
+      provide: RouteReuseStrategy,
+      useClass: CustomRouteReuseStrategy
+    }
+  ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
 })
