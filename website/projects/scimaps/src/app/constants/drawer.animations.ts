@@ -76,7 +76,7 @@ export const isSearchOpenTrigger = trigger('isSearchOpenTrigger', [
 ]);
 
 export const slideWithTransform = trigger('routeAnimations', [
-  transition('Maps => Map', [
+  transition('Maps => Map, Macroscopes => Macroscope', [
     style({ height: '!', width: '!' }),
     query(
       ':enter',
@@ -96,20 +96,20 @@ export const slideWithTransform = trigger('routeAnimations', [
     group([
       query(':leave', [
         animate(
-          '0.2s cubic-bezier(.35,0,.25,1)',
+          '0.3s cubic-bezier(.35,0,.25,1)',
           style({ transform: 'translateX(-100%)' })
         ),
       ]),
       query(
         ':enter',
         animate(
-          '0.2s cubic-bezier(.35,0,.25,1)',
+          '0.3s cubic-bezier(.35,0,.25,1)',
           style({ transform: 'translateX(10%)' })
         )
       ),
     ]),
   ]),
-  transition('Map => Maps, 2 => 1', [
+  transition('Map => Maps, Macroscope => Macroscopes, 2 => 1', [
     style({ height: '!', width: '!' }),
     query(':enter', style({ transform: 'translateX(-100%)' })),
     query(
@@ -124,7 +124,7 @@ export const slideWithTransform = trigger('routeAnimations', [
     group([
       query(':leave', [
         animate(
-          '0.2s cubic-bezier(.35,0,.25,1)',
+          '0.3s cubic-bezier(.35,0,.25,1)',
           style({ transform: 'translateX(100%)' })
         ),
       ]),
@@ -132,7 +132,7 @@ export const slideWithTransform = trigger('routeAnimations', [
       query(
         ':enter',
         animate(
-          '0.2s cubic-bezier(.35,0,.25,1)',
+          '0.3s cubic-bezier(.35,0,.25,1)',
           style({ transform: 'translateX(0)' })
         )
       ),
