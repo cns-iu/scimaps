@@ -55,7 +55,7 @@ export class ItemDrawerComponent {
    * Closes item drawer component and returns to the maps or macroscopes page
    */
   close(): void {
-    this.router.navigate(['/', this.type + 's']);
+    this.router.navigate(['/', this.type + 's'], {state: { direction: 'backward'}});
   }
 
   /**

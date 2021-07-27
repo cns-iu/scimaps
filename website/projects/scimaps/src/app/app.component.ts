@@ -1,9 +1,9 @@
-import { AfterViewInit, Component, NgZone, OnDestroy, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, NgZone, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { MatSidenavContainer } from '@angular/material/sidenav';
-import { Params, RouterOutlet } from '@angular/router';
+import { Event, Params, Router, RouterOutlet, RoutesRecognized } from '@angular/router';
 import { Select, Store } from '@ngxs/store';
 import { Observable, of, Subscription } from 'rxjs';
-import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
+import { debounceTime, distinctUntilChanged, filter, map, pairwise, switchMap } from 'rxjs/operators';
 import { drawerInOut, slideWithTransform } from './constants/drawer.animations';
 import { SetAppState } from './core/actions/app.actions';
 import { PageState } from './core/state/page/page.state';
@@ -19,9 +19,10 @@ import { NewsItem } from './shared/components/news-item/news-item.model';
     drawerInOut
   ]
 })
-export class AppComponent implements OnDestroy, AfterViewInit {
+export class AppComponent implements OnDestroy, AfterViewInit, OnInit {
   @ViewChild(MatSidenavContainer) sidenavContainer!: MatSidenavContainer;
 
+  private _routeScrollPositions: {[url: string] : number}[] = [];
   hasPageScrolled = false;
   sidenavOpen = false;
   windowScrollSubscription: Subscription | undefined;
@@ -41,7 +42,32 @@ export class AppComponent implements OnDestroy, AfterViewInit {
   };
 
   @Select(PageState.drawer) drawer$!: Observable<Params>;
-  constructor(private zone: NgZone, private store: Store) {
+  constructor(private router: Router, private zone: NgZone, private store: Store) {
+  }
+
+  scrollPositions: Params = {};
+  
+  ngOnInit(): void {
+    // Scroll retention code
+    this.router.events.pipe(
+      filter((e: Event) => e instanceof RoutesRecognized),
+      pairwise()
+    ).subscribe(([previous, current]: Event[]) => {
+        const navigation = this.router.getCurrentNavigation();
+        console.log(navigation);
+        const direction = navigation?.extras?.state?.direction;
+        if (direction == 'forward') {
+          const scrollY = this.sidenavContainer.scrollable.measureScrollOffset('top');
+          this.scrollPositions[(previous as RoutesRecognized).url] = scrollY;
+          this.sidenavContainer.scrollable.scrollTo({top: 0, left: 0});
+        } else if (direction == 'backward') {
+          setTimeout(() => {
+            this.sidenavContainer.scrollable.scrollTo({top: this.scrollPositions[(current as RoutesRecognized).url] || 0, left: 0});
+          }, 100);
+        } else {
+          this.sidenavContainer.scrollable.scrollTo({top: 0, left: 0});
+        }
+      });
   }
 
   prepareRoute(outlet: RouterOutlet): string {
@@ -81,7 +107,7 @@ export class AppComponent implements OnDestroy, AfterViewInit {
 
   onActivate(): void {
     const cdkScrollable = this.sidenavContainer.scrollable;
-    cdkScrollable.scrollTo({top: 0, left: 0});
+    // cdkScrollable.scrollTo({top: 0, left: 0});
   }
 
   closeDrawer(): void {
