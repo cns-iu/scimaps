@@ -5,8 +5,8 @@
       <div class="date mat-display-1">
         {{ item.date | date:'mediumDate':'+0000' }}
       </div>
-      <div class="download">
-        <a *ngIf="item.pdfLink" [href]="item.pdfLink" download>
+      <div *ngIf="item.pdfLink" class="download">
+        <a [href]="item.pdfLink" target="_blank" rel="noopener noreferrer">
           <mat-icon class="icon-pdf-download" aria-hidden="true" svgIcon="file:download"></mat-icon>
         </a>
       </div>
