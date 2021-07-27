@@ -36,7 +36,8 @@ $tablet: 960px;
     .social-icons {
       display: flex;
       flex-direction: row;
-
+      justify-content: space-evenly;
+      flex: 1;
       .icon {
         @include icon.size(2.25rem);
         border: 1px solid;
