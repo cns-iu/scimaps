@@ -1,5 +1,5 @@
 <!-- desktop -->
-<mat-card *sciBreakpoint="'mobile+'" class="lm-item-desktop" (click)="showDrawer = true">
+<mat-card *sciBreakpoint="'mobile+'" class="lm-item-desktop" (click)="gotoLearningMaterial()">
   <div class="row1">
     <img mat-card-image [src]="item.image.sm" [alt]="item.image.sm"/>
   </div>
@@ -15,7 +15,7 @@
 </mat-card>
 
 <!-- mobile -->
-<mat-card *sciBreakpoint="'mobile-'" class="lm-item-mobile" (click)="showDrawer = true">
+<mat-card *sciBreakpoint="'mobile-'" class="lm-item-mobile" (click)="gotoLearningMaterial()">
   <div class="col1">
     <img mat-card-img [src]="item.image.sm" alt="" />
   </div>
@@ -28,28 +28,3 @@
     <mat-icon class="mobile-icon">chevron_right</mat-icon>
   </div>
 </mat-card>
-
-
-<sci-drawer [@drawerInOut] *ngIf="showDrawer" class="drawer">
-  <div drawer>
-    <div class="container">
-      <div class="drawer-header">
-        <div class="back-button" (click)="showDrawer = false">
-          <mat-icon class="back-icon">chevron_left</mat-icon>
-          <div>BACK</div>
-        </div>
-      </div>
-      <div class="drawer-content">
-        <div class="row1">
-          <img [src]="item.image.lg" alt="">
-        </div>
-        <div class="row2">
-          <div class="title">
-            <h3>{{item.title}} </h3>
-          </div>
-          <div markdown [data]="item.body"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</sci-drawer>

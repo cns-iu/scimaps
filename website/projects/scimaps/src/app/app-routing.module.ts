@@ -29,7 +29,11 @@ const routes: Routes = [
     loadChildren: () => import('./pages/macroscopes/macroscopes.module').then(m => m.MacroscopesModule),
     data: { animation: 'Macroscopes'}
   },
-  { path: 'hosting', loadChildren: () => import('./pages/hosting/hosting.module').then(m => m.HostingModule) },
+  { path: 'hosting',
+    loadChildren: () => import('./pages/hosting/hosting.module').then(m => m.HostingModule),
+    data: { animation: 'Hosting' } 
+  },
+
   { path: 'venues', loadChildren: () => import('./pages/venues/venues.module').then(m => m.VenuesModule) },
   {
     path: 'learning-center',
@@ -41,7 +45,8 @@ const routes: Routes = [
   },
   {
     path: 'learning-material',
-    loadChildren: () => import('./pages/learning-material/learning-material.module').then(m => m.LearningMaterialModule)
+    loadChildren: () => import('./pages/learning-material/learning-material.module').then(m => m.LearningMaterialModule),
+    data: { animation: 'LearningMaterial' }
   },
 ];
 

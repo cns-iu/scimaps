@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 import { drawerInOut } from '../../../constants/drawer.animations';
 import { LearningMaterial } from '../../../pages/hosting/learning-materials-resolver.service';
 
@@ -12,5 +13,11 @@ export class LearningMaterialItemComponent {
 
   @Input() item!: LearningMaterial;
 
-  showDrawer = false;
+  constructor(private router: Router) {}
+
+  gotoLearningMaterial() {
+    if (this.item?.slug) {
+      this.router.navigate(['/', 'learning-material', this.item.slug], {state: { direction: 'forward'}});
+    }
+  }
 }

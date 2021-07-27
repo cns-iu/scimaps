@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
+import { LearningMaterial } from '../hosting/learning-materials-resolver.service';
 
 @Component({
   selector: 'sci-learning-material',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LearningMaterialComponent implements OnInit {
 
-  constructor() { }
-
+  item!: LearningMaterial;
+  constructor(private route: ActivatedRoute) { }
+  
   ngOnInit(): void {
+    this.route.data.subscribe((response: Params) => {
+      const { learningMaterial } = response;
+      if (learningMaterial) {
+        this.item = learningMaterial
+      }
+    })
   }
-
 }

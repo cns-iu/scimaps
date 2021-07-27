@@ -75,8 +75,21 @@ export const isSearchOpenTrigger = trigger('isSearchOpenTrigger', [
   ]),
 ]);
 
+
+const transitions = [
+  ['Maps', 'Map'],
+  ['Macroscopes', 'Macroscope'],
+  ['Hosting', 'LearningMaterial']
+];
+const forward = transitions.map(item => {
+  return [item[0], item[1]].join(' => ')
+}).join(', ');
+const backward = transitions.map(item => {
+  return [item[1], item[0]].join(' => ')
+}).join(', ');
+
 export const slideWithTransform = trigger('routeAnimations', [
-  transition('Maps => Map, Macroscopes => Macroscope', [
+  transition(`${forward}`, [
     style({ height: '!', width: '!' }),
     query(
       ':enter',
@@ -109,7 +122,7 @@ export const slideWithTransform = trigger('routeAnimations', [
       ),
     ]),
   ]),
-  transition('Map => Maps, Macroscope => Macroscopes, 2 => 1', [
+  transition(`${backward}`, [
     style({ height: '!', width: '!' }),
     query(':enter', style({ transform: 'translateX(-100%)' })),
     query(
@@ -118,7 +131,7 @@ export const slideWithTransform = trigger('routeAnimations', [
         position: 'absolute',
         'max-width': '80%',
         top: 0, left: 0, right: 0
-       })
+      })
     ),
     // animate the leave page away
     group([

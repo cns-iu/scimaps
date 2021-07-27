@@ -1,0 +1,50 @@
+$mobile: 640px;
+$tablet: 960px;
+$desktop: 1248px;
+
+:host {
+  .container {
+    .header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      .back-button {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: #7996a3;
+        .back-icon {
+          margin-left: -0.5rem;
+          margin-right: 1rem;
+        }
+      }
+    }
+
+    .content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      @media (min-width: $desktop) {
+        flex-direction: row-reverse;
+      }
+      .row1 {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        overflow: hidden;
+        img {
+          max-width: 100%;
+          // max-height: 100%;
+        }
+      }
+      .row2 {
+        flex: 1;
+        @media (min-width: $desktop) {
+          margin-right: 3rem;
+        }
+      }
+    }
+  }
+}

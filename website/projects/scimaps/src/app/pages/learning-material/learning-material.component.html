@@ -1,1 +1,20 @@
-<p>learning-material works!</p>
+<div class="container">
+    <div class="header">
+        <div class="back-button">
+            <mat-icon class="back-icon">chevron_left</mat-icon>
+            <div [routerLink]="['/', 'hosting']" [state]="{direction: 'backward'}">BACK</div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="row1">
+            <img [src]="item.image.lg" alt="" />
+        </div>
+        <div class="row2">
+            <div class="title">
+                <h3>{{ item.title }}</h3>
+            </div>
+            <div markdown [data]="item.body"></div>
+        </div>
+    </div>
+</div>
