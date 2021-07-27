@@ -5,7 +5,7 @@ import { of } from 'rxjs';
 import { HostingBody } from './hosting-body-resolver.service';
 import { HostingComponent } from './hosting.component';
 import { HostingModule } from './hosting.module';
-import { LearningMaterial } from './learning-material-resolver.service';
+import { LearningMaterial } from './learning-materials-resolver.service';
 
 describe('HostingComponent', () => {
   let component: HostingComponent;

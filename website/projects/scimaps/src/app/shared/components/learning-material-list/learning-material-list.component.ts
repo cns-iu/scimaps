@@ -1,5 +1,5 @@
 import { Component, HostBinding, Input } from '@angular/core';
-import { LearningMaterial } from '../../../pages/hosting/learning-material-resolver.service';
+import { LearningMaterial } from '../../../pages/hosting/learning-materials-resolver.service';
 
 @Component({
   selector: 'sci-learning-material-list',

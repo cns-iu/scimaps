@@ -17,7 +17,7 @@ export interface LearningMaterial {
 @Injectable({
   providedIn: 'root',
 })
-export class LearningMaterialResolverService
+export class LearningMaterialsResolverService
   implements Resolve<LearningMaterial[]>
 {
   directory = 'assets/content/learning-materials';

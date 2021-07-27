@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HostingBodyResolverService } from './hosting-body-resolver.service';
 
 import { HostingComponent } from './hosting.component';
-import { LearningMaterialResolverService } from './learning-material-resolver.service';
+import { LearningMaterialsResolverService } from './learning-materials-resolver.service';
 
 const routes: Routes = [
   {
@@ -11,7 +11,7 @@ const routes: Routes = [
     component: HostingComponent,
     resolve: {
       body: HostingBodyResolverService,
-      learningMaterials: LearningMaterialResolverService,
+      learningMaterials: LearningMaterialsResolverService,
     },
   },
 ];

@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { drawerInOut } from '../../../constants/drawer.animations';
-import { LearningMaterial } from '../../../pages/hosting/learning-material-resolver.service';
+import { LearningMaterial } from '../../../pages/hosting/learning-materials-resolver.service';
 
 @Component({
   selector: 'sci-learning-material-item',
