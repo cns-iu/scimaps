@@ -1,5 +1,8 @@
 :host {
   .gallery-item {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
     .close-wrapper {
       width: 100%;
       display: flex;
@@ -41,7 +44,7 @@
   .overlay-drawer {
     height: calc(100vh - 72px);
     background-color: $bgcolor;
-
+    width: 100%;
     .close-wrapper {
       width: 100%;
       display: flex;
