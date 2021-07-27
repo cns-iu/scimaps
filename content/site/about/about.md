@@ -37,9 +37,8 @@ ambassadorsDescription: These men and women from around the globe work
   selflessly to make the exhibit a success. Their intellectual guidance and
   commitment to promoting science mapping are what has made *Places &
   Spaces* the vital exhibit it is today. Those whom are also members of
-  the [Advisory Board](http://scimaps.org/advisory_board.html) not only work to
-  build public awareness of the exhibit, but also participate in the map
-  selection process.aa
+  the Advisory Board not only work to build public awareness of the exhibit, but
+  also participate in the map selection process.aa
 annualReports:
   - year: "2019"
     pdfLink: 2019-ps-annual-report.pdf
