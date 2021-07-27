@@ -39,6 +39,10 @@ const routes: Routes = [
     path: 'call-for-macroscopes',
     loadChildren: () => import('./pages/call-for-macroscopes/call-for-macroscopes.module').then(m => m.CallForMacroscopesModule)
   },
+  {
+    path: 'learning-material',
+    loadChildren: () => import('./pages/learning-material/learning-material.module').then(m => m.LearningMaterialModule)
+  },
 ];
 
 @NgModule({
