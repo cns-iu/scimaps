@@ -16,7 +16,7 @@ export class HomeComponent {
     subtitle: 'Sept 20-Oct 30, 2022',
     body: 'A six-week online course focused on understanding and creating data visualizations that translate complex data into actionable insights.',
     buttonLabel: 'Register',
-    buttonLink: 'https://visanalytics.cns.iu.edu/',
+    buttonLink: 'https://expand.iu.edu/browse/sice/cns/courses/visual-analytics-0921-open',
     imageSource: 'assets/action-card/image1.jpg'
   };
 }
