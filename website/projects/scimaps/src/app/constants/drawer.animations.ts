@@ -96,14 +96,14 @@ export const slideWithTransform = trigger('routeAnimations', [
     group([
       query(':leave', [
         animate(
-          '0.6s cubic-bezier(.35,0,.25,1)',
+          '0.2s cubic-bezier(.35,0,.25,1)',
           style({ transform: 'translateX(-100%)' })
         ),
       ]),
       query(
         ':enter',
         animate(
-          '0.6s cubic-bezier(.35,0,.25,1)',
+          '0.2s cubic-bezier(.35,0,.25,1)',
           style({ transform: 'translateX(10%)' })
         )
       ),
@@ -124,7 +124,7 @@ export const slideWithTransform = trigger('routeAnimations', [
     group([
       query(':leave', [
         animate(
-          '0.6s cubic-bezier(.35,0,.25,1)',
+          '0.2s cubic-bezier(.35,0,.25,1)',
           style({ transform: 'translateX(100%)' })
         ),
       ]),
@@ -132,7 +132,7 @@ export const slideWithTransform = trigger('routeAnimations', [
       query(
         ':enter',
         animate(
-          '0.6s cubic-bezier(.35,0,.25,1)',
+          '0.2s cubic-bezier(.35,0,.25,1)',
           style({ transform: 'translateX(0)' })
         )
       ),
