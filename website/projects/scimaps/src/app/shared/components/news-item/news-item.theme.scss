@@ -26,6 +26,9 @@
   .sci-news-item {
     .title {
       font-weight: 700;
+      p {
+        margin: 0;
+      }
     }
 
     .identifier {
