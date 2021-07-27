@@ -1,9 +1,9 @@
 ---
-title: Humanexus
 order: 1
+title: Humanexus
 image:
   sm: image.sm.jpg
-  lg: image.lg.png
+  lg: image.lg.jpg
 ---
 This semi-documentary animation is the product of a close collaboration between Katy Börner and artist [Ying-Fang Shen](http://yfshen.info/). Viewers of Humanexus will be struck by the evocative relationship between Shen’s visuals and the rich aural landscape created by composer and sound designer Norbert Herber, a senior lecturer in Indiana University’s Department of Telecommunications.\
 \
