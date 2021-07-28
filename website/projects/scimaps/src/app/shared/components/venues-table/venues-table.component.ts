@@ -24,7 +24,6 @@ export class VenuesTableComponent implements OnInit {
     type?: string,
     icon?: string
   }[] = [];
-  @Input() headersOnly = false;
   columns: string[] = [];
 
   constructor(private store: Store, private cdr: ChangeDetectorRef) {
