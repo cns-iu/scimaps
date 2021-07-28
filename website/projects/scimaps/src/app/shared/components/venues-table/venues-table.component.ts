@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component, HostBinding, Input, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, HostBinding, Input, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort, MatSortHeader } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
@@ -11,7 +11,7 @@ import { SetAppState } from '../../../core/actions/app.actions';
   templateUrl: './venues-table.component.html',
   styleUrls: ['./venues-table.component.scss']
 })
-export class VenuesTableComponent implements OnInit {
+export class VenuesTableComponent implements OnInit, AfterViewInit {
   @HostBinding('class') readonly clsName = 'sci-venues-table';
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) matSort!: MatSort;

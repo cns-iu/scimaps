@@ -38,12 +38,4 @@ export class TableComponent implements OnInit, AfterViewInit {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.matSort;
   }
-
-  openVenueGalleryDrawer(item: Params): void {
-    this.store.dispatch(new SetAppState({drawer: {
-      showDrawer: true,
-      drawerName: 'venue-gallery',
-      drawerPayload: item
-    }}));
-  }
 }

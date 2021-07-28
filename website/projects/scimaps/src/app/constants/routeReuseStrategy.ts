@@ -31,6 +31,6 @@ export class CustomRouteReuseStrategy implements RouteReuseStrategy {
         }
     }
     shouldReuseRoute(future: ActivatedRouteSnapshot, curr: ActivatedRouteSnapshot): boolean {
-      return future.routeConfig == curr.routeConfig;
+      return future.routeConfig === curr.routeConfig;
     }
   }
