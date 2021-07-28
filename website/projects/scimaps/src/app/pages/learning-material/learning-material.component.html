@@ -8,13 +8,13 @@
 
     <div class="content">
         <div class="row1">
-            <img [src]="item.image.lg" alt="" />
+            <img [src]="item?.image?.lg" alt="" />
         </div>
         <div class="row2">
             <div class="title">
-                <h3>{{ item.title }}</h3>
+                <h3>{{ item?.title }}</h3>
             </div>
-            <div markdown [data]="item.body"></div>
+            <div markdown [data]="item?.body"></div>
         </div>
     </div>
 </div>

@@ -37,6 +37,7 @@ export class TableComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.matSort;
+    console.log(this.matSort);
   }
 
   openVenueGalleryDrawer(item: Params): void {
