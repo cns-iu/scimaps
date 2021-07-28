@@ -11,13 +11,13 @@ export class LearningMaterialComponent implements OnInit {
 
   item!: LearningMaterial;
   constructor(private route: ActivatedRoute) { }
-  
+
   ngOnInit(): void {
     this.route.data.subscribe((response: Params) => {
       const { learningMaterial } = response;
       if (learningMaterial) {
-        this.item = learningMaterial
+        this.item = learningMaterial;
       }
-    })
+    });
   }
 }

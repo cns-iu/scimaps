@@ -82,10 +82,10 @@ const transitions = [
   ['Hosting', 'LearningMaterial']
 ];
 const forward = transitions.map(item => {
-  return [item[0], item[1]].join(' => ')
+  return [item[0], item[1]].join(' => ');
 }).join(', ');
 const backward = transitions.map(item => {
-  return [item[1], item[0]].join(' => ')
+  return [item[1], item[0]].join(' => ');
 }).join(', ');
 
 export const slideWithTransform = trigger('routeAnimations', [

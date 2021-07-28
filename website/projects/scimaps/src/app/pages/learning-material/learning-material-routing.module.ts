@@ -7,7 +7,7 @@ const routes: Routes = [{
   path: ':slug',
   component: LearningMaterialComponent,
   resolve: {
-    'learningMaterial': LearningMaterialResolverService
+    learningMaterial: LearningMaterialResolverService
   }
 }];
 

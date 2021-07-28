@@ -10,21 +10,21 @@ import { LearningMaterial } from '../hosting/learning-materials-resolver.service
 })
 export class LearningMaterialResolverService implements Resolve<LearningMaterial> {
   directory = 'content/learning-materials';
-  mdPath= '';
+  mdPath = '';
   slug = '';
   constructor(private contentService: ContentService) { }
 
   resolve(route: ActivatedRouteSnapshot): Observable<LearningMaterial> | Observable<never> {
     console.log('resolve', route);
     ({ slug: this.slug } = route.params);
-    this.mdPath = `learning-materials/${this.slug}/readme.md`
+    this.mdPath = `learning-materials/${this.slug}/readme.md`;
     return this.contentService.getContent<LearningMaterial>(this.mdPath).pipe(
       take(1),
       map((lm: LearningMaterial) => {
         return {
           ...lm,
           slug: toSlug(lm.title)
-        }
+        };
       }),
       map((lm: LearningMaterial) => {
         return this.updatePaths(lm);

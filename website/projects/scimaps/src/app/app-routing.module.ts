@@ -31,7 +31,7 @@ const routes: Routes = [
   },
   { path: 'hosting',
     loadChildren: () => import('./pages/hosting/hosting.module').then(m => m.HostingModule),
-    data: { animation: 'Hosting' } 
+    data: { animation: 'Hosting' }
   },
 
   { path: 'venues', loadChildren: () => import('./pages/venues/venues.module').then(m => m.VenuesModule) },

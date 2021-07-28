@@ -15,7 +15,7 @@ export class LearningMaterialItemComponent {
 
   constructor(private router: Router) {}
 
-  gotoLearningMaterial() {
+  gotoLearningMaterial(): void {
     if (this.item?.slug) {
       this.router.navigate(['/', 'learning-material', this.item.slug], {state: { direction: 'forward'}});
     }
