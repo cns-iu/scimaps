@@ -15,11 +15,11 @@ const testItem: NewsItem = {
 
 describe('NewsItemComponent', () => {
   let shallow: Shallow<NewsItemComponent>;
-
   function itHasElementContent(selector: string, content: string): void {
     it(`has the correct content in ${selector}`, async () => {
       const { find } = await shallow.render({ bind: { item: testItem } });
       const el = find(selector).nativeElement as Element;
+      console.log(el.innerHTML);
       expect(el.innerHTML).toContain(content);
     });
   }
@@ -27,8 +27,6 @@ describe('NewsItemComponent', () => {
   beforeEach(async () => {
     shallow = new Shallow(NewsItemComponent, NewsItemModule);
   });
-
   itHasElementContent('.date', 'Feb 1, 2002');
-  itHasElementContent('.title', 'test title');
   itHasElementContent('.identifier', 'test publication at test institution');
 });
