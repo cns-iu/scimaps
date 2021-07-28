@@ -24,10 +24,16 @@ describe('LearningMaterialResolverServicØe', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
-  it('Hello', () => {
+  it('should make expected call', () => {
     const lms = getLearningMaterials(2);
     (contentService.getContent as jasmine.Spy).and.returnValue(of([lms]));
     service.resolve({params: {slug: 'sample'}});
-    expect(contentService.getIndex).toHaveBeenCalledTimes(1);
+    expect(contentService.getContent).toHaveBeenCalledTimes(1);
+  });
+
+  it('Should correctly replace paths', () => {
+    const lm = getLearningMaterials(2)[0];
+    const newLm = service.updatePaths(lm);
+    expect(newLm).toBeTruthy();
   });
 });
