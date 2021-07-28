@@ -1,13 +1,13 @@
-import { AfterViewInit, Component, NgZone, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, HostListener, NgZone, OnDestroy, OnInit, Renderer2, ViewChild } from '@angular/core';
 import { MatSidenavContainer } from '@angular/material/sidenav';
 import { Event, Params, Router, RouterOutlet, RoutesRecognized } from '@angular/router';
 import { Select, Store } from '@ngxs/store';
 import { Observable, of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, filter, map, pairwise, switchMap } from 'rxjs/operators';
 import { drawerInOut, slideWithTransform } from './constants/drawer.animations';
+import { isHttp } from './constants/utils';
 import { SetAppState } from './core/actions/app.actions';
 import { PageState } from './core/state/page/page.state';
-import { NewsItem } from './shared/components/news-item/news-item.model';
 
 
 @Component({
@@ -22,19 +22,22 @@ import { NewsItem } from './shared/components/news-item/news-item.model';
 export class AppComponent implements OnDestroy, AfterViewInit, OnInit {
   @ViewChild(MatSidenavContainer) sidenavContainer!: MatSidenavContainer;
 
-  private _routeScrollPositions: {[url: string] : number}[] = [];
+  // All external links should be open in new tab
+  @HostListener('document:click', ['$event'])
+  click(e: PointerEvent) {
+    const target = e.target as HTMLAnchorElement;
+    if (target.nodeName === 'A') {
+      const { href } = target
+      if (href && isHttp(href)) {
+        e.preventDefault();
+        e.stopPropagation();
+        window.open(href, '_blank');
+      }
+    }
+  }
   hasPageScrolled = false;
   sidenavOpen = false;
   windowScrollSubscription: Subscription | undefined;
-
-  newsItem: NewsItem = {
-    title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
-    date: new Date(2020, 2, 2),
-    publication: 'Library News',
-    institution: 'Virginia Tech',
-    thumbnail: 'assets/images/rose.jpg',
-    pdfLink: 'link'
-  };
 
   footerParameters = {
     phoneNumber: '812-855-9930',
@@ -42,32 +45,32 @@ export class AppComponent implements OnDestroy, AfterViewInit, OnInit {
   };
 
   @Select(PageState.drawer) drawer$!: Observable<Params>;
-  constructor(private router: Router, private zone: NgZone, private store: Store) {
+  constructor(private renderer: Renderer2, private router: Router, private zone: NgZone, private store: Store) {
   }
 
   scrollPositions: Params = {};
-  
+
   ngOnInit(): void {
     // Scroll retention code
     this.router.events.pipe(
       filter((e: Event) => e instanceof RoutesRecognized),
       pairwise()
     ).subscribe(([previous, current]: Event[]) => {
-        const navigation = this.router.getCurrentNavigation();
-        console.log(navigation);
-        const direction = navigation?.extras?.state?.direction;
-        if (direction == 'forward') {
-          const scrollY = this.sidenavContainer.scrollable.measureScrollOffset('top');
-          this.scrollPositions[(previous as RoutesRecognized).url] = scrollY;
-          this.sidenavContainer.scrollable.scrollTo({top: 0, left: 0});
-        } else if (direction == 'backward') {
-          setTimeout(() => {
-            this.sidenavContainer.scrollable.scrollTo({top: this.scrollPositions[(current as RoutesRecognized).url] || 0, left: 0});
-          }, 100);
-        } else {
-          this.sidenavContainer.scrollable.scrollTo({top: 0, left: 0});
-        }
-      });
+      const navigation = this.router.getCurrentNavigation();
+      console.log(navigation);
+      const direction = navigation?.extras?.state?.direction;
+      if (direction == 'forward') {
+        const scrollY = this.sidenavContainer.scrollable.measureScrollOffset('top');
+        this.scrollPositions[(previous as RoutesRecognized).url] = scrollY;
+        this.sidenavContainer.scrollable.scrollTo({ top: 0, left: 0 });
+      } else if (direction == 'backward') {
+        setTimeout(() => {
+          this.sidenavContainer.scrollable.scrollTo({ top: this.scrollPositions[(current as RoutesRecognized).url] || 0, left: 0 });
+        }, 100);
+      } else {
+        this.sidenavContainer.scrollable.scrollTo({ top: 0, left: 0 });
+      }
+    });
   }
 
   prepareRoute(outlet: RouterOutlet): string {
@@ -107,12 +110,14 @@ export class AppComponent implements OnDestroy, AfterViewInit, OnInit {
 
   onActivate(): void {
     const cdkScrollable = this.sidenavContainer.scrollable;
-    // cdkScrollable.scrollTo({top: 0, left: 0});
+    // cdkScrollable.scrollTo({ top: 0, left: 0 });
   }
 
   closeDrawer(): void {
-    this.store.dispatch(new SetAppState({drawer: {
-      showDrawer: false
-    }}));
+    this.store.dispatch(new SetAppState({
+      drawer: {
+        showDrawer: false
+      }
+    }));
   }
 }
