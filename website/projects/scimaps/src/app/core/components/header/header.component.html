@@ -13,13 +13,12 @@
 </ng-container>
 
 <ng-template #desktopNav>
-  <button mat-button class="nav-item about mat-display-3" routerLink="/about" routerLinkActive="active">
+  <button  (mouseenter)="exhibitTrigger.closeMenu()" mat-button class="nav-item about mat-display-3" routerLink="/about" routerLinkActive="active">
     ABOUT
   </button>
 
   <div mat-button class="nav-item exhibit mat-display-3"
     (mouseenter)="exhibitTrigger.openMenu();contactTrigger.closeMenu();"
-    (mouseleave)="exhibitTrigger.closeMenu();"
     [ngClass]="{'active': (exhibitTrigger.menuClosed | async) || exhibitTrigger.menuOpen || maps.isActive || macroscopes.isActive || books.isActive || cfm.isActive || venues.isActive || hosting.isActive }" [matMenuTriggerFor]="exhibit"
     #exhibitTrigger="matMenuTrigger">EXHIBIT
     <mat-icon>expand_more</mat-icon>
@@ -60,8 +59,5 @@
       </div>
     </mat-menu>
 </div>
-
-  
-
-  <div class="search"></div>
+<div (mouseenter)="contactTrigger.closeMenu()" class="search"></div>
 </ng-template>
