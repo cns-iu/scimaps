@@ -40,7 +40,10 @@ export class VenuesTableComponent implements OnInit, AfterViewInit {
     // initial sort of dateStart
     this.matSort.sort({ id: '', start: 'asc', disableClear: true });
     this.matSort.sort({ id: 'dateStart', start: 'desc', disableClear: false });
-    (this.matSort.sortables.get('dateStart') as MatSortHeader)._setAnimationTransitionState({ toState: 'active' });
+    const sortable = this.matSort.sortables.get('dateStart') as MatSortHeader;
+    if (sortable) {
+      sortable._setAnimationTransitionState({ toState: 'active' });
+    }
     this.cdr.detectChanges();
   }
 
