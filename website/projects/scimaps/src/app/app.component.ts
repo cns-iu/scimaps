@@ -5,7 +5,7 @@ import { Select, Store } from '@ngxs/store';
 import { Observable, of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, filter, map, pairwise, switchMap } from 'rxjs/operators';
 import { drawerInOut, slideWithTransform } from './constants/drawer.animations';
-import { isHttp } from './constants/utils';
+import { isExternal, isHttp } from './constants/utils';
 import { SetAppState } from './core/actions/app.actions';
 import { PageState } from './core/state/page/page.state';
 
@@ -22,16 +22,20 @@ import { PageState } from './core/state/page/page.state';
 export class AppComponent implements OnDestroy, AfterViewInit, OnInit {
   @ViewChild(MatSidenavContainer) sidenavContainer!: MatSidenavContainer;
 
-  // All external links should be open in new tab
+  // All external / internal link behaviour.
   @HostListener('document:click', ['$event'])
-  click(e: PointerEvent) {
+  customRedirect(e: PointerEvent) {
     const target = e.target as HTMLAnchorElement;
     if (target.nodeName === 'A') {
-      const { href } = target
-      if (href && isHttp(href)) {
+      const href = target.getAttribute('href');
+      if (href) {
         e.preventDefault();
         e.stopPropagation();
-        window.open(href, '_blank');
+        if (isExternal(href)) {
+          window.open(href, '_blank');
+        } else {
+          this.router.navigate([href]);
+        }
       }
     }
   }
