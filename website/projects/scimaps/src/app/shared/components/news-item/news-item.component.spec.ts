@@ -19,7 +19,6 @@ describe('NewsItemComponent', () => {
     it(`has the correct content in ${selector}`, async () => {
       const { find } = await shallow.render({ bind: { item: testItem } });
       const el = find(selector).nativeElement as Element;
-      console.log(el.innerHTML);
       expect(el.innerHTML).toContain(content);
     });
   }

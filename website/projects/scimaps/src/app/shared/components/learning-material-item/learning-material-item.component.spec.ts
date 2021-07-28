@@ -1,4 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { Router } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing';
 
 import { LearningMaterialItemComponent } from './learning-material-item.component';
 import { LearningMaterialItemModule } from './learning-material-item.module';
@@ -10,7 +12,7 @@ describe('LearningMaterialItemComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ LearningMaterialItemComponent ],
-      imports: [LearningMaterialItemModule]
+      imports: [LearningMaterialItemModule, RouterTestingModule.withRoutes([])]
     })
     .compileComponents();
   });

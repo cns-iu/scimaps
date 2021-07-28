@@ -11,7 +11,7 @@ import { LearningMaterial } from '../../../pages/hosting/learning-materials-reso
 })
 export class LearningMaterialItemComponent {
 
-  @Input() item!: LearningMaterial;
+  @Input() item: LearningMaterial = {} as LearningMaterial;
 
   constructor(private router: Router) {}
 
