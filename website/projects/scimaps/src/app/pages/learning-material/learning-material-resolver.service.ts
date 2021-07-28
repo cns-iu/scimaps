@@ -14,8 +14,7 @@ export class LearningMaterialResolverService implements Resolve<LearningMaterial
   slug = '';
   constructor(private contentService: ContentService) { }
 
-  resolve(route: ActivatedRouteSnapshot): Observable<LearningMaterial> | Observable<never> {
-    console.log('resolve', route);
+  resolve(route: ActivatedRouteSnapshot | Params): Observable<LearningMaterial> | Observable<never> {
     ({ slug: this.slug } = route.params);
     this.mdPath = `learning-materials/${this.slug}/readme.md`;
     return this.contentService.getContent<LearningMaterial>(this.mdPath).pipe(
