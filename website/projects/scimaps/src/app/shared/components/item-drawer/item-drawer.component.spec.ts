@@ -1,12 +1,13 @@
-import { MatDialogRef, MatDialog } from '@angular/material/dialog';
+import { MatDialog, MatDialogRef } from '@angular/material/dialog';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Store } from '@ngxs/store';
 import { Shallow } from 'shallow-render';
-import { Router } from '@angular/router';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { ItemDrawerComponent } from './item-drawer.component';
 import { ItemDrawerModule } from './item-drawer.module';
-import { NgxsModule, Store } from '@ngxs/store';
 
 export const testItem: MapMacroscopeItem = {
+  iteration: 1,
   title: 'Title Test',
   makers: [
     {
@@ -62,11 +63,18 @@ describe('ItemDrawerComponent', () => {
 
   const mockStore = {
   };
+  const mockActivateRoute = {
+    snapshot: {
+      params: {
+      }
+    }
+  };
 
   beforeEach(async () => {
     shallow = new Shallow(ItemDrawerComponent, ItemDrawerModule)
     .mock(Router, mockRouter)
-    .mock(Store, mockStore);
+    .mock(Store, mockStore)
+    .mock(ActivatedRoute, mockActivateRoute);
   });
 
 
@@ -96,6 +104,6 @@ describe('ItemDrawerComponent', () => {
   it('closes the item drawer', async () => {
     const { instance } = await shallow.render({ bind: { item: testItem, type: 'map' } });
     instance.close();
-    expect(mockRouter.navigate).toHaveBeenCalledWith( [ '/', 'maps' ], {state: { direction: 'backward'}});
+    expect(mockRouter.navigate).toHaveBeenCalled();
   });
 });

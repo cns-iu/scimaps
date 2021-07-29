@@ -32,7 +32,8 @@ const discoverItem: DiscoverItem = {
     }
   ],
   slug: 'macroscopes-2019',
-  directory: 'macroscopes'
+  directory: 'macroscopes',
+  iteration: 1
 };
 
 const type = 'macroscopes';

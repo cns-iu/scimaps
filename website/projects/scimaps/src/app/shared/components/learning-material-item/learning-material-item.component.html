@@ -5,7 +5,7 @@
   </div>
   <div class="row2">
     <mat-card-title>
-      <h4 class="header4">{{ item.title }}</h4>
+      <h4 class="header4">{{ item?.title }}</h4>
     </mat-card-title>
     <div class="content">
       <mat-card-content markdown [data]="item.body.length > 80 ? item.body.slice(0, 80) + '...' : item.body">
@@ -21,7 +21,7 @@
   </div>
   <div class="col2">
     <mat-card-title>
-      <h4 class="header4">{{ item.title }}</h4>
+      <h4 class="header4">{{ item?.title }}</h4>
     </mat-card-title>
   </div>
   <div class="col3">
