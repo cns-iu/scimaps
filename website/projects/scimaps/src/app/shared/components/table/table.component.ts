@@ -2,9 +2,7 @@ import { AfterViewInit, Component, HostBinding, Input, OnInit, ViewChild } from 
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { Params } from '@angular/router';
 import { Store } from '@ngxs/store';
-import { SetAppState } from '../../../core/actions/app.actions';
 
 @Component({
   selector: 'sci-table',

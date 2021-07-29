@@ -1,10 +1,10 @@
 import { TestBed } from '@angular/core/testing';
-import { ActivatedRouteSnapshot, Params } from '@angular/router';
+import { Params } from '@angular/router';
 import { of } from 'rxjs';
 import { ContentService } from '../../shared/services/content.service';
 import { getLearningMaterials } from '../hosting/learning-materials-resolver.service.spec';
-
 import { LearningMaterialResolverService } from './learning-material-resolver.service';
+
 
 describe('LearningMaterialResolverServicØe', () => {
   let service: LearningMaterialResolverService;

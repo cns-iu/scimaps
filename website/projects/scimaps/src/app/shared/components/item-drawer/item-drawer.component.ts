@@ -78,7 +78,7 @@ export class ItemDrawerComponent {
     this.store.dispatch(new SetAppState({drawer: {
       showDrawer: true,
       drawerName: 'makers-drawer',
-      drawerPayload: item as Params
+      drawerPayload: item
     }}));
   }
 }
