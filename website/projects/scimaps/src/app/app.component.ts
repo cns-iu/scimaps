@@ -95,7 +95,7 @@ export class AppComponent implements OnDestroy, AfterViewInit {
     if (fragment) {
       setTimeout(() => {
         const item = document.querySelector(`#${fragment}`);
-        item?.scrollIntoView({ block: 'nearest', inline: 'center'});
+        item?.scrollIntoView({ block: 'center', inline: 'center'});
       }, 500);
     } else {
        cdkScrollable.scrollTo({ top: 0, left: 0 });
