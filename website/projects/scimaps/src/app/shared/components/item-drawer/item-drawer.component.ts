@@ -1,11 +1,10 @@
 import { Component, EventEmitter, HostBinding, Input, Output } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { Params, Router } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Store } from '@ngxs/store';
 import { SetAppState } from '../../../core/actions/app.actions';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.component';
-
 
 /**
  * Drawer that opens when a map or macroscope item is selected
@@ -39,7 +38,7 @@ export class ItemDrawerComponent {
    */
   selectedLanguage = 'en';
 
-  constructor(private readonly dialog: MatDialog, private router: Router, private store: Store) { }
+  constructor(private activatedRoute: ActivatedRoute, private readonly dialog: MatDialog, private router: Router, private store: Store) { }
 
   /**
    * Combines the maker names
@@ -52,7 +51,9 @@ export class ItemDrawerComponent {
    * Closes item drawer component and returns to the maps or macroscopes page
    */
   close(): void {
-    this.router.navigate(['/', this.type + 's'], {state: { direction: 'backward'}});
+    const snapshot = this.activatedRoute.snapshot;
+    const { iteration } = snapshot.params;
+    this.router.navigate(['/', this.type + 's'], {fragment: `${this.type}-${iteration}`, state: { direction: 'backward'}});
   }
 
   /**

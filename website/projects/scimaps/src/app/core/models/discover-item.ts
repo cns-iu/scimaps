@@ -12,6 +12,7 @@ export interface DiscoverItem {
   thumbnails: ThumbnailLink[];
   slug: string;
   directory: string;
+  iteration: number;
 }
 
 /**
@@ -51,6 +52,7 @@ export interface MapMacroscopeItem {
   /** Languages that the item has been translated into */
   translations: Language[];
   externalLink: string;
+  iteration: number;
 }
 
 /**

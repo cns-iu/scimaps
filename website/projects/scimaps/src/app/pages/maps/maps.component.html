@@ -15,13 +15,14 @@
   </div>
 </div>
 
+<!-- desktop -->
 <h2 class="header discover-maps">Discover Maps</h2>
-
 <ng-container *ngFor="let item of displayItems; let i = index;">
-  <sci-discover-listing *ngIf="showAllItems || i < displayLimit" class="discover-item maps" [discoverItem]="item" [type]="'maps'"></sci-discover-listing>
+  <sci-discover-listing id="map-{{item.iteration}}" *ngIf="showAllItems || i < displayLimit" class="discover-item maps" [discoverItem]="item" [type]="'maps'"></sci-discover-listing>
 </ng-container>
-
 <button *ngIf="!showAllItems" class="more-button" (click)="showAllItems = true">Show More Maps</button>
+
+<!-- mobile -->
 <div class="mobile-button" (click)="showModal = true;">
   Discover Maps
   <mat-icon class="mobile-icon">chevron_right</mat-icon>

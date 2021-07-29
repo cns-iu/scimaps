@@ -12,7 +12,7 @@ export interface LearningMaterial {
     sm: string;
     lg: string;
   };
-  slug?: string;
+  slug: string;
 }
 @Injectable({
   providedIn: 'root',

@@ -18,9 +18,10 @@
 </div>
 
 <ng-container *ngFor="let item of displayItems; let i = index;">
-  <sci-discover-listing *ngIf="showAllItems || i < displayLimit" class="discover-item macroscopes"  [discoverItem]="item" [type]="'macroscopes'"></sci-discover-listing>
+  <sci-discover-listing id="macroscope-{{item.iteration}}" *ngIf="showAllItems || i < displayLimit" class="discover-item macroscopes"  [discoverItem]="item" [type]="'macroscopes'"></sci-discover-listing>
 </ng-container>
 
+<!-- mobile -->
 <button *ngIf="!showAllItems" class="more-button" (click)="showAllItems = true">Show More Macroscopes</button>
 <div class="mobile-button" (click)="showModal = true;">
   Discover Macroscopes

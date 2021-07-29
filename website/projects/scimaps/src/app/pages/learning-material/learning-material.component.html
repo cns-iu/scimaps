@@ -2,7 +2,7 @@
     <div class="header">
         <div class="back-button">
             <mat-icon class="back-icon">chevron_left</mat-icon>
-            <div [routerLink]="['/', 'hosting']" [state]="{direction: 'backward'}">BACK</div>
+            <div [routerLink]="['/', 'hosting']" fragment="{{item?.slug}}" [state]="{direction: 'backward'}">BACK</div>
         </div>
     </div>
 
