@@ -22,7 +22,7 @@ export class TableComponent implements OnInit, AfterViewInit {
     icon?: string
   }[] = [];
   @Input() headersOnly = false;
-  @Input() initialSort: {column: string, direction: "asc" | "desc"} = {column: '', direction: 'asc' };
+  @Input() initialSort: {column: string, direction: 'asc' | 'desc'} = {column: '', direction: 'asc' };
   columns: string[] = [];
 
   constructor(private cdr: ChangeDetectorRef) {}

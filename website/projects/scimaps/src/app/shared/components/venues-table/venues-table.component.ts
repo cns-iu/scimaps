@@ -15,8 +15,8 @@ export class VenuesTableComponent implements OnInit, AfterViewInit {
   @HostBinding('class') readonly clsName = 'sci-venues-table';
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) matSort!: MatSort;
+  @Input() initialSort: {column: string, direction: 'asc' | 'desc'} = {column: '', direction: 'asc' };
   // tslint:disable-next-line: no-any
-  @Input() initialSort: {column: string, direction: "asc" | "desc"} = {column: '', direction: 'asc' };
   @Input() dataSource: MatTableDataSource<any> = new MatTableDataSource();
   @Input() tableHeaders: {
     key: string,
