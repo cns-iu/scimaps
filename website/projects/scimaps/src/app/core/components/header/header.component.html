@@ -23,7 +23,7 @@
       [ngClass]="{'active': (exhibitTrigger.menuClosed | async) || exhibitTrigger.menuOpen || maps.isActive || macroscopes.isActive || books.isActive || cfm.isActive || venues.isActive || hosting.isActive }" [matMenuTriggerFor]="exhibit"
       #exhibitTrigger="matMenuTrigger">EXHIBIT
       <mat-icon>expand_more</mat-icon>
-      <mat-menu class="sci-header-menu" #exhibit="matMenu" [hasBackdrop]="false">
+      <mat-menu class="sci-header-menu" #exhibit="matMenu" [hasBackdrop]="false" xPosition="before">
         <div (mouseleave)="exhibitTrigger.closeMenu()">
           <button mat-button class="mat-display-3" routerLink="/maps" routerLinkActive="active" #maps="routerLinkActive">MAPS</button>
           <button mat-button class="mat-display-3" routerLink="/macroscopes" routerLinkActive="active" #macroscopes="routerLinkActive">MACROSCOPES</button>
