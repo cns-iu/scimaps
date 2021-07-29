@@ -1,4 +1,8 @@
-import { ChangeDetectionStrategy, Component, EventEmitter, HostBinding, Input, Output } from '@angular/core';
+import { ChangeDetectionStrategy, Component, EventEmitter, HostBinding, Input, OnInit, Output } from '@angular/core';
+import { Params } from '@angular/router';
+import { Select } from '@ngxs/store';
+import { Observable } from 'rxjs';
+import { PageState } from '../../state/page/page.state';
 
 
 /**
@@ -11,6 +15,7 @@ import { ChangeDetectionStrategy, Component, EventEmitter, HostBinding, Input, O
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HeaderComponent {
+
   /** HTML classes */
   @HostBinding('class') readonly clsName = 'sci-header mat-display-3';
 
@@ -23,4 +28,6 @@ export class HeaderComponent {
    * Emits whenever the sidenav buttton is clicked
    */
   @Output() sidenavOpenChange = new EventEmitter<boolean>();
+
+  @Select(PageState.drawer) drawer$!: Observable<Params>;
 }

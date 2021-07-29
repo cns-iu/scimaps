@@ -13,51 +13,54 @@
 </ng-container>
 
 <ng-template #desktopNav>
-  <button  (mouseenter)="exhibitTrigger.closeMenu()" mat-button class="nav-item about mat-display-3" routerLink="/about" routerLinkActive="active">
-    ABOUT
-  </button>
-
-  <div mat-button class="nav-item exhibit mat-display-3"
-    (mouseenter)="exhibitTrigger.openMenu();contactTrigger.closeMenu();"
-    [ngClass]="{'active': (exhibitTrigger.menuClosed | async) || exhibitTrigger.menuOpen || maps.isActive || macroscopes.isActive || books.isActive || cfm.isActive || venues.isActive || hosting.isActive }" [matMenuTriggerFor]="exhibit"
-    #exhibitTrigger="matMenuTrigger">EXHIBIT
-    <mat-icon>expand_more</mat-icon>
-    <mat-menu class="sci-header-menu" #exhibit="matMenu" [hasBackdrop]="false">
-      <div (mouseleave)="exhibitTrigger.closeMenu()">
-        <button mat-button class="mat-display-3" routerLink="/maps" routerLinkActive="active" #maps="routerLinkActive">MAPS</button>
-        <button mat-button class="mat-display-3" routerLink="/macroscopes" routerLinkActive="active" #macroscopes="routerLinkActive">MACROSCOPES</button>
-        <button mat-button class="mat-display-3" routerLink="/books" routerLinkActive="active" #books="routerLinkActive">BOOKS</button>
-        <button mat-button class="mat-display-3" routerLink="/call-for-macroscopes" routerLinkActive="active" #cfm="routerLinkActive">CALL FOR MACROSCOPES</button>
-        <button mat-button class="mat-display-3" routerLink="/venues" routerLinkActive="active" #venues="routerLinkActive">VENUES</button>
-        <button mat-button class="mat-display-3" routerLink="/hosting" routerLinkActive="active" #hosting="routerLinkActive">HOSTING</button>
-      </div>
+  <ng-template [ngIf]="!(drawer$ | async)?.showDrawer">
+    <button  (mouseenter)="exhibitTrigger.closeMenu()" mat-button class="nav-item about mat-display-3" routerLink="/about" routerLinkActive="active">
+      ABOUT
+    </button>
+  
+    <div mat-button class="nav-item exhibit mat-display-3"
+      (mouseenter)="exhibitTrigger.openMenu();contactTrigger.closeMenu();"
+      [ngClass]="{'active': (exhibitTrigger.menuClosed | async) || exhibitTrigger.menuOpen || maps.isActive || macroscopes.isActive || books.isActive || cfm.isActive || venues.isActive || hosting.isActive }" [matMenuTriggerFor]="exhibit"
+      #exhibitTrigger="matMenuTrigger">EXHIBIT
+      <mat-icon>expand_more</mat-icon>
+      <mat-menu class="sci-header-menu" #exhibit="matMenu" [hasBackdrop]="false">
+        <div (mouseleave)="exhibitTrigger.closeMenu()">
+          <button mat-button class="mat-display-3" routerLink="/maps" routerLinkActive="active" #maps="routerLinkActive">MAPS</button>
+          <button mat-button class="mat-display-3" routerLink="/macroscopes" routerLinkActive="active" #macroscopes="routerLinkActive">MACROSCOPES</button>
+          <button mat-button class="mat-display-3" routerLink="/books" routerLinkActive="active" #books="routerLinkActive">BOOKS</button>
+          <button mat-button class="mat-display-3" routerLink="/call-for-macroscopes" routerLinkActive="active" #cfm="routerLinkActive">CALL FOR MACROSCOPES</button>
+          <button mat-button class="mat-display-3" routerLink="/venues" routerLinkActive="active" #venues="routerLinkActive">VENUES</button>
+          <button mat-button class="mat-display-3" routerLink="/hosting" routerLinkActive="active" #hosting="routerLinkActive">HOSTING</button>
+        </div>
+      </mat-menu>
+    </div>
+  
+   
+  
+    <button mat-button class="nav-item explore mat-display-3" *ngIf="false"
+            [class.active]="(exploreTrigger.menuClosed | async) || exploreTrigger.menuOpen" [matMenuTriggerFor]="explore"
+            #exploreTrigger="matMenuTrigger">
+      EXPLORE
+      <mat-icon>expand_more</mat-icon>
+    </button>
+  
+    <mat-menu class="sci-header-menu" #explore="matMenu">
+      <button mat-button class="mat-display-3" routerLink="/learning-center" routerLinkActive="active">LEARNING
+        CENTER</button>
     </mat-menu>
+  
+    <div mat-button class="nav-item contact mat-display-3"
+    (mouseenter)="contactTrigger.openMenu();exhibitTrigger.closeMenu();"
+    [class.active]="(contactTrigger.menuClosed | async) || contactTrigger.menuOpen" [matMenuTriggerFor]="contact"
+    #contactTrigger="matMenuTrigger">
+      CONTACT US
+      <mat-menu class="sci-header-menu no-padding" #contact="matMenu" [hasBackdrop]="false">
+        <div (mouseleave)="contactTrigger.closeMenu()">
+          <sci-contact class="contact"></sci-contact>
+        </div>
+      </mat-menu>
   </div>
-
- 
-
-  <button mat-button class="nav-item explore mat-display-3" *ngIf="false"
-          [class.active]="(exploreTrigger.menuClosed | async) || exploreTrigger.menuOpen" [matMenuTriggerFor]="explore"
-          #exploreTrigger="matMenuTrigger">
-    EXPLORE
-    <mat-icon>expand_more</mat-icon>
-  </button>
-
-  <mat-menu class="sci-header-menu" #explore="matMenu">
-    <button mat-button class="mat-display-3" routerLink="/learning-center" routerLinkActive="active">LEARNING
-      CENTER</button>
-  </mat-menu>
-
-  <div mat-button class="nav-item contact mat-display-3"
-  (mouseenter)="contactTrigger.openMenu();exhibitTrigger.closeMenu();"
-  [class.active]="(contactTrigger.menuClosed | async) || contactTrigger.menuOpen" [matMenuTriggerFor]="contact"
-  #contactTrigger="matMenuTrigger">
-    CONTACT US
-    <mat-menu class="sci-header-menu no-padding" #contact="matMenu" [hasBackdrop]="false">
-      <div (mouseleave)="contactTrigger.closeMenu()">
-        <sci-contact class="contact"></sci-contact>
-      </div>
-    </mat-menu>
-</div>
-<div (mouseenter)="contactTrigger.closeMenu()" class="search"></div>
+  <div (mouseenter)="contactTrigger.closeMenu()" class="search"></div>
+  </ng-template>
+  
 </ng-template>
