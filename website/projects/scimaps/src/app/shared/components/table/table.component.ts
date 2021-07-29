@@ -25,9 +25,6 @@ export class TableComponent implements OnInit, AfterViewInit {
   @Input() headersOnly = false;
   columns: string[] = [];
 
-  constructor(private store: Store) {
-  }
-
   ngOnInit(): void {
     this.columns = this.tableHeaders.map(header => header.key);
   }

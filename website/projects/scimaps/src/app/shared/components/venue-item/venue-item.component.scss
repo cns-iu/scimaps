@@ -37,8 +37,14 @@ $desktop: 1248px;
           font-size: 1rem;
           overflow: hidden;
         }
+        .icons {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
         // icon
         .gallery {
+          color: #7997a3;
           border-radius: 100%;
           align-self: center;
           width: 36px;
@@ -54,6 +60,9 @@ $desktop: 1248px;
             margin-left: 6px;
             margin-top: 6px;
           }
+        }
+        .pdf {
+
         }
       }
 
