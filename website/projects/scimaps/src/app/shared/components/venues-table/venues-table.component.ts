@@ -16,6 +16,7 @@ export class VenuesTableComponent implements OnInit, AfterViewInit {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) matSort!: MatSort;
   // tslint:disable-next-line: no-any
+  @Input() initialSort: {column: string, direction: "asc" | "desc"} = {column: '', direction: 'asc' };
   @Input() dataSource: MatTableDataSource<any> = new MatTableDataSource();
   @Input() tableHeaders: {
     key: string,
@@ -38,20 +39,24 @@ export class VenuesTableComponent implements OnInit, AfterViewInit {
     this.dataSource.sort = this.matSort;
 
     // initial sort of dateStart
-    this.matSort.sort({ id: '', start: 'asc', disableClear: true });
-    this.matSort.sort({ id: 'dateStart', start: 'desc', disableClear: false });
-    const sortable = this.matSort.sortables.get('dateStart') as MatSortHeader;
-    if (sortable) {
-      sortable._setAnimationTransitionState({ toState: 'active' });
+    if (this.initialSort && this.columns.includes(this.initialSort.column)) {
+      this.matSort.sort({ id: '', start: 'asc', disableClear: true });
+      this.matSort.sort({ id: this.initialSort.column, start: this.initialSort.direction, disableClear: false });
+      const sortable = this.matSort.sortables.get(this.initialSort.column) as MatSortHeader;
+      if (sortable) {
+        sortable._setAnimationTransitionState({ toState: 'active' });
+      }
+      this.cdr.detectChanges();
     }
-    this.cdr.detectChanges();
   }
 
   openVenueGalleryDrawer(item: Params): void {
-    this.store.dispatch(new SetAppState({drawer: {
-      showDrawer: true,
-      drawerName: 'venue-gallery-drawer',
-      drawerPayload: item
-    }}));
+    this.store.dispatch(new SetAppState({
+      drawer: {
+        showDrawer: true,
+        drawerName: 'venue-gallery-drawer',
+        drawerPayload: item
+      }
+    }));
   }
 }
