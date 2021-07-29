@@ -50,7 +50,7 @@ export class VenuesTableComponent implements OnInit, AfterViewInit {
   openVenueGalleryDrawer(item: Params): void {
     this.store.dispatch(new SetAppState({drawer: {
       showDrawer: true,
-      drawerName: 'venue-gallery',
+      drawerName: 'venue-gallery-drawer',
       drawerPayload: item
     }}));
   }

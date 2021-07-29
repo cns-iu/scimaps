@@ -10,7 +10,7 @@
   <div class="body">
     <div class="details-content">
       <h2 class="details-title">{{item.title}}</h2>
-      <div class="details-makers" (click)="openSubdrawer()">
+      <div class="details-makers" (click)="openDrawer(item)">
         <div class="makers-text">
           <div class="makers-label">Makers:&nbsp;</div>
           <div>{{makers | titlecase}}</div>
@@ -50,7 +50,3 @@
     <h2 class="details-title mobile">{{item.title}}</h2>
   </div>
 </div>
-
-<sci-drawer [@drawerInOut] *ngIf="showSubdrawer">
-  <sci-makers-subdrawer (closeDrawer)="showSubdrawer = false" [makers]="item.makers" [title]="item.title" drawer></sci-makers-subdrawer>
-</sci-drawer>

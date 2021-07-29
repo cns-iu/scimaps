@@ -12,9 +12,7 @@ import { ItemDrawerComponent } from './item-drawer.component';
     CommonModule,
     MatIconModule,
     PurchaseModalModule,
-    MarkdownModule,
-    MakersSubdrawerModule,
-    DrawerModule
+    MarkdownModule
   ],
   declarations: [ItemDrawerComponent],
   exports: [ItemDrawerComponent]

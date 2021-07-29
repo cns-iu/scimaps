@@ -1,10 +1,11 @@
-import { Component, Input, HostBinding, Output, EventEmitter } from '@angular/core';
-
-import { Router } from '@angular/router';
+import { Component, EventEmitter, HostBinding, Input, Output } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import { Params, Router } from '@angular/router';
+import { Store } from '@ngxs/store';
+import { SetAppState } from '../../../core/actions/app.actions';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.component';
-import { drawerInOut } from '../../../constants/drawer.animations';
+
 
 /**
  * Drawer that opens when a map or macroscope item is selected
@@ -12,8 +13,7 @@ import { drawerInOut } from '../../../constants/drawer.animations';
 @Component({
   selector: 'sci-item-drawer',
   templateUrl: './item-drawer.component.html',
-  styleUrls: ['./item-drawer.component.scss'],
-  animations: [drawerInOut]
+  styleUrls: ['./item-drawer.component.scss']
 })
 export class ItemDrawerComponent {
   /** HTML class name */
@@ -39,10 +39,7 @@ export class ItemDrawerComponent {
    */
   selectedLanguage = 'en';
 
-  /** Whether the subdrawer containing maker info is open */
-  showSubdrawer = false;
-
-  constructor(private readonly dialog: MatDialog, private router: Router) { }
+  constructor(private readonly dialog: MatDialog, private router: Router, private store: Store) { }
 
   /**
    * Combines the maker names
@@ -76,13 +73,11 @@ export class ItemDrawerComponent {
     });
   }
 
-  /** Opens the maker subdrawer */
-  openSubdrawer(): void {
-    this.showSubdrawer = true;
-  }
-
-  /** Closes the maker subdrawer */
-  closeSubdrawer(): void {
-    this.showSubdrawer = false;
+  openDrawer(item: Params): void {
+    this.store.dispatch(new SetAppState({drawer: {
+      showDrawer: true,
+      drawerName: 'makers-drawer',
+      drawerPayload: item as Params
+    }}));
   }
 }
