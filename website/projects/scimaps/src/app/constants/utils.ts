@@ -12,4 +12,4 @@ export const isExternal = (url: string): boolean => {
   } else {
     return false;
   }
-}
+};

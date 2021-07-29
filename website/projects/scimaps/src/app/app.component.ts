@@ -20,11 +20,25 @@ import { PageState } from './core/state/page/page.state';
   ]
 })
 export class AppComponent implements OnDestroy, AfterViewInit, OnInit {
+  constructor(private renderer: Renderer2, private router: Router, private zone: NgZone, private store: Store) {
+  }
   @ViewChild(MatSidenavContainer) sidenavContainer!: MatSidenavContainer;
+  hasPageScrolled = false;
+  sidenavOpen = false;
+  windowScrollSubscription: Subscription | undefined;
+
+  footerParameters = {
+    phoneNumber: '812-855-9930',
+    acknowledgement: 'This exhibit is supported by the National Science Foundation under Grant No. IIS-0238261, CHE-0524661, IIS-0534909 and IIS-0715303, the James S. McDonnell Foundation; Thomson Reuters; the Cyberinfrastructure for Network Science Center, University Information Technology Services, and the School of Library and Information Science, all three at Indiana University. Some of the data used to generate the science maps is from the Web of Science by Thomson Reuters and Scopus by Elsevier. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.'
+  };
+
+  @Select(PageState.drawer) drawer$!: Observable<Params>;
+
+  scrollPositions: Params = {};
 
   // All external / internal link behaviour.
   @HostListener('document:click', ['$event'])
-  customRedirect(e: PointerEvent) {
+  customRedirect(e: PointerEvent): void {
     const target = e.target as HTMLAnchorElement;
     if (target.nodeName === 'A') {
       const href = target.getAttribute('href');
@@ -39,20 +53,6 @@ export class AppComponent implements OnDestroy, AfterViewInit, OnInit {
       }
     }
   }
-  hasPageScrolled = false;
-  sidenavOpen = false;
-  windowScrollSubscription: Subscription | undefined;
-
-  footerParameters = {
-    phoneNumber: '812-855-9930',
-    acknowledgement: 'This exhibit is supported by the National Science Foundation under Grant No. IIS-0238261, CHE-0524661, IIS-0534909 and IIS-0715303, the James S. McDonnell Foundation; Thomson Reuters; the Cyberinfrastructure for Network Science Center, University Information Technology Services, and the School of Library and Information Science, all three at Indiana University. Some of the data used to generate the science maps is from the Web of Science by Thomson Reuters and Scopus by Elsevier. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.'
-  };
-
-  @Select(PageState.drawer) drawer$!: Observable<Params>;
-  constructor(private renderer: Renderer2, private router: Router, private zone: NgZone, private store: Store) {
-  }
-
-  scrollPositions: Params = {};
 
   ngOnInit(): void {
     // Scroll retention code
@@ -63,11 +63,11 @@ export class AppComponent implements OnDestroy, AfterViewInit, OnInit {
       const navigation = this.router.getCurrentNavigation();
       console.log(navigation);
       const direction = navigation?.extras?.state?.direction;
-      if (direction == 'forward') {
+      if (direction === 'forward') {
         const scrollY = this.sidenavContainer.scrollable.measureScrollOffset('top');
         this.scrollPositions[(previous as RoutesRecognized).url] = scrollY;
         this.sidenavContainer.scrollable.scrollTo({ top: 0, left: 0 });
-      } else if (direction == 'backward') {
+      } else if (direction === 'backward') {
         setTimeout(() => {
           this.sidenavContainer.scrollable.scrollTo({ top: this.scrollPositions[(current as RoutesRecognized).url] || 0, left: 0 });
         }, 100);

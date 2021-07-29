@@ -16,6 +16,6 @@ describe('MakersSubdrawerComponent', () => {
     const { instance, find } = await shallow.render();
     const closeButton = find('.back-button');
     closeButton.triggerEventHandler('click', {});
-    expect(instance.closeDrawer.emit).toHaveBeenCalled();
+    expect(instance.closed.emit).toHaveBeenCalled();
   });
 });

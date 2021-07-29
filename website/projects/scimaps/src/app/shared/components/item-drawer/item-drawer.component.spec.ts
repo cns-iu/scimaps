@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { ItemDrawerComponent } from './item-drawer.component';
 import { ItemDrawerModule } from './item-drawer.module';
+import { NgxsModule, Store } from '@ngxs/store';
 
 export const testItem: MapMacroscopeItem = {
   title: 'Title Test',
@@ -59,9 +60,13 @@ describe('ItemDrawerComponent', () => {
     navigate: jasmine.createSpy('navigate')
   };
 
+  const mockStore = {
+  };
+
   beforeEach(async () => {
     shallow = new Shallow(ItemDrawerComponent, ItemDrawerModule)
-    .mock(Router, mockRouter);
+    .mock(Router, mockRouter)
+    .mock(Store, mockStore);
   });
 
 
@@ -88,21 +93,9 @@ describe('ItemDrawerComponent', () => {
     expect(get(MatDialog).open).toHaveBeenCalled();
   });
 
-  it('opens the makers subdrawer', async () => {
-    const { instance } = await shallow.render({ bind: { item: testItem, type: 'map' } });
-    instance.openSubdrawer();
-    expect(instance.showSubdrawer).toBeTrue();
-  });
-
-  it('closes the makers subdrawer', async () => {
-    const { instance } = await shallow.render({ bind: { item: testItem, type: 'map' } });
-    instance.closeSubdrawer();
-    expect(instance.showSubdrawer).toBeFalse();
-  });
-
   it('closes the item drawer', async () => {
     const { instance } = await shallow.render({ bind: { item: testItem, type: 'map' } });
     instance.close();
-    expect(mockRouter.navigate).toHaveBeenCalledWith( [ '/', 'maps' ] );
+    expect(mockRouter.navigate).toHaveBeenCalledWith( [ '/', 'maps' ], {state: { direction: 'backward'}});
   });
 });
