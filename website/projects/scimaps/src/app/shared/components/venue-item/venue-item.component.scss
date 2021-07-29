@@ -43,7 +43,7 @@ $desktop: 1248px;
           align-items: center;
         }
         // icon
-        .gallery {
+        .icon-container {
           color: #7997a3;
           border-radius: 100%;
           align-self: center;
@@ -55,14 +55,14 @@ $desktop: 1248px;
             background-color: #dce0e2;
             transform: scale(1.2);
           }
-
           .icon-gallery {
             margin-left: 6px;
             margin-top: 6px;
           }
-        }
-        .pdf {
-
+          .icon-pdf {
+            margin-left: 6px;
+            margin-top: 6px;
+          }
         }
       }
 

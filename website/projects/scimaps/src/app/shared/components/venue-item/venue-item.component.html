@@ -7,12 +7,12 @@
         </div>
 
         <div class="icons">
-          <div class="gallery" *ngIf="item.venueImages">
+          <div class="icon-container" *ngIf="item.venueImages">
             <mat-icon class="icon-gallery" aria-hidden="true" (click)="openDrawer(item)">image</mat-icon>
           </div>
-          <div class="pdf" *ngIf="item.pdfLink">
+          <div class="icon-container" *ngIf="item.pdfLink">
             <a [href]="item.pdfLink" target="_blank" rel="noopener noreferrer">
-              <mat-icon class="icon" aria-hidden="true" svgIcon="file:download"></mat-icon>
+              <mat-icon class="icon-pdf" aria-hidden="true" svgIcon="file:download"></mat-icon>
             </a>
           </div>
         </div>
