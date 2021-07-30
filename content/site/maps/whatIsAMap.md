@@ -2,10 +2,13 @@
 carousel:
   - sm: carousel/image01.sm.jpg
     lg: carousel/image01.lg.jpg
+    title: I.6 Ph.D. Thesis Map
   - sm: carousel/image02.sm.jpg
     lg: carousel/image02.lg.jpg
+    title: IX.2 Hurricanes & Tropical Storms—Locations and Intensities since 1851
   - sm: carousel/image03.sm.jpg
     lg: carousel/image03.lg.jpg
+    title: X.1 Being a Map of Physics
 ---
 Science maps serve as visual interfaces to immense amounts of data, depicting myriad objects in ways that allow us to effectively discern apparent outliers, clusters, and trends. The _Places & Spaces: Mapping Science_ exhibit aims to introduce science mapping techniques to the general public and to experts across diverse disciplines for educational, scientific, and practical purposes. It is meant to inspire cross-disciplinary discussion on how to best track and communicate scholarly activity and scientific progress on a global scale.  
   

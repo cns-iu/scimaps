@@ -28,16 +28,16 @@ master_booklet: exhibit-master-booklet.pdf
 carousel:
   - sm: carousel/image1.med.jpg
     lg: carousel/image1.lg.jpg
-    title: Hello
+    title: Physical Exhibit
   - sm: carousel/image3.med.jpg
     lg: carousel/image3.lg.jpg
-    title: Hello 2
+    title: Maps-Only Physical Exhibit
   - sm: carousel/image4.med.jpg
     lg: carousel/image4.lg.jpg
-    title: Hello 3
+    title: Digital Exhibit
   - sm: carousel/image5.med.jpg
     lg: carousel/image5.lg.jpg
-    title: Hello 4
+    title: Poster Exhibit
 banner_text: |-
   To host the exhibit, contact
 

@@ -11,8 +11,7 @@ overviewParagraph: "Drawing from across cultures and across scholarly
   from 17 different countries"
 overviewQuote: >-
   *"This exhibit reveals the power that a good visualization has to convey
-  complex
-  information”*[](http://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964)
+  complex information.”*
 
 
   #### [*\-* Kristi Holmes, PhD](http://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964), director of the Galter Health Sciences Library and associate professor in [Preventive Medicine-Health and Biomedical Informatics](http://informatics.northwestern.edu/hbmi/)

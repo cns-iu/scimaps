@@ -2,10 +2,13 @@
 carousel:
   - sm: carousel/image01.med.jpg
     lg: carousel/image01.lg.jpg
+    title: XIII.4 Science Paths
   - sm: carousel/image02.med.jpg
     lg: carousel/image02.lg.jpg
+    title: XV.1 Refugee Flow
   - sm: carousel/image03.med.jpg
     lg: carousel/image03.lg.jpg
+    title: "XIV.2 Rhythm of Food\t"
 ---
 Between the years 2005 and 2014, the _Places & Spaces: Mapping Science_ exhibit worked towards the goal of bringing maps of science to the general public. Along the way, the exhibit showcased many of the best examples of data visualization from leading figures in the natural, physical, and social sciences, scientometrics, visual arts, science policy, and the humanities. The result of this effort has been two-fold: first, it has allowed audiences to share in the wonder of scientific thought made visible; second, it has sparked a Cambrian explosion of mapmaking innovation, as individuals from around the world have been inspired to create maps that analyze and explain the issues most vital to them.  
   
