@@ -1,9 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Venue } from '../../../pages/venues/venues-resolver.service';
 import { getVenues } from '../../../pages/venues/venues-resolver.service.spec';
-
 import { GalleryItemComponent } from './gallery-item.component';
 import { GalleryItemModule } from './gallery-item.module';
+
 
 
 describe('GalleryItemComponent', () => {
