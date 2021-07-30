@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MatIconTestingModule } from '@angular/material/icon/testing';
 import { NgxsModule } from '@ngxs/store';
 import { Venue } from '../../../pages/venues/venues-resolver.service';
 
@@ -32,7 +33,7 @@ describe('VenueItemComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ VenueItemComponent ],
-      imports: [VenueItemModule, NgxsModule.forRoot([])]
+      imports: [VenueItemModule, NgxsModule.forRoot([]), MatIconTestingModule]
     })
     .compileComponents();
   });

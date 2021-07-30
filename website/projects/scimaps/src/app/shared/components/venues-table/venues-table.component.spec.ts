@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MatIconTestingModule } from '@angular/material/icon/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxsModule } from '@ngxs/store';
 
@@ -11,7 +12,7 @@ describe('VenuesTableComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [VenuesTableModule, BrowserAnimationsModule, NgxsModule.forRoot([])]
+      imports: [VenuesTableModule, BrowserAnimationsModule, NgxsModule.forRoot([]), MatIconTestingModule]
     })
     .compileComponents();
   });
