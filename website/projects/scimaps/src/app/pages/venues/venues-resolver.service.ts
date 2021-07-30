@@ -28,8 +28,8 @@ export class VenuesResolverService implements Resolve<Venue[]> {
 
   // Used to get full path of resources.
   updatePaths(venue: Venue): Venue {
-    const fullDate = new Date(venue.dateStart);
-    const year = fullDate.getFullYear();
+    const fullDate = new Date(new Date(venue.dateStart).toUTCString());
+    const year = fullDate.getUTCFullYear();
     const date = ('0' + fullDate.getUTCDate()).slice(-2);
     const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
     const slug = toSlug(venue.title);

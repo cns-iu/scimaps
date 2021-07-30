@@ -17,8 +17,8 @@ export class NewsResolverService {
 
   // Used to get full path of resources.
   getSourceLink(newsItem: NewsItem, type: string = 'image'): string {
-    const fullDate = new Date(newsItem.date);
-    const year = fullDate.getFullYear();
+    const fullDate = new Date(new Date(newsItem.date).toUTCString());
+    const year = fullDate.getUTCFullYear();
     const date = ('0' + (fullDate.getUTCDate())).slice(-2);
     const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
     const slug = toSlug(newsItem.title);
