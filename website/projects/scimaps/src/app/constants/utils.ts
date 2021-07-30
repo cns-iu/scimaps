@@ -13,3 +13,12 @@ export const isExternal = (url: string): boolean => {
     return false;
   }
 };
+
+
+export const getSegmentedDate = (dateString: string) => {
+    const fullDate = new Date(new Date(dateString).toUTCString());
+    const year = fullDate.getUTCFullYear();
+    const date = ('0' + fullDate.getUTCDate()).slice(-2);
+    const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
+    return [year, month, date];
+};

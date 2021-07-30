@@ -1,5 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { of } from 'rxjs';
+import { getSegmentedDate } from '../../constants/utils';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 
 import { Venue, VenuesResolverService } from './venues-resolver.service';
@@ -58,10 +59,7 @@ describe('VenuesResolverService', () => {
     const venue = getVenues(1)[0];
     const newVenue = service.updatePaths(JSON.parse(JSON.stringify(venue)));
 
-    const fullDate = new Date(new Date(venue.dateStart).toUTCString());
-    const year = fullDate.getUTCFullYear();
-    const date = ('0' + fullDate.getUTCDate()).slice(-2);
-    const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
+    const [year, month, date] = getSegmentedDate(venue.dateStart);
     const slug = toSlug(venue.title);
 
     expect(newVenue.pdfLink).toEqual(`${service.directory}/${year}/${month}-${date}/${slug}/${venue.pdfLink}`);
