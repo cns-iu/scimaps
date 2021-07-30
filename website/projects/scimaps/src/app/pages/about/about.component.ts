@@ -33,6 +33,10 @@ export class AboutComponent implements OnInit {
       label: 'Source',
       key: 'publication',
     },
+    {
+      label: 'Date',
+      key: 'date'
+    }
   ];
 
   dataSource: MatTableDataSource<NewsItem> = new MatTableDataSource();
