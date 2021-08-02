@@ -22,7 +22,7 @@ overview: >-
   * Television or monitor to play the exhibit video
 
 
-  **Screening of [Humanexus](./learning-material/humanexus) short film**
+  **Screening of [Humanexus](/learning-material/humanexus) short film**
 install_guide: exhibit-install-guide.pdf
 master_booklet: exhibit-master-booklet.pdf
 carousel:

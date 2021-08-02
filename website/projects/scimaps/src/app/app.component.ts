@@ -5,7 +5,7 @@ import { Select, Store } from '@ngxs/store';
 import { Observable, of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
 import { drawerInOut, slideWithTransform } from './constants/drawer.animations';
-import { isExternal } from './constants/utils';
+import { isAssetURL, isExternalURL } from './constants/utils';
 import { SetAppState } from './core/actions/app.actions';
 import { PageState } from './core/state/page/page.state';
 
@@ -45,7 +45,11 @@ export class AppComponent implements OnDestroy, AfterViewInit {
       if (href) {
         e.preventDefault();
         e.stopPropagation();
-        window.open(href, '_blank');
+        if (isExternalURL(href) || isAssetURL(href)) {
+          window.open(href, '_blank');
+        } else {
+          this.router.navigate([href]);
+        }
       }
     }
   }

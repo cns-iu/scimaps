@@ -1,6 +1,6 @@
 ---
-title: Sculptures of Science
 order: 4
+title: Sculptures of Science
 image:
   sm: image.sm.jpg
   lg: image.lg.jpg
@@ -12,5 +12,3 @@ The sculpture embodies the idea that science, like mushrooms, can grow in many d
 Pathways tunnel through the sculpture so visitors can trace the evolution of scientific ideas back to their origins using marbles. Simply place a marble at the contemporary, top level and observe areas of science it travels through before it reaches the bottom. Since many sciences draw on more than one area of research, different runs will result in alternative marble trajectories. Some intellectual journeys are gentle, steady paths while others make for wild rides.\
 \
 The sculpture was displayed as part of \[RE]imagining Science, an exhibit at the Grunwald Gallery of Art at Indiana University that featured a number of artist/scientist collaborations. 
-
-[Hear Carrie speak about her process »](http://scimaps.org/carrie-longley-interview.html)
