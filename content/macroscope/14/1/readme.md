@@ -41,5 +41,5 @@ en:
     sm: image.sm.png
     med: image.med.png
     lg: image.lg.png
-  externalLink: 'http://www.scimaps.org/'
+  externalLink: 'http://tweetoscope.iscpif.fr/'
 ---

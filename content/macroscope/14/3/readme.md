@@ -50,5 +50,5 @@ en:
     sm: image.sm.png
     med: image.med.png
     lg: image.lg.png
-  externalLink: 'https://www.scimaps.org/'
+  externalLink: 'http://overdosemappingtool.norc.org/'
 ---
