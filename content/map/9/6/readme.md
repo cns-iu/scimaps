@@ -38,7 +38,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-09-06/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/visualizing_trends_a_155/detail'
 es:
   title: 'Visualizando tendencias y dinámicas: 30 años de desarrollo científico'
   body: >-

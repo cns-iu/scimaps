@@ -45,7 +45,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-05-09/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/us_vulnerabilities_i_86/detail'
 es:
   title: Vulnerabilidades en la ciencia en los EE.UU.
   body: >-

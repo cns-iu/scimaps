@@ -38,7 +38,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-10-06/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/the_linguistic_conte_177/detail'
 es:
   title: El contexto lingüístico de las citas
   body: >-

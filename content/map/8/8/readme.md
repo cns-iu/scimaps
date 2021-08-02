@@ -54,7 +54,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-08-08/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/the_fundamental_inte_145/detail'
 es:
   title: La interconexión fundamental de todas las cosas
   body: >-

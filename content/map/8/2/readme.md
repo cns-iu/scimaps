@@ -33,7 +33,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-08-02/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/movie_narrative_char_149/detail'
 es:
   title: 'Gráficos de narrativas fílmicas (Cómic #657)'
   body: >-

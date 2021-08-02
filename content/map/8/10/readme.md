@@ -36,7 +36,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-08-10/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/khan_academy_library_147/detail'
 es:
   title: Panorama de la biblioteca de la Academia Khan
   body: >-

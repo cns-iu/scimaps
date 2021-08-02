@@ -40,7 +40,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-03-09/
-  externalLink: 'http://www.mapofscience.com/'
+  externalLink: 'hhttps://scimaps.org/maps/map/maps_of_science_fore_50/detail'
 es:
   title: 'Mapas de la ciencia: pronosticando grandes tendencias en la ciencia'
   body: >-

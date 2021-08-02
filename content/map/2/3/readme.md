@@ -41,7 +41,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-02-03/
-  externalLink: 'http://www.davidrumsey.com/'
+  externalLink: 'https://scimaps.org/maps/map/cartographica_extrao_37/detail'
 es:
   title: 'Cartographica Extraordinaire: el mapa histórico transformado'
   body: >-

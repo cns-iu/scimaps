@@ -48,7 +48,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-05-08/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/a_clickstream_map_of_83/detail'
 es:
   title: ' Un mapa científico de la navigación por internet (datos clickstream)'
   body: >-

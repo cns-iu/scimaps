@@ -46,7 +46,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-07-06/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/stream_of_scientific_128/detail'
 es:
   title: La corriente de colaboraciones científicas entre ciudades del mundo
   body: >-

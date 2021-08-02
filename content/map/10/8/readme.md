@@ -47,7 +47,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-10-08/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/mapping_graphene_sci_179/detail'
 es:
   title: >-
     Cartografía de la ciencia y desarrollo del grafeno: Investigación enfocada a

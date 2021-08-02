@@ -46,7 +46,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-06-10/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/us_job_market_where__122/detail'
 es:
   title: 'Mercado de trabajo en EE.UU.: ¿Dónde están los puestos académicos?'
   body: >-

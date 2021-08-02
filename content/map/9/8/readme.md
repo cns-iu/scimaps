@@ -52,7 +52,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-09-08/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/who_really_matters_i_157/detail'
 es:
   title: >-
     Quién es verdaderamente importante en el mundo—Redes de liderazgo en las

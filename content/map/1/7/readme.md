@@ -39,7 +39,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-01-07/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/timeline_of_60_years_58/detail'
 es:
   title: ' Línea de tiempo de 60 años de literatura de investigación sobre el ántrax'
   body: >-

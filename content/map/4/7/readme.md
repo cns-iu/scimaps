@@ -50,7 +50,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-04-07/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/the_product_space_5/detail'
 es:
   title: El espacio de los productos
   body: >-

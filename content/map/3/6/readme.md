@@ -51,7 +51,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-03-06/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/113_years_of_physica_60/detail'
 es:
   title: 113 años de reseñas de Física
   body: >-

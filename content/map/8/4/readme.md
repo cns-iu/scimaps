@@ -45,7 +45,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-08-04/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/left_vs_right_politi_141/detail'
 es:
   title: Espectro político de izquierdas frente a espectro político de derechas
   body: >-

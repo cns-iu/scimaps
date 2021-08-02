@@ -43,7 +43,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-01-01/
-  externalLink: 'http://www.newberry.org/'
+  externalLink: 'https://scimaps.org/maps/map/cosmographia_world_m_95/detail'
 es:
   title: Mapa del mundo Cosmographia
   body: >-

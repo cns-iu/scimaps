@@ -40,7 +40,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-01-06/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/phd_thesis_map_94/detail'
 es:
   title: Mapa de tesis de doctorado
   body: >-

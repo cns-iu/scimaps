@@ -37,7 +37,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-10-02/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/map_of_the_internet_172/detail'
 es:
   title: Mapa de Internet
   body: >-

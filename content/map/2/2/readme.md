@@ -39,7 +39,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-02-02/
-  externalLink: 'http://www.rsc.org/periodic-table'
+  externalLink: 'https://scimaps.org/maps/map/visual_elements_peri_77/detail'
 es:
   title: Tabla periódica visual de los elementos
   body: >-
