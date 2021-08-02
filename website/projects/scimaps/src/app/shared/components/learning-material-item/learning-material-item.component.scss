@@ -3,13 +3,17 @@ $tablet: 960px;
 $desktop: 1248px;
 
 :host {
-  @media (min-width: $mobile) {
-    width: 33%;
-  }
-  @media (min-width: $tablet) {
+  
+  @media screen and (min-width: $desktop) {
     width: 25%;
   }
-  @media (max-width: $mobile) {
+  @media screen and  (min-width: $tablet) {
+    width: 33%;
+  }
+  @media screen and (min-width: $mobile) and (max-width: $tablet) {
+    width: 50%;
+  }
+  @media screen and (max-width: $mobile) {
     width: 100%;
   }
   .lm-item-desktop {
