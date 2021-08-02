@@ -1,3 +1,7 @@
+$mobile: 640px;
+$tablet: 960px;
+$desktop: 1248px;
+
 :host {
   .gallery-item {
     width: 100%;
@@ -34,7 +38,18 @@
         margin-bottom: 1rem;
         margin-right: 1rem;
         cursor: pointer;
-        max-width: 22%;
+        @media screen and (min-width: $desktop) {
+          width: 22%;
+        }
+        @media screen and  (min-width: $tablet) {
+          width: 30%;
+        }
+        @media screen and (min-width: $mobile) and (max-width: $tablet) {
+          width: 45%;
+        }
+        @media screen and (max-width: $mobile) {
+          width: 95%;
+        }
         overflow: hidden;
       }
     }
