@@ -45,11 +45,7 @@ export class AppComponent implements OnDestroy, AfterViewInit {
       if (href) {
         e.preventDefault();
         e.stopPropagation();
-        if (isExternal(href)) {
-          window.open(href, '_blank');
-        } else {
-          this.router.navigate([href]);
-        }
+        window.open(href, '_blank');
       }
     }
   }
