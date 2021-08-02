@@ -30,9 +30,7 @@ $desktop: 1248px;
       }
       .row1 {
         flex: 1;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 2rem;
+        margin: 0px auto 2rem auto;
         overflow: hidden;
         img {
           max-width: 100%;
