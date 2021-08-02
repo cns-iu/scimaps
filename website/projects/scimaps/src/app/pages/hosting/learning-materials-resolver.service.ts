@@ -7,6 +7,7 @@ import { ContentService, toSlug } from '../../shared/services/content.service';
 
 export interface LearningMaterial {
   title: string;
+  order: number;
   body: string;
   image: {
     sm: string;
@@ -41,6 +42,9 @@ export class LearningMaterialsResolverService
       .getIndex<LearningMaterial>('learning-materials')
       .pipe(
         take(1),
+        map((response: LearningMaterial[]) => {
+          return response.sort((a, b) => a.order - b.order);
+        }), 
         map((response: LearningMaterial[]) => {
           return response.map((lm: LearningMaterial) => {
             lm.slug = toSlug(lm.title);
