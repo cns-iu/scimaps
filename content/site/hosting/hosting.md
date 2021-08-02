@@ -49,7 +49,7 @@ tabs:
     content: >-
       
 
-      ### Contains:
+      #### Contains:
 
 
       * Full set of 100 individually printed maps at 30 x 24 in. (61 x 76 cm) each
@@ -62,12 +62,12 @@ tabs:
 
       * 1 customized introductory panel
 
-      * Interactive elements, including the award-winning [Humanexus](http://scimaps.org/bonus_materials.html) short film
+      * Interactive elements, including the award-winning [Humanexus](/learning-material/humanexus) short film
 
       * 3 WorldProcessor globes
 
 
-      ### Setup Requirements:
+      #### Setup Requirements:
 
 
       * 520 ft. (158 m) of wall space
@@ -76,7 +76,7 @@ tabs:
     image: tabs/image.lg.jpg
   - header: Maps-Only Physical Exhibit
     content: >-
-      ### Contains:
+      #### Contains:
 
 
       * Your choice of any of 100 individually printed maps at 30 x 24 in. (61 x 76 cm) each
@@ -86,7 +86,7 @@ tabs:
       * High-resolution, full-color maps printed on premium Dibond (aluminum composite sheet) with a french cleat backing for easy installation
 
 
-      ### Setup Requirements:
+      #### Setup Requirements:
 
 
       * Local host hangs maps
@@ -94,10 +94,10 @@ tabs:
       * Amount of wall space needed varies based on the number of maps selected
 
 
-      ### Total Cost:
+      #### Total Cost:
 
 
-      # $250*
+      $250*
 
 
       per map
@@ -106,7 +106,7 @@ tabs:
       \*Plus shipping. Unmounted prints also available at a reduced cost.
     image: tabs/image02.lg.jpg
   - content: >-
-      ### Contains:
+      #### Contains:
 
 
       * 20 posters, each 60-70 in. x 36 in. (152-178 cm x 91 cm) (2 posters per iteration)
@@ -116,7 +116,7 @@ tabs:
 
 
 
-      ### Setup Requirements:
+      #### Setup Requirements:
 
 
       * Up to 108 running ft. (33 m) of wall, window, or display board space, depending on how many iterations shown.
@@ -126,16 +126,16 @@ tabs:
       * Local host hangs posters
 
 
-      ### Total Cost:
+      #### Total Cost:
 
 
-      # $150*
+      $150*
 
 
       per iteration (2 posters)
 
 
-      # $950*
+      $950*
 
 
       for the full set of 20 posters
@@ -146,17 +146,15 @@ tabs:
     image: tabs/image03.lg.jpg
   - header: Digital Exhibit
     content: >-
-      ### Contains:
+      #### Contains:
 
 
-      * Standard PowerPoint slideshow of 100 maps without descriptions (titles only)
-
-      * or
+      * Standard PowerPoint slideshow of 100 maps without descriptions (titles only) or
 
       * Slideshow of 100 maps customized to fit your space
 
 
-      ### Setup Requirements:
+      #### Setup Requirements:
 
 
       * High-resolution media wall or high-quality projector and minimum 10 x 8 ft. (2.4 x 3 m) of light-colored wall space
@@ -166,16 +164,17 @@ tabs:
       * Optional interactivity (i.e., searching/selecting via iPad interface) has been implemented by some exhibit hosts.
 
 
-      ### Total Cost:
+      #### Total Cost:
 
 
-      # $500
+      $500
 
 
-      for standard PowerPoint slideshow
+      for standard PowerPoint slideshow of 100 maps without descriptions (titles only), or
 
 
-      # $2,000+*
+
+      $2,000+*
 
 
       for customized slideshow
