@@ -9,15 +9,23 @@ $desktop: 1248px;
       flex-direction: row;
       align-items: center;
       margin-bottom: 1.5rem;
+      color: #7996a3;
+      
       .back-button {
         display: flex;
         align-items: center;
+        justify-self: flex-start;
         cursor: pointer;
-        color: #7996a3;
         .back-icon {
           margin-left: -0.5rem;
           margin-right: 1rem;
         }
+      }
+
+      .title {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
       }
     }
 

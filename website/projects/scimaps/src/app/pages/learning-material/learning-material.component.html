@@ -1,8 +1,13 @@
 <div class="container">
     <div class="header">
-        <div class="back-button">
+        <div [routerLink]="['/', 'hosting']" fragment="{{item?.slug}}" [state]="{direction: 'backward'}" class="back-button">
             <mat-icon class="back-icon">chevron_left</mat-icon>
-            <div [routerLink]="['/', 'hosting']" fragment="{{item?.slug}}" [state]="{direction: 'backward'}">BACK</div>
+            <div>BACK</div>
+        </div>
+        <div class="title">
+            <div>
+                Learning Materials
+            </div>
         </div>
     </div>
 
