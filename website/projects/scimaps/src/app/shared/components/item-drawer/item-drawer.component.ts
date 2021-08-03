@@ -53,7 +53,7 @@ export class ItemDrawerComponent {
   close(): void {
     const snapshot = this.activatedRoute.snapshot;
     const { iteration } = snapshot.params || '';
-    this.router.navigate(['/', this.type + 's'], {fragment: `${this.type}-${iteration}`, state: { direction: 'backward'}});
+    this.router.navigate(['/', this.type + 's']);
   }
 
   /**
