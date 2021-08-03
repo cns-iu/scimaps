@@ -45,18 +45,18 @@
                 {{tab}}
                 <mat-icon class="mobile-icon">chevron_right</mat-icon>
             </div>
-            <sci-drawer [@drawerInOut]="showDrawer ? 'show' : 'hide'" *ngIf="showDrawer" class="tab-drawer">
-                <div drawer>
-                    <div>
-                        <div class="drawer-header">
-                            <mat-icon class="mobile-icon" (click)="showDrawer = false;">chevron_left</mat-icon>
-                            <div class="mobile-title">
-                               <h3>{{tabHeaders[activePageTab]}} </h3> 
-                            </div>
+
+            <!-- drawer -->
+            <sci-drawer [@drawerInOut]="showDrawer ? 'show' : 'hide'" *ngIf="showDrawer" class="sci-drawer">
+                <div class="drawer-container" drawer>
+                    <div class="drawer-header">
+                        <mat-icon class="mobile-icon" (click)="showDrawer = false;">chevron_left</mat-icon>
+                        <div class="mobile-title">
+                            <h3>{{tabHeaders[activePageTab]}} </h3> 
                         </div>
-                        <div>
-                            <div markdown [data]="tabContents[activePageTab]"></div>
-                        </div>
+                    </div>
+                    <div class="drawer-content">
+                        <div markdown [data]="tabContents[activePageTab]"></div>
                     </div>
                 </div>
             </sci-drawer>
