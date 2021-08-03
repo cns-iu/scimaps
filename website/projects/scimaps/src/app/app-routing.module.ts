@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, UrlSegment } from '@angular/router';
 
 import { BooksModule } from './pages/books/books.module';
 
@@ -10,22 +10,26 @@ const routes: Routes = [
   { path: 'about', loadChildren: () => import('./pages/about/about.module').then(m => m.AboutModule)},
   { path: 'books', loadChildren: () => BooksModule },
   {
-    path: 'maps',
+    matcher: (url: UrlSegment[]) => {
+      if (url.length >= 1 && (url[0].path === 'map' || url[0].path === 'maps')) {
+        return {
+          consumed: [url[0]]
+        }
+      }
+      return null;
+    },
     loadChildren: () => import('./pages/maps/maps.module').then(m => m.MapsModule),
     data: { animation: 'Maps'}
   },
   {
-    path: 'map',
-    loadChildren: () => import('./pages/map/map.module').then(m => m.MapModule),
-    data: { animation: 'Map', type: 'map'}
-  },
-  {
-    path: 'macroscope',
-    loadChildren: () => import('./pages/macroscope/macroscope.module').then(m => m.MacroscopeModule),
-    data: { animation: 'Macroscope', type: 'macroscope'}
-  },
-  {
-    path: 'macroscopes',
+    matcher: (url: UrlSegment[]) => {
+      if (url.length >= 1 && (url[0].path ===  'macroscope' || url[0].path === 'macroscopes')) {
+        return {
+          consumed: [url[0]]
+        }
+      }
+      return null;
+    },
     loadChildren: () => import('./pages/macroscopes/macroscopes.module').then(m => m.MacroscopesModule),
     data: { animation: 'Macroscopes'}
   },

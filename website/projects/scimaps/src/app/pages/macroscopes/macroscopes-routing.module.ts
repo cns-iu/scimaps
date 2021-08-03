@@ -12,7 +12,14 @@ const routes: Routes = [{
   resolve: {
     macroscopes: MacroscopesResolverService,
     body: MacroscopesBodyResolverService
-  }
+  },
+  children: [
+    {
+      path: '',
+      loadChildren: () => import('../macroscope/macroscope.module').then(m => m.MacroscopeModule),
+      data: { animation: 'Macroscope', type: 'macroscope'}
+    }
+  ]
 }];
 
 @NgModule({
