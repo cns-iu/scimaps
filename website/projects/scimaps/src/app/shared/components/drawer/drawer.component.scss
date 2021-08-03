@@ -16,10 +16,19 @@ $breakpoint: 768px;
     position: fixed;
     top: 72px;
     left: 0;
-    padding: 1rem;
+    padding: 0 1rem;
     z-index: 2;
     background-color: white;
     width: 100%;
     height: calc(100% - 72px);
     overflow-y: scroll;
+
+
+    .drawer-content {
+        width: 100%;
+        max-width: 80rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 3rem;
+    }
 }
