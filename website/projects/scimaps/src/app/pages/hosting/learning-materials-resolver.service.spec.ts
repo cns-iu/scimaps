@@ -15,7 +15,8 @@ export const getLearningMaterials = (n: number): LearningMaterial[] => {
         sm: `image.sm-${i}.jpg`,
         lg: `image.lg-${i}.jpg`
       },
-      slug: `title-${i}`
+      slug: `title-${i}`,
+      order: i
     });
   }
   return result;

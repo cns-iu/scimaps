@@ -26,7 +26,7 @@ export function getProfiles(numberOfProfiles: number, roles = ['maker']): Profil
 
 const testNewsItems = [{
   title: 'Title 3',
-  date: new Date(2005, 1, 1),
+  date: new Date(2005, 1, 1).toUTCString(),
   publication: 'C',
   institution: 'test institution',
   thumbnail: 'test thumb',
@@ -34,7 +34,7 @@ const testNewsItems = [{
 },
 {
   title: 'Title 7',
-  date: new Date(2006, 1, 1),
+  date: new Date(2006, 1, 1).toUTCString(),
   publication: 'G',
   institution: 'test institution',
   thumbnail: 'test thumb',

@@ -16,7 +16,8 @@ const getLearningMaterial = (n: number): LearningMaterial[] => {
           sm: 'small.jpg',
           lg: 'large.jpg'
         },
-        slug: 'learningmaterial'
+        slug: 'learningmaterial',
+        order: i
     });
   }
   return result;

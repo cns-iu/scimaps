@@ -6,7 +6,7 @@ import { NewsItemModule } from './news-item.module';
 
 const testItem: NewsItem = {
   title: 'test title',
-  date: new Date(2002, 1, 1),
+  date: "2002-01-01",
   publication: 'test publication',
   institution: 'test institution',
   thumbnail: 'test thumbnail',
