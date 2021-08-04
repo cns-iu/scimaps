@@ -33,21 +33,19 @@
   </div>
 
   <sci-drawer [@drawerInOut] *ngIf="showModal" class="drawer">
-    <div drawer>
-      <div>
-        <div class="drawer-header">
-          <mat-icon class="mobile-icon" (click)="showModal = false;">chevron_left</mat-icon>
-          <div class="mobile-title">
-            <h3> Maps </h3>
-          </div>
+    <div class="drawer-container" drawer>
+      <div class="drawer-header">
+        <mat-icon class="mobile-icon" (click)="showModal = false;">chevron_left</mat-icon>
+        <div class="mobile-title">
+          <h3> Maps </h3>
         </div>
-        <div class="drawer-content">
-          <sci-carousel class="maps-carousel">
-            <sci-carousel-item class="mobile-carousel-item" *ngFor="let discoverItem of discoverItems">
-              <sci-discover-listing [discoverItem]="discoverItem" [type]="'maps'"></sci-discover-listing>
-            </sci-carousel-item>
-          </sci-carousel>
-        </div>
+      </div>
+      <div class="drawer-content">
+        <sci-carousel class="maps-carousel">
+          <sci-carousel-item class="mobile-carousel-item" *ngFor="let discoverItem of discoverItems">
+            <sci-discover-listing [discoverItem]="discoverItem" [type]="'maps'"></sci-discover-listing>
+          </sci-carousel-item>
+        </sci-carousel>
       </div>
     </div>
   </sci-drawer>
