@@ -41,7 +41,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-01-05/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/1996_map_of_science__30/detail'
 es:
   title: >-
     Mapa de la Ciencia de 1996: Una Representación de Red de los 43 Grupos de

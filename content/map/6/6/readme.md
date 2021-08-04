@@ -42,7 +42,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-06-06/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/knowledge_cartograph_120/detail'
 es:
   title: Cartografía del conocimiento
   body: >-

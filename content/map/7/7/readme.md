@@ -44,7 +44,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-07-07/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/the_census_of_antiqu_129/detail'
 es:
   title: 'El censo de obras de arte y arquitectura antigua del Renacimiento, 1947-2005'
   body: >-

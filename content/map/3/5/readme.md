@@ -45,7 +45,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-03-05/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/_science__technology_75/detail'
 es:
   title: 'Perspectivas de ciencia y tecnología: 2005-2055'
   body: >-

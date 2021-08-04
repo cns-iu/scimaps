@@ -46,7 +46,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-04-10/
-  externalLink: 'http://nationalgeographic.com/earthpulse'
+  externalLink: 'https://scimaps.org/maps/map/a_global_projection__2/detail'
 es:
   title: Una proyección global del bienestar subjetivo
   body: >-

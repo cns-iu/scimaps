@@ -45,7 +45,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-07-05/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/design_vs_emergence__127/detail'
 es:
   title: 'Diseño vs. emergencia: Visualización de los órdenes del conocimiento'
   body: >-

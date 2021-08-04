@@ -38,7 +38,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-10-04/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/orbis_174/detail'
 es:
   title: ORBIS
   body: >-

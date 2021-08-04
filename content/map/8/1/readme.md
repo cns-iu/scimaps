@@ -53,7 +53,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-08-01/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/time_spiral_138/detail'
 es:
   title: 'Una espiral del tiempo geológico: camino hacia el pasado'
   body: >-

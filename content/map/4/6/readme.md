@@ -50,7 +50,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-04-06/
-  externalLink: 'http://www.worldmapper.org/'
+  externalLink: 'https://scimaps.org/maps/map/ecological_footprint_42/detail'
 es:
   title: La huella ecológica
   body: >-

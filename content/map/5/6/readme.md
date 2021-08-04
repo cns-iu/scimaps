@@ -50,7 +50,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-05-06/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/chemical_rd_powers_t_89/detail'
 es:
   title: I&D en la Química Impulsa el motor de la innovación en los EE.UU.
   body: >-

@@ -53,7 +53,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-04-01/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/europe_raw_cotton_im_3/detail'
 es:
   title: 'Importaciones de algodón crudo a Inglaterra en 1858, 1864 y 1865'
   body: >-

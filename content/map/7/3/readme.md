@@ -35,7 +35,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-07-03/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/visualizing_bible_cr_125/detail'
 es:
   title: Visualizando referencias cruzadas en la Biblia
   body: >-

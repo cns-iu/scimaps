@@ -50,7 +50,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-09-10/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/science_phylomemy_159/detail'
 es:
   title: Filomemia de la ciencia
   body: >-

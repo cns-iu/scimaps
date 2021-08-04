@@ -49,7 +49,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-09-04/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/pulse_of_the_nation_153/detail'
 es:
   title: El pulso de la nación
   body: >-

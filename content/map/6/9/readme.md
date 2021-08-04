@@ -37,7 +37,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-06-09/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/weaving_the_fabric_o_119/detail'
 es:
   title: Tejiendo la trama de la ciencia
   body: >-

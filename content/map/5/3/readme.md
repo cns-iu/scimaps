@@ -43,7 +43,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-05-03/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/realigning_the_bosto_88/detail'
 es:
   title: >-
     Realineando el esquema de separación del tráfico de Boston para reducir los

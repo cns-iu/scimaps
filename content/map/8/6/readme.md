@@ -65,7 +65,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-08-06/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/knowledge_web_143/detail'
 es:
   title: Web del Conocimiento
   body: >-

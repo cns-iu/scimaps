@@ -37,7 +37,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-07-04/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/finding_research_lit_126/detail'
 es:
   title: ' En busca de literatura de investigacón sobre el autismo'
   body: >-

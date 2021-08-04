@@ -37,7 +37,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-07-10/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/history_of_science_f_132/detail'
 es:
   title: La historia de la Ciencia Ficción
   body: >-

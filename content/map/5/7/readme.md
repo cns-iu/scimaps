@@ -59,7 +59,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-05-07/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/a_topic_map_of_nih_g_84/detail'
 es:
   title: Un mapa tópico de subvenciones NIH 2007
   body: >-

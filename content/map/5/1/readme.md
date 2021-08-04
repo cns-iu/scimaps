@@ -41,7 +41,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-05-01/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/science_and_society__91/detail'
 es:
   title: Ciencia y sociedad en equilibrio
   body: >-

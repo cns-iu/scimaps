@@ -50,7 +50,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-04-09/
-  externalLink: 'http://www.mapofscience.com/'
+  externalLink: 'https://scimaps.org/maps/map/the_scientific_roots_44/detail'
 es:
   title: Las raíces científicas de la tecnología
   body: >-

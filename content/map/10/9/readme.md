@@ -41,7 +41,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-10-09/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/exploring_the_relati_180/detail'
 es:
   title: Explorando las relaciones entre un mapa de altruismo y un mapa de ciencia
   body: >-

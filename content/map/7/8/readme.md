@@ -44,7 +44,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-07-08/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/seeing_standards_a_v_130/detail'
 es:
   title: ' Visualizando estándares: el universo de los metadatos, por Devin Becker y Jenn Riley'
   body: >-

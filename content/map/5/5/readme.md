@@ -38,7 +38,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-05-05/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/death_and_taxes_2009_85/detail'
 es:
   title: Muerte e impuestos 2009
   body: >-

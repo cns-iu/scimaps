@@ -42,7 +42,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-06-03/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/diseasome_114/detail'
 es:
   title: >-
     Red de morbidez o “enfermesoma”:  relaciones de conjunto de las enfermedades

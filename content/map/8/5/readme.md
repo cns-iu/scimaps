@@ -40,7 +40,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-08-05/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/gapminder_world_map_142/detail'
 es:
   title: Mapa del mundo de Gapminder
   body: >-

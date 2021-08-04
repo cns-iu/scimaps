@@ -38,7 +38,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-04-08/
-  externalLink: 'http://www.grouppartners.net/'
+  externalLink: 'https://scimaps.org/maps/map/4d_the_structured_vi_43/detail'
 es:
   title: >-
     4D™. El enfoque visual estructurado para la resolución de asuntos de
