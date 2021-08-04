@@ -46,12 +46,12 @@ import { SharedModule } from './shared/shared.module';
     GalleryItemModule,
     MakersSubdrawerModule
   ],
-  providers: [
-    {
-      provide: RouteReuseStrategy,
-      useClass: CustomRouteReuseStrategy
-    }
-  ],
+  // providers: [
+  //   {
+  //     provide: RouteReuseStrategy,
+  //     useClass: CustomRouteReuseStrategy
+  //   }
+  // ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
 })
