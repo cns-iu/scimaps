@@ -2,6 +2,8 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MarkdownModule } from 'ngx-markdown';
+import { SharedModule } from '../../shared.module';
+import { DrawerModule } from '../drawer/drawer.module';
 import { PurchaseModalModule } from '../purchase-modal/purchase-modal.module';
 import { ItemDrawerComponent } from './item-drawer.component';
 
@@ -10,7 +12,9 @@ import { ItemDrawerComponent } from './item-drawer.component';
     CommonModule,
     MatIconModule,
     PurchaseModalModule,
-    MarkdownModule
+    MarkdownModule,
+    SharedModule,
+    DrawerModule
   ],
   declarations: [ItemDrawerComponent],
   exports: [ItemDrawerComponent]
