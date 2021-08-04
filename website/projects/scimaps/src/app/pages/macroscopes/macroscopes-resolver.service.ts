@@ -16,7 +16,7 @@ export class MacroscopesResolverService implements Resolve<DiscoverItem[]> {
   constructor(private content: ContentService) { }
 
   resolve(): Observable<DiscoverItem[]> | Observable<never> {
-    if (!this.cached) { 
+    if (!this.cached) {
       this.result = this.content.getIndex<DiscoverItem>('app-macroscopes').pipe(take(1));
       this.cached = true;
     }

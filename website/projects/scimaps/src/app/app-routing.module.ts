@@ -14,7 +14,7 @@ const routes: Routes = [
       if (url.length >= 1 && (url[0].path === 'map' || url[0].path === 'maps')) {
         return {
           consumed: [url[0]]
-        }
+        };
       }
       return null;
     },
@@ -26,7 +26,7 @@ const routes: Routes = [
       if (url.length >= 1 && (url[0].path ===  'macroscope' || url[0].path === 'macroscopes')) {
         return {
           consumed: [url[0]]
-        }
+        };
       }
       return null;
     },

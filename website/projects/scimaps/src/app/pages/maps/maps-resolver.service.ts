@@ -20,8 +20,8 @@ export class MapsResolverService implements Resolve<DiscoverItem[]> {
    if (!this.cached) {
      this.result = this.content.getIndex<DiscoverItem>('app-maps').pipe(
       take(1)
-    )
-    this.cached = true;
+    );
+     this.cached = true;
    }
    return this.result;
   }

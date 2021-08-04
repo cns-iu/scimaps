@@ -44,7 +44,7 @@ export class LearningMaterialsResolverService
         take(1),
         map((response: LearningMaterial[]) => {
           return response.sort((a, b) => a.order - b.order);
-        }), 
+        }),
         map((response: LearningMaterial[]) => {
           return response.map((lm: LearningMaterial) => {
             lm.slug = toSlug(lm.title);
