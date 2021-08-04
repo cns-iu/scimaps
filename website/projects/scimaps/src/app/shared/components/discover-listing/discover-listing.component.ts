@@ -40,6 +40,6 @@ export class DiscoverListingComponent {
   }
 
   desktopThumbnailClickHandler(link: string): void {
-    this.router.navigate(['/', ...link.split('/')], {state: { direction: 'forward'}});
+    this.router.navigate(['/', ...link.split('/')]);
   }
 }

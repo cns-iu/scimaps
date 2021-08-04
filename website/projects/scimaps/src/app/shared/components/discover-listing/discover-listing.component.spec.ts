@@ -64,7 +64,7 @@ describe('DiscoverListingComponent', () => {
   it('should navigate when the desktop click handler is called', async () => {
     const { instance } = await shallow.render({ bind: { discoverItem, type }});
     instance.desktopThumbnailClickHandler('a/b/c');
-    expect(mockRouter.navigate).toHaveBeenCalledWith( [ '/', 'a', 'b', 'c' ], {state: { direction: 'forward'}} );
+    expect(mockRouter.navigate).toHaveBeenCalledWith( [ '/', 'a', 'b', 'c' ]);
   });
 
   it('should launch the modal when the mobile click handler is called', async () => {
