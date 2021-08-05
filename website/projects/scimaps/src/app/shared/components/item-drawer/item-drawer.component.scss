@@ -18,42 +18,19 @@ $breakpoint: 768px;
   }
 
   .details-container {
-    // max-width: 80rem;
-    // margin-left: auto;
-    // margin-right: auto;
-    // margin-top: 1rem;
-    // @media screen and (min-width: $tablet) {
-    //   margin-top: 3rem;
-    // }
+
     .header {
       display: flex;
-      width: 100%;
-      height: 2rem;
-      justify-content: space-between;
+      flex-direction: row;
+    }
+    .purchase-button {
+      height: 2.25rem;
+      padding: 0 1rem;
+      border-width: 0.125rem;
+      border-style: solid;
+      display: flex;
       align-items: center;
-      margin-bottom: 2rem;
-
-      .back-button {
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        color: #7996A3;
-
-        .back-icon {
-          margin-left: -0.5rem;
-          margin-right: 1rem;
-        }
-      }
-  
-      .purchase-button {
-        height: 2.25rem;
-        padding: 0 1rem;
-        border-width: 0.125rem;
-        border-style: solid;
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-      }
+      cursor: pointer;
     }
   
     .body {

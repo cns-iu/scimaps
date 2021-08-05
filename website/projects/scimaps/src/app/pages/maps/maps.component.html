@@ -34,12 +34,8 @@
 
   <sci-drawer [@drawerInOut] *ngIf="showModal" class="sci-drawer">
     <div class="drawer-container" drawer>
-      <div class="drawer-header">
-        <mat-icon class="mobile-icon" (click)="showModal = false;">chevron_left</mat-icon>
-        <div class="mobile-title">
-          <h3> Maps </h3>
-        </div>
-      </div>
+      <sci-drawer-header [title]="'Maps'" (backClick)="showModal = false">
+      </sci-drawer-header>
       <div class="drawer-content">
         <sci-carousel class="maps-carousel">
           <sci-carousel-item class="mobile-carousel-item" *ngFor="let discoverItem of discoverItems">
