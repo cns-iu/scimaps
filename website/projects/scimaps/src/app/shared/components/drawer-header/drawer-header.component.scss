@@ -1,6 +1,7 @@
 @import '../../../../styling/breakpoints';
 
 :host {
+  width: 100%;
   .drawer-header {
     display: flex;
     flex-direction: row;
