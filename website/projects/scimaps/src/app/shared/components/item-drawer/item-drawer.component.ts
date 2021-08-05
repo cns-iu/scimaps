@@ -88,4 +88,10 @@ export class ItemDrawerComponent implements OnInit {
       drawerPayload: item
     }}));
   }
+
+  redirect(link: string) {
+    if (link) {
+      window.open(link, '_blank');
+    }
+  }
 }

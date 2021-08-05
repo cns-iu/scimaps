@@ -117,29 +117,33 @@ $breakpoint: 768px;
         display: flex;
         flex-direction: column;
         width: 50%;
-        position: relative;
         @media (max-width: $breakpoint) {
           width: 100%;
         }
-        
-        .thumbnail {
-          object-fit: contain;
-          width: 100%;
-          cursor: pointer;
-          &:hover {
-            opacity: 70%;
-          }  
-        }
-
-        .icon {
-          position: absolute;
-          right: 0px;
-          height: 3rem;
-          width: 3rem;
-          justify-content: center;
-          align-items: center;
-          display: flex;
-          cursor: pointer;
+        .container {
+          position: relative;
+          &.clickable {
+            cursor: pointer;
+            .thumbnail {
+              &:hover {
+                opacity: 70%;
+              } 
+            }
+          }
+          .thumbnail {
+            object-fit: contain;
+            width: 100%;
+          }
+          .icon {
+            position: absolute;
+            right: 0px;
+            top: 0;
+            height: 3rem;
+            width: 3rem;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+          }
         }
       }
 
