@@ -13,6 +13,7 @@ const routes: Routes = [{
     maps: MapsResolverService,
     body: MapsBodyResolverService
   },
+  runGuardsAndResolvers: 'pathParamsOrQueryParamsChange',
   children: [
     {
       path: '',

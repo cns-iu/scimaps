@@ -13,6 +13,7 @@ const routes: Routes = [{
     macroscopes: MacroscopesResolverService,
     body: MacroscopesBodyResolverService
   },
+  runGuardsAndResolvers: 'pathParamsOrQueryParamsChange',
   children: [
     {
       path: '',
