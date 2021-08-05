@@ -88,35 +88,6 @@ $desktop: 1248px;
       }
     }
   }
-
-  .sci-drawer {
-    top: 71px;
-    .drawer-container {
-      .drawer-header {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-bottom: 1.5rem;
-        .mobile-icon {
-          color: #7997a3;
-          cursor: pointer;
-          margin-left: -0.5rem;
-        }
-        .mobile-title, .title {
-          color: #757575;
-          display: flex;
-          justify-content: space-around;
-          width: 100%;
-          margin-bottom: 0;
-          font-weight: bold;
-          h3 {
-            margin-bottom: 0 !important;
-          }
-        }
-      }
-    }
-  }
-  
   
 
 

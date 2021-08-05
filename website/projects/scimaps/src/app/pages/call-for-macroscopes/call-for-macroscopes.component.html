@@ -49,12 +49,8 @@
             <!-- drawer -->
             <sci-drawer [@drawerInOut]="showDrawer ? 'show' : 'hide'" *ngIf="showDrawer" class="sci-drawer">
                 <div class="drawer-container" drawer>
-                    <div class="drawer-header">
-                        <mat-icon class="mobile-icon" (click)="showDrawer = false;">chevron_left</mat-icon>
-                        <div class="mobile-title">
-                            <h3>{{tabHeaders[activePageTab]}} </h3> 
-                        </div>
-                    </div>
+                    <sci-drawer-header [title]="tabHeaders[activePageTab]" (backClick)="showDrawer = false">
+                    </sci-drawer-header>
                     <div class="drawer-content">
                         <div markdown [data]="tabContents[activePageTab]"></div>
                     </div>
