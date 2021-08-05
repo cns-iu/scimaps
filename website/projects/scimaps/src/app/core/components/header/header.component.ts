@@ -71,12 +71,14 @@ export class HeaderComponent implements OnInit, AfterViewInit {
     });
   }
 
-  exhibitEvents(e: Event, index: number) {
-    this.exhibitStream.next({ type: e.type, event: e, index });
+  mouseEvents(e: Event, index: number) {
+    if (index == 0) {
+      this.exhibitStream.next({ type: e.type, event: e, index });
+    } else {
+      this.contactStream.next({ type: e.type, event: e, index });
+    }
   }
-  contactEvents(e: Event, index: number) {
-    this.contactStream.next({ type: e.type, event: e, index });
-  }
+  
   ngAfterViewInit(): void {
     console.log(this.exhibitTrigger);
     console.log(this.contactTrigger);
