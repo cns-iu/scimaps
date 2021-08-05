@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import { LearningMaterial } from '../hosting/learning-materials-resolver.service';
 
 @Component({
@@ -10,7 +10,7 @@ import { LearningMaterial } from '../hosting/learning-materials-resolver.service
 export class LearningMaterialComponent implements OnInit {
 
   item!: LearningMaterial;
-  constructor(private route: ActivatedRoute) { }
+  constructor(private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.route.data.subscribe((response: Params) => {
@@ -19,5 +19,9 @@ export class LearningMaterialComponent implements OnInit {
         this.item = learningMaterial;
       }
     });
+  }
+
+  goBack() {
+    this.router.navigate(['/hosting']);
   }
 }

@@ -1,16 +1,6 @@
 <div class="container">
-    <div class="header">
-        <div [routerLink]="['/', 'hosting']" class="back-button">
-            <mat-icon class="back-icon">chevron_left</mat-icon>
-            <div>BACK</div>
-        </div>
-        <div class="title">
-            <div>
-                Learning Materials
-            </div>
-        </div>
-    </div>
-
+    <sci-drawer-header [title]="'Learning Material'" (backClick)="goBack()">
+    </sci-drawer-header>
     <div class="content">
         <div class="row1">
             <img [src]="item?.image?.lg" alt="" />

@@ -5,6 +5,7 @@ import { LearningMaterialRoutingModule } from './learning-material-routing.modul
 import { LearningMaterialComponent } from './learning-material.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MarkdownModule } from 'ngx-markdown';
+import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MarkdownModule } from 'ngx-markdown';
     CommonModule,
     LearningMaterialRoutingModule,
     MatIconModule,
-    MarkdownModule
+    MarkdownModule,
+    DrawerHeaderModule
   ]
 })
 export class LearningMaterialModule { }
