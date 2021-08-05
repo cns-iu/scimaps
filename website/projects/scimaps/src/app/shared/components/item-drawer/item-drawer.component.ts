@@ -39,7 +39,7 @@ export class ItemDrawerComponent implements OnInit {
    * Currently selected language
    */
   selectedLanguage = 'en';
-  showDrawer = true;
+  showDrawer = false;
 
   constructor(private activatedRoute: ActivatedRoute, private readonly dialog: MatDialog, private router: Router, private store: Store) { }
   ngOnInit(): void {
@@ -60,7 +60,7 @@ export class ItemDrawerComponent implements OnInit {
     this.showDrawer = false;
     setTimeout(() => {
       this.router.navigate(['/', this.type + 's']);
-    }, 300);
+    }, 500);
   }
 
   /**
