@@ -21,11 +21,11 @@ $desktop: 1248px;
     .content {
       padding: 0 1rem;
       margin-bottom: 7.5rem;
+      margin-top: 1rem;
       @media (min-width: $desktop) {
         max-width: 80rem;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 3rem;
       }
       &.home-module {
         max-width: 100%;

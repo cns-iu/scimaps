@@ -19,8 +19,8 @@ $breakpoint: 768px;
         margin-right: auto;
         margin-left: auto;
         margin-top: 1rem;
-        @media screen and (min-width: $tablet) {
-            margin-top: 3rem;
+        @media screen and (min-width: $desktop) {
+            margin-top: 1rem;
         }
     }
 }
