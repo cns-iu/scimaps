@@ -19,12 +19,13 @@
     </button>
   
     <div mat-button class="nav-item exhibit mat-display-3"
-      (mouseenter)="exhibitTrigger.openMenu();contactTrigger.closeMenu();"
+      (mouseenter)="mouseTrigger($event, 0)"
+      (mouseleave)="mouseTrigger($event, 0)"
       [ngClass]="{'active': (exhibitTrigger.menuClosed | async) || exhibitTrigger.menuOpen || maps.isActive || macroscopes.isActive || books.isActive || cfm.isActive || venues.isActive || hosting.isActive }" [matMenuTriggerFor]="exhibit"
       #exhibitTrigger="matMenuTrigger">EXHIBIT
       <mat-icon>expand_more</mat-icon>
       <mat-menu class="sci-header-menu" #exhibit="matMenu" [hasBackdrop]="false" xPosition="before">
-        <div (mouseleave)="exhibitTrigger.closeMenu()">
+        <div (mouseenter)="mouseTrigger($event, 0)" (mouseleave)="mouseTrigger($event, 0)">
           <button mat-button class="mat-display-3" routerLink="/maps" routerLinkActive="active" #maps="routerLinkActive">MAPS</button>
           <button mat-button class="mat-display-3" routerLink="/macroscopes" routerLinkActive="active" #macroscopes="routerLinkActive">MACROSCOPES</button>
           <button mat-button class="mat-display-3" routerLink="/books" routerLinkActive="active" #books="routerLinkActive">BOOKS</button>
@@ -50,12 +51,12 @@
     </mat-menu>
   
     <div mat-button class="nav-item contact mat-display-3"
-    (mouseenter)="contactTrigger.openMenu();exhibitTrigger.closeMenu();"
+    (mouseenter)="mouseTrigger($event, 1)" (mouseleave)="mouseTrigger($event, 1)"
     [class.active]="(contactTrigger.menuClosed | async) || contactTrigger.menuOpen" [matMenuTriggerFor]="contact"
     #contactTrigger="matMenuTrigger">
       CONTACT US
       <mat-menu class="sci-header-menu no-padding" #contact="matMenu" [hasBackdrop]="false">
-        <div (mouseleave)="contactTrigger.closeMenu()">
+        <div (mouseenter)="mouseTrigger($event, 1)" (mouseleave)="mouseTrigger($event, 1)">
           <sci-contact class="contact"></sci-contact>
         </div>
       </mat-menu>
