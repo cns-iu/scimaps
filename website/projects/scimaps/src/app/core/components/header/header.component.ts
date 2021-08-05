@@ -31,42 +31,51 @@ export class HeaderComponent implements OnInit, AfterViewInit {
   @Output() sidenavOpenChange = new EventEmitter<boolean>();
   @ViewChild('exhibitTrigger') exhibitTrigger!: MatMenuTrigger;
   @ViewChild('contactTrigger') contactTrigger!: MatMenuTrigger;
-  stream: Subject<Params> = new Subject<Params>();
-
+  exhibitStream: Subject<Params> = new Subject<Params>();
+  contactStream: Subject<Params> = new Subject<Params>();
   @Select(PageState.drawer) drawer$!: Observable<Params>;
 
   ngOnInit() {
-    this.stream.pipe(
+    this.exhibitStream.pipe(
       debounceTime(100),
       distinctUntilChanged(),
       switchMap((payload: Params) => {
         return of(payload);
       })
     ).subscribe((payload) => {
-      if (payload.index === 0) {
-        if (payload.type === 'mouseenter') {
-          if (this.contactTrigger.menuOpen) {
-            this.contactTrigger.closeMenu();
-          }
-          this.exhibitTrigger.openMenu();
-        } else {
-          this.exhibitTrigger?.closeMenu();
-        }
-      } else if (payload.index === 1) {
-        if (payload.type === 'mouseenter') {
-          if (this.exhibitTrigger.menuOpen) {
-            this.exhibitTrigger.closeMenu();
-          }
-          this.contactTrigger.openMenu();
-        } else {
+      if (payload.type === 'mouseenter') {
+        if (this.contactTrigger.menuOpen) {
           this.contactTrigger.closeMenu();
         }
+        this.exhibitTrigger.openMenu();
+      } else {
+        this.exhibitTrigger?.closeMenu();
+      }
+    });
+
+    this.contactStream.pipe(
+      debounceTime(100),
+      distinctUntilChanged(),
+      switchMap((payload: Params) => {
+        return of(payload);
+      })
+    ).subscribe((payload) => {
+      if (payload.type === 'mouseenter') {
+        if (this.exhibitTrigger.menuOpen) {
+          this.exhibitTrigger.closeMenu();
+        }
+        this.contactTrigger.openMenu();
+      } else {
+        this.contactTrigger.closeMenu();
       }
     });
   }
 
-  mouseTrigger(e: Event, index: number) {
-    this.stream.next({type: e.type, event: e, index});
+  exhibitEvents(e: Event, index: number) {
+    this.exhibitStream.next({ type: e.type, event: e, index });
+  }
+  contactEvents(e: Event, index: number) {
+    this.contactStream.next({ type: e.type, event: e, index });
   }
   ngAfterViewInit(): void {
     console.log(this.exhibitTrigger);
