@@ -1,9 +1,9 @@
 import { Component, ElementRef, EventEmitter, HostBinding, Input, OnDestroy, OnInit, Output, ViewChild } from '@angular/core';
 import { AbstractControl, FormBuilder, FormGroup } from '@angular/forms';
 import { AnimationEvent } from '@angular/animations';
-import { isSearchOpenTrigger } from '../../../constants/drawer.animations';
 import { of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
+import { isSearchOpenTrigger } from '../../../constants/search-overlay.animation';
 
 @Component({
   selector: 'sci-search-overlay',

@@ -1,14 +1,12 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { ActivatedRoute } from '@angular/router';
-import { isSearchOpenTrigger } from '../../constants/drawer.animations';
 import { VenuesBody } from './venues-body-resolver.service';
 import { Venue } from './venues-resolver.service';
 @Component({
   selector: 'sci-venues',
   templateUrl: './venues.component.html',
-  styleUrls: ['./venues.component.scss'],
-  animations: [isSearchOpenTrigger],
+  styleUrls: ['./venues.component.scss']
 })
 export class VenuesComponent implements OnInit {
   /** HTML class name */
