@@ -222,57 +222,67 @@ export const slideWithTransform = trigger('routeAnimations', [
       })
     ),
     query(
-      ':enter, :leave',
+      ':enter',
       style({
-        position: 'absolute',
-        'max-width': '80%',
-        top: 0,
-        left: 0,
+        position: 'fixed',
+        top: '72px',
+        padding: '0 1rem',
+        'margin-top': '1rem',
+        'max-width': '80rem',
+        background: 'white',
+        'z-index': 2,
+        'width': '100%',
+        'overflow-y': 'scroll'
       })
     ),
     group([
-      query(':leave', [
-        animate(
-          '0.3s cubic-bezier(.35,0,.25,1)',
-          style({ transform: 'translateX(-100%)' })
-        ),
-      ]),
+      // query(':leave', [
+      //   animate(
+      //     '3.3s cubic-bezier(.35,0,.25,1)',
+      //     style({ transform: 'translateX(-100%)' })
+      //   ),
+      // ]),
       query(
         ':enter',
         animate(
-          '0.3s cubic-bezier(.35,0,.25,1)',
-          style({ transform: 'translateX(10%)' })
+          '0.5s cubic-bezier(.35,0,.25,1)',
+          style({ transform: 'translateX(0%)' })
         )
       ),
     ]),
   ]),
   transition(`${backward}`, [
     style({ height: '!', width: '!' }),
-    query(':enter', style({ transform: 'translateX(-100%)' })),
+    // query(':enter', style({ transform: 'translateX(-100%)' })),
     query(
-      ':enter, :leave',
+      ':leave',
       style({
-        position: 'absolute',
-        'max-width': '80%',
-        top: 0, left: 0, right: 0
+        position: 'fixed',
+        top: '72px',
+        'margin-top': '1rem',
+        background: 'white',
+        padding: '0 1rem',
+        'width': '100%',
+        'overflow-y': 'scroll',
+        'z-index': 2
       })
     ),
     // animate the leave page away
     group([
       query(':leave', [
         animate(
-          '0.3s cubic-bezier(.35,0,.25,1)',
+          '0.5s cubic-bezier(.35,0,.25,1)',
           style({ transform: 'translateX(100%)' })
         ),
       ]),
       // and now reveal the enter
-      query(
-        ':enter',
-        animate(
-          '0.3s cubic-bezier(.35,0,.25,1)',
-          style({ transform: 'translateX(0)' })
-        )
-      ),
+      // query(
+      //   ':enter',
+      //   animate(
+      //     '0.3s cubic-bezier(.35,0,.25,1)',
+      //     style({ transform: 'translateX(0)' })
+      //   )
+      // ),
     ]),
   ]),
 ]);
