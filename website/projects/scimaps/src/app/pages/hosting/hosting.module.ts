@@ -12,6 +12,7 @@ import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 import { TabHeaderModule } from '../../shared/components/tab-header/tab-header.module';
 import { MatCardModule } from '@angular/material/card';
 import { LearningMaterialsListModule } from '../../shared/components/learning-material-list/learning-materials-list.module';
+import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { LearningMaterialsListModule } from '../../shared/components/learning-ma
     TabHeaderModule,
     MatCardModule,
     SharedModule,
-    LearningMaterialsListModule
+    LearningMaterialsListModule,
+    DrawerHeaderModule
   ]
 })
 export class HostingModule { }

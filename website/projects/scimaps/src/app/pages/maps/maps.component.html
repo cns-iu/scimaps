@@ -1,48 +1,50 @@
-<h2 class="header">Maps</h2>
-<div class="highlight-content">
-  <p markdown [data]="highlightBody" class="highlight-body"></p>
-  <div class="carousel-container">
-    <sci-carousel class="carousel">
-      <sci-carousel-item *ngFor="let carouselItem of carouselItems">
-        <div class="carousel-item" *sciBreakpoint="'desktop'">
-          <img [src]="carouselItem.lg" class="carousel-image" [alt]="carouselItem.lg.split('/')[3]">
-        </div>
-        <div class="carousel-item" *sciBreakpoint="'desktop-'">
-          <img [src]="carouselItem.sm" class="carousel-image" [alt]="carouselItem.sm.split('/')[3]">
-        </div>
-      </sci-carousel-item>
-    </sci-carousel>
-  </div>
-</div>
-
-<h2 class="header discover-maps">Discover Maps</h2>
-
-<ng-container *ngFor="let item of displayItems; let i = index;">
-  <sci-discover-listing *ngIf="showAllItems || i < displayLimit" class="discover-item maps" [discoverItem]="item" [type]="'maps'"></sci-discover-listing>
-</ng-container>
-
-<button *ngIf="!showAllItems" class="more-button" (click)="showAllItems = true">Show More Maps</button>
-<div class="mobile-button" (click)="showModal = true;">
-  Discover Maps
-  <mat-icon class="mobile-icon">chevron_right</mat-icon>
-</div>
-
-<sci-drawer [@drawerInOut] *ngIf="showModal" class="drawer">
-  <div drawer>
-    <div>
-        <div class="drawer-header">
-            <mat-icon class="mobile-icon" (click)="showModal = false;">chevron_left</mat-icon>
-            <div class="mobile-title">
-                <h3> Maps </h3>
-            </div>
-        </div>
-        <div class="drawer-content">
-          <sci-carousel class="maps-carousel">
-            <sci-carousel-item class="mobile-carousel-item" *ngFor="let discoverItem of discoverItems">
-              <sci-discover-listing [discoverItem]="discoverItem" [type]="'maps'"></sci-discover-listing>
-            </sci-carousel-item>
-          </sci-carousel>
-        </div>
+<div class="maps-container">
+  <h2 class="header">Maps</h2>
+  <div class="highlight-content">
+    <p markdown [data]="highlightBody" class="highlight-body"></p>
+    <div class="carousel-container">
+      <sci-carousel class="carousel">
+        <sci-carousel-item *ngFor="let carouselItem of carouselItems">
+          <div class="carousel-item" *sciBreakpoint="'desktop'">
+            <img [src]="carouselItem.lg" class="carousel-image" [alt]="carouselItem.lg.split('/')[3]">
+            <div class="carousel-image-title">{{ carouselItem.title }}</div>
+          </div>
+          <div class="carousel-item" *sciBreakpoint="'desktop-'">
+            <img [src]="carouselItem.sm" class="carousel-image" [alt]="carouselItem.sm.split('/')[3]">
+            <div class="carousel-image-title">{{ carouselItem.title }}</div>
+          </div>
+        </sci-carousel-item>
+      </sci-carousel>
     </div>
   </div>
-</sci-drawer>
+
+  <!-- desktop -->
+  <h2 class="header discover-maps">Discover Maps</h2>
+  <ng-container *ngFor="let item of displayItems; let i = index;">
+    <sci-discover-listing id="map-{{item.iteration}}" *ngIf="showAllItems || i < displayLimit"
+      class="discover-item maps" [discoverItem]="item" [type]="'maps'"></sci-discover-listing>
+  </ng-container>
+  <button *ngIf="!showAllItems" class="more-button" (click)="showAllItems = true">Show More Maps</button>
+
+  <!-- mobile -->
+  <div class="mobile-button" (click)="showModal = true;">
+    Discover Maps
+    <mat-icon class="mobile-icon">chevron_right</mat-icon>
+  </div>
+
+  <sci-drawer [@drawerInOut] *ngIf="showModal" class="sci-drawer">
+    <div class="drawer-container" drawer>
+      <sci-drawer-header [title]="'Maps'" (backClick)="showModal = false">
+      </sci-drawer-header>
+      <div class="drawer-content">
+        <sci-carousel class="maps-carousel">
+          <sci-carousel-item class="mobile-carousel-item" *ngFor="let discoverItem of discoverItems">
+            <sci-discover-listing [discoverItem]="discoverItem" [type]="'maps'"></sci-discover-listing>
+          </sci-carousel-item>
+        </sci-carousel>
+      </div>
+    </div>
+  </sci-drawer>
+</div>
+
+<router-outlet></router-outlet>

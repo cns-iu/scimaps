@@ -35,7 +35,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-10-01/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/being_a_map_of_physi_171/detail'
 es:
   title: Ser un mapa de física
   body: >-

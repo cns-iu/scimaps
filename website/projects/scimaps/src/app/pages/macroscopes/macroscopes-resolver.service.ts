@@ -11,10 +11,15 @@ import { ContentService } from '../../shared/services/content.service';
   providedIn: 'root'
 })
 export class MacroscopesResolverService implements Resolve<DiscoverItem[]> {
-
+  result!: Observable<DiscoverItem[]> | Observable<never>;
+  cached = false;
   constructor(private content: ContentService) { }
 
   resolve(): Observable<DiscoverItem[]> | Observable<never> {
-    return this.content.getIndex<DiscoverItem>('app-macroscopes').pipe(take(1));
+    if (!this.cached) {
+      this.result = this.content.getIndex<DiscoverItem>('app-macroscopes').pipe(take(1));
+      this.cached = true;
+    }
+    return this.result;
   }
 }

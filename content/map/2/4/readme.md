@@ -47,7 +47,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-02-04/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/sky_chart_of_new_yor_78/detail'
 es:
   title: Mapa del cielo de la ciudad de Nueva York en abril  2006
   body: >-

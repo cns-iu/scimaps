@@ -45,7 +45,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-01-02/
-  externalLink: null
+  externalLink: https://scimaps.org/maps/map/nova_anglia_novvm_be_26/detail
 es:
   title: 'Nova Anglia, Novvm Belgivm et Virginia'
   body: >-

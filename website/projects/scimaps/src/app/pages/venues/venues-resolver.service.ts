@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Params, Resolve } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
-import { isHttp } from '../../constants/utils';
+import { getSegmentedDate, isHttp } from '../../constants/utils';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 
 export interface Venue {
@@ -28,12 +28,8 @@ export class VenuesResolverService implements Resolve<Venue[]> {
 
   // Used to get full path of resources.
   updatePaths(venue: Venue): Venue {
-    const fullDate = new Date(venue.dateStart);
-    const year = fullDate.getFullYear();
-    const date = ('0' + fullDate.getUTCDate()).slice(-2);
-    const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
+    const [year, month, date] = getSegmentedDate(venue.dateStart);
     const slug = toSlug(venue.title);
-
     if (venue.pdfLink && !isHttp(venue.pdfLink)) {
       venue.pdfLink = `${this.directory}/${year}/${month}-${date}/${slug}/${venue.pdfLink}`;
     }

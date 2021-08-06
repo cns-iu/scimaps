@@ -52,6 +52,11 @@ describe('VenuesComponent', () => {
     expect(component.year).toEqual('2017');
   });
 
+  it(`yearList has default value`, () => {
+    component.setYears();
+    expect(component.yearList).toEqual([]);
+  });
+
   describe('ngOnInit', () => {
     it('makes expected calls', () => {
       spyOn(component, 'setYears').and.callThrough();

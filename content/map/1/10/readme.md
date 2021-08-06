@@ -38,7 +38,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-01-10/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/the_structure_of_sci_59/detail'
 es:
   title: La estructura de la ciencia
   body: >-

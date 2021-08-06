@@ -15,11 +15,14 @@
   </mat-sidenav-content>
 </mat-sidenav-container>
 
+<!-- Entire Drawer System at one place -->
 <sci-drawer [@drawerInOut] *ngIf="(drawer$ | async)?.showDrawer">
   <div drawer>
     <ng-container [ngSwitch]="(drawer$ | async)?.drawerName">
-      <sci-gallery-item *ngSwitchCase="'venue-gallery'" [item]="(drawer$ | async)?.drawerPayload" (closed)="closeDrawer()">
+      <sci-gallery-item *ngSwitchCase="'venue-gallery-drawer'" [item]="(drawer$ | async)?.drawerPayload" (closed)="closeDrawer()">
       </sci-gallery-item>
+      <sci-makers-subdrawer *ngSwitchCase="'makers-drawer'" [makers]="(drawer$ | async)?.drawerPayload?.makers" [title]="(drawer$ | async)?.drawerPayload?.title" (closed)="closeDrawer()">
+      </sci-makers-subdrawer>
     </ng-container>
   </div>
 </sci-drawer>

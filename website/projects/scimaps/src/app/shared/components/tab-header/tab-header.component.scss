@@ -17,6 +17,10 @@
       border-bottom: 2px solid  #8dc63f;
       background-color: #f5f5f5;
     }
+    &:hover {
+      border-bottom: 2px solid  #8dc63f;
+      background-color: #f5f5f5;
+    }
 
     &:not(:first-child) {
       margin-left: 1rem;

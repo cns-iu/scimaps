@@ -3,13 +3,17 @@ $tablet: 960px;
 $desktop: 1248px;
 
 :host {
-  @media (min-width: $mobile) {
-    width: 33%;
-  }
-  @media (min-width: $tablet) {
+  
+  @media screen and (min-width: $desktop) {
     width: 25%;
   }
-  @media (max-width: $mobile) {
+  @media screen and  (min-width: $tablet) {
+    width: 30%;
+  }
+  @media screen and (min-width: $mobile) and (max-width: $tablet) {
+    width: 50%;
+  }
+  @media screen and (max-width: $mobile) {
     width: 100%;
   }
   .lm-item-desktop {
@@ -60,7 +64,6 @@ $desktop: 1248px;
     padding: 0;
     cursor: pointer;
     .col1 {
-      flex: 2;
       height: 100%;
       justify-content: center;
       margin-right: 1rem;
@@ -71,7 +74,6 @@ $desktop: 1248px;
     }
 
     .col2 {
-      flex: 5;
       display: flex;
       align-items: center;
       overflow: hidden;
@@ -88,7 +90,8 @@ $desktop: 1248px;
     }
 
     .col3 {
-      flex: 1;
+      margin-left: auto;
+      margin-right: 1rem;
       display: flex;
       align-items: center;
     }

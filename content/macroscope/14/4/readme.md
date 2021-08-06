@@ -54,5 +54,5 @@ en:
     sm: image.sm.jpg
     med: image.med.jpg
     lg: image.lg.jpg
-  externalLink: 'http://www.scimaps.org/'
+  externalLink: 'http://apps.who.int/violence-info'
 ---

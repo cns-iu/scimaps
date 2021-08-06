@@ -12,7 +12,7 @@
 
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   .logo {
     height: 100%;
     padding: 12px 0;
@@ -29,6 +29,11 @@
   .search {
     height: 100%;
     padding: 0 1.5rem;
+  }
+
+  .nav-item.exhibit, .nav-item.contact {
+    display: flex;
+    align-items: center;
   }
 
   .sidenav-toggle {

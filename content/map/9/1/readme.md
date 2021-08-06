@@ -50,7 +50,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-09-01/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/nasa_views_our_perpe_150/detail'
 es:
   title: La NASA observa el movimiento perpétuo del océano
   body: >-

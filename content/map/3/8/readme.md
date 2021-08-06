@@ -47,7 +47,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-03-08/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/science_related_wiki_49/detail'
 es:
   title: Actividad de Wikipedia relacionada con la ciencia
   body: >-

@@ -40,7 +40,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-10-07/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/visual_funding_portf_178/detail'
 es:
   title: Porfolios de financiamiento visuals
   body: >-

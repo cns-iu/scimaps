@@ -45,7 +45,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-09-05/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/map_of_complexity_sc_154/detail'
 es:
   title: 5 El mapa de la complejidad de la ciencia
   body: >-

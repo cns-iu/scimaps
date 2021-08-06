@@ -39,11 +39,12 @@ $desktop: 1248px;
         padding-left: 2rem;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: #757575;
-        font-size: 20px;
+        font-size: 16px;
         @include screen.breakpoint(mobile) {
           margin-top: 1rem;
           padding-left: 0;
         }
+        
       }
       margin-bottom: 24px;
     }

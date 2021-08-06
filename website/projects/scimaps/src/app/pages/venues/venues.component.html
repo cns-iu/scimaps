@@ -6,7 +6,7 @@
     <div class="group1">
         <sci-select [select]="year" [options]="yearList" (selectChange)="onSelectChange($event)">
         </sci-select>
-        <sci-table *sciBreakpoint="'desktop-'" [headersOnly]="true"  [dataSource]="dataSource" [tableHeaders]="sortHeaders">
+        <sci-table *sciBreakpoint="'desktop-'" [initialSort]="{column: 'dateStart', direction: 'desc'}" [headersOnly]="true"  [dataSource]="dataSource" [tableHeaders]="sortHeaders">
         </sci-table>
     </div>
     <sci-search-overlay [search]="searchKey" (searchChange)="onSearchChange($event)">
@@ -20,8 +20,8 @@
 </sci-list-view>
 
 <!-- Table View -->
-<sci-table *sciBreakpoint="'desktop'" [dataSource]="dataSource" [tableHeaders]="tableHeaders">
-</sci-table>
+<sci-venues-table *sciBreakpoint="'desktop'" [initialSort]="{column: 'dateStart', direction: 'desc'}" [dataSource]="dataSource" [tableHeaders]="tableHeaders">
+</sci-venues-table>
 
 <hr class="divider" />
 <div class="spacer-48"></div>

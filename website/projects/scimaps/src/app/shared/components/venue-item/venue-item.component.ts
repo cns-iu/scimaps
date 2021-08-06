@@ -18,7 +18,7 @@ export class VenueItemComponent {
   openDrawer(item: Venue | Params): void {
     this.store.dispatch(new SetAppState({drawer: {
       showDrawer: true,
-      drawerName: 'venue-gallery',
+      drawerName: 'venue-gallery-drawer',
       drawerPayload: item as Params
     }}));
   }

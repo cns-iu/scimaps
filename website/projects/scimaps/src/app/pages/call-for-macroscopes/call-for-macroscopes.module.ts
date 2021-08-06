@@ -9,6 +9,7 @@ import { SharedModule } from '../../shared/shared.module';
 import { MarkdownModule } from 'ngx-markdown';
 import { MatIconModule } from '@angular/material/icon';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
+import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
 
 @NgModule({
   declarations: [CallForMacroscopesComponent],
@@ -21,6 +22,7 @@ import { DrawerModule } from '../../shared/components/drawer/drawer.module';
     MatIconModule,
     DrawerModule,
     SharedModule,
+    DrawerHeaderModule
   ],
   providers: [DatePipe],
 })

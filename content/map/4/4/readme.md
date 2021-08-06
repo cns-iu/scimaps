@@ -47,7 +47,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-04-04/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/bill_clinton_the_lip_40/detail'
 es:
   title: La Corporación Internacional de Finanzas
   body: >-

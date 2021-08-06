@@ -1,7 +1,7 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { drawerInOut } from '../../constants/drawer.animations';
-import { LearningMaterial } from './learning-material-resolver.service';
+import { LearningMaterial } from './learning-materials-resolver.service';
 
 @Component({
   selector: 'sci-hosting',

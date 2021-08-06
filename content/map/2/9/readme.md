@@ -44,7 +44,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-02-09/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/map_of_scientific_pa_55/detail'
 es:
   title: Mapa de paradigmas científicos
   body: >-

@@ -3,9 +3,8 @@ order: 2
 title: WorldProcessor Globes
 image:
   sm: worldprocessor-globes-thb.jpg
-  lg: worldprocessor-globes-thb.jpg
+  lg: image01.lg.jpg
 ---
-Foreign US Patent Holders \[WorldProcessor #294]\
 Sculptor and media artist Ingo Günther has mapped social, scientific, political, and economic data on globes as navigational guides in a globalized world. Using data from the U.S. Patent and Trademark Office, this globe represents half of all patents in the United States—namely those registered to foreign holders. Countries with more than 1,000 patents registered in the U.S. are indicated by name, with the point size of the representative text scaled according to the square root of the total number of U.S. patents held. If the total number of domestically held U.S. patents were indicated according to this logic, the entire surface of the globe would be covered. To explore other WorldProcessor globes, visit <http://worldprocessor.org>.
 
 

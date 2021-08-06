@@ -56,7 +56,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-03-07/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/mapping_the_universe_61/detail'
 es:
   title: 'Cartografiando el universo : Espacio, tiempo, y descubrimiento!'
   body: >-

@@ -55,7 +55,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-10-03/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/predict_healthmap_173/detail'
 es:
   title: 'PREDICT: Mapa sanitario'
   body: >-

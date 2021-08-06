@@ -35,7 +35,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-01-09/
-  externalLink: 'http://geography.sdsu.edu/People/Faculty/skupin.html'
+  externalLink: 'https://scimaps.org/maps/map/in_terms_of_geograph_92/detail'
 es:
   title: En términos de Geografía
   body: >-

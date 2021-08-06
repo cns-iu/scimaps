@@ -48,7 +48,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-09-07/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/the_hewlett_foundati_156/detail'
 es:
   title: El visualizador de subvenciones  de la Fundación Hewlett
   body: >-

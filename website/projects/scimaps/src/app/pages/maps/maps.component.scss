@@ -142,24 +142,4 @@ $breakpoint: 768px;
       display: none;
     }
   }
-
-  .drawer-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.5rem;
-
-    .mobile-icon {
-      cursor: pointer;
-    }
-
-    .mobile-title {
-      display: flex;
-      justify-content: space-around;
-      width: 100%;
-
-      h3 {
-        margin-bottom: 0rem !important;
-      }
-    }
-  }
 } 

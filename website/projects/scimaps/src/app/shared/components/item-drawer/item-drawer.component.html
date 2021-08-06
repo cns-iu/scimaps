@@ -1,56 +1,54 @@
-<div class="details-container">
-  <div class="purchase-header">
-    <div class="back-button" (click)="close()">
-      <mat-icon class="back-icon">chevron_left</mat-icon>
-      <div>BACK</div>
+<sci-drawer [@drawerInOut]="showDrawer ? 'show' : 'hide'">
+  <div class="details-container" drawer>
+    
+    <div class="header">
+      <sci-drawer-header (backClick)="close()">
+      </sci-drawer-header>
+      <div class="purchase-button" *ngIf="type === 'map'" (click)="openPurchase()">PURCHASE</div>  
     </div>
-    <div class="purchase-button" *ngIf="type === 'map'" (click)="openPurchase()">PURCHASE</div>
+    
+    <div class="body">
+      <div class="details-content">
+        <h2 class="details-title">{{item.title}}</h2>
+        <div class="details-makers" (click)="openDrawer(item)">
+          <div class="makers-text">
+            <div class="makers-label">Makers:&nbsp;</div>
+            <div>{{makers | titlecase}}</div>
+          </div>
+          <mat-icon class="right">chevron_right</mat-icon>
+        </div>
+        <div class="details-credit">{{item.credit}}</div>
+
+        <!-- language bar only on maps -->
+        <div *ngIf="type === 'map'" class="language-selection">
+          <div>Languages:&nbsp;</div>
+          <div class="language-container" *ngFor="let language of item.translations, index as i">
+            <div *ngIf="i !== 0">&nbsp;&nbsp;|&nbsp;&nbsp;</div>
+            <div class="language option" [class.active]="selectedLanguage === language.abbr_short"
+              (click)="languageSelect(language.abbr_short)">{{language.native}}</div>
+          </div>
+        </div>
+
+        <p markdown [data]="item.description" class="details-description"></p>
+        <div class="details-references">
+          <div>References</div>
+          <div class="reference" *ngFor="let reference of item.references">
+            <p markdown [data]="reference"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="details-image" >
+        <div class="container" [ngClass]="{'clickable': item.externalLink ? true : false}" (click)="redirect(item.externalLink)">
+          <img class="thumbnail" [src]="item.thumbnail" alt="item image">
+          <div class="icon" *ngIf="item.externalLink">
+            <mat-icon *ngIf="type === 'map'" class="zoom">zoom_in</mat-icon>
+            <mat-icon *ngIf="type === 'macroscope'" class="launch">launch</mat-icon>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="details-title mobile">{{item.title}}</h2>
+    </div>
   </div>
-
-  <div class="body">
-    <div class="details-content">
-      <h2 class="details-title">{{item.title}}</h2>
-      <div class="details-makers" (click)="openSubdrawer()">
-        <div class="makers-text">
-          <div class="makers-label">Makers:&nbsp;</div>
-          <div>{{makers | titlecase}}</div>
-        </div>
-        <mat-icon class="right">chevron_right</mat-icon>
-      </div>
-      <div class="details-credit">{{item.credit}}</div>
-      
-      <!-- language bar only on maps -->
-      <div *ngIf="type === 'map'" class="language-selection">
-        <div>Languages:&nbsp;</div>
-        <div class="language-container" *ngFor="let language of item.translations, index as i">
-          <div *ngIf="i !== 0">&nbsp;&nbsp;|&nbsp;&nbsp;</div>
-          <div class="language option" [class.active]="selectedLanguage === language.abbr_short" (click)="languageSelect(language.abbr_short)">{{language.native}}</div>
-        </div>
-      </div>
-
-      <p markdown [data]="item.description" class="details-description"></p>
-      <div class="details-references">
-        <div>References</div>
-        <div class="reference" *ngFor="let reference of item.references">
-          <p markdown [data]="reference"></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="details-image">
-      <a [href]="item.externalLink" target="_blank" rel="noopener noreferrer">
-        <img class="thumbnail" [src]="item.thumbnail" alt="item image">
-      </a>
-      <a class="icon" [href]="item.externalLink" target="_blank" rel="noopener noreferrer">
-        <mat-icon *ngIf="type === 'map'" class="zoom">zoom_in</mat-icon>
-        <mat-icon *ngIf="type === 'macroscope'" class="launch">launch</mat-icon>
-      </a>
-    </div>
-
-    <h2 class="details-title mobile">{{item.title}}</h2>
-  </div>
-</div>
-
-<sci-drawer [@drawerInOut] *ngIf="showSubdrawer">
-  <sci-makers-subdrawer (closeDrawer)="showSubdrawer = false" [makers]="item.makers" [title]="item.title" drawer></sci-makers-subdrawer>
 </sci-drawer>

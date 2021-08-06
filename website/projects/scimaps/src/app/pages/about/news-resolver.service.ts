@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Params } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
-import { isHttp } from '../../constants/utils';
+import { getSegmentedDate, isHttp } from '../../constants/utils';
 import { NewsItem } from '../../shared/components/news-item/news-item.model';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 
@@ -17,10 +17,7 @@ export class NewsResolverService {
 
   // Used to get full path of resources.
   getSourceLink(newsItem: NewsItem, type: string = 'image'): string {
-    const fullDate = new Date(newsItem.date);
-    const year = fullDate.getFullYear();
-    const date = ('0' + (fullDate.getUTCDate())).slice(-2);
-    const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
+    const [year, month, date] = getSegmentedDate(newsItem.date);
     const slug = toSlug(newsItem.title);
 
     if (type === 'pdfLink') {

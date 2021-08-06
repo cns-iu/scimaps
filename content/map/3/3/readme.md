@@ -42,7 +42,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-03-03/
-  externalLink: 'http://cxnets.googlepages.com/'
+  externalLink: 'https://scimaps.org/maps/map/impact_of_air_travel_24/detail'
 es:
   title: >-
     Impacto del tráfico aéreo en la propagación global de enfermedades

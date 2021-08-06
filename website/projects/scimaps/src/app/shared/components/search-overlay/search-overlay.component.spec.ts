@@ -24,4 +24,9 @@ describe('SearchOverlayComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should clear search', () => {
+    component.clearSearch();
+    expect(component.searchControl?.value).toEqual('');
+  });
 });

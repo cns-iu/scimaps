@@ -52,6 +52,7 @@ function writeAppMapIndex(mapType) {
       title: `${roman}. ${iter.title}`,
       body: iter.body,
       thumbnails: {},
+      iteration: iter.iteration,
       slug: `${mapType}Iteration/${iter.iteration}`,
       directory: ''
     };

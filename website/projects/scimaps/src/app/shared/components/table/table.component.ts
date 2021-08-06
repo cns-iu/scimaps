@@ -1,10 +1,7 @@
-import { AfterViewInit, Component, HostBinding, Input, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, HostBinding, Input, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
-import { MatSort } from '@angular/material/sort';
+import { MatSort, MatSortHeader } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { Params } from '@angular/router';
-import { Store } from '@ngxs/store';
-import { SetAppState } from '../../../core/actions/app.actions';
 
 @Component({
   selector: 'sci-table',
@@ -25,11 +22,10 @@ export class TableComponent implements OnInit, AfterViewInit {
     icon?: string
   }[] = [];
   @Input() headersOnly = false;
+  @Input() initialSort: {column: string, direction: 'asc' | 'desc'} = {column: '', direction: 'asc' };
   columns: string[] = [];
 
-  constructor(private store: Store) {
-  }
-
+  constructor(private cdr: ChangeDetectorRef) {}
   ngOnInit(): void {
     this.columns = this.tableHeaders.map(header => header.key);
   }
@@ -37,13 +33,16 @@ export class TableComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.matSort;
-  }
 
-  openVenueGalleryDrawer(item: Params): void {
-    this.store.dispatch(new SetAppState({drawer: {
-      showDrawer: true,
-      drawerName: 'venue-gallery',
-      drawerPayload: item
-    }}));
+    // initial sort of dateStart
+    if (this.initialSort && this.columns.includes(this.initialSort.column)) {
+      this.matSort.sort({ id: '', start: 'asc', disableClear: true });
+      this.matSort.sort({ id: this.initialSort.column, start: this.initialSort.direction, disableClear: false });
+      const sortable = this.matSort.sortables.get(this.initialSort.column) as MatSortHeader;
+      if (sortable) {
+        sortable._setAnimationTransitionState({ toState: 'active' });
+      }
+      this.cdr.detectChanges();
+    }
   }
 }

@@ -45,7 +45,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-05-04/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/mobile_landscapes_us_87/detail'
 es:
   title: >-
     Paisajes móviles: Utilización de los datos de localización en los teléfonos

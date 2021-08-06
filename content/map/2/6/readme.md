@@ -42,7 +42,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-02-06/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/history_flow_visuali_56/detail'
 es:
   title: Visualización del flujo histórico de la entrada “aborto”
   body: >-

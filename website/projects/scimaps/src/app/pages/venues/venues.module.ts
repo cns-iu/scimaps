@@ -6,6 +6,7 @@ import { ListViewModule } from '../../shared/components/list-view/list-view.modu
 import { SearchOverlayModule } from '../../shared/components/search-overlay/search-overlay.module';
 import { SelectModule } from '../../shared/components/select/select.module';
 import { TableModule } from '../../shared/components/table/table.module';
+import { VenuesTableModule } from '../../shared/components/venues-table/venues-table.module';
 import { SharedModule } from '../../shared/shared.module';
 import { VenuesRoutingModule } from './venues-routing.module';
 import { VenuesComponent } from './venues.component';
@@ -22,7 +23,8 @@ import { VenuesComponent } from './venues.component';
     SharedModule,
     SelectModule,
     SearchOverlayModule,
-    ListViewModule
+    ListViewModule,
+    VenuesTableModule
   ],
   providers: []
 })

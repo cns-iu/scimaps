@@ -40,7 +40,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-02-01/
-  externalLink: 'http://www.ntia.doc.gov/osmhome/allochrt.html'
+  externalLink: 'https://scimaps.org/maps/map/us_frequency_allocat_76/detail'
 es:
   title: >-
     Mapa de asignación de frecuencias de EE.UU, de la Administración Nacional de

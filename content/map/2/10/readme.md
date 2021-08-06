@@ -34,7 +34,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-02-10/
-  externalLink: 'http://www.worldprocessor.org/'
+  externalLink: 'https://scimaps.org/maps/map/zones_of_invention___38/detail'
 es:
   title: 'PROCESAMUNDO: Zonas de Invención—patrones de Patentes'
   body: >-

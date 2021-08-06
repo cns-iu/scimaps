@@ -22,5 +22,5 @@ export class MakersSubdrawerComponent {
   /**
    * Emitted when the drawer closes
    */
-  @Output() closeDrawer = new EventEmitter();
+  @Output() closed = new EventEmitter();
 }

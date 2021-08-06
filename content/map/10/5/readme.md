@@ -36,7 +36,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-10-05/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/money_176/detail'
 es:
   title: DINERO
   body: >-

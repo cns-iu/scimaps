@@ -49,7 +49,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-09-09/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/identifying_emerging_158/detail'
 es:
   title: 9 Identificando temas emergentes en ciencia y tecnología
   body: >-

@@ -46,7 +46,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-06-01/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/tree_of_life_113/detail'
 es:
   title: Árbol de la vida
   body: >-

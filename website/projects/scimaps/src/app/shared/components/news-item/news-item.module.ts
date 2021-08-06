@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
+import { MarkdownModule } from 'ngx-markdown';
 
 import { NewsItemComponent } from './news-item.component';
 
@@ -9,7 +10,8 @@ import { NewsItemComponent } from './news-item.component';
   declarations: [NewsItemComponent],
   imports: [
     CommonModule,
-    MatIconModule
+    MatIconModule,
+    MarkdownModule
   ],
   exports: [
     NewsItemComponent

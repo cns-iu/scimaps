@@ -45,7 +45,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-06-02/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/the_human_connectome_115/detail'
 es:
   title: El conectoma humano
   body: >-

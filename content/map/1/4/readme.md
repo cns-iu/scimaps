@@ -37,7 +37,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-01-04/
-  externalLink: 'http://www.edwardtufte.com/tufte/posters'
+  externalLink: 'https://scimaps.org/maps/map/napoleons_march_to_m_9/detail'
 es:
   title: La marcha de Napoleón a Moscú
   body: >-

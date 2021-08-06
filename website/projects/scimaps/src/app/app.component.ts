@@ -1,14 +1,14 @@
-import { AfterViewInit, Component, NgZone, OnDestroy, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, HostListener, NgZone, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { MatSidenavContainer } from '@angular/material/sidenav';
-import { Params, RouterOutlet } from '@angular/router';
+import { ActivatedRoute, Params, Router, RouterOutlet, RoutesRecognized } from '@angular/router';
 import { Select, Store } from '@ngxs/store';
 import { Observable, of, Subscription } from 'rxjs';
-import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
+import { debounceTime, distinctUntilChanged, filter, map, pairwise, switchMap } from 'rxjs/operators';
 import { drawerInOut } from './constants/drawer.animations';
-import { routeTransitionAnimations } from './constants/route.animations';
+import { slideWithTransform } from './constants/route.animations';
+import { isAssetURL, isExternalURL } from './constants/utils';
 import { SetAppState } from './core/actions/app.actions';
 import { PageState } from './core/state/page/page.state';
-import { NewsItem } from './shared/components/news-item/news-item.model';
 
 
 @Component({
@@ -16,25 +16,17 @@ import { NewsItem } from './shared/components/news-item/news-item.model';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   animations: [
-    routeTransitionAnimations,
+    slideWithTransform,
     drawerInOut
   ]
 })
-export class AppComponent implements OnDestroy, AfterViewInit {
+export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
+  constructor(private activatedRoute: ActivatedRoute, private router: Router, private zone: NgZone, private store: Store) {
+  }
   @ViewChild(MatSidenavContainer) sidenavContainer!: MatSidenavContainer;
-
   hasPageScrolled = false;
   sidenavOpen = false;
   windowScrollSubscription: Subscription | undefined;
-
-  newsItem: NewsItem = {
-    title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
-    date: new Date(2020, 2, 2),
-    publication: 'Library News',
-    institution: 'Virginia Tech',
-    thumbnail: 'assets/images/rose.jpg',
-    pdfLink: 'link'
-  };
 
   footerParameters = {
     phoneNumber: '812-855-9930',
@@ -42,7 +34,46 @@ export class AppComponent implements OnDestroy, AfterViewInit {
   };
 
   @Select(PageState.drawer) drawer$!: Observable<Params>;
-  constructor(private zone: NgZone, private store: Store) {
+
+  scrollPositions: Params = {};
+
+  // All external / internal link behaviour.
+  @HostListener('document:click', ['$event'])
+  customRedirect(e: PointerEvent): void {
+    const target = e.target as HTMLAnchorElement;
+    if (target.nodeName === 'A') {
+      const href = target.getAttribute('href');
+      if (href) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (isExternalURL(href) || isAssetURL(href)) {
+          window.open(href, '_blank');
+        } else {
+          this.router.navigate([href]);
+        }
+      }
+    }
+  }
+
+  ngOnInit(): void {
+    // Scroll retention code
+    this.router.events.pipe(
+      filter((e) => e instanceof RoutesRecognized),
+      pairwise()
+    ).subscribe(([previous, current]) => {
+      const navigation = this.router.getCurrentNavigation();
+      console.log(navigation);
+      const direction = navigation?.extras?.state?.direction;
+      if (direction === 'forward') {
+        const scrollY = this.sidenavContainer.scrollable.measureScrollOffset('top');
+        this.scrollPositions[(previous as RoutesRecognized).url] = scrollY;
+        this.sidenavContainer.scrollable.scrollTo({ top: 0, left: 0 });
+      } else if (direction === 'backward') {
+        setTimeout(() => {
+          this.sidenavContainer.scrollable.scrollTo({ top: this.scrollPositions[(current as RoutesRecognized).url] || 0, left: 0 });
+        }, 200);
+      }
+    });
   }
 
   prepareRoute(outlet: RouterOutlet): string {
@@ -82,12 +113,22 @@ export class AppComponent implements OnDestroy, AfterViewInit {
 
   onActivate(): void {
     const cdkScrollable = this.sidenavContainer.scrollable;
-    cdkScrollable.scrollTo({top: 0, left: 0});
+    const fragment = this.activatedRoute.snapshot.fragment;
+    if (fragment) {
+      setTimeout(() => {
+        const item = document.querySelector(`#${fragment}`);
+        item?.scrollIntoView({ block: 'center', inline: 'center' });
+      }, 500);
+    } else {
+      cdkScrollable.scrollTo({ top: 0, left: 0 });
+    }
   }
 
   closeDrawer(): void {
-    this.store.dispatch(new SetAppState({drawer: {
-      showDrawer: false
-    }}));
+    this.store.dispatch(new SetAppState({
+      drawer: {
+        showDrawer: false
+      }
+    }));
   }
 }

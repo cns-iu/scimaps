@@ -54,5 +54,5 @@ en:
     sm: image.sm.jpg
     med: image.med.jpg
     lg: image.lg.jpg
-  externalLink: null
+  externalLink: https://www.nature.com/immersive/d41586-019-03165-4/index.html
 ---

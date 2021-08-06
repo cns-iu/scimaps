@@ -44,7 +44,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-06-08/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/the_emergence_of_nan_121/detail'
 es:
   title: La emergencia de la nanociencia y la tecnología
   body: >-

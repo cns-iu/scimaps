@@ -52,7 +52,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-08-07/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/manga_universe_144/detail'
 es:
   title: Universo Manga
   body: >-

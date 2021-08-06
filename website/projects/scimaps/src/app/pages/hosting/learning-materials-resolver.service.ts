@@ -7,17 +7,18 @@ import { ContentService, toSlug } from '../../shared/services/content.service';
 
 export interface LearningMaterial {
   title: string;
+  order: number;
   body: string;
   image: {
     sm: string;
     lg: string;
   };
-  slug?: string;
+  slug: string;
 }
 @Injectable({
   providedIn: 'root',
 })
-export class LearningMaterialResolverService
+export class LearningMaterialsResolverService
   implements Resolve<LearningMaterial[]>
 {
   directory = 'assets/content/learning-materials';
@@ -42,7 +43,11 @@ export class LearningMaterialResolverService
       .pipe(
         take(1),
         map((response: LearningMaterial[]) => {
+          return response.sort((a, b) => a.order - b.order);
+        }),
+        map((response: LearningMaterial[]) => {
           return response.map((lm: LearningMaterial) => {
+            lm.slug = toSlug(lm.title);
             return this.updatePaths(lm);
           });
         })

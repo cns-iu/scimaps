@@ -3,7 +3,7 @@ import { Params } from '@angular/router';
 import { of } from 'rxjs';
 import { ContentService } from '../../shared/services/content.service';
 
-import { LearningMaterial, LearningMaterialResolverService } from './learning-material-resolver.service';
+import { LearningMaterial, LearningMaterialsResolverService } from './learning-materials-resolver.service';
 
 export const getLearningMaterials = (n: number): LearningMaterial[] => {
   const result: LearningMaterial[] = [];
@@ -15,24 +15,25 @@ export const getLearningMaterials = (n: number): LearningMaterial[] => {
         sm: `image.sm-${i}.jpg`,
         lg: `image.lg-${i}.jpg`
       },
-      slug: `title-${i}`
+      slug: `title-${i}`,
+      order: i
     });
   }
   return result;
 };
 describe('LearningMaterialResolverService', () => {
-  let service: LearningMaterialResolverService;
+  let service: LearningMaterialsResolverService;
   let contentService: Params;
 
   beforeEach(() => {
     const contentServiceSpy = jasmine.createSpyObj('ContentService', ['getIndex']);
     TestBed.configureTestingModule({
       providers: [
-        LearningMaterialResolverService,
+        LearningMaterialsResolverService,
         {provide: ContentService, useValue: contentServiceSpy}
       ]
     });
-    service = TestBed.inject(LearningMaterialResolverService);
+    service = TestBed.inject(LearningMaterialsResolverService);
     contentService = TestBed.inject(ContentService);
   });
 

@@ -1,6 +1,6 @@
 ---
-title: The Fundamental Interconnectedness of All Things
 order: 6
+title: The Fundamental Interconnectedness of All Things
 image:
   sm: image.sm.jpg
   lg: image.lg.png
@@ -9,4 +9,4 @@ How can we fully explore different disciplinary perspectives? This dynamic versi
 \
 The network was laid out using the Force Atlas 2 algorithm in Gephi 0.8 beta, which draws related journals towards one another in the map until a balanced state is achieved. Any area can be selected by clicking on the map or label to find out more about it. Themed stories above and below the map show what we can learn from animals and the importance of accidents for discovery. The scientific fields these stories illustrate are highlighted on the map and show how multiple areas of knowledge can be relevant to a particular topic—and how collaboration across subjects can help to drive new knowledge.
 
-[Download the interactive map here »](http://scimaps.org/exhibit/maps/Fund_Interconn_Dyn_v2.ppsx)
+[Download the interactive map here »](assets/content/learning-materials/the-fundamental-interconnectedness-of-all-things/Fund_Interconn_Dyn_v2.ppsx)

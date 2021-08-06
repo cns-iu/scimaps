@@ -33,7 +33,8 @@ export const discoverItem: DiscoverItem = {
     }
   ],
   slug: 'test',
-  directory: 'test'
+  directory: 'test',
+  iteration: 1
 };
 
 describe('MacroscopesComponent', () => {
