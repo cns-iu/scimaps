@@ -42,7 +42,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-07-09/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/mace_classification__131/detail'
 es:
   title: Taxonomía de clasificación MACE
   body: >-

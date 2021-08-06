@@ -71,7 +71,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-04-02/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/shrinking_of_our_pla_39/detail'
 es:
   title: La reducción de nuestro mundo
   body: >-

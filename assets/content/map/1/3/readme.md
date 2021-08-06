@@ -40,7 +40,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-01-03/
-  externalLink: 'http://www.davidrumsey.com/maps4691.html'
+  externalLink: 'https://scimaps.org/maps/map/a_new_map_of_the_who_25/detail'
 es:
   title: >-
     Un nuevo mapa total del mundo con los vientos alisios de acuerdo a las

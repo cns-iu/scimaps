@@ -41,7 +41,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-09-02/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/hurricanes__tropical_151/detail'
 es:
   title: Huracanes y tormentas Tropicales—Lugares e intensidades desde 1851
   body: >-

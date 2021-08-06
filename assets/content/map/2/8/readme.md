@@ -50,7 +50,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-02-08/
-  externalLink: 'http://ivl.slis.indiana.edu/km/pub/2007-borner-taxo.pdf'
+  externalLink: 'https://scimaps.org/maps/map/taxonomy_visualizati_54/detail'
 es:
   title: Clasificación visual de la información sobre patentes
   body: >-

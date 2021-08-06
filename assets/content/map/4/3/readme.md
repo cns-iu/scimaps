@@ -48,7 +48,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-04-03/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/tracing_of_key_event_4/detail'
 es:
   title: >-
     Rastreando los eventos clave en el desarrollo de la grabadora de cinta de

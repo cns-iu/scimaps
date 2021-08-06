@@ -58,7 +58,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-02-05/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/histcite_visualizati_52/detail'
 es:
   title: HistCite™ Visualización del Desarrollo del ADN
   body: >-

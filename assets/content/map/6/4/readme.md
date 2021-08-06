@@ -51,7 +51,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-06-04/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/speechome_116/detail'
 es:
   title: Red del habla humana o “speechome.”
   body: >-

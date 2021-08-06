@@ -45,7 +45,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-04-05/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/examining_the_evolut_41/detail'
 es:
   title: Examinando la evolución y distribución de las clasificaciones de patentes
   body: >-

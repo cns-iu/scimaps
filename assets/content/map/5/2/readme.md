@@ -43,7 +43,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-05-02/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/networks_of_scientif_82/detail'
 es:
   title: ' Redes de comunicación científica'
   body: >-

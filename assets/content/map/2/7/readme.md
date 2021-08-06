@@ -48,7 +48,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-02-07/
-  externalLink: 'http://www.textarc.org/'
+  externalLink: 'https://scimaps.org/maps/map/textarc_visualizatio_53/detail'
 es:
   title: Visualización TextArc de la Historia de la ciencia
   body: >-

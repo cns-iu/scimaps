@@ -54,7 +54,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-06-07/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/literary_empires_map_118/detail'
 es:
   title: ' Imperios literarios: Un mapa de la escena temporal y espacial de la poesía victoriana'
   body: >-

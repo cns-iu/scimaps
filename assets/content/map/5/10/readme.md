@@ -51,7 +51,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-05-10/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/the_millennium_devel_90/detail'
 es:
   title: El mapa de los objetivos de desarrollo del milenio
   body: >-

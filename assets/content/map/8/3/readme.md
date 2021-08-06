@@ -40,7 +40,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-08-03/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/metropolitan_museum__140/detail'
 es:
   title: Mapa familiar del Metropolitan Museum of Art
   body: >-

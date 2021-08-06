@@ -849,10 +849,7 @@ class VenuesResolverService {
     }
     // Used to get full path of resources.
     updatePaths(venue) {
-        const fullDate = new Date(venue.dateStart);
-        const year = fullDate.getFullYear();
-        const date = ('0' + fullDate.getUTCDate()).slice(-2);
-        const month = ('0' + (fullDate.getUTCMonth() + 1)).slice(-2);
+        const [year, month, date] = Object(_constants_utils__WEBPACK_IMPORTED_MODULE_2__["getSegmentedDate"])(venue.dateStart);
         const slug = Object(_shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__["toSlug"])(venue.title);
         if (venue.pdfLink && !Object(_constants_utils__WEBPACK_IMPORTED_MODULE_2__["isHttp"])(venue.pdfLink)) {
             venue.pdfLink = `${this.directory}/${year}/${month}-${date}/${slug}/${venue.pdfLink}`;
@@ -1016,6 +1013,239 @@ AccordianComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
 
 /***/ }),
 
+/***/ "aja8":
+/*!**************************************************************************!*\
+  !*** ./src/app/shared/components/venues-table/venues-table.component.ts ***!
+  \**************************************************************************/
+/*! exports provided: VenuesTableComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VenuesTableComponent", function() { return VenuesTableComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/paginator */ "iAde");
+/* harmony import */ var _angular_material_sort__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/sort */ "cePI");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/table */ "FlRo");
+/* harmony import */ var _core_actions_app_actions__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../core/actions/app.actions */ "zqhc");
+/* harmony import */ var _ngxs_store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ngxs/store */ "yDe4");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ "2kYt");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/icon */ "bFHC");
+
+
+
+
+
+
+
+
+
+
+
+
+function VenuesTableComponent_tr_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "tr", 5);
+} }
+const _c0 = function (a0, a1) { return { "active": a0, "reversed": a1 }; };
+function VenuesTableComponent_ng_container_2_th_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "th", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "mat-icon", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "arrow_upward");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const header_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", header_r3.label, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](2, _c0, (ctx_r4.matSort == null ? null : ctx_r4.matSort.active) == header_r3.key, (ctx_r4.matSort == null ? null : ctx_r4.matSort.direction) == "desc"));
+} }
+const _c1 = function (a0) { return { "width": a0 }; };
+function VenuesTableComponent_ng_container_2_ng_template_2_td_0_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const element_r10 = ctx.$implicit;
+    const header_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](2, _c1, header_r3.width + "%"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", element_r10[header_r3.key], " ");
+} }
+function VenuesTableComponent_ng_container_2_ng_template_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, VenuesTableComponent_ng_container_2_ng_template_2_td_0_Template, 2, 4, "td", 12);
+} }
+function VenuesTableComponent_ng_container_2_ng_template_3_td_0_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "date");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const element_r13 = ctx.$implicit;
+    const header_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](6, _c1, header_r3.width + "%"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](2, 2, element_r13[header_r3.key], "dd-MM-yyyy", "+0000"), " ");
+} }
+function VenuesTableComponent_ng_container_2_ng_template_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, VenuesTableComponent_ng_container_2_ng_template_3_td_0_Template, 3, 8, "td", 12);
+} }
+function VenuesTableComponent_ng_container_2_ng_template_4_td_0_ng_template_1_Template(rf, ctx) { if (rf & 1) {
+    const _r21 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-icon", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function VenuesTableComponent_ng_container_2_ng_template_4_td_0_ng_template_1_Template_mat_icon_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r21); const element_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3); return ctx_r19.openVenueGalleryDrawer(element_r16); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const header_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3).$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](header_r3.icon);
+} }
+function VenuesTableComponent_ng_container_2_ng_template_4_td_0_ng_template_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "mat-icon", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const element_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", element_r16.pdfLink, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
+function VenuesTableComponent_ng_container_2_ng_template_4_td_0_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, VenuesTableComponent_ng_container_2_ng_template_4_td_0_ng_template_1_Template, 2, 1, "ng-template", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, VenuesTableComponent_ng_container_2_ng_template_4_td_0_ng_template_2_Template, 2, 1, "ng-template", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const element_r16 = ctx.$implicit;
+    const header_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](3, _c1, header_r3.width + "%"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", element_r16.venueImages);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", element_r16.pdfLink);
+} }
+function VenuesTableComponent_ng_container_2_ng_template_4_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, VenuesTableComponent_ng_container_2_ng_template_4_td_0_Template, 3, 5, "td", 12);
+} }
+function VenuesTableComponent_ng_container_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0, 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, VenuesTableComponent_ng_container_2_th_1_Template, 6, 5, "th", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, VenuesTableComponent_ng_container_2_ng_template_2_Template, 1, 0, "ng-template", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, VenuesTableComponent_ng_container_2_ng_template_3_Template, 1, 0, "ng-template", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, VenuesTableComponent_ng_container_2_ng_template_4_Template, 1, 0, "ng-template", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+} if (rf & 2) {
+    const header_r3 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matColumnDef", header_r3.key);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", header_r3.type == "text");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", header_r3.type == "date");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", header_r3.type == "icon");
+} }
+function VenuesTableComponent_tr_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "tr", 17);
+} }
+const _c2 = function () { return [5, 10, 20]; };
+class VenuesTableComponent {
+    constructor(store, cdr) {
+        this.store = store;
+        this.cdr = cdr;
+        this.clsName = 'sci-venues-table';
+        this.initialSort = { column: '', direction: 'asc' };
+        // tslint:disable-next-line: no-any
+        this.dataSource = new _angular_material_table__WEBPACK_IMPORTED_MODULE_3__["MatTableDataSource"]();
+        this.tableHeaders = [];
+        this.columns = [];
+    }
+    ngOnInit() {
+        this.columns = this.tableHeaders.map(header => header.key);
+    }
+    ngAfterViewInit() {
+        this.dataSource.paginator = this.paginator;
+        this.dataSource.sort = this.matSort;
+        // initial sort of dateStart
+        if (this.initialSort && this.columns.includes(this.initialSort.column)) {
+            this.matSort.sort({ id: '', start: 'asc', disableClear: true });
+            this.matSort.sort({ id: this.initialSort.column, start: this.initialSort.direction, disableClear: false });
+            const sortable = this.matSort.sortables.get(this.initialSort.column);
+            if (sortable) {
+                sortable._setAnimationTransitionState({ toState: 'active' });
+            }
+            this.cdr.detectChanges();
+        }
+    }
+    openVenueGalleryDrawer(item) {
+        this.store.dispatch(new _core_actions_app_actions__WEBPACK_IMPORTED_MODULE_4__["SetAppState"]({
+            drawer: {
+                showDrawer: true,
+                drawerName: 'venue-gallery-drawer',
+                drawerPayload: item
+            }
+        }));
+    }
+}
+VenuesTableComponent.ɵfac = function VenuesTableComponent_Factory(t) { return new (t || VenuesTableComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ngxs_store__WEBPACK_IMPORTED_MODULE_5__["Store"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"])); };
+VenuesTableComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VenuesTableComponent, selectors: [["sci-venues-table"]], viewQuery: function VenuesTableComponent_Query(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵviewQuery"](_angular_material_paginator__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"], true);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵviewQuery"](_angular_material_sort__WEBPACK_IMPORTED_MODULE_2__["MatSort"], true);
+    } if (rf & 2) {
+        var _t;
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.paginator = _t.first);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.matSort = _t.first);
+    } }, hostVars: 2, hostBindings: function VenuesTableComponent_HostBindings(rf, ctx) { if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.clsName);
+    } }, inputs: { initialSort: "initialSort", dataSource: "dataSource", tableHeaders: "tableHeaders" }, decls: 5, vars: 8, consts: [["aria-describedby", "table", "mat-table", "", "matSort", "", "matSortDisableClear", "", 3, "dataSource"], ["mat-header-row", "", 4, "matHeaderRowDef"], [3, "matColumnDef", 4, "ngFor", "ngForOf"], ["class", "data-row", "mat-row", "", 4, "matRowDef", "matRowDefColumns"], [3, "length", "pageSizeOptions", "pageSize"], ["mat-header-row", ""], [3, "matColumnDef"], ["scope", "col", "mat-header-cell", "", "mat-sort-header", "", 4, "matHeaderCellDef"], [3, "ngIf"], ["scope", "col", "mat-header-cell", "", "mat-sort-header", ""], [1, "sort"], [3, "ngClass"], ["mat-cell", "", 3, "ngStyle", 4, "matCellDef"], ["mat-cell", "", 3, "ngStyle"], [1, "icon", 3, "click"], ["target", "_blank", "rel", "noopener noreferrer", 3, "href"], ["aria-hidden", "true", "svgIcon", "file:download", 1, "icon"], ["mat-row", "", 1, "data-row"]], template: function VenuesTableComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "table", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, VenuesTableComponent_tr_1_Template, 1, 0, "tr", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, VenuesTableComponent_ng_container_2_Template, 5, 4, "ng-container", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, VenuesTableComponent_tr_3_Template, 1, 0, "tr", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "mat-paginator", 4);
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("dataSource", ctx.dataSource);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matHeaderRowDef", ctx.columns);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.tableHeaders);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matRowDefColumns", ctx.columns);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("length", ctx.dataSource.data.length)("pageSizeOptions", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](7, _c2))("pageSize", 5);
+    } }, directives: [_angular_material_table__WEBPACK_IMPORTED_MODULE_3__["MatTable"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_2__["MatSort"], _angular_material_table__WEBPACK_IMPORTED_MODULE_3__["MatHeaderRowDef"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgForOf"], _angular_material_table__WEBPACK_IMPORTED_MODULE_3__["MatRowDef"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"], _angular_material_table__WEBPACK_IMPORTED_MODULE_3__["MatHeaderRow"], _angular_material_table__WEBPACK_IMPORTED_MODULE_3__["MatColumnDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_3__["MatHeaderCellDef"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgIf"], _angular_material_table__WEBPACK_IMPORTED_MODULE_3__["MatHeaderCell"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_2__["MatSortHeader"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_7__["MatIcon"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgClass"], _angular_material_table__WEBPACK_IMPORTED_MODULE_3__["MatCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_3__["MatCell"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgStyle"], _angular_material_table__WEBPACK_IMPORTED_MODULE_3__["MatRow"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_6__["DatePipe"]], styles: ["[_nghost-%COMP%]   table[_ngcontent-%COMP%] {\n  width: 100%;\n}\n[_nghost-%COMP%]   table[_ngcontent-%COMP%]   tr[_ngcontent-%COMP%] {\n  height: 3.5rem;\n  border-bottom: 1px solid #fafafa;\n}\n[_nghost-%COMP%]   table[_ngcontent-%COMP%]   tr.sort-header[_ngcontent-%COMP%]   th[_ngcontent-%COMP%] {\n  border-bottom: none;\n  font-size: 16px;\n  font-weight: 500;\n}\n[_nghost-%COMP%]   table[_ngcontent-%COMP%]   tr.data-row[_ngcontent-%COMP%]:nth-child(odd) {\n  background-color: #f5f5f5;\n}\n[_nghost-%COMP%]   table[_ngcontent-%COMP%]   th[_ngcontent-%COMP%] {\n  padding-left: 1rem;\n  font-weight: bold;\n  font-size: 1rem;\n}\n[_nghost-%COMP%]   table[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\n  padding: 1rem;\n  border-bottom: none;\n}\n[_nghost-%COMP%]   table[_ngcontent-%COMP%]   td[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n  margin-right: 1rem;\n  color: #7997a3;\n}\n[_nghost-%COMP%]   table[_ngcontent-%COMP%]   td[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n}\n[_nghost-%COMP%]   .sort[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  cursor: pointer;\n  -webkit-user-select: none;\n          user-select: none;\n  -moz-user-select: none;\n  outline: none;\n}\n[_nghost-%COMP%]   .sort[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n  width: 36px;\n  height: 36px;\n  border-radius: 100%;\n  padding-top: 6px;\n  opacity: 0.4;\n  transform: scale(1);\n  transition: transform 200ms;\n  margin-left: 0.5rem;\n  color: #7997a3;\n}\n[_nghost-%COMP%]   .sort[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%]:hover {\n  background-color: #dce0e2;\n  transform: scale(1.1);\n}\n[_nghost-%COMP%]   .sort[_ngcontent-%COMP%]   .active[_ngcontent-%COMP%] {\n  opacity: 1;\n  transform: scale(1);\n}\n[_nghost-%COMP%]   .sort[_ngcontent-%COMP%]   .active[_ngcontent-%COMP%]:hover {\n  background-color: #dce0e2;\n  transform: scale(1.1);\n}\n[_nghost-%COMP%]   .sort[_ngcontent-%COMP%]   .active.reversed[_ngcontent-%COMP%] {\n  opacity: 1;\n  transform: scale(-1);\n}\n[_nghost-%COMP%]   .sort[_ngcontent-%COMP%]   .active.reversed[_ngcontent-%COMP%]:hover {\n  background-color: #dce0e2;\n  transform: scale(-1.1);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9zaGFyZWQvY29tcG9uZW50cy92ZW51ZXMtdGFibGUvdmVudWVzLXRhYmxlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNJO0VBQ0UsV0FBQTtBQUFOO0FBRU07RUFDRSxjQUFBO0VBQ0EsZ0NBQUE7QUFBUjtBQUdVO0VBQ0UsbUJBQUE7RUFFQSxlQUFBO0VBQ0EsZ0JBQUE7QUFGWjtBQU1VO0VBQ0UseUJBQUE7QUFKWjtBQVFNO0VBQ0Usa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGVBQUE7QUFOUjtBQVNNO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0FBUFI7QUFTUTtFQUNFLGtCQUFBO0VBQ0EsY0FBQTtBQVBWO0FBUVU7RUFDRSxlQUFBO0FBTlo7QUFjSTtFQUNFLGFBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFFQSxlQUFBO0VBQ0EseUJBQUE7VUFBQSxpQkFBQTtFQUNBLHNCQUFBO0VBQ0EsYUFBQTtBQWJOO0FBZU07RUFDRSxXQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0VBQ0EsZ0JBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7RUFDQSwyQkFBQTtFQUNBLG1CQUFBO0VBQ0EsY0FBQTtBQWJSO0FBY1E7RUFDRSx5QkFBQTtFQUNBLHFCQUFBO0FBWlY7QUFlTTtFQUNFLFVBQUE7RUFDQSxtQkFBQTtBQWJSO0FBY1E7RUFDRSx5QkFBQTtFQUNBLHFCQUFBO0FBWlY7QUFlTTtFQUNFLFVBQUE7RUFDQSxvQkFBQTtBQWJSO0FBY1E7RUFDRSx5QkFBQTtFQUNBLHNCQUFBO0FBWlYiLCJmaWxlIjoicHJvamVjdHMvc2NpbWFwcy9zcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL3ZlbnVlcy10YWJsZS92ZW51ZXMtdGFibGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XG4gICAgdGFibGUge1xuICAgICAgd2lkdGg6IDEwMCU7XG4gIFxuICAgICAgdHIge1xuICAgICAgICBoZWlnaHQ6IDMuNXJlbTtcbiAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNmYWZhZmE7XG4gIFxuICAgICAgICAmLnNvcnQtaGVhZGVyIHtcbiAgICAgICAgICB0aCB7XG4gICAgICAgICAgICBib3JkZXItYm90dG9tOiBub25lO1xuICAgICAgICAgICAgLy8gY29sb3I6ICM3OTk3YTM7XG4gICAgICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgICAgICBmb250LXdlaWdodDogNTAwO1xuICAgICAgICAgIH0gICAgICAgICAgICAgIFxuICAgICAgICB9XG4gICAgICAgICYuZGF0YS1yb3cge1xuICAgICAgICAgICY6bnRoLWNoaWxkKG9kZCkge1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Y1ZjVmNTtcbiAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICAgIHRoIHtcbiAgICAgICAgcGFkZGluZy1sZWZ0OiAxcmVtO1xuICAgICAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICAgICAgZm9udC1zaXplOiAxcmVtO1xuICAgICAgICAvLyBjb2xvcjogYmxhY2s7XG4gICAgICB9XG4gICAgICB0ZCB7XG4gICAgICAgIHBhZGRpbmc6IDFyZW07XG4gICAgICAgIGJvcmRlci1ib3R0b206IG5vbmU7XG4gIFxuICAgICAgICBtYXQtaWNvbiB7XG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAxcmVtO1xuICAgICAgICAgIGNvbG9yOiAjNzk5N2EzO1xuICAgICAgICAgICY6aG92ZXIge1xuICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgfVxuICAgICAgXG4gICAgfVxuICBcbiAgICAvLyBTb3J0IEljb25cbiAgICAuc29ydCB7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgIC8vIG1hcmdpbi1yaWdodDogMS41cmVtO1xuICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgdXNlci1zZWxlY3Q6IG5vbmU7XG4gICAgICAtbW96LXVzZXItc2VsZWN0OiBub25lO1xuICAgICAgb3V0bGluZTogbm9uZTtcbiAgXG4gICAgICBtYXQtaWNvbiB7XG4gICAgICAgIHdpZHRoOiAzNnB4O1xuICAgICAgICBoZWlnaHQ6IDM2cHg7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDEwMCU7XG4gICAgICAgIHBhZGRpbmctdG9wOiA2cHg7XG4gICAgICAgIG9wYWNpdHk6IDAuNDtcbiAgICAgICAgdHJhbnNmb3JtOiBzY2FsZSgxKTtcbiAgICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDIwMG1zO1xuICAgICAgICBtYXJnaW4tbGVmdDogMC41cmVtO1xuICAgICAgICBjb2xvcjogIzc5OTdhMztcbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2RjZTBlMjtcbiAgICAgICAgICB0cmFuc2Zvcm06IHNjYWxlKDEuMSk7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICAgIC5hY3RpdmUge1xuICAgICAgICBvcGFjaXR5OiAxO1xuICAgICAgICB0cmFuc2Zvcm06IHNjYWxlKDEpO1xuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZGNlMGUyO1xuICAgICAgICAgIHRyYW5zZm9ybTogc2NhbGUoMS4xKTtcbiAgICAgICAgfVxuICAgICAgfVxuICAgICAgLmFjdGl2ZS5yZXZlcnNlZCB7XG4gICAgICAgIG9wYWNpdHk6IDE7XG4gICAgICAgIHRyYW5zZm9ybTogc2NhbGUoLTEpO1xuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZGNlMGUyO1xuICAgICAgICAgIHRyYW5zZm9ybTogc2NhbGUoLTEuMSk7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbiAgIl19 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](VenuesTableComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'sci-venues-table',
+                templateUrl: './venues-table.component.html',
+                styleUrls: ['./venues-table.component.scss']
+            }]
+    }], function () { return [{ type: _ngxs_store__WEBPACK_IMPORTED_MODULE_5__["Store"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] }]; }, { clsName: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"],
+            args: ['class']
+        }], paginator: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"],
+            args: [_angular_material_paginator__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"]]
+        }], matSort: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"],
+            args: [_angular_material_sort__WEBPACK_IMPORTED_MODULE_2__["MatSort"]]
+        }], initialSort: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], dataSource: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], tableHeaders: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
+
+
+/***/ }),
+
 /***/ "lbFG":
 /*!***********************************************!*\
   !*** ./src/app/pages/venues/venues.module.ts ***!
@@ -1034,9 +1264,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _shared_components_search_overlay_search_overlay_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../shared/components/search-overlay/search-overlay.module */ "ErVL");
 /* harmony import */ var _shared_components_select_select_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../shared/components/select/select.module */ "DS98");
 /* harmony import */ var _shared_components_table_table_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../shared/components/table/table.module */ "8kBh");
-/* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../shared/shared.module */ "PCNd");
-/* harmony import */ var _venues_routing_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./venues-routing.module */ "tGu1");
-/* harmony import */ var _venues_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./venues.component */ "wpwP");
+/* harmony import */ var _shared_components_venues_table_venues_table_module__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../shared/components/venues-table/venues-table.module */ "puyp");
+/* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../shared/shared.module */ "PCNd");
+/* harmony import */ var _venues_routing_module__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./venues-routing.module */ "tGu1");
+/* harmony import */ var _venues_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./venues.component */ "wpwP");
+
 
 
 
@@ -1054,40 +1286,106 @@ class VenuesModule {
 VenuesModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: VenuesModule });
 VenuesModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function VenuesModule_Factory(t) { return new (t || VenuesModule)(); }, providers: [], imports: [[
             _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
-            _venues_routing_module__WEBPACK_IMPORTED_MODULE_9__["VenuesRoutingModule"],
+            _venues_routing_module__WEBPACK_IMPORTED_MODULE_10__["VenuesRoutingModule"],
             _angular_material_icon__WEBPACK_IMPORTED_MODULE_2__["MatIconModule"],
             _shared_components_accordian_accordian_module__WEBPACK_IMPORTED_MODULE_3__["AccordianModule"],
             _shared_components_table_table_module__WEBPACK_IMPORTED_MODULE_7__["TableModule"],
-            _shared_shared_module__WEBPACK_IMPORTED_MODULE_8__["SharedModule"],
+            _shared_shared_module__WEBPACK_IMPORTED_MODULE_9__["SharedModule"],
             _shared_components_select_select_module__WEBPACK_IMPORTED_MODULE_6__["SelectModule"],
             _shared_components_search_overlay_search_overlay_module__WEBPACK_IMPORTED_MODULE_5__["SearchOverlayModule"],
-            _shared_components_list_view_list_view_module__WEBPACK_IMPORTED_MODULE_4__["ListViewModule"]
+            _shared_components_list_view_list_view_module__WEBPACK_IMPORTED_MODULE_4__["ListViewModule"],
+            _shared_components_venues_table_venues_table_module__WEBPACK_IMPORTED_MODULE_8__["VenuesTableModule"]
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](VenuesModule, { declarations: [_venues_component__WEBPACK_IMPORTED_MODULE_10__["VenuesComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
-        _venues_routing_module__WEBPACK_IMPORTED_MODULE_9__["VenuesRoutingModule"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](VenuesModule, { declarations: [_venues_component__WEBPACK_IMPORTED_MODULE_11__["VenuesComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
+        _venues_routing_module__WEBPACK_IMPORTED_MODULE_10__["VenuesRoutingModule"],
         _angular_material_icon__WEBPACK_IMPORTED_MODULE_2__["MatIconModule"],
         _shared_components_accordian_accordian_module__WEBPACK_IMPORTED_MODULE_3__["AccordianModule"],
         _shared_components_table_table_module__WEBPACK_IMPORTED_MODULE_7__["TableModule"],
-        _shared_shared_module__WEBPACK_IMPORTED_MODULE_8__["SharedModule"],
+        _shared_shared_module__WEBPACK_IMPORTED_MODULE_9__["SharedModule"],
         _shared_components_select_select_module__WEBPACK_IMPORTED_MODULE_6__["SelectModule"],
         _shared_components_search_overlay_search_overlay_module__WEBPACK_IMPORTED_MODULE_5__["SearchOverlayModule"],
-        _shared_components_list_view_list_view_module__WEBPACK_IMPORTED_MODULE_4__["ListViewModule"]] }); })();
+        _shared_components_list_view_list_view_module__WEBPACK_IMPORTED_MODULE_4__["ListViewModule"],
+        _shared_components_venues_table_venues_table_module__WEBPACK_IMPORTED_MODULE_8__["VenuesTableModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](VenuesModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
-                declarations: [_venues_component__WEBPACK_IMPORTED_MODULE_10__["VenuesComponent"]],
+                declarations: [_venues_component__WEBPACK_IMPORTED_MODULE_11__["VenuesComponent"]],
                 imports: [
                     _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
-                    _venues_routing_module__WEBPACK_IMPORTED_MODULE_9__["VenuesRoutingModule"],
+                    _venues_routing_module__WEBPACK_IMPORTED_MODULE_10__["VenuesRoutingModule"],
                     _angular_material_icon__WEBPACK_IMPORTED_MODULE_2__["MatIconModule"],
                     _shared_components_accordian_accordian_module__WEBPACK_IMPORTED_MODULE_3__["AccordianModule"],
                     _shared_components_table_table_module__WEBPACK_IMPORTED_MODULE_7__["TableModule"],
-                    _shared_shared_module__WEBPACK_IMPORTED_MODULE_8__["SharedModule"],
+                    _shared_shared_module__WEBPACK_IMPORTED_MODULE_9__["SharedModule"],
                     _shared_components_select_select_module__WEBPACK_IMPORTED_MODULE_6__["SelectModule"],
                     _shared_components_search_overlay_search_overlay_module__WEBPACK_IMPORTED_MODULE_5__["SearchOverlayModule"],
-                    _shared_components_list_view_list_view_module__WEBPACK_IMPORTED_MODULE_4__["ListViewModule"]
+                    _shared_components_list_view_list_view_module__WEBPACK_IMPORTED_MODULE_4__["ListViewModule"],
+                    _shared_components_venues_table_venues_table_module__WEBPACK_IMPORTED_MODULE_8__["VenuesTableModule"]
                 ],
                 providers: []
+            }]
+    }], null, null); })();
+
+
+/***/ }),
+
+/***/ "puyp":
+/*!***********************************************************************!*\
+  !*** ./src/app/shared/components/venues-table/venues-table.module.ts ***!
+  \***********************************************************************/
+/*! exports provided: VenuesTableModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VenuesTableModule", function() { return VenuesTableModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "2kYt");
+/* harmony import */ var _venues_table_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./venues-table.component */ "aja8");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "nIj0");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/icon */ "bFHC");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/paginator */ "iAde");
+/* harmony import */ var _angular_material_sort__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/sort */ "cePI");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/table */ "FlRo");
+
+
+
+
+
+
+
+
+
+class VenuesTableModule {
+}
+VenuesTableModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: VenuesTableModule });
+VenuesTableModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function VenuesTableModule_Factory(t) { return new (t || VenuesTableModule)(); }, imports: [[
+            _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"],
+            _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatTableModule"],
+            _angular_material_paginator__WEBPACK_IMPORTED_MODULE_5__["MatPaginatorModule"],
+            _angular_material_sort__WEBPACK_IMPORTED_MODULE_6__["MatSortModule"],
+            _angular_material_icon__WEBPACK_IMPORTED_MODULE_4__["MatIconModule"]
+        ]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](VenuesTableModule, { declarations: [_venues_table_component__WEBPACK_IMPORTED_MODULE_2__["VenuesTableComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"],
+        _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatTableModule"],
+        _angular_material_paginator__WEBPACK_IMPORTED_MODULE_5__["MatPaginatorModule"],
+        _angular_material_sort__WEBPACK_IMPORTED_MODULE_6__["MatSortModule"],
+        _angular_material_icon__WEBPACK_IMPORTED_MODULE_4__["MatIconModule"]], exports: [_venues_table_component__WEBPACK_IMPORTED_MODULE_2__["VenuesTableComponent"]] }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](VenuesTableModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+        args: [{
+                declarations: [_venues_table_component__WEBPACK_IMPORTED_MODULE_2__["VenuesTableComponent"]],
+                imports: [
+                    _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"],
+                    _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatTableModule"],
+                    _angular_material_paginator__WEBPACK_IMPORTED_MODULE_5__["MatPaginatorModule"],
+                    _angular_material_sort__WEBPACK_IMPORTED_MODULE_6__["MatSortModule"],
+                    _angular_material_icon__WEBPACK_IMPORTED_MODULE_4__["MatIconModule"]
+                ],
+                exports: [_venues_table_component__WEBPACK_IMPORTED_MODULE_2__["VenuesTableComponent"]]
             }]
     }], null, null); })();
 
@@ -1154,14 +1452,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VenuesComponent", function() { return VenuesComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
 /* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/table */ "FlRo");
-/* harmony import */ var _constants_drawer_animations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../constants/drawer.animations */ "AY0P");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "sEIs");
-/* harmony import */ var _shared_components_select_select_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../shared/components/select/select.component */ "wnGv");
-/* harmony import */ var _shared_directives_breakpoint_directive__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../shared/directives/breakpoint.directive */ "EpdQ");
-/* harmony import */ var _shared_components_search_overlay_search_overlay_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../shared/components/search-overlay/search-overlay.component */ "XFsG");
-/* harmony import */ var _shared_components_accordian_accordian_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../shared/components/accordian/accordian.component */ "aDbL");
-/* harmony import */ var _shared_components_table_table_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../shared/components/table/table.component */ "Xv+k");
-/* harmony import */ var _shared_components_list_view_list_view_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../shared/components/list-view/list-view.component */ "fQZA");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "sEIs");
+/* harmony import */ var _shared_components_select_select_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../shared/components/select/select.component */ "wnGv");
+/* harmony import */ var _shared_directives_breakpoint_directive__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../shared/directives/breakpoint.directive */ "EpdQ");
+/* harmony import */ var _shared_components_search_overlay_search_overlay_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../shared/components/search-overlay/search-overlay.component */ "XFsG");
+/* harmony import */ var _shared_components_accordian_accordian_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../shared/components/accordian/accordian.component */ "aDbL");
+/* harmony import */ var _shared_components_table_table_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../shared/components/table/table.component */ "Xv+k");
+/* harmony import */ var _shared_components_list_view_list_view_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../shared/components/list-view/list-view.component */ "fQZA");
+/* harmony import */ var _shared_components_venues_table_venues_table_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../shared/components/venues-table/venues-table.component */ "aja8");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common */ "2kYt");
 
 
@@ -1175,26 +1473,27 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const _c0 = function () { return { column: "dateStart", direction: "desc" }; };
 function VenuesComponent_sci_table_5_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "sci-table", 11);
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("headersOnly", true)("dataSource", ctx_r0.dataSource)("tableHeaders", ctx_r0.sortHeaders);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("initialSort", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](4, _c0))("headersOnly", true)("dataSource", ctx_r0.dataSource)("tableHeaders", ctx_r0.sortHeaders);
 } }
-const _c0 = function () { return []; };
-const _c1 = function (a1) { return { type: "venues", items: a1, displayLimit: 6, showAllItems: false }; };
+const _c1 = function () { return []; };
+const _c2 = function (a1) { return { type: "venues", items: a1, displayLimit: 6, showAllItems: false }; };
 function VenuesComponent_sci_list_view_7_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "sci-list-view", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](1, "async");
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("config", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](4, _c1, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](1, 1, ctx_r1.dataSource.connect().asObservable()) || _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](3, _c0)));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("config", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](4, _c2, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](1, 1, ctx_r1.dataSource.connect().asObservable()) || _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](3, _c1)));
 } }
-function VenuesComponent_sci_table_8_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "sci-table", 13);
+function VenuesComponent_sci_venues_table_8_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "sci-venues-table", 13);
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("dataSource", ctx_r2.dataSource)("tableHeaders", ctx_r2.tableHeaders);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("initialSort", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](3, _c0))("dataSource", ctx_r2.dataSource)("tableHeaders", ctx_r2.tableHeaders);
 } }
 class VenuesComponent {
     constructor(activatedRoute) {
@@ -1272,10 +1571,10 @@ class VenuesComponent {
         this.dataSource.filter = filterString;
     }
 }
-VenuesComponent.ɵfac = function VenuesComponent_Factory(t) { return new (t || VenuesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"])); };
+VenuesComponent.ɵfac = function VenuesComponent_Factory(t) { return new (t || VenuesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"])); };
 VenuesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VenuesComponent, selectors: [["sci-venues"]], hostVars: 2, hostBindings: function VenuesComponent_HostBindings(rf, ctx) { if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.className);
-    } }, decls: 12, vars: 8, consts: [[1, "header1"], [1, "row"], [1, "group1"], [3, "select", "options", "selectChange"], [3, "headersOnly", "dataSource", "tableHeaders", 4, "sciBreakpoint"], [3, "search", "searchChange"], ["class", "venues-list", 3, "config", 4, "sciBreakpoint"], [3, "dataSource", "tableHeaders", 4, "sciBreakpoint"], [1, "divider"], [1, "spacer-48"], [3, "header", "content"], [3, "headersOnly", "dataSource", "tableHeaders"], [1, "venues-list", 3, "config"], [3, "dataSource", "tableHeaders"]], template: function VenuesComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 12, vars: 8, consts: [[1, "header1"], [1, "row"], [1, "group1"], [3, "select", "options", "selectChange"], [3, "initialSort", "headersOnly", "dataSource", "tableHeaders", 4, "sciBreakpoint"], [3, "search", "searchChange"], ["class", "venues-list", 3, "config", 4, "sciBreakpoint"], [3, "initialSort", "dataSource", "tableHeaders", 4, "sciBreakpoint"], [1, "divider"], [1, "spacer-48"], [3, "header", "content"], [3, "initialSort", "headersOnly", "dataSource", "tableHeaders"], [1, "venues-list", 3, "config"], [3, "initialSort", "dataSource", "tableHeaders"]], template: function VenuesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Venues");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1284,14 +1583,14 @@ VenuesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "sci-select", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("selectChange", function VenuesComponent_Template_sci_select_selectChange_4_listener($event) { return ctx.onSelectChange($event); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, VenuesComponent_sci_table_5_Template, 1, 3, "sci-table", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, VenuesComponent_sci_table_5_Template, 1, 5, "sci-table", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "sci-search-overlay", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("searchChange", function VenuesComponent_Template_sci_search_overlay_searchChange_6_listener($event) { return ctx.onSearchChange($event); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, VenuesComponent_sci_list_view_7_Template, 2, 6, "sci-list-view", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, VenuesComponent_sci_table_8_Template, 1, 2, "sci-table", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, VenuesComponent_sci_venues_table_8_Template, 1, 4, "sci-venues-table", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "hr", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "div", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "sci-accordian", 10);
@@ -1308,16 +1607,15 @@ VenuesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("sciBreakpoint", "desktop");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("header", ctx.body.accordianHeader)("content", ctx.body.accordianContent);
-    } }, directives: [_shared_components_select_select_component__WEBPACK_IMPORTED_MODULE_4__["SelectComponent"], _shared_directives_breakpoint_directive__WEBPACK_IMPORTED_MODULE_5__["BreakpointDirective"], _shared_components_search_overlay_search_overlay_component__WEBPACK_IMPORTED_MODULE_6__["SearchOverlayComponent"], _shared_components_accordian_accordian_component__WEBPACK_IMPORTED_MODULE_7__["AccordianComponent"], _shared_components_table_table_component__WEBPACK_IMPORTED_MODULE_8__["TableComponent"], _shared_components_list_view_list_view_component__WEBPACK_IMPORTED_MODULE_9__["ListViewComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_10__["AsyncPipe"]], styles: ["@media (max-width: 1248px) {\n  [_nghost-%COMP%]   .lazy-table[_ngcontent-%COMP%] {\n    display: none;\n  }\n}\n@media (min-width: 1248px) {\n  [_nghost-%COMP%]   .mobile-cards[_ngcontent-%COMP%] {\n    display: none;\n  }\n}\n[_nghost-%COMP%]   .row[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  padding: 0.5rem;\n}\n[_nghost-%COMP%]   .row[_ngcontent-%COMP%]   .group1[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  overflow: hidden;\n}\n[_nghost-%COMP%]   .row[_ngcontent-%COMP%]   .sci-search-overlay[_ngcontent-%COMP%] {\n  overflow: visible;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9wYWdlcy92ZW51ZXMvdmVudWVzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1JO0VBREY7SUFFSSxhQUFBO0VBSko7QUFDRjtBQU9JO0VBREY7SUFFSSxhQUFBO0VBSko7QUFDRjtBQU9FO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsV0FBQTtFQUNBLGVBQUE7QUFMSjtBQU9JO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsV0FBQTtFQUNBLGdCQUFBO0FBTE47QUFPSTtFQUNFLGlCQUFBO0FBTE4iLCJmaWxlIjoicHJvamVjdHMvc2NpbWFwcy9zcmMvYXBwL3BhZ2VzL3ZlbnVlcy92ZW51ZXMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkZGVza3RvcDogMTI0OHB4O1xuJHRhYmxldDogOTYwcHg7XG4kbW9iaWxlOiA2NDBweDtcblxuOmhvc3Qge1xuICAubGF6eS10YWJsZSB7XG4gICAgQG1lZGlhIChtYXgtd2lkdGg6ICRkZXNrdG9wKSB7XG4gICAgICBkaXNwbGF5OiBub25lO1xuICAgIH1cbiAgfVxuICAubW9iaWxlLWNhcmRzIHtcbiAgICBAbWVkaWEgKG1pbi13aWR0aDogJGRlc2t0b3ApIHtcbiAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgfVxuICB9XG5cbiAgLnJvdyB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHBhZGRpbmc6IDAuNXJlbTtcbiAgICAvLyBzZWxlY3QgYm94XG4gICAgLmdyb3VwMSB7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICB9XG4gICAgLnNjaS1zZWFyY2gtb3ZlcmxheSB7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICB9XG4gIH1cbn1cbiJdfQ== */"], data: { animation: [_constants_drawer_animations__WEBPACK_IMPORTED_MODULE_2__["isSearchOpenTrigger"]] } });
+    } }, directives: [_shared_components_select_select_component__WEBPACK_IMPORTED_MODULE_3__["SelectComponent"], _shared_directives_breakpoint_directive__WEBPACK_IMPORTED_MODULE_4__["BreakpointDirective"], _shared_components_search_overlay_search_overlay_component__WEBPACK_IMPORTED_MODULE_5__["SearchOverlayComponent"], _shared_components_accordian_accordian_component__WEBPACK_IMPORTED_MODULE_6__["AccordianComponent"], _shared_components_table_table_component__WEBPACK_IMPORTED_MODULE_7__["TableComponent"], _shared_components_list_view_list_view_component__WEBPACK_IMPORTED_MODULE_8__["ListViewComponent"], _shared_components_venues_table_venues_table_component__WEBPACK_IMPORTED_MODULE_9__["VenuesTableComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_10__["AsyncPipe"]], styles: ["@media (max-width: 1248px) {\n  [_nghost-%COMP%]   .lazy-table[_ngcontent-%COMP%] {\n    display: none;\n  }\n}\n@media (min-width: 1248px) {\n  [_nghost-%COMP%]   .mobile-cards[_ngcontent-%COMP%] {\n    display: none;\n  }\n}\n[_nghost-%COMP%]   .row[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  padding: 0.5rem;\n}\n[_nghost-%COMP%]   .row[_ngcontent-%COMP%]   .group1[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  overflow: hidden;\n}\n[_nghost-%COMP%]   .row[_ngcontent-%COMP%]   .sci-search-overlay[_ngcontent-%COMP%] {\n  overflow: visible;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9wYWdlcy92ZW51ZXMvdmVudWVzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1JO0VBREY7SUFFSSxhQUFBO0VBSko7QUFDRjtBQU9JO0VBREY7SUFFSSxhQUFBO0VBSko7QUFDRjtBQU9FO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsV0FBQTtFQUNBLGVBQUE7QUFMSjtBQU9JO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsV0FBQTtFQUNBLGdCQUFBO0FBTE47QUFPSTtFQUNFLGlCQUFBO0FBTE4iLCJmaWxlIjoicHJvamVjdHMvc2NpbWFwcy9zcmMvYXBwL3BhZ2VzL3ZlbnVlcy92ZW51ZXMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkZGVza3RvcDogMTI0OHB4O1xuJHRhYmxldDogOTYwcHg7XG4kbW9iaWxlOiA2NDBweDtcblxuOmhvc3Qge1xuICAubGF6eS10YWJsZSB7XG4gICAgQG1lZGlhIChtYXgtd2lkdGg6ICRkZXNrdG9wKSB7XG4gICAgICBkaXNwbGF5OiBub25lO1xuICAgIH1cbiAgfVxuICAubW9iaWxlLWNhcmRzIHtcbiAgICBAbWVkaWEgKG1pbi13aWR0aDogJGRlc2t0b3ApIHtcbiAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgfVxuICB9XG5cbiAgLnJvdyB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHBhZGRpbmc6IDAuNXJlbTtcbiAgICAvLyBzZWxlY3QgYm94XG4gICAgLmdyb3VwMSB7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICB9XG4gICAgLnNjaS1zZWFyY2gtb3ZlcmxheSB7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICB9XG4gIH1cbn1cbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](VenuesComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
                 selector: 'sci-venues',
                 templateUrl: './venues.component.html',
-                styleUrls: ['./venues.component.scss'],
-                animations: [_constants_drawer_animations__WEBPACK_IMPORTED_MODULE_2__["isSearchOpenTrigger"]],
+                styleUrls: ['./venues.component.scss']
             }]
-    }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"] }]; }, { className: [{
+    }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }]; }, { className: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"],
             args: ['class']
         }] }); })();

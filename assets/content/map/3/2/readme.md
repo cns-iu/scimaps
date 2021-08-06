@@ -43,7 +43,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-03-02/
-  externalLink: 'http://www.oilposter.org/'
+  externalLink: 'https://scimaps.org/maps/map/the_oil_age_world_oi_73/detail'
 es:
   title: 'La era del petróleo: producción mundial de 1859 a 2050'
   body: >-

@@ -54,7 +54,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-06-05/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/mapping_the_archive__117/detail'
 es:
   title: 'Mapeando el Archivo: Prix Ars Electronica, por Dietmar Offenhuber'
   body: >-

@@ -45,7 +45,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-03-04/
-  externalLink: 'http://www.logicaland.net/'
+  externalLink: 'https://scimaps.org/maps/map/logicaland_participa_74/detail'
 es:
   title: '[./logicaland] Simulación participativa global'
   body: >-

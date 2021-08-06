@@ -40,7 +40,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-01-08/
-  externalLink: 'http://blogs.msdn.com/onoj/archive/2004/06/22/162963.aspx'
+  externalLink: 'https://scimaps.org/maps/map/treemap_view_of_2004_57/detail'
 es:
   title: Vista de diagrama de árbol de los visitantes que retornan a Usenet en 2004
   body: >-

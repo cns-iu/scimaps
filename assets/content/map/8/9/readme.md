@@ -38,7 +38,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-08-09/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/language_communities_146/detail'
 es:
   title: Comunidades lingüísticas de Twitter
   body: >-

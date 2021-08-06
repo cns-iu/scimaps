@@ -47,5 +47,5 @@ en:
     sm: image.sm.jpg
     med: image.med.jpg
     lg: image.lg.jpg
-  externalLink: null
+  externalLink: 'http://kimalbrecht.com/project/science-paths'
 ---

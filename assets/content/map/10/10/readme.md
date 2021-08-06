@@ -42,7 +42,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-10-10/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/interstitial_organiz_181/detail'
 es:
   title: Organizaciones intersticiales como puentes de charla
   body: >-

@@ -43,7 +43,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-07-02/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/a_chart_illustrating_124/detail'
 es:
   title: >-
     Un mapa que ilustra algunas de la relaciones entre las ramas de las ciencias

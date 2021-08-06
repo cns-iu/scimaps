@@ -18,7 +18,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-01-01/"
       },
-      "externalLink": "http://www.newberry.org/"
+      "externalLink": "https://scimaps.org/maps/map/cosmographia_world_m_95/detail"
     },
     "es": {
       "title": "Mapa del mundo Cosmographia",
@@ -65,7 +65,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-01-10/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/the_structure_of_sci_59/detail"
     },
     "es": {
       "title": "La estructura de la ciencia",
@@ -111,7 +111,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-01-02/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/nova_anglia_novvm_be_26/detail"
     },
     "es": {
       "title": "Nova Anglia, Novvm Belgivm et Virginia",
@@ -157,7 +157,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-01-03/"
       },
-      "externalLink": "http://www.davidrumsey.com/maps4691.html"
+      "externalLink": "https://scimaps.org/maps/map/a_new_map_of_the_who_25/detail"
     },
     "es": {
       "title": "Un nuevo mapa total del mundo con los vientos alisios de acuerdo a las últimas y más exactas observaciones",
@@ -203,7 +203,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-01-04/"
       },
-      "externalLink": "http://www.edwardtufte.com/tufte/posters"
+      "externalLink": "https://scimaps.org/maps/map/napoleons_march_to_m_9/detail"
     },
     "es": {
       "title": "La marcha de Napoleón a Moscú",
@@ -249,7 +249,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-01-05/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/1996_map_of_science__30/detail"
     },
     "es": {
       "title": "Mapa de la Ciencia de 1996: Una Representación de Red de los 43 Grupos de Cuarto Nivel Basados en Información del Indice de Citas  Cientificas de 1996",
@@ -295,7 +295,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-01-06/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/phd_thesis_map_94/detail"
     },
     "es": {
       "title": "Mapa de tesis de doctorado",
@@ -341,7 +341,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-01-07/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/timeline_of_60_years_58/detail"
     },
     "es": {
       "title": " Línea de tiempo de 60 años de literatura de investigación sobre el ántrax",
@@ -388,7 +388,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-01-08/"
       },
-      "externalLink": "http://blogs.msdn.com/onoj/archive/2004/06/22/162963.aspx"
+      "externalLink": "https://scimaps.org/maps/map/treemap_view_of_2004_57/detail"
     },
     "es": {
       "title": "Vista de diagrama de árbol de los visitantes que retornan a Usenet en 2004",
@@ -434,7 +434,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-01-09/"
       },
-      "externalLink": "http://geography.sdsu.edu/People/Faculty/skupin.html"
+      "externalLink": "https://scimaps.org/maps/map/in_terms_of_geograph_92/detail"
     },
     "es": {
       "title": "En términos de Geografía",
@@ -480,7 +480,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-10-01/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/being_a_map_of_physi_171/detail"
     },
     "es": {
       "title": "Ser un mapa de física",
@@ -536,7 +536,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-10-10/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/interstitial_organiz_181/detail"
     },
     "es": {
       "title": "Organizaciones intersticiales como puentes de charla",
@@ -590,7 +590,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-10-02/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/map_of_the_internet_172/detail"
     },
     "es": {
       "title": "Mapa de Internet",
@@ -656,7 +656,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-10-03/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/predict_healthmap_173/detail"
     },
     "es": {
       "title": "PREDICT: Mapa sanitario",
@@ -711,7 +711,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-10-04/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/orbis_174/detail"
     },
     "es": {
       "title": "ORBIS",
@@ -765,7 +765,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-10-05/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/money_176/detail"
     },
     "es": {
       "title": "DINERO",
@@ -822,7 +822,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-10-06/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/the_linguistic_conte_177/detail"
     },
     "es": {
       "title": "El contexto lingüístico de las citas",
@@ -878,7 +878,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-10-07/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/visual_funding_portf_178/detail"
     },
     "es": {
       "title": "Porfolios de financiamiento visuals",
@@ -936,7 +936,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-10-08/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/mapping_graphene_sci_179/detail"
     },
     "es": {
       "title": "Cartografía de la ciencia y desarrollo del grafeno: Investigación enfocada a las múltiples áreas de aplicación",
@@ -991,7 +991,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-10-09/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/exploring_the_relati_180/detail"
     },
     "es": {
       "title": "Explorando las relaciones entre un mapa de altruismo y un mapa de ciencia",
@@ -1045,7 +1045,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-02-01/"
       },
-      "externalLink": "http://www.ntia.doc.gov/osmhome/allochrt.html"
+      "externalLink": "https://scimaps.org/maps/map/us_frequency_allocat_76/detail"
     },
     "es": {
       "title": "Mapa de asignación de frecuencias de EE.UU, de la Administración Nacional de Telecomunicaciones e Información  ",
@@ -1091,7 +1091,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-02-10/"
       },
-      "externalLink": "http://www.worldprocessor.org/"
+      "externalLink": "https://scimaps.org/maps/map/zones_of_invention___38/detail"
     },
     "es": {
       "title": "PROCESAMUNDO: Zonas de Invención—patrones de Patentes",
@@ -1138,7 +1138,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-02-02/"
       },
-      "externalLink": "http://www.rsc.org/periodic-table"
+      "externalLink": "https://scimaps.org/maps/map/visual_elements_peri_77/detail"
     },
     "es": {
       "title": "Tabla periódica visual de los elementos",
@@ -1185,7 +1185,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-02-03/"
       },
-      "externalLink": "http://www.davidrumsey.com/"
+      "externalLink": "https://scimaps.org/maps/map/cartographica_extrao_37/detail"
     },
     "es": {
       "title": "Cartographica Extraordinaire: el mapa histórico transformado",
@@ -1231,7 +1231,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-02-04/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/sky_chart_of_new_yor_78/detail"
     },
     "es": {
       "title": "Mapa del cielo de la ciudad de Nueva York en abril  2006",
@@ -1281,7 +1281,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-02-05/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/histcite_visualizati_52/detail"
     },
     "es": {
       "title": "HistCite™ Visualización del Desarrollo del ADN",
@@ -1328,7 +1328,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-02-06/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/history_flow_visuali_56/detail"
     },
     "es": {
       "title": "Visualización del flujo histórico de la entrada “aborto”",
@@ -1374,7 +1374,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-02-07/"
       },
-      "externalLink": "http://www.textarc.org/"
+      "externalLink": "https://scimaps.org/maps/map/textarc_visualizatio_53/detail"
     },
     "es": {
       "title": "Visualización TextArc de la Historia de la ciencia",
@@ -1424,7 +1424,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-02-08/"
       },
-      "externalLink": "http://ivl.slis.indiana.edu/km/pub/2007-borner-taxo.pdf"
+      "externalLink": "https://scimaps.org/maps/map/taxonomy_visualizati_54/detail"
     },
     "es": {
       "title": "Clasificación visual de la información sobre patentes",
@@ -1471,7 +1471,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-02-09/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/map_of_scientific_pa_55/detail"
     },
     "es": {
       "title": "Mapa de paradigmas científicos",
@@ -1520,7 +1520,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-03-01/"
       },
-      "externalLink": "http://jules.unavco.org/"
+      "externalLink": "https://scimaps.org/maps/map/tectonic_movements_a_23/detail"
     },
     "es": {
       "title": "Movimientos tectónicos y pronósticos de riesgo de terremotos",
@@ -1566,7 +1566,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-03-10/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/hypothetical_model_o_51/detail"
     },
     "es": {
       "title": "Modelo hipotético de la evolución y la estructura de la ciencia",
@@ -1615,7 +1615,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-03-02/"
       },
-      "externalLink": "http://www.oilposter.org/"
+      "externalLink": "https://scimaps.org/maps/map/the_oil_age_world_oi_73/detail"
     },
     "es": {
       "title": "La era del petróleo: producción mundial de 1859 a 2050",
@@ -1663,7 +1663,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-03-03/"
       },
-      "externalLink": "http://cxnets.googlepages.com/"
+      "externalLink": "https://scimaps.org/maps/map/impact_of_air_travel_24/detail"
     },
     "es": {
       "title": "Impacto del tráfico aéreo en la propagación global de enfermedades infecciosas",
@@ -1720,7 +1720,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-03-04/"
       },
-      "externalLink": "http://www.logicaland.net/"
+      "externalLink": "https://scimaps.org/maps/map/logicaland_participa_74/detail"
     },
     "es": {
       "title": "[./logicaland] Simulación participativa global",
@@ -1769,7 +1769,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-03-05/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/_science__technology_75/detail"
     },
     "es": {
       "title": "Perspectivas de ciencia y tecnología: 2005-2055",
@@ -1819,7 +1819,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-03-06/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/113_years_of_physica_60/detail"
     },
     "es": {
       "title": "113 años de reseñas de Física",
@@ -1870,7 +1870,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-03-07/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/mapping_the_universe_61/detail"
     },
     "es": {
       "title": "Cartografiando el universo : Espacio, tiempo, y descubrimiento!",
@@ -1919,7 +1919,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-03-08/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/science_related_wiki_49/detail"
     },
     "es": {
       "title": "Actividad de Wikipedia relacionada con la ciencia",
@@ -1966,7 +1966,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-03-09/"
       },
-      "externalLink": "http://www.mapofscience.com/"
+      "externalLink": "hhttps://scimaps.org/maps/map/maps_of_science_fore_50/detail"
     },
     "es": {
       "title": "Mapas de la ciencia: pronosticando grandes tendencias en la ciencia",
@@ -2012,7 +2012,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-04-01/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/europe_raw_cotton_im_3/detail"
     },
     "es": {
       "title": "Importaciones de algodón crudo a Inglaterra en 1858, 1864 y 1865",
@@ -2059,7 +2059,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-04-10/"
       },
-      "externalLink": "http://nationalgeographic.com/earthpulse"
+      "externalLink": "https://scimaps.org/maps/map/a_global_projection__2/detail"
     },
     "es": {
       "title": "Una proyección global del bienestar subjetivo",
@@ -2106,7 +2106,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-04-02/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/shrinking_of_our_pla_39/detail"
     },
     "es": {
       "title": "La reducción de nuestro mundo",
@@ -2152,7 +2152,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-04-03/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/tracing_of_key_event_4/detail"
     },
     "es": {
       "title": "Rastreando los eventos clave en el desarrollo de la grabadora de cinta de video",
@@ -2198,7 +2198,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-04-04/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/bill_clinton_the_lip_40/detail"
     },
     "es": {
       "title": "La Corporación Internacional de Finanzas",
@@ -2246,7 +2246,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-04-05/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/examining_the_evolut_41/detail"
     },
     "es": {
       "title": "Examinando la evolución y distribución de las clasificaciones de patentes",
@@ -2298,7 +2298,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-04-06/"
       },
-      "externalLink": "http://www.worldmapper.org/"
+      "externalLink": "https://scimaps.org/maps/map/ecological_footprint_42/detail"
     },
     "es": {
       "title": "La huella ecológica",
@@ -2347,7 +2347,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-04-07/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/the_product_space_5/detail"
     },
     "es": {
       "title": "El espacio de los productos",
@@ -2395,7 +2395,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-04-08/"
       },
-      "externalLink": "http://www.grouppartners.net/"
+      "externalLink": "https://scimaps.org/maps/map/4d_the_structured_vi_43/detail"
     },
     "es": {
       "title": "4D™. El enfoque visual estructurado para la resolución de asuntos de negocios",
@@ -2442,7 +2442,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-04-09/"
       },
-      "externalLink": "http://www.mapofscience.com/"
+      "externalLink": "https://scimaps.org/maps/map/the_scientific_roots_44/detail"
     },
     "es": {
       "title": "Las raíces científicas de la tecnología",
@@ -2488,7 +2488,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-05-01/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/science_and_society__91/detail"
     },
     "es": {
       "title": "Ciencia y sociedad en equilibrio",
@@ -2535,7 +2535,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-05-10/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/the_millennium_devel_90/detail"
     },
     "es": {
       "title": "El mapa de los objetivos de desarrollo del milenio",
@@ -2581,7 +2581,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-05-02/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/networks_of_scientif_82/detail"
     },
     "es": {
       "title": " Redes de comunicación científica",
@@ -2629,7 +2629,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-05-03/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/realigning_the_bosto_88/detail"
     },
     "es": {
       "title": "Realineando el esquema de separación del tráfico de Boston para reducir los riesgos de colisión de los barcos con las ballenas barbadas",
@@ -2677,7 +2677,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-05-04/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/mobile_landscapes_us_87/detail"
     },
     "es": {
       "title": "Paisajes móviles: Utilización de los datos de localización en los teléfonos celulares para el análisis urbano",
@@ -2723,7 +2723,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-05-05/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/death_and_taxes_2009_85/detail"
     },
     "es": {
       "title": "Muerte e impuestos 2009",
@@ -2769,7 +2769,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-05-06/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/chemical_rd_powers_t_89/detail"
     },
     "es": {
       "title": "I&D en la Química Impulsa el motor de la innovación en los EE.UU.",
@@ -2818,7 +2818,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-05-07/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/a_topic_map_of_nih_g_84/detail"
     },
     "es": {
       "title": "Un mapa tópico de subvenciones NIH 2007",
@@ -2870,7 +2870,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-05-08/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/a_clickstream_map_of_83/detail"
     },
     "es": {
       "title": " Un mapa científico de la navigación por internet (datos clickstream)",
@@ -2917,7 +2917,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-05-09/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/us_vulnerabilities_i_86/detail"
     },
     "es": {
       "title": "Vulnerabilidades en la ciencia en los EE.UU.",
@@ -2967,7 +2967,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-06-01/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/tree_of_life_113/detail"
     },
     "es": {
       "title": "Árbol de la vida",
@@ -3014,7 +3014,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-06-10/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/us_job_market_where__122/detail"
     },
     "es": {
       "title": "Mercado de trabajo en EE.UU.: ¿Dónde están los puestos académicos?",
@@ -3061,7 +3061,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-06-02/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/the_human_connectome_115/detail"
     },
     "es": {
       "title": "El conectoma humano",
@@ -3108,7 +3108,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-06-03/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/diseasome_114/detail"
     },
     "es": {
       "title": "Red de morbidez o “enfermesoma”:  relaciones de conjunto de las enfermedades humanas",
@@ -3156,7 +3156,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-06-04/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/speechome_116/detail"
     },
     "es": {
       "title": "Red del habla humana o “speechome.”",
@@ -3206,7 +3206,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-06-05/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/mapping_the_archive__117/detail"
     },
     "es": {
       "title": "Mapeando el Archivo: Prix Ars Electronica, por Dietmar Offenhuber",
@@ -3252,7 +3252,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-06-06/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/knowledge_cartograph_120/detail"
     },
     "es": {
       "title": "Cartografía del conocimiento",
@@ -3303,7 +3303,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-06-07/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/literary_empires_map_118/detail"
     },
     "es": {
       "title": " Imperios literarios: Un mapa de la escena temporal y espacial de la poesía victoriana",
@@ -3349,7 +3349,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-06-08/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/the_emergence_of_nan_121/detail"
     },
     "es": {
       "title": "La emergencia de la nanociencia y la tecnología",
@@ -3396,7 +3396,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-06-09/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/weaving_the_fabric_o_119/detail"
     },
     "es": {
       "title": "Tejiendo la trama de la ciencia",
@@ -3442,7 +3442,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-07-01/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/mondoth%C3%83%C2%A8que_multimed_123/detail"
     },
     "es": {
       "title": "Mundoteca: Escritorio multimedia en un internet global",
@@ -3488,7 +3488,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-07-10/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/history_of_science_f_132/detail"
     },
     "es": {
       "title": "La historia de la Ciencia Ficción",
@@ -3542,7 +3542,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-07-02/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/a_chart_illustrating_124/detail"
     },
     "es": {
       "title": "Un mapa que ilustra algunas de la relaciones entre las ramas de las ciencias naturales y la tecnología",
@@ -3589,7 +3589,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-07-03/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/visualizing_bible_cr_125/detail"
     },
     "es": {
       "title": "Visualizando referencias cruzadas en la Biblia",
@@ -3635,7 +3635,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-07-04/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/finding_research_lit_126/detail"
     },
     "es": {
       "title": " En busca de literatura de investigacón sobre el autismo",
@@ -3684,7 +3684,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-07-05/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/design_vs_emergence__127/detail"
     },
     "es": {
       "title": "Diseño vs. emergencia: Visualización de los órdenes del conocimiento",
@@ -3738,7 +3738,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-07-06/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/stream_of_scientific_128/detail"
     },
     "es": {
       "title": "La corriente de colaboraciones científicas entre ciudades del mundo",
@@ -3792,7 +3792,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-07-07/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/the_census_of_antiqu_129/detail"
     },
     "es": {
       "title": "El censo de obras de arte y arquitectura antigua del Renacimiento, 1947-2005",
@@ -3847,7 +3847,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-07-08/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/seeing_standards_a_v_130/detail"
     },
     "es": {
       "title": " Visualizando estándares: el universo de los metadatos, por Devin Becker y Jenn Riley",
@@ -3901,7 +3901,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-07-09/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/mace_classification__131/detail"
     },
     "es": {
       "title": "Taxonomía de clasificación MACE",
@@ -3955,7 +3955,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-08-01/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/time_spiral_138/detail"
     },
     "es": {
       "title": "Una espiral del tiempo geológico: camino hacia el pasado",
@@ -4010,7 +4010,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-08-10/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/khan_academy_library_147/detail"
     },
     "es": {
       "title": "Panorama de la biblioteca de la Academia Khan",
@@ -4064,7 +4064,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-08-02/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/movie_narrative_char_149/detail"
     },
     "es": {
       "title": "Gráficos de narrativas fílmicas (Cómic #657)",
@@ -4111,7 +4111,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-08-03/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/metropolitan_museum__140/detail"
     },
     "es": {
       "title": "Mapa familiar del Metropolitan Museum of Art",
@@ -4158,7 +4158,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-08-04/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/left_vs_right_politi_141/detail"
     },
     "es": {
       "title": "Espectro político de izquierdas frente a espectro político de derechas",
@@ -4205,7 +4205,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-08-05/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/gapminder_world_map_142/detail"
     },
     "es": {
       "title": "Mapa del mundo de Gapminder",
@@ -4261,7 +4261,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-08-06/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/knowledge_web_143/detail"
     },
     "es": {
       "title": "Web del Conocimiento",
@@ -4317,7 +4317,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-08-07/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/manga_universe_144/detail"
     },
     "es": {
       "title": "Universo Manga",
@@ -4374,7 +4374,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-08-08/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/the_fundamental_inte_145/detail"
     },
     "es": {
       "title": "La interconexión fundamental de todas las cosas",
@@ -4428,7 +4428,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-08-09/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/language_communities_146/detail"
     },
     "es": {
       "title": "Comunidades lingüísticas de Twitter",
@@ -4485,7 +4485,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-09-01/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/nasa_views_our_perpe_150/detail"
     },
     "es": {
       "title": "La NASA observa el movimiento perpétuo del océano",
@@ -4540,7 +4540,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-09-10/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/science_phylomemy_159/detail"
     },
     "es": {
       "title": "Filomemia de la ciencia",
@@ -4586,7 +4586,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-09-02/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/hurricanes__tropical_151/detail"
     },
     "es": {
       "title": "Huracanes y tormentas Tropicales—Lugares e intensidades desde 1851",
@@ -4645,7 +4645,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-09-03/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/state_of_the_polar_b_152/detail"
     },
     "es": {
       "title": "El estado del oso polar",
@@ -4695,7 +4695,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-09-04/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/pulse_of_the_nation_153/detail"
     },
     "es": {
       "title": "El pulso de la nación",
@@ -4741,7 +4741,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-09-05/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/map_of_complexity_sc_154/detail"
     },
     "es": {
       "title": "5 El mapa de la complejidad de la ciencia",
@@ -4789,7 +4789,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-09-06/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/visualizing_trends_a_155/detail"
     },
     "es": {
       "title": "Visualizando tendencias y dinámicas: 30 años de desarrollo científico",
@@ -4840,7 +4840,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-09-07/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/the_hewlett_foundati_156/detail"
     },
     "es": {
       "title": "El visualizador de subvenciones  de la Fundación Hewlett",
@@ -4897,7 +4897,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-09-08/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/who_really_matters_i_157/detail"
     },
     "es": {
       "title": "Quién es verdaderamente importante en el mundo—Redes de liderazgo en las distintas versiones lingüísticas de Wikipedia",
@@ -4953,7 +4953,7 @@
         "lg": "image.lg.jpg",
         "tiles": "content/tiles/it-09-09/"
       },
-      "externalLink": null
+      "externalLink": "https://scimaps.org/maps/map/identifying_emerging_158/detail"
     },
     "es": {
       "title": "9 Identificando temas emergentes en ciencia y tecnología",

@@ -56,7 +56,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-09-03/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/state_of_the_polar_b_152/detail'
 es:
   title: El estado del oso polar
   body: >-

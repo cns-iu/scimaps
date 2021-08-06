@@ -37,7 +37,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-03-10/
-  externalLink: null
+  externalLink: 'https://scimaps.org/maps/map/hypothetical_model_o_51/detail'
 es:
   title: Modelo hipotético de la evolución y la estructura de la ciencia
   body: >-

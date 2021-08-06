@@ -45,7 +45,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-03-01/
-  externalLink: 'http://jules.unavco.org/'
+  externalLink: 'https://scimaps.org/maps/map/tectonic_movements_a_23/detail'
 es:
   title: Movimientos tectónicos y pronósticos de riesgo de terremotos
   body: >-
