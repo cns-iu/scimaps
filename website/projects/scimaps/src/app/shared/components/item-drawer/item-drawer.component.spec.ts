@@ -104,7 +104,7 @@ describe('ItemDrawerComponent', () => {
   it('should close after 500ms', fakeAsync(() => {
     const spy = spyOn(router, 'navigate');
     component.close();
-    tick(500)
+    tick(500);
     expect(spy).toHaveBeenCalled();
   }));
 });

@@ -8,8 +8,8 @@ import { Component, EventEmitter, HostBinding, Input, OnInit, Output } from '@an
 })
 export class DrawerHeaderComponent implements OnInit {
 
-  @HostBinding('class') className = 'sci-drawer-header'
-  
+  @HostBinding('class') className = 'sci-drawer-header';
+
   @Input() title = '';
   @Output() backClick: EventEmitter<string> = new EventEmitter();
 

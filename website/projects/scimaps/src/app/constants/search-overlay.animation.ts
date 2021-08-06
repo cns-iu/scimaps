@@ -1,4 +1,4 @@
-import { animate, style, transition, trigger } from "@angular/animations";
+import { animate, style, transition, trigger } from '@angular/animations';
 
 export const isSearchOpenTrigger = trigger('isSearchOpenTrigger', [
     transition(':enter', [
@@ -27,4 +27,3 @@ export const isSearchOpenTrigger = trigger('isSearchOpenTrigger', [
       ),
     ]),
   ]);
-  

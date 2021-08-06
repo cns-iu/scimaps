@@ -89,7 +89,7 @@ export class ItemDrawerComponent implements OnInit {
     }}));
   }
 
-  redirect(link: string) {
+  redirect(link: string): void {
     if (link) {
       window.open(link, '_blank');
     }

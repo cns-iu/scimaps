@@ -35,7 +35,7 @@ export class HeaderComponent implements OnInit {
   contactStream: Subject<Params> = new Subject<Params>();
   @Select(PageState.drawer) drawer$!: Observable<Params>;
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.exhibitStream.pipe(
       debounceTime(100),
       distinctUntilChanged(),
@@ -71,8 +71,8 @@ export class HeaderComponent implements OnInit {
     });
   }
 
-  mouseEvents(e: Event, index: number) {
-    if (index == 0) {
+  mouseEvents(e: Event, index: number): void {
+    if (index === 0) {
       this.exhibitStream.next({ type: e.type, event: e, index });
     } else {
       this.contactStream.next({ type: e.type, event: e, index });

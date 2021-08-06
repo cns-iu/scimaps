@@ -231,7 +231,7 @@ export const slideWithTransform = trigger('routeAnimations', [
         'max-width': '80rem',
         background: 'white',
         'z-index': 2,
-        'width': '100%',
+        width: '100%',
         'overflow-y': 'scroll'
       })
     ),
@@ -262,7 +262,7 @@ export const slideWithTransform = trigger('routeAnimations', [
         'margin-top': '1rem',
         background: 'white',
         padding: '0 1rem',
-        'width': '100%',
+        width: '100%',
         'overflow-y': 'scroll',
         'z-index': 2
       })

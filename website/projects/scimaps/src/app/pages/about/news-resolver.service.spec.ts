@@ -13,7 +13,7 @@ function getNewsItems(
   const newsItems: NewsItem[] = [];
   for (let i = 0; i <= numberOfNewsItems; i++) {
     newsItems.push({
-      date: date,
+      date,
       title: `Title ${i}`,
       publication: `Pub ${i}`,
       pdfLink: `pdfLink/${i}`,

@@ -55,7 +55,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
     }
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     // Scroll retention code
     this.router.events.pipe(
       filter((e) => e instanceof RoutesRecognized),
@@ -72,8 +72,6 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
         setTimeout(() => {
           this.sidenavContainer.scrollable.scrollTo({ top: this.scrollPositions[(current as RoutesRecognized).url] || 0, left: 0 });
         }, 200);
-      } else {
-        this.sidenavContainer.scrollable.scrollTo({ top: 0, left: 0 });
       }
     });
   }

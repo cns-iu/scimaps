@@ -11,7 +11,7 @@ import { NewsItemModule } from './news-item.module';
 
 const testItem: NewsItem = {
   title: 'test title',
-  date: "2002-01-01",
+  date: '2002-01-01',
   publication: 'test publication',
   institution: 'test institution',
   thumbnail: 'test thumbnail',
@@ -23,7 +23,7 @@ describe('NewsItemComponent', () => {
   let component: NewsItemComponent;
   let fixture: ComponentFixture<NewsItemComponent>;
   let el: DebugElement;
-  let pipe = new DatePipe('en-EN');
+  const pipe = new DatePipe('en-EN');
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ NewsItemComponent ],
@@ -38,7 +38,7 @@ describe('NewsItemComponent', () => {
     el = fixture.debugElement;
     fixture.detectChanges();
   });
-  
+
   it('Should have correct data', () => {
     component.item = testItem;
     fixture.detectChanges();

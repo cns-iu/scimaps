@@ -21,7 +21,7 @@ export class LearningMaterialComponent implements OnInit {
     });
   }
 
-  goBack() {
+  goBack(): void {
     this.router.navigate(['/hosting'], {state: {direction: 'backward'}});
   }
 }
