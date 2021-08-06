@@ -16,7 +16,7 @@ import { PageState } from '../../state/page/page.state';
   styleUrls: ['./header.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class HeaderComponent implements OnInit, AfterViewInit {
+export class HeaderComponent implements OnInit {
   /** HTML classes */
   @HostBinding('class') readonly clsName = 'sci-header mat-display-3';
 
@@ -77,10 +77,5 @@ export class HeaderComponent implements OnInit, AfterViewInit {
     } else {
       this.contactStream.next({ type: e.type, event: e, index });
     }
-  }
-  
-  ngAfterViewInit(): void {
-    console.log(this.exhibitTrigger);
-    console.log(this.contactTrigger);
   }
 }
