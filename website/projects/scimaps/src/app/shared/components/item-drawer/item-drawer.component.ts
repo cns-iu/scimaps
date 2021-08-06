@@ -41,7 +41,7 @@ export class ItemDrawerComponent implements OnInit {
   selectedLanguage = 'en';
   showDrawer = false;
 
-  constructor(private activatedRoute: ActivatedRoute, private readonly dialog: MatDialog, private router: Router, private store: Store) { }
+  constructor(private dialog: MatDialog, private router: Router, private store: Store) { }
   ngOnInit(): void {
     this.showDrawer = true;
   }

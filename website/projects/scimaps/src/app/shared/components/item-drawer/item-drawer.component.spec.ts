@@ -1,7 +1,11 @@
-import { MatDialog, MatDialogRef } from '@angular/material/dialog';
-import { ActivatedRoute, Router } from '@angular/router';
-import { Store } from '@ngxs/store';
-import { Shallow } from 'shallow-render';
+import { DebugElement } from '@angular/core';
+import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { Router } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing';
+import { NgxsModule } from '@ngxs/store';
+import { MarkdownModule } from 'ngx-markdown';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { ItemDrawerComponent } from './item-drawer.component';
 import { ItemDrawerModule } from './item-drawer.module';
@@ -48,62 +52,59 @@ export const testItem: MapMacroscopeItem = {
   externalLink: 'testlink'
 };
 
+
 describe('ItemDrawerComponent', () => {
-
-  let shallow: Shallow<ItemDrawerComponent>;
-  const mockMatDialog = {
-    open(...args: unknown[]): MatDialogRef<unknown, unknown> {
-      return undefined as unknown as MatDialogRef<unknown, unknown>;
-    }
-  };
-
-  const mockRouter = {
-    navigate: jasmine.createSpy('navigate')
-  };
-
-  const mockStore = {
-  };
-  const mockActivateRoute = {
-    snapshot: {
-      params: {
-      }
-    }
-  };
-
+  let component: ItemDrawerComponent;
+  let fixture: ComponentFixture<ItemDrawerComponent>;
+  let router: Router;
+  let el: DebugElement;
+  let matDialog: MatDialog;
   beforeEach(async () => {
-    shallow = new Shallow(ItemDrawerComponent, ItemDrawerModule)
-    .mock(Router, mockRouter)
-    .mock(Store, mockStore)
-    .mock(ActivatedRoute, mockActivateRoute);
+    await TestBed.configureTestingModule({
+      declarations: [ItemDrawerComponent],
+      imports: [ItemDrawerModule,
+        BrowserAnimationsModule,
+        RouterTestingModule.withRoutes([]),
+        NgxsModule.forRoot(),
+        MarkdownModule.forRoot(),
+        MatDialogModule
+      ]
+    })
+      .compileComponents();
   });
 
-
-  it('combines the maker names', async () => {
-    const { instance } = await shallow.render({ bind: { item: testItem, type: 'map' } });
-    expect(instance.makers).toBe('Maker 1, Maker 2');
+  beforeEach(() => {
+    fixture = TestBed.createComponent(ItemDrawerComponent);
+    component = fixture.componentInstance;
+    router = TestBed.inject(Router);
+    el = fixture.debugElement;
+    matDialog = TestBed.inject(MatDialog);
+    component.item = testItem;
+    component.type = 'map';
+    fixture.detectChanges();
   });
 
-  it('changes the selected language', async () => {
-    const { instance } = await shallow.render({ bind: { item: testItem, type: 'map' } });
-    instance.languageSelect('French');
-    expect(instance.selectedLanguage).toBe('French');
+  it('should create component', () => {
+    expect(component).toBeTruthy();
   });
-
-  it('emits the selected language', async () => {
-    const { instance, outputs } = await shallow.render({ bind: { item: testItem, type: 'map' } });
-    instance.languageSelect('French');
-    expect(outputs.languageChange.emit).toHaveBeenCalledWith('French');
+  it('should have correct makers', () => {
+    expect(component.makers).toBe('Maker 1, Maker 2');
   });
-
-  it('opens the purchase modal', async () => {
-    const { instance, get } = await shallow.mock(MatDialog, mockMatDialog).render({ bind: { item: testItem, type: 'map' } });
-    instance.openPurchase();
-    expect(get(MatDialog).open).toHaveBeenCalled();
+  it('should select correct language and emit event', () => {
+    const spy = spyOn(component.languageChange, 'emit');
+    component.languageSelect('French');
+    expect(component.selectedLanguage).toBe('French');
+    expect(spy).toHaveBeenCalledWith('French');
   });
-
-  it('closes the item drawer', async () => {
-    const { instance } = await shallow.render({ bind: { item: testItem, type: 'map' } });
-    instance.close();
-    expect(mockRouter.navigate).toHaveBeenCalled();
+  it('should open dialog correctly', () => {
+    const spy = spyOn(matDialog, 'open');
+    component.openPurchase();
+    expect(spy).toHaveBeenCalled();
   });
+  it('should close after 500ms', fakeAsync(() => {
+    const spy = spyOn(router, 'navigate');
+    component.close();
+    tick(500)
+    expect(spy).toHaveBeenCalled();
+  }));
 });
