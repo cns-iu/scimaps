@@ -259,12 +259,13 @@ export const slideWithTransform = trigger('routeAnimations', [
       style({
         position: 'fixed',
         top: '72px',
-        'margin-top': '1rem',
-        background: 'white',
         padding: '0 1rem',
+        'margin-top': '1rem',
+        'max-width': '80rem',
+        background: 'white',
+        'z-index': 2,
         width: '100%',
-        'overflow-y': 'scroll',
-        'z-index': 2
+        'overflow-y': 'scroll'
       })
     ),
     // animate the leave page away
