@@ -63,7 +63,7 @@ describe('HeaderComponent', () => {
 
   it('should have about button', () => {
     const about = el.query(By.css('.about'));
-    expect(about.nativeElement.textContent).toContain('ABOUT'); 
+    expect(about.nativeElement.textContent).toContain('ABOUT');
   });
 
 });
