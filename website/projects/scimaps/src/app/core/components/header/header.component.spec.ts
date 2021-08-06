@@ -1,6 +1,7 @@
 import { DebugElement } from '@angular/core';
 import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
 import { MatIconTestingModule } from '@angular/material/icon/testing';
+import { By } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
 import { NgxsModule } from '@ngxs/store';
@@ -68,6 +69,12 @@ describe('HeaderComponent', () => {
     tick(500);
     expect(spy).toHaveBeenCalled();
   }));
+
+  fit('should have about button', () => {
+    const about = el.query(By.css('.about'));
+    expect(about.nativeElement.textContent).toContain('ABOUT'); 
+  });
+
 });
 
 describe('HeaderComponent', () => {

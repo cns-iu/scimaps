@@ -15,7 +15,6 @@ export const isExternalURL = (url: string): boolean => {
 };
 
 export const isAssetURL = (url: string): boolean => {
-  // Todo: Add advances extension pattern match.
   return url.lastIndexOf('.') !== -1;
 };
 

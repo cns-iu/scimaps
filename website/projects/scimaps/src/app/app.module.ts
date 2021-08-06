@@ -5,18 +5,16 @@ import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { BrowserModule, DomSanitizer } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { RouteReuseStrategy } from '@angular/router';
 import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CustomRouteReuseStrategy } from './constants/routeReuseStrategy';
 import { CoreModule } from './core/core.module';
 import { DrawerModule } from './shared/components/drawer/drawer.module';
 import { GalleryItemModule } from './shared/components/gallery-item/gallery-item.module';
 import { MakersSubdrawerModule } from './shared/components/makers-subdrawer/makers-subdrawer.module';
 import { BreakpointRegistryService } from './shared/services/breakpoint-registry.service';
 import { SharedModule } from './shared/shared.module';
+
 
 
 @NgModule({
