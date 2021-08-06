@@ -1,6 +1,8 @@
 $mobile: 640px;
 $desktop: 1248px;
 
+$header-height: 72px;
+
 :host {
   display: block;
   height: 100%;
@@ -11,17 +13,17 @@ $desktop: 1248px;
   }
   
   .sidenav-container {
-    height: calc(100vh - 72px);
+    height: calc(100vh - #{$header-height});
     z-index: unset;
     .sidenav-content {
       z-index: unset;
     }
-    // height: calc(100vh - 0px);
 
     .content {
       padding: 0 1rem;
       margin-bottom: 7.5rem;
       margin-top: 1rem;
+      min-height: 100%;
       @media (min-width: $desktop) {
         max-width: 80rem;
         margin-left: auto;
