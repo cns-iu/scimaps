@@ -1,6 +1,6 @@
 import { Component, EventEmitter, HostBinding, Input, OnInit, Output } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { Params, Router } from '@angular/router';
 import { Store } from '@ngxs/store';
 import { drawerInOut } from '../../../constants/drawer.animations';
 import { SetAppState } from '../../../core/actions/app.actions';

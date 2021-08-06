@@ -48,15 +48,6 @@ describe('HeaderComponent', () => {
     component.mouseEvents(new Event(''), 1);
     expect(spy2).toHaveBeenCalled();
   });
-
-  it('should call correct stream', () => {
-    const spy1 = spyOn(component.exhibitStream, 'next');
-    const spy2 = spyOn(component.contactStream, 'next');
-    component.mouseEvents(new Event(''), 0);
-    expect(spy1).toHaveBeenCalled();
-    component.mouseEvents(new Event(''), 1);
-    expect(spy2).toHaveBeenCalled();
-  });
   it('should open menu', fakeAsync(() => {
     const spy = spyOn(component.exhibitTrigger, 'openMenu');
     component.exhibitStream.next({type: 'mouseenter', e: new Event(''), index: 0});
@@ -70,7 +61,7 @@ describe('HeaderComponent', () => {
     expect(spy).toHaveBeenCalled();
   }));
 
-  fit('should have about button', () => {
+  it('should have about button', () => {
     const about = el.query(By.css('.about'));
     expect(about.nativeElement.textContent).toContain('ABOUT'); 
   });
