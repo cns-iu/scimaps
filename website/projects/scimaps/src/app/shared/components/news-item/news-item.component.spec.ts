@@ -1,8 +1,13 @@
-import { Shallow } from 'shallow-render';
-
+import { DatePipe } from '@angular/common';
+import { DebugElement } from '@angular/core';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MatIconTestingModule } from '@angular/material/icon/testing';
+import { By } from '@angular/platform-browser';
+import { MarkdownModule } from 'ngx-markdown';
 import { NewsItemComponent } from './news-item.component';
 import { NewsItem } from './news-item.model';
 import { NewsItemModule } from './news-item.module';
+
 
 const testItem: NewsItem = {
   title: 'test title',
@@ -13,19 +18,37 @@ const testItem: NewsItem = {
   pdfLink: 'test link'
 };
 
-describe('NewsItemComponent', () => {
-  let shallow: Shallow<NewsItemComponent>;
-  function itHasElementContent(selector: string, content: string): void {
-    it(`has the correct content in ${selector}`, async () => {
-      const { find } = await shallow.render({ bind: { item: testItem } });
-      const el = find(selector).nativeElement as Element;
-      expect(el.innerHTML).toContain(content);
-    });
-  }
 
+describe('NewsItemComponent', () => {
+  let component: NewsItemComponent;
+  let fixture: ComponentFixture<NewsItemComponent>;
+  let el: DebugElement;
+  let pipe = new DatePipe('en-EN');
   beforeEach(async () => {
-    shallow = new Shallow(NewsItemComponent, NewsItemModule);
+    await TestBed.configureTestingModule({
+      declarations: [ NewsItemComponent ],
+      imports: [NewsItemModule, MatIconTestingModule, MarkdownModule.forRoot()]
+    })
+    .compileComponents();
   });
-  itHasElementContent('.date', 'Feb 1, 2002');
-  itHasElementContent('.identifier', 'test publication at test institution');
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(NewsItemComponent);
+    component = fixture.componentInstance;
+    el = fixture.debugElement;
+    fixture.detectChanges();
+  });
+  
+  it('Should have correct data', () => {
+    component.item = testItem;
+    fixture.detectChanges();
+    const dateEl = el.query(By.css('.date'));
+    expect(dateEl.nativeElement.textContent).toContain(pipe.transform(testItem.date, 'mediumDate', '+0000'));
+  });
+  it('Should have correct identifier', () => {
+    component.item = testItem;
+    fixture.detectChanges();
+    const identifierEl = el.query(By.css('.identifier'));
+    expect(identifierEl.nativeElement.textContent).toContain('test publication at test institution');
+  });
 });
