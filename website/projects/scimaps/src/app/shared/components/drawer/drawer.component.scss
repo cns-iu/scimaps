@@ -5,7 +5,7 @@ $breakpoint: 768px;
     position: fixed;
     top: 72px;
     left: 0;
-    padding: 0 1rem;
+   
     z-index: 2;
     background-color: white;
     width: 100%;
@@ -15,6 +15,7 @@ $breakpoint: 768px;
 
     .main {
         width: 100%;
+        padding: 0 1rem;
         max-width: 80rem;
         margin-right: auto;
         margin-left: auto;
