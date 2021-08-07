@@ -48,39 +48,39 @@
 <div class="spacer-72">
 </div>
 
-<!-- Galary -->
-<sci-tab-header class="tab-header" [tabs]="pageTabs" (activeTabIndexChanged)="updateActivePageTab($event)">
-</sci-tab-header>
-
-<ng-template [ngIf]="activePageTab == 0">
-  <sci-profile-gallery
-    class="profile-gallery"
-    [title]="'Curatorial Team'"
-    [description]="curatorsDescription"
-    [profiles]="curatorProfiles"
-    [compact]="false">
-  </sci-profile-gallery>
-  
-  <div class="spacer-72">
-  </div>
-
-  <sci-profile-gallery
-    [title]="'Advisory Board'"
-    [description]="advisoryBoardDescription"
-    [profiles]="advisoryBoardProfiles"
-    [compact]="true">
-  </sci-profile-gallery>  
-</ng-template>
-
-<ng-template [ngIf]="activePageTab == 1">
-    <sci-profile-gallery
-    [title]="'Exhibit Ambassadors'"
-    [description]="ambassadorsDescription"
-    [profiles]="ambassadorProfiles"
-    [groupBy]="'region'"
-    [compact]="true">
-  </sci-profile-gallery>  
-</ng-template>
+<!-- Tab View -->
+<mat-tab-group mat-align-tabs="start">
+  <ng-container *ngFor="let tab of pageTabs; let i = index">
+    <mat-tab [label]="pageTabs[i]">
+      <ng-template [ngIf]="i == 0">
+        <sci-profile-gallery
+          class="profile-gallery"
+          [title]="'Curatorial Team'"
+          [description]="curatorsDescription"
+          [profiles]="curatorProfiles"
+          [compact]="false">
+        </sci-profile-gallery>
+        <div class="spacer-72">
+        </div>
+        <sci-profile-gallery
+          [title]="'Advisory Board'"
+          [description]="advisoryBoardDescription"
+          [profiles]="advisoryBoardProfiles"
+          [compact]="true">
+        </sci-profile-gallery> 
+      </ng-template>
+      <ng-template [ngIf]="i == 1">
+        <sci-profile-gallery
+          [title]="'Exhibit Ambassadors'"
+          [description]="ambassadorsDescription"
+          [profiles]="ambassadorProfiles"
+          [groupBy]="'region'"
+          [compact]="true">
+        </sci-profile-gallery>
+      </ng-template>
+    </mat-tab>
+  </ng-container>
+</mat-tab-group>
 
 <div class="spacer-72">
 </div>

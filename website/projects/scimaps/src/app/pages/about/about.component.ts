@@ -24,7 +24,6 @@ export class AboutComponent implements OnInit {
   ambassadorProfiles: Profile[] = [];
   ambassadorsDescription = '';
   pageTabs = ['Curatorial Team / Advisory Board', 'Exhibit Ambassadors'];
-  activePageTab = 0;
   newsItems: NewsItem[] = [];
   annualReports: { year: string; pdfLink: string }[] = [];
 
@@ -111,10 +110,6 @@ export class AboutComponent implements OnInit {
       }
     });
     return result;
-  }
-
-  updateActivePageTab(index: number): void {
-    this.activePageTab = index;
   }
 
   getReport(report: string): void {
