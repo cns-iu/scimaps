@@ -1,16 +1,32 @@
-<sci-lazy-table
-  class="lazy-table"
-  [data]="testVenues"
-  [headers]="tableHeaders"
-  sort="startDate"
-  moreButtonLabel="Show More Venues"
-  lessButtonLabel="Show Less Venues"
-  caption="A table that lists venues with corresponding dates, locations, contacts and media links."
-></sci-lazy-table>
-<sci-lazy-cards
-  class="mobile-cards"
-  [data]="testVenues"
-  [getHeader]="cardHeaderFunction"
-  [getLinks]="cardLinkFunction"
-  moreButtonLabel="Show More Venues"
-></sci-lazy-cards>
+<!-- Year dropdown -->
+<h1 class="header1">Venues</h1>
+
+
+<div class="row">
+    <div class="group1">
+        <sci-select [select]="year" [options]="yearList" (selectChange)="onSelectChange($event)">
+        </sci-select>
+        <sci-table *sciBreakpoint="'desktop-'" [initialSort]="{column: 'dateStart', direction: 'desc'}" [headersOnly]="true"  [dataSource]="dataSource" [tableHeaders]="sortHeaders">
+        </sci-table>
+    </div>
+    <sci-search-overlay [search]="searchKey" (searchChange)="onSearchChange($event)">
+    </sci-search-overlay>
+</div>
+
+
+<!-- Card View -->
+<sci-list-view *sciBreakpoint="'desktop-'" class="venues-list"
+    [config]="{type: 'venues', items: (dataSource.connect().asObservable() | async) || [], displayLimit: 6, showAllItems: false}">
+</sci-list-view>
+
+<!-- Table View -->
+<sci-venues-table *sciBreakpoint="'desktop'" [initialSort]="{column: 'dateStart', direction: 'desc'}" [dataSource]="dataSource" [tableHeaders]="tableHeaders">
+</sci-venues-table>
+
+<hr class="divider" />
+<div class="spacer-48"></div>
+
+<!-- Expand Collapse -->
+<sci-accordian [header]="body.accordianHeader" [content]="body.accordianContent">
+</sci-accordian>
+

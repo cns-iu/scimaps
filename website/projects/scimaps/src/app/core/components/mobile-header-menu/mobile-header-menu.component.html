@@ -2,13 +2,13 @@
 
 <div class="search"></div>
 
-<button mat-button class="link mat-display-3" routerLink="/about">ABOUT</button>
-<button mat-button class="link mat-display-3" routerLink="/maps">MAPS</button>
-<button mat-button class="link mat-display-3" routerLink="/macroscopes">MACROSCOPES</button>
-<button mat-button class="link mat-display-3" routerLink="/books">BOOKS</button>
-<button mat-button class="link mat-display-3" routerLink="/call-for-macroscopes">CALL FOR MACROSCOPES</button>
-<button mat-button class="link mat-display-3" routerLink="/venues">VENUES</button>
-<button mat-button class="link mat-display-3" routerLink="/hosting">HOSTING</button>
+<button mat-button class="link mat-display-3" routerLink="/about" [routerLinkActive]="'active'" (click)="sidenavClose.emit()">ABOUT</button>
+<button mat-button class="link mat-display-3" routerLink="/maps" [routerLinkActive]="'active'" (click)="sidenavClose.emit()">MAPS</button>
+<button mat-button class="link mat-display-3" routerLink="/macroscopes" [routerLinkActive]="'active'" (click)="sidenavClose.emit()">MACROSCOPES</button>
+<button mat-button class="link mat-display-3" routerLink="/books" [routerLinkActive]="'active'" (click)="sidenavClose.emit()">BOOKS</button>
+<button mat-button class="link mat-display-3" routerLink="/call-for-macroscopes" [routerLinkActive]="'active'" (click)="sidenavClose.emit()">CALL FOR MACROSCOPES</button>
+<button mat-button class="link mat-display-3" routerLink="/venues" [routerLinkActive]="'active'" (click)="sidenavClose.emit()">VENUES</button>
+<button mat-button class="link mat-display-3" routerLink="/hosting" [routerLinkActive]="'active'" (click)="sidenavClose.emit()">HOSTING</button>
 
 <sci-contact></sci-contact>
 

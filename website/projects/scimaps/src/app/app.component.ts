@@ -1,210 +1,134 @@
-import { Component, HostListener } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import {
-  trigger,
-  query,
-  style,
-  animate,
-  transition,
-  group,
-  animateChild
-} from '@angular/animations';
+import { AfterViewInit, Component, HostListener, NgZone, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { MatSidenavContainer } from '@angular/material/sidenav';
+import { ActivatedRoute, Params, Router, RouterOutlet, RoutesRecognized } from '@angular/router';
+import { Select, Store } from '@ngxs/store';
+import { Observable, of, Subscription } from 'rxjs';
+import { debounceTime, distinctUntilChanged, filter, map, pairwise, switchMap } from 'rxjs/operators';
+import { drawerInOut } from './constants/drawer.animations';
+import { slideWithTransform } from './constants/route.animations';
+import { isAssetURL, isExternalURL } from './constants/utils';
+import { SetAppState } from './core/actions/app.actions';
+import { PageState } from './core/state/page/page.state';
 
-import { ImageCardItem } from './core/models/image-card-item';
-import { NewsItem } from './shared/components/news-item/news-item.model';
-
-export const slideInAnimation =
-  trigger('routeAnimations', [
-    transition('Maps => Map', [
-      style({ position: 'relative' }),
-      query(':enter, :leave', [
-        style({
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%'
-        })
-      ]),
-      query(':enter', [
-        style({ left: '100%' })
-      ]),
-      query(':leave', animateChild()),
-      group([
-        query(':leave', [
-          animate('300ms ease-out', style({ left: '-100%' }))
-        ]),
-        query(':enter', [
-          animate('300ms ease-out', style({ left: '0%' }))
-        ])
-      ]),
-      query(':enter', animateChild()),
-    ])
-  ]);
 
 @Component({
   selector: 'sci-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   animations: [
-    slideInAnimation
+    slideWithTransform,
+    drawerInOut
   ]
 })
-export class AppComponent {
+export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
+  constructor(private activatedRoute: ActivatedRoute, private router: Router, private zone: NgZone, private store: Store) {
+  }
+  @ViewChild(MatSidenavContainer) sidenavContainer!: MatSidenavContainer;
   hasPageScrolled = false;
   sidenavOpen = false;
-
-  newsItems: NewsItem[] = [
-    {
-      title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
-      date: new Date(2020, 2, 2),
-      publication: 'Library News',
-      institution: 'Virginia Tech',
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'International exhibit unites students, faculty and staff in celebrating mapping technology',
-      date: new Date(2020, 2, 1),
-      publication: 'Research News',
-      institution: 'Vanderbilt',
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'Exhibit travels to the Centers for Disease Control and Prevention Museum in Atlanta',
-      date: new Date(2020, 2, 2),
-      publication: 'SolC News',
-      institution: null,
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'Article from 2019',
-      date: new Date(2019, 3, 1),
-      publication: 'Science News',
-      institution: 'Washington University',
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
-      date: new Date(2020, 2, 2),
-      publication: 'Library News',
-      institution: 'Virginia Tech',
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'International exhibit unites students, faculty and staff in celebrating mapping technology',
-      date: new Date(2020, 2, 1),
-      publication: 'Research News',
-      institution: 'Vanderbilt',
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'Exhibit travels to the Centers for Disease Control and Prevention Museum in Atlanta',
-      date: new Date(2020, 2, 2),
-      publication: 'SolC News',
-      institution: null,
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    },
-    {
-      title: 'Article from 2019',
-      date: new Date(2019, 3, 1),
-      publication: 'Science News',
-      institution: 'Washington University',
-      thumbnail: 'assets/images/rose.jpg',
-      pdfLink: 'link'
-    }
-  ];
-  learningItems: ImageCardItem[] = [
-    {
-      title: 'Humanexus',
-      body: 'A short film that visualizes human communication from the Stone Age to today...and beyond.',
-      slug: 'humanexus'
-    },
-    {
-      title: 'WorldProcessor Globes',
-      body: 'Explore mapped social, scientific, political and economic data on three globes as navigation guides in a "globalized" world.',
-      slug: 'worldprocess-globes'
-    },
-    {
-      title: 'Illuminated Diagram Display',
-      body: 'Explore mapped social, scientific, political and economic data on three globes as navigation guides in a "globalized" world.',
-      slug: 'illluminated-diagram-display'
-    },
-    {
-      title: 'Scultpures of Science',
-      body: 'The history of science realized in tangible form.',
-      slug: 'sculptures-of-science'
-    },
-    {
-      title: 'Inside the Museum',
-      body: 'An imaginative look at the inside of the Metropolitan Museum of Art\'s holdings and spaces.',
-      slug: 'inside-the-museum'
-    },
-    {
-      title: 'The Fundamental Interconnectedness of All Things [dynamic format]',
-      body: '',
-      slug: 'interconnectedness-of-all-things'
-    },
-    {
-      title: 'Gapminder Card Game',
-      body: 'Country cards are arranged to reflect the gaps in the world today, then compared to the Gapminder World Map.',
-      slug: 'gapminder-card-game'
-    },
-    {
-      title: 'Science Maps for Kids',
-      body: 'The hands-on science maps for kids invite children to see, explore, and understand science from above.',
-      slug: 'science-maps-for-kids'
-    },
-    {
-      title: 'Adventures in Knowledge Land Comic Book',
-      body: 'Explores the Atlas of Science book using comics as a forum.',
-      slug: 'knowledge-land-comic'
-    },
-    {
-      title: 'My Science Story Coloring Book',
-      body: 'Kids learn science by coloring.',
-      slug: 'science-coloring-book'
-    }
-  ];
-
-  readonly slides = [
-    'assets/images/benches.jpg',
-    'assets/images/bridge.jpg',
-    'assets/images/flower.jpg',
-    'assets/images/garden.jpg',
-  ];
-
-  newsItem: NewsItem = {
-    title: 'The Places & Spaces: Mapping Science comes to Virginia Tech at the University Libraries',
-    date: new Date(2020, 2, 2),
-    publication: 'Library News',
-    institution: 'Virginia Tech',
-    thumbnail: 'assets/images/rose.jpg',
-    pdfLink: 'link'
-  };
+  windowScrollSubscription: Subscription | undefined;
 
   footerParameters = {
     phoneNumber: '812-855-9930',
     acknowledgement: 'This exhibit is supported by the National Science Foundation under Grant No. IIS-0238261, CHE-0524661, IIS-0534909 and IIS-0715303, the James S. McDonnell Foundation; Thomson Reuters; the Cyberinfrastructure for Network Science Center, University Information Technology Services, and the School of Library and Information Science, all three at Indiana University. Some of the data used to generate the science maps is from the Web of Science by Thomson Reuters and Scopus by Elsevier. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.'
   };
 
-  @HostListener('scroll', ['$event'])
-  onScroll(event: Event): void {
-    const target = event.target as Element;
-    const scrollTop = target.scrollTop;
-    if (scrollTop === 0) {
-      this.hasPageScrolled = false;
-    } else {
-      this.hasPageScrolled = true;
+  @Select(PageState.drawer) drawer$!: Observable<Params>;
+
+  scrollPositions: Params = {};
+
+  // All external / internal link behaviour.
+  @HostListener('document:click', ['$event'])
+  customRedirect(e: PointerEvent): void {
+    const target = e.target as HTMLAnchorElement;
+    if (target.nodeName === 'A') {
+      const href = target.getAttribute('href');
+      if (href) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (isExternalURL(href) || isAssetURL(href)) {
+          window.open(href, '_blank');
+        } else {
+          this.router.navigate([href]);
+        }
+      }
     }
+  }
+
+  ngOnInit(): void {
+    // Scroll retention code
+    this.router.events.pipe(
+      filter((e) => e instanceof RoutesRecognized),
+      pairwise()
+    ).subscribe(([previous, current]) => {
+      const navigation = this.router.getCurrentNavigation();
+      console.log(navigation);
+      const direction = navigation?.extras?.state?.direction;
+      if (direction === 'forward') {
+        const scrollY = this.sidenavContainer.scrollable.measureScrollOffset('top');
+        this.scrollPositions[(previous as RoutesRecognized).url] = scrollY;
+        this.sidenavContainer.scrollable.scrollTo({ top: 0, left: 0 });
+      } else if (direction === 'backward') {
+        setTimeout(() => {
+          this.sidenavContainer.scrollable.scrollTo({ top: this.scrollPositions[(current as RoutesRecognized).url] || 0, left: 0 });
+        }, 200);
+      }
+    });
   }
 
   prepareRoute(outlet: RouterOutlet): string {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
+  }
+  prepareClass(outlet: RouterOutlet): string {
+    return outlet && outlet.activatedRouteData && outlet.activatedRouteData.class;
+  }
+
+  ngOnDestroy(): void {
+    if (this.windowScrollSubscription) {
+      this.windowScrollSubscription.unsubscribe();
+    }
+  }
+
+  ngAfterViewInit(): void {
+    const cdkScrollable = this.sidenavContainer.scrollable;
+    this.windowScrollSubscription = cdkScrollable.elementScrolled().pipe(
+      map(() => {
+        return cdkScrollable.measureScrollOffset('top');
+      }),
+      debounceTime(10),
+      distinctUntilChanged(),
+      switchMap((scrollY: number) => {
+        return of(scrollY);
+      })
+    ).subscribe((scrollY: number) => {
+      this.zone.run(() => {
+        if (scrollY <= 0) {
+          this.hasPageScrolled = false;
+        } else {
+          this.hasPageScrolled = true;
+        }
+      });
+    });
+  }
+
+  onActivate(): void {
+    const cdkScrollable = this.sidenavContainer.scrollable;
+    const fragment = this.activatedRoute.snapshot.fragment;
+    if (fragment) {
+      setTimeout(() => {
+        const item = document.querySelector(`#${fragment}`);
+        item?.scrollIntoView({ block: 'center', inline: 'center' });
+      }, 500);
+    } else {
+      cdkScrollable.scrollTo({ top: 0, left: 0 });
+    }
+  }
+
+  closeDrawer(): void {
+    this.store.dispatch(new SetAppState({
+      drawer: {
+        showDrawer: false
+      }
+    }));
   }
 }

@@ -12,7 +12,15 @@ const routes: Routes = [{
   resolve: {
     maps: MapsResolverService,
     body: MapsBodyResolverService
-  }
+  },
+  runGuardsAndResolvers: 'pathParamsOrQueryParamsChange',
+  children: [
+    {
+      path: '',
+      loadChildren: () => import('../map/map.module').then(m => m.MapModule),
+      data: { animation: 'Map', type: 'map'}
+    }
+  ]
 }];
 
 @NgModule({

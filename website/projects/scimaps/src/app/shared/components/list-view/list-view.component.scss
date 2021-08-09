@@ -1,0 +1,58 @@
+@use 'screen';
+
+// :host(.venues-list) {
+//   // Customization for individual list.
+// }
+// :host(.news-list) {
+// }
+
+:host {
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 20rem;
+    margin-bottom: 2rem;
+
+    .list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .no-search {
+      align-self: center;
+      margin: auto;
+      .no-result-text {
+        text-align: center;
+        font-size: 20px;
+      }
+    }
+
+    .total {
+      color: #757575;
+      display: flex;
+      width: 100%;
+      padding: 1rem;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    .show-more {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 2.5rem;
+      width: 100%;
+      cursor: pointer;
+      user-select: none;
+      -moz-user-select: none;
+      margin-bottom: 2rem;
+      color: #7996a3;
+      background-color: #ebf0f1;
+      border-color: #e0e0e0;
+      @include screen.breakpoint(mobile) {
+        margin: 2rem 0.5rem;
+      }
+    }
+  }
+}

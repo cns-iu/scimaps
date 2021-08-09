@@ -7,14 +7,21 @@
       {{ profile.affiliation }}
     </div>
     <div class="profile-body" *ngIf="compact === false">
-      <div class="markdown full" markdown [data]="fullContent"></div>
-      <div class="markdown partial" markdown [data]="partialContent"></div>
-      <div
-        *ngIf="hasLongContent"
-        class="show-more"
-        (click)="fullContentVisible = !fullContentVisible"
-      >
-        {{ fullContentVisible ? "Show less" : "Read more..." }}
+      <!-- Mobile -->
+      <div *sciBreakpoint="'mobile-'">
+        <div class="markdown full" markdown [data]="fullContent"></div>
+      </div>
+      
+      <!-- Desktop -->
+      <div *sciBreakpoint="'mobile+'">
+        <div *ngIf="!fullContentVisible" class="markdown partial" markdown [data]="partialContent"></div>
+        <div [@contentTrigger] *ngIf="fullContentVisible" class="markdown full" markdown [data]="fullContent"></div>
+        <div
+          *ngIf="hasLongContent"
+          class="show-more"
+          (click)="fullContentVisible = !fullContentVisible">
+          {{ fullContentVisible ? "Show less" : "Read more..." }}
+        </div>
       </div>
     </div>
   </div>

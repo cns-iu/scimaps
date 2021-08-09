@@ -1,0 +1,87 @@
+$mobile: 640px;
+$tablet: 960px;
+$desktop: 1248px;
+
+:host {
+  .gallery-item {
+    width: 100%;
+    margin: 0 auto;
+    .close-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      .close-icon {
+        color: #7997a3;
+        position: absolute;
+        top: 1rem;
+        right: 5%;
+        cursor: pointer;
+        border-radius: 50%;
+        &:hover {
+          background-color: #dce0e2;
+          color: #7997a3;
+        }
+      }
+    }
+
+    .details {
+      margin-bottom: 2rem;
+    }
+    .thumbnails-container {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .thumbnail {
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        cursor: pointer;
+        @media screen and (min-width: $desktop) {
+          width: 22%;
+        }
+        @media screen and  (min-width: $tablet) {
+          width: 30%;
+        }
+        @media screen and (min-width: $mobile) and (max-width: $tablet) {
+          width: 45%;
+        }
+        @media screen and (max-width: $mobile) {
+          width: 95%;
+        }
+        overflow: hidden;
+      }
+    }
+  }
+
+  $bgcolor: black;
+  .sci-drawer {
+    background-color: $bgcolor;
+    .close-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+
+      .close-icon {
+        color: #7997a3;
+        cursor: pointer;
+        border-radius: 50%;
+        &:hover {
+          background-color: #dce0e2;
+          color: #7997a3;
+        }
+      }
+    }
+
+    .overlay-container {
+      overflow: scroll;
+      background-color: $bgcolor;
+      padding: 1rem;
+      img {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+}

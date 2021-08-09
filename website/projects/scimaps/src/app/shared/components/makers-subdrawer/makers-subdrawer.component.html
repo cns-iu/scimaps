@@ -1,5 +1,5 @@
 <div class="details-container">
-  <div class="back-button" (click)="closeDrawer.emit()">
+  <div class="back-button" (click)="closed.emit()">
     <mat-icon class="back-icon">chevron_left</mat-icon>
     <div>BACK</div>
   </div>
@@ -8,11 +8,11 @@
 
   <div class="maker-container">
     <div class="maker-info" *ngFor="let maker of makers">
-      <img class="thumbnail" [src]="maker.thumbnail" alt="maker image">
+      <img class="thumbnail" [src]="maker.image" alt="maker image">
       <div class="info">
-        <div class="name">{{maker.name}}</div>
-        <div class="job">{{maker.job}}</div>
-        <div class="bio">{{maker.bio}}</div>
+        <div class="name">{{maker.name | titlecase}}</div>
+        <div class="job">{{maker.title}}</div>
+        <div class="bio">{{maker.body}}</div>
       </div>
     </div>
   </div>

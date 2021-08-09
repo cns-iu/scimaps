@@ -6,20 +6,13 @@ $desktop: 1248px;
 
 :host {
   .tab-header {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 
   .profile-gallery {
     margin-bottom: 2.5rem;
   }
-  .divider {
-    background-color: #e0e0e0;
-    border-bottom-color: #e0e0e0;
-    border-left-color: #e0e0e0;
-    border-right-color: #e0e0e0;
-    border-top: 0px solid #e0e0e0;
-    margin: 12px 0;
-  }
+  
   .intro {
     .image-container {
       width: 100%;
@@ -46,11 +39,12 @@ $desktop: 1248px;
         padding-left: 2rem;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: #757575;
-        font-size: 20px;
+        font-size: 16px;
         @include screen.breakpoint(mobile) {
           margin-top: 1rem;
           padding-left: 0;
         }
+        
       }
       margin-bottom: 24px;
     }
@@ -74,6 +68,23 @@ $desktop: 1248px;
         width: 70%;
         margin: auto;
       } 
+    }
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0.5rem;
+    // select box
+    .group1 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      overflow: hidden;
+    }
+    .sci-search-overlay {
+      overflow: visible;
     }
   }
 }

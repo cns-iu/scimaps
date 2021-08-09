@@ -1,4 +1,4 @@
-import { TestBed } from '@angular/core/testing';
+import { fakeAsync, flushMicrotasks, TestBed } from '@angular/core/testing';
 import { AboutBodyResolverService } from './about-body-resolver.service';
 import { ContentService } from '../../shared/services/content.service';
 import { of } from 'rxjs';
@@ -26,15 +26,32 @@ describe('AboutBodyResolverService', () => {
   it('should call contentService.getContent once', () => {
     (contentService.getContent as jasmine.Spy).and.returnValue(
       of({
-        body: {
           curatorsDescription: 'Sample curator description',
           advisoryBoardDescription: 'Sample advisory board description',
-          ambassadorsDescription: 'Sample ambassadors description'
-        }
+          ambassadorsDescription: 'Sample ambassadors description',
+          annualReports: [{year: '2012', pdfLink: 'testLink.pdf'}]
       })
     );
     service.resolve();
     expect(contentService.getContent).toHaveBeenCalledTimes(1);
-    expect(contentService.getContent).toHaveBeenCalledWith('site/about.md');
+    expect(contentService.getContent).toHaveBeenCalledWith('site/about/about.md');
   });
+
+  it('should call contentService.getContent once', fakeAsync(() => {
+    (contentService.getContent as jasmine.Spy).and.returnValue(
+      of({
+          curatorsDescription: 'Sample curator description',
+          advisoryBoardDescription: 'Sample advisory board description',
+          ambassadorsDescription: 'Sample ambassadors description',
+          annualReports: [{year: '2012', pdfLink: 'testLink.pdf'}]
+      })
+    );
+    const data = service.resolve();
+    flushMicrotasks();
+    data.subscribe((body) => {
+      expect(body.annualReports).toBeTruthy();
+      expect(body.annualReports.length).toEqual(1);
+      expect(body.annualReports[0].pdfLink).toEqual(`${service.directory}/testLink.pdf`);
+    });
+  }));
 });
