@@ -38,8 +38,8 @@ en:
       & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record.
       [http://scimaps.org](http://scimaps.org)
   image:
-    sm: image.sm.png
-    med: image.med.png
-    lg: image.lg.png
+    sm: image.sm.jpg
+    med: image.med.jpg
+    lg: image.lg.jpg
   externalLink: 'http://tweetoscope.iscpif.fr/'
 ---
