@@ -8,7 +8,7 @@ credit: "Places & Spaces"
 city: Bloomington
 state: IN
 country: USA
-pdfLink: 20160321-talks-kalevleetaru-big-data.pdf
+pdfLink: 20160321-talks- kalevleetaru-big-data.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg
