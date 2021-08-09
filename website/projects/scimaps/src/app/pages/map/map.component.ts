@@ -10,7 +10,8 @@ import { MapMacroscopeItem } from '../../core/models/discover-item';
  */
 @Component({
   selector: 'sci-map',
-  templateUrl: './map.component.html'
+  templateUrl: './map.component.html',
+  styleUrls: ['./map.component.scss']
 })
 export class MapComponent implements OnInit, OnDestroy {
   /**

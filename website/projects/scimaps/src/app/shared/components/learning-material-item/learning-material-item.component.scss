@@ -1,0 +1,150 @@
+$mobile: 640px;
+$tablet: 960px;
+$desktop: 1248px;
+
+:host {
+  
+  @media screen and (min-width: $desktop) {
+    width: 25%;
+  }
+  @media screen and  (min-width: $tablet) {
+    width: 30%;
+  }
+  @media screen and (min-width: $mobile) and (max-width: $tablet) {
+    width: 50%;
+  }
+  @media screen and (max-width: $mobile) {
+    width: 100%;
+  }
+  .lm-item-desktop {
+    flex: 1;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 18rem;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 1px 0px 5px 0px;
+    }
+    .row1 {
+      height: 60%;
+      img {
+        height: 100%;
+        margin: 0;
+      }
+    }
+    .row2 {
+      height: 40%;
+      padding: 1rem;
+      overflow: hidden;
+      h4 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-bottom: 0;
+        font-size: 20px;
+      }
+      .content {
+        mat-card-content {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .lm-item-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    padding: 0;
+    cursor: pointer;
+    .col1 {
+      height: 100%;
+      justify-content: center;
+      margin-right: 1rem;
+      img {
+        width: 72px;
+        height: 66px;
+      }
+    }
+
+    .col2 {
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      mat-card-title {
+        overflow: inherit;
+        margin-bottom: 0;
+        h4 {
+          margin-bottom: 0;
+          text-overflow: ellipsis;
+          overflow: inherit;
+          white-space: nowrap;
+        }
+      }
+    }
+
+    .col3 {
+      margin-left: auto;
+      margin-right: 1rem;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .drawer {
+    .container {
+      width: 90%;
+      max-width: 1248px;
+      margin: auto;
+      .drawer-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        .back-button {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+          color: #7996a3;
+
+          .back-icon {
+            margin-left: -0.5rem;
+            margin-right: 1rem;
+          }
+        }
+      }
+
+      .drawer-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        @media (min-width: $desktop) {
+          flex-direction: row-reverse;
+        }
+        .row1 {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 2rem;
+          overflow: hidden;
+          img {
+            max-width: 100%;
+            // max-height: 100%;
+          }
+        }
+        .row2 {
+          flex: 1;
+          @media (min-width: $desktop) {
+            margin-right: 3rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -23,6 +23,18 @@
     .sidenav-toggle.open {
       border-left-color: rgba(0, 0, 0, 0.2);
     }
+
+    .mat-menu-panel {
+      border-radius: 0;
+    }
+  }
+
+  .cdk-overlay-container {
+    .sci-header-menu {
+      .mat-menu-content {
+        padding-top: 0px;
+      }
+    }
   }
 }
 

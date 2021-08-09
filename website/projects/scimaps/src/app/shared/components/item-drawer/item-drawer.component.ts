@@ -1,7 +1,9 @@
-import { Component, Input, HostBinding, Output, EventEmitter } from '@angular/core';
-
-import { Router } from '@angular/router';
+import { Component, EventEmitter, HostBinding, Input, OnInit, Output } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import { Params, Router } from '@angular/router';
+import { Store } from '@ngxs/store';
+import { drawerInOut } from '../../../constants/drawer.animations';
+import { SetAppState } from '../../../core/actions/app.actions';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.component';
 
@@ -11,9 +13,10 @@ import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.compone
 @Component({
   selector: 'sci-item-drawer',
   templateUrl: './item-drawer.component.html',
-  styleUrls: ['./item-drawer.component.scss']
+  styleUrls: ['./item-drawer.component.scss'],
+  animations: [drawerInOut]
 })
-export class ItemDrawerComponent {
+export class ItemDrawerComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-item-drawer';
 
@@ -36,11 +39,12 @@ export class ItemDrawerComponent {
    * Currently selected language
    */
   selectedLanguage = 'en';
+  showDrawer = false;
 
-  /** Whether the subdrawer containing maker info is open */
-  showSubdrawer = false;
-
-  constructor(private readonly dialog: MatDialog, private router: Router) { }
+  constructor(private dialog: MatDialog, private router: Router, private store: Store) { }
+  ngOnInit(): void {
+    this.showDrawer = true;
+  }
 
   /**
    * Combines the maker names
@@ -53,7 +57,10 @@ export class ItemDrawerComponent {
    * Closes item drawer component and returns to the maps or macroscopes page
    */
   close(): void {
-    this.router.navigate(['/', this.type + 's']);
+    this.showDrawer = false;
+    setTimeout(() => {
+      this.router.navigate(['/', this.type + 's']);
+    }, 500);
   }
 
   /**
@@ -74,13 +81,17 @@ export class ItemDrawerComponent {
     });
   }
 
-  /** Opens the maker subdrawer */
-  openSubdrawer(): void {
-    this.showSubdrawer = true;
+  openDrawer(item: Params): void {
+    this.store.dispatch(new SetAppState({drawer: {
+      showDrawer: true,
+      drawerName: 'makers-drawer',
+      drawerPayload: item
+    }}));
   }
 
-  /** Closes the maker subdrawer */
-  closeSubdrawer(): void {
-    this.showSubdrawer = false;
+  redirect(link: string): void {
+    if (link) {
+      window.open(link, '_blank');
+    }
   }
 }

@@ -1,3 +1,4 @@
+import { ScrollingModule } from '@angular/cdk/scrolling';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
@@ -5,12 +6,15 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { BrowserModule, DomSanitizer } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
+import { DrawerModule } from './shared/components/drawer/drawer.module';
+import { GalleryItemModule } from './shared/components/gallery-item/gallery-item.module';
+import { MakersSubdrawerModule } from './shared/components/makers-subdrawer/makers-subdrawer.module';
 import { BreakpointRegistryService } from './shared/services/breakpoint-registry.service';
 import { SharedModule } from './shared/shared.module';
+
 
 
 @NgModule({
@@ -34,8 +38,18 @@ import { SharedModule } from './shared/shared.module';
 
     AppRoutingModule,
     CoreModule,
-    SharedModule
+    SharedModule,
+    ScrollingModule,
+    DrawerModule,
+    GalleryItemModule,
+    MakersSubdrawerModule
   ],
+  // providers: [
+  //   {
+  //     provide: RouteReuseStrategy,
+  //     useClass: CustomRouteReuseStrategy
+  //   }
+  // ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
 })

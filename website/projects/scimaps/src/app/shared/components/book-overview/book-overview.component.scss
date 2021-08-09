@@ -36,16 +36,19 @@ $button-span-max-width: 480px;
 
     .buttons {
       display: flex;
+      @media screen and (max-width: $button-span-max-width) {
+        flex-direction: column;
+      }
       flex-direction: row;
       flex-wrap: wrap;
       margin-top: 1rem;
-
       .button {
         margin: 1rem 1rem 0 0;
         padding: 0.5rem;
         border: 1px solid;
         text-decoration: none;
         white-space: nowrap;
+        text-align: center;
       }
     }
     .link {
@@ -69,7 +72,8 @@ $button-span-max-width: 480px;
         flex-direction: column;
 
         img {
-          height: auto;
+          width: 100%;
+          // height: 100%;
           object-fit: cover;
         }
       }

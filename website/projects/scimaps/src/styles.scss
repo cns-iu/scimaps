@@ -43,10 +43,6 @@ body {
   background: rgba(0, 0, 0, 0.54) !important;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 // Swiper styles
 @import "~swiper/swiper";
 @import "~swiper/components/a11y/a11y";
@@ -93,4 +89,78 @@ a:hover {
       outline: none;
     }
   }
+}
+
+
+// H1: 40px / LH 48px / MB 24px
+// H2: 32px / LH 40px / MB 24px
+// H3: 24px / LH 32px / MB 24px
+// H4 / Title over other headers: 18px / LH 24px / MB 24px / BOLD
+// Body Text: 14px / LH 24p
+
+.header1 {
+  font-size: 40px;
+  line-height: 3rem; // 48px
+  margin-bottom: 1.5rem; //24px
+  color: #757575;
+}
+.header2 {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 24px;
+  color: #757575;
+}
+.header3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 24px;
+  color: #757575;
+}
+.header4 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  color: #757575;
+}
+
+.spacer-16 {
+  margin-bottom: 16px;
+}
+.spacer-24 {
+  margin-bottom: 1.5rem;
+}
+.spacer-32 {
+  margin-bottom: 32px;
+}
+.spacer-48 {
+  margin-bottom: 3rem;
+}
+.spacer-72 {
+  margin-bottom: 4.5rem;
+}
+
+
+
+
+// Common style for all links
+a {
+  color: #8dc63f;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.divider {
+  background-color: #e0e0e0;
+  border-bottom-color: #e0e0e0;
+  border-left-color: #e0e0e0;
+  border-right-color: #e0e0e0;
+  border-top: 0px solid #e0e0e0;
+  margin: 12px 0;
+}
+
+.mat-menu-panel.ng-trigger {
+  border-radius: 0px;
 }

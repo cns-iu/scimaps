@@ -3,8 +3,8 @@ $breakpoint: 768px;
 :host {
   display: flex;
   flex-direction: column;
-  position: fixed;
-  top: 0;
+  // position: fixed;
+  // top: 0;
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -12,10 +12,6 @@ $breakpoint: 768px;
   align-items: center;
 
   .details-container {
-    width: 80%;
-    position: absolute;
-    top: 5rem;
-
     .back-button {
       display: flex;
       align-items: center;

@@ -3,11 +3,11 @@
   <div class="info">
     <div class="card-header">
       <div class="date mat-display-1">
-        {{ item.date | date:'mediumDate' }}
+        {{ item?.date | date:'mediumDate':'+0000' }}
       </div>
-      <div class="download">
-        <a *ngIf="item.pdfLink" [href]="item.pdfLink" download>
-          <mat-icon class="icon-pdf-download" aria-hidden="true" svgIcon="file:download"></mat-icon>
+      <div *ngIf="item?.pdfLink" class="icon-container">
+        <a [href]="item.pdfLink" target="_blank" rel="noopener noreferrer">
+          <mat-icon class="icon-pdf" aria-hidden="true" svgIcon="file:download"></mat-icon>
         </a>
       </div>
     </div>
@@ -15,25 +15,12 @@
     <div class="body">
       <!-- Title -->
       <div class="text">
-        <!-- Link -->
-        <ng-template [ngIf]="item.sourceUrl" [ngIfElse]="text">
-          <div class="link">
-            <a [href]="item.sourceUrl" target="_blank" rel="noopener noreferrer">
-              <div class="link-title">
-                {{item.title}}
-              </div>
-            </a>
-          </div>
-        </ng-template>
         <!-- Title -->
-        <ng-template #text>
-          <div class="title">
-            {{item.title}}
+          <div markdown class="title" [data]="item?.title">
           </div>
-        </ng-template>
       </div>
       <div class="identifier">
-        {{item.publication}} {{item.institution ? 'at ' + item.institution : '' }}
+        {{item?.publication}} {{item?.institution ? 'at ' + item?.institution : '' }}
       </div>
     </div>
   </div>

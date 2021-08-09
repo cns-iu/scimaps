@@ -40,6 +40,11 @@ jobs:
         working-directory: website
       - run: cp -r admin website/dist/scimaps
         working-directory: '.'
+      - name: Setup GitHub Pages files
+        working-directory: website
+        run: |
+          cp dist/scimaps/index.html dist/scimaps/404.html
+          touch dist/scimaps/.nojekyll
 
       - uses: peaceiris/actions-gh-pages@v3
         with:

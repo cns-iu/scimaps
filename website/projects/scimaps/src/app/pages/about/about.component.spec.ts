@@ -1,10 +1,11 @@
-import { Shallow } from 'shallow-render';
-
-import { AboutComponent } from './about.component';
-import { AboutModule } from './about.module';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ActivatedRoute } from '@angular/router';
 import { of } from 'rxjs';
+import { Shallow } from 'shallow-render';
 import { Profile } from '../../core/models/profile';
+import { AboutComponent } from './about.component';
+import { AboutModule } from './about.module';
+
 
 export function getProfiles(numberOfProfiles: number, roles = ['maker']): Profile[] {
   const profiles: Profile[] = [];
@@ -25,7 +26,7 @@ export function getProfiles(numberOfProfiles: number, roles = ['maker']): Profil
 
 const testNewsItems = [{
   title: 'Title 3',
-  date: new Date(2005, 1, 1),
+  date: new Date(2005, 1, 1).toUTCString(),
   publication: 'C',
   institution: 'test institution',
   thumbnail: 'test thumb',
@@ -33,24 +34,49 @@ const testNewsItems = [{
 },
 {
   title: 'Title 7',
-  date: new Date(2006, 1, 1),
+  date: new Date(2006, 1, 1).toUTCString(),
   publication: 'G',
   institution: 'test institution',
   thumbnail: 'test thumb',
   pdfLink: 'link'
 }];
 
+const curatorProfiles = getProfiles(10, ['curator']);
+const advisoryBoardProfiles = getProfiles(10, ['advisory_board']);
+const ambassadorProfiles = getProfiles(10, ['ambassador']);
+const testProfiles = [...curatorProfiles, ...advisoryBoardProfiles, ...ambassadorProfiles];
+const testBody = {
+  curatorsDescription: 'Sample curators description',
+  advisoryBoardDescription: 'Sample advisory board description',
+  ambassadorsDescription: 'Sample sambassadors description'
+};
+
+xdescribe('About', () => {
+  let component: AboutComponent;
+  let fixture: ComponentFixture<AboutComponent>;
+
+  beforeEach(async () => {
+    const route = { data: of({ }) };
+    await TestBed.configureTestingModule({
+      imports: [AboutModule],
+      providers: [{ provide: ActivatedRoute, useValue: route }, ],
+    }).compileComponents();
+  });
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(AboutComponent);
+    component = fixture.componentInstance;
+  });
+
+  it('should create component', () => {
+    fixture.detectChanges();
+    expect(component).toBeTruthy();
+  });
+});
+
 describe('AboutComponent', () => {
   let shallow: Shallow<AboutComponent>;
-  const curatorProfiles = getProfiles(10, ['curator']);
-  const advisoryBoardProfiles = getProfiles(10, ['advisory_board']);
-  const ambassadorProfiles = getProfiles(10, ['ambassador']);
-  const testProfiles = [...curatorProfiles, ...advisoryBoardProfiles, ...ambassadorProfiles];
-  const testBody = {
-    curatorsDescription: 'Sample curators description',
-    advisoryBoardDescription: 'Sample advisory board description',
-    ambassadorsDescription: 'Sample sambassadors description'
-  };
+
 
   beforeEach(() => {
     shallow = new Shallow(AboutComponent, AboutModule)
@@ -117,11 +143,8 @@ describe('AboutComponent', () => {
   it('should open correct annual report', async () => {
     const { instance } = await shallow.render();
     const spy = spyOn(window, 'open');
-    const testYear = '2012';
-    instance.getReport(testYear);
-    const getPdfPath = (year: string) => {
-      return `assets/annual-reports/${year}-ps-annual-report.pdf`;
-    };
-    expect(spy).toHaveBeenCalledWith(getPdfPath(testYear), '_blank');
+    const testLink = 'link';
+    instance.getReport(testLink);
+    expect(spy).toHaveBeenCalledWith(testLink, '_blank');
   });
 });

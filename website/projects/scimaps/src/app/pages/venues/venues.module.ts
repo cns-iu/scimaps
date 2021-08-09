@@ -1,11 +1,15 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { NgModule } from '@angular/core';
+import { MatIconModule } from '@angular/material/icon';
+import { AccordianModule } from '../../shared/components/accordian/accordian.module';
+import { ListViewModule } from '../../shared/components/list-view/list-view.module';
+import { SearchOverlayModule } from '../../shared/components/search-overlay/search-overlay.module';
+import { SelectModule } from '../../shared/components/select/select.module';
+import { TableModule } from '../../shared/components/table/table.module';
+import { VenuesTableModule } from '../../shared/components/venues-table/venues-table.module';
+import { SharedModule } from '../../shared/shared.module';
 import { VenuesRoutingModule } from './venues-routing.module';
 import { VenuesComponent } from './venues.component';
-
-import { LazyCardsModule } from '../../shared/components/lazy-cards/lazy-cards.module';
-import { LazyTableModule } from '../../shared/components/lazy-table/lazy-table.module';
 
 
 @NgModule({
@@ -13,8 +17,15 @@ import { LazyTableModule } from '../../shared/components/lazy-table/lazy-table.m
   imports: [
     CommonModule,
     VenuesRoutingModule,
-    LazyCardsModule,
-    LazyTableModule
-  ]
+    MatIconModule,
+    AccordianModule,
+    TableModule,
+    SharedModule,
+    SelectModule,
+    SearchOverlayModule,
+    ListViewModule,
+    VenuesTableModule
+  ],
+  providers: []
 })
 export class VenuesModule { }

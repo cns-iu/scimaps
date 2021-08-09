@@ -1,0 +1,30 @@
+<!-- desktop -->
+<mat-card *sciBreakpoint="'mobile+'" class="lm-item-desktop" (click)="gotoLearningMaterial()">
+  <div class="row1">
+    <img mat-card-image [src]="item.image.sm" [alt]="item.image.sm"/>
+  </div>
+  <div class="row2">
+    <mat-card-title>
+      <h4 class="header4">{{ item?.title }}</h4>
+    </mat-card-title>
+    <div class="content">
+      <mat-card-content markdown [data]="item.body.length > 80 ? item.body.slice(0, 80) + '...' : item.body">
+      </mat-card-content>
+    </div>
+  </div>
+</mat-card>
+
+<!-- mobile -->
+<mat-card *sciBreakpoint="'mobile-'" class="lm-item-mobile" (click)="gotoLearningMaterial()">
+  <div class="col1">
+    <img mat-card-img [src]="item.image.sm" alt="" />
+  </div>
+  <div class="col2">
+    <mat-card-title>
+      <h4 class="header4">{{ item?.title }}</h4>
+    </mat-card-title>
+  </div>
+  <div class="col3">
+    <mat-icon class="mobile-icon">chevron_right</mat-icon>
+  </div>
+</mat-card>

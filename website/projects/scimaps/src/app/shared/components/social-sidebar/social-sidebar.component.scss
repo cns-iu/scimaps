@@ -4,17 +4,16 @@
   position: fixed;
   left: 0;
   top: 50%;
+  transform: translate(0, -50%);
+  z-index: 2;
   // border: 1px solid white;
 
   .social-button {
     height: 2.5rem;
     width: 2.5rem;
-    // background-color: #7996A3;
-    // color: white;
-    // border-bottom: 1px solid white;
     text-align: center;
     cursor: pointer;
-
+  
     &.bottom {
       border-bottom: none;
     }
@@ -26,14 +25,7 @@
     }
 
     .email {
-      height: 1.75rem;
-      width: 1.75rem;
-      margin-top: .4rem;
-    }
-
-    .twitter {
-      height: 2.25rem;
-      width: 2.25rem;
+      padding: 5px;
     }
   }
 }

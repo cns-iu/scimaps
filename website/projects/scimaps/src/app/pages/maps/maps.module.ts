@@ -8,6 +8,9 @@ import { DiscoverListingModule } from '../../shared/components/discover-listing/
 import { ItemDrawerModule } from '../../shared/components/item-drawer/item-drawer.module';
 import { MatIconModule } from '@angular/material/icon';
 import { CarouselModule } from '../../shared/components/carousel/carousel.module';
+import { DrawerModule } from '../../shared/components/drawer/drawer.module';
+import { SharedModule } from '../../shared/shared.module';
+import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
 
 
 @NgModule({
@@ -19,7 +22,10 @@ import { CarouselModule } from '../../shared/components/carousel/carousel.module
     MarkdownModule,
     MatIconModule,
     CarouselModule,
-    ItemDrawerModule
+    ItemDrawerModule,
+    DrawerModule,
+    SharedModule,
+    DrawerHeaderModule
   ]
 })
 export class MapsModule { }
