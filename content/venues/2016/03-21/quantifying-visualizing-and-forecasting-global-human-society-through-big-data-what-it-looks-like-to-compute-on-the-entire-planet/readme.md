@@ -1,14 +1,14 @@
 ---
 dateStart: 2016-03-21
 dateEnd: 2016-03-21
-title: "Quantifying, Visualizing, and Forecasting Global Human Society Through “Big Data”: What it Looks Like To Compute on the Entire Planet, Kalev Leetaru - CNS Talks"
+title: "Quantifying, Visualizing, and Forecasting Global Human Society Through “Big Data”: What it Looks Like To Compute on the Entire Planet"
 venue: "CNS Center, Indiana University"
 organizer: Lisel Record
 credit: "Places & Spaces"
 city: Bloomington
 state: IN
 country: USA
-pdfLink: 20160321-talks- kalevleetaru-big-data.pdf
+pdfLink: 20160321-talks-kalevleetaru-big-data.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg
