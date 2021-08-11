@@ -25,9 +25,6 @@ overview: >-
 install_guide: exhibit-install-guide.pdf
 master_booklet: exhibit-master-booklet.pdf
 carousel:
-  - sm: carousel/image1.med.jpg
-    lg: carousel/image1.lg.jpg
-    title: Physical Exhibit
   - sm: carousel/image3.med.jpg
     lg: carousel/image3.lg.jpg
     title: Maps-Only Physical Exhibit
@@ -37,6 +34,9 @@ carousel:
   - sm: carousel/image5.med.jpg
     lg: carousel/image5.lg.jpg
     title: Poster Exhibit
+  - sm: carousel/image1.med.jpg
+    lg: carousel/image1.lg.jpg
+    title: Physical Exhibit
 banner_text: |-
   To host the exhibit, contact
 
