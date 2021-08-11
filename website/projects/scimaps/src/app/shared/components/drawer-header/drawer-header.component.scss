@@ -18,7 +18,7 @@
         margin-right: 1rem;
       }
 
-    //   Hide back text on tablet and desktop
+    //  Hide back text on mobile.
       .back-text {
         display: block;
         @media screen and (max-width: $mobile) {
