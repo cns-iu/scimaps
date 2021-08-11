@@ -11,6 +11,7 @@ export class DrawerHeaderComponent {
   @HostBinding('class') className = 'sci-drawer-header';
 
   @Input() title = '';
+  @Input() backText = '';
   @Output() backClick: EventEmitter<string> = new EventEmitter();
 
 }
