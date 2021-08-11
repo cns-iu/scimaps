@@ -1,45 +1,99 @@
 <!-- Table -->
 <table aria-describedby="table" mat-table [dataSource]="dataSource" matSort matSortDisableClear>
     <tr mat-header-row *matHeaderRowDef="columns"></tr>
-
-    <ng-container *ngFor="let header of tableHeaders" [matColumnDef]="header.key">
+    
+    <!-- dateStart -->
+    <ng-container matColumnDef="dateStart">
         <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>
             <div class="sort">
                 <div>
-                    {{header.label}}
+                    Start
                 </div>
-                <mat-icon [ngClass]="{'active': matSort?.active == header.key, 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>  
-            </div>  
+                <mat-icon [ngClass]="{'active': matSort?.active == 'dateStart', 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>  
+            </div>
         </th>
-        
-        <ng-template [ngIf]="header.type == 'text'">
-            <td mat-cell *matCellDef="let element" [ngStyle]="{'width': header.width + '%'}">
-            {{element[header.key]}}
-            </td>
-        </ng-template>
-        <ng-template [ngIf]="header.type == 'date'">
-            <td mat-cell *matCellDef="let element" [ngStyle]="{'width': header.width + '%'}">
-                {{element[header.key] | date:'mediumDate':'+0000' }}
-            </td>
-        </ng-template>
-        <ng-template [ngIf]="header.type == 'icon'">
-            <td mat-cell *matCellDef="let element" [ngStyle]="{'width': header.width + '%'}">
-                <div class="icons">
-                    <ng-template [ngIf]="element.venueImages">
-                        <div class="icon-container">
-                            <mat-icon class="icon icon-gallery" (click)="openVenueGalleryDrawer(element)">{{header.icon}}</mat-icon>
-                        </div>
-                    </ng-template>
-                    <ng-template [ngIf]="element.pdfLink">
-                        <div class="icon-container">
-                            <a [href]="element.pdfLink" target="_blank" rel="noopener noreferrer">
-                                <mat-icon class="icon icon-pdf" aria-hidden="true" svgIcon="file:download"></mat-icon>
-                            </a>
-                        </div>
-                    </ng-template>
+        <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '15%'}">
+            {{element.dateStart | date:'mediumDate':'+0000' }}
+        </td>
+    </ng-container>
+
+    <!-- dateEnd -->
+    <ng-container matColumnDef="dateEnd">
+        <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>
+            <div class="sort">
+                <div>
+                    End
                 </div>
-            </td>
-        </ng-template>
+                <mat-icon [ngClass]="{'active': matSort?.active == 'dateEnd', 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>  
+            </div>
+        </th>
+        <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '15%'}">
+            {{element.dateEnd | date:'mediumDate':'+0000' }}
+        </td>
+    </ng-container>
+
+    <!-- Title -->
+    <ng-container matColumnDef="title">
+        <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>
+            <div class="sort">
+                <div>
+                    Event
+                </div>
+                <mat-icon [ngClass]="{'active': matSort?.active == 'title', 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>  
+            </div>
+        </th>
+        <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '25%'}">
+            {{element.title}}
+        </td>
+    </ng-container>
+    <!-- Location -->
+    <ng-container matColumnDef="city">
+        <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>
+            <div class="sort">
+                <div>
+                    Location
+                </div>
+                <mat-icon [ngClass]="{'active': matSort?.active == 'city', 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>  
+            </div>
+        </th>
+        <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '20%'}">
+            {{getLocation(element)}}
+        </td>
+    </ng-container>
+    <!-- ORG  -->
+    <ng-container matColumnDef="organizer">
+        <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>
+            <div class="sort">
+                <div>
+                    Contact
+                </div>
+                <mat-icon [ngClass]="{'active': matSort?.active == 'organizer', 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>  
+            </div>
+        </th>
+        <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '15%'}">
+            {{element.organizer }}
+        </td>
+    </ng-container>
+    <!--  -->
+    <ng-container matColumnDef="venueImages">
+        <th scope="col" mat-header-cell *matHeaderCellDef mat-sort-header>
+            <div class="sort">
+                <div>
+                    Media
+                </div>
+                <mat-icon [ngClass]="{'active': matSort?.active == 'venueImages', 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>  
+            </div>
+        </th>
+        <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '15%'}">
+            <div class="icons">
+                <div class="icon-container" *ngIf="element.venueImages">
+                    <mat-icon class="icon icon-pdf" area-hidden="true" svgIcon="file:download"></mat-icon>
+                </div>
+                <div class="icon-container" *ngIf="element.pdfLink">
+                    <mat-icon class="icon icon-gallery" (click)="openVenueGalleryDrawer(element)">image</mat-icon>
+                </div>
+            </div>
+        </td>
     </ng-container>
     <!-- Rows -->
     <tr class="data-row" mat-row *matRowDef="let row; columns: columns"></tr>
