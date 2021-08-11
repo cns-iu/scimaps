@@ -91,20 +91,6 @@ describe('AboutComponent', () => {
       });
   });
 
-  it('should update activePageTab to the one passed in', async () => {
-    const { instance } = await shallow.render();
-    instance.activePageTab = 0;
-    instance.updateActivePageTab(1);
-    expect(instance.activePageTab).toEqual(1);
-  });
-
-  it('should update activePageTab to the one passed in', async () => {
-    const { instance } = await shallow.render();
-    instance.activePageTab = 1;
-    instance.updateActivePageTab(0);
-    expect(instance.activePageTab).toEqual(0);
-  });
-
   it('should have correct curator description', async () => {
     const { instance } = await shallow.render();
     expect(instance.curatorsDescription).toEqual(testBody.curatorsDescription);
