@@ -5,6 +5,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { Params } from '@angular/router';
 import { Store } from '@ngxs/store';
 import { SetAppState } from '../../../core/actions/app.actions';
+import { Venue } from '../../../pages/venues/venues-resolver.service';
 
 @Component({
   selector: 'sci-venues-table',
@@ -58,5 +59,9 @@ export class VenuesTableComponent implements OnInit, AfterViewInit {
         drawerPayload: item
       }
     }));
+  }
+
+  getLocation(venue: Venue) {
+    return [venue.city, venue.state, venue.country].filter(value => value).join(', ')
   }
 }
