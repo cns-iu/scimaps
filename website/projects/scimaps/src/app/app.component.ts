@@ -111,6 +111,11 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
     });
   }
 
+  onActivate(): void {
+    const cdkScrollable = this.sidenavContainer.scrollable;
+    cdkScrollable.scrollTo({ top: 0, left: 0 });
+  }
+
   closeDrawer(): void {
     this.store.dispatch(new SetAppState({
       drawer: {
