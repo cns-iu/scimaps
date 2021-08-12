@@ -181,7 +181,7 @@ class ItemDrawerComponent {
 ItemDrawerComponent.ɵfac = function ItemDrawerComponent_Factory(t) { return new (t || ItemDrawerComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_4__["MatDialog"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ngxs_store__WEBPACK_IMPORTED_MODULE_6__["Store"])); };
 ItemDrawerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ItemDrawerComponent, selectors: [["sci-item-drawer"]], hostVars: 2, hostBindings: function ItemDrawerComponent_HostBindings(rf, ctx) { if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.clsName);
-    } }, inputs: { type: "type", item: "item" }, outputs: { languageChange: "languageChange" }, decls: 32, vars: 16, consts: [["drawer", "", 1, "details-container"], [1, "header"], [3, "backClick"], ["class", "purchase-button", 3, "click", 4, "ngIf"], [1, "body"], [1, "details-content"], [1, "details-title"], [1, "details-makers", 3, "click"], [1, "makers-text"], [1, "makers-label"], [1, "right"], [1, "details-credit"], ["class", "language-selection", 4, "ngIf"], ["markdown", "", 1, "details-description", 3, "data"], [1, "details-references"], ["class", "reference", 4, "ngFor", "ngForOf"], [1, "details-image"], [1, "container", 3, "ngClass", "click"], ["alt", "item image", 1, "thumbnail", 3, "src"], ["class", "icon", 4, "ngIf"], [1, "details-title", "mobile"], [1, "purchase-button", 3, "click"], [1, "language-selection"], ["class", "language-container", 4, "ngFor", "ngForOf"], [1, "language-container"], [4, "ngIf"], [1, "language", "option", 3, "click"], [1, "reference"], ["markdown", "", 3, "data"], [1, "icon"], ["class", "zoom", 4, "ngIf"], ["class", "launch", 4, "ngIf"], [1, "zoom"], [1, "launch"]], template: function ItemDrawerComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, inputs: { type: "type", item: "item" }, outputs: { languageChange: "languageChange" }, decls: 32, vars: 17, consts: [["drawer", "", 1, "details-container"], [1, "header"], [3, "backText", "backClick"], ["class", "purchase-button", 3, "click", 4, "ngIf"], [1, "body"], [1, "details-content"], [1, "details-title"], [1, "details-makers", 3, "click"], [1, "makers-text"], [1, "makers-label"], [1, "right"], [1, "details-credit"], ["class", "language-selection", 4, "ngIf"], ["markdown", "", 1, "details-description", 3, "data"], [1, "details-references"], ["class", "reference", 4, "ngFor", "ngForOf"], [1, "details-image"], [1, "container", 3, "ngClass", "click"], ["alt", "item image", 1, "thumbnail", 3, "src"], ["class", "icon", 4, "ngIf"], [1, "details-title", "mobile"], [1, "purchase-button", 3, "click"], [1, "language-selection"], ["class", "language-container", 4, "ngFor", "ngForOf"], [1, "language-container"], [4, "ngIf"], [1, "language", "option", 3, "click"], [1, "reference"], ["markdown", "", 3, "data"], [1, "icon"], ["class", "zoom", 4, "ngIf"], ["class", "launch", 4, "ngIf"], [1, "zoom"], [1, "launch"]], template: function ItemDrawerComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "sci-drawer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
@@ -237,12 +237,14 @@ ItemDrawerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("@drawerInOut", ctx.showDrawer ? "show" : "hide");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("backText", ctx.type + "s");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.type === "map");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.item.title);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](15, 12, ctx.makers));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](15, 13, ctx.makers));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.item.credit);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
@@ -252,7 +254,7 @@ ItemDrawerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.item.references);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](14, _c0, ctx.item.externalLink ? true : false));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](15, _c0, ctx.item.externalLink ? true : false));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx.item.thumbnail, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);

@@ -10,11 +10,17 @@ overviewParagraph: "Drawing from across cultures and across scholarly
   28 countries on 6 continents. It showcases the work of 248 mapmakers that hail
   from 17 different countries"
 overviewQuote: >-
-  *"This exhibit reveals the power that a good visualization has to convey
-  complex information.”*
+  <blockquote>
 
+  "This exhibit reveals the power that a good visualization has to convey complex information.”
 
-  #### [*\-* Kristi Holmes, PhD](http://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964), director of the Galter Health Sciences Library and associate professor in [Preventive Medicine-Health and Biomedical Informatics](http://informatics.northwestern.edu/hbmi/)
+  </blockquote>
+
+  <cite>
+
+  <a href="http://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964">Kristi Holmes, PhD</a>, director of the Galter Health Sciences Library and associate professor in <a href="http://informatics.northwestern.edu/hbmi/">Preventive Medicine-Health and Biomedical Informatics</a>
+
+  </cite>
 curatorsDescription: The *Places & Spaces* exhibit is curated by
   the [Cyberinfrastructure for Network Science Center](http://cns.iu.edu/) at
   Indiana University. CNS's mission is to advance datasets, tools, and services
