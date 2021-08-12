@@ -8,7 +8,7 @@ credit: Yvo Volman
 city: Luxembourg 
 state:
 country: Luxembourg 
-pdfLink: 20151211-cns-open-house.pdf
+pdfLink:
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

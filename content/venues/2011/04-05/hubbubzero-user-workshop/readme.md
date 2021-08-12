@@ -16,10 +16,4 @@ venueImages:
    lg: image02.lg.jpg
  - sm: image03.sm.jpg
    lg: image03.lg.jpg
- - sm: image04.sm.jpg
-   lg: image04.lg.jpg
- - sm: image05.sm.jpg
-   lg: image05.lg.jpg
- - sm: image06.sm.jpg
-   lg: image06.lg.jpg
 ---
