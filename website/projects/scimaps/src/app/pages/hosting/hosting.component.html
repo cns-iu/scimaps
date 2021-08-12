@@ -35,18 +35,19 @@
     <div class="col1">
         <!-- desktop tab header and tab content -->
         <div *sciBreakpoint="'mobile+'" class="tabs">
-            <sci-tab-header class="tab-header" [tabs]="tabHeaders"
-                (activeTabIndexChanged)="updateActivePageTab($event)">
-            </sci-tab-header>
-            <div class="spacer-48">
-            </div>
-            <div class="tab-content">
-                <div class="col1">
-                    <img [src]="tabs[activePageTab].image" alt="">
-                </div>
-                <div class="col2" markdown [data]="tabs[activePageTab].content">
-                </div>
-            </div>
+            <mat-tab-group mat-align-tabs="start">
+                <ng-container *ngFor="let tab of tabHeaders;let i = index">
+                    <mat-tab [label]="tab">
+                        <div class="tab-content">
+                            <div class="col1">
+                                <img [src]="tabs[i].image" alt="">
+                            </div>
+                            <div class="col2" markdown [data]="tabs[i].content">
+                            </div>
+                        </div>
+                    </mat-tab>
+                </ng-container>
+            </mat-tab-group>
         </div>
         <!-- mobile drawer controller and drawers -->
         <div *sciBreakpoint="'mobile-'" class="mobile-tabs">
