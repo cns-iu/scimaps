@@ -37,17 +37,17 @@ $desktop: 1248px;
         margin-bottom: 1rem;
         margin-right: 1rem;
         cursor: pointer;
-        @media screen and (min-width: $desktop) {
-          width: 22%;
-        }
-        @media screen and  (min-width: $tablet) {
-          width: 30%;
+        @media screen and (max-width: $mobile) {
+          width: 95%;
         }
         @media screen and (min-width: $mobile) and (max-width: $tablet) {
           width: 45%;
         }
-        @media screen and (max-width: $mobile) {
-          width: 95%;
+        @media screen and (min-width: $tablet) {
+          width: 30%;
+        }
+        @media screen and (min-width: $desktop) {
+          width: 22%;
         }
         overflow: hidden;
       }
