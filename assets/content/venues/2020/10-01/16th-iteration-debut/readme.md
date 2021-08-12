@@ -1,14 +1,14 @@
 ---
-dateStart: 2015-11-30
-dateEnd: 2015-11-30
-title: "CNS Open House"
-venue: "CNS, Indiana University"
+dateStart: 2020-10-01
+dateEnd: 2021-01-30
+title: "16th Iteration Debut"
+venue: "Dimension Mill"
 organizer:
-credit: Tracy Theriault
+credit: "Places & Spaces"
 city: Bloomington
 state: IN
 country: USA
-pdfLink: 20151211-cns-open-house.pdf
+pdfLink:
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg

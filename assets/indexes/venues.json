@@ -5215,18 +5215,6 @@
       {
         "sm": "image03.sm.jpg",
         "lg": "image03.lg.jpg"
-      },
-      {
-        "sm": "image04.sm.jpg",
-        "lg": "image04.lg.jpg"
-      },
-      {
-        "sm": "image05.sm.jpg",
-        "lg": "image05.lg.jpg"
-      },
-      {
-        "sm": "image06.sm.jpg",
-        "lg": "image06.lg.jpg"
       }
     ]
   },
@@ -5811,8 +5799,8 @@
   {
     "dateStart": "2011-09-14T00:00:00.000Z",
     "dateEnd": "2011-09-14T00:00:00.000Z",
-    "title": "Program Impact Evaluation, Workshop held jointly by the Advanced Research Projects Agency for Energy (ARPA-E) and the U.S. Department of Energy's Office of Energy Efficiency and Renewable Energy (EERE)",
-    "venue": null,
+    "title": "Program Impact Evaluation, Workshop",
+    "venue": "Held jointly by the Advanced Research Projects Agency for Energy (ARPA-E) and the U.S. Department of Energy's Office of Energy Efficiency and Renewable Energy (EERE)",
     "organizer": "Jeff Dowd",
     "credit": "Places & Spaces",
     "city": "Washington, DC",
@@ -11432,7 +11420,7 @@
     "title": "Homo Communicativus",
     "venue": null,
     "organizer": "Veslava Osinska",
-    "credit": null,
+    "credit": "Veslava Osinska",
     "city": "Torun",
     "state": null,
     "country": "Poland",
@@ -12168,7 +12156,7 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "USA",
-    "pdfLink": null,
+    "pdfLink": "20151211-cns-open-house.pdf",
     "venueImages": [
       {
         "sm": "image01.sm.jpg",
@@ -12280,7 +12268,7 @@
     "city": "Luxembourg",
     "state": null,
     "country": "Luxembourg",
-    "pdfLink": "20151211-cns-open-house.pdf",
+    "pdfLink": null,
     "venueImages": [
       {
         "sm": "image01.sm.jpg",
@@ -12561,7 +12549,7 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "USA",
-    "pdfLink": "20160321-talks- kalevleetaru-big-data.pdf",
+    "pdfLink": "20160321-talks-kalevleetaru-big-data.pdf",
     "venueImages": [
       {
         "sm": "image01.sm.jpg",
@@ -14221,7 +14209,7 @@
   },
   {
     "dateStart": "2017-11-15T00:00:00.000Z",
-    "dateEnd": "2017-11-15T00:00:00.000Z",
+    "dateEnd": "2017-11-17T00:00:00.000Z",
     "title": "Visualizing STEAM Data in Support of Smart Decision Making, Science Centre World Summit 2017",
     "venue": "The National Museum of Emerging Science and Innovation (Miraikan)",
     "organizer": "Katy Borner",
@@ -14923,6 +14911,100 @@
     "country": "USA",
     "pdfLink": null,
     "venueImages": null
+  },
+  {
+    "dateStart": "2020-10-01T00:00:00.000Z",
+    "dateEnd": "2021-01-30T00:00:00.000Z",
+    "title": "16th Iteration Debut",
+    "venue": "Dimension Mill",
+    "organizer": null,
+    "credit": "Places & Spaces",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "USA",
+    "pdfLink": null,
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
+      },
+      {
+        "sm": "image03.sm.jpg",
+        "lg": "image03.lg.jpg"
+      },
+      {
+        "sm": "image04.sm.jpg",
+        "lg": "image04.lg.jpg"
+      },
+      {
+        "sm": "image05.sm.jpg",
+        "lg": "image05.lg.jpg"
+      },
+      {
+        "sm": "image06.sm.jpg",
+        "lg": "image06.lg.jpg"
+      },
+      {
+        "sm": "image07.sm.jpg",
+        "lg": "image07.lg.jpg"
+      },
+      {
+        "sm": "image08.sm.jpg",
+        "lg": "image08.lg.jpg"
+      },
+      {
+        "sm": "image09.sm.jpg",
+        "lg": "image09.lg.jpg"
+      },
+      {
+        "sm": "image10.sm.jpg",
+        "lg": "image10.lg.jpg"
+      },
+      {
+        "sm": "image11.sm.jpg",
+        "lg": "image11.lg.jpg"
+      },
+      {
+        "sm": "image12.sm.jpg",
+        "lg": "image12.lg.jpg"
+      },
+      {
+        "sm": "image13.sm.jpg",
+        "lg": "image13.lg.jpg"
+      },
+      {
+        "sm": "image14.sm.jpg",
+        "lg": "image14.lg.jpg"
+      },
+      {
+        "sm": "image15.sm.jpg",
+        "lg": "image15.lg.jpg"
+      },
+      {
+        "sm": "image16.sm.jpg",
+        "lg": "image16.lg.jpg"
+      },
+      {
+        "sm": "image17.sm.jpg",
+        "lg": "image17.lg.jpg"
+      },
+      {
+        "sm": "image18.sm.jpg",
+        "lg": "image18.lg.jpg"
+      },
+      {
+        "sm": "image19.sm.jpg",
+        "lg": "image19.lg.jpg"
+      },
+      {
+        "sm": "image20.sm.jpg",
+        "lg": "image20.lg.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2021-03-16T00:00:00.000Z",
