@@ -13,7 +13,13 @@ const routes: Routes = [
       body: HostingBodyResolverService,
       learningMaterials: LearningMaterialsResolverService,
     },
-  },
+    children: [
+      {
+        path: 'learning-material',
+        loadChildren: () => import('../learning-material/learning-material.module').then(m => m.LearningMaterialModule),
+      },
+    ]
+  }
 ];
 
 @NgModule({

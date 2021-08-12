@@ -1,7 +1,7 @@
 <div class="drawer-header">
     <div class="back-button" (click)="backClick.emit('back')">
         <mat-icon class="back-icon">chevron_left</mat-icon>
-        <div class="back-text">BACK</div>
+        <div class="back-text">{{backText | uppercase}}</div>
     </div>
     <div class="title">
         <h3>

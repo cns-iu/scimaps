@@ -115,6 +115,11 @@ $mobile: 640px;
       @media (max-width: $mobile) {
         display: none;
       }
+      transition: transform 0.2s;
+      &:hover {
+        opacity: 70%;
+        transform: scale(1.1);
+      }
     }
 
     .thumbnail.mobile {

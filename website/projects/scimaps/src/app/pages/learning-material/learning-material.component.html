@@ -1,15 +1,17 @@
-<div class="container">
-    <sci-drawer-header [title]="'Learning Material'" (backClick)="goBack()">
-    </sci-drawer-header>
-    <div class="content">
-        <div class="row1">
-            <img [src]="item?.image?.lg" alt="" />
-        </div>
-        <div class="row2">
-            <div class="title">
-                <h3>{{ item?.title }}</h3>
+<sci-drawer [@drawerInOut] *ngIf="showDrawer">
+    <div class="container" drawer>
+        <sci-drawer-header backText="Hosting" [title]="'Additional Resources'" (backClick)="goBack()">
+        </sci-drawer-header>
+        <div class="content">
+            <div class="row1">
+                <img [src]="item?.image?.lg" alt="" />
             </div>
-            <div markdown [data]="item?.body"></div>
+            <div class="row2">
+                <div class="title">
+                    <h3>{{ item?.title }}</h3>
+                </div>
+                <div markdown [data]="item?.body"></div>
+            </div>
         </div>
     </div>
-</div>
+</sci-drawer>

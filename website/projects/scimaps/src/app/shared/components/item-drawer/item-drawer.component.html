@@ -2,7 +2,7 @@
   <div class="details-container" drawer>
     
     <div class="header">
-      <sci-drawer-header (backClick)="close()">
+      <sci-drawer-header [backText]="type + 's'" (backClick)="close()">
       </sci-drawer-header>
       <div class="purchase-button" *ngIf="type === 'map'" (click)="openPurchase()">PURCHASE</div>  
     </div>
