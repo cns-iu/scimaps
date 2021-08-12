@@ -61,7 +61,7 @@ export class VenuesTableComponent implements OnInit, AfterViewInit {
     }));
   }
 
-  getLocation(venue: Venue) {
-    return [venue.city, venue.state, venue.country].filter(value => value).join(', ')
+  getLocation(venue: Venue): string {
+    return [venue.city, venue.state, venue.country].filter(value => value).join(', ');
   }
 }
