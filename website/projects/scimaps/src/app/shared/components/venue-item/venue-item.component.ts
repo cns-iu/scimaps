@@ -22,4 +22,10 @@ export class VenueItemComponent {
       drawerPayload: item as Params
     }}));
   }
+
+  openLink(link: string) {
+    if (link) {
+      window.open(link, '_blank');
+    }
+  }
 }
