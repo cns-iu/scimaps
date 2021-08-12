@@ -4,7 +4,7 @@ dateEnd: 2015-06-26
 title: "Homo Communicativus"
 venue:
 organizer: Veslava Osinska
-credit:
+credit: Veslava Osinska
 city: Torun
 state:
 country: Poland

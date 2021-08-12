@@ -1,14 +1,13 @@
 ---
-dateStart: 2015-11-30
-dateEnd: 2015-11-30
-title: "CNS Open House"
-venue: "CNS, Indiana University"
-organizer:
-credit: Tracy Theriault
+dateStart: 2013-08-24
+dateEnd: 2013-08-24
+title: "Makevention"
+venue: "Makevention"
+organizer: 
+credit: "Places & Spaces"
 city: Bloomington
 state: IN
 country: USA
-pdfLink: 20151211-cns-open-house.pdf
 venueImages:
  - sm: image01.sm.jpg
    lg: image01.lg.jpg
@@ -50,4 +49,25 @@ venueImages:
    lg: image19.lg.jpg
  - sm: image20.sm.jpg
    lg: image20.lg.jpg
+ - sm: image21.sm.jpg
+   lg: image21.lg.jpg
+ - sm: image22.sm.jpg
+   lg: image22.lg.jpg
+ - sm: image23.sm.jpg
+   lg: image23.lg.jpg
+ - sm: image24.sm.jpg
+   lg: image24.lg.jpg
+ - sm: image25.sm.jpg
+   lg: image25.lg.jpg
+ - sm: image26.sm.jpg
+   lg: image26.lg.jpg
+ - sm: image27.sm.jpg
+   lg: image27.lg.jpg
+ - sm: image28.sm.jpg
+   lg: image28.lg.jpg
+ - sm: image29.sm.jpg
+   lg: image29.lg.jpg
+ - sm: image30.sm.jpg
+   lg: image30.lg.jpg
 ---
+

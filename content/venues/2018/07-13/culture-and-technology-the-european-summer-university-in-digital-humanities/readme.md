@@ -5,7 +5,7 @@ title: "Culture & Technology - The European Summer University in Digital Humanit
 venue: "University of Leipzig"
 organizer:
 credit: "Places & Spaces"
-city: 	Leipzig
+city: Leipzig
 state:
 country: Germany
 pdfLink: 20180713-culture-technology.pdf
