@@ -1,15 +1,21 @@
-<div class="container">
-    <sci-drawer-header [title]="'Additional Resources'" (backClick)="goBack()">
-    </sci-drawer-header>
-    <div class="content">
-        <div class="row1">
-            <img [src]="item?.image?.lg" alt="" />
-        </div>
-        <div class="row2">
-            <div class="title">
-                <h3>{{ item?.title }}</h3>
+<sci-drawer [@drawerInOut] *ngIf="showDrawer">
+   <ng-container *ngTemplateOutlet="mainPage" drawer></ng-container>
+</sci-drawer>
+
+<ng-template #mainPage>
+    <div class="container">
+        <sci-drawer-header backText="Hosting" [title]="'Additional Resources'" (backClick)="goBack()">
+        </sci-drawer-header>
+        <div class="content">
+            <div class="row1">
+                <img [src]="item?.image?.lg" alt="" />
             </div>
-            <div markdown [data]="item?.body"></div>
+            <div class="row2">
+                <div class="title">
+                    <h3>{{ item?.title }}</h3>
+                </div>
+                <div markdown [data]="item?.body"></div>
+            </div>
         </div>
     </div>
-</div>
+</ng-template>
