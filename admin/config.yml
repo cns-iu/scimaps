@@ -188,6 +188,14 @@ collections:
       - { name: title, label: Title }
       - { name: videoLink, label: Video URL, widget: file }
       - { name: image, label: Thumbnail, widget: image }
+      - name: maker
+        label: Authors
+        widget: relation
+        multiple: false
+        collection: person
+        search_fields: ['name', 'lastName']
+        value_field: '{{slug}}'
+        display_fields: ['{{name}} {{lastName}}']
       - { name: short_description, label: Short Description }
       - { name: long_description, label: Long Description, widget: markdown }
     
