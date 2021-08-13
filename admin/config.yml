@@ -181,13 +181,16 @@ collections:
     path: "{{slug}}/readme"
     folder: content/maker-videos
     slug: "{{title}}"
+    create: true
     media_folder: ''
     public_folder: ''
     fields:
       - { name: title, label: Title }
+      - { name: videoLink, label: Video URL, widget: file }
+      - { name: image, label: Thumbnail, widget: image }
       - { name: short_description, label: Short Description }
-      - { name: long_description, label: Long Description }
-      - { name: image, label: image, widget: image}
+      - { name: long_description, label: Long Description, widget: markdown }
+    
 
   - name: blog
     label: Blogs
