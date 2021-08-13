@@ -4,13 +4,15 @@ import { MarkdownModule } from 'ngx-markdown';
 
 import { DiscoverListingComponent } from './discover-listing.component';
 import { WarningDialogModule } from '../warning-dialog/warning-dialog.module';
+import { SharedModule } from '../../shared.module';
 
 @NgModule({
   declarations: [DiscoverListingComponent],
   imports: [
     CommonModule,
     MarkdownModule,
-    WarningDialogModule
+    WarningDialogModule,
+    SharedModule
   ],
   exports: [DiscoverListingComponent]
 })

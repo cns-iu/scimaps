@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ActivatedRoute } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing';
 import { MarkdownModule } from 'ngx-markdown';
 import { of } from 'rxjs';
 import { VenuesBody } from './venues-body-resolver.service';
@@ -23,7 +24,7 @@ describe('VenuesComponent', () => {
     const route = {data: of({body, venues})};
     TestBed.configureTestingModule({
       declarations: [VenuesComponent],
-      imports: [BrowserAnimationsModule, VenuesModule, MarkdownModule.forRoot()],
+      imports: [BrowserAnimationsModule, VenuesModule, MarkdownModule.forRoot(), RouterTestingModule],
       providers: [{ provide: ActivatedRoute, useValue: route }]
     });
     fixture = TestBed.createComponent(VenuesComponent);

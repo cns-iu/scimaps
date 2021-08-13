@@ -1,7 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { Params } from '@angular/router';
-import { Store } from '@ngxs/store';
-import { SetAppState } from '../../../core/actions/app.actions';
+import { Params, Router } from '@angular/router';
+import { getSegmentedDate } from '../../../constants/utils';
 import { Venue } from '../../../pages/venues/venues-resolver.service';
 
 @Component({
@@ -13,13 +12,16 @@ export class VenueItemComponent {
 
   @Input() item!: Venue | Params;
 
-  constructor(private store: Store) { }
+  constructor(private router: Router) { }
 
-  openDrawer(item: Venue | Params): void {
-    this.store.dispatch(new SetAppState({drawer: {
-      showDrawer: true,
-      drawerName: 'venue-gallery-drawer',
-      drawerPayload: item as Params
-    }}));
+  gotoGallery(item: Venue | Params): void {
+    const [year, month, date] = getSegmentedDate(item.dateStart);
+    this.router.navigate(['/', 'venues', 'gallery', year, `${month}-${date}`, item.slug]);
+  }
+
+  openLink(link: string): void {
+    if (link) {
+      window.open(link, '_blank');
+    }
   }
 }

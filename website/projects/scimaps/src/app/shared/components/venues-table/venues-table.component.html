@@ -87,10 +87,10 @@
         <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '15%'}">
             <div class="icons">
                 <div class="icon-container" *ngIf="element.venueImages">
-                    <mat-icon class="icon icon-pdf" area-hidden="true" svgIcon="file:download"></mat-icon>
+                    <mat-icon class="icon icon-gallery" (click)="gotoGallery(element)">image</mat-icon>
                 </div>
                 <div class="icon-container" *ngIf="element.pdfLink">
-                    <mat-icon class="icon icon-gallery" (click)="openVenueGalleryDrawer(element)">image</mat-icon>
+                    <mat-icon class="icon icon-pdf" area-hidden="true" svgIcon="file:download" (click)="openLink(element.pdfLink)"></mat-icon>
                 </div>
             </div>
         </td>
