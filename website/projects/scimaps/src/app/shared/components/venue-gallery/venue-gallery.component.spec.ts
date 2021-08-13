@@ -1,4 +1,4 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ActivatedRoute, Router } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
@@ -33,4 +33,10 @@ describe('VenueGalleryComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('should close after 500ms', fakeAsync(() => {
+    const spy = spyOn(router, 'navigate');
+    component.closeDrawer();
+    tick(500);
+    expect(spy).toHaveBeenCalled();
+  }));
 });

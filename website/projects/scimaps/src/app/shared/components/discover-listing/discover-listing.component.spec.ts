@@ -72,4 +72,19 @@ describe('DiscoverListingComponent', () => {
     instance.mobileThumbnailClickHandler('www.google.com');
     expect(get(MatDialog).open).toHaveBeenCalled();
   });
+  it('should have correct full content', async () => {
+    const { instance} = await shallow.mock(MatDialog, mockMatDialog).render({ bind: { discoverItem, type }});
+    const full = instance.fullContent;
+    expect(full).toEqual(instance.discoverItem.body);
+  });
+  it('should have correct partial content', async () => {
+    const { instance} = await shallow.mock(MatDialog, mockMatDialog).render({ bind: { discoverItem, type }});
+    const partial = instance.partialContent;
+    expect(partial).toEqual(`${instance.fullContent.slice(0, 500)}...`);
+  });
+  it('should have correct boolean value', async () => {
+    const { instance} = await shallow.mock(MatDialog, mockMatDialog).render({ bind: { discoverItem, type }});
+    const isLong = instance.hasLongContent;
+    expect(isLong).toBeTruthy();
+  });
 });
