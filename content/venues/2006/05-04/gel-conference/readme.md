@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-05-04
-dateEnd: 2007-05-05
+dateStart: 2006-05-04
+dateEnd: 2006-05-05
 title: "Gel Conference"
 venue: "Creative Good"
 organizer: Mark Hurst

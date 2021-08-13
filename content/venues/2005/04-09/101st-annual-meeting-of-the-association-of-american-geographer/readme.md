@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-04-05
-dateEnd: 2007-04-09
+dateStart: 2005-04-05
+dateEnd: 2005-04-09
 title: "101st Annual Meeting of the Association of American Geographer"
 venue: "101st Annual Meeting of the Association of American Geographer"
 organizer: "Deborah MacPherson, Katy Börner"

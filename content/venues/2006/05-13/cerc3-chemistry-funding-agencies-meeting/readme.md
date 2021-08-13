@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-05-13
-dateEnd: 2007-05-13
+dateStart: 2006-05-13
+dateEnd: 2006-05-13
 title: "CERC3 Chemistry Funding Agencies Meeting"
 venue: "CERC3 Chemistry Funding Agencies Meeting"
 organizer: "Janice M. Hicks"

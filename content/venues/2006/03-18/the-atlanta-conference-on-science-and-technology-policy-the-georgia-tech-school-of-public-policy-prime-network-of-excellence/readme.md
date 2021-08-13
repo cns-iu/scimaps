@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-03-18
-dateEnd: 2007-03-20
+dateStart: 2006-03-18
+dateEnd: 2006-03-20
 title: "The Atlanta Conference on Science and Technology Policy, The Georgia Tech School of Public Policy, PRIME Network of Excellence"
 venue: "The College of Management at Georgia Tech, Technology Square, Georgia Institute of Technology"
 organizer: "Katy Börner, Elena B. Harari"

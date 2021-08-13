@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-02-27
-dateEnd: 2007-02-27
+dateStart: 2006-02-27
+dateEnd: 2006-02-27
 title: "The Future of Science and Technology"
 venue: "Institute for the Future Workshop, Rockefeller Foundation"
 organizer: "Katy Börner"
