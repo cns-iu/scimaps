@@ -909,7 +909,7 @@ const routes = [
         children: [
             {
                 path: 'learning-material',
-                loadChildren: () => __webpack_require__.e(/*! import() | learning-material-learning-material-module */ "learning-material-learning-material-module").then(__webpack_require__.bind(null, /*! ../learning-material/learning-material.module */ "TzDt")).then(m => m.LearningMaterialModule),
+                loadChildren: () => __webpack_require__.e(/*! import() | learning-material-learning-material-module */ "default~learning-material-learning-material-module~pages-learning-material-learning-material-module").then(__webpack_require__.bind(null, /*! ../learning-material/learning-material.module */ "TzDt")).then(m => m.LearningMaterialModule),
             },
         ]
     }

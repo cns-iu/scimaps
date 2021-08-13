@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["learning-material-learning-material-module"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["default~learning-material-learning-material-module~pages-learning-material-learning-material-module"],{
 
 /***/ "L9xK":
 /*!*******************************************************************************!*\
@@ -264,4 +264,4 @@ LearningMaterialComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
 /***/ })
 
 }]);
-//# sourceMappingURL=learning-material-learning-material-module.js.map
+//# sourceMappingURL=default~learning-material-learning-material-module~pages-learning-material-learning-material-module.js.map

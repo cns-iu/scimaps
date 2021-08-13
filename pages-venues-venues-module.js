@@ -868,6 +868,7 @@ class VenuesResolverService {
     }
     toVenue(item) {
         return {
+            slug: Object(_shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__["toSlug"])(item.title),
             dateStart: item.dateStart,
             dateEnd: item.dateEnd,
             title: item.title,
@@ -898,6 +899,183 @@ VenuesResolverService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
                 providedIn: 'root',
             }]
     }], function () { return [{ type: _shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__["ContentService"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "4FRl":
+/*!*************************************************************************!*\
+  !*** ./src/app/shared/components/drawer-header/drawer-header.module.ts ***!
+  \*************************************************************************/
+/*! exports provided: DrawerHeaderModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DrawerHeaderModule", function() { return DrawerHeaderModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "2kYt");
+/* harmony import */ var _drawer_header_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./drawer-header.component */ "StKz");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/icon */ "bFHC");
+/* harmony import */ var _shared_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../shared.module */ "PCNd");
+
+
+
+
+
+
+class DrawerHeaderModule {
+}
+DrawerHeaderModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: DrawerHeaderModule });
+DrawerHeaderModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function DrawerHeaderModule_Factory(t) { return new (t || DrawerHeaderModule)(); }, imports: [[
+            _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+            _angular_material_icon__WEBPACK_IMPORTED_MODULE_3__["MatIconModule"],
+            _shared_module__WEBPACK_IMPORTED_MODULE_4__["SharedModule"]
+        ]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](DrawerHeaderModule, { declarations: [_drawer_header_component__WEBPACK_IMPORTED_MODULE_2__["DrawerHeaderComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+        _angular_material_icon__WEBPACK_IMPORTED_MODULE_3__["MatIconModule"],
+        _shared_module__WEBPACK_IMPORTED_MODULE_4__["SharedModule"]], exports: [_drawer_header_component__WEBPACK_IMPORTED_MODULE_2__["DrawerHeaderComponent"]] }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DrawerHeaderModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+        args: [{
+                declarations: [_drawer_header_component__WEBPACK_IMPORTED_MODULE_2__["DrawerHeaderComponent"]],
+                imports: [
+                    _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+                    _angular_material_icon__WEBPACK_IMPORTED_MODULE_3__["MatIconModule"],
+                    _shared_module__WEBPACK_IMPORTED_MODULE_4__["SharedModule"]
+                ],
+                exports: [_drawer_header_component__WEBPACK_IMPORTED_MODULE_2__["DrawerHeaderComponent"]]
+            }]
+    }], null, null); })();
+
+
+/***/ }),
+
+/***/ "7BDR":
+/*!****************************************************************************!*\
+  !*** ./src/app/shared/components/venue-gallery/venue-gallery.component.ts ***!
+  \****************************************************************************/
+/*! exports provided: VenueGalleryComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VenueGalleryComponent", function() { return VenueGalleryComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
+/* harmony import */ var _constants_drawer_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../constants/drawer.animations */ "AY0P");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "sEIs");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "2kYt");
+/* harmony import */ var _drawer_drawer_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../drawer/drawer.component */ "IMSB");
+/* harmony import */ var _drawer_header_drawer_header_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../drawer-header/drawer-header.component */ "StKz");
+
+
+
+
+
+
+
+function VenueGalleryComponent_sci_drawer_0_div_13_Template(rf, ctx) { if (rf & 1) {
+    const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function VenueGalleryComponent_sci_drawer_0_div_13_Template_div_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r6); const i_r4 = ctx.index; const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); ctx_r5.overlayImage = ctx_r5.item.venueImages[i_r4].lg; return ctx_r5.showOverlay = true; });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const image_r3 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", image_r3.sm, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("alt", image_r3.sm);
+} }
+function VenueGalleryComponent_sci_drawer_0_sci_drawer_14_Template(rf, ctx) { if (rf & 1) {
+    const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "sci-drawer", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "sci-drawer-header", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("backClick", function VenueGalleryComponent_sci_drawer_0_sci_drawer_14_Template_sci_drawer_header_backClick_2_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r7.showOverlay = false; });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "img", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx_r2.overlayImage, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("alt", ctx_r2.overlayImage);
+} }
+function VenueGalleryComponent_sci_drawer_0_Template(rf, ctx) { if (rf & 1) {
+    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "sci-drawer");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "sci-drawer-header", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("backClick", function VenueGalleryComponent_sci_drawer_0_Template_sci_drawer_header_backClick_2_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r10); const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r9.closeDrawer(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h2", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](8, "date");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](9, "date");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, VenueGalleryComponent_sci_drawer_0_div_13_Template, 2, 2, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, VenueGalleryComponent_sci_drawer_0_sci_drawer_14_Template, 5, 2, "sci-drawer", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("@drawerInOut", undefined);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r0.item == null ? null : ctx_r0.item.title);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"]("Date: ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](8, 7, ctx_r0.item == null ? null : ctx_r0.item.dateStart, "mediumDate", "+0000"), " ", (ctx_r0.item == null ? null : ctx_r0.item.dateEnd) && (ctx_r0.item == null ? null : ctx_r0.item.dateStart) !== ctx_r0.item.dateEnd ? "- " + _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](9, 11, ctx_r0.item.dateEnd, "mediumDate", "+0000") : "", "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Photos By: ", ctx_r0.item == null ? null : ctx_r0.item.credit, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r0.item.venueImages);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.showOverlay && ctx_r0.overlayImage);
+} }
+class VenueGalleryComponent {
+    constructor(router, route) {
+        this.router = router;
+        this.route = route;
+        this.showOverlay = false;
+        this.overlayImage = '';
+        this.show = false;
+    }
+    ngOnInit() {
+        this.show = true;
+        this.item = this.route.snapshot.data.venue;
+    }
+    closeDrawer() {
+        this.show = false;
+        setTimeout(() => {
+            this.router.navigate(['/', 'venues']);
+        }, 500);
+    }
+}
+VenueGalleryComponent.ɵfac = function VenueGalleryComponent_Factory(t) { return new (t || VenueGalleryComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"])); };
+VenueGalleryComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VenueGalleryComponent, selectors: [["sci-venue-gallery"]], decls: 1, vars: 1, consts: [[4, "ngIf"], ["drawer", "", 1, "gallery-item"], ["backText", "venues", "title", "Gallery", 3, "backClick"], [1, "header2"], [1, "details"], [1, "thumbnails-container"], ["class", "thumbnail", 3, "click", 4, "ngFor", "ngForOf"], ["class", "sci-drawer", 4, "ngIf"], [1, "thumbnail", 3, "click"], [3, "src", "alt"], [1, "sci-drawer"], ["drawer", "", 1, "drawer"], ["backText", "gallery", 3, "backClick"], [1, "overlay-container"]], template: function VenueGalleryComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, VenueGalleryComponent_sci_drawer_0_Template, 15, 15, "sci-drawer", 0);
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.show);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _drawer_drawer_component__WEBPACK_IMPORTED_MODULE_4__["DrawerComponent"], _drawer_header_drawer_header_component__WEBPACK_IMPORTED_MODULE_5__["DrawerHeaderComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["DatePipe"]], styles: ["[_nghost-%COMP%]   .gallery-item[_ngcontent-%COMP%] {\n  width: 100%;\n  margin: 0 auto;\n}\n[_nghost-%COMP%]   .gallery-item[_ngcontent-%COMP%]   .close-wrapper[_ngcontent-%COMP%] {\n  width: 100%;\n  display: flex;\n  justify-content: flex-end;\n}\n[_nghost-%COMP%]   .gallery-item[_ngcontent-%COMP%]   .close-wrapper[_ngcontent-%COMP%]   .close-icon[_ngcontent-%COMP%] {\n  color: #7997a3;\n  position: absolute;\n  top: 1rem;\n  right: 5%;\n  cursor: pointer;\n  border-radius: 50%;\n}\n[_nghost-%COMP%]   .gallery-item[_ngcontent-%COMP%]   .close-wrapper[_ngcontent-%COMP%]   .close-icon[_ngcontent-%COMP%]:hover {\n  background-color: #dce0e2;\n  color: #7997a3;\n}\n[_nghost-%COMP%]   .gallery-item[_ngcontent-%COMP%]   .details[_ngcontent-%COMP%] {\n  margin-bottom: 2rem;\n}\n[_nghost-%COMP%]   .gallery-item[_ngcontent-%COMP%]   .thumbnails-container[_ngcontent-%COMP%] {\n  width: 100%;\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n[_nghost-%COMP%]   .gallery-item[_ngcontent-%COMP%]   .thumbnails-container[_ngcontent-%COMP%]   .thumbnail[_ngcontent-%COMP%] {\n  margin-bottom: 1rem;\n  margin-right: 1rem;\n  cursor: pointer;\n  overflow: hidden;\n}\n@media screen and (max-width: 640px) {\n  [_nghost-%COMP%]   .gallery-item[_ngcontent-%COMP%]   .thumbnails-container[_ngcontent-%COMP%]   .thumbnail[_ngcontent-%COMP%] {\n    width: 95%;\n  }\n}\n@media screen and (min-width: 640px) and (max-width: 960px) {\n  [_nghost-%COMP%]   .gallery-item[_ngcontent-%COMP%]   .thumbnails-container[_ngcontent-%COMP%]   .thumbnail[_ngcontent-%COMP%] {\n    width: 45%;\n  }\n}\n@media screen and (min-width: 960px) {\n  [_nghost-%COMP%]   .gallery-item[_ngcontent-%COMP%]   .thumbnails-container[_ngcontent-%COMP%]   .thumbnail[_ngcontent-%COMP%] {\n    width: 30%;\n  }\n}\n@media screen and (min-width: 1248px) {\n  [_nghost-%COMP%]   .gallery-item[_ngcontent-%COMP%]   .thumbnails-container[_ngcontent-%COMP%]   .thumbnail[_ngcontent-%COMP%] {\n    width: 22%;\n  }\n}\n[_nghost-%COMP%]   .sci-drawer[_ngcontent-%COMP%] {\n  background-color: black;\n}\n[_nghost-%COMP%]   .sci-drawer[_ngcontent-%COMP%]   .close-wrapper[_ngcontent-%COMP%] {\n  width: 100%;\n  display: flex;\n  justify-content: flex-end;\n}\n[_nghost-%COMP%]   .sci-drawer[_ngcontent-%COMP%]   .close-wrapper[_ngcontent-%COMP%]   .close-icon[_ngcontent-%COMP%] {\n  color: #7997a3;\n  cursor: pointer;\n  border-radius: 50%;\n}\n[_nghost-%COMP%]   .sci-drawer[_ngcontent-%COMP%]   .close-wrapper[_ngcontent-%COMP%]   .close-icon[_ngcontent-%COMP%]:hover {\n  background-color: #dce0e2;\n  color: #7997a3;\n}\n[_nghost-%COMP%]   .sci-drawer[_ngcontent-%COMP%]   .overlay-container[_ngcontent-%COMP%] {\n  background-color: black;\n  padding: 1rem;\n}\n[_nghost-%COMP%]   .sci-drawer[_ngcontent-%COMP%]   .overlay-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  display: block;\n  width: 100%;\n  margin: 0 auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9zaGFyZWQvY29tcG9uZW50cy92ZW51ZS1nYWxsZXJ5L3ZlbnVlLWdhbGxlcnkuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS0U7RUFDRSxXQUFBO0VBQ0EsY0FBQTtBQUpKO0FBS0k7RUFDRSxXQUFBO0VBQ0EsYUFBQTtFQUNBLHlCQUFBO0FBSE47QUFJTTtFQUNFLGNBQUE7RUFDQSxrQkFBQTtFQUNBLFNBQUE7RUFDQSxTQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0FBRlI7QUFHUTtFQUNFLHlCQUFBO0VBQ0EsY0FBQTtBQURWO0FBTUk7RUFDRSxtQkFBQTtBQUpOO0FBTUk7RUFDRSxXQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtBQUpOO0FBTU07RUFDRSxtQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQWFBLGdCQUFBO0FBaEJSO0FBSVE7RUFKRjtJQUtJLFVBQUE7RUFEUjtBQUNGO0FBRVE7RUFQRjtJQVFJLFVBQUE7RUFDUjtBQUNGO0FBQVE7RUFWRjtJQVdJLFVBQUE7RUFHUjtBQUNGO0FBRlE7RUFiRjtJQWNJLFVBQUE7RUFLUjtBQUNGO0FBRUU7RUFDRSx1QkFGUTtBQUVaO0FBQ0k7RUFDRSxXQUFBO0VBQ0EsYUFBQTtFQUNBLHlCQUFBO0FBQ047QUFDTTtFQUNFLGNBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7QUFDUjtBQUFRO0VBQ0UseUJBQUE7RUFDQSxjQUFBO0FBRVY7QUFHSTtFQUNFLHVCQXBCTTtFQXFCTixhQUFBO0FBRE47QUFFTTtFQUNFLGNBQUE7RUFDQSxXQUFBO0VBQ0EsY0FBQTtBQUFSIiwiZmlsZSI6InByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9zaGFyZWQvY29tcG9uZW50cy92ZW51ZS1nYWxsZXJ5L3ZlbnVlLWdhbGxlcnkuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkbW9iaWxlOiA2NDBweDtcbiR0YWJsZXQ6IDk2MHB4O1xuJGRlc2t0b3A6IDEyNDhweDtcblxuOmhvc3Qge1xuICAuZ2FsbGVyeS1pdGVtIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBtYXJnaW46IDAgYXV0bztcbiAgICAuY2xvc2Utd3JhcHBlciB7XG4gICAgICB3aWR0aDogMTAwJTtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtZW5kO1xuICAgICAgLmNsb3NlLWljb24ge1xuICAgICAgICBjb2xvcjogIzc5OTdhMztcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICB0b3A6IDFyZW07XG4gICAgICAgIHJpZ2h0OiA1JTtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA1MCU7XG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNkY2UwZTI7XG4gICAgICAgICAgY29sb3I6ICM3OTk3YTM7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG5cbiAgICAuZGV0YWlscyB7XG4gICAgICBtYXJnaW4tYm90dG9tOiAycmVtO1xuICAgIH1cbiAgICAudGh1bWJuYWlscy1jb250YWluZXIge1xuICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICAgIGZsZXgtd3JhcDogd3JhcDtcblxuICAgICAgLnRodW1ibmFpbCB7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDFyZW07XG4gICAgICAgIG1hcmdpbi1yaWdodDogMXJlbTtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAkbW9iaWxlKSB7XG4gICAgICAgICAgd2lkdGg6IDk1JTtcbiAgICAgICAgfVxuICAgICAgICBAbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiAkbW9iaWxlKSBhbmQgKG1heC13aWR0aDogJHRhYmxldCkge1xuICAgICAgICAgIHdpZHRoOiA0NSU7XG4gICAgICAgIH1cbiAgICAgICAgQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogJHRhYmxldCkge1xuICAgICAgICAgIHdpZHRoOiAzMCU7XG4gICAgICAgIH1cbiAgICAgICAgQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogJGRlc2t0b3ApIHtcbiAgICAgICAgICB3aWR0aDogMjIlO1xuICAgICAgICB9XG4gICAgICAgIG92ZXJmbG93OiBoaWRkZW47XG4gICAgICB9XG4gICAgfVxuICB9XG5cbiAgJGJnY29sb3I6IGJsYWNrO1xuICAuc2NpLWRyYXdlciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGJnY29sb3I7XG4gICAgLmNsb3NlLXdyYXBwZXIge1xuICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAganVzdGlmeS1jb250ZW50OiBmbGV4LWVuZDtcblxuICAgICAgLmNsb3NlLWljb24ge1xuICAgICAgICBjb2xvcjogIzc5OTdhMztcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA1MCU7XG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNkY2UwZTI7XG4gICAgICAgICAgY29sb3I6ICM3OTk3YTM7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG5cbiAgICAub3ZlcmxheS1jb250YWluZXIge1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogJGJnY29sb3I7XG4gICAgICBwYWRkaW5nOiAxcmVtO1xuICAgICAgaW1nIHtcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICBtYXJnaW46IDAgYXV0bztcbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */"], data: { animation: [_constants_drawer_animations__WEBPACK_IMPORTED_MODULE_1__["drawerInOut"]] } });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](VenueGalleryComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'sci-venue-gallery',
+                templateUrl: './venue-gallery.component.html',
+                styleUrls: ['./venue-gallery.component.scss'],
+                animations: [_constants_drawer_animations__WEBPACK_IMPORTED_MODULE_1__["drawerInOut"]]
+            }]
+    }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }]; }, null); })();
 
 
 /***/ }),
@@ -946,6 +1124,79 @@ AccordianModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineIn
                 exports: [_accordian_component__WEBPACK_IMPORTED_MODULE_2__["AccordianComponent"]]
             }]
     }], null, null); })();
+
+
+/***/ }),
+
+/***/ "StKz":
+/*!****************************************************************************!*\
+  !*** ./src/app/shared/components/drawer-header/drawer-header.component.ts ***!
+  \****************************************************************************/
+/*! exports provided: DrawerHeaderComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DrawerHeaderComponent", function() { return DrawerHeaderComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/icon */ "bFHC");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "2kYt");
+
+
+
+
+class DrawerHeaderComponent {
+    constructor() {
+        this.className = 'sci-drawer-header';
+        this.title = '';
+        this.backText = '';
+        this.backClick = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+    }
+}
+DrawerHeaderComponent.ɵfac = function DrawerHeaderComponent_Factory(t) { return new (t || DrawerHeaderComponent)(); };
+DrawerHeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DrawerHeaderComponent, selectors: [["sci-drawer-header"]], hostVars: 2, hostBindings: function DrawerHeaderComponent_HostBindings(rf, ctx) { if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.className);
+    } }, inputs: { title: "title", backText: "backText" }, outputs: { backClick: "backClick" }, decls: 10, vars: 4, consts: [[1, "drawer-header"], [1, "back-button", 3, "click"], [1, "back-icon"], [1, "back-text"], [1, "title"]], template: function DrawerHeaderComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function DrawerHeaderComponent_Template_div_click_1_listener() { return ctx.backClick.emit("back"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-icon", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "chevron_left");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](6, "uppercase");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](6, 2, ctx.backText));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.title, " ");
+    } }, directives: [_angular_material_icon__WEBPACK_IMPORTED_MODULE_1__["MatIcon"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["UpperCasePipe"]], styles: ["[_nghost-%COMP%] {\n  width: 100%;\n}\n[_nghost-%COMP%]   .drawer-header[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  margin-bottom: 1.5rem;\n}\n[_nghost-%COMP%]   .drawer-header[_ngcontent-%COMP%]   .back-button[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  justify-self: flex-start;\n  cursor: pointer;\n  color: #7996a3;\n}\n[_nghost-%COMP%]   .drawer-header[_ngcontent-%COMP%]   .back-button[_ngcontent-%COMP%]   .back-icon[_ngcontent-%COMP%] {\n  margin-left: -0.5rem;\n  margin-right: 1rem;\n}\n[_nghost-%COMP%]   .drawer-header[_ngcontent-%COMP%]   .back-button[_ngcontent-%COMP%]   .back-text[_ngcontent-%COMP%] {\n  display: block;\n}\n@media screen and (max-width: 640px) {\n  [_nghost-%COMP%]   .drawer-header[_ngcontent-%COMP%]   .back-button[_ngcontent-%COMP%]   .back-text[_ngcontent-%COMP%] {\n    display: none;\n  }\n}\n[_nghost-%COMP%]   .drawer-header[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  color: #757575;\n  width: 100%;\n  display: flex;\n  justify-content: space-around;\n}\n[_nghost-%COMP%]   .drawer-header[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n  margin-bottom: 0;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9zaGFyZWQvY29tcG9uZW50cy9kcmF3ZXItaGVhZGVyL2RyYXdlci1oZWFkZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSxXQUFBO0FBREY7QUFFRTtFQUNFLGFBQUE7RUFDQSxtQkFBQTtFQUNBLG1CQUFBO0VBQ0EscUJBQUE7QUFBSjtBQUNJO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0Esd0JBQUE7RUFDQSxlQUFBO0VBQ0EsY0FBQTtBQUNOO0FBQU07RUFDRSxvQkFBQTtFQUNBLGtCQUFBO0FBRVI7QUFFTTtFQUNFLGNBQUE7QUFBUjtBQUNRO0VBRkY7SUFHTSxhQUFBO0VBRVY7QUFDRjtBQUNJO0VBQ0UsY0FBQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0VBQ0EsNkJBQUE7QUFDTjtBQUFNO0VBQ0UsZ0JBQUE7QUFFUiIsImZpbGUiOiJwcm9qZWN0cy9zY2ltYXBzL3NyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvZHJhd2VyLWhlYWRlci9kcmF3ZXItaGVhZGVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCAnLi4vLi4vLi4vLi4vc3R5bGluZy9icmVha3BvaW50cyc7XG5cbjpob3N0IHtcbiAgd2lkdGg6IDEwMCU7XG4gIC5kcmF3ZXItaGVhZGVyIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBtYXJnaW4tYm90dG9tOiAxLjVyZW07XG4gICAgLmJhY2stYnV0dG9uIHtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAganVzdGlmeS1zZWxmOiBmbGV4LXN0YXJ0O1xuICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgY29sb3I6ICM3OTk2YTM7XG4gICAgICAuYmFjay1pY29uIHtcbiAgICAgICAgbWFyZ2luLWxlZnQ6IC0wLjVyZW07XG4gICAgICAgIG1hcmdpbi1yaWdodDogMXJlbTtcbiAgICAgIH1cblxuICAgIC8vICBIaWRlIGJhY2sgdGV4dCBvbiBtb2JpbGUuXG4gICAgICAuYmFjay10ZXh0IHtcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6ICRtb2JpbGUpIHtcbiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gICAgLnRpdGxlIHtcbiAgICAgIGNvbG9yOiAjNzU3NTc1O1xuICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XG4gICAgICBoMyB7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDA7XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DrawerHeaderComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'sci-drawer-header',
+                templateUrl: './drawer-header.component.html',
+                styleUrls: ['./drawer-header.component.scss']
+            }]
+    }], null, { className: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"],
+            args: ['class']
+        }], title: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], backText: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], backClick: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }] }); })();
 
 
 /***/ }),
@@ -1027,8 +1278,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/paginator */ "iAde");
 /* harmony import */ var _angular_material_sort__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/sort */ "cePI");
 /* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/table */ "FlRo");
-/* harmony import */ var _core_actions_app_actions__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../core/actions/app.actions */ "zqhc");
-/* harmony import */ var _ngxs_store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ngxs/store */ "yDe4");
+/* harmony import */ var _constants_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../constants/utils */ "fNWo");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "sEIs");
 /* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/icon */ "bFHC");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ "2kYt");
 
@@ -1200,24 +1451,27 @@ function VenuesTableComponent_th_18_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](1, _c0, (ctx_r11.matSort == null ? null : ctx_r11.matSort.active) == "venueImages", (ctx_r11.matSort == null ? null : ctx_r11.matSort.direction) == "desc"));
 } }
 function VenuesTableComponent_td_19_div_2_Template(rf, ctx) { if (rf & 1) {
+    const _r24 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "mat-icon", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-icon", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function VenuesTableComponent_td_19_div_2_Template_mat_icon_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r24); const element_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r22.gotoGallery(element_r19); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "image");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function VenuesTableComponent_td_19_div_3_Template(rf, ctx) { if (rf & 1) {
-    const _r24 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    const _r27 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-icon", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function VenuesTableComponent_td_19_div_3_Template_mat_icon_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r24); const element_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r22.openVenueGalleryDrawer(element_r19); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "image");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function VenuesTableComponent_td_19_div_3_Template_mat_icon_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r27); const element_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r25.openLink(element_r19.pdfLink); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function VenuesTableComponent_td_19_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, VenuesTableComponent_td_19_div_2_Template, 2, 0, "div", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, VenuesTableComponent_td_19_div_3_Template, 3, 0, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, VenuesTableComponent_td_19_div_2_Template, 3, 0, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, VenuesTableComponent_td_19_div_3_Template, 2, 0, "div", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1233,8 +1487,8 @@ function VenuesTableComponent_tr_20_Template(rf, ctx) { if (rf & 1) {
 } }
 const _c4 = function () { return [5, 10, 20]; };
 class VenuesTableComponent {
-    constructor(store, cdr) {
-        this.store = store;
+    constructor(router, cdr) {
+        this.router = router;
         this.cdr = cdr;
         this.clsName = 'sci-venues-table';
         this.initialSort = { column: '', direction: 'asc' };
@@ -1260,20 +1514,20 @@ class VenuesTableComponent {
             this.cdr.detectChanges();
         }
     }
-    openVenueGalleryDrawer(item) {
-        this.store.dispatch(new _core_actions_app_actions__WEBPACK_IMPORTED_MODULE_4__["SetAppState"]({
-            drawer: {
-                showDrawer: true,
-                drawerName: 'venue-gallery-drawer',
-                drawerPayload: item
-            }
-        }));
+    gotoGallery(item) {
+        const [year, month, date] = Object(_constants_utils__WEBPACK_IMPORTED_MODULE_4__["getSegmentedDate"])(item.dateStart);
+        this.router.navigate(['/', 'venues', 'gallery', year, `${month}-${date}`, item.slug]);
     }
     getLocation(venue) {
         return [venue.city, venue.state, venue.country].filter(value => value).join(', ');
     }
+    openLink(link) {
+        if (link) {
+            window.open(link, '_blank');
+        }
+    }
 }
-VenuesTableComponent.ɵfac = function VenuesTableComponent_Factory(t) { return new (t || VenuesTableComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ngxs_store__WEBPACK_IMPORTED_MODULE_5__["Store"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"])); };
+VenuesTableComponent.ɵfac = function VenuesTableComponent_Factory(t) { return new (t || VenuesTableComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"])); };
 VenuesTableComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VenuesTableComponent, selectors: [["sci-venues-table"]], viewQuery: function VenuesTableComponent_Query(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵviewQuery"](_angular_material_paginator__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"], true);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵviewQuery"](_angular_material_sort__WEBPACK_IMPORTED_MODULE_2__["MatSort"], true);
@@ -1283,7 +1537,7 @@ VenuesTableComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.matSort = _t.first);
     } }, hostVars: 2, hostBindings: function VenuesTableComponent_HostBindings(rf, ctx) { if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.clsName);
-    } }, inputs: { initialSort: "initialSort", dataSource: "dataSource", tableHeaders: "tableHeaders" }, decls: 22, vars: 7, consts: [["aria-describedby", "table", "mat-table", "", "matSort", "", "matSortDisableClear", "", 3, "dataSource"], ["mat-header-row", "", 4, "matHeaderRowDef"], ["matColumnDef", "dateStart"], ["scope", "col", "mat-header-cell", "", "mat-sort-header", "", 4, "matHeaderCellDef"], ["mat-cell", "", 3, "ngStyle", 4, "matCellDef"], ["matColumnDef", "dateEnd"], ["matColumnDef", "title"], ["matColumnDef", "city"], ["matColumnDef", "organizer"], ["matColumnDef", "venueImages"], ["class", "data-row", "mat-row", "", 4, "matRowDef", "matRowDefColumns"], [3, "length", "pageSizeOptions", "pageSize"], ["mat-header-row", ""], ["scope", "col", "mat-header-cell", "", "mat-sort-header", ""], [1, "sort"], [3, "ngClass"], ["mat-cell", "", 3, "ngStyle"], [1, "icons"], ["class", "icon-container", 4, "ngIf"], [1, "icon-container"], ["area-hidden", "true", "svgIcon", "file:download", 1, "icon", "icon-pdf"], [1, "icon", "icon-gallery", 3, "click"], ["mat-row", "", 1, "data-row"]], template: function VenuesTableComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, inputs: { initialSort: "initialSort", dataSource: "dataSource", tableHeaders: "tableHeaders" }, decls: 22, vars: 7, consts: [["aria-describedby", "table", "mat-table", "", "matSort", "", "matSortDisableClear", "", 3, "dataSource"], ["mat-header-row", "", 4, "matHeaderRowDef"], ["matColumnDef", "dateStart"], ["scope", "col", "mat-header-cell", "", "mat-sort-header", "", 4, "matHeaderCellDef"], ["mat-cell", "", 3, "ngStyle", 4, "matCellDef"], ["matColumnDef", "dateEnd"], ["matColumnDef", "title"], ["matColumnDef", "city"], ["matColumnDef", "organizer"], ["matColumnDef", "venueImages"], ["class", "data-row", "mat-row", "", 4, "matRowDef", "matRowDefColumns"], [3, "length", "pageSizeOptions", "pageSize"], ["mat-header-row", ""], ["scope", "col", "mat-header-cell", "", "mat-sort-header", ""], [1, "sort"], [3, "ngClass"], ["mat-cell", "", 3, "ngStyle"], [1, "icons"], ["class", "icon-container", 4, "ngIf"], [1, "icon-container"], [1, "icon", "icon-gallery", 3, "click"], ["area-hidden", "true", "svgIcon", "file:download", 1, "icon", "icon-pdf", 3, "click"], ["mat-row", "", 1, "data-row"]], template: function VenuesTableComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "table", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, VenuesTableComponent_tr_1_Template, 1, 0, "tr", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](2, 2);
@@ -1329,7 +1583,7 @@ VenuesTableComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
                 templateUrl: './venues-table.component.html',
                 styleUrls: ['./venues-table.component.scss']
             }]
-    }], function () { return [{ type: _ngxs_store__WEBPACK_IMPORTED_MODULE_5__["Store"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] }]; }, { clsName: [{
+    }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] }]; }, { clsName: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"],
             args: ['class']
         }], paginator: [{
@@ -1345,6 +1599,126 @@ VenuesTableComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         }], tableHeaders: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }] }); })();
+
+
+/***/ }),
+
+/***/ "by4O":
+/*!*************************************************************************!*\
+  !*** ./src/app/shared/components/venue-gallery/venue-gallery.module.ts ***!
+  \*************************************************************************/
+/*! exports provided: VenueGalleryModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VenueGalleryModule", function() { return VenueGalleryModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "2kYt");
+/* harmony import */ var _venue_gallery_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./venue-gallery.component */ "7BDR");
+/* harmony import */ var _drawer_drawer_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../drawer/drawer.module */ "t1/B");
+/* harmony import */ var _drawer_header_drawer_header_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../drawer-header/drawer-header.module */ "4FRl");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/icon */ "bFHC");
+
+
+
+
+
+
+
+class VenueGalleryModule {
+}
+VenueGalleryModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: VenueGalleryModule });
+VenueGalleryModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function VenueGalleryModule_Factory(t) { return new (t || VenueGalleryModule)(); }, imports: [[
+            _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+            _drawer_drawer_module__WEBPACK_IMPORTED_MODULE_3__["DrawerModule"],
+            _angular_material_icon__WEBPACK_IMPORTED_MODULE_5__["MatIconModule"],
+            _drawer_header_drawer_header_module__WEBPACK_IMPORTED_MODULE_4__["DrawerHeaderModule"]
+        ]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](VenueGalleryModule, { declarations: [_venue_gallery_component__WEBPACK_IMPORTED_MODULE_2__["VenueGalleryComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+        _drawer_drawer_module__WEBPACK_IMPORTED_MODULE_3__["DrawerModule"],
+        _angular_material_icon__WEBPACK_IMPORTED_MODULE_5__["MatIconModule"],
+        _drawer_header_drawer_header_module__WEBPACK_IMPORTED_MODULE_4__["DrawerHeaderModule"]], exports: [_venue_gallery_component__WEBPACK_IMPORTED_MODULE_2__["VenueGalleryComponent"]] }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](VenueGalleryModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+        args: [{
+                declarations: [_venue_gallery_component__WEBPACK_IMPORTED_MODULE_2__["VenueGalleryComponent"]],
+                imports: [
+                    _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+                    _drawer_drawer_module__WEBPACK_IMPORTED_MODULE_3__["DrawerModule"],
+                    _angular_material_icon__WEBPACK_IMPORTED_MODULE_5__["MatIconModule"],
+                    _drawer_header_drawer_header_module__WEBPACK_IMPORTED_MODULE_4__["DrawerHeaderModule"]
+                ],
+                exports: [_venue_gallery_component__WEBPACK_IMPORTED_MODULE_2__["VenueGalleryComponent"]]
+            }]
+    }], null, null); })();
+
+
+/***/ }),
+
+/***/ "edWg":
+/*!********************************************************!*\
+  !*** ./src/app/pages/venues/venue-resolver.service.ts ***!
+  \********************************************************/
+/*! exports provided: VenueResolverService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VenueResolverService", function() { return VenueResolverService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "0Wlh");
+/* harmony import */ var _constants_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../constants/utils */ "fNWo");
+/* harmony import */ var _shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../shared/services/content.service */ "qc/9");
+
+
+
+
+
+
+class VenueResolverService {
+    constructor(contentService) {
+        this.contentService = contentService;
+        this.directory = 'assets/content/venues';
+        this.mdPath = '';
+        this.slug = '';
+        this.year = '';
+        this.month = '';
+    }
+    resolve(route) {
+        ({ slug: this.slug, year: this.year, month: this.month } = route.params);
+        this.mdPath = `venues/${this.year}/${this.month}/${this.slug}/readme.md`;
+        return this.contentService.getContent(this.mdPath).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["take"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["map"])((lm) => {
+            return Object.assign(Object.assign({}, lm), { slug: Object(_shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__["toSlug"])(lm.title) });
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["map"])((lm) => {
+            return this.updatePaths(lm);
+        }));
+    }
+    updatePaths(item) {
+        const [year, month, date] = Object(_constants_utils__WEBPACK_IMPORTED_MODULE_2__["getSegmentedDate"])(item.dateStart);
+        const slug = Object(_shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__["toSlug"])(item.title);
+        const { venueImages } = item;
+        if (venueImages &&
+            Array.isArray(venueImages) &&
+            venueImages.length) {
+            item.venueImages = venueImages.map((image) => {
+                return {
+                    sm: `${this.directory}/${year}/${month}-${date}/${slug}/${image.sm}`,
+                    lg: `${this.directory}/${year}/${month}-${date}/${slug}/${image.lg}`,
+                };
+            });
+        }
+        return item;
+    }
+}
+VenueResolverService.ɵfac = function VenueResolverService_Factory(t) { return new (t || VenueResolverService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__["ContentService"])); };
+VenueResolverService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: VenueResolverService, factory: VenueResolverService.ɵfac, providedIn: 'root' });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](VenueResolverService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+        args: [{
+                providedIn: 'root'
+            }]
+    }], function () { return [{ type: _shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__["ContentService"] }]; }, null); })();
 
 
 /***/ }),
@@ -1371,6 +1745,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../shared/shared.module */ "PCNd");
 /* harmony import */ var _venues_routing_module__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./venues-routing.module */ "tGu1");
 /* harmony import */ var _venues_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./venues.component */ "wpwP");
+/* harmony import */ var _shared_components_venue_gallery_venue_gallery_module__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../shared/components/venue-gallery/venue-gallery.module */ "by4O");
+
 
 
 
@@ -1397,7 +1773,8 @@ VenuesModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjec
             _shared_components_select_select_module__WEBPACK_IMPORTED_MODULE_6__["SelectModule"],
             _shared_components_search_overlay_search_overlay_module__WEBPACK_IMPORTED_MODULE_5__["SearchOverlayModule"],
             _shared_components_list_view_list_view_module__WEBPACK_IMPORTED_MODULE_4__["ListViewModule"],
-            _shared_components_venues_table_venues_table_module__WEBPACK_IMPORTED_MODULE_8__["VenuesTableModule"]
+            _shared_components_venues_table_venues_table_module__WEBPACK_IMPORTED_MODULE_8__["VenuesTableModule"],
+            _shared_components_venue_gallery_venue_gallery_module__WEBPACK_IMPORTED_MODULE_12__["VenueGalleryModule"]
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](VenuesModule, { declarations: [_venues_component__WEBPACK_IMPORTED_MODULE_11__["VenuesComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
         _venues_routing_module__WEBPACK_IMPORTED_MODULE_10__["VenuesRoutingModule"],
@@ -1408,7 +1785,8 @@ VenuesModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjec
         _shared_components_select_select_module__WEBPACK_IMPORTED_MODULE_6__["SelectModule"],
         _shared_components_search_overlay_search_overlay_module__WEBPACK_IMPORTED_MODULE_5__["SearchOverlayModule"],
         _shared_components_list_view_list_view_module__WEBPACK_IMPORTED_MODULE_4__["ListViewModule"],
-        _shared_components_venues_table_venues_table_module__WEBPACK_IMPORTED_MODULE_8__["VenuesTableModule"]] }); })();
+        _shared_components_venues_table_venues_table_module__WEBPACK_IMPORTED_MODULE_8__["VenuesTableModule"],
+        _shared_components_venue_gallery_venue_gallery_module__WEBPACK_IMPORTED_MODULE_12__["VenueGalleryModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](VenuesModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
@@ -1423,7 +1801,8 @@ VenuesModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjec
                     _shared_components_select_select_module__WEBPACK_IMPORTED_MODULE_6__["SelectModule"],
                     _shared_components_search_overlay_search_overlay_module__WEBPACK_IMPORTED_MODULE_5__["SearchOverlayModule"],
                     _shared_components_list_view_list_view_module__WEBPACK_IMPORTED_MODULE_4__["ListViewModule"],
-                    _shared_components_venues_table_venues_table_module__WEBPACK_IMPORTED_MODULE_8__["VenuesTableModule"]
+                    _shared_components_venues_table_venues_table_module__WEBPACK_IMPORTED_MODULE_8__["VenuesTableModule"],
+                    _shared_components_venue_gallery_venue_gallery_module__WEBPACK_IMPORTED_MODULE_12__["VenueGalleryModule"]
                 ],
                 providers: []
             }]
@@ -1507,9 +1886,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VenuesRoutingModule", function() { return VenuesRoutingModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "sEIs");
-/* harmony import */ var _venues_body_resolver_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./venues-body-resolver.service */ "3PVV");
-/* harmony import */ var _venues_resolver_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./venues-resolver.service */ "3nUb");
-/* harmony import */ var _venues_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./venues.component */ "wpwP");
+/* harmony import */ var _shared_components_venue_gallery_venue_gallery_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/components/venue-gallery/venue-gallery.component */ "7BDR");
+/* harmony import */ var _venue_resolver_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./venue-resolver.service */ "edWg");
+/* harmony import */ var _venues_body_resolver_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./venues-body-resolver.service */ "3PVV");
+/* harmony import */ var _venues_resolver_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./venues-resolver.service */ "3nUb");
+/* harmony import */ var _venues_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./venues.component */ "wpwP");
+
+
 
 
 
@@ -1520,11 +1903,20 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     {
         path: '',
-        component: _venues_component__WEBPACK_IMPORTED_MODULE_4__["VenuesComponent"],
+        component: _venues_component__WEBPACK_IMPORTED_MODULE_6__["VenuesComponent"],
         resolve: {
-            body: _venues_body_resolver_service__WEBPACK_IMPORTED_MODULE_2__["VenuesBodyResolverService"],
-            venues: _venues_resolver_service__WEBPACK_IMPORTED_MODULE_3__["VenuesResolverService"],
-        }
+            body: _venues_body_resolver_service__WEBPACK_IMPORTED_MODULE_4__["VenuesBodyResolverService"],
+            venues: _venues_resolver_service__WEBPACK_IMPORTED_MODULE_5__["VenuesResolverService"],
+        },
+        children: [
+            {
+                path: 'gallery/:year/:month/:slug',
+                component: _shared_components_venue_gallery_venue_gallery_component__WEBPACK_IMPORTED_MODULE_2__["VenueGalleryComponent"],
+                resolve: {
+                    venue: _venue_resolver_service__WEBPACK_IMPORTED_MODULE_3__["VenueResolverService"]
+                }
+            }
+        ]
     }
 ];
 class VenuesRoutingModule {
@@ -1578,22 +1970,22 @@ __webpack_require__.r(__webpack_exports__);
 
 const _c0 = function () { return { column: "dateStart", direction: "desc" }; };
 function VenuesComponent_sci_table_5_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "sci-table", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "sci-table", 12);
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("initialSort", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](4, _c0))("headersOnly", true)("dataSource", ctx_r0.dataSource)("tableHeaders", ctx_r0.sortHeaders);
 } }
 const _c1 = function () { return []; };
 const _c2 = function (a1) { return { type: "venues", items: a1, displayLimit: 6, showAllItems: false }; };
-function VenuesComponent_sci_list_view_7_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "sci-list-view", 12);
+function VenuesComponent_sci_list_view_8_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "sci-list-view", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](1, "async");
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("config", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](4, _c2, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](1, 1, ctx_r1.dataSource.connect().asObservable()) || _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](3, _c1)));
 } }
-function VenuesComponent_sci_venues_table_8_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "sci-venues-table", 13);
+function VenuesComponent_sci_venues_table_9_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "sci-venues-table", 14);
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("initialSort", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](3, _c0))("dataSource", ctx_r2.dataSource)("tableHeaders", ctx_r2.tableHeaders);
@@ -1677,7 +2069,7 @@ class VenuesComponent {
 VenuesComponent.ɵfac = function VenuesComponent_Factory(t) { return new (t || VenuesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"])); };
 VenuesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VenuesComponent, selectors: [["sci-venues"]], hostVars: 2, hostBindings: function VenuesComponent_HostBindings(rf, ctx) { if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.className);
-    } }, decls: 12, vars: 8, consts: [[1, "header1"], [1, "row"], [1, "group1"], [3, "select", "options", "selectChange"], [3, "initialSort", "headersOnly", "dataSource", "tableHeaders", 4, "sciBreakpoint"], [3, "search", "searchChange"], ["class", "venues-list", 3, "config", 4, "sciBreakpoint"], [3, "initialSort", "dataSource", "tableHeaders", 4, "sciBreakpoint"], [1, "divider"], [1, "spacer-48"], [3, "header", "content"], [3, "initialSort", "headersOnly", "dataSource", "tableHeaders"], [1, "venues-list", 3, "config"], [3, "initialSort", "dataSource", "tableHeaders"]], template: function VenuesComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 14, vars: 8, consts: [[1, "header1"], [1, "row"], [1, "group1"], [3, "select", "options", "selectChange"], [3, "initialSort", "headersOnly", "dataSource", "tableHeaders", 4, "sciBreakpoint"], [1, "group2"], [3, "search", "searchChange"], ["class", "venues-list", 3, "config", 4, "sciBreakpoint"], [3, "initialSort", "dataSource", "tableHeaders", 4, "sciBreakpoint"], [1, "divider"], [1, "spacer-48"], [3, "header", "content"], [3, "initialSort", "headersOnly", "dataSource", "tableHeaders"], [1, "venues-list", 3, "config"], [3, "initialSort", "dataSource", "tableHeaders"]], template: function VenuesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Venues");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1688,21 +2080,24 @@ VenuesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, VenuesComponent_sci_table_5_Template, 1, 5, "sci-table", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "sci-search-overlay", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("searchChange", function VenuesComponent_Template_sci_search_overlay_searchChange_6_listener($event) { return ctx.onSearchChange($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "sci-search-overlay", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("searchChange", function VenuesComponent_Template_sci_search_overlay_searchChange_7_listener($event) { return ctx.onSearchChange($event); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, VenuesComponent_sci_list_view_7_Template, 2, 6, "sci-list-view", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, VenuesComponent_sci_venues_table_8_Template, 1, 4, "sci-venues-table", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "hr", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "sci-accordian", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, VenuesComponent_sci_list_view_8_Template, 2, 6, "sci-list-view", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, VenuesComponent_sci_venues_table_9_Template, 1, 4, "sci-venues-table", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "hr", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "sci-accordian", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "router-outlet");
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("select", ctx.year)("options", ctx.yearList);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("sciBreakpoint", "desktop-");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("search", ctx.searchKey);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("sciBreakpoint", "desktop-");
@@ -1710,7 +2105,7 @@ VenuesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("sciBreakpoint", "desktop");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("header", ctx.body.accordianHeader)("content", ctx.body.accordianContent);
-    } }, directives: [_shared_components_select_select_component__WEBPACK_IMPORTED_MODULE_3__["SelectComponent"], _shared_directives_breakpoint_directive__WEBPACK_IMPORTED_MODULE_4__["BreakpointDirective"], _shared_components_search_overlay_search_overlay_component__WEBPACK_IMPORTED_MODULE_5__["SearchOverlayComponent"], _shared_components_accordian_accordian_component__WEBPACK_IMPORTED_MODULE_6__["AccordianComponent"], _shared_components_table_table_component__WEBPACK_IMPORTED_MODULE_7__["TableComponent"], _shared_components_list_view_list_view_component__WEBPACK_IMPORTED_MODULE_8__["ListViewComponent"], _shared_components_venues_table_venues_table_component__WEBPACK_IMPORTED_MODULE_9__["VenuesTableComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_10__["AsyncPipe"]], styles: ["@media (max-width: 1248px) {\n  [_nghost-%COMP%]   .lazy-table[_ngcontent-%COMP%] {\n    display: none;\n  }\n}\n@media (min-width: 1248px) {\n  [_nghost-%COMP%]   .mobile-cards[_ngcontent-%COMP%] {\n    display: none;\n  }\n}\n[_nghost-%COMP%]   .row[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  padding: 0.5rem;\n}\n[_nghost-%COMP%]   .row[_ngcontent-%COMP%]   .group1[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  overflow: hidden;\n}\n[_nghost-%COMP%]   .row[_ngcontent-%COMP%]   .sci-search-overlay[_ngcontent-%COMP%] {\n  overflow: visible;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9wYWdlcy92ZW51ZXMvdmVudWVzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1JO0VBREY7SUFFSSxhQUFBO0VBSko7QUFDRjtBQU9JO0VBREY7SUFFSSxhQUFBO0VBSko7QUFDRjtBQU9FO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsV0FBQTtFQUNBLGVBQUE7QUFMSjtBQU9JO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsV0FBQTtFQUNBLGdCQUFBO0FBTE47QUFPSTtFQUNFLGlCQUFBO0FBTE4iLCJmaWxlIjoicHJvamVjdHMvc2NpbWFwcy9zcmMvYXBwL3BhZ2VzL3ZlbnVlcy92ZW51ZXMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkZGVza3RvcDogMTI0OHB4O1xuJHRhYmxldDogOTYwcHg7XG4kbW9iaWxlOiA2NDBweDtcblxuOmhvc3Qge1xuICAubGF6eS10YWJsZSB7XG4gICAgQG1lZGlhIChtYXgtd2lkdGg6ICRkZXNrdG9wKSB7XG4gICAgICBkaXNwbGF5OiBub25lO1xuICAgIH1cbiAgfVxuICAubW9iaWxlLWNhcmRzIHtcbiAgICBAbWVkaWEgKG1pbi13aWR0aDogJGRlc2t0b3ApIHtcbiAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgfVxuICB9XG5cbiAgLnJvdyB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHBhZGRpbmc6IDAuNXJlbTtcbiAgICAvLyBzZWxlY3QgYm94XG4gICAgLmdyb3VwMSB7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICB9XG4gICAgLnNjaS1zZWFyY2gtb3ZlcmxheSB7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICB9XG4gIH1cbn1cbiJdfQ== */"] });
+    } }, directives: [_shared_components_select_select_component__WEBPACK_IMPORTED_MODULE_3__["SelectComponent"], _shared_directives_breakpoint_directive__WEBPACK_IMPORTED_MODULE_4__["BreakpointDirective"], _shared_components_search_overlay_search_overlay_component__WEBPACK_IMPORTED_MODULE_5__["SearchOverlayComponent"], _shared_components_accordian_accordian_component__WEBPACK_IMPORTED_MODULE_6__["AccordianComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"], _shared_components_table_table_component__WEBPACK_IMPORTED_MODULE_7__["TableComponent"], _shared_components_list_view_list_view_component__WEBPACK_IMPORTED_MODULE_8__["ListViewComponent"], _shared_components_venues_table_venues_table_component__WEBPACK_IMPORTED_MODULE_9__["VenuesTableComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_10__["AsyncPipe"]], styles: ["@media (max-width: 1248px) {\n  [_nghost-%COMP%]   .lazy-table[_ngcontent-%COMP%] {\n    display: none;\n  }\n}\n@media (min-width: 1248px) {\n  [_nghost-%COMP%]   .mobile-cards[_ngcontent-%COMP%] {\n    display: none;\n  }\n}\n[_nghost-%COMP%]   .row[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  padding: 0.5rem;\n}\n@media screen and (max-width: 640px) {\n  [_nghost-%COMP%]   .row[_ngcontent-%COMP%] {\n    flex-direction: column-reverse;\n  }\n}\n[_nghost-%COMP%]   .row[_ngcontent-%COMP%]   .group1[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9wYWdlcy92ZW51ZXMvdmVudWVzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1JO0VBREY7SUFFSSxhQUFBO0VBSko7QUFDRjtBQU9JO0VBREY7SUFFSSxhQUFBO0VBSko7QUFDRjtBQU9FO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsV0FBQTtFQUNBLGVBQUE7QUFMSjtBQU1JO0VBTEY7SUFNSSw4QkFBQTtFQUhKO0FBQ0Y7QUFLSTtFQUNFLGFBQUE7RUFDQSxtQkFBQTtFQUNBLFdBQUE7QUFITiIsImZpbGUiOiJwcm9qZWN0cy9zY2ltYXBzL3NyYy9hcHAvcGFnZXMvdmVudWVzL3ZlbnVlcy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRkZXNrdG9wOiAxMjQ4cHg7XG4kdGFibGV0OiA5NjBweDtcbiRtb2JpbGU6IDY0MHB4O1xuXG46aG9zdCB7XG4gIC5sYXp5LXRhYmxlIHtcbiAgICBAbWVkaWEgKG1heC13aWR0aDogJGRlc2t0b3ApIHtcbiAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgfVxuICB9XG4gIC5tb2JpbGUtY2FyZHMge1xuICAgIEBtZWRpYSAobWluLXdpZHRoOiAkZGVza3RvcCkge1xuICAgICAgZGlzcGxheTogbm9uZTtcbiAgICB9XG4gIH1cblxuICAucm93IHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgcGFkZGluZzogMC41cmVtO1xuICAgIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6ICRtb2JpbGUpIHtcbiAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW4tcmV2ZXJzZTtcbiAgICB9XG4gICAgLy8gc2VsZWN0IGJveFxuICAgIC5ncm91cDEge1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAgICB3aWR0aDogMTAwJTtcbiAgICB9XG4gIH1cbn1cbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](VenuesComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
