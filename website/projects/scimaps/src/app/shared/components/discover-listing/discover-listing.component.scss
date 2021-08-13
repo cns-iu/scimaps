@@ -49,6 +49,17 @@ $mobile: 640px;
         display: none;
       }
     }
+
+  .show-more {
+      color: #8dc63f;
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .full {
+      overflow: hidden;
+    }
   }
 
   .image-content {
@@ -136,19 +147,6 @@ $mobile: 640px;
 
     @media (min-width: $tablet) {
       display: none;
-    }
-  }
-
-  .text-content {
-    .show-more {
-      color: #8dc63f;
-      cursor: pointer;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-    .full {
-      overflow: hidden;
     }
   }
 }

@@ -10,7 +10,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { DrawerModule } from './shared/components/drawer/drawer.module';
-import { GalleryItemModule } from './shared/components/gallery-item/gallery-item.module';
 import { MakersSubdrawerModule } from './shared/components/makers-subdrawer/makers-subdrawer.module';
 import { BreakpointRegistryService } from './shared/services/breakpoint-registry.service';
 import { SharedModule } from './shared/shared.module';
