@@ -9,7 +9,7 @@
 
   <mat-sidenav-content class="sidenav-content">
     <div [@routeAnimations]="prepareRoute(outlet)" class="content" [ngClass]="prepareClass(outlet)">
-      <router-outlet #outlet="outlet" (activate)="onActivate()"></router-outlet>
+      <router-outlet #outlet="outlet"></router-outlet>
     </div>
     <sci-footer [acknowledgement]="footerParameters.acknowledgement" [phoneNumber]="footerParameters.phoneNumber"></sci-footer>
   </mat-sidenav-content>
