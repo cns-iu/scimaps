@@ -1,4 +1,4 @@
-import { animate, style, transition, trigger } from "@angular/animations";
+import { animate, style, transition, trigger } from '@angular/animations';
 
 export const contentTrigger = trigger('contentTrigger', [
     transition(':enter', [
@@ -21,4 +21,4 @@ export const contentTrigger = trigger('contentTrigger', [
         height: 0
       }))
     ]),
-  ])
+  ]);

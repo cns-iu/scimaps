@@ -19,7 +19,7 @@ export class VenueItemComponent {
     this.router.navigate(['/', 'venues', 'gallery', year, `${month}-${date}`, item.slug]);
   }
 
-  openLink(link: string) {
+  openLink(link: string): void {
     if (link) {
       window.open(link, '_blank');
     }

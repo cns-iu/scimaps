@@ -6,7 +6,7 @@ import { getSegmentedDate, isHttp } from '../../constants/utils';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 
 export interface Venue {
-  slug?: string,
+  slug?: string;
   dateStart: string;
   dateEnd: string;
   title: string;

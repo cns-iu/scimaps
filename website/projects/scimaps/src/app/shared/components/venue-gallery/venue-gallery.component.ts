@@ -21,7 +21,7 @@ export class VenueGalleryComponent implements OnInit {
     this.item = this.route.snapshot.data.venue;
   }
 
-  closeDrawer() {
+  closeDrawer(): void {
     this.show = false;
     setTimeout(() => {
       this.router.navigate(['/', 'venues']);

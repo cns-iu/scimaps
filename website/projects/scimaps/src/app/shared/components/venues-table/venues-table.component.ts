@@ -59,7 +59,7 @@ export class VenuesTableComponent implements OnInit, AfterViewInit {
     return [venue.city, venue.state, venue.country].filter(value => value).join(', ');
   }
 
-  openLink(link: string) {
+  openLink(link: string): void {
     if (link) {
       window.open(link, '_blank');
     }

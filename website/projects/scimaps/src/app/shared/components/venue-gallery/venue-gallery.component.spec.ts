@@ -25,7 +25,7 @@ describe('VenueGalleryComponent', () => {
 
   beforeEach(() => {
     fixture = TestBed.createComponent(VenueGalleryComponent);
-    router = TestBed.inject(Router)
+    router = TestBed.inject(Router);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -15,10 +15,10 @@ export class VenueResolverService implements Resolve<Venue> {
   slug = '';
   year = '';
   month = '';
-  
-  constructor(private contentService: ContentService) { 
+
+  constructor(private contentService: ContentService) {
   }
-  
+
   resolve(route: ActivatedRouteSnapshot): Observable<Venue> | Promise<Venue> {
     ({ slug: this.slug, year: this.year, month: this.month } = route.params);
     this.mdPath = `venues/${this.year}/${this.month}/${this.slug}/readme.md`;
