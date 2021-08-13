@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-04-07
-dateEnd: 2007-04-11
+dateStart: 2005-04-07
+dateEnd: 2005-04-11
 title: "Simulating the Social Processes of Science"
 venue: "Lorentz Workshop"
 organizer: Andrea Scharnhorst

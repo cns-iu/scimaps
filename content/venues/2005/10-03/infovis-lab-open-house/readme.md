@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-10-03
-dateEnd: 2007-10-03
+dateStart: 2005-10-03
+dateEnd: 2005-10-03
 title: "InfoVis Lab Open House"
 venue: "Lilly Library, Indiana University"
 organizer:

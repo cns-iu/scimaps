@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-03-01
-dateEnd: 2007-03-01
+dateStart: 2006-03-01
+dateEnd: 2006-03-01
 title: "Life Sciences Exhibit & Reception"
 venue: "State House, Indianapolis"
 organizer: "Katy Börner"

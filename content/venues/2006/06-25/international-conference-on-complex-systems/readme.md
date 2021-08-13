@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-06-25
-dateEnd: 2007-06-30
+dateStart: 2006-06-25
+dateEnd: 2006-06-30
 title: "International Conference on Complex Systems"
 venue: "International Conference on Complex Systems"
 organizer: "Katy Börner, Keith V. Nesbitt"

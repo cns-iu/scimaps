@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-08-04
-dateEnd: 2007-08-08
+dateStart: 2005-08-04
+dateEnd: 2005-08-08
 title: "Wikimania 2005: The First International Wikimedia Conference"
 venue: "Wikimania 2005: The First International Wikimedia Conference"
 organizer: Jakob Voss

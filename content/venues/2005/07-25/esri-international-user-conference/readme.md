@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-07-25
-dateEnd: 2007-07-29
+dateStart: 2005-07-25
+dateEnd: 2005-07-29
 title: "ESRI International User Conference"
 venue: "San Diego Convention Center"
 organizer: Bonnie DeVarco

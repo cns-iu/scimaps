@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-07-12
-dateEnd: 2007-07-12
+dateStart: 2006-07-12
+dateEnd: 2006-07-12
 title: "Towards a Macroscope for Decision Support in Science & Technology Policy"
 venue: "Science of Science Policy Workshop"
 organizer: "Katy Börner, Ann Carlson"

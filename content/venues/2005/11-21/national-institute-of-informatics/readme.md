@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-11-21
-dateEnd: 2007-11-21
+dateStart: 2005-11-21
+dateEnd: 2005-11-21
 title: "National Institute of Informatics"
 venue: "National Institute of Informatics"
 organizer: "Katy Börner, Ryutaru Ichise"
