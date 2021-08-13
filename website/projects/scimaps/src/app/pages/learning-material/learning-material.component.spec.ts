@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ActivatedRoute } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
 import { MarkdownModule } from 'ngx-markdown';
@@ -14,7 +15,7 @@ describe('LearningMaterialComponent', () => {
   beforeEach(async () => {
     const route = {data: of({learningMaterial: {}})};
     await TestBed.configureTestingModule({
-      imports: [LearningMaterialModule, MarkdownModule.forRoot(), RouterTestingModule.withRoutes([])],
+      imports: [BrowserAnimationsModule, LearningMaterialModule, MarkdownModule.forRoot(), RouterTestingModule.withRoutes([])],
       providers: [{ provide: ActivatedRoute, useValue: route }]
     })
     .compileComponents();

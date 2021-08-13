@@ -3,9 +3,9 @@
   <h1 class="header1">About the <em>Places & Spaces</em> Exhibition</h1>
 
   <div class="image-container">
-    <img *sciBreakpoint="'mobile-'; else: desktop" src="../../../assets/images/about/image.med.jpg" alt="">
+    <img *sciBreakpoint="'mobile-'; else: desktop" src="assets/images/about/image.med.jpg" alt="">
     <ng-template #desktop>
-      <img src="../../../assets/images/about/image.lg.jpg" alt="">
+      <img src="assets/images/about/image.lg.jpg" alt="">
     </ng-template>
   </div>
 
@@ -41,7 +41,7 @@
 <!-- Ambassador Map -->
 <div class="ambassador-map">
   <div class="container">
-    <img src="../../../assets/images/map-advisors-ambassadors.svg" alt="">
+    <img src="assets/images/map-advisors-ambassadors.svg" alt="">
   </div>
 </div>
 
@@ -90,13 +90,15 @@
 <h2 class="header2">In the News</h2>
 <div class="row">
   <div class="group1">
-      <sci-select [select]="year" [options]="yearList" (selectChange)="onSelectChange($event)">
-      </sci-select>
-      <sci-table [dataSource]="dataSource" [initialSort]="{column: 'date', direction: 'desc'}" [tableHeaders]="sortHeaders" [headersOnly]="true">
-      </sci-table>
+    <sci-select [select]="year" [options]="yearList" (selectChange)="onSelectChange($event)">
+    </sci-select>
+    <sci-table [dataSource]="dataSource" [initialSort]="{column: 'date', direction: 'desc'}" [tableHeaders]="sortHeaders" [headersOnly]="true">
+    </sci-table>
   </div>
-  <sci-search-overlay [search]="searchKey" (searchChange)="onSearchChange($event)">
-  </sci-search-overlay>
+  <div class="group2">
+    <sci-search-overlay [search]="searchKey" (searchChange)="onSearchChange($event)">
+    </sci-search-overlay>  
+  </div>
 </div>
 
 <sci-list-view class="news-list"

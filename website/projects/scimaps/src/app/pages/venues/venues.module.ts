@@ -10,6 +10,7 @@ import { VenuesTableModule } from '../../shared/components/venues-table/venues-t
 import { SharedModule } from '../../shared/shared.module';
 import { VenuesRoutingModule } from './venues-routing.module';
 import { VenuesComponent } from './venues.component';
+import { VenueGalleryModule } from '../../shared/components/venue-gallery/venue-gallery.module';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { VenuesComponent } from './venues.component';
     SelectModule,
     SearchOverlayModule,
     ListViewModule,
-    VenuesTableModule
+    VenuesTableModule,
+    VenueGalleryModule
   ],
   providers: []
 })
