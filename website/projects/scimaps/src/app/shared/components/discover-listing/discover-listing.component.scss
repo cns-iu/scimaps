@@ -138,4 +138,17 @@ $mobile: 640px;
       display: none;
     }
   }
+
+  .text-content {
+    .show-more {
+      color: #8dc63f;
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .full {
+      overflow: hidden;
+    }
+  }
 }

@@ -1,6 +1,20 @@
 <div class="text-content">
   <h3 class="header">{{ discoverItem.title }}</h3>
-  <div markdown [data]="discoverItem.body" class="body"></div>
+  <!-- <div markdown [data]="discoverItem.body" class="body"></div> -->
+  <div *sciBreakpoint="'desktop-'">
+    <div class="markdown full" markdown [data]="fullContent"></div>
+  </div>
+
+  <div *sciBreakpoint="'desktop'">
+    <div *ngIf="!fullContentVisible" class="markdown partial" markdown [data]="partialContent"></div>
+    <div [@contentTrigger] *ngIf="fullContentVisible" class="markdown full" markdown [data]="fullContent"></div>
+    <div
+      *ngIf="hasLongContent"
+      class="show-more"
+      (click)="fullContentVisible = !fullContentVisible">
+      {{ fullContentVisible ? "Show less" : "Read more..." }}
+    </div>
+  </div>
 </div>
 
 <div class="image-content">
