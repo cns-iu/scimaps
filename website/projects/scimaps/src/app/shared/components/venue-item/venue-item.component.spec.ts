@@ -30,14 +30,14 @@ describe('VenueItemComponent', () => {
     fixture.detectChanges();
     expect(component).toBeTruthy();
   });
-  it('should call openLink', () => {
+  it('should make a call to openLink', () => {
     const spy = spyOn(window, 'open');
-    component.openLink('link');
-    expect(spy).toHaveBeenCalledWith('link', '_blank');
+    component.openLink('external_link');
+    expect(spy).toHaveBeenCalledWith('external_link', '_blank');
   });
   it('should call correct gallary url', () => {
     const spy = spyOn(router, 'navigate');
-    const venue = getVenues(1)[0];
+    const venue = getVenues(2)[0];
     component.gotoGallery(venue);
     expect(spy).toHaveBeenCalled();
   });
