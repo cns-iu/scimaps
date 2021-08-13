@@ -67,7 +67,7 @@ export class VenuesResolverService implements Resolve<Venue[]> {
   }
 
   resolve(): Observable<Venue[]> {
-    return this.contentService.getIndex<Venue[]>('venues').pipe(
+    return this.contentService.getIndex<Venue>('venues').pipe(
       take(1),
       map((venues: Params[]) => {
         return venues.map((item: Params) => {
