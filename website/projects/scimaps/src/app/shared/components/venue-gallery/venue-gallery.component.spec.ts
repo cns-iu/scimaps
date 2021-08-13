@@ -2,11 +2,10 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ActivatedRoute, Router } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
-import { of } from 'rxjs';
 import { getVenues } from '../../../pages/venues/venues-resolver.service.spec';
-
 import { VenueGalleryComponent } from './venue-gallery.component';
 import { VenueGalleryModule } from './venue-gallery.module';
+
 
 describe('VenueGalleryComponent', () => {
   let component: VenueGalleryComponent;
