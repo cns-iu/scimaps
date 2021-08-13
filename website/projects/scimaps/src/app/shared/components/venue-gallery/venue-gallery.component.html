@@ -1,0 +1,30 @@
+
+<sci-drawer [@drawerInOut] *ngIf="show">
+    <div class="gallery-item" drawer>
+        <sci-drawer-header backText="venues" title="Gallery" (backClick)="closeDrawer()">
+        </sci-drawer-header>
+        
+        <h2 class="header2">{{item.title}}</h2>
+        <div class="details">
+            <div>Date: {{item.dateStart | date:'mediumDate':'+0000' }} {{ item.dateEnd && item.dateStart !== item.dateEnd ? '- ' + (item.dateEnd | date:'mediumDate':'+0000') : '' }}</div>
+            <div>Photos By: {{item.credit}}</div>
+        </div>
+        <div class="thumbnails-container">
+            <div class="thumbnail" *ngFor="let image of item.venueImages;let i = index" (click)="overlayImage = item.venueImages[i].lg; showOverlay = true">
+                <img [src]="image.sm" [alt]="image.sm">
+            </div>
+        </div>
+        <sci-drawer *ngIf="showOverlay && overlayImage" class="sci-drawer">
+            <div drawer class="drawer">
+                <sci-drawer-header backText="gallery" (backClick)="showOverlay = false">
+                </sci-drawer-header>
+                <div class="overlay-container">
+                    <img [src]="overlayImage" [alt]="overlayImage">
+                </div>
+            </div>
+        </sci-drawer>
+    </div>
+    
+    
+   
+</sci-drawer>

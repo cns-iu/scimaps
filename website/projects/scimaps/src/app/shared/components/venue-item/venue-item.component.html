@@ -8,12 +8,10 @@
 
         <div class="icons">
           <div class="icon-container" *ngIf="item.venueImages">
-            <mat-icon class="icon-gallery" aria-hidden="true" (click)="openDrawer(item)">image</mat-icon>
+            <mat-icon class="icon-gallery" aria-hidden="true" (click)="gotoGallery(item)">image</mat-icon>
           </div>
           <div class="icon-container" *ngIf="item.pdfLink">
-            <a [href]="item.pdfLink" target="_blank" rel="noopener noreferrer">
-              <mat-icon class="icon-pdf" aria-hidden="true" svgIcon="file:download" (click)="openLink(item.pdfLink)"></mat-icon>
-            </a>
+            <mat-icon class="icon-pdf" aria-hidden="true" svgIcon="file:download" (click)="openLink(item.pdfLink)"></mat-icon>
           </div>
         </div>
       </div>

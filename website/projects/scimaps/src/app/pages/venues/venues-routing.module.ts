@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { VenueGalleryComponent } from '../../shared/components/venue-gallery/venue-gallery.component';
+import { VenueResolverService } from './venue-resolver.service';
 import { VenuesBodyResolverService } from './venues-body-resolver.service';
 import { VenuesResolverService } from './venues-resolver.service';
 
@@ -12,7 +14,16 @@ const routes: Routes = [
     resolve: {
       body: VenuesBodyResolverService,
       venues: VenuesResolverService,
-    }
+    },
+    children: [
+      {
+        path: 'gallery/:year/:month/:slug',
+        component: VenueGalleryComponent,
+        resolve: {
+          venue: VenueResolverService
+        }
+      }
+    ]
   }
 ];
 
