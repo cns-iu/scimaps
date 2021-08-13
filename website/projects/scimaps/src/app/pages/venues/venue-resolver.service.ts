@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, Resolve } from '@angular/router';
-import { Observable, of } from 'rxjs';
+import { ActivatedRouteSnapshot, Params, Resolve } from '@angular/router';
+import { Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 import { getSegmentedDate } from '../../constants/utils';
 import { ContentService, toSlug } from '../../shared/services/content.service';
@@ -19,7 +19,7 @@ export class VenueResolverService implements Resolve<Venue> {
   constructor(private contentService: ContentService) {
   }
 
-  resolve(route: ActivatedRouteSnapshot): Observable<Venue> | Promise<Venue> {
+  resolve(route: ActivatedRouteSnapshot | Params): Observable<Venue> | Promise<Venue> {
     ({ slug: this.slug, year: this.year, month: this.month } = route.params);
     this.mdPath = `venues/${this.year}/${this.month}/${this.slug}/readme.md`;
     return this.contentService.getContent<Venue>(this.mdPath).pipe(

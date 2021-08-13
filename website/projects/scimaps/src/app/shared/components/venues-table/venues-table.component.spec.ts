@@ -11,7 +11,7 @@ import { VenuesTableModule } from './venues-table.module';
 describe('VenuesTableComponent', () => {
   let component: VenuesTableComponent;
   let fixture: ComponentFixture<VenuesTableComponent>;
-  let router: Router
+  let router: Router;
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [VenuesTableModule, BrowserAnimationsModule, MatIconTestingModule, RouterTestingModule]
