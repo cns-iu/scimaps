@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-05-17
-dateEnd: 2007-05-20
+dateStart: 2005-05-17
+dateEnd: 2005-05-20
 title: "Understanding Complex Systems 2004 Symposium"
 venue: "University of Illinois"
 organizer: "Peter A. Hook"

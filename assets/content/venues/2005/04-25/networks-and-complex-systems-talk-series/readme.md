@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-04-25
-dateEnd: 2007-04-25
+dateStart: 2005-04-25
+dateEnd: 2005-04-25
 title: "Networks and Complex Systems Talk Series"
 venue: "SLIS, Indiana University"
 organizer: "Peter A. Hook"

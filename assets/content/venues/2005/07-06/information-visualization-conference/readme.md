@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-07-06
-dateEnd: 2007-07-08
+dateStart: 2005-07-06
+dateEnd: 2005-07-08
 title: "Information Visualization Conference"
 venue: "Information Visualization Conference"
 organizer: "Katy Börner"

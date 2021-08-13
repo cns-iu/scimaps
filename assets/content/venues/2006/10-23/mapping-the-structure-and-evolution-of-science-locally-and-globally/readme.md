@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-10-23
-dateEnd: 2007-10-25
+dateStart: 2006-10-23
+dateEnd: 2006-10-25
 title: "Mapping the Structure and Evolution of Science Locally and Globally"
 venue: "New Horizons in Internet Site Development Workshop, Banbury Center, Cold Spring Harbor Laboratory"
 organizer: "Katy Börner"

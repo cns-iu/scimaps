@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-01-01
-dateEnd: 2007-01-01
+dateStart: 2006-01-01
+dateEnd: 2006-01-01
 title: "Science, Industry and Business Library of The New York Public Library"
 venue: "Science, Industry and Business Library of The New York Public Library"
 organizer: John Ganly

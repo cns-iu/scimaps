@@ -1,6 +1,6 @@
 ---
-dateStart: 2007-09-20
-dateEnd: 2007-09-21
+dateStart: 2005-09-20
+dateEnd: 2005-09-21
 title: "i-Light Symposium 2005"
 venue: "i-Light Symposium 2005"
 organizer: "Katy Börner"
