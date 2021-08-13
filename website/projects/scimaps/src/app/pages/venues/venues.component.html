@@ -9,8 +9,10 @@
         <sci-table *sciBreakpoint="'desktop-'" [initialSort]="{column: 'dateStart', direction: 'desc'}" [headersOnly]="true"  [dataSource]="dataSource" [tableHeaders]="sortHeaders">
         </sci-table>
     </div>
-    <sci-search-overlay [search]="searchKey" (searchChange)="onSearchChange($event)">
-    </sci-search-overlay>
+    <div class="group2">
+        <sci-search-overlay [search]="searchKey" (searchChange)="onSearchChange($event)">
+        </sci-search-overlay>
+    </div>
 </div>
 
 
