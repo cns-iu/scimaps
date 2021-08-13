@@ -35,13 +35,11 @@ import { SharedModule } from './shared/shared.module';
         }
       }
     }),
-
     AppRoutingModule,
     CoreModule,
     SharedModule,
     ScrollingModule,
     DrawerModule,
-    GalleryItemModule,
     MakersSubdrawerModule
   ],
   // providers: [
