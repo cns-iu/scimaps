@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ActivatedRoute } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing';
 import { MarkdownModule } from 'ngx-markdown';
 import { of } from 'rxjs';
 import { HostingBody } from './hosting-body-resolver.service';
@@ -22,7 +23,7 @@ describe('HostingComponent', () => {
   beforeEach(() => {
     const route = {data: of({body, learningMaterials})};
     TestBed.configureTestingModule({
-      imports: [HostingModule, MarkdownModule.forRoot()],
+      imports: [HostingModule, MarkdownModule.forRoot(), RouterTestingModule],
       providers: [{ provide: ActivatedRoute, useValue: route }]
     });
     fixture = TestBed.createComponent(HostingComponent);

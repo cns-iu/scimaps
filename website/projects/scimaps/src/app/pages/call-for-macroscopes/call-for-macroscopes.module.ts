@@ -10,6 +10,7 @@ import { MarkdownModule } from 'ngx-markdown';
 import { MatIconModule } from '@angular/material/icon';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [CallForMacroscopesComponent],
@@ -22,7 +23,8 @@ import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer
     MatIconModule,
     DrawerModule,
     SharedModule,
-    DrawerHeaderModule
+    DrawerHeaderModule,
+    MatTabsModule
   ],
   providers: [DatePipe],
 })

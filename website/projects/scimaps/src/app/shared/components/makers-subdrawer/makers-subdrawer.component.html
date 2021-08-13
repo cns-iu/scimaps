@@ -12,7 +12,10 @@
       <div class="info">
         <div class="name">{{maker.name | titlecase}}</div>
         <div class="job">{{maker.title}}</div>
-        <div class="bio">{{maker.body}}</div>
+        <div class="bio">
+          <div markdown [data]="maker.body">
+          </div>
+        </div>
       </div>
     </div>
   </div>

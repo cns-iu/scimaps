@@ -32,13 +32,15 @@
 <div class="main-content">
     <div class="col1">
         <div *sciBreakpoint="'mobile+'" class="tabs">
-            <sci-tab-header class="tab-header" [tabs]="tabHeaders" (activeTabIndexChanged)="updateActivePageTab($event)">
-            </sci-tab-header>
-            <div class="spacer-48">
-            </div>
-            <div class="tab-content">
-                <div markdown [data]="tabContents[activePageTab]"></div> 
-            </div> 
+            <mat-tab-group>
+                <ng-container *ngFor="let tab of tabHeaders;let i = index;">
+                    <mat-tab [label]="tab">
+                        <div class="tab-content">
+                            <div markdown [data]="tabContents[i]"></div> 
+                        </div>
+                    </mat-tab>
+                </ng-container>
+            </mat-tab-group> 
         </div>
         <div *sciBreakpoint="'mobile-'" class="mobile-tabs">
             <div class="mobile-button" *ngFor="let tab of tabHeaders; let i = index" (click)="updateActivePageTab(i); showDrawer = true">

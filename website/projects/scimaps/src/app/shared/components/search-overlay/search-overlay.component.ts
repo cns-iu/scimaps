@@ -1,6 +1,5 @@
 import { Component, ElementRef, EventEmitter, HostBinding, Input, OnDestroy, OnInit, Output, ViewChild } from '@angular/core';
 import { AbstractControl, FormBuilder, FormGroup } from '@angular/forms';
-import { AnimationEvent } from '@angular/animations';
 import { of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
 import { isSearchOpenTrigger } from '../../../constants/search-overlay.animation';
@@ -18,7 +17,7 @@ export class SearchOverlayComponent implements OnInit, OnDestroy {
   @ViewChild('searchInput') searchInput: ElementRef | undefined;  // needed for focus.\
   @Output() searchChange: EventEmitter<string> = new EventEmitter();
 
-  isSearchOpen = false;
+  isSearchOpen = true;
   searchChangeSubscription: Subscription | undefined;
   searchForm!: FormGroup;
 
@@ -53,15 +52,6 @@ export class SearchOverlayComponent implements OnInit, OnDestroy {
     ).subscribe((searchKey: string) => {
       this.searchChange.emit(searchKey);
     });
-  }
-
-  // After Animation hook
-  afterAnimation(event: AnimationEvent): void {
-    if (event.fromState === 'void') {
-      if (this.searchInput) {
-        this.searchInput.nativeElement.focus();
-      }
-    }
   }
 
   clearSearch(): void {

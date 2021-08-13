@@ -1,4 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MatIconTestingModule } from '@angular/material/icon/testing';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { SearchOverlayComponent } from './search-overlay.component';
 import { SearchOverlayModule } from './search-overlay.module';
@@ -10,7 +12,7 @@ describe('SearchOverlayComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ SearchOverlayComponent ],
-      imports: [SearchOverlayModule]
+      imports: [SearchOverlayModule, BrowserAnimationsModule, MatIconTestingModule]
     })
     .compileComponents();
   });

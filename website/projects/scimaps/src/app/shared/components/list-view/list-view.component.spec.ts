@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { NgxsModule } from '@ngxs/store';
+import { RouterTestingModule } from '@angular/router/testing';
 import { ListViewComponent } from './list-view.component';
 import { ListViewModule } from './list-view.module';
 
@@ -11,7 +11,7 @@ describe('ListViewComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ ListViewComponent ],
-      imports: [ListViewModule, NgxsModule.forRoot([])]
+      imports: [ListViewModule, RouterTestingModule]
     })
     .compileComponents();
   });

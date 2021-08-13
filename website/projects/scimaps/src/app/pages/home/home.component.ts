@@ -11,6 +11,9 @@ export class HomeComponent {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-home';
 
+  bgStyle = {
+    'background-image': 'url(assets/images/home/image01.png)'
+  };
   testActionItem: ActionCardItem = {
     title: 'Visual Analytics Certificate',
     subtitle: 'Sept 20-Oct 30, 2022',

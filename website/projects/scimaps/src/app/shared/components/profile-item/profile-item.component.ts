@@ -1,5 +1,5 @@
-import { animate, style, transition, trigger } from '@angular/animations';
 import { Component, Input } from '@angular/core';
+import { contentTrigger } from '../../../constants/content-trigger';
 import { Profile } from '../../../core/models/profile';
 
 @Component({
@@ -7,28 +7,7 @@ import { Profile } from '../../../core/models/profile';
   templateUrl: './profile-item.component.html',
   styleUrls: ['./profile-item.component.scss'],
   animations: [
-    trigger('contentTrigger', [
-      transition(':enter', [
-        style({
-          opacity: 1,
-          height: '0px',
-        }),
-        animate('300ms ease-out', style({
-          opacity: 1,
-          height: '*'
-        })),
-      ]),
-      transition(':leave', [
-        style({
-          opacity: 1,
-          height: '*'
-        }),
-        animate('200ms ease-in', style({
-          opacity: 0,
-          height: 0
-        }))
-      ]),
-    ])
+    contentTrigger
   ]
 })
 export class ProfileItemComponent {

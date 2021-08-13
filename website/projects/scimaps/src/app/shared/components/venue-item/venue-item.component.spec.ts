@@ -1,29 +1,27 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MatIconTestingModule } from '@angular/material/icon/testing';
-import { NgxsModule, Store } from '@ngxs/store';
+import { Router } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing';
 import { getVenues } from '../../../pages/venues/venues-resolver.service.spec';
 import { VenueItemComponent } from './venue-item.component';
 import { VenueItemModule } from './venue-item.module';
 
-
-
-
 describe('VenueItemComponent', () => {
   let component: VenueItemComponent;
   let fixture: ComponentFixture<VenueItemComponent>;
-  let store: Store;
+  let router: Router;
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ VenueItemComponent ],
-      imports: [VenueItemModule, NgxsModule.forRoot([]), MatIconTestingModule]
+      imports: [VenueItemModule, MatIconTestingModule, RouterTestingModule]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(VenueItemComponent);
+    router = TestBed.inject(Router);
     component = fixture.componentInstance;
-    store = TestBed.inject(Store);
   });
 
   it('should create', () => {
@@ -32,11 +30,15 @@ describe('VenueItemComponent', () => {
     fixture.detectChanges();
     expect(component).toBeTruthy();
   });
-
-  it('should Call store', () => {
+  it('should make a call to openLink', () => {
+    const spy = spyOn(window, 'open');
+    component.openLink('external_link');
+    expect(spy).toHaveBeenCalledWith('external_link', '_blank');
+  });
+  it('should call correct gallary url', () => {
+    const spy = spyOn(router, 'navigate');
     const venue = getVenues(2)[0];
-    const spy = spyOn(store, 'dispatch');
-    component.openDrawer(venue);
+    component.gotoGallery(venue);
     expect(spy).toHaveBeenCalled();
   });
 });

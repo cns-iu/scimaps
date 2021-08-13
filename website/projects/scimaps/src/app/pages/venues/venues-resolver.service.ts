@@ -6,6 +6,7 @@ import { getSegmentedDate, isHttp } from '../../constants/utils';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 
 export interface Venue {
+  slug?: string;
   dateStart: string;
   dateEnd: string;
   title: string;
@@ -50,6 +51,7 @@ export class VenuesResolverService implements Resolve<Venue[]> {
 
   toVenue(item: Params): Venue {
     return {
+      slug: toSlug(item.title),
       dateStart: item.dateStart,
       dateEnd: item.dateEnd,
       title: item.title,

@@ -2,9 +2,9 @@ import { AfterViewInit, ChangeDetectorRef, Component, HostBinding, Input, OnInit
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort, MatSortHeader } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { Params } from '@angular/router';
-import { Store } from '@ngxs/store';
-import { SetAppState } from '../../../core/actions/app.actions';
+import { Router } from '@angular/router';
+import { getSegmentedDate } from '../../../constants/utils';
+import { Venue } from '../../../pages/venues/venues-resolver.service';
 
 @Component({
   selector: 'sci-venues-table',
@@ -27,7 +27,7 @@ export class VenuesTableComponent implements OnInit, AfterViewInit {
   }[] = [];
   columns: string[] = [];
 
-  constructor(private store: Store, private cdr: ChangeDetectorRef) {
+  constructor(private router: Router, private cdr: ChangeDetectorRef) {
   }
 
   ngOnInit(): void {
@@ -50,13 +50,18 @@ export class VenuesTableComponent implements OnInit, AfterViewInit {
     }
   }
 
-  openVenueGalleryDrawer(item: Params): void {
-    this.store.dispatch(new SetAppState({
-      drawer: {
-        showDrawer: true,
-        drawerName: 'venue-gallery-drawer',
-        drawerPayload: item
-      }
-    }));
+  gotoGallery(item: Venue): void {
+    const [year, month, date] = getSegmentedDate(item.dateStart);
+    this.router.navigate(['/', 'venues', 'gallery', year, `${month}-${date}`, item.slug]);
+  }
+
+  getLocation(venue: Venue): string {
+    return [venue.city, venue.state, venue.country].filter(value => value).join(', ');
+  }
+
+  openLink(link: string): void {
+    if (link) {
+      window.open(link, '_blank');
+    }
   }
 }
