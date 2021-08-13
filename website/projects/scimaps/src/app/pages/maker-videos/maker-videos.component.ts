@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { MakerVideosBody } from './maker-videos-body-resolver.service';
 
 @Component({
   selector: 'sci-maker-videos',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MakerVideosComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private route: ActivatedRoute) { }
+  body: MakerVideosBody = { description: ''};
   ngOnInit(): void {
+    this.route.data.subscribe(data => {
+      this.body = data.body;
+    });
   }
 
 }

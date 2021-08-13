@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { MakerVideosBodyResolverService } from './maker-videos-body-resolver.service';
 import { MakerVideosComponent } from './maker-videos.component';
 
 const routes: Routes = [{
   path: '',
-  component: MakerVideosComponent
+  component: MakerVideosComponent,
+  resolve: {
+    body: MakerVideosBodyResolverService
+  }
 }];
 
 @NgModule({
