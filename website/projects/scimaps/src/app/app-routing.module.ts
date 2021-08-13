@@ -52,6 +52,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/learning-material/learning-material.module').then(m => m.LearningMaterialModule),
     data: { animation: 'LearningMaterial' }
   },
+  {
+    path: 'maker-videos',
+    loadChildren: () => import('./pages/maker-videos/maker-videos.module').then(m => m.MakerVideosModule)
+  },
 ];
 
 @NgModule({
