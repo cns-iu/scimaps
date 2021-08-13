@@ -18,7 +18,7 @@ export class SearchOverlayComponent implements OnInit, OnDestroy {
   @ViewChild('searchInput') searchInput: ElementRef | undefined;  // needed for focus.\
   @Output() searchChange: EventEmitter<string> = new EventEmitter();
 
-  isSearchOpen = false;
+  isSearchOpen = true;
   searchChangeSubscription: Subscription | undefined;
   searchForm!: FormGroup;
 
