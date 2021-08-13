@@ -1,8 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Params, Router } from '@angular/router';
-import { Store } from '@ngxs/store';
 import { getSegmentedDate } from '../../../constants/utils';
-import { SetAppState } from '../../../core/actions/app.actions';
 import { Venue } from '../../../pages/venues/venues-resolver.service';
 
 @Component({
@@ -14,7 +12,7 @@ export class VenueItemComponent {
 
   @Input() item!: Venue | Params;
 
-  constructor(private store: Store, private router: Router) { }
+  constructor(private router: Router) { }
 
   gotoGallery(item: Venue | Params): void {
     const [year, month, date] = getSegmentedDate(item.dateStart);

@@ -2,8 +2,7 @@
     <div class="icon-container search-icon-container" (click)="isSearchOpen = true">
         <mat-icon class="icon-search" aria-hidden="false" aria-label="search">search</mat-icon>
     </div>
-    <div class="input-search" [@isSearchOpenTrigger] *ngIf="isSearchOpen"
-        (@isSearchOpenTrigger.done)="afterAnimation($event)">
+    <div class="input-search" *ngIf="isSearchOpen">
         <mat-form-field>
             <mat-label> </mat-label>
             <input matInput formControlName="search" placeholder="Type search" #searchInput />

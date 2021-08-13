@@ -55,15 +55,6 @@ export class SearchOverlayComponent implements OnInit, OnDestroy {
     });
   }
 
-  // After Animation hook
-  afterAnimation(event: AnimationEvent): void {
-    if (event.fromState === 'void') {
-      if (this.searchInput) {
-        this.searchInput.nativeElement.focus();
-      }
-    }
-  }
-
   clearSearch(): void {
     if (this.searchControl) {
       this.searchControl.setValue('');
