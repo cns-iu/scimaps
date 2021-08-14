@@ -2,7 +2,33 @@
 
 <div class="description" markdown [data]="body.description">
 </div>
-
-<div class="video-grid">
-    
+<div class="grid">
+    <div class="grid-item" *ngFor="let item of videos;let i = index;">
+        <div class="item-container" (click)="overlayVideo = item.videoLink; showOverlay = true">
+            <div class="thumbnail">
+                <img [src]="item.image" [alt]="item.image">
+             </div>
+             <div class="title">
+                 {{item.short_description}}
+             </div>
+        </div>
+    </div>
 </div>
+
+<sci-drawer *ngIf="showOverlay && overlayVideo" class="sci-drawer">
+    <div drawer class="drawer">
+        <sci-drawer-header backText="Makers Videos" (backClick)="showOverlay = false">
+        </sci-drawer-header>
+        <div class="overlay-container">
+            <iframe class="iframe"
+                [src]="overlayVideo | safe: 'resourceUrl'"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div markdown [data]="item.long_description">
+            </div>
+        </div>
+    </div>
+</sci-drawer>

@@ -1,6 +1,6 @@
 ---
 title: Nikita Rokotyan on the power of dimensionality reduction
-videoLink: https://youtu.be/2cRQui4AgG8
+videoLink: https://www.youtube.com/embed/2cRQui4AgG8
 image: image1.jpg
 maker: nikita-rokotyan/readme
 short_description: Nikita Rokotyan on the power of dimensionality reduction

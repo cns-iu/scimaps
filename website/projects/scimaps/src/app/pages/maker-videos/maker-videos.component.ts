@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { ActivatedRoute, Params } from '@angular/router';
 import { MakerVideosBody } from './maker-videos-body-resolver.service';
 import { MakerVideo } from './maker-videos-resolver.service';
@@ -10,9 +11,14 @@ import { MakerVideo } from './maker-videos-resolver.service';
 })
 export class MakerVideosComponent implements OnInit {
 
-  constructor(private route: ActivatedRoute) { }
   body: MakerVideosBody = { description: ''};
   videos: MakerVideo[] = [];
+  // 
+  showOverlay = false;
+  overlayVideo = '';
+
+  constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer) { }
+  
   ngOnInit(): void {
     this.route.data.subscribe((data: Params) => {
       const {body, videos} = data;

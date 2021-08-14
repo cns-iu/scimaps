@@ -1,6 +1,6 @@
 ---
 title: Nikita Rokotyan on creating An Alternative Data-Driven Country Map
-videoLink: https://youtu.be/s1jxgFptxKA
+videoLink: https://www.youtube.com/embed/s1jxgFptxKA
 image: image1.jpg
 maker: nikita-rokotyan/readme
 short_description: Nikita Rokotyan on creating An Alternative Data-Driven Country Map

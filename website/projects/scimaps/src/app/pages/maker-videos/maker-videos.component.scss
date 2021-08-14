@@ -1,0 +1,56 @@
+$mobile: 640px;
+$tablet: 960px;
+$desktop: 1248px;
+
+:host {
+  .grid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .grid-item {
+      margin-bottom: 1rem;
+      margin-right: 1rem;
+      cursor: pointer;
+      @media screen and (max-width: $mobile) {
+        width: 95%;
+      }
+      @media screen and (min-width: $mobile) and (max-width: $tablet) {
+        width: 45%;
+      }
+      @media screen and (min-width: $tablet) {
+        width: 30%;
+      }
+      @media screen and (min-width: $desktop) {
+        width: 22%;
+      }
+      overflow: hidden;
+
+      .item-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .thumbnail {
+        }
+        .title {
+        }
+      }
+    }
+  }
+
+  // Overlay styling
+  $bgcolor: black;
+  .sci-drawer {
+    background-color: $bgcolor;
+    .overlay-container {
+      background-color: $bgcolor;
+      padding: 1rem;
+      
+      .iframe {
+        width: 100%;
+        height: 50vh;
+      }
+    }
+  }
+}
