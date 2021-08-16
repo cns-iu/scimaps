@@ -1,4 +1,5 @@
 import { TestBed } from '@angular/core/testing';
+import { of } from 'rxjs';
 import { ContentService } from '../../shared/services/content.service';
 
 import { MakerVideosResolverService } from './maker-videos-resolver.service';
@@ -17,9 +18,17 @@ describe('MakerVideosResolverService', () => {
       ]
     });
     service = TestBed.inject(MakerVideosResolverService);
+    contentService = TestBed.inject(ContentService);
   });
 
   it('should be created', () => {
     expect(service).toBeTruthy();
+  });
+
+  it('makes expected calls', () => {
+    (contentService.getIndex as jasmine.Spy).and.returnValue(of([]));
+    service.resolve();
+    expect(contentService.getIndex).toHaveBeenCalled();
+    expect(contentService.getIndex).toHaveBeenCalledTimes(1);
   });
 });
