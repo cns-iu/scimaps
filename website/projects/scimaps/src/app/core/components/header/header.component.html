@@ -46,9 +46,9 @@
       <mat-icon>expand_more</mat-icon>
       <mat-menu class="sci-header-menu" #explore="matMenu" [hasBackdrop]="false" xPosition="before">
         <div (mouseenter)="mouseEvents($event, 2)" (mouseleave)="mouseEvents($event, 2)">
-          <!-- <button mat-button class="mat-display-3" routerLink="/learning-center" routerLinkActive="active">
+          <button *ngIf="false" mat-button class="mat-display-3" routerLink="/learning-center" routerLinkActive="active">
             LEARNING CENTER
-          </button> -->
+          </button>
           <button mat-button class="mat-display-3" routerLink="/maker-videos" routerLinkActive="active">
             MAPS AND MACROSCOPES MAKER VIDEOS
           </button>
