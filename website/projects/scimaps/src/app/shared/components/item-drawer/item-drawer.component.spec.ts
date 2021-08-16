@@ -5,7 +5,6 @@ import { By } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Router } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
-import { NgxsModule } from '@ngxs/store';
 import { MarkdownModule } from 'ngx-markdown';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { ItemDrawerComponent } from './item-drawer.component';
@@ -66,7 +65,6 @@ describe('ItemDrawerComponent', () => {
       imports: [ItemDrawerModule,
         BrowserAnimationsModule,
         RouterTestingModule.withRoutes([]),
-        NgxsModule.forRoot(),
         MarkdownModule.forRoot(),
         MatDialogModule
       ]

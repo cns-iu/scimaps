@@ -1,9 +1,7 @@
 import { Component, EventEmitter, HostBinding, Input, OnInit, Output } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { Params, Router } from '@angular/router';
-import { Store } from '@ngxs/store';
+import { Router } from '@angular/router';
 import { drawerInOut } from '../../../constants/drawer.animations';
-import { SetAppState } from '../../../core/actions/app.actions';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.component';
 
@@ -41,7 +39,8 @@ export class ItemDrawerComponent implements OnInit {
   selectedLanguage = 'en';
   showDrawer = false;
 
-  constructor(private dialog: MatDialog, private router: Router, private store: Store) { }
+  makersDrawer = false;
+  constructor(private dialog: MatDialog, private router: Router) { }
   ngOnInit(): void {
     this.showDrawer = true;
   }
@@ -79,14 +78,6 @@ export class ItemDrawerComponent implements OnInit {
     this.dialog.open(PurchaseModalComponent, {
       width: window.innerWidth <= 768 ? '100%' : '738px'
     });
-  }
-
-  openDrawer(item: Params): void {
-    this.store.dispatch(new SetAppState({drawer: {
-      showDrawer: true,
-      drawerName: 'makers-drawer',
-      drawerPayload: item
-    }}));
   }
 
   redirect(link: string): void {
