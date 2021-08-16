@@ -6,6 +6,13 @@
     <div class="grid-item" *ngFor="let item of videos;let i = index;">
         <div class="item-container" (click)="selectedItem = item; showOverlay = true">
             <div class="thumbnail">
+                <!-- <iframe class="iframe"
+                    [src]="item.videoLink | safe: 'resourceUrl'"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe> -->
                 <img [src]="item.image" [alt]="item.image">
              </div>
              <div class="title">
