@@ -32,6 +32,9 @@ $desktop: 1248px;
         display: flex;
         flex-direction: column;
         .thumbnail {
+          img {
+            width: 100%;
+          }
         }
         .title {
         }
@@ -46,10 +49,14 @@ $desktop: 1248px;
     .overlay-container {
       background-color: $bgcolor;
       padding: 1rem;
-      
+      display: flex;
+      flex-direction: column;
       .iframe {
         width: 100%;
-        height: 50vh;
+        height: 70vh;
+      }
+      .long-description {
+        color: white;
       }
     }
   }

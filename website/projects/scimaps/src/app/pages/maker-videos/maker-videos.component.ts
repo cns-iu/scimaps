@@ -1,13 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { ActivatedRoute, Params } from '@angular/router';
+import { drawerInOut } from '../../constants/drawer.animations';
 import { MakerVideosBody } from './maker-videos-body-resolver.service';
 import { MakerVideo } from './maker-videos-resolver.service';
 
 @Component({
   selector: 'sci-maker-videos',
   templateUrl: './maker-videos.component.html',
-  styleUrls: ['./maker-videos.component.scss']
+  styleUrls: ['./maker-videos.component.scss'],
+  animations: [drawerInOut]
 })
 export class MakerVideosComponent implements OnInit {
 
@@ -15,7 +17,7 @@ export class MakerVideosComponent implements OnInit {
   videos: MakerVideo[] = [];
   // 
   showOverlay = false;
-  overlayVideo = '';
+  selectedItem: MakerVideo | null = null;
 
   constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer) { }
   
