@@ -56,6 +56,10 @@ const routes: Routes = [
     path: 'maker-videos',
     loadChildren: () => import('./pages/maker-videos/maker-videos.module').then(m => m.MakerVideosModule)
   },
+  {
+    path: '**',
+    redirectTo: '/home'
+  }
 ];
 
 @NgModule({
