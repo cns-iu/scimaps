@@ -14,12 +14,12 @@ export class MakerVideosComponent implements OnInit {
 
   body: MakerVideosBody = { description: ''};
   videos: MakerVideo[] = [];
-  // 
+  //
   showOverlay = false;
   selectedItem: MakerVideo | null = null;
 
   constructor(private route: ActivatedRoute) { }
-  
+
   ngOnInit(): void {
     this.route.data.subscribe((data: Params) => {
       const {body, videos} = data;
@@ -27,7 +27,7 @@ export class MakerVideosComponent implements OnInit {
         this.body = body;
       }
       if (videos && Array.isArray(videos)) {
-        this.videos = videos
+        this.videos = videos;
       }
     });
   }

@@ -7,7 +7,7 @@ import { DomSanitizer, SafeHtml, SafeStyle, SafeScript, SafeUrl, SafeResourceUrl
 })
 export class SafePipe implements PipeTransform {
   constructor(protected sanitizer: DomSanitizer) {}
-  transform(value: any, type: string): SafeHtml | SafeStyle | SafeScript | SafeUrl | SafeResourceUrl {
+  transform(value: string, type: string): SafeHtml | SafeStyle | SafeScript | SafeUrl | SafeResourceUrl {
     switch (type) {
       case 'resourceUrl': return this.sanitizer.bypassSecurityTrustResourceUrl(value);
       default: throw new Error(`Invalid safe type specified: ${type}`);

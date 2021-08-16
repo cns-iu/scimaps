@@ -16,7 +16,7 @@ export interface MakerVideo {
 }
 
 export const getMakerVideo = (n: number): MakerVideo[] => {
-  const result: MakerVideo[] = []
+  const result: MakerVideo[] = [];
   for (let i = 0; i < n; i++) {
     result.push({
       title: `title${i}`,
@@ -29,20 +29,20 @@ export const getMakerVideo = (n: number): MakerVideo[] => {
     });
   }
   return result;
-}
+};
 @Injectable({
   providedIn: 'root'
 })
 export class MakerVideosResolverService implements Resolve<MakerVideo[]> {
 
-  directory = 'assets/content/maker-videos'
+  directory = 'assets/content/maker-videos';
   constructor(private content: ContentService) { }
 
   updatePaths(makerVideo: MakerVideo): MakerVideo {
     if (makerVideo.image && !isHttp(makerVideo.image)) {
       makerVideo.image = `${this.directory}/${makerVideo.slug}/${makerVideo.image}`;
     }
-    return makerVideo
+    return makerVideo;
   }
   postProcess(makerVideos: MakerVideo[]): MakerVideo[] {
     return makerVideos.map((makerVideo: MakerVideo) => {

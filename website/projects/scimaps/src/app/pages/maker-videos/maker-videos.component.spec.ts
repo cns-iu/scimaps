@@ -14,7 +14,7 @@ describe('MakerVideosComponent', () => {
     const route = { data: of({}) };
     await TestBed.configureTestingModule({
       imports: [MakerVideosModule, MarkdownModule.forRoot()],
-      providers: [{ provide: ActivatedRoute, useValue: route },],
+      providers: [{ provide: ActivatedRoute, useValue: route }, ],
     })
       .compileComponents();
   });
