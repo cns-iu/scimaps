@@ -1,7 +1,7 @@
 ---
 title: Carrie Longley on communicating science through sculpture
 videoLink: https://www.youtube.com/embed/hSlYtTcehSI
-image: image1.jpg
+image: video-placeholder.png
 short_description: Carrie Longley on communicating science through sculpture
 long_description: "Sculptor Carrie Longley’s contribution to Places & Spaces is
   a work of touchable data that brings together the realms of scientific

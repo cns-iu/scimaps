@@ -1,7 +1,7 @@
 ---
 title: Kalev Leetaru on how news stories create unlikely communities
 videoLink: https://www.youtube.com/embed/vIJ0eX4jb9A
-image: image1.jpg
+image: video-placeholder.png
 maker: kalev-leetaru/readme
 short_description: Kalev Leetaru on how news stories create unlikely communities
 long_description: GDELT Project founder Kalev Leetaru reflects on the power of

@@ -1,7 +1,7 @@
 ---
 title: "Marc Smith: Taking snapshots of virtual communities"
 videoLink: https://www.youtube.com/embed/JwtCnhsQUYI
-image: image1.jpg
+image: video-placeholder.png
 maker: marc-smith/readme
 short_description: "Marc Smith: Taking snapshots of virtual communities"
 long_description: Marc A. Smith on why the internet has been a gift to

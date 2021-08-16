@@ -1,7 +1,7 @@
 ---
 title: "Ying-Fang Shen: Cultural history as personal memory"
 videoLink: https://www.youtube.com/embed/IfSgBtwjIzU
-image: image1.jpg
+image: video-placeholder.png
 short_description: "Ying-Fang Shen: Cultural history as personal memory"
 long_description: As part of a making-of featurette for the multi-award winning
   Humanexus (2013), artist Ying-Fang Shen explains her decision to present the

@@ -1,7 +1,7 @@
 ---
 title: Andrew Levinson on the virtues of working ahead
 videoLink: https://www.youtube.com/embed/C96xUr6ml70
-image: image1.jpg
+image: video-placeholder.png
 maker: andrew-levinson/readme
 short_description: Andrew Levinson on the virtues of working ahead
 long_description: Andrew Levinson on visualizing election results for The Wall

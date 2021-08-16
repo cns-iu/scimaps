@@ -1,7 +1,7 @@
 ---
 title: How Mauro Martino uses dots and arcs to tell stories about culture
 videoLink: https://www.youtube.com/embed/EzLkGT1bhj0
-image: image1.jpg
+image: video-placeholder.png
 maker: mauro-martino/readme
 short_description: How Mauro Martino uses dots and arcs to tell stories about culture
 long_description: Data visualization expert Mauro Martino walks us through
