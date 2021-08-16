@@ -1,5 +1,5 @@
 ---
-name: Ray Chute
+name: Ryan Chute
 last_name: Chute
 image: image.jpg
 roles:

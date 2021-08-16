@@ -1,6 +1,6 @@
 ---
-name: Krzysztof Sucheck
-last_name: Sucheck
+name: Krzysztof Suchecki
+last_name: Suchecki
 image: image.jpg
 roles:
   - maker

@@ -1,5 +1,5 @@
 ---
-name: Luis M. A. Bettencourt
+name: "Luís M. A. Bettencourt"
 last_name: Bettencourt
 image: image.jpg
 roles:

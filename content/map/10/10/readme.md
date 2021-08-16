@@ -25,7 +25,7 @@ en:
     left. More information can be found at
     [http://www.know-your-field.net/metrics](http://www.know-your-field.net/metrics).
   makers:
-    - walter-powell/readme
+    - walter-w-powell/readme
     - achim-oberg/readme
     - valeska-korff/readme
   year: 2014

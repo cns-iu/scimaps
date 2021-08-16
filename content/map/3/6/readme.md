@@ -23,7 +23,7 @@ en:
     Nobel prize-winning papers, and all correct predictions by Thomson Reuters
     are highlighted.
   makers:
-    - bruce-herr-ii/readme
+    - bruce-w-herr-ii/readme
     - russell-j-duhon/readme
     - shashikant-penumarthy/readme
     - elisha-f-h-allgood/readme

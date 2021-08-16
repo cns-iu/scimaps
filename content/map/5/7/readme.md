@@ -23,8 +23,8 @@ en:
     with their top-10 topics on the right). The interactive version is shown on
     the left and can be explored at [http://nihmaps.org](http://nihmaps.org).
   makers:
-    - bruce-herr-ii/readme
-    - gully-burns/readme
+    - bruce-w-herr-ii/readme
+    - gully-a-p-c-burns/readme
     - edmund-talley/readme
     - david-newman/readme
   year: 2007

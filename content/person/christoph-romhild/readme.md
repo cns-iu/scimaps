@@ -1,5 +1,5 @@
 ---
-name: Christopher Romhild
+name: "Christoph Römhild"
 last_name: Romhild
 image: image.jpg
 roles:

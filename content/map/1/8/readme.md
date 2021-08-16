@@ -16,7 +16,7 @@ en:
     as ‘alt.binaries’ (at the bottom left), and the decline of the ‘comp’ groups
     (in the middle right) can be seen at a glance.
   makers:
-    - marc-smith/readme
+    - marc-a-smith/readme
     - danyel-fisher/readme
   year: 2005
   references:
