@@ -178,21 +178,22 @@ collections:
   - name: maker-videos
     label: Maker Videos
     label_singular: Maker Video
-    path: "{{slug}}/readme"
     folder: content/maker-videos
-    slug: "{{title}}"
+    path: "{{slug}}/readme"
     create: true
+    slug: "{{title}}"
     media_folder: ''
     public_folder: ''
     fields:
       - { name: title, label: Title }
       - { name: videoLink, label: Video URL, widget: file }
-      - { name: image, label: Thumbnail, widget: image }
+      - { name: image, label: Thumbnail, widget: image, required: false }
       - name: maker
         label: Authors
         widget: relation
         multiple: false
         collection: person
+        required: false
         search_fields: ['name', 'lastName']
         value_field: '{{slug}}'
         display_fields: ['{{name}} {{lastName}}']
