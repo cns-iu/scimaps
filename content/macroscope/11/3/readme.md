@@ -33,7 +33,7 @@ en:
     relationships. More information on this project can be found at
     [http://gdeltproject.org](http://gdeltproject.org).
   makers:
-    - kalev-leetaru/readme
+    - kalev-h-leetaru/readme
   year: 2015
   references:
     - >-

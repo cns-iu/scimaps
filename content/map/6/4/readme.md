@@ -24,7 +24,7 @@ en:
     intervention procedures.
   makers:
     - george-shaw/readme
-    - phillip-decamp/readme
+    - phillip-j-decamp/readme
     - deb-roy/readme
   year: 2010
   references:

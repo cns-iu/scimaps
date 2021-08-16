@@ -25,7 +25,7 @@ en:
     [http://worldmapper.org](http://worldmapper.org).
   makers:
     - danny-dorling/readme
-    - mark-newman/readme
+    - mark-e-j-newman/readme
     - graham-allsopp/readme
     - anna-barford/readme
     - ben-wheeler/readme

@@ -10,4 +10,6 @@ state: NM
 country: USA
 pdfLink:
 venueImages:
+ - sm: image01.sm.jpg
+   lg: image01.lg.jpg
 ---

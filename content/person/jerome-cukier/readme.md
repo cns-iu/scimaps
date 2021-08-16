@@ -1,5 +1,5 @@
 ---
-name: Jerome Cukier
+name: "Jérôme Cukier"
 last_name: Cukier
 image: image.jpg
 roles:

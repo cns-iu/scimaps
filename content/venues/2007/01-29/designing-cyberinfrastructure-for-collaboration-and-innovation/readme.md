@@ -8,6 +8,6 @@ credit:
 city: San Jose
 state: CA
 country: USA
-pdfLink: 20070129-spie-conference-visualization.pdf
+pdfLink:
 venueImages:
 ---
