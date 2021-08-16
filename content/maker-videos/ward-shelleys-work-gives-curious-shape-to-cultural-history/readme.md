@@ -1,7 +1,7 @@
 ---
 title: Ward Shelleys work gives curious shape to cultural history
 videoLink: https://www.youtube.com/embed/i4K-3bSMRU8
-image: video-placeholder.png
+image: https://img.youtube.com/vi/i4K-3bSMRU8/0.jpg
 short_description: Ward Shelley’s work gives curious shape to cultural history
 long_description: Artist Ward Shelley guides us through the twists and turns of
   his astonishing History of Science Fiction (2011) and reveals how he creates

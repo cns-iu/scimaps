@@ -1,7 +1,7 @@
 ---
 title: Andrew Levinson on the US Water Crisis macroscope
 videoLink: https://www.youtube.com/embed/JimOELC_tYM
-image: video-placeholder.png
+image: https://img.youtube.com/vi/JimOELC_tYM/0.jpg
 maker: andrew-levinson/readme
 short_description: Andrew Levinson on the US Water Crisis macroscope
 long_description: Andrew Levinson on visualizing election results for The Wall

@@ -1,7 +1,7 @@
 ---
 title: "Andrew Levinson: Getting the jump on election results data"
 videoLink: https://www.youtube.com/embed/K337rTmYEnU
-image: video-placeholder.png
+image: https://img.youtube.com/vi/K337rTmYEnU/0.jpg
 short_description: "Andrew Levinson: Getting the jump on election results data"
 long_description: Andrew Levinson on visualizing election results for The Wall
   Street Journal, building [The US Water
