@@ -31,8 +31,12 @@
 
   .cdk-overlay-container {
     .sci-header-menu {
+      &.mat-menu-panel {
+        min-height: unset;
+      }
       .mat-menu-content {
         padding-top: 0px;
+        padding-bottom: 0px;
       }
     }
   }
