@@ -17,7 +17,7 @@ en:
     the bottom; this documents the research community’s response to the anthrax
     postal bioterror attacks in late 2001.
   makers:
-    - steven-morris/readme
+    - steven-a-morris/readme
   year: 2005
   references:
     - >-

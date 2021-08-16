@@ -32,7 +32,7 @@ en:
     - moritz-stefaner/readme
     - lutz-bornmann/readme
     - rudiger-mutz/readme
-    - felix-moyaneg/readme
+    - felix-de-moya-anegon/readme
   year: 2016
   references:
     - >-

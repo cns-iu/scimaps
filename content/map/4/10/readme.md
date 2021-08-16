@@ -25,7 +25,7 @@ en:
     affecting SWB are poverty and associated variables. Learn more at
     [http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse).
   makers:
-    - adrian-white/readme
+    - adrian-g-white/readme
     - the-national-geographic-society-earthpulse-team/readme
   year: 2008
   references:

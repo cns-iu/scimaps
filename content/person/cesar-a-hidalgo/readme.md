@@ -1,5 +1,5 @@
 ---
-name: Cesar A. Hidalgo
+name: "César A. Hidalgo"
 last_name: Hidalgo
 image: image.jpg
 roles:

@@ -23,7 +23,7 @@ en:
     - cheng-gao/readme
     - krzysztof-suchecki/readme
     - andrea-scharnhorst/readme
-    - alkim-almila-akdag-salah/readme
+    - alkim-a-a-salah/readme
   year: 2011
   references:
     - >-

@@ -19,7 +19,7 @@ en:
     biochemistry and chemistry. In 2005, this was the most comprehensive and
     most accurate literature map ever generated.
   makers:
-    - kevin-boyack/readme
+    - kevin-w-boyack/readme
     - richard-klavans/readme
   year: 2005
   references:
