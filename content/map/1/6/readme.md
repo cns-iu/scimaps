@@ -16,7 +16,7 @@ en:
     possible to read the map in any direction. However, there is a cultural bias
     for the tracks to be followed from left to right and top to bottom.
   makers:
-    - keith-nesbitt/readme
+    - keith-v-nesbitt/readme
   year: 2004
   references:
     - >-
