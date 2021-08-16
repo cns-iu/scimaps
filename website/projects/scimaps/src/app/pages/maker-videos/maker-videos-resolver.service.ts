@@ -14,6 +14,22 @@ export interface MakerVideo {
   maker: string;
   image: string;
 }
+
+export const getMakerVideo = (n: number): MakerVideo[] => {
+  const result: MakerVideo[] = []
+  for (let i = 0; i < n; i++) {
+    result.push({
+      title: `title${i}`,
+      short_description: `short ${i}`,
+      long_description: `long ${i}`,
+      slug: `slug${i}`,
+      videoLink: `link$ ${i}`,
+      maker: 'maker/readme',
+      image: `image.${i}.jpg`
+    });
+  }
+  return result;
+}
 @Injectable({
   providedIn: 'root'
 })
