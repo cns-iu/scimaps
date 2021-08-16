@@ -52,7 +52,7 @@
       "sequence": 10,
       "body": "Kevin W. Boyack and Richard Klavans share a deep interest in the mapping of science as a platform for planning and evaluation on the national, corporate, and personal levels. Through a multistep process, this galaxy-like map of science was created from citation patterns in 800,000 scientific papers published in 2002. Each dot represents one of 96,000 active research communities. Over time, communities can be born, grow, split, merge, or die. By coupling coefficients between papers, using the VxOrd layout algorithm and a modified single-link clustering routine, Boyack and Klavans were able to calculate the placement of research communities. For example, communities made up solely of papers in biochemistry journals show up in the biochemistry section, while communities that are evenly split between biochemistry and chemistry journals show up midway between biochemistry and chemistry. In 2005, this was the most comprehensive and most accurate literature map ever generated.",
       "makers": [
-        "kevin-boyack/readme",
+        "kevin-w-boyack/readme",
         "richard-klavans/readme"
       ],
       "year": 2005,
@@ -329,7 +329,7 @@
       "sequence": 7,
       "body": "This timeline map of anthrax research by electrical engineer Steven A. Morris uses as raw data a list of relevant research papers and the references they cite. Papers that share many references are assumed to be similar as they appear to draw from the same base knowledge. Similar papers are clustered into groups utilizing the statistical technique of agglomerative hierarchical clustering. Groups of related journal papers are plotted in horizontal tracks by publication date. A clustering tree on the left shows the structure of the topics, with the topic labels appearing on the right. Important events, measured by the number of times a paper has been cited, are indicated on the plot. Note the emergence of new topics at the bottom; this documents the research community’s response to the anthrax postal bioterror attacks in late 2001.",
       "makers": [
-        "steven-morris/readme"
+        "steven-a-morris/readme"
       ],
       "year": 2005,
       "references": [
@@ -375,7 +375,7 @@
       "sequence": 8,
       "body": "Sociologist Marc Smith and computer scientist Danyel Fisher created this visualization portraying the activity of 189,144 newsgroups with 257,442,374 postings in 2004. It uses the treemap layout originally introduced by Ben Shneiderman at the University of Maryland. Each newsgroup is represented by a square. The size of each square corresponds to the number of people who posted at least twice. Color-coding is used to show the increase or decrease in the number of posters compared to the 2003 data: red indicates fewer; green denotes more. Each square is labeled as a literal hierarchy—e.g., ‘rec.pets’ contains ‘rec.pets.cats.’ The growth of certain newsgroups, such as ‘alt.binaries’ (at the bottom left), and the decline of the ‘comp’ groups (in the middle right) can be seen at a glance.",
       "makers": [
-        "marc-smith/readme",
+        "marc-a-smith/readme",
         "danyel-fisher/readme"
       ],
       "year": 2005,
@@ -522,7 +522,7 @@
       "sequence": 10,
       "body": "Business computer scientist Achim Oberg and sociologists Valeska P. Korff and Walter W. Powell study civil society organizations and how the entrance of scientific evaluation practices and managerial tools changes the assessment of performance. This map shows the presence of civic ideals, managerial concepts, and scientific assessments among 369 organizations actively involved in efforts at measuring social impact. For each organization, information on their scientific and managerial discourses with civic ideals was retrieved from websites using a web crawler. A total of 105 keywords were identified as relevant for an organization’s position vis-à-vis the three lines of discourse: civil society, science, and management. The large triangle in the middle features all organizations color coded by their dominant discourse. Key institutions are labelled. Interstitial organizations whose blending of discourses suggests they have become fluent in all three discourses are colored in yellow. Weblinks between the four linguistic communities document connections between organizations. The triangles on the left show both: integration within and connections between discursive communities. Linkages of the pure discourse organizations and the interstitial organizations are shown in the lower left. More information can be found at [http://www.know-your-field.net/metrics](http://www.know-your-field.net/metrics).",
       "makers": [
-        "walter-powell/readme",
+        "walter-w-powell/readme",
         "achim-oberg/readme",
         "valeska-korff/readme"
       ],
@@ -979,7 +979,7 @@
       "body": "Richard Klavans and Kevin W. Boyack are known for groundbreaking maps of science that serve as platforms for planning and evaluation. This work, their eighth contribution to the exhibit, shows several relationships between the worlds of altruism and science using maps of the two spaces. The map of altruism was created using text from the websites of 125,000 non-profit organizations (NPOs) in the U.S. using domain names provided by GuideStar USA, Inc. MALLET topic modeling was run on nearly 4 million web pages, and the mission-related topics were located in a two-dimensional space. The map shows the locations of nearly 100,000 NPOs overlaid on this topic space. A map of science was created from 43 million Scopus documents using a two-step process: documents were grouped into 156,000 clusters using a direct citation methodology, and the clusters were mapped using textual similarity. Together, the results demonstrate that, while most NPO efforts support day-to-day activities related to altruistic missions, a surprising amount is used to fund scientific research, particularly in topics related to innovation, environment, and medicine. In contrast, very little NPO effort is used to support research in altruistic missions dealing with different aspects of childhood development. Funding of more research to increase our understanding of these areas could lead to revolutionary advances that parallel those made in technology and medicine in recent years.",
       "makers": [
         "richard-klavans/readme",
-        "kevin-boyack/readme"
+        "kevin-w-boyack/readme"
       ],
       "year": 2014,
       "references": [
@@ -1316,7 +1316,7 @@
       "body": "Designed by artist and computer scientist Martin Wattenberg and computational designer Fernanda B. Viégas, the History Flow visualization technique helps reveal complex records of contributions and collaborations. Among other uses, it can be applied to show the evolution of documents—e.g., Wikipedia entries created by people all over the world. This map shows the edit history of the Wikipedia entry on “Abortion.” A list of color-coded contributing authors to this entry is given on the left. The graph in the middle shows the History Flow visualization where each version of the entry is represented by a vertical line, sorted in time, from left to right. Text contributed by a specific author is represented as a color-coded, horizontal band. Bands are coded by thickness according to the length of the text contributed to a specific version. The right column shows the entry as of April 20th, 2003, at 5:32p.m., color-coded according to the author of the final edit. As the map illustrates, the page has been edited by many different authors and has survived several complete deletions.",
       "makers": [
         "martin-wattenberg/readme",
-        "fernanda-viegas/readme"
+        "fernanda-b-viegas/readme"
       ],
       "year": 2008,
       "references": [
@@ -1411,7 +1411,7 @@
         "w-bradford-paley/readme",
         "elisha-f-h-allgood/readme",
         "katy-borner/readme",
-        "bruce-herr-ii/readme",
+        "bruce-w-herr-ii/readme",
         "todd-holloway/readme"
       ],
       "year": 2006,
@@ -1803,7 +1803,7 @@
       "sequence": 6,
       "body": "Research programmers Bruce W. Herr II and Russell J. Duhon, graphic designer Elisha F. Hardy, data analyst Shashikant Penumarthy, and information scientist Katy Börner develop infrastructures to analyze, model, and map large-scale scholarly datasets. The 113-year _Physical Review_ dataset shown here is one example of this work. The visualization aggregates 389,899 articles published in 720 volumes of 11 journals between 1893 and 2005 using the Physics and Astronomy Classification Scheme (PACS) codes introduced in 1975. The 91,762 articles published from 1893 to 1976 take up the left third of the map. The 217,503 articles from 1977 to 2000, for which partial citation and PACS data is available, occupy the middle third on the map. The 80,634 articles from 2001 to 2005, for which complete citation and PACS data is available, fill the last third of the map. On top of this base map, all citations from the papers in every top-level PACS code in 2005 are overlaid. Each year, Thomson Reuters predicts three Nobel Prize awardees in physics based on citation counts, high-impact papers, and discoveries or themes worthy of special recognition. The small Nobel Prize medals indicate all Nobel prize-winning papers, and all correct predictions by Thomson Reuters are highlighted.",
       "makers": [
-        "bruce-herr-ii/readme",
+        "bruce-w-herr-ii/readme",
         "russell-j-duhon/readme",
         "shashikant-penumarthy/readme",
         "elisha-f-h-allgood/readme",
@@ -1905,9 +1905,9 @@
       "body": "Developed by research programmers Bruce W. Herr II and Todd M. Holloway, graphic designer Elisha F. Hardy, and information scientists Kevin W. Boyack and Katy Börner, this map shows the structure and dynamics of the English Wikipedia based on 659,388 articles and their editing activity. The similarity of each article-article pair was calculated as the number of shared links to other articles. The resulting similarity matrix was read into VxOrd to generate the base map layout. An invisible 37 x 37 half-inch grid was drawn underneath the network and filled with relevant images from key articles. Overlaid are 3,599 math, 6,474 science, and 3,164 technology articles. They are color-coded in blue, green, and yellow, respectively, with all other articles appearing in grey. Exactly 8,181 articles are in one category, 2,348 in two, and 73 in all three categories. The four corners show smaller versions of the map with articles size-coded according to article edit activity (top left), number of major edits from January 1st, 2007, to April 6th, 2007 (top right), number of bursts in edit activity (bottom right), and the number of times other articles link to an article (bottom left). These visualizations serve to highlight current trends and predict future editing activity and growth in Wikipedia articles related to science, technology, and mathematics. Interactive Wikipedia maps are available at [http://scimaps.org/web/maps/wikipedia/](http://scimaps.org/web/maps/wikipedia/).",
       "makers": [
         "elisha-f-h-allgood/readme",
-        "bruce-herr-ii/readme",
+        "bruce-w-herr-ii/readme",
         "todd-holloway/readme",
-        "kevin-boyack/readme"
+        "kevin-w-boyack/readme"
       ],
       "year": 2007,
       "references": [
@@ -2046,7 +2046,7 @@
       "sequence": 10,
       "body": "_EarthPulse_ by National Geographic is a visual guide to global trends. It explores our complex connections with vivid and informative imagery, maps, diagrams, and interactives to illuminate where we are today, how we got here, and how our actions may affect the future of life on Earth. The very first issue of _EarthPulse_ features a global map of subjective well-being (SWB). A ranking of the world’s happiest places is given on the right. The data on SWB was extracted from a meta-analysis by Nic Marks, Saamah Abdallah, Andrew Simms, and Sam Thompson in 2006 ([http://happyplanetindex.org](http://happyplanetindex.org)). It is immediately evident that there is an effect of poverty on levels of SWB. The map itself mirrors other projections of poverty and gross domestic product. Adrian White compared the data on SWB with the 2005 data on access to education provided by the United Nations Educational, Scientific and Cultural Organization (UNESCO), 2005 health data made available by the United Nations (UN), and 2006 poverty data downloaded from the Central Intelligence Agency (CIA). It was found that SWB correlates most strongly with health (.7), wealth (.6), and access to basic education (.6). This adds to the evidence that, from a global perspective, the biggest factors affecting SWB are poverty and associated variables. Learn more at [http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse).",
       "makers": [
-        "adrian-white/readme",
+        "adrian-g-white/readme",
         "the-national-geographic-society-earthpulse-team/readme"
       ],
       "year": 2008,
@@ -2093,7 +2093,7 @@
       "sequence": 2,
       "body": "R. Buckminster Fuller, the noted visionary and applied futurist, was one of the first to chart long-term trends of industrialization and globalization as early as the 1930s. In 1961, Fuller made a proposal to the International Union of Architects at their VIIth Congress to encourage architectural schools around the world to commit the next ten years to addressing how to make the world’s total resources, which then served only 40% of the world population, serve 100% of humanity. This was the beginning of a World Design Science Decade (WDSD), an international program to apply his strategies for Comprehensive Anticipatory Design Science. The program itself never took off; however, the documents themselves reveal early ecological thinking in the 20th century. This trend chart from Document 6, produced by Fuller and his associate John McHale, shows how the confluence of human communication and transportation technologies produce a “shrinking Earth.” During the same decade that Gordon E. Moore predicted the acceleration curve of computing technologies (Moore’s Law), Fuller applied his comprehensive approach to map the global impact of what he termed “accelerating acceleration” and “ephemeralization” (tendency to develop smaller and more efficient technologies).",
       "makers": [
-        "john-mchale/readme",
+        "john-mchale-sr/readme",
         "buckminster-fuller/readme"
       ],
       "year": 1965,
@@ -2281,7 +2281,7 @@
       "body": "Danny Dorling devised this project and gathered the data together, while Mark E. J. Newman wrote the computer software for making the cartograms and produced the figures themselves, and Graham Allsopp leant his cartographic expertise to many aspects of the project, particularly the poster design. In addition, Anna Barford wrote the text accompanying each map and sourced quotes, Ben Wheeler gave advice and checked for accuracy, John Pritchard developed the website and gathered data, and David Dorling contributed his medical knowledge to the production of technical notes. The map was rendered as an equal-area cartogram, otherwise known as a density-equalizing map. The cartogram resizes each country according to its ecological footprint using a method developed by Gastner and Newman. The generally richer countries of Western Europe, Japan, and the United States have a large ecological footprint denoted by their large area size. Less developed yet highly populated countries such as India and China exhibit a similarly large footprint. Other countries such as Australia and Russia shrink compared to the land area map. The supplementary tables and chart show countries with the largest and smallest ecological footprints. The map is one of more than 500 that make up the Worldmapper project at [http://worldmapper.org](http://worldmapper.org).",
       "makers": [
         "danny-dorling/readme",
-        "mark-newman/readme",
+        "mark-e-j-newman/readme",
         "graham-allsopp/readme",
         "anna-barford/readme",
         "ben-wheeler/readme",
@@ -2429,7 +2429,7 @@
       "sequence": 9,
       "body": "Kevin W. Boyack and Richard Klavans are interested in creating high-quality maps of science that can be used as tools for planning and evaluation on multiple levels. In this work, Boyack and Klavans simplify their _Maps of Science: Forecasting Large Trends in Science_ (featured in the third iteration of this exhibit) into a circular map. The 554 scientific disciplines, representing over 16,000 journals and proceedings, are placed in a logical order around the perimeter of a circle. The resulting “circle of science” is used as a reference system to show the scientific roots of technology. Over 18,000 inventor-authors from the Scopus publication and _United States Patent and Trademark Office_ databases (2002-2006) were identified to link technological output (patents) from inventors to scientific output (papers) of authors. Authors are located within the circle map at the average position of their scientific papers using the disciplines in which they publish. Patents by these authors are then placed at the authors’ locations on the map. Some patents and classes are tied to one area of science (e.g., ‘G06F,’ near the edge), while others build on multiple areas of science (e.g., ‘C07D,’ near the center). Some areas of science (e.g., physics, computer science) are tied to large numbers of patents, while other areas of science (e.g., social sciences) are tied to very few patents.",
       "makers": [
-        "kevin-boyack/readme",
+        "kevin-w-boyack/readme",
         "richard-klavans/readme"
       ],
       "year": 2008,
@@ -2803,8 +2803,8 @@
       "sequence": 7,
       "body": "This map was developed by research programmer Bruce W. Herr II, biomedical researcher Gully A.P.C. Burns, computer scientist David Newman, and National Institutes of Health (NIH) program director Edmund Talley. It is a similarity-based cluster map of all grants awarded by NIH in 2007. Approximately 60,000 grants are represented as dots, color-coded by NIH Institute. To generate the map, the content of each grant was assessed using topic modeling, an unsupervised machine-learning method based on statistics of co-occurring words in the grants’ abstracts. Grants were placed on the map using a layout algorithm that clusters together grants with similar topic mixtures. Clusters are labeled by the computationally derived topics with the highest word allocations in the underlying grants. The map provides a global view of the NIH funding: what topics of research are being heavily pursued, how the topics relate to one another, and what research topics interest each institute. Data can be examined at multiple levels (see zooms for ‘Cardiac Diseases Research’ and ‘Neural Circuit Research’ below) and at different resolutions (see funding portfolios of four institutes together with their top-10 topics on the right). The interactive version is shown on the left and can be explored at [http://nihmaps.org](http://nihmaps.org).",
       "makers": [
-        "bruce-herr-ii/readme",
-        "gully-burns/readme",
+        "bruce-w-herr-ii/readme",
+        "gully-a-p-c-burns/readme",
         "edmund-talley/readme",
         "david-newman/readme"
       ],
@@ -2904,7 +2904,7 @@
       "sequence": 9,
       "body": "Kevin W. Boyack and Richard Klavans create maps of science that serve as a platform for planning and evaluation on the national, corporate, and personal levels. Traditional methods of comparing scientific strengths of nations are based on counting papers and citations within journal categories. However, journal category structures are too coarse to accurately show the strengths of smaller nations. Journal-based methods also fail to show the subdisciplinary or multidisciplinary nature of many countries’ strengths. In this map, Boyack and Klavans introduce a method to identify and visualize research leadership using a classification system in which millions of research papers are segmented into over 80,000 clusters. These 80,000 building blocks are individually reassembled for each nation to reveal their areas of research leadership. Analysis of the top-13 publishing nations shows that this new method for measuring research leadership gives a much more accurate and detailed accounting of the actual scientific strengths of nations than does the journal-based method. In particular, the strengths of small nations, along with subdisciplinary and multidisciplinary strength, are more accurately identified using the new method. Overlaying U.S. strengths with those from the top-12 competitive nations shows the areas in which those nations have a leadership role that is not matched by the U.S.",
       "makers": [
-        "kevin-boyack/readme",
+        "kevin-w-boyack/readme",
         "richard-klavans/readme"
       ],
       "year": 2008,
@@ -3143,7 +3143,7 @@
       "body": "This map by data visualization researchers George Shaw and Philip James DeCamp and cognitive scientist Deb Roy shows the experimental setup used to record the language development of Roy’s son at home. Approximately 10 hours of high-fidelity audio and video were recorded on a daily basis from birth to age three. The resulting corpus contains over 100,000 hours of multi-track recordings and constitutes the most comprehensive record of a child’s development made to date. New annotation, analysis, and visualization tools were developed to study and computationally model the early words uttered by the child by tracing back to the contexts in which those words were spoken to him by adults. As shown on the map, the results of this analysis comprise human movement traces, word birthplaces, and social networks. For most children, language development is steady, progressive, and, to a casual observer, effortless. But for some children—those with developmental delays due to biological or environmental causes—language is a major developmental hurdle. Understanding the regularities in home environments is essential to understanding mechanisms of language acquisition, causes of delay, and, ultimately, appropriate intervention procedures.",
       "makers": [
         "george-shaw/readme",
-        "phillip-decamp/readme",
+        "phillip-j-decamp/readme",
         "deb-roy/readme"
       ],
       "year": 2010,
@@ -3383,7 +3383,7 @@
       "sequence": 9,
       "body": "Richard Klavans and Kevin W. Boyack share a deep interest in the mapping of science as a platform for planning and evaluation on the national, corporate, and personal levels. This map represents science as a set of fabrics in which scientific topics are woven by scholars over time. Just as a textile contains a perpendicular weaving of threads, this representation of the fabric of science consists of a perpendicular weave, with horizontal threads (temporal sequences of topics) and vertical weaving of those topics by leading researchers. Five annual models of science were created using _Scopus_ data. Topics from these five annual models were linked in time to form the horizontal threads. Leading researchers publish in multiple threads, thus weaving them together into micro-fabrics. Overlaps in leadership between multiple researchers stitch the micro-fabrics into larger fabrics. This poster shows the fabrics of science in two areas: ‘Cardiology’ and ‘Data Security.’ Fabrics can help scientists see the evolution and linkage of topic space and distinguish thread builders from weavers. The fabric of science can help researchers to understand and discover ways to change their strategic positions in science.",
       "makers": [
-        "kevin-boyack/readme",
+        "kevin-w-boyack/readme",
         "richard-klavans/readme"
       ],
       "year": 2010,
@@ -3672,7 +3672,7 @@
         "cheng-gao/readme",
         "krzysztof-suchecki/readme",
         "andrea-scharnhorst/readme",
-        "alkim-almila-akdag-salah/readme"
+        "alkim-a-a-salah/readme"
       ],
       "year": 2011,
       "references": [
@@ -4939,7 +4939,7 @@
       "sequence": 9,
       "body": "Frequent contributors to the exhibit, Kevin W. Boyack and Richard Klavans create maps of science that are useful for planning and evaluation on national, corporate, and personal levels. Together with Henry G. Small, the creator of the very first map of all of science (_1996 Map of Science_, featured in the first iteration of this exhibit), Boyack and Klavans have developed a novel approach to identifying emerging topics in science and technology. Two models of science and technology have been created using 20 million Scopus papers and 3 million patents from USPTO published in 1996-2011. These two models—one based on direct citation, and one based on co-citation—are used together to nominate the most emergent clusters of documents at a particular point in time. Each map was created using a multistep process in which 1) papers from Scopus were clustered using citation characteristics, 2) patents were clustered separately using citation characteristics, 3) a map was created using the OpenOrd graph layout routine to combine paper clusters and patent clusters using a cluster-to-cluster BM25 text similarity measure, and (4) a difference function was used to identify which clusters are most emergent based on where papers occur in both maps. A detailed analysis shows that the emerging topics can be classified as either scientific discoveries or technological innovations, and confirms that the identified emerging topics have high face validity.",
       "makers": [
-        "kevin-boyack/readme",
+        "kevin-w-boyack/readme",
         "richard-klavans/readme",
         "henry-g-small/readme"
       ],

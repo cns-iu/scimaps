@@ -1,6 +1,6 @@
 ---
-name: Matthew Richards
-last_name: Richards
+name: Matthew Richardson
+last_name: Richardson
 image: image.jpg
 roles:
   - maker

@@ -30,7 +30,7 @@ en:
     To learn more about the _Smelly Maps_ project, visit
     [http://goodcitylife.org/smellymaps](http://goodcitylife.org/smellymaps).
   makers:
-    - daniel-quercia/readme
+    - daniele-quercia/readme
     - rossano-schifanella/readme
     - luca-maria-aiello/readme
   year: 2016

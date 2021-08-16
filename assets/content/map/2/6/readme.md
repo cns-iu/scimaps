@@ -21,7 +21,7 @@ en:
     different authors and has survived several complete deletions.
   makers:
     - martin-wattenberg/readme
-    - fernanda-viegas/readme
+    - fernanda-b-viegas/readme
   year: 2008
   references:
     - >-

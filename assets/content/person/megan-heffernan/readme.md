@@ -1,6 +1,6 @@
 ---
-name: Megan Hefferman
-last_name: Hefferman
+name: Megan Heffernan
+last_name: Heffernan
 image: image.jpg
 roles:
   - maker

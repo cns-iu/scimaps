@@ -1,6 +1,6 @@
 ---
-name: Vincent Larivière
-last_name: Larivière
+name: "Vincent Lariviére"
+last_name: "Larivière"
 roles:
   - maker
   - advisory_board

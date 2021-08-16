@@ -1,18 +1,5 @@
 [
   {
-    "dateStart": "2005-04-07T00:00:00.000Z",
-    "dateEnd": "2005-04-11T00:00:00.000Z",
-    "title": "Simulating the Social Processes of Science",
-    "venue": "Lorentz Workshop",
-    "organizer": "Andrea Scharnhorst",
-    "credit": null,
-    "city": "Leiden",
-    "state": null,
-    "country": "The Netherlands",
-    "pdfLink": "20050407-simulating-social-science.pdf",
-    "venueImages": null
-  },
-  {
     "dateStart": "2005-04-05T00:00:00.000Z",
     "dateEnd": "2005-04-09T00:00:00.000Z",
     "title": "101st Annual Meeting of the Association of American Geographer",
@@ -123,6 +110,19 @@
     ]
   },
   {
+    "dateStart": "2005-04-07T00:00:00.000Z",
+    "dateEnd": "2005-04-11T00:00:00.000Z",
+    "title": "Simulating the Social Processes of Science",
+    "venue": "Lorentz Workshop",
+    "organizer": "Andrea Scharnhorst",
+    "credit": null,
+    "city": "Leiden",
+    "state": null,
+    "country": "The Netherlands",
+    "pdfLink": "20050407-simulating-social-science.pdf",
+    "venueImages": null
+  },
+  {
     "dateStart": "2005-04-25T00:00:00.000Z",
     "dateEnd": "2005-04-25T00:00:00.000Z",
     "title": "Networks and Complex Systems Talk Series",
@@ -187,7 +187,12 @@
     "state": "NM",
     "country": "USA",
     "pdfLink": null,
-    "venueImages": null
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2005-07-01T00:00:00.000Z",
@@ -1093,7 +1098,7 @@
     "city": "San Jose",
     "state": "CA",
     "country": "USA",
-    "pdfLink": "20070129-spie-conference-visualization.pdf",
+    "pdfLink": null,
     "venueImages": null
   },
   {
@@ -1983,7 +1988,36 @@
     "state": "Alberta",
     "country": "Canada",
     "pdfLink": null,
-    "venueImages": null
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
+      },
+      {
+        "sm": "image03.sm.jpg",
+        "lg": "image03.lg.jpg"
+      },
+      {
+        "sm": "image04.sm.jpg",
+        "lg": "image04.lg.jpg"
+      },
+      {
+        "sm": "image05.sm.jpg",
+        "lg": "image05.lg.jpg"
+      },
+      {
+        "sm": "image06.sm.jpg",
+        "lg": "image06.lg.jpg"
+      },
+      {
+        "sm": "image07.sm.jpg",
+        "lg": "image07.lg.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2008-01-03T00:00:00.000Z",
@@ -8978,7 +9012,7 @@
   {
     "dateStart": "2013-10-23T00:00:00.000Z",
     "dateEnd": "2013-10-23T00:00:00.000Z",
-    "title": "Knowledge Orders and Science, A joined working group meeting of KNOWeSCAPE,",
+    "title": "Knowledge Orders and Science, A joined working group meeting of KNOWeSCAPE",
     "venue": "The Hague Royal Library",
     "organizer": "Andrea Scharnhorst",
     "credit": "Places & Spaces",
@@ -9565,6 +9599,45 @@
         "lg": "image02.lg.jpg"
       }
     ]
+  },
+  {
+    "dateStart": "2014-03-27T00:00:00.000Z",
+    "dateEnd": "2014-03-27T00:00:00.000Z",
+    "title": "New Trends in eHumanities Research meeting",
+    "venue": "Royal Netherlands Academy of Arts and Sciences",
+    "organizer": null,
+    "credit": null,
+    "city": null,
+    "state": null,
+    "country": "The Netherlands",
+    "pdfLink": null,
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
+      },
+      {
+        "sm": "image03.sm.jpg",
+        "lg": "image03.lg.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2014-04-01T00:00:00.000Z",
+    "dateEnd": "2014-04-01T00:00:00.000Z",
+    "title": "Digital Display",
+    "venue": "Weizmann Institute of Science",
+    "organizer": null,
+    "credit": "Places & Spaces",
+    "city": "Rehovat",
+    "state": null,
+    "country": "Israel",
+    "pdfLink": null,
+    "venueImages": null
   },
   {
     "dateStart": "2014-04-07T00:00:00.000Z",
@@ -13548,7 +13621,7 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "USA",
-    "pdfLink": "20161219-intelligent-systems-engineering.pdf",
+    "pdfLink": null,
     "venueImages": [
       {
         "sm": "image01.sm.jpg",
@@ -14240,6 +14313,10 @@
       {
         "sm": "image01.sm.jpg",
         "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
       }
     ]
   },

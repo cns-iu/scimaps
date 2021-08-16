@@ -1,5 +1,5 @@
 ---
-name: Rudiger Mutz
+name: "Rüdiger Mutz"
 last_name: Mutz
 image: image.jpg
 roles:

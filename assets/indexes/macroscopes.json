@@ -57,7 +57,7 @@
       "sequence": 3,
       "body": "This macroscope was created by Kalev H. Leetaru, an expert on big data and global society. It uses as its source material, quite literally, the news of the world. The visualization explores how new stories group countries into distinct clusters, creating an inherent geographic network structure over the planet akin to “communities” as seen through the eyes of the world’s presses. In essence, for every monitored news article published anywhere in the world, it compiles a list of the other countries also mentioned in those articles.  \n  \nIt is important to note that this is not how often coverage from a country mentions other countries; it is how often coverage from any country in the world that is about that country mentions other countries. In other words, it is about context.  \n  \nCountries that are frequently mentioned together might reflect geographic proximity, but also economic and political ties, or joint involvement in a major international event. Blue incoming lines indicate countries where at least 10% of the coverage mentioning the source country also mentioned the selected country. Red outgoing lines indicate countries where at least 10% of the coverage mentioning the selected country also mentioned the destination country.  \n  \nThe size and number of energy pulses moving along the line indicate the percentage of co-occurring mentions. In a given week, nearly every country is mentioned alongside of every other country at least once, so the visualization uses the cutoff of 10% to highlight only the strongest relationships. More information on this project can be found at [http://gdeltproject.org](http://gdeltproject.org).",
       "makers": [
-        "kalev-leetaru/readme"
+        "kalev-h-leetaru/readme"
       ],
       "year": 2015,
       "references": [
@@ -100,7 +100,7 @@
       "sequence": 1,
       "body": "What does your street smell like? Humans can differentiate thousands of different odors. Yet, city officials and urban planners deal only with the management of a few bad odors. In creating _Smelly Maps_, University of Turin computer science professor Rossano Schifanella and Bell Labs researchers Luca Maria Aiello and Daniele Quercia teamed up to introduce a new stream of research that celebrates the complex aromas of our cities and makes it possible to use this information in urban design.\n\n  \n\nTo map urban smellscapes, the project team first created a lexicon of smell-related words. Then, they gathered geotagged social media posts from Flickr, Instagram, and Twitter that included smell-related words. Finally, the smells people posted about were mapped on each street segment.\n\n  \n\nClick on a street to see how it smells. As you might expect, nature smells are strong near parks and animal smells dominate at the zoo. Where do you find the strongest food smells?\n\n  \n\nTo learn more about the _Smelly Maps_ project, visit [http://goodcitylife.org/smellymaps](http://goodcitylife.org/smellymaps).",
       "makers": [
-        "daniel-quercia/readme",
+        "daniele-quercia/readme",
         "rossano-schifanella/readme",
         "luca-maria-aiello/readme"
       ],
@@ -149,7 +149,7 @@
         "moritz-stefaner/readme",
         "lutz-bornmann/readme",
         "rudiger-mutz/readme",
-        "felix-moyaneg/readme"
+        "felix-de-moya-anegon/readme"
       ],
       "year": 2016,
       "references": [
@@ -374,7 +374,7 @@
       "body": "Beginning in 2015, Europe saw a dramatic increase in the number of people seeking refuge from drought, poverty, and violence. Many crossed the Mediterranean Sea or traveled by land through Southeast Europe from the Middle East and Africa. _Refugee Flow_ is a tool for the exploratory investigation of this migration crisis. Combining multiple data sets with interactive visualizations, the project aims to increase understanding of human trajectories.\n\n  \n\nThe United Nations High Commissioner for Refugees (UNHCR) reports that 68.5 million people are forcibly displaced around the world. Funding to tackle the current challenge is decreasing, not increasing. By 2050, the continued impact of climate change will forcibly displace 1 billion people.\n\n  \n\nCollecting data on people who, because of circumstances beyond their control, are unlikely to be documented, is a challenge. Refugee Flow draws on data from the Armed Conflict Location & Event Data Project (ACLED) to visualize factors that cause people to leave their home countries. This data is combined with the International Organization for Migration’s _Missing Migrants_ data set to visualize causes of death for those en route. A third data set connects adverse outcomes upon arrival with news stories of struggles faced by migrants.\n\n  \n\n_Refugee Flow_ and its companion website can be found at [http://refugeeflow.world/landing](http://refugeeflow.world/landing \"Macroscope: Refugee Flow\").",
       "makers": [
         "abin-abraham/readme",
-        "will-su/readme"
+        "will-jiahao-su/readme"
       ],
       "year": 2018,
       "references": [
