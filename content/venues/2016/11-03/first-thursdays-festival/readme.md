@@ -1,7 +1,7 @@
 ---
 dateStart: 2016-11-03
 dateEnd: 2016-11-03
-title: "First Thursdays Festival"
+title: First Thursdays Festival
 venue: "Arts & Humanities Council"
 organizer: Ed Comantale
 credit: Todd Theriault 
