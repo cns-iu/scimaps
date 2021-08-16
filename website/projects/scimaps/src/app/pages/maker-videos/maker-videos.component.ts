@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { ActivatedRoute, Params } from '@angular/router';
 import { drawerInOut } from '../../constants/drawer.animations';
 import { MakerVideosBody } from './maker-videos-body-resolver.service';
@@ -19,7 +18,7 @@ export class MakerVideosComponent implements OnInit {
   showOverlay = false;
   selectedItem: MakerVideo | null = null;
 
-  constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer) { }
+  constructor(private route: ActivatedRoute) { }
   
   ngOnInit(): void {
     this.route.data.subscribe((data: Params) => {
