@@ -26,6 +26,11 @@ $desktop: 1248px;
         width: 22%;
       }
       overflow: hidden;
+      
+      &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
 
       .item-container {
         width: 100%;
