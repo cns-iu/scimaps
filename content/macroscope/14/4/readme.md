@@ -47,9 +47,6 @@ en:
       (2018): Macroscopes for Ensuring our Well-being." _Places & Spaces:
       Mapping Science_, edited by Katy Börner and Lisel Record.
       [http://scimaps.org](http://scimaps.org)
-
-
-      .prev { width: 55%; } .next { width: 43%; }
   image:
     sm: image.sm.jpg
     med: image.med.jpg
