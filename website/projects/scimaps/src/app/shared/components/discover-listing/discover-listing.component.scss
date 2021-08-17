@@ -28,9 +28,8 @@ $mobile: 640px;
   width: 100%;
 
   @media (max-width: $tablet) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
-
   .text-content {
     flex-grow: 2;
     padding-left: 1rem;
@@ -137,16 +136,6 @@ $mobile: 640px;
       @media (min-width: $mobile) {
         display: none;
       }
-    }
-  }
-
-  .tablet-body {
-    padding-left: 0rem;
-    padding-right: 0rem;
-    margin-top: 1rem;
-
-    @media (min-width: $tablet) {
-      display: none;
     }
   }
 }
