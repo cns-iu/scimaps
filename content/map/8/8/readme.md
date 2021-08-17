@@ -41,7 +41,7 @@ en:
 
       Jacomy, Mathieu, Sebastien Heymann, Tommaso Venturini, and Mathieu
       Bastian. 2011. [“ForceAtlas2, a Graph Layout Algorithm for Handy Network
-      Visualization.”](http://webatlas.fr/tempshare/ForceAtlas2_Paper.pdf)
+      Visualization.”](https://raw.githubusercontent.com/decamp/thicket/master/docs/publications/ForceAtlas2_Paper.pdf)
       WebAtlas. Last modified August 29.
 
 
@@ -81,15 +81,25 @@ es:
   references:
     - >-
       Richardson, Matthew, Judith Kamalski, Sarah Huggett, and Andrew Plume.
-      2012. The Fundamental Interconnectedness of All Things. Courtesy of
-      Elsevier Ltd. In “8th Iteration (2012): Science Maps for Kids,” Places &
-      Spaces: Mapping Science, edited by Katy Börner and Michael J. Stamper.
-      http://scimaps.org. Gephi. 2012. Accessed August 13. https://gephi.org/.
+      2012. _The Fundamental Interconnectedness of All Things_. Courtesy of
+      Elsevier Ltd. In “8th Iteration (2012): Science Maps for Kids,” _Places &
+      Spaces: Mapping Science_, edited by Katy Börner and Michael J. Stamper.
+      [http://scimaps.org](http://scimaps.org)
+
+
+      Gephi. 2012. Accessed August 13. [https://gephi.org/](https://gephi.org/)
+
+
       Jacomy, Mathieu, Sebastien Heymann, Tommaso Venturini, and Mathieu
-      Bastian. 2011. “ForceAtlas2, a Graph Layout Algorithm for Handy Network
-      Visualization.” WebAtlas. Last modified August 29. Richardson, Matthew.
-      2012. “Citography: The Visualization of Nineteen Thousand Journals through
-      Their Recent Citations.” Research Trends 26 (January).
+      Bastian. 2011. [“ForceAtlas2, a Graph Layout Algorithm for Handy Network
+      Visualization.”](https://raw.githubusercontent.com/decamp/thicket/master/docs/publications/ForceAtlas2_Paper.pdf)
+      WebAtlas. Last modified August 29.
+
+
+      Richardson, Matthew. 2012. [“Citography: The Visualization of Nineteen
+      Thousand Journals through Their Recent
+      Citations.”](http://www.researchtrends.com/issue26-january-2012/citography-the-visualization-of-nineteen-thousand-journals-through-their-recent-citations/)
+      _Research Trends_ 26 (January).
   creditLine: >-
     Mabel Basterrechea, Ph.D., Department of Modern Languages and Literatures,
     College of Arts and Sciences, University of Miami.
@@ -104,15 +114,25 @@ zh:
   references:
     - >-
       Richardson, Matthew, Judith Kamalski, Sarah Huggett, and Andrew Plume.
-      2012. The Fundamental Interconnectedness of All Things. Courtesy of
-      Elsevier Ltd. In “8th Iteration (2012): Science Maps for Kids,” Places &
-      Spaces: Mapping Science, edited by Katy Börner and Michael J. Stamper.
-      http://scimaps.org. Gephi. 2012. Accessed August 13. https://gephi.org/.
+      2012. _The Fundamental Interconnectedness of All Things_. Courtesy of
+      Elsevier Ltd. In “8th Iteration (2012): Science Maps for Kids,” _Places &
+      Spaces: Mapping Science_, edited by Katy Börner and Michael J. Stamper.
+      [http://scimaps.org](http://scimaps.org)
+
+
+      Gephi. 2012. Accessed August 13. [https://gephi.org/](https://gephi.org/)
+
+
       Jacomy, Mathieu, Sebastien Heymann, Tommaso Venturini, and Mathieu
-      Bastian. 2011. “ForceAtlas2, a Graph Layout Algorithm for Handy Network
-      Visualization.” WebAtlas. Last modified August 29. Richardson, Matthew.
-      2012. “Citography: The Visualization of Nineteen Thousand Journals through
-      Their Recent Citations.” Research Trends 26 (January).
+      Bastian. 2011. [“ForceAtlas2, a Graph Layout Algorithm for Handy Network
+      Visualization.”](https://raw.githubusercontent.com/decamp/thicket/master/docs/publications/ForceAtlas2_Paper.pdf)
+      WebAtlas. Last modified August 29.
+
+
+      Richardson, Matthew. 2012. [“Citography: The Visualization of Nineteen
+      Thousand Journals through Their Recent
+      Citations.”](http://www.researchtrends.com/issue26-january-2012/citography-the-visualization-of-nineteen-thousand-journals-through-their-recent-citations/)
+      _Research Trends_ 26 (January).
   creditLine: 'Yunwei Chen, Chinese Academy of Sciences.'
 de:
   title: 'Die grundlegende Vernetzung aller Dinge '
@@ -140,15 +160,25 @@ de:
   references:
     - >-
       Richardson, Matthew, Judith Kamalski, Sarah Huggett, and Andrew Plume.
-      2012. The Fundamental Interconnectedness of All Things. Courtesy of
-      Elsevier Ltd. In “8th Iteration (2012): Science Maps for Kids,” Places &
-      Spaces: Mapping Science, edited by Katy Börner and Michael J. Stamper.
-      http://scimaps.org. Gephi. 2012. Accessed August 13. https://gephi.org/.
+      2012. _The Fundamental Interconnectedness of All Things_. Courtesy of
+      Elsevier Ltd. In “8th Iteration (2012): Science Maps for Kids,” _Places &
+      Spaces: Mapping Science_, edited by Katy Börner and Michael J. Stamper.
+      [http://scimaps.org](http://scimaps.org)
+
+
+      Gephi. 2012. Accessed August 13. [https://gephi.org/](https://gephi.org/)
+
+
       Jacomy, Mathieu, Sebastien Heymann, Tommaso Venturini, and Mathieu
-      Bastian. 2011. “ForceAtlas2, a Graph Layout Algorithm for Handy Network
-      Visualization.” WebAtlas. Last modified August 29. Richardson, Matthew.
-      2012. “Citography: The Visualization of Nineteen Thousand Journals through
-      Their Recent Citations.” Research Trends 26 (January).
+      Bastian. 2011. [“ForceAtlas2, a Graph Layout Algorithm for Handy Network
+      Visualization.”](https://raw.githubusercontent.com/decamp/thicket/master/docs/publications/ForceAtlas2_Paper.pdf)
+      WebAtlas. Last modified August 29.
+
+
+      Richardson, Matthew. 2012. [“Citography: The Visualization of Nineteen
+      Thousand Journals through Their Recent
+      Citations.”](http://www.researchtrends.com/issue26-january-2012/citography-the-visualization-of-nineteen-thousand-journals-through-their-recent-citations/)
+      _Research Trends_ 26 (January).
   creditLine: Markus Wagner
 pl:
   title: 'Fundamentalna współzależność wszystkich rzeczy  '
@@ -171,14 +201,24 @@ pl:
   references:
     - >-
       Richardson, Matthew, Judith Kamalski, Sarah Huggett, and Andrew Plume.
-      2012. The Fundamental Interconnectedness of All Things. Courtesy of
-      Elsevier Ltd. In “8th Iteration (2012): Science Maps for Kids,” Places &
-      Spaces: Mapping Science, edited by Katy Börner and Michael J. Stamper.
-      http://scimaps.org. Gephi. 2012. Accessed August 13. https://gephi.org/.
+      2012. _The Fundamental Interconnectedness of All Things_. Courtesy of
+      Elsevier Ltd. In “8th Iteration (2012): Science Maps for Kids,” _Places &
+      Spaces: Mapping Science_, edited by Katy Börner and Michael J. Stamper.
+      [http://scimaps.org](http://scimaps.org)
+
+
+      Gephi. 2012. Accessed August 13. [https://gephi.org/](https://gephi.org/)
+
+
       Jacomy, Mathieu, Sebastien Heymann, Tommaso Venturini, and Mathieu
-      Bastian. 2011. “ForceAtlas2, a Graph Layout Algorithm for Handy Network
-      Visualization.” WebAtlas. Last modified August 29. Richardson, Matthew.
-      2012. “Citography: The Visualization of Nineteen Thousand Journals through
-      Their Recent Citations.” Research Trends 26 (January).
+      Bastian. 2011. [“ForceAtlas2, a Graph Layout Algorithm for Handy Network
+      Visualization.”](https://raw.githubusercontent.com/decamp/thicket/master/docs/publications/ForceAtlas2_Paper.pdf)
+      WebAtlas. Last modified August 29.
+
+
+      Richardson, Matthew. 2012. [“Citography: The Visualization of Nineteen
+      Thousand Journals through Their Recent
+      Citations.”](http://www.researchtrends.com/issue26-january-2012/citography-the-visualization-of-nineteen-thousand-journals-through-their-recent-citations/)
+      _Research Trends_ 26 (January).
   creditLine: Veslava Osinska
 ---

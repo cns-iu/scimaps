@@ -78,13 +78,24 @@ es:
     http://softwarestudies.com.
   references:
     - >-
-      Manovich, Lev, and Jay Chow. 2012. Manga Universe. Courtesy of Software
+      Manovich, Lev. 2012. "How to Compare One Million Images." In
+      _Understanding Digital Humanities_, edited by David M. Berry. Basingstoke,
+      UK: Palgrave Macmillan.
+
+
+      Manovich, Lev, and Jay Chow. 2012. _Manga Universe_. Courtesy of Software
       Studies Initiative, UCSD. In “8th Iteration (2012): Science Maps for
-      Kids,” Places & Spaces: Mapping Science, edited by Katy Börner and Michael
-      J. Stamper. http://scimaps.org. One Manga. 2012. Accessed August 13.
-      http://www.onemanga.com. Manovich, Lev, and Jeremy Douglass. 2010. Manga
-      Style Space. Flickr. Last modified October 23.
-      http://www.flickr.com/photos/culturevis/5109394222/
+      Kids,” _Places & Spaces: Mapping Science_, edited by Katy Börner and
+      Michael J. Stamper. [http://scimaps.org](http://scimaps.org)
+
+
+      Manovich, Lev, and Jeremy Douglass. 2010. _Manga Style Space_. Flickr.
+      Last modified October 23.
+      [http://www.flickr.com/photos/culturevis/5109394222/](http://www.flickr.com/photos/culturevis/5109394222/)
+
+
+      One Manga. 2012. Accessed August 13.
+      [http://www.onemanga.com](http://www.onemanga.com)
   creditLine: >-
     Mabel Basterrechea, Ph.D., Department of Modern Languages and Literatures,
     College of Arts and Sciences, University of Miami.
@@ -113,13 +124,24 @@ de:
     besuchen Sie http://softwarestudies.com.
   references:
     - >-
-      Manovich, Lev, and Jay Chow. 2012. Manga Universe. Courtesy of Software
+      Manovich, Lev. 2012. "How to Compare One Million Images." In
+      _Understanding Digital Humanities_, edited by David M. Berry. Basingstoke,
+      UK: Palgrave Macmillan.
+
+
+      Manovich, Lev, and Jay Chow. 2012. _Manga Universe_. Courtesy of Software
       Studies Initiative, UCSD. In “8th Iteration (2012): Science Maps for
-      Kids,” Places & Spaces: Mapping Science, edited by Katy Börner and Michael
-      J. Stamper. http://scimaps.org. One Manga. 2012. Accessed August 13.
-      http://www.onemanga.com. Manovich, Lev, and Jeremy Douglass. 2010. Manga
-      Style Space. Flickr. Last modified October 23.
-      http://www.flickr.com/photos/culturevis/5109394222/
+      Kids,” _Places & Spaces: Mapping Science_, edited by Katy Börner and
+      Michael J. Stamper. [http://scimaps.org](http://scimaps.org)
+
+
+      Manovich, Lev, and Jeremy Douglass. 2010. _Manga Style Space_. Flickr.
+      Last modified October 23.
+      [http://www.flickr.com/photos/culturevis/5109394222/](http://www.flickr.com/photos/culturevis/5109394222/)
+
+
+      One Manga. 2012. Accessed August 13.
+      [http://www.onemanga.com](http://www.onemanga.com)
   creditLine: Markus Wagner
 zh:
   title: 创作的漫画宇宙图谱
@@ -157,12 +179,23 @@ pl:
     będzie jeśli twoje prace znajdą się w obszarze najmniej eksplorowanym.
   references:
     - >-
-      Manovich, Lev, and Jay Chow. 2012. Manga Universe. Courtesy of Software
+      Manovich, Lev. 2012. "How to Compare One Million Images." In
+      _Understanding Digital Humanities_, edited by David M. Berry. Basingstoke,
+      UK: Palgrave Macmillan.
+
+
+      Manovich, Lev, and Jay Chow. 2012. _Manga Universe_. Courtesy of Software
       Studies Initiative, UCSD. In “8th Iteration (2012): Science Maps for
-      Kids,” Places & Spaces: Mapping Science, edited by Katy Börner and Michael
-      J. Stamper. http://scimaps.org. One Manga. 2012. Accessed August 13.
-      http://www.onemanga.com. Manovich, Lev, and Jeremy Douglass. 2010. Manga
-      Style Space. Flickr. Last modified October 23.
-      http://www.flickr.com/photos/culturevis/5109394222/
+      Kids,” _Places & Spaces: Mapping Science_, edited by Katy Börner and
+      Michael J. Stamper. [http://scimaps.org](http://scimaps.org)
+
+
+      Manovich, Lev, and Jeremy Douglass. 2010. _Manga Style Space_. Flickr.
+      Last modified October 23.
+      [http://www.flickr.com/photos/culturevis/5109394222/](http://www.flickr.com/photos/culturevis/5109394222/)
+
+
+      One Manga. 2012. Accessed August 13.
+      [http://www.onemanga.com](http://www.onemanga.com)
   creditLine: Veslava Osinska
 ---

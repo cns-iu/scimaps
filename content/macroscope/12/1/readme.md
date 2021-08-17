@@ -40,17 +40,17 @@ en:
       Aletta. 2016. “Chatty Maps: Constructing Sound Maps of Urban Areas from
       Social Media Data.” _Royal Society Open Science_ 3: 150690. Accessed
       November 28, 2016.
-      [http://dx.doi.org/10.1098/rsos.150690](http://dx.doi.org/10.1098/rsos.150690).
+      [https://dx.doi.org/10.1098/rsos.150690](https://dx.doi.org/10.1098/rsos.150690).
 
         
 
       Good City Life. 2016. “Chatty Maps.” Accessed November 28, 2016.
-      [http://goodcitylife.org/chattymaps/project.html](http://goodcitylife.org/chattymaps/project.html).
+      [https://goodcitylife.org/chattymaps/project.html](https://goodcitylife.org/chattymaps/project.html).
 
         
 
       Good City Life. 2016. “Happy Maps.” Accessed November 28, 2016.
-      [http://goodcitylife.org/happymaps/index.html](http://goodcitylife.org/happymaps/index.html).
+      [https://goodcitylife.org/happymaps/](https://goodcitylife.org/happymaps/).
 
         
 

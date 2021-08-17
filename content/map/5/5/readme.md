@@ -25,7 +25,7 @@ en:
   references:
     - >-
       Bachman, Jess. 2011. _Death and Taxes: 2011_. Accessed August 29, 2011.
-      [http://www.wallstats.com/deathandtaxes/](http://www.wallstats.com/deathandtaxes/).
+      ![http://www.wallstats.com/deathandtaxes/](http://www.wallstats.com/deathandtaxes/).
 
 
       Bachman, Jess. 2009. _Death and Taxes 2009_. Courtesy of
@@ -63,7 +63,7 @@ es:
   references:
     - >-
       Bachman, Jess. 2011. _Death and Taxes: 2011_. Accessed August 29, 2011.
-      [http://www.wallstats.com/deathandtaxes/](http://www.wallstats.com/deathandtaxes/).
+      ![http://www.wallstats.com/deathandtaxes/](http://www.wallstats.com/deathandtaxes/).
 
 
       Bachman, Jess. 2009. _Death and Taxes 2009_. Courtesy of
@@ -82,7 +82,7 @@ zh:
   references:
     - >-
       Bachman, Jess. 2011. _Death and Taxes: 2011_. Accessed August 29, 2011.
-      [http://www.wallstats.com/deathandtaxes/](http://www.wallstats.com/deathandtaxes/).
+      ![http://www.wallstats.com/deathandtaxes/](http://www.wallstats.com/deathandtaxes/).
 
 
       Bachman, Jess. 2009. _Death and Taxes 2009_. Courtesy of
@@ -116,7 +116,7 @@ de:
   references:
     - >-
       Bachman, Jess. 2011. _Death and Taxes: 2011_. Accessed August 29, 2011.
-      [http://www.wallstats.com/deathandtaxes/](http://www.wallstats.com/deathandtaxes/).
+      ![http://www.wallstats.com/deathandtaxes/](http://www.wallstats.com/deathandtaxes/).
 
 
       Bachman, Jess. 2009. _Death and Taxes 2009_. Courtesy of

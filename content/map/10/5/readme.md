@@ -13,7 +13,7 @@ en:
     how they get distributed. Drawing information from over 200 separate
     sources, citations for which are available on the _xkcd_ website, this map
     uses color-coded boxes to illustrate possession and expenditure, with
-    examples ranging from the the annual cost of fish ownership to the the cost
+    examples ranging from the annual cost of fish ownership to the cost
     of one B-2 bomber. As is characteristic, the work is laced with humor: for
     instance, a cluster of blocks denoting the actual cost of one F-22 raptor—a
     stealth, supersonic fighter aircraft priced at $154 million—is followed by

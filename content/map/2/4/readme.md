@@ -34,7 +34,7 @@ en:
 
       Robinson, Leif J. 2010. Sky & Telescope. “A Brief History of Sky and
       Telescope.” Accessed February 12, 2010.
-      [http://www.skyandtelescope.com/about/generalinfo/3305301.html](http://www.skyandtelescope.com/about/generalinfo/3305301.html).
+      [https://skyandtelescope.org/about/](https://skyandtelescope.org/about/).
 
 
       Sinnott, Roger W. and The Interactive Factory. 2006. _Sky Chart of New

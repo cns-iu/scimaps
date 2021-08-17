@@ -21,7 +21,7 @@ en:
     made. For instance, one finds clusters of poems and gaps in the timeline and
     concentrations of poems in Italy, Greece, and the Holy Land. A dynamic map
     and timeline are at
-    [http://purl.oclc.org/swinburnearchive/acsvis](http://purl.oclc.org/swinburnearchive/acsvis).
+    ![http://purl.oclc.org/swinburnearchive/acsvis](http://purl.oclc.org/swinburnearchive/acsvis).
   makers:
     - bradford-demarest/readme
     - jonathan-tweedy/readme
@@ -76,7 +76,7 @@ es:
     ejemplo, uno puede encontrar acumulaciones de poemas y luego rupturas en la
     línea de tiempo así como grupos de poemas relacionados con Italia, Grecia y
     la Tierra Santa. Un mapa dinámico y la línea de tiempo están disponibles en
-    http://purl.oclc.org/swinburnearchive/acsvis.
+    ![http://purl.oclc.org/swinburnearchive/acsvis](http://purl.oclc.org/swinburnearchive/acsvis).
   references:
     - >-
       Quin, Edward. 1830. A.D. 337. _At The Death of Constantine_. London,
@@ -105,7 +105,7 @@ zh:
     文学帝国地图由信息科学家A. Walsh，研究生Devin Becker, Bradford Demarest, Jonathan Tweedy,
     Theodora Michaelidou和图形设计师Laura Pence制作。地图基于维多利亚时代诗人Robert Browning
     和Algernon Charles
-    Swinburne的小样本诗歌。如地图所示，文学作品通常都有可辨认的时间和空间特性。如很多维多利亚时代的人被古希腊和中世纪欧洲所吸引，并且维多利亚时代的作家提供了对古代和中世纪世界的多维展示。在任一时代的所有作品中，或者在特定作者或者内容集合中，有多少具有古代、中世纪、圣经的或者现代的背景？数据能回答这些问题并且触发对于文学历史的新见解。此地图展示了跨越时间和空间的文学环境的分布，以及共享共同环境的作品网络。可能会产生一些有趣的见解，如有人发现意大利、希腊和圣地的诗歌集合和时间轴上的间隙以及诗歌的集中度。更多动态地图以及时间轴信息，可访问http://purl.oclc.org/swinburnearchive/acsvis.
+    Swinburne的小样本诗歌。如地图所示，文学作品通常都有可辨认的时间和空间特性。如很多维多利亚时代的人被古希腊和中世纪欧洲所吸引，并且维多利亚时代的作家提供了对古代和中世纪世界的多维展示。在任一时代的所有作品中，或者在特定作者或者内容集合中，有多少具有古代、中世纪、圣经的或者现代的背景？数据能回答这些问题并且触发对于文学历史的新见解。此地图展示了跨越时间和空间的文学环境的分布，以及共享共同环境的作品网络。可能会产生一些有趣的见解，如有人发现意大利、希腊和圣地的诗歌集合和时间轴上的间隙以及诗歌的集中度。更多动态地图以及时间轴信息，可访问![http://purl.oclc.org/swinburnearchive/acsvis](http://purl.oclc.org/swinburnearchive/acsvis).
   references:
     - >-
       Quin, Edward. 1830. A.D. 337. _At The Death of Constantine_. London,
@@ -152,7 +152,7 @@ de:
     Beispiel lassen sich Häufungen von Gedichten und Lücken im Zeitstrahl sowie
     Konzentrationen von Gedichten, die in Italien, Griechenland und im Heiligen
     Land spielen, finden. Eine dynamische Karte und ein dynamischer Zeitstrahl
-    sind auf http://purl.oclc.org/swinburnearchive/acsvis zu finden.
+    sind auf ![http://purl.oclc.org/swinburnearchive/acsvis](http://purl.oclc.org/swinburnearchive/acsvis) zu finden.
   references:
     - >-
       Quin, Edward. 1830. A.D. 337. _At The Death of Constantine_. London,

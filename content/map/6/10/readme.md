@@ -22,7 +22,7 @@ en:
     or science area, a list of relevant jobs is shown. Clicking on a job title
     brings up detailed information about how to apply for the job. To explore
     the landscape of jobs in science and technology, visit
-    [http://mapjobs.cns.iu.edu](http://mapjobs.cns.iu.edu).
+    ![http://mapjobs.cns.iu.edu](http://mapjobs.cns.iu.edu).
   makers:
     - angela-zoss/readme
     - katy-borner/readme
@@ -72,7 +72,7 @@ es:
     la ciencia, se muestra una lista de puestos de trabajos relevantes. Al
     presionar en el título de un trabajo aparece una información detallada sobre
     cómo postular al trabajo. Para explorar lals ofertas en ciencia y
-    tecnología, visite http://mapjobs.cns.iu.edu.
+    tecnología, visite ![http://mapjobs.cns.iu.edu](http://mapjobs.cns.iu.edu).
   references:
     - >-
       Zoss, Angela, Michael D. Conover, and Katy Börner. 2010. “Where Are the
@@ -95,7 +95,7 @@ zh:
   body: >-
     根据美国劳工统计局的统计，美国2009年9月的失业率从当年8月的9.7%上升到了9.8%。学术界、产业界和政府都受到了影响。许多大学裁员、减薪幅度高达20%，或者停止招聘。2009年毕业的学生以及希望继续学习的博士后都将面临工作减少所带来的残酷的竞争。了解就业市场对于职业选择和科学政策制定两者来说都是非常重要的。这一由信息科学家Angela
     M. Zoss和Katy
-    Börner构建的地图旨在捕捉就业市场的整体趋势以及现有的工作岗位。时间轴展示了国家健康运作时降低的负指标（红色）和国家健康运作时上升的正指标（绿色）。左图根据地理位置展示了工作，右图基于科学学科给出了特定的工作信息。在线版本还支持旋转和放大功能，同时地区标签也会随着放大程度的不同来对两张地图进行相应的调整。当用户选择了一个地理位置或者科学领域时，一系列相关的工作将会显示出来。点击一个工作名称将出现关于如何申请工作的详细信息。探索科学和技术领域的工作，请访问http://mapjobs.cns.iu.edu。
+    Börner构建的地图旨在捕捉就业市场的整体趋势以及现有的工作岗位。时间轴展示了国家健康运作时降低的负指标（红色）和国家健康运作时上升的正指标（绿色）。左图根据地理位置展示了工作，右图基于科学学科给出了特定的工作信息。在线版本还支持旋转和放大功能，同时地区标签也会随着放大程度的不同来对两张地图进行相应的调整。当用户选择了一个地理位置或者科学领域时，一系列相关的工作将会显示出来。点击一个工作名称将出现关于如何申请工作的详细信息。探索科学和技术领域的工作，请访问![http://mapjobs.cns.iu.edu](http://mapjobs.cns.iu.edu).
   references:
     - >-
       Zoss, Angela, Michael D. Conover, and Katy Börner. 2010. “Where Are the
@@ -138,7 +138,7 @@ de:
     Arbeitsplatzes werden detaillierte Informationen darüber, wie man sich
     darauf bewerben kann, angezeigt. Um die Landschaft der Arbeitsplätze in
     Wissenschaft und Technologie zu erkunden, besuchen Sie bitte:
-    http://mapjobs.cns.iu.edu.
+    ![http://mapjobs.cns.iu.edu](http://mapjobs.cns.iu.edu).
   references:
     - >-
       Zoss, Angela, Michael D. Conover, and Katy Börner. 2010. “Where Are the

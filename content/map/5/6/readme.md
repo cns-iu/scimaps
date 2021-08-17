@@ -33,7 +33,7 @@ en:
       Foundation. Phase I. 2001. “Measuring Up: Research and Development Counts
       for the Chemical Industry.” Washington: Council for Chemical Research.
       Accessed August 31, 2011.
-      [http://www.ccrhq.org/publications](http://www.ccrhq.org/publications).  
+      [http://ccrhq.org/sites/default/files/community/308611/aiche-community-site-page/308751/phase1study12112012.pdf](http://ccrhq.org/sites/default/files/community/308611/aiche-community-site-page/308751/phase1study12112012.pdf).  
         
       Council for Chemical Research. Phase II. 2005. “Measure for Measure:
       Chemical R&D Powers the U.S. Innovation Engine.” Washington: Council for
@@ -85,7 +85,7 @@ es:
       Foundation. Phase I. 2001. “Measuring Up: Research and Development Counts
       for the Chemical Industry.” Washington: Council for Chemical Research.
       Accessed August 31, 2011.
-      [http://www.ccrhq.org/publications](http://www.ccrhq.org/publications).  
+      [http://ccrhq.org/sites/default/files/community/308611/aiche-community-site-page/308751/phase1study12112012.pdf](http://ccrhq.org/sites/default/files/community/308611/aiche-community-site-page/308751/phase1study12112012.pdf).  
         
       Council for Chemical Research. Phase II. 2005. “Measure for Measure:
       Chemical R&D Powers the U.S. Innovation Engine.” Washington: Council for
@@ -111,7 +111,7 @@ zh:
       Foundation. Phase I. 2001. “Measuring Up: Research and Development Counts
       for the Chemical Industry.” Washington: Council for Chemical Research.
       Accessed August 31, 2011.
-      [http://www.ccrhq.org/publications](http://www.ccrhq.org/publications).  
+      [http://ccrhq.org/sites/default/files/community/308611/aiche-community-site-page/308751/phase1study12112012.pdf](http://ccrhq.org/sites/default/files/community/308611/aiche-community-site-page/308751/phase1study12112012.pdf). 
         
       Council for Chemical Research. Phase II. 2005. “Measure for Measure:
       Chemical R&D Powers the U.S. Innovation Engine.” Washington: Council for
@@ -161,7 +161,7 @@ de:
       Foundation. Phase I. 2001. “Measuring Up: Research and Development Counts
       for the Chemical Industry.” Washington: Council for Chemical Research.
       Accessed August 31, 2011.
-      [http://www.ccrhq.org/publications](http://www.ccrhq.org/publications).  
+      [http://ccrhq.org/sites/default/files/community/308611/aiche-community-site-page/308751/phase1study12112012.pdf](http://ccrhq.org/sites/default/files/community/308611/aiche-community-site-page/308751/phase1study12112012.pdf). 
         
       Council for Chemical Research. Phase II. 2005. “Measure for Measure:
       Chemical R&D Powers the U.S. Innovation Engine.” Washington: Council for

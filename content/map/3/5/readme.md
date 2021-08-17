@@ -32,7 +32,7 @@ en:
       Pang, Alex Soojung-Kim. 2006. “First Press on the Delta Scan.” _IIFTF’s
       Future Now: Emerging Technologies and their Implications for the Future_.
       Accessed on March 16, 2010.
-      [http://future.iftf.org/2006/12/first\_press\_on\_.html](http://future.iftf.org/2006/12/first_press_on_.html).
+      ![http://future.iftf.org/2006/12/first\_press\_on\_.html](http://future.iftf.org/2006/12/first\_press\_on\_.html).
 
 
       Pang, Alex Soojung-Kim, David Pescovitz, Marina Gorbis, and Jean Hagan.
@@ -74,7 +74,7 @@ es:
       Pang, Alex Soojung-Kim. 2006. “First Press on the Delta Scan.” _IIFTF’s
       Future Now: Emerging Technologies and their Implications for the Future_.
       Accessed on March 16, 2010.
-      [http://future.iftf.org/2006/12/first\_press\_on\_.html](http://future.iftf.org/2006/12/first_press_on_.html).
+      ![http://future.iftf.org/2006/12/first\_press\_on\_.html](http://future.iftf.org/2006/12/first\_press\_on\_.html).
 
 
       Pang, Alex Soojung-Kim, David Pescovitz, Marina Gorbis, and Jean Hagan.
@@ -113,7 +113,7 @@ de:
       Pang, Alex Soojung-Kim. 2006. “First Press on the Delta Scan.” _IIFTF’s
       Future Now: Emerging Technologies and their Implications for the Future_.
       Accessed on March 16, 2010.
-      [http://future.iftf.org/2006/12/first\_press\_on\_.html](http://future.iftf.org/2006/12/first_press_on_.html).
+      ![http://future.iftf.org/2006/12/first\_press\_on\_.html](http://future.iftf.org/2006/12/first\_press\_on\_.html).
 
 
       Pang, Alex Soojung-Kim, David Pescovitz, Marina Gorbis, and Jean Hagan.
@@ -133,7 +133,7 @@ zh:
       Pang, Alex Soojung-Kim. 2006. “First Press on the Delta Scan.” _IIFTF’s
       Future Now: Emerging Technologies and their Implications for the Future_.
       Accessed on March 16, 2010.
-      [http://future.iftf.org/2006/12/first\_press\_on\_.html](http://future.iftf.org/2006/12/first_press_on_.html).
+      ![http://future.iftf.org/2006/12/first\_press\_on\_.html](http://future.iftf.org/2006/12/first\_press\_on\_.html).
 
 
       Pang, Alex Soojung-Kim, David Pescovitz, Marina Gorbis, and Jean Hagan.
