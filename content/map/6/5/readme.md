@@ -35,7 +35,7 @@ en:
       Yavuz, Mahir. 2009. _Information Aesthetics_. “Mapping the Archive: 30
       Years of Ars Electronica Visualized in Huge Scale.” Accessed September 21,
       2011.
-      [http://infosthetics.com/](http://infosthetics.com/archives/2009/09/mapping_the_archive_30_years_of_ars_electronica.html).
+      ![http://infosthetics.com/](http://infosthetics.com/archives/2009/09/mapping_the_archive_30_years_of_ars_electronica.html).
 
 
       Offenhuber, Dietmar. 2009. _Prix Arts Electronica: Mapping the Archive_.
@@ -84,8 +84,7 @@ es:
       Yavuz, Mahir. 2009. _Information Aesthetics_. “Mapping the Archive: 30
       Years of Ars Electronica Visualized in Huge Scale.” Accessed September 21,
       2011.
-      [http://infosthetics.com/](http://infosthetics.com/archives/2009/09/mapping_the_archive_30_years_of_ars_electronica.html).
-
+      ![http://infosthetics.com/](http://infosthetics.com/archives/2009/09/mapping_the_archive_30_years_of_ars_electronica.html).
 
       Offenhuber, Dietmar. 2009. _Prix Arts Electronica: Mapping the Archive_.
       Accessed August 29, 2011.
@@ -114,7 +113,7 @@ zh:
       Yavuz, Mahir. 2009. _Information Aesthetics_. “Mapping the Archive: 30
       Years of Ars Electronica Visualized in Huge Scale.” Accessed September 21,
       2011.
-      [http://infosthetics.com/](http://infosthetics.com/archives/2009/09/mapping_the_archive_30_years_of_ars_electronica.html).
+      ![http://infosthetics.com/](http://infosthetics.com/archives/2009/09/mapping_the_archive_30_years_of_ars_electronica.html).
 
 
       Offenhuber, Dietmar. 2009. _Prix Arts Electronica: Mapping the Archive_.
@@ -159,7 +158,7 @@ de:
       Yavuz, Mahir. 2009. _Information Aesthetics_. “Mapping the Archive: 30
       Years of Ars Electronica Visualized in Huge Scale.” Accessed September 21,
       2011.
-      [http://infosthetics.com/](http://infosthetics.com/archives/2009/09/mapping_the_archive_30_years_of_ars_electronica.html).
+      ![http://infosthetics.com/](http://infosthetics.com/archives/2009/09/mapping_the_archive_30_years_of_ars_electronica.html).
 
 
       Offenhuber, Dietmar. 2009. _Prix Arts Electronica: Mapping the Archive_.

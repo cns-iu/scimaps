@@ -68,7 +68,7 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
     tiles: content/tiles/it-07-01/
-  externalLink: 'https://scimaps.org/maps/map/mondoth%C3%83%C2%A8que_multimed_123/detail'
+  externalLink: 'https://scimaps.org/maps/map/mondothèque_multimed_123/detail'
 es:
   title: 'Mundoteca: Escritorio multimedia en un internet global'
   body: >-

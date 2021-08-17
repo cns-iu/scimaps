@@ -93,19 +93,37 @@ es:
     http://k-web.org.
   references:
     - >-
-      Burke, James, Patrick McKercher, and Michael J. Stamper. 2012. Knowledge
-      Web. Courtesy of the James Burke Institute. In “8th Iteration (2012):
-      Science Maps for Kids,” Places & Spaces: Mapping Science, edited by Katy
-      Börner and Michael J. Stamper. http://scimaps.org. Burke, James. 1996. The
-      Pinball Effect: How Renaissance Water Gardens Made the Carburetor
-      Possible—and Other Journeys Through Knowledge. New York: Little, Brown &
-      Company. Burke, James. 1999. The Knowledge Web: From Electronic Agents to
-      Stonehenge and Back—and Other Journeys Through Knowledge. New York: Simon
-      & Schuster. Burke, James. 2000. Circles—Fifty Round Trips Through History
-      Technology Science Culture. New York: Simon & Schuster. Burke, James.
-      2003. Twin Tracks: The Unexpected Origins of the Modern World. New York:
-      Simon & Schuster. Burke, James. 2007. American Connections: The Founding
-      Fathers. Networked. New York: Simon & Schuster.
+      Burke, James, Patrick McKercher, and Michael J. Stamper. 2012. _Knowledge
+      Web_. Courtesy of the James Burke Institute. In “8th Iteration (2012):
+      Science Maps for Kids,” _Places & Spaces: Mapping Science_, edited by Katy
+      Börner and Michael J. Stamper. [http://scimaps.org](http://scimaps.org)
+
+
+      Burke, James. 1996. _The Pinball Effect: How Renaissance Water Gardens
+      Made the Carburetor Possible—and Other Journeys Through Knowledge_. New
+      York: Little, Brown & Company.
+
+
+      Burke, James. 1999. _The Knowledge Web: From Electronic Agents to
+      Stonehenge and Back—and Other Journeys Through Knowledge_. New York: Simon
+      & Schuster.
+
+
+      Burke, James. 2000. _Circles—Fifty Round Trips Through History Technology
+      Science Culture_. New York: Simon & Schuster.
+
+
+      Burke, James. 2003. _Twin Tracks: The Unexpected Origins of the Modern
+      World_. New York: Simon & Schuster.
+
+
+      Burke, James. 2007. _American Connections: The Founding Fathers.
+      Networked_. New York: Simon & Schuster.
+
+
+      Explore making alternative pathways available to kids, e.g.,
+      [http://webbrain.com/brainpage/brain/5B0EF6C2-FE59-EF73-F498-60A30832AB32;jsessionid=85E689F531729B4B4928BC54B8309106](http://webbrain.com/brainpage/brain/5B0EF6C2-FE59-EF73-F498-60A30832AB32;jsessionid=85E689F531729B4B4928BC54B8309106)
+      via the online web site or map description.
   creditLine: >-
     Mabel Basterrechea, Ph.D., Department of Modern Languages and Literatures,
     College of Arts and Sciences, University of Miami.
@@ -117,19 +135,37 @@ zh:
     Stamper构造了一个小型但是非常重要的知识网（K-Web）。K-Web是目前用于五十多个国家的高中和大学的关于创新历史的Burke的获奖著作和电视剧的数字化身。这是一个强大的、交互的且直观的实践探索机器——一个用更加系统的方法培养多元智能和复杂思考的学习和教学工具。使用K-Web，任何人都能理解情境知识、产生新观点，并探索宇宙数据以发现看似毫不相关的人、事和观点是如何通过时间和空间相联系的。它使学生用有吸引力的方式畅享人类知识，并跟随Burke独特的历史引导以及沉浸在拟真的历史交互环境中，比如，与伽利略对话、参与他的创造实验。K-Web促进根据学习者兴趣和能力进行调整的新型教育的形成。参与协作K-Web及其虚拟社区，请访问http://k-web.org。
   references:
     - >-
-      Burke, James, Patrick McKercher, and Michael J. Stamper. 2012. Knowledge
-      Web. Courtesy of the James Burke Institute. In “8th Iteration (2012):
-      Science Maps for Kids,” Places & Spaces: Mapping Science, edited by Katy
-      Börner and Michael J. Stamper. http://scimaps.org. Burke, James. 1996. The
-      Pinball Effect: How Renaissance Water Gardens Made the Carburetor
-      Possible—and Other Journeys Through Knowledge. New York: Little, Brown &
-      Company. Burke, James. 1999. The Knowledge Web: From Electronic Agents to
-      Stonehenge and Back—and Other Journeys Through Knowledge. New York: Simon
-      & Schuster. Burke, James. 2000. Circles—Fifty Round Trips Through History
-      Technology Science Culture. New York: Simon & Schuster. Burke, James.
-      2003. Twin Tracks: The Unexpected Origins of the Modern World. New York:
-      Simon & Schuster. Burke, James. 2007. American Connections: The Founding
-      Fathers. Networked. New York: Simon & Schuster.
+      Burke, James, Patrick McKercher, and Michael J. Stamper. 2012. _Knowledge
+      Web_. Courtesy of the James Burke Institute. In “8th Iteration (2012):
+      Science Maps for Kids,” _Places & Spaces: Mapping Science_, edited by Katy
+      Börner and Michael J. Stamper. [http://scimaps.org](http://scimaps.org)
+
+
+      Burke, James. 1996. _The Pinball Effect: How Renaissance Water Gardens
+      Made the Carburetor Possible—and Other Journeys Through Knowledge_. New
+      York: Little, Brown & Company.
+
+
+      Burke, James. 1999. _The Knowledge Web: From Electronic Agents to
+      Stonehenge and Back—and Other Journeys Through Knowledge_. New York: Simon
+      & Schuster.
+
+
+      Burke, James. 2000. _Circles—Fifty Round Trips Through History Technology
+      Science Culture_. New York: Simon & Schuster.
+
+
+      Burke, James. 2003. _Twin Tracks: The Unexpected Origins of the Modern
+      World_. New York: Simon & Schuster.
+
+
+      Burke, James. 2007. _American Connections: The Founding Fathers.
+      Networked_. New York: Simon & Schuster.
+
+
+      Explore making alternative pathways available to kids, e.g.,
+      [http://webbrain.com/brainpage/brain/5B0EF6C2-FE59-EF73-F498-60A30832AB32;jsessionid=85E689F531729B4B4928BC54B8309106](http://webbrain.com/brainpage/brain/5B0EF6C2-FE59-EF73-F498-60A30832AB32;jsessionid=85E689F531729B4B4928BC54B8309106)
+      via the online web site or map description.
   creditLine: 'Yunwei Chen, Chinese Academy of Sciences.'
 de:
   title: Knowledge Web
@@ -157,19 +193,37 @@ de:
     seinen virtuellen Gemeinschaften unter http://k-web.org.
   references:
     - >-
-      Burke, James, Patrick McKercher, and Michael J. Stamper. 2012. Knowledge
-      Web. Courtesy of the James Burke Institute. In “8th Iteration (2012):
-      Science Maps for Kids,” Places & Spaces: Mapping Science, edited by Katy
-      Börner and Michael J. Stamper. http://scimaps.org. Burke, James. 1996. The
-      Pinball Effect: How Renaissance Water Gardens Made the Carburetor
-      Possible—and Other Journeys Through Knowledge. New York: Little, Brown &
-      Company. Burke, James. 1999. The Knowledge Web: From Electronic Agents to
-      Stonehenge and Back—and Other Journeys Through Knowledge. New York: Simon
-      & Schuster. Burke, James. 2000. Circles—Fifty Round Trips Through History
-      Technology Science Culture. New York: Simon & Schuster. Burke, James.
-      2003. Twin Tracks: The Unexpected Origins of the Modern World. New York:
-      Simon & Schuster. Burke, James. 2007. American Connections: The Founding
-      Fathers. Networked. New York: Simon & Schuster.
+      Burke, James, Patrick McKercher, and Michael J. Stamper. 2012. _Knowledge
+      Web_. Courtesy of the James Burke Institute. In “8th Iteration (2012):
+      Science Maps for Kids,” _Places & Spaces: Mapping Science_, edited by Katy
+      Börner and Michael J. Stamper. [http://scimaps.org](http://scimaps.org)
+
+
+      Burke, James. 1996. _The Pinball Effect: How Renaissance Water Gardens
+      Made the Carburetor Possible—and Other Journeys Through Knowledge_. New
+      York: Little, Brown & Company.
+
+
+      Burke, James. 1999. _The Knowledge Web: From Electronic Agents to
+      Stonehenge and Back—and Other Journeys Through Knowledge_. New York: Simon
+      & Schuster.
+
+
+      Burke, James. 2000. _Circles—Fifty Round Trips Through History Technology
+      Science Culture_. New York: Simon & Schuster.
+
+
+      Burke, James. 2003. _Twin Tracks: The Unexpected Origins of the Modern
+      World_. New York: Simon & Schuster.
+
+
+      Burke, James. 2007. _American Connections: The Founding Fathers.
+      Networked_. New York: Simon & Schuster.
+
+
+      Explore making alternative pathways available to kids, e.g.,
+      [http://webbrain.com/brainpage/brain/5B0EF6C2-FE59-EF73-F498-60A30832AB32;jsessionid=85E689F531729B4B4928BC54B8309106](http://webbrain.com/brainpage/brain/5B0EF6C2-FE59-EF73-F498-60A30832AB32;jsessionid=85E689F531729B4B4928BC54B8309106)
+      via the online web site or map description.
   creditLine: Markus Wagner
 pl:
   title: Pajęczyna Wiedzy
@@ -193,18 +247,36 @@ pl:
     dostosowaną do możliwości i zainteresowań odwiedzających.
   references:
     - >-
-      Burke, James, Patrick McKercher, and Michael J. Stamper. 2012. Knowledge
-      Web. Courtesy of the James Burke Institute. In “8th Iteration (2012):
-      Science Maps for Kids,” Places & Spaces: Mapping Science, edited by Katy
-      Börner and Michael J. Stamper. http://scimaps.org. Burke, James. 1996. The
-      Pinball Effect: How Renaissance Water Gardens Made the Carburetor
-      Possible—and Other Journeys Through Knowledge. New York: Little, Brown &
-      Company. Burke, James. 1999. The Knowledge Web: From Electronic Agents to
-      Stonehenge and Back—and Other Journeys Through Knowledge. New York: Simon
-      & Schuster. Burke, James. 2000. Circles—Fifty Round Trips Through History
-      Technology Science Culture. New York: Simon & Schuster. Burke, James.
-      2003. Twin Tracks: The Unexpected Origins of the Modern World. New York:
-      Simon & Schuster. Burke, James. 2007. American Connections: The Founding
-      Fathers. Networked. New York: Simon & Schuster.
+      Burke, James, Patrick McKercher, and Michael J. Stamper. 2012. _Knowledge
+      Web_. Courtesy of the James Burke Institute. In “8th Iteration (2012):
+      Science Maps for Kids,” _Places & Spaces: Mapping Science_, edited by Katy
+      Börner and Michael J. Stamper. [http://scimaps.org](http://scimaps.org)
+
+
+      Burke, James. 1996. _The Pinball Effect: How Renaissance Water Gardens
+      Made the Carburetor Possible—and Other Journeys Through Knowledge_. New
+      York: Little, Brown & Company.
+
+
+      Burke, James. 1999. _The Knowledge Web: From Electronic Agents to
+      Stonehenge and Back—and Other Journeys Through Knowledge_. New York: Simon
+      & Schuster.
+
+
+      Burke, James. 2000. _Circles—Fifty Round Trips Through History Technology
+      Science Culture_. New York: Simon & Schuster.
+
+
+      Burke, James. 2003. _Twin Tracks: The Unexpected Origins of the Modern
+      World_. New York: Simon & Schuster.
+
+
+      Burke, James. 2007. _American Connections: The Founding Fathers.
+      Networked_. New York: Simon & Schuster.
+
+
+      Explore making alternative pathways available to kids, e.g.,
+      [http://webbrain.com/brainpage/brain/5B0EF6C2-FE59-EF73-F498-60A30832AB32;jsessionid=85E689F531729B4B4928BC54B8309106](http://webbrain.com/brainpage/brain/5B0EF6C2-FE59-EF73-F498-60A30832AB32;jsessionid=85E689F531729B4B4928BC54B8309106)
+      via the online web site or map description.
   creditLine: Veslava Osinska
 ---

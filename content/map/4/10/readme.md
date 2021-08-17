@@ -23,7 +23,7 @@ en:
     with health (.7), wealth (.6), and access to basic education (.6). This adds
     to the evidence that, from a global perspective, the biggest factors
     affecting SWB are poverty and associated variables. Learn more at
-    [http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse).
+    ![http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse).
   makers:
     - adrian-g-white/readme
     - the-national-geographic-society-earthpulse-team/readme
@@ -33,7 +33,7 @@ en:
       Marks, Nic, Saamah Abdallah, Andrew Simms, and Sam Thompson. 2006. _The
       Unhappy Planet Index: An Index of Human Well-Being and Environmental
       Impact_. The Happy Planet. Accessed August 29, 2011.
-      [http://www.happyplanetindex.org/public-data/files/happy-planet-index-first-global.pdf](http://www.happyplanetindex.org/public-data/files/happy-planet-index-first-global.pdf).
+      [https://static1.squarespace.com/static/5735c421e321402778ee0ce9/t/578dea0d29687f525e004fc9/1468918288114/2006+Happy+Planet+Index+report.pdf](https://static1.squarespace.com/static/5735c421e321402778ee0ce9/t/578dea0d29687f525e004fc9/1468918288114/2006+Happy+Planet+Index+report.pdf).
 
 
       White, Adrian and the National Geographic _EarthPulse Team_. 2008. _A
@@ -71,13 +71,13 @@ es:
     (.6). Esto se suma a la evidencia que, desde una perspectiva global, los
     principales factores que afectan la SWB son la pobreza y sus variables
     asociadas. Aprenda más acerca de esto en
-    http://nationalgeographic.com/earthpulse.
+    ![http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse).
   references:
     - >-
       Marks, Nic, Saamah Abdallah, Andrew Simms, and Sam Thompson. 2006. _The
       Unhappy Planet Index: An Index of Human Well-Being and Environmental
       Impact_. The Happy Planet. Accessed August 29, 2011.
-      [http://www.happyplanetindex.org/public-data/files/happy-planet-index-first-global.pdf](http://www.happyplanetindex.org/public-data/files/happy-planet-index-first-global.pdf).
+      [https://static1.squarespace.com/static/5735c421e321402778ee0ce9/t/578dea0d29687f525e004fc9/1468918288114/2006+Happy+Planet+Index+report.pdf](https://static1.squarespace.com/static/5735c421e321402778ee0ce9/t/578dea0d29687f525e004fc9/1468918288114/2006+Happy+Planet+Index+report.pdf).
 
 
       White, Adrian and the National Geographic _EarthPulse Team_. 2008. _A
@@ -98,13 +98,13 @@ zh:
     White通过对比有关SWB的数据，包括由联合国教育、科学及文化组织（the United Nations Educational,
     Scientific and Cultural Organization ，简称UNESCO）提供的2005年受教育情况的数据，由联合国（United
     Nations ，简称UN）统计的2005年健康情况数据，以及从美国中央情报局（Central Intelligence
-    Agency，简称CIA）下载的2006年贫困数据。最后发现SWB与健康情况、财富以及所受的基本教育关系密切。这更加说明了从全球的角度影响SWB的最大因素是贫困及其关联变量。欲了解详情，请访问http://nationalgeographic.com/earthpulse。
+    Agency，简称CIA）下载的2006年贫困数据。最后发现SWB与健康情况、财富以及所受的基本教育关系密切。这更加说明了从全球的角度影响SWB的最大因素是贫困及其关联变量。欲了解详情，请访问![http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse)。
   references:
     - >-
       Marks, Nic, Saamah Abdallah, Andrew Simms, and Sam Thompson. 2006. _The
       Unhappy Planet Index: An Index of Human Well-Being and Environmental
       Impact_. The Happy Planet. Accessed August 29, 2011.
-      [http://www.happyplanetindex.org/public-data/files/happy-planet-index-first-global.pdf](http://www.happyplanetindex.org/public-data/files/happy-planet-index-first-global.pdf).
+      [https://static1.squarespace.com/static/5735c421e321402778ee0ce9/t/578dea0d29687f525e004fc9/1468918288114/2006+Happy+Planet+Index+report.pdf](https://static1.squarespace.com/static/5735c421e321402778ee0ce9/t/578dea0d29687f525e004fc9/1468918288114/2006+Happy+Planet+Index+report.pdf).
 
 
       White, Adrian and the National Geographic _EarthPulse Team_. 2008. _A
@@ -138,7 +138,7 @@ de:
     unterstützt den Nachweis, dass, aus einer globalen Perspektive, die größten
     Faktoren, die das SWB beeinflussen, die Armut und damit verbundene Variablen
     sind. Finden Sie mehr darüber auf
-    [http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse)
+    ![http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse)
     heraus. Subjektive Wohlbefinden scheint sich mit Gesundheit, Wohlstand und
     Zugang zu Grundbildung zu korrelieren.
   references:
@@ -146,7 +146,7 @@ de:
       Marks, Nic, Saamah Abdallah, Andrew Simms, and Sam Thompson. 2006. _The
       Unhappy Planet Index: An Index of Human Well-Being and Environmental
       Impact_. The Happy Planet. Accessed August 29, 2011.
-      [http://www.happyplanetindex.org/public-data/files/happy-planet-index-first-global.pdf](http://www.happyplanetindex.org/public-data/files/happy-planet-index-first-global.pdf).
+      [https://static1.squarespace.com/static/5735c421e321402778ee0ce9/t/578dea0d29687f525e004fc9/1468918288114/2006+Happy+Planet+Index+report.pdf](https://static1.squarespace.com/static/5735c421e321402778ee0ce9/t/578dea0d29687f525e004fc9/1468918288114/2006+Happy+Planet+Index+report.pdf).
 
 
       White, Adrian and the National Geographic _EarthPulse Team_. 2008. _A

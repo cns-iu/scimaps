@@ -63,12 +63,15 @@ es:
     la oscuridad.
   references:
     - >-
-      Fischer, Eric. 2012. Language Communities of Twitter. Courtesy of Eric
-      Fischer. In “8th Iteration (2012): Science Maps for Kids,” Places &
-      Spaces: Mapping Science, edited by Katy Börner and Michael J. Stamper.
-      http://scimaps.org. Fischer, Eric. 2011. Language Communities of Twitter.
-      Flickr. Last modified October 24.
-      http://www.flickr.com/photos/walkingsf/6277163176/in/photostream/
+      Fischer, Eric. 2012. _Language Communities of Twitter_. Courtesy of Eric
+      Fischer. In “8th Iteration (2012): Science Maps for Kids,” _Places &
+      Spaces: Mapping Science_, edited by Katy Börner and Michael J. Stamper.
+      [http://scimaps.org](http://scimaps.org)
+
+
+      Fischer, Eric. 2011. _Language Communities of Twitter_. Flickr. Last
+      modified October 24.
+      [http://www.flickr.com/photos/walkingsf/6277163176/in/photostream/](http://www.flickr.com/photos/walkingsf/6277163176/in/photostream/)
   creditLine: >-
     Mabel Basterrechea, Ph.D., Department of Modern Languages and Literatures,
     College of Arts and Sciences, University of Miami.
@@ -80,12 +83,15 @@ zh:
     API进行记录。每个点代表一条微博。如果有多条微博出现在同一位置，他们向外扩散但随着距离消逝。点通过Chrome开源语言探测器进行着色。英文微博为灰色；其他颜色尽最大可能进行区分。右边标签代表超过拥有10,000条微博的语言。地图虽无国界，但是欧洲地图出现了。荷兰微博密度最大。在某些地区，Twitter的使用率好像跟随者交通网络路径——如西班牙中部和俄罗斯的跨西伯利亚铁轨。整体来看，地图展示了社会网络水平，世界上的一些地方非常活跃而其他则消失在黑暗中。
   references:
     - >-
-      Fischer, Eric. 2012. Language Communities of Twitter. Courtesy of Eric
-      Fischer. In “8th Iteration (2012): Science Maps for Kids,” Places &
-      Spaces: Mapping Science, edited by Katy Börner and Michael J. Stamper.
-      http://scimaps.org. Fischer, Eric. 2011. Language Communities of Twitter.
-      Flickr. Last modified October 24.
-      http://www.flickr.com/photos/walkingsf/6277163176/in/photostream/
+      Fischer, Eric. 2012. _Language Communities of Twitter_. Courtesy of Eric
+      Fischer. In “8th Iteration (2012): Science Maps for Kids,” _Places &
+      Spaces: Mapping Science_, edited by Katy Börner and Michael J. Stamper.
+      [http://scimaps.org](http://scimaps.org)
+
+
+      Fischer, Eric. 2011. _Language Communities of Twitter_. Flickr. Last
+      modified October 24.
+      [http://www.flickr.com/photos/walkingsf/6277163176/in/photostream/](http://www.flickr.com/photos/walkingsf/6277163176/in/photostream/)
   creditLine: 'Yunwei Chen, Chinese Academy of Sciences.'
 de:
   title: 'Sprachgemeinschaften auf Twitter '
@@ -111,12 +117,15 @@ de:
     bleiben.
   references:
     - >-
-      Fischer, Eric. 2012. Language Communities of Twitter. Courtesy of Eric
-      Fischer. In “8th Iteration (2012): Science Maps for Kids,” Places &
-      Spaces: Mapping Science, edited by Katy Börner and Michael J. Stamper.
-      http://scimaps.org. Fischer, Eric. 2011. Language Communities of Twitter.
-      Flickr. Last modified October 24.
-      http://www.flickr.com/photos/walkingsf/6277163176/in/photostream/
+      Fischer, Eric. 2012. _Language Communities of Twitter_. Courtesy of Eric
+      Fischer. In “8th Iteration (2012): Science Maps for Kids,” _Places &
+      Spaces: Mapping Science_, edited by Katy Börner and Michael J. Stamper.
+      [http://scimaps.org](http://scimaps.org)
+
+
+      Fischer, Eric. 2011. _Language Communities of Twitter_. Flickr. Last
+      modified October 24.
+      [http://www.flickr.com/photos/walkingsf/6277163176/in/photostream/](http://www.flickr.com/photos/walkingsf/6277163176/in/photostream/)
   creditLine: Markus Wagner
 pl:
   title: Społeczności językowe Twittera
@@ -138,11 +147,14 @@ pl:
     obszary „ciszy” Twitterowej. Polska leży właśnie w takiej strefie.
   references:
     - >-
-      Fischer, Eric. 2012. Language Communities of Twitter. Courtesy of Eric
-      Fischer. In “8th Iteration (2012): Science Maps for Kids,” Places &
-      Spaces: Mapping Science, edited by Katy Börner and Michael J. Stamper.
-      http://scimaps.org. Fischer, Eric. 2011. Language Communities of Twitter.
-      Flickr. Last modified October 24.
-      http://www.flickr.com/photos/walkingsf/6277163176/in/photostream/
+      Fischer, Eric. 2012. _Language Communities of Twitter_. Courtesy of Eric
+      Fischer. In “8th Iteration (2012): Science Maps for Kids,” _Places &
+      Spaces: Mapping Science_, edited by Katy Börner and Michael J. Stamper.
+      [http://scimaps.org](http://scimaps.org)
+
+
+      Fischer, Eric. 2011. _Language Communities of Twitter_. Flickr. Last
+      modified October 24.
+      [http://www.flickr.com/photos/walkingsf/6277163176/in/photostream/](http://www.flickr.com/photos/walkingsf/6277163176/in/photostream/)
   creditLine: Veslava Osinska
 ---

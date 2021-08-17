@@ -37,7 +37,7 @@ en:
       The World Bank Group. 2011. “The Millennium Development Goals Map:
       Charting Progress toward a Better World.” _Data & Research_. Accessed
       September 21, 2011.
-      [http://econ.worldbank.org](http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/0,,contentMDK:20637864~pagePK:64165401~piPK:64165026~theSitePK:469372,00.html).
+      ![http://econ.worldbank.org](http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/0,,contentMDK:20637864~pagePK:64165401~piPK:64165026~theSitePK:469372,00.html).
 
 
       The World Bank and National Geographic Society. 2006. _The Millennium
@@ -85,7 +85,7 @@ es:
       The World Bank Group. 2011. “The Millennium Development Goals Map:
       Charting Progress toward a Better World.” _Data & Research_. Accessed
       September 21, 2011.
-      [http://econ.worldbank.org](http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/0,,contentMDK:20637864~pagePK:64165401~piPK:64165026~theSitePK:469372,00.html).
+      ![http://econ.worldbank.org](http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/0,,contentMDK:20637864~pagePK:64165401~piPK:64165026~theSitePK:469372,00.html).
 
 
       The World Bank and National Geographic Society. 2006. _The Millennium
@@ -114,7 +114,7 @@ zh:
       The World Bank Group. 2011. “The Millennium Development Goals Map:
       Charting Progress toward a Better World.” _Data & Research_. Accessed
       September 21, 2011.
-      [http://econ.worldbank.org](http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/0,,contentMDK:20637864~pagePK:64165401~piPK:64165026~theSitePK:469372,00.html).
+      ![http://econ.worldbank.org](http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/0,,contentMDK:20637864~pagePK:64165401~piPK:64165026~theSitePK:469372,00.html).
 
 
       The World Bank and National Geographic Society. 2006. _The Millennium
@@ -162,7 +162,7 @@ de:
       The World Bank Group. 2011. “The Millennium Development Goals Map:
       Charting Progress toward a Better World.” _Data & Research_. Accessed
       September 21, 2011.
-      [http://econ.worldbank.org](http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/0,,contentMDK:20637864~pagePK:64165401~piPK:64165026~theSitePK:469372,00.html).
+      ![http://econ.worldbank.org](http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/0,,contentMDK:20637864~pagePK:64165401~piPK:64165026~theSitePK:469372,00.html).
 
 
       The World Bank and National Geographic Society. 2006. _The Millennium

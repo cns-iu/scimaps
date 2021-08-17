@@ -20,7 +20,7 @@ en:
     Each bubble is a country, color-coded by continent and size-coded by country
     population. When the sorting is compared with the placement of bubbles on
     the map, are there any surprises? Find out more at
-    [http://www.gapminder.org/for-teachers](http://www.gapminder.org/for-teachers)
+    [https://www.gapminder.org/for-teachers](https://www.gapminder.org/for-teachers).
   makers:
     - anna-rosling-ronnlund/readme
     - ola-rosling/readme
@@ -34,7 +34,7 @@ en:
 
 
       Lindgren, Mattias. 2010. _A Card Game with the Gapminder World Map_.
-      [http://www.gapminder.org/downloads/card-game](http://www.gapminder.org/downloads/card-game)
+      [https://www.gapminder.org/downloads/gapminder-card-game/](https://www.gapminder.org/downloads/gapminder-card-game/)
   image:
     sm: image.sm.jpg
     med: image.med.jpg
@@ -73,7 +73,7 @@ es:
 
 
       Lindgren, Mattias. 2010. _A Card Game with the Gapminder World Map_.
-      [http://www.gapminder.org/downloads/card-game](http://www.gapminder.org/downloads/card-game)
+      [https://www.gapminder.org/downloads/gapminder-card-game/](https://www.gapminder.org/downloads/gapminder-card-game/)
   creditLine: >-
     Mabel Basterrechea, Ph.D., Department of Modern Languages and Literatures,
     College of Arts and Sciences, University of Miami.
@@ -82,7 +82,7 @@ zh:
   body: >-
     世界上谁贫谁富，谁长寿？Gapminder，一个斯德哥尔摩非盈利基金会开发了教学资源来激发使用统计数据了解世界兴趣的产生。这一分类竞赛由Mattias
     Lindgren基于Paula
-    Cooper的概念用基于事实的视角来置换毁灭性的神话。学生们得到了国家卡片号码，他们被要求将这些卡片分组以反映出这些国家的发展水平。任何的分类方法，如两个或者更多的组别或者排列成列都是可以的。然后学生被要求解释为什么这样分类这些卡片，分类反映的是收入、健康还是更加整体上的发展水平呢？接着，老师展示了Gapminder世界地图：Y轴表示平均寿命（逐渐增加），X轴表示人均收入（从左侧低于500美元到右侧超过50，000美元）。一个气泡代表一个国家，并用颜色区分大洲、用大小表示国家人口。将分类的结果将地图上的气泡替代之后，会有任何的惊喜吗？更多信息可访问http://www.gapminder.org/for-teachers
+    Cooper的概念用基于事实的视角来置换毁灭性的神话。学生们得到了国家卡片号码，他们被要求将这些卡片分组以反映出这些国家的发展水平。任何的分类方法，如两个或者更多的组别或者排列成列都是可以的。然后学生被要求解释为什么这样分类这些卡片，分类反映的是收入、健康还是更加整体上的发展水平呢？接着，老师展示了Gapminder世界地图：Y轴表示平均寿命（逐渐增加），X轴表示人均收入（从左侧低于500美元到右侧超过50，000美元）。一个气泡代表一个国家，并用颜色区分大洲、用大小表示国家人口。将分类的结果将地图上的气泡替代之后，会有任何的惊喜吗？更多信息可访问https://www.gapminder.org/for-teachers
   references:
     - >-
       Lindgren, Mattias. 2010. _Gapminder World Map_. Courtesy of Gapminder
@@ -92,7 +92,7 @@ zh:
 
 
       Lindgren, Mattias. 2010. _A Card Game with the Gapminder World Map_.
-      [http://www.gapminder.org/downloads/card-game](http://www.gapminder.org/downloads/card-game)
+      [https://www.gapminder.org/downloads/gapminder-card-game/](https://www.gapminder.org/downloads/gapminder-card-game/)
   creditLine: 'Yunwei Chen, Chinese Academy of Sciences.'
 de:
   title: 'Gapminder-Weltkarte '
@@ -127,7 +127,7 @@ de:
 
 
       Lindgren, Mattias. 2010. _A Card Game with the Gapminder World Map_.
-      [http://www.gapminder.org/downloads/card-game](http://www.gapminder.org/downloads/card-game)
+      [https://www.gapminder.org/downloads/gapminder-card-game/](https://www.gapminder.org/downloads/gapminder-card-game/)
   creditLine: Markus Wagner
 pl:
   title: Gapminder
@@ -148,7 +148,7 @@ pl:
     osobę (mniej niż 500$ rocznie od lewej do więcej niż 500$ po prawej). Każdy
     bąbelek to państwo, kolorem są oznaczone kontynenty, rozmiar – populacja
     kraju. Czy uczniowskie sortowanie zgadza się z tym co pokaże Gapminder?
-    Więcej na stronie: http://www.gapminder.org/for-teachers.
+    Więcej na stronie: https://www.gapminder.org/for-teachers.
   references:
     - >-
       Lindgren, Mattias. 2010. _Gapminder World Map_. Courtesy of Gapminder
@@ -158,6 +158,6 @@ pl:
 
 
       Lindgren, Mattias. 2010. _A Card Game with the Gapminder World Map_.
-      [http://www.gapminder.org/downloads/card-game](http://www.gapminder.org/downloads/card-game)
+      [https://www.gapminder.org/downloads/gapminder-card-game/](https://www.gapminder.org/downloads/gapminder-card-game/)
   creditLine: Veslava Osinska
 ---
