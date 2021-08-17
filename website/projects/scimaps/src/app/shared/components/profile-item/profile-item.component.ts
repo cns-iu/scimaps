@@ -32,7 +32,7 @@ export class ProfileItemComponent {
       fullContent,
       maxContentLength
     } = this;
-    return `${fullContent.slice(0, maxContentLength)}...`;
+    return `${fullContent.slice(0, maxContentLength)} ${this.hasLongContent ? '...' : ''}`;
   }
 
   fullContentVisible = false;
