@@ -1,6 +1,10 @@
 @use 'icon';
 @use 'screen';
 
+$desktop: 1248px;
+$tablet: 960px;
+$mobile: 640px;
+
 :host {
   display: block;
   // margin-top: 7.5rem;
@@ -36,6 +40,10 @@
       flex-direction: row;
       align-items: center;
       // padding: 0.75rem 0 0.75rem 0.75rem;
+
+      @media screen and (max-width: $mobile) {
+        display: none;
+      }
 
       .text {
         padding: 0 0 0 0.75rem;
