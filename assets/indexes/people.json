@@ -823,6 +823,15 @@
     "image": "image.jpg"
   },
   {
+    "body": "Ece Kavlak worked as a senior project manager at Interactive Things. She holds an MS in automotive systems engineering from the Rheinisch-Westfälische Technische Hochschule Aachen. Her work centers around advocating smart solutions by connecting creativity with economics to create value for people and businesses alike. Kavlak is passionate about homing in on a project’s vision which turns into a shared understanding of what we do, how we do it, and why we’re doing it.\n",
+    "name": "Ece Kavlak",
+    "last_name": "Kavlak",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "name": "E.C.M. (Ed) Noijons",
     "last_name": "Noijons",
     "roles": [
@@ -834,15 +843,6 @@
     "location_name": "Leiden, Netherlands",
     "region": "europe",
     "image": "image.jpg"
-  },
-  {
-    "body": "Ece Kavlak worked as a senior project manager at Interactive Things. She holds an MS in automotive systems engineering from the Rheinisch-Westfälische Technische Hochschule Aachen. Her work centers around advocating smart solutions by connecting creativity with economics to create value for people and businesses alike. Kavlak is passionate about homing in on a project’s vision which turns into a shared understanding of what we do, how we do it, and why we’re doing it.\n",
-    "name": "Ece Kavlak",
-    "last_name": "Kavlak",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
   },
   {
     "body": "Edith M. Punt graduated from McGill University in Montreal with a BSc in physical geography and Northern studies. After an apprenticeship in cartography with Nunavik Graphics in Montreal, she went on to the College of Geographic Sciences in Nova Scotia, where she earned a diploma in cartography, and was recognized by the Nova Scotia House of Assembly for outstanding achievement in cartography. She was the recipient of the Nicholson Cartographic Scholarship in 1995 and the President's Prize for Best Colour Map in 1996—both from the Canadian Cartographic Association. In 1996 she also won the National Geographic Society Award in Cartography and the Intergraph Award in Computer Cartography from the Canadian Institute of Geomatics. She has been a cartographer and writer at ESRI in Redlands, California, since 1996.\n",

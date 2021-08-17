@@ -21,7 +21,7 @@ en:
     information can be found at
     [http://mapofscience.com](http://mapofscience.com).
   makers:
-    - kevin-boyack/readme
+    - kevin-w-boyack/readme
     - richard-klavans/readme
   year: 2007
   references:

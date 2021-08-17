@@ -322,13 +322,6 @@
     "pdfLink": "20061228-borner-cover-nature.pdf"
   },
   {
-    "date": "2007-06-05T00:00:00.000Z",
-    "title": "*Places & Spaces*: Mapping Science WDIL",
-    "source": "wdil.org",
-    "sourceUrl": "http://www.wdil.org/resources/places-spaces-mapping-science",
-    "pdfLink": "20070605-borner-exhibit-wdil.pdf"
-  },
-  {
     "date": "2007-01-01T00:00:00.000Z",
     "title": "*Places & Spaces*: Mapping Science",
     "source": "American Museum of Science and Energy",
@@ -417,7 +410,7 @@
     "title": "Relationships Among Scientific Paradigms",
     "source": "Seed Magazine",
     "sourceUrl": "http://www.comdig.org/index.php?id_issue=2007.12#27003",
-    "pdfLink": "20070319-relationships-among-paradigms.pdf"
+    "pdfLink": "20070319-relatioinships-among-paradigms.pdf"
   },
   {
     "date": "2007-03-20T00:00:00.000Z",
@@ -557,6 +550,13 @@
     "pdfLink": "20070601-science-family-tree.pdf"
   },
   {
+    "date": "2007-06-05T00:00:00.000Z",
+    "title": "*Places & Spaces*: Mapping Science WDIL",
+    "source": "wdil.org",
+    "sourceUrl": "http://www.wdil.org/resources/places-spaces-mapping-science",
+    "pdfLink": "20070605-borner-exhibit-wdil.pdf"
+  },
+  {
     "date": "2007-06-14T00:00:00.000Z",
     "title": "Power Struggle",
     "source": "IU News Room",
@@ -588,7 +588,7 @@
     "title": "Presidential Column: Psychology is a Hub Science",
     "source": "Observer",
     "sourceUrl": "https://www.psychologicalscience.org/observer/getArticle.cfm?id=2203",
-    "pdfLink": "20070901-observer-v20n8-pp-5and42.pdf"
+    "pdfLink": null
   },
   {
     "date": "2007-09-01T00:00:00.000Z",
@@ -871,6 +871,13 @@
     "pdfLink": "20090311-science-mapping-usatoday.pdf"
   },
   {
+    "date": "2009-03-12T00:00:00.000Z",
+    "title": "The Atlas of Science",
+    "source": "Physics World: Michael Banks",
+    "sourceUrl": "http://physicsworld.com/blog/2009/03/the_atlas_of_science.html",
+    "pdfLink": "20110312-banks-atlas-physicsworld.pdf"
+  },
+  {
     "date": "2009-05-10T00:00:00.000Z",
     "title": "NextNow Collab Visualization Expert Bonnie DeVarco at Stanford Media X",
     "source": "NextNow Collaboratory",
@@ -899,7 +906,7 @@
     "pdfLink": "20091103-keim-brandon.pdf"
   },
   {
-    "date": "2009-01-01T00:00:00.000Z",
+    "date": "2009-11-04T00:00:00.000Z",
     "title": "The Rebirth of the Infographic",
     "source": "eMedia Vitals: Sean Blanda",
     "sourceUrl": "http://emediavitals.com/article/16/rebirth-infographic",
@@ -1068,14 +1075,14 @@
     "title": "A day of maps and visualizations",
     "source": "Sciblogs: Aimee Whitcroft",
     "sourceUrl": "https://sciblogs.co.nz/misc-ience/2011/01/28/a-day-of-maps-and-visualisations/",
-    "pdfLink": "20110128-aimeee-whitcroft.pdf"
+    "pdfLink": "20110128-aimee-whitcroft.pdf"
   },
   {
     "date": "2011-02-11T00:00:00.000Z",
     "title": "Data as Art: Bounds and Vision",
     "source": "Science | AAAS",
     "sourceUrl": "https://science.sciencemag.org/content/331/6018/676.1",
-    "pdfLink": "20110211-bounds-vision.pdf"
+    "pdfLink": "20110211-bounds-and-vision.pdf"
   },
   {
     "date": "2011-03-01T00:00:00.000Z",
@@ -1095,13 +1102,6 @@
     "source": "Wired Science: David Mosher",
     "sourceUrl": "https://www.wired.com/2011/03/best-science-maps/",
     "pdfLink": "20110308-data-as-art-striking-science.pdf"
-  },
-  {
-    "date": "2011-03-12T00:00:00.000Z",
-    "title": "The Atlas of Science",
-    "source": "Physics World: Michael Banks",
-    "sourceUrl": "http://physicsworld.com/blog/2009/03/the_atlas_of_science.html",
-    "pdfLink": "20110312-banks-atlas-physicsworld.pdf"
   },
   {
     "date": "2011-03-20T00:00:00.000Z",
@@ -1132,7 +1132,7 @@
     "pdfLink": "20110408-rasmussen-neal-atlasreview-jasist.pdf"
   },
   {
-    "date": "2011-01-01T00:00:00.000Z",
+    "date": "2011-04-08T00:00:00.000Z",
     "title": "Special feature featuring maps from Katy Börner's Atlas of Science - Visualizing What We Know",
     "source": "ISSUES in Science and Technology, Spring 2011",
     "sourceUrl": "http://www.issues.org/27.3/"
@@ -1154,7 +1154,8 @@
     "date": "2011-12-08T00:00:00.000Z",
     "title": "Open Call: Science Maps for Kids",
     "source": "Visualizing.org",
-    "sourceUrl": "http://www.visualizing.org/stories/open-call-science-maps-kids"
+    "sourceUrl": "http://www.visualizing.org/stories/open-call-science-maps-kids",
+    "pdfLink": "20111208-visualizingorg.pdf"
   },
   {
     "date": "2011-12-14T00:00:00.000Z",
@@ -1280,7 +1281,7 @@
     "title": "IU Collaborators screening Humanexus at Cannes Film Festival",
     "source": "IU Bloomington Newsroom",
     "sourceUrl": "https://news.iu.edu/releases/iu/2014/09/places-and-spaces.html",
-    "pdfLink": "20140514-iu-news.pdf"
+    "pdfLink": "20140514-iu-news-room.pdf"
   },
   {
     "date": "2014-09-01T00:00:00.000Z",
@@ -1430,6 +1431,13 @@
     "pdfLink": "20151125-diatropeInstitute.pdf"
   },
   {
+    "date": "2015-12-29T00:00:00.000Z",
+    "title": "Exhibit travels to the Centers for Disease Control and Prevention Museum in Atlanta",
+    "source": "SoIC News",
+    "sourceUrl": "https://luddy.indiana.edu/news/story.html?story=Exhibit-travels-Centers-Disease-Control-Prevention-Museum-Atlanta",
+    "pdfLink": "20151229-soicnews.pdf"
+  },
+  {
     "date": "2016-01-04T00:00:00.000Z",
     "title": "IU exhibit travels to the Centers for Disease Control and Prevention Museum in Atlanta",
     "source": "IU IT News & Events",
@@ -1455,7 +1463,7 @@
     "title": "*Places & Spaces*: Mapping Science at the David J. Sencer CDC Museum",
     "source": "LinkedIn",
     "sourceUrl": "https://www.linkedin.com/company/centers-for-disease-control-and-prevention/",
-    "pdfLink": "20160126-linkedin.pdf"
+    "pdfLink": "20160126-linkedIn.pdf"
   },
   {
     "date": "2016-01-28T00:00:00.000Z",
@@ -1519,13 +1527,6 @@
     "source": "IU IT News & Events",
     "sourceUrl": "https://itnews.iu.edu/articles/2016/reimagining-science-exhibition-turns-collaboration-into-art.php",
     "pdfLink": "20161018-itnews.pdf"
-  },
-  {
-    "date": "2015-12-29T00:00:00.000Z",
-    "title": "Exhibit travels to the Centers for Disease Control and Prevention Museum in Atlanta",
-    "source": "SoIC News",
-    "sourceUrl": "https://luddy.indiana.edu/news/story.html?story=Exhibit-travels-Centers-Disease-Control-Prevention-Museum-Atlanta",
-    "pdfLink": "20151229-soicnews.pdf"
   },
   {
     "date": "2017-01-06T00:00:00.000Z",
