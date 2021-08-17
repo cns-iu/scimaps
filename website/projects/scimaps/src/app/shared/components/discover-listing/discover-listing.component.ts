@@ -39,7 +39,7 @@ export class DiscoverListingComponent {
       fullContent,
       maxContentLength
     } = this;
-    return `${fullContent.slice(0, maxContentLength)}...`;
+    return `${fullContent.slice(0, maxContentLength)} ${this.hasLongContent ? '...' : ''}`;
   }
 
   imageSource(image: string): string {
