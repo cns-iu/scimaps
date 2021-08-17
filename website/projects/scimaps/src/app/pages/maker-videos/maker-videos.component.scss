@@ -10,7 +10,7 @@ $desktop: 1248px;
     flex-wrap: wrap;
 
     .grid-item {
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       margin-right: 1rem;
       cursor: pointer;
       @media screen and (max-width: $mobile) {
