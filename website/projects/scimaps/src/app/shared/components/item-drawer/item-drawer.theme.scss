@@ -29,8 +29,9 @@
 
     .language-selection {
       .option {
+        color: mat-color($accent);
         &.active {
-          color: mat-color($accent);
+          color: #7997a3;
         }
       }
     }

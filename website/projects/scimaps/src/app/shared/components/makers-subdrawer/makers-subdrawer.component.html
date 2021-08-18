@@ -10,7 +10,7 @@
     <div class="maker-info" *ngFor="let maker of makers">
       <img class="thumbnail" [src]="maker.image" alt="maker image">
       <div class="info">
-        <div class="name">{{maker.name | titlecase}}</div>
+        <div class="name">{{maker.name}}</div>
         <div class="job">{{maker.title}}</div>
         <div class="bio">
           <div markdown [data]="maker.body">

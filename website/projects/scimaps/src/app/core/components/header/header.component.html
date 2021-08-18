@@ -38,17 +38,25 @@
   
    
   
-    <button mat-button class="nav-item explore mat-display-3" *ngIf="false"
-            [class.active]="(exploreTrigger.menuClosed | async) || exploreTrigger.menuOpen" [matMenuTriggerFor]="explore"
-            #exploreTrigger="matMenuTrigger">
-      EXPLORE
+    <div mat-button class="nav-item explore mat-display-3"
+      (mouseenter)="mouseEvents($event, 2)"
+      (mouseleave)="mouseEvents($event, 2)"
+      [class.active]="(exploreTrigger.menuClosed | async) || exploreTrigger.menuOpen" [matMenuTriggerFor]="explore"
+      #exploreTrigger="matMenuTrigger">EXPLORE
       <mat-icon>expand_more</mat-icon>
-    </button>
+      <mat-menu class="sci-header-menu" #explore="matMenu" [hasBackdrop]="false" xPosition="before">
+        <div (mouseenter)="mouseEvents($event, 2)" (mouseleave)="mouseEvents($event, 2)">
+          <button *ngIf="false" mat-button class="mat-display-3" routerLink="/learning-center" routerLinkActive="active">
+            LEARNING CENTER
+          </button>
+          <button mat-button class="mat-display-3" routerLink="/maker-videos" routerLinkActive="active">
+            MAP AND MACROSCOPE MAKER VIDEOS
+          </button>
+        </div>
+      </mat-menu>
+    </div>
   
-    <mat-menu class="sci-header-menu" #explore="matMenu">
-      <button mat-button class="mat-display-3" routerLink="/learning-center" routerLinkActive="active">LEARNING
-        CENTER</button>
-    </mat-menu>
+   
   
     <div mat-button class="nav-item contact mat-display-3"
     (mouseenter)="mouseEvents($event, 1)" (mouseleave)="mouseEvents($event, 1)"

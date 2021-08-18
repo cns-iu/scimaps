@@ -80,7 +80,7 @@ describe('DiscoverListingComponent', () => {
   it('should have correct partial content', async () => {
     const { instance} = await shallow.mock(MatDialog, mockMatDialog).render({ bind: { discoverItem, type }});
     const partial = instance.partialContent;
-    expect(partial).toEqual(`${instance.fullContent.slice(0, 500)}...`);
+    expect(partial).toEqual(`${instance.fullContent.slice(0, 500)} ${instance.hasLongContent ? '...' : ''}`);
   });
   it('should have correct boolean value', async () => {
     const { instance} = await shallow.mock(MatDialog, mockMatDialog).render({ bind: { discoverItem, type }});

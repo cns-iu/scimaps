@@ -101,7 +101,7 @@ describe('ProfileItemComponent', () => {
       expect(component.hasLongContent).toBeTrue();
     });
     it ('should have correct partial content', () => {
-      expect(component.partialContent).toEqual(testProfile.body.substr(0, component.maxContentLength) + '...');
+      expect(component.partialContent).toEqual(testProfile.body.substr(0, component.maxContentLength) + ' ...');
     });
     it ('should have correct full content', () => {
       expect(component.fullContent).toEqual(testProfile.body);

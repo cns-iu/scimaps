@@ -31,8 +31,10 @@ export class HeaderComponent implements OnInit {
   @Output() sidenavOpenChange = new EventEmitter<boolean>();
   @ViewChild('exhibitTrigger') exhibitTrigger!: MatMenuTrigger;
   @ViewChild('contactTrigger') contactTrigger!: MatMenuTrigger;
+  @ViewChild('exploreTrigger') exploreTrigger!: MatMenuTrigger;
   exhibitStream: Subject<Params> = new Subject<Params>();
   contactStream: Subject<Params> = new Subject<Params>();
+  exploreStream: Subject<Params> = new Subject<Params>();
   @Select(PageState.drawer) drawer$!: Observable<Params>;
 
   ngOnInit(): void {
@@ -44,9 +46,6 @@ export class HeaderComponent implements OnInit {
       })
     ).subscribe((payload) => {
       if (payload.type === 'mouseenter') {
-        if (this.contactTrigger.menuOpen) {
-          this.contactTrigger.closeMenu();
-        }
         this.exhibitTrigger.openMenu();
       } else {
         this.exhibitTrigger?.closeMenu();
@@ -61,12 +60,23 @@ export class HeaderComponent implements OnInit {
       })
     ).subscribe((payload) => {
       if (payload.type === 'mouseenter') {
-        if (this.exhibitTrigger.menuOpen) {
-          this.exhibitTrigger.closeMenu();
-        }
         this.contactTrigger.openMenu();
       } else {
         this.contactTrigger.closeMenu();
+      }
+    });
+
+    this.exploreStream.pipe(
+      debounceTime(100),
+      distinctUntilChanged(),
+      switchMap((payload: Params) => {
+        return of(payload);
+      })
+    ).subscribe((payload) => {
+      if (payload.type === 'mouseenter') {
+        this.exploreTrigger.openMenu();
+      } else {
+        this.exploreTrigger.closeMenu();
       }
     });
   }
@@ -74,8 +84,10 @@ export class HeaderComponent implements OnInit {
   mouseEvents(e: Event, index: number): void {
     if (index === 0) {
       this.exhibitStream.next({ type: e.type, event: e, index });
-    } else {
+    } else if (index === 1) {
       this.contactStream.next({ type: e.type, event: e, index });
+    } else {
+      this.exploreStream.next({ type: e.type, event: e, index });
     }
   }
 }

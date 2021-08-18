@@ -123,7 +123,7 @@ export class AboutComponent implements OnInit {
     const parsedFilter = JSON.parse(filter);
     let result = true;
     if (parsedFilter.year && parsedFilter.year !== 'all') {
-      const year = new Date(item.date).getFullYear().toString();
+      const year = new Date(item.date).getUTCFullYear().toString();
       result = result && year === parsedFilter.year;
     }
 

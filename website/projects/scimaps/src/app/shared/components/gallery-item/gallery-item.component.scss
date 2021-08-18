@@ -57,22 +57,6 @@ $desktop: 1248px;
   $bgcolor: black;
   .sci-drawer {
     background-color: $bgcolor;
-    .close-wrapper {
-      width: 100%;
-      display: flex;
-      justify-content: flex-end;
-
-      .close-icon {
-        color: #7997a3;
-        cursor: pointer;
-        border-radius: 50%;
-        &:hover {
-          background-color: #dce0e2;
-          color: #7997a3;
-        }
-      }
-    }
-
     .overlay-container {
       background-color: $bgcolor;
       padding: 1rem;

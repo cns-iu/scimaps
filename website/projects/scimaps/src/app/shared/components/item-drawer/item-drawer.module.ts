@@ -5,6 +5,7 @@ import { MarkdownModule } from 'ngx-markdown';
 import { SharedModule } from '../../shared.module';
 import { DrawerHeaderModule } from '../drawer-header/drawer-header.module';
 import { DrawerModule } from '../drawer/drawer.module';
+import { MakersSubdrawerModule } from '../makers-subdrawer/makers-subdrawer.module';
 import { PurchaseModalModule } from '../purchase-modal/purchase-modal.module';
 import { ItemDrawerComponent } from './item-drawer.component';
 
@@ -16,7 +17,8 @@ import { ItemDrawerComponent } from './item-drawer.component';
     MarkdownModule,
     SharedModule,
     DrawerModule,
-    DrawerHeaderModule
+    DrawerHeaderModule,
+    MakersSubdrawerModule
   ],
   declarations: [ItemDrawerComponent],
   exports: [ItemDrawerComponent]

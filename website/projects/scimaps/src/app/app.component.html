@@ -14,13 +14,3 @@
     <sci-footer [acknowledgement]="footerParameters.acknowledgement" [phoneNumber]="footerParameters.phoneNumber"></sci-footer>
   </mat-sidenav-content>
 </mat-sidenav-container>
-
-<!-- Entire Drawer System at one place -->
-<sci-drawer [@drawerInOut] *ngIf="(drawer$ | async)?.showDrawer">
-  <div drawer>
-    <ng-container [ngSwitch]="(drawer$ | async)?.drawerName">
-      <sci-makers-subdrawer *ngSwitchCase="'makers-drawer'" [makers]="(drawer$ | async)?.drawerPayload?.makers" [title]="(drawer$ | async)?.drawerPayload?.title" (closed)="closeDrawer()">
-      </sci-makers-subdrawer>
-    </ng-container>
-  </div>
-</sci-drawer>
