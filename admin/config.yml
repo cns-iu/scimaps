@@ -143,6 +143,15 @@ collections:
               - { name: language, label: Language }
               - { name: native, label: Native Spelling }
 
+      - label: Maker Videos
+        name: maker-videos
+        file: content/site/maker-videos/maker-videos.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'maker-videos'
+        fields:
+          - { name: description, label: Description, widget: markdown }
+
   - name: learning-materials
     label: Learning Materials
     label_singular: Learning Material
@@ -166,7 +175,32 @@ collections:
           - { name: sm, label: "Mobile (sm) Version" , widget: image }
           - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
 
-      
+  - name: maker-videos
+    label: Maker Videos
+    label_singular: Maker Video
+    folder: content/maker-videos
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{title}}"
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: videoLink, label: Video URL, widget: file }
+      - { name: image, label: Thumbnail, widget: image, required: false }
+      - name: maker
+        label: Authors
+        widget: relation
+        multiple: false
+        collection: person
+        required: false
+        search_fields: ['name', 'lastName']
+        value_field: '{{slug}}'
+        display_fields: ['{{name}} {{lastName}}']
+      - { name: short_description, label: Short Description }
+      - { name: long_description, label: Long Description, widget: markdown }
+    
+
   - name: blog
     label: Blogs
     label_singular: Blog
