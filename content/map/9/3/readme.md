@@ -21,9 +21,6 @@ en:
     sea ice, and other factors. In the next version of this tool, visitors will
     also be able to watch over two dozen videos of the world’s top scientists
     explaining the key issues that threaten the survival of this iconic species.
-    To track the health of polar bear subpopulations across nations and
-    ecoregions, visit the interactive visualization at
-    ![http://pbsg.npolar.no/en/dynamic/app](http://pbsg.npolar.no/en/dynamic/app).
   makers:
     - dino-citraro/readme
     - kim-rees/readme
@@ -80,10 +77,7 @@ es:
     factores. En la próxima versión de esta herramienta, los visitantes podrán
     también observar dos docenas de videos de los más importantes científicos
     mundiales explicando los problemas clave que amenazan la supervivencia de
-    esta especie icónica. Para hacer un seguimiento de la situación de las
-    distintas subpoblaciones de osos polares a través de las naciones y
-    ecorregiones, visita la visualización interactiva
-    ![http://pbsg.npolar.no/en/dynamic/app](http://pbsg.npolar.no/en/dynamic/app).
+    esta especie icónica.
   references:
     - >-
       Citraro, Dino, Kim Rees, Jacob O'Brien, Brett Johnson, Domanique Alicia,
@@ -127,10 +121,7 @@ de:
     Meereises. In der nächsten Version dieses Tools wird der Besucher auch mehr
     als zwei Dutzend Videos von weltweit führenden Wissenschaftlern sehen
     können, in denen sie die wichtigsten Faktoren erläutern, die das Überleben
-    dieser symbolträchtigen Art bedrohen. Um die Situation der
-    Eisbärsubpopulationen über alle Nationen und Ökoregionen hinweg verfolgen zu
-    können, besuchen Sie bitte die interaktive Visualisierung auf
-    ![http://pbsg.npolar.no/en/dynamic/app](http://pbsg.npolar.no/en/dynamic/app).
+    dieser symbolträchtigen Art bedrohen.
   references:
     - >-
       Citraro, Dino, Kim Rees, Jacob O'Brien, Brett Johnson, Domanique Alicia,
@@ -160,8 +151,7 @@ zh:
     Bear）是全世界北极熊的健康和生存状态的权威信息来源。这个复合数据可视化工具是和北极熊专家小组（Polar Bear Specialist
     Group）组织合作开发的，该小组是由加拿大、丹麦、挪威、美国和俄罗斯五个有北极熊栖息的国家组成的科学合作组织。北极熊的处境（State of the
     Polar
-    Bear）作为迄今为止最全面的北极熊信息在线可视化工具，它提供了19个北极熊亚种群中每一个种群详细记录信息，并且探究了它们在国际自然保护联盟（IUCN）中健康状况等级评价的影响因素。该可视化工具包含了丰富的可视化统计图表，例如捕获率、极地污染水平、北极冰川消融情况等。在工具的下一个版本将给访问者提供二十多个世界顶级科学家解读威胁北极熊这一标志性物种生存关键问题的视频。想要追踪不同国家和生态区的北极熊亚种群的健康状况，可访问交互式可视化工具在
-    ![http://pbsg.npolar.no/en/dynamic/app](http://pbsg.npolar.no/en/dynamic/app).
+    Bear）作为迄今为止最全面的北极熊信息在线可视化工具，它提供了19个北极熊亚种群中每一个种群详细记录信息，并且探究了它们在国际自然保护联盟（IUCN）中健康状况等级评价的影响因素。该可视化工具包含了丰富的可视化统计图表，例如捕获率、极地污染水平、北极冰川消融情况等。在工具的下一个版本将给访问者提供二十多个世界顶级科学家解读威胁北极熊这一标志性物种生存关键问题的视频。
   references:
     - >-
       Citraro, Dino, Kim Rees, Jacob O'Brien, Brett Johnson, Domanique Alicia,

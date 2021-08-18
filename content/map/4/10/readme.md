@@ -22,8 +22,7 @@ en:
     Intelligence Agency (CIA). It was found that SWB correlates most strongly
     with health (.7), wealth (.6), and access to basic education (.6). This adds
     to the evidence that, from a global perspective, the biggest factors
-    affecting SWB are poverty and associated variables. Learn more at
-    ![http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse).
+    affecting SWB are poverty and associated variables.
   makers:
     - adrian-g-white/readme
     - the-national-geographic-society-earthpulse-team/readme
@@ -70,8 +69,7 @@ es:
     mayormente con la salud (.7), riqueza (.6), y acceso a la educación básica
     (.6). Esto se suma a la evidencia que, desde una perspectiva global, los
     principales factores que afectan la SWB son la pobreza y sus variables
-    asociadas. Aprenda más acerca de esto en
-    ![http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse).
+    asociadas.
   references:
     - >-
       Marks, Nic, Saamah Abdallah, Andrew Simms, and Sam Thompson. 2006. _The
@@ -98,7 +96,7 @@ zh:
     White通过对比有关SWB的数据，包括由联合国教育、科学及文化组织（the United Nations Educational,
     Scientific and Cultural Organization ，简称UNESCO）提供的2005年受教育情况的数据，由联合国（United
     Nations ，简称UN）统计的2005年健康情况数据，以及从美国中央情报局（Central Intelligence
-    Agency，简称CIA）下载的2006年贫困数据。最后发现SWB与健康情况、财富以及所受的基本教育关系密切。这更加说明了从全球的角度影响SWB的最大因素是贫困及其关联变量。欲了解详情，请访问![http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse)。
+    Agency，简称CIA）下载的2006年贫困数据。最后发现SWB与健康情况、财富以及所受的基本教育关系密切。这更加说明了从全球的角度影响SWB的最大因素是贫困及其关联变量。
   references:
     - >-
       Marks, Nic, Saamah Abdallah, Andrew Simms, and Sam Thompson. 2006. _The
@@ -134,12 +132,7 @@ de:
     bereitgestellt wurden, mit den Gesundheitsdaten 2005 von den Vereinten
     Nationen (UNO) und mit den Armutsdaten 2006, die von der CIA heruntergeladen
     wurden. Es stellte sich heraus, dass das SWB am stärksten mit Gesundheit
-    (.7), Wohlstand (.6) und Zugang zu Grundbildung (.6) korreliert. Dies
-    unterstützt den Nachweis, dass, aus einer globalen Perspektive, die größten
-    Faktoren, die das SWB beeinflussen, die Armut und damit verbundene Variablen
-    sind. Finden Sie mehr darüber auf
-    ![http://nationalgeographic.com/earthpulse](http://nationalgeographic.com/earthpulse)
-    heraus. Subjektive Wohlbefinden scheint sich mit Gesundheit, Wohlstand und
+    (.7), Wohlstand (.6) und Zugang zu Grundbildung (.6) korreliert. Subjektive Wohlbefinden scheint sich mit Gesundheit, Wohlstand und
     Zugang zu Grundbildung zu korrelieren.
   references:
     - >-
