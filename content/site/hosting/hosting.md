@@ -120,9 +120,9 @@ tabs:
       * Table space for handouts is desirable but not required
 
       * Local host hangs posters
-
-
-     #### Total Cost
+      
+      
+      #### Total Cost
 
 
       $150* per iteration (2 posters)
