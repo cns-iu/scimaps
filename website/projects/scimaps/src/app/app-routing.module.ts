@@ -7,7 +7,7 @@ import { BooksModule } from './pages/books/books.module';
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/home' },
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
-  { path: 'about', loadChildren: () => import('./pages/about/about.module').then(m => m.AboutModule)},
+  { path: 'about', loadChildren: () => import('./pages/about/about.module').then(m => m.AboutModule) },
   { path: 'books', loadChildren: () => BooksModule },
   {
     matcher: (url: UrlSegment[]) => {
@@ -19,11 +19,11 @@ const routes: Routes = [
       return null;
     },
     loadChildren: () => import('./pages/maps/maps.module').then(m => m.MapsModule),
-    data: { animation: 'Maps'}
+    data: { animation: 'Maps' }
   },
   {
     matcher: (url: UrlSegment[]) => {
-      if (url.length >= 1 && (url[0].path ===  'macroscope' || url[0].path === 'macroscopes')) {
+      if (url.length >= 1 && (url[0].path === 'macroscope' || url[0].path === 'macroscopes')) {
         return {
           consumed: [url[0]]
         };
@@ -31,14 +31,18 @@ const routes: Routes = [
       return null;
     },
     loadChildren: () => import('./pages/macroscopes/macroscopes.module').then(m => m.MacroscopesModule),
-    data: { animation: 'Macroscopes'}
+    data: { animation: 'Macroscopes' }
   },
-  { path: 'hosting',
+  {
+    path: 'hosting',
     loadChildren: () => import('./pages/hosting/hosting.module').then(m => m.HostingModule),
     data: { animation: 'Hosting' }
   },
 
-  { path: 'venues', loadChildren: () => import('./pages/venues/venues.module').then(m => m.VenuesModule) },
+  {
+    path: 'venues',
+    loadChildren: () => import('./pages/venues/venues.module').then(m => m.VenuesModule)
+  },
   {
     path: 'learning-center',
     loadChildren: () => import('./pages/learning-center/learning-center.module').then(m => m.LearningCenterModule)
