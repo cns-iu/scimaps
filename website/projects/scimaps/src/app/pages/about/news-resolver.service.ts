@@ -40,7 +40,7 @@ export class NewsResolverService {
   }
 
   resolve(): Observable<NewsItem[]> | Observable<never> {
-    return this.contentService.getIndex<Params[]>('news').pipe(
+    return this.contentService.getIndex<Params>('news').pipe(
       take(1),
       map((items: Params[]) => {
         return items.map((item: Params) => {

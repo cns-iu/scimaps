@@ -53,7 +53,7 @@ export class VenuesComponent implements OnInit {
     const years  = new Set<string>();
     this.dataSource.data.forEach((item: Venue) => {
       const fullDate = new Date(item.dateStart);
-      const year = fullDate.getFullYear().toString();
+      const year = fullDate.getUTCFullYear().toString();
       if (!years.has(year)) {
         years.add(year);
       }

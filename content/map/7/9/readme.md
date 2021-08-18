@@ -83,7 +83,7 @@ zh:
   title: MACE类别分类学
   body: >-
     Moritz
-    Stefaner是一名数据可视化、信息美学和用户接口设计交叉领域的自由设计师。此地图描述了为MACE项目(http://mace-project.eu)开发和使用的分类系统。MACE项目旨在为教授和学习建筑提供更好的数字资源接口。地图以鸟瞰的方式展示了2800个标签资源的层级机构。这些标签条目主要以英语、西班牙语、德语、意大利语和荷兰语存在。从最普通的位于中间的条目开始，向外呈现的每条路径都代表了一条专业领域之路。圆形的覆盖区域表示的每个概念相关资源的数目，这也暗示了分类系统的使用模式。对项目中的主题内容专家而言，此地图对于分类系统的质量控制和迭代提升都是有用的。对于终端用户，图表的交互版本可以从MACE门户网站(http://portal.mace-project.eu/BrowseByClassification)上获得，此网站允许用户在可视化交互提升过程中检索和浏览上千种资源。
+    Stefaner是一名数据可视化、信息美学和用户接口设计交叉领域的自由设计师。此地图描述了为MACE项目([http://mace-project.eu](http://mace-project.eu))开发和使用的分类系统。MACE项目旨在为教授和学习建筑提供更好的数字资源接口。地图以鸟瞰的方式展示了2800个标签资源的层级机构。这些标签条目主要以英语、西班牙语、德语、意大利语和荷兰语存在。从最普通的位于中间的条目开始，向外呈现的每条路径都代表了一条专业领域之路。圆形的覆盖区域表示的每个概念相关资源的数目，这也暗示了分类系统的使用模式。对项目中的主题内容专家而言，此地图对于分类系统的质量控制和迭代提升都是有用的。对于终端用户，图表的交互版本可以从MACE门户网站[http://portal.mace-project.eu/BrowseByClassification](http://portal.mace-project.eu/BrowseByClassification)上获得，此网站允许用户在可视化交互提升过程中检索和浏览上千种资源。
   references:
     - >-
       Wolpers, Martin, Martin Memmel, and Moritz Stefaner. 2010. “Supporting

@@ -26,13 +26,17 @@ export class ProfileItemComponent {
     return this.profile.body;
   }
 
+  get curatorText(): string {
+    return this.profile.roles.filter((role: string) => role.includes('curator')).join(' ,');
+  }
+
   /** Profile content - truncated if necessary */
   get partialContent(): string {
     const {
       fullContent,
       maxContentLength
     } = this;
-    return `${fullContent.slice(0, maxContentLength)}...`;
+    return `${fullContent.slice(0, maxContentLength)} ${this.hasLongContent ? '...' : ''}`;
   }
 
   fullContentVisible = false;

@@ -1,6 +1,6 @@
 import { AfterViewInit, Component, HostListener, NgZone, OnDestroy, ViewChild } from '@angular/core';
 import { MatSidenavContainer } from '@angular/material/sidenav';
-import { ActivatedRoute, Params, Router, RouterOutlet } from '@angular/router';
+import { Params, Router, RouterOutlet } from '@angular/router';
 import { Select, Store } from '@ngxs/store';
 import { Observable, of, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
@@ -21,7 +21,7 @@ import { PageState } from './core/state/page/page.state';
   ]
 })
 export class AppComponent implements OnDestroy, AfterViewInit {
-  constructor(private activatedRoute: ActivatedRoute, private router: Router, private zone: NgZone, private store: Store) {
+  constructor(private router: Router, private zone: NgZone, private store: Store) {
   }
   @ViewChild(MatSidenavContainer) sidenavContainer!: MatSidenavContainer;
   hasPageScrolled = false;

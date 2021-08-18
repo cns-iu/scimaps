@@ -36,7 +36,7 @@ $breakpoint: 768px;
         display: flex;
         width: 50%;
         padding: 1rem;
-
+        font-size: 1rem;
         @media (max-width: $breakpoint) {
           width: 100%;
           padding-bottom: 2rem;
@@ -60,7 +60,7 @@ $breakpoint: 768px;
           }
 
           .bio {
-            padding-top: 1.5rem;
+            padding-top: 0.5rem;
           }
         }
       }

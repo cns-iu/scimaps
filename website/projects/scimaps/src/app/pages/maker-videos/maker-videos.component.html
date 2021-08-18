@@ -1,0 +1,36 @@
+<h1 class="header1">Maps and Macroscope Maker Videos</h1>
+
+<div class="description" markdown [data]="body.description">
+</div>
+<div class="spacer-32"></div>
+<div class="grid">
+    <div class="grid-item" *ngFor="let item of videos;let i = index;">
+        <div class="item-container" (click)="selectedItem = item; showOverlay = true">
+            <div class="thumbnail">
+                <img [src]="item.image" [alt]="item.image">
+             </div>
+             <div class="title">
+                 {{item.short_description}}
+             </div>
+        </div>
+    </div>
+</div>
+
+<sci-drawer [@drawerInOut] *ngIf="showOverlay && selectedItem" class="sci-drawer">
+    <div drawer class="drawer">
+        <sci-drawer-header backText="Makers Videos" (backClick)="showOverlay = false">
+        </sci-drawer-header>
+        <div class="overlay-container">
+            <iframe class="iframe"
+                [src]="selectedItem.videoLink | safe: 'resourceUrl'"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="spacer-72">
+            </div>
+            <div class="long-description" markdown [data]="selectedItem.long_description">
+            </div>
+        </div>
+    </div>
+</sci-drawer>
