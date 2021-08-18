@@ -26,7 +26,7 @@ en:
 
     The visualizations and accompanying information about _The Cosmic Web_ can
     be found at
-    [http://cosmicweb.barabasilab.com](http://cosmicweb.barabasilab.com).
+    [https://cosmicweb.kimalbrecht.com/](https://cosmicweb.kimalbrecht.com/).
   makers:
     - kim-albrecht/readme
     - albert-laszlo-barabasi/readme
@@ -37,5 +37,5 @@ en:
     sm: image.sm.jpg
     med: image.med.jpg
     lg: image.lg.jpg
-  externalLink: 'http://cosmicweb.barabasilab.com/'
+  externalLink: 'https://cosmicweb.kimalbrecht.com/'
 ---

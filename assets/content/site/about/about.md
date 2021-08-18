@@ -1,9 +1,9 @@
 ---
 overviewParagraph: "Drawing from across cultures and across scholarly
-  disciplines, Places & Spaces: Mapping Science demonstrates the power of maps
+  disciplines, *Places & Spaces: Mapping Science* demonstrates the power of maps
   to address vital questions about the contours and content of human knowledge.
   An interdisciplinary and international advisory board chose each one of the
-  works in the Places & Spaces: Mapping Science exhibit as an outstanding
+  works in the *Places & Spaces: Mapping Science* exhibit as an outstanding
   example of how visualization can bring patterns in scientific data into focus.
   The exhibit is curated by the Cyberinfrastructure for Network Science Center
   at Indiana University. The exhibit has been on display at over 382 venues in
@@ -28,8 +28,8 @@ curatorsDescription: The *Places & Spaces* exhibit is curated by
   networks. A specific focus is research on the structure and evolution of
   science and technology (S&T) and the communication of results via static and
   interactive maps of science. The Center's administrative home is in Luddy Hall
-  at the [School of Informatics, Computing, and
-  Engineering](http://soic.iu.edu/), Indiana University, Bloomington, Indiana,
+  at the [Luddy School of Informatics, Computing, and
+  Engineering](https://luddy.indiana.edu/index.html), Indiana University, Bloomington, Indiana,
   USA.
 advisoryBoardDescription: The pieces that make up the *Places & Spaces* exhibit
   are chosen annually in a process that begins with a call for submissions.

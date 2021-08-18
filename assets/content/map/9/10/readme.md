@@ -21,7 +21,7 @@ en:
     also be used as high-level descriptions of science evolution that, once
     interfaced with digital libraries, offer new ways to browse large datasets
     of documents. To explore the full phylomemy depicted in this map, visit
-    [http://fetphylo.sciencemapping.com](http://fetphylo.sciencemapping.com).
+    [https://iscpif.fr/chavalarias/?portfolio=science-phylomemy](https://iscpif.fr/chavalarias/?portfolio=science-phylomemy).
   makers:
     - david-chavalarias/readme
     - jean-philippe-cointet/readme
@@ -74,7 +74,7 @@ es:
     alto nivel de la evolución de la ciencia que, una vez interrelacionada con
     las bibliotecas digitales, ofrece nuevos caminos para ojear grandes
     conjuntos de datos de documentos. Para explorar toda la filomemia
-    representada en este mapa, visite http://fetphylo.sciencemapping.com.
+    representada en este mapa, visite [https://iscpif.fr/chavalarias/?portfolio=science-phylomemy](https://iscpif.fr/chavalarias/?portfolio=science-phylomemy).
   references:
     - >-
       Callon, Michel, Jean-Pierre Courtial, and Francoise Laville. 1991.
@@ -121,7 +121,7 @@ de:
     Bibliotheken verbunden sind, neue Möglichkeiten zum Durchsuchen großer
     Datenmengen von Dokumenten bieten. Um die gesamte Phylomemie, die auf dieser
     Karte dargestellt ist, zu erkunden, besuchen Sie bitte
-    http://fetphylo.sciencemapping.com.
+    [https://iscpif.fr/chavalarias/?portfolio=science-phylomemy](https://iscpif.fr/chavalarias/?portfolio=science-phylomemy).
   references:
     - >-
       Callon, Michel, Jean-Pierre Courtial, and Francoise Laville. 1991.
@@ -146,7 +146,7 @@ zh:
   title: 科学族谱
   body: >-
     巴黎法兰西岛复杂系统研究所（ISC-PIF）的信息科学家David Chavalarias和 Jean-Philippe
-    Cointet已经开发出一种通过大规模的数字资源分析来自动重建科学演化的模型：族谱学（phylomemies）。类似于生物系统发育，族谱学描述了科学领域随着时间的推移而产生的变异：从最简单的事件开始，如每一个领域的兴起或消亡，到一个更加复杂的转变，如领域的合并或分裂。这张地图是在对数千万科学论文元数据分析的基础上构建的，它首次展示了一个与未来和新兴技术相关的局部的静止的发展族谱概貌。这张地图上呈现的发展史分支显示了假体科学的学科发展情况，在进行一些植入设备（神经假体）的实验后，与早些年出现的脑机接口领域的结合使得假体科学领域产生了巨大变革。族谱学可以用来描述高级别的科学演化，一旦与数字图书馆相连，它将提供一种全新的浏览大数据集文档的方式。如若想进一步了解这个地图中所描绘的全族谱，请访问http://fetphylo.sciencemapping.com。
+    Cointet已经开发出一种通过大规模的数字资源分析来自动重建科学演化的模型：族谱学（phylomemies）。类似于生物系统发育，族谱学描述了科学领域随着时间的推移而产生的变异：从最简单的事件开始，如每一个领域的兴起或消亡，到一个更加复杂的转变，如领域的合并或分裂。这张地图是在对数千万科学论文元数据分析的基础上构建的，它首次展示了一个与未来和新兴技术相关的局部的静止的发展族谱概貌。这张地图上呈现的发展史分支显示了假体科学的学科发展情况，在进行一些植入设备（神经假体）的实验后，与早些年出现的脑机接口领域的结合使得假体科学领域产生了巨大变革。族谱学可以用来描述高级别的科学演化，一旦与数字图书馆相连，它将提供一种全新的浏览大数据集文档的方式。如若想进一步了解这个地图中所描绘的全族谱，请访问[https://iscpif.fr/chavalarias/?portfolio=science-phylomemy](https://iscpif.fr/chavalarias/?portfolio=science-phylomemy).
   references:
     - >-
       Callon, Michel, Jean-Pierre Courtial, and Francoise Laville. 1991.
