@@ -28,7 +28,7 @@ en:
     - >-
       Beauchesne, Olivier H. _Map of Scientific Collaborations_ from 2005 to
       2009. Accessed September 21, 2011.
-      ![http://collabo.olihb.com/](http://collabo.olihb.com/).
+      <div class="fakeurl">http://collabo.olihb.com/</div>.
 
 
       Butler, Paul. 2010. “Visualizing Friendships.” Facebook. Accessed
@@ -73,7 +73,7 @@ es:
     - >-
       Beauchesne, Olivier H. _Map of Scientific Collaborations_ from 2005 to
       2009. Accessed September 21, 2011.
-      ![http://collabo.olihb.com/](http://collabo.olihb.com/).
+      <div class="fakeurl">http://collabo.olihb.com/</div>.
 
 
       Butler, Paul. 2010. “Visualizing Friendships.” Facebook. Accessed
@@ -99,7 +99,7 @@ zh:
     - >-
       Beauchesne, Olivier H. _Map of Scientific Collaborations_ from 2005 to
       2009. Accessed September 21, 2011.
-      ![http://collabo.olihb.com/](http://collabo.olihb.com/).
+      <div class="fakeurl">http://collabo.olihb.com/</div>.
 
 
       Butler, Paul. 2010. “Visualizing Friendships.” Facebook. Accessed
@@ -141,7 +141,7 @@ de:
     - >-
       Beauchesne, Olivier H. _Map of Scientific Collaborations_ from 2005 to
       2009. Accessed September 21, 2011.
-      ![http://collabo.olihb.com/](http://collabo.olihb.com/).
+      <div class="fakeurl">http://collabo.olihb.com/</div>.
 
 
       Butler, Paul. 2010. “Visualizing Friendships.” Facebook. Accessed
@@ -179,7 +179,7 @@ pl:
     - >-
       Beauchesne, Olivier H. _Map of Scientific Collaborations_ from 2005 to
       2009. Accessed September 21, 2011.
-      ![http://collabo.olihb.com/](http://collabo.olihb.com/).
+      <div class="fakeurl">http://collabo.olihb.com/</div>.
 
 
       Butler, Paul. 2010. “Visualizing Friendships.” Facebook. Accessed
