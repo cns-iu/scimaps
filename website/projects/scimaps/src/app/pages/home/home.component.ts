@@ -16,7 +16,7 @@ export class HomeComponent {
   };
   testActionItem: ActionCardItem = {
     title: 'Visual Analytics Certificate',
-    subtitle: 'Sept 20-Oct 30, 2022',
+    subtitle: 'Sept 20-Oct 30, 2021',
     body: 'A six-week online course focused on understanding and creating data visualizations that translate complex data into actionable insights.',
     buttonLabel: 'Register',
     buttonLink: 'https://expand.iu.edu/browse/sice/cns/courses/visual-analytics-0921-open',
