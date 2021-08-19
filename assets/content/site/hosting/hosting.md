@@ -21,7 +21,7 @@ overview: >-
 
   * Television or monitor to play the exhibit video
 
-  * Screening of [Humanexus](/learning-material/humanexus) short film
+  * Screening of [Humanexus](https://scimaps.org/hosting/learning-material/humanexus) short film
 install_guide: exhibit-install-guide.pdf
 master_booklet: exhibit-master-booklet.pdf
 carousel:
@@ -61,7 +61,7 @@ tabs:
 
       * 1 customized introductory panel
 
-      * Interactive elements, including the award-winning [Humanexus](/learning-material/humanexus) short film
+      * Interactive elements, including the award-winning [Humanexus](https://scimaps.org/hosting/learning-material/humanexus) short film
 
       * 3 WorldProcessor globes
 
