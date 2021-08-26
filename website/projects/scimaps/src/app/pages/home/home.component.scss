@@ -31,7 +31,7 @@ $desktop: 1248px;
     z-index: 2;
     max-width: 960px;
     width: 25vw;
-    @media screen and (max-width: $mobile) {
+    @media screen and (max-width: $tablet) {
       width: 50vw;
     }
     img {
