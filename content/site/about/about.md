@@ -16,11 +16,8 @@ overviewQuote: >-
 
   </blockquote>
 
-  <cite>
 
   <a href="http://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964">Kristi Holmes, PhD</a>, director of the Galter Health Sciences Library and associate professor in <a href="http://informatics.northwestern.edu/hbmi/">Preventive Medicine-Health and Biomedical Informatics</a>
-
-  </cite>
 curatorsDescription: The *Places & Spaces* exhibit is curated by
   the [Cyberinfrastructure for Network Science Center](http://cns.iu.edu/) at
   Indiana University. CNS's mission is to advance datasets, tools, and services
@@ -29,8 +26,8 @@ curatorsDescription: The *Places & Spaces* exhibit is curated by
   science and technology (S&T) and the communication of results via static and
   interactive maps of science. The Center's administrative home is in Luddy Hall
   at the [Luddy School of Informatics, Computing, and
-  Engineering](https://luddy.indiana.edu/index.html), Indiana University, Bloomington, Indiana,
-  USA.
+  Engineering](https://luddy.indiana.edu/index.html), Indiana University,
+  Bloomington, Indiana, USA.
 advisoryBoardDescription: The pieces that make up the *Places & Spaces* exhibit
   are chosen annually in a process that begins with a call for submissions.
   Then, the team of international reviewers and exhibit advisors shown below
