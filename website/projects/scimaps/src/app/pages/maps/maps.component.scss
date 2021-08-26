@@ -15,6 +15,12 @@ $breakpoint: 768px;
     .swiper-button-prev::after, .swiper-button-next::after {
       color: white !important;
     }
+    // maps override
+    .maps-carousel {
+      .swiper-button-prev, .swiper-button-next {
+        top: 50vh !important
+      }
+    }
   }
 }
 
