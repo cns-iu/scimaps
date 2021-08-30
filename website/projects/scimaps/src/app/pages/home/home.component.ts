@@ -15,11 +15,11 @@ export class HomeComponent {
     'background-image': 'url(assets/images/home/image01.png)'
   };
   testActionItem: ActionCardItem = {
-    title: 'Visual Analytics Certificate',
-    subtitle: 'Sept 20-Oct 30, 2021',
-    body: 'A six-week online course focused on understanding and creating data visualizations that translate complex data into actionable insights.',
-    buttonLabel: 'Register',
-    buttonLink: 'https://expand.iu.edu/browse/sice/cns/courses/visual-analytics-0921-open',
-    imageSource: 'assets/action-card/image1.jpg'
+    title: 'Atlas of Forecasts: Modeling and mapping desirable futures.',
+    subtitle: '',
+    body: 'A new book from Katy Börner! This third book in the series focuses on using models and visualizations to help society envision and create the future we want.',
+    buttonLabel: 'Purchase',
+    buttonLink: 'https://www.amazon.com/Atlas-Forecasts-Modeling-Mapping-Desirable/dp/0262045958/ref=[…]&keywords=borner+atlas+forecast&qid=1620409272&s=books&sr=1-1',
+    imageSource: 'assets/action-card/cta-atlas-of-forecasts.jpg'
   };
 }
