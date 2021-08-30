@@ -50,7 +50,7 @@
 </div>
 
 <!-- Tab View -->
-<mat-tab-group mat-align-tabs="start">
+<mat-tab-group class="tab-view" mat-align-tabs="start">
   <ng-container *ngFor="let tab of pageTabs; let i = index">
     <mat-tab [label]="pageTabs[i]">
       <ng-template [ngIf]="i == 0">
