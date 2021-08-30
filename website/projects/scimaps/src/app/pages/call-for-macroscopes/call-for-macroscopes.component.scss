@@ -68,16 +68,23 @@ $desktop: 1248px;
       }
       button.submit {
         width: 100%;
-        height: 2rem;
-        background-color: white;
-        color: #7996a3;
-        border: 2px solid #7996a3;
+        height: 40px;
         cursor: pointer;
-        &:hover {
-          background-color: #7996a3;
-          color: white;
+        &.active {
+          background-color: white;
+          color: #7996a3;
+          border: 2px solid #7996a3;
+
+          &:hover {
+            background-color: #7996a3;
+            color: white;
+          }
         }
 
+        &.disabled {
+        }
+
+        
       }
       .call-out {
         flex: 1;
