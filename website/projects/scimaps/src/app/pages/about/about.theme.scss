@@ -1,4 +1,5 @@
 @use '~@angular/material/theming' as *;
+@import '../../../styling/breakpoints';
 
 @mixin color($config-or-theme) {
   $config: mat-get-color-config($config-or-theme);
@@ -18,15 +19,24 @@
     }
   }
 
-  mat-tab-group {
+  mat-tab-group.tab-view {
     mat-tab-header {
       .mat-tab-label-container {
+        .mat-ink-bar {
+          display: none;
+        }
         .mat-tab-labels {
-          flex-direction: column;
+          .mat-tab-label-active {
+            border-bottom: 2px solid #8dc63f !important;
+          }
+          @media screen and (max-width: $mobile) {
+            flex-direction: column; 
+          }
         }
       }
     }
   }
+
 }
 
 @mixin theme($theme) {
