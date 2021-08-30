@@ -11,6 +11,7 @@ interface CallForMacroscopesBody {
   pdfLink: string;
   lastIteration: number;
   tabs: {header: string, content: string}[];
+  allowSubmissions: boolean;
 }
 
 @Injectable({
