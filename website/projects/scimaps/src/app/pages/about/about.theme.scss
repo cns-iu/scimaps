@@ -17,6 +17,16 @@
       text-align: center;
     }
   }
+
+  mat-tab-group {
+    mat-tab-header {
+      .mat-tab-label-container {
+        .mat-tab-labels {
+          flex-direction: column;
+        }
+      }
+    }
+  }
 }
 
 @mixin theme($theme) {
