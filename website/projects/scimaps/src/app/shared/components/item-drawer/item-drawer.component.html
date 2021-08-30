@@ -39,9 +39,9 @@
       </div>
 
       <div class="details-image" >
-        <div class="container" [ngClass]="{'clickable': item.externalLink ? true : false}" (click)="redirect(item.externalLink)">
+        <div class="container">
           <img class="thumbnail" [src]="item.thumbnail" alt="item image">
-          <div class="icon" *ngIf="item.externalLink">
+          <div class="icon" *ngIf="item.externalLink && false">
             <mat-icon *ngIf="type === 'map'" class="zoom">zoom_in</mat-icon>
             <mat-icon *ngIf="type === 'macroscope'" class="launch">launch</mat-icon>
           </div>
