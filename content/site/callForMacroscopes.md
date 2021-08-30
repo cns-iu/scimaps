@@ -122,4 +122,5 @@ importantDates:
     label: Submit final entries
   - date: 2021-08-31T19:23:56.435Z
     label: Iteration ready for display
+allowSubmission: true
 ---
