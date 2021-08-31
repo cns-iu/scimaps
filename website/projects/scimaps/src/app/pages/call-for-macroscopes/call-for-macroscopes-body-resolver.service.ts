@@ -11,7 +11,7 @@ interface CallForMacroscopesBody {
   pdfLink: string;
   lastIteration: number;
   tabs: {header: string, content: string}[];
-  allowSubmissions: boolean;
+  allowSubmission: boolean;
 }
 
 @Injectable({
@@ -31,6 +31,7 @@ export class CallForMacroscopesBodyResolver implements Resolve<CallForMacroscope
             response.pdfLink = `${this.directory}/${response.pdfLink}`;
           }
         }
+        console.log(response);
         return response;
       })
     );
