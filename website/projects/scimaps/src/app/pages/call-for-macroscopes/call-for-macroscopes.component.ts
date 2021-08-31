@@ -22,7 +22,7 @@ export class CallForMacroscopesComponent implements OnInit {
 
   submitURL = '';
   pdfLink = '';
-  allowSubmission: boolean = true;
+  allowSubmission = true;
   constructor(private route: ActivatedRoute, private datePipe: DatePipe) {
   }
 
