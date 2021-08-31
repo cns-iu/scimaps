@@ -14,7 +14,7 @@
                 <img [src]="image.sm" [alt]="image.sm">
             </div>
         </div>
-        <sci-drawer *ngIf="showOverlay && overlayImage" class="sci-drawer">
+        <sci-drawer [@drawerInOut] *ngIf="showOverlay && overlayImage" class="sci-drawer">
             <div drawer class="drawer">
                 <sci-drawer-header backText="gallery" (backClick)="showOverlay = false">
                 </sci-drawer-header>
