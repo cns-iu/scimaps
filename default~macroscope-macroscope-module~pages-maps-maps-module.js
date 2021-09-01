@@ -242,7 +242,7 @@ ItemDrawerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("@drawerInOut", ctx.showDrawer ? "show" : "hide");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("backText", ctx.type + "s");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("backText", "Iteration");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.type === "map");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
