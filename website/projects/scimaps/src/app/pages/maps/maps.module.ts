@@ -11,6 +11,7 @@ import { CarouselModule } from '../../shared/components/carousel/carousel.module
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 import { SharedModule } from '../../shared/shared.module';
 import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
+import { TileModule } from '../../shared/components/tile/tile.module';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer
     ItemDrawerModule,
     DrawerModule,
     SharedModule,
-    DrawerHeaderModule
+    DrawerHeaderModule,
+    TileModule
   ]
 })
 export class MapsModule { }
