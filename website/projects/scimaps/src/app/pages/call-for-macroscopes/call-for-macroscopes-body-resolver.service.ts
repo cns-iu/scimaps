@@ -31,7 +31,6 @@ export class CallForMacroscopesBodyResolver implements Resolve<CallForMacroscope
             response.pdfLink = `${this.directory}/${response.pdfLink}`;
           }
         }
-        console.log(response);
         return response;
       })
     );
