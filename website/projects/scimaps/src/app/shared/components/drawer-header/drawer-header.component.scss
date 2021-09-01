@@ -3,13 +3,11 @@
 :host {
   width: 100%;
   .drawer-header {
-    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 1.5rem;
     .back-button {
-      position: absolute;
       display: flex;
       align-items: center;
       justify-self: flex-start;
