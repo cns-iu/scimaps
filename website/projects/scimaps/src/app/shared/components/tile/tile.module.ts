@@ -8,6 +8,7 @@ import { TileComponent } from './tile.component';
   declarations: [TileComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [TileComponent]
 })
 export class TileModule { }
