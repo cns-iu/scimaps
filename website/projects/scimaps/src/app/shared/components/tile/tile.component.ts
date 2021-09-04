@@ -1,5 +1,5 @@
 import { Component, NgZone, OnInit } from '@angular/core';
-import { Params } from '@angular/router';
+import { ActivatedRoute, Params } from '@angular/router';
 import * as OpenSeadragon from 'openseadragon';
 
 @Component({
@@ -9,12 +9,14 @@ import * as OpenSeadragon from 'openseadragon';
 })
 export class TileComponent implements OnInit {
 
-  constructor(private zone: NgZone) { }
-
+  constructor(private zone: NgZone, private route: ActivatedRoute) { }
+  baseURL = 'https://scimaps.org/assets/map-tiles'
+  tile: string = 'map_of_the_internet_172'; 
   ngOnInit(): void {
+    console.log(this.route);
     this.makeMap(
       'map_canvas',
-      'http://stage.scimaps.org/images/maps/tiles/1996_map_of_science__30',
+      `${this.baseURL}/${this.tile}`,
       {
         zoom_origin: 0,
         min_viewable_zoom: 1,
@@ -49,6 +51,7 @@ export class TileComponent implements OnInit {
           } 
         }
       });
+      os.setFullScreen(true);
       console.log(os);
     });
   }
@@ -62,5 +65,9 @@ export class TileComponent implements OnInit {
         return "";
       }
     });
+  }
+
+  close() {
+
   }
 }
