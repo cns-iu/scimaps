@@ -61,7 +61,6 @@ export class TileComponent implements OnInit, AfterViewInit {
           } 
         }
       });
-      openSeadragon.setFullScreen(true);
     });
   }
 

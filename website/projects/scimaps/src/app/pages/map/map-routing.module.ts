@@ -15,7 +15,7 @@ const routes: Routes = [
     runGuardsAndResolvers: 'paramsOrQueryParamsChange',
     children: [
       {
-        path: 'details',
+        path: 'detail',
         component: TileComponent,
       },
     ],
