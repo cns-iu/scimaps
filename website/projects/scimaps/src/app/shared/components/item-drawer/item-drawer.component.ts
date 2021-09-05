@@ -1,6 +1,6 @@
 import { Component, EventEmitter, HostBinding, Input, OnInit, Output } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { drawerInOut } from '../../../constants/drawer.animations';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.component';
@@ -40,7 +40,7 @@ export class ItemDrawerComponent implements OnInit {
   showDrawer = false;
 
   makersDrawer = false;
-  constructor(private dialog: MatDialog, private router: Router) { }
+  constructor(private dialog: MatDialog, private router: Router, private route: ActivatedRoute) { }
   ngOnInit(): void {
     this.showDrawer = true;
   }
@@ -81,8 +81,12 @@ export class ItemDrawerComponent implements OnInit {
   }
 
   redirect(link: string): void {
-    if (link) {
-      window.open(link, '_blank');
+    if (this.type === 'map') {
+      this.router.navigate(['details'], {relativeTo: this.route});
+    } else {
+      if (link) {
+        window.open(link, '_blank');
+      }
     }
   }
 }

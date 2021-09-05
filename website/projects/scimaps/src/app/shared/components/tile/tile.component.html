@@ -1,7 +1,7 @@
 
-<sci-drawer>
+<sci-drawer [@drawerInOut] *ngIf="show">
     <div drawer>
-        <sci-drawer-header backText="Back" title="Gallery" (backClick)="close()"></sci-drawer-header>
+        <sci-drawer-header backText="Back" (backClick)="close()"></sci-drawer-header>
         <div id="map_canvas">
         </div>
     </div>

@@ -38,10 +38,11 @@
         </div>
       </div>
 
-      <div class="details-image" >
-        <div class="container">
+      <div class="details-image">
+        <div [routerLink]="'/map/10/2/details'">{{item.externalLink}}</div>
+        <div class="container" [ngClass]="{'clickable': item.externalLink ? true : false}" (click)="redirect(item.externalLink)">
           <img class="thumbnail" [src]="item.thumbnail" alt="item image">
-          <div class="icon" *ngIf="item.externalLink && false">
+          <div class="icon" *ngIf="item.externalLink">
             <mat-icon *ngIf="type === 'map'" class="zoom">zoom_in</mat-icon>
             <mat-icon *ngIf="type === 'macroscope'" class="launch">launch</mat-icon>
           </div>
@@ -57,6 +58,8 @@
         </sci-makers-subdrawer>
       </div>
     </sci-drawer>
+
+    <ng-content [select]="details">
+    </ng-content>
   </div>
 </sci-drawer>
-

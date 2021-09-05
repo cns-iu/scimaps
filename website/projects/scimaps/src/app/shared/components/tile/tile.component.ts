@@ -1,19 +1,29 @@
-import { Component, NgZone, OnInit } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
+import { AfterViewInit, Component, NgZone, OnInit } from '@angular/core';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import * as OpenSeadragon from 'openseadragon';
+import { drawerInOut } from '../../../constants/drawer.animations';
 
 @Component({
   selector: 'sci-tile',
   templateUrl: './tile.component.html',
-  styleUrls: ['./tile.component.scss']
+  styleUrls: ['./tile.component.scss'],
+  animations: [drawerInOut]
 })
-export class TileComponent implements OnInit {
+export class TileComponent implements OnInit, AfterViewInit {
 
-  constructor(private zone: NgZone, private route: ActivatedRoute) { }
-  baseURL = 'https://scimaps.org/assets/map-tiles'
+  constructor(private zone: NgZone, private route: ActivatedRoute, private router: Router) { }
+  baseURL = 'https://scimaps.org/assets/map-tiles';
   tile: string = 'map_of_the_internet_172'; 
+  show = false;
   ngOnInit(): void {
-    console.log(this.route);
+    this.show = true;
+    const parentSnapshot = this.route.parent?.snapshot;
+    const map = parentSnapshot?.data.map;
+    const segments = map.externalLink.split('/');
+    this.tile = segments[segments.length  - 2];
+  }
+
+  ngAfterViewInit() {
     this.makeMap(
       'map_canvas',
       `${this.baseURL}/${this.tile}`,
@@ -31,10 +41,10 @@ export class TileComponent implements OnInit {
   }
 
 
-  makeMap(id: string, baseDir: string, params: Params) {
-    const viewer = this.zone.runOutsideAngular(() => {
+  private makeMap(id: string, baseDir: string, params: Params) {
+    this.zone.runOutsideAngular(() => {
       const width = (Math.pow(params.max_viewable_zoom, 2) + 1) * params.tile_size;
-      const os = OpenSeadragon({
+      const openSeadragon = OpenSeadragon({
         id: id,
 				prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.3.1/images/",
         defaultZoomLevel: params.zoom_origin,
@@ -51,12 +61,11 @@ export class TileComponent implements OnInit {
           } 
         }
       });
-      os.setFullScreen(true);
-      console.log(os);
+      openSeadragon.setFullScreen(true);
     });
   }
 
-  applyTemplate(string: string, data: Params) {
+  private applyTemplate(string: string, data: Params) {
     return string.replace(/#\{(\w*)\}/g, function() {
       var value = data[ arguments[1] ];
       if (value !== null && value !== undefined) {
@@ -68,6 +77,13 @@ export class TileComponent implements OnInit {
   }
 
   close() {
-
+    const parentSnapshot = this.route.parent?.snapshot;
+    const params: Params | undefined = parentSnapshot?.params;
+    this.show = false;
+    setTimeout(() => {
+      if (params) {
+        this.router.navigate(['/', 'map', params?.iteration,  params?.sequence]);
+      }
+    }, 500);
   }
 }
