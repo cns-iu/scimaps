@@ -28,15 +28,14 @@ export class TileComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
     this.makeMap(
       'map_canvas',
-      `${this.baseURL}/${this.tile}`,
-      {
+      `${this.baseURL}/${this.tile}`, {
         zoom_origin: 0,
         min_viewable_zoom: 1,
         max_viewable_zoom: 4,
-				background_color: '#333',
-				tile_file_template: '#{zoom}_#{x}_#{y}.png',
-				tile_size: 256,
-				info_text: 'See <a href="/mapdetail/1996_map_of_science__30">this page</a> for info, including copyright',
+        background_color: '#333',
+        tile_file_template: '#{zoom}_#{x}_#{y}.png',
+        tile_size: 256,
+        info_text: 'See <a href="/mapdetail/1996_map_of_science__30">this page</a> for info, including copyright',
         other: {}
       }
     );
@@ -48,7 +47,7 @@ export class TileComponent implements OnInit, AfterViewInit {
       const width = (Math.pow(params.max_viewable_zoom, 2) + 1) * params.tile_size;
       const openSeadragon = OpenSeadragon({
         id,
-				prefixUrl: 'https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.3.1/images/',
+        prefixUrl: 'https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.3.1/images/',
         defaultZoomLevel: params.zoom_origin,
         maxZoomLevel: params.max_viewable_zoom,
         tileSources: {
@@ -58,7 +57,7 @@ export class TileComponent implements OnInit, AfterViewInit {
           minLevel: 1,
           maxLevel: 4,
           getTileUrl: (zoom, x, y) => {
-            const templateArguments = { zoom: zoom, x: x, y: y};
+            const templateArguments = { zoom, x, y};
             return this.applyTemplate(baseDir + '/' + params.tile_file_template , templateArguments);
           }
         }
@@ -66,9 +65,9 @@ export class TileComponent implements OnInit, AfterViewInit {
     });
   }
 
-  private applyTemplate(string: string, data: Params): string {
-    return string.replace(/#\{(\w*)\}/g, function() {
-      let value = data[ arguments[1] ];
+  private applyTemplate(input: string, data: Params): string {
+    return input.replace(/#\{(\w*)\}/g, () => {
+      const value = data[ arguments[1] ];
       if (value !== null && value !== undefined) {
         return value;
       } else {
