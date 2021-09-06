@@ -11,7 +11,7 @@ const routes: Routes = [
   {
     path: 'tile',
     component: TileComponent
-  }, 
+  },
   {
   path: '',
   component: MapsComponent,
