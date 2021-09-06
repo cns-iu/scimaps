@@ -19,8 +19,10 @@ export class TileComponent implements OnInit, AfterViewInit {
     this.show = true;
     const parentSnapshot = this.route.parent?.snapshot;
     const map = parentSnapshot?.data.map;
-    const segments = map.externalLink.split('/');
-    this.tile = segments[segments.length  - 2];
+    if (map) {
+      const segments = map.externalLink.split('/');
+      this.tile = segments[segments.length  - 2];
+    }
   }
 
   ngAfterViewInit() {
