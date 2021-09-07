@@ -32,9 +32,7 @@ export class TileComponent implements OnInit, AfterViewInit {
         zoom_origin: 0,
         min_viewable_zoom: 1,
         max_viewable_zoom: 4,
-        background_color: '#333',
         tile_size: 256,
-        info_text: 'See <a href="/mapdetail/1996_map_of_science__30">this page</a> for info, including copyright',
         other: {}
       }
     );
@@ -53,8 +51,8 @@ export class TileComponent implements OnInit, AfterViewInit {
           height: width,
           width,
           tileSize: params.tile_size,
-          minLevel: 1,
-          maxLevel: 4,
+          minLevel: params.min_viewable_zoom,
+          maxLevel: params.max_viewable_zoom,
           getTileUrl: (zoom, x, y) => {
             return baseDir + '/' + `${zoom}_${x}_${y}.png`;
           }
