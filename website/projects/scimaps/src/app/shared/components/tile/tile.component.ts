@@ -66,8 +66,8 @@ export class TileComponent implements OnInit, AfterViewInit {
   }
 
   private applyTemplate(input: string, data: Params): string {
-    return input.replace(/#\{(\w*)\}/g, () => {
-      const value = data[ arguments[1] ];
+    return input.replace(/#\{(\w*)\}/g, (...args) => {
+      const value = data[ args[1] ];
       if (value !== null && value !== undefined) {
         return value;
       } else {
