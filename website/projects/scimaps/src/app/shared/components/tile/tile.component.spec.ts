@@ -29,4 +29,8 @@ describe('TileComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('should close', () => {
+    component.close()
+    expect(component.show).toBeFalse();
+  });
 });
