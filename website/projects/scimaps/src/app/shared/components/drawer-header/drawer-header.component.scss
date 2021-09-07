@@ -2,14 +2,15 @@
 
 :host {
   width: 100%;
+  display: flex;
+  margin-bottom: 1.5rem;
+
   .drawer-header {
-    position: relative;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 1.5rem;
     .back-button {
-      position: absolute;
       display: flex;
       align-items: center;
       justify-self: flex-start;
@@ -33,6 +34,8 @@
       width: 100%;
       display: flex;
       justify-content: space-around;
+      margin-left: auto;
+      margin-right: auto;
       h3 {
         margin-bottom: 0;
       }

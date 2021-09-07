@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
+import { RouterModule } from '@angular/router';
 import { MarkdownModule } from 'ngx-markdown';
 import { SharedModule } from '../../shared.module';
 import { DrawerHeaderModule } from '../drawer-header/drawer-header.module';
@@ -18,7 +19,8 @@ import { ItemDrawerComponent } from './item-drawer.component';
     SharedModule,
     DrawerModule,
     DrawerHeaderModule,
-    MakersSubdrawerModule
+    MakersSubdrawerModule,
+    RouterModule
   ],
   declarations: [ItemDrawerComponent],
   exports: [ItemDrawerComponent]
