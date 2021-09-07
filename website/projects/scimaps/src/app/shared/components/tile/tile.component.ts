@@ -45,7 +45,7 @@ export class TileComponent implements OnInit, AfterViewInit {
   private makeMap(id: string, baseDir: string, params: Params): void {
     this.zone.runOutsideAngular(() => {
       const width = (Math.pow(params.max_viewable_zoom, 2) + 1) * params.tile_size;
-      const openSeadragon = OpenSeadragon({
+      OpenSeadragon({
         id,
         prefixUrl: 'https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.3.1/images/',
         defaultZoomLevel: params.zoom_origin,
