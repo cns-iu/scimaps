@@ -33,7 +33,6 @@ export class TileComponent implements OnInit, AfterViewInit {
         min_viewable_zoom: 1,
         max_viewable_zoom: 4,
         background_color: '#333',
-        tile_file_template: '#{zoom}_#{x}_#{y}.png',
         tile_size: 256,
         info_text: 'See <a href="/mapdetail/1996_map_of_science__30">this page</a> for info, including copyright',
         other: {}
@@ -57,22 +56,10 @@ export class TileComponent implements OnInit, AfterViewInit {
           minLevel: 1,
           maxLevel: 4,
           getTileUrl: (zoom, x, y) => {
-            const templateArguments = { zoom, x, y};
-            return this.applyTemplate(baseDir + '/' + params.tile_file_template , templateArguments);
+            return baseDir + '/' + `${zoom}_${x}_${y}.png`;
           }
         }
       });
-    });
-  }
-
-  private applyTemplate(input: string, data: Params): string {
-    return input.replace(/#\{(\w*)\}/g, (...args) => {
-      const value = data[ args[1] ];
-      if (value !== null && value !== undefined) {
-        return value;
-      } else {
-        return '';
-      }
     });
   }
 
