@@ -23,6 +23,10 @@ $breakpoint: 768px;
       display: flex;
       flex-direction: row;
       margin-bottom: 1rem;
+
+      .sci-drawer-header {
+        margin-bottom: 0;
+      }
     }
     .purchase-button {
       height: 2.25rem;
