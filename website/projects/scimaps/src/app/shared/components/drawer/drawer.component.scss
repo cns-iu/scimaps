@@ -13,8 +13,8 @@ $top: 72px;
     height: calc(100% - #{$top});
     overflow-y: scroll;
 
-
     .main {
+        height: 100%;
         width: 100%;
         padding: 0 1rem;
         max-width: 80rem;
