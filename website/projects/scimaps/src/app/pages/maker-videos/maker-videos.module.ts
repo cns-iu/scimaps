@@ -7,17 +7,18 @@ import { MarkdownModule } from 'ngx-markdown';
 import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 import { SafePipe } from '../../pipes/safe.pipe';
+import { MakerVideoModule } from '../../shared/components/maker-video/maker-video.module';
 
 
 @NgModule({
-  declarations: [MakerVideosComponent, SafePipe],
+  declarations: [MakerVideosComponent],
   imports: [
     CommonModule,
     MakerVideosRoutingModule,
     MarkdownModule,
     DrawerHeaderModule,
-    DrawerModule
-  ],
-  providers: [SafePipe]
+    DrawerModule,
+    MakerVideoModule
+  ]
 })
 export class MakerVideosModule { }

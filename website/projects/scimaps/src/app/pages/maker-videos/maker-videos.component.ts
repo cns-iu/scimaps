@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import { drawerInOut } from '../../constants/drawer.animations';
 import { MakerVideosBody } from './maker-videos-body-resolver.service';
 import { MakerVideo } from './maker-videos-resolver.service';
@@ -18,7 +18,7 @@ export class MakerVideosComponent implements OnInit {
   showOverlay = false;
   selectedItem: MakerVideo | null = null;
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
     this.route.data.subscribe((data: Params) => {
@@ -30,6 +30,10 @@ export class MakerVideosComponent implements OnInit {
         this.videos = videos;
       }
     });
+  }
+
+  gotoVideo(slug: string) {
+    this.router.navigate([slug], {relativeTo: this.route});
   }
 
 }
