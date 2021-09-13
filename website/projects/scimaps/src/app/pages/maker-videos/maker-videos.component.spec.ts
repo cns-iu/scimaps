@@ -10,7 +10,6 @@ import { MakerVideosModule } from './maker-videos.module';
 describe('MakerVideosComponent', () => {
   let component: MakerVideosComponent;
   let fixture: ComponentFixture<MakerVideosComponent>;
-  let router: Router;
   beforeEach(async () => {
     const route = { data: of({}) };
     const routerValue = {
@@ -30,7 +29,6 @@ describe('MakerVideosComponent', () => {
     fixture = TestBed.createComponent(MakerVideosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-    router = TestBed.inject(Router);
   });
 
   it('should create', () => {

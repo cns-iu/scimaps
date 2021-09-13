@@ -3,10 +3,9 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { ActivatedRoute, Router } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
 import { MarkdownModule } from 'ngx-markdown';
-import { of } from 'rxjs';
-
 import { MakerVideoComponent } from './maker-video.component';
 import { MakerVideoModule } from './maker-video.module';
+
 
 describe('MakerVideoComponent', () => {
   let component: MakerVideoComponent;
