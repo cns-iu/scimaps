@@ -148,4 +148,10 @@ $breakpoint: 768px;
       display: none;
     }
   }
+
+  sci-drawer.sci-drawer {
+    @media screen and (min-width: $mobile) {
+      display: none;
+    }
+  }
 } 
