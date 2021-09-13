@@ -1,6 +1,6 @@
 ---
 order: 4
-title: Sculptures of Science
+title: Sculpture of Science
 image:
   sm: image.sm.jpg
   lg: image.lg.jpg
