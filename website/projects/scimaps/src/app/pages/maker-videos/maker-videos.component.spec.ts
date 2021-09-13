@@ -13,9 +13,9 @@ describe('MakerVideosComponent', () => {
   let router: Router;
   beforeEach(async () => {
     const route = { data: of({}) };
-    let routerValue = {
-      navigate: jasmine.createSpy('navigate') 
-    }
+    const routerValue = {
+      navigate: jasmine.createSpy('navigate')
+    };
     await TestBed.configureTestingModule({
       imports: [MakerVideosModule, MarkdownModule.forRoot(), RouterTestingModule],
       providers: [

@@ -16,7 +16,7 @@ describe('MakerVideoComponent', () => {
     const route = {snapshot: {params: {}, data: {}}};
     const routerValue = {
       navigate: jasmine.createSpy('navigate')
-    }
+    };
     await TestBed.configureTestingModule({
       imports: [MakerVideoModule, RouterTestingModule, MarkdownModule.forRoot(), NoopAnimationsModule],
       providers: [
@@ -31,7 +31,7 @@ describe('MakerVideoComponent', () => {
     fixture = TestBed.createComponent(MakerVideoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-    router = TestBed.inject(Router)
+    router = TestBed.inject(Router);
   });
 
   it('should create', () => {
