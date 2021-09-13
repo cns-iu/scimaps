@@ -32,7 +32,7 @@ export class MakerVideosComponent implements OnInit {
     });
   }
 
-  gotoVideo(slug: string) {
+  gotoVideo(slug: string): void {
     this.router.navigate([slug], {relativeTo: this.route});
   }
 
