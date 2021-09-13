@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MakerVideoComponent } from './maker-video.component';
-import { DrawerModule } from '../drawer/drawer.module';
-import { DrawerHeaderModule } from '../drawer-header/drawer-header.module';
-import { SafePipe, SafePipeModule } from '../../../pipes/safe.pipe';
+import { NgModule } from '@angular/core';
 import { MarkdownModule } from 'ngx-markdown';
+import { SafePipeModule } from '../../../pipes/safe.pipe';
+import { DrawerHeaderModule } from '../drawer-header/drawer-header.module';
+import { DrawerModule } from '../drawer/drawer.module';
+import { MakerVideoComponent } from './maker-video.component';
 
 
 
@@ -12,7 +12,10 @@ import { MarkdownModule } from 'ngx-markdown';
   declarations: [MakerVideoComponent],
   imports: [
     CommonModule,
-    DrawerModule
+    DrawerModule,
+    DrawerHeaderModule,
+    MarkdownModule,
+    SafePipeModule
   ],
   exports: [
     MakerVideoComponent
