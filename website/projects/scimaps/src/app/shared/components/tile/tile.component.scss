@@ -1,5 +1,10 @@
 :host {
+
+    .drawer {
+        height: 100%;
+    }
     #map_canvas {
-        height: 100vh;
+        height: 85%;
+        margin-bottom: 2rem;
     }
 }

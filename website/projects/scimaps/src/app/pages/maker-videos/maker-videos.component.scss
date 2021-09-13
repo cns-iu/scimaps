@@ -44,24 +44,4 @@ $desktop: 1248px;
       }
     }
   }
-
-  // Overlay styling
-  $bgcolor: black;
-  .sci-drawer {
-    background-color: $bgcolor;
-    .overlay-container {
-      background-color: $bgcolor;
-      padding: 1rem;
-      display: flex;
-      flex-direction: column;
-      .iframe {
-        width: 100%;
-        height: 56vw;
-        border: 0;
-      }
-      .long-description {
-        color: white;
-      }
-    }
-  }
 }
