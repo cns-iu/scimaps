@@ -2,7 +2,7 @@
   <div class="details-container" drawer>
     
     <div class="header">
-      <sci-drawer-header [backText]="type + 's'" (backClick)="close()">
+      <sci-drawer-header [backText]="'Iteration'" (backClick)="close()">
       </sci-drawer-header>
       <div class="purchase-button" *ngIf="type === 'map'" (click)="openPurchase()">PURCHASE</div>  
     </div>
@@ -38,10 +38,10 @@
         </div>
       </div>
 
-      <div class="details-image" >
-        <div class="container">
+      <div class="details-image">
+        <div class="container" [ngClass]="{'clickable': item.externalLink ? true : false}" (click)="redirect(item.externalLink)">
           <img class="thumbnail" [src]="item.thumbnail" alt="item image">
-          <div class="icon" *ngIf="item.externalLink && false">
+          <div class="icon" *ngIf="item.externalLink">
             <mat-icon *ngIf="type === 'map'" class="zoom">zoom_in</mat-icon>
             <mat-icon *ngIf="type === 'macroscope'" class="launch">launch</mat-icon>
           </div>
@@ -57,6 +57,8 @@
         </sci-makers-subdrawer>
       </div>
     </sci-drawer>
+
+    <ng-content [select]="detail">
+    </ng-content>
   </div>
 </sci-drawer>
-

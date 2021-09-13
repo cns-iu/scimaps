@@ -15,7 +15,7 @@ export class HomeComponent {
     'background-image': 'url(assets/images/home/image01.png)'
   };
   testActionItem: ActionCardItem = {
-    title: 'Atlas of Forecasts: Modeling and mapping desirable futures.',
+    title: 'Atlas of Forecasts: Modeling and Mapping Desirable Futures.',
     subtitle: '',
     body: 'A new book from Katy Börner! This third book in the series focuses on using models and visualizations to help society envision and create the future we want.',
     buttonLabel: 'Purchase',

@@ -22,7 +22,7 @@ export class CallForMacroscopesComponent implements OnInit {
 
   submitURL = '';
   pdfLink = '';
-
+  allowSubmission = true;
   constructor(private route: ActivatedRoute, private datePipe: DatePipe) {
   }
 
@@ -31,7 +31,7 @@ export class CallForMacroscopesComponent implements OnInit {
       const { body } = data;
       // Body
       if (body) {
-        const { importantDates, pdfLink, lastIteration, submitURL, tabs } = body;
+        const { importantDates, pdfLink, lastIteration, submitURL, tabs, allowSubmission } = body;
         // Tabs
         if (tabs && Array.isArray(tabs)) {
           tabs.forEach((tab: {header: string, content: string}) => {
@@ -43,6 +43,7 @@ export class CallForMacroscopesComponent implements OnInit {
         this.lastIteration = lastIteration;
         this.submitURL = submitURL;
         this.pdfLink = pdfLink;
+        this.allowSubmission = allowSubmission;
         this.importantDates = importantDates.map(((item: {label: string, date: Date}) => {
           return [item.label, this.datePipe.transform(item.date, 'MMM dd, yyyy')];
         }));

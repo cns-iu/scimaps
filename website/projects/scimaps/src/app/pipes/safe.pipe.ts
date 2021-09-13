@@ -1,6 +1,5 @@
-import { Pipe, PipeTransform } from '@angular/core';
+import { NgModule, Pipe, PipeTransform } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-
 
 @Pipe({
   name: 'safe'
@@ -15,3 +14,14 @@ export class SafePipe implements PipeTransform {
     }
   }
 }
+
+@NgModule({
+  declarations: [
+    SafePipe
+  ],
+  exports: [
+    SafePipe
+  ]
+})
+export class SafePipeModule {}
+
