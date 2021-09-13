@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing';
 import { MarkdownModule } from 'ngx-markdown';
 import { of } from 'rxjs';
 
@@ -9,12 +10,18 @@ import { MakerVideosModule } from './maker-videos.module';
 describe('MakerVideosComponent', () => {
   let component: MakerVideosComponent;
   let fixture: ComponentFixture<MakerVideosComponent>;
-
+  let router: Router;
   beforeEach(async () => {
     const route = { data: of({}) };
+    let routerValue = {
+      navigate: jasmine.createSpy('navigate') 
+    }
     await TestBed.configureTestingModule({
-      imports: [MakerVideosModule, MarkdownModule.forRoot()],
-      providers: [{ provide: ActivatedRoute, useValue: route }, ],
+      imports: [MakerVideosModule, MarkdownModule.forRoot(), RouterTestingModule],
+      providers: [
+        { provide: ActivatedRoute, useValue: route },
+        { provide: Router, useValue: routerValue },
+      ],
     })
       .compileComponents();
   });
@@ -23,6 +30,7 @@ describe('MakerVideosComponent', () => {
     fixture = TestBed.createComponent(MakerVideosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
+    router = TestBed.inject(Router);
   });
 
   it('should create', () => {

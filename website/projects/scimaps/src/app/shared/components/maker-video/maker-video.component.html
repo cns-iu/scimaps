@@ -2,7 +2,7 @@
     <div drawer class="drawer">
         <sci-drawer-header backText="Maker Videos" (backClick)="close()">
         </sci-drawer-header>
-        <div class="overlay-container">
+        <div class="overlay-container" *ngIf="video">
             <iframe class="iframe"
                 [src]="video.videoLink | safe: 'resourceUrl'"
                 title="YouTube video player"
@@ -11,7 +11,7 @@
             </iframe>
             <div class="spacer-72">
             </div>
-            <div class="long-description" markdown [data]="video.long_description">
+            <div class="long-description" markdown [data]="video?.long_description">
             </div>
         </div>
     </div>
