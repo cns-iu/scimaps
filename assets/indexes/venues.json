@@ -15121,5 +15121,31 @@
     "country": "Germany",
     "pdfLink": null,
     "venueImages": null
+  },
+  {
+    "dateStart": "2021-09-15T00:00:00.000Z",
+    "dateEnd": "2021-09-15T00:00:00.000Z",
+    "title": "The 25th International Conference on Science, Technology and Innovation Indicators",
+    "venue": "STI 2021",
+    "organizer": "Maria Theresa Norn",
+    "credit": null,
+    "city": "Aarhus",
+    "state": null,
+    "country": "Denmark",
+    "pdfLink": null,
+    "venueImages": null
+  },
+  {
+    "dateStart": "2021-09-24T00:00:00.000Z",
+    "dateEnd": "2022-03-15T00:00:00.000Z",
+    "title": "17th Iteration Debut and Macroscope Kiosk Display",
+    "venue": "Navari Family Center for Digital Scholarship, University of Notre Dame",
+    "organizer": "Scott B. Weingart, Peter Hook",
+    "credit": null,
+    "city": "Notre Dame",
+    "state": "IN",
+    "country": "USA",
+    "pdfLink": null,
+    "venueImages": null
   }
 ]
