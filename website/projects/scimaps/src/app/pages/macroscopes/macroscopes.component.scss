@@ -1,6 +1,4 @@
-$desktop: 1248px;
-$tablet: 960px;
-$mobile: 640px;
+@import '../../../styling/breakpoints';
 
 ::ng-deep {
   @media (max-width: $mobile) {
@@ -26,7 +24,7 @@ $mobile: 640px;
     margin-bottom: 2rem;
     left: 0;
 
-    @media (max-width: $tablet) {
+    @media (max-width: $mobile) {
       flex-direction: column-reverse;
       border: none;
     }
@@ -35,7 +33,7 @@ $mobile: 640px;
       width: 50%;
       padding-right: 1rem;
 
-      @media (max-width: $tablet) {
+      @media (max-width: $mobile) {
         width: 100%;
         padding: 0rem;
       }
@@ -47,7 +45,7 @@ $mobile: 640px;
       width: 50%;
       max-height: 28rem;
       margin-left: 3rem;
-      @media (max-width: $tablet) {
+      @media (max-width: $mobile) {
         width: 100%;
         padding: 0rem;
         margin-bottom: 1rem;

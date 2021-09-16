@@ -1,6 +1,5 @@
-$desktop: 1248px;
-$tablet: 960px;
-$mobile: 640px;
+@import '../../../styling/breakpoints';
+
 $breakpoint: 768px;
 
 ::ng-deep {
@@ -25,7 +24,7 @@ $breakpoint: 768px;
 }
 
 :host {
-  @media (max-width: $breakpoint) {
+  @media (max-width: $mobile) {
     top: 0%;
     transition: top 1s;
     overflow-y: scroll;
