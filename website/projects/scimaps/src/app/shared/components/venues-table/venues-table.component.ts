@@ -1,4 +1,4 @@
-import { AfterViewInit, ChangeDetectorRef, Component, HostBinding, Input, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, HostBinding, Input, OnChanges, OnInit, SimpleChanges, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort, MatSortHeader } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
@@ -11,7 +11,8 @@ import { Venue } from '../../../pages/venues/venues-resolver.service';
   templateUrl: './venues-table.component.html',
   styleUrls: ['./venues-table.component.scss']
 })
-export class VenuesTableComponent implements OnInit, AfterViewInit {
+export class VenuesTableComponent implements OnInit, AfterViewInit, OnChanges {
+  @Input() filterString = '';
   @HostBinding('class') readonly clsName = 'sci-venues-table';
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) matSort!: MatSort;
@@ -28,6 +29,15 @@ export class VenuesTableComponent implements OnInit, AfterViewInit {
   columns: string[] = [];
 
   constructor(private router: Router, private cdr: ChangeDetectorRef) {
+  }
+  
+  ngOnChanges(changes: SimpleChanges): void {
+    if(changes.hasOwnProperty('filterString')) {
+      if(this.paginator) {
+        this.paginator.firstPage();
+        this.dataSource.filter = this.filterString;
+      }
+    }
   }
 
   ngOnInit(): void {
