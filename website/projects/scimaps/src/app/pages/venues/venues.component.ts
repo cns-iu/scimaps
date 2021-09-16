@@ -11,6 +11,7 @@ import { Venue } from './venues-resolver.service';
 export class VenuesComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly className = 'sci-venues';
+  filterString = '';
 
   constructor(
     private activatedRoute: ActivatedRoute
@@ -89,7 +90,6 @@ export class VenuesComponent implements OnInit {
   }
   applyFilter(): void {
     const filter = { year: this.year, searchKey: this.searchKey };
-    const filterString = JSON.stringify(filter);
-    this.dataSource.filter = filterString;
+    this.filterString = JSON.stringify(filter);
   }
 }
