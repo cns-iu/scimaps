@@ -97,6 +97,6 @@ describe('PurchaseModalComponent', () => {
     instance.currentInfo = testInfo;
     instance.shipInfo = 'shippingInfo';
     instance.updateMailLink();
-    expect(instance.mailLink).toBe('mailto:katy@indiana.edu?subject=Map%20Purchase&body=Name: firstName lastName%0D%0AAddress: shipAddress, city, state, zip%0D%0AEmail: email%0D%0APhone: phone%0D%0A%0D%0AshippingInfo');
+    expect(instance.mailLink).toBe(`mailto:${instance.receivingEmail}?subject=Map%20Purchase&body=Name: firstName lastName%0D%0AAddress: shipAddress, city, state, zip%0D%0AEmail: email%0D%0APhone: phone%0D%0A%0D%0AshippingInfo`);
   });
 });
