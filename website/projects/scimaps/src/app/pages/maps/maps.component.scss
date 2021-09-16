@@ -8,16 +8,17 @@ $breakpoint: 768px;
       background-color: rgba(0, 0, 0, 0.75);
       border-radius: 50%;
       padding: 1.5rem;
-      top: 50% !important;
+      top: 40% !important;
     }
   
     .swiper-button-prev::after, .swiper-button-next::after {
       color: white !important;
     }
-    // maps override
+    // maps drawer override
     .maps-carousel {
       .swiper-button-prev, .swiper-button-next {
-        top: 50vh !important
+        position: fixed;
+        top: calc(50% + 36px) !important
       }
     }
   }
