@@ -1,4 +1,5 @@
-import { AfterViewInit, ChangeDetectorRef, Component, HostBinding, Input, OnChanges, OnInit, SimpleChanges, ViewChild } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, HostBinding,
+Input, OnChanges, OnInit, SimpleChanges, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort, MatSortHeader } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
@@ -30,10 +31,10 @@ export class VenuesTableComponent implements OnInit, AfterViewInit, OnChanges {
 
   constructor(private router: Router, private cdr: ChangeDetectorRef) {
   }
-  
+
   ngOnChanges(changes: SimpleChanges): void {
-    if(changes.hasOwnProperty('filterString')) {
-      if(this.paginator) {
+    if (changes.hasOwnProperty('filterString')) {
+      if (this.paginator) {
         this.paginator.firstPage();
         this.dataSource.filter = this.filterString;
       }
