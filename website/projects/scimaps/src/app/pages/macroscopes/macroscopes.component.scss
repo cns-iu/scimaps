@@ -1,6 +1,4 @@
-$desktop: 1248px;
-$tablet: 960px;
-$mobile: 640px;
+@import '../../../styling/breakpoints';
 
 ::ng-deep {
   @media (max-width: $mobile) {
@@ -8,11 +6,19 @@ $mobile: 640px;
       background-color: rgba(0, 0, 0, 0.75);
       border-radius: 50%;
       padding: 1.5rem;
-      top: 50% !important;
+      top: 40% !important;
     }
 
     .swiper-button-prev::after, .swiper-button-next::after {
       color: white !important;
+    }
+
+    // macroscopes drawer override
+    .macroscopes-carousel {
+      .swiper-button-prev, .swiper-button-next {
+        position: fixed;
+        top: calc(50% + 36px) !important
+      }
     }
   }
 }
@@ -26,7 +32,7 @@ $mobile: 640px;
     margin-bottom: 2rem;
     left: 0;
 
-    @media (max-width: $tablet) {
+    @media (max-width: $mobile) {
       flex-direction: column-reverse;
       border: none;
     }
@@ -35,7 +41,7 @@ $mobile: 640px;
       width: 50%;
       padding-right: 1rem;
 
-      @media (max-width: $tablet) {
+      @media (max-width: $mobile) {
         width: 100%;
         padding: 0rem;
       }
@@ -47,7 +53,7 @@ $mobile: 640px;
       width: 50%;
       max-height: 28rem;
       margin-left: 3rem;
-      @media (max-width: $tablet) {
+      @media (max-width: $mobile) {
         width: 100%;
         padding: 0rem;
         margin-bottom: 1rem;

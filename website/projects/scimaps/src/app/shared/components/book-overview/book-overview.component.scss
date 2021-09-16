@@ -1,5 +1,4 @@
-$single-column-max-width: 768px;
-$button-span-max-width: 480px;
+@import '../../../../styling/breakpoints';
 
 :host {
   display: flex;
@@ -36,7 +35,7 @@ $button-span-max-width: 480px;
 
     .buttons {
       display: flex;
-      @media screen and (max-width: $button-span-max-width) {
+      @media screen and (max-width: $mobile) {
         flex-direction: column;
       }
       flex-direction: row;
@@ -80,7 +79,7 @@ $button-span-max-width: 480px;
     }
   }
 
-  @media (max-width: $single-column-max-width) {
+  @media (max-width: $mobile) {
     flex-direction: column-reverse;
 
     .text-column,
@@ -106,18 +105,6 @@ $button-span-max-width: 480px;
 
     .carousel-column {
       margin-bottom: 1rem;
-    }
-  }
-
-  @media (max-width: $button-span-max-width) {
-    .text-column .links {
-      flex-direction: column;
-
-      .button {
-        width: 100%;
-        margin-right: 0;
-        text-align: center;
-      }
     }
   }
 }
