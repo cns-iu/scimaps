@@ -4,7 +4,7 @@
     <div class="subtitle">{{ actionItem.subtitle }}</div>
     <div class="body">{{ actionItem.body }}</div>
 
-    <div class="action-button" (click)="goToLink(actionItem.buttonLink)">{{ actionItem.buttonLabel }}</div>
+    <div class="action-button" *ngIf="actionItem.buttonLabel" (click)="goToLink(actionItem.buttonLink)">{{ actionItem.buttonLabel }}</div>
   </div>
 
   <div class="image-container" [style.background-image]="imageUrl">

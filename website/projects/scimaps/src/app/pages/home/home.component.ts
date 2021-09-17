@@ -15,11 +15,11 @@ export class HomeComponent {
     'background-image': 'url(assets/images/home/image01.png)'
   };
   testActionItem: ActionCardItem = {
-    title: 'Atlas of Forecasts: Modeling and Mapping Desirable Futures.',
+    title: 'Places & Spaces 17th Iteration Debut at Notre Dame.',
     subtitle: '',
-    body: 'A new book from Katy Börner! This third book in the series focuses on using models and visualizations to help society envision and create the future we want.',
-    buttonLabel: 'Purchase',
-    buttonLink: 'https://www.amazon.com/Atlas-Forecasts-Modeling-Mapping-Desirable/dp/0262045958/ref=[…]&keywords=borner+atlas+forecast&qid=1620409272&s=books&sr=1-1',
-    imageSource: 'assets/action-card/cta-atlas-of-forecasts.jpg'
+    body: "The 17th Iteration of the Places & Spaces exhibit launches on Sept 24 at the University of Notre Dame. Register here to join a virtual talk by Curator Katy Borner and virtual tour of the new macroscopes with co-Curator Todd Theriault.",
+    buttonLabel: 'Register',
+    buttonLink: 'https://library.nd.edu/events',
+    imageSource: 'assets/action-card/actioncard.jpg'
   };
 }
