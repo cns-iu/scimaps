@@ -2,6 +2,24 @@ collections:
   - name: siteSettings
     label: Site Settings
     files:
+      - label: Homepage
+        name: home
+        file: content/site/home/home.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'home'
+        fields:
+        - name: cta
+          label: CTA
+          widget: object
+          fields:
+            - { name: title, label: Title }
+            - { name: subtitle, label: SubTitle }
+            - { name: body, label: Body}
+            - { name: buttonLabel, label: Button Label}
+            - { name: buttonLink, label: Button Link }
+            - { name: image, label: Image, widget: file }  
+
       - label: Call to Action
         name: callToAction
         file: content/site/callToAction.md
