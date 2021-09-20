@@ -36,7 +36,7 @@ describe('HomeResolverService', () => {
   it('should be created', fakeAsync(() => {
     (contentService.getContent as jasmine.Spy).and.returnValue(
       of({cta: {...originalResponse.cta}})
-    )
+    );
     const data = service.resolve();
     flushMicrotasks();
     expect(contentService.getContent).toHaveBeenCalledTimes(1);

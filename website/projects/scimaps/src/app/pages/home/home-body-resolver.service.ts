@@ -8,7 +8,7 @@ import { ContentService } from '../../shared/services/content.service';
 
 
 interface HomeBody {
-  cta: ActionCardItem
+  cta: ActionCardItem;
 }
 
 @Injectable({

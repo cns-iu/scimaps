@@ -1,5 +1,5 @@
 import { NO_ERRORS_SCHEMA } from '@angular/core';
-import { ComponentFixture, fakeAsync, flush, flushMicrotasks, TestBed, tick } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MatIconTestingModule } from '@angular/material/icon/testing';
 import { ActivatedRoute } from '@angular/router';
 import { of } from 'rxjs';
@@ -23,7 +23,7 @@ describe('HomeComponent', () => {
         const route = {
             data: of({
                 homeBody: {
-                    cta: cta
+                    cta
                 }
             })
         };
