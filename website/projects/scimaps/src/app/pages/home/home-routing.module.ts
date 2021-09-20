@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomeBodyResolverService } from './home-body-resolver.service';
 
 import { HomeComponent } from './home.component';
 
@@ -10,6 +11,9 @@ const routes: Routes = [
     component: HomeComponent,
     data : {
       class: 'home-module'
+    },
+    resolve: {
+      homeBody: HomeBodyResolverService
     }
   }
 ];

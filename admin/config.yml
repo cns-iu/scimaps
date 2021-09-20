@@ -18,7 +18,7 @@ collections:
             - { name: body, label: Body }
             - { name: buttonLabel, label: Button Label, required: false }
             - { name: buttonLink, label: Button Link, required: false }
-            - { name: image, label: Image, widget: file, required: false }  
+            - { name: imageSource, label: Image, widget: file, required: false }  
 
       - label: Call to Action
         name: callToAction

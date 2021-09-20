@@ -1,4 +1,5 @@
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { ActionCardItem } from '../../core/models/action-card-item';
 
 
@@ -7,19 +8,23 @@ import { ActionCardItem } from '../../core/models/action-card-item';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
   /** HTML class name */
   @HostBinding('class') readonly clsName = 'sci-home';
 
   bgStyle = {
     'background-image': 'url(assets/images/home/image01.png)'
   };
-  testActionItem: ActionCardItem = {
-    title: 'Places & Spaces 17th Iteration Debut at Notre Dame.',
-    subtitle: '',
-    body: 'The 17th Iteration of the Places & Spaces exhibit launches on Sept 24 at the University of Notre Dame. Register here to join a virtual talk by Curator Katy Borner and virtual tour of the new macroscopes with co-Curator Todd Theriault.',
-    buttonLabel: 'Register',
-    buttonLink: 'https://library.nd.edu/event/maps-and-macroscopes-2021-09-24',
-    imageSource: 'assets/action-card/actioncard.jpg'
-  };
+  testActionItem!: ActionCardItem;
+
+  constructor(private activatedRoute: ActivatedRoute) {
+  }
+
+  ngOnInit() {
+    const {homeBody} = this.activatedRoute.snapshot.data;
+    console.log(this.activatedRoute)
+    if (homeBody && homeBody.hasOwnProperty('cta')) {
+      this.testActionItem = homeBody.cta;
+    }
+  }
 }

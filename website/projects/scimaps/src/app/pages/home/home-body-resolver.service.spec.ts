@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { HomeResolverService } from './home-resolver.service';
+import { HomeBodyResolverService } from './home-body-resolver.service';
 
 describe('HomeResolverService', () => {
-  let service: HomeResolverService;
+  let service: HomeBodyResolverService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(HomeResolverService);
+    service = TestBed.inject(HomeBodyResolverService);
   });
 
   it('should be created', () => {
