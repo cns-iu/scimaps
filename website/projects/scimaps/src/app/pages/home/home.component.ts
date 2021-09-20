@@ -21,7 +21,6 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log('ngOnInit');
     this.activatedRoute.data.subscribe((response: Params) => {
       const {homeBody} = response;
       if (homeBody && homeBody.hasOwnProperty('cta')) {

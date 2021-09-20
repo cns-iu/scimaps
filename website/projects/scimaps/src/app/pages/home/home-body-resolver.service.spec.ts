@@ -18,6 +18,16 @@ describe('HomeResolverService', () => {
       imageSource: 'imageSource.jpg'
     }
   };
+  const withHttpsUrl = {
+    cta: {
+      title: 'title',
+      subtitle: 'subttile',
+      body: 'body',
+      buttonLink: 'buttonLink',
+      buttonLabel: 'buttonLabel',
+      imageSource: 'https://abc.com/a.jpg'
+    }
+  };
   beforeEach(() => {
     const contentServiceSpy = jasmine.createSpyObj('ContentService', ['getContent']);
     TestBed.configureTestingModule({
@@ -33,7 +43,7 @@ describe('HomeResolverService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
-  it('should be created', fakeAsync(() => {
+  it('should map all action card properties correctly', fakeAsync(() => {
     (contentService.getContent as jasmine.Spy).and.returnValue(
       of({cta: {...originalResponse.cta}})
     );
@@ -48,6 +58,19 @@ describe('HomeResolverService', () => {
       expect(cta.body).toEqual(originalResponse.cta.body);
       expect(cta.buttonLabel).toEqual(originalResponse.cta.buttonLabel);
       expect(cta.imageSource).toEqual(`${service.directory}/${originalResponse.cta.imageSource}`);
+    });
+  }));
+
+  it('Should NOT change URL when URL is https', fakeAsync(() => {
+    (contentService.getContent as jasmine.Spy).and.returnValue(
+      of({cta: {...withHttpsUrl.cta}})
+    );
+    const data = service.resolve();
+    flushMicrotasks();
+    expect(contentService.getContent).toHaveBeenCalledTimes(1);
+    data.subscribe(response => {
+      const cta = response.cta;
+      expect(cta.imageSource).toEqual(withHttpsUrl.cta.imageSource);
     });
   }));
 });
