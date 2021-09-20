@@ -14,11 +14,11 @@ collections:
           widget: object
           fields:
             - { name: title, label: Title }
-            - { name: subtitle, label: SubTitle }
-            - { name: body, label: Body}
-            - { name: buttonLabel, label: Button Label}
-            - { name: buttonLink, label: Button Link }
-            - { name: image, label: Image, widget: file }  
+            - { name: subtitle, label: SubTitle, required: false }
+            - { name: body, label: Body }
+            - { name: buttonLabel, label: Button Label, required: false }
+            - { name: buttonLink, label: Button Link, required: false }
+            - { name: image, label: Image, widget: file, required: false }  
 
       - label: Call to Action
         name: callToAction
