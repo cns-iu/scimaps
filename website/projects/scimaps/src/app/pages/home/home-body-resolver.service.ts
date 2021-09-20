@@ -7,28 +7,28 @@ import { ActionCardItem } from '../../core/models/action-card-item';
 import { ContentService } from '../../shared/services/content.service';
 
 
-interface HomeData {
+interface HomeBody {
   cta: ActionCardItem
 }
 
 @Injectable({
   providedIn: 'root'
 })
-export class HomeBodyResolverService implements Resolve<HomeData> {
+export class HomeBodyResolverService implements Resolve<HomeBody> {
   mdPath = 'site/home/home.md';
   directory = 'assets/content/site/home';
   constructor(private content: ContentService) { }
 
-  resolve(): Observable<HomeData> {
-    return this.content.getContent<HomeData>(this.mdPath).pipe(
+  resolve(): Observable<HomeBody> {
+    return this.content.getContent<HomeBody>(this.mdPath).pipe(
       take(1),
-      map((body: HomeData) => {
+      map((body: HomeBody) => {
         return this.updatePaths(body);
       })
     );
   }
 
-  updatePaths(body: HomeData): HomeData {
+  updatePaths(body: HomeBody): HomeBody {
     const {cta} = body;
     if (cta.imageSource && !isHttp(cta.imageSource)) {
       cta.imageSource = `${this.directory}/${cta.imageSource}`;

@@ -1,24 +1,52 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Component, Input, NO_ERRORS_SCHEMA } from '@angular/core';
+import { NO_ERRORS_SCHEMA } from '@angular/core';
+import { ComponentFixture, fakeAsync, flush, flushMicrotasks, TestBed, tick } from '@angular/core/testing';
+import { MatIconTestingModule } from '@angular/material/icon/testing';
+import { ActivatedRoute } from '@angular/router';
+import { of } from 'rxjs';
 import { HomeComponent } from './home.component';
 import { HomeModule } from './home.module';
-import { MatIcon, MatIconModule } from '@angular/material/icon';
-import { MatIconTestingModule } from '@angular/material/icon/testing';
+
+const cta = {
+    title: 'title',
+    subtitle: 'subtitle',
+    body: 'body',
+    buttonLink: 'buttonLink',
+    buttonLabel: 'buttonLabel',
+    imageSource: 'imageSource'
+};
 
 describe('HomeComponent', () => {
     let component: HomeComponent;
     let fixture: ComponentFixture<HomeComponent>;
-
+    let activatedRoute: ActivatedRoute;
     beforeEach(() => {
+        const route = {
+            data: of({
+                homeBody: {
+                    cta: cta
+                }
+            })
+        };
         TestBed.configureTestingModule({
             schemas: [NO_ERRORS_SCHEMA],
-            imports: [HomeModule, MatIconTestingModule]
+            imports: [HomeModule, MatIconTestingModule],
+            providers: [{ provide: ActivatedRoute, useValue: route }]
         }).compileComponents();
         fixture = TestBed.createComponent(HomeComponent);
         component = fixture.componentInstance;
+        activatedRoute = TestBed.inject(ActivatedRoute);
     });
 
     it('can load instance', () => {
         expect(component).toBeTruthy();
+    });
+    it('should set actionCard variables correctly', () => {
+        fixture.detectChanges();
+        expect(component.actionCard).toBeTruthy();
+        expect(component.actionCard.title).toEqual(cta.title);
+        expect(component.actionCard.subtitle).toEqual(cta.subtitle);
+        expect(component.actionCard.body).toEqual(cta.body);
+        expect(component.actionCard.buttonLabel).toEqual(cta.buttonLabel);
+        expect(component.actionCard.buttonLink).toEqual(cta.buttonLink);
     });
 });

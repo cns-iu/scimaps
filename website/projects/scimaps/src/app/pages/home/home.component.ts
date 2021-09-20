@@ -1,5 +1,5 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Params } from '@angular/router';
 import { ActionCardItem } from '../../core/models/action-card-item';
 
 
@@ -15,16 +15,18 @@ export class HomeComponent implements OnInit {
   bgStyle = {
     'background-image': 'url(assets/images/home/image01.png)'
   };
-  testActionItem!: ActionCardItem;
+  actionCard!: ActionCardItem;
 
   constructor(private activatedRoute: ActivatedRoute) {
   }
 
   ngOnInit() {
-    const {homeBody} = this.activatedRoute.snapshot.data;
-    console.log(this.activatedRoute)
-    if (homeBody && homeBody.hasOwnProperty('cta')) {
-      this.testActionItem = homeBody.cta;
-    }
+    console.log('ngOnInit');
+    this.activatedRoute.data.subscribe((response: Params) => {
+      const {homeBody} = response;
+      if (homeBody && homeBody.hasOwnProperty('cta')) {
+        this.actionCard = homeBody.cta;
+      }
+    });
   }
 }
