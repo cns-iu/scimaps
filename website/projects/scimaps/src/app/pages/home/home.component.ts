@@ -19,7 +19,6 @@ export class HomeComponent implements OnInit {
 
   constructor(private activatedRoute: ActivatedRoute) {
   }
-
   ngOnInit(): void {
     this.activatedRoute.data.subscribe((response: Params) => {
       const {homeBody} = response;
