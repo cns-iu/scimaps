@@ -18,7 +18,6 @@ const cta = {
 describe('HomeComponent', () => {
     let component: HomeComponent;
     let fixture: ComponentFixture<HomeComponent>;
-    let activatedRoute: ActivatedRoute;
     beforeEach(() => {
         const route = {
             data: of({
@@ -34,7 +33,6 @@ describe('HomeComponent', () => {
         }).compileComponents();
         fixture = TestBed.createComponent(HomeComponent);
         component = fixture.componentInstance;
-        activatedRoute = TestBed.inject(ActivatedRoute);
     });
 
     it('can load instance', () => {
