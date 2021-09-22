@@ -10,4 +10,4 @@
     </div>
 </div>
 
-<sci-action-card class="action-card" [actionItem]="testActionItem"></sci-action-card>
+<sci-action-card class="action-card" *ngIf="actionCard" [actionItem]="actionCard"></sci-action-card>
