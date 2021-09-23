@@ -20,10 +20,13 @@ en:
   references:
     - >-
       De Kok-Mercado, Fabian, Aileen O’Hearn, Laura Bonetta, Ann Brokaw, Li Yao, Esther Shyu, Heather McDonald, Ethan Goldstine, Neal Steiberg, and Bryan Buchs. 2021. _Virus Explorer_. In “17th Iteration (2021): Macroscopes for Placing Data in Space.” _Places & Spaces: Mapping Science_, edited by Katy Börner, Lisel Record, and Todd Theriault. http://scimaps.org.
+
  
       HHMI BioInteractive. 2021. “Teaching Viruses and Epidemiology Online.” https://www.biointeractive.org/planning-tools/resource-playlists/teaching-viruses-and-epidemiology-online. 
+
  
       Neergaard, Lauran. 2021. “Explainer: Why It’s Hard to Make Vaccines and Boost Supplies.” _AP News_, January 28. https://apnews.com/article/why-its-hard-to-make-vaccines-explained-9173d65f7da50eee432d43d36769c516. 
+      
  
       Public Broadcasting Service. 2021. “Virus Explorer.” _Spillover_. https://www.pbs.org/spillover-zika-ebola-beyond/about-viruses/virus-explorer/credits.     
   image:
