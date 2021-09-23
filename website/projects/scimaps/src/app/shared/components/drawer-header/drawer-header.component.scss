@@ -4,7 +4,8 @@
   width: 100%;
   display: flex;
   margin-bottom: 1.5rem;
-
+  height: 2rem;
+  
   .drawer-header {
     width: 100%;
     display: flex;
@@ -13,6 +14,7 @@
     .back-button {
       display: flex;
       align-items: center;
+      position: absolute;
       justify-self: flex-start;
       cursor: pointer;
       color: #7996a3;
