@@ -36,6 +36,15 @@
     ]
   },
   {
+    "body": "Aileen O’Hearn leads scientific research efforts for HHMI Tangled Bank Studios as science editor, and produces related classroom resources with HHMI BioInteractive. Prior to this, she conducted research at the United States Army Medical Research Institute of Infectious Diseases (USAMRIID), where she developed biodefense diagnostics for viruses including Ebola and Lassa in Biosafety Level 4 facilities and at Kenema Government Hospital in Sierra Leone, and provided hospital support in West Africa during the 2014 Ebola outbreak. O’Hearn holds a doctorate in microbiology and immunology from the University of Illinois at Chicago, and a bachelor of science in zoology from Southern Illinois University at Carbondale.\n",
+    "name": "Aileen O'Hearn",
+    "last_name": "O'Hearn",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Alan Mislove is an assistant professor at the College of Computer and Information Science at Northeastern University. He received his PhD from Rice University in 2009, and was a postdoctoral researcher at the Max Planck Institute for Software Systems (MPI-SWS) in the summer of 2009. Prof. Mislove's research concerns distributed systems and networks, with a focus on using social networks to solve systems problems. In particular, his research is focused on studying computer systems that enable communication among people, such as online social networks, and designing, building, deploying, and evaluating innovative systems of this kind. He is a recipient of the prestigious NSF Career Award (2011), and his work has been covered by New Scientist, The New York Times, and the CBS Evening News.\n",
     "name": "Alan Mislove",
     "last_name": "Mislove",
@@ -221,6 +230,15 @@
     ]
   },
   {
+    "body": "Ann Brokaw has more than 28 years of experience in the classroom teaching several levels of biology at Rocky River High School in Rocky River, Ohio. She is passionate about biology and science education, and continually seeks ways to improve her classroom practice as well as her content knowledge. To support these goals, she is an active member of the HHMI BioInteractive Ambassador Community facilitating professional development for other educators as well as contributing to resource development.\n",
+    "name": "Ann Brokaw",
+    "last_name": "Brokaw",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Anna Barford has an MA in the research methods of sociology from the University of Nottingham. She helped to oversee this project, wrote the informative text that accompanies each map, sourced the quotes used, and produced the posters.\n",
     "name": "Anna Barford",
     "last_name": "Barford",
@@ -366,6 +384,15 @@
     "body": "Bruce W. Herr II received a BS in computer science from Indiana University. He designed this map as a full-time software developer at the Cyberinfrastructure for Network Science Center at Indiana University and subsequently joined ChalkLabs in July 2009. Herr enjoys making beautiful, extensible, usable, and maintainable software. His research interests include information visualization; human-computer interaction; taking advantage of cognitive processing in software, software design, and aesthetics in visualization; and extensible software. He made significant contributions to the functionality and design of Taxonomy Validator, InfoVis Cyberinfrastructure, Cyberinfrastructure Shell (CIShell), Network Workbench, and the Scimaps website.\n",
     "name": "Bruce W. Herr II",
     "last_name": "Herr",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "body": "When Bryan Buchs learned the keyboard shortcut for “view source,” he immediately started picking apart websites to learn how they were built. 25+ years later he hasn’t stopped. As the Internet has evolved, so has his skill set. He is most proud of his ability to quickly learn and apply new skills and techniques. These days his primary focus is on crafting code and websites that are clean, concise, resilient, and accessible. Bryan lives in Shorewood, WI, with his wife, daughter, and two cats. His hobbies are cooking, reading, and rooting for the Milwaukee Bucks.\n",
+    "name": "Bryan Buchs",
+    "last_name": "Buchs",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -596,7 +623,7 @@
     ]
   },
   {
-    "body": "Daniel Haight is the President and co-founder of Darkhorse Analytics. He is a Certified Analytics Professional and an award-winning lecturer at the University of Alberta School of Business.\n\nHis work has spanned healthcare, energy, marketing, professional sports, and transportation. His current work focuses on predictive analytics and data visualization. His goal is to help people make better decisions by combining their experience with the power of visual analytics.  His even bigger goal is to design a company where Monday mornings are even more exciting than Friday afternoons.\n",
+    "body": "Daniel Haight is the president and co-founder of Darkhorse Analytics. He is a certified analytics professional and an award-winning lecturer at the University of Alberta School of Business. His work has spanned healthcare, energy, marketing, professional sports, and transportation. His current work focuses on predictive analytics and data visualization. His goal is to help people make better decisions by combining their experience with the power of visual analytics.  His even bigger goal is to design a company where Monday mornings are even more exciting than Friday afternoons.\n",
     "name": "Daniel Haight",
     "last_name": "Haight",
     "image": "image.jpg",
@@ -863,6 +890,15 @@
     ]
   },
   {
+    "body": "The Electronic Frontier Foundation describes itself as the leading nonprofit organization defending civil liberties in the digital world. Founded in 1990, EFF champions user privacy, free expression, and innovation through impact litigation, policy analysis, grassroots activism, and technology development. EFF's mission is to ensure that technology supports freedom, justice, and innovation for all people of the world.\n",
+    "name": "Electronic Frontier Foundation",
+    "last_name": "Electronic",
+    "roles": [
+      "maker"
+    ],
+    "image": "image.jpg"
+  },
+  {
     "body": "Elijah Meeks is the digital humanities specialist in Stanford University Library. His work has included design, software development and data modeling for projects such as the Digital Gazetteer of the Song Dynasty and Kindred Britain.\n",
     "name": "Elijah Meeks",
     "last_name": "Meeks",
@@ -909,7 +945,25 @@
     "image": "image.jpg"
   },
   {
-    "body": "Eugene Chen is a director at Darkhorse Analytics and creates interactive visualizations.  Shortlisted for a number of Information is Beautiful awards, he enjoys combining his creativity, coding, and design in creating memorable and accessible tools.  A consistent innovator, Eugene has also presented and taught workshops at various post-secondary institutions and conferences, including OpenVisConf, IEEE Vis, and multiple Canadian Open Data Summits.  Active in the open data and civic tech community, Eugene is a founding director of the Canadian Open Data Society and a civic advisor on the City of Edmonton’s Open Data Citizen Advisory Committee.\n",
+    "body": "Esther Shyu is a scientist and editor with several years of experience in educational technology. She leads the development of a variety of multimedia resources and serves as the editorial manager for the team. Esther earned her PhD in a joint program between the Massachusetts Institute of Technology and the Woods Hole Oceanographic Institution. Her research focused on developing mathematical population models to tackle a variety of ecological and evolutionary analyses. Prior to joining HHMI, she spent three years as a science curriculum designer for IXL Learning, a Bay Area edtech company that specializes in K-12 education.\n",
+    "name": "Esther Shyu",
+    "last_name": "Shyu",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "body": "Ethan Goldstine is a co-founder of kapow, inc. His creative ideas and understanding of technology have contributed to the success of the company's numerous projects. An observer of trends in new media and beyond, his counsel helps kapow's clients evaluate current technology and plan for the future. Goldstine began developing websites in 1995, founding the site for NPR affiliate KCRW and, with Neal Steinberg, co-creating a groundbreaking online detective story. He has also worked in computer consulting and training as well as in film production and development. He is a graduate of Yale University.\n",
+    "name": "Ethan Goldstine",
+    "last_name": "Goldstine",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "body": "Eugene Chen is a director at Darkhorse Analytics and creates interactive visualizations.  Shortlisted for a number of Information is Beautiful awards, he enjoys combining his creativity, coding, and design in creating memorable and accessible tools.  A consistent innovator, Chen has also presented and taught workshops at various post-secondary institutions and conferences, including OpenVisConf, IEEE Vis, and multiple Canadian Open Data Summits.  Active in the open data and civic tech community, Eugene is a founding director of the Canadian Open Data Society and a civic advisor on the city of Edmonton’s Open Data Citizen Advisory Committee.\n",
     "name": "Eugene Chen",
     "last_name": "Chen",
     "image": "image.jpg",
@@ -930,6 +984,15 @@
     "body": "Evelyn Münster studied media art at the Academy of Visual Arts Leipzig in Germany. Since 2000, she has worked as a Java web applications software developer on various projects involving enterprise content management systems, document and knowledge management systems, social software, and information visualization. In 2008, she became a visualization researcher at the Ludwig Boltzmann Institute Media.Art.Research.\n",
     "name": "Evelyn Münster",
     "last_name": "Münster",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "body": "Fabian de Kok-Mercado’s award-winning biomedical visualizations have appeared in a myriad of publications, films, and interactives. He is creative director within the Department of Science Education at the Howard Hughes Medical Institute, where he manages the production of science and medical visualization media. He is also an adjunct assistant professor within the Medical and Biological Illustration Graduate Program at the Johns Hopkins University School of Medicine, a certified medical illustrator, and a fellow of the Association of Medical Illustrators. \n",
+    "name": "Fabian de Kok-Mercado",
+    "last_name": "Kok-Mercado",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1114,6 +1177,15 @@
     "body": "Hazel Tiffany joined Group Partners in 2004 after 26 years working for the British government, for which she ultimately developed system- and service-oriented architecture that addressed cross-functional operational requirements. At Group Partners, Tiffany helps clients to both realize and hone the logic and structure that are inherent in their knowledge systems toward creating comprehensive and relevant communication for multiple audiences.\n",
     "name": "Hazel Tiffany",
     "last_name": "Tiffany",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "body": "Heather McDonald is a cell and molecular biologist by training who now works as a freelance scientific writer, editor, and illustrator. She earned her BA in biology and chemistry from Washington University in St. Louis and her PhD in cell and developmental biology from Harvard University. After stints as a postdoctoral researcher at the University of Washington and as a faculty member at Colgate University, McDonald earned a certificate in digital imaging from the Corcoran College of Art + Design.  She has worked as an editor and illustrator for many scientific organizations, including the American Association for the Advancement of Science. \n",
+    "name": "Heather McDonald",
+    "last_name": "McDonald",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1393,9 +1465,9 @@
     ]
   },
   {
-    "body": "Joey Cherdarchuk is a cofounder and the design lead at Darkhorse Analytics. A data visualization expert, his work has been highlighted in the New York Times, the Huffington Post, and the Washington Post. His [Breathing City](http://www.darkhorseanalytics.com/portfolio/breathing-city?rq=breathing) graphic was shortlisted for an Information is Beautiful award. Joey developed his design expertise after a 15-year quantitative analysis and consulting career. It is this analytical foundation that helps him create visuals that are both clear and engaging. He offers training on data visualization and his [Data Looks Better Naked](http://www.darkhorseanalytics.com/search?q=data%20looks%20better%20naked) series is used in visualization curricula around the world.  \n",
-    "name": "Joseph P. Martino",
-    "last_name": "Martino",
+    "body": "Joey Cherdarchuk is a cofounder and the design lead at Darkhorse Analytics. A data visualization expert, his work has been highlighted in The New York Times, HuffPost, and The Washington Post. His “[Breathing City](http://www.darkhorseanalytics.com/portfolio/breathing-city?rq=breathing)” graphic was shortlisted for an Information is Beautiful award. Cherdarchuk developed his design expertise after a 15-year quantitative analysis and consulting career. It is this analytical foundation that helps him create visuals that are both clear and engaging. He offers training on data visualization and his [Data Looks Better Naked](http://www.darkhorseanalytics.com/search?q=data%20looks%20better%20naked) series is used in visualization curricula around the world.  \n",
+    "name": "Joey Cherdarchuk",
+    "last_name": "Cherdarchuk",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1447,15 +1519,6 @@
     ]
   },
   {
-    "body": "John N. Friedman is Professor of Economics and International and Public Affairs at Brown University and a founding co-director of Opportunity Insights at Harvard University.\n\nHis research brings together theory and data, harnessing the power of large administrative datasets to yield policy-relevant insights on a wide range of topics, including taxation, healthcare, and education quality. His work has appeared in top academic journals as well as in major media outlets.\n\nHis most well-known papers estimate the long-term effects of teachers on student outcomes such as college attendance and earnings; in just one year, a great teacher can raise the lifetime earnings of a single class of students by nearly $1.5 million. This work was cited by President Obama in his 2012 State of the Union Address. Friedman has also worked as special assistant to the President for economic policy at the [National Economic Council](https://obamawhitehouse.archives.gov/administration/eop/nec) in the White House from 2013-2014.\n\nHe holds a Ph.D. in economics, an AM in statistics, and a BA in economics, all from Harvard University. He is a Research Associate at the [National Bureau of Economic Research](http://admin.nber.org/people/john_friedman).\n",
-    "name": "John Friedman",
-    "last_name": "Friedman",
-    "image": "image.jpg",
-    "roles": [
-      "maker"
-    ]
-  },
-  {
     "body": "John Kerschbaum holds a degree from Parsons School of Design (1988) and works in New York City as an illustrator and cartoonist. His art has been featured in The New York Times, The Village Voice, The Associated Press, The Wall Street Journal, and many other publications.\n",
     "name": "John Kerschbaum",
     "last_name": "Kerschbaum",
@@ -1468,6 +1531,15 @@
     "body": "John McHale (1922–1978) was an artist, sociologist, and the author of numerous texts on the impact of culture, technology, and mass communications. Producing work that ranged from fine arts and graphics to television and film, he was a founder of the Independent Group, a British movement that originated Pop Art, which itself grew out of a fascination with American mass culture and post-WWII technologies. In the 1960s, while on the design faculty of Southern Illinois University–Carbondale, McHale was an associate of R. Buckminster Fuller. As collaborators, McHale and Fuller coauthored a number of reports that were part of the World Design Science Decade documents, which included large-scale diagrams of unique scope, such as the one shown here.\n",
     "name": "John McHale Sr.",
     "last_name": "McHale",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "body": "John N. Friedman is professor of economics and international and public affairs at Brown University and a founding co-director of Opportunity Insights at Harvard University. His research brings together theory and data, harnessing the power of large administrative datasets to yield policy-relevant insights on a wide range of topics, including taxation, healthcare, and education quality. His most well-known papers estimate the long-term effects of teachers on student outcomes such as college attendance and earnings; in just one year, a great teacher can raise the lifetime earnings of a single class of students by nearly $1.5 million. This work was cited by President Obama in his 2012 State of the Union Address. Friedman has also worked as special assistant to the President for economic policy at the [National Economic Council](https://obamawhitehouse.archives.gov/administration/eop/nec) in the White House from 2013-2014. He holds a Ph.D. in economics, an AM in statistics, and a BA in economics, all from Harvard University. He is a Research Associate at the [National Bureau of Economic Research](http://admin.nber.org/people/john_friedman).\n",
+    "name": "John N. Friedman",
+    "last_name": "Friedman",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -1646,6 +1718,24 @@
     ]
   },
   {
+    "body": "LaDale Winling is an associate professor of history at Virginia Tech. He is the author of _Building the Ivory Tower_, on universities and urban development in the United States. It was published by the University of Pennsylvania Press and won the 2019 Kenneth Jackson Prize from the Urban History Association for best book on North American cities. He is a co-creator of “Mapping Inequality: Redlining in New Deal America,” and his latest digital history project is “Connecting the Interstates,” on displacement and redevelopment in the interstate highway system. \n",
+    "name": "LaDale Winling",
+    "last_name": "Winling",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "body": "Laura Bonetta leads the BioInteractive program at the Howard Hughes Medical Institute (HHMI) and is an adjunct biology professor at Howard Community College in Maryland. Dr. Bonetta joined HHMI after working more than 20 years in scientific communication. After conducting research in cancer genetics, she joined the editorial team of _Nature_ magazine. She then worked as a science writer and managing editor for a wide range of print and online science journals including _Nature_, _Nature Medicine_, _Nature Genetics_, _Science_, _Cell_, _Alzforum_, and various NIH publications and websites.\n",
+    "name": "Laura Bonetta",
+    "last_name": "Bonetta",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Laura Pence holds an MA in library science from the Department of Information and Library Science, School of Informatics and Computing at Indiana University. After working as a print and web designer at PenceLdesign, she became the director of creative strategy at the Indiana University School of Journalism in 2012.\n",
     "name": "Laura Pence",
     "last_name": "Pence",
@@ -1669,6 +1759,15 @@
     "location_name": "New York, NY, USA",
     "region": "n_america",
     "image": "image.jpg"
+  },
+  {
+    "body": "Li Yao leads work at the intersection of science, visual communication and education as a science visualization specialist. She combines her research experiences, design expertise, and passion for telling engaging and accurate stories to help people create innovative solutions. Yao also actively participates in the user experience (UX) design community and loves exploring UX strategies that support an efficient and collaborative digital product design process. Li received an MS in genetics, genomics, and development from Cornell University, an MA in medical and biological illustrations from The Johns Hopkins University, and an MPS in UX design from Maryland Institute College of Art.\n",
+    "name": "Li Yao",
+    "last_name": "Yao",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
   },
   {
     "body": "Lisa Kershner is a graphic designer at the College of Information Science and Technology, Drexel University.\n",
@@ -2189,7 +2288,7 @@
     ]
   },
   {
-    "body": "Nathaniel Hendren is a Professor of Economics at Harvard University and Founding Co-Director of Opportunity Insights.\n\nHis work is motivated by the question: Do markets provide equal opportunity? Using a combination of theoretical and empirical analysis, he documents and evaluates the potential for opportunity in various situations including insurance markets and intergenerational mobility. His work seeks to understand when and why markets fail to provide opportunity, quantify the impact of these market failures, and provide tools to normatively evaluate potential policy solutions.\n\nIn 2019, he was awarded the Presidential Early Career Award for Scientists and Engineers (PECASE) having been nominated by the National Science Foundation. In his ongoing work with Opportunity Insights, he seeks to develop scalable policy solutions that will empower families throughout the United States to rise out of poverty and achieve better life outcomes. Hendren earned a B.S. in mathematics and economics from the University of Chicago, and a Ph.D. in economics from the Massachusetts Institute of Technology.\n\n",
+    "body": "Nathaniel Hendren is a professor of economics at Harvard University and founding co-director of Opportunity Insights. His work is motivated by the question: Do markets provide equal opportunity? Using a combination of theoretical and empirical analysis, he documents and evaluates the potential for opportunity in various situations including insurance markets and intergenerational mobility. His work seeks to understand when and why markets fail to provide opportunity, quantify the impact of these market failures, and provide tools to normatively evaluate potential policy solutions. In 2019, he was awarded the Presidential Early Career Award for Scientists and Engineers (PECASE) having been nominated by the National Science Foundation. In his ongoing work with Opportunity Insights, he seeks to develop scalable policy solutions that will empower families throughout the United States to rise out of poverty and achieve better life outcomes. Hendren earned a B.S. in mathematics and economics from the University of Chicago, and a Ph.D. in economics from the Massachusetts Institute of Technology.\n",
     "name": "Nathaniel Hendren",
     "last_name": "Hendren",
     "image": "image.jpg",
@@ -2201,6 +2300,15 @@
     "body": "The National Telecommunications and Information Administration (NTIA) is an agency within the U.S. Department of Commerce, established in 1978. Prior to NTIA's inception, the executive branch had established the Office of Telecommunications Policy (OTP) in order to spearhead the administration's communications policy in certain areas, most notably cable television. The NTIA succeeded this unit, combining the responsibilities and mission of the OTP with those of the Commerce Department's Office of Telecommunications. The agency is now the principal advisor to the president on both domestic and international telecommunications and information policy activities. The NTIA also manages the federal use of the spectrum; performs cutting-edge telecommunications research and engineering, such as resolving technical telecommunications issues for the federal government and private sector; administers infrastructure and public telecommunications facilities grants; and operates the research and engineering Institute for Telecommunication Sciences in Colorado.",
     "name": "National Telecommunications and Information Administration",
     "last_name": "National",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "body": "Neal Steinberg is a co-founder and art director at kapow, inc. As a talented, experienced and versatile designer, he shifts effortlessly from creating whimsical sites for children to transforming dense and complex information into websites that are beautiful, elegant and easy to use. Before starting kapow, Steinberg co-created a groundbreaking online detective story. Prior to that, he produced commercials for Japanese television. He majored in Japanese Studies and Fine Arts at Princeton University.\n",
+    "name": "Neal Steinberg",
+    "last_name": "Steinberg",
     "image": "image.jpg",
     "roles": [
       "maker"
@@ -2445,7 +2553,7 @@
     ]
   },
   {
-    "body": "Raj Chetty is the William A. Ackman Professor of Public Economics at Harvard University and Director of Opportunity Insights. Chetty’s research combines empirical evidence and economic theory to help design more effective government policies. His work on tax policy, unemployment insurance, and education has been widely cited in media outlets and Congressional testimony. His current research focuses on equality of opportunity: how can we give children from disadvantaged backgrounds better chances of succeeding?\n\nChetty earned his AB summa cum laude from Harvard College in 2000 and his Ph.D. from Harvard University in 2003. At the age of 23, Chetty became a professor at the University of California at Berkeley until 2009, when he returned to Harvard as one of the youngest tenured professors in Harvard’s history. Chetty was a faculty member at Stanford from 2015-2018. In summer 2018, he returned to Harvard where he rejoined the Economic Department and launched Opportunity Insights.\n\nChetty has received numerous awards for his research, including a MacArthur \"Genius\" Fellowship and the John Bates Clark medal, given to the economist under 40 whose work is judged to have made the most significant contribution to the field. He has also received the Sherwin Rosen Prize of the Society of Labor Economists and Calvó-Armengol International Prize in Economics. He was elected as a fellow to the American Academy of Arts and Sciences in 2014 and as a member to the National Academy of Sciences in 2018.\n\n",
+    "body": "Raj Chetty is the William A. Ackman Professor of Public Economics at Harvard University and director of Opportunity Insights. Chetty’s research combines empirical evidence and economic theory to help design more effective government policies. His work on tax policy, unemployment insurance, and education has been widely cited in media outlets and Congressional testimony. His current research focuses on equality of opportunity: how can we give children from disadvantaged backgrounds better chances of succeeding? Chetty earned his AB summa cum laude from Harvard College in 2000 and his Ph.D. from Harvard University in 2003. He has received numerous awards for his research, including a MacArthur \"Genius\" Fellowship and the John Bates Clark medal, given to the economist under 40 whose work is judged to have made the most significant contribution to the field. He has also received the Sherwin Rosen Prize of the Society of Labor Economists and Calvó-Armengol International Prize in Economics. He was elected as a fellow to the American Academy of Arts and Sciences in 2014 and as a member to the National Academy of Sciences in 2018.\n",
     "name": "Raj Chetty",
     "last_name": "Chetty",
     "image": "image.jpg",
@@ -2520,6 +2628,15 @@
     "body": "Rob Bracken is a writer and communications manager for a major software company. He holds a master's degree in English from the University of Missouri. Rob became interested in oil and energy issues several years ago, after reading The Party's Over by Richard Heinberg. Rob lives in San Francisco with his wife, Deidra, and their cat.\n",
     "name": "Rob Bracken",
     "last_name": "Bracken",
+    "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "body": "Robert K. Nelson is the director of the Digital Scholarship Lab and head of digital engagement at University of Richmond’s Boatwright Library. He is the editor of _American Panorama: An Atlas of United States History_, which includes \"Mapping Inequality: Redlining in New Deal America.\" _American Panorama_ received the 2019 Roy Rosenzweig Prize for Innovation in Digital History from the American Historical Association and was named a tech innovation by the _Chronicle of Higher Education's_ in 2016. \"Mapping Inequality\" received Honorable Mention for the 2019 Garfinkel Prize from the American Studies Association's Digital Humanities Caucus. Other digital history projects that Nelson has developed include _Mining the Dispatch_ and a remediated, enhanced version of Charles Paullin's 1932 _Atlas of the Historical Geography of the United States_. Nelson teaches courses related to antislavery and slavery in the United States and about the digital humanities. \n",
+    "name": "Robert K. Nelson",
+    "last_name": "Nelson",
     "image": "image.jpg",
     "roles": [
       "maker"
