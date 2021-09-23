@@ -1,0 +1,546 @@
+collections:
+  - name: siteSettings
+    label: Site Settings
+    files:
+      - label: Homepage
+        name: home
+        file: content/site/home/home.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'home'
+        fields:
+        - name: cta
+          label: CTA
+          widget: object
+          fields:
+            - { name: title, label: Title }
+            - { name: subtitle, label: SubTitle, required: false }
+            - { name: body, label: Body }
+            - { name: buttonLabel, label: Button Label, required: false }
+            - { name: buttonLink, label: Button Link, required: false }
+            - { name: imageSource, label: Image, widget: file, required: false }  
+
+      - label: Call to Action
+        name: callToAction
+        file: content/site/callToAction.md
+        fields:
+          - { name: title, label: Title }
+          - { name: date, label: Date, widget: datetime }
+          - { name: image, label: Image, widget: image }
+          - { name: link, label: Link }
+          - { name: linkLabel, label: Link Label }
+          - { name: body, label: Description, widget: markdown }
+
+      - label: About Places & Spaces
+        name: about
+        file: content/site/about/about.md
+        preview_path: about
+        media_folder: ''
+        fields:
+          - { name: overviewParagraph, label: Overview Paragraph, widget: markdown }
+          - { name: overviewQuote, label: Overview Quote, widget: markdown }
+          - { name: curatorsDescription, label: Curators Description, widget: markdown }
+          - { name: advisoryBoardDescription, label: Advisory Board Description, widget: markdown }
+          - { name: ambassadorsDescription, label: Ambassadors Description, widget: markdown }
+          - name: annualReports
+            label: Annual Reports 
+            widget: list
+            required: false
+            fields:
+            - { name: year, label: Year }
+            - { name: pdfLink, label: File, widget: file }
+      - label: What is a Map?
+        name: whatIsAMap
+        file: content/site/maps/whatIsAMap.md
+        media_folder: ''
+        preview_path: maps
+        fields:
+          - name: carousel
+            label: Carousel
+            widget: list
+            media_folder: './carousel'
+            fields:
+            - { name: title, label: Title, required: false }
+            - { name: sm, label: "Mobile (sm) Version" , widget: image }
+            - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
+          - { name: body, label: Description, widget: markdown }
+
+      - label: What is a Macroscope?
+        name: whatIsAMacroscope
+        file: content/site/macroscopes/whatIsAMacroscope.md
+        media_folder: ''
+        preview_path: macroscopes
+        fields:
+          - name: carousel
+            label: Carousel
+            widget: list
+            media_folder: './carousel'
+            fields:
+            - { name: title, label: Title, required: false }
+            - { name: sm, label: "Mobile (sm) Version" , widget: image }
+            - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
+          - { name: body, label: Description, widget: markdown }
+
+      - label: Call for Macroscopes
+        name: callForMacroscopes
+        file: content/site/callForMacroscopes.md
+        preview_path: call-for-macroscopes
+        media_folder: ''
+        fields:
+          - { name: lastIteration, label: Previous Macroscope Iteration, widget: number, min: 11, max: 20, default: 16 }
+          - { name: pdfLink, label: PDF, widget: file, required: false }
+          - { name: submitURL, label: Submit URL}
+          - {name: allowSubmission, label: Allow Submissions, widget: boolean, default: true}
+          - name: tabs
+            widget: list
+            fields:
+            - { name: header, label: Tab Header }
+            - { name: content, label: Tab Content, widget: markdown }
+          - name: importantDates 
+            label: Important Dates
+            widget: list
+            fields:
+            - { name: label, label: Label}
+            - { name: date, widget: date, label: Date, format: DD MM YY }
+         
+
+      - label: Hosting
+        name: Hosting
+        file: content/site/hosting/hosting.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'hosting'
+        fields:
+          - { name: overview, label: Overview, widget: markdown }
+          - { name: install_guide, label: Exhibit Install Guide, widget: file}
+          - { name: master_booklet, label: Exhibit Master Booklet, widget: file}
+          
+          - name: carousel
+            label: Images for carousel
+            min: 1
+            widget: list
+            media_folder: './carousel'
+            fields:
+              - { name: title, label: Title, required: false }
+              - { name: sm, label: "Mobile (sm) Version" , widget: image }
+              - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
+          
+          - name: banner_text
+            label: Banner Text
+            widget: markdown
+
+          - name: tabs
+            widget: list
+            media_folder: './tabs'
+            fields:
+            - { name: header, label: Tab Header }
+            - { name: image, label: Image, widget: file, required: false }
+            - { name: content, label: Tab Content, widget: markdown }
+      
+      - label: Venues
+        name: venues
+        file: content/site/venues/venues.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'venues'
+        fields:
+          - { name: accordianHeader, label: Header }
+          - { name: accordianContent, label: Content, widget: markdown }
+
+      - label: Languages
+        name: languages
+        file: content/site/languages.md
+        fields:
+          - name: languages
+            label: Languages
+            label_singular: Language
+            multiple: true
+            widget: list
+            summary: '{{fields.language}}'
+            fields:
+              - { name: abbreviation, label: 3-letter Code }
+              - { name: abbr_short, label: 2-letter Code }
+              - { name: language, label: Language }
+              - { name: native, label: Native Spelling }
+
+      - label: Maker Videos
+        name: maker-videos
+        file: content/site/maker-videos/maker-videos.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'maker-videos'
+        fields:
+          - { name: description, label: Description, widget: markdown }
+
+  - name: learning-materials
+    label: Learning Materials
+    label_singular: Learning Material
+    folder: content/learning-materials
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{title}}"
+    sortable_fields: [title, order]
+    preview_path: person/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: order, label: Order, widget: number, min: 1, default: 100 }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
+     
+      - name: image
+        label: Image
+        widget: object
+        fields:
+          - { name: sm, label: "Mobile (sm) Version" , widget: image }
+          - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
+
+  - name: maker-videos
+    label: Maker Videos
+    label_singular: Maker Video
+    folder: content/maker-videos
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{title}}"
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: videoLink, label: Video URL, widget: file }
+      - { name: image, label: Thumbnail, widget: image, required: false }
+      - name: maker
+        label: Authors
+        widget: relation
+        multiple: false
+        collection: person
+        required: false
+        search_fields: ['name', 'lastName']
+        value_field: '{{slug}}'
+        display_fields: ['{{name}} {{lastName}}']
+      - { name: short_description, label: Short Description }
+      - { name: long_description, label: Long Description, widget: markdown }
+    
+
+  - name: blog
+    label: Blogs
+    label_singular: Blog
+    folder: content/blog
+    path: "{{year}}/{{month}}-{{day}}/{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: blog/{{year}}/{{month}}-{{day}}/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: date, label: Date, widget: date }
+      - { name: image, label: Image, widget: image }
+      - { name: body, label: Body, widget: markdown }
+
+  - name: person
+    label: People
+    label_singular: Person
+    folder: content/person
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{name}}"
+    preview_path: person/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    sortable_fields: [name, affiliation]
+    fields:
+      - { name: name, label: Display Name }
+      - { name: last_name, label: Last Name (for sorting) }
+      - name: roles
+        label: Roles
+        label_singular: Role
+        widget: select
+        multiple: true
+        options:
+          - { value: curator, label: Curator }
+          - { value: co-curator, label: Co-Curator }
+          - { value: team, label: Team }
+          - { value: ambassador, label: Ambassador }
+          - { value: advisory_board, label: Advisory Board }
+          - { value: maker, label: Maker }
+      - { name: homepage, label: Personal Homepage, required: false }
+      - { name: jobTitle, label: Job Title, required: false }
+      - { name: affiliation, label: Affiliation, required: false }
+      - { name: location, label: Location (lat/lon), widget: map, required: false }
+      - { name: location_name, label: Display Location, required: false }
+      - name: region
+        label: Region
+        label_singular: Region
+        widget: select
+        multiple: false
+        required: false
+        options:
+          - { value: n_america, label: North America }
+          - { value: c_america, label: Central America }
+          - { value: s_america, label: South America }
+          - { value: europe, label: Europe }
+          - { value: asia, label: Asia }
+          - { value: africa, label: Africa }
+          - { value: australia, label: Australia }
+      - { name: image, label: Image, widget: image, required: false }
+      - { name: body, label: Bio, required: false, widget: markdown }
+
+  - name: book
+    label: Books
+    label_singular: Book
+    folder: content/book
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: book/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: date, label: Published Date, widget: datetime }
+      - { name: title, label: Title }
+      - name: author
+        label: Authors
+        widget: relation
+        multiple: true
+        collection: person
+        search_fields: ['name', 'lastName']
+        value_field: '{{slug}}'
+        display_fields: ['{{name}} {{lastName}}']
+      - { name: publisher, label: Publisher }
+      - { name: pdfLink, label: PDF Link, required: false, widget: file }
+      - { name: amazonLink, label: Amazon Link }
+      - name: bookImages
+        label: Book Images
+        label_singular: Book Image
+        min: 1
+        summary: '{{fields.image}}'
+        widget: list
+        fields:
+          - { name: sm, label: "Mobile (sm) Version" , widget: image }
+          - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
+      - { name: body, label: Abstract, widget: markdown }
+
+  - name: news
+    label: News
+    folder: content/news
+    path: "{{year}}/{{month}}-{{day}}/{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: news/{{year}}/{{month}}-{{day}}/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: source, label: Source }
+      - { name: sourceUrl, label: Source URL }
+      - { name: pdfLink, label: PDF Link, widget: file }
+      - { name: image, label: Image, widget: image, required: false }
+      - { name: body, label: Body, widget: markdown }
+
+  - name: venue
+    label: Venues
+    folder: content/venues
+    path: "{{year}}/{{month}}-{{day}}/{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: venue/{{year}}/{{month}}-{{day}}/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: dateStart, label: Start Date, widget: datetime }
+      - { name: dateEnd, label: End Date, widget: datetime }
+      - { name: title, label: Exhibit Name }
+      - { name: venue, label: Venue }
+      - { name: organizer, label: Organizer }
+      - { name: credit, label: Credit }
+      - { name: city, label: City }
+      - { name: state, label: State }
+      - { name: country, label: Country }
+      - { name: pdfLink, label: PDF Link, widget: file }
+      - name: venueImages
+        label: Venue Images
+        label_singular: Venue Image
+        min: 1
+        summary: '{{fields.image}}'
+        widget: list
+        fields:
+          - { name: sm, label: "Small Version", widget: image }
+          - { name: lg, label: "Large Version", widget: image }
+
+  - name: gallery
+    label: Galleries
+    label_singular: Gallery
+    folder: content/gallery
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    preview_path: gallery/{{slug}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - name: images
+        label: Images
+        label_singular: Image
+        min: 1
+        summary: '{{fields.image}}'
+        widget: list
+        fields:
+          - { name: image, label: Image, widget: image }
+
+  - name: map
+    label: Maps
+    label_singular: Map
+    folder: content/map
+    path: '{{iteration}}/{{sequence}}/readme'
+    create: true
+    i18n: true
+    slug: '{{slug}}'
+    preview_path: map/{{iteration}}/{{sequence}}
+    media_folder: ''
+    public_folder: ''
+    default_sort: iteration
+    sortable_fields: [title, iteration]
+    summary: '{{fields.iteration}}.{{fields.sequence}} {{fields.title}}'
+    fields:
+      - { name: title, label: Title, i18n: true }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown, i18n: true }
+      - name: makers
+        label: Makers
+        widget: relation
+        multiple: true
+        collection: person
+        search_fields: ['name']
+        value_field: '{{slug}}'
+        display_fields: ['{{name}}']
+      # - { name: location, label: Location, widget: map }
+      - { name: year, label: Year, widget: number, min: -2000, default: 2020 }
+      - { name: creditLine, label: Translation Credit, required: false }
+      - { name: references, label: References, widget: list, summary: '{{fields.ref}}', allow_add: true, field: {name: ref, label: Reference, widget: markdown }}
+      - name: image
+        label: Image
+        widget: object
+        collapsed: false
+        fields:
+          - { name: sm, label: Small (80px Width), widget: image }
+          - { name: med, label: Medium (160px Width), widget: image }
+          - { name: lg, label: Large (865px Width), widget: image }
+          - { name: tiles, label: Tiled Image URL, widget: string }
+      - { name: externalLink, label: External Link, required: false }
+
+  - name: macroscope
+    label: Macroscopes
+    label_singular: Macroscope
+    folder: content/macroscope
+    path: '{{iteration}}/{{sequence}}/readme'
+    create: true
+    i18n: true
+    slug: '{{slug}}'
+    preview_path: macroscope/{{iteration}}/{{sequence}}
+    media_folder: ''
+    public_folder: ''
+    default_sort: iteration
+    sortable_fields: [title, iteration]
+    summary: '{{fields.iteration}}.{{fields.sequence}} {{fields.title}}'
+    fields:
+      - { name: title, label: Title, i18n: true }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown, i18n: true }
+      - name: makers
+        label: Makers
+        widget: relation
+        multiple: true
+        collection: person
+        search_fields: ['name']
+        value_field: '{{slug}}'
+        display_fields: ['{{name}}']
+      # - { name: location, label: Location, widget: map }
+      - { name: year, label: Year, widget: number, min: -2000, default: 2020 }
+      - { name: creditLine, label: Translation Credit, required: false }
+      - { name: references, label: References, widget: list, summary: '{{fields.ref}}', allow_add: true, field: {name: ref, label: Reference, widget: markdown }}
+      - name: image
+        label: Image
+        widget: object
+        collapsed: false
+        fields:
+          - { name: sm, label: Small (80px Width), widget: image }
+          - { name: med, label: Medium (160px Width), widget: image }
+          - { name: lg, label: Large (865px Width), widget: image }
+      - { name: externalLink, label: External Link, required: false }
+
+  - name: mapIteration
+    label: Map Iterations
+    label_singular: Map Iteration
+    folder: content/mapIteration
+    path: '{{iteration}}/readme'
+    create: true
+    slug: '{{slug}}'
+    preview_path: map/{{iteration}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown }
+
+  - name: macroscopeIteration
+    label: Macroscope Iterations
+    label_singular: Macroscope Iteration
+    folder: content/macroscopeIteration
+    path: '{{iteration}}/readme'
+    create: true
+    slug: '{{slug}}'
+    preview_path: macroscope/{{iteration}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown }
+
+  - name: static-pages
+    label: Static Pages (deprecated)
+    label_singular: Static Page
+    folder: content/static-pages
+    path: "{{slug}}/readme"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: id, label: ID, widget: number, required: false }
+      - { name: name, label: Name }
+      - { name: subpage, label: Subpage, required: false }
+      - { name: title, label: Title }
+      - { name: description, label: Description, required: false }
+      - { name: body, label: Content, widget: markdown }
+      - { name: last_update, label: Last Updated, widget: date, required: false }
+
+backend:
+  name: github
+  repo: cns-iu/scimaps
+  branch: pbi-content-staging
+
+# We'll switch to editorial workflow when we move closer to production
+# publish_mode: editorial_workflow
+
+# Uncomment below when using the default proxy server port
+## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+## Basically run `npx netlify-cms-proxy-server` and launch the angular site
+# local_backend: true
+
+i18n:
+  structure: single_file
+  locales: [en, es, zh, fr, pt, de, pl]
+  default_locale: en
+
+media_folder: content/images/uploads
+public_folder: /assets/images/uploads
+site_url: https://dev.scimaps.org
+display_url: https://dev.scimaps.org
+
+logo_url: http://scimaps.org/images/global/ps_logo.png
+
+show_preview_links: true

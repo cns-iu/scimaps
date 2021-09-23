@@ -1,0 +1,551 @@
+[
+  {
+    "en": {
+      "title": "Earth",
+      "iteration": 11,
+      "sequence": 1,
+      "body": "Whether we like it or complain about it, bask in it or suffer from it, we all are affected by the weather. This essential truth becomes readily apparent when viewing _Earth_, the work of software engineer Cameron Beccario.  \n  \nUsing data from the Global Forecast System, _Earth_ visualizes worldwide weather patterns using animated wind streams, color coded according to velocity, that sweep across a three-dimensional globe. Truly interactive, the visualization allows the user to spin the globe and zoom in on a desired location. Tapping on that location will then bring up further information about exact coordinates, wind speed, and temperature, with all information updated every three hours.  \n  \nThe world itself may be seen from different perspectives, as the visualization offers nine different projections, such as conic equidistant, stereographic, or Waterman Butterfly. When Earth was first introduced in December 2013, it only visualized wind patterns. Since then, however, Beccario has increased the number of overlays to include such factors as carbon monoxide concentration, dust and sulfate extinction, along with the measured temperature. Earth also shows the perceived temperature which Beccario calls the Misery Index, borrowing a term from economics. Explore the full functionality at [http://earth.nullschool.net](http://earth.nullschool.net).",
+      "makers": [
+        "cameron-beccario/readme"
+      ],
+      "year": 2015,
+      "references": [
+        "Beccario, Cameron. 2016. _Earth_. Courtesy of [earth.nullschool.net](https://earth.nullschool.net/). In “11th Iteration (2016): Macroscopes for Interacting with Science,” _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org).  \n  \nBeccario, Cameron. 2016. Earth Website. Accessed January 10, 2016. [earth.nullschool.net/about](https://earth.nullschool.net/about.html).  \n  \nOremus, Will. 2013. “Mesmerizing Map Shows Which Way the World’s Winds Are Blowing.” Future Tense. Last modified December 18, 2013. [http://www.slate.com/blogs/future\\_tense/2013/12/18/global\\_wind\\_map\\_cameron\\_baccario\\_s\\_visualization\\_of\\_world\\_weather\\_patterns.html](http://www.slate.com/blogs/future_tense/2013/12/18/global_wind_map_cameron_baccario_s_visualization_of_world_weather_patterns.html)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://earth.nullschool.net/"
+    }
+  },
+  {
+    "en": {
+      "title": "AcademyScope",
+      "iteration": 11,
+      "sequence": 2,
+      "body": "_AcademyScope_ represents a collaborative effort between the National Academy of Sciences and Indiana University’s Cyberinfrastructure for Network Science Center. This interactive visualization encourages viewers to explore all reports published by the National Academies of Sciences, Engineering, and Medicine in the last twenty years.  \n  \nBy using this discovery tool, viewers may browse reports by topic and subtopic, see the relatedness of reports via elaborate networks of book covers dynamically displayed on the screen, and access detailed information about individual reports. This version of _AcademyScope_ consists of two main interfaces. The Topic View provides a proportional depiction of the number of titles within each sub-topic network. Sub-topic globes display relative publishing activity within individual sub-topics. The Sub-Topic View displays a network representation of the relationship between Academies reports based on full-text lexical analysis of each publication. This allows the user to highlight any given title and its related publications and also to view the number of titles published in that sub-topic by year.",
+      "makers": [
+        "jeff-colosino/readme",
+        "alphonse-macdonald/readme",
+        "stephen-mautner/readme",
+        "barbara-kline-pope/readme",
+        "jd-talasek/readme",
+        "juan-thomassie/readme",
+        "katy-borner/readme",
+        "chin-hua-kong/readme",
+        "samuel-t-mills/readme",
+        "adam-simpson/readme"
+      ],
+      "year": 2014,
+      "references": [
+        "CNS Center at Indiana University. 2013. “The Making of AcademyScope.” YouTube. Last modified March 7, 2013. [https://www.youtube.com/watch?v=pdqKBna1Fos](https://www.youtube.com/watch?v=pdqKBna1Fos).  \n  \nMautner, Stephen, Barbara Kline Pope, Alphonse MacDonald, JD Talasek, Juan Thomassie, Jeff Colosino, Chin Hua Kong, Adam Simpson, Samuel Mills, and Katy Börner. 2013. _AcademyScope_. Courtesy of the National Academy of Sciences and the Cyberinfrastructure for Network Science Center. In “11th Iteration (2016): Macroscopes for Interacting with Science,” _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org).  \n  \nThe National Academies Press. 2016. “AcademyScope.” Accessed January 10, 2016. [http://www.nap.edu/academy-scope/#top-downloads](http://www.nap.edu/academy-scope/#top-downloads)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": null
+    }
+  },
+  {
+    "en": {
+      "title": "Mapping Global News",
+      "iteration": 11,
+      "sequence": 3,
+      "body": "This macroscope was created by Kalev H. Leetaru, an expert on big data and global society. It uses as its source material, quite literally, the news of the world. The visualization explores how new stories group countries into distinct clusters, creating an inherent geographic network structure over the planet akin to “communities” as seen through the eyes of the world’s presses. In essence, for every monitored news article published anywhere in the world, it compiles a list of the other countries also mentioned in those articles.  \n  \nIt is important to note that this is not how often coverage from a country mentions other countries; it is how often coverage from any country in the world that is about that country mentions other countries. In other words, it is about context.  \n  \nCountries that are frequently mentioned together might reflect geographic proximity, but also economic and political ties, or joint involvement in a major international event. Blue incoming lines indicate countries where at least 10% of the coverage mentioning the source country also mentioned the selected country. Red outgoing lines indicate countries where at least 10% of the coverage mentioning the selected country also mentioned the destination country.  \n  \nThe size and number of energy pulses moving along the line indicate the percentage of co-occurring mentions. In a given week, nearly every country is mentioned alongside of every other country at least once, so the visualization uses the cutoff of 10% to highlight only the strongest relationships. More information on this project can be found at [http://gdeltproject.org](http://gdeltproject.org).",
+      "makers": [
+        "kalev-h-leetaru/readme"
+      ],
+      "year": 2015,
+      "references": [
+        "Leetaru, Kalev. 2015. Mapping Global Society. Courtesy of The GDELT Project. In “11th Iteration (2016): Macroscopes for Interacting with Science,” _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org).  \n  \nThe GDELT Project. 2015. “Mapping Media Geographic Networks: The News Co-Occurrence Globe.” The GDELT Project Website. Last modified June 1, 2015. [http://blog.gdeltproject.org/mapping-media-geographic-networks-the-news-co-occurrence-globe](http://blog.gdeltproject.org/mapping-media-geographic-networks-the-news-co-occurrence-globe).  \n  \nThe GDELT Project. 2016. The GDELT Project Homepage. Accessed January 10, 2016. [http://www.gdeltproject.org](http://www.gdeltproject.org)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://gdeltproject.org/"
+    }
+  },
+  {
+    "en": {
+      "title": "Charting Culture",
+      "iteration": 11,
+      "sequence": 4,
+      "body": "University of Texas art historian Maximilian Schich and Mauro Martino, head of IBM’s Watson Cognitive Visualization Lab, created Charting Culture, which debuted in August of 2014 and went on to accumulate over 1 million views on YouTube.  \n  \nIn just five minutes, the animation covers 2,600 years of European and American history, from 600 BCE to 2012 CE, by tracking 120,000 individuals whose birth and death locations were recorded in the knowledge web Freebase. The figures whose migrations are traced are remarkably varied: from the Greek mathematician Pythagoras to the American Jazz Age entertainer Al Jolson, from the Roman emperor Marcus Aurelius to the Gothic painter Henry Fuseli, and from the composer Carl Maria von Weber to the father of sexuality studies, Havelock Ellis.  \n  \nBirthplaces, represented by blue dots, are connected by arcs to places of death, denoted by red dots. The animation reveals how increased concentrations of death places indicate how different cultural centers rise and fall in importance: for instance, how Paris and London supplant the dominance of Rome, how New York pulls Europeans from their places of birth, and how America’s west coast lures Easterners to cross plains and mountains with promises of a new life. Further information on the data, making, and research behind this project can be found at [http://cultsci.net](http://cultsci.net).",
+      "makers": [
+        "mauro-martino/readme",
+        "maximilian-schich/readme"
+      ],
+      "year": 2014,
+      "references": [
+        "Abbott, Alison. 2014. “Humanity’s Cultural History Captured in 5-Minute Film. Nature News. Last modified July 31, 2014. [http://www.nature.com/news/humanity-s-cultural-history-captured-in-5-minute-film-1.15650](http://www.nature.com/news/humanity-s-cultural-history-captured-in-5-minute-film-1.15650).  \n  \nSchich, Maximilian, Chaoming Song, Yong-Yeol Ahn, Alexander Mirsky, Mauro Martino, Albert-Lászlo Barabási, Dirk Helbing. 2014. “A Network Framework of Cultural History.” Science 345 (6196): 558-562.  \n  \nSchich, Maximilian, and Mauro Martino. 2014. Charting Culture. Courtesy of [www.cultsci.net](http://www.cultsci.net/). In “11th Iteration (2016): Macroscopes for Interacting with Science,” _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org).  \n  \nSchich, Maximilian, Mauro Martino, et al. 2014 “Charting Culture.” YouTube. Last modified July 31, 2014. [https://www.youtube.com/watch?v=4gIhRkCcD4U](https://www.youtube.com/watch?v=4gIhRkCcD4U)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://cultsci.net/"
+    }
+  },
+  {
+    "en": {
+      "title": "Smelly Maps",
+      "iteration": 12,
+      "sequence": 1,
+      "body": "What does your street smell like? Humans can differentiate thousands of different odors. Yet, city officials and urban planners deal only with the management of a few bad odors. In creating _Smelly Maps_, University of Turin computer science professor Rossano Schifanella and Bell Labs researchers Luca Maria Aiello and Daniele Quercia teamed up to introduce a new stream of research that celebrates the complex aromas of our cities and makes it possible to use this information in urban design.\n\n  \n\nTo map urban smellscapes, the project team first created a lexicon of smell-related words. Then, they gathered geotagged social media posts from Flickr, Instagram, and Twitter that included smell-related words. Finally, the smells people posted about were mapped on each street segment.\n\n  \n\nClick on a street to see how it smells. As you might expect, nature smells are strong near parks and animal smells dominate at the zoo. Where do you find the strongest food smells?\n\n  \n\nTo learn more about the _Smelly Maps_ project, visit [http://goodcitylife.org/smellymaps](http://goodcitylife.org/smellymaps).",
+      "makers": [
+        "daniele-quercia/readme",
+        "rossano-schifanella/readme",
+        "luca-maria-aiello/readme"
+      ],
+      "year": 2016,
+      "references": [
+        "Aiello, Luca Maria, Rossano Schifanella, Daniele Quercia, and Francesco Aletta. 2016. “Chatty Maps: Constructing Sound Maps of Urban Areas from Social Media Data.” _Royal Society Open Science_ 3: 150690. Accessed November 28, 2016. [https://dx.doi.org/10.1098/rsos.150690](https://dx.doi.org/10.1098/rsos.150690).\n\n  \n\nGood City Life. 2016. “Chatty Maps.” Accessed November 28, 2016. [https://goodcitylife.org/chattymaps/project.html](https://goodcitylife.org/chattymaps/project.html).\n\n  \n\nGood City Life. 2016. “Happy Maps.” Accessed November 28, 2016. [https://goodcitylife.org/happymaps/](https://goodcitylife.org/happymaps/).\n\n  \n\nQuercia, Daniele, Luca Maria Aiello, and Rossano Schifanella. 2016. “The Emotional and Chromatic Layers of Urban Smells.” In _Proceedings of the Tenth International AAAI Conference on Web and Social Media (ICWSM 2016)_. Palo Alto, CA: AAAI Publications. 309-318. Accessed November 28, 2016. [https://arxiv.org/abs/1605.06721](https://arxiv.org/abs/1605.06721).\n\n  \n\nQuercia, Daniele, Rossano Schifanella, and Luca Maria Aiello. 2014. “The Shortest Path to Happiness: Recommending Beautiful, Quiet, and Happy Routes in the City.” In _Proceedings of the 25th ACM Conference on Hypertext and Social Media (HT ’14)_. New York, NY: ACM Publications. 116-125. Accessed November 28, 2016. [http://dl.acm.org/citation.cfm?id=2631799](http://dl.acm.org/citation.cfm?id=2631799).\n\n  \nQuercia, Daniele, Rossano Schifanella, Luca Maria Aiello, and Kate McLean. 2015. “Smelly Maps: The Digital Life of Urban Smellscapes.” In _Proceedings of the Ninth International AAAI Conference on Web and Social Media (ICWSM 2015)_. Palo Alto, CA: AAAI Publications. 327-336. Accessed November 28, 2016. [http://www.aaai.org/ocs/index.php/ICWSM/ICWSM15/paper/view/10572](http://www.aaai.org/ocs/index.php/ICWSM/ICWSM15/paper/view/10572).  \n  \nQuercia, Daniele, Rossano Schifanella, and Luca Maria Aiello. 2015. _Smelly Maps_. Courtesy of Goodcitylife.org. In “12th Iteration (2016): Macroscopes for Making Sense of Science, _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://goodcitylife.org/smellymaps"
+    }
+  },
+  {
+    "en": {
+      "title": "HathiTrust Digital Library ",
+      "iteration": 12,
+      "sequence": 2,
+      "body": "The HathiTrust Digital Library is a collective “elephant’s memory” or storehouse of knowledge. Run by a consortium of international research libraries, it serves as a shared and growing repository for digital copies of more than 14 million publications that span 2000 years.  \n  \nVisualization software developer David Reagan, curator Lisel Record, and information scientist Katy Bӧrner developed this visualization to delve into the geographic and temporal diversity of the collection using freely available metadata.  \n  \nYellow circles show publication locations, with the size of the circle showing how many publications were printed in that location. Lines connect publication locations to places where that language is spoken, illustrating the connection between publication location and potential readers.  \n  \nIf you look at publications from the years 1200-1400 you see the prominence of Persian science and culture reflected in the high number of publications from Iran and other Middle Eastern locations. If, on the other hand, you look at publications from the last 50 years, a colorful swirl of publications bubble up from many regions and flow to readers around the globe.",
+      "makers": [
+        "david-reagan/readme",
+        "lisel-record/readme",
+        "katy-borner/readme"
+      ],
+      "year": 2016,
+      "references": [
+        "Reagan, David, Lisel Record, and Katy Börner. 2016. _HathiTrust Digital Library_. Courtesy of the Cyberinfrastructure for Network Science Center and the Advanced Visualization Lab at Indiana University. In “12th Iteration (2016): Macroscopes for Making Sense of Science, _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": null
+    }
+  },
+  {
+    "en": {
+      "title": "Excellence Networks",
+      "iteration": 12,
+      "sequence": 3,
+      "body": "While it may be simple to estimate which research institutions are at the top of their game, creating a statistical model to objectively measure and map this is no small feat. Lutz Bornmann, a sociologist of science at the Max Planck Society, Rüdiger Mutz, a Swiss researcher in social psychology and higher education, Moritz Stefaner, an independent data visualization expert, and Félix De Moya Anegon, senior researcher at SCImago (a well-known research group dedicated to information analysis), took up the challenge and created Excellence Networks.  \n  \nThe web application shows how universities and research institutions collaborate. Institutions in the SCImago Institutions Rankings were categorized by subject area. Each institution was then mapped in relation to its collaborators. Co-authorship networks show how successfully (in terms of citations) an institution has collaborated compared to others within a subject area, and with which other institutions a specific institution has collaborated most successfully.  \n  \nPick a subject area and see which institutions publish collaboratively and who they work with. When they collaborate, do they produce high impact papers? Do they collaborate locally or are their major collaborators on other continents?  \n  \nVisit Excellence Networks online at [http://excellence­-networks.net](http://excellence­-networks.net).",
+      "makers": [
+        "moritz-stefaner/readme",
+        "lutz-bornmann/readme",
+        "rudiger-mutz/readme",
+        "felix-de-moya-anegon/readme"
+      ],
+      "year": 2016,
+      "references": [
+        "Bornmann, Lutz, Moritz Stefaner, Félix de Moya Anegón, and Rüdiger Mutz. 2016. “Excellence in Science: A Web-Based Application Based on Bayesian Multilevel Logistic Regression (BMLR) for the Identification of Institutions Collaborating Successfully.” _Journal of Informetrics_ 10 (1): 312-327. Accessed November 28, 2016. [http://arxiv.org/abs/1508.03950](http://arxiv.org/abs/1508.03950).  \n  \nBornmann, Lutz, Rüdiger Mutz, Moritz Stefaner, and Félix de Moya Anegón. 2016. Excellence Networks Home Page. Accessed November 28, 2016. [http://www.excellence-networks.net](http://www.excellence-networks.net).  \n  \nStefaner, Moritz. 2016. “Excellence Networks: Visualizing Scientific Collaboration.” Truth and Beauty Operations. Accessed November 28, 2016. [http://truth-and-beauty.net/projects/mpg-excellence-networks](http://truth-and-beauty.net/projects/mpg-excellence-networks).  \n  \nBornmann, Lutz, Rüdiger Mutz, Moritz Stefaner, and Félix de Moya Anegón. 2015. _Excellence Networks_. Courtesy of the Max Planck Society, ETH Zurich, and the SCImago Group. In “12th Iteration (2016): Macroscopes for Making Sense of Science, _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://excellence-networks.net/"
+    }
+  },
+  {
+    "en": {
+      "title": "FleetMon Explorer",
+      "iteration": 12,
+      "sequence": 4,
+      "body": "Created by FleetMon, a company that provides live vessel tracking, this visualization animates a week of ship traffic on the seven seas as seen from space. The movements of hundreds of thousands of vessels were captured using shore and satellite-based tracking data from FleetMon and its partner, Luxspace.  \n  \nMany cargo ships, tankers, ferries, cruise ships, yachts, and tugs carry transponders that transmit their locations. That data is then made available to amateur ship spotters and maritime businesses alike through the interactive _FleetMon Explorer_ tool. Using the tool, you can follow the flow of jet fuel and agricultural commodities around the globe, track a fleet of cruise ships in real time, or monitor traffic at ports around the world.  \n  \nLearn more about _FleetMon Explorer_ at [http://www.fleetmon.com/services/live-tracking/fleetmon-explorer](http://www.fleetmon.com/services/live-tracking/fleetmon-explorer).",
+      "makers": [
+        "fleetmon/readme"
+      ],
+      "year": 2016,
+      "references": [
+        "FleetMon. 2016. Home Page. Accessed November 28, 2016. [https://www.fleetmon.com](https://www.fleetmon.com).  \n  \nFleetMon. 2012. _FleetMon Explorer_. Courtesy of FleetMon. In “12th Iteration (2016): Macroscopes for Making Sense of Science, _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://www.fleetmon.com/services/live-tracking/fleetmon-explorer"
+    }
+  },
+  {
+    "en": {
+      "title": "The Cosmic Web",
+      "iteration": 13,
+      "sequence": 1,
+      "body": "The concept of the cosmic web—viewing the universe as a set of discrete galaxies held together by gravity—is deeply ingrained in cosmology. Yet, little is known about the architecture of this network or its characteristics. Visual researcher and information designer Kim Albrecht worked with Albert-László Barabási, of Northeastern University’s Center for Complex Network Research, and a team of astronomers to construct multiple models of the cosmic web. The project team used data from 24,000 galaxies to offer blueprints for how galaxies fit together. The resulting interactive visualizations helped the team imagine the cosmic web, showed them differences between the models, and provided insight into the fundamental structure of the universe.\n\n  \n\nImmerse yourself in a network of 24,000 galaxies with more than 100,000 connections. By selecting a model, panning and zooming, and filtering the data, you can compare three distinct models of the cosmic web.\n\n  \n\nThe visualizations and accompanying information about _The Cosmic Web_ can be found at [https://cosmicweb.kimalbrecht.com/](https://cosmicweb.kimalbrecht.com/).",
+      "makers": [
+        "kim-albrecht/readme",
+        "albert-laszlo-barabasi/readme"
+      ],
+      "year": 2016,
+      "references": [
+        "Coutinho, Bruno C., Sungryong Hong, Kim Albrecht, Arjun Dey, Albert-László Barabási, Paul Torrey, Mark Vogelsberger, and Lars Hernquist. 2016. “The Network Behind the Cosmic Web.” Accessed July 10, 2017. [https://arxiv.org/abs/1604.03236](https://arxiv.org/abs/1604.03236).  \n  \nAlbrecht, Kim and Albert-László Barabási. 2016. _The Network Behind the Cosmic Web_. Courtesy of the Center for Complex Research, Northeastern University. In “13th Iteration (2017): Macroscopes for Playing with Scale, _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "https://cosmicweb.kimalbrecht.com/"
+    }
+  },
+  {
+    "en": {
+      "title": "Histography",
+      "iteration": 13,
+      "sequence": 2,
+      "body": "_Histography_ is an award-winning interactive timeline. The site draws historical events from Wikipedia, and updates itself daily as new events are added to the online encyclopedia. Matan Stauber, currently an interactive designer and code developer in Tel Aviv, created _Histography_ as a final project at Bezalel Academy of Arts and Design in Jerusalem. Using bars at the bottom and left of the screen, you can filter events by time and by category. Or touch the green box in the top left corner of the screen to view an edited collection of stories. The pink square in the top right will then take you back to the main screen. Visit Histography online at [http://histography.io](http://histography.io).",
+      "makers": [
+        "matan-stauber/readme"
+      ],
+      "year": 2016,
+      "references": [
+        "Stauber, Matan. 2016. _Histography_. Courtesy of Bezalel Academy of Arts and Design. In “13th Iteration (2017): Macroscopes for Playing with Scale, _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://histography.io/"
+    }
+  },
+  {
+    "en": {
+      "title": "Megaregions of the US\t",
+      "iteration": 13,
+      "sequence": 3,
+      "body": "Every day, millions of Americans weave together a new geography of commuter patterns. These interlinked megaregions, connected by economic ties, suggest that new kinds of geographic categories are necessary if we wish to accurately describe the functional network of flows and relationships which shape our lives in the modern world.\n\n  \n\n_Megaregions of the US_ is the work of historical geographer Garrett Dash Nelson, a postdoctoral researcher at Dartmouth College, and Alasdair Rae, an urban and regional data analyst at the University of Sheffield in England. The colorful starbursts are made up of approximately four million lines. Each line shows the linkage of commuters between one census tract and another, with the width proportional to the number of commuters, based on data from the 2010 census. Using an algorithmic technique called _community detection_ to group statistically significant clusters of related places, the map is then divided up into distinct megaregions.\n\n  \n\nCan you find your own hometown, your own commute, and your new megaregion? Look for places on the map where many commutes cut across megaregional boundaries, and for other places where a single city acts as a center of gravity for commuter traffic. What might our political and planning systems look like if we made these megaregions the basis for dividing up the United States?",
+      "makers": [
+        "garrett-dash-nelson/readme",
+        "alasdair-rae/readme"
+      ],
+      "year": 2016,
+      "references": [
+        "Nelson, Garrett D. and Alasdair Rae. 2016. “An Economic Geography of the United States: From Commutes to Megaregions.” _PLoS ONE_ 11(11): e0166083. [https://doi.org/10.1371/journal.pone.0166083](https://doi.org/10.1371/journal.pone.0166083).  \n  \nNelson, Garrett Dash and Alasdair Rae. 2016. _Megaregions of the US_. Courtesy of Dartmouth College and the University of Sheffield. In “13th Iteration (2017): Macroscopes for Playing with Scale, _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": null
+    }
+  },
+  {
+    "en": {
+      "title": "Science Paths",
+      "iteration": 13,
+      "sequence": 4,
+      "body": "Northeastern University’s Center for Complex Research members Kim Albrecht and Albert-László Barabási worked with Roberta Sinatra, a theoretical physicist from Budapest, to analyze the publication histories of nearly 10,000 scientists working in seven disciplines, connecting each paper with its long-term impact on the scientific community. They found that the most influential work of a scientist’s career is randomly distributed within her body of work. That is, the highest-impact work has the same probability of falling anywhere in the sequence of papers published by a scientist. It could be the first publication, appear mid-career, or emerge last. The team coined this the random impact rule.\n\n  \n\nThis visualization shows the random impact rule in all its power. You can explore careers in different disciplines and rank scientists according to different career parameters, like the total number of papers in each scientist’s career. You will find impact peaks occurring all over the place, from the beginning of a career on the left to the end of a career on the right.\n\nVisit Science Paths online at [http://kimalbrecht.com/project/science-paths](http://kimalbrecht.com/project/science-paths).",
+      "makers": [
+        "kim-albrecht/readme",
+        "albert-laszlo-barabasi/readme",
+        "roberta-sinatra/readme"
+      ],
+      "year": 2016,
+      "references": [
+        "Sinatra, Roberta, Dashun Wang, Pierre Deville, Chaoming Song, and Albert-László Barabási. 2016. “Quantifying the Evolution of Individual Scientific Impact.” Science 354 (6312): 596-7.  \n  \nAlbrecht, Kim, Albert-László Barabási, and Roberta Sinatra. 2016. _Science Paths_. Courtesy of the Center for Complex Research, Northeastern University. In “13th Iteration (2017): Macroscopes for Playing with Scale, _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://kimalbrecht.com/project/science-paths"
+    }
+  },
+  {
+    "en": {
+      "title": "Climate Tweetoscope",
+      "iteration": 14,
+      "sequence": 1,
+      "body": "When people talk about climate change, they use words like temperatures, storms, drought, cyclones, and polar bears. When scientists talk about climate change they use words like observations, models, and temperature anomalies. Are we talking past each other when it comes to climate change? Or do we share a common language?\n\n  \n\n_Climate Tweetoscope_, developed by David Chavalarias and Maziyar Panahi, illustrates areas of divergence and overlap in the climate change conversation. Use the Science view to explore more than 30,000 scientific articles analyzed for the 2015 Sustainable Innovation Forum in Paris. The larger the topic, the more often it is used. Compare this to the Twitter & Media view, which analyzes more than 47 million tweets posted from January 2017 through April 2018. Green topics get balanced attention from scientists and from the public, whereas red topics are primarily discussed in research and blue topics are mostly addressed on Twitter.\n\n  \n\n_Climate Tweetoscope_ and its companion website can be found at [http://tweetoscope.iscpif.fr](http://tweetoscope.iscpif.fr/ \"Link to Climate Tweetoscope\").",
+      "makers": [
+        "david-chavalarias/readme",
+        "maziyar-panahi/readme"
+      ],
+      "year": 2018,
+      "references": [
+        "Chavalarias, David and Maziyar Panahi. 2018. _Climate Tweetoscope_. In “14th Iteration (2018): Macroscopes for Ensuring our Well-being.\" _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)"
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://tweetoscope.iscpif.fr/"
+    }
+  },
+  {
+    "en": {
+      "title": "Rhythm of Food",
+      "iteration": 14,
+      "sequence": 2,
+      "body": "Food trends come and go. In this visualization from Mortiz Stefaner and Yuri Vishnevsky, the rise and fall of ingredients, drinks, diets, and regional cuisine are beautifully mapped on a year clock, a new form of data visualization thats hows patterns through seasons and years. Composed of over 130,000 data points pulled from Google Trends, the ebb and flow of the past 12 years of food trends are revealed. Some insights are predictable. Searches for turkey peak in November around Thanksgiving and chocolate has a spike in February near Valentine’s Day. Other patterns reveal changes in our collective diet as people turn their attention (and stomachs) to cauliflower and cronuts. _Rhythm of Food_ is a collaboration between Google News Lab and Truth & Beauty.\n\n  \n\n_Rhythm of Food_ can be found at [http://rhythm-of-food.net](http://rhythm-of-food.net \"Link to Rhythm of Food website\").",
+      "makers": [
+        "moritz-stefaner/readme",
+        "yuri-vishnevsky/readme"
+      ],
+      "year": 2018,
+      "references": [
+        "Stefaner, Moritz and Yuri Vishnevsky, 2018. _Rhythm of Food_. In “14th Iteration (2018): Macroscopes for Ensuring our Well-being.\" _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)"
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://rhythm-of-food.net/"
+    }
+  },
+  {
+    "en": {
+      "title": "The Appalachian Overdose Mapping Tool",
+      "iteration": 14,
+      "sequence": 3,
+      "body": "_The Appalachian Overdose Mapping Tool_ shows county-level overdose mortality data. Select overlays of socio-economic factors like poverty, unemployment, educational attainment, and disability to look for patterns and trends throughout Appalachia. You can zoom in and display data for each of the 420 Appalachian counties, or compare rural and urban counties within Appalachia. See how the opioid epidemic has grown by comparing data from two time periods: 2007-2011 and 2012-2016.\n\n  \n\n_The Appalachian Overdose Mapping Tool_ supports community planning and response, particularly in terms of strategies to address the opioid crisis. The tool uses data from the Centers for Disease Control’s National Vital Statistics System, the U.S. Census Bureau’s American Community Survey, and the U.S. Bureau of Labor Statistics’ Quarterly Census of Employment and Wages. The tool was developed by Ned English, Megan Heffernan, Peter Herman, and Michael Meit, all associated with the non-partisan research organization NORC at the University of Chicago.\n\n  \n\n_The Appalachian Overdose Mapping Tool_ can be found at [http://overdosemappingtool.norc.org](http://overdosemappingtool.norc.org \"Link to The Appalachian Overdose Mapping Tool website\")",
+      "makers": [
+        "ned-english/readme",
+        "megan-heffernan/readme",
+        "peter-herman/readme",
+        "michael-meit/readme"
+      ],
+      "year": 2018,
+      "references": [
+        "English, Ned, Megan Heffernan, Peter Herman, and Michael Meit. 2018. _The Appalachian Overdose Mapping Tool_. In “14th Iteration (2017): Macroscopes for Tackling Tough Topics, _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record.\n\n  \n\nMeit, Michael, Megan Heffernan, Erin Tanenbaum, and Topher Hoffman. 2018. _Appalachian Diseases of Despair: Final Report_. Prepared for the Appalachian Regional Commission. [http://scimaps.org](http://scimaps.org)"
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://overdosemappingtool.norc.org/"
+    }
+  },
+  {
+    "en": {
+      "title": "Violence Info",
+      "iteration": 14,
+      "sequence": 4,
+      "body": "Public information about violence often presents an up close and personal view of the effects of violence. _Violence Info_ takes the opposite approach, stepping back and looking at interpersonal violence at a global scale. A project of the World Health Organization (WHO), _Violence Info_ draws on over 3,000 sources, including published scientific studies, WHO Global Health Estimates, and WHO’s 2014 _Global Status Report on Violence Prevention_.\n\n  \n\nEach of the six forms of violence presented here--homicide, intimate partner violence, sexual violence, elder abuse, youth violence, and child maltreatment--affects us on a surprisingly large scale. Nearly half a million people are murdered each year, and 23% of children are physically abused, with long-term consequences to their well-being. Click a statistic to be directed to a body of research on that topic. Knowledge is power, and the World Health Organization hopes that, by making the research accessible, we can work to predict and therefore prevent violence. Designed and developed by Interactive Things for the World Health Organization, the project was supported by the Public Health Agency of Canada, UBS Optimus Foundation, and the United States Centers for Disease Control and Prevention.\n\n  \n\n_Violence Info_ can be found at [http://apps.who.int/violence-info.](http://apps.who.int/violence-info \"Link to Violence Info website\")",
+      "makers": [
+        "christian-siegrist/readme",
+        "ece-kavlak/readme",
+        "gerhard-bliedung/readme",
+        "luc-guillemot/readme",
+        "peter-gassner/readme",
+        "tomas-carnecky/readme"
+      ],
+      "year": 2018,
+      "references": [
+        "Siegrist, Christian, Ece Kavlak, Garhard Beliedung, Luc Guillemot, Peter Gassner, and Tomas Carnecky. 2018._Violence Info_. In “14th Iteration (2018): Macroscopes for Ensuring our Well-being.\" _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)"
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://apps.who.int/violence-info"
+    }
+  },
+  {
+    "en": {
+      "title": "Refugee Flow",
+      "iteration": 15,
+      "sequence": 1,
+      "body": "Beginning in 2015, Europe saw a dramatic increase in the number of people seeking refuge from drought, poverty, and violence. Many crossed the Mediterranean Sea or traveled by land through Southeast Europe from the Middle East and Africa. _Refugee Flow_ is a tool for the exploratory investigation of this migration crisis. Combining multiple data sets with interactive visualizations, the project aims to increase understanding of human trajectories.\n\n  \n\nThe United Nations High Commissioner for Refugees (UNHCR) reports that 68.5 million people are forcibly displaced around the world. Funding to tackle the current challenge is decreasing, not increasing. By 2050, the continued impact of climate change will forcibly displace 1 billion people.\n\n  \n\nCollecting data on people who, because of circumstances beyond their control, are unlikely to be documented, is a challenge. Refugee Flow draws on data from the Armed Conflict Location & Event Data Project (ACLED) to visualize factors that cause people to leave their home countries. This data is combined with the International Organization for Migration’s _Missing Migrants_ data set to visualize causes of death for those en route. A third data set connects adverse outcomes upon arrival with news stories of struggles faced by migrants.\n\n  \n\n_Refugee Flow_ and its companion website can be found at [http://refugeeflow.world/landing](http://refugeeflow.world/landing \"Macroscope: Refugee Flow\").",
+      "makers": [
+        "abin-abraham/readme",
+        "will-jiahao-su/readme"
+      ],
+      "year": 2018,
+      "references": [
+        "Abraham, Abin and Will (Jiahao) Su. 2018. Refugee Flow. In “15th Iteration (2019): Macroscopes for Tracking the Flow of Resources.” _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "http://refugeeflow.world/landing"
+    }
+  },
+  {
+    "en": {
+      "title": "Politoscope",
+      "iteration": 15,
+      "sequence": 2,
+      "body": "Designed for the 2017 French presidential election, _Politoscope_ has since been on display in the Terra Data exhibit at the Cité des Sciences, the biggest science museum in Europe. _Politoscope_ provided a way for the public to take the pulse of online communities during the last month of the 2017 French presidential election, and provided access to the candidates’ positions on major political issues over several months.\n\n  \n\n_Politoscope_ uses millions of political and media tweets to visualize socio-semantic trends using a new methodology to reconstruct the socio-semantic dynamics of political activist Twitter networks. The macroscope makers are convinced of the need to make this kind of analysis of social media available to regular citizens as well as political elites.\n\n  \n\nHow do you feel about the connection between social networks and electoral processes worldwide? Has real-time analysis of social media ever influenced your political opinion? Should it?\n\n  \n\n_Politoscope_ and its companion website can be found at [https://presidential2017.politoscope.org/](https://presidential2017.politoscope.org/ \"Macrosope: Politoscope\").",
+      "makers": [
+        "maziyar-panahi/readme",
+        "noe-gaumont/readme",
+        "david-chavalarias/readme"
+      ],
+      "year": 2017,
+      "references": [
+        "Gaumont, Noé, Maziyar Panahi, and David Chavalarias. 2019. _Politoscope_. In “15th Iteration (2019): Macroscopes for Tracking the Flow of Resources.” _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org).\n\n  \n\nGaumont N, Panahi M, Chavalarias D. 2018. “Reconstruction of the socio-semantic dynamics of political activist Twitter networks—Method and application to the 2017 French presidential election.” PLoS ONE 13(9): e0201879. [https://doi.org/10.1371/journal.pone.0201879](https://doi.org/10.1371/journal.pone.0201879)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "https://presidential2017.politoscope.org/"
+    }
+  },
+  {
+    "en": {
+      "title": "Income Disparity",
+      "iteration": 15,
+      "sequence": 3,
+      "body": "This macroscope shows, county by county and state by state, how median household incomes compare. Although Virginia has a median income above the national average, it has the largest difference between high income and low income counties. Do see any trends? If you reorder the states based on the difference between high earning counties and low earning counties, where does Arkansas (AR) fall?\n\n  \n\nData presented here is drawn from the American Community Survey, an ongoing annual survey conducted by the United States Census Bureau. It is used for many purposes, including community planning for hospitals, schools, bridges, and new business ventures.\n\n  \n\nIncome Disparity and its companion website can be found at [https://shingyun.github.io/income-disparity/](https://shingyun.github.io/income-disparity/ \"Macroscope: Income Disparity\").",
+      "makers": [
+        "shing-yun-chiang/readme"
+      ],
+      "year": 2019,
+      "references": [
+        "Chiang, Shing-Yun. 2019. _Income Disparity_. In “15th Iteration (2019): Macroscopes for Tracking the Flow of Resources.” _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "https://shingyun.github.io/income-disparity/"
+    }
+  },
+  {
+    "en": {
+      "title": "Making Sense of Skills",
+      "iteration": 15,
+      "sequence": 4,
+      "body": "The skills needed in the workplace are changing. With the development of artificial intelligence and advances in robotics, what skills will remain valuable in the job market? Using machine learning, [Nesta](https://www.nesta.org.uk/) (funded by [ESCoE](https://www.escoe.ac.uk/)) built a skills taxonomy to group skills based on how often they appeared together in job descriptions across the UK. The more frequently two skills appeared in the same advertisement, the more likely it is that they ended up in the same branch of the taxonomy. Skills were then clustered based on growth in demand and on salary.\n\n  \n\nSearch the resulting matrix to see which skills are in high demand and which are waning. Where does your dream job fall in this visualization?\n\n  \n\nTo explore the skills taxonomy in greater depth at [https://www.nesta.org.uk/data-visualisation-and-interactive/making-sense-skills/](https://www.nesta.org.uk/data-visualisation-and-interactive/making-sense-skills/ \"Macroscope: Making Sense of Skills\").",
+      "makers": [
+        "cath-sleeman/readme",
+        "jyldyz-djumalieva/readme"
+      ],
+      "year": 2019,
+      "references": [
+        "Djumalieva, Jyldyz and Cath Sleeman. 2019. _Making Sense of Skills_. In “15th Iteration (2019): Macroscopes for Tracking the Flow of Resources.” _Places & Spaces: Mapping Science_, edited by Katy Börner and Lisel Record. [http://scimaps.org](http://scimaps.org)."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "https://www.nesta.org.uk/data-visualisation-and-interactive/making-sense-skills/"
+    }
+  },
+  {
+    "en": {
+      "title": "United States Water Crisis",
+      "iteration": 16,
+      "sequence": 1,
+      "body": "Scrollytelling, a mashup of “scrolling” and “storytelling,” is a web format that uses interaction to tell complicated stories online. _United States Water Crisis_ by Andrew Levinson is a great example of the scrollytelling format.\n\n  \n\nMultiple data visualizations, drawing on data from a variety of government agencies, expose the severity of the crisis from different perspectives. How much water is used to irrigate farms? How much money do we need to fund infrastructure repairs for drinking water? How full are underground aquifers, which operate like the savings account of our water supply? Use the many kinds of charts and graphs illustrating the story to find answers.\n\n  \n\nUnited States Water Crisis can be found at [https://the-us-water-crisis-macroscope.netlify.app/](https://the-us-water-crisis-macroscope.netlify.app/ \"External Site: United States Water Crisis\").",
+      "makers": [
+        "andrew-levinson/readme"
+      ],
+      "year": 2020,
+      "references": [
+        "Levinson, Andrew. 2020. The _United States Water Crisis_. In “16th Iteration (2020): Macroscopes for Harnessing the Power of Data.” _Places & Spaces: Mapping Science_, edited by Katy Börner, Lisel Record, and Todd Theriault. [http://scimaps.org](http://scimaps.org \"Link to SciMaps website\")."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "https://the-us-water-crisis-macroscope.netlify.app/"
+    }
+  },
+  {
+    "en": {
+      "title": "Watson News Explorer",
+      "iteration": 16,
+      "sequence": 2,
+      "body": "Watson News Explorer makes use of Watson Discovery News, which scans 300,000 English-language news articles daily and uses natural language processing to convert them into a searchable network of topics. Natural language processing is a branch of artificial intelligence that combines linguistics with computing power. Natural language processing is at work in language translation apps, grammar checkers, and computerized personal assistants like Siri and Alexa. This macroscope, designed by Steven Ross, Timothy Stutts, Megan Monroe, and Mauro Martino of IBM’s Visual AI Lab, uses natural language processing to identify and link entities like names, locations, companies, and organizations.\n\n  \n\nThe macroscope offers four ways to dive into the news: a world map, a timeline, a word cloud, and a network. These visualizations are linked, so that searching in one will highlight connections in the others. You can also search for multiple keywords to reveal links that connect seemingly unrelated topics.\n\n  \n\nWatson News Explorer can be found at [https://news-explorer.mybluemix.net/](https://news-explorer.mybluemix.net/ \"Link to Watson News Explorer macroscope\").",
+      "makers": [
+        "steven-ross/readme",
+        "tim-stutts/readme",
+        "megan-monroe/readme",
+        "mauro-martino/readme"
+      ],
+      "year": 2020,
+      "references": [
+        "Ross, Steven, Andrew, Timothy Stutts, Megan Monroe, and Mauro Martino. 2020. _Watson News Explorer_. In “16th Iteration (2020): Macroscopes for Harnessing the Power of Data.” _Places & Spaces: Mapping Science_, edited by Katy Börner, Lisel Record, and Todd Theriault. [http://scimaps.org](http://scimaps.org \"Link to SciMaps website\")."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "https://news-explorer.mybluemix.net/"
+    }
+  },
+  {
+    "en": {
+      "title": "An Alternative Data-Driven Country Map",
+      "iteration": 16,
+      "sequence": 3,
+      "body": "One way to understand a country is to compare it to others. This macroscope lets you pick metrics for comparison. How much education do citizens have? How much does the government spend on health care? How effective is the judicial system? Using this award-winning macroscope by Nikita Rokotyan, Olya Stukova, and Dasha Kolmakova of Interacta studio, you can raise or lower indicators in a country’s profile to see how that metric shapes quality of life for citizens in that country.\n\n  \n\nThis macroscope uses a machine learning algorithm called t-SNE, a technique for simplifying data with multiple dimensions while retaining meaningful properties of the data. The algorithm groups countries based on their similarity in a high-dimensional space and then projects the solution into a lower-dimensional space to make it easier to see. Because the algorithm can analyze really complex data, it might find similarities between countries that people wouldn’t otherwise notice or investigate.\n\n  \n\n_An Alternative Data-Driven Country Map_ can be found at [https://projects.interacta.io/country-tsne/](https://projects.interacta.io/country-tsne/ \"External Site: An Alternative Data-driven Country Map\").",
+      "makers": [
+        "nikita-rokotyan/readme",
+        "olya-stukova/readme",
+        "dasha-kolmakova/readme"
+      ],
+      "year": 2020,
+      "references": [
+        "Rokotyan, Nikita, Olya Stukova, Dasha Kolmakova. 2020. _An Alternative Data-Driven Country Map_. In “16th Iteration (2020): Macroscopes for Harnessing the Power of Data.” _Places & Spaces: Mapping Science_, edited by Katy Börner, Lisel Record, and Todd Theriault. [http://scimaps.org](http://scimaps.org \"Link to SciMaps website\")."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "https://projects.interacta.io/country-tsne/"
+    }
+  },
+  {
+    "en": {
+      "title": "Nature 150",
+      "iteration": 16,
+      "sequence": 4,
+      "body": "_Nature 150_ is an interactive map of papers published in the journal Nature since its founding in 1869. Created by current and former members of the Barabási Lab at Northeastern University, the macroscope visualizes the journal’s publication history as a network of influence.\n\n  \n\nEach node represents a published paper, and two paper nodes are connected if a third paper references them both. Nodes are color-coded by scientific discipline, showing how scientific works spread influence both within and beyond their disciplines. This network analysis shows that today’s scientific work draws upon and impacts a wider array of scientific fields than ever before. In other words, science is more interdisciplinary than it used to be.\n\n  \n\n_Nature 150_ can be found at [https://www.nature.com/immersive/d41586-019-03165-4/index.html](https://www.nature.com/immersive/d41586-019-03165-4/index.html \"External Site: Alternative Data-driven Country Map\").",
+      "makers": [
+        "alice-grischchenko/readme",
+        "alexander-gates/readme",
+        "qing-ke/readme",
+        "onur-varol/readme",
+        "mauro-martino/readme",
+        "albert-laszlo-barabasi/readme"
+      ],
+      "year": 2020,
+      "references": [
+        "Gates, Ke, Varol, Barabasi (2019) _Nature_ **575**, pages 32-34.\n\n  \n\nGrischchenko, Alice, Alexander Gates, Qing Ke, Onur Varol, Mauro Martino, Albert-László Barabási, and BarabásiLab. 2020. _Nature 150_. In “16th Iteration (2020): Macroscopes for Harnessing the Power of Data.” _Places & Spaces: Mapping Science_, edited by Katy Börner, Lisel Record, and Todd Theriault. [http://scimaps.org](http://scimaps.org \"Link to SciMaps website\")."
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "https://www.nature.com/immersive/d41586-019-03165-4/index.html"
+    }
+  }
+]
