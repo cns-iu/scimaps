@@ -1,0 +1,5 @@
+---
+iteration: 17
+title: Macroscopes for Placing Data in Space
+---
+Using maps and 3D models, these macroscopes offer a spatial understanding of some of society’s greatest challenges. Placing data in space gives us a sense of the proportion, distribution, and structure of a social problem. It can also help us find our own location within the data. Does where you were born affect your income later in life? How different are police methods in your state from others? Did past evaluations of the racial composition of your neighborhood increase or decrease the value of your home? How many copies of the COVID-19 virus could fit across the width of one strand of your hair? By placing complicated problems in a spatial context, these macroscopes can help us map out effective approaches to solving them. 

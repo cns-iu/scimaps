@@ -547,5 +547,104 @@
       },
       "externalLink": "https://www.nature.com/immersive/d41586-019-03165-4/index.html"
     }
+  },
+  {
+    "en": {
+      "title": "Opportunity Atlas",
+      "iteration": 17,
+      "sequence": 1,
+      "body": "As this macroscope demonstrates, the neighborhood in which a child grows up plays a substantial role in determining his or her future economic mobility. Using research from Raj Chetty, John N. Friedman, and Nathaniel Hendren of Opportunity Insights, and constructed by Joey Cherdarchuk, Eugene Chen, and Daniel Haight of Darkhorse Analytics, the Opportunity Atlas measures the average economic outcomes of children from every neighborhood in the United States, by demographic subgroups like race, gender, and parental income. An essential tool for policymakers, community organizers, and advocacy groups, the _Opportunity Atlas_ enables targeted, data-driven solutions that proactively address income inequality.",
+      "makers": [
+        "raj-chetty/readme",
+        "john-n-friedman/readme",
+        "nathaniel-hendren/readme",
+        "joey-cherdarchuk/readme",
+        "eugene-chen/readme",
+        "daniel-haight/readme"
+      ],
+      "year": 2021,
+      "references": [
+        "Chetty, Raj, John Friedman, Nathaniel Hendren, Joey Cherdarchuk, Eugene Chen, and Daniel Haight. 2021. _Opportunity Atlas_. In “17th Iteration (2021): Macroscopes for Placing Data in Space.” _Places & Spaces: Mapping Science_, edited by Katy Börner, Lisel Record, and Todd Theriault. http://scimaps.org.\n\nChetty, Raj, John Friedman, Nathaniel Hendren, Maggie R. Jones, and Sonya R. Porter. 2018. “The Opportunity Atlas: Mapping the Childhood Roots of Social Mobility.” NBER Working Paper No. 25147. https://opportunityinsights.org/paper/the-opportunity-atlas.\n\nRomero, Diego. 2018. “Edmonton Analytics Company Maps U.S. Neighborhood Incomes.” CTV News, October 2. https://edmonton.ctvnews.ca/edmonton-analytics-company-maps-u-s-neighbourhood-incomes-1.4119122.\n\nSandberg, Michael. 2018. “Tableau Community Spotlight: An Interview with Joey Cherdarchuk (Darkhorse Analytics).” _Michael Sandberg’s Data Visualization Blog_, October 12. https://datavizblog.com/2018/10/12/tableau-community-spotlight-an-interview-with-joey-cherdarchuk-darkhorse-analytics.  "
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "https://www.opportunityatlas.org/"
+    }
+  },
+  {
+    "en": {
+      "title": "Mapping Inequality: Redlining in New Deal America",
+      "iteration": 17,
+      "sequence": 2,
+      "body": "Created by digital historians Robert K. Nelson and LaDale Winling, _Mapping Inequality_ allows users to explore the infamous redlining maps and area descriptions produced by the Home Owners’ Loan Corporation (HOLC), a New Deal agency, between 1935 and 1940. Redlining had enormous long-term consequences, helping to channel private and public capital to white families through homeownership, effectively denying such access to African Americans and other Americans of color. _Mapping Inequality_ presents these maps interactively over a digital mapping interface, allowing users to select areas and explore the thousands of area descriptions—transcriptions of which are also visualized to enable easy comparison of each data field for all neighborhoods in a selected city.",
+      "makers": [
+        "robert-k-nelson/readme",
+        "ladale-winling/readme"
+      ],
+      "year": 2021,
+      "references": [
+        "Faber, Jacob. 2020. \"We Built This: Consequences of New Deal Era Intervention in America's Racial Geography.\" _American Sociological Review_ 85 (October): 739–775.\n\nGrabar, Henry. 2016. “Here’s How the Federal Government Made the Maps That Crippled Black Neighborhoods.” _Slate_, October 21. https://slate.com/business/2016/10/a-new-project-shows-how-redlining-emerged-from-firsthand-reports-of-the-american-city.html.\n\nMiller, Greg. 2016. “Newly Released Maps Show How Housing Discrimination Happened.” National Geographic, October 17. https://www.nationalgeographic.com/history/article/housing-discrimination-redlining-maps.\n\nNelson, Robert K., and LaDale Winling. 2021. _Mapping Inequality: Redlining in New Deal America_. In “17th Iteration (2021): Macroscopes for Placing Data in Space.” _Places & Spaces: Mapping Science_, edited by Katy Börner, Lisel Record, and Todd Theriault. http://scimaps.org. "
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "https://dsl.richmond.edu/panorama/redlining/"
+    }
+  },
+  {
+    "en": {
+      "title": "Atlas of Surveillance",
+      "iteration": 17,
+      "sequence": 3,
+      "body": "The _Atlas of Surveillance_ is a collaborative effort between the Electronic Frontier Foundation and the Reno Reynolds School of Journalism at the University of Nevada. Through a combination of crowdsourcing and data journalism, they are creating the largest-ever repository of which surveillance technologies are being used by which law enforcement agencies. The _Atlas_ focuses on the most pervasive technologies, including drones, body-worn cameras, face recognition, cell-site simulators, automated license plate readers, predictive policing, camera registries, and gunshot detection. The aim of the _Atlas_ is to serve as a resource for journalists, academics, and concerned members of the public to check what technologies are used locally and how different technologies are deployed across the country.",
+      "makers": [
+        "electronic-frontier-foundation/readme"
+      ],
+      "year": 2021,
+      "references": [
+        "Barrett, Brian. 2020. “A New Map Shows the Inescapable Creep of Surveillance.” _Wired_, July 15. https://www.wired.com/story/atlas-of-surveillance-eff-law-enforcement-map.\n\nElectronic Frontier Foundation. 2021. _Atlas of Surveillance_. In “17th Iteration (2021): Macroscopes for Placing Data in Space.” _Places & Spaces: Mapping Science_, edited by Katy Börner, Lisel Record, and Todd Theriault. http://scimaps.org.\n\nGotfredson, David. 2020. “BlueLeaks: San Diego Fusion Center’s Records Hacked, Posted Online.” CBS8, November 24. https://www.cbs8.com/article/news/investigations/blueleaks-san-diego-fusion-centers-records-hacked-posted-online/509-252178ff-947f-4fe7-85ae-b7529d397d76.\n\nSonnemaker, Tyler. 2020. “This Interactive Map Shows You Whether Police Departments Near You Are Using Facial Recognition, Drones, Body Cameras, and Other Surveillance Tech.” _Business Insider_, July 14. https://www.businessinsider.com/map-surveillance-technology-used-by-police-departments-across-the-us-2020-7. "
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "https://atlasofsurveillance.org/atlas"
+    }
+  },
+  {
+    "en": {
+      "title": "Virus Explorer",
+      "iteration": 17,
+      "sequence": 4,
+      "body": "At this point, everyone is familiar with coronaviruses. Many people also know about influenza (aka “the flu”), rabies, HIV, Zika, and Ebola. All of these are viruses: microscopic invaders that hijack the cellular machinery of living organisms. But what do these viruses have in common? And how are they different? Created by members of the Howard Hughes Medical Institute and kapow, inc., the _Virus Explorer_ is a tool for learning more about these fascinating but harmful bugs. You can explore the similarities and differences among a variety of viruses by sorting them based on structure, genome type, host type, transmission mechanism, and vaccine availability. Each virus can also be further examined to investigate its size, structure (shown with both interactive 3D models and cross-section diagrams), replication cycle, and more.",
+      "makers": [
+        "fabian-de-kok-mercado/readme",
+        "aileen-ohearn/readme",
+        "laura-bonetta/readme",
+        "ann-brokaw/readme",
+        "li-yao/readme",
+        "esther-shyu/readme",
+        "heather-mcdonald/readme",
+        "ethan-goldstine/readme",
+        "neal-steinberg/readme",
+        "bryan-buchs/readme"
+      ],
+      "year": 2021,
+      "references": [
+        "De Kok-Mercado, Fabian, Aileen O’Hearn, Laura Bonetta, Ann Brokaw, Li Yao, Esther Shyu, Heather McDonald, Ethan Goldstine, Neal Steiberg, and Bryan Buchs. 2021. _Virus Explorer_. In “17th Iteration (2021): Macroscopes for Placing Data in Space.” _Places & Spaces: Mapping Science_, edited by Katy Börner, Lisel Record, and Todd Theriault. http://scimaps.org.\n\nHHMI BioInteractive. 2021. “Teaching Viruses and Epidemiology Online.” https://www.biointeractive.org/planning-tools/resource-playlists/teaching-viruses-and-epidemiology-online. \n\nNeergaard, Lauran. 2021. “Explainer: Why It’s Hard to Make Vaccines and Boost Supplies.” _AP News_, January 28. https://apnews.com/article/why-its-hard-to-make-vaccines-explained-9173d65f7da50eee432d43d36769c516. \n\nPublic Broadcasting Service. 2021. “Virus Explorer.” _Spillover_. https://www.pbs.org/spillover-zika-ebola-beyond/about-viruses/virus-explorer/credits.     "
+      ],
+      "image": {
+        "sm": "image.sm.jpg",
+        "med": "image.med.jpg",
+        "lg": "image.lg.jpg"
+      },
+      "externalLink": "https://media.hhmi.org/biointeractive/click/virus-explorer/"
+    }
   }
 ]
