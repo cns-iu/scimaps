@@ -79,15 +79,30 @@ $desktop: 1248px;
     }
 
     .overlay-container {
+      // position: relative;
       background-color: $bgcolor;
       padding: 1rem;
       width: 100%;
+      height: 75vh;
       img {
         display: block;
         max-width: 100%;
         margin: 0 auto;
-        // max-height: 100%;
+        max-height: 100%;
+        object-fit: scale-down;
       }
     }
+    // .left {
+    //   position: absolute;
+    //   color: red;
+    //   left: 0;
+    //   top: 50%;
+    // }
+    // .right {
+    //   position: absolute;
+    //   color: red;
+    //   right: 0;
+    //   top: 50%;
+    // }
   }
 }
