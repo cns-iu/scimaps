@@ -19,9 +19,9 @@
                 <sci-drawer-header backText="gallery" (backClick)="showOverlay = false">
                 </sci-drawer-header>
                 <div class="overlay-container">
-                    <div class="left" (click)="left()">Left</div>
+                    <mat-icon class="icon left" (click)="left()">chevron_left</mat-icon>
                     <img [src]="overlayImage" [alt]="overlayImage">
-                    <div class="right" (click)="right()">Right</div>
+                    <mat-icon class="icon right" (click)="right">chevron_right</mat-icon>
                 </div>
             </div>
         </sci-drawer>

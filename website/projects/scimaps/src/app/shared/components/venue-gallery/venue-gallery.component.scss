@@ -97,12 +97,14 @@ $desktop: 1248px;
       color: white;
       left: 0;
       top: 50%;
+      cursor: pointer;
     }
     .right {
       position: absolute;
       color: white;
       right: 0;
       top: 50%;
+      cursor: pointer;
     }
   }
 }
