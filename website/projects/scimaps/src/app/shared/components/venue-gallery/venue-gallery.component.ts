@@ -14,6 +14,7 @@ export class VenueGalleryComponent implements OnInit {
   overlayImage = '';
   show = false;
   item!: Venue;
+  activeIndex = -1;
   constructor(private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
@@ -26,5 +27,17 @@ export class VenueGalleryComponent implements OnInit {
     setTimeout(() => {
       this.router.navigate(['/', 'venues']);
     }, 500);
+  }
+
+  left() {
+    this.activeIndex = this.activeIndex - 1;
+    if (this.activeIndex < 0) {
+      this.activeIndex = this.item.venueImages.length - 1;
+    }
+    this.overlayImage = this.item.venueImages[this.activeIndex].lg;
+  }
+  right() {
+    this.activeIndex = (this.activeIndex + 1) % (this.item.venueImages.length);
+    this.overlayImage = this.item.venueImages[this.activeIndex].lg;
   }
 }
