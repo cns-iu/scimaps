@@ -79,7 +79,7 @@ $desktop: 1248px;
     }
 
     .overlay-container {
-      // position: relative;
+      position: relative;
       background-color: $bgcolor;
       padding: 1rem;
       width: 100%;
@@ -94,6 +94,7 @@ $desktop: 1248px;
     }
     .left {
       position: absolute;
+      // color: #7996a3;
       color: white;
       left: 0;
       top: 50%;
@@ -101,6 +102,7 @@ $desktop: 1248px;
     }
     .right {
       position: absolute;
+      color: #7996a3;
       color: white;
       right: 0;
       top: 50%;
