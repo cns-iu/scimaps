@@ -1,12 +1,9 @@
 ---
 cta:
-  title: Places & Spaces 17th Iteration Debut at Notre Dame.
-  body: "The 17th Iteration of the Places & Spaces exhibit launches on Sept 24 at
-    the University of Notre Dame. Register here to join a virtual talk by
-    Curator Katy Börner and virtual tour of the new macroscopes with co-Curator
-    Todd Theriault."
-  buttonLabel: Register
-  buttonLink: https://library.nd.edu/event/maps-and-macroscopes-2021-09-24
+  title: "Atlas of Forecasts: Modeling and mapping desirable futures."
+  body: "A new book from Katy Börner! This third book in the series focuses on using models and visualizations to help society envision and create the future we want."
+  buttonLabel: Purchase
+  buttonLink: https://www.amazon.com/Atlas-Forecasts-Modeling-Mapping-Desirable/dp/0262045958/ref=sr_1_1?dchild=1&keywords=borner+atlas+forecast&qid=1620409272&s=books&sr=1-1
   subtitle: " "
-  imageSource: actioncard.jpg
+  imageSource: cta-atlas-of-forecats.jpg
 ---
