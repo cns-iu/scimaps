@@ -29,14 +29,14 @@ export class VenueGalleryComponent implements OnInit {
     }, 500);
   }
 
-  left() {
+  left(): void {
     this.activeIndex = this.activeIndex - 1;
     if (this.activeIndex < 0) {
       this.activeIndex = this.item.venueImages.length - 1;
     }
     this.overlayImage = this.item.venueImages[this.activeIndex].lg;
   }
-  right() {
+  right(): void {
     this.activeIndex = (this.activeIndex + 1) % (this.item.venueImages.length);
     this.overlayImage = this.item.venueImages[this.activeIndex].lg;
   }
