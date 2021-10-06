@@ -62,14 +62,13 @@
 
       .carousel {
         width: 100%;
-
         .sci-carousel-item {
           .carousel-item {
             display: flex;
             flex-direction: column;
 
             .carousel-image {
-              height: 20rem;
+              // height: 20rem;
               object-fit: cover;
             }
     
