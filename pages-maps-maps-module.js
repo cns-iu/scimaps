@@ -143,7 +143,7 @@ class TileComponent {
                     minLevel: params.min_viewable_zoom,
                     maxLevel: params.max_viewable_zoom,
                     getTileUrl: (zoom, x, y) => {
-                        return baseDir + '/' + `${zoom + 1}_${x}_${y}.png`;
+                        return baseDir + '/' + `${zoom}_${x}_${y}.png`;
                     }
                 }
             });
@@ -166,7 +166,7 @@ TileComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, TileComponent_sci_drawer_0_Template, 4, 1, "sci-drawer", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.show);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _drawer_drawer_component__WEBPACK_IMPORTED_MODULE_5__["DrawerComponent"], _drawer_header_drawer_header_component__WEBPACK_IMPORTED_MODULE_6__["DrawerHeaderComponent"]], styles: ["[_nghost-%COMP%]   .drawer[_ngcontent-%COMP%] {\n  height: 100%;\n}\n[_nghost-%COMP%]   #map_canvas[_ngcontent-%COMP%] {\n  height: 85%;\n  margin-bottom: 2rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9zaGFyZWQvY29tcG9uZW50cy90aWxlL3RpbGUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUk7RUFDSSxZQUFBO0FBRFI7QUFHSTtFQUNJLFdBQUE7RUFDQSxtQkFBQTtBQURSIiwiZmlsZSI6InByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9zaGFyZWQvY29tcG9uZW50cy90aWxlL3RpbGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XG5cbiAgICAuZHJhd2VyIHtcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgIH1cbiAgICAjbWFwX2NhbnZhcyB7XG4gICAgICAgIGhlaWdodDogODUlO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAycmVtO1xuICAgIH1cbn0iXX0= */"], data: { animation: [_constants_drawer_animations__WEBPACK_IMPORTED_MODULE_2__["drawerInOut"]] } });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _drawer_drawer_component__WEBPACK_IMPORTED_MODULE_5__["DrawerComponent"], _drawer_header_drawer_header_component__WEBPACK_IMPORTED_MODULE_6__["DrawerHeaderComponent"]], styles: ["[_nghost-%COMP%]   .drawer[_ngcontent-%COMP%] {\n  height: 100%;\n}\n[_nghost-%COMP%]   #map_canvas[_ngcontent-%COMP%] {\n  height: 75vh;\n  margin-bottom: 1rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9zaGFyZWQvY29tcG9uZW50cy90aWxlL3RpbGUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0k7RUFDSSxZQUFBO0FBQVI7QUFFSTtFQUNJLFlBQUE7RUFDQSxtQkFBQTtBQUFSIiwiZmlsZSI6InByb2plY3RzL3NjaW1hcHMvc3JjL2FwcC9zaGFyZWQvY29tcG9uZW50cy90aWxlL3RpbGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XG4gICAgLmRyYXdlciB7XG4gICAgICAgIGhlaWdodDogMTAwJTtcbiAgICB9XG4gICAgI21hcF9jYW52YXMge1xuICAgICAgICBoZWlnaHQ6IDc1dmg7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDFyZW07XG4gICAgfVxufSJdfQ== */"], data: { animation: [_constants_drawer_animations__WEBPACK_IMPORTED_MODULE_2__["drawerInOut"]] } });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TileComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
