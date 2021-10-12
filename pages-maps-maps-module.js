@@ -143,7 +143,7 @@ class TileComponent {
                     minLevel: params.min_viewable_zoom,
                     maxLevel: params.max_viewable_zoom,
                     getTileUrl: (zoom, x, y) => {
-                        return baseDir + '/' + `${zoom}_${x}_${y}.png`;
+                        return baseDir + '/' + `${zoom + 1}_${x}_${y}.png`;
                     }
                 }
             });
