@@ -10,7 +10,7 @@
             <div>Photos By: {{item?.credit}}</div>
         </div>
         <div class="thumbnails-container">
-            <div class="thumbnail" *ngFor="let image of item.venueImages;let i = index" (click)="overlayImage = item.venueImages[i].lg; showOverlay = true">
+            <div class="thumbnail" *ngFor="let image of item.venueImages;let i = index" (click)="activeIndex = i; overlayImage = item.venueImages[i].lg; showOverlay = true">
                 <img [src]="image.sm" [alt]="image.sm">
             </div>
         </div>
@@ -19,12 +19,11 @@
                 <sci-drawer-header backText="gallery" (backClick)="showOverlay = false">
                 </sci-drawer-header>
                 <div class="overlay-container">
+                    <mat-icon class="icon left" (click)="left()">chevron_left</mat-icon>
                     <img [src]="overlayImage" [alt]="overlayImage">
+                    <mat-icon class="icon right" (click)="right()">chevron_right</mat-icon>
                 </div>
             </div>
         </sci-drawer>
     </div>
-    
-    
-   
 </sci-drawer>
