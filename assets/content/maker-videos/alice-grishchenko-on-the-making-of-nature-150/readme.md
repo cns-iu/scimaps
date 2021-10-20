@@ -1,7 +1,7 @@
 ---
-title: "Alice Grishchenko: On the making of _Nature 150_"
-videoLink: https://youtu.be/MTiOc7ScHAc
-image: https://img.youtube.com/vi/MTiOc7ScHAc/0.jpg
-short_description: "Alice Grishchenko on the making of _Nature 150_"
+title: "Alice Grishchenko: On the making of Nature 150"
+videoLink: https://www.youtube.com/embed/W3XSQnGJdws
+image: https://img.youtube.com/vi/W3XSQnGJdws/0.jpg
+short_description: "Alice Grishchenko on the making of Nature 150"
 long_description: "Alice Grishchenko on mapping science history, the importance of cross-disciplinary collaboration, and designing VR environments for pediatric care with [Little Seed’s Voxel Bay](https://littleseed.io/voxelbay/)."
 ---
