@@ -171,6 +171,16 @@ collections:
         preview_path: 'maker-videos'
         fields:
           - { name: description, label: Description, widget: markdown }
+      
+      - label: Learning Center
+        name: learning-center
+        file: content/site/learning-center/learning-center.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'learning-center'
+        fields:
+          - { name: description, label: Description, widget: markdown }
+          - { name: image, label: Image, widget: file }
 
   - name: learning-materials
     label: Learning Materials
