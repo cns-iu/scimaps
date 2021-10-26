@@ -1,10 +1,54 @@
+@import "../../../styling/breakpoints";
+
 :host {
-    .image-container {
-        width: 100%;
-        img {
-            display: block;
-            margin: 0 auto;
-            max-width: 100%;
-        }
+  .image-container {
+    width: 100%;
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
     }
+  }
+
+  .rows {
+    display: flex;
+    flex-direction: column;
+
+    .blogs {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .blog {
+        @media screen and (min-width: $mobile) {
+          width: 45%;
+        }
+        @media screen and (min-width: $tablet) {
+          width: 30%;
+        }
+        @media screen and (min-width: $desktop) {
+          width: 22%;
+        }
+        @media screen and (max-width: $mobile) {
+          width: 100%;
+        }
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 0 0;
+        .blog-image-container {
+          overflow: hidden;
+          height: 15rem;
+          img {
+            max-height: 100%;
+            width: auto;
+          }
+          @media screen and (max-width: $mobile) {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
 }
