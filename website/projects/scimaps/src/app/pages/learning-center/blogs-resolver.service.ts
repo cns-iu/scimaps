@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, Params, Resolve, RouterStateSnapshot } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
-import { getSegmentedDate } from '../../constants/utils';
+import { getSegmentedDate, isHttp } from '../../constants/utils';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 
 
@@ -27,10 +27,18 @@ export class BlogsResolverService implements Resolve<Blog[]> {
     const slug = toSlug(blog.title);
 
     const result = blog.blogImages.map((image: { sm: string, lg: string }) => {
-      return {
-        sm: `assets/${this.directory}/${year}/${month}-${date}/${slug}/${image.sm}`,
-        lg: `assets/${this.directory}/${year}/${month}-${date}/${slug}/${image.lg}`
+      let sm = image.sm;
+      let lg = image.lg;
+      if (!isHttp(image.sm)) {
+        sm = `assets/${this.directory}/${year}/${month}-${date}/${slug}/${image.sm}`;
       }
+      if (!isHttp(image.lg)) {
+        lg = `assets/${this.directory}/${year}/${month}-${date}/${slug}/${image.lg}`;
+      }
+      return {
+        sm: sm,
+        lg: lg
+      };
     })
     return result
   }
