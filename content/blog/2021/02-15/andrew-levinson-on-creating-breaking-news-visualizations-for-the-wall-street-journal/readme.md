@@ -1,7 +1,7 @@
 ---
 title: Andrew Levinson on Creating Breaking-News Visualizations for The Wall
   Street Journal
-date: 2021-02-15T20:01:34.890Z
+date: 2021-02-15
 blogImages:
   - sm: electoral-votes-map.jpg
     lg: electoral-votes-map.jpg
