@@ -243,7 +243,7 @@ collections:
     public_folder: ''
     fields:
       - { name: title, label: Title }
-      - { name: date, label: Date, widget: date }
+      - { name: date, label: Date, widget: date, format: YYYY-MM-DD, time_format: false }
       - { name: body, label: Body, widget: markdown }
       - name: blogImages
         label: Blog Images
@@ -547,7 +547,7 @@ backend:
 # Uncomment below when using the default proxy server port
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ## Basically run `npx netlify-cms-proxy-server` and launch the angular site
-# local_backend: true
+local_backend: true
 
 i18n:
   structure: single_file

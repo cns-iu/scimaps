@@ -43,7 +43,7 @@ export class BlogsResolverService implements Resolve<Blog[]> {
     }
   }
   resolve(): Observable<Blog[]> | Observable<never> {
-    return this.contentService.getIndex<Params>('blog').pipe(
+    return this.contentService.getIndex<Params>('blogs').pipe(
       take(1),
       map((items: Params[]) => {
         return items.map((item: Params) => {

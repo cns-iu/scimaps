@@ -1,6 +1,6 @@
 ---
 title: What Is a Map of Science
-date: 2021-10-26T15:32:45.524Z
+date: 2021-10-26
 blogImages:
   - sm: mapofscienceimage.jpg
     lg: mapofscienceimage.jpg
