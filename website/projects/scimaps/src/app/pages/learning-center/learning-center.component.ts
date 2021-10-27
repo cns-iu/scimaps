@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Blog } from './blogs-resolver.service';
 import { LearningCenterBody } from './learning-center-body-resolver.service';
-
+import {MatCardModule} from '@angular/material/card';
 @Component({
   selector: 'sci-learning-center',
   templateUrl: './learning-center.component.html',
@@ -14,6 +14,8 @@ export class LearningCenterComponent implements OnInit {
   body!: LearningCenterBody;
   blogs: Blog[] = [];
 
+  sections = ['Blogs', 'Videos']
+
   ngOnInit(): void {
     const {data} = this.activatedRoute.snapshot;
     const {body, blogs} = data;
@@ -21,7 +23,7 @@ export class LearningCenterComponent implements OnInit {
       this.body = body;
     }
     if (Array.isArray(blogs) && blogs.length) {
-      this.blogs = blogs;
+      this.blogs = blogs.slice(0, 3);
     }
   }
 

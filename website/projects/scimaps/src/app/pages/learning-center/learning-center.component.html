@@ -11,17 +11,34 @@
   </div>
 </div>
 
-
-<div class="rows">
-    <p>Blog ( {{blogs.length}} ) </p>
-    <div class="blogs">
-        <div class="blog" *ngFor="let blog of blogs">
-            <div class="blog-image-container">
-                <img [src]="blog.blogImages[0].sm" alt="Blog Thumbnail">
-            </div>
-            <div class="blog-title">
-                <p>{{blog.title}}</p>
-            </div>
+<!-- Desktop / Tab -->
+<div class="desktop-menu" *sciBreakpoint="'mobile+'">
+  <div class="blogs">
+    <p>Blog ( {{ blogs.length }} )</p>
+    <div class="blogs-row">
+      <div class="blog" *ngFor="let blog of blogs">
+        <div class="blog-image-container">
+          <img [src]="blog.blogImages[0].sm" alt="Blog Thumbnail" />
         </div>
+        <div class="blog-title">
+          <p>{{ blog.title }}</p>
+        </div>
+      </div>
+      <div class="icon-container">
+        <mat-icon class="more icon">more_vert</mat-icon>
+      </div>
     </div>
+  </div>
+</div>
+
+<!-- Mobile -->
+<div class="mobile-menu" *sciBreakpoint="'mobile-'">
+  <div class="mobile-button">
+    Blogs ( {{blogs.length}} )
+    <mat-icon class="mobile-icon">chevron_right</mat-icon>
+  </div>
+  <div class="mobile-button">
+    Videos ( {{blogs.length}} )
+    <mat-icon class="mobile-icon">chevron_right</mat-icon>
+  </div>
 </div>
