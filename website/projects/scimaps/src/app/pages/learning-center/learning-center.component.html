@@ -5,8 +5,7 @@
   <img [src]="body.image" alt="Image" />
 </div>
 
-<div class="spacer-48">
-</div>
+<div class="spacer-48"></div>
 
 <div class="description">
   <div markdown [data]="body.description">
@@ -14,24 +13,27 @@
   </div>
 </div>
 
-<div class="spacer-48">
-</div>
+<div class="spacer-48"></div>
 
 <!-- Desktop / Tab -->
 <div class="desktop-menu" *sciBreakpoint="'mobile+'">
   <div class="blogs">
     <p>Blog ( {{ blogs.length }} )</p>
     <div class="blogs-row">
-      <div class="blog" *ngFor="let blog of blogs">
-        <div class="blog-image-container">
-          <img [src]="blog.blogImages[0].sm" alt="Blog Thumbnail" />
+      <ng-container class="blog" *ngFor="let blog of blogs; let i = index">
+        <div class="blog" *ngIf="i < 3">
+          <div class="blog-image-container">
+            <img [src]="blog.blogImages[0].sm" alt="Blog Thumbnail" />
+          </div>
+          <div class="blog-title">
+            <p>{{ blog.title }}</p>
+          </div>
         </div>
-        <div class="blog-title">
-          <p>{{ blog.title }}</p>
-        </div>
-      </div>
+      </ng-container>
       <div class="icon-container">
-        <mat-icon class="more icon">more_vert</mat-icon>
+        <mat-icon class="more icon" (click)="showDrawer = true"
+          >more_vert</mat-icon
+        >
       </div>
     </div>
   </div>
@@ -39,12 +41,33 @@
 
 <!-- Mobile -->
 <div class="mobile-menu" *sciBreakpoint="'mobile-'">
-  <div class="mobile-button">
-    Blogs ( {{blogs.length}} )
+  <div class="mobile-button" (click)="showDrawer = true">
+    Blogs ( {{ blogs.length }} )
     <mat-icon class="mobile-icon">chevron_right</mat-icon>
   </div>
-  <!-- <div class="mobile-button">
-    Videos ( {{blogs.length}} )
-    <mat-icon class="mobile-icon">chevron_right</mat-icon>
-  </div> -->
 </div>
+
+<sci-drawer
+  [@drawerInOut]="showDrawer ? 'show' : 'hide'"
+  *ngIf="showDrawer"
+  class="sci-drawer"
+>
+  <div class="drawer-container" drawer>
+    <sci-drawer-header title="Blogs" (backClick)="showDrawer = false">
+    </sci-drawer-header>
+    <div class="drawer-content">
+      <div class="blogs-row">
+        <ng-container *ngFor="let blog of blogs">
+          <div class="blog">
+            <div class="blog-image-container">
+              <img [src]="blog.blogImages[0].sm" alt="Blog Thumbnail" />
+            </div>
+            <div class="blog-title">
+              <p>{{ blog.title }}</p>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</sci-drawer>

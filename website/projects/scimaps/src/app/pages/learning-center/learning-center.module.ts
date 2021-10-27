@@ -7,6 +7,8 @@ import { MarkdownModule } from 'ngx-markdown';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { SharedModule } from '../../shared/shared.module';
+import { DrawerModule } from '../../shared/components/drawer/drawer.module';
+import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { SharedModule } from '../../shared/shared.module';
     MarkdownModule,
     MatCardModule,
     MatIconModule,
-    SharedModule
+    SharedModule,
+    DrawerModule,
+    DrawerHeaderModule
   ]
 })
 export class LearningCenterModule { }
