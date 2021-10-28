@@ -5,8 +5,7 @@ import { BlogsRoutingModule } from './blogs-routing.module';
 import { BlogsComponent } from './blogs.component';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
-import { BlogDetailModule } from '../../shared/components/blog-detail/blog-detail.module';
-
+import { BlogModule } from '../../shared/components/blog/blog.module';
 
 @NgModule({
   declarations: [BlogsComponent],
@@ -15,7 +14,7 @@ import { BlogDetailModule } from '../../shared/components/blog-detail/blog-detai
     BlogsRoutingModule,
     DrawerModule,
     DrawerHeaderModule,
-    BlogDetailModule
+    BlogModule
   ]
 })
 export class BlogsModule { }
