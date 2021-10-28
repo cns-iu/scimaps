@@ -1,1 +1,13 @@
-<p>blog works!</p>
+<sci-drawer
+  [@drawerInOut]="showDrawer ? 'show' : 'hide'"
+  *ngIf="showDrawer"
+  class="sci-drawer"
+>
+  <div class="drawer-container" drawer>
+    <sci-drawer-header title="Blogs Detail" backText="Back" (backClick)="goBack()">
+    </sci-drawer-header>
+    <div class="drawer-contet">
+        Hello
+    </div>
+  </div>
+</sci-drawer>
