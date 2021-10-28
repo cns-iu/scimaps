@@ -15088,12 +15088,12 @@
     "dateEnd": "2021-03-16T00:00:00.000Z",
     "title": "Digital Studies of Digital Science Conference",
     "venue": "Université Catholique de Louvain",
-    "organizer": null,
-    "credit": null,
+    "organizer": "CEFISES center at UCLouvain",
+    "credit": "Places & Spaces",
     "city": "Ottignies-Louvain-la-Neuve",
-    "state": null,
+    "state": "Ottignies-Louvain-la-Neuve",
     "country": "Belgium",
-    "pdfLink": null,
+    "pdfLink": "20210316-digital-science-conference.pdf",
     "venueImages": null
   },
   {
@@ -15128,12 +15128,37 @@
     "title": "17th Iteration Debut and Macroscope Kiosk Display",
     "venue": "Navari Family Center for Digital Scholarship, University of Notre Dame",
     "organizer": "Scott B. Weingart, Peter Hook",
-    "credit": null,
+    "credit": "Places & Spaces",
     "city": "Notre Dame",
     "state": "IN",
     "country": "USA",
-    "pdfLink": null,
-    "venueImages": null
+    "pdfLink": "20210924-17th-iteration-debut.pdf",
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
+      },
+      {
+        "sm": "image03.sm.jpg",
+        "lg": "image03.lg.jpg"
+      },
+      {
+        "sm": "image04.sm.jpg",
+        "lg": "image04.lg.jpg"
+      },
+      {
+        "sm": "image05.sm.jpg",
+        "lg": "image05.lg.jpg"
+      },
+      {
+        "sm": "image06.sm.jpg",
+        "lg": "image06.lg.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2021-10-09T14:00:36.197Z",
