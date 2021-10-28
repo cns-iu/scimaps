@@ -8,8 +8,8 @@
     </sci-drawer-header>
     <div class="drawer-content">
       <div class="blogs-row">
-        <ng-container *ngFor="let blog of blogs">
-          <div class="blog">
+        <ng-container *ngFor="let blog of blogs; let i = index">
+          <div class="blog" (click)="gotoBlog(i)">
             <div class="blog-image-container">
               <img [src]="blog.blogImages[0].sm" alt="Blog Thumbnail" />
             </div>

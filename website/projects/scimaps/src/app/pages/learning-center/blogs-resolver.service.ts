@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, Params, Resolve, RouterStateSnapshot } from '@angular/router';
+import { Params, Resolve } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 import { getSegmentedDate, isHttp } from '../../constants/utils';
@@ -10,6 +10,7 @@ export interface Blog {
   title: string;
   date: string;
   body: string;
+  slug: string;
   blogImages: { sm: string, lg: string }[]
 }
 
@@ -47,7 +48,8 @@ export class BlogsResolverService implements Resolve<Blog[]> {
       title: blogItem.title,
       date: blogItem.date,
       body: blogItem.body,
-      blogImages: blogItem.blogImages
+      blogImages: blogItem.blogImages,
+      slug: toSlug(blogItem.title)
     }
   }
   resolve(): Observable<Blog[]> | Observable<never> {

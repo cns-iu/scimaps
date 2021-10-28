@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { drawerInOut } from '../../constants/drawer.animations';
+import { getSegmentedDate } from '../../constants/utils';
 import { Blog } from '../learning-center/blogs-resolver.service';
 
 @Component({
@@ -31,4 +32,9 @@ export class BlogsComponent implements OnInit {
     }, 500);
   }
 
+  gotoBlog(index: number) {
+    const blog = this.blogs[index];
+    const  [year, month, date] = getSegmentedDate(blog.date);
+    this.router.navigate(['/', 'learning-center', 'blogs', year, `${month}-${date}`, blog.slug])
+  }
 }
