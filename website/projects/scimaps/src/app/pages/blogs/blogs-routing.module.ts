@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BlogComponent } from '../../shared/components/blog/blog.component';
+import { BlogResolverService } from '../learning-center/blog-resolver.service';
 import { BlogsResolverService } from '../learning-center/blogs-resolver.service';
 import { BlogsComponent } from './blogs.component';
 
@@ -14,7 +15,10 @@ const routes: Routes = [
     children: [
       {
         path: ':year/:month/:slug',
-        component: BlogComponent
+        component: BlogComponent,
+        resolve: {
+          blog: BlogResolverService
+        }
       }
     ]
   }

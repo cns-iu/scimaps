@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { drawerInOut } from '../../../constants/drawer.animations';
+import { Blog } from '../../../pages/learning-center/blogs-resolver.service';
 
 @Component({
   selector: 'sci-blog',
@@ -10,10 +11,16 @@ import { drawerInOut } from '../../../constants/drawer.animations';
 })
 export class BlogComponent implements OnInit {
   showDrawer = false;
-  constructor(private router: Router) {}
+  blog!: Blog;
+
+  constructor(private router: Router, private route: ActivatedRoute) {}
 
   ngOnInit(): void {
     this.showDrawer = true;
+    const {blog} = this.route.snapshot.data;
+    if (blog) {
+      this.blog = blog;
+    }
   }
 
   goBack() {
