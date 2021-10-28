@@ -5,6 +5,7 @@ import { BlogsRoutingModule } from './blogs-routing.module';
 import { BlogsComponent } from './blogs.component';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
+import { BlogDetailModule } from '../../shared/components/blog-detail/blog-detail.module';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer
     CommonModule,
     BlogsRoutingModule,
     DrawerModule,
-    DrawerHeaderModule
+    DrawerHeaderModule,
+    BlogDetailModule
   ]
 })
 export class BlogsModule { }
