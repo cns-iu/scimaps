@@ -10,7 +10,6 @@ import { SharedModule } from '../../shared/shared.module';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
 
-
 @NgModule({
   declarations: [LearningCenterComponent],
   imports: [

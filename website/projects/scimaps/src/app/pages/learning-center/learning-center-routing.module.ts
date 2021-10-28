@@ -11,7 +11,13 @@ const routes: Routes = [
     resolve: {
       body: LearningCenterBodyResolverService,
       blogs: BlogsResolverService
-    }
+    },
+    children: [
+      {
+        path: 'blogs',
+        loadChildren: () => import('../blogs/blogs.module').then(m => m.BlogsModule)
+      }
+    ]
   }
 ];
 

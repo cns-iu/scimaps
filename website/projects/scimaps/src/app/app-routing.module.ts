@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes, UrlSegment } from '@angular/router';
-
 import { BooksModule } from './pages/books/books.module';
-
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/home' },
@@ -59,6 +57,10 @@ const routes: Routes = [
   {
     path: 'maker-videos',
     loadChildren: () => import('./pages/maker-videos/maker-videos.module').then(m => m.MakerVideosModule)
+  },
+  {
+    path: 'blogs',
+    loadChildren: () => import('./pages/blogs/blogs.module').then(m => m.BlogsModule)
   },
   {
     path: '**',

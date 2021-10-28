@@ -1,0 +1,24 @@
+<sci-drawer
+  [@drawerInOut]="showDrawer ? 'show' : 'hide'"
+  *ngIf="showDrawer"
+  class="sci-drawer"
+>
+  <div class="drawer-container" drawer>
+    <sci-drawer-header title="Blogs" backText="Back" (backClick)="goBack()">
+    </sci-drawer-header>
+    <div class="drawer-content">
+      <div class="blogs-row">
+        <ng-container *ngFor="let blog of blogs">
+          <div class="blog">
+            <div class="blog-image-container">
+              <img [src]="blog.blogImages[0].sm" alt="Blog Thumbnail" />
+            </div>
+            <div class="blog-title">
+              <p>{{ blog.title }}</p>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</sci-drawer>
