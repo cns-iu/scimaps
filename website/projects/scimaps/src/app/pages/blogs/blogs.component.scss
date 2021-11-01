@@ -18,8 +18,9 @@
             overflow: hidden;
             height: 15rem;
             img {
-              max-height: 100%;
-              width: auto;
+              height: 100%;
+              width: 100%;
+              object-fit: cover;
             }
           }
           .blog-title {
