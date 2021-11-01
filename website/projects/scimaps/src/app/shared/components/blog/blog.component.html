@@ -4,13 +4,44 @@
   class="sci-drawer"
 >
   <div class="drawer-container" drawer>
-    <sci-drawer-header title="Blogs Detail" backText="Back" (backClick)="goBack()">
+    <sci-drawer-header
+      title="Blogs Detail"
+      backText="Back"
+      (backClick)="goBack()"
+    >
     </sci-drawer-header>
     <div class="drawer-contet">
-        Hello
-        <div>
-          {{blog.title}}
+      <div class="row">
+        <!-- COL1 -->
+        <div class="text-column">
+          <div markdown [data]="blog.body"></div>
         </div>
+        <!-- COL2 -->
+        <div class="carousel-column">
+          <sci-carousel class="carousel">
+            <sci-carousel-item
+              *ngFor="let image of blog.blogImages; index as i"
+            >
+              <div class="carousel-item">
+                <ng-container *sciBreakpoint="'mobile-'; else desktop">
+                  <img
+                    class="carousel-image"
+                    [src]="image.sm"
+                    alt="Image #{{ i }} for book {{ blog.title }}"
+                  />
+                </ng-container>
+                <ng-template #desktop>
+                  <img
+                    class="carousel-image"
+                    [src]="image.lg"
+                    alt="Image #{{ i }} for book {{ blog.title }}"
+                  />
+                </ng-template>
+              </div>
+            </sci-carousel-item>
+          </sci-carousel>
+        </div>
+      </div>
     </div>
   </div>
 </sci-drawer>

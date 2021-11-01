@@ -25,10 +25,10 @@ export class BlogResolverService implements Resolve<Blog> {
       let sm = image.sm;
       let lg = image.lg;
       if (!isHttp(image.sm)) {
-        sm = `assets/${this.directory}/${year}/${month}-${date}/${slug}/${image.sm}`;
+        sm = `${this.directory}/${year}/${month}-${date}/${slug}/${image.sm}`;
       }
       if (!isHttp(image.lg)) {
-        lg = `assets/${this.directory}/${year}/${month}-${date}/${slug}/${image.lg}`;
+        lg = `${this.directory}/${year}/${month}-${date}/${slug}/${image.lg}`;
       }
       return {
         sm: sm,
