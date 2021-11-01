@@ -17,15 +17,17 @@
 
 <!-- Desktop / Tab -->
 <div class="desktop-menu" *sciBreakpoint="'mobile+'">
-  <div class="blogs">
+  
+  <!-- Blogs -->
+  <div class="category">
     <p>Blog ( {{ blogs.length }} )</p>
-    <div class="blogs-row">
-      <ng-container class="blog" *ngFor="let blog of blogs; let i = index">
-        <div class="blog" *ngIf="i < 3">
-          <div class="blog-image-container">
+    <div class="category-row">
+      <ng-container *ngFor="let blog of blogs; let i = index">
+        <div class="item" *ngIf="i < itemsPerRow">
+          <div class="image-container">
             <img [src]="blog.blogImages[0].sm" alt="Blog Thumbnail" />
           </div>
-          <div class="blog-title">
+          <div class="title">
             <p>{{ blog.title }}</p>
           </div>
         </div>
@@ -37,12 +39,39 @@
       </div>
     </div>
   </div>
+
+  <!-- Video -->
+  <div class="category">
+    <p>Videos ( {{ videos.length }} )</p>
+    <div class="category-row">
+      <ng-container *ngFor="let video of videos; let i = index">
+        <div class="item" *ngIf="i < itemsPerRow">
+          <div class="image-container">
+            <img [src]="video.image" alt="Video Thumbnail" />
+          </div>
+          <div class="title">
+            <p>{{ video.title }}</p>
+          </div>
+        </div>
+      </ng-container>
+      <div class="icon-container">
+        <mat-icon class="more icon" (click)="goto('videos')"
+          >more_vert</mat-icon
+        >
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <!-- Mobile -->
 <div class="mobile-menu" *sciBreakpoint="'mobile-'">
   <div class="mobile-button" (click)="goto('blogs')">
     Blogs ( {{ blogs.length }} )
+    <mat-icon class="mobile-icon">chevron_right</mat-icon>
+  </div>
+  <div class="mobile-button" (click)="goto('videos')">
+    Videos ( {{ videos.length }} )
     <mat-icon class="mobile-icon">chevron_right</mat-icon>
   </div>
 </div>

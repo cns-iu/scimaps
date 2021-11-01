@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { drawerInOut } from '../../constants/drawer.animations';
+import { MakerVideo } from '../maker-videos/maker-videos-resolver.service';
 import { Blog } from './blogs-resolver.service';
 import { LearningCenterBody } from './learning-center-body-resolver.service';
-import { MatCardModule } from '@angular/material/card';
-import { drawerInOut } from '../../constants/drawer.animations';
 @Component({
   selector: 'sci-learning-center',
   templateUrl: './learning-center.component.html',
@@ -15,24 +15,27 @@ export class LearningCenterComponent implements OnInit {
   constructor(private activatedRoute: ActivatedRoute, private router: Router) { }
   body!: LearningCenterBody;
   blogs: Blog[] = [];
-
+  videos: MakerVideo[] = [];
+  itemsPerRow = 3;
   ngOnInit(): void {
     const { data } = this.activatedRoute.snapshot;
-    const { body, blogs } = data;
+    const { body, blogs, videos } = data;
     if (body) {
       this.body = body;
     }
     if (Array.isArray(blogs) && blogs.length) {
       this.blogs = blogs;
     }
+    if (Array.isArray(videos) && videos.length) {
+      this.videos = videos;
+    }
   }
 
   goto(page: string) {
     if (page === 'blogs') {
       this.router.navigate(['/', 'learning-center', 'blogs']);
+    } else if (page === 'videos') {
+      this.router.navigate(['/', 'learning-center', 'videos']);
     }
   }
-
-
-
 }

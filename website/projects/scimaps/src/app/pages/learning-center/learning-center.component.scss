@@ -11,17 +11,17 @@
   }
 
   .desktop-menu {
-    .blogs {
+    .category {
       display: flex;
       flex-direction: column;
     }
   }
 
-  .blogs-row {
+  .category-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    .blog {
+    .item {
       width: 30%;
       @media screen and (max-width: $mobile) {
         width: 45%
@@ -30,15 +30,16 @@
       display: flex;
       flex-direction: column;
       margin: 0 auto 0 0;
-      .blog-image-container {
+      .image-container {
         overflow: hidden;
         height: 15rem;
         img {
-          max-height: 100%;
-          width: auto;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
         }
       }
-      .blog-title {
+      .title {
         margin-top: 1rem;
       }
     }
