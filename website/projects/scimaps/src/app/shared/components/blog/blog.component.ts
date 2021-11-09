@@ -23,7 +23,7 @@ export class BlogComponent implements OnInit {
     }
   }
 
-  goBack() {
+  goBack(): void {
     this.showDrawer = false;
     setTimeout(() => {
       this.router.navigate(['/', 'learning-center', 'blogs']);

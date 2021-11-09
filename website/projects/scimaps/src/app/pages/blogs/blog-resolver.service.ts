@@ -13,12 +13,12 @@ import { Blog } from './blogs-resolver.service';
   providedIn: 'root',
 })
 export class BlogResolverService implements Resolve<Blog> {
-  constructor(private contentService: ContentService) {}
+  constructor(private contentService: ContentService) { }
 
   mdPath = '';
   directory = 'assets/content/blog';
 
-  getImageSource(blog: Blog) {
+  getImageSource(blog: Blog): { sm: string, lg: string }[] {
     const [year, month, date] = getSegmentedDate(blog.date);
     const slug = toSlug(blog.title);
     const result = blog.blogImages.map((image: { sm: string; lg: string }) => {

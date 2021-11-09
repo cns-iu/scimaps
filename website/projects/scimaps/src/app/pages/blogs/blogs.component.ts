@@ -25,14 +25,14 @@ export class BlogsComponent implements OnInit {
     this.showDrawer = true;
   }
 
-  goBack() {
+  goBack(): void {
     this.showDrawer = false;
     setTimeout(() => {
       this.router.navigate(['/', 'learning-center']);
     }, 500);
   }
 
-  gotoBlog(index: number) {
+  gotoBlog(index: number): void {
     const blog = this.blogs[index];
     const  [year, month, date] = getSegmentedDate(blog.date);
     this.router.navigate(['/', 'learning-center', 'blogs', year, `${month}-${date}`, blog.slug]);

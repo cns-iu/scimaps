@@ -23,7 +23,7 @@ export class BlogsResolverService implements Resolve<Blog[]> {
 
   constructor(private contentService: ContentService) { }
 
-  getImageSource(blog: Blog) {
+  getImageSource(blog: Blog): {sm: string, lg: string}[] {
     const [year, month, date] = getSegmentedDate(blog.date);
     const slug = toSlug(blog.title);
 
@@ -43,6 +43,7 @@ export class BlogsResolverService implements Resolve<Blog[]> {
     });
     return result;
   }
+
   toBlog(blogItem: Params): Blog {
     return {
       title: blogItem.title,
@@ -52,6 +53,7 @@ export class BlogsResolverService implements Resolve<Blog[]> {
       slug: toSlug(blogItem.title)
     };
   }
+
   resolve(): Observable<Blog[]> | Observable<never> {
     return this.contentService.getIndex<Params>('blogs').pipe(
       take(1),

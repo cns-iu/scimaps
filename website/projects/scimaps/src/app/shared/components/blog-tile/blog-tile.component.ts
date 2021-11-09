@@ -16,7 +16,7 @@ export class BlogTileComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  gotoBlog() {
+  gotoBlog(): void {
     if (this.blog) {
       const  [year, month, date] = getSegmentedDate(this.blog.date);
       this.router.navigate(['/', 'learning-center', 'blogs', year, `${month}-${date}`, this.blog.slug]);

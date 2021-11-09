@@ -31,7 +31,7 @@ export class MakerVideosComponent implements OnInit {
     this.showDrawer = true;
   }
 
-  goBack() {
+  goBack(): void {
     this.showDrawer = false;
     setTimeout(() => {
       this.router.navigate(['/', 'learning-center']);

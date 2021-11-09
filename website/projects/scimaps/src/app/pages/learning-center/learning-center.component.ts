@@ -31,7 +31,7 @@ export class LearningCenterComponent implements OnInit {
     }
   }
 
-  goto(page: string) {
+  goto(page: string): void {
     if (page === 'blogs') {
       this.router.navigate(['/', 'learning-center', 'blogs']);
     } else if (page === 'videos') {
