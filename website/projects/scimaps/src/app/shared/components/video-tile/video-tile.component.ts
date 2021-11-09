@@ -18,7 +18,7 @@ export class VideoTileComponent implements OnInit {
 
   gotoVideo(): void {
     if (this.video) {
-      this.router.navigate(['/', 'maker-videos', this.video.slug]);
+      this.router.navigate(['/', 'learning-center', 'maker-videos', this.video.slug]);
     }
   }
 }

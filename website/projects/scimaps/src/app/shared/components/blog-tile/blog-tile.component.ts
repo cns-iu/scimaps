@@ -1,8 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { getSegmentedDate } from '../../../constants/utils';
-import { Blog } from '../../../pages/learning-center/blogs-resolver.service';
-
+import { Blog } from '../../../pages/blogs/blogs-resolver.service';
 @Component({
   selector: 'sci-blog-tile',
   templateUrl: './blog-tile.component.html',

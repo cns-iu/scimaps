@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { drawerInOut } from '../../../constants/drawer.animations';
-import { Blog } from '../../../pages/learning-center/blogs-resolver.service';
+import { Blog } from '../../../pages/blogs/blogs-resolver.service';
 
 @Component({
   selector: 'sci-blog',

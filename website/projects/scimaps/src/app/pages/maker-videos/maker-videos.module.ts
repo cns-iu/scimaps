@@ -19,7 +19,8 @@ import { MakerVideosComponent } from './maker-videos.component';
     DrawerHeaderModule,
     DrawerModule,
     MakerVideoModule,
-    VideoTileModule
+    VideoTileModule,
+    DrawerModule
   ]
 })
 export class MakerVideosModule { }
