@@ -181,6 +181,34 @@ collections:
         fields:
           - { name: description, label: Description, widget: markdown }
           - { name: image, label: Image, widget: file }
+          - name: featured
+            widget: object
+            collapsed: false
+            fields:
+              - name: Select Featured Entry Type
+                widget: select
+                multiple: false
+                default: blog
+                options: 
+                  - {value: blog, label: Blog }
+                  - {value: video, label: Video }
+              - name: featured-blog
+                label: Featured Blog
+                widget: relation
+                multiple: false
+                collection: blog
+                search_fields: ['title']
+                value_field: '{{slug}}'
+                display_fields: ['{{title}}']
+              - name: featured-video
+                label: Featured Video
+                widget: relation
+                multiple: false
+                collection: maker-videos
+                search_fields: ['title']
+                value_field: '{{slug}}'
+                display_fields: ['{{title}}']
+              
 
   - name: learning-materials
     label: Learning Materials
@@ -547,7 +575,7 @@ backend:
 # Uncomment below when using the default proxy server port
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ## Basically run `npx netlify-cms-proxy-server` and launch the angular site
-local_backend: true
+local_backend: false
 
 i18n:
   structure: single_file
