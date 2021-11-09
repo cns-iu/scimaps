@@ -16,7 +16,7 @@ export class LearningCenterComponent implements OnInit {
   body!: LearningCenterBody;
   blogs: Blog[] = [];
   videos: MakerVideo[] = [];
-  itemsPerRow = 3;
+  itemsPerRow = 4;
   ngOnInit(): void {
     const { data } = this.activatedRoute.snapshot;
     const { body, blogs, videos } = data;

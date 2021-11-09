@@ -10,6 +10,7 @@ import { SharedModule } from '../../shared/shared.module';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
 import { BlogTileModule } from '../../shared/components/blog-tile/blog-tile.module';
+import { VideoTileModule } from '../../shared/components/video-tile/video-tile.module';
 
 @NgModule({
   declarations: [LearningCenterComponent],
@@ -22,7 +23,8 @@ import { BlogTileModule } from '../../shared/components/blog-tile/blog-tile.modu
     SharedModule,
     DrawerModule,
     DrawerHeaderModule,
-    BlogTileModule
+    BlogTileModule,
+    VideoTileModule
   ]
 })
 export class LearningCenterModule { }

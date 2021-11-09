@@ -8,6 +8,7 @@ import { VideoTileComponent } from './video-tile.component';
   declarations: [VideoTileComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [VideoTileComponent]
 })
 export class VideoTileModule { }

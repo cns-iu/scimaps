@@ -23,7 +23,7 @@
     <p>Blog ( {{ blogs.length }} )</p>
     <div class="category-row">
       <ng-container *ngFor="let blog of blogs; let i = index">
-        <sci-blog-tile *ngIf="i < itemsPerRow" [blog]="blog"></sci-blog-tile>
+        <sci-blog-tile class="col-4" *ngIf="i < itemsPerRow" [blog]="blog"></sci-blog-tile>
       </ng-container>
       <div class="icon-container">
         <mat-icon class="more icon" (click)="goto('blogs')"
@@ -38,14 +38,7 @@
     <p>Videos ( {{ videos.length }} )</p>
     <div class="category-row">
       <ng-container *ngFor="let video of videos; let i = index">
-        <div class="item" *ngIf="i < itemsPerRow">
-          <div class="image-container">
-            <img [src]="video.image" alt="Video Thumbnail" />
-          </div>
-          <div class="title">
-            <p>{{ video.title }}</p>
-          </div>
-        </div>
+        <sci-video-tile class="col-4" *ngIf="i < itemsPerRow" [video]="video"></sci-video-tile>
       </ng-container>
       <div class="icon-container">
         <mat-icon class="more icon" (click)="goto('videos')"

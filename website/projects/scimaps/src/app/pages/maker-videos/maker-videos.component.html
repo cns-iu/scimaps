@@ -1,19 +1,10 @@
 <h1 class="header1">Map and Macroscope Maker Videos</h1>
 
-<div class="description" markdown [data]="body.description">
-</div>
+<div class="description" markdown [data]="body.description"></div>
 <div class="spacer-32"></div>
-<div class="grid">
-    <div class="grid-item" *ngFor="let item of videos;let i = index;">
-        <div class="item-container" (click)="gotoVideo(item.slug)">
-            <div class="thumbnail">
-                <img [src]="item.image" [alt]="item.image">
-             </div>
-             <div class="title">
-                 {{item.short_description}}
-             </div>
-        </div>
-    </div>
+<div class="video-tiles">
+  <sci-video-tile class="col-4" *ngFor="let item of videos; let i = index" [video]="item">
+  </sci-video-tile>
 </div>
 
 <router-outlet></router-outlet>

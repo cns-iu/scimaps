@@ -8,13 +8,10 @@
     </sci-drawer-header>
     <div class="drawer-content">
       <div class="blogs-row">
-        <ng-container *ngFor="let blog of blogs">
-          <sci-blog-tile [blog]="blog"></sci-blog-tile>
-        </ng-container>
+        <sci-blog-tile class="col-4" *ngFor="let blog of blogs" [blog]="blog"></sci-blog-tile>
       </div>
     </div>
   </div>
 </sci-drawer>
 
 <router-outlet></router-outlet>
-
