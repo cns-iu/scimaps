@@ -179,8 +179,6 @@ collections:
         public_folder: ''
         preview_path: 'learning-center'
         fields:
-          - { name: description, label: Description, widget: markdown }
-          - { name: image, label: Image, widget: file }
           - name: featured
             widget: object
             collapsed: false
