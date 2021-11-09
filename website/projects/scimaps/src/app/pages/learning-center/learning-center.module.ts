@@ -9,6 +9,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { SharedModule } from '../../shared/shared.module';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
+import { BlogTileModule } from '../../shared/components/blog-tile/blog-tile.module';
 
 @NgModule({
   declarations: [LearningCenterComponent],
@@ -20,7 +21,8 @@ import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer
     MatIconModule,
     SharedModule,
     DrawerModule,
-    DrawerHeaderModule
+    DrawerHeaderModule,
+    BlogTileModule
   ]
 })
 export class LearningCenterModule { }

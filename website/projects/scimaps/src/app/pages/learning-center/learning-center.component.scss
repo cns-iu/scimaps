@@ -1,7 +1,7 @@
 @import "../../../styling/breakpoints";
 
 :host {
-  .image-container {
+  .featured-container {
     width: 100%;
     img {
       display: block;
@@ -21,29 +21,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    .item {
-      width: 30%;
-      @media screen and (max-width: $mobile) {
-        width: 45%
-      }
-      margin: 1rem;
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto 0 0;
-      .image-container {
-        overflow: hidden;
-        height: 15rem;
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          object-position: center;
-        }
-      }
-      .title {
-        margin-top: 1rem;
-      }
-    }
+
+    // three dot
     .icon-container {
       display: flex;
       flex-direction: column;
@@ -55,6 +34,7 @@
     }
   }
 
+  // Mobile UI.
   .mobile-menu {
     display: flex;
     flex-direction: column;

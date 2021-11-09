@@ -1,13 +1,13 @@
 <h2 class="header">Learning Center</h2>
 
 <!-- Featured -->
-<div class="image-container">
+<div class="featured-container">
   <img [src]="body.image" alt="Image" />
 </div>
 
 <div class="spacer-48"></div>
 
-<div class="description">
+<div class="featured-description">
   <div markdown [data]="body.description">
     {{ body.description }}
   </div>
@@ -23,14 +23,7 @@
     <p>Blog ( {{ blogs.length }} )</p>
     <div class="category-row">
       <ng-container *ngFor="let blog of blogs; let i = index">
-        <div class="item" *ngIf="i < itemsPerRow">
-          <div class="image-container">
-            <img [src]="blog.blogImages[0].sm" alt="Blog Thumbnail" />
-          </div>
-          <div class="title">
-            <p>{{ blog.title }}</p>
-          </div>
-        </div>
+        <sci-blog-tile *ngIf="i < itemsPerRow" [blog]="blog"></sci-blog-tile>
       </ng-container>
       <div class="icon-container">
         <mat-icon class="more icon" (click)="goto('blogs')"
