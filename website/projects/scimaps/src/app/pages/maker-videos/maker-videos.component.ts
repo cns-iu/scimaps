@@ -14,9 +14,7 @@ export class MakerVideosComponent implements OnInit {
 
   body: MakerVideosBody = { description: ''};
   videos: MakerVideo[] = [];
-  //
-  showOverlay = false;
-  selectedItem: MakerVideo | null = null;
+  showDrawer = false;
 
   constructor(private route: ActivatedRoute, private router: Router) { }
 
@@ -30,8 +28,16 @@ export class MakerVideosComponent implements OnInit {
         this.videos = videos;
       }
     });
+    this.showDrawer = true;
   }
 
+  goBack() {
+    this.showDrawer = false;
+    setTimeout(() => {
+      this.router.navigate(['/', 'learning-center']);
+    }, 500);
+  }
+  
   gotoVideo(slug: string): void {
     this.router.navigate([slug], {relativeTo: this.route});
   }
