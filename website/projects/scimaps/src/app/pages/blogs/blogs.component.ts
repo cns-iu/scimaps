@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { drawerInOut } from '../../constants/drawer.animations';
 import { getSegmentedDate } from '../../constants/utils';
-import { Blog } from '../learning-center/blogs-resolver.service';
+import { Blog } from './blogs-resolver.service';
 
 @Component({
   selector: 'sci-blogs',

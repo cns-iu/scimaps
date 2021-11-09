@@ -35,7 +35,7 @@ export class LearningCenterComponent implements OnInit {
     if (page === 'blogs') {
       this.router.navigate(['/', 'learning-center', 'blogs']);
     } else if (page === 'videos') {
-      this.router.navigate(['/', 'learning-center', 'videos']);
+      this.router.navigate(['/', 'learning-center', 'maker-videos']);
     }
   }
 }
