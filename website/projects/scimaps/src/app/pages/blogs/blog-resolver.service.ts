@@ -41,11 +41,14 @@ export class BlogResolverService implements Resolve<Blog> {
   resolve(
     route: ActivatedRouteSnapshot
   ): Blog | Observable<Blog> | Promise<Blog> {
-    console.log('resolver called', route);
+    // console.log('resolver called', route);
     const { year, month, slug } = route.params;
     this.mdPath = `blog/${year}/${month}/${slug}/readme.md`;
+    return this.getResult(this.mdPath);
+  }
 
-    return this.contentService.getContent<Blog>(this.mdPath).pipe(
+  getResult(mdPath: string): Blog | Observable<Blog> | Promise<Blog> {
+    return this.contentService.getContent<Blog>(mdPath).pipe(
       take(1),
       map((blog: Blog) => {
         return {
