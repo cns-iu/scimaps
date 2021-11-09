@@ -63,6 +63,12 @@ export class BlogsResolverService implements Resolve<Blog[]> {
           blog.blogImages = this.getImageSource(blog);
           return blog;
         });
+      }),
+      map((items: Blog[]) => {
+        // return items;
+        return items.sort((a: Blog, b: Blog) => {
+          return Date.parse(b.date) - Date.parse(a.date);
+        })
       })
     );
   }
