@@ -37,7 +37,7 @@ export class MakerVideosComponent implements OnInit {
       this.router.navigate(['/', 'learning-center']);
     }, 500);
   }
-  
+
   gotoVideo(slug: string): void {
     this.router.navigate([slug], {relativeTo: this.route});
   }

@@ -17,7 +17,7 @@ export class BlogResolverService implements Resolve<Blog> {
 
   mdPath = '';
   directory = 'assets/content/blog';
-  
+
   getImageSource(blog: Blog) {
     const [year, month, date] = getSegmentedDate(blog.date);
     const slug = toSlug(blog.title);
@@ -31,8 +31,8 @@ export class BlogResolverService implements Resolve<Blog> {
         lg = `${this.directory}/${year}/${month}-${date}/${slug}/${image.lg}`;
       }
       return {
-        sm: sm,
-        lg: lg,
+        sm,
+        lg,
       };
     });
     return result;

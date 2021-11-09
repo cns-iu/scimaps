@@ -11,7 +11,7 @@ export interface Blog {
   date: string;
   body: string;
   slug: string;
-  blogImages: { sm: string, lg: string }[]
+  blogImages: { sm: string, lg: string }[];
 }
 
 @Injectable({
@@ -37,11 +37,11 @@ export class BlogsResolverService implements Resolve<Blog[]> {
         lg = `assets/${this.directory}/${year}/${month}-${date}/${slug}/${image.lg}`;
       }
       return {
-        sm: sm,
-        lg: lg
+        sm,
+        lg
       };
-    })
-    return result
+    });
+    return result;
   }
   toBlog(blogItem: Params): Blog {
     return {
@@ -50,7 +50,7 @@ export class BlogsResolverService implements Resolve<Blog[]> {
       body: blogItem.body,
       blogImages: blogItem.blogImages,
       slug: toSlug(blogItem.title)
-    }
+    };
   }
   resolve(): Observable<Blog[]> | Observable<never> {
     return this.contentService.getIndex<Params>('blogs').pipe(
@@ -62,6 +62,6 @@ export class BlogsResolverService implements Resolve<Blog[]> {
           return blog;
         });
       })
-    )
+    );
   }
 }

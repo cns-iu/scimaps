@@ -19,7 +19,7 @@ export class BlogTileComponent implements OnInit {
   gotoBlog() {
     if (this.blog) {
       const  [year, month, date] = getSegmentedDate(this.blog.date);
-      this.router.navigate(['/', 'learning-center', 'blogs', year, `${month}-${date}`, this.blog.slug])
+      this.router.navigate(['/', 'learning-center', 'blogs', year, `${month}-${date}`, this.blog.slug]);
     }
   }
 }

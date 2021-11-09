@@ -6,7 +6,7 @@ import { LearningCenterBodyResolverService } from './learning-center-body-resolv
 import { LearningCenterComponent } from './learning-center.component';
 
 const routes: Routes = [
-  { 
+  {
     path: '',
     component: LearningCenterComponent,
     resolve: {

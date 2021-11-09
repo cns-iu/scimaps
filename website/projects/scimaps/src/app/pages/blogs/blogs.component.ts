@@ -35,6 +35,6 @@ export class BlogsComponent implements OnInit {
   gotoBlog(index: number) {
     const blog = this.blogs[index];
     const  [year, month, date] = getSegmentedDate(blog.date);
-    this.router.navigate(['/', 'learning-center', 'blogs', year, `${month}-${date}`, blog.slug])
+    this.router.navigate(['/', 'learning-center', 'blogs', year, `${month}-${date}`, blog.slug]);
   }
 }

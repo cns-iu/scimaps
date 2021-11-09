@@ -5,8 +5,8 @@ import { isHttp } from '../../constants/utils';
 import { ContentService } from '../../shared/services/content.service';
 
 export interface LearningCenterBody {
-  description: string,
-  image: string
+  description: string;
+  image: string;
 }
 
 @Injectable({
@@ -32,7 +32,7 @@ export class LearningCenterBodyResolverService {
   updatePaths(body: LearningCenterBody): LearningCenterBody {
     const {image} = body;
     if (image && !isHttp(image)) {
-       body.image= `${this.directory}/${image}`;
+       body.image = `${this.directory}/${image}`;
     }
     return body;
   }
