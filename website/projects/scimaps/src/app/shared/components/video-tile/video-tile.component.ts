@@ -11,14 +11,14 @@ export class VideoTileComponent implements OnInit {
 
   @Input() video!: MakerVideo;
 
-  constructor(private router: Router, private route: ActivatedRoute) { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
   gotoVideo(): void {
     if (this.video) {
-      this.router.navigate([this.video.slug], {relativeTo: this.route});
+      this.router.navigate(['/', 'maker-videos', this.video.slug]);
     }
   }
 }
