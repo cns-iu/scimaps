@@ -1,5 +1,5 @@
 ---
 featured:
   type: blog
-  featured-blog-slug: 2021/01-08/what-is-macroscope/readme
+  featured-blog-slug: 2021/02-15/andrew-levinson-on-creating-breaking-news-visualizations-for-the-wall-street-journal/readme
 ---
