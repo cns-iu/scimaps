@@ -11,7 +11,7 @@ export interface LearningCenterBody {
     'featured-blog-slug'?: string,
     'featured-video-slug'?: string,
     slug?: string,
-  }
+  };
 }
 
 @Injectable({
@@ -30,10 +30,10 @@ export class LearningCenterBodyResolverService {
       take(1),
       concatMap((body: LearningCenterBody) => {
         const {featured} = body;
-        if (featured.type == 'blog' && featured['featured-blog-slug']) {
+        if (featured.type === 'blog' && featured['featured-blog-slug']) {
           const segments = featured['featured-blog-slug'].split('/');
           featured.slug = segments[segments.length - 2];
-        } else if (featured.type == 'video' && featured['featured-video-slug']) {
+        } else if (featured.type === 'video' && featured['featured-video-slug']) {
           const segments = featured['featured-video-slug'].split('/');
           featured.slug = segments[segments.length - 2];
         }

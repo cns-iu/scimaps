@@ -68,7 +68,7 @@ export class BlogsResolverService implements Resolve<Blog[]> {
         // return items;
         return items.sort((a: Blog, b: Blog) => {
           return Date.parse(b.date) - Date.parse(a.date);
-        })
+        });
       })
     );
   }

@@ -28,7 +28,7 @@ export class LearningCenterComponent implements OnInit {
     if (Array.isArray(blogs) && blogs.length) {
       this.blogs = blogs;
       const { type, slug } = this.body.featured;
-      if (type == 'blog' && slug) {
+      if (type === 'blog' && slug) {
         this.featuredBlog = this.blogs[0];
         const foundIndex = this.blogs.findIndex(item => item.slug === slug);
         if (foundIndex >= 0) {
@@ -39,7 +39,7 @@ export class LearningCenterComponent implements OnInit {
     if (Array.isArray(videos) && videos.length) {
       this.videos = videos;
       const { type, slug } = this.body.featured;
-      if (type == 'video' && slug) {
+      if (type === 'video' && slug) {
         this.featuredVideo = this.videos[0];
         const foundIndex = this.videos.findIndex(item => item.slug === slug);
         if (foundIndex >= 0) {
