@@ -1,12 +1,17 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-import { map, take } from 'rxjs/operators';
+import { Observable, of } from 'rxjs';
+import { concatMap, map, take } from 'rxjs/operators';
 import { isHttp } from '../../constants/utils';
 import { ContentService } from '../../shared/services/content.service';
-
+import { MakerVideo } from '../maker-videos/maker-videos-resolver.service';
+import { Blog } from '../blogs/blogs-resolver.service';
 export interface LearningCenterBody {
-  description: string;
-  image: string;
+  featured: {
+    type: string,
+    'featured-blog-slug'?: string,
+    'featured-video-slug'?: string,
+    slug?: string,
+  }
 }
 
 @Injectable({
@@ -23,17 +28,18 @@ export class LearningCenterBodyResolverService {
   resolve(): Observable<LearningCenterBody> | Observable<never> {
     return this.content.getContent<LearningCenterBody>(this.mdPath).pipe(
       take(1),
-      map((body: LearningCenterBody) => {
-        return this.updatePaths(body);
+      concatMap((body: LearningCenterBody) => {
+        const {featured} = body;
+        if (featured.type == 'blog' && featured['featured-blog-slug']) {
+          const segments = featured['featured-blog-slug'].split('/');
+          featured.slug = segments[segments.length - 2];
+        } else if (featured.type == 'video' && featured['featured-video-slug']) {
+          const segments = featured['featured-video-slug'].split('/');
+          featured.slug = segments[segments.length - 2];
+        }
+        body.featured = featured;
+        return of(body);
       })
     );
-  }
-
-  updatePaths(body: LearningCenterBody): LearningCenterBody {
-    const {image} = body;
-    if (image && !isHttp(image)) {
-       body.image = `${this.directory}/${image}`;
-    }
-    return body;
   }
 }

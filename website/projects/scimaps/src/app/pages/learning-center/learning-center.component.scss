@@ -1,12 +1,24 @@
 @import "../../../styling/breakpoints";
 
 :host {
-  .featured-container {
-    width: 100%;
-    img {
+  .featured-blog {
+    .featured-container {
+      width: 100%;
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    }
+  }
+
+  .featured-video {
+    .iframe {
+      margin: auto;
       display: block;
-      margin: 0 auto;
       max-width: 100%;
+      max-height: 100%;
+      border: 0;
     }
   }
 

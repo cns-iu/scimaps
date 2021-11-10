@@ -11,6 +11,7 @@ import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
 import { BlogTileModule } from '../../shared/components/blog-tile/blog-tile.module';
 import { VideoTileModule } from '../../shared/components/video-tile/video-tile.module';
+import { SafePipeModule } from '../../pipes/safe.pipe';
 
 @NgModule({
   declarations: [LearningCenterComponent],
@@ -24,7 +25,8 @@ import { VideoTileModule } from '../../shared/components/video-tile/video-tile.m
     DrawerModule,
     DrawerHeaderModule,
     BlogTileModule,
-    VideoTileModule
+    VideoTileModule,
+    SafePipeModule
   ]
 })
 export class LearningCenterModule { }

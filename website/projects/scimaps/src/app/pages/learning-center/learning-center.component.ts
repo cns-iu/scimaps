@@ -17,6 +17,8 @@ export class LearningCenterComponent implements OnInit {
   blogs: Blog[] = [];
   videos: MakerVideo[] = [];
   itemsPerRow = 4;
+  featuredBlog: Blog | undefined;
+  featuredVideo: MakerVideo | undefined;
   ngOnInit(): void {
     const { data } = this.activatedRoute.snapshot;
     const { body, blogs, videos } = data;
@@ -25,9 +27,27 @@ export class LearningCenterComponent implements OnInit {
     }
     if (Array.isArray(blogs) && blogs.length) {
       this.blogs = blogs;
+      const { type, slug } = this.body.featured;
+      if (type == 'blog' && slug) {
+        this.featuredBlog = this.blogs[0];
+        const foundIndex = this.blogs.findIndex(item => item.slug === slug);
+        if (foundIndex >= 0) {
+          this.featuredBlog = this.blogs[foundIndex];
+        }
+      }
     }
     if (Array.isArray(videos) && videos.length) {
       this.videos = videos;
+      const { type, slug } = this.body.featured;
+      if (type == 'video') {
+        this.featuredVideo = this.videos[0];
+        if (slug) {
+          const foundIndex = this.videos.findIndex(item => item.slug === slug);
+          if (foundIndex >= 0) {
+            this.featuredVideo = this.videos[foundIndex];
+          }
+        }
+      }
     }
   }
 

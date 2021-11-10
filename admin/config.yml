@@ -191,15 +191,15 @@ collections:
                 options: 
                   - {value: blog, label: Blog }
                   - {value: video, label: Video }
-              - name: featured-blog
+              - name: featured-blog-slug
                 label: Featured Blog
                 widget: relation
-                multiple: false
+                multiple: false,
                 collection: blog
                 search_fields: ['title']
                 value_field: '{{slug}}'
                 display_fields: ['{{title}}']
-              - name: featured-video
+              - name: featured-video-slug
                 label: Featured Video
                 widget: relation
                 multiple: false

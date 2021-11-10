@@ -1,8 +1,6 @@
 ---
-description: Learning Center Featured Description
-image: image.png
 featured:
-  featured-blog: 2021/01-08/what-is-macroscope/readme
-  featured-video: andrew-levinson-getting-the-jump-on-election-results-data/readme
   type: blog
+  featured-blog-slug: 2021/02-15/andrew-levinson-on-creating-breaking-news-visualizations-for-the-wall-street-journal/readme
+  featured-video-slug: andrew-levinson-on-the-virtues-of-working-ahead/readme
 ---
