@@ -1,4 +1,5 @@
 ---
+published: true
 title: What Is a Map of Science
 date: 2021-10-26
 blogImages:

@@ -11,6 +11,7 @@ export interface Blog {
   date: string;
   body: string;
   slug: string;
+  published: boolean;
   blogImages: { sm: string, lg: string }[];
 }
 
@@ -48,6 +49,7 @@ export class BlogsResolverService implements Resolve<Blog[]> {
     return {
       title: blogItem.title,
       date: blogItem.date,
+      published: blogItem.published,
       body: blogItem.body,
       blogImages: blogItem.blogImages,
       slug: toSlug(blogItem.title)
@@ -58,7 +60,7 @@ export class BlogsResolverService implements Resolve<Blog[]> {
     return this.contentService.getIndex<Params>('blogs').pipe(
       take(1),
       map((items: Params[]) => {
-        return items.map((item: Params) => {
+        return items.filter(item => item.published).map((item: Params) => {
           const blog: Blog = this.toBlog(item);
           blog.blogImages = this.getImageSource(blog);
           return blog;

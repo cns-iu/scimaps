@@ -1,4 +1,5 @@
 ---
+published: true
 title: Andrew Levinson on Creating Breaking-News Visualizations for The Wall
   Street Journal
 date: 2021-02-15
