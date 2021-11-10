@@ -39,13 +39,11 @@ export class LearningCenterComponent implements OnInit {
     if (Array.isArray(videos) && videos.length) {
       this.videos = videos;
       const { type, slug } = this.body.featured;
-      if (type == 'video') {
+      if (type == 'video' && slug) {
         this.featuredVideo = this.videos[0];
-        if (slug) {
-          const foundIndex = this.videos.findIndex(item => item.slug === slug);
-          if (foundIndex >= 0) {
-            this.featuredVideo = this.videos[foundIndex];
-          }
+        const foundIndex = this.videos.findIndex(item => item.slug === slug);
+        if (foundIndex >= 0) {
+          this.featuredVideo = this.videos[foundIndex];
         }
       }
     }
