@@ -5,7 +5,7 @@
 >
   <div class="drawer-container" drawer>
     <sci-drawer-header
-      title="Blogs"
+      title="Blog"
       backText="Back"
       (backClick)="goBack()"
     >
@@ -14,7 +14,9 @@
       <div class="row">
         <!-- COL1 -->
         <div class="text-column">
-          <div markdown [data]="blog?.body"></div>
+          <div class="date">{{blog.date | date:'mediumDate':'+0000'}}</div>
+          <div class="title">{{blog.title}}</div>
+          <div class="body" markdown [data]="blog?.body"></div>
         </div>
         <!-- COL2 -->
         <div class="carousel-column">

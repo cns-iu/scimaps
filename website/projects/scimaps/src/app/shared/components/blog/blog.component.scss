@@ -15,6 +15,12 @@
 
   .text-column {
     padding-right: 3rem;
+    .date {
+      margin-bottom: 1rem;
+    }
+    .title {
+      margin-bottom: 1rem;
+    }
   }
 
   @media (max-width: $mobile) {
