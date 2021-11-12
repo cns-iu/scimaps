@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import {
   ActivatedRouteSnapshot,
+  Params,
   Resolve
 } from '@angular/router';
 import { Observable } from 'rxjs';
@@ -38,28 +39,34 @@ export class BlogResolverService implements Resolve<Blog> {
     return result;
   }
 
+  toBlog(blogItem: Params): Blog {
+    const blog: Blog = {
+      title: blogItem.title,
+      date: blogItem.date,
+      published: blogItem.published,
+      body: blogItem.body,
+      blogImages: blogItem.blogImages,
+      slug: toSlug(blogItem.title)
+    }
+    blog.blogImages = this.getImageSource(blog);
+    return blog;
+  }
+
   resolve(
-    route: ActivatedRouteSnapshot
+    route: Params
   ): Blog | Observable<Blog> | Promise<Blog> {
     // console.log('resolver called', route);
     const { year, month, slug } = route.params;
     this.mdPath = `blog/${year}/${month}/${slug}/readme.md`;
     return this.getResult(this.mdPath);
   }
-
   getResult(mdPath: string): Blog | Observable<Blog> | Promise<Blog> {
-    return this.contentService.getContent<Blog>(mdPath).pipe(
+    return this.contentService.getContent<Params>(mdPath).pipe(
       take(1),
-      map((blog: Blog) => {
-        return {
-          ...blog,
-          slug: toSlug(blog.title),
-        };
-      }),
-      map((blog: Blog) => {
-        blog.blogImages = this.getImageSource(blog);
-        return blog;
-      })
+      map((blog: Params) => this.toBlog(blog))
     );
   }
+
+
+
 }
