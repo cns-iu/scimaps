@@ -403,11 +403,11 @@ collections:
       - { name: title, label: Exhibit Name }
       - { name: venue, label: Venue }
       - { name: organizer, label: Organizer }
-      - { name: credit, label: Credit }
+      - { name: credit, label: Credit, required: false }
       - { name: city, label: City }
       - { name: state, label: State }
       - { name: country, label: Country }
-      - { name: pdfLink, label: PDF Link, widget: file }
+      - { name: pdfLink, label: PDF Link, widget: file, required: false }
       - name: venueImages
         label: Venue Images
         label_singular: Venue Image
