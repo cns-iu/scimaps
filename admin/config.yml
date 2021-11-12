@@ -272,6 +272,7 @@ collections:
     media_folder: ''
     public_folder: ''
     fields:
+      - { name: published, widget: boolean, default: false}
       - { name: title, label: Title }
       - { name: date, label: Date, widget: date, format: YYYY-MM-DD, time_format: false }
       - { name: body, label: Body, widget: markdown }
