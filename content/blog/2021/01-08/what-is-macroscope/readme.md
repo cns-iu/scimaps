@@ -1,5 +1,4 @@
 ---
-published: true
 title: What is macroscope
 date: 2021-01-08
 blogImages:

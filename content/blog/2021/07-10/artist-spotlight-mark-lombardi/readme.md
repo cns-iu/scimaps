@@ -1,6 +1,5 @@
 ---
 title: "Artist Spotlight: Mark Lombardi"
-published: true
 date: 2021-07-10
 blogImages:
   - sm: lombardiheader.png
