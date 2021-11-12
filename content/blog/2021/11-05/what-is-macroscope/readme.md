@@ -11,7 +11,7 @@ blogImages:
 ---
 by Todd Theriault
 
-Between the years 2005 and 2014, the *Places & Spaces*: Mapping Science exhibit worked towards the goal of bringing maps of science to the general public. The result of this effort has been two-fold: first, it has allowed audiences to share in the wonder of scientific thought made visible; second, it has sparked a Cambrian explosion of mapmaking innovation, as individuals from around the world have been inspired to create maps that analyze and explain the issues most vital to them.
+Between the years 2005 and 2014, the *Places & Spaces: Mapping Science* exhibit worked towards the goal of bringing maps of science to the general public. The result of this effort has been two-fold: first, it has allowed audiences to share in the wonder of scientific thought made visible; second, it has sparked a Cambrian explosion of mapmaking innovation, as individuals from around the world have been inspired to create maps that analyze and explain the issues most vital to them.
 
 In the year 2015, however, *Places & Spaces* made moves in a direction that marked both a continuation of and a development upon its past achievements. While the exhibit’s first decade was mainly devoted to static maps of science, the second decade’s mission iswill be devoted to exploring the power and potential of interactive data visualizations, or macroscopes.    
 
