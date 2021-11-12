@@ -1,4 +1,4 @@
-import { TestBed } from '@angular/core/testing';
+import { fakeAsync, TestBed } from '@angular/core/testing';
 import { Params } from '@angular/router';
 import { of } from 'rxjs';
 import { getBlog } from '../../shared/components/blog-tile/blog-tile.component.spec';
@@ -24,12 +24,14 @@ describe('BlogsResolverService', () => {
     expect(service).toBeTruthy();
   });
 
-  it('should be created', () => {
+  it('should be created', fakeAsync(() => {
     (contentService.getIndex as jasmine.Spy).and.returnValue(
       of(getBlog(2))
     )
     const data = service.resolve();
-    expect(service).toBeTruthy();
-  });
+    data.subscribe(response => {
+      expect(service).toBeTruthy();
+    });
+  }));
 
 });
