@@ -3,45 +3,10 @@ $tablet: 960px;
 $desktop: 1248px;
 
 :host {
-  .grid {
+  .video-tiles {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
-    .grid-item {
-      margin-bottom: 2rem;
-      margin-right: 1rem;
-      cursor: pointer;
-      @media screen and (max-width: $mobile) {
-        width: 95%;
-      }
-      @media screen and (min-width: $mobile) and (max-width: $tablet) {
-        width: 45%;
-      }
-      @media screen and (min-width: $tablet) {
-        width: 30%;
-      }
-      @media screen and (min-width: $desktop) {
-        width: 22%;
-      }
-      overflow: hidden;
-      
-      &:hover {
-        opacity: 0.7;
-        cursor: pointer;
-      }
-
-      .item-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        .thumbnail {
-          img {
-            width: 100%;
-          }
-        }
-      }
-    }
   }
 }

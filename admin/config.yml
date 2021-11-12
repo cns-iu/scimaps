@@ -171,6 +171,46 @@ collections:
         preview_path: 'maker-videos'
         fields:
           - { name: description, label: Description, widget: markdown }
+      
+      - label: Learning Center
+        name: learning-center
+        file: content/site/learning-center/learning-center.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'learning-center'
+        fields:
+          - name: featured
+            widget: object
+            collapsed: false
+            fields:
+              - name: type
+                label: Featured Type
+                widget: select
+                multiple: false
+                required: true
+                default: blog
+                options: 
+                  - {value: blog, label: Blog }
+                  - {value: video, label: Video }
+              - name: featured-blog-slug
+                label: Featured Blog
+                widget: relation
+                multiple: false
+                required: false
+                collection: blog
+                search_fields: ['title']
+                value_field: '{{slug}}'
+                display_fields: ['{{title}}']
+              - name: featured-video-slug
+                label: Featured Video
+                widget: relation
+                multiple: false
+                required: false
+                collection: maker-videos
+                search_fields: ['title']
+                value_field: '{{slug}}'
+                display_fields: ['{{title}}']
+              
 
   - name: learning-materials
     label: Learning Materials
@@ -232,10 +272,20 @@ collections:
     media_folder: ''
     public_folder: ''
     fields:
+      # - { name: draft, widget: boolean, default: true}
       - { name: title, label: Title }
-      - { name: date, label: Date, widget: date }
-      - { name: image, label: Image, widget: image }
+      # - { name: publish_date, label: Publish Date, widget: date, format: YYYY-MM-DD, time_format: false }
+      - { name: date, label: Date, widget: date, format: YYYY-MM-DD, time_format: false }
       - { name: body, label: Body, widget: markdown }
+      - name: blogImages
+        label: Blog Images
+        label_singular: Blog Image
+        min: 1
+        summary: '{{fields.image}}'
+        widget: list
+        fields:
+          - { name: sm, label: "Mobile (sm) Version" , widget: image }
+          - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
 
   - name: person
     label: People
@@ -529,6 +579,7 @@ backend:
 # Uncomment below when using the default proxy server port
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ## Basically run `npx netlify-cms-proxy-server` and launch the angular site
+
 # local_backend: true
 
 i18n:

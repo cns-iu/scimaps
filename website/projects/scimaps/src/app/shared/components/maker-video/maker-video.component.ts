@@ -30,7 +30,7 @@ export class MakerVideoComponent implements OnInit {
   close(): void {
     this.showOverlay = false;
     setTimeout(() => {
-      this.router.navigate(['/', 'maker-videos']);
+      this.router.navigate(['/', 'learning-center', 'maker-videos']);
     }, 500);
   }
 
