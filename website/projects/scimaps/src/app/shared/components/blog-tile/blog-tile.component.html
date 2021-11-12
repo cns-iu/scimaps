@@ -1,8 +1,8 @@
 <div (click)="gotoBlog()">
   <div class="image-container">
-    <img [src]="blog.blogImages[0].sm" alt="Blog Thumbnail" />
+    <img [src]="blog?.blogImages[0].sm" alt="Blog Thumbnail" />
   </div>
   <div class="blog-title">
-    <p>{{ blog.title }}</p>
+    <p>{{ blog?.title }}</p>
   </div>
 </div>
