@@ -25,6 +25,10 @@ export class LearningCenterComponent implements OnInit {
     if (body) {
       this.body = body;
     }
+    this.setBlogs(blogs);
+    this.setVideos(videos);
+  }
+  setBlogs(blogs: Blog[]) {
     if (Array.isArray(blogs) && blogs.length) {
       this.blogs = blogs;
       const { type, slug } = this.body.featured;
@@ -36,6 +40,8 @@ export class LearningCenterComponent implements OnInit {
         }
       }
     }
+  }
+  setVideos(videos: MakerVideo[]) {
     if (Array.isArray(videos) && videos.length) {
       this.videos = videos;
       const { type, slug } = this.body.featured;

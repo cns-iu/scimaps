@@ -1,12 +1,12 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { ActivatedRoute, Router } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
 import { MarkdownModule } from 'ngx-markdown';
 import { of } from 'rxjs';
-
 import { MakerVideosComponent } from './maker-videos.component';
 import { MakerVideosModule } from './maker-videos.module';
+
 
 describe('MakerVideosComponent', () => {
   let component: MakerVideosComponent;

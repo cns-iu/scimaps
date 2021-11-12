@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { getSegmentedDate } from '../../../constants/utils';
 import { Blog } from '../../../pages/blogs/blogs-resolver.service';
@@ -7,7 +7,7 @@ import { Blog } from '../../../pages/blogs/blogs-resolver.service';
   templateUrl: './blog-tile.component.html',
   styleUrls: ['./blog-tile.component.scss']
 })
-export class BlogTileComponent implements OnInit {
+export class BlogTileComponent {
 
   @Input() blog!: Blog;
 
@@ -20,13 +20,9 @@ export class BlogTileComponent implements OnInit {
       return '';
     }
   }
-
-  ngOnInit(): void {
-  }
-
   gotoBlog(): void {
     if (this.blog) {
-      const  [year, month, date] = getSegmentedDate(this.blog.date);
+      const [year, month, date] = getSegmentedDate(this.blog.date);
       this.router.navigate(['/', 'learning-center', 'blogs', year, `${month}-${date}`, this.blog.slug]);
     }
   }

@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { MakerVideo } from '../../../pages/maker-videos/maker-videos-resolver.service';
 
@@ -7,14 +7,11 @@ import { MakerVideo } from '../../../pages/maker-videos/maker-videos-resolver.se
   templateUrl: './video-tile.component.html',
   styleUrls: ['./video-tile.component.scss']
 })
-export class VideoTileComponent implements OnInit {
+export class VideoTileComponent {
 
   @Input() video!: MakerVideo;
 
   constructor(private router: Router) { }
-
-  ngOnInit(): void {
-  }
 
   gotoVideo(): void {
     if (this.video) {
