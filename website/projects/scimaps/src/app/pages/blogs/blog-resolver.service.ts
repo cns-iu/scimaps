@@ -28,7 +28,7 @@ export const getBlogImageSource = (blog: Blog, directory = ''): { sm: string, lg
     };
   });
   return result;
-}
+};
 
 export const toBlog = (blogItem: Params, directory = ''): Blog => {
   const blog: Blog = {
@@ -38,10 +38,10 @@ export const toBlog = (blogItem: Params, directory = ''): Blog => {
     body: blogItem.body,
     blogImages: blogItem.blogImages,
     slug: toSlug(blogItem.title)
-  }
+  };
   blog.blogImages = getBlogImageSource(blog, directory);
   return blog;
-}
+};
 @Injectable({
   providedIn: 'root',
 })

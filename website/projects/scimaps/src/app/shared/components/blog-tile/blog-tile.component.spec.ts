@@ -20,10 +20,10 @@ export const getBlog = (n: number): Blog[] => {
         sm: 'image.jpg',
         lg: 'image.jpg'
       }]
-    })
+    });
   }
   return result;
-}
+};
 
 describe('BlogTileComponent', () => {
   let component: BlogTileComponent;
@@ -39,7 +39,7 @@ describe('BlogTileComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(BlogTileComponent);
     component = fixture.componentInstance;
-    router = TestBed.inject(Router)
+    router = TestBed.inject(Router);
   });
 
   it('should create component', () => {

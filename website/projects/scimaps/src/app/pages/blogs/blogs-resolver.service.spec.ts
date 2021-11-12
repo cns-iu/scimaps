@@ -27,7 +27,7 @@ describe('BlogsResolverService', () => {
   it('should be created', fakeAsync(() => {
     (contentService.getIndex as jasmine.Spy).and.returnValue(
       of(getBlog(2))
-    )
+    );
     const data = service.resolve();
     data.subscribe(response => {
       expect(service).toBeTruthy();

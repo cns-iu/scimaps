@@ -13,7 +13,7 @@ describe('BlogsComponent', () => {
   let fixture: ComponentFixture<BlogsComponent>;
   let router: Router;
   beforeEach(async () => {
-    const route = { 
+    const route = {
       snapshot: {
         data: {
           blogs: []
