@@ -14,8 +14,8 @@
       <div class="row">
         <!-- COL1 -->
         <div class="text-column">
-          <div class="date">{{blog.date | date:'mediumDate':'+0000'}}</div>
           <div class="title">{{blog.title}}</div>
+          <div class="date">{{blog.date | date:'mediumDate':'+0000'}}</div>
           <div class="body" markdown [data]="blog?.body"></div>
         </div>
         <!-- COL2 -->

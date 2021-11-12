@@ -9,6 +9,10 @@
   <div class="spacer-48"></div>
 
   <div class="featured-description">
+    <div>{{featuredBlog.title}}</div>
+    <div class="spacer-16"></div>
+    <div>{{featuredBlog.date | date:'mediumDate':'+0000'}}</div>
+    <div class="spacer-16"></div>
     <div markdown [data]="featuredBlog.body"></div>
   </div>
 </div>
