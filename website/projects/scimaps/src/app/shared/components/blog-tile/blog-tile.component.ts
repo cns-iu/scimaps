@@ -14,7 +14,7 @@ export class BlogTileComponent implements OnInit {
   constructor(private router: Router) { }
 
   get thumbnail(): string {
-    if (this.blog) {
+    if (this.blog && this.blog.blogImages.length) {
       return this.blog.blogImages[0].sm;
     } else {
       return '';
