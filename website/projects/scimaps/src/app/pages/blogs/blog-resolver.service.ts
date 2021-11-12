@@ -19,7 +19,7 @@ export class BlogResolverService implements Resolve<Blog> {
   mdPath = '';
   directory = 'assets/content/blog';
 
-  getImageSource(blog: Blog): { sm: string, lg: string }[] {
+  getBlogImageSource(blog: Blog): { sm: string, lg: string }[] {
     const [year, month, date] = getSegmentedDate(blog.date);
     const slug = toSlug(blog.title);
     const result = blog.blogImages.map((image: { sm: string; lg: string }) => {
@@ -48,7 +48,7 @@ export class BlogResolverService implements Resolve<Blog> {
       blogImages: blogItem.blogImages,
       slug: toSlug(blogItem.title)
     }
-    blog.blogImages = this.getImageSource(blog);
+    blog.blogImages = this.getBlogImageSource(blog);
     return blog;
   }
 
@@ -66,7 +66,4 @@ export class BlogResolverService implements Resolve<Blog> {
       map((blog: Params) => this.toBlog(blog))
     );
   }
-
-
-
 }

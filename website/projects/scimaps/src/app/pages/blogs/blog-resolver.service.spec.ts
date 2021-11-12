@@ -35,7 +35,7 @@ describe('BlogResolverService', () => {
         lg: `${service.directory}/${year}/${month}-${date}/${testBlog.slug}/${item.lg}`
       }
     });
-    const results = service.getImageSource(testBlog);
+    const results = service.getBlogImageSource(testBlog);
     results.forEach((result, index) => {
       expect(result.sm).toEqual(expacted[index].sm);
       expect(result.lg).toEqual(expacted[index].lg);
