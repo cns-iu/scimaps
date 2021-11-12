@@ -272,9 +272,9 @@ collections:
     media_folder: ''
     public_folder: ''
     fields:
-      - { name: draft, widget: boolean, default: true}
+      # - { name: draft, widget: boolean, default: true}
       - { name: title, label: Title }
-      - { name: publish_date, label: Publish Date, widget: date, format: YYYY-MM-DD, time_format: false }
+      # - { name: publish_date, label: Publish Date, widget: date, format: YYYY-MM-DD, time_format: false }
       - { name: date, label: Date, widget: date, format: YYYY-MM-DD, time_format: false }
       - { name: body, label: Body, widget: markdown }
       - name: blogImages
