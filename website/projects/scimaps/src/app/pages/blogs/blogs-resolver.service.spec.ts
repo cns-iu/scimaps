@@ -3,8 +3,8 @@ import { Params } from '@angular/router';
 import { of } from 'rxjs';
 import { getBlog } from '../../shared/components/blog-tile/blog-tile.component.spec';
 import { ContentService } from '../../shared/services/content.service';
-
 import { BlogsResolverService } from './blogs-resolver.service';
+
 
 describe('BlogsResolverService', () => {
   let service: BlogsResolverService;

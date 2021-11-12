@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { BlogComponent } from '../../shared/components/blog/blog.component';
 import { BlogResolverService } from './blog-resolver.service';
 import { BlogsResolverService } from './blogs-resolver.service';

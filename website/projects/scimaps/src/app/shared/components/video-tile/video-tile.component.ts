@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from '@angular/router';
 import { MakerVideo } from '../../../pages/maker-videos/maker-videos-resolver.service';
 
 @Component({

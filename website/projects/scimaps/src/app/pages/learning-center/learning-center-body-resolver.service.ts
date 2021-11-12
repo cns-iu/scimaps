@@ -1,10 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { concatMap, map, take } from 'rxjs/operators';
-import { isHttp } from '../../constants/utils';
+import { concatMap, take } from 'rxjs/operators';
 import { ContentService } from '../../shared/services/content.service';
-import { MakerVideo } from '../maker-videos/maker-videos-resolver.service';
-import { Blog } from '../blogs/blogs-resolver.service';
 export interface LearningCenterBody {
   featured: {
     type: string,

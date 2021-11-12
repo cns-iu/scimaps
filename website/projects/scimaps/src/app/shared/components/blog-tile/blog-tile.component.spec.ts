@@ -2,9 +2,9 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { Router } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
 import { Blog } from '../../../pages/blogs/blogs-resolver.service';
-
 import { BlogTileComponent } from './blog-tile.component';
 import { BlogTileModule } from './blog-tile.module';
+
 
 
 export const getBlog = (n: number): Blog[] => {

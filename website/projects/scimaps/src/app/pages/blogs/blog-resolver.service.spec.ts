@@ -1,11 +1,11 @@
 import { TestBed } from '@angular/core/testing';
-import { ActivatedRoute, Params } from '@angular/router';
+import { Params } from '@angular/router';
 import { of } from 'rxjs';
 import { getSegmentedDate } from '../../constants/utils';
 import { getBlog } from '../../shared/components/blog-tile/blog-tile.component.spec';
 import { ContentService } from '../../shared/services/content.service';
-
 import { BlogResolverService, getBlogImageSource } from './blog-resolver.service';
+
 
 describe('BlogResolverService', () => {
   let service: BlogResolverService;

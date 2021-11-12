@@ -1,9 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Params, Resolve } from '@angular/router';
 import { Observable } from 'rxjs';
-import { map, take } from 'rxjs/operators';
-import { getSegmentedDate, isHttp } from '../../constants/utils';
-import { ContentService, toSlug } from '../../shared/services/content.service';
+import { map } from 'rxjs/operators';
+import { ContentService } from '../../shared/services/content.service';
 import { toBlog } from './blog-resolver.service';
 
 

@@ -2,8 +2,8 @@ import { fakeAsync, flushMicrotasks, TestBed } from '@angular/core/testing';
 import { Params } from '@angular/router';
 import { of } from 'rxjs';
 import { ContentService } from '../../shared/services/content.service';
-
 import { LearningCenterBodyResolverService } from './learning-center-body-resolver.service';
+
 
 describe('LearningCenterBodyResolverService', () => {
   let service: LearningCenterBodyResolverService;

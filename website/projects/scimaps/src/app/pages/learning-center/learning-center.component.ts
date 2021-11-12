@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { drawerInOut } from '../../constants/drawer.animations';
-import { MakerVideo } from '../maker-videos/maker-videos-resolver.service';
 import { Blog } from '../blogs/blogs-resolver.service';
+import { MakerVideo } from '../maker-videos/maker-videos-resolver.service';
 import { LearningCenterBody } from './learning-center-body-resolver.service';
 @Component({
   selector: 'sci-learning-center',

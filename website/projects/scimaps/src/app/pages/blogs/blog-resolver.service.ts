@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import {
-  ActivatedRouteSnapshot,
   Params,
   Resolve
 } from '@angular/router';
@@ -54,7 +53,6 @@ export class BlogResolverService implements Resolve<Blog> {
   resolve(
     route: Params
   ): Blog | Observable<Blog> | Promise<Blog> {
-    // console.log('resolver called', route);
     const { year, month, slug } = route.params;
     this.mdPath = `blog/${year}/${month}/${slug}/readme.md`;
     return this.getResult(this.mdPath);
