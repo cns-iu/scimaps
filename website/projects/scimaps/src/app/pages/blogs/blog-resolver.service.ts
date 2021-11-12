@@ -10,6 +10,38 @@ import { getSegmentedDate, isHttp } from '../../constants/utils';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 import { Blog } from './blogs-resolver.service';
 
+export const getBlogImageSource = (blog: Blog, directory = ''): { sm: string, lg: string }[] => {
+  const [year, month, date] = getSegmentedDate(blog.date);
+  const slug = toSlug(blog.title);
+  const result = blog.blogImages.map((image: { sm: string; lg: string }) => {
+    let sm = image.sm;
+    let lg = image.lg;
+    if (!isHttp(image.sm)) {
+      sm = `${directory}/${year}/${month}-${date}/${slug}/${image.sm}`;
+    }
+    if (!isHttp(image.lg)) {
+      lg = `${directory}/${year}/${month}-${date}/${slug}/${image.lg}`;
+    }
+    return {
+      sm,
+      lg,
+    };
+  });
+  return result;
+}
+
+export const toBlog = (blogItem: Params, directory = ''): Blog => {
+  const blog: Blog = {
+    title: blogItem.title,
+    date: blogItem.date,
+    published: blogItem.published,
+    body: blogItem.body,
+    blogImages: blogItem.blogImages,
+    slug: toSlug(blogItem.title)
+  }
+  blog.blogImages = getBlogImageSource(blog, directory);
+  return blog;
+}
 @Injectable({
   providedIn: 'root',
 })
@@ -18,39 +50,6 @@ export class BlogResolverService implements Resolve<Blog> {
 
   mdPath = '';
   directory = 'assets/content/blog';
-
-  getBlogImageSource(blog: Blog): { sm: string, lg: string }[] {
-    const [year, month, date] = getSegmentedDate(blog.date);
-    const slug = toSlug(blog.title);
-    const result = blog.blogImages.map((image: { sm: string; lg: string }) => {
-      let sm = image.sm;
-      let lg = image.lg;
-      if (!isHttp(image.sm)) {
-        sm = `${this.directory}/${year}/${month}-${date}/${slug}/${image.sm}`;
-      }
-      if (!isHttp(image.lg)) {
-        lg = `${this.directory}/${year}/${month}-${date}/${slug}/${image.lg}`;
-      }
-      return {
-        sm,
-        lg,
-      };
-    });
-    return result;
-  }
-
-  toBlog(blogItem: Params): Blog {
-    const blog: Blog = {
-      title: blogItem.title,
-      date: blogItem.date,
-      published: blogItem.published,
-      body: blogItem.body,
-      blogImages: blogItem.blogImages,
-      slug: toSlug(blogItem.title)
-    }
-    blog.blogImages = this.getBlogImageSource(blog);
-    return blog;
-  }
 
   resolve(
     route: Params
@@ -63,7 +62,7 @@ export class BlogResolverService implements Resolve<Blog> {
   getResult(mdPath: string): Blog | Observable<Blog> | Promise<Blog> {
     return this.contentService.getContent<Params>(mdPath).pipe(
       take(1),
-      map((blog: Params) => this.toBlog(blog))
+      map((blog: Params) => toBlog(blog, this.directory))
     );
   }
 }

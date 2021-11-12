@@ -5,7 +5,7 @@ import { getSegmentedDate } from '../../constants/utils';
 import { getBlog } from '../../shared/components/blog-tile/blog-tile.component.spec';
 import { ContentService } from '../../shared/services/content.service';
 
-import { BlogResolverService } from './blog-resolver.service';
+import { BlogResolverService, getBlogImageSource } from './blog-resolver.service';
 
 describe('BlogResolverService', () => {
   let service: BlogResolverService;
@@ -35,7 +35,7 @@ describe('BlogResolverService', () => {
         lg: `${service.directory}/${year}/${month}-${date}/${testBlog.slug}/${item.lg}`
       }
     });
-    const results = service.getBlogImageSource(testBlog);
+    const results = getBlogImageSource(testBlog, service.directory);
     results.forEach((result, index) => {
       expect(result.sm).toEqual(expacted[index].sm);
       expect(result.lg).toEqual(expacted[index].lg);
