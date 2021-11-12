@@ -1,6 +1,10 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { RouterTestingModule } from '@angular/router/testing';
+import { MarkdownModule } from 'ngx-markdown';
 
 import { BlogComponent } from './blog.component';
+import { BlogModule } from './blog.module';
 
 describe('BlogComponent', () => {
   let component: BlogComponent;
@@ -8,7 +12,7 @@ describe('BlogComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BlogComponent ]
+      imports: [BlogModule, RouterTestingModule, MarkdownModule.forRoot(), NoopAnimationsModule]
     })
     .compileComponents();
   });
