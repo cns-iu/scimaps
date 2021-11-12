@@ -1,5 +1,5 @@
 ---
-title: What is macroscope
+title: What is macroscope?
 date: 2021-11-05
 blogImages:
   - sm: macroscopeblogimage.jpg
@@ -9,8 +9,6 @@ blogImages:
   - sm: macroscopehero.jpg
     lg: macroscopehero.jpg
 ---
-What Is a Macroscope?
-
 by Todd Theriault
 
 Between the years 2005 and 2014, the *Places & Spaces*: Mapping Science exhibit worked towards the goal of bringing maps of science to the general public. The result of this effort has been two-fold: first, it has allowed audiences to share in the wonder of scientific thought made visible; second, it has sparked a Cambrian explosion of mapmaking innovation, as individuals from around the world have been inspired to create maps that analyze and explain the issues most vital to them.

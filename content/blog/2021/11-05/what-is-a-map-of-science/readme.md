@@ -9,8 +9,6 @@ blogImages:
   - sm: mapofphysics.jpg
     lg: mapofphysics.jpg
 ---
-What Is a Map of Science?
-
 by Todd Theriault
 
 For centuries, travelers of all kinds have considered the cartographic map to be an essential tool for navigation. Even today, we rely upon maps to give us a sense of where we are in space, how we move from one place to another, and what we might encounter along the way. But beyond the merely practical, maps hold the power to fuel our desire for new knowledge and new experience. They provide us with the imaginative and intellectual thrill of rendering vastness visible. They provide an encompassing view of something that we, as individuals bound by time and space, can only see partially and imperfectly. 
