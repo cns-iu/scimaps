@@ -1,0 +1,60 @@
+@import "../../../../styling/breakpoints";
+
+:host {
+  .row {
+    display: flex;
+    flex-direction: "row";
+    width: 100%;
+  }
+
+  .text-column,
+  .carousel-column {
+    width: 50%;
+    max-width: 600px;
+  }
+
+  .text-column {
+    padding-right: 3rem;
+    .date {
+      margin-bottom: 1rem;
+    }
+    .title {
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    
+    .row {
+        flex-direction: column-reverse;
+    }
+    
+
+    .text-column {
+      width: 100%;
+      padding-right: 0;
+    }
+    .carousel-column {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .carousel-column {
+    display: flex;
+    justify-content: space-around;
+    .carousel {
+      width: 100%;
+      .carousel-item {
+        display: flex;
+        flex-direction: column;
+        img {
+          width: 100%;
+          height: 20rem;
+          // height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}

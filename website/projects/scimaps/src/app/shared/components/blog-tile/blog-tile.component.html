@@ -1,0 +1,8 @@
+<div (click)="gotoBlog()" *ngIf="blog">
+  <div class="image-container">
+    <img [src]="thumbnail" alt="Blog Thumbnail" />
+  </div>
+  <div class="blog-title">
+    <p>{{ blog?.title }}</p>
+  </div>
+</div>

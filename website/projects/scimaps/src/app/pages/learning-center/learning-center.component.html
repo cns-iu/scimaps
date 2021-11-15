@@ -1,1 +1,90 @@
-<p>learning-center works!</p>
+<h2 class="header">Learning Center</h2>
+
+<!-- Featured -->
+<div *ngIf="featuredBlog" class="featured-blog">
+  <div class="featured-container">
+    <img [src]="featuredBlog.blogImages[0].sm" alt="Image" />
+  </div>
+
+  <div class="spacer-48"></div>
+
+  <div class="featured-description">
+    <div>{{featuredBlog.title}}</div>
+    <div class="spacer-16"></div>
+    <div>{{featuredBlog.date | date:'mediumDate':'+0000'}}</div>
+    <div class="spacer-16"></div>
+    <div markdown [data]="featuredBlog.body"></div>
+  </div>
+</div>
+
+<div *ngIf="featuredVideo" class="featured-video">
+  <iframe
+    class="iframe"
+    [src]="featuredVideo.videoLink | safe: 'resourceUrl'"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  >
+  </iframe>
+
+  <div class="spacer-72"></div>
+
+  <div class="long-description" markdown [data]="featuredVideo?.long_description"></div>
+</div>
+
+<div class="spacer-48"></div>
+
+<!-- Desktop / Tab -->
+<div class="desktop-menu" *sciBreakpoint="'mobile+'">
+  <!-- Blogs -->
+  <div class="category">
+    <p>Blog ( {{ blogs.length }} )</p>
+    <div class="category-row">
+      <ng-container *ngFor="let blog of blogs; let i = index">
+        <sci-blog-tile
+          class="col-4"
+          *ngIf="i < itemsPerRow"
+          [blog]="blog"
+        ></sci-blog-tile>
+      </ng-container>
+      <div class="icon-container">
+        <mat-icon class="more icon" (click)="goto('blogs')">
+          more_vert
+        </mat-icon>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video -->
+  <div class="category">
+    <p>Videos ( {{ videos.length }} )</p>
+    <div class="category-row">
+      <ng-container *ngFor="let video of videos; let i = index">
+        <sci-video-tile
+          class="col-4"
+          *ngIf="i < itemsPerRow"
+          [video]="video"
+        ></sci-video-tile>
+      </ng-container>
+      <div class="icon-container">
+        <mat-icon class="more icon" (click)="goto('videos')">
+          more_vert
+        </mat-icon>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Mobile -->
+<div class="mobile-menu" *sciBreakpoint="'mobile-'">
+  <div class="mobile-button" (click)="goto('blogs')">
+    Blogs ( {{ blogs.length }} )
+    <mat-icon class="mobile-icon">chevron_right</mat-icon>
+  </div>
+  <div class="mobile-button" (click)="goto('videos')">
+    Videos ( {{ videos.length }} )
+    <mat-icon class="mobile-icon">chevron_right</mat-icon>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

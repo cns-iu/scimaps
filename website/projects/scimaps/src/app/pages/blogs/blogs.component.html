@@ -1,0 +1,17 @@
+<sci-drawer
+  [@drawerInOut]="showDrawer ? 'show' : 'hide'"
+  *ngIf="showDrawer"
+  class="sci-drawer"
+>
+  <div class="drawer-container" drawer>
+    <sci-drawer-header title="Blog Posts" backText="Back" (backClick)="goBack()">
+    </sci-drawer-header>
+    <div class="drawer-content">
+      <div class="blogs-row">
+        <sci-blog-tile class="col-4" *ngFor="let blog of blogs" [blog]="blog"></sci-blog-tile>
+      </div>
+    </div>
+  </div>
+</sci-drawer>
+
+<router-outlet></router-outlet>
