@@ -4,8 +4,8 @@ date: 2021-11-12
 blogImages:
   - sm: lombardiheader.png
     lg: lombardiheader.png
-  - sm: gerrybull1999.jpg
-    lg: gerrybull1999.jpg
+  - sm: worldFinanceCorporationofMiamiFlorida_c1970-79_sixthvers_1999.png
+    lg: worldFinanceCorporationofMiamiFlorida_c1970-79_sixthvers_1999.png
 ---
 Piece in Collection: https://scimaps.org/map/4/4   
 
