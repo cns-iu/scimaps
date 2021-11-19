@@ -9,7 +9,6 @@ const pathJoin = require('path').join;
 const CONTENT = '../content';
 const INDEXES = '../website/projects/scimaps/src/assets/indexes';
 
-
 function readMarkdown(mdFile) {
   const data = frontMatter(fs.readFileSync(mdFile).toString());
   return Object.assign(data.body ? {body: data.body} : {}, data.attributes);
@@ -79,5 +78,16 @@ function writeAppMapIndex(mapType) {
   writeMinifiedJSON(pathJoin(INDEXES, `app-${mapType}s.json`), data);
 }
 
+function writeAppBlogIndex() {
+  const result = readIndex('blogs').map(item => {
+    return {
+      title: item.title,
+      blogImages: item.blogImages
+    }
+  });
+  writeMinifiedJSON(pathJoin(INDEXES, `app-blogs.json`), result);
+}
+
 writeAppMapIndex('map');
 writeAppMapIndex('macroscope');
+writeAppBlogIndex()
