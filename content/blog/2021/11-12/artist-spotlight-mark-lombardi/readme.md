@@ -2,8 +2,10 @@
 title: "Artist Spotlight: Mark Lombardi"
 date: 2021-11-12
 blogImages:
-  - sm: lombardiheader.png
-    lg: lombardiheader.png
+  - sm: lombardithumbnail.png
+    lg: lombardiheader.png 
+  - sm: untitled_lombardi.png
+    lg: untitled_lombardi.png
   - sm: worldFinanceCorporationofMiamiFlorida_c1970-79_sixthvers_1999.png
     lg: worldFinanceCorporationofMiamiFlorida_c1970-79_sixthvers_1999.png
 ---
