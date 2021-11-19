@@ -26,7 +26,6 @@ export const getBlogImageSource = (blog: Blog, directory = ''): { sm: string, lg
       return { sm, lg };
     });
   }
-
   return result;
 };
 
