@@ -12,17 +12,21 @@ import { Blog } from './blogs-resolver.service';
 export const getBlogImageSource = (blog: Blog, directory = ''): { sm: string, lg: string }[] => {
   const [year, month, date] = getSegmentedDate(blog.date);
   const slug = toSlug(blog.title);
-  return blog.blogImages.map((image: { sm: string; lg: string }) => {
-    let sm = image.sm;
-    let lg = image.lg;
-    if (!isHttp(image.sm)) {
-      sm = `${directory}/${year}/${month}-${date}/${slug}/${image.sm}`;
-    }
-    if (!isHttp(image.lg)) {
-      lg = `${directory}/${year}/${month}-${date}/${slug}/${image.lg}`;
-    }
-    return { sm, lg };
-  });
+  let result: {sm: string, lg: string}[] = [];
+  if (Array.isArray(blog.blogImages) && blog.blogImages.length) {
+    result = blog.blogImages.map((image: { sm: string; lg: string }) => {
+      let sm = image.sm;
+      let lg = image.lg;
+      if (!isHttp(image.sm)) {
+        sm = `${directory}/${year}/${month}-${date}/${slug}/${image.sm}`;
+      }
+      if (!isHttp(image.lg)) {
+        lg = `${directory}/${year}/${month}-${date}/${slug}/${image.lg}`;
+      }
+      return { sm, lg };
+    });
+  }
+  return result;
 };
 
 export const toBlog = (blogItem: Params, directory = ''): Blog => {
