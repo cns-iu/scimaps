@@ -25,17 +25,21 @@ __webpack_require__.r(__webpack_exports__);
 const getBlogImageSource = (blog, directory = '') => {
     const [year, month, date] = Object(_constants_utils__WEBPACK_IMPORTED_MODULE_2__["getSegmentedDate"])(blog.date);
     const slug = Object(_shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__["toSlug"])(blog.title);
-    return blog.blogImages.map((image) => {
-        let sm = image.sm;
-        let lg = image.lg;
-        if (!Object(_constants_utils__WEBPACK_IMPORTED_MODULE_2__["isHttp"])(image.sm)) {
-            sm = `${directory}/${year}/${month}-${date}/${slug}/${image.sm}`;
-        }
-        if (!Object(_constants_utils__WEBPACK_IMPORTED_MODULE_2__["isHttp"])(image.lg)) {
-            lg = `${directory}/${year}/${month}-${date}/${slug}/${image.lg}`;
-        }
-        return { sm, lg };
-    });
+    let result = [];
+    if (Array.isArray(blog.blogImages) && blog.blogImages.length) {
+        result = blog.blogImages.map((image) => {
+            let sm = image.sm;
+            let lg = image.lg;
+            if (!Object(_constants_utils__WEBPACK_IMPORTED_MODULE_2__["isHttp"])(image.sm)) {
+                sm = `${directory}/${year}/${month}-${date}/${slug}/${image.sm}`;
+            }
+            if (!Object(_constants_utils__WEBPACK_IMPORTED_MODULE_2__["isHttp"])(image.lg)) {
+                lg = `${directory}/${year}/${month}-${date}/${slug}/${image.lg}`;
+            }
+            return { sm, lg };
+        });
+    }
+    return result;
 };
 const toBlog = (blogItem, directory = '') => {
     const blog = {
