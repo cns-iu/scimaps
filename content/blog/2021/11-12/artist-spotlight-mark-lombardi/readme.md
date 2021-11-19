@@ -9,7 +9,7 @@ blogImages:
   - sm: worldFinanceCorporationofMiamiFlorida_c1970-79_sixthvers_1999.png
     lg: worldFinanceCorporationofMiamiFlorida_c1970-79_sixthvers_1999.png
 ---
-Piece in Collection: https://scimaps.org/map/4/4   
+[Piece in Collection](https://scimaps.org/map/4/4)   
 
 by Ezra Engels 
 
