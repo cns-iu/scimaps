@@ -31,6 +31,7 @@ export const getBlogImageSource = (blog: Blog, directory = ''): { sm: string, lg
 
 export const toBlog = (blogItem: Params, directory = ''): Blog => {
   const blog: Blog = {
+    publish_date: blogItem.publish_date,
     title: blogItem.title,
     date: blogItem.date,
     published: blogItem.published,
