@@ -1,5 +1,7 @@
 ---
+draft: false
 title: "Artist Spotlight: Mark Lombardi"
+publish_date: 2021-11-12
 date: 2021-11-12
 blogImages:
   - sm: lombardithumbnail.png
