@@ -83,6 +83,7 @@ function writeAppBlogIndex() {
                   .filter(item => !item.draft)
                   .map(item => {
                     return {
+                      publish_date: item.publish_date,
                       date: item.date,
                       title: item.title,
                       blogImages: item.blogImages
