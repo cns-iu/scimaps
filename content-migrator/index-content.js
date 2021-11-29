@@ -86,11 +86,10 @@ function writeAppBlogIndex() {
                       date: item.date,
                       title: item.title,
                       blogImages: item.blogImages
-                    }
+                    };
                   }).sort((a, b) => {
-                    return (new Date(b.date).getTime()) - (new Date(a.date).getTime());
+                    return Date.parse(b.date) - Date.parse(a.date);
                   });
-  console.log(result);
   writeMinifiedJSON(pathJoin(INDEXES, `app-blogs.json`), result);
 }
 
