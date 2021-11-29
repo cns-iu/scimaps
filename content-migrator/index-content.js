@@ -79,12 +79,18 @@ function writeAppMapIndex(mapType) {
 }
 
 function writeAppBlogIndex() {
-  const result = readIndex('blogs').map(item => {
-    return {
-      title: item.title,
-      blogImages: item.blogImages
-    }
-  });
+  const result = readIndex('blogs')
+                  .filter(item => !item.draft)
+                  .map(item => {
+                    return {
+                      date: item.date,
+                      title: item.title,
+                      blogImages: item.blogImages
+                    }
+                  }).sort((a, b) => {
+                    return (new Date(b.date).getTime()) - (new Date(a.date).getTime());
+                  });
+  console.log(result);
   writeMinifiedJSON(pathJoin(INDEXES, `app-blogs.json`), result);
 }
 
