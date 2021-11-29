@@ -25,14 +25,9 @@ export class BlogsResolverService implements Resolve<Blog[]> {
   constructor(private contentService: ContentService) { }
 
   resolve(): Observable<Blog[]> | Observable<never> {
-    return this.contentService.getIndex<Params>('blogs').pipe(
+    return this.contentService.getIndex<Params>('app-blogs').pipe(
       map((items: Params[]) => {
         return items.map((item: Params) => toBlog(item, this.directory));
-      }),
-      map((items: Blog[]) => {
-        return items.sort((a: Blog, b: Blog) => {
-          return Date.parse(b.date) - Date.parse(a.date);
-        });
       })
     );
   }
