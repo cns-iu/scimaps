@@ -58,7 +58,7 @@ export class BlogResolverService implements Resolve<Blog> {
     this.mdPath = `blog/${year}/${month}/${slug}/readme.md`;
     return this.getResult(this.mdPath);
   }
-  getResult(mdPath: string): Blog | Observable<Blog> | Promise<Blog> {
+  getResult(mdPath: string): Observable<Blog> {
     return this.contentService.getContent<Params>(mdPath).pipe(
       take(1),
       map((blog: Params) => toBlog(blog, this.directory))
