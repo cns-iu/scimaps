@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Params, Resolve } from '@angular/router';
 import { Observable } from 'rxjs';
-import { filter, map } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 import { ContentService } from '../../shared/services/content.service';
 import { toBlog } from './blog-resolver.service';
 
@@ -25,8 +25,16 @@ export class BlogsResolverService implements Resolve<Blog[]> {
 
   constructor(private contentService: ContentService) { }
 
-  resolve(): Observable<Blog[]> | Observable<never> {
+  resolve(route: Params): Observable<Blog[]> | Observable<never> {
+    const {blogsCount} = route.data;
     return this.contentService.getIndex<Params>('app-blogs').pipe(
+      map((items: Params[]) => {
+        if (blogsCount && blogsCount > 0) {
+          return items.slice(0, blogsCount)
+        } else {
+          return items;
+        }
+      }),
       map((items: Params[]) => {
         return items.map((item: Params) => toBlog(item, this.directory));
       }),

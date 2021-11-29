@@ -19,28 +19,32 @@ export class LearningCenterComponent implements OnInit {
   itemsPerRow = 4;
   featuredBlog: Blog | undefined;
   featuredVideo: MakerVideo | undefined;
+  
   ngOnInit(): void {
     const { data } = this.activatedRoute.snapshot;
     const { body, blogs, videos } = data;
     if (body) {
       this.body = body;
     }
+    const { type } = body.featured;
+    if (type === 'blog') {
+      const {featuredBlog} = this.body;
+      if (featuredBlog) {
+        this.featuredBlog = featuredBlog
+      } else {
+        this.featuredBlog = this.blogs[0];
+      }
+    }
     this.setBlogs(blogs);
     this.setVideos(videos);
   }
+
   setBlogs(blogs: Blog[]): void {
     if (Array.isArray(blogs) && blogs.length) {
       this.blogs = blogs;
-      const { type, slug } = this.body.featured;
-      if (type === 'blog' && slug) {
-        this.featuredBlog = this.blogs[0];
-        const foundIndex = this.blogs.findIndex(item => item.slug === slug);
-        if (foundIndex >= 0) {
-          this.featuredBlog = this.blogs[foundIndex];
-        }
-      }
     }
   }
+
   setVideos(videos: MakerVideo[]): void {
     if (Array.isArray(videos) && videos.length) {
       this.videos = videos;
