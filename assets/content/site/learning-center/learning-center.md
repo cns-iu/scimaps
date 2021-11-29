@@ -1,5 +1,5 @@
 ---
 featured:
   type: blog
-  featured-blog-slug: 2021/02-15/andrew-levinson-on-creating-breaking-news-visualizations-for-the-wall-street-journal/readme
+  featured-blog-slug: 2021/11-19/a-librarians-tips-for-reading-visual-information/readme
 ---
