@@ -98,6 +98,7 @@ function writeVideoIndex() {
   const result = readIndex('maker-videos').map(item => {
     return {
       title: item.title,
+      short_description: item.short_description,
       image: item.image
     };
   });

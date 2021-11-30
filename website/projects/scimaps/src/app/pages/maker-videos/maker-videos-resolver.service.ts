@@ -39,9 +39,16 @@ export class MakerVideosResolverService implements Resolve<MakerVideo[]> {
   directory = 'assets/content/maker-videos';
   constructor(private content: ContentService) { }
 
-  resolve(): Observable<MakerVideo[]> {
+  resolve(route: Params): Observable<MakerVideo[]> {
+    const {videosCount} = route.data;
     return this.content.getIndex<Params>('app-maker-videos').pipe(
-      take(1),
+      map((items: Params[]) => {
+        if (videosCount && videosCount > 0) {
+          return items.slice(0, videosCount)
+        } else {
+          return items;
+        }
+      }),
       map((makerVideos: Params[]) => {
         return makerVideos.map(item => toMakerVideo(item, this.directory));
       })
