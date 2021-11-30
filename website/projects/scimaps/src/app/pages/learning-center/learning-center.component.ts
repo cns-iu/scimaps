@@ -19,24 +19,18 @@ export class LearningCenterComponent implements OnInit {
   itemsPerRow = 4;
   featuredBlog: Blog | undefined;
   featuredVideo: MakerVideo | undefined;
-  
+
   ngOnInit(): void {
     const { data } = this.activatedRoute.snapshot;
     const { body, blogs, videos } = data;
     if (body) {
       this.body = body;
     }
-    const { type } = body.featured;
-    if (type === 'blog') {
-      const {featuredBlog} = this.body;
-      if (featuredBlog) {
-        this.featuredBlog = featuredBlog
-      } else {
-        this.featuredBlog = this.blogs[0];
-      }
-    }
+
     this.setBlogs(blogs);
     this.setVideos(videos);
+    // Set featured
+    this.setFeatured();
   }
 
   setBlogs(blogs: Blog[]): void {
@@ -48,13 +42,24 @@ export class LearningCenterComponent implements OnInit {
   setVideos(videos: MakerVideo[]): void {
     if (Array.isArray(videos) && videos.length) {
       this.videos = videos;
-      const { type, slug } = this.body.featured;
-      if (type === 'video' && slug) {
+    }
+  }
+
+  setFeatured() {
+    const { type } = this.body.featured;
+    if (type === 'video') {
+      const { featuredVideo } = this.body;
+      if (featuredVideo) {
+        this.featuredVideo = featuredVideo
+      } else {
         this.featuredVideo = this.videos[0];
-        const foundIndex = this.videos.findIndex(item => item.slug === slug);
-        if (foundIndex >= 0) {
-          this.featuredVideo = this.videos[foundIndex];
-        }
+      }
+    } else {
+      const { featuredBlog } = this.body;
+      if (featuredBlog) {
+        this.featuredBlog = featuredBlog
+      } else {
+        this.featuredBlog = this.blogs[0];
       }
     }
   }

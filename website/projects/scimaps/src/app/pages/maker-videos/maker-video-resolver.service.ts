@@ -45,7 +45,11 @@ export class MakerVideoResolverService implements Resolve<MakerVideo> {
   resolve(route: Params): Observable<MakerVideo> {
     const { slug } = route.params;
     this.mdPath = `maker-videos/${slug}`;
-    return this.contentService.getContent<Params>(this.mdPath).pipe(
+    return this.getResult(this.mdPath);
+  }
+
+  getResult(mdPath: string): Observable<MakerVideo> {
+    return this.contentService.getContent<Params>(mdPath).pipe(
       take(1),
       map((item: Params) => toMakerVideo(item))
     );
