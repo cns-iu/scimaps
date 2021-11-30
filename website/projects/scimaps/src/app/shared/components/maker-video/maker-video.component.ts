@@ -17,13 +17,9 @@ export class MakerVideoComponent implements OnInit {
 
   ngOnInit(): void {
     this.showOverlay = true;
-    const {slug} = this.route.snapshot.params;
-    const videos = this.route.parent?.snapshot.data?.videos;
-    if (Array.isArray(videos)) {
-      const video = videos.find(item => item.slug === slug);
-      if (video) {
-        this.video = video;
-      }
+    const { video } = this.route.snapshot.data;
+    if (video) {
+      this.video = video;
     }
   }
 

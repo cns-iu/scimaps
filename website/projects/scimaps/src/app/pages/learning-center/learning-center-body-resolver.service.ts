@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { concatMap, map, take } from 'rxjs/operators';
+import { catchError, concatMap, map, take } from 'rxjs/operators';
 import { ContentService } from '../../shared/services/content.service';
 import { BlogResolverService } from '../blogs/blog-resolver.service';
 import { Blog } from '../blogs/blogs-resolver.service';
@@ -35,16 +35,16 @@ export class LearningCenterBodyResolverService {
           return featuredBlog$.pipe(
             map((blog: Blog) => {
               return { ...body, featuredBlog: blog }
-            }));
+            })
+          )
         } else if (featured.type === 'video' && featured['featured-video-slug']) {
           const segments = featured['featured-video-slug'].split('/');
           featured.slug = segments[segments.length - 2];
+          body.featured = featured;
+          return of(body);
+        } else {
+          return of(body);
         }
-        return (of({
-          ...body,
-        }));
-        body.featured = featured;
-        return of(body);
       })
     );
   }
