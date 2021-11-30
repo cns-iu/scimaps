@@ -26,10 +26,9 @@ describe('MakerVideosResolverService', () => {
   });
 
   it('makes expected calls', () => {
-    const makerVideos = getMakerVideo(2);
     (contentService.getIndex as jasmine.Spy).and.returnValue(of([]));
-    service.postProcess(makerVideos);
-    service.resolve();
+    const route = {data: {videosCount: 4}};
+    service.resolve(route);
     expect(contentService.getIndex).toHaveBeenCalled();
     expect(contentService.getIndex).toHaveBeenCalledTimes(1);
   });
