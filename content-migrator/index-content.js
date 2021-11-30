@@ -91,9 +91,20 @@ function writeAppBlogIndex() {
                   }).sort((a, b) => {
                     return Date.parse(b.date) - Date.parse(a.date);
                   });
-  writeMinifiedJSON(pathJoin(INDEXES, `app-blogs.json`), result);
+  writeMinifiedJSON(pathJoin(INDEXES, 'app-blogs.json'), result);
+}
+
+function writeVideoIndex() {
+  const result = readIndex('maker-videos').map(item => {
+    return {
+      title: item.title,
+      image: item.image
+    };
+  });
+  writeMinifiedJSON(pathJoin(INDEXES, 'app-maker-videos.json'), result);
 }
 
 writeAppMapIndex('map');
 writeAppMapIndex('macroscope');
-writeAppBlogIndex()
+writeAppBlogIndex();
+writeVideoIndex();

@@ -40,7 +40,7 @@ export class MakerVideosResolverService implements Resolve<MakerVideo[]> {
   constructor(private content: ContentService) { }
 
   resolve(): Observable<MakerVideo[]> {
-    return this.content.getIndex<Params>('maker-videos').pipe(
+    return this.content.getIndex<Params>('app-maker-videos').pipe(
       take(1),
       map((makerVideos: Params[]) => {
         return makerVideos.map(item => toMakerVideo(item, this.directory));

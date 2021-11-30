@@ -4,6 +4,8 @@ import { catchError, concatMap, map, take } from 'rxjs/operators';
 import { ContentService } from '../../shared/services/content.service';
 import { BlogResolverService } from '../blogs/blog-resolver.service';
 import { Blog } from '../blogs/blogs-resolver.service';
+import { MakerVideoResolverService } from '../maker-videos/maker-video-resolver.service';
+import { MakerVideo } from '../maker-videos/maker-videos-resolver.service';
 export interface LearningCenterBody {
   featured: {
     type: string,
@@ -11,7 +13,8 @@ export interface LearningCenterBody {
     'featured-video-slug'?: string,
     slug?: string,
   };
-  featuredBlog: Blog
+  featuredBlog?: Blog,
+  featuredVideo?: MakerVideo
 }
 
 @Injectable({
@@ -21,7 +24,10 @@ export class LearningCenterBodyResolverService {
 
   mdPath = 'site/learning-center/learning-center.md';
   directory = 'assets/content/site/learning-center';
-  constructor(private content: ContentService, private blogResolver: BlogResolverService) {
+  constructor(
+    private content: ContentService,
+    private videoResolver: MakerVideoResolverService,
+    private blogResolver: BlogResolverService) {
   }
 
   resolve(): Observable<LearningCenterBody> | Observable<never> {
@@ -38,10 +44,15 @@ export class LearningCenterBodyResolverService {
             })
           )
         } else if (featured.type === 'video' && featured['featured-video-slug']) {
-          const segments = featured['featured-video-slug'].split('/');
-          featured.slug = segments[segments.length - 2];
-          body.featured = featured;
-          return of(body);
+          const slug = featured['featured-video-slug'];
+          const featuredVideo$ = this.videoResolver.getResult(`maker-videos/${slug}`);
+          return featuredVideo$.pipe(
+            map((makerVide: MakerVideo) => {
+              return {
+                ...body, featuredVideo: makerVide
+              };
+            })
+          );
         } else {
           return of(body);
         }
