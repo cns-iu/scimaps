@@ -9,7 +9,7 @@ import { getSegmentedDate, isHttp } from '../../constants/utils';
 import { ContentService, toSlug } from '../../shared/services/content.service';
 import { Blog } from './blogs-resolver.service';
 
-export const getBlogImageSource = (blog: Blog, directory = ''): { sm: string, lg: string }[] => {
+const getBlogImageSource = (blog: Blog, directory = ''): { sm: string, lg: string }[] => {
   const [year, month, date] = getSegmentedDate(blog.date);
   const slug = toSlug(blog.title);
   let result: {sm: string, lg: string}[] = [];
