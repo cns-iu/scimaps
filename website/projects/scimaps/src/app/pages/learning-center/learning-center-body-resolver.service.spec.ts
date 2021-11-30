@@ -22,7 +22,7 @@ describe('LearningCenterBodyResolverService', () => {
     expect(service).toBeTruthy();
   });
 
-  it('should be created', fakeAsync(() => {
+  xit('should process featured blog', fakeAsync(() => {
     const testResponse = {
       featured: {
         type: 'blog',
@@ -39,7 +39,7 @@ describe('LearningCenterBodyResolverService', () => {
     });
   }));
 
-  it('should be created', fakeAsync(() => {
+  xit('should process featured video', fakeAsync(() => {
     const testResponse = {
       featured: {
         type: 'video',
