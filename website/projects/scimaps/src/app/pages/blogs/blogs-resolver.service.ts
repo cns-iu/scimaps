@@ -30,7 +30,7 @@ export class BlogsResolverService implements Resolve<Blog[]> {
     return this.contentService.getIndex<Params>('app-blogs').pipe(
       map((items: Params[]) => {
         if (blogsCount && blogsCount > 0) {
-          return items.slice(0, blogsCount)
+          return items.slice(0, blogsCount);
         } else {
           return items;
         }

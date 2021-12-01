@@ -14,8 +14,8 @@ export const getVideoImageSource = (video: MakerVideo, directory = ''): string =
       result = `${directory}/${video.slug}/${video.image}`;
     }
   }
-  return result
-}
+  return result;
+};
 
 export const toMakerVideo = (item: Params, directory = ''): MakerVideo => {
   const result: MakerVideo = {
@@ -26,10 +26,10 @@ export const toMakerVideo = (item: Params, directory = ''): MakerVideo => {
     maker: item.maker,
     image: item.image,
     slug: toSlug(item.title)
-  }
+  };
   result.image = getVideoImageSource(result, directory);
   return result;
-}
+};
 
 @Injectable({
   providedIn: 'root'

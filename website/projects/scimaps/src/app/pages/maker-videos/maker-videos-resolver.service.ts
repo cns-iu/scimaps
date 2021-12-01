@@ -43,7 +43,7 @@ export class MakerVideosResolverService implements Resolve<MakerVideo[]> {
     return this.content.getIndex<Params>('app-maker-videos').pipe(
       map((items: Params[]) => {
         if (videosCount && videosCount > 0) {
-          return items.slice(0, videosCount)
+          return items.slice(0, videosCount);
         } else {
           return items;
         }

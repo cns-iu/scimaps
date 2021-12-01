@@ -12,8 +12,8 @@ export interface LearningCenterBody {
     'featured-blog-slug'?: string,
     'featured-video-slug'?: string,
   };
-  featuredBlog?: Blog,
-  featuredVideo?: MakerVideo
+  featuredBlog?: Blog;
+  featuredVideo?: MakerVideo;
 }
 
 @Injectable({
@@ -39,9 +39,9 @@ export class LearningCenterBodyResolverService {
           const featuredBlog$ = this.blogResolver.getResult(`blog/${slug}`);
           return featuredBlog$.pipe(
             map((blog: Blog) => {
-              return { ...body, featuredBlog: blog }
+              return { ...body, featuredBlog: blog };
             })
-          )
+          );
         } else if (featured && featured.type === 'video' && featured['featured-video-slug']) {
           const slug = featured['featured-video-slug'];
           const featuredVideo$ = this.videoResolver.getResult(`maker-videos/${slug}`);
@@ -49,7 +49,7 @@ export class LearningCenterBodyResolverService {
             map((makerVide: MakerVideo) => {
               return {
                 ...body, featuredVideo: makerVide
-              }
+              };
             })
           );
         } else {
