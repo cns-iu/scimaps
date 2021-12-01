@@ -18,7 +18,7 @@ describe('MakerVideoComponent', () => {
       snapshot: {
         params: { slug: video.slug },
         data: {
-          video: video
+          video
         }
       },
     };

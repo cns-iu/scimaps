@@ -16,7 +16,7 @@ describe('LearningCenterBodyResolverService', () => {
 
   beforeEach(() => {
     const contentServiceSpy = jasmine.createSpyObj('ContentService', ['getIndex', 'getContent']);
-    const serviceSpy = jasmine.createSpyObj('LearningCenterBodyResolverService', ['resolve'])
+    const serviceSpy = jasmine.createSpyObj('LearningCenterBodyResolverService', ['resolve']);
     const blogResolverSpy = jasmine.createSpyObj('BlogResolverService', ['getResult']);
     const videoResolverSpy = jasmine.createSpyObj('MakerVideoResolverService', ['getResult']);
 

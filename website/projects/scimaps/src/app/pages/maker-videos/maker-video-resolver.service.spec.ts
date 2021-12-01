@@ -29,10 +29,10 @@ describe('MakerVideoResolverService', () => {
     const directory = 'sample_directory_path';
     const [video] = getMakerVideo(1);
     video.image = 'imageURL';
-    const expected = `${directory}/${video.slug}/${video.image}`
+    const expected = `${directory}/${video.slug}/${video.image}`;
     const actual = getVideoImageSource(video, directory);
     expect(expected).toEqual(actual);
-  })
+  });
   it('toMakerVideo - should correctly build object', () => {
     const [video] = getMakerVideo(1);
     const directory = 'root';
@@ -54,5 +54,5 @@ describe('MakerVideoResolverService', () => {
       expect(response).toBeTruthy();
       expect(response.slug).toEqual(video.slug);
     });
-  }))
+  }));
 });

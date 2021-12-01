@@ -50,14 +50,14 @@ export class LearningCenterComponent implements OnInit {
     if (type === 'video') {
       const { featuredVideo } = this.body;
       if (featuredVideo) {
-        this.featuredVideo = featuredVideo
+        this.featuredVideo = featuredVideo;
       } else {
         this.featuredVideo = this.videos[0];
       }
     } else {
       const { featuredBlog } = this.body;
       if (featuredBlog) {
-        this.featuredBlog = featuredBlog
+        this.featuredBlog = featuredBlog;
       } else {
         this.featuredBlog = this.blogs[0];
       }
