@@ -45,7 +45,7 @@ export class LearningCenterComponent implements OnInit {
     }
   }
 
-  setFeatured() {
+  setFeatured(): void {
     const { type } = this.body.featured;
     if (type === 'video') {
       const { featuredVideo } = this.body;
