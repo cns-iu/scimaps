@@ -73,7 +73,7 @@ tabs:
       * Relevance for a general audience
 
 
-      ## Final Submission
+      #### Final Submission
 
 
       Authors of winning entries will be contacted by April 1, 2022 and invited to submit final entries by May 30, 2022. Each final entry consists of:
@@ -93,7 +93,7 @@ tabs:
       Authors are welcome to use the expertise and resources of the exhibit curators and designers. The macroscopes are expected to be ready for display by August 31, 2022.
 
 
-      ## Exhibit Advisory Board
+      #### Exhibit Advisory Board
 
 
       * Gary Berg-Cross, Cognitive psychologist
