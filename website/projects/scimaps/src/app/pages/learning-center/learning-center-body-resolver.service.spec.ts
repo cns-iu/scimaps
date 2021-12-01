@@ -1,4 +1,4 @@
-import { fakeAsync, flush, flushMicrotasks, TestBed, tick, } from '@angular/core/testing';
+import { fakeAsync, TestBed } from '@angular/core/testing';
 import { Params } from '@angular/router';
 import { of } from 'rxjs';
 import { getBlog } from '../../shared/components/blog-tile/blog-tile.component.spec';
@@ -49,15 +49,19 @@ describe('LearningCenterBodyResolverService', () => {
     (contentService.getContent as jasmine.Spy).and.returnValue(
       of(body)
     );
-    (blogResolver.getResult as jasmine.Spy).withArgs(`maker-videos/${blog.slug}/readme`).and.returnValue(
+    (blogResolver.getResult as jasmine.Spy).withArgs(`blog/${blog.slug}/readme`).and.returnValue(
       of(blog)
     );
     const data = service.resolve();
+
+    data.subscribe(response => {
+      expect(response).toBeTruthy();
+      expect(response.featured.type).toEqual('blog');
+      expect(response.featured['featured-blog-slug']).toEqual(`${blog.slug}/readme`);
+      expect(response.featuredBlog).toBeTruthy();
+    });
     expect(contentService.getContent).toHaveBeenCalledTimes(1);
-    // data.subscribe(response => {
-    //   console.log(response);
-    //   expect(response).toBeTruthy();
-    // });
+    expect(blogResolver.getResult).toHaveBeenCalledTimes(1);
   }));
 
   it('should process featured video', fakeAsync(() => {
@@ -75,6 +79,27 @@ describe('LearningCenterBodyResolverService', () => {
       of(video)
     );
     const data = service.resolve();
+
+    data.subscribe(response => {
+      expect(response).toBeTruthy();
+      expect(response.featured.type).toEqual('video');
+      expect(response.featured['featured-video-slug']).toEqual(`${video.slug}/readme`);
+      expect(response.featuredVideo).toBeTruthy();
+    });
+    expect(contentService.getContent).toHaveBeenCalledTimes(1);
+    expect(videoResolver.getResult).toHaveBeenCalledTimes(1);
+  }));
+
+
+  it('should process featured video', fakeAsync(() => {
+    const body = {};
+    (contentService.getContent as jasmine.Spy).and.returnValue(
+      of(body)
+    );
+    const data = service.resolve();
+    data.subscribe(response => {
+      expect(response).toBeTruthy();
+    });
     expect(contentService.getContent).toHaveBeenCalledTimes(1);
   }));
 });
