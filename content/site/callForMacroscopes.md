@@ -131,12 +131,12 @@ tabs:
 
       Please feel free to send any questions you might have regarding the judging process to Todd Theriault ([ttheriau@indiana.edu](mailto:ttheriau@indiana.edu)) and use the subject heading “Macroscope Inquiry.”
 importantDates:
-  - date: Feb 15, 2022
+  - date: 2022-02-15
     label: Submissions due
-  - date: Apr 1, 2022
+  - date: 2022-04-01
     label: Notification to mapmakers
-  - date: May 30, 2022
+  - date: 2022-05-30
     label: Submit final entries
-  - date: Aug 31, 2022
+  - date: 2022-08-31
     label: Iteration ready for display
 ---
