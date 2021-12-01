@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, Params, Resolve, RouterStateSnapshot } from '@angular/router';
+import { Params, Resolve } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 import { isHttp } from '../../constants/utils';
@@ -8,11 +8,10 @@ import { MakerVideo } from './maker-videos-resolver.service';
 
 export const getVideoImageSource = (video: MakerVideo, directory = ''): string => {
   let result = '';
-  const slug = video.slug;
   if (video.image) {
     result = video.image;
     if (!isHttp(video.image)) {
-      result = `${directory}/${slug}/${video.image}`;
+      result = `${directory}/${video.slug}/${video.image}`;
     }
   }
   return result
