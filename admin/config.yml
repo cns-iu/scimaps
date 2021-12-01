@@ -101,7 +101,7 @@ collections:
             widget: list
             fields:
             - { name: label, label: Label}
-            - { name: date, widget: date, label: Date, format: DD MM YY }
+            - { name: date, widget: date, label: Date, format: YYYY-MM-DD, timeformat: false }
          
 
       - label: Hosting
