@@ -11,7 +11,6 @@ export interface LearningCenterBody {
     type: string,
     'featured-blog-slug'?: string,
     'featured-video-slug'?: string,
-    slug?: string,
   };
   featuredBlog?: Blog,
   featuredVideo?: MakerVideo
@@ -35,7 +34,7 @@ export class LearningCenterBodyResolverService {
       take(1),
       concatMap((body: LearningCenterBody) => {
         const { featured } = body;
-        if (featured.type === 'blog' && featured['featured-blog-slug']) {
+        if (featured && featured.type === 'blog' && featured['featured-blog-slug']) {
           const slug = featured['featured-blog-slug'];
           const featuredBlog$ = this.blogResolver.getResult(`blog/${slug}`);
           return featuredBlog$.pipe(
@@ -43,7 +42,7 @@ export class LearningCenterBodyResolverService {
               return { ...body, featuredBlog: blog }
             })
           )
-        } else if (featured.type === 'video' && featured['featured-video-slug']) {
+        } else if (featured && featured.type === 'video' && featured['featured-video-slug']) {
           const slug = featured['featured-video-slug'];
           const featuredVideo$ = this.videoResolver.getResult(`maker-videos/${slug}`);
           return featuredVideo$.pipe(
