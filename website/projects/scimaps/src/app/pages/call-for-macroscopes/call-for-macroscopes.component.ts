@@ -45,7 +45,7 @@ export class CallForMacroscopesComponent implements OnInit {
         this.pdfLink = pdfLink;
         this.allowSubmission = allowSubmission;
         this.importantDates = importantDates.map(((item: {label: string, date: Date}) => {
-          return [item.label, this.datePipe.transform(item.date, 'MMM dd, yyyy')];
+          return [item.label, this.datePipe.transform(item.date, 'MMM dd, yyyy', '+0000')];
         }));
       }
       // Last Macroscope Iteraction
