@@ -50,7 +50,7 @@ export class LearningCenterBodyResolverService {
             map((makerVide: MakerVideo) => {
               return {
                 ...body, featuredVideo: makerVide
-              };
+              }
             })
           );
         } else {
