@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { of } from 'rxjs';
 import { ContentService } from '../../shared/services/content.service';
-import { getMakerVideo, MakerVideosResolverService } from './maker-videos-resolver.service';
+import { MakerVideosResolverService } from './maker-videos-resolver.service';
 
 
 describe('MakerVideosResolverService', () => {

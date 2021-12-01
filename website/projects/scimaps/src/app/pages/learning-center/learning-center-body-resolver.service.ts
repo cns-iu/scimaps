@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { catchError, concatMap, map, take } from 'rxjs/operators';
+import { concatMap, map, take } from 'rxjs/operators';
 import { ContentService } from '../../shared/services/content.service';
 import { BlogResolverService } from '../blogs/blog-resolver.service';
 import { Blog } from '../blogs/blogs-resolver.service';
