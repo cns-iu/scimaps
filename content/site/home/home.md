@@ -1,9 +1,10 @@
 ---
 cta:
-  title: "Atlas of Forecasts: Modeling and mapping desirable futures."
-  body: "A new book from Katy Börner! This third book in the series focuses on using models and visualizations to help society envision and create the future we want."
-  buttonLabel: Purchase
-  buttonLink: https://www.amazon.com/Atlas-Forecasts-Modeling-Mapping-Desirable/dp/0262045958/ref=sr_1_1?dchild=1&keywords=borner+atlas+forecast&qid=1620409272&s=books&sr=1-1
+  title: Submit a macroscope
+  body: Submit your work by February 15, 2022, to become part of the *Places &
+    Spaces* exhibit.
+  buttonLabel: Submit
+  buttonLink: https://scimaps.org/call-for-macroscopes
   subtitle: " "
-  imageSource: cta-atlas-of-forecats.jpg
+  imageSource: scimapscard.jpg
 ---
