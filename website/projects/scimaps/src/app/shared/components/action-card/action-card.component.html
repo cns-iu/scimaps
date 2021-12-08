@@ -2,7 +2,9 @@
   <div class="text-content">
     <div class="title">{{ actionItem.title }}</div>
     <div class="subtitle">{{ actionItem.subtitle }}</div>
-    <div class="body">{{ actionItem.body }}</div>
+    <div class="body">
+      <div markdown [data]="actionItem.body"></div>
+    </div>
 
     <div class="action-button" *ngIf="actionItem.buttonLabel" (click)="goToLink(actionItem.buttonLink)">{{ actionItem.buttonLabel }}</div>
   </div>

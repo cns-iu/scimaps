@@ -20,17 +20,6 @@ collections:
             - { name: buttonLink, label: Button Link, required: false }
             - { name: imageSource, label: Image, widget: file, required: false }  
 
-      - label: Call to Action
-        name: callToAction
-        file: content/site/callToAction.md
-        fields:
-          - { name: title, label: Title }
-          - { name: date, label: Date, widget: datetime }
-          - { name: image, label: Image, widget: image }
-          - { name: link, label: Link }
-          - { name: linkLabel, label: Link Label }
-          - { name: body, label: Description, widget: markdown }
-
       - label: About Places & Spaces
         name: about
         file: content/site/about/about.md

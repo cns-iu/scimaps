@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ActionCardComponent } from './action-card.component';
 
 import { MatIconModule } from '@angular/material/icon';
+import { MarkdownModule } from 'ngx-markdown';
 
 
 
@@ -10,7 +11,8 @@ import { MatIconModule } from '@angular/material/icon';
   declarations: [ActionCardComponent],
   imports: [
     CommonModule,
-    MatIconModule
+    MatIconModule,
+    MarkdownModule
   ],
   exports: [ActionCardComponent]
 })
