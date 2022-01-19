@@ -43,6 +43,7 @@ const getBlogImageSource = (blog, directory = '') => {
 };
 const toBlog = (blogItem, directory = '') => {
     const blog = {
+        publish_date: blogItem.publish_date,
         title: blogItem.title,
         date: blogItem.date,
         published: blogItem.published,
@@ -152,12 +153,25 @@ class BlogsResolverService {
         this.contentService = contentService;
         this.directory = 'assets/content/blog';
     }
-    resolve() {
-        return this.contentService.getIndex('blogs').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["map"])((items) => {
+    resolve(route) {
+        const { blogsCount } = route.data;
+        return this.contentService.getIndex('app-blogs').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["map"])((items) => {
+            if (blogsCount && blogsCount > 0) {
+                return items.slice(0, blogsCount);
+            }
+            else {
+                return items;
+            }
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["map"])((items) => {
             return items.map((item) => Object(_blog_resolver_service__WEBPACK_IMPORTED_MODULE_2__["toBlog"])(item, this.directory));
         }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["map"])((items) => {
-            return items.sort((a, b) => {
-                return Date.parse(b.date) - Date.parse(a.date);
+            return items.filter((item) => {
+                const today = new Date();
+                const todayUTC = Date.parse(today.toUTCString());
+                const publishedDate = new Date(item.publish_date);
+                publishedDate.setUTCHours(0, 0, 0, 0);
+                const publishDateUTC = Date.parse(publishedDate.toUTCString());
+                return todayUTC > publishDateUTC;
             });
         }));
     }

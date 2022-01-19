@@ -115,6 +115,10 @@ const routes = [
     {
         path: '',
         component: _learning_center_component__WEBPACK_IMPORTED_MODULE_5__["LearningCenterComponent"],
+        data: {
+            blogsCount: 4,
+            videosCount: 4
+        },
         resolve: {
             body: _learning_center_body_resolver_service__WEBPACK_IMPORTED_MODULE_4__["LearningCenterBodyResolverService"],
             blogs: _blogs_blogs_resolver_service__WEBPACK_IMPORTED_MODULE_2__["BlogsResolverService"],
@@ -161,41 +165,54 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "+kfY");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "0Wlh");
 /* harmony import */ var _shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../shared/services/content.service */ "qc/9");
+/* harmony import */ var _maker_videos_maker_video_resolver_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../maker-videos/maker-video-resolver.service */ "m+tC");
+/* harmony import */ var _blogs_blog_resolver_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../blogs/blog-resolver.service */ "+kgp");
+
+
 
 
 
 
 
 class LearningCenterBodyResolverService {
-    constructor(content) {
+    constructor(content, videoResolver, blogResolver) {
         this.content = content;
+        this.videoResolver = videoResolver;
+        this.blogResolver = blogResolver;
         this.mdPath = 'site/learning-center/learning-center.md';
         this.directory = 'assets/content/site/learning-center';
     }
     resolve() {
         return this.content.getContent(this.mdPath).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["take"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["concatMap"])((body) => {
             const { featured } = body;
-            if (featured.type === 'blog' && featured['featured-blog-slug']) {
-                const segments = featured['featured-blog-slug'].split('/');
-                featured.slug = segments[segments.length - 2];
+            if (featured && featured.type === 'blog' && featured['featured-blog-slug']) {
+                const slug = featured['featured-blog-slug'];
+                const featuredBlog$ = this.blogResolver.getResult(`blog/${slug}`);
+                return featuredBlog$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((blog) => {
+                    return Object.assign(Object.assign({}, body), { featuredBlog: blog });
+                }));
             }
-            else if (featured.type === 'video' && featured['featured-video-slug']) {
-                const segments = featured['featured-video-slug'].split('/');
-                featured.slug = segments[segments.length - 2];
+            else if (featured && featured.type === 'video' && featured['featured-video-slug']) {
+                const slug = featured['featured-video-slug'];
+                const featuredVideo$ = this.videoResolver.getResult(`maker-videos/${slug}`);
+                return featuredVideo$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((makerVide) => {
+                    return Object.assign(Object.assign({}, body), { featuredVideo: makerVide });
+                }));
             }
-            body.featured = featured;
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(body);
+            else {
+                return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(body);
+            }
         }));
     }
 }
-LearningCenterBodyResolverService.ɵfac = function LearningCenterBodyResolverService_Factory(t) { return new (t || LearningCenterBodyResolverService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__["ContentService"])); };
+LearningCenterBodyResolverService.ɵfac = function LearningCenterBodyResolverService_Factory(t) { return new (t || LearningCenterBodyResolverService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__["ContentService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_maker_videos_maker_video_resolver_service__WEBPACK_IMPORTED_MODULE_4__["MakerVideoResolverService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_blogs_blog_resolver_service__WEBPACK_IMPORTED_MODULE_5__["BlogResolverService"])); };
 LearningCenterBodyResolverService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: LearningCenterBodyResolverService, factory: LearningCenterBodyResolverService.ɵfac, providedIn: 'root' });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](LearningCenterBodyResolverService, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
         args: [{
                 providedIn: 'root'
             }]
-    }], function () { return [{ type: _shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__["ContentService"] }]; }, null); })();
+    }], function () { return [{ type: _shared_services_content_service__WEBPACK_IMPORTED_MODULE_3__["ContentService"] }, { type: _maker_videos_maker_video_resolver_service__WEBPACK_IMPORTED_MODULE_4__["MakerVideoResolverService"] }, { type: _blogs_blog_resolver_service__WEBPACK_IMPORTED_MODULE_5__["BlogResolverService"] }]; }, null); })();
 
 
 /***/ }),
@@ -391,30 +408,37 @@ class LearningCenterComponent {
         }
         this.setBlogs(blogs);
         this.setVideos(videos);
+        // Set featured
+        this.setFeatured();
     }
     setBlogs(blogs) {
         if (Array.isArray(blogs) && blogs.length) {
             this.blogs = blogs;
-            const { type, slug } = this.body.featured;
-            if (type === 'blog' && slug) {
-                this.featuredBlog = this.blogs[0];
-                const foundIndex = this.blogs.findIndex(item => item.slug === slug);
-                if (foundIndex >= 0) {
-                    this.featuredBlog = this.blogs[foundIndex];
-                }
-            }
         }
     }
     setVideos(videos) {
         if (Array.isArray(videos) && videos.length) {
             this.videos = videos;
-            const { type, slug } = this.body.featured;
-            if (type === 'video' && slug) {
+        }
+    }
+    setFeatured() {
+        const { type } = this.body.featured;
+        if (type === 'video') {
+            const { featuredVideo } = this.body;
+            if (featuredVideo) {
+                this.featuredVideo = featuredVideo;
+            }
+            else {
                 this.featuredVideo = this.videos[0];
-                const foundIndex = this.videos.findIndex(item => item.slug === slug);
-                if (foundIndex >= 0) {
-                    this.featuredVideo = this.videos[foundIndex];
-                }
+            }
+        }
+        else {
+            const { featuredBlog } = this.body;
+            if (featuredBlog) {
+                this.featuredBlog = featuredBlog;
+            }
+            else {
+                this.featuredBlog = this.blogs[0];
             }
         }
     }

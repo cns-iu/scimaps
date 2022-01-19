@@ -302,15 +302,10 @@ class MakerVideoComponent {
         this.showOverlay = false;
     }
     ngOnInit() {
-        var _a, _b;
         this.showOverlay = true;
-        const { slug } = this.route.snapshot.params;
-        const videos = (_b = (_a = this.route.parent) === null || _a === void 0 ? void 0 : _a.snapshot.data) === null || _b === void 0 ? void 0 : _b.videos;
-        if (Array.isArray(videos)) {
-            const video = videos.find(item => item.slug === slug);
-            if (video) {
-                this.video = video;
-            }
+        const { video } = this.route.snapshot.data;
+        if (video) {
+            this.video = video;
         }
     }
     close() {
@@ -352,9 +347,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "sEIs");
 /* harmony import */ var _shared_components_maker_video_maker_video_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/components/maker-video/maker-video.component */ "u5px");
-/* harmony import */ var _maker_videos_body_resolver_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./maker-videos-body-resolver.service */ "x31g");
-/* harmony import */ var _maker_videos_resolver_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./maker-videos-resolver.service */ "mXuf");
-/* harmony import */ var _maker_videos_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./maker-videos.component */ "Lzih");
+/* harmony import */ var _maker_video_resolver_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./maker-video-resolver.service */ "m+tC");
+/* harmony import */ var _maker_videos_body_resolver_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./maker-videos-body-resolver.service */ "x31g");
+/* harmony import */ var _maker_videos_resolver_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./maker-videos-resolver.service */ "mXuf");
+/* harmony import */ var _maker_videos_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./maker-videos.component */ "Lzih");
+
 
 
 
@@ -366,14 +363,17 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     {
         path: '',
-        component: _maker_videos_component__WEBPACK_IMPORTED_MODULE_5__["MakerVideosComponent"],
+        component: _maker_videos_component__WEBPACK_IMPORTED_MODULE_6__["MakerVideosComponent"],
         resolve: {
-            body: _maker_videos_body_resolver_service__WEBPACK_IMPORTED_MODULE_3__["MakerVideosBodyResolverService"],
-            videos: _maker_videos_resolver_service__WEBPACK_IMPORTED_MODULE_4__["MakerVideosResolverService"]
+            body: _maker_videos_body_resolver_service__WEBPACK_IMPORTED_MODULE_4__["MakerVideosBodyResolverService"],
+            videos: _maker_videos_resolver_service__WEBPACK_IMPORTED_MODULE_5__["MakerVideosResolverService"]
         },
         children: [
             {
                 path: ':slug',
+                resolve: {
+                    video: _maker_video_resolver_service__WEBPACK_IMPORTED_MODULE_3__["MakerVideoResolverService"]
+                },
                 component: _shared_components_maker_video_maker_video_component__WEBPACK_IMPORTED_MODULE_2__["MakerVideoComponent"]
             }
         ]

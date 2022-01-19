@@ -1,5 +1,7 @@
 ---
+draft: false
 title: What Is a Map of Science?
+publish_date: 2021-11-05
 date: 2021-11-05
 blogImages:
   - sm: mapofscienceimage.jpg

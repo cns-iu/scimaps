@@ -3579,7 +3579,7 @@ const routes = [
     },
     {
         path: 'learning-center',
-        loadChildren: () => Promise.all(/*! import() | pages-learning-center-learning-center-module */[__webpack_require__.e("default~pages-blogs-blogs-module~pages-learning-center-learning-center-module"), __webpack_require__.e("common"), __webpack_require__.e("pages-learning-center-learning-center-module")]).then(__webpack_require__.bind(null, /*! ./pages/learning-center/learning-center.module */ "42h0")).then(m => m.LearningCenterModule)
+        loadChildren: () => Promise.all(/*! import() | pages-learning-center-learning-center-module */[__webpack_require__.e("default~pages-blogs-blogs-module~pages-learning-center-learning-center-module"), __webpack_require__.e("default~pages-learning-center-learning-center-module~pages-maker-videos-maker-videos-module"), __webpack_require__.e("pages-learning-center-learning-center-module")]).then(__webpack_require__.bind(null, /*! ./pages/learning-center/learning-center.module */ "42h0")).then(m => m.LearningCenterModule)
     },
     {
         path: 'call-for-macroscopes',
@@ -3592,7 +3592,7 @@ const routes = [
     },
     {
         path: 'maker-videos',
-        loadChildren: () => Promise.all(/*! import() | pages-maker-videos-maker-videos-module */[__webpack_require__.e("default~maker-videos-maker-videos-module~pages-maker-videos-maker-videos-module"), __webpack_require__.e("common"), __webpack_require__.e("pages-maker-videos-maker-videos-module")]).then(__webpack_require__.bind(null, /*! ./pages/maker-videos/maker-videos.module */ "3VGK")).then(m => m.MakerVideosModule)
+        loadChildren: () => Promise.all(/*! import() | pages-maker-videos-maker-videos-module */[__webpack_require__.e("default~maker-videos-maker-videos-module~pages-maker-videos-maker-videos-module"), __webpack_require__.e("default~pages-learning-center-learning-center-module~pages-maker-videos-maker-videos-module"), __webpack_require__.e("pages-maker-videos-maker-videos-module")]).then(__webpack_require__.bind(null, /*! ./pages/maker-videos/maker-videos.module */ "3VGK")).then(m => m.MakerVideosModule)
     },
     {
         path: 'blogs',

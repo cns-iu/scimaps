@@ -1,5 +1,7 @@
 ---
+draft: false
 title: What Is a Macroscope?
+publish_date: 2021-11-12
 date: 2021-11-12
 blogImages:
   - sm: macroscopeblogimage.jpg

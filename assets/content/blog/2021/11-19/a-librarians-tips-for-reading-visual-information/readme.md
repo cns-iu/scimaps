@@ -1,5 +1,7 @@
 ---
+draft: false
 title: A Librarian’s Tips for Reading Visual Information
+publish_date: 2021-11-19
 date: 2021-11-19
 blogImages:
   - sm: thumbnail.png
