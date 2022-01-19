@@ -20,13 +20,13 @@ const testActionItem: ActionCardItem = {
 describe('ActionCardComponent', () => {
   let component: ActionCardComponent;
   let fixture: ComponentFixture<ActionCardComponent>;
-  let el: DebugElement
+  let el: DebugElement;
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [ ActionCardModule, MarkdownModule.forRoot()]
     })
     .compileComponents();
-  })
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(ActionCardComponent);
@@ -34,7 +34,7 @@ describe('ActionCardComponent', () => {
     component.actionItem = testActionItem;
     el = fixture.debugElement;
     fixture.detectChanges();
-  })
+  });
 
   it('Should be created', () => {
     expect(component).toBeTruthy();
@@ -78,7 +78,7 @@ describe('ActionCardComponent', () => {
   it('Should close', fakeAsync(() => {
     const close = el.query(By.css('.close-icon'));
     close.triggerEventHandler('click', {});
-    fixture.detectChanges()
+    fixture.detectChanges();
     tick(500);
     expect(component.closed).toBeTruthy();
   }));
