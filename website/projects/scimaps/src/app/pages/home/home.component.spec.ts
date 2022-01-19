@@ -2,6 +2,7 @@ import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MatIconTestingModule } from '@angular/material/icon/testing';
 import { ActivatedRoute } from '@angular/router';
+import { MarkdownModule } from 'ngx-markdown';
 import { of } from 'rxjs';
 import { HomeComponent } from './home.component';
 import { HomeModule } from './home.module';
@@ -28,7 +29,7 @@ describe('HomeComponent', () => {
         };
         TestBed.configureTestingModule({
             schemas: [NO_ERRORS_SCHEMA],
-            imports: [HomeModule, MatIconTestingModule],
+            imports: [HomeModule, MatIconTestingModule, MarkdownModule.forRoot()],
             providers: [{ provide: ActivatedRoute, useValue: route }]
         }).compileComponents();
         fixture = TestBed.createComponent(HomeComponent);
