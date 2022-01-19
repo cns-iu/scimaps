@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { of } from 'rxjs';
 import { ContentService } from '../../shared/services/content.service';
-import { getMakerVideo, MakerVideosResolverService } from './maker-videos-resolver.service';
+import { MakerVideosResolverService } from './maker-videos-resolver.service';
 
 
 describe('MakerVideosResolverService', () => {
@@ -26,10 +26,9 @@ describe('MakerVideosResolverService', () => {
   });
 
   it('makes expected calls', () => {
-    const makerVideos = getMakerVideo(2);
     (contentService.getIndex as jasmine.Spy).and.returnValue(of([]));
-    service.postProcess(makerVideos);
-    service.resolve();
+    const route = {data: {videosCount: 4}};
+    service.resolve(route);
     expect(contentService.getIndex).toHaveBeenCalled();
     expect(contentService.getIndex).toHaveBeenCalledTimes(1);
   });

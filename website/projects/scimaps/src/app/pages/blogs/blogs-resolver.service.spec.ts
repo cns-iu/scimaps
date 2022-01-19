@@ -28,7 +28,8 @@ describe('BlogsResolverService', () => {
     (contentService.getIndex as jasmine.Spy).and.returnValue(
       of(getBlog(2))
     );
-    const data = service.resolve();
+    const route = {data: {videosCount: 4}};
+    const data = service.resolve(route);
     data.subscribe(response => {
       expect(service).toBeTruthy();
     });

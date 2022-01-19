@@ -9,7 +9,6 @@ const pathJoin = require('path').join;
 const CONTENT = '../content';
 const INDEXES = '../website/projects/scimaps/src/assets/indexes';
 
-
 function readMarkdown(mdFile) {
   const data = frontMatter(fs.readFileSync(mdFile).toString());
   return Object.assign(data.body ? {body: data.body} : {}, data.attributes);
@@ -79,5 +78,34 @@ function writeAppMapIndex(mapType) {
   writeMinifiedJSON(pathJoin(INDEXES, `app-${mapType}s.json`), data);
 }
 
+function writeAppBlogIndex() {
+  const result = readIndex('blogs')
+                  .filter(item => !item.draft)
+                  .map(item => {
+                    return {
+                      publish_date: item.publish_date,
+                      date: item.date,
+                      title: item.title,
+                      blogImages: item.blogImages
+                    };
+                  }).sort((a, b) => {
+                    return Date.parse(b.date) - Date.parse(a.date);
+                  });
+  writeMinifiedJSON(pathJoin(INDEXES, 'app-blogs.json'), result);
+}
+
+function writeVideoIndex() {
+  const result = readIndex('maker-videos').map(item => {
+    return {
+      title: item.title,
+      short_description: item.short_description,
+      image: item.image
+    };
+  });
+  writeMinifiedJSON(pathJoin(INDEXES, 'app-maker-videos.json'), result);
+}
+
 writeAppMapIndex('map');
 writeAppMapIndex('macroscope');
+writeAppBlogIndex();
+writeVideoIndex();

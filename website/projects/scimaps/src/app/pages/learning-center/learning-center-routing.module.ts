@@ -9,6 +9,10 @@ const routes: Routes = [
   {
     path: '',
     component: LearningCenterComponent,
+    data: {
+      blogsCount: 4,
+      videosCount: 4
+    },
     resolve: {
       body: LearningCenterBodyResolverService,
       blogs: BlogsResolverService,
