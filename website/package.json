@@ -34,7 +34,7 @@
     "@ngxs/store": "^3.7.0",
     "@types/openseadragon": "^2.4.7",
     "front-matter": "^4.0.2",
-    "ngx-google-analytics": "^9.1.1",
+    "ngx-google-analytics": "^11.2.1",
     "ngx-markdown": "^10.1.1",
     "ngx-swiper-wrapper": "^10.0.0",
     "openseadragon": "^2.4.2",
