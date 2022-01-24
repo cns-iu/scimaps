@@ -1,4 +1,4 @@
-@use '~@angular/material/theming' as *;
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
@@ -12,16 +12,16 @@
     }
 
     .show-more {
-      color: mat-color($accent);
+      color: mat.get-color-from-palette($accent);
     }
 
     .button {
-      border-color: mat-color($primary);
-      color: mat-color($primary);
+      border-color: mat.get-color-from-palette($primary);
+      color: mat.get-color-from-palette($primary);
 
       &:hover {
-        color: mat-color($primary, lighter);
-        background-color: mat-color($primary);
+        color: mat.get-color-from-palette($primary, lighter);
+        background-color: mat.get-color-from-palette($primary);
       }
     }
   }

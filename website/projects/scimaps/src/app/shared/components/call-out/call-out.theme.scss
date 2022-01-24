@@ -1,4 +1,4 @@
-@use '~@angular/material/theming' as *;
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
@@ -8,15 +8,15 @@
 
   .sci-call-out {
     .title {
-      color: mat-color($primary, default-contrast);
-      background-color: mat-color($primary, 500);
+      color: mat.get-color-from-palette($primary, default-contrast);
+      background-color: mat.get-color-from-palette($primary, 500);
     }
 
     .body {
-      background-color: mat-color($accent, 100);
+      background-color: mat.get-color-from-palette($accent, 100);
 
       .item {
-        color: mat-color($primary, 700);
+        color: mat.get-color-from-palette($primary, 700);
       }
     }
   }

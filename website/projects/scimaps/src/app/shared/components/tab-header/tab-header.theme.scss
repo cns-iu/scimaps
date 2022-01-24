@@ -1,4 +1,4 @@
-@import "~@angular/material/theming";
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
@@ -8,7 +8,7 @@
   .sci-tab-header {
     .tab {
       &.active {
-        border-bottom: 2px solid mat-color($accent, 500);
+        border-bottom: 2px solid mat.get-color-from-palette($accent, 500);
       }
     }
   }

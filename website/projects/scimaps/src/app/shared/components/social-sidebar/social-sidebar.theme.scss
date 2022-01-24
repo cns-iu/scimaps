@@ -1,4 +1,4 @@
-@import "~@angular/material/theming";
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
@@ -6,16 +6,16 @@
   $primary: map-get($config, primary);
 
   .sci-social-sidebar {
-    border: 1px solid mat-color($primary, default-contrast);
+    border: 1px solid mat.get-color-from-palette($primary, default-contrast);
 
     .social-button {
-      background-color: mat-color($primary, 500);
-      color: mat-color($primary, default-contrast);
-      border-bottom: 1px solid mat-color($primary, default-contrast);
+      background-color: mat.get-color-from-palette($primary, 500);
+      color: mat.get-color-from-palette($primary, default-contrast);
+      border-bottom: 1px solid mat.get-color-from-palette($primary, default-contrast);
 
       :hover {
-        background-color: mat-color($primary, default-contrast);
-        color: mat-color($primary, 500);
+        background-color: mat.get-color-from-palette($primary, default-contrast);
+        color: mat.get-color-from-palette($primary, 500);
       }
     }
   }

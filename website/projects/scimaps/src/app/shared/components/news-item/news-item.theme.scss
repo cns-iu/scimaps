@@ -1,4 +1,4 @@
-@import "~@angular/material/theming";
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
@@ -15,7 +15,7 @@
     }
 
     .date {
-      color: mat-color($primary, darker);
+      color: mat.get-color-from-palette($primary, darker);
     }
   }
 }

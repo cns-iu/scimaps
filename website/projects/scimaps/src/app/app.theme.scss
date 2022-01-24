@@ -1,4 +1,4 @@
-@import "~@angular/material/theming";
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
@@ -8,7 +8,7 @@
 
   .agc-root {
     a {
-      color: mat-color($accent);
+      color: mat.get-color-from-palette($accent);
     }
   }
 }

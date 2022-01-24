@@ -1,20 +1,20 @@
-@import "~@angular/material/theming";
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
   $config: mat-get-color-config($config-or-theme);
   $primary: map-get($config, primary);
-  $grey: mat-palette($mat-grey);
+  $grey: mat.define-palette(mat.$grey-palette);
 
   .sci-mobile-header-menu {
     border-top-color: rgba(0, 0, 0, 0.2);
 
     button.link {
-      color: mat-color($primary, lighter-contrast);
+      color: mat.get-color-from-palette($primary, lighter-contrast);
       border-radius: 0;
       
       &.active, &:hover {
-        background-color: mat-color($primary, 0.15);
+        background-color: mat.get-color-from-palette($primary, 0.15);
       }
     }
 
@@ -23,7 +23,7 @@
     }
 
     .filler {
-      background-color: mat-color($grey, 50);
+      background-color: mat.get-color-from-palette($grey, 50);
     }
   }
 }

@@ -1,44 +1,44 @@
-@use '~@angular/material/theming' as *;
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
   $config: mat-get-color-config($config-or-theme);
   $primary: map-get($config, primary);
-  $grey: mat-palette($mat-grey);
+  $grey: mat.define-palette(mat.$grey-palette);
 
   .sci-macroscopes {
     .highlight-content {
-      border-bottom: 1px solid mat-color($grey, 300);
+      border-bottom: 1px solid mat.get-color-from-palette($grey, 300);
     }
 
     .carousel-image-title {
-      background-color: mat-color($primary, 500);
-      color: mat-color($primary, default-contrast);
+      background-color: mat.get-color-from-palette($primary, 500);
+      color: mat.get-color-from-palette($primary, default-contrast);
     }
 
     .more-button {
-      background-color: mat-color($primary, 100);
-      color: mat-color($primary, 500);
-      border: 1px solid mat-color($grey, 50);
+      background-color: mat.get-color-from-palette($primary, 100);
+      color: mat.get-color-from-palette($primary, 500);
+      border: 1px solid mat.get-color-from-palette($grey, 50);
 
       &:hover {
-        background-color: mat-color($primary, 500);
-        color: mat-color($primary, default-contrast);
+        background-color: mat.get-color-from-palette($primary, 500);
+        color: mat.get-color-from-palette($primary, default-contrast);
       }
     }
 
     .mobile-button {
-      border-top: 1px solid mat-color($grey, 300);
-      border-bottom: 1px solid mat-color($grey, 300);
-      color:  mat-color($grey, 600);
+      border-top: 1px solid mat.get-color-from-palette($grey, 300);
+      border-bottom: 1px solid mat.get-color-from-palette($grey, 300);
+      color:  mat.get-color-from-palette($grey, 600);
     }
 
     .mobile-icon {
-      color: mat-color($grey, 600);
+      color: mat.get-color-from-palette($grey, 600);
     }
 
     .fullscreen-modal {
-      background-color: mat-color($primary, default-contrast);
+      background-color: mat.get-color-from-palette($primary, default-contrast);
     }
   }
 }

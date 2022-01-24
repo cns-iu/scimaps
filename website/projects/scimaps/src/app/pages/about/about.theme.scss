@@ -1,10 +1,10 @@
-@use '~@angular/material/theming' as *;
+@use '~@angular/material' as mat;
 @import '../../../styling/breakpoints';
 
 @mixin color($config-or-theme) {
   $config: mat-get-color-config($config-or-theme);
   $primary: map-get($config, primary);
-  $grey: mat-palette($mat-grey);
+  $grey: mat.define-palette(mat.$grey-palette);
 }
 
 @mixin typography($config-or-theme) {

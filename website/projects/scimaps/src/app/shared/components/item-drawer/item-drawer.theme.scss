@@ -1,4 +1,4 @@
-@import "~@angular/material/theming";
+@use '~@angular/material' as mat;
 
 @mixin color($config-or-theme) {
   $config: mat-get-color-config($config-or-theme);
@@ -9,27 +9,27 @@
     background-color: white;
 
     .back-button {
-      color: mat-color($primary);
+      color: mat.get-color-from-palette($primary);
     }
 
     .purchase-button {
-      color: mat-color($primary);
-      border-color: mat-color($primary);
+      color: mat.get-color-from-palette($primary);
+      border-color: mat.get-color-from-palette($primary);
 
       &:hover {
-        background-color: mat-color($primary);
+        background-color: mat.get-color-from-palette($primary);
         color: white;
       }
     }
 
     .details-makers {
-      background-color: mat-color($primary, lighter);
+      background-color: mat.get-color-from-palette($primary, lighter);
     }
 
 
     .language-selection {
       .option {
-        color: mat-color($accent);
+        color: mat.get-color-from-palette($accent);
         &.active {
           color: #7997a3;
         }
@@ -37,7 +37,7 @@
     }
 
     .icon {
-      background-color: mat-color($primary, darker);
+      background-color: mat.get-color-from-palette($primary, darker);
       color: white;
     }
   }

@@ -1,5 +1,3 @@
-@use "~@angular/material/theming" as *;
-
 @mixin color($config-or-theme) {
   $config: mat-get-color-config($config-or-theme);
   $primary: map-get($config, primary);
