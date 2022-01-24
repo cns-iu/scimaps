@@ -1,5 +1,4 @@
 import { NgModule, Type } from '@angular/core';
-import { NgxsDataPluginModule } from '@ngxs-labs/data';
 import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
 import { NgxsRouterPluginModule } from '@ngxs/router-plugin';
 import { NgxsStoragePluginModule } from '@ngxs/storage-plugin';
@@ -24,7 +23,6 @@ const ROOT_STATES: Type<unknown>[] = [
     // 3. NgxsStoragePluginModule
     // 4+. Other plugins
     // LAST. NgxsLoggerPluginModule
-    NgxsDataPluginModule.forRoot(),
     NgxsModule.forRoot(ROOT_STATES, {
       developmentMode: !environment.production
     }),
