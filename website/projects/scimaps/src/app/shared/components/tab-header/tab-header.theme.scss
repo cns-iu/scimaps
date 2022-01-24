@@ -2,7 +2,7 @@
 
 
 @mixin color($config-or-theme) {
-  $config: mat-get-color-config($config-or-theme);
+  $config: mat.get-color-config($config-or-theme);
   $accent: map-get($config, accent);
 
   .sci-tab-header {
@@ -15,7 +15,7 @@
 }
 
 @mixin theme($theme) {
-  $color: mat-get-color-config($theme);
+  $color: mat.get-color-config($theme);
 
   @if $color {
     @include color($color);

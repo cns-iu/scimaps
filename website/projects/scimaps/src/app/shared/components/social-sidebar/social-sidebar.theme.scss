@@ -2,7 +2,7 @@
 
 
 @mixin color($config-or-theme) {
-  $config: mat-get-color-config($config-or-theme);
+  $config: mat.get-color-config($config-or-theme);
   $primary: map-get($config, primary);
 
   .sci-social-sidebar {
@@ -22,7 +22,7 @@
 }
 
 @mixin theme($theme) {
-  $color: mat-get-color-config($theme);
+  $color: mat.get-color-config($theme);
 
   @if $color {
     @include color($color);

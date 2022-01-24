@@ -3,7 +3,7 @@
 $tablet: 960px;
 
 @mixin color($config-or-theme) {
-  $config: mat-get-color-config($config-or-theme);
+  $config: mat.get-color-config($config-or-theme);
   $accent: map-get($config, accent);
   $grey: mat.define-palette(mat.$grey-palette);
 
@@ -46,7 +46,7 @@ $tablet: 960px;
 }
 
 @mixin theme($theme) {
-  $color: mat-get-color-config($theme);
+  $color: mat.get-color-config($theme);
 
   @if $color {
     @include color($color);
