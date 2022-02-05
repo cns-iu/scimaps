@@ -1,6 +1,9 @@
 <sci-drawer [@drawerInOut] *ngIf="showOverlay" class="sci-drawer">
-    <div drawer>
-        <div (click)="close()">Back</div>
-        Macroscope Detail Component
+    <div drawer class="drawer">
+        <sci-drawer-header backText="Maker Videos" (backClick)="close()">
+        </sci-drawer-header>
+        <div class="overlay-container">
+            Hello
+        </div>
     </div>
 </sci-drawer>

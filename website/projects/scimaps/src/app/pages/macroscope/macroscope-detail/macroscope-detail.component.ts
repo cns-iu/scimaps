@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { relative } from 'path';
 import { drawerInOut } from '../../../constants/drawer.animations';
 
 @Component({

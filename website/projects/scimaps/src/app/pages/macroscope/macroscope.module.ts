@@ -7,6 +7,7 @@ import { ItemDrawerModule } from '../../shared/components/item-drawer/item-drawe
 import { MakerVideoModule } from '../../shared/components/maker-video/maker-video.module';
 import { MacroscopeDetailComponent } from './macroscope-detail/macroscope-detail.component';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
+import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
 
 @NgModule({
   declarations: [MacroscopeComponent, MacroscopeDetailComponent],
@@ -15,7 +16,8 @@ import { DrawerModule } from '../../shared/components/drawer/drawer.module';
     MakerVideoModule,
     MacroscopeRoutingModule,
     ItemDrawerModule,
-    DrawerModule
+    DrawerModule,
+    DrawerHeaderModule
   ]
 })
 export class MacroscopeModule { }
