@@ -1,4 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { RouterTestingModule } from '@angular/router/testing';
 
 import { MacroscopeDetailComponent } from './macroscope-detail.component';
 
@@ -8,6 +10,7 @@ describe('MacroscopeDetailComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [RouterTestingModule, NoopAnimationsModule],
       declarations: [ MacroscopeDetailComponent ]
     })
     .compileComponents();
