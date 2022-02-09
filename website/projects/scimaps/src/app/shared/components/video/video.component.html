@@ -1,1 +1,15 @@
-<p>video works!</p>
+<div class="container">
+  <video controls class="video" autoplay>
+    <source [src]="url | safe: 'resourceUrl'" type="video/webm" />
+    <source [src]="url | safe: 'resourceUrl'" type="video/mp4" />
+    <source [src]="url | safe: 'resourceUrl'" type="video/ogg" />
+    <source [src]="url | safe: 'resourceUrl'" type="video/3gp" />
+    <source [src]="url | safe: 'resourceUrl'" type="video/quicktime" />
+    <source [src]="url | safe: 'resourceUrl'" type="video/x-quicktime" />
+    <source [src]="url | safe: 'resourceUrl'" type="video/avi" />
+    <source [src]="url | safe: 'resourceUrl'" type="video/x-ms-wmv" />
+    <source [src]="url | safe: 'resourceUrl'" type="video/x-ms-asf" />
+    Sorry, your browser doesn't support embedded videos.
+  </video>
+  <!-- <iframe  [src]=" url | safe: 'resourceUrl'" frameborder="0" allowfullscreen></iframe> -->
+</div>

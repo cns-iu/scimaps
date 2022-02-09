@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'sci-video',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideoComponent implements OnInit {
 
+  @Input() url: string = '';
+
   constructor() { }
 
   ngOnInit(): void {
+    if (this.url) {
+    }
   }
 
 }
