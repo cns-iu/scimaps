@@ -17,11 +17,6 @@ const routes: Routes = [{
   children: [
     {
       path: 'detail',
-      data: {
-        video: of({
-          videoLink: 'http://idemo.cns.iu.edu/macroscopes/fleetmon.webm'
-        })
-      },
       component: MacroscopeDetailComponent,
     },
   ],
