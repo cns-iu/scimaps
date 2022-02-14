@@ -53,7 +53,6 @@ const testItem: MapMacroscopeItem = {
 describe('MacroscopeDetailComponent', () => {
   let component: MacroscopeDetailComponent;
   let fixture: ComponentFixture<MacroscopeDetailComponent>;
-  let router: Router;
   beforeEach(async () => {
     const route = {
       parent: {
@@ -77,7 +76,6 @@ describe('MacroscopeDetailComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(MacroscopeDetailComponent);
     component = fixture.componentInstance;
-    router = TestBed.inject(Router);
     fixture.detectChanges();
   });
 
