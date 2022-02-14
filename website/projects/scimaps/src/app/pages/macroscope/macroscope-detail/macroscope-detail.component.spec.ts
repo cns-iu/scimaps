@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { MacroscopeModule } from '../macroscope.module';
@@ -53,7 +53,7 @@ const testItem: MapMacroscopeItem = {
 describe('MacroscopeDetailComponent', () => {
   let component: MacroscopeDetailComponent;
   let fixture: ComponentFixture<MacroscopeDetailComponent>;
-
+  let router: Router;
   beforeEach(async () => {
     const route = {
       parent: {
@@ -77,13 +77,15 @@ describe('MacroscopeDetailComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(MacroscopeDetailComponent);
     component = fixture.componentInstance;
-    component.item = testItem;
+    router = TestBed.inject(Router);
     fixture.detectChanges();
   });
 
   it('should create', () => {
-    component.item = testItem;
-    fixture.detectChanges();
     expect(component).toBeTruthy();
+  });
+  it('should close', () => {
+    component.close();
+    expect(component.showOverlay).toBeFalsy();
   });
 });
