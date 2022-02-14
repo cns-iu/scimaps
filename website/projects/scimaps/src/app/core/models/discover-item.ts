@@ -53,7 +53,7 @@ export interface MapMacroscopeItem {
   translations: Language[];
   externalLink: string;
   iteration: number;
-  videoLink?: string
+  videoLink?: string;
 }
 
 /**

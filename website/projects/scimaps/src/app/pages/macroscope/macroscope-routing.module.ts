@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { of } from 'rxjs';
 import { MapMacroscopeResolverService } from '../../shared/services/map-macroscope-resolver.service';
 import { MacroscopeDetailComponent } from './macroscope-detail/macroscope-detail.component';
 import { MacroscopeComponent } from './macroscope.component';

@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class VideoComponent implements OnInit {
 
-  @Input() url: string = '';
+  @Input() url = '';
 
   constructor() { }
 
