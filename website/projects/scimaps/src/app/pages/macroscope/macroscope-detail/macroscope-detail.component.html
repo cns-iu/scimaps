@@ -3,7 +3,7 @@
         <sci-drawer-header backText="Macroscope" (backClick)="close()">
         </sci-drawer-header>
         <div class="overlay-container">
-            <div class="video-wrapper" *ngIf="item?.videoLink">
+            <div class="video-wrapper" *ngIf="item.videoLink">
                 <sci-video [url]="item.videoLink"></sci-video>
             </div>  
         </div>

@@ -12,8 +12,6 @@ export class VideoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    if (this.url) {
-    }
   }
 
 }
