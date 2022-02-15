@@ -39,11 +39,15 @@
       </div>
 
       <div class="details-image">
-        <div class="container" [ngClass]="{'clickable': item.externalLink ? true : false}" (click)="redirect(item.externalLink)">
+        <div class="container" [ngClass]="{'clickable': item.externalLink || item.videoLink ? true : false}" (click)="redirect()">
+          <!-- Image -->
           <img class="thumbnail" [src]="item.thumbnail" alt="item image">
           <div class="icon" *ngIf="item.externalLink">
             <mat-icon *ngIf="type === 'map'" class="zoom">zoom_in</mat-icon>
             <mat-icon *ngIf="type === 'macroscope'" class="launch">launch</mat-icon>
+          </div>
+          <div class="icon" *ngIf="item.videoLink">
+            <mat-icon *ngIf="type === 'macroscope'" class="video">smart_display</mat-icon>
           </div>
         </div>
       </div>
