@@ -6,6 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./video.component.scss']
 })
 export class VideoComponent {
-
   @Input() url = '';
 }
