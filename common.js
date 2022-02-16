@@ -47,6 +47,7 @@ class MapMacroscopeResolverService {
                 return Object.keys(data).includes(lang.abbr_short);
             });
             item.externalLink = data.en.externalLink;
+            item.videoLink = data.en.videoLink;
             return item;
         }));
         const people$ = response$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((items) => items.makers), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["mergeMap"])((slugs) => {

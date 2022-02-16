@@ -90,7 +90,8 @@
         "med": "image.med.jpg",
         "lg": "image.lg.jpg"
       },
-      "externalLink": "http://cultsci.net/"
+      "externalLink": "http://cultsci.net/",
+      "videoLink": "http://idemo.cns.iu.edu/macroscopes/ChartingCulture.webm"
     }
   },
   {
@@ -181,7 +182,8 @@
         "med": "image.med.jpg",
         "lg": "image.lg.jpg"
       },
-      "externalLink": "http://www.fleetmon.com/services/live-tracking/fleetmon-explorer"
+      "externalLink": "http://www.fleetmon.com/services/live-tracking/fleetmon-explorer",
+      "videoLink": "http://idemo.cns.iu.edu/macroscopes/fleetmon.webm"
     }
   },
   {

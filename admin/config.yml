@@ -510,6 +510,7 @@ collections:
           - { name: med, label: Medium (160px Width), widget: image }
           - { name: lg, label: Large (865px Width), widget: image }
       - { name: externalLink, label: External Link, required: false }
+      - { name: videoLink, label: Video Link, required: false }
 
   - name: mapIteration
     label: Map Iterations
