@@ -3,17 +3,16 @@ import { ActivatedRouteSnapshot, Resolve, RouterStateSnapshot } from '@angular/r
 import { Observable, of } from 'rxjs';
 
 interface SubmissionBody {
-  body: string;
+  
 }
+
 @Injectable({
   providedIn: 'root'
 })
-export class SubmissionsBodyResolverService implements Resolve<SubmissionBody> {
+export class SubmissionResolverService implements Resolve<SubmissionBody> {
 
   constructor() { }
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<SubmissionBody> | Observable<never> {
-    return of({
-      body: 'sample submission body'
-    });  
+    return of({})
   }
 }

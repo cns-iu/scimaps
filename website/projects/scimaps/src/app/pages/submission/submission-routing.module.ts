@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { SubmissionComponent } from './submission.component';
 
-const routes: Routes = [];
+const routes: Routes = [{
+  path: ':sequence',
+  component: SubmissionComponent
+}];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
