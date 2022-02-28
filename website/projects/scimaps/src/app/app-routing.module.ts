@@ -63,6 +63,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/blogs/blogs.module').then(m => m.BlogsModule)
   },
   {
+    path: 'submissions',
+    loadChildren: () => import('./pages/submissions/submissions.module').then(m => m.SubmissionsModule)
+  },
+  {
     path: '**',
     redirectTo: '/home'
   }
