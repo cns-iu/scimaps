@@ -198,7 +198,15 @@ collections:
                 search_fields: ['title']
                 value_field: '{{slug}}'
                 display_fields: ['{{title}}']
-              
+
+      - label: Submissions
+        name: submissions
+        file: content/site/submissions/submissions.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'submissions'
+        fields:
+          - { name: body, label: Body, widget: markdown} 
 
   - name: learning-materials
     label: Learning Materials
@@ -620,7 +628,7 @@ backend:
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ## Basically run `npx netlify-cms-proxy-server` and launch the angular site
 
-# local_backend: true
+local_backend: true
 
 i18n:
   structure: single_file
