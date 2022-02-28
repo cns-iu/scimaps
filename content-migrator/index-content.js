@@ -33,10 +33,12 @@ function index(globString, path) {
   writeJSON(pathJoin(INDEXES, path), data);
 }
 
+index('submissionIteration/**/readme.md', 'submissionIterations.json');
 index('mapIteration/**/readme.md', 'mapIterations.json');
 index('macroscopeIteration/**/readme.md', 'macroscopeIterations.json');
 index('map/**/readme.md', 'maps.json');
 index('macroscope/**/readme.md', 'macroscopes.json');
+index('submission/**/readme.md', 'submissions.json');
 index('gallery/**/readme.md', 'galleries.json');
 index('person/**/readme.md', 'people.json');
 index('book/**/readme.md', 'books.json');
@@ -107,5 +109,6 @@ function writeVideoIndex() {
 
 writeAppMapIndex('map');
 writeAppMapIndex('macroscope');
+writeAppMapIndex('submission')
 writeAppBlogIndex();
 writeVideoIndex();

@@ -92,7 +92,6 @@ collections:
             - { name: label, label: Label}
             - { name: date, widget: date, label: Date, format: YYYY-MM-DD, timeformat: false }
          
-
       - label: Hosting
         name: Hosting
         file: content/site/hosting/hosting.md
@@ -510,6 +509,58 @@ collections:
           - { name: med, label: Medium (160px Width), widget: image }
           - { name: lg, label: Large (865px Width), widget: image }
       - { name: externalLink, label: External Link, required: false }
+  
+  - name: submission
+    folder: content/submission
+    label: Submissions
+    label_singular: Submission
+    path: '{{iteration}}/{{sequence}}/readme'
+    create: true
+    i18n: true
+    slug: '{{slug}}'
+    preview_path: submission/{{iteration}}/{{sequence}}
+    fields: 
+      - { name: title, label: Title, i18n: true }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown, i18n: true }
+      - name: makers
+        label: Makers
+        widget: relation
+        multiple: true
+        collection: person
+        search_fields: ['name']
+        value_field: '{{slug}}'
+        display_fields: ['{{name}}']
+      - { name: year, label: Year, widget: number, min: -2000, default: 2020 }
+      - { name: creditLine, label: Translation Credit, required: false }
+      - { name: references, label: References, widget: list, summary: '{{fields.ref}}', allow_add: true, field: {name: ref, label: Reference, widget: markdown }}
+      - name: image
+        label: Image
+        widget: object
+        collapsed: false
+        fields:
+          - { name: sm, label: Small (80px Width), widget: image }
+          - { name: med, label: Medium (160px Width), widget: image }
+          - { name: lg, label: Large (865px Width), widget: image }
+      - { name: externalLink, label: External Link, required: false }
+  
+      
+      
+  - name: SubmissionIteration
+    label: Submission Iterations
+    label_singular: Submission Iteration
+    folder: content/submissionIteration
+    path: '{{iteration}}/readme'
+    create: true
+    slug: '{{slug}}'
+    preview_path: submission/{{iteration}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown }
 
   - name: mapIteration
     label: Map Iterations
