@@ -11,6 +11,7 @@ export const getBlog = (n: number): Blog[] => {
   const result: Blog[] = [];
   for (let i = 0; i < n; i++) {
     result.push({
+      publish_date: new Date().toUTCString(),
       title: `title ${i}`,
       date: new Date().toISOString(),
       body: `body ${i}`,

@@ -7,7 +7,7 @@ import { getMakerVideo } from '../../../pages/maker-videos/maker-videos-resolver
 import { MakerVideoComponent } from './maker-video.component';
 import { MakerVideoModule } from './maker-video.module';
 
-const videos = getMakerVideo(10);
+const video = getMakerVideo(1)[0];
 
 describe('MakerVideoComponent', () => {
   let component: MakerVideoComponent;
@@ -15,16 +15,13 @@ describe('MakerVideoComponent', () => {
   let router: Router;
   beforeEach(async () => {
     const route = {
-      snapshot: { params: { slug: 'slug1'},
-      data: {}
-    },
-      parent: {
-        snapshot: {
-          data: {
-            videos
-          }
+      snapshot: {
+        params: { slug: video.slug },
+        data: {
+          video
         }
-    }};
+      },
+    };
     const routerValue = {
       navigate: jasmine.createSpy('navigate')
     };
@@ -32,17 +29,17 @@ describe('MakerVideoComponent', () => {
       imports: [MakerVideoModule, RouterTestingModule, MarkdownModule.forRoot(), NoopAnimationsModule],
       providers: [
         { provide: ActivatedRoute, useValue: route },
-        { provide: Router, useValue: routerValue}
+        { provide: Router, useValue: routerValue }
       ]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(MakerVideoComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
     router = TestBed.inject(Router);
+    fixture.detectChanges();
   });
 
   it('should create', () => {
@@ -50,7 +47,7 @@ describe('MakerVideoComponent', () => {
   });
 
   it('should have correct video', () => {
-    expect(component.video.slug).toEqual('slug1');
+    expect(component.video.slug).toEqual(video.slug);
   });
 
   it('should close', () => {

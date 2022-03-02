@@ -19,38 +19,47 @@ export class LearningCenterComponent implements OnInit {
   itemsPerRow = 4;
   featuredBlog: Blog | undefined;
   featuredVideo: MakerVideo | undefined;
+
   ngOnInit(): void {
     const { data } = this.activatedRoute.snapshot;
     const { body, blogs, videos } = data;
     if (body) {
       this.body = body;
     }
+
     this.setBlogs(blogs);
     this.setVideos(videos);
+    // Set featured
+    this.setFeatured();
   }
+
   setBlogs(blogs: Blog[]): void {
     if (Array.isArray(blogs) && blogs.length) {
       this.blogs = blogs;
-      const { type, slug } = this.body.featured;
-      if (type === 'blog' && slug) {
-        this.featuredBlog = this.blogs[0];
-        const foundIndex = this.blogs.findIndex(item => item.slug === slug);
-        if (foundIndex >= 0) {
-          this.featuredBlog = this.blogs[foundIndex];
-        }
-      }
     }
   }
+
   setVideos(videos: MakerVideo[]): void {
     if (Array.isArray(videos) && videos.length) {
       this.videos = videos;
-      const { type, slug } = this.body.featured;
-      if (type === 'video' && slug) {
+    }
+  }
+
+  setFeatured(): void {
+    const { type } = this.body.featured;
+    if (type === 'video') {
+      const { featuredVideo } = this.body;
+      if (featuredVideo) {
+        this.featuredVideo = featuredVideo;
+      } else {
         this.featuredVideo = this.videos[0];
-        const foundIndex = this.videos.findIndex(item => item.slug === slug);
-        if (foundIndex >= 0) {
-          this.featuredVideo = this.videos[foundIndex];
-        }
+      }
+    } else {
+      const { featuredBlog } = this.body;
+      if (featuredBlog) {
+        this.featuredBlog = featuredBlog;
+      } else {
+        this.featuredBlog = this.blogs[0];
       }
     }
   }

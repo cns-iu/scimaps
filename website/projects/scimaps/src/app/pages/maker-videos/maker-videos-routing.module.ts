@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MakerVideoComponent } from '../../shared/components/maker-video/maker-video.component';
+import { MakerVideoResolverService } from './maker-video-resolver.service';
 import { MakerVideosBodyResolverService } from './maker-videos-body-resolver.service';
 import { MakerVideosResolverService } from './maker-videos-resolver.service';
 import { MakerVideosComponent } from './maker-videos.component';
@@ -16,6 +17,9 @@ const routes: Routes = [
     children: [
       {
         path: ':slug',
+        resolve: {
+          video: MakerVideoResolverService
+        },
         component: MakerVideoComponent
       }
     ]
