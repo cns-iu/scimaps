@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'sci-submission',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SubmissionComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) {
+  }
+  submission = {};
 
   ngOnInit(): void {
+    this.route.data.subscribe(data => {
+      console.log(data)
+      const {submission} = data;
+      if (submission) {
+        this.submission = submission
+      }
+    });
   }
-
 }

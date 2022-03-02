@@ -12,12 +12,19 @@ const routes: Routes = [
       submissions: SubmissionResolverService,
       body: SubmissionsBodyResolverService
     },
-    runGuardsAndResolvers: 'pathParamsOrQueryParamsChange',
+    runGuardsAndResolvers: 'pathParamsOrQueryParamsChange'
+  }, 
+  {
+    path: ':iteration',
+    component: SubmissionsComponent,
+    resolve: {
+      submissions: SubmissionResolverService
+    },
     children: [
       {
         path: '',
         loadChildren: () => import('../submission/submission.module').then(m => m.SubmissionModule),
-        data: { animation: 'Macroscope', type: 'macroscope' }
+        data: { animation: 'Macroscope', type: 'submission' }
       }
     ]
   }

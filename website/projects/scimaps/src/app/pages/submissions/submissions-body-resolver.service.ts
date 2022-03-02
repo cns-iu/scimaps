@@ -17,7 +17,10 @@ export class SubmissionsBodyResolverService implements Resolve<SubmissionsBody> 
   
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<SubmissionsBody> | Observable<never> {
     return this.content.getContent<SubmissionsBody>('site/submissions/submissions.md').pipe(
-      take(1)
-    );  
+      take(1),
+      map(response => {
+        return response;
+      })
+    );
   }
 }

@@ -1,1 +1,16 @@
 <p>submissions works!</p>
+
+
+<div>
+    START
+</div>
+
+<div *ngFor="let s of submissions">
+    {{s | json}}
+</div>
+
+<div>
+    END
+</div>
+
+<router-outlet></router-outlet>

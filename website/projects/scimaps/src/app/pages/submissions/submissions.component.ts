@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Subscription } from 'rxjs';
+import { DiscoverItem } from '../../core/models/discover-item';
 
 @Component({
   selector: 'sci-submissions',
@@ -7,9 +10,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SubmissionsComponent implements OnInit {
 
-  constructor() { }
+  submissions = []
+  dataSubscription: Subscription
+
+  thumbnails = []
+
+  constructor(private route: ActivatedRoute) {
+    const snapshot = this.route.snapshot;
+    this.dataSubscription =  this.route.data.subscribe((data) => {
+      const {body, submissions} = data;
+      if (submissions) {
+        this.submissions = submissions;
+      }
+    });
+  }
 
   ngOnInit(): void {
   }
 
+  ngOnDestroy() {
+    if (this.dataSubscription) {
+      this.dataSubscription.unsubscribe();
+    }
+  }
 }

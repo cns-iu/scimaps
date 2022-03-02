@@ -9,10 +9,6 @@ import { MapsComponent } from './maps.component';
 
 const routes: Routes = [
   {
-    path: 'tile',
-    component: TileComponent
-  },
-  {
   path: '',
   component: MapsComponent,
   resolve: {

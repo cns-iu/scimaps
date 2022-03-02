@@ -61,6 +61,7 @@ function writeAppMapIndex(mapType) {
     };
     return acc;
   }, {});
+
   for (const map of readIndex(`${mapType}s`)) {
     const link = `${mapType}/${map.en.iteration}/${map.en.sequence}`;
     iterations[map.en.iteration].thumbnails[map.en.sequence] = {
