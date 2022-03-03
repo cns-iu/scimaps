@@ -63,9 +63,21 @@ const routes: Routes = [
     loadChildren: () => import('./pages/blogs/blogs.module').then(m => m.BlogsModule)
   },
   {
-    path: 'submissions',
-    loadChildren: () => import('./pages/submissions/submissions.module').then(m => m.SubmissionsModule)
+    matcher: (url: UrlSegment[]) => {
+      if (url.length >= 1 && (url[0].path === 'submission' || url[0].path === 'submissions')) {
+        return {
+          consumed: [url[0]]
+        };
+      }
+      return null;
+    },
+    loadChildren: () => import('./pages/submissions/submissions.module').then(m => m.SubmissionsModule),
+    data: { animation: 'Macroscopes' }
   },
+  // {
+  //   path: 'submissions',
+  //   loadChildren: () => import('./pages/submissions/submissions.module').then(m => m.SubmissionsModule)
+  // },
   {
     path: '**',
     redirectTo: '/home'
