@@ -10,7 +10,7 @@ import { DiscoverItem } from '../../core/models/discover-item';
 })
 export class SubmissionsComponent implements OnInit {
 
-  submissions = []
+  submissions: DiscoverItem[] = []
   dataSubscription: Subscription
 
   thumbnails = []

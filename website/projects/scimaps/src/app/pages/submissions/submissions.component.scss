@@ -1,0 +1,14 @@
+@import '../../../styling/breakpoints';
+
+:host {
+  .main {
+  }
+
+  .discover-item {
+    margin-bottom: 2rem;
+
+    @media (max-width: $mobile) {
+      display: none;
+    }
+  }
+}

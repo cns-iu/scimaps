@@ -17,8 +17,11 @@
 </div>
 
 <div class="image-content">
-  <div class="thumbnail desktop" *ngFor="let thumbnail of discoverItem.thumbnails" (click)="desktopThumbnailClickHandler(thumbnail.link)">
+  <div class="thumbnail desktop" *ngFor="let thumbnail of discoverItem.thumbnails; let i = index" (click)="desktopThumbnailClickHandler(thumbnail.link)">
     <img class="thumbnail-image" [src]="imageSource(thumbnail.image)" [alt]="thumbnail.image">
+    <ng-template [ngIf]="type == 'submissions'">
+      <h4>{{i + 1}}.{{thumbnail.title}}</h4>
+    </ng-template>
   </div>
 
   <div class="thumbnail mobile" *ngFor="let thumbnail of discoverItem.thumbnails" (click)="mobileThumbnailClickHandler(thumbnail.link)">
