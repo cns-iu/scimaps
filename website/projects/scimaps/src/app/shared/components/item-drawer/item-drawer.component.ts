@@ -83,7 +83,7 @@ export class ItemDrawerComponent implements OnInit {
   redirect(link: string): void {
     if (this.type === 'map') {
       this.router.navigate(['detail'], {relativeTo: this.route});
-    } else {
+    } else if (this.type === 'macroscope') {
       if (link) {
         window.open(link, '_blank');
       }

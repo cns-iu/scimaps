@@ -1,24 +1,43 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Subscription } from 'rxjs';
+import { MapMacroscopeItem } from '../../core/models/discover-item';
 
 @Component({
   selector: 'sci-submission',
   templateUrl: './submission.component.html',
   styleUrls: ['./submission.component.scss']
 })
-export class SubmissionComponent implements OnInit {
+export class SubmissionComponent implements OnInit, OnDestroy {
 
-  constructor(private route: ActivatedRoute) {
-  }
+  /**
+   * The current item displayed
+   */
+  selectedItem!: MapMacroscopeItem;
+
+  /**
+   * Selected language
+   */
+  currentLanguage = 'en';
+
+  private subscription?: Subscription;
+
+  constructor(private route: ActivatedRoute) {}
+ 
   submission = {};
 
   ngOnInit(): void {
-    this.route.data.subscribe(data => {
-      console.log(data)
-      const {submission} = data;
+    this.subscription = this.route.data.subscribe(data => {
+      const { submission } = data;
       if (submission) {
-        this.submission = submission
+        this.selectedItem = submission
       }
     });
+  }
+
+  ngOnDestroy(): void {
+    if (this.subscription) {
+      this.subscription.unsubscribe();
+    }
   }
 }

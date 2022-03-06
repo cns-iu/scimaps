@@ -6,15 +6,6 @@ import { SubmissionsComponent } from './submissions.component';
 
 const routes: Routes = [
   {
-    path: '',
-    component: SubmissionsComponent,
-    resolve: {
-      submissions: SubmissionResolverService,
-      body: SubmissionsBodyResolverService
-    },
-    runGuardsAndResolvers: 'pathParamsOrQueryParamsChange'
-  }, 
-  {
     path: ':iteration',
     component: SubmissionsComponent,
     resolve: {
@@ -27,7 +18,16 @@ const routes: Routes = [
         data: { animation: 'Macroscope', type: 'submission' }
       }
     ]
-  }
+  },
+  {
+    path: '',
+    component: SubmissionsComponent,
+    resolve: {
+      submissions: SubmissionResolverService,
+      body: SubmissionsBodyResolverService
+    },
+    runGuardsAndResolvers: 'pathParamsOrQueryParamsChange'
+  }, 
 ];
 
 @NgModule({
