@@ -23,6 +23,8 @@ $mobile: 640px;
 
 :host(.submissions) {
   .image-content {
+    width: 100%;
+    margin: auto;
     .thumbnail {
       width: 44%;
       border: 1px solid #ccc;
@@ -35,10 +37,6 @@ $mobile: 640px;
     }
   }
   flex-direction: column;
-  .image-content {
-    width: 100%;
-    margin: auto;
-  }
   .text-content {
     padding-left: 0;
     padding-right: 0;
