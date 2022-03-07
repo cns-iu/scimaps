@@ -11,18 +11,19 @@ import { DiscoverItem } from '../../core/models/discover-item';
 export class SubmissionsComponent implements OnInit {
 
   submissions: DiscoverItem[] = []
-  dataSubscription: Subscription
+  dataSubscription: Subscription | undefined;
 
   thumbnails = []
 
   constructor(private route: ActivatedRoute) {
-    const snapshot = this.route.snapshot;
-    this.dataSubscription =  this.route.data.subscribe((data) => {
-      const {body, submissions} = data;
-      if (submissions) {
-        this.submissions = submissions;
-      }
-    });
+    if (this.route.data) {
+      this.dataSubscription =  this.route.data.subscribe((data) => {
+        const {body, submissions} = data;
+        if (submissions) {
+          this.submissions = submissions;
+        }
+      });
+    }
   }
 
   ngOnInit(): void {

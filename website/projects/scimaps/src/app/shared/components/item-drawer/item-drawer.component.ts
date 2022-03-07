@@ -21,7 +21,7 @@ export class ItemDrawerComponent implements OnInit {
   /**
    * Type of item displayed
    */
-  @Input() type!: 'map' | 'macroscope';
+  @Input() type!: 'map' | 'macroscope' | 'submission';
 
   /**
    * Item to be displayed in the drawer

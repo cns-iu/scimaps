@@ -1,4 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ActivatedRoute } from '@angular/router';
+import { SubmissionModule } from '../submission/submission.module';
 
 import { SubmissionsComponent } from './submissions.component';
 
@@ -7,8 +9,19 @@ describe('SubmissionsComponent', () => {
   let fixture: ComponentFixture<SubmissionsComponent>;
 
   beforeEach(async () => {
+    const route = {
+      snapshot: {
+        params: {},
+        data: {}
+      },
+    };
     await TestBed.configureTestingModule({
-      declarations: [ SubmissionsComponent ]
+      imports: [
+        SubmissionModule
+      ],
+      providers: [
+        { provide: ActivatedRoute, useValue: route }, 
+      ]
     })
     .compileComponents();
   });
