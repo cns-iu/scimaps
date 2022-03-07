@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, Params, Resolve, RouterStateSnapshot } from '@angular/router';
-import { Observable, of } from 'rxjs';
+import { Params, Resolve } from '@angular/router';
+import { Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 import { DiscoverItem } from '../../core/models/discover-item';
 import { ContentService } from '../../shared/services/content.service';

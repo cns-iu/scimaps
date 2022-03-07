@@ -16,17 +16,18 @@ export class SubmissionsComponent implements OnInit, OnDestroy {
   thumbnails = [];
 
   constructor(private route: ActivatedRoute) {
+
+  }
+
+  ngOnInit(): void {
     if (this.route.data) {
-      this.dataSubscription =  this.route.data.subscribe((data) => {
-        const {body, submissions} = data;
+      this.dataSubscription = this.route.data.subscribe((data) => {
+        const { submissions } = data;
         if (submissions) {
           this.submissions = submissions;
         }
       });
     }
-  }
-
-  ngOnInit(): void {
   }
 
   ngOnDestroy(): void {
