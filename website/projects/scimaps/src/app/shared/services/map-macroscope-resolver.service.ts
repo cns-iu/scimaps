@@ -40,6 +40,7 @@ export class MapMacroscopeResolverService implements Resolve<MapMacroscopeItem> 
           return Object.keys(data).includes(lang.abbr_short);
         });
         item.externalLink = data.en.externalLink;
+        item.videoLink = data.en.videoLink;
         return item;
       })
     );

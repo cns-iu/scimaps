@@ -1,1 +1,4 @@
-<sci-item-drawer class="macroscope" [item]="selectedItem" [type]="'macroscope'" (languageChange)="changeLanguage($event)"></sci-item-drawer>
+<sci-item-drawer class="macroscope" [item]="selectedItem" [type]="'macroscope'" (languageChange)="changeLanguage($event)">
+    <router-outlet detail-macroscope>
+    </router-outlet>
+</sci-item-drawer>

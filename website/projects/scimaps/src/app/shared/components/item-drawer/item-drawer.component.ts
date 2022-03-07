@@ -80,12 +80,18 @@ export class ItemDrawerComponent implements OnInit {
     });
   }
 
-  redirect(link: string): void {
+  redirect(): void {
     if (this.type === 'map') {
       this.router.navigate(['detail'], {relativeTo: this.route});
-    } else if (this.type === 'macroscope') {
-      if (link) {
-        window.open(link, '_blank');
+    }
+    else if (this.type === 'macroscope') {
+      const {videoLink, externalLink} = this.item;
+      if (videoLink) {
+        this.router.navigate(['detail'], {relativeTo: this.route});
+        return;
+      }
+      if (externalLink) {
+        window.open(externalLink, '_blank');
       }
     }
   }
