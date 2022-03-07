@@ -2,12 +2,20 @@
 const glob = require('glob');
 const fs = require('fs');
 const frontMatter = require('front-matter');
-const numberToRoman = require('big-roman').numberToRoman;
 const pathJoin = require('path').join;
-
 
 const CONTENT = '../content';
 const INDEXES = '../website/projects/scimaps/src/assets/indexes';
+
+var numberToRoman = function(N) {
+  // N => integer.
+  const val = [1000,900,500,400,100,90,50,40,10,9,5,4,1]
+  const rom = ["M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"]
+  let ans = ""
+  for (let i = 0; N; i++)
+      while (N >= val[i]) ans += rom[i], N -= val[i]
+  return ans
+};
 
 function readMarkdown(mdFile) {
   const data = frontMatter(fs.readFileSync(mdFile).toString());
