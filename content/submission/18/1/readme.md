@@ -24,14 +24,14 @@ en:
   references:
     - <https://www.nature.com/articles/s41467-021-24899-8>
   makers:
-    - abin-abraham/readme
+    - esteban-moro/readme
   image:
     sm: screenshot-2022-03-03-at-10.44.08-am.png
     med: screenshot-2022-03-03-at-10.44.08-am.png
     lg: screenshot-2022-03-03-at-10.44.08-am.png
 es:
   makers:
-    - abin-abraham/readme
+    - esteban-moro/readme
 zh: {}
 fr: {}
 pt: {}

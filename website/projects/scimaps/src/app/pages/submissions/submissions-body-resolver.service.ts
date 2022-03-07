@@ -15,7 +15,7 @@ export class SubmissionsBodyResolverService implements Resolve<SubmissionsBody> 
 
   constructor(private content: ContentService, private router: Router) { }
 
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<SubmissionsBody> | Observable<never> {
+  resolve(): Observable<SubmissionsBody> | Observable<never> {
     return this.content.getContent<SubmissionsBody>('site/submissions/submissions.md').pipe(
       take(1),
       map(response => {
