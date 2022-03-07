@@ -8,11 +8,7 @@ en:
     Authors: Sarah Crespi, Jia You
 
 
-
-
     Link to Macroscope: <https://vis.sciencemag.org/eggs/>  or <https://visdev.sciencemag.org/eggs/>  
-
-
 
 
     Abstract:
@@ -45,24 +41,19 @@ en:
     Graphs showing the relationship between egg shape and flight style 
 
 
-
-
-    Main insights gained: CRACKING THE MYSTERY OF EGG SHAPE follows researchers’ efforts to solve a long-standing mystery in biology: Why are eggs shaped differently from species to species? The work visualizes results from the analysis of a data set of 1400 species’ eggs, cataloged in a repository of egg photographs collected over the course of 100 years. The site exposes viewers to the diversity of birds, egg shapes, and the mechanisms by which eggs are formed. It also demonstrates how science can use data from historical sources in new ways. 
-
-
-
-
-    Reference:
-
-
-    https://www.science.org/doi/10.1126/science.aaj1945 Egg collection at Museum of Vertebrate Zoology https://mvz.berkeley.edu/mvzegg/
+    Main insights gained: CRACKING THE MYSTERY OF EGG SHAPE follows researchers’ efforts to solve a long-standing mystery in biology: Why are eggs shaped differently from species to species? The work visualizes results from the analysis of a data set of 1400 species’ eggs, cataloged in a repository of egg photographs collected over the course of 100 years. The site exposes viewers to the diversity of birds, egg shapes, and the mechanisms by which eggs are formed. It also demonstrates how science can use data from historical sources in new ways.
   image:
     sm: screenshot-2022-03-03-at-11.07.50-am.png
     med: screenshot-2022-03-03-at-11.07.50-am.png
     lg: screenshot-2022-03-03-at-11.07.50-am.png
   makers:
     - abin-abraham/readme
-es: {}
+  references:
+    - https://www.science.org/doi/10.1126/science.aaj1945 Egg collection at
+      Museum of Vertebrate Zoology https://mvz.berkeley.edu/mvzegg/
+es:
+  makers:
+    - abin-abraham/readme
 zh: {}
 fr: {}
 pt: {}
