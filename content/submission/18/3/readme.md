@@ -22,7 +22,7 @@ en:
 
     Two types of users were targeted. First, the IPCC researchers and practitioners, since the tool was issued as part of IPCC AR6. Second, education, media and the general public. . For the latter, a simple interface (climate futures) was deployed oriented to global warming levels, so users are directly confronted with the different policy relevant choices (our possible future worlds at 1.5º, 2º or 3º).
   makers:
-    - abin-abraham/readme
+    - the-ipcc-wgi-atlas-team/readme
   references:
     - >-
       IPCC, 2021: Climate Change 2021: The Physical Science Basis. Contribution

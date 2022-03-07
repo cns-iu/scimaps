@@ -25,6 +25,9 @@ en:
     - lutz-bornmann/readme
     - rudiger-mutz/readme
     - moritz-stefaner/readme
+    - robin-haunschild/readme
+    - mirko-clemente/readme
+    - felix-de-moya-angeon/readme
   image:
     sm: screenshot-2022-03-03-at-10.48.42-am.png
     med: screenshot-2022-03-03-at-10.48.42-am.png
@@ -36,7 +39,11 @@ en:
 
 
       Related site: <http://www.excellence-networks.net/>
-es: {}
+es:
+  makers:
+    - lutz-bornmann/readme
+    - rudiger-mutz/readme
+    - moritz-stefaner/readme
 zh: {}
 fr: {}
 pt: {}

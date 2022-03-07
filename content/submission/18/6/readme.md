@@ -38,12 +38,13 @@ en:
     med: screenshot-2022-03-03-at-11.13.55-am.png
     lg: screenshot-2022-03-03-at-11.13.55-am.png
   makers:
-    - abin-abraham/readme
+    - peter-herman/readme
+    - chang-zhao/readme
   references:
     - <https://www.ahrq.gov/sdoh/data-analytics/sdoh-data.html>
 es:
   makers:
-    - abin-abraham/readme
+    - peter-herman/readme
 zh: {}
 fr: {}
 pt: {}

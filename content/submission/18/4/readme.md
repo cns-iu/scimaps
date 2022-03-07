@@ -47,7 +47,8 @@ en:
     med: screenshot-2022-03-03-at-11.07.50-am.png
     lg: screenshot-2022-03-03-at-11.07.50-am.png
   makers:
-    - abin-abraham/readme
+    - sarah-crespi/readme
+    - jia-you/readme
   references:
     - https://www.science.org/doi/10.1126/science.aaj1945 Egg collection at
       Museum of Vertebrate Zoology https://mvz.berkeley.edu/mvzegg/

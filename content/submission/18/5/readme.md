@@ -19,7 +19,8 @@ en:
 
     Designed, developed, and narrated by Kim Albrecht, Matthew Battles, Fabian Dinklage, and Sydney Lewis
   makers:
-    - abin-abraham/readme
+    - andre-skupin/readme
+    - bigknowledge/readme
   image:
     sm: screenshot-2022-03-03-at-11.12.30-am.png
     med: screenshot-2022-03-03-at-11.12.30-am.png
