@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, Resolve, RouterStateSnapshot } from '@angular/router';
+import { ActivatedRouteSnapshot, Params, Resolve, RouterStateSnapshot } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 import { DiscoverItem } from '../../core/models/discover-item';
@@ -14,8 +14,7 @@ export class SubmissionResolverService implements Resolve<DiscoverItem[]> {
 
   constructor(private content: ContentService) { }
 
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<DiscoverItem[]> | Observable<never> {
-
+  resolve(route: Params): Observable<DiscoverItem[]> | Observable<never> {
     const {iteration} = route.params;
     return this.content.getIndex<DiscoverItem>('app-submissions').pipe(
       take(1),

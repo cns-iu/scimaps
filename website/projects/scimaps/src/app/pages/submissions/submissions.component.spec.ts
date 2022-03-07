@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ActivatedRoute } from '@angular/router';
+import { of } from 'rxjs';
 import { SubmissionModule } from '../submission/submission.module';
 
 import { SubmissionsComponent } from './submissions.component';
@@ -10,10 +11,9 @@ describe('SubmissionsComponent', () => {
 
   beforeEach(async () => {
     const route = {
-      snapshot: {
-        params: {},
-        data: {}
-      },
+      data: of({
+        submissions: []
+      })
     };
     await TestBed.configureTestingModule({
       imports: [
