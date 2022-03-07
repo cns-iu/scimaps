@@ -24,7 +24,7 @@
     </ng-template>
   </div>
 
-  <div class="thumbnail mobile" *ngFor="let thumbnail of discoverItem.thumbnails" (click)="mobileThumbnailClickHandler(thumbnail.link)">
+  <div class="thumbnail mobile" *ngFor="let thumbnail of discoverItem.thumbnails;" (click)="mobileThumbnailClickHandler(thumbnail.link)">
     <img class="thumbnail-image" [src]="imageSource(thumbnail.image)" [alt]="thumbnail.image">
   </div>
 </div>
