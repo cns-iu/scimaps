@@ -34,7 +34,7 @@
   @include call-for-macroscopes.theme($theme);
   @include hosting.theme($theme);
   @include venues.theme($theme);
-  @include submisssions.theme($them);
+  @include submissions.theme($theme);
 }
 
 // Default theme
