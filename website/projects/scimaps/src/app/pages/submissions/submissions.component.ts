@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { DiscoverItem } from '../../core/models/discover-item';
@@ -8,12 +8,12 @@ import { DiscoverItem } from '../../core/models/discover-item';
   templateUrl: './submissions.component.html',
   styleUrls: ['./submissions.component.scss']
 })
-export class SubmissionsComponent implements OnInit {
+export class SubmissionsComponent implements OnInit, OnDestroy {
 
-  submissions: DiscoverItem[] = []
+  submissions: DiscoverItem[] = [];
   dataSubscription: Subscription | undefined;
 
-  thumbnails = []
+  thumbnails = [];
 
   constructor(private route: ActivatedRoute) {
     if (this.route.data) {
@@ -29,7 +29,7 @@ export class SubmissionsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  ngOnDestroy() {
+  ngOnDestroy(): void {
     if (this.dataSubscription) {
       this.dataSubscription.unsubscribe();
     }

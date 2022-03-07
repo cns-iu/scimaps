@@ -5,10 +5,6 @@ import { map, take } from 'rxjs/operators';
 import { DiscoverItem } from '../../core/models/discover-item';
 import { ContentService } from '../../shared/services/content.service';
 
-interface SubmissionBody {
-
-}
-
 @Injectable({
   providedIn: 'root'
 })
@@ -24,10 +20,9 @@ export class SubmissionResolverService implements Resolve<DiscoverItem[]> {
     return this.content.getIndex<DiscoverItem>('app-submissions').pipe(
       take(1),
       map(item => {
-        console.log(item);
         if (iteration) {
           return item.filter(submission => {
-            return submission.iteration == iteration;
+            return submission.iteration === parseInt(iteration, 10);
           });
         } else {
           return item;

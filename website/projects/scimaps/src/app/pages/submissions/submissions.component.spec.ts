@@ -20,7 +20,7 @@ describe('SubmissionsComponent', () => {
         SubmissionModule
       ],
       providers: [
-        { provide: ActivatedRoute, useValue: route }, 
+        { provide: ActivatedRoute, useValue: route },
       ]
     })
     .compileComponents();

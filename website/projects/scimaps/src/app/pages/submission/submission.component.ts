@@ -23,7 +23,7 @@ export class SubmissionComponent implements OnInit, OnDestroy {
   private subscription?: Subscription;
 
   constructor(private route: ActivatedRoute) {}
- 
+
   submission = {};
 
   ngOnInit(): void {
@@ -31,7 +31,7 @@ export class SubmissionComponent implements OnInit, OnDestroy {
       const { submission } = data;
       console.log(submission);
       if (submission) {
-        this.selectedItem = submission
+        this.selectedItem = submission;
       }
     });
   }

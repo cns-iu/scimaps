@@ -27,7 +27,7 @@ const routes: Routes = [
       body: SubmissionsBodyResolverService
     },
     runGuardsAndResolvers: 'pathParamsOrQueryParamsChange'
-  }, 
+  },
 ];
 
 @NgModule({

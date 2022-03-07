@@ -5,13 +5,10 @@ import { SubmissionResolverService } from './submission-resolver.service';
 
 describe('SubmissionResolverService', () => {
   let service: SubmissionResolverService;
-  let contentService: ContentService;
-
   beforeEach(() => {
     const contentServiceSpy = jasmine.createSpyObj('ContentService', [
       'getIndex',
     ]);
-    
     TestBed.configureTestingModule({
       providers: [
         SubmissionResolverService,

@@ -6,7 +6,6 @@ import { SubmissionsBodyResolverService } from './submissions-body-resolver.serv
 
 describe('SubmissionsBodyResolverService', () => {
   let service: SubmissionsBodyResolverService;
-  let contentService: ContentService;
   beforeEach(() => {
     const contentServiceSpy = jasmine.createSpyObj('ContentService', ['getContent']);
     const routerStub = () => ({});

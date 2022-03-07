@@ -27,7 +27,7 @@ describe('SubmissionComponent', () => {
         NoopAnimationsModule
       ],
       providers: [
-        { provide: ActivatedRoute, useValue: route }, 
+        { provide: ActivatedRoute, useValue: route },
       ]
     })
     .compileComponents();
