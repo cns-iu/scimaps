@@ -27,7 +27,7 @@ describe('SubmissionResolverService', () => {
   });
 
   it('should call to contentService.getIndex', () => {
-    const testItem = {...discoverItem, iteration: 1}
+    const testItem = {...discoverItem, iteration: 1};
     expect(service).toBeTruthy();
     (contentService.getIndex as jasmine.Spy).withArgs('app-submissions').and.returnValue(of([
       testItem
@@ -37,5 +37,5 @@ describe('SubmissionResolverService', () => {
     expect(contentService.getIndex).toHaveBeenCalledTimes(1);
   });
 
-  
+
 });
