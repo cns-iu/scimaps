@@ -13,6 +13,7 @@
 @use './app/pages/call-for-macroscopes/call-for-macroscopes.theme.scss' as call-for-macroscopes;
 @use './app/pages/hosting/hosting.theme.scss' as hosting;
 @use '../app/pages/venues/venues.theme.scss' as venues;
+@use '../app/pages/submissions/submissions.theme.scss' as submissions;
 // Include the common styles for Angular Material. We include this here so that you only
 // have to load a single css file for Angular Material in your app.
 // Be sure that you only ever include this mixin once!
@@ -33,6 +34,7 @@
   @include call-for-macroscopes.theme($theme);
   @include hosting.theme($theme);
   @include venues.theme($theme);
+  @include submissions.theme($theme);
 }
 
 // Default theme

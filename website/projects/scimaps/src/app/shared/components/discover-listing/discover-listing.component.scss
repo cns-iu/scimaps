@@ -21,6 +21,32 @@ $mobile: 640px;
   }
 }
 
+:host(.submissions) {
+  .image-content {
+    width: 100%;
+    margin: auto;
+    .thumbnail {
+      width: 44%;
+      border: 1px solid #ccc;
+      padding: 2rem;
+    }
+    .thumbnail.desktop {
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+  flex-direction: column;
+  .text-content {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  h4 {
+    margin-top: 1rem;
+  }
+}
+
 :host {
   display: flex;
   flex-direction: row;

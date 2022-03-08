@@ -28,7 +28,6 @@
     }
   },
   "devDependencies": {
-    "big-roman": "^1.0.1",
     "front-matter": "^4.0.2",
     "glob": "^7.1.6",
     "js-yaml": "^3.14.0",

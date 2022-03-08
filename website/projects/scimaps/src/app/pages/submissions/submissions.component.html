@@ -1,0 +1,8 @@
+<ng-container *ngFor="let item of submissions;let i = index">
+    <div class="main">
+        <sci-discover-listing class="discover-item submissions" [discoverItem]="item" [type]="'submissions'">
+        </sci-discover-listing>
+    </div>
+</ng-container>
+
+<router-outlet></router-outlet>
