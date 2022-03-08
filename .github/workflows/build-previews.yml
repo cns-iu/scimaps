@@ -36,6 +36,10 @@ jobs:
         working-directory: website
       - run: cp -r admin website/dist/scimaps
         working-directory: '.'
+      - name: Setup Netlify files
+        working-directory: website
+        run: |
+          echo '/* /index.html 200' > dist/scimaps/_redirects
 
       - run: node -v > .nvmrc
       - uses: jsmrcaga/action-netlify-deploy@master

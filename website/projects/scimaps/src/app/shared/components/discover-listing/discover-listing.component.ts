@@ -19,7 +19,7 @@ export class DiscoverListingComponent {
   mobileWarning = 'Macroscopes work best on desktop or larger tablet screens.  You may have a less than optimal experience on this device.';
 
   /** Type of discover list */
-  @Input() type!: 'macroscopes' | 'maps';
+  @Input() type!: 'macroscopes' | 'maps' | 'submissions';
 
   fullContentVisible = false;
   maxContentLength = 500;
