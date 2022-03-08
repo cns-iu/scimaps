@@ -3553,7 +3553,7 @@ const routes = [
             }
             return null;
         },
-        loadChildren: () => Promise.all(/*! import() | pages-maps-maps-module */[__webpack_require__.e("default~pages-macroscopes-macroscopes-module~pages-maps-maps-module"), __webpack_require__.e("default~macroscope-macroscope-module~pages-maps-maps-module"), __webpack_require__.e("pages-maps-maps-module")]).then(__webpack_require__.bind(null, /*! ./pages/maps/maps.module */ "MWin")).then(m => m.MapsModule),
+        loadChildren: () => Promise.all(/*! import() | pages-maps-maps-module */[__webpack_require__.e("default~pages-macroscopes-macroscopes-module~pages-maps-maps-module~pages-submissions-submissions-module"), __webpack_require__.e("default~macroscope-macroscope-module~pages-maps-maps-module~submission-submission-module"), __webpack_require__.e("pages-maps-maps-module")]).then(__webpack_require__.bind(null, /*! ./pages/maps/maps.module */ "MWin")).then(m => m.MapsModule),
         data: { animation: 'Maps' }
     },
     {
@@ -3565,7 +3565,7 @@ const routes = [
             }
             return null;
         },
-        loadChildren: () => Promise.all(/*! import() | pages-macroscopes-macroscopes-module */[__webpack_require__.e("default~pages-macroscopes-macroscopes-module~pages-maps-maps-module"), __webpack_require__.e("common"), __webpack_require__.e("pages-macroscopes-macroscopes-module")]).then(__webpack_require__.bind(null, /*! ./pages/macroscopes/macroscopes.module */ "FJoV")).then(m => m.MacroscopesModule),
+        loadChildren: () => Promise.all(/*! import() | pages-macroscopes-macroscopes-module */[__webpack_require__.e("default~pages-macroscopes-macroscopes-module~pages-maps-maps-module~pages-submissions-submissions-module"), __webpack_require__.e("common"), __webpack_require__.e("pages-macroscopes-macroscopes-module")]).then(__webpack_require__.bind(null, /*! ./pages/macroscopes/macroscopes.module */ "FJoV")).then(m => m.MacroscopesModule),
         data: { animation: 'Macroscopes' }
     },
     {
@@ -3598,6 +3598,22 @@ const routes = [
         path: 'blogs',
         loadChildren: () => Promise.all(/*! import() | pages-blogs-blogs-module */[__webpack_require__.e("default~blogs-blogs-module~pages-blogs-blogs-module"), __webpack_require__.e("default~pages-blogs-blogs-module~pages-learning-center-learning-center-module")]).then(__webpack_require__.bind(null, /*! ./pages/blogs/blogs.module */ "j+3n")).then(m => m.BlogsModule)
     },
+    {
+        matcher: (url) => {
+            if (url.length >= 1 && (url[0].path === 'submission' || url[0].path === 'submissions')) {
+                return {
+                    consumed: [url[0]]
+                };
+            }
+            return null;
+        },
+        loadChildren: () => Promise.all(/*! import() | pages-submissions-submissions-module */[__webpack_require__.e("default~pages-macroscopes-macroscopes-module~pages-maps-maps-module~pages-submissions-submissions-module"), __webpack_require__.e("pages-submissions-submissions-module")]).then(__webpack_require__.bind(null, /*! ./pages/submissions/submissions.module */ "6zo9")).then(m => m.SubmissionsModule),
+        data: { animation: 'Macroscopes' }
+    },
+    // {
+    //   path: 'submissions',
+    //   loadChildren: () => import('./pages/submissions/submissions.module').then(m => m.SubmissionsModule)
+    // },
     {
         path: '**',
         redirectTo: '/home'
