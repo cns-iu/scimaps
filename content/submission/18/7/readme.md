@@ -3,32 +3,29 @@ en:
   iteration: 18
   sequence: 7
   year: 2020
-  title: Translation Spaces
+  title: Star Mapper
   body: >-
-    Author: Philipp Hofeneder 
+    Author: Jan Willem Tulp 
 
 
-    Link to Macroscope: <https://homepage.uni-graz.at/de/7/thematische-landkarten/>
+    Link to Macroscope: <https://sci.esa.int/star_mapper/> 
 
 
     Abstract:
 
 
-    Research with a focus on Humanities; first, maps were drawn by hand, then worked out with the help of Illustrator; they consist of several layers (translator, one specific translational project, other translations of the translator); they allow us to reconstruct certain movement patterns and shed a new light on translation as a social activity. The topic of the following maps are the translators of a history of Russia (written by Nikolay Karamzin) and published between 1818 and 1829 in St. Petersburg. The five translators translated the text into German. 
-
-
-    Designed, developed, and narrated by Kim Albrecht, Matthew Battles, Fabian Dinklage, and Sydney Lewis
+    ESA Star Mapper is an interactive visualization that lets a science interested audience explore what you can find in a star map. The data used for this visualization is based on the Hipparcos mission, which has measured the details of over 100.000 stars, at the time the largest such a collection of data about stars. The project was conceived as a stepping stone to a follow up mission, Gaia, in which measurements of 1.5 billion stars have been collected. The visualization allows users to interactively explore various measurements of more than  60.000 of the full dataset, including a real-time sped up simulation of stellar motion in the browser.
   makers:
-    - philipp-hofeneder/readme
+    - jan-willem-tulp/readme
   image:
-    sm: screenshot-2022-03-03-at-11.15.35-am.png
-    med: screenshot-2022-03-03-at-11.15.35-am.png
-    lg: screenshot-2022-03-03-at-11.15.35-am.png
+    sm: screenshot-2022-03-03-at-11.15.02-am.png
+    med: screenshot-2022-03-03-at-11.15.02-am.png
+    lg: screenshot-2022-03-03-at-11.15.02-am.png
   references:
     - <https://homepage.uni-graz.at/de/philipp.hofeneder/habilitationsprojekt-a-cartography-of-translation/>
 es:
   makers:
-    - abin-abraham/readme
+    - jan-willem-tulp/readme
 zh: {}
 fr: {}
 pt: {}
