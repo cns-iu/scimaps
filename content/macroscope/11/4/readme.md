@@ -55,4 +55,5 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
   externalLink: http://cultsci.net/
+  videoLink: http://idemo.cns.iu.edu/macroscopes/ChartingCulture.webm
 ---

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { TileComponent } from '../../shared/components/tile/tile.component';
 
 import { MapsBodyResolverService } from './maps-body-resolver.service';
 import { MapsResolverService } from './maps-resolver.service';
@@ -8,10 +7,6 @@ import { MapsComponent } from './maps.component';
 
 
 const routes: Routes = [
-  {
-    path: 'tile',
-    component: TileComponent
-  },
   {
   path: '',
   component: MapsComponent,
