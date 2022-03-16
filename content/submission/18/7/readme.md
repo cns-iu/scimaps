@@ -21,8 +21,7 @@ en:
     sm: screenshot-2022-03-03-at-11.15.02-am.png
     med: screenshot-2022-03-03-at-11.15.02-am.png
     lg: screenshot-2022-03-03-at-11.15.02-am.png
-  references:
-    - <https://homepage.uni-graz.at/de/philipp.hofeneder/habilitationsprojekt-a-cartography-of-translation/>
+  references: []
 es:
   makers:
     - jan-willem-tulp/readme
