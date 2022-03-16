@@ -34,6 +34,7 @@
     "@ngxs/store": "^3.7.3",
     "@types/openseadragon": "^2.4.8",
     "front-matter": "^4.0.2",
+    "karma-coverage": "^2.2.0",
     "ngx-google-analytics": "^11.2.1",
     "ngx-markdown": "^10.1.1",
     "ngx-swiper-wrapper": "^10.0.0",
