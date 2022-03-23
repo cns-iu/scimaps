@@ -15,22 +15,18 @@ module.exports = function (config) {
     client: {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
-    coverageIstanbulReporter: {
+    coverageReporter: {
       dir: require('path').join(__dirname, '../../coverage/scimaps'),
-      reports: ['html', 'lcovonly', 'text-summary'],
+      reports: [
+        'html',
+        'lcovonly',
+        'text-summary'
+      ],
       fixWebpackSourcePaths: true,
       check: {
         emitWarning: false,
         global: {
           statements: 85,
-          branches: 85,
-          functions: 85,
-          lines: 85
-        },
-        each: {
-          statements: 85,
-          branches: 85,
-          functions: 85,
           lines: 85
         }
       }
