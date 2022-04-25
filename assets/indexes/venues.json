@@ -15123,6 +15123,17 @@
     "venueImages": null
   },
   {
+    "dateStart": "2021-06-22T19:14:46.478Z",
+    "dateEnd": "2021-06-22T19:14:46.487Z",
+    "title": "Luddy Pre-College Summer Program",
+    "venue": "Luddy Pre-College Summer Program",
+    "organizer": "Indiana University Bloomington",
+    "credit": "Maps & Macroscopes",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States"
+  },
+  {
     "dateStart": "2021-09-24T00:00:00.000Z",
     "dateEnd": "2022-03-15T00:00:00.000Z",
     "title": "17th Iteration Debut and Macroscope Kiosk Display",
@@ -15254,5 +15265,74 @@
     "state": "Indiana",
     "country": "United States",
     "pdfLink": "24-hour-event.pdf"
+  },
+  {
+    "dateStart": "2021-12-15T20:31:24.713Z",
+    "dateEnd": "2021-12-15T20:31:24.721Z",
+    "title": "Nesta Firebreak",
+    "venue": "Nesta Firebreak",
+    "organizer": "Indiana University Bloomington",
+    "credit": "Maps & Macroscopes",
+    "city": "London",
+    "state": "UK",
+    "country": "United Kingdom",
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
+      },
+      {
+        "sm": "image03.sm.jpg",
+        "lg": "image03.lg.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2021-12-13T20:17:08.425Z",
+    "dateEnd": "2021-12-13T20:17:08.431Z",
+    "title": "Atlas of Forecasts Book Reading at Morgenstern's Books",
+    "venue": "Atlas of Forecasts Book Reading at Morgenstern's Books",
+    "organizer": "Morgenstern's Books",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States",
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
+      },
+      {
+        "sm": "image03.sm.jpg",
+        "lg": "image03.lg.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2022-03-14T13:00:00.000Z",
+    "dateEnd": "2022-03-15T20:30:03.083Z",
+    "title": "The Future of Learning & Work Workshop",
+    "venue": "The Future of Learning & Work Workshop",
+    "organizer": "Indiana University Bloomington",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States",
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
+      }
+    ]
   }
 ]
