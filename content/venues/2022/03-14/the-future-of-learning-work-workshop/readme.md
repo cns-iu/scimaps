@@ -4,6 +4,7 @@ dateEnd: 2022-03-15T20:30:03.083Z
 title: The Future of Learning & Work Workshop
 venue: The Future of Learning & Work Workshop
 organizer: Indiana University Bloomington
+credit: Medina Sydykanova
 city: Bloomington
 state: Indiana
 country: United States
