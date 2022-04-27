@@ -4,6 +4,7 @@ dateEnd: 2021-12-13T20:17:08.431Z
 title: Atlas of Forecasts Book Reading at Morgenstern's Books
 venue: Atlas of Forecasts Book Reading at Morgenstern's Books
 organizer: Morgenstern's Books
+credit: Katy Börner
 city: Bloomington
 state: Indiana
 country: United States
