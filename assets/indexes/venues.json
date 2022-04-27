@@ -15267,15 +15267,15 @@
     "pdfLink": "24-hour-event.pdf"
   },
   {
-    "dateStart": "2021-12-15T20:31:24.713Z",
-    "dateEnd": "2021-12-15T20:31:24.721Z",
-    "title": "Nesta Firebreak",
-    "venue": "Nesta Firebreak",
-    "organizer": "Indiana University Bloomington",
-    "credit": "Maps & Macroscopes",
-    "city": "London",
-    "state": "UK",
-    "country": "United Kingdom",
+    "dateStart": "2021-12-13T20:17:08.425Z",
+    "dateEnd": "2021-12-13T20:17:08.431Z",
+    "title": "Atlas of Forecasts Book Reading at Morgenstern's Books",
+    "venue": "Atlas of Forecasts Book Reading at Morgenstern's Books",
+    "organizer": "Morgenstern's Books",
+    "credit": "Katy Börner",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States",
     "venueImages": [
       {
         "sm": "image01.sm.jpg",
@@ -15292,15 +15292,15 @@
     ]
   },
   {
-    "dateStart": "2021-12-13T20:17:08.425Z",
-    "dateEnd": "2021-12-13T20:17:08.431Z",
-    "title": "Atlas of Forecasts Book Reading at Morgenstern's Books",
-    "venue": "Atlas of Forecasts Book Reading at Morgenstern's Books",
-    "organizer": "Morgenstern's Books",
-    "credit": "Katy Börner",
-    "city": "Bloomington",
-    "state": "Indiana",
-    "country": "United States",
+    "dateStart": "2021-12-15T20:31:24.713Z",
+    "dateEnd": "2021-12-15T20:31:24.721Z",
+    "title": "Nesta Firebreak",
+    "venue": "Nesta Firebreak",
+    "organizer": "Indiana University Bloomington",
+    "credit": "Maps & Macroscopes",
+    "city": "London",
+    "state": "UK",
+    "country": "United Kingdom",
     "venueImages": [
       {
         "sm": "image01.sm.jpg",
