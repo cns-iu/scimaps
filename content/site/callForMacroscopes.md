@@ -94,7 +94,7 @@ tabs:
 
       Please feel free to send any questions you might have regarding the judging process to Todd Theriault ([ttheriau@indiana.edu](mailto:ttheriau@indiana.edu)) and use the subject heading “Macroscope Inquiry.”
 importantDates:
-  - date: 15 02 22
+  - date: 2022-02-15
     label: Submissions due
   - date: 2022-04-01
     label: Notification to mapmakers
