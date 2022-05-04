@@ -1,6 +1,6 @@
 ---
 lastIteration: 17
-pdfLink: 18thcallformacroscopes.pdf
+pdfLink: 18thcallformacroscopes-updated.docx.pdf
 submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdRBT95HcvnGWbyY2e0guu7eHnp50JnSBDTGSO_YHvXfj0iJw/viewform
 allowSubmission: true
 tabs:
@@ -94,10 +94,10 @@ tabs:
 
       Please feel free to send any questions you might have regarding the judging process to Todd Theriault ([ttheriau@indiana.edu](mailto:ttheriau@indiana.edu)) and use the subject heading “Macroscope Inquiry.”
 importantDates:
-  - date: 2022-02-15
-    label: Submissions due (closed)
+  - date: 04 05 22
+    label: Submissions due
   - date: 2022-04-01
-    label: Notification to mapmakers (closed)
+    label: Notification to mapmakers
   - date: 2022-05-30
     label: Submit final entries
   - date: 2022-08-31
