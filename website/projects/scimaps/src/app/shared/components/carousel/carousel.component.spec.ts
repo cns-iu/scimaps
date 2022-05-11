@@ -24,5 +24,5 @@ describe('CarouselComponent', () => {
 
   it('can create component', () => {
     expect(component).toBeTruthy();
-  })
+  });
 });
