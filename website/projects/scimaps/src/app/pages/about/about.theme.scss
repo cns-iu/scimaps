@@ -1,14 +1,14 @@
-@use '~@angular/material/theming' as *;
+@use '~@angular/material' as mat;
 @import '../../../styling/breakpoints';
 
 @mixin color($config-or-theme) {
-  $config: mat-get-color-config($config-or-theme);
+  $config: mat.get-color-config($config-or-theme);
   $primary: map-get($config, primary);
-  $grey: mat-palette($mat-grey);
+  $grey: mat.define-palette(mat.$grey-palette);
 }
 
 @mixin typography($config-or-theme) {
-  $config: mat-get-typography-config($config-or-theme);
+  $config: mat.get-typography-config($config-or-theme);
 
   .quote {
     blockquote {
@@ -41,8 +41,8 @@
 }
 
 @mixin theme($theme) {
-  $color: mat-get-color-config($theme);
-  $typography: mat-get-typography-config($theme);
+  $color: mat.get-color-config($theme);
+  $typography: mat.get-typography-config($theme);
 
   @if $color != null {
     @include color($color);

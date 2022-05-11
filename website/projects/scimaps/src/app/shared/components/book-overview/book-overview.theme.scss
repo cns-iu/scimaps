@@ -1,8 +1,8 @@
-@use '~@angular/material/theming' as *;
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
-  $config: mat-get-color-config($config-or-theme);
+  $config: mat.get-color-config($config-or-theme);
   $primary: map-get($config, primary);
   $accent: map-get($config, accent);
 
@@ -12,28 +12,28 @@
     }
 
     .show-more {
-      color: mat-color($accent);
+      color: mat.get-color-from-palette($accent);
     }
 
     .button {
-      border-color: mat-color($primary);
-      color: mat-color($primary);
+      border-color: mat.get-color-from-palette($primary);
+      color: mat.get-color-from-palette($primary);
 
       &:hover {
-        color: mat-color($primary, lighter);
-        background-color: mat-color($primary);
+        color: mat.get-color-from-palette($primary, lighter);
+        background-color: mat.get-color-from-palette($primary);
       }
     }
   }
 }
 
 @mixin typography($config-or-theme) {
-  $config: mat-get-typography-config($config-or-theme);
+  $config: mat.get-typography-config($config-or-theme);
 }
 
 @mixin theme($theme) {
-  $color: mat-get-color-config($theme);
-  $typography: mat-get-typography-config($theme);
+  $color: mat.get-color-config($theme);
+  $typography: mat.get-typography-config($theme);
 
   @if $color != null {
     @include color($color);

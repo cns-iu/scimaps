@@ -1,55 +1,55 @@
-@use '~@angular/material/theming' as *;
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
-  $config: mat-get-color-config($config-or-theme);
+  $config: mat.get-color-config($config-or-theme);
   $primary: map-get($config, primary);
-  $grey: mat-palette($mat-grey);
+  $grey: mat.define-palette(mat.$grey-palette);
 
   .sci-maps {
     .highlight-content {
-      border-bottom: 1px solid mat-color($grey, 300);
+      border-bottom: 1px solid mat.get-color-from-palette($grey, 300);
     }
 
     .carousel-image-title {
-      background-color: mat-color($primary);
-      color: mat-color($primary, default-contrast);
+      background-color: mat.get-color-from-palette($primary);
+      color: mat.get-color-from-palette($primary, default-contrast);
     }
 
     .more-button {
-      background-color: mat-color($primary, lighter);
-      color: mat-color($primary);
-      border: 1px solid mat-color($grey, 50);
+      background-color: mat.get-color-from-palette($primary, lighter);
+      color: mat.get-color-from-palette($primary);
+      border: 1px solid mat.get-color-from-palette($grey, 50);
 
       &:hover {
-        background-color: mat-color($primary);
-        color: mat-color($primary, default-contrast);
+        background-color: mat.get-color-from-palette($primary);
+        color: mat.get-color-from-palette($primary, default-contrast);
       }
     }
 
     .mobile-button {
-      border-top: 1px solid mat-color($grey, 300);
-      border-bottom: 1px solid mat-color($grey, 300);
-      color:  mat-color($grey, 600);
+      border-top: 1px solid mat.get-color-from-palette($grey, 300);
+      border-bottom: 1px solid mat.get-color-from-palette($grey, 300);
+      color:  mat.get-color-from-palette($grey, 600);
     }
 
     .mobile-icon {
-      color: mat-color($grey, 600);
+      color: mat.get-color-from-palette($grey, 600);
     }
 
     .fullscreen-modal {
-      background-color: mat-color($primary, default-contrast);
+      background-color: mat.get-color-from-palette($primary, default-contrast);
     }
   }
 }
 
 @mixin typography($config-or-theme) {
-  $config: mat-get-typography-config($config-or-theme);
+  $config: mat.get-typography-config($config-or-theme);
 }
 
 @mixin theme($theme) {
-  $color: mat-get-color-config($theme);
-  $typography: mat-get-typography-config($theme);
+  $color: mat.get-color-config($theme);
+  $typography: mat.get-typography-config($theme);
 
   @if $color != null {
     @include color($color);

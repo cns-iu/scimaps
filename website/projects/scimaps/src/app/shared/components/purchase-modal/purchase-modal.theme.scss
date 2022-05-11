@@ -1,8 +1,8 @@
-@use '~@angular/material/theming' as *;
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
-  $config: mat-get-color-config($config-or-theme);
+  $config: mat.get-color-config($config-or-theme);
   $primary: map-get($config, primary);
 
   .sci-purchase-modal {
@@ -11,11 +11,11 @@
     }
 
     .instructions {
-      color: mat-color($primary, darker);
+      color: mat.get-color-from-palette($primary, darker);
     }
 
     .purchase-form-container {
-      background-color : mat-color($primary);
+      background-color : mat.get-color-from-palette($primary);
     }
 
     .mat-input-element,
@@ -30,7 +30,7 @@
 
     .mat-form-field-underline,
     .mat-form-field-ripple {
-      background-color: mat-color($primary, darker) !important;
+      background-color: mat.get-color-from-palette($primary, darker) !important;
     }
 
     .shipping-info {
@@ -58,20 +58,20 @@
 
       &:hover {
         background-color: white !important;
-        color: mat-color($primary);
+        color: mat.get-color-from-palette($primary);
       }
     }
 
     .screen2 {
       h1 {
-        color: mat-color($primary);
+        color: mat.get-color-from-palette($primary);
       }
       .button {
-        border-color: mat-color($primary);
-        color: mat-color($primary);
+        border-color: mat.get-color-from-palette($primary);
+        color: mat.get-color-from-palette($primary);
 
         &:hover {
-          background-color: mat-color($primary) !important;
+          background-color: mat.get-color-from-palette($primary) !important;
           color: white;
         }
       }
@@ -80,12 +80,12 @@
 }
 
 @mixin typography($config-or-theme) {
-  $config: mat-get-typography-config($config-or-theme);
+  $config: mat.get-typography-config($config-or-theme);
 }
 
 @mixin theme($theme) {
-  $color: mat-get-color-config($theme);
-  $typography: mat-get-typography-config($theme);
+  $color: mat.get-color-config($theme);
+  $typography: mat.get-typography-config($theme);
 
   @if $color != null {
     @include color($color);

@@ -1,43 +1,43 @@
-@use '~@angular/material/theming' as *;
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
-  $config: mat-get-color-config($config-or-theme);
+  $config: mat.get-color-config($config-or-theme);
   $primary: map-get($config, primary);
-  $grey: mat-palette($mat-grey);
+  $grey: mat.define-palette(mat.$grey-palette);
 
   .sci-action-card {
     .action-card {
-      border: 1px solid mat-color($primary, default-contrast);
-      background-color: mat-color($grey, 50);
+      border: 1px solid mat.get-color-from-palette($primary, default-contrast);
+      background-color: mat.get-color-from-palette($grey, 50);
 
       .text-content {
         .action-button {
-          border: 1px solid mat-color($primary, 500);
-          color: mat-color($primary, 500);
-          background-color: mat-color($primary, default-contrast);
+          border: 1px solid mat.get-color-from-palette($primary, 500);
+          color: mat.get-color-from-palette($primary, 500);
+          background-color: mat.get-color-from-palette($primary, default-contrast);
 
           &:hover {
-            color: mat-color($primary, default-contrast);
-            background-color: mat-color($primary, 500);
+            color: mat.get-color-from-palette($primary, default-contrast);
+            background-color: mat.get-color-from-palette($primary, 500);
           }
         }
       }
     }
 
     .close-icon {
-      color: mat-color($primary, default-contrast);
+      color: mat.get-color-from-palette($primary, default-contrast);
     }
   }
 }
 
 @mixin typography($config-or-theme) {
-  $config: mat-get-typography-config($config-or-theme);
+  $config: mat.get-typography-config($config-or-theme);
 }
 
 @mixin theme($theme) {
-  $color: mat-get-color-config($theme);
-  $typography: mat-get-typography-config($theme);
+  $color: mat.get-color-config($theme);
+  $typography: mat.get-typography-config($theme);
 
   @if $color != null {
     @include color($color);

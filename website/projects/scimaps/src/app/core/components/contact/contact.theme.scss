@@ -1,18 +1,18 @@
-@import "~@angular/material/theming";
+@use '~@angular/material' as mat;
 
 $tablet: 960px;
 
 @mixin color($config-or-theme) {
-  $config: mat-get-color-config($config-or-theme);
+  $config: mat.get-color-config($config-or-theme);
   $accent: map-get($config, accent);
-  $grey: mat-palette($mat-grey);
+  $grey: mat.define-palette(mat.$grey-palette);
 
   .sci-contact {
     .section-1 {
       background-color: white;
 
       @media (max-width: $tablet) {
-        background-color: mat-color($grey, 50);
+        background-color: mat.get-color-from-palette($grey, 50);
       }
 
       .email {
@@ -21,32 +21,32 @@ $tablet: 960px;
     }
 
     .section-2 {
-      background-color: mat-color($grey, 50);
+      background-color: mat.get-color-from-palette($grey, 50);
     }
 
     .section-3 {
-      background-color: mat-color($accent, lighter);
+      background-color: mat.get-color-from-palette($accent, lighter);
     }
 
     .link {
-      color: mat-color($accent);
+      color: mat.get-color-from-palette($accent);
     }
 
     .icon {
-      color: mat-color($accent);
+      color: mat.get-color-from-palette($accent);
       cursor: pointer;
     }
 
 
     .social-icons .icon:hover {
       color: white;
-      background-color: mat-color($accent);
+      background-color: mat.get-color-from-palette($accent);
     }
   }
 }
 
 @mixin theme($theme) {
-  $color: mat-get-color-config($theme);
+  $color: mat.get-color-config($theme);
 
   @if $color {
     @include color($color);

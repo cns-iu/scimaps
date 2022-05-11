@@ -1,7 +1,7 @@
-@import "~@angular/material/theming";
+@use '~@angular/material' as mat;
 
-$grey: $mat-grey;
-$grey-palette: mat-palette($grey, 300, 50, 600);
+$grey: mat.$grey-palette;
+$grey-palette: mat.define-palette($grey, 300, 50, 600);
 
 $blue-grey: (
   100: #ebf0f1,
@@ -13,7 +13,7 @@ $blue-grey: (
     700: white
   )
 );
-$blue-grey-palette: mat-palette($blue-grey, 500, 100, 700);
+$blue-grey-palette: mat.define-palette($blue-grey, 500, 100, 700);
 
 $green: (
   100: #f9fcf5,
@@ -25,11 +25,11 @@ $green: (
     700: white
   )
 );
-$green-palette: mat-palette($green, 500, 100, 700);
+$green-palette: mat.define-palette($green, 500, 100, 700);
 
 
 $color: (
   primary: $blue-grey-palette,
   accent: $green-palette,
-  warn: mat-palette($mat-red)
+  warn: mat.define-palette(mat.$red-palette)
 );

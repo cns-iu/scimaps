@@ -1,8 +1,8 @@
-@import "~@angular/material/theming";
+@use '~@angular/material' as mat;
 
 
 @mixin color($config-or-theme) {
-  $config: mat-get-color-config($config-or-theme);
+  $config: mat.get-color-config($config-or-theme);
   $primary: map-get($config, primary);
 
   .sci-news-item {
@@ -15,13 +15,13 @@
     }
 
     .date {
-      color: mat-color($primary, darker);
+      color: mat.get-color-from-palette($primary, darker);
     }
   }
 }
 
 @mixin typography($config-or-theme) {
-  $config: mat-get-typography-config($config-or-theme);
+  $config: mat.get-typography-config($config-or-theme);
 
   .sci-news-item {
     .title {
@@ -41,8 +41,8 @@
 }
 
 @mixin theme($theme) {
-  $color: mat-get-color-config($theme);
-  $typography: mat-get-typography-config($theme);
+  $color: mat.get-color-config($theme);
+  $typography: mat.get-typography-config($theme);
 
   @if $color {
     @include color($color);

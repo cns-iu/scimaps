@@ -1,7 +1,7 @@
-@import "~@angular/material/theming";
+@use '~@angular/material' as mat;
 
 @mixin color($config-or-theme) {
-  $config: mat-get-color-config($config-or-theme);
+  $config: mat.get-color-config($config-or-theme);
   $primary: map-get($config, primary);
   $accent: map-get($config, accent);
 
@@ -9,14 +9,14 @@
     background-color: white;
 
     .back-button {
-      color: mat-color($primary);
+      color: mat.get-color-from-palette($primary);
     }
   }
 }
 
 
 @mixin theme($theme) {
-  $color: mat-get-color-config($theme);
+  $color: mat.get-color-config($theme);
 
   @if $color {
     @include color($color);
