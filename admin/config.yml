@@ -20,17 +20,6 @@ collections:
             - { name: buttonLink, label: Button Link, required: false }
             - { name: imageSource, label: Image, widget: file, required: false }  
 
-      - label: Call to Action
-        name: callToAction
-        file: content/site/callToAction.md
-        fields:
-          - { name: title, label: Title }
-          - { name: date, label: Date, widget: datetime }
-          - { name: image, label: Image, widget: image }
-          - { name: link, label: Link }
-          - { name: linkLabel, label: Link Label }
-          - { name: body, label: Description, widget: markdown }
-
       - label: About Places & Spaces
         name: about
         file: content/site/about/about.md
@@ -101,9 +90,8 @@ collections:
             widget: list
             fields:
             - { name: label, label: Label}
-            - { name: date, widget: date, label: Date, format: DD MM YY }
+            - { name: date, widget: date, label: Date, format: YYYY-MM-DD, timeformat: false }
          
-
       - label: Hosting
         name: Hosting
         file: content/site/hosting/hosting.md
@@ -171,6 +159,54 @@ collections:
         preview_path: 'maker-videos'
         fields:
           - { name: description, label: Description, widget: markdown }
+      
+      - label: Learning Center
+        name: learning-center
+        file: content/site/learning-center/learning-center.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'learning-center'
+        fields:
+          - name: featured
+            widget: object
+            collapsed: false
+            fields:
+              - name: type
+                label: Featured Type
+                widget: select
+                multiple: false
+                required: true
+                default: blog
+                options: 
+                  - {value: blog, label: Blog }
+                  - {value: video, label: Video }
+              - name: featured-blog-slug
+                label: Featured Blog
+                widget: relation
+                multiple: false
+                required: false
+                collection: blog
+                search_fields: ['title']
+                value_field: '{{slug}}'
+                display_fields: ['{{title}}']
+              - name: featured-video-slug
+                label: Featured Video
+                widget: relation
+                multiple: false
+                required: false
+                collection: maker-videos
+                search_fields: ['title']
+                value_field: '{{slug}}'
+                display_fields: ['{{title}}']
+
+      - label: Submissions
+        name: submissions
+        file: content/site/submissions/submissions.md
+        media_folder: ''
+        public_folder: ''
+        preview_path: 'submissions'
+        fields:
+          - { name: body, label: Body, widget: markdown} 
 
   - name: learning-materials
     label: Learning Materials
@@ -232,10 +268,20 @@ collections:
     media_folder: ''
     public_folder: ''
     fields:
+      - { name: draft, widget: boolean, default: true}
       - { name: title, label: Title }
-      - { name: date, label: Date, widget: date }
-      - { name: image, label: Image, widget: image }
+      - { name: publish_date, label: Publish Date, widget: date, format: YYYY-MM-DD, time_format: false }
+      - { name: date, label: Date, widget: date, format: YYYY-MM-DD, time_format: false }
       - { name: body, label: Body, widget: markdown }
+      - name: blogImages
+        label: Blog Images
+        label_singular: Blog Image
+        min: 1
+        summary: '{{fields.image}}'
+        widget: list
+        fields:
+          - { name: sm, label: "Mobile (sm) Version" , widget: image }
+          - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
 
   - name: person
     label: People
@@ -471,6 +517,57 @@ collections:
           - { name: med, label: Medium (160px Width), widget: image }
           - { name: lg, label: Large (865px Width), widget: image }
       - { name: externalLink, label: External Link, required: false }
+  
+  - name: submission
+    folder: content/submission
+    label: Submissions
+    label_singular: Submission
+    path: '{{iteration}}/{{sequence}}/readme'
+    create: true
+    i18n: true
+    slug: '{{slug}}'
+    preview_path: submission/{{iteration}}/{{sequence}}
+    fields: 
+      - { name: title, label: Title, i18n: true }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown, i18n: true }
+      - name: makers
+        label: Makers
+        widget: relation
+        multiple: true
+        collection: person
+        search_fields: ['name']
+        value_field: '{{slug}}'
+        display_fields: ['{{name}}']
+      - { name: year, label: Year, widget: number, min: -2000, default: 2020 }
+      - { name: creditLine, label: Translation Credit, required: false }
+      - { name: references, label: References, widget: list, summary: '{{fields.ref}}', allow_add: true, field: {name: ref, label: Reference, widget: markdown }}
+      - name: image
+        label: Image
+        widget: object
+        collapsed: false
+        fields:
+          - { name: sm, label: Small (80px Width), widget: image }
+          - { name: med, label: Medium (160px Width), widget: image }
+          - { name: lg, label: Large (865px Width), widget: image }
+      - { name: externalLink, label: External Link, required: false }
+  
+  - name: SubmissionIteration
+    label: Submission Iterations
+    label_singular: Submission Iteration
+    folder: content/submissionIteration
+    path: '{{iteration}}/readme'
+    create: true
+    slug: '{{slug}}'
+    preview_path: submission/{{iteration}}
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { name: title, label: Title }
+      - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
+      - { name: body, label: Description, widget: markdown }
+      - { name: videoLink, label: Video Link, required: false }
 
   - name: mapIteration
     label: Map Iterations
@@ -529,6 +626,7 @@ backend:
 # Uncomment below when using the default proxy server port
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ## Basically run `npx netlify-cms-proxy-server` and launch the angular site
+
 # local_backend: true
 
 i18n:

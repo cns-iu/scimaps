@@ -15088,12 +15088,12 @@
     "dateEnd": "2021-03-16T00:00:00.000Z",
     "title": "Digital Studies of Digital Science Conference",
     "venue": "Université Catholique de Louvain",
-    "organizer": null,
-    "credit": null,
+    "organizer": "CEFISES center at UCLouvain",
+    "credit": "Places & Spaces",
     "city": "Ottignies-Louvain-la-Neuve",
-    "state": null,
+    "state": "Ottignies-Louvain-la-Neuve",
     "country": "Belgium",
-    "pdfLink": null,
+    "pdfLink": "20210316-digital-science-conference.pdf",
     "venueImages": null
   },
   {
@@ -15123,17 +15123,15 @@
     "venueImages": null
   },
   {
-    "dateStart": "2021-09-15T00:00:00.000Z",
-    "dateEnd": "2021-09-15T00:00:00.000Z",
-    "title": "The 25th International Conference on Science, Technology and Innovation Indicators",
-    "venue": "STI 2021",
-    "organizer": "Maria Theresa Norn",
-    "credit": null,
-    "city": "Aarhus",
-    "state": null,
-    "country": "Denmark",
-    "pdfLink": null,
-    "venueImages": null
+    "dateStart": "2021-06-22T19:14:46.478Z",
+    "dateEnd": "2021-06-22T19:14:46.487Z",
+    "title": "Luddy Pre-College Summer Program",
+    "venue": "Luddy Pre-College Summer Program",
+    "organizer": "Indiana University Bloomington",
+    "credit": "Maps & Macroscopes",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States"
   },
   {
     "dateStart": "2021-09-24T00:00:00.000Z",
@@ -15141,12 +15139,37 @@
     "title": "17th Iteration Debut and Macroscope Kiosk Display",
     "venue": "Navari Family Center for Digital Scholarship, University of Notre Dame",
     "organizer": "Scott B. Weingart, Peter Hook",
-    "credit": null,
+    "credit": "Places & Spaces",
     "city": "Notre Dame",
     "state": "IN",
     "country": "USA",
-    "pdfLink": null,
-    "venueImages": null
+    "pdfLink": "20210924-17th-iteration-debut.pdf",
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
+      },
+      {
+        "sm": "image03.sm.jpg",
+        "lg": "image03.lg.jpg"
+      },
+      {
+        "sm": "image04.sm.jpg",
+        "lg": "image04.lg.jpg"
+      },
+      {
+        "sm": "image05.sm.jpg",
+        "lg": "image05.lg.jpg"
+      },
+      {
+        "sm": "image06.sm.jpg",
+        "lg": "image06.lg.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2021-10-09T14:00:36.197Z",
@@ -15187,6 +15210,130 @@
       {
         "sm": "image04.sm.jpg",
         "lg": "image04.lg.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2021-09-13T18:00:30.773Z",
+    "dateEnd": "2021-09-17T23:00:30.785Z",
+    "title": "The 25th International Conference on Science, Technology and Innovation",
+    "venue": "The 25th International Conference on Science, Technology and Innovation",
+    "organizer": "Danish Centre for Studies on Research and Research Policy (CFA)",
+    "credit": "Places & Spaces",
+    "city": "Aarhus",
+    "state": "Aarhus",
+    "country": "Denmark",
+    "pdfLink": "20210913-25th-sti-conference.pdf"
+  },
+  {
+    "dateStart": "2021-11-04T19:10:40.298Z",
+    "dateEnd": "2021-11-04T19:10:40.312Z",
+    "title": "First Thursdays Festival",
+    "venue": "Arts & Humanities Council",
+    "organizer": "Ed Comantale",
+    "credit": "Medina Sydykanova",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "United States",
+    "venueImages": [
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
+      },
+      {
+        "sm": "image03.sm.jpg",
+        "lg": "image03.lg.jpg"
+      },
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image04.sm.jpg",
+        "lg": "image04.lg.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2021-12-11T17:00:14.816Z",
+    "dateEnd": "2021-12-12T17:00:14.832Z",
+    "title": "24 Hour Science Map Event",
+    "venue": "24 Hour Science Map Event",
+    "organizer": "Indiana University Bloomington",
+    "credit": "Places & Spaces",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States",
+    "pdfLink": "24-hour-event.pdf"
+  },
+  {
+    "dateStart": "2021-12-13T20:17:08.425Z",
+    "dateEnd": "2021-12-13T20:17:08.431Z",
+    "title": "Atlas of Forecasts Book Reading at Morgenstern's Books",
+    "venue": "Atlas of Forecasts Book Reading at Morgenstern's Books",
+    "organizer": "Morgenstern's Books",
+    "credit": "Katy Börner",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States",
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
+      },
+      {
+        "sm": "image03.sm.jpg",
+        "lg": "image03.lg.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2021-12-15T20:31:24.713Z",
+    "dateEnd": "2021-12-15T20:31:24.721Z",
+    "title": "Nesta Firebreak",
+    "venue": "Nesta Firebreak",
+    "organizer": "Indiana University Bloomington",
+    "credit": "Maps & Macroscopes",
+    "city": "London",
+    "state": "UK",
+    "country": "United Kingdom",
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
+      },
+      {
+        "sm": "image03.sm.jpg",
+        "lg": "image03.lg.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2022-03-14T13:00:00.000Z",
+    "dateEnd": "2022-03-15T20:30:03.083Z",
+    "title": "The Future of Learning & Work Workshop",
+    "venue": "The Future of Learning & Work Workshop",
+    "organizer": "Indiana University Bloomington",
+    "credit": "Katy Börner",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States",
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
       }
     ]
   }

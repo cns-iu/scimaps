@@ -1,0 +1,107 @@
+[
+  {
+    "body": "Todd Theriault\n\nI’ve worked with the *Places & Spaces* exhibit for almost nine years, so I’d like to think that I can keep my cool around just about any kind of data visualization out there. But I’ve got to tell you—election maps totally stress me out. \n\nI can’t be alone in this. After all, hasn’t every US election in recent memory felt like “The Most Crucial Election Ever in the History of Democracy”? Haven’t we all spent the last few election nights in an extended panic attack, peeking through our fingers at election maps as they turn red or blue?   I realize that this has less to do with the maps themselves and more to do with the fact that the last few US elections I can’t be alone in this. After all, when we are presented with an election map, three things are usually happening at the same time: 1) Steve Kornacke is jabbing at it and shouting;  2) We’re realizing that all those comforting polls we read were actually way, way off; and 3) we’re waiting for some polling place in Georgia to finish counting their votes so we can find out, you know, the fate of American democracy.\n\nTwo of the most important news stories of 2020 were communicated to us largely through data visualization. It was the year we spent many anxious moments studying pandemic maps to find which areas of the country were experiencing an uptick or a downturn in Covid-19 cases. Then, on November 6th, we watched and waited as election results maps tracked the political direction of the United States in swatches of red and blue. And, depending upon your chosen news outlet (and, of course, your political affiliation), you may have spent that evening and the days that followed either rejoicing over or cursing at the work of *Places & Spaces* contributor Andrew Levinson.\n\nLevinson, a Brooklyn-based data visualization and digital products designer, is currently a member of the visuals team at *The Wall Street Journal*. There, he creates graphics and interactives with code for both breaking news and longer-term projects. As such, Levinson was deeply involved in creating election results visualizations for one of the most significant political contests in American history. \n\nFor many of us, elections can seem like wildly unpredictable affairs—especially in light of some recent, well-publicized polling failures. But as Levinson points out, while the outcome of the contest may be unknown, the rules by which it proceeds are not. “One of the benefits you get from working on an election,” Levinson explains, “is that you know when it’s coming. You know that every two and every four years is a mid-term and a general election. . .. This pandemic election was unique in a lot of ways, but the rules are the same. There are electoral votes, and each state has a certain number. You know who the candidates are, which seats are up for election and which ones aren’t, what the rules are for when something goes to a runoff, how Maine and Nebraska differ in their electoral allocation. . . . So you need to be able to understand exactly what the parameters are for a US election to be able to present the data in the right way.”   \n\nIndeed, the structured, rule-bound process of US elections allows for careful preparation and testing to occur well in advance. “So really early on we started on the design process. It was right before the primaries. One of the first ideas I brought to the table was using a cartogram for a map in addition to a normal geographic map. One that doesn’t distort the areas and, instead, presents each state sized according to the number of electoral votes they have, which makes it a bit easier to look at the national map and see the balance of blue and red. That design process and all those iterations were done in design software, in Sketch. Early on, it was meeting with editors and reporters, people that are experts, people that have worked in visuals on this kind of stuff before, working with our cartographers, as well. And just thinking of all these different ideas.”\n\nAs Levinson goes on to say, “There were a lot of meetings, a lot of worrying about the micro-interactions, all the little details. Working on every single platform: on the smallest phone to if someone wants to pull up our live results page on a projector or something. It will still work, it won’t break. So getting all those details down in the design process first, before starting to code, was extremely helpful.”\n\nIn the end, Levinson says that while “politics is hectic, we knew what we were going to show. Designing and planning for the data—there’s a range of data that could possibly come in. Even if we’re surprised that a candidate got more or less of the vote than we thought they would, the design still works regardless of that. Knowing the boundaries—no one can get 8,000 electoral votes, for instance—if you know the boundaries, you know the rules.”",
+    "draft": false,
+    "title": "Andrew Levinson on Creating Breaking-News Visualizations for The Wall Street Journal",
+    "publish_date": "2021-11-05T00:00:00.000Z",
+    "date": "2021-11-05T00:00:00.000Z",
+    "blogImages": [
+      {
+        "sm": "electoral-votes-map.jpg",
+        "lg": "electoral-votes-map.jpg"
+      },
+      {
+        "sm": "levinsonbloghero.jpeg",
+        "lg": "levinsonbloghero.jpeg"
+      },
+      {
+        "sm": "levinson.jpg",
+        "lg": "levinson.jpg"
+      }
+    ]
+  },
+  {
+    "body": "by Todd Theriault\n\nFor centuries, travelers of all kinds have considered the cartographic map to be an essential tool for navigation. Even today, we rely upon maps to give us a sense of where we are in space, how we move from one place to another, and what we might encounter along the way. But beyond the merely practical, maps hold the power to fuel our desire for new knowledge and new experience. They provide us with the imaginative and intellectual thrill of rendering vastness visible. They provide an encompassing view of something that we, as individuals bound by time and space, can only see partially and imperfectly. \n\nToday’s maps of science perform a task similar to their geographical counterparts by providing an aerial view of an intellectual territory far too vast to be understood from ground level. Maps of science depict knowledge and expertise as a visible location and in relationships of distance and proximity. They mark those territories that have been well traveled—those ideas that have attracted the attention of many scholars over time—as well as those areas recently discovered and bursting with new activity. And, like those masses of land marked “There be MonstersParts Unknown” on some of our earliest maps of the world, we see that which is imperfectly understood and ripe for exploration. At their best, maps of science survey, plot, and visualize vast geographies of information and inspire exploration.\n\nFrom 2005 to 2014, *Places & Spaces: Mapping Science* sought out and brought together the best examples of this kind of intellectual cartography. Each of the 100 maps in this collection represents the human desire to bring order and understanding to the complex forces that shape our existence. When we find ourselves adrift in a sea of information, these maps answer the questions that matter most: How big is this ocean? How can we navigate to the useful islands of knowledge? How is this knowledge interlinked on a global scale? In which areas is it worth investing precious time, effort, and resources? What lands should we explore next?\n\nDrawing from across cultures and across scholarly disciplines, the science maps of *Places & Spaces* address these vital questions about the continuously evolving  contours and content of human knowledge. Created by leading expertsfigures in the natural, physical, and social sciences, scientometrics, visual arts, social and science policymaking, and the humanities, these maps allow us to better grasp the abstract contexts, relationships, and dynamism of human systems and collective intelligence. Individually and as a whole, they allow data to tell stories which both the scientist and the layperson can understand and appreciate.",
+    "draft": false,
+    "title": "What Is a Map of Science?",
+    "publish_date": "2021-11-05T00:00:00.000Z",
+    "date": "2021-11-05T00:00:00.000Z",
+    "blogImages": [
+      {
+        "sm": "mapofscienceimage.jpg",
+        "lg": "mapofscienceimage.jpg"
+      },
+      {
+        "sm": "mapofsciencehero.jpg",
+        "lg": "mapofsciencehero.jpg"
+      },
+      {
+        "sm": "mapofphysics.jpg",
+        "lg": "mapofphysics.jpg"
+      }
+    ]
+  },
+  {
+    "body": "[Piece in Collection](https://scimaps.org/map/4/4)   \n\nby Ezra Engels \n\nMark Lombardi (1951-2000) found gallery success by creating intricate, large-scale flow charts detailing global economic and political events. He referred to these as “narratives,” a form of visual storytelling that is generated by the viewer as they explore the information. The colored pencil and graphite drawings use only a handful of symbols along with names and dates to communicate the web of connections Lombardi forms through extensive research of public information. The works were iterative, meaning a new version was created to reflect a new understanding of the events. Earlier pieces are constructed panoramically along a general timeline, which later developed into non-hierarchical circles.  \n\nNarrative diagrams were a synthesis of Lombardi’s work spanning the decades before. He earned a BA in art history from Syracuse University in 1974, and moved to Houston to work as a curator and reference librarian. In the 80’s, he began his socio-political investigations on thousands of index cards and completed a manuscript on Reagan’s war on drugs. He also wrote on panoramic landscapes and practiced abstract painting. The signature flow charts began in the mid 90’s as a way of organizing the information he’d accumulated over the years; his notecards are now archived in The Museum of Modern Art (MoMA).   \n\nLombardi’s neo-conceptual works intentionally replicate the charts used in business as an ironic use of corporate aesthetics. This draws attention to the minimalist beauty of the diagrams, which serves to emphasize the narrative built in the viewer's mind as the subject of the work. His work is heavily analogue, but seems to foreshadow and correlate to the rise of the information age. Computer scientist Rober Tolksdorf at Freie University, Berlin, has attempted to digitize the Lombardi networks, notecards, and sources after the artist tragically took his life in the year 2000. Some of the digitized networks are available in JSON format at lombardinetworks.net.\n",
+    "draft": false,
+    "title": "Artist Spotlight: Mark Lombardi",
+    "publish_date": "2021-11-12T00:00:00.000Z",
+    "date": "2021-11-12T00:00:00.000Z",
+    "blogImages": [
+      {
+        "sm": "lombardithumbnail.png",
+        "lg": "lombardiheader.png"
+      },
+      {
+        "sm": "untitled_lombardi.png",
+        "lg": "untitled_lombardi.png"
+      },
+      {
+        "sm": "worldFinanceCorporationofMiamiFlorida_c1970-79_sixthvers_1999.png",
+        "lg": "worldFinanceCorporationofMiamiFlorida_c1970-79_sixthvers_1999.png"
+      }
+    ]
+  },
+  {
+    "body": "by Todd Theriault\n\nBetween the years 2005 and 2014, the *Places & Spaces: Mapping Science* exhibit worked towards the goal of bringing maps of science to the general public. The result of this effort has been two-fold: first, it has allowed audiences to share in the wonder of scientific thought made visible; second, it has sparked a Cambrian explosion of mapmaking innovation, as individuals from around the world have been inspired to create maps that analyze and explain the issues most vital to them.\n\nIn the year 2015, however, *Places & Spaces* made moves in a direction that marked both a continuation of and a development upon its past achievements. While the exhibit’s first decade was mainly devoted to static maps of science, the second decade’s mission iswill be devoted to exploring the power and potential of interactive data visualizations, or macroscopes.    \n\nThe word “macroscope” may strike some as strange or even daunting. But actually, the term itself becomes friendlier when placed within the context of more familiar “scopes.” For instance, most of us have stared through a microscope. By doing so, we were able to see tiny plant or animal cells floating around before our very eyes. Similarly, many of us have peered out through a telescope into the night sky. There, we were able to see lunar craters, cloud belts on Jupiter, or the phases of Mercury. What both of these scopes have in common is that they allow the viewer to see objects that could otherwise not be perceived by the naked eye, either because they are too small or too distant.\n\nBut what if we want to better understand the complex systems or networks within which we operate and which have a profound, if often unperceived, impact on our personal or professional lives? This is where macroscopes become such useful tools. They allow us to go beyond our focus on the single organism, the single social or natural phenomenon, or the single development in technology. Instead, macroscopes allow us to gather vast amounts of data about many kinds of organisms, environments, and technologies. And from that data, we can analyze and comprehend the way these elements co-exist, compete, or cooperate.\n\nWith the macroscope, we are allowed to see the “big picture,” a goal imagined in 1979 by Joël de Rosnay in his groundbreaking book, The Macroscope: A New World Scientific System. For the author, the macroscope would be the “symbol of a new way of seeing and understanding.” It was to be a tool “not used to make things larger or smaller but to observe what is at once too great, too slow, and too complex for our eyes.”\n\nWith these needs and insights in mind, the second decade of the *Places & Spaces* exhibit will invites and showcases interactive visualizations—our own exemplars of de Rosnay’s macroscope—that demonstrate the impact of different data cleaning, analysis, modeling, and visualization algorithms. It is the exhibit’s hope that this view of the “behind the scenes” process of data visualization will increase the ability of viewers to gain meaningful insights from such visualizations and empower people from all backgrounds to use data more effectively and endeavor to create maps that address their own needs and interests. \n\nWhile the Phase I static maps often showed the results of scientific exploration, the macroscopes invite viewers to explore science relevant data themselves. In other words, if the science maps were thought made visible, the macroscopes are thought made (inter)active. Viewers themselves are invited to collaborate with the macroscope makers in sharing directly in discovery and exploration. Macroscopes provide an entry point for the scientist and layperson alike, allowing us to engage directly with large data sets in ways that empower discovery and direct and expand our own lines of questioning. All around us, big data is creating new ways of viewing and comprehendingunderstanding our world--and macroscopes allow us to better understand and manage its complexity.",
+    "draft": false,
+    "title": "What Is a Macroscope?",
+    "publish_date": "2021-11-12T00:00:00.000Z",
+    "date": "2021-11-12T00:00:00.000Z",
+    "blogImages": [
+      {
+        "sm": "macroscopeblogimage.jpg",
+        "lg": "macroscopeblogimage.jpg"
+      },
+      {
+        "sm": "macroscopeblogimage2.jpg",
+        "lg": "macroscopeblogimage2.jpg"
+      },
+      {
+        "sm": "macroscopehero.jpg",
+        "lg": "macroscopehero.jpg"
+      }
+    ]
+  },
+  {
+    "body": "By Jackie Fleming, Visual Literacy and Resources Librarian, Indiana University Bloomington\n\nAs the Visual Literacy and Resources Librarian at Indiana University-Bloomington, I see it as my responsibility to help our campus community create, interpret, use, and understand visual information. This aspect of my position became even more essential in March of 2020 when the COVID-19 pandemic caused campuses across the country to close and transition to online learning. While we were all trying to adapt to the pandemic related changes to our daily lives, we were also facing an immense amount of both textual and visual COVID-19 information that has now been labeled as an infodemic. The World Health Organization (WHO) defines an infodemic as, “an overabundance of information-some accurate and some not- that makes it hard for people to find trustworthy sources and reliable guidance when they need it”. My colleague Theresa Quill, Maps & Spatial Data Librarian, and I, saw an immense need for general instruction on how to interact with COVID-19 data visualizations, infographics, and maps as a great opportunity to promote visual and spatial literacies. \n\nAs academic librarians, literacies of all types are of primary importance to our profession. However, because Theresa and I both work closely with visual and spatial literacies, we decided to focus on promoting specific skills within those fields to help our campus community understand data visualizations, infographics, and maps related to COVID-19 (See Figure 1 for definitions of visual and spatial literacy). Now that we are over a year into our collaboration, Theresa and I have done several promotional activities that go beyond COVID-19 visualizations such as creating visual and spatial literacy teaching tools, workshops, and giving presentations. Through our collaborative work and research, we have discovered strategies, rooted in visual and spatial literacy, for reading and understanding data visualizations. Below, I will share three general strategies for interacting with different types of visual information. \n\n\n<sup>\\[1]</sup> Department of Evidence and Intelligence for Action in Health, Office of the Assistant Director. *Understanding the Infodemic and Misinformation in the Fight Against COVID-19.* American Health Organization. Pg.2 CC BY-SA 3.0 IG0. <https://iris.paho.org/bitstream/handle/10665.2/52052/Factsheet-infodemic_eng.pdf>\n\n<sup>\\[2]</sup> Fleming, J.and Quill, T. (2020, June 26). Visual Literacy and Maps: A Librarian Approach to Combating The COVID-19 Infodemic. *Digital Culture & Education*. <https://www.digitalcultureandeducation.com/reflections-on-covid19/visual-literacy-and-maps>. Quill,T., and Fleming, J. (Last updated November 1, 2021). *Visual Literacy & Maps*. Indiana University Libraries. <https://guides.libraries.indiana.edu/visualliteracyandmaps/Home>.\n\n1. Read ALL accompanying text\n\nIt is very important that you always read the text associated with a data visualization, infographic and map. This information will help you understand how the graphic is meant to be read and provide context for the visual. This text can include the title, caption, and key for the graphic (See Figure 2 for an example). \n\n2. Be Critical!\n\nYou should always be critical when analyzing visual information. Ask yourself: \n\n* What data drives this visual? Is it coming from an authoritative source? Is it accurate? \n* How is the data being generalized and/or organized in the visual?\n* What information is missing from the visual? How would that information impact what is included in the visual? Why do you think the creator chose to leave that information out?\n* Who made this visual and what are their biases? What are your biases and how are they impacting your own understanding of the visual?\n\nThese questions are not exhaustive, instead they are meant to help you start thinking critically about the visual information you contact on a daily basis. Depending on the visual, you might want to extend and/or adapt this list (See Figure 2 for an example).\n\n3. Make sure the visual is updated\n\nIf you are looking at a visual that has time sensitive information, like a COVID-19 map or data visualization, you want to make sure that it has updated information. A creation date or last updated date can usually be found next to the creator's name. If this information is not made easily accessible, that is a sign that the visual might not be credible (See Figure 2 for an example). \n\nWe live in a very visual society where we are constantly bombarded with visual information. Living in a visual society does not provide you with the necessary skills for understanding and creating visual information. In addition to the visual literacy and spatial literacy work that Theresa and I have done, the Indiana University Libraries are always brainstorming new ways to help our campus community build these skill sets. Please take a look at our website and keep an eye out for workshops, events, and research guides that might interest you. We are always willing to help!",
+    "draft": false,
+    "title": "A Librarian’s Tips for Reading Visual Information",
+    "publish_date": "2021-11-19T00:00:00.000Z",
+    "date": "2021-11-19T00:00:00.000Z",
+    "blogImages": [
+      {
+        "sm": "thumbnail.png",
+        "lg": "thumbnail.png"
+      },
+      {
+        "sm": "hero800.png",
+        "lg": "hero1280.png"
+      },
+      {
+        "sm": "covid-data-guide.png",
+        "lg": "covid-data-guide.png"
+      }
+    ]
+  }
+]

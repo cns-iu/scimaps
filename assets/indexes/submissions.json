@@ -1,0 +1,250 @@
+[
+  {
+    "en": {
+      "iteration": 18,
+      "sequence": 1,
+      "year": 2022,
+      "title": "Atlas of Inequality",
+      "body": "Authors: Esteban Moro\n\nLink to Macoscope: [Inequality.media.mit.edu](http://inequality.media.mit.edu) \n\nAbstract: \n\nEconomic inequality isn't just limited to neighborhoods. The restaurants, stores, and other places we visit in cities are all unequal in their own way.\n\nThe Atlas of Inequality shows the income inequality of people who visit different places in cities around the U.S. It uses aggregated anonymous location data from digital devices to estimate people's incomes and where they spend their time.\n\nUsing that data, we've made our own place inequality metric to capture how unequal the incomes of visitors to each place are. Economic inequality isn't just limited to neighborhoods, it's part of the places you visit every day.",
+      "references": [
+        "<https://www.nature.com/articles/s41467-021-24899-8>"
+      ],
+      "makers": [
+        "esteban-moro/readme"
+      ],
+      "image": {
+        "sm": "screenshot-2022-03-03-at-10.44.08-am.png",
+        "med": "screenshot-2022-03-03-at-10.44.08-am.png",
+        "lg": "screenshot-2022-03-03-at-10.44.08-am.png"
+      }
+    },
+    "es": {
+      "makers": [
+        "esteban-moro/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 18,
+      "sequence": 2,
+      "year": 2019,
+      "title": "Excellence Maps: The new release, including reader impact of science institutions worldwide",
+      "body": "Authors: Lutz Bornmann, Rüdiger Mutz, Moritz Stefaner, Felix de Moya Angeon, Robin Haunschild, Mirko Clemente\n\n\n\nLink to Macroscope: <https://www.excellencemapping.net/>\n\n\n\nAbstract: \n\nIn over five years, we have published several releases of the www.excellencemapping.net tool revealing (clusters of) excellent institutions worldwide based on citation data. With the new release, a completely revised tool has been published. It is not only based on citation data (bibliometrics) but also Mendeley data (altmetrics). Thus, the institutional impact measurement of the tool has been expanded by focusing on additional status groups besides researchers, such as students and librarians. The excellencemapping.net is the first university ranking that includes altmetrics data to visualize the impact of institutional research beyond research itself. For example, the new release facilitates that those institutions worldwide can be identified with the highest impact of research on students. In the new release, the visualization of the data has been completely updated by improving the operability for the user and including new features, such as institutional profile pages.",
+      "makers": [
+        "lutz-bornmann/readme",
+        "rudiger-mutz/readme",
+        "moritz-stefaner/readme",
+        "robin-haunschild/readme",
+        "mirko-clemente/readme",
+        "felix-de-moya-angeon/readme"
+      ],
+      "image": {
+        "sm": "screenshot-2022-03-03-at-10.48.42-am.png",
+        "med": "screenshot-2022-03-03-at-10.48.42-am.png",
+        "lg": "screenshot-2022-03-03-at-10.48.42-am.png"
+      },
+      "references": [
+        "Recent paper introducing the new release of excellencemapping.net: https://link.springer.com/article/10.1007/s11192-021-04141-4\n\nRelated site: <http://www.excellence-networks.net/>"
+      ]
+    },
+    "es": {
+      "makers": [
+        "lutz-bornmann/readme",
+        "rudiger-mutz/readme",
+        "moritz-stefaner/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 18,
+      "sequence": 3,
+      "year": 2022,
+      "title": "The IPCC Interactive Atlas",
+      "body": "Authors: The IPCC WGI Atlas team \n\nLink to Macroscope: <https://interactive-atlas.ipcc.ch/regional-information> \n\nAbstract:\n\nThe IPCC Interactive Atlas is an innovative component of the Sixth Assessment Report (AR6) of the Intergovernmental Panel on Climate Change (IPCC) supporting and extending the assessment provided in the report –in particular regional assessment– and improving transparency and re-use of climate information through the implementation of FAIR principles (Iturbide et al. 2021). The Interactive Atlas allows exploring over 25 essential climate atmospheric and oceanic variables (such as temperature, precipitation, wind and sea surface temperature, sea level rise, sea ice, and pH) and impact-relevant indices underpinning the report. These variable are computed for both multi-model global (CMIP6) and regional (CORDEX) climate change projections and can be analyzed along different climate change dimensions (future periods across scenarios or global warming levels) using a number of  innovative interactive data visualizations, such as global and regional maps,  ensemble time series, climate stripes, global warming level plots, etc.. A strong effort in data visualization has been made to communicate the uncertainty of the models, through hatching of the maps, and showing always an ensemble of climate models (instead of single-model results).\n\nThe data processing was challenging and time-consuming (data access, curation index calculation, standardization and metadata provision, etc.), requiring over 1.5 million hours of computing time. The processing of climate data handled several hundred TBs of initial information, and distilled it down to a total of 2 TB, that is the final dataset handled by the Interactive Atlas.\n\nTwo types of users were targeted. First, the IPCC researchers and practitioners, since the tool was issued as part of IPCC AR6. Second, education, media and the general public. . For the latter, a simple interface (climate futures) was deployed oriented to global warming levels, so users are directly confronted with the different policy relevant choices (our possible future worlds at 1.5º, 2º or 3º).",
+      "makers": [
+        "the-ipcc-wgi-atlas-team/readme"
+      ],
+      "references": [
+        "IPCC, 2021: Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change \\[Masson-Delmotte, V., P. Zhai, A. Pirani, S.L. Connors, C. Péan, S. Berger, N. Caud, Y. Chen, L. Goldfarb, M.I. Gomis, M. Huang, K. Leitzell, E. Lonnoy, J.B.R. Matthews, T.K. Maycock, T. Waterfield, O. Yelekçi, R. Yu, and B. Zhou (eds.)]. Cambridge University Press. In Press.\n\nGutiérrez, J.M., R.G. Jones, G.T. Narisma, L.M. Alves, M. Amjad, I.V. Gorodetskaya, M. Grose, N.A.B. Klutse, S. Krakovska, J. Li, D. Martínez-Castro, L.O. Mearns, S.H. Mernild, T. Ngo-Duc, B. van den Hurk, and J.-H. Yoon, 2021: Atlas. In Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change \\[Masson-Delmotte, V., P. Zhai, A. Pirani, S.L. Connors, C. Péan, S. Berger, N. Caud, Y. Chen, L. Goldfarb, M.I. Gomis, M. Huang, K. Leitzell, E. Lonnoy, J.B.R. Matthews, T.K. Maycock, T. Waterfield, O. Yelekçi, R. Yu, and B. Zhou (eds.)]. Available from http://interactive-atlas.ipcc.ch \n\nIturbide et al. 2019 “The R-based climate4R open framework for reproducible climate data access and post-processing”, Environmental Modelling & Software, 111, 42-54, https://doi.org/10.1016/j.envsoft.2018.09.009\n\nIturbide, M. et al., 2020: An update of IPCC climate reference regions for subcontinental analysis of climate model data: definition and aggregated datasets. Earth System Science Data, 12(4), 2959–2970, doi:10.5194/essd- 12-2959-2020.\n\nIturbide, M. et al., 2021: Repository supporting the implementation of FAIR principles in the IPCC-WG1 Interactive Atlas. Zenodo. http://doi.org/10.5281/zenodo.5171760. https://github.com/IPCC-WG1/Atlas"
+      ],
+      "image": {
+        "sm": "screenshot-2022-03-03-at-11.05.16-am.png",
+        "med": "screenshot-2022-03-03-at-11.05.16-am.png",
+        "lg": "screenshot-2022-03-03-at-11.05.16-am.png"
+      }
+    },
+    "es": {
+      "makers": [
+        "abin-abraham/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 18,
+      "sequence": 4,
+      "year": 2020,
+      "title": "Cracking the Mystery of Egg Shape ",
+      "body": "Authors: Sarah Crespi, Jia You\n\nLink to Macroscope: <https://vis.sciencemag.org/eggs/>  or <https://visdev.sciencemag.org/eggs/>  \n\nAbstract:\n\nUser group: This piece is for the science-interested public, students, and educators\n\nData used: The macroscope is based on a research paper published in Science. The paper uses digitized photographs of eggs from 1400 bird species to show what factors are important in determining the shape of bird eggs. https://www.science.org/doi/10.1126/science.aaj1945\n\nData analysis: The researchers measured the eggs in the photos and used different approaches to determine how different egg shapes are formed in a bird and also which egg shapes correlate with other characteristics of a bird species, such as wing type.\n\nViz techniques applied: \n\nPacked circle diagram to show how many eggs, bird species, and orders were included in the data \n\nGraph to show how bird egg shapes were characterized in the study\n\nEgg photographs used as data in the paper\n\nAnimations of how different factors might influence egg shape  \n\nGraphs showing the relationship between egg shape and flight style \n\nMain insights gained: CRACKING THE MYSTERY OF EGG SHAPE follows researchers’ efforts to solve a long-standing mystery in biology: Why are eggs shaped differently from species to species? The work visualizes results from the analysis of a data set of 1400 species’ eggs, cataloged in a repository of egg photographs collected over the course of 100 years. The site exposes viewers to the diversity of birds, egg shapes, and the mechanisms by which eggs are formed. It also demonstrates how science can use data from historical sources in new ways.",
+      "image": {
+        "sm": "screenshot-2022-03-03-at-11.07.50-am.png",
+        "med": "screenshot-2022-03-03-at-11.07.50-am.png",
+        "lg": "screenshot-2022-03-03-at-11.07.50-am.png"
+      },
+      "makers": [
+        "sarah-crespi/readme",
+        "jia-you/readme"
+      ],
+      "references": [
+        "https://www.science.org/doi/10.1126/science.aaj1945 Egg collection at Museum of Vertebrate Zoology https://mvz.berkeley.edu/mvzegg/"
+      ]
+    },
+    "es": {
+      "makers": [
+        "abin-abraham/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 18,
+      "sequence": 5,
+      "year": 2020,
+      "title": "Data Science & Analytics Analyst",
+      "body": "Author: BigKnowledge, Contact: André Skupin \n\nLink to Macroscope:<https://datascience.bigknowledge.net/analyst/> \n\nAbstract:\n\nThe \"Data Science & Analytics Analyst\" represents a deployment of BoKMap (Body of Knowledge Map), a platform for comprehensive exploration and analysis of knowledge spaces. Instead of treating popular notions of \"understanding the innovation landscape\" or \"finding knowledge gaps\" as mere metaphors, we leverage machine learning and data visualization to operationalize spatial intelligence. Inspired by geographic principles and cartographic techniques, a patent-pending workflow produced a knowledge reference system that effectively acts as a \"GPS for knowledge\" and powers an interactive base map and analytics engine. Users can now interact with abstract concepts and concrete documents with the ease of every-day web mapping tools, even without prior domain knowledge. This includes a unique ability to serendipitously discover concepts and documents by simply interacting with the map, by either double-clicking in it or drawing query geometry. The scope and volume of documents accessible through the app is evolving, but currently entails several hundred thousand documents, from tech articles to scientific papers.\n\nDesigned, developed, and narrated by Kim Albrecht, Matthew Battles, Fabian Dinklage, and Sydney Lewis",
+      "makers": [
+        "andre-skupin/readme",
+        "bigknowledge/readme"
+      ],
+      "image": {
+        "sm": "screenshot-2022-03-03-at-11.12.30-am.png",
+        "med": "screenshot-2022-03-03-at-11.12.30-am.png",
+        "lg": "screenshot-2022-03-03-at-11.12.30-am.png"
+      },
+      "references": [
+        "Management Consulting & Accounting Analyst: https://management.bigknowledge.net/analyst/\n\nGeospatial Technology Explorer: https://www.ogc.org/techexplorer\n\nChemistry Explorer: https://chemistry.bigknowledge.net/explorer/"
+      ]
+    },
+    "es": {
+      "makers": [
+        "abin-abraham/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 18,
+      "sequence": 6,
+      "year": 2020,
+      "title": "The Social Determinants of Health Visualization Tool",
+      "body": "Author: Chang Zhao, Peter Herman\n\nLink to Macroscope: <https://sdoh-visualization-tool.norc.org/> \n\nAbstract: \n\nThe Social Determinants of Health Visualization Tool is an R Shiny application that provides a user-friendly platform for public health researchers, policy makers and the public to examine spatial-temporal patterns of and relationships between social determinants of health (SDOH) measures known to influence health outcomes at multi-scales in the U.S.\n\nThis visualization tool uses the Agency for Healthcare Research and Quality (AHRQ) SDOH beta database, which was curated from multiple Federal and publicly available data sources. Measures in the AHRQ SDOH database correspond to five key SDOH domains: social context (e.g., age, race/ethnicity), economic context (e.g., income, poverty), education, physical infrastructure (e.g., crime, environment), and healthcare context (e.g., health access, quality, behaviors). SDOH measures were collected for multiple years at two geographic levels in the U.S., i.e., county (324 variables, from 2009 to 2018), ZCTA (159 variables, from 2011 to 2018).\n\nUsing maps created by the Mapbox GL JavaScript library, and associated scatterplots, summary tables, and graphs created by R Shiny, this tool can display a wide range of SDOH measures at scale. There are three key elements of the tool: \n\n•        The Interactive Map tab renders county and ZCTA-level maps with options to select year and search for specific SDOH measure sorted by SDOH domain and topic. The zoom-in function allows for quick examination of SDOH in individual state and county.\n\n•        The Change Analysis tab provides side by side synchronized maps, a scatterplot with Pearson correlation test, a multi-group histogram and a summary table, allowing users to investigate temporal changes of a SDOH measure.\n\n•        The Pattern Comparisons tab further enables users to identify spatial associations and statistical relationships between different SDOH measures. \n\nWith these features, this visualization tool can be used to obtain critical insights into the spatial-temporal patterns in and associations between SDOH measures, thereby informing public health research and practice.",
+      "image": {
+        "sm": "screenshot-2022-03-03-at-11.13.55-am.png",
+        "med": "screenshot-2022-03-03-at-11.13.55-am.png",
+        "lg": "screenshot-2022-03-03-at-11.13.55-am.png"
+      },
+      "makers": [
+        "peter-herman/readme",
+        "chang-zhao/readme"
+      ],
+      "references": [
+        "<https://www.ahrq.gov/sdoh/data-analytics/sdoh-data.html>"
+      ]
+    },
+    "es": {
+      "makers": [
+        "peter-herman/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 18,
+      "sequence": 7,
+      "year": 2020,
+      "title": "Star Mapper",
+      "body": "Author: Jan Willem Tulp \n\nLink to Macroscope: <https://sci.esa.int/star_mapper/> \n\nAbstract:\n\nESA Star Mapper is an interactive visualization that lets a science interested audience explore what you can find in a star map. The data used for this visualization is based on the Hipparcos mission, which has measured the details of over 100.000 stars, at the time the largest such a collection of data about stars. The project was conceived as a stepping stone to a follow up mission, Gaia, in which measurements of 1.5 billion stars have been collected. The visualization allows users to interactively explore various measurements of more than  60.000 of the full dataset, including a real-time sped up simulation of stellar motion in the browser.",
+      "makers": [
+        "jan-willem-tulp/readme"
+      ],
+      "image": {
+        "sm": "screenshot-2022-03-03-at-11.15.02-am.png",
+        "med": "screenshot-2022-03-03-at-11.15.02-am.png",
+        "lg": "screenshot-2022-03-03-at-11.15.02-am.png"
+      },
+      "references": []
+    },
+    "es": {
+      "makers": [
+        "jan-willem-tulp/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 18,
+      "sequence": 8,
+      "year": 2020,
+      "title": "Translation Spaces",
+      "body": "Author: Philipp Hofeneder \n\nLink to Macroscope: <https://homepage.uni-graz.at/de/7/thematische-landkarten/>\n\nAbstract:\n\nResearch with a focus on Humanities; first, maps were drawn by hand, then worked out with the help of Illustrator; they consist of several layers (translator, one specific translational project, other translations of the translator); they allow us to reconstruct certain movement patterns and shed a new light on translation as a social activity. The topic of the following maps are the translators of a history of Russia (written by Nikolay Karamzin) and published between 1818 and 1829 in St. Petersburg. The five translators translated the text into German. \n\nDesigned, developed, and narrated by Kim Albrecht, Matthew Battles, Fabian Dinklage, and Sydney Lewis",
+      "makers": [
+        "philipp-hofeneder/readme"
+      ],
+      "image": {
+        "sm": "screenshot-2022-03-03-at-11.15.35-am.png",
+        "med": "screenshot-2022-03-03-at-11.15.35-am.png",
+        "lg": "screenshot-2022-03-03-at-11.15.35-am.png"
+      },
+      "references": [
+        "<https://homepage.uni-graz.at/de/philipp.hofeneder/habilitationsprojekt-a-cartography-of-translation/>"
+      ]
+    },
+    "es": {
+      "makers": [
+        "philipp-hofeneder/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  }
+]

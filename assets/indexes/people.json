@@ -327,6 +327,13 @@
     ]
   },
   {
+    "name": "BigKnowledge",
+    "last_name": "BigKnowledge",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "name": "Bob Bishop",
     "last_name": "Bishop",
     "roles": [
@@ -459,6 +466,13 @@
     "name": "César A. Hidalgo",
     "last_name": "Hidalgo",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Chang Zhao",
+    "last_name": "Chang Zhao",
     "roles": [
       "maker"
     ]
@@ -945,6 +959,13 @@
     "image": "image.jpg"
   },
   {
+    "name": "Esteban Moro",
+    "last_name": "Moro",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Esther Shyu is a scientist and editor with several years of experience in educational technology. She leads the development of a variety of multimedia resources and serves as the editorial manager for the team. Esther earned her PhD in a joint program between the Massachusetts Institute of Technology and the Woods Hole Oceanographic Institution. Her research focused on developing mathematical population models to tackle a variety of ecological and evolutionary analyses. Prior to joining HHMI, she spent three years as a science curriculum designer for IXL Learning, a Bay Area edtech company that specializes in K-12 education.\n",
     "name": "Esther Shyu",
     "last_name": "Shyu",
@@ -1002,6 +1023,13 @@
     "name": "Félix de Moya Anegón",
     "last_name": "Anegón",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Felix de Moya Angeon",
+    "last_name": "Felix de Moya Angeon",
     "roles": [
       "maker"
     ]
@@ -1336,6 +1364,13 @@
     ]
   },
   {
+    "name": " Jan Willem Tulp",
+    "last_name": " Jan Willem Tulp",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Jan Witkowski is the executive director of the Banbury Center at Cold Spring Harbor Laboratory (CSHL) and a professor at the Watson School of Biological Sciences. He obtained an SB at the University of Southampton and a PhD at the University of London. With James Watson, he coauthored the textbook Recombinant DNA. He also edited Illuminating Life and Inspiring Science: Jim Watson and the Age of DNA. Witkowski is a member of the Scientific Advisory Board of the Baker Veterinary Research Institute at Cornell University, editor-in-chief of Trends in Biochemical Sciences, and on the editorial board of Encyclopedia of the Life Sciences.\n",
     "name": "Jan Witkowski",
     "last_name": "Witkowski",
@@ -1451,6 +1486,13 @@
     "name": "Jess Bachman",
     "last_name": "Bachman",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Jia You",
+    "last_name": "Jia You",
     "roles": [
       "maker"
     ]
@@ -2255,6 +2297,13 @@
     "image": "image.jpg"
   },
   {
+    "name": "Mirko Clemente",
+    "last_name": "Clemente",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Moritz Stefaner holds a BS in cognitive science from the University of Osnabrück, Germany, and an MA in interface design from the University of Applied Sciences in Potsdam, Germany. He works as a “truth and beauty operator” on the crossroads of data visualization, information aesthetics, and user-interface design. He is especially interested in the visualization of large-scale human activity, and his work beautifully balances the analytical and aesthetic aspects of mapping abstract and complex phenomena. In the past, he has helped clients such as the OECD, the World Economic Forum, Skype, Deutsche Presse-Agentur (DPA), Fédération Internationale de Football Association (FIFA), and the Max Planck Research Society to find insights and beauty in large data sets. In 2010, he was nominated for the Design Award of the Federal Republic of Germany, and his work has been exhibited at the Venice Architecture Biennale, SIGGRAPH, Ars Electronica, and the Max Planck Science Gallery. He is part of the advisory boards for the Places & Spaces exhibits and Prix Ars Electronica in the Digital Communities category. Stefaner serves as a reviewing expert for the Future and Emerging Technologies (FET) program of the European Commission. He has coauthored books published by O’Reilly Media, Springer, and others and has often spoken and lectured on the topic of information visualization. His personal portfolio is available at http://moritz.stefaner.eu, and he occasionally blogs at http://wellformed-data.net. Stefaner also publishes the Data Stories podcast together with Enrico Bertini.\n",
     "name": "Moritz Stefaner",
     "last_name": "Stefaner",
@@ -2535,6 +2584,13 @@
     "image": "image.jpg"
   },
   {
+    "name": "Philipp Hofeneder ",
+    "last_name": "Philipp Hofeneder ",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Philip J. DeCamp received his undergraduate degree at MIT and defended his PhD at the MIT Media Lab—where he is now a research assistant in the Cognitive Machines division, contributing significantly to the group’s data visualization work.\n",
     "name": "Phillip J. Decamp",
     "last_name": "Decamp",
@@ -2652,6 +2708,13 @@
     ]
   },
   {
+    "name": "Robin Haunschild",
+    "last_name": "Haunschild",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Roger W. Sinnott is the editor and author of numerous astronomy books. He coauthored Sky Catalogue 2000.0, a comprehensive collection of standard data for astronomical objects. The introduction contains a Messier list, an OB stellar association, and a Local Group and Cluster of Galaxies table—as well as photos of M45, M13, M24, M104, and several non-Messier objects; a comprehensive list of references; and a glossary of selected astronomical names. The Interactive Factory (iFactory) is a privately held company based in Boston. Its mission is to serve clients through the conception and execution of innovative, intelligent, and usable digital media solutions. IFactory thrives on the challenges of information architecture, content development, usability testing, and innovative, beautiful design. It believes in the fusion of purpose and play: that functional, useful tools should also compel and that engineering knowledge should encompass everything from legacy database systems to the latest tools for content management and graphics.Sky & Telescope magazine is an institution in the world of astronomy. From its birth in 1941 to the present day, it has managed to retain a high level of quality that has earned a devoted following. A complete history of the magazine is available online.\n",
     "name": "Roger W. Sinnott",
     "last_name": "Sinnott",
@@ -2717,6 +2780,13 @@
     "location_name": "Zürich, Switzerland",
     "region": "europe",
     "image": "image.jpg"
+  },
+  {
+    "name": "Sarah Crespi",
+    "last_name": "Crespi",
+    "roles": [
+      "maker"
+    ]
   },
   {
     "body": "Sarah Huggett holds an MPhil in literature. She provides strategic insights to colleagues and publishing partners, and informs the bibliometrics debate through various communications.\n",
@@ -2889,6 +2959,13 @@
     "name": "Tammie O'Rourke",
     "last_name": "O'Rourke",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "The IPCC WGI Atlas team",
+    "last_name": "The IPCC WGI Atlas team",
     "roles": [
       "maker"
     ]
