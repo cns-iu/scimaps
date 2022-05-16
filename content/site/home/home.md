@@ -1,10 +1,9 @@
 ---
 cta:
-  title: Submit a macroscope
-  body: Submit your work by February 15, 2022, to become part of the *Places &
-    Spaces* exhibit.
-  buttonLabel: Submit
-  buttonLink: https://scimaps.org/call-for-macroscopes
+  title: Visit the Learning Center 
+  body: Read about visual information literacy with an article by Jackie Fleming, Visual Literacy and Resources Librarian at Indiana University Bloomington.
+  buttonLabel: Read
+  buttonLink: https://scimaps.org/learning-center
   subtitle: " "
   imageSource: scimapscard.jpg
 ---
