@@ -14,7 +14,7 @@ Physical Exhibit
 ### Contains:
 
 *   Full set of 100 individually printed maps at 30 x 24 in. (61 x 76 cm) each
-*   46" HD Touchscreen macroscope kiosk with 16 interactive visualizations
+*   46" HD Touchscreen macroscope kiosk with 28 interactive visualizations
 *   100 map description labels
 *   10 compare & contrast labels
 *   1 customized introductory panel
