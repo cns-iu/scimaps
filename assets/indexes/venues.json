@@ -15370,5 +15370,37 @@
         "lg": "image05.lg.jpg"
       }
     ]
+  },
+  {
+    "dateStart": "2022-08-27T14:00:59.694Z",
+    "dateEnd": "2022-08-27T20:00:59.705Z",
+    "title": "Makevention",
+    "venue": "Monroe Convention Center",
+    "organizer": "Monroe Convention Center",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States",
+    "pdfLink": "http://makevention.org/"
+  },
+  {
+    "dateStart": "2022-09-01T21:00:17.165Z",
+    "dateEnd": "2022-09-02T00:00:17.175Z",
+    "title": "First Thursdays Festival",
+    "venue": "Arts & Humanities Council",
+    "organizer": "Ed Comantale",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States"
+  },
+  {
+    "dateStart": "2022-09-29T15:00:32.120Z",
+    "dateEnd": "2022-09-29T18:00:32.128Z",
+    "title": "Technology Petting Zoo",
+    "venue": "Indiana Memorial Union",
+    "organizer": "UITS",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States",
+    "pdfLink": "https://depi.iu.edu/events/tech-petting-zoo/index.html"
   }
 ]
