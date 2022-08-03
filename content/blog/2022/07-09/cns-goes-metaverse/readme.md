@@ -10,6 +10,8 @@ blogImages:
     lg: image1_lg.png
   - sm: image3_sm.png
     lg: image3_lg.png
+  - sm: metaverse_sm.gif
+    lg: metaverse_lg.gif
 ---
 <!--StartFragment-->
 
