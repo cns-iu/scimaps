@@ -54,5 +54,5 @@ en:
     sm: image.sm.jpg
     med: image.med.jpg
     lg: image.lg.jpg
-  externalLink:
+  externalLink: 'https://nap.nationalacademies.org/academy-scope/#topic=276'
 ---
