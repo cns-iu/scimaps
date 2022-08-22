@@ -19,7 +19,7 @@ en:
 
 
     Visit *Star Mapper* online at [https://sci.esa.int/star_mapper](https://sci.esa.int/star_mapper/).
-  externalLink: https://sci.esa.int/star_mapper/
+  externalLink: "https://janwillemtulp.github.io/hipparcos/ "
   references:
     - >-
       European Space Agency. 2016. “ESA’s Star Mapper Visualization.”
@@ -39,7 +39,9 @@ en:
     lg: starmapper-desktop.png
   year: 2022
   iteration: 18
-es: {}
+es:
+  makers:
+    - jan-willem-tulp/readme
 zh: {}
 fr: {}
 pt: {}
