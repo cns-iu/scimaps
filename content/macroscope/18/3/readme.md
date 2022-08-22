@@ -38,7 +38,11 @@ en:
     lg: social-determinants-of-health-desktop.png
   year: 2022
   iteration: 18
-es: {}
+es:
+  makers:
+    - chang-zhao/readme
+    - peter-herman/readme
+    - andrea-malpica/readme
 zh: {}
 fr: {}
 pt: {}
