@@ -21,14 +21,16 @@ en:
   externalLink: https://vis.sciencemag.org/egg-shape/
   references:
     - >-
-      Crespi, Sarah, and Jia You. 2022. Cracking the Mystery of Egg Shape. In
+      Crespi, Sarah, and Jia You. 2022. *Cracking the Mystery of Egg Shape*. In
       “18th Iteration (2022): Macroscopes for a New Perspective.” Places &
-      Spaces: Mapping Science, edited by Katy Börner, Lisel Record, and Todd
-      Theriault. http://scimaps.org. 
+      Spaces: *Mapping Science*, edited by Katy Börner, Lisel Record, and Todd
+      Theriault. <http://scimaps.org>. 
 
-      Museum of Vertebrate Zoology. 2022. “Egg & Nest Collection.” https://mvz.berkeley.edu/mvzegg.
 
-      Stoddard, Mary C., Ee Hou Yong, Derya Akkaynak, Catherine Sheard, Joseph A. Tobias, and L. Mahadevan. 2017. “Avian Egg Shape: Form, Function, and Evolution.” Science 356 (6344): 1249–1254.
+      Museum of Vertebrate Zoology. 2022. “Egg & Nest Collection.” <https://mvz.berkeley.edu/mvzegg>.
+
+
+      Stoddard, Mary C., Ee Hou Yong, Derya Akkaynak, Catherine Sheard, Joseph A. Tobias, and L. Mahadevan. 2017. “Avian Egg Shape: Form, Function, and Evolution.” *Science* 356 (6344): 1249–1254.
   makers:
     - sarah-crespi/readme
     - jia-you/readme
@@ -39,7 +41,10 @@ en:
     lg: egg-shape-desk.png
   year: 2022
   iteration: 18
-es: {}
+es:
+  makers:
+    - sarah-crespi/readme
+    - jia-you/readme
 zh: {}
 fr: {}
 pt: {}
