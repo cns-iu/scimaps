@@ -10,10 +10,10 @@ en:
     to capture the levels of income segregation throughout our urban areas. 
 
 
-    Created by Esteban Moro, Alex ‘Sandy’ Pentland, Xiaowen Dong, and Dan Calacci, all current or former members of the MIT Media Lab, the Atlas serves as a resource for policymakers, journalists, researchers, and citizens interested in understanding and alleviating the far-reaching effects of economic segregation and inequality.
+    Created by Esteban Moro, Alex ‘Sandy’ Pentland, Xiaowen Dong, and Dan Calacci, all current or former members of the MIT Media Lab, the *Atlas* serves as a resource for policymakers, journalists, researchers, and citizens interested in understanding and alleviating the far-reaching effects of economic segregation and inequality.
 
 
-    Learn more about the team’s methodology online at https://inequality.media.mit.edu/
+    Learn more about the team’s methodology online at https://inequality.media.mit.edu
   externalLink: https://inequality.media.mit.edu/
   references:
     - >-
