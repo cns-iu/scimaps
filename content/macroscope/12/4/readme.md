@@ -37,5 +37,5 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
   externalLink: 'http://www.fleetmon.com/services/live-tracking/fleetmon-explorer'
-  videoLink: 'https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/fleetmon.webmu'
+  videoLink: 'https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/fleetmon.webm'
 ---
