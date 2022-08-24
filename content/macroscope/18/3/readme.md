@@ -17,7 +17,7 @@ en:
     This visualization tool was created by research methodologists Chang Zhao and Peter Herman and data analyst Andrea Malpica. All are members of NORC at the University of Chicago, one of the largest independent social research groups in the US. 
 
 
-    Explore the full dataset online at https://sdoh-visualization-tool.norc.org/
+    Explore the full dataset online at https://sdoh-visualization-tool.norc.org
   externalLink: https://sdoh-visualization-tool.norc.org/
   references:
     - >-
