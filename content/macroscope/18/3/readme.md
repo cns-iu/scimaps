@@ -26,6 +26,8 @@ en:
       reviewed July 2022.
       https://www.ahrq.gov/sdoh/data-analytics/sdoh-beta-database.html.
 
+
+
       Zhao, Chang, Peter Herman, and Andrea Malpica. 2022. *Social Determinants of Health Visualization Tool*. In “18th Iteration (2022): Macroscopes for a New Perspective.” *Places & Spaces: Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault. http://scimaps.org.
   makers:
     - chang-zhao/readme
