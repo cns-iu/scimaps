@@ -18,7 +18,7 @@ en:
 
 
     Explore the full dataset online at https://sdoh-visualization-tool.norc.org/
-  externalLink: "https://sdoh-visualization-tool.norc.org/ "
+  externalLink: https://sdoh-visualization-tool.norc.org/
   references:
     - >-
       Agency for Healthcare Research and Quality (Rockville, MD). 2022 “Social
