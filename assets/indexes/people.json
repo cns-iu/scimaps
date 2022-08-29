@@ -96,6 +96,15 @@
     ]
   },
   {
+    "body": "Alex 'Sandy' Pentland directs MIT Connection Science, an MIT-wide initiative, and previously helped create and direct the MIT Media Lab and the Media Lab Asia in India. He co-led the World Economic Forum discussion in Davos that led to the EU privacy regulation GDPR, and he was one of the UN Secretary General's \"Data Revolutionaries\" helping to forge the transparency and accountability mechanisms in the UN's Sustainable Development Goals. Named by Forbes as one of the “7 most powerful data scientists in the world,” Pentland has also received numerous awards and prizes, such as the McKinsey Award from Harvard Business Review, the DARPA 40th Anniversary of the Internet Grand Challenge, and the Brandeis Award for work in privacy.",
+    "name": "Alex (Sandy) Pentland   ",
+    "last_name": "Pentland   ",
+    "roles": [
+      "maker"
+    ],
+    "image": "pentland_alex_-sandy-.png"
+  },
+  {
     "body": "Alex Soojung-Kim Pang is a research director at IFTF. He holds a PhD in history and sociology of science from the University of Pennsylvania. Pang brings strong historical and theoretical perspectives to his work on the future of pervasive computing, the end of cyberspace, and the coevolution of technology and society. He is also the founding editor of Future Now, IFTF's blog on emerging technologies, and is involved in other IFTF experiments involving social networking media, new publishing platforms, and futures research.\n",
     "name": "Alex Soojung-Kim Pang",
     "last_name": "Soojung-Kim Pang",
@@ -155,6 +164,15 @@
     "location_name": "San Diego, CA, USA",
     "region": "n_america",
     "image": "image.jpg"
+  },
+  {
+    "body": "Andrea Malpica began working at NORC in December 2020 and joined the Methods and Quantitative Social Science Department’s GIS team as a Data Analyst. Malpica earned a bachelor of science in environmental science from Brown University and has about three years of GIS research experience. She is a master of science candidate at the University of Southern California for geographic information science and technology. She supports mapping tool projects and survey research using R, Python, and ArcGIS software.",
+    "name": "Andrea Malpica",
+    "last_name": "Malpica",
+    "roles": [
+      "maker"
+    ],
+    "image": "malpica_andrea.png"
   },
   {
     "body": "Andrea Scharnhorst holds an MA in physics and a PhD in philosophy of science from the Humboldt University of Berlin, Germany. At KNAW, she is a senior research fellow, head of research at Data Archiving and Networked Services (DANS), and a member of the e-humanities group, with a focus on mathematical models and methods at the interface between physics, information sciences, social sciences, and the humanities.\n",
@@ -471,11 +489,13 @@
     ]
   },
   {
+    "body": "Chang Zhao, PhD, is a research methodologist specialized in geographic information science with 10 years of research experience in spatial analysis, spatial statistics and modeling, machine learning, and data visualization. Zhao’s research focuses on understanding human-environment interactions through the application of a wide spectrum of quantitative, qualitative, and geospatial methods—including environmental sensing, statistical learning, and computer vision—to better understand the relationships between urban ecosystems, human health, and well-being. Zhao received her PhD degree in geography from the University of Iowa and her bachelor’s degree in geodesy and geomatics engineering from Wuhan University, China.",
     "name": "Chang Zhao",
     "last_name": "Chang Zhao",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "zhao_chang.png"
   },
   {
     "body": "Chaomei Chen is an associate professor at the College of Information Science and Technology, Drexel University. His research interests include mapping scientific frontiers and visualization of emerging trends and patterns of scientific literature. He is the editor-in-chief of Information Visualization, and the author of Information Visualization: Beyond the Horizon (Springer-Verlag, 2004; 2nd edition, 2006) and Mapping Scientific Frontiers: The Quest for Knowledge Visualization (Springer-Verlag, 2003). He is the creator of CiteSpace, a free Java application for detecting and visualizing intellectual trends in scientific literature.\n",
@@ -635,6 +655,15 @@
     "roles": [
       "maker"
     ]
+  },
+  {
+    "body": "Dan Calacci is a doctoral candidate at the MIT Media Lab studying how data stewardship and analysis can impact community governance. His research has been published in top international conferences on computational social science, machine learning, and data ethics. Calacci’s art has been exhibited globally, and his writing and work have appeared in Gizmodo, Wired, Reuters, The New York Times, and other major publications. He is also the co-founder of Riff Analytics, a company focused on building AI-driven products for distributed online learning.",
+    "name": "Dan Calacci",
+    "last_name": "Calacci",
+    "roles": [
+      "maker"
+    ],
+    "image": "calacci_dan.png"
   },
   {
     "body": "Daniel Haight is the president and co-founder of Darkhorse Analytics. He is a certified analytics professional and an award-winning lecturer at the University of Alberta School of Business. His work has spanned healthcare, energy, marketing, professional sports, and transportation. His current work focuses on predictive analytics and data visualization. His goal is to help people make better decisions by combining their experience with the power of visual analytics.  His even bigger goal is to design a company where Monday mornings are even more exciting than Friday afternoons.\n",
@@ -959,11 +988,13 @@
     "image": "image.jpg"
   },
   {
+    "body": "Esteban Moro is a researcher, data scientist, and associate professor at MIT Connection Science and Universidad Carlos III (UC3M) in Spain. He has published extensively throughout his career in major scholarly journals and top media outlets, and he has led many projects funded by government agencies and/or private companies. Moro's work lies at the intersection of big data and computational social science, with special attention to human dynamics, collective intelligence, social networks, and urban mobility in problems like viral marketing, natural disaster management, or economical segregation in cities. He has received numerous awards for his research, including the “Shared University Award” from IBM in 2007 and the “Excellence in Research” Awards in 2013 and 2015 from UC3M.",
     "name": "Esteban Moro",
     "last_name": "Moro",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "moro_esteban.png"
   },
   {
     "body": "Esther Shyu is a scientist and editor with several years of experience in educational technology. She leads the development of a variety of multimedia resources and serves as the editorial manager for the team. Esther earned her PhD in a joint program between the Massachusetts Institute of Technology and the Woods Hole Oceanographic Institution. Her research focused on developing mathematical population models to tackle a variety of ecological and evolutionary analyses. Prior to joining HHMI, she spent three years as a science curriculum designer for IXL Learning, a Bay Area edtech company that specializes in K-12 education.\n",
@@ -1364,11 +1395,13 @@
     ]
   },
   {
+    "body": "Jan Willem Tulp is an independent data experience designer from the Netherlands. With his company, [TULP Interactive](http://tulpinteractive.com/), he creates custom data visualizations for a variety of clients. For more than 10 years he has helped clients such as Google, European Space Agency, *Scientific American*, *Nature* and the World Economic Forum by creating visualizations, both interactive and in print. His work has appeared in several books and magazines, and he speaks regularly at international conferences.",
     "name": " Jan Willem Tulp",
     "last_name": " Jan Willem Tulp",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "tulp_jan_willem.png"
   },
   {
     "body": "Jan Witkowski is the executive director of the Banbury Center at Cold Spring Harbor Laboratory (CSHL) and a professor at the Watson School of Biological Sciences. He obtained an SB at the University of Southampton and a PhD at the University of London. With James Watson, he coauthored the textbook Recombinant DNA. He also edited Illuminating Life and Inspiring Science: Jim Watson and the Age of DNA. Witkowski is a member of the Scientific Advisory Board of the Baker Veterinary Research Institute at Cornell University, editor-in-chief of Trends in Biochemical Sciences, and on the editorial board of Encyclopedia of the Life Sciences.\n",
@@ -1491,11 +1524,13 @@
     ]
   },
   {
+    "body": "Jia You is a principal UX designer at Oracle, where she works with researchers and designers to create next-gen user experiences for enterprise software. Previously, as interactive graphics editor at *Science*, You created data visualizations and interactive websites about space telescopes, vaccines, and the shape of eggs. Her work has won awards from the Society for News Design and Graphic Design USA. She received her MS in journalism from Northwestern University.",
     "name": "Jia You",
     "last_name": "Jia You",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "you_jia.png"
   },
   {
     "body": "Jian Zhang was a doctoral student at the College of Information Science and Technology, Drexel University. He received a master's degree in science and technology journalism from Texas A&M University.\n",
@@ -2562,13 +2597,13 @@
     ]
   },
   {
-    "body": "Peter Herman is a research methodologist at NORC at the University of Chicago. Herman has considerable experience in data analysis, geographic information systems (GIS), data visualization, and web design. He has served as the lead programmer on several NORC interactive mapping projects including the El Salvador Data Explorer, Mapping Zika risk in the U.S., and the Appalachian Overdose Mapping Tool. Herman received his master’s degree in urban spatial analytics from the University of Pennsylvania.",
+    "body": "Peter Herman is a research methodologist at NORC at the University of Chicago with over six years of experience in data analysis, geographic information systems (GIS), data visualization, and web design. Herman has served as the principal programmer on several interactive data visualization websites at NORC, such as the *Appalachian Overdose Mapping Tool* and the *Geography of Social Isolation Tool*. Herman received his master’s degree in urban spatial analytics from the University of Pennsylvania.",
     "name": "Peter Herman",
     "last_name": "Herman",
-    "image": "image.jpg",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "herman_peter.png"
   },
   {
     "name": "Petra Ahrweiler",
@@ -2782,11 +2817,13 @@
     "image": "image.jpg"
   },
   {
+    "body": "Sarah Crespi is the senior podcast producer and host at *Science*. She has spent the past 10 years pushing the latest science through her brain like cheese through a grater. The shreds: videos, podcasts, GIFs, and stories. She has a master's in journalism from the Knight Center for Environmental Journalism at Michigan State University and a BA in biology from Reed College.",
     "name": "Sarah Crespi",
     "last_name": "Crespi",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "crespi_sarah.png"
   },
   {
     "body": "Sarah Huggett holds an MPhil in literature. She provides strategic insights to colleagues and publishing partners, and informs the bibliometrics debate through various communications.\n",
@@ -3165,6 +3202,15 @@
     "roles": [
       "maker"
     ]
+  },
+  {
+    "body": "Xiaowen Dong is an associate professor at the University of Oxford in the Department of Engineering Science, where he is an academic member of both the Machine Learning Research Group and the Oxford-Man Institute. Prior to that, he was a postdoctoral associate in the MIT Media Lab, where he remains as a research affiliate. He received his PhD degree from the Swiss Federal Institute of Technology (EPFL), Lausanne, Switzerland. His main research interests concern signal processing and machine learning techniques for analyzing network data, and their applications in studying questions across social and economic sciences.",
+    "name": "Xiaowen Dong",
+    "last_name": "Xiaowen Dong",
+    "roles": [
+      "maker"
+    ],
+    "image": "dong_xiaowen.png"
   },
   {
     "body": "Yong-Yeol Ahn is an assistant professor at Indiana University's School of Informatics and Computing and a co-founder of Janys Analytics. He earned his PhD from the Physics Department at KAIST in early 2008 and was a postdoctoral researcher at the Center for Complex Network Research at Northeastern University and a visiting researcher at the Center for Cancer Systems Biology at Dana-Farber Cancer Institute from 2008 until 2011. He is interested in the structure and dynamics of complex systems, such as society and living organisms.\n",

@@ -1,11 +1,9 @@
 ---
 overview: >-
-  The exhibit can be displayed in four different setups. The Physical Exhibit is
-  a traveling exhibit which stays at your venue for a set period of time;
-  the Maps-Only Physical Exhibit allows you to select high-quality exhibit maps
-  to keep permanently; the Poster Exhibit offers smaller size poster versions of
-  the exhibit to keep permanently; and the Digital Exhibit is a high-resolution
-  slideshow of all exhibit maps that can be customized to fit your space. 
+  Notice: this item is no longer in circulation for display.
+
+
+  The exhibit can be displayed in four different setups. The Physical Exhibit is a traveling exhibit which stays at your venue for a set period of time; the Maps-Only Physical Exhibit allows you to select high-quality exhibit maps to keep permanently; the Poster Exhibit offers smaller size poster versions of the exhibit to keep permanently; and the Digital Exhibit is a high-resolution slideshow of all exhibit maps that can be customized to fit your space. 
 
 
   Depending on the exhibit space, some or all of the items listed below should be considered in conjunction with the exhibit:
@@ -120,8 +118,8 @@ tabs:
       * Table space for handouts is desirable but not required
 
       * Local host hangs posters
-      
-      
+
+
       #### Total Cost
 
 
