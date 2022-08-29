@@ -42,6 +42,8 @@ ambassadorsDescription: These men and women from around the globe work
   the Advisory Board not only work to build public awareness of the exhibit, but
   also participate in the map selection process.
 annualReports:
+  - year: "2020"
+    pdfLink: 2020-ps-annual-report.pdf
   - year: "2019"
     pdfLink: 2019-ps-annual-report.pdf
   - year: "2018"

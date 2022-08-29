@@ -17,7 +17,7 @@ en:
       Grabar, Henry. 2016. “Here’s How the Federal Government Made the Maps That Crippled Black Neighborhoods.” _Slate_, October 21. https://slate.com/business/2016/10/a-new-project-shows-how-redlining-emerged-from-firsthand-reports-of-the-american-city.html.
 
  
-      Miller, Greg. 2016. “Newly Released Maps Show How Housing Discrimination Happened.” National Geographic, October 17. https://www.nationalgeographic.com/history/article/housing-discrimination-redlining-maps.
+      Miller, Greg. 2016. “Newly Released Maps Show How Housing Discrimination Happened.” *National Geographic*, October 17. https://www.nationalgeographic.com/history/article/housing-discrimination-redlining-maps.
       
  
       Nelson, Robert K., and LaDale Winling. 2021. _Mapping Inequality: Redlining in New Deal America_. In “17th Iteration (2021): Macroscopes for Placing Data in Space.” _Places & Spaces: Mapping Science_, edited by Katy Börner, Lisel Record, and Todd Theriault. http://scimaps.org. 
