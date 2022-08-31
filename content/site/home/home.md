@@ -5,5 +5,5 @@ cta:
   buttonLabel: Explore
   buttonLink: https://scimaps.org/macroscopes
   subtitle: " "
-  imageSource: egg-shape-kiosk.png
+  imageSource: egg-shape-kiosk2.png
 ---
