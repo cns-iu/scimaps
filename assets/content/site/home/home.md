@@ -1,9 +1,9 @@
 ---
 cta:
-  title: Visit the Learning Center 
-  body: Read about visual information literacy with an article by Jackie Fleming, Visual Literacy and Resources Librarian at Indiana University Bloomington.
-  buttonLabel: Read
-  buttonLink: https://scimaps.org/learning-center
+  title: Macroscope for a New Perspective
+  body: Explore four new macroscopes to see the world in new ways.
+  buttonLabel: Explore
+  buttonLink: https://scimaps.org/macroscopes
   subtitle: " "
-  imageSource: scimapscard.jpg
+  imageSource: egg-shape-kiosk.png
 ---
