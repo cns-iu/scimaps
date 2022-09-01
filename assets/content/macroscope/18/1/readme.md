@@ -30,7 +30,6 @@ en:
       European Space Agency. 2022. “Hipparcos.” https://www.cosmos.esa.int/web/hipparcos.
 
 
-      \
 
       Tulp, Jan Willem. 2022. *Star Mapper*. In “18th Iteration (2022): Macroscopes for a New Perspective.” *Places & Spaces: Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault. http://scimaps.org.
   makers:
