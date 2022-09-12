@@ -44,8 +44,6 @@ banner_text: |-
 tabs:
   - header: Physical Exhibit
     content: >-
-      
-
       #### Contains
 
 
@@ -70,6 +68,18 @@ tabs:
       * 520 ft. (158 m) of wall space
 
       * 350 sq. ft. (33 m²) of floor space
+
+
+      #### Total Cost
+
+
+      1,200* full physical exhibit
+
+
+      5,000* Macroscope pop-up
+
+
+      \*Price will vary with modifications, includes shipping
     image: tabs/image.lg.jpg
   - header: Maps-Only Physical Exhibit
     content: >-
