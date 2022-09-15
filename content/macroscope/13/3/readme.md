@@ -49,5 +49,6 @@ en:
     sm: image.sm.jpg
     med: image.med.jpg
     lg: image.lg.jpg
-  externalLink: null
+  externalLink:
+    http://megaregions.group.shef.ac.uk/scimaps.html
 ---
