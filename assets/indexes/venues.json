@@ -14535,11 +14535,11 @@
     ]
   },
   {
-    "dateStart": "2018-09-29T00:00:00.000Z",
-    "dateEnd": "2018-09-29T00:00:00.000Z",
-    "title": "Public or Perish, Public or Perish",
+    "dateStart": "2019-09-29T04:00:00.000Z",
+    "dateEnd": "2019-09-29T04:00:00.000Z",
+    "title": "Public or Perish, ASCT",
     "venue": "2018 ASTC Annual Conference",
-    "organizer": null,
+    "organizer": "Lisel Record",
     "credit": "Places & Spaces",
     "city": "Hartford",
     "state": "CT",
@@ -15372,6 +15372,16 @@
     ]
   },
   {
+    "dateStart": "2022-06-15T15:00:00.000Z",
+    "dateEnd": "2022-06-15T20:00:00.000Z",
+    "title": "Data Visualization Lisboa",
+    "venue": "Data Visualization Lisboa",
+    "organizer": "Katherine Gustilo",
+    "city": "Lisbon",
+    "state": "PT",
+    "country": "Portugal"
+  },
+  {
     "dateStart": "2022-06-22T20:45:12.045Z",
     "dateEnd": "2022-06-22T20:45:12.052Z",
     "title": "Luddy Pre-College Summer Program: Places & Spaces Virtual Tour",
@@ -15380,6 +15390,16 @@
     "city": "Bloomington",
     "state": "Indiana",
     "country": "United States"
+  },
+  {
+    "dateStart": "2022-08-19T13:00:20.507Z",
+    "dateEnd": "2022-08-19T21:00:20.512Z",
+    "title": "UITS Tech Fair",
+    "venue": "Indiana Memorial Union",
+    "organizer": "Victor Kudzai Kaposonore",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "USA"
   },
   {
     "dateStart": "2022-08-27T14:00:59.694Z",
@@ -15393,6 +15413,16 @@
     "pdfLink": "http://makevention.org/"
   },
   {
+    "dateStart": "2022-08-29T15:00:00.000Z",
+    "dateEnd": "2022-11-25T16:00:00.000Z",
+    "title": "18th Iteration Debut at the University of Michigan",
+    "venue": "Clark Library, University of Michigan",
+    "organizer": "Timothy Utter",
+    "city": "Ann Arbor",
+    "state": "Michigan",
+    "country": "United States"
+  },
+  {
     "dateStart": "2022-08-29T16:32:41.744Z",
     "dateEnd": "2022-11-23T17:32:41.754Z",
     "title": "Places & Spaces at the University of Michigan's Clark Library",
@@ -15404,16 +15434,6 @@
     "pdfLink": "places-spaces-michigan.pdf"
   },
   {
-    "dateStart": "2022-09-01T21:00:17.165Z",
-    "dateEnd": "2022-09-02T00:00:17.175Z",
-    "title": "First Thursdays Festival",
-    "venue": "Arts & Humanities Council",
-    "organizer": "Ed Comantale",
-    "city": "Bloomington",
-    "state": "Indiana",
-    "country": "United States"
-  },
-  {
     "dateStart": "2022-09-29T15:00:32.120Z",
     "dateEnd": "2022-09-29T18:00:32.128Z",
     "title": "Technology Petting Zoo",
@@ -15423,5 +15443,25 @@
     "state": "Indiana",
     "country": "United States",
     "pdfLink": "https://depi.iu.edu/events/tech-petting-zoo/index.html"
+  },
+  {
+    "dateStart": "2022-10-22T14:00:09.294Z",
+    "dateEnd": "2022-10-22T21:00:09.299Z",
+    "title": "Sciencefest",
+    "venue": "Sciencefest",
+    "organizer": "Jo Anne Tracy",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States"
+  },
+  {
+    "dateStart": "2022-12-10T15:00:00.000Z",
+    "dateEnd": "2022-12-11T15:00:00.000Z",
+    "title": "24 Hour Human Reference Atlas Design Event",
+    "venue": "24 Hour Human Reference Atlas Design Event",
+    "organizer": "Todd Theriault",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States"
   }
 ]
