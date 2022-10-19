@@ -6,5 +6,12 @@ venue: Clark Library, University of Michigan
 organizer: Timothy Utter
 city: Ann Arbor
 state: Michigan
-country: United States
+country: United States 
+venueImages: 
+ - sm: image01.sm.png
+   lg: image01.lg.png
+ - sm: image02.sm.png
+   lg: image02.lg.png
+ - sm: image03.sm.png
+   lg: image03.lg.png
 ---
