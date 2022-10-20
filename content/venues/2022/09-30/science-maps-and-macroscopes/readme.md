@@ -6,5 +6,5 @@ venue: University of Michigan Clark Library
 organizer: Tim Utter
 city: Ann Arbor
 state: MI
-country: USA
+country: USA 
 ---
