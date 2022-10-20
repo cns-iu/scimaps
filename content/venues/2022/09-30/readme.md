@@ -8,6 +8,5 @@ credit: Places & Spaces
 city: Ann Arbor
 state: Michigan
 country: United States
-pdfLink:science-maps-and-macroscopes.pdf
-
+pdfLink: science-maps-and-macroscopes.pdf
 ---
