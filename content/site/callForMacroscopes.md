@@ -119,11 +119,11 @@ tabs:
     header: Exhibit Advisory Board
 importantDates:
   - date: 2023-02-15
-    label: "Submissions due:"
+    label: Submissions due
   - date: 2023-04-01
-    label: "Mapmakers notified:"
+    label: Mapmakers notified
   - date: 2023-05-30
-    label: "Submit final entries:"
+    label: Submit final entries
   - date: 2023-08-31
     label: Ready for display
 ---
