@@ -7,4 +7,5 @@ organizer: Todd Theriault
 city: Bloomington
 state: Indiana
 country: United States
+pdfLink: https://humanatlas.io/events/2022-24h/
 ---
