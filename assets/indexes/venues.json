@@ -15174,8 +15174,8 @@
   {
     "dateStart": "2021-10-09T14:00:36.197Z",
     "dateEnd": "2021-10-09T19:00:36.208Z",
-    "title": "Science Festival",
-    "venue": "Science Festival",
+    "title": "Science Fest",
+    "venue": "Science Fest",
     "organizer": "Indiana University Bloomington Office of Science Outreach",
     "credit": "Places & Spaces",
     "city": "Bloomington",
@@ -15460,8 +15460,8 @@
   {
     "dateStart": "2022-10-22T14:00:09.294Z",
     "dateEnd": "2022-10-22T21:00:09.299Z",
-    "title": "Sciencefest",
-    "venue": "Sciencefest",
+    "title": "Science Fest",
+    "venue": "Science Fest",
     "organizer": "Jo Anne Tracy",
     "city": "Bloomington",
     "state": "Indiana",
@@ -15475,6 +15475,7 @@
     "organizer": "Todd Theriault",
     "city": "Bloomington",
     "state": "Indiana",
-    "country": "United States"
+    "country": "United States",
+    "pdfLink": "https://humanatlas.io/events/2022-24h/"
   }
 ]
