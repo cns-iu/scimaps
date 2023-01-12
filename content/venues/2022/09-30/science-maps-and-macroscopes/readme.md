@@ -6,5 +6,6 @@ venue: University of Michigan Clark Library
 organizer: Tim Utter
 city: Ann Arbor
 state: MI
-country: USA 
+country: USA
+pdfLink: september-“datatopia-the-future-of-scientific-discovery-through-a-data-lens”-colloquium-midas.pdf
 ---
