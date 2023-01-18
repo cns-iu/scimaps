@@ -28,18 +28,9 @@ tabs:
       \[1] de Rosnay, Joël. 1979. *The Macroscope: A New World Scientific System*. New York: Harper & Row.
   - header: Submission Details
     content: >-
-      Interactive data visualizations designed for desktop, mobile,
-      touch-enabled, and/or large (e.g., tiled wall) devices are all welcome. To
-      be incorporated into our exhibit kiosk, macroscopes must be 1) web-based,
-      2) touch-enabled, 3) allowed to run inside an iframe element, 4) have CORS
-      enabled for http://idemo.cns.iu.edu/macroscope-kiosk/#/, and 5) served
-      over HTTPS. Macroscopes will be deployed on a 46” multi-touch display
-      running Ubuntu 20.04 LTS and Chrome 91. Each macroscope should be fully
-      functional for at least two years. Macroscopes might be deployed using
-      other hardware; please contact the curatorial team to discuss options.
-      Macroscope authors should be available to work with the exhibit staff over
-      a period of three months to prepare the macroscopes for public display and
-      travel.
+      
+
+      Interactive data visualizations designed for desktop, mobile, touch-enabled, and/or large (e.g., tiled wall) devices are all welcome. To be incorporated into our exhibit kiosk, macroscopes must be 1) web-based, 2) touch-enabled, 3) allowed to run inside an iframe element, 4) have CORS enabled for http://idemo.cns.iu.edu/macroscope-kiosk/#/, and 5) served over HTTPS. Macroscopes will be deployed on a 46” multi-touch display running Ubuntu 20.04 LTS and Chrome 91. Each macroscope should be fully functional for at least two years. Macroscopes might be deployed using other hardware; please contact the curatorial team to discuss options. Macroscope authors should be available to work with the exhibit staff over a period of three months to prepare the macroscopes for public display and travel.
 
 
       Each entry must be submitted by February 15, 2023, and needs to include:
@@ -74,7 +65,8 @@ tabs:
 
 
       Please feel free to send any questions you might have regarding the judging process to Todd Theriault ([ttheriau@indiana.edu](mailto:ttheriau@indiana.edu)) and use the subject heading “Macroscope Inquiry.”
-  - content: >-
+  - header: Final Submission
+    content: >-
       Authors of winning entries will be contacted by April 1, 2023 and invited
       to submit final entries by May 30, 2023. Each final entry consists of:
 
@@ -89,8 +81,9 @@ tabs:
 
 
       Authors are welcome to use the expertise and resources of the exhibit curators and designers. The macroscopes are expected to be ready for display by August 31, 2023.
-    header: Final Submission
   - content: >-
+      
+
       * **Gary Berg-Cross,** SUNY–Stony Brook
 
       * **Kevin W. Boyack,** SciTech Strategies, Inc.
@@ -128,7 +121,7 @@ importantDates:
   - date: 2023-02-15
     label: Submissions due
   - date: 2023-04-01
-    label: "Mapmakers notified:"
+    label: Mapmakers notified
   - date: 2023-05-30
     label: Submit final entries
   - date: 2023-08-31
