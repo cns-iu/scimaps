@@ -15414,7 +15414,7 @@
   },
   {
     "dateStart": "2022-08-29T15:00:00.000Z",
-    "dateEnd": "2022-11-23T16:00:00.000Z",
+    "dateEnd": "2023-01-20T16:00:00.000Z",
     "title": "18th Iteration Debut at the University of Michigan",
     "venue": "Clark Library, University of Michigan",
     "organizer": "Timothy Utter",
@@ -15452,10 +15452,11 @@
     "dateEnd": "2022-09-30T21:00:39.854Z",
     "title": "Science Maps and Macroscopes",
     "venue": "University of Michigan Clark Library",
-    "organizer": "Tim Utter",
+    "organizer": "Timothy Utter",
     "city": "Ann Arbor",
     "state": "MI",
-    "country": "USA"
+    "country": "USA",
+    "pdfLink": "september-“datatopia-the-future-of-scientific-discovery-through-a-data-lens”-colloquium-midas.pdf"
   },
   {
     "dateStart": "2022-10-22T14:00:09.294Z",
@@ -15465,7 +15466,39 @@
     "organizer": "Jo Anne Tracy",
     "city": "Bloomington",
     "state": "Indiana",
+    "country": "United States",
+    "pdfLink": "sciencefest_2022.pdf",
+    "venueImages": [
+      {
+        "sm": "img_4740small.jpg",
+        "lg": "img_4740.jpg"
+      },
+      {
+        "sm": "img_4741small.jpg",
+        "lg": "img_4741.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2022-11-10T19:30:00.000Z",
+    "dateEnd": "2022-11-10T20:00:19.272Z",
+    "title": "CNS Metaverse Tour",
+    "venue": "Luddy Hall",
+    "organizer": "Todd Theriault",
+    "city": "Bloomington",
+    "state": "IN",
     "country": "United States"
+  },
+  {
+    "dateStart": "2022-12-01T20:00:15.809Z",
+    "dateEnd": "2022-12-01T20:00:15.838Z",
+    "title": "Cognitive Informatics Seminar",
+    "venue": "UQÀM",
+    "organizer": "Katy Börner",
+    "city": "Montreal",
+    "state": "(virtual)",
+    "country": "Canada",
+    "pdfLink": "séminaire-au-dic-«atlas-of-forecasts-modeling-and-mapping-desirable-futures»-par-katy-börner.pdf"
   },
   {
     "dateStart": "2022-12-10T15:00:00.000Z",
@@ -15477,5 +15510,25 @@
     "state": "Indiana",
     "country": "United States",
     "pdfLink": "https://humanatlas.io/events/2022-24h/"
+  },
+  {
+    "dateStart": "2022-12-13T19:55:03.867Z",
+    "dateEnd": "2022-12-13T19:55:03.885Z",
+    "title": "Foresight Seminar",
+    "venue": "NISTEP",
+    "organizer": "Kuniko Urashima",
+    "city": "Tokyo",
+    "state": "(virtual)",
+    "country": "Japan"
+  },
+  {
+    "dateStart": "2023-03-07T20:07:51.930Z",
+    "dateEnd": "2023-03-07T20:07:51.951Z",
+    "title": "Bloomington Rotary Club",
+    "venue": "Georgina Room, IMU",
+    "organizer": "Jim Shea",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "United States"
   }
 ]
