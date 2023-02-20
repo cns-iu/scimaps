@@ -5,7 +5,7 @@ title: Makevention
 venue: Monroe Convention Center
 organizer: Monroe Convention Center
 city: Bloomington
-state: Indiana
+state: IN
 country: United States
 pdfLink: http://makevention.org/
 ---
