@@ -6,7 +6,7 @@ venue: Sciences Library, Indiana University
 organizer: Indiana University Bloomington
 credit: Places & Spaces
 city: Bloomington
-state: Indiana
+state: IN
 country: United States
 pdfLink: datavisbazaar2022.pdf
 venueImages:
