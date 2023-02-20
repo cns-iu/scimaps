@@ -6,7 +6,7 @@ venue: 24 Hour Science Map Event
 organizer: Indiana University Bloomington
 credit: Places & Spaces
 city: Bloomington
-state: Indiana
+state: IN
 country: United States
 pdfLink: 24-hour-event.pdf
 ---
