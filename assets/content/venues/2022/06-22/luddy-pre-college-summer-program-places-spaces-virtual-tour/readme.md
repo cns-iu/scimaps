@@ -5,6 +5,6 @@ title: "Luddy Pre-College Summer Program: Places & Spaces Virtual Tour"
 venue: "Luddy Pre-College Summer Program: Places & Spaces Virtual Tour"
 organizer: Matthew Francisco
 city: Bloomington
-state: Indiana
+state: IN
 country: United States
 ---

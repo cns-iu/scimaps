@@ -14785,13 +14785,13 @@
   {
     "dateStart": "2019-10-26T00:00:00.000Z",
     "dateEnd": "2019-11-26T00:00:00.000Z",
-    "title": "ScienceFest",
+    "title": "Science Fest",
     "venue": "Indiana University",
-    "organizer": null,
+    "organizer": "College of Arts & Sciences",
     "credit": null,
     "city": "Bloomington",
     "state": "IN",
-    "country": null,
+    "country": "US",
     "pdfLink": "20191026-science-fest-iu.pdf",
     "venueImages": null
   },
@@ -15130,7 +15130,7 @@
     "organizer": "Indiana University Bloomington",
     "credit": "Maps & Macroscopes",
     "city": "Bloomington",
-    "state": "Indiana",
+    "state": "IN",
     "country": "United States"
   },
   {
@@ -15179,7 +15179,7 @@
     "organizer": "Indiana University Bloomington Office of Science Outreach",
     "credit": "Places & Spaces",
     "city": "Bloomington",
-    "state": "Indiana",
+    "state": "IN",
     "country": "United States",
     "pdfLink": "20211009-science-fest-bloomington.pdf",
     "venueImages": [
@@ -15262,7 +15262,7 @@
     "organizer": "Indiana University Bloomington",
     "credit": "Places & Spaces",
     "city": "Bloomington",
-    "state": "Indiana",
+    "state": "IN",
     "country": "United States",
     "pdfLink": "24-hour-event.pdf"
   },
@@ -15274,7 +15274,7 @@
     "organizer": "Morgenstern's Books",
     "credit": "Katy Börner",
     "city": "Bloomington",
-    "state": "Indiana",
+    "state": "IN",
     "country": "United States",
     "venueImages": [
       {
@@ -15345,7 +15345,7 @@
     "organizer": "Indiana University Bloomington",
     "credit": "Places & Spaces",
     "city": "Bloomington",
-    "state": "Indiana",
+    "state": "IN",
     "country": "United States",
     "pdfLink": "datavisbazaar2022.pdf",
     "venueImages": [
@@ -15388,7 +15388,7 @@
     "venue": "Luddy Pre-College Summer Program: Places & Spaces Virtual Tour",
     "organizer": "Matthew Francisco",
     "city": "Bloomington",
-    "state": "Indiana",
+    "state": "IN",
     "country": "United States"
   },
   {
@@ -15408,7 +15408,7 @@
     "venue": "Monroe Convention Center",
     "organizer": "Monroe Convention Center",
     "city": "Bloomington",
-    "state": "Indiana",
+    "state": "IN",
     "country": "United States",
     "pdfLink": "http://makevention.org/"
   },
@@ -15443,7 +15443,7 @@
     "venue": "Indiana Memorial Union",
     "organizer": "UITS",
     "city": "Bloomington",
-    "state": "Indiana",
+    "state": "IN",
     "country": "United States",
     "pdfLink": "https://depi.iu.edu/events/tech-petting-zoo/index.html"
   },
@@ -15465,7 +15465,7 @@
     "venue": "Science Fest",
     "organizer": "Jo Anne Tracy",
     "city": "Bloomington",
-    "state": "Indiana",
+    "state": "IN",
     "country": "United States",
     "pdfLink": "sciencefest_2022.pdf",
     "venueImages": [
@@ -15507,7 +15507,7 @@
     "venue": "24 Hour Human Reference Atlas Design Event",
     "organizer": "Todd Theriault",
     "city": "Bloomington",
-    "state": "Indiana",
+    "state": "IN",
     "country": "United States",
     "pdfLink": "https://humanatlas.io/events/2022-24h/"
   },
@@ -15530,5 +15530,15 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "United States"
+  },
+  {
+    "dateStart": "2023-06-08T14:00:00.000Z",
+    "dateEnd": "2023-08-04T21:00:37.626Z",
+    "title": "Places & Spaces during ISSI",
+    "venue": "Cook Center, Maxwell Hall",
+    "organizer": "Linnea Holt",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US"
   }
 ]
