@@ -75,10 +75,10 @@ tabs:
       #### Total Cost
 
 
-      1,200* full physical exhibit
+      $12,000* full physical exhibit
 
 
-      5,000* Macroscope pop-up
+      $5,000* macroscope pop-up
 
 
       \*Price will vary with modifications, includes shipping
