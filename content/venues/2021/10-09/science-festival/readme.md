@@ -6,7 +6,7 @@ venue: Science Fest
 organizer: Indiana University Bloomington Office of Science Outreach
 credit: Places & Spaces
 city: Bloomington
-state: Indiana
+state: IN
 country: United States
 pdfLink: 20211009-science-fest-bloomington.pdf
 venueImages:

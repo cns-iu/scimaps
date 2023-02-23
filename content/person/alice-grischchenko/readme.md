@@ -1,8 +1,10 @@
 ---
 name: Alice Grishchenko
 last_name: Grishchenko
-image: image.jpg
 roles:
   - maker
+image: image.jpg
 ---
-Alexander Gates is an associate research scientist in the Network Science Institute at Northeastern University. His research fuses data science and network science to study complex systems in sociology, biology, and neuroscience. Before arriving at Northeastern, he received a joint PhD degree in informatics (complex systems track) and cognitive science from Indiana University–Bloomington, an MSc from King’s College London in complex systems modeling, and a BA in mathematics from Cornell University.
+
+
+Alice Grishchenko is a data visualization specialist at the Center for Complex Networks Research, Northeastern University. She is a design generalist and has experience with illustration, animation, data visualization, game design and virtual reality. Alice received her MFA in digital animation and interactive media from the Ohio State University.

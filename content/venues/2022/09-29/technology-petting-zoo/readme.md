@@ -5,7 +5,7 @@ title: Technology Petting Zoo
 venue: Indiana Memorial Union
 organizer: UITS
 city: Bloomington
-state: Indiana
+state: IN
 country: United States
 pdfLink: https://depi.iu.edu/events/tech-petting-zoo/index.html
 ---
