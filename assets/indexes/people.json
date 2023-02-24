@@ -27,6 +27,13 @@
     ]
   },
   {
+    "name": "Adeline Chum",
+    "last_name": "Chum",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Adrian G. White is an analytic social psychologist at the University of Leicester, England. His work on this project is based on subjective well-being (SWB) data and the Satisfaction with Life Scale (SWLS) derived from a 2006 meta-analysis by Nic Marks, Saamah Abdallah, Andrew Simms, and Sam Thompson.",
     "name": "Adrian G. White",
     "last_name": "White",
@@ -145,6 +152,13 @@
     "name": "Alphonse MacDonald",
     "last_name": "MacDonald",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Analía Plaza",
+    "last_name": "Plaza",
     "roles": [
       "maker"
     ]
@@ -693,6 +707,13 @@
     ]
   },
   {
+    "name": "Daniela Coray",
+    "last_name": "Coray",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Daniele Quercia, a computer scientist specializing in urban computing, is currently building the Social Dynamics team at Bell Labs Cambridge, UK. He has been named one of Fortune magazine’s 2014 Data All-Stars, and spoke about “happy maps” at TED. His research received best paper awards from ACM Ubicomp 2014 and AAAI ICWSM 2015, as well as an honorable mention from AAAI ICWSM 2013. He was a research scientist at Yahoo Labs, a Horizon senior researcher at The Computer Laboratory of the University of Cambridge, and a postdoctoral associate at MIT. He received his PhD from UC–London.\n",
     "name": "Daniele Quercia",
     "last_name": "Quercia",
@@ -715,6 +736,13 @@
     "name": "Danyel Fisher",
     "last_name": "Fisher",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Dare Brawley",
+    "last_name": "Brawley",
     "roles": [
       "maker"
     ]
@@ -966,6 +994,13 @@
     ]
   },
   {
+    "name": "Enrique Casillas",
+    "last_name": "Casillas",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Eric Fischer is a data artist and software developer currently residing in Oakland, California. He holds a bachelor’s degree in linguistics from the University of Chicago. Over the course of his career, Fischer has served as a software engineer on the Android team at Google and was artist in residence at the Exploratorium in San Francisco. Currently, he creates innovative data visualizations for Mapbox, a mapping platform for developers. Fischer’s maps have been shown at the Museum of Modern Art and featured in many publications, including Wired, Popular Science, and Best American Infographics.\n",
     "name": "Eric Fischer",
     "last_name": "Fischer",
@@ -1206,6 +1241,13 @@
     ]
   },
   {
+    "name": "Gregg Gonsalves",
+    "last_name": "Gonsalves",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Greg Shirah is a visualizer at NASA's Goddard Space Flight Center (GSFC) Scientific Visualization Studio (SVS). He leads the production of Earth Science visualizations within the SVS. Greg specializes in the development of cinematic-styled visualizations using state-of-the-art commercial rendering software augmented with custom in-house software. Greg has been involved in the creation of thousands of scientific visualization productions. It has been estimated that over one billion people have seen his work worldwide.\n",
     "name": "Gregory W. Shirah",
     "last_name": "Shirah",
@@ -1422,6 +1464,13 @@
     ]
   },
   {
+    "name": "Jari Prachasartta",
+    "last_name": "Prachasartta",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Jaume Nualart is a Catalonian open-source software developer and researcher focusing on visualization tools and digital archiving. He is a member of the Research Center of Risk Governance (GRISC) at the Universitat Autònoma de Barcelona (UAB), where he is also a PhD student in law. Nualart runs the Riereta Hackerspace, founded in 2001.\n",
     "name": "Jaume Nualart",
     "last_name": "Nualart",
@@ -1533,6 +1582,20 @@
     "image": "you_jia.png"
   },
   {
+    "name": "Jia Zhang",
+    "last_name": "Zhang",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Jiajie Li",
+    "last_name": "Li",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Jian Zhang was a doctoral student at the College of Information Science and Technology, Drexel University. He received a master's degree in science and technology journalism from Texas A&M University.\n",
     "name": "Jian Zhang",
     "last_name": "Zhang",
@@ -1641,6 +1704,13 @@
     ]
   },
   {
+    "name": "Jonathan Callura",
+    "last_name": "Callura",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Jonathan Tweedy is a graduate student at the Department of Information and Library Science, School of Informatics and Computing at Indiana University. He started this project as part of his Information Visualization course work and completed it in close collaboration with John A. Walsh.\n",
     "name": "Jonathan Tweedy",
     "last_name": "Tweedy",
@@ -1690,6 +1760,13 @@
     "name": "Jukka-Pekka Onnela",
     "last_name": "Onnela",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Juliette Vion-Dury",
+    "last_name": "Vion-Dury",
     "roles": [
       "maker"
     ]
@@ -1752,6 +1829,13 @@
     "image": "image.jpg"
   },
   {
+    "name": "Kelly Fang",
+    "last_name": "Fang",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Kevin W. Boyack holds a PhD in chemical engineering from Brigham Young University. As the president of SciTech Strategies, Inc., his work centers on developing more accurate global maps of science. He has published nearly 30 articles dealing with various aspects of science mapping and related metrics. Previously, he worked in combustion (experimental and modeling), transport processes, socioeconomic war gaming, and science mapping for 17 years at Sandia National Laboratories. Current interests include detailed mapping of the structure and dynamics of science and technology, application of full text to science mapping and bibliometrics, and the identification of emerging topics.\n",
     "name": "Kevin W. Boyack",
     "last_name": "Boyack",
@@ -1808,6 +1892,13 @@
     "name": "Laura Bonetta",
     "last_name": "Bonetta",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Laura Kurgan",
+    "last_name": "Kurgan",
     "roles": [
       "maker"
     ]
@@ -2435,6 +2526,13 @@
     ]
   },
   {
+    "name": "Niko McGlashan",
+    "last_name": "McGlashan",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Nils C. Newman is the president and founder of IISC. Mr. Newman's research interests focus on the development of analytic tools for the management of technology including the assessment of development trends and the study of the innovation process. Prior to starting IISC in 1995, he was a research analyst at the Technology Policy and Assessment Center of Georgia Tech. He has also worked as a technology policy analyst at SRI International. Mr. Newman has a bachelor of mechanical engineering and an MS in technology and science policy from Georgia Tech. He is currently pursuing a PhD in economics from MERIT at the University of Maastricht.\n",
     "name": "Nils Newman",
     "last_name": "Newman",
@@ -2657,6 +2755,13 @@
     "name": "Randall Munroe",
     "last_name": "Munroe",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Raúl Sánchez González",
+    "last_name": "González",
     "roles": [
       "maker"
     ]
@@ -2893,6 +2998,13 @@
     ]
   },
   {
+    "name": "Siori Kitajima",
+    "last_name": "Kitajima",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Stefanie Posavec is a freelance graphic designer who focuses on projects ranging from data visualization and information design to designing books and book covers (or anything in between) for publishers and creative agencies. Her personal data projects have been exhibited internationally, including exhibitions at the Millennium Galleries, Sheffield, Somerset House, London and the Museum of Modern Art, New York.\n",
     "name": "Stefanie Posavec",
     "last_name": "Posavec",
@@ -2992,6 +3104,13 @@
     ]
   },
   {
+    "name": "Suzan Iloglu",
+    "last_name": "Iloglu",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Tammie O'Rourke is systems integrator and chief architect of the Global Animal Information System (GAINS), the wildlife health information management system in use for USAID PREDICT, a global endeavour to monitor for emerging zoonotic diseases of wildlife. Tammie has over 25 years experience developing systems and databases for various for-profit, non-profit, and government organizations, and is an expert at developing and implementing information management systems for use in a global context.\n",
     "name": "Tammie O'Rourke",
     "last_name": "O'Rourke",
@@ -3039,6 +3158,13 @@
     "name": "Theodora Michaelidou",
     "last_name": "Michaelidou",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Thomas Thornhill",
+    "last_name": "Thornhill",
     "roles": [
       "maker"
     ]
@@ -3150,6 +3276,13 @@
     ]
   },
   {
+    "name": "Vyacheslav Tykhonov",
+    "last_name": "Tykhonov",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "W. Bradford Paley uses computers to create visual displays with the goal of making readable, clear, and engaging expressions of complex data. His visual representations are inspired by the calm, richly layered information in natural scenes. He applies rendering methods used by fine artists and graphic artists, informed by their possible underpinnings in human perception, and uses them to create narrowly scoped, almost idiosyncratic representations whose visual semantics are often driven by the real-world metaphors of the experts who know the domains best. Paley rendered his first computer graphics in 1973; graduated Phi Beta Kappa from the University of California, Berkeley, in 1981; founded Digital Image Design Incorporated in 1982; and started creating financial and statistical data visualization in 1986. He has exhibited at the Museum of Modern Art, is in the Artport permanent collection of the Whitney Museum of American Art, and has received multiple grants and awards for both art and design. He recently finished redesigning the interface at the center of the New York Stock Exchange trading floor. He is an adjunct associate professor at Columbia University and is director of Information Esthetics, an interdisciplinary group exploring the creation and interpretation of data representations that are both readable and aesthetically satisfying.",
     "name": "W. Bradford Paley",
     "last_name": "Paley",
@@ -3213,6 +3346,20 @@
     "image": "dong_xiaowen.png"
   },
   {
+    "name": "Yi Zhe Ang",
+    "last_name": "Ang",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Yoana Kosturska",
+    "last_name": "Kosturska",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Yong-Yeol Ahn is an assistant professor at Indiana University's School of Informatics and Computing and a co-founder of Janys Analytics. He earned his PhD from the Physics Department at KAIST in early 2008 and was a postdoctoral researcher at the Center for Complex Network Research at Northeastern University and a visiting researcher at the Center for Cancer Systems Biology at Dana-Farber Cancer Institute from 2008 until 2011. He is interested in the structure and dynamics of complex systems, such as society and living organisms.\n",
     "name": "Yong-Yeol Ahn",
     "last_name": "Ahn",
@@ -3248,6 +3395,13 @@
     "name": "Yves Gingras",
     "last_name": "Gingras",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Yves Rozenholc",
+    "last_name": "Rozenholc",
     "roles": [
       "maker"
     ]
