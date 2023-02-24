@@ -24,7 +24,8 @@ export class SubmissionResolverService implements Resolve<DiscoverItem[]> {
             return submission.iteration === parseInt(iteration, 10);
           });
         } else {
-          return item;
+          const maxIteration = Math.max(...item.map(s => s.iteration));
+          return item.filter(s => s.iteration === maxIteration);
         }
       })
     );
