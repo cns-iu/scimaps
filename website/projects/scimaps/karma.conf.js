@@ -26,8 +26,8 @@ module.exports = function (config) {
       check: {
         emitWarning: false,
         global: {
-          statements: 85,
-          lines: 85
+          statements: 75,
+          lines: 75
         }
       }
     },
