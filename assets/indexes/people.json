@@ -3178,6 +3178,19 @@
     ]
   },
   {
+    "name": "Timothy Utter",
+    "last_name": "Utter",
+    "roles": [
+      "advisory_board"
+    ],
+    "jobTitle": "Library Manager",
+    "affiliation": "Clark Library, University of Michigan",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-83.7381823,42.2759458]}",
+    "location_name": "Harlan H. Hatcher Graduate Library South",
+    "region": "n_america",
+    "image": "timutter.jpg"
+  },
+  {
     "body": "Todd M. Holloway was a PhD candidate in computer science at Indiana University. He holds a BA from Grinnell College and an SM from Indiana University, both in computer science. His research interests include data mining, case-based reasoning, information retrieval, personalization, and information visualization.\n",
     "name": "Todd Holloway",
     "last_name": "Holloway",
