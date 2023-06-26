@@ -7,4 +7,11 @@ organizer: Linnea Holt
 city: Bloomington
 state: IN
 country: US
+venueImages:
+  - sm: img_0690.jpg
+    lg: img_0690.jpg
+  - lg: img_0688.jpg
+    sm: img_0688.jpg
+  - lg: img_0689.jpg
+    sm: img_0689.jpg
 ---
