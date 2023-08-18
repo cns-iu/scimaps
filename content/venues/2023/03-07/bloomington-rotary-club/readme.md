@@ -6,5 +6,5 @@ venue: Georgina Room, IMU
 organizer: Jim Shea
 city: Bloomington
 state: IN
-country: United States
+country: US
 ---
