@@ -7,7 +7,7 @@ organizer: Katy Börner
 credit: Places & Spaces
 city: Indianapolis
 state: IN
-country: " "
+country: "US "
 pdfLink: null
 venueImages:
   - sm: image01.sm.jpg
