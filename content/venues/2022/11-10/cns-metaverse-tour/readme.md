@@ -6,5 +6,5 @@ venue: Luddy Hall
 organizer: Todd Theriault
 city: Bloomington
 state: IN
-country: United States
+country: US
 ---
