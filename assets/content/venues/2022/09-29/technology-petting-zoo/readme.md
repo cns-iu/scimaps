@@ -6,6 +6,6 @@ venue: Indiana Memorial Union
 organizer: UITS
 city: Bloomington
 state: IN
-country: United States
+country: US
 pdfLink: https://depi.iu.edu/events/tech-petting-zoo/index.html
 ---

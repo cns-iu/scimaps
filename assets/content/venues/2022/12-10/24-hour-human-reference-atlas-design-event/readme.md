@@ -6,6 +6,6 @@ venue: 24 Hour Human Reference Atlas Design Event
 organizer: Todd Theriault
 city: Bloomington
 state: IN
-country: United States
+country: US
 pdfLink: https://humanatlas.io/events/2022-24h/
 ---

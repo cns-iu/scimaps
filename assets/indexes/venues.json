@@ -372,7 +372,7 @@
     "credit": "Places & Spaces",
     "city": "Indianapolis",
     "state": "IN",
-    "country": "USA",
+    "country": "US ",
     "pdfLink": null,
     "venueImages": [
       {
@@ -14212,7 +14212,7 @@
     "credit": "Lisel Record",
     "city": "Bloomington",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20171021-science-fest-iu.pdf",
     "venueImages": [
       {
@@ -14985,7 +14985,7 @@
     "credit": null,
     "city": "Bloomington",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -15180,7 +15180,7 @@
     "credit": "Places & Spaces",
     "city": "Bloomington",
     "state": "IN",
-    "country": "United States",
+    "country": "US",
     "pdfLink": "20211009-science-fest-bloomington.pdf",
     "venueImages": [
       {
@@ -15420,7 +15420,7 @@
     "organizer": "Timothy Utter",
     "city": "Ann Arbor",
     "state": "Michigan",
-    "country": "United States",
+    "country": "US",
     "venueImages": [
       {
         "sm": "image01.sm.png",
@@ -15444,7 +15444,7 @@
     "organizer": "UITS",
     "city": "Bloomington",
     "state": "IN",
-    "country": "United States",
+    "country": "US",
     "pdfLink": "https://depi.iu.edu/events/tech-petting-zoo/index.html"
   },
   {
@@ -15455,7 +15455,7 @@
     "organizer": "Timothy Utter",
     "city": "Ann Arbor",
     "state": "MI",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "september-“datatopia-the-future-of-scientific-discovery-through-a-data-lens”-colloquium-midas.pdf"
   },
   {
@@ -15466,7 +15466,7 @@
     "organizer": "Jo Anne Tracy",
     "city": "Bloomington",
     "state": "IN",
-    "country": "United States",
+    "country": "US",
     "pdfLink": "sciencefest_2022.pdf",
     "venueImages": [
       {
@@ -15487,7 +15487,7 @@
     "organizer": "Todd Theriault",
     "city": "Bloomington",
     "state": "IN",
-    "country": "United States"
+    "country": "US"
   },
   {
     "dateStart": "2022-12-01T20:00:15.809Z",
@@ -15508,7 +15508,7 @@
     "organizer": "Todd Theriault",
     "city": "Bloomington",
     "state": "IN",
-    "country": "United States",
+    "country": "US",
     "pdfLink": "https://humanatlas.io/events/2022-24h/"
   },
   {
@@ -15529,7 +15529,7 @@
     "organizer": "Jim Shea",
     "city": "Bloomington",
     "state": "IN",
-    "country": "United States"
+    "country": "US"
   },
   {
     "dateStart": "2023-03-07T17:00:37.539Z",
@@ -15545,11 +15545,47 @@
   {
     "dateStart": "2023-06-08T14:00:00.000Z",
     "dateEnd": "2023-08-04T21:00:37.626Z",
-    "title": "Places & Spaces during ISSI",
-    "venue": "Cook Center, Maxwell Hall",
+    "title": "Cook Center for Arts and Humanities",
+    "venue": "Grand Hall in Maxwell Hall",
     "organizer": "Linnea Holt",
+    "credit": "Images: IU Arts & Humanities Council at the Gayle Karch Cook Center for Public Arts & Humanities",
     "city": "Bloomington",
     "state": "IN",
-    "country": "US"
+    "country": "US",
+    "venueImages": [
+      {
+        "sm": "smimg_0690.jpg",
+        "lg": "img_0690.jpg"
+      },
+      {
+        "lg": "img_0688.jpg",
+        "sm": "smimg_0688.jpg"
+      },
+      {
+        "lg": "img_0689.jpg",
+        "sm": "smimg_0689.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2023-08-31T18:39:26.161Z",
+    "dateEnd": "2023-08-31T18:39:26.175Z",
+    "title": "Places & Spaces during ISSI ",
+    "venue": "Cook Center, Maxwell Hall",
+    "organizer": "Linnea Holt",
+    "credit": "IU Arts & Humanities Council at the Gayle Karch Cook Center for Public Arts & Humanities",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "venueImages": [
+      {
+        "sm": "smimg_0688.jpg",
+        "lg": "img_0688.jpg"
+      },
+      {
+        "sm": "smimg_0690.jpg",
+        "lg": "img_0690.jpg"
+      }
+    ]
   }
 ]
