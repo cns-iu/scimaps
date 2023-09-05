@@ -7,7 +7,7 @@ organizer: Morgenstern's Books
 credit: Katy Börner
 city: Bloomington
 state: IN
-country: United States
+country: US
 venueImages:
   - sm: image01.sm.jpg
     lg: image01.lg.jpg
