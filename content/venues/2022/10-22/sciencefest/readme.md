@@ -6,7 +6,7 @@ venue: Science Fest
 organizer: Jo Anne Tracy
 city: Bloomington
 state: IN
-country: United States
+country: US
 pdfLink: sciencefest_2022.pdf
 venueImages:
   - sm: img_4740small.jpg
