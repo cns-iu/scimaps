@@ -58,12 +58,3 @@ jobs:
           publish_dir: website/dist/scimaps
           publish_branch: staging
           commit_message: "Staging deploy -- ${{ github.event.head_commit.message }}"
-
-      - uses: jsmrcaga/action-netlify-deploy@master
-        with:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_DEPLOY_MESSAGE: "Staging deploy to Netlify"
-          NETLIFY_DEPLOY_TO_PROD: true
-          build_command: false
-          build_directory: website/dist/scimaps
