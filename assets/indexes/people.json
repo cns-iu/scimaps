@@ -27,6 +27,13 @@
     ]
   },
   {
+    "name": "Adeline Chum",
+    "last_name": "Chum",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Adrian G. White is an analytic social psychologist at the University of Leicester, England. His work on this project is based on subjective well-being (SWB) data and the Satisfaction with Life Scale (SWLS) derived from a 2006 meta-analysis by Nic Marks, Saamah Abdallah, Andrew Simms, and Sam Thompson.",
     "name": "Adrian G. White",
     "last_name": "White",
@@ -96,6 +103,15 @@
     ]
   },
   {
+    "body": "Alex 'Sandy' Pentland directs MIT Connection Science, an MIT-wide initiative, and previously helped create and direct the MIT Media Lab and the Media Lab Asia in India. He co-led the World Economic Forum discussion in Davos that led to the EU privacy regulation GDPR, and he was one of the UN Secretary General's \"Data Revolutionaries\" helping to forge the transparency and accountability mechanisms in the UN's Sustainable Development Goals. Named by Forbes as one of the “7 most powerful data scientists in the world,” Pentland has also received numerous awards and prizes, such as the McKinsey Award from Harvard Business Review, the DARPA 40th Anniversary of the Internet Grand Challenge, and the Brandeis Award for work in privacy.",
+    "name": "Alex (Sandy) Pentland   ",
+    "last_name": "Pentland   ",
+    "roles": [
+      "maker"
+    ],
+    "image": "pentland_alex_-sandy-.png"
+  },
+  {
     "body": "Alex Soojung-Kim Pang is a research director at IFTF. He holds a PhD in history and sociology of science from the University of Pennsylvania. Pang brings strong historical and theoretical perspectives to his work on the future of pervasive computing, the end of cyberspace, and the coevolution of technology and society. He is also the founding editor of Future Now, IFTF's blog on emerging technologies, and is involved in other IFTF experiments involving social networking media, new publishing platforms, and futures research.\n",
     "name": "Alex Soojung-Kim Pang",
     "last_name": "Soojung-Kim Pang",
@@ -114,13 +130,13 @@
     ]
   },
   {
-    "body": "Alexander Gates is an associate research scientist in the Network Science Institute at Northeastern University. His research fuses data science and network science to study complex systems in sociology, biology, and neuroscience. Before arriving at Northeastern, he received a joint PhD degree in informatics (complex systems track) and cognitive science from Indiana University–Bloomington, an MSc from King’s College London in complex systems modeling, and a BA in mathematics from Cornell University.\n",
+    "body": "Alice Grishchenko is a data visualization specialist at the Center for Complex Networks Research, Northeastern University. She is a design generalist and has experience with illustration, animation, data visualization, game design and virtual reality. Alice received her MFA in digital animation and interactive media from the Ohio State University.",
     "name": "Alice Grishchenko",
     "last_name": "Grishchenko",
-    "image": "image.jpg",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "image.jpg"
   },
   {
     "body": "Alkim A. A. Salah received a BS in industrial design and an MA in art history from Istanbul Technical University and a PhD from UCLA’s Department of Art History. She designed this map while working as a postdoctoral researcher at the Royal Netherlands Academy of Arts and Sciences (KNAW). Her research focuses on digital humanities, art history, data visualization, and bibliometrics.\n",
@@ -141,6 +157,15 @@
     ]
   },
   {
+    "body": "Analía Plaza is a Spanish journalist based in Madrid, Spain. She currently works as a reporter for El Periódico de España, covering topics such as mobility, urban planning and housing. Prior to this, she worked as a reporter for elDiario.es and contributed to several other publications, including El Confidencial and El País. Plaza has also worked in the tech industry, serving as the product manager for Spain at Citymapper,  a London-based transport app, where she helped develop new features and improve user experience. With her expertise in both journalism and technology, she is well-positioned to cover the intersection of urban living and transportation.",
+    "name": "Analía Plaza",
+    "last_name": "Plaza",
+    "roles": [
+      "maker"
+    ],
+    "image": "analía-plaza.jpg"
+  },
+  {
     "body": "André Skupin is an associate professor of geography at San Diego State University. Previously he held an associate professorship at the University of New Orleans. He received a master's degree in cartography at the Dresden University of Technology, Germany, and a doctoral degree in geography at the State University of New York at Buffalo. During his graduate studies he performed research at the National Center for Geographic Information and Analysis (NCGIA). He has worked in the geographic information systems (GIS) industry in Germany, the United States, and South Africa. Skupin's core research area is the application of geographic metaphors, cartographic principles, and computational methods in the visualization of nongeographic information. His research is strongly interdisciplinary, aimed especially at increased cross-fertilization between geography, information science, and computer science. For example, he has developed new approaches to creating map-like knowledge domain visualizations on the basis of high-dimensional vector space models and artificial neural networks. Other recent work includes novel methods for visualizing individual human movement and demographic change as trajectories in n-dimensional attribute space. His research results have been published in such journals as IEEE Computer Graphics and Applications, Computing in Science and Engineering, and the Proceedings of the National Academy of Sciences. Skupin has served as coeditor of a book on self-organizing maps, a special issue of Environment and Planning B: Planning and Design, and the 2007 U.S. National Report to the International Cartographic Association, which was published as a special issue of Cartography and Geographic Information Science.\n",
     "name": "André Skupin",
     "last_name": "Skupin",
@@ -155,6 +180,15 @@
     "location_name": "San Diego, CA, USA",
     "region": "n_america",
     "image": "image.jpg"
+  },
+  {
+    "body": "Andrea Malpica began working at NORC in December 2020 and joined the Methods and Quantitative Social Science Department’s GIS team as a Data Analyst. Malpica earned a bachelor of science in environmental science from Brown University and has about three years of GIS research experience. She is a master of science candidate at the University of Southern California for geographic information science and technology. She supports mapping tool projects and survey research using R, Python, and ArcGIS software.",
+    "name": "Andrea Malpica",
+    "last_name": "Malpica",
+    "roles": [
+      "maker"
+    ],
+    "image": "malpica_andrea.png"
   },
   {
     "body": "Andrea Scharnhorst holds an MA in physics and a PhD in philosophy of science from the Humboldt University of Berlin, Germany. At KNAW, she is a senior research fellow, head of research at Data Archiving and Networked Services (DANS), and a member of the e-humanities group, with a focus on mathematical models and methods at the interface between physics, information sciences, social sciences, and the humanities.\n",
@@ -442,8 +476,7 @@
     "name": "Caroline S. Wagner",
     "last_name": "Wagner",
     "roles": [
-      "ambassador",
-      "advisory_board"
+      "ambassador"
     ],
     "jobTitle": "Wolf Chair in International Affairs",
     "affiliation": "The Ohio State University",
@@ -471,11 +504,13 @@
     ]
   },
   {
+    "body": "Chang Zhao, PhD, is a research methodologist specialized in geographic information science with 10 years of research experience in spatial analysis, spatial statistics and modeling, machine learning, and data visualization. Zhao’s research focuses on understanding human-environment interactions through the application of a wide spectrum of quantitative, qualitative, and geospatial methods—including environmental sensing, statistical learning, and computer vision—to better understand the relationships between urban ecosystems, human health, and well-being. Zhao received her PhD degree in geography from the University of Iowa and her bachelor’s degree in geodesy and geomatics engineering from Wuhan University, China.",
     "name": "Chang Zhao",
     "last_name": "Chang Zhao",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "zhao_chang.png"
   },
   {
     "body": "Chaomei Chen is an associate professor at the College of Information Science and Technology, Drexel University. His research interests include mapping scientific frontiers and visualization of emerging trends and patterns of scientific literature. He is the editor-in-chief of Information Visualization, and the author of Information Visualization: Beyond the Horizon (Springer-Verlag, 2004; 2nd edition, 2006) and Mapping Scientific Frontiers: The Quest for Knowledge Visualization (Springer-Verlag, 2003). He is the creator of CiteSpace, a free Java application for detecting and visualizing intellectual trends in scientific literature.\n",
@@ -637,6 +672,15 @@
     ]
   },
   {
+    "body": "Dan Calacci is a doctoral candidate at the MIT Media Lab studying how data stewardship and analysis can impact community governance. His research has been published in top international conferences on computational social science, machine learning, and data ethics. Calacci’s art has been exhibited globally, and his writing and work have appeared in Gizmodo, Wired, Reuters, The New York Times, and other major publications. He is also the co-founder of Riff Analytics, a company focused on building AI-driven products for distributed online learning.",
+    "name": "Dan Calacci",
+    "last_name": "Calacci",
+    "roles": [
+      "maker"
+    ],
+    "image": "calacci_dan.png"
+  },
+  {
     "body": "Daniel Haight is the president and co-founder of Darkhorse Analytics. He is a certified analytics professional and an award-winning lecturer at the University of Alberta School of Business. His work has spanned healthcare, energy, marketing, professional sports, and transportation. His current work focuses on predictive analytics and data visualization. His goal is to help people make better decisions by combining their experience with the power of visual analytics.  His even bigger goal is to design a company where Monday mornings are even more exciting than Friday afternoons.\n",
     "name": "Daniel Haight",
     "last_name": "Haight",
@@ -664,6 +708,15 @@
     ]
   },
   {
+    "body": "Daniela Coray (she/her) currently serves as Co-Chair of the K-12 Outreach Committee for the Boston Society of Landscape Architects, developing and delivering youth programs in design and landscape architecture.  She holds a Master in Landscape Architecture from the Boston Architectural College, and a Master in Environmental Art from Falmouth University in the UK.  Daniela is former Coordinator and Faculty in Landscape Architecture at the Boston Architectural College, where she taught research, design studio and technical design courses, and helped develop the high school Summer Academy.  She is a recipient of the Ada Louise Huxtable Fellowship in Civic Engagement.\n\nHer recent research has focused on contested landscapes and a re-configuring of the concept of place in the Latin American and North American urban contexts. She has also developed work on environmental education, youth empowerment and design as a catalyst for youth engagement.  Her research interests include the creation of narrative mechanisms for building equitable resilience, post-migration placelessness, and the social dimensions of climate change.",
+    "name": "Daniela Coray",
+    "last_name": "Coray",
+    "roles": [
+      "maker"
+    ],
+    "image": "daniela-coray.png"
+  },
+  {
     "body": "Daniele Quercia, a computer scientist specializing in urban computing, is currently building the Social Dynamics team at Bell Labs Cambridge, UK. He has been named one of Fortune magazine’s 2014 Data All-Stars, and spoke about “happy maps” at TED. His research received best paper awards from ACM Ubicomp 2014 and AAAI ICWSM 2015, as well as an honorable mention from AAAI ICWSM 2013. He was a research scientist at Yahoo Labs, a Horizon senior researcher at The Computer Laboratory of the University of Cambridge, and a postdoctoral associate at MIT. He received his PhD from UC–London.\n",
     "name": "Daniele Quercia",
     "last_name": "Quercia",
@@ -686,6 +739,13 @@
     "name": "Danyel Fisher",
     "last_name": "Fisher",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Dare Brawley",
+    "last_name": "Brawley",
     "roles": [
       "maker"
     ]
@@ -864,6 +924,15 @@
     "image": "image.jpg"
   },
   {
+    "body": "Doris Duanmu is an architect, urbanist, educator, and completed the SMArchS Urbanism program at MIT. \n\nHer research incorporates personal narratives to interrogate the designer’s role in socially, culturally, and politically produced architectural and urban agendas. Previously, she received a BArch degree from the University of Southern California and worked at several renowned offices on international projects, including the new Everton Stadium at Bramley-Moore Dock.",
+    "name": "Doris Duanmu",
+    "last_name": "Duanmu",
+    "roles": [
+      "maker"
+    ],
+    "image": "doris-duanmu.png"
+  },
+  {
     "body": "Ece Kavlak worked as a senior project manager at Interactive Things. She holds an MS in automotive systems engineering from the Rheinisch-Westfälische Technische Hochschule Aachen. Her work centers around advocating smart solutions by connecting creativity with economics to create value for people and businesses alike. Kavlak is passionate about homing in on a project’s vision which turns into a shared understanding of what we do, how we do it, and why we’re doing it.\n",
     "name": "Ece Kavlak",
     "last_name": "Kavlak",
@@ -937,6 +1006,15 @@
     ]
   },
   {
+    "body": "Enrique Casillas is an incoming graduate student at MIT studying computer science and engineering, with an interest in using data, software, and visualization to improve cities and urban life. Enrique has worked on designing and implementing several full stack web applications that visualize data in order to shed light on a variety of different issues. He is invested in using his background as a software engineer to improve the development and quality of data projects for the public good.",
+    "name": "Enrique Casillas",
+    "last_name": "Casillas",
+    "roles": [
+      "maker"
+    ],
+    "image": "enrique-casillas.png"
+  },
+  {
     "body": "Eric Fischer is a data artist and software developer currently residing in Oakland, California. He holds a bachelor’s degree in linguistics from the University of Chicago. Over the course of his career, Fischer has served as a software engineer on the Android team at Google and was artist in residence at the Exploratorium in San Francisco. Currently, he creates innovative data visualizations for Mapbox, a mapping platform for developers. Fischer’s maps have been shown at the Museum of Modern Art and featured in many publications, including Wired, Popular Science, and Best American Infographics.\n",
     "name": "Eric Fischer",
     "last_name": "Fischer",
@@ -959,11 +1037,13 @@
     "image": "image.jpg"
   },
   {
+    "body": "Esteban Moro is a researcher, data scientist, and associate professor at MIT Connection Science and Universidad Carlos III (UC3M) in Spain. He has published extensively throughout his career in major scholarly journals and top media outlets, and he has led many projects funded by government agencies and/or private companies. Moro's work lies at the intersection of big data and computational social science, with special attention to human dynamics, collective intelligence, social networks, and urban mobility in problems like viral marketing, natural disaster management, or economical segregation in cities. He has received numerous awards for his research, including the “Shared University Award” from IBM in 2007 and the “Excellence in Research” Awards in 2013 and 2015 from UC3M.",
     "name": "Esteban Moro",
     "last_name": "Moro",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "moro_esteban.png"
   },
   {
     "body": "Esther Shyu is a scientist and editor with several years of experience in educational technology. She leads the development of a variety of multimedia resources and serves as the editorial manager for the team. Esther earned her PhD in a joint program between the Massachusetts Institute of Technology and the Woods Hole Oceanographic Institution. Her research focused on developing mathematical population models to tackle a variety of ecological and evolutionary analyses. Prior to joining HHMI, she spent three years as a science curriculum designer for IXL Learning, a Bay Area edtech company that specializes in K-12 education.\n",
@@ -1095,12 +1175,12 @@
   },
   {
     "body": "Garrett Dash Nelson is a historical geographer, currently a postdoctoral fellow in the Society of Fellows and the Department of Geography at Dartmouth College. His research focuses on the ways that geographic relationships structure the formation of state power and community cohesion. He has published on several topics relating to the history of planning and landscape in the United States.\n",
-    "name": "Garret Dash Nelson",
+    "name": "Garrett Dash Nelson",
     "last_name": "Nelson",
-    "image": "image.jpg",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "image.jpg"
   },
   {
     "name": "Gary Berg-Cross",
@@ -1170,6 +1250,13 @@
     "name": "Graham Allsopp",
     "last_name": "Allsopp",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Gregg Gonsalves",
+    "last_name": "Gonsalves",
     "roles": [
       "maker"
     ]
@@ -1364,11 +1451,13 @@
     ]
   },
   {
+    "body": "Jan Willem Tulp is an independent data experience designer from the Netherlands. With his company, [TULP Interactive](http://tulpinteractive.com/), he creates custom data visualizations for a variety of clients. For more than 10 years he has helped clients such as Google, European Space Agency, *Scientific American*, *Nature* and the World Economic Forum by creating visualizations, both interactive and in print. His work has appeared in several books and magazines, and he speaks regularly at international conferences.",
     "name": " Jan Willem Tulp",
     "last_name": " Jan Willem Tulp",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "tulp_jan_willem.png"
   },
   {
     "body": "Jan Witkowski is the executive director of the Banbury Center at Cold Spring Harbor Laboratory (CSHL) and a professor at the Watson School of Biological Sciences. He obtained an SB at the University of Southampton and a PhD at the University of London. With James Watson, he coauthored the textbook Recombinant DNA. He also edited Illuminating Life and Inspiring Science: Jim Watson and the Age of DNA. Witkowski is a member of the Scientific Advisory Board of the Baker Veterinary Research Institute at Cornell University, editor-in-chief of Trends in Biochemical Sciences, and on the editorial board of Encyclopedia of the Life Sciences.\n",
@@ -1387,6 +1476,15 @@
     "roles": [
       "maker"
     ]
+  },
+  {
+    "body": "Jari is a designer with over 6 years of experience in both digital and physical design. Her passion lies in utilizing design and technology to empower people and create positive change. She is a strong advocate for an interdisciplinary approach to problem-solving and values a research-driven process from concept to implementation. Her work combines human-centered design and an inclusive future. Jari holds a Master of Science in Architecture Studies (Urbanism) from the Massachusetts Institute of Technology and a Bachelor of Science in Architectural Design from Chulalongkorn University.",
+    "name": "Jari Prachasartta",
+    "last_name": "Prachasartta",
+    "roles": [
+      "maker"
+    ],
+    "image": "jari-prachasartta.png"
   },
   {
     "body": "Jaume Nualart is a Catalonian open-source software developer and researcher focusing on visualization tools and digital archiving. He is a member of the Research Center of Risk Governance (GRISC) at the Universitat Autònoma de Barcelona (UAB), where he is also a PhD student in law. Nualart runs the Riereta Hackerspace, founded in 2001.\n",
@@ -1491,11 +1589,29 @@
     ]
   },
   {
+    "body": "Jia You is a principal UX designer at Oracle, where she works with researchers and designers to create next-gen user experiences for enterprise software. Previously, as interactive graphics editor at *Science*, You created data visualizations and interactive websites about space telescopes, vaccines, and the shape of eggs. Her work has won awards from the Society for News Design and Graphic Design USA. She received her MS in journalism from Northwestern University.",
     "name": "Jia You",
     "last_name": "Jia You",
     "roles": [
       "maker"
+    ],
+    "image": "you_jia.png"
+  },
+  {
+    "name": "Jia Zhang",
+    "last_name": "Zhang",
+    "roles": [
+      "maker"
     ]
+  },
+  {
+    "body": "Chance Jiajie Li is a graduate student at City Science Group, MIT Media Lab. As a developer and researcher, his overarching goal is to enhance urban systems from a media technological perspective. His research interests include dynamic urban planning, urban simulation, urban sensing, and their intersection with computer science. Before joining MIT, he earned his B.Eng. degree in software engineering with a concentration in Media Arts & Sciences from Tongji University, Shanghai, China.",
+    "name": "Jiajie Li",
+    "last_name": "Li",
+    "roles": [
+      "maker"
+    ],
+    "image": "chance-jiajie-lee.png"
   },
   {
     "body": "Jian Zhang was a doctoral student at the College of Information Science and Technology, Drexel University. He received a master's degree in science and technology journalism from Texas A&M University.\n",
@@ -1606,6 +1722,13 @@
     ]
   },
   {
+    "name": "Jonathan Callura",
+    "last_name": "Callura",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Jonathan Tweedy is a graduate student at the Department of Information and Library Science, School of Informatics and Computing at Indiana University. He started this project as part of his Information Visualization course work and completed it in close collaboration with John A. Walsh.\n",
     "name": "Jonathan Tweedy",
     "last_name": "Tweedy",
@@ -1655,6 +1778,13 @@
     "name": "Jukka-Pekka Onnela",
     "last_name": "Onnela",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Juliette Vion-Dury",
+    "last_name": "Vion-Dury",
     "roles": [
       "maker"
     ]
@@ -1717,13 +1847,21 @@
     "image": "image.jpg"
   },
   {
+    "body": "Kelly Fang is an undergraduate student at MIT exploring the intersection of technology, design, and the built environment. She is interested in the ethical applications of big data and computational techniques to urban issues and hopes to contribute to the development of algorithms and interfaces that will promote equitable and resilient cities.",
+    "name": "Kelly Fang",
+    "last_name": "Fang",
+    "roles": [
+      "maker"
+    ],
+    "image": "kelly-fang.png"
+  },
+  {
     "body": "Kevin W. Boyack holds a PhD in chemical engineering from Brigham Young University. As the president of SciTech Strategies, Inc., his work centers on developing more accurate global maps of science. He has published nearly 30 articles dealing with various aspects of science mapping and related metrics. Previously, he worked in combustion (experimental and modeling), transport processes, socioeconomic war gaming, and science mapping for 17 years at Sandia National Laboratories. Current interests include detailed mapping of the structure and dynamics of science and technology, application of full text to science mapping and bibliometrics, and the identification of emerging topics.\n",
     "name": "Kevin W. Boyack",
     "last_name": "Boyack",
     "roles": [
       "maker",
-      "ambassador",
-      "advisory_board"
+      "ambassador"
     ],
     "jobTitle": "President",
     "affiliation": "SciTech Strategies, Inc.",
@@ -1773,6 +1911,13 @@
     "name": "Laura Bonetta",
     "last_name": "Bonetta",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Laura Kurgan",
+    "last_name": "Kurgan",
     "roles": [
       "maker"
     ]
@@ -2400,6 +2545,15 @@
     ]
   },
   {
+    "body": "Niko McGlashan holds a Master of Architecture degree from the University of Toronto and graduated with Honors. Combined with his undergraduate education in Environment and Urban Sustainability and Geographic Analysis, he yields a multidisciplinary and multiscalar approach to complex urban problems.\n\nNiko's research is heavily invested in computation, data, and design. He has performed extensive Climate research at both the Center for Landscape Research at the University of Toronto and the Urban Water Research Center at Ryerson University. He has investigated the accumulation of contaminants in urban tributary networks, leveraged generative design to propose adaptive climate urbanism, and developed a software toolkit for designers to automate the LEED, WELL, and AIA sustainability standards during the architectural design process. At the center, Niko research looks into urban equity, data capture, and develops civic technology for the public, architects, and planners.",
+    "name": "Niko McGlashan",
+    "last_name": "McGlashan",
+    "roles": [
+      "maker"
+    ],
+    "image": "niko-mcglashan.png"
+  },
+  {
     "body": "Nils C. Newman is the president and founder of IISC. Mr. Newman's research interests focus on the development of analytic tools for the management of technology including the assessment of development trends and the study of the innovation process. Prior to starting IISC in 1995, he was a research analyst at the Technology Policy and Assessment Center of Georgia Tech. He has also worked as a technology policy analyst at SRI International. Mr. Newman has a bachelor of mechanical engineering and an MS in technology and science policy from Georgia Tech. He is currently pursuing a PhD in economics from MERIT at the University of Maastricht.\n",
     "name": "Nils Newman",
     "last_name": "Newman",
@@ -2562,13 +2716,13 @@
     ]
   },
   {
-    "body": "Peter Herman is a research methodologist at NORC at the University of Chicago. Herman has considerable experience in data analysis, geographic information systems (GIS), data visualization, and web design. He has served as the lead programmer on several NORC interactive mapping projects including the El Salvador Data Explorer, Mapping Zika risk in the U.S., and the Appalachian Overdose Mapping Tool. Herman received his master’s degree in urban spatial analytics from the University of Pennsylvania.",
+    "body": "Peter Herman is a research methodologist at NORC at the University of Chicago with over six years of experience in data analysis, geographic information systems (GIS), data visualization, and web design. Herman has served as the principal programmer on several interactive data visualization websites at NORC, such as the *Appalachian Overdose Mapping Tool* and the *Geography of Social Isolation Tool*. Herman received his master’s degree in urban spatial analytics from the University of Pennsylvania.",
     "name": "Peter Herman",
     "last_name": "Herman",
-    "image": "image.jpg",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "herman_peter.png"
   },
   {
     "name": "Petra Ahrweiler",
@@ -2625,6 +2779,15 @@
     "roles": [
       "maker"
     ]
+  },
+  {
+    "body": "Raúl Sánchez is a Spanish journalist covering stories about inequality, taxation, migration, agriculture, labor market, elections and public health. He coordinates elDiario.es data team since 2018. He has participated in journalistic investigations such as \"Castellana Papers\", which unveiled tricks Spaniard's great fortunes to avoid taxes, Enslaved Land, about the dark side of plantation crops, Spain Lives in Flats, which mapped the heights of more than 12 million buildings or Giving Birth with a Scalpel, an investigation that revealed the C-section rates of each hospital in Spain. Since 2015 he has been trying to tell stories based on database analysis at elDiario.es.",
+    "name": "Raúl Sánchez González",
+    "last_name": "González",
+    "roles": [
+      "maker"
+    ],
+    "image": "raúl-sánchez-gonzález-1-1-.jpg"
   },
   {
     "body": "Rex Robison holds a BS in mathematics and psychology from Purdue University, an MA in library science from the University of Maryland, and a PhD in biological psychology from Stanford University. He works as an informationist at the National Institutes of Health (NIH) Library in Bethesda, Maryland. The informationist program blends information science expertise with subject area knowledge, providing NIH staff with customized library services. Robison works mainly with staff who either conduct or provide funding for neuroscience and psychology research. His work at NIH has included searching the literature, coordinating the construction of databases and websites, conducting library research, and training and troubleshooting on the use of information resources. He is also active on the library’s instruction, emerging technologies, web, and collection development teams. Prior to working at NIH, Robinson’s employment included reviewing scientific and medical issues in product liability lawsuits and teaching at a community college in Hawaii.\n",
@@ -2782,11 +2945,13 @@
     "image": "image.jpg"
   },
   {
+    "body": "Sarah Crespi is the senior podcast producer and host at *Science*. She has spent the past 10 years pushing the latest science through her brain like cheese through a grater. The shreds: videos, podcasts, GIFs, and stories. She has a master's in journalism from the Knight Center for Environmental Journalism at Michigan State University and a BA in biology from Reed College.",
     "name": "Sarah Crespi",
     "last_name": "Crespi",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "crespi_sarah.png"
   },
   {
     "body": "Sarah Huggett holds an MPhil in literature. She provides strategic insights to colleagues and publishing partners, and informs the bibliometrics debate through various communications.\n",
@@ -2856,10 +3021,24 @@
     ]
   },
   {
+    "name": "Siori Kitajima",
+    "last_name": "Kitajima",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Stefanie Posavec is a freelance graphic designer who focuses on projects ranging from data visualization and information design to designing books and book covers (or anything in between) for publishers and creative agencies. Her personal data projects have been exhibited internationally, including exhibitions at the Millennium Galleries, Sheffield, Somerset House, London and the Museum of Modern Art, New York.\n",
     "name": "Stefanie Posavec",
     "last_name": "Posavec",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Stephanie Yee",
+    "last_name": "Yee",
     "roles": [
       "maker"
     ]
@@ -2955,6 +3134,13 @@
     ]
   },
   {
+    "name": "Suzan Iloglu",
+    "last_name": "Iloglu",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Tammie O'Rourke is systems integrator and chief architect of the Global Animal Information System (GAINS), the wildlife health information management system in use for USAID PREDICT, a global endeavour to monitor for emerging zoonotic diseases of wildlife. Tammie has over 25 years experience developing systems and databases for various for-profit, non-profit, and government organizations, and is an expert at developing and implementing information management systems for use in a global context.\n",
     "name": "Tammie O'Rourke",
     "last_name": "O'Rourke",
@@ -3007,6 +3193,13 @@
     ]
   },
   {
+    "name": "Thomas Thornhill",
+    "last_name": "Thornhill",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Tim Stutts is a multifaceted designer drawn to challenges involving interaction, sensory feedback, and data visualization. He currently works as a lead interaction designer at Magic Leap, nurturing input, interactions, and systems for spatial computing. Previous endeavors have included developing interactive data visualizations at IBM Watson’s Cognitive Visualization Lab, prototyping patented augmented reality heads-up display applications for Honda Research Institute, creating a gestural music sequencer for Oblong, and programming data-inspired visual effects on an IBM Smarter Planet commercial campaign for Motion Theory. He lives north of Miami, Florida, with his wife and two young daughters.",
     "name": "Tim Stutts",
     "last_name": "Stutts",
@@ -3014,6 +3207,19 @@
     "roles": [
       "maker"
     ]
+  },
+  {
+    "name": "Timothy Utter",
+    "last_name": "Utter",
+    "roles": [
+      "advisory_board"
+    ],
+    "jobTitle": "Library Manager",
+    "affiliation": "Clark Library, University of Michigan",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-83.7381823,42.2759458]}",
+    "location_name": "Harlan H. Hatcher Graduate Library South",
+    "region": "n_america",
+    "image": "timutter.jpg"
   },
   {
     "body": "Todd M. Holloway was a PhD candidate in computer science at Indiana University. He holds a BA from Grinnell College and an SM from Indiana University, both in computer science. His research interests include data mining, case-based reasoning, information retrieval, personalization, and information visualization.\n",
@@ -3044,6 +3250,13 @@
     "name": "Tomas Carnecky",
     "last_name": "Carnecky",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Tony Chu",
+    "last_name": "Chu",
     "roles": [
       "maker"
     ]
@@ -3113,6 +3326,13 @@
     ]
   },
   {
+    "name": "Vyacheslav Tykhonov",
+    "last_name": "Tykhonov",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "W. Bradford Paley uses computers to create visual displays with the goal of making readable, clear, and engaging expressions of complex data. His visual representations are inspired by the calm, richly layered information in natural scenes. He applies rendering methods used by fine artists and graphic artists, informed by their possible underpinnings in human perception, and uses them to create narrowly scoped, almost idiosyncratic representations whose visual semantics are often driven by the real-world metaphors of the experts who know the domains best. Paley rendered his first computer graphics in 1973; graduated Phi Beta Kappa from the University of California, Berkeley, in 1981; founded Digital Image Design Incorporated in 1982; and started creating financial and statistical data visualization in 1986. He has exhibited at the Museum of Modern Art, is in the Artport permanent collection of the Whitney Museum of American Art, and has received multiple grants and awards for both art and design. He recently finished redesigning the interface at the center of the New York Stock Exchange trading floor. He is an adjunct associate professor at Columbia University and is director of Information Esthetics, an interdisciplinary group exploring the creation and interpretation of data representations that are both readable and aesthetically satisfying.",
     "name": "W. Bradford Paley",
     "last_name": "Paley",
@@ -3167,6 +3387,29 @@
     ]
   },
   {
+    "body": "Xiaowen Dong is an associate professor at the University of Oxford in the Department of Engineering Science, where he is an academic member of both the Machine Learning Research Group and the Oxford-Man Institute. Prior to that, he was a postdoctoral associate in the MIT Media Lab, where he remains as a research affiliate. He received his PhD degree from the Swiss Federal Institute of Technology (EPFL), Lausanne, Switzerland. His main research interests concern signal processing and machine learning techniques for analyzing network data, and their applications in studying questions across social and economic sciences.",
+    "name": "Xiaowen Dong",
+    "last_name": "Xiaowen Dong",
+    "roles": [
+      "maker"
+    ],
+    "image": "dong_xiaowen.png"
+  },
+  {
+    "name": "Yi Zhe Ang",
+    "last_name": "Ang",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Yoana Kosturska",
+    "last_name": "Kosturska",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Yong-Yeol Ahn is an assistant professor at Indiana University's School of Informatics and Computing and a co-founder of Janys Analytics. He earned his PhD from the Physics Department at KAIST in early 2008 and was a postdoctoral researcher at the Center for Complex Network Research at Northeastern University and a visiting researcher at the Center for Cancer Systems Biology at Dana-Farber Cancer Institute from 2008 until 2011. He is interested in the structure and dynamics of complex systems, such as society and living organisms.\n",
     "name": "Yong-Yeol Ahn",
     "last_name": "Ahn",
@@ -3205,5 +3448,21 @@
     "roles": [
       "maker"
     ]
+  },
+  {
+    "name": "Yves Rozenholc",
+    "last_name": "Rozenholc",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "body": "Ziyi is an urban researcher and designer. Trained as an architect, he is interested in utilizing spatial analysis, sensing technology, and AI to improve mobility, sustainability, and social equity. He is pursuing a M.C.P. in Urban Information System track at MIT. Prior to MIT, he obtained a M.S.D. from Penn, and a B.Arch. from HNU.",
+    "name": "Ziyi Tang",
+    "last_name": "Tang",
+    "roles": [
+      "maker"
+    ],
+    "image": "ziyi-tang.png"
   }
 ]

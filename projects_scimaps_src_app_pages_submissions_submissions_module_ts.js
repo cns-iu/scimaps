@@ -31,7 +31,8 @@ class SubmissionResolverService {
                 });
             }
             else {
-                return item;
+                const maxIteration = Math.max(...item.map(s => s.iteration));
+                return item.filter(s => s.iteration === maxIteration);
             }
         }));
     }

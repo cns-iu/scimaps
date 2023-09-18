@@ -8,7 +8,7 @@
     "credit": "Places & Spaces",
     "city": "Denver",
     "state": "CO",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -372,7 +372,7 @@
     "credit": "Places & Spaces",
     "city": "Indianapolis",
     "state": "IN",
-    "country": "USA",
+    "country": "US ",
     "pdfLink": null,
     "venueImages": [
       {
@@ -415,7 +415,7 @@
     "credit": "Places & Spaces",
     "city": "Pasadena",
     "state": "CA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20051020-society-social-studies.pdf",
     "venueImages": [
       {
@@ -987,7 +987,7 @@
     "credit": "Places & Spaces",
     "city": "Oak Ridge",
     "state": "TN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -1097,7 +1097,7 @@
     "credit": null,
     "city": "San Jose",
     "state": "CA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -1175,7 +1175,7 @@
     "credit": "Places & Spaces",
     "city": "Chicago",
     "state": "IL",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -1274,7 +1274,7 @@
     "credit": "Places & Spaces",
     "city": "San Francisco",
     "state": "CA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20070417-association-national-geographer.pdf",
     "venueImages": [
       {
@@ -1876,7 +1876,7 @@
     "credit": "Places & Spaces",
     "city": "Oak Ridge",
     "state": "TN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -2328,7 +2328,7 @@
     "credit": null,
     "city": "La Jolla",
     "state": "CA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -2384,7 +2384,7 @@
     "credit": null,
     "city": "Boston",
     "state": "MA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -2397,7 +2397,7 @@
     "credit": null,
     "city": "Santa Fe",
     "state": "NM",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20080512-information-science-technology.pdf",
     "venueImages": null
   },
@@ -2762,7 +2762,7 @@
     "credit": null,
     "city": "Arlington",
     "state": "VA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20080911-deeper-look-visualization.pdf",
     "venueImages": null
   },
@@ -2870,7 +2870,7 @@
     "credit": "Places & Spaces",
     "city": "Ithaca",
     "state": "NY",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -3770,7 +3770,7 @@
     "credit": "Placess & Spaces",
     "city": "Atlanta",
     "state": "GA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20091002-technology-transfer-conference.pdf",
     "venueImages": [
       {
@@ -4838,9 +4838,9 @@
     "venue": "AAAS Annual Meeting",
     "organizer": "Katy Börner",
     "credit": null,
-    "city": "Washington, DC",
-    "state": null,
-    "country": "USA",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -5261,7 +5261,7 @@
     "credit": "Places & Spaces",
     "city": "Chicago",
     "state": "IL",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20110412-science-team-conference.pdf",
     "venueImages": [
       {
@@ -5681,7 +5681,7 @@
     "credit": null,
     "city": "Columbus",
     "state": "OH",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -5857,7 +5857,7 @@
     "credit": null,
     "city": "Arlington",
     "state": "VA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -6168,7 +6168,7 @@
     "credit": null,
     "city": "Indianapolis",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -7264,7 +7264,7 @@
     "credit": null,
     "city": "San Diego",
     "state": "CA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -7994,7 +7994,7 @@
     "credit": "Places & Spaces",
     "city": "Indianapolis",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -8695,7 +8695,7 @@
     "credit": "Places & Spaces",
     "city": "Indianapolis",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20130910-american-chemical-society.pdf",
     "venueImages": [
       {
@@ -10374,7 +10374,7 @@
     "credit": "Stephen Kobourov",
     "city": "Tucson",
     "state": "AZ",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -10537,7 +10537,7 @@
     "credit": "Tracy Theriault",
     "city": "Bloomington",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -10575,7 +10575,7 @@
     "credit": null,
     "city": "Bloomington",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -10976,7 +10976,7 @@
     "credit": null,
     "city": "Columbia",
     "state": "MO",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -11353,7 +11353,7 @@
     "credit": "Places & Spaces",
     "city": "Chicago",
     "state": "IL",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20150515-computaional-social-science.pdf",
     "venueImages": [
       {
@@ -11375,7 +11375,7 @@
     "credit": "Gali Halevi",
     "city": "New York",
     "state": "NY",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -11431,7 +11431,7 @@
     "credit": "Katy Börner",
     "city": "St. Louis",
     "state": "MO",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -11760,7 +11760,7 @@
     "credit": "Katy Börner",
     "city": "Arlington",
     "state": "VA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -11790,7 +11790,7 @@
     "credit": "John Casti",
     "city": "Hoboken",
     "state": "NJ",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20150902-drawing-actionable-insights.pdf",
     "venueImages": [
       {
@@ -12020,7 +12020,7 @@
     "credit": "Katy Börner",
     "city": "Boulder",
     "state": "CO",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -12132,7 +12132,7 @@
     "credit": "J.D. Talasek",
     "city": "Irvine",
     "state": "CA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -12154,7 +12154,7 @@
     "credit": "Daniel Halsey",
     "city": "Bethesda",
     "state": "MD",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -12486,7 +12486,7 @@
     "credit": null,
     "city": "Atlanta",
     "state": "GA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -12715,7 +12715,7 @@
     "credit": "Katy Börner, Andreas Bueckle",
     "city": "Los Angeles",
     "state": "CA",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20160411-culture-analytics-tim-la.pdf",
     "venueImages": [
       {
@@ -12830,7 +12830,7 @@
     "credit": "Gali Halevi",
     "city": "New York",
     "state": "NY",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -12985,7 +12985,7 @@
     "credit": null,
     "city": "Orlando",
     "state": "FL",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20160626-alumni-reception-ala.pdf",
     "venueImages": null
   },
@@ -13034,7 +13034,7 @@
     "credit": null,
     "city": "Chicago",
     "state": "IL",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -13047,7 +13047,7 @@
     "credit": "Daniel Halsey",
     "city": "West Lafayette",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20160803-cra-wcdc-cadens.pdf",
     "venueImages": [
       {
@@ -13323,7 +13323,7 @@
     "credit": "Katy Börner",
     "city": "Tampa",
     "state": "Florida",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -13607,7 +13607,7 @@
     "credit": null,
     "city": "Bloomington",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -13874,7 +13874,7 @@
     "credit": null,
     "city": "Bloomington",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -14212,7 +14212,7 @@
     "credit": "Lisel Record",
     "city": "Bloomington",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20171021-science-fest-iu.pdf",
     "venueImages": [
       {
@@ -14307,7 +14307,7 @@
     "credit": "Places & Spaces",
     "city": "Indianapolis",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": [
       {
@@ -14535,11 +14535,11 @@
     ]
   },
   {
-    "dateStart": "2018-09-29T00:00:00.000Z",
-    "dateEnd": "2018-09-29T00:00:00.000Z",
-    "title": "Public or Perish, Public or Perish",
+    "dateStart": "2019-09-29T04:00:00.000Z",
+    "dateEnd": "2019-09-29T04:00:00.000Z",
+    "title": "Public or Perish, ASCT",
     "venue": "2018 ASTC Annual Conference",
-    "organizer": null,
+    "organizer": "Lisel Record",
     "credit": "Places & Spaces",
     "city": "Hartford",
     "state": "CT",
@@ -14625,7 +14625,7 @@
     "credit": "Places & Spaces",
     "city": "Indianapolis",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20190320-data-day-in.pdf",
     "venueImages": [
       {
@@ -14785,13 +14785,13 @@
   {
     "dateStart": "2019-10-26T00:00:00.000Z",
     "dateEnd": "2019-11-26T00:00:00.000Z",
-    "title": "ScienceFest",
+    "title": "Science Fest",
     "venue": "Indiana University",
-    "organizer": null,
+    "organizer": "College of Arts & Sciences",
     "credit": null,
     "city": "Bloomington",
     "state": "IN",
-    "country": null,
+    "country": "US",
     "pdfLink": "20191026-science-fest-iu.pdf",
     "venueImages": null
   },
@@ -14985,7 +14985,7 @@
     "credit": null,
     "city": "Bloomington",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": null,
     "venueImages": null
   },
@@ -15130,7 +15130,7 @@
     "organizer": "Indiana University Bloomington",
     "credit": "Maps & Macroscopes",
     "city": "Bloomington",
-    "state": "Indiana",
+    "state": "IN",
     "country": "United States"
   },
   {
@@ -15142,7 +15142,7 @@
     "credit": "Places & Spaces",
     "city": "Notre Dame",
     "state": "IN",
-    "country": "USA",
+    "country": "US",
     "pdfLink": "20210924-17th-iteration-debut.pdf",
     "venueImages": [
       {
@@ -15174,13 +15174,13 @@
   {
     "dateStart": "2021-10-09T14:00:36.197Z",
     "dateEnd": "2021-10-09T19:00:36.208Z",
-    "title": "Science Festival",
-    "venue": "Science Festival",
+    "title": "Science Fest",
+    "venue": "Science Fest",
     "organizer": "Indiana University Bloomington Office of Science Outreach",
     "credit": "Places & Spaces",
     "city": "Bloomington",
-    "state": "Indiana",
-    "country": "United States",
+    "state": "IN",
+    "country": "US",
     "pdfLink": "20211009-science-fest-bloomington.pdf",
     "venueImages": [
       {
@@ -15262,8 +15262,8 @@
     "organizer": "Indiana University Bloomington",
     "credit": "Places & Spaces",
     "city": "Bloomington",
-    "state": "Indiana",
-    "country": "United States",
+    "state": "IN",
+    "country": "US",
     "pdfLink": "24-hour-event.pdf"
   },
   {
@@ -15274,8 +15274,8 @@
     "organizer": "Morgenstern's Books",
     "credit": "Katy Börner",
     "city": "Bloomington",
-    "state": "Indiana",
-    "country": "United States",
+    "state": "IN",
+    "country": "US",
     "venueImages": [
       {
         "sm": "image01.sm.jpg",
@@ -15323,9 +15323,9 @@
     "venue": "The Future of Learning & Work Workshop",
     "organizer": "Indiana University Bloomington",
     "credit": "Katy Börner",
-    "city": "Bloomington",
-    "state": "Indiana",
-    "country": "United States",
+    "city": "Berlin",
+    "state": "DE",
+    "country": "Germany",
     "venueImages": [
       {
         "sm": "image01.sm.jpg",
@@ -15334,6 +15334,257 @@
       {
         "sm": "image02.sm.jpg",
         "lg": "image02.lg.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2022-04-05T18:36:08.553Z",
+    "dateEnd": "2022-04-05T18:36:08.568Z",
+    "title": "Data Visualization Bazaar",
+    "venue": "Sciences Library, Indiana University",
+    "organizer": "Indiana University Bloomington",
+    "credit": "Places & Spaces",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "datavisbazaar2022.pdf",
+    "venueImages": [
+      {
+        "sm": "image01.sm.jpg",
+        "lg": "image01.lg.jpg"
+      },
+      {
+        "sm": "image02.sm.jpg",
+        "lg": "image02.lg.jpg"
+      },
+      {
+        "sm": "image03.sm.jpg",
+        "lg": "image03.lg.jpg"
+      },
+      {
+        "sm": "image04.sm.jpg",
+        "lg": "image04.lg.jpg"
+      },
+      {
+        "sm": "image05.sm.jpg",
+        "lg": "image05.lg.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2022-06-15T15:00:00.000Z",
+    "dateEnd": "2022-06-15T20:00:00.000Z",
+    "title": "Data Visualization Lisboa",
+    "venue": "Data Visualization Lisboa",
+    "organizer": "Katherine Gustilo",
+    "city": "Lisbon",
+    "state": "PT",
+    "country": "Portugal"
+  },
+  {
+    "dateStart": "2022-06-22T20:45:12.045Z",
+    "dateEnd": "2022-06-22T20:45:12.052Z",
+    "title": "Luddy Pre-College Summer Program: Places & Spaces Virtual Tour",
+    "venue": "Luddy Pre-College Summer Program: Places & Spaces Virtual Tour",
+    "organizer": "Matthew Francisco",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "United States"
+  },
+  {
+    "dateStart": "2022-08-19T13:00:20.507Z",
+    "dateEnd": "2022-08-19T21:00:20.512Z",
+    "title": "UITS Tech Fair",
+    "venue": "Indiana Memorial Union",
+    "organizer": "Victor Kudzai Kaposonore",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "USA"
+  },
+  {
+    "dateStart": "2022-08-27T14:00:59.694Z",
+    "dateEnd": "2022-08-27T20:00:59.705Z",
+    "title": "Makevention",
+    "venue": "Monroe Convention Center",
+    "organizer": "Monroe Convention Center",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "United States",
+    "pdfLink": "http://makevention.org/"
+  },
+  {
+    "dateStart": "2022-08-29T15:00:00.000Z",
+    "dateEnd": "2023-01-20T16:00:00.000Z",
+    "title": "18th Iteration Debut at the University of Michigan",
+    "venue": "Clark Library, University of Michigan",
+    "organizer": "Timothy Utter",
+    "city": "Ann Arbor",
+    "state": "Michigan",
+    "country": "US",
+    "venueImages": [
+      {
+        "sm": "image01.sm.png",
+        "lg": "image01.lg.png"
+      },
+      {
+        "sm": "image02.sm.png",
+        "lg": "image02.lg.png"
+      },
+      {
+        "sm": "image03.sm.png",
+        "lg": "image03.lg.png"
+      }
+    ]
+  },
+  {
+    "dateStart": "2022-09-29T15:00:32.120Z",
+    "dateEnd": "2022-09-29T18:00:32.128Z",
+    "title": "Technology Petting Zoo",
+    "venue": "Indiana Memorial Union",
+    "organizer": "UITS",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "https://depi.iu.edu/events/tech-petting-zoo/index.html"
+  },
+  {
+    "dateStart": "2022-09-30T13:00:39.849Z",
+    "dateEnd": "2022-09-30T21:00:39.854Z",
+    "title": "Science Maps and Macroscopes",
+    "venue": "University of Michigan Clark Library",
+    "organizer": "Timothy Utter",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "country": "US",
+    "pdfLink": "september-“datatopia-the-future-of-scientific-discovery-through-a-data-lens”-colloquium-midas.pdf"
+  },
+  {
+    "dateStart": "2022-10-22T14:00:09.294Z",
+    "dateEnd": "2022-10-22T21:00:09.299Z",
+    "title": "Science Fest",
+    "venue": "Science Fest",
+    "organizer": "Jo Anne Tracy",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "sciencefest_2022.pdf",
+    "venueImages": [
+      {
+        "sm": "img_4740small.jpg",
+        "lg": "img_4740.jpg"
+      },
+      {
+        "sm": "img_4741small.jpg",
+        "lg": "img_4741.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2022-11-10T19:30:00.000Z",
+    "dateEnd": "2022-11-10T20:00:19.272Z",
+    "title": "CNS Metaverse Tour",
+    "venue": "Luddy Hall",
+    "organizer": "Todd Theriault",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "dateStart": "2022-12-01T20:00:15.809Z",
+    "dateEnd": "2022-12-01T20:00:15.838Z",
+    "title": "Cognitive Informatics Seminar",
+    "venue": "UQÀM",
+    "organizer": "Katy Börner",
+    "city": "Montreal",
+    "state": "(virtual)",
+    "country": "Canada",
+    "pdfLink": "séminaire-au-dic-«atlas-of-forecasts-modeling-and-mapping-desirable-futures»-par-katy-börner.pdf"
+  },
+  {
+    "dateStart": "2022-12-10T15:00:00.000Z",
+    "dateEnd": "2022-12-11T15:00:00.000Z",
+    "title": "24 Hour Human Reference Atlas Design Event",
+    "venue": "24 Hour Human Reference Atlas Design Event",
+    "organizer": "Todd Theriault",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "https://humanatlas.io/events/2022-24h/"
+  },
+  {
+    "dateStart": "2022-12-13T19:55:03.867Z",
+    "dateEnd": "2022-12-13T19:55:03.885Z",
+    "title": "Foresight Seminar",
+    "venue": "NISTEP",
+    "organizer": "Kuniko Urashima",
+    "city": "Tokyo",
+    "state": "(virtual)",
+    "country": "Japan"
+  },
+  {
+    "dateStart": "2023-03-07T20:07:51.930Z",
+    "dateEnd": "2023-03-07T20:07:51.951Z",
+    "title": "Bloomington Rotary Club",
+    "venue": "Georgina Room, IMU",
+    "organizer": "Jim Shea",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "dateStart": "2023-03-07T17:00:37.539Z",
+    "dateEnd": "2023-03-07T20:00:37.563Z",
+    "title": "Places & Spaces Presentation with Katy Börner",
+    "venue": "Bloomington Rotary Club",
+    "organizer": "Jim Shea",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "roundabout-newsletter.pdf"
+  },
+  {
+    "dateStart": "2023-06-08T14:00:00.000Z",
+    "dateEnd": "2023-08-04T21:00:37.626Z",
+    "title": "Cook Center for Arts and Humanities",
+    "venue": "Grand Hall in Maxwell Hall",
+    "organizer": "Linnea Holt",
+    "credit": "Images: IU Arts & Humanities Council at the Gayle Karch Cook Center for Public Arts & Humanities",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "venueImages": [
+      {
+        "sm": "smimg_0690.jpg",
+        "lg": "img_0690.jpg"
+      },
+      {
+        "lg": "img_0688.jpg",
+        "sm": "smimg_0688.jpg"
+      },
+      {
+        "lg": "img_0689.jpg",
+        "sm": "smimg_0689.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2023-08-31T18:39:26.161Z",
+    "dateEnd": "2023-08-31T18:39:26.175Z",
+    "title": "Places & Spaces during ISSI ",
+    "venue": "Cook Center, Maxwell Hall",
+    "organizer": "Linnea Holt",
+    "credit": "IU Arts & Humanities Council at the Gayle Karch Cook Center for Public Arts & Humanities",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "venueImages": [
+      {
+        "sm": "smimg_0688.jpg",
+        "lg": "img_0688.jpg"
+      },
+      {
+        "sm": "smimg_0690.jpg",
+        "lg": "img_0690.jpg"
       }
     ]
   }

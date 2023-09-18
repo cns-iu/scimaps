@@ -33,5 +33,15 @@
     "body": "Using maps and 3D models, these macroscopes offer a spatial understanding of some of society’s greatest challenges. Placing data in space gives us a sense of the proportion, distribution, and structure of a social problem. It can also help us find our own location within the data. Does where you were born affect your income later in life? How different are police methods in your state from others? Did past evaluations of the racial composition of your neighborhood increase or decrease the value of your home? How many copies of the COVID-19 virus could fit across the width of one strand of your hair? By placing complicated problems in a spatial context, these macroscopes can help us map out effective approaches to solving them. ",
     "iteration": 17,
     "title": "Macroscopes for Placing Data in Space"
+  },
+  {
+    "body": "In this iteration, you will find interactive visualizations that disrupt old habits of seeing, that challenge our common patterns of perception in order that we might see things anew. Looking at wellness through the lens of social, economic, and infrastructure factors, for example, opens up ideas for how policy and research can improve health. Looking at income segregation at the level of the individual visitor within the landscape captures the dimension of movement. A shift in perspective can result in a richer and more multifaceted understanding of the subject at hand, whether that subject is egg shape or the motion of the stars.",
+    "title": "Macroscopes for a New Perspective",
+    "iteration": 18
+  },
+  {
+    "body": "This year’s collection of macroscopes serve as digital atlases—collections of maps, charts, and other graphical representations that attempt a global view of a scientific subject. Some include reference maps where data is placed within a coordinate system to visualize spatial relationships between entities. Others illuminate particular techniques like machine learning, which is critical for building the large, data-informed digital atlases of today. And, like the best cartographic and anatomical atlases, these macroscopes are engaging, well organized, easy to use, and support both informed query and broad exploration.",
+    "title": "Macroscopes as Digital Atlases",
+    "iteration": 19
   }
 ]

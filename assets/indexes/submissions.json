@@ -246,5 +246,277 @@
     "pt": {},
     "de": {},
     "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 19,
+      "sequence": 1,
+      "year": 2023,
+      "title": "Info and Violence",
+      "body": "Authors: Siori Kitajima\n\nLink to Macoscope: <https://182.patternbased.com/information-and-violence/>\n\nAbstract:  \n\n\"Information and Violence\" is an interactive data visualization that presents a timeline of major U.S. news headlines alongside monthly counts of gun sales and homicides from 2016 to 2021. Since 2016, the number of gun sales and homicides has been steadily increasing. By displaying them alongside the top news at the time, it aims to highlight the possibility of the psychological influence of fear and anxiety in society. Users can hover their cursor over the screen to view the gun sales and homicides data, and click on orange vertical lines to see the corresponding news headline.\n",
+      "makers": [
+        "siori-kitajima/readme"
+      ],
+      "references": [
+        "HOMICIDES = From 2016 to 2019, the data is from CDC WONDER Data Archive (https://wonder.cdc.gov/). From 2020, since the data publishing by CDC has been paused since the COVID pandemic, we used the estimated monthly homicide numbers from the report published by CCJ National Commission on COVID-19 and Criminal Justice (https://cdn.ymaws.com/counciloncj.org/resource/resmgr/covid_commission/Year_End_Crime_Update_Design.pdf).\n\nGUN SALES = Brady's estimated monthly gun sales (https://brady-static.s3.amazonaws.com/NICSdata-year.pdf), which is calculated based on NICS's background check for firearm sales (https://www.fbi.gov/services/cjis/nics).\n\nNEWS EVENTS = Significant news events picked from Wikipedia's list of incidents in U.S. \n\n2016 in the United States (https://en.wikipedia.org/wiki/2016_in_the_United_States), \n\n2017 in the United States (https://en.wikipedia.org/wiki/2017_in_the_United_States), \n\n2018 in the United States (https://en.wikipedia.org/wiki/2018_in_the_United_States), \n\n2019 in the United States (https://en.wikipedia.org/wiki/2019_in_the_United_States), \n\n2020 in the United States (https://en.wikipedia.org/wiki/2020_in_the_United_States), \n\n2021 in the United States (https://en.wikipedia.org/wiki/2021_in_the_United_States).\n"
+      ],
+      "image": {
+        "sm": "infoandviolence.png",
+        "med": "infoandviolence.png",
+        "lg": "infoandviolence.png"
+      }
+    },
+    "es": {
+      "makers": [
+        "siori-kitajima/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 19,
+      "sequence": 2,
+      "year": 2023,
+      "title": "Spain lives in flats: why we have built our cities vertically",
+      "body": "Authors: Raúl Sánchez González, Analía Plaza\n\nLink to Macroscope: <https://especiales.eldiario.es/spain-lives-in-flats/>\n\nAbstract:  \n\n\"Spain lives in flats\" is an innovative and interactive journalistic project by elDiario.es that analyzes the footprint of more than 12 million buildings to map the height of Spanish cities in 3D to analyze their sustainability and impact on the current urban society. The investigation that includes narrative visualizations shows why Spain is one of the countries in the world that has built the highest and most dense cities compared to other countries. Two of every three Spaniards live in flats and apartments and only a third in single-family and semi-detached houses.\n\nWe created an R script that downloaded cadastral data and footprints of more than 12 million buildings. The total size of the downloaded files exceeded 200GB.\n\nThen, we processed and joined in R all downloaded files to have a single database with the details of all the buildings in Spain. For example, we verified the data of 12 million buildings, we calculated the height of every building from the part that occupies the most built volume in the plans and we extracted the date of the building from the start of construction. All these processes were repeated several times during the year due to the publication of corrections and allowed us for the first time in Spain to have a database and a map with the heights of all the buildings in the country. This project compiled for the first time in a single database the cartographic plans of all the buildings currently standing in the Spanish territory and proved that in Spain we live in tall buildings.\n\nWhen considering the structure of the story, we conceived it as a journey from the small anecdote to the big phenomenon. For this reason, the piece begins by telling the story of a building in A Coruña and then explaining vertical urbanism in Spain. This story works as a historical journey through each urban model developed in Spain contextualized with graphics and details of each moment.\n \nWe used R, Rstudio, QGIS and Tippecanoe for data compilation, processing and analysis. We had to do a lot of tests to compress the geographic information as much as possible to be able to map it on all devices. D3.js and Javascript were used for data visualization. Mapbox for mapping building footprint. HTML, Javascript and Scrollama for scrolling webpage.\n",
+      "makers": [
+        "raúl-sánchez-gonzález/readme",
+        "analía-plaza/readme"
+      ],
+      "references": [
+        "-﻿"
+      ],
+      "image": {
+        "sm": "spainlivesinflats.png",
+        "med": "spainlivesinflats.png",
+        "lg": "spainlivesinflats.png"
+      }
+    },
+    "es": {
+      "makers": [
+        "raúl-sánchez-gonzález/readme",
+        "analía-plaza/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 19,
+      "sequence": 3,
+      "year": 2023,
+      "title": "WorldViewR: Interactive Elevation Mapping and 3D Modeling Program",
+      "body": "Authors: Jonathan Callura \n\nLink to Macroscope: <https://www.worldviewr.com>\n\nAbstract: \n\nThe WorldViewR web application provides a point and click interface that allows users to quickly render interactive 3D elevation maps. These models can be exported in various formats and they have been used for applications such as 3D printing and surface water flow modeling. \n",
+      "makers": [
+        "jonathan-callura/readme"
+      ],
+      "references": [
+        "-﻿"
+      ],
+      "image": {
+        "sm": "worldviewr.png",
+        "med": "worldviewr.png",
+        "lg": "worldviewr.png"
+      }
+    },
+    "es": {
+      "makers": [
+        "jonathan-callura/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 19,
+      "sequence": 4,
+      "year": 2023,
+      "title": "K-Means Clustering: An Explorable Explainer",
+      "body": "Authors: Yi Zhe Ang\n\nLink to Macroscope: <https://k-means-explorable.vercel.app/>\n\nAbstract:\nThis interactive article presents a so-called “explorable explainer” of the k-means clustering algorithm. It attempts to push the envelope of how visual explanations can be designed on an interactive computational medium such as the web.\n\nThis article explains the algorithm using a “scrollytelling” piece. As the reader scrolls through the article, not only do the visuals animate and transition accordingly with the text, the reader is also prompted to interact with these geometric visualizations of the algorithm, supplementing their intuition through hands-on experimentation with its inner workings.\n\nAs the article progresses and introduces more concepts, it also slowly introduces corresponding knobs and dials that the reader can play around with. The article finally concludes with a dashboard or sandbox that comprises all the interactive controls that came before, giving the reader free rein to probe around and dissect the algorithm to improve their own understanding of its details as they please.\n",
+      "makers": [
+        "yi-zhe-ang/readme"
+      ],
+      "image": {
+        "sm": "kmeansclustering.png",
+        "med": "kmeansclustering.png",
+        "lg": "kmeansclustering.png"
+      },
+      "references": [
+        "- https://developers.google.com/machine-learning/clustering\n- https://scikit-learn.org/stable/modules/clustering.html#k-means\n- https://probml.github.io/pml-book/book1.html\n"
+      ]
+    },
+    "es": {
+      "makers": [
+        "yi-zhe-ang/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 19,
+      "sequence": 5,
+      "year": 2020,
+      "image": {
+        "sm": "spatialequality.png",
+        "med": "spatialequality.png",
+        "lg": "spatialequality.png"
+      },
+      "title": "Spatial Equity NYC",
+      "body": "Authors: Niko McGlashan, Sarah Williams, Daniela Coray, Kelly Fang, Enrique Casillas, Jari Prachasartta, Jiajie Li\n\nLink to Macroscope: <https://www.spatialequity.nyc/>\n\nAbstract: \n\nSpatial Equity NYC documents inequities in the ways that public space — including streets, sidewalks, and greenspaces — is designed, distributed, and accessed. Browse citywide data or search community profiles to learn how decisions about the use of public space lead to unequal outcomes and what you can do about it.\n",
+      "makers": [
+        "niko-mcglashan/readme",
+        "sarah-williams/readme",
+        "daniela-coray/readme",
+        "kelly-fang/readme",
+        "enrique-casillas/readme",
+        "jari-prachasartta/readme",
+        "jiajie-li/readme"
+      ],
+      "references": [
+        "- Please check back with us in the coming weeks should we be accepted to include more relevant publications and conference proceedings.\n\n- Homepage for the Leventhal Center for Advanced Urbanism https://lcau.mit.edu/\n"
+      ]
+    },
+    "es": {
+      "makers": [
+        "niko-mcglashan/readme",
+        "sarah-williams/readme",
+        "daniela-coray/readme",
+        "kelly-fang/readme",
+        "enrique-casillas/readme",
+        "jari-prachasartta/readme",
+        "jiajie-li/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 19,
+      "sequence": 6,
+      "year": 2023,
+      "image": {
+        "sm": "thenowmuseum.png",
+        "med": "thenowmuseum.png",
+        "lg": "thenowmuseum.png"
+      },
+      "title": "The Now.museum - The COVID19 museum timeline",
+      "body": "Authors: Andrea Scharnhorst, Vyacheslav Tykhonov, Juliette Vion-Dury, Yves Rozenholc, \n\nLink to Macroscope: <http://info126.pharmacie.univ-paris5.fr:8095/timeline?q=covid>\n\nAbstract: \n\nWe propose a general toolbox for the Now.museum - a \"digital space\" dedicated to individual and collective memories of significant events in our societies - whose context is informed by the collection and conservation of artifacts publicly available on the web. \nClearly, Covid-19 and its global spreading belong to these significant events and could be documented by sharing digital collections across specific societal sectors, scientific domains, etc. However, a question is “how to capture its double spreading dimensionality spatially and in time”? Even if several retrospective initiatives exist, an integrative data curation approach and interface on information and testimonies is still missing. Moreover, relatively little attention was given to the ‘voices’ of the public, their testimonies, experiences, losses, and aspirations. \nFollowing the Open Science principle for science democratization, our macroscope – with its timeline interface -  answers these concerns with open data which provides context to individual experiences. Its infrastructural backbone consists in an open source archival platform (Dataverse) nourished from the capture of public parts of newspaper and social media, published in all Europe and in all languages since December 2019, including the term “Covid” in their title. \nThe interface is designed as a searchable timeline, where captures are displayed as thumbnails, and sources as well as topics are color coded. The captures are indexed using AI techniques and links are provided to the original contents. The interactive interface is accompanied by a number of static overview maps, tracing bursts and changes in terminology, paying attention to geographic spread and multilinguality. \nThe general design of the Now.museum as a space of cultural heritage, is applicable for any memory-collecting and sharing activity among the wider public, hence individual contributions are expected. To this end, a workflow is designed and a first implementation of ‘citizen/crowd material’ is given.\n\nPS: Domain names Now.museum and Covid-19.museum are the ownership of Yves Rozenholc since the beginning of April 2020. Their denominations have been validated by the ICOM (International Council of Museums) which controls the extension museum.\n",
+      "makers": [
+        "andrea-scharnhorst/readme",
+        "vyacheslav-tykhonov/readme",
+        "juliette-vion-dury/readme",
+        "yves-rozenholc/readme"
+      ],
+      "references": [
+        "A github repository  https://github.com/C19M/Covid-19.Museum describes the case, and contains links to the software code used. The timeline in essence runs on a Dataverse instance.\n\nReferences around the Covid-19 Museum\nRozenholc Y., Covid-19 Museum ou comment agréger les traces laissées par la pandémie dans un musée virtuel, The Conversation (31 Janvier 2021).\nhttps://theconversation.com/covid-19-museum-ou-comment-agreger-les-traces-laissees-par-la-pandemie-dans-un-musee-virtuel-147327\n\nRozenholc Y. and Tykhonov V., The Covid-19 Museum ... a use case for the Dataverse community, 8th annual Dataverse Community Meeting, Harvard, 14 to 16 June 2022.\nhttps://www.youtube.com/watch?v=3ek7F_Dxcjk&t=3284s \n\nRozenholc Y., Vion-Dury J., Petrazoller F., The Covid-19 Museum, Symposium : Collecte de la rupture ou rupture de la collecte, Science&You Conference, Metz, 16 au 19 Novembre 2021. \nhttps://scienceandyou2021.insight-outside.fr/fr/programme-officiel/37\n\nRozenholc Y., Le musée virtuel du Covid-19, Le patrimoine au temps du confinement, Journée d’études de l’Institut National du Patrimoine 29 Janvier 2021.\nhttps://www.inp.fr/content/download/10713/158132/version/1/file/PROGRAMME.pdf\n\nRozenholc Y., Rencontre-débat « Une pandémie ne change rien », Festival des idées, Université Paris Cité 20 Novembre 2020. https://u-paris.fr/festival-idees-paris/une-pandemie-ne-change-rien/\n\nCovid-19 Museum seminar organized by Rozenholc Y., Vion-Dury J., Covid-19 Museum - YouTube, https://www.youtube.com/@covid-19museum58\n\nOther Media: The Covid-19 Museum, begun in March 2020 and released on April 2, 2020, was featured in the following press:\n\n- 20 Minutes, April 25, 2020\n- Le Point, May 3, 2020\n- La Croix, May 20, 2020\n- The Huffpost, May 21, 2020\n\n- Le Journal Du Dimanche, May 24, 2020 \n- We Demain, August 13, 2020\nhttps://www.wedemain.fr/partager/les-services-darchives-memorisent-nos-vies-confinees\n- Le Monde, May 16, 2021 \n\nand the topic of interview by: \n- France 24 for CulturePrime FRANCE 24 - Le Covid-19 au musée | Facebook\n- Whatsupdoc-lemag.fr N°5 https://www.whatsupdoc-lemag.fr/magazine/51\n"
+      ]
+    },
+    "es": {
+      "makers": [
+        "andrea-scharnhorst/readme",
+        "vyacheslav-tykhonov/readme",
+        "juliette-vion-dury/readme",
+        "yves-rozenholc/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 19,
+      "sequence": 7,
+      "year": 2023,
+      "title": "Mapping the New Politics of Care",
+      "body": "Authors: Laura Kurgan, Gregg Gonsalves, Dare Brawley, Jia Zhang, Suzan Iloglu,Thomas Thornhill, Adeline Chum, \n\nLink to Macroscope: <https://newpoliticsofcare.net/>\n\nAbstract: \n\nMapping the New Politics of Care displayed the effects of COVID-19 in the United States layering a wide range of social, economic, and environmental conditions on two interactive maps utilizing multiple vulnerability indexes. \n\nThe first map, titled Community Health Workers, asked viewers to imagine what would happen if one million community workers were allocated across the USA by comparing four indexes of vulnerability alongside COVID-19 data. A user can toggle between multiple vulnerabilities for the distribution of the workers, specific to each county. Making decisions like this responsibly requires confronting and addressing not just the virus but also the inequalities and vulnerabilities that propelled the pandemic.\n\nAll people in the USA were granted the right to have access to free, safe, and effective COVID-19 vaccines over multiple federal distribution phases. But due to the limited doses available, the majority of states followed the Center for Disease Control’s recommendations to prioritize health-care personnel and long-term care facility residents in receiving the first vaccines. \n\nThe second map titled, Vaccine Allocation, focused on this first distribution, Phase 1A of the federal program and compared how each state could have distributed 22 million doses of vaccine more equitably. Users can compare Phase 1A allocation vs allocation to vulnerable populations county by county, in each state. Prioritizing vulnerability could have mitigated health inequities and protected communities that were more likely to have the first and most concentrated COVID-19 outbreaks.\n\nThe vulnerabilities made visible in both maps predated the pandemic and created the conditions for the virus to flourish. Both maps display the acute inequalities embedded in the social and political landscape of the USA. This pandemic is not simply biological. It is a symptom of an illness in our body politic. As COVID-19 roared across the country, it followed the fault lines of social vulnerability.\n",
+      "makers": [
+        "laura-kurgan/readme",
+        "gregg-gonsalves/readme",
+        "dare-brawley/readme",
+        "jia-zhang/readme",
+        "suzan-iloglu/readme",
+        "thomas-thornhill/readme",
+        "adeline-chum/readme"
+      ],
+      "references": [
+        "Gonsalves, Gregg, and Amy Kapczynski. 2020. “The New Politics of Care.” Boston Review, April 26, 2020. http://bostonreview.net/politics/gregg-gonsalves-amy-kapczynski-new-politics-care.\n\nCenters for Disease Control and Prevention, “COVID-19 Vaccine Distribution Allocations by Jurisdiction - Pfizer,” 2020, https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg.\n\nCenters for Disease Control and Prevention, “COVID-19 Vaccine Distribution Allocations by Jurisdiction - Moderna,” 2020, https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/b7pe-5nws.\n\nCenters for Disease Control and Prevention. 2020. “COVID-19 Hospitalization and Death by Age.” February 11, 2020. https://www.cdc.gov/coronavirus/2019-ncov/COVID-data/investigations-discovery/hospitalization-death-by-age.html.\n\nCenters for Disease Control and Prevention, “CDC Social Vulnerability Index (SVI),” September 4, 2020, https://www.atsdr.cdc.gov/placeandhealth/svi/index.html.\n\nCenters for Disease Control and Prevention. 2020. “Coronavirus Disease 2019 (COVID-19) 2020 Interim Case Definition, Approved August 5, 2020.” https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-COVID-19/case-definition/2020/08/05/.\n\nCenters for Medicare and Medicaid Services, “Nursing homes including rehab services, Provider Information,” 2020, https://data.cms.gov/provider-data/dataset/4pq5-n9py.\n\nCenters for Medicare and Medicaid Services. 2020. “State Medicaid and CHIP Applications, Eligibility Determinations, and Enrollment Data, Centers for Medicare and Medicaid Services.” https://data.medicaid.gov/Enrollment/State-Medicaid-and-CHIP-Applications-Eligibility-D/n5ce-jxme.\n\nDepartamento de Salud. 2019. “Informe Anual de Estadísticas Vitales: Defunciones, años 2015 y 2016.” http://www.salud.gov.pr/Estadisticas-Registros-y-Publicaciones/Estadisticas%20Vitales/Informe%20Anual%20Estad%C3%ADsticas%20Vitales%20Defunciones%202015-2016.pdf.\n\nNew York Times. 2020. “Coronavirus (COVID-19) Data in the United States.” https://github.com/nytimes/COVID-19-data.\n\nRemington, Patrick L., Bridget B. Catlin, and Keith P. Gennuso. 2015. “The County Health Rankings: Rationale and Methods.” Population Health Metrics 13 (1): 11. https://doi.org/10.1186/s12963-015-0044-2.\n\nUniversity of Wisconsin Population Health Institute and Robert Wood Johnson Foundation. 2020. “2020 County Health Rankings National Data.” https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation.\n\nUS Bureau of Labor Statistics. 2020. “Local Area Unemployment Statistics.” https://www.bls.gov/lau/laufaq.htm#Q01.\n\nUS Census Bureau, “American Community Survey 5-Year Data (2015–2019),” 2020, https://www.census.gov/data/developers/data-sets/acs-5year.html.\n\nUS Census Bureau, “2018 County Business Patterns,” 2020, https://www.census.gov/programs-surveys/cbp.html.\n\nUS Census Bureau. 2020. “Puerto Rico Municipios Population Totals: 2010–2019.” https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-puerto-rico-municipios.html.\n\nUS Census Bureau. 2019. “American Community Survey 5-Year Data (2014–2018).” https://www.census.gov/data/developers/data-sets/acs-5year.html.\n\nUS Bureau of Labor Statistics. 2020. “Labor Force Data by County, Not Seasonally Adjusted, Latest 14 Months.” https://www.bls.gov/web/metro/laucntycur14.txt."
+      ],
+      "image": {
+        "sm": "mappingthenewpoliticsofcare.png",
+        "med": "mappingthenewpoliticsofcare.png",
+        "lg": "mappingthenewpoliticsofcare.png"
+      }
+    },
+    "es": {
+      "makers": [
+        "laura-kurgan/readme",
+        "gregg-gonsalves/readme",
+        "dare-brawley/readme",
+        "jia-zhang/readme",
+        "suzan-iloglu/readme",
+        "thomas-thornhill/readme",
+        "adeline-chum/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 19,
+      "sequence": 8,
+      "year": 2023,
+      "title": "Is Food Making You Sick?",
+      "body": "Authors: Yoana Kosturska\n\nLink to Macroscope: <https://thesis.yoanacodes.com/>\n\nAbstract: Is Food Making You Sick? is exploring the relationship between diet and health in 184 countries through the analysis and visualization of extensive data on nutritional factors and diseases. The project aims to study and visualize these relationships by juxtaposing 47 nutrients and 84 health conditions, allowing users to explore and analyze almost four thousand unique relationships. By exploring the patterns between food consumption and health outcomes, users could better inform their dietary choices and be empowered by high quality, research data. Exposing the data visually could also spark discussion amongst researchers, setting the stage for testing hypotheses and performing additional studies, challenging the knowledge we currently have. \n\nThe tool utilizes over 6 GB of data from the Global Dietary Database and the Global Burden of Disease. The data were cleaned, synchronized, and meaningful relationships were selected to be displayed in the final work. Visualizing these correlations in a highly customizable, interactive scatterplot, empowers users to explore relationships, analyze, and interpret complex data in a single, multilayered visualization. The powerful filtering options allow users to increase or decrease the complexity by adding or removing layers of information, utilizing color-coding or sizing of the circles representing each country to convey their geographic location or display additional metrics, such as population, obesity or underweight rates. This empowers users to customize their experience to reflect their analytical needs. Analysis is further supported by the ability to plot a regression line, indicating the direction and strength of each relationship. \n\nVisualizing close to 4,000 unique relationships, the tool allows users to explore and analyze large amounts of data in a highly analytical way - an important starting point in learning more about what are the ways in which the food we consume may influence our health. \n\nThis interactive article presents a so-called “explorable explainer” of the k-means clustering algorithm. It attempts to push the envelope of how visual explanations can be designed on an interactive computational medium such as the web.\n\nThis article explains the algorithm using a “scrollytelling” piece. As the reader scrolls through the article, not only do the visuals animate and transition accordingly with the text, the reader is also prompted to interact with these geometric visualizations of the algorithm, supplementing their intuition through hands-on experimentation with its inner workings.\n\nAs the article progresses and introduces more concepts, it also slowly introduces corresponding knobs and dials that the reader can play around with. The article finally concludes with a dashboard or sandbox that comprises all the interactive controls that came before, giving the reader free rein to probe around and dissect the algorithm to improve their own understanding of its details as they please.\n",
+      "makers": [
+        "yoana-kosturska/readme"
+      ],
+      "references": [
+        "Global Burden of Disease (GBD): https://www.healthdata.org/gbd/2019\n\nGlobal Dietary Database (GDD): https://www.globaldietarydatabase.org/\n"
+      ],
+      "image": {
+        "sm": "isfoodmakingyousick.png",
+        "med": "isfoodmakingyousick.png",
+        "lg": "isfoodmakingyousick.png"
+      }
+    },
+    "es": {
+      "makers": [
+        "yoana-kosturska/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
   }
 ]

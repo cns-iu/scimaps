@@ -5,9 +5,9 @@ title: The Future of Learning & Work Workshop
 venue: The Future of Learning & Work Workshop
 organizer: Indiana University Bloomington
 credit: Katy Börner
-city: Bloomington
-state: Indiana
-country: United States
+city: Berlin
+state: DE
+country: Germany
 venueImages:
   - sm: image01.sm.jpg
     lg: image01.lg.jpg

@@ -6,6 +6,6 @@ venue: Luddy Pre-College Summer Program
 organizer: Indiana University Bloomington
 credit: Maps & Macroscopes
 city: Bloomington
-state: Indiana
+state: IN
 country: United States
 ---

@@ -6,8 +6,8 @@ venue: Atlas of Forecasts Book Reading at Morgenstern's Books
 organizer: Morgenstern's Books
 credit: Katy Börner
 city: Bloomington
-state: Indiana
-country: United States
+state: IN
+country: US
 venueImages:
   - sm: image01.sm.jpg
     lg: image01.lg.jpg

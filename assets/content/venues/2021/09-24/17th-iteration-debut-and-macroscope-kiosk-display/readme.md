@@ -7,7 +7,7 @@ organizer: Scott B. Weingart, Peter Hook
 credit: Places & Spaces
 city: Notre Dame
 state: IN
-country: USA
+country: US
 pdfLink: 20210924-17th-iteration-debut.pdf
 venueImages:
   - sm: image01.sm.jpg

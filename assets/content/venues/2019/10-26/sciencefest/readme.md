@@ -1,13 +1,13 @@
 ---
 dateStart: 2019-10-26
 dateEnd: 2019-11-26
-title: "ScienceFest"
-venue: "Indiana University"
-organizer:
-credit:
+title: Science Fest
+venue: Indiana University
+organizer: College of Arts & Sciences
+credit: null
 city: Bloomington
 state: IN
-country:
+country: US
 pdfLink: 20191026-science-fest-iu.pdf
-venueImages:
+venueImages: null
 ---

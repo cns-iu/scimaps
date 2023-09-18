@@ -46,14 +46,12 @@ banner_text: |-
 tabs:
   - header: Physical Exhibit
     content: >-
-      
-
       #### Contains
 
 
       * Full set of 100 individually printed maps at 30 x 24 in. (61 x 76 cm) each
 
-      * 46" HD Touchscreen macroscope kiosk with 16 interactive visualizations
+      * 46" HD Touchscreen macroscope kiosk with 32 interactive visualizations
 
       * 100 map description labels
 
@@ -72,6 +70,18 @@ tabs:
       * 520 ft. (158 m) of wall space
 
       * 350 sq. ft. (33 m²) of floor space
+
+
+      #### Total Cost
+
+
+      $12,000* full physical exhibit
+
+
+      $5,000* macroscope pop-up
+
+
+      \*Price will vary with modifications, includes shipping
     image: tabs/image.lg.jpg
   - header: Maps-Only Physical Exhibit
     content: >-
@@ -120,8 +130,8 @@ tabs:
       * Table space for handouts is desirable but not required
 
       * Local host hangs posters
-      
-      
+
+
       #### Total Cost
 
 
