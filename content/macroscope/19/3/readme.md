@@ -1,6 +1,6 @@
 ---
 en:
-  sequence: 3
+  sequence: 4
   body: "Perhaps this describes your situation: You know that the term “machine
     learning” has been around since the 1950s, but now everyone is talking about
     it and you are embarrassed to admit you have no idea what it means. Fear
@@ -35,7 +35,10 @@ en:
     lg: ml_desktop.png
   year: 2022
   iteration: 19
-es: {}
+es:
+  makers:
+    - tony-chu/readme
+    - stephanie-yee/readme
 zh: {}
 fr: {}
 pt: {}
