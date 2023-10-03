@@ -1,5 +1,5 @@
 ---
-name: Jiajie Li
+name: Chance Jiajie Li
 last_name: Li
 roles:
   - maker
