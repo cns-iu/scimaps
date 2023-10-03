@@ -9,7 +9,7 @@ en:
     potential solutions and learn how to take action.
 
 
-    The Spatial Inequity project documents inequities in the ways that public spaces are designed, distributed, and accessed. Its goal is to empower New Yorkers to take action quickly at the local level. Transportation Alternatives, a New York based non-profit organization, worked with the team from MIT to provide access to this data through Spatial Equity NYC.
+    The Spatial Inequity project documents inequities in the ways that public spaces are designed, distributed, and accessed. Its goal is to empower New Yorkers to take action quickly at the local level. Transportation Alternatives, a New York based non-profit organization, worked with the team from MIT to provide access to this data through *Spatial Equity NYC*.
 
 
     Visit *Spatial Equity NYC* online at: [https://www.spatialequity.nyc](https://www.spatialequity.nyc/).
