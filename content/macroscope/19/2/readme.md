@@ -18,13 +18,13 @@ en:
   externalLink: https://especiales.eldiario.es/spain-lives-in-flats/
   references:
     - "Sánchez, Raúl,  and Analía Plaza. 2021. “El mapa de las alturas de todos
-      los edificios de España: busca tu barrio.” eldiario.es, September 29,
+      los edificios de España: busca tu barrio.” *eldiario.es*, September 29,
       2021. Accessed August 7, 2023.
       <https://www.eldiario.es/economia/mapa-alturas-edificios-catastro-vertica\
       l-urbanismo-espana-vive-pisos-casas_1_8331375.html>."
-    - "Sánchez, Raúl,  and Analía Plaza. 2023. Spain Lives in Flats. In “19th
-      Iteration (2023): Macroscopes as Digital Atlases.” Places & Spaces:
-      Mapping Science, edited by Katy Börner, Lisel Record, and Todd Theriault.
+    - "Sánchez, Raúl,  and Analía Plaza. 2023. *Spain Lives in Flats*. In “19th
+      Iteration (2023): Macroscopes as Digital Atlases.” *Places & Spaces:
+      Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault.
       <https://scimaps.org>."
   makers:
     - raúl-sánchez-gonzález/readme
