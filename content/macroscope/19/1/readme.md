@@ -6,24 +6,22 @@ en:
     Browse citywide data by topic or view data by location to delve into the
     details. Look for spatial patterns related to everything from traffic
     injuries to tree canopies, and bus speeds to public seating. Then find
-    potential solutions and learn how to take action. The Spatial Inequity
-    project documents inequities in the ways that public spaces are designed,
-    distributed, and accessed. Its goal is to empower New Yorkers to take action
-    quickly at the local level. Transportation Alternatives, a New York based
-    non-profit organization, worked with the team from MIT to provide access to
-    this data through Spatial Equity NYC.
+    potential solutions and learn how to take action.
 
 
-    Visit Spatial Equity NYC online at: [https://www.spatialequity.nyc](https://www.spatialequity.nyc/).
+    The Spatial Inequity project documents inequities in the ways that public spaces are designed, distributed, and accessed. Its goal is to empower New Yorkers to take action quickly at the local level. Transportation Alternatives, a New York based non-profit organization, worked with the team from MIT to provide access to this data through Spatial Equity NYC.
+
+
+    Visit *Spatial Equity NYC* online at: [https://www.spatialequity.nyc](https://www.spatialequity.nyc/).
   externalLink: https://www.spatialequity.nyc
   references:
     - Norman B. Leventhal Center for Advanced Urbanism. 2023. Home Page.
       Accessed August 7, 2023. <https://lcau.mit.edu>.
     - "Williams, Sarah, Niko McGlashan, Daniela Coray, Jari Prachasartta, Doris
       Duanmu, Kelly Fang, Ziyi Tang, Chance Jiajie Li, and Enrique Casillas.
-      2023. Spatial Equity NYC. In “19th Iteration (2023): Macroscopes as
-      Digital Atlases.” Places & Spaces: Mapping Science, edited by Katy Börner,
-      Lisel Record, and Todd Theriault. <https://scimaps.org>."
+      2023. *Spatial Equity NYC*. In “19th Iteration (2023): Macroscopes as
+      Digital Atlases.” *Places & Spaces: Mapping Science*, edited by Katy
+      Börner, Lisel Record, and Todd Theriault. <https://scimaps.org>."
   makers:
     - sarah-williams/readme
     - niko-mcglashan/readme
@@ -39,7 +37,7 @@ en:
     sm: equity_square.png
     med: equity_kiosk.png
     lg: se_large.png
-  year: 2022
+  year: 2023
   iteration: 19
 es:
   makers:
@@ -47,11 +45,11 @@ es:
     - niko-mcglashan/readme
     - daniela-coray/readme
     - jari-prachasartta/readme
+    - doris-duanmu/readme
     - kelly-fang/readme
+    - ziyi-tang/readme
     - jiajie-li/readme
     - enrique-casillas/readme
-    - ziyi-tang/readme
-    - doris-duanmu/readme
 zh: {}
 fr: {}
 pt: {}
