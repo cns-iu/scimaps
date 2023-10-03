@@ -1,6 +1,6 @@
 ---
 en:
-  sequence: 4
+  sequence: 3
   body: Given the overwhelming amount of research devoted to the coronavirus over
     the last few years, the need is greater than ever for a map that organizes
     and makes sense of all that science. Fortunately, cartographer and
@@ -31,7 +31,9 @@ en:
     lg: covid_desktop.png
   year: 2022
   iteration: 19
-es: {}
+es:
+  makers:
+    - andre-skupin/readme
 zh: {}
 fr: {}
 pt: {}
