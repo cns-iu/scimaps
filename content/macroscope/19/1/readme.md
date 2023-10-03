@@ -17,12 +17,13 @@ en:
     Visit Spatial Equity NYC online at: [https://www.spatialequity.nyc](https://www.spatialequity.nyc/).
   externalLink: https://www.spatialequity.nyc
   references:
-    - >-
-      Norman B. Leventhal Center for Advanced Urbanism. 2023. Home Page.
-      Accessed August 7, 2023. https://lcau.mit.edu.
-
-
-      Williams, Sarah, Niko McGlashan, Daniela Coray, Jari Prachasartta, Doris Duanmu, Kelly Fang, Ziyi Tang, Chance Jiajie Li, and Enrique Casillas. 2023. Spatial Equity NYC. In “19th Iteration (2023): Macroscopes as Digital Atlases.” Places & Spaces: Mapping Science, edited by Katy Börner, Lisel Record, and Todd Theriault. https://scimaps.org. 
+    - Norman B. Leventhal Center for Advanced Urbanism. 2023. Home Page.
+      Accessed August 7, 2023. <https://lcau.mit.edu>.
+    - "Williams, Sarah, Niko McGlashan, Daniela Coray, Jari Prachasartta, Doris
+      Duanmu, Kelly Fang, Ziyi Tang, Chance Jiajie Li, and Enrique Casillas.
+      2023. Spatial Equity NYC. In “19th Iteration (2023): Macroscopes as
+      Digital Atlases.” Places & Spaces: Mapping Science, edited by Katy Börner,
+      Lisel Record, and Todd Theriault. <https://scimaps.org>."
   makers:
     - sarah-williams/readme
     - niko-mcglashan/readme
