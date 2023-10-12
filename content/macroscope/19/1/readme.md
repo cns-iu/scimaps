@@ -34,9 +34,9 @@ en:
     - enrique-casillas/readme
   title: Spatial Equity NYC
   image:
-    sm: equity_square.png
-    med: equity_kiosk.png
-    lg: se_large.png
+    sm: equity_kiosk.png
+    med: equity_large.png
+    lg: equity_large.png
   year: 2023
   iteration: 19
 es:
