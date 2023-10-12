@@ -26,9 +26,9 @@ en:
     - andre-skupin/readme
   title: Coronavirus SOS
   image:
-    sm: covid_square.png
-    lg: covid_desktop.png
-    med: covid_medium.png
+    sm: covid_kiosk.png
+    lg: covid_large.png
+    med: covid_kiosk.png
   year: 2020
   iteration: 19
 es:
