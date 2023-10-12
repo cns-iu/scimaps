@@ -31,7 +31,7 @@ en:
     - analía-plaza/readme
   title: Spain Lives in Flats
   image:
-    sm: spain_square.png
+    sm: spain_kiosk.png
     med: spain_kiosk.png
     lg: sp_large.png
   year: 2022
