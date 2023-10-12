@@ -32,7 +32,7 @@ en:
   title: Spain Lives in Flats
   image:
     sm: spain_kiosk.png
-    med: spain_kiosk.png
+    med: sp_large.png
     lg: sp_large.png
   year: 2022
   iteration: 19
