@@ -788,29 +788,30 @@
   {
     "en": {
       "sequence": 1,
-      "body": "When you live in the city, the design of public space impacts your quality of life. The presence of bike lanes, tree canopies, benches, and public greenspaces can all add to residents’ health and happiness. However, as this macroscope demonstrates, these amenities are more common in whiter, wealthier communities—and it is this spatial inequity that contributes to racial and economic disparities across the city as a whole. Spatial Equity NYC, a collaboration between MIT’s Norman B. Leventhal Center for Advanced Urbanism and Transportation Alternatives, fosters data transparency by collecting and making usable a wealth of city data. Users can search New York City neighborhoods to find correlations between planning decisions and negative health outcomes. Spatial Equity NYC encourages activism by equipping users with data-driven solutions and connecting them with opportunities for direct social action. Even if you do not call NYC your home, this macroscope can serve as an inspiration and a model for data-based engagement with the urban space in which you live or work.  ",
+      "body": "This public portal combines 23 data layers from existing open data sources. Browse citywide data by topic or view data by location to delve into the details. Look for spatial patterns related to everything from traffic injuries to tree canopies, and bus speeds to public seating. Then find potential solutions and learn how to take action.\n\nThe Spatial Inequity project documents inequities in the ways that public spaces are designed, distributed, and accessed. Its goal is to empower New Yorkers to take action quickly at the local level. Transportation Alternatives, a New York based non-profit organization, worked with the team from MIT to provide access to this data through *Spatial Equity NYC*.\n\nVisit *Spatial Equity NYC* online at: [https://www.spatialequity.nyc](https://www.spatialequity.nyc/).",
       "externalLink": "https://www.spatialequity.nyc",
       "references": [
-        "Norman B. Leventhal Center for Advanced Urbanism. 2023. Home Page. Accessed August 7, 2023. https://lcau.mit.edu.\n\nWilliams, Sarah, Niko McGlashan, Daniela Coray, Jari Prachasartta, Doris Duanmu, Kelly Fang, Ziyi Tang, Chance Jiajie Li, and Enrique Casillas. 2023. Spatial Equity NYC. In “19th Iteration (2023): Macroscopes as Digital Atlases.” Places & Spaces: Mapping Science, edited by Katy Börner, Lisel Record, and Todd Theriault. https://scimaps.org. "
+        "Norman B. Leventhal Center for Advanced Urbanism. 2023. Home Page. Accessed August 7, 2023. <https://lcau.mit.edu>.",
+        "Williams, Sarah, Niko McGlashan, Daniela Coray, Jari Prachasartta, Doris Duanmu, Kelly Fang, Ziyi Tang, Chance Jiajie Li, and Enrique Casillas. 2023. *Spatial Equity NYC*. In “19th Iteration (2023): Macroscopes as Digital Atlases.” *Places & Spaces: Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault. <https://scimaps.org>."
       ],
       "makers": [
         "sarah-williams/readme",
         "niko-mcglashan/readme",
         "daniela-coray/readme",
         "jari-prachasartta/readme",
+        "doris-duanmu/readme",
         "kelly-fang/readme",
-        "jiajie-li/readme",
-        "enrique-casillas/readme",
         "ziyi-tang/readme",
-        "doris-duanmu/readme"
+        "jiajie-li/readme",
+        "enrique-casillas/readme"
       ],
       "title": "Spatial Equity NYC",
       "image": {
-        "sm": "equity_square.png",
-        "med": "equity_kiosk.png",
-        "lg": "equity_desktop.png"
+        "sm": "equity_kiosk.png",
+        "med": "equity_large.png",
+        "lg": "equity_large.png"
       },
-      "year": 2022,
+      "year": 2023,
       "iteration": 19
     },
     "es": {
@@ -819,11 +820,11 @@
         "niko-mcglashan/readme",
         "daniela-coray/readme",
         "jari-prachasartta/readme",
+        "doris-duanmu/readme",
         "kelly-fang/readme",
-        "jiajie-li/readme",
-        "enrique-casillas/readme",
         "ziyi-tang/readme",
-        "doris-duanmu/readme"
+        "jiajie-li/readme",
+        "enrique-casillas/readme"
       ]
     },
     "zh": {},
@@ -835,10 +836,11 @@
   {
     "en": {
       "sequence": 2,
-      "body": "Spain Lives in Flats by Raúl Sánchez and Analía Plaza begins with a relatively straightforward question: Why does Spain have the highest percentage of apartment dwellers in the European Union? As this work of scrollytelling journalism demonstrates, answering that question must take into account everything from 19th-century attitudes toward cholera and mid-20th-century periods of urban migration to Francoist-era city engineering, late-century housing bubbles, and a 21st-century pandemic. It also requires a staggering amount of data—in this case, cartographic data on more than 12 million buildings—to tell the story of Spain’s vertical urbanism. This wealth of data allows the analysis to move nimbly across scales, a movement that is reinforced by a visual narrative that hops from city to city, zooming in and out of urban areas to show how localized stories help explain larger national narratives. Towards the end, Spain Lives in Flats highlights models proposed by urban planning experts for building more sustainable futures—a move from diagnosis to potential cures that is the hallmark of solutions journalism.",
+      "body": "This macroscope was developed as a journalistic project by elDiario.sp, an online newspaper based in Spain. More than 200 GB of cadastral data, which includes building footprints and property boundaries, was downloaded and combined into a single database that includes every building in the country. The information was verified, building construction dates were confirmed, and building heights were calculated. The project is a feat involving massive amounts of geographic data compilation, processing, and analysis.\n\nThe data tells a larger historical story about how and why Spanish housing developed with a priority on vertical growth. Early theories of disease, migration to cities in the mid-twentieth century, funding for elevators, and a brief period of urban sprawl in the 1980s have all left their mark on the built environment. Sit back and enjoy a bird’s eye flight across the landscape of Spain.\n\nLearn more online at [https://especiales.eldiario.es/spain-lives-in-flats](https://especiales.eldiario.es/spain-lives-in-flats/).",
       "externalLink": "https://especiales.eldiario.es/spain-lives-in-flats/",
       "references": [
-        "Sánchez, Raúl,  and Analía Plaza. 2021. “El mapa de las alturas de todos los edificios de España: busca tu barrio.” eldiario.es, September 29, 2021. Accessed August 7, 2023. https://www.eldiario.es/economia/mapa-alturas-edificios-catastro-vertical-urbanismo-espana-vive-pisos-casas_1_8331375.html.\n\nSánchez, Raúl,  and Analía Plaza. 2023. Spain Lives in Flats. In “19th Iteration (2023): Macroscopes as Digital Atlases.” Places & Spaces: Mapping Science, edited by Katy Börner, Lisel Record, and Todd Theriault. https://scimaps.org. "
+        "Sánchez, Raúl,  and Analía Plaza. 2021. “El mapa de las alturas de todos los edificios de España: busca tu barrio.” *eldiario.es*, September 29, 2021. Accessed August 7, 2023. <https://www.eldiario.es/economia/mapa-alturas-edificios-catastro-vertical-urbanismo-espana-vive-pisos-casas_1_8331375.html>.",
+        "Sánchez, Raúl,  and Analía Plaza. 2023. *Spain Lives in Flats*. In “19th Iteration (2023): Macroscopes as Digital Atlases.” *Places & Spaces: Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault. <https://scimaps.org>."
       ],
       "makers": [
         "raúl-sánchez-gonzález/readme",
@@ -846,9 +848,9 @@
       ],
       "title": "Spain Lives in Flats",
       "image": {
-        "sm": "spain_square.png",
-        "med": "spain_kiosk.png",
-        "lg": "spain_desktop.png"
+        "sm": "spain_kiosk.png",
+        "med": "sp_large.png",
+        "lg": "sp_large.png"
       },
       "year": 2022,
       "iteration": 19
@@ -868,25 +870,28 @@
   {
     "en": {
       "sequence": 3,
-      "body": "Perhaps this describes your situation: You know that the term “machine learning” has been around since the 1950s, but now everyone is talking about it and you are embarrassed to admit you have no idea what it means. Fear not—Stephanie Yee and Tony Chu have created an accessible introduction to machine learning that is so fun to use that you’ll be excited to learn more about what it can do. The scrollytelling-style presentation begins by proposing a problem: How would a machine know whether a building is in San Francisco or New York based on criteria that have nothing to do with its location on a map? Taking us through the process, Yee and Chu cleverly visualize how machines are trained to use “if-then” statements to clearly distinguish one object’s data points from another. The goal, of course, is not only to have the machine identify with 100% accuracy a building’s location but also to use that model to make predictions in other situations and with other data. This predictive power is what makes machine learning so powerful, and A Visual Introduction to Machine Learning is a great first step in understanding how to put that power to use.",
-      "externalLink": "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/",
+      "body": "In March of 2020, scientists, doctors, and public health experts joined forces to develop vaccines and public health strategies for reducing COVID-19 infection rates. Rapid progress was possible because it drew on fifty years of previous research and a pool of 15,500 research papers that dealt with coronavirus in some way. Macroscopemaker André Skupin developed this knowledge map of coronavirus research early in the pandemic, using network science techniques to develop an overview of existing research. Research was concentrated in nine distinct research clusters. Having this research “lay of the land” was useful for breaking down silos between domains. It also made it possible to  build response teams with the right mix of subject matter expertise.\n\nExplore the map and storyboard at [https://bigdata.sdsu.edu/coronavirus](https://bigdata.sdsu.edu/coronavirus/).",
+      "externalLink": "https://bigdata.sdsu.edu/coronavirus](https://bigdata.sdsu.edu/coronavirus/",
       "references": [
-        "Yee, Stephanie,  and Tony Chu. 2023. A Visual Introduction to Machine Learning. In “19th Iteration (2023): Macroscopes as Digital Atlases.” Places & Spaces: Mapping Science, edited by Katy Börner, Lisel Record, and Todd Theriault. https://scimaps.org.\n\n"
+        "Skupin, André. 2023. *Coronavirus SoS*. In “19th Iteration (2023): Macroscopes as Digital Atlases.” *Places & Spaces: Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault. <https://scimaps.org>."
       ],
       "makers": [
-        "tony-chu/readme",
-        "stephanie-yee/readme"
+        "andre-skupin/readme"
       ],
-      "title": "A Visual Introduction to Machine Learning",
+      "title": "Coronavirus SOS",
       "image": {
-        "sm": "ml_square.png",
-        "med": "ml_kioskv2.png",
-        "lg": "ml_desktop.png"
+        "sm": "covid_kiosk.png",
+        "lg": "covid_large.png",
+        "med": "covid_large.png"
       },
-      "year": 2022,
+      "year": 2020,
       "iteration": 19
     },
-    "es": {},
+    "es": {
+      "makers": [
+        "andre-skupin/readme"
+      ]
+    },
     "zh": {},
     "fr": {},
     "pt": {},
@@ -896,24 +901,30 @@
   {
     "en": {
       "sequence": 4,
-      "body": "Given the overwhelming amount of research devoted to the coronavirus over the last few years, the need is greater than ever for a map that organizes and makes sense of all that science. Fortunately, cartographer and information visualization expert André Skupin, whose In Terms of Geography was included in the very first iteration of Places & Spaces, has returned to the exhibit with Coronavirus SoS. When Covid-19 first captured the attention of the scientific community, research into the virus did not have to begin from scratch. As Skupin’s work demonstrates, early Covid-19 researchers could build off of a solid foundation of coronavirus studies going back over fifty years. Since then, of course, work on the virus has exploded, crossing the boundaries of many research fields in the process. Coronavirus SoS represents those knowledge domains as areas on a map, indicating topical overlap through relations of proximity and distance. What emerges is a valuable guide for coordinating the educational opportunities and multidisciplinary research teams needed to effectively confront this worldwide health crisis.",
-      "externalLink": "https://bigdata.sdsu.edu/coronavirus/ ",
+      "body": "You’ve probably heard of “machine learning,” but maybe you’re a little fuzzy on how it works. Not to worry—here’s a friendly introduction to machine learning that will give you the basics and beyond. It begins with a problem: How does a machine “learn” to tell one thing from another? From there, this scrollytelling tutorial takes us through the process in a way that is both informative and easy to follow. Machine learning algorithms are powerful tools in the field of artificial intelligence. This macroscope is a great first step in understanding how to put that power to use.\n\nExplore the interactive online at [http://www.r2d3.us/visual-intro-to-machine-learning-part-1](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).",
+      "externalLink": "http://www.r2d3.us/visual-intro-to-machine-learning-part-1",
       "references": [
-        "Skupin, André. 2023. Coronavirus SoS. In “19th Iteration (2023): Macroscopes as Digital Atlases.” Places & Spaces: Mapping Science, edited by Katy Börner, Lisel Record, and Todd Theriault. https://scimaps.org. "
+        "Yee, Stephanie,  and Tony Chu. 2023. *A Visual Introduction to Machine Learning*. In “19th Iteration (2023): Macroscopes as Digital Atlases.” *Places & Spaces: Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault. <https://scimaps.org>."
       ],
       "makers": [
-        "andre-skupin/readme"
+        "stephanie-yee/readme",
+        "tony-chu/readme"
       ],
-      "title": "Coronavirus SoS",
+      "title": "A visual introduction to machine learning",
       "image": {
-        "sm": "covid_square.png",
-        "med": "covid_kiosk.png",
-        "lg": "covid_desktop.png"
+        "sm": "ml_kioskv2-2.png",
+        "med": "ml_large.png",
+        "lg": "ml_large.png"
       },
-      "year": 2022,
+      "year": 2015,
       "iteration": 19
     },
-    "es": {},
+    "es": {
+      "makers": [
+        "stephanie-yee/readme",
+        "tony-chu/readme"
+      ]
+    },
     "zh": {},
     "fr": {},
     "pt": {},

@@ -1,37 +1,31 @@
 ---
 en:
   sequence: 4
-  body: Given the overwhelming amount of research devoted to the coronavirus over
-    the last few years, the need is greater than ever for a map that organizes
-    and makes sense of all that science. Fortunately, cartographer and
-    information visualization expert André Skupin, whose In Terms of Geography
-    was included in the very first iteration of Places & Spaces, has returned to
-    the exhibit with Coronavirus SoS. When Covid-19 first captured the attention
-    of the scientific community, research into the virus did not have to begin
-    from scratch. As Skupin’s work demonstrates, early Covid-19 researchers
-    could build off of a solid foundation of coronavirus studies going back over
-    fifty years. Since then, of course, work on the virus has exploded, crossing
-    the boundaries of many research fields in the process. Coronavirus SoS
-    represents those knowledge domains as areas on a map, indicating topical
-    overlap through relations of proximity and distance. What emerges is a
-    valuable guide for coordinating the educational opportunities and
-    multidisciplinary research teams needed to effectively confront this
-    worldwide health crisis.
-  externalLink: "https://bigdata.sdsu.edu/coronavirus/ "
+  body: >-
+    You’ve probably heard of “machine learning,” but maybe you’re a little fuzzy on how it works. Not to worry—here’s a friendly introduction to machine learning that will give you the basics and beyond. It begins with a problem: How does a machine “learn” to tell one thing from another? From there, this scrollytelling tutorial takes us through the process in a way that is both informative and easy to follow. Machine learning algorithms are powerful tools in the field of artificial intelligence. This macroscope is a great first step in understanding how to put that power to use.
+
+
+    Explore the interactive online at [http://www.r2d3.us/visual-intro-to-machine-learning-part-1](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
+  externalLink: http://www.r2d3.us/visual-intro-to-machine-learning-part-1
   references:
-    - "Skupin, André. 2023. Coronavirus SoS. In “19th Iteration (2023):
-      Macroscopes as Digital Atlases.” Places & Spaces: Mapping Science, edited
-      by Katy Börner, Lisel Record, and Todd Theriault. https://scimaps.org. "
+    - "Yee, Stephanie,  and Tony Chu. 2023. *A Visual Introduction to Machine
+      Learning*. In “19th Iteration (2023): Macroscopes as Digital Atlases.”
+      *Places & Spaces: Mapping Science*, edited by Katy Börner, Lisel Record,
+      and Todd Theriault. <https://scimaps.org>."
   makers:
-    - andre-skupin/readme
-  title: Coronavirus SoS
+    - stephanie-yee/readme
+    - tony-chu/readme
+  title: A visual introduction to machine learning
   image:
-    sm: covid_square.png
-    med: covid_kiosk.png
-    lg: covid_desktop.png
-  year: 2022
+    sm: ml_kioskv2-2.png
+    med: ml_large.png
+    lg: ml_large.png
+  year: 2015
   iteration: 19
-es: {}
+es:
+  makers:
+    - stephanie-yee/readme
+    - tony-chu/readme
 zh: {}
 fr: {}
 pt: {}
