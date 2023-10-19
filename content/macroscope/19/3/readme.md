@@ -28,7 +28,7 @@ en:
   image:
     sm: covid_kiosk.png
     lg: covid_large.png
-    med: covid_kiosk.png
+    med: covid_large.png
   year: 2020
   iteration: 19
 es:
