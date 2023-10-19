@@ -1,40 +1,39 @@
 ---
 en:
   sequence: 2
-  body: "Spain Lives in Flats by Raúl Sánchez and Analía Plaza begins with a
-    relatively straightforward question: Why does Spain have the highest
-    percentage of apartment dwellers in the European Union? As this work of
-    scrollytelling journalism demonstrates, answering that question must take
-    into account everything from 19th-century attitudes toward cholera and
-    mid-20th-century periods of urban migration to Francoist-era city
-    engineering, late-century housing bubbles, and a 21st-century pandemic. It
-    also requires a staggering amount of data—in this case, cartographic data on
-    more than 12 million buildings—to tell the story of Spain’s vertical
-    urbanism. This wealth of data allows the analysis to move nimbly across
-    scales, a movement that is reinforced by a visual narrative that hops from
-    city to city, zooming in and out of urban areas to show how localized
-    stories help explain larger national narratives. Towards the end, Spain
-    Lives in Flats highlights models proposed by urban planning experts for
-    building more sustainable futures—a move from diagnosis to potential cures
-    that is the hallmark of solutions journalism."
+  body: >-
+    This macroscope was developed as a journalistic project by elDiario.sp, an
+    online newspaper based in Spain. More than 200 GB of cadastral data, which
+    includes building footprints and property boundaries, was downloaded and
+    combined into a single database that includes every building in the country.
+    The information was verified, building construction dates were confirmed,
+    and building heights were calculated. The project is a feat involving
+    massive amounts of geographic data compilation, processing, and analysis.
+
+
+    The data tells a larger historical story about how and why Spanish housing developed with a priority on vertical growth. Early theories of disease, migration to cities in the mid-twentieth century, funding for elevators, and a brief period of urban sprawl in the 1980s have all left their mark on the built environment. Sit back and enjoy a bird’s eye flight across the landscape of Spain.
+
+
+    Learn more online at [https://especiales.eldiario.es/spain-lives-in-flats](https://especiales.eldiario.es/spain-lives-in-flats/).
   externalLink: https://especiales.eldiario.es/spain-lives-in-flats/
   references:
-    - >-
-      Sánchez, Raúl,  and Analía Plaza. 2021. “El mapa de las alturas de todos
-      los edificios de España: busca tu barrio.” eldiario.es, September 29,
+    - "Sánchez, Raúl,  and Analía Plaza. 2021. “El mapa de las alturas de todos
+      los edificios de España: busca tu barrio.” *eldiario.es*, September 29,
       2021. Accessed August 7, 2023.
-      https://www.eldiario.es/economia/mapa-alturas-edificios-catastro-vertical-urbanismo-espana-vive-pisos-casas_1_8331375.html.
-
-
-      Sánchez, Raúl,  and Analía Plaza. 2023. Spain Lives in Flats. In “19th Iteration (2023): Macroscopes as Digital Atlases.” Places & Spaces: Mapping Science, edited by Katy Börner, Lisel Record, and Todd Theriault. https://scimaps.org. 
+      <https://www.eldiario.es/economia/mapa-alturas-edificios-catastro-vertica\
+      l-urbanismo-espana-vive-pisos-casas_1_8331375.html>."
+    - "Sánchez, Raúl,  and Analía Plaza. 2023. *Spain Lives in Flats*. In “19th
+      Iteration (2023): Macroscopes as Digital Atlases.” *Places & Spaces:
+      Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault.
+      <https://scimaps.org>."
   makers:
     - raúl-sánchez-gonzález/readme
     - analía-plaza/readme
   title: Spain Lives in Flats
   image:
-    sm: spain_square.png
-    med: spain_kiosk.png
-    lg: spain_desktop.png
+    sm: spain_kiosk.png
+    med: sp_large.png
+    lg: sp_large.png
   year: 2022
   iteration: 19
 es:
