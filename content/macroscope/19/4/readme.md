@@ -24,7 +24,7 @@ en:
     - tony-chu/readme
   title: A visual introduction to machine learning
   image:
-    sm: ml_kioskv2-2.png
+    sm: viml4.png
     med: ml_large.png
     lg: ml_large.png
   year: 2015
