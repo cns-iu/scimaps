@@ -2,7 +2,7 @@
 en:
   sequence: 4
   body: >-
-    Today’s digital atlases pull together massive amounts (insert units) of data
+    Today's digital atlases pull together massive amounts (insert units) of data
     in order to present a comprehensive view of a topic. Given this volume of
     data, machine learning techniques are critical for analyzing or identifying
     patterns in the underlying data. This macroscope demonstrates key machine
