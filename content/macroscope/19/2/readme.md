@@ -2,7 +2,7 @@
 en:
   sequence: 2
   body: >-
-    This macroscope was developed as a journalistic project by elDiario.sp, an
+    This macroscope was developed as a journalistic project by *elDiario.sp*, an
     online newspaper based in Spain. More than 200 GB of cadastral data, which
     includes building footprints and property boundaries, was downloaded and
     combined into a single database that includes every building in the country.
