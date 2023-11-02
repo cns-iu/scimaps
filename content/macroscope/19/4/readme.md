@@ -2,14 +2,15 @@
 en:
   sequence: 4
   body: >-
-    Today's digital atlases pull together massive amounts (insert units) of data
-    in order to present a comprehensive view of a topic. Given this volume of
-    data, machine learning techniques are critical for analyzing or identifying
-    patterns in the underlying data. This macroscope demonstrates key machine
-    learning approaches using a dataset about houses, with a goal of identifying
-    whether houses are located in New York City or San Francisco. Brush up on
-    data dimensions, finding boundaries, and decision trees by scrolling through
-    *A Visual Introduction to Machine Learning*.
+    You’ve probably heard of “machine learning,” but maybe you’re a little fuzzy
+    on how it works. Not to worry—here’s a friendly introduction to machine
+    learning that will give you the basics and beyond. It begins with a problem:
+    How does a machine “learn” to tell one thing from another? From there, this
+    scrollytelling tutorial takes us through the process in a way that is both
+    informative and easy to follow. Machine learning algorithms are powerful
+    tools in the field of artificial intelligence. This macroscope is a great
+    first step in understanding how to put that power to use.
+
 
     Explore the interactive online at [http://www.r2d3.us/visual-intro-to-machine-learning-part-1](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
   externalLink: http://www.r2d3.us/visual-intro-to-machine-learning-part-1
