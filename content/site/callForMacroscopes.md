@@ -1,7 +1,7 @@
 ---
 lastIteration: 18
 pdfLink: 19th_callformacroscopes.docx.pdf
-submitURL: https://docs.google.com/forms/d/e/1FAIpQLSd94dq8vRYAgfjXOI5G0qHqkmDhW9BMxl5zI8jso5AsKHAcsg/viewform
+submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfbqkzi9j7P_dSl1bUrB3e3mIcwig2Jk8Pk2Y0NRt6KroiaJg/viewform?usp=sf_link
 allowSubmission: true
 tabs:
   - header: Background and Goals
@@ -13,19 +13,21 @@ tabs:
       inclusion in the *Places & Spaces: Mapping Science* exhibit.
 
 
-      Macroscopes are software tools that help us focus on patterns in data that are too large or complex to see with the naked eye. The idea of the macroscope was explored in 1979 by Joël de Rosnay in a book titled *The Macroscope: A New World Scientific System* \[1]. To meet the challenges posed by the rapidly increasing abundance, diversity, and complexity of information, de Rosnay proposed the "macroscope", a tool for observing “what is at once too great, too slow, and too complex for our eyes.”
+      This collection of interactive visualizations will provide a glimpse into the future: a time when larger and more complex datasets are available, multi-factor analysis becomes commonplace, user interfaces are easier to use, and interactive visualizations routinely facilitate creative problem solving. Perhaps they incorporate datasets or methods of analysis from multiple disciplines. Or perhaps they demonstrate what kind of societal impact is made possible by influential interactive visualizations. Show us the future of interactive visualizations by submitting your work to this final iteration of macroscopes in the *Places & Spaces: Mapping Science* exhibit. 
 
 
-      Macroscopes can also function as digital atlases, particularly in the broad field of medical practice and research. An atlas can serve as an indispensable learning tool for beginning students and a trusted reference for the seasoned practitioner. This year’s call for macroscopes is looking for digital collections of annotated and spatially organized information on biomedical subjects (which could include approaches from the fields of anatomy and physiology, bioinformatics, epidemiology, health care, and others). These macroscopes should serve as digital atlases—collections of maps, charts, and other graphical representations that attempt a global view of a scientific subject. They may also include reference maps where data is placed within a coordinate system to visualize spatial relationships between entities. Like the best cartographic and anatomical atlases, these macroscopes should be engaging, well organized, easy to use, and support both informed query and broad exploration.
+      Macroscopes are software tools that help us focus on patterns in data that are too large or complex to see with the naked eye. The term “macroscope” was explored in 1979 by Joël de Rosnay in a book titled The Macroscope: A New World Scientific System \[1]. To meet the challenges posed by the rapidly increasing abundance, diversity, and complexity of information, de Rosnay proposes the “macroscope,” a tool for observing “what is at once too great, too slow, and too complex for our eyes.”
 
 
-      *Places & Spaces* is a traveling exhibit that currently features 100 maps and 32 interactive macroscopes from a wide range of disciplines. Since 2005, the exhibit has traveled to 30 countries and appeared in various formats at over 458 venues and events, including the Davos Economic Forum, National Academy of Sciences, and the New York Public Library. News coverage has appeared in *Nature, Science, USA Today,* and *Wired.*
+      *Places & Spaces* is a traveling exhibit that currently features 100 maps and 36 interactive macroscopes from a wide range of disciplines. Since 2005, the exhibit has traveled to 30 countries and appeared in various formats at over 458 venues and events, including the Davos Economic Forum, National Academy of Sciences, and the New York Public Library. News coverage has appeared in Nature, Science, USA Today, and Wired.
 
 
-      #### References
 
 
-      \[1] de Rosnay, Joël. 1979. *The Macroscope: A New World Scientific System*. New York: Harper & Row.
+      ##### References
+
+
+      \[1] de Rosnay, Joël. 1979. The Macroscope: A New World Scientific System. New York: Harper & Row.
   - header: Submission Details
     content: >-
       
