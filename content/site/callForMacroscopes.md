@@ -61,7 +61,7 @@ tabs:
   - header: Review Process
     content: >-
       Submissions will be reviewed and evaluated by the exhibit advisory board
-      in terms of their:
+      (listed below) in terms of their:
 
 
       * Scientific rigor
@@ -73,7 +73,7 @@ tabs:
       * Relevance for a general audience
 
 
-      Please feel free to send any questions you might have regarding the judging process to Todd Theriault ([ttheriau@indiana.edu](mailto:ttheriau@indiana.edu)) and use the subject heading “Macroscope Inquiry.”
+      Please feel free to send any questions you might have regarding the judging process to Todd Theriault (ttheriau@indiana.edu) and use the subject heading “Macroscope Inquiry.”
   - header: Final Submission
     content: >-
       Authors of winning entries will be contacted by April 1, 2023 and invited
