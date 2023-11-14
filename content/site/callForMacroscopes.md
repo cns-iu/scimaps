@@ -1,7 +1,7 @@
 ---
-lastIteration: 18
-pdfLink: 19th_callformacroscopes.docx.pdf
-submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfbqkzi9j7P_dSl1bUrB3e3mIcwig2Jk8Pk2Y0NRt6KroiaJg/viewform?usp=sf_link
+lastIteration: 19
+pdfLink: ""
+submitURL: https://forms.gle/eZ9EBBvdmYhKCoTRA
 allowSubmission: true
 tabs:
   - header: Background and Goals
@@ -16,26 +16,33 @@ tabs:
       This collection of interactive visualizations will provide a glimpse into the future: a time when larger and more complex datasets are available, multi-factor analysis becomes commonplace, user interfaces are easier to use, and interactive visualizations routinely facilitate creative problem solving. Perhaps they incorporate datasets or methods of analysis from multiple disciplines. Or perhaps they demonstrate what kind of societal impact is made possible by influential interactive visualizations. Show us the future of interactive visualizations by submitting your work to this final iteration of macroscopes in the *Places & Spaces: Mapping Science* exhibit. 
 
 
-      Macroscopes are software tools that help us focus on patterns in data that are too large or complex to see with the naked eye. The term “macroscope” was explored in 1979 by Joël de Rosnay in a book titled The Macroscope: A New World Scientific System \[1]. To meet the challenges posed by the rapidly increasing abundance, diversity, and complexity of information, de Rosnay proposes the “macroscope,” a tool for observing “what is at once too great, too slow, and too complex for our eyes.”
+      Macroscopes are software tools that help us focus on patterns in data that are too large or complex to see with the naked eye. The term “macroscope” was explored in 1979 by Joël de Rosnay in a book titled *The Macroscope: A New World Scientific System* \[1]. To meet the challenges posed by the rapidly increasing abundance, diversity, and complexity of information, de Rosnay proposes the “macroscope,” a tool for observing “what is at once too great, too slow, and too complex for our eyes.”
 
 
-      *Places & Spaces* is a traveling exhibit that currently features 100 maps and 36 interactive macroscopes from a wide range of disciplines. Since 2005, the exhibit has traveled to 30 countries and appeared in various formats at over 458 venues and events, including the Davos Economic Forum, National Academy of Sciences, and the New York Public Library. News coverage has appeared in Nature, Science, USA Today, and Wired.
-
-
+      *Places & Spaces* is a traveling exhibit that currently features 100 maps and 36 interactive macroscopes from a wide range of disciplines. Since 2005, the exhibit has traveled to 30 countries and appeared in various formats at over 458 venues and events, including the Davos Economic Forum, National Academy of Sciences, and the New York Public Library. News coverage has appeared in *Nature*, *Science*, *USA Today*, and *Wired*.
 
 
       ##### References
 
 
-      \[1] de Rosnay, Joël. 1979. The Macroscope: A New World Scientific System. New York: Harper & Row.
+      \[1] de Rosnay, Joël. 1979. *The Macroscope: A New World Scientific System*. New York: Harper & Row.
   - header: Submission Details
     content: >-
-      
+      Interactive data visualizations designed for desktop, mobile,
+      touch-enabled, and/or large (e.g., tiled wall) devices are all welcome. To
+      be incorporated into our exhibit kiosk, macroscopes must be 1) web-based,
+      2) touch-enabled, 3) allowed to run inside an iframe element, 4) have CORS
+      enabled for <http://idemo.cns.iu.edu/macroscope-kiosk/#/>, and 5) served
+      over HTTPS. Macroscopes will be deployed on a 46” multi-touch display
+      running Ubuntu 20.04 LTS and Chrome 91. Each macroscope should be fully
+      functional for at least two years. Macroscopes might be deployed using
+      other hardware; please contact the curatorial team to discuss options.
+      Macroscope authors should be available to work with the exhibit staff over
+      a period of three months to prepare the macroscopes for public display and
+      travel.
 
-      Interactive data visualizations designed for desktop, mobile, touch-enabled, and/or large (e.g., tiled wall) devices are all welcome. To be incorporated into our exhibit kiosk, macroscopes must be 1) web-based, 2) touch-enabled, 3) allowed to run inside an iframe element, 4) have CORS enabled for http://idemo.cns.iu.edu/macroscope-kiosk/#/, and 5) served over HTTPS. Macroscopes will be deployed on a 46” multi-touch display running Ubuntu 20.04 LTS and Chrome 91. Each macroscope should be fully functional for at least two years. Macroscopes might be deployed using other hardware; please contact the curatorial team to discuss options. Macroscope authors should be available to work with the exhibit staff over a period of three months to prepare the macroscopes for public display and travel.
 
-
-      Each entry must be submitted by February 15, 2023, and needs to include:
+      Each entry must be submitted by January 15, 2024, and needs to include:
 
 
       * Title of macroscope
