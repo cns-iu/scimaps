@@ -122,12 +122,12 @@ tabs:
       Please feel free to send any questions you might have regarding the judging process to [cnscntr@indiana.edu](mailto:cnscntr@indiana.edu) and use the subject heading “Macroscope Inquiry.”
     header: Exhibit Advisory Board
 importantDates:
-  - date: 2023-02-15
+  - date: 2024-01-15
     label: Submissions due
-  - date: 2023-04-01
+  - date: 2024-02-15
     label: Mapmakers notified
-  - date: 2023-05-30
+  - date: 2024-04-01
     label: Submit final entries
-  - date: 2023-08-31
+  - date: 2024-05-31
     label: Ready for display
 ---
