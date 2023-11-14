@@ -76,8 +76,9 @@ tabs:
       Please feel free to send any questions you might have regarding the judging process to Todd Theriault (ttheriau@indiana.edu) and use the subject heading “Macroscope Inquiry.”
   - header: Final Submission
     content: >-
-      Authors of winning entries will be contacted by April 1, 2023 and invited
-      to submit final entries by May 30, 2023. Each final entry consists of:
+      Authors of winning entries will be contacted by February 15, 2024 and
+      invited to submit final entries by May April 1, 2024. Each final entry
+      consists of:
 
 
       * Link to online site that features the macroscope tool or link to executable code. This must be a fully self-contained version of the macroscope that can operate without any outside links and without opening new windows.
@@ -89,42 +90,36 @@ tabs:
       * Signed copyright and reproduction agreement
 
 
-      Authors are welcome to use the expertise and resources of the exhibit curators and designers. The macroscopes are expected to be ready for display by August 31, 2023.
+      Authors are welcome to use the expertise and resources of the exhibit curators and designers. The macroscopes are expected to be ready for display in late May of 2024.
   - content: >-
-      
+      * Gary Berg-Cross, SUNY–Stony Brook
 
-      * **Gary Berg-Cross,** SUNY–Stony Brook
+      * Donna J. Cox, Advanced Visualization Laboratory, University of Illinois at Urbana-Champaign
 
-      * **Kevin W. Boyack,** SciTech Strategies, Inc.
+      * Bonnie DeVarco, Media X, Stanford University
 
-      * **Donna J. Cox, Advanced Visualization Laboratory,** University of Illinois at Urbana-Champaign
+      * Ingo Günther, Karlsruhe University of Art and Design
 
-      * **Bonnie DeVarco, Media X,** Stanford University
+      * Francis Harvey, Cartography and Visual Communication, Leipzig University
 
-      * **Ingo Günther,** Karlsruhe University of Art and Design
+      * Peter A. Hook, Associate Law Librarian, University of Notre Dame
 
-      * **Francis Harvey,** Cartography and Visual Communication, Leipzig University
+      * Lev Manovich, The Graduate Center, City University of New York
 
-      * **Peter A. Hook,** Associate Law Librarian, University of Notre Dame
+      * Elijah Meeks, Noteable
 
-      * **Vincent Lariviére,** Universitè de Montrèal
+      * André Skupin, San Diego State University
 
-      * **Lev Manovich,** The Graduate Center, City University of New York
+      * Olga Subirós, Big Bang Data, Olga Subirós Studio
 
-      * **Elijah Meeks,** Noteable
+      * Timothy Utter, Clark Library, University of Michigan
 
-      * **André Skupin,** San Diego State University
+      * Stephen Uzzo, New York Hall of Science
 
-      * **Olga Subirós,** Big Bang Data, Olga Subirós Studio
-
-      * **Stephen Uzzo,** New York Hall of Science
-
-      * **Caroline S. Wagner,** The Ohio State University
-
-      * **Benjamin Wiederkehr,** Interactive Things
+      * Benjamin Wiederkehr, Interactive Things
 
 
-      Please feel free to send any questions you might have regarding the judging process to cnscntr@indiana.edu and use the subject heading “Macroscope Inquiry.”
+      Please feel free to send any questions you might have regarding the judging process to [cnscntr@indiana.edu](mailto:cnscntr@indiana.edu) and use the subject heading “Macroscope Inquiry.”
     header: Exhibit Advisory Board
 importantDates:
   - date: 2023-02-15
