@@ -1,7 +1,7 @@
 ---
-lastIteration: 18
-pdfLink: 19th_callformacroscopes.docx.pdf
-submitURL: https://docs.google.com/forms/d/e/1FAIpQLSd94dq8vRYAgfjXOI5G0qHqkmDhW9BMxl5zI8jso5AsKHAcsg/viewform
+lastIteration: 19
+pdfLink: ""
+submitURL: https://forms.gle/eZ9EBBvdmYhKCoTRA
 allowSubmission: true
 tabs:
   - header: Background and Goals
@@ -13,27 +13,36 @@ tabs:
       inclusion in the *Places & Spaces: Mapping Science* exhibit.
 
 
-      Macroscopes are software tools that help us focus on patterns in data that are too large or complex to see with the naked eye. The idea of the macroscope was explored in 1979 by Joël de Rosnay in a book titled *The Macroscope: A New World Scientific System* \[1]. To meet the challenges posed by the rapidly increasing abundance, diversity, and complexity of information, de Rosnay proposed the "macroscope", a tool for observing “what is at once too great, too slow, and too complex for our eyes.”
+      This collection of interactive visualizations will provide a glimpse into the future: a time when larger and more complex datasets are available, multi-factor analysis becomes commonplace, user interfaces are easier to use, and interactive visualizations routinely facilitate creative problem solving. Perhaps they incorporate datasets or methods of analysis from multiple disciplines. Or perhaps they demonstrate what kind of societal impact is made possible by influential interactive visualizations. Show us the future of interactive visualizations by submitting your work to this final iteration of macroscopes in the *Places & Spaces: Mapping Science* exhibit. 
 
 
-      Macroscopes can also function as digital atlases, particularly in the broad field of medical practice and research. An atlas can serve as an indispensable learning tool for beginning students and a trusted reference for the seasoned practitioner. This year’s call for macroscopes is looking for digital collections of annotated and spatially organized information on biomedical subjects (which could include approaches from the fields of anatomy and physiology, bioinformatics, epidemiology, health care, and others). These macroscopes should serve as digital atlases—collections of maps, charts, and other graphical representations that attempt a global view of a scientific subject. They may also include reference maps where data is placed within a coordinate system to visualize spatial relationships between entities. Like the best cartographic and anatomical atlases, these macroscopes should be engaging, well organized, easy to use, and support both informed query and broad exploration.
+      Macroscopes are software tools that help us focus on patterns in data that are too large or complex to see with the naked eye. The term “macroscope” was explored in 1979 by Joël de Rosnay in a book titled *The Macroscope: A New World Scientific System* \[1]. To meet the challenges posed by the rapidly increasing abundance, diversity, and complexity of information, de Rosnay proposes the “macroscope,” a tool for observing “what is at once too great, too slow, and too complex for our eyes.”
 
 
-      *Places & Spaces* is a traveling exhibit that currently features 100 maps and 32 interactive macroscopes from a wide range of disciplines. Since 2005, the exhibit has traveled to 30 countries and appeared in various formats at over 458 venues and events, including the Davos Economic Forum, National Academy of Sciences, and the New York Public Library. News coverage has appeared in *Nature, Science, USA Today,* and *Wired.*
+      *Places & Spaces* is a traveling exhibit that currently features 100 maps and 36 interactive macroscopes from a wide range of disciplines. Since 2005, the exhibit has traveled to 30 countries and appeared in various formats at over 458 venues and events, including the Davos Economic Forum, National Academy of Sciences, and the New York Public Library. News coverage has appeared in *Nature*, *Science*, *USA Today*, and *Wired*.
 
 
-      #### References
+      ##### References
 
 
       \[1] de Rosnay, Joël. 1979. *The Macroscope: A New World Scientific System*. New York: Harper & Row.
   - header: Submission Details
     content: >-
-      
+      Interactive data visualizations designed for desktop, mobile,
+      touch-enabled, and/or large (e.g., tiled wall) devices are all welcome. To
+      be incorporated into our exhibit kiosk, macroscopes must be 1) web-based,
+      2) touch-enabled, 3) allowed to run inside an iframe element, 4) have CORS
+      enabled for <http://idemo.cns.iu.edu/macroscope-kiosk/#/>, and 5) served
+      over HTTPS. Macroscopes will be deployed on a 46” multi-touch display
+      running Ubuntu 20.04 LTS and Chrome 91. Each macroscope should be fully
+      functional for at least two years. Macroscopes might be deployed using
+      other hardware; please contact the curatorial team to discuss options.
+      Macroscope authors should be available to work with the exhibit staff over
+      a period of three months to prepare the macroscopes for public display and
+      travel.
 
-      Interactive data visualizations designed for desktop, mobile, touch-enabled, and/or large (e.g., tiled wall) devices are all welcome. To be incorporated into our exhibit kiosk, macroscopes must be 1) web-based, 2) touch-enabled, 3) allowed to run inside an iframe element, 4) have CORS enabled for http://idemo.cns.iu.edu/macroscope-kiosk/#/, and 5) served over HTTPS. Macroscopes will be deployed on a 46” multi-touch display running Ubuntu 20.04 LTS and Chrome 91. Each macroscope should be fully functional for at least two years. Macroscopes might be deployed using other hardware; please contact the curatorial team to discuss options. Macroscope authors should be available to work with the exhibit staff over a period of three months to prepare the macroscopes for public display and travel.
 
-
-      Each entry must be submitted by February 15, 2023, and needs to include:
+      Each entry must be submitted by January 15, 2024, and needs to include:
 
 
       * Title of macroscope
@@ -52,7 +61,7 @@ tabs:
   - header: Review Process
     content: >-
       Submissions will be reviewed and evaluated by the exhibit advisory board
-      in terms of their:
+      (listed below) in terms of their:
 
 
       * Scientific rigor
@@ -64,11 +73,12 @@ tabs:
       * Relevance for a general audience
 
 
-      Please feel free to send any questions you might have regarding the judging process to Todd Theriault ([ttheriau@indiana.edu](mailto:ttheriau@indiana.edu)) and use the subject heading “Macroscope Inquiry.”
+      Please feel free to send any questions you might have regarding the judging process to Todd Theriault (ttheriau@indiana.edu) and use the subject heading “Macroscope Inquiry.”
   - header: Final Submission
     content: >-
-      Authors of winning entries will be contacted by April 1, 2023 and invited
-      to submit final entries by May 30, 2023. Each final entry consists of:
+      Authors of winning entries will be contacted by February 15, 2024 and
+      invited to submit final entries by May April 1, 2024. Each final entry
+      consists of:
 
 
       * Link to online site that features the macroscope tool or link to executable code. This must be a fully self-contained version of the macroscope that can operate without any outside links and without opening new windows.
@@ -80,50 +90,44 @@ tabs:
       * Signed copyright and reproduction agreement
 
 
-      Authors are welcome to use the expertise and resources of the exhibit curators and designers. The macroscopes are expected to be ready for display by August 31, 2023.
+      Authors are welcome to use the expertise and resources of the exhibit curators and designers. The macroscopes are expected to be ready for display in late May of 2024.
   - content: >-
-      
+      * Gary Berg-Cross, SUNY–Stony Brook
 
-      * **Gary Berg-Cross,** SUNY–Stony Brook
+      * Donna J. Cox, Advanced Visualization Laboratory, University of Illinois at Urbana-Champaign
 
-      * **Kevin W. Boyack,** SciTech Strategies, Inc.
+      * Bonnie DeVarco, Media X, Stanford University
 
-      * **Donna J. Cox, Advanced Visualization Laboratory,** University of Illinois at Urbana-Champaign
+      * Ingo Günther, Karlsruhe University of Art and Design
 
-      * **Bonnie DeVarco, Media X,** Stanford University
+      * Francis Harvey, Cartography and Visual Communication, Leipzig University
 
-      * **Ingo Günther,** Karlsruhe University of Art and Design
+      * Peter A. Hook, Associate Law Librarian, University of Notre Dame
 
-      * **Francis Harvey,** Cartography and Visual Communication, Leipzig University
+      * Lev Manovich, The Graduate Center, City University of New York
 
-      * **Peter A. Hook,** Associate Law Librarian, University of Notre Dame
+      * Elijah Meeks, Noteable
 
-      * **Vincent Lariviére,** Universitè de Montrèal
+      * André Skupin, San Diego State University
 
-      * **Lev Manovich,** The Graduate Center, City University of New York
+      * Olga Subirós, Big Bang Data, Olga Subirós Studio
 
-      * **Elijah Meeks,** Noteable
+      * Timothy Utter, Clark Library, University of Michigan
 
-      * **André Skupin,** San Diego State University
+      * Stephen Uzzo, New York Hall of Science
 
-      * **Olga Subirós,** Big Bang Data, Olga Subirós Studio
-
-      * **Stephen Uzzo,** New York Hall of Science
-
-      * **Caroline S. Wagner,** The Ohio State University
-
-      * **Benjamin Wiederkehr,** Interactive Things
+      * Benjamin Wiederkehr, Interactive Things
 
 
-      Please feel free to send any questions you might have regarding the judging process to cnscntr@indiana.edu and use the subject heading “Macroscope Inquiry.”
+      Please feel free to send any questions you might have regarding the judging process to [cnscntr@indiana.edu](mailto:cnscntr@indiana.edu) and use the subject heading “Macroscope Inquiry.”
     header: Exhibit Advisory Board
 importantDates:
-  - date: 2023-02-15
+  - date: 2024-01-15
     label: Submissions due
-  - date: 2023-04-01
+  - date: 2024-02-15
     label: Mapmakers notified
-  - date: 2023-05-30
+  - date: 2024-04-01
     label: Submit final entries
-  - date: 2023-08-31
+  - date: 2024-05-31
     label: Ready for display
 ---

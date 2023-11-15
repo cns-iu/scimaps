@@ -15,7 +15,7 @@ en:
     mix of subject matter expertise.
 
 
-    Explore the map and storyboard at [https://bigdata.sdsu.edu/coronavirus](https://bigdata.sdsu.edu/coronavirus/).
+    Explore the map and storyboard at [](https://bigdata.sdsu.edu/coronavirus/)https://bigdata.sdsu.edu/coronavirus/.
   externalLink: https://bigdata.sdsu.edu/coronavirus](https://bigdata.sdsu.edu/coronavirus/
   references:
     - "Skupin, André. 2023. *Coronavirus SoS*. In “19th Iteration (2023):
