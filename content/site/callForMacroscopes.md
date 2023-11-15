@@ -57,7 +57,7 @@ tabs:
 
       * Describe the impact your data visualization has had on public awareness, social policy, or political action
 
-      * Submit entries via the following link: <https://forms.gle/rNqq6nDG8YfvNg3MA>
+      * Submit entries via the following link: <https://forms.gle/3Pyt5uk7UsCekcGR6>
   - header: Review Process
     content: >-
       Submissions will be reviewed and evaluated by the exhibit advisory board
@@ -73,7 +73,7 @@ tabs:
       * Relevance for a general audience
 
 
-      Please feel free to send any questions you might have regarding the judging process to Todd Theriault (ttheriau@indiana.edu) and use the subject heading “Macroscope Inquiry.”
+      Please feel free to send any questions you might have regarding the judging process to cnscntr@indiana.edu and use the subject heading “Macroscope Inquiry.”
   - header: Final Submission
     content: >-
       Authors of winning entries will be contacted by February 15, 2024 and
