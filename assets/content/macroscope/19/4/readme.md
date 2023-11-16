@@ -9,9 +9,10 @@ en:
     scrollytelling tutorial takes us through the process in a way that is both
     informative and easy to follow. Machine learning algorithms are powerful
     tools in the field of artificial intelligence. This macroscope is a great
-    first step in understanding how to put that power to use.
+    first step in understanding how to put that power to use. 
 
-    Explore the interactive online at [http://www.r2d3.us/visual-intro-to-machine-learning-part-1](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
+
+    Explore the interactive online at http://www.r2d3.us/visual-intro-to-machine-learning-part-1.
   externalLink: http://www.r2d3.us/visual-intro-to-machine-learning-part-1
   references:
     - "Yee, Stephanie,  and Tony Chu. 2023. *A Visual Introduction to Machine

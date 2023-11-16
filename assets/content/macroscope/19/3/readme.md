@@ -8,14 +8,14 @@ en:
     fifty years of previous research and a pool of 15,500 research papers that
     dealt with coronavirus in some way. Macroscopemaker André Skupin developed
     this knowledge map of coronavirus research early in the pandemic, using
-    network science techniques to develop an overview of existing research.
-    Research was concentrated in nine distinct research clusters. Having this
-    research “lay of the land” was useful for breaking down silos between
-    domains. It also made it possible to  build response teams with the right
-    mix of subject matter expertise.
+    network science techniques to develop an overview of existing topics.
+    Research was concentrated in nine distinct clusters. Having this “lay of the
+    land” was useful for breaking down silos between domains. It also made it
+    possible to build response teams with the right mix of subject matter
+    expertise. 
 
 
-    Explore the map and storyboard at [](https://bigdata.sdsu.edu/coronavirus/)https://bigdata.sdsu.edu/coronavirus/.
+    Explore the map and storyboard at https://bigdata.sdsu.edu/coronavirus.
   externalLink: https://bigdata.sdsu.edu/coronavirus](https://bigdata.sdsu.edu/coronavirus/
   references:
     - "Skupin, André. 2023. *Coronavirus SoS*. In “19th Iteration (2023):
