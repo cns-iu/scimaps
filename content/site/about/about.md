@@ -62,4 +62,6 @@ annualReports:
     pdfLink: 2013-ps-annual-report.pdf
   - year: "2012"
     pdfLink: 2012-ps-annual-report.pdf
+  - year: "2022"
+    pdfLink: cns-annual-report-2022.pdf
 ---
