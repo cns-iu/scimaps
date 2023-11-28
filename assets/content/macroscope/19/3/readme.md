@@ -18,6 +18,8 @@ en:
     Explore the map and storyboard at https://bigdata.sdsu.edu/coronavirus.
   externalLink: https://bigdata.sdsu.edu/coronavirus](https://bigdata.sdsu.edu/coronavirus/
   references:
+    - "BigKnowledge. "BoKMap." BigKnowledge: Products. https://bigknowledge.net."
+    - "Skupin, André. 2023. "Coronavirus Science-of-Science." https://bigdata.sdsu.edu/coronavirus."
     - "Skupin, André. 2023. *Coronavirus SoS*. In “19th Iteration (2023):
       Macroscopes as Digital Atlases.” *Places & Spaces: Mapping Science*,
       edited by Katy Börner, Lisel Record, and Todd Theriault.
