@@ -11,7 +11,7 @@ en:
     of geographic data compilation, processing, and analysis.
 
 
-    The data tells a larger historical story about how and why Spanish housing developed with a priority on vertical growth. Early theories of disease, migration to cities in the mid-twentieth century, funding for elevators, and a brief period of urban sprawl in the 1980s have all left their mark on the built environment. Sit back and enjoy a bird’s- eye flight across the landscape of Spain. 
+    The data tells a larger historical story about how and why Spanish housing developed with a priority on vertical growth. Early theories of disease, migration to cities in the mid-twentieth century, funding for elevators, and a brief period of urban sprawl in the 1980s have all left their mark on the built environment. Sit back and enjoy a bird’s-eye flight across the landscape of Spain. 
 
 
     Learn more online at https://especiales.eldiario.es/spain-lives-in-flats.
