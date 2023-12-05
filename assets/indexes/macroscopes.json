@@ -788,7 +788,7 @@
   {
     "en": {
       "sequence": 1,
-      "body": "This public portal combines 23 data layers from existing open-data sources. Browse citywide data by topic or view data by location to delve into the details. Look for spatial patterns related to everything from traffic injuries to tree canopies, and bus speeds to public seating. Then find potential solutions and learn how to take action. \n\nThe Spatial Equity NYC project documents disparities in the ways that public spaces are designed, distributed, and accessed. Its goal is to empower New Yorkers to take action quickly at the local level. Transportation Alternatives, a New York based non-profit organization, worked with a team from MIT to provide access to this data through *Spatial Equity NYC*. \n\nVisit *Spatial Equity NYC* online at: https://www.spatialequity.nyc.",
+      "body": "This public portal combines 23 data layers from existing open-data sources. Browse citywide data by topic or view data by location to delve into the details. Look for spatial patterns related to everything from traffic injuries to tree canopies, and bus speeds to public seating. Then find potential solutions and learn how to take action. \n\nThe Spatial Equity NYC project documents disparities in the ways that public spaces are designed, distributed, and accessed. Its goal is to empower New Yorkers to take action quickly at the local level. Transportation Alternatives, a New York based non-profit organization, worked with a team from MIT to provide access to this data through *Spatial Equity NYC*.\n\nVisit *Spatial Equity NYC* online at: https://www.spatialequity.nyc.",
       "externalLink": "https://www.spatialequity.nyc",
       "references": [
         "Norman B. Leventhal Center for Advanced Urbanism. 2023. Home Page. Accessed August 7, 2023. <https://lcau.mit.edu>.",
@@ -873,6 +873,8 @@
       "body": "In March of 2020, scientists, doctors, and public health experts joined forces to develop vaccines and public health strategies for reducing COVID-19 infection rates. Rapid progress was possible because it drew on fifty years of previous research and a pool of 15,500 research papers that dealt with coronavirus in some way. Macroscopemaker André Skupin developed this knowledge map of coronavirus research early in the pandemic, using network science techniques to develop an overview of existing topics. Research was concentrated in nine distinct clusters. Having this “lay of the land” was useful for breaking down silos between domains. It also made it possible to build response teams with the right mix of subject matter expertise. \n\nExplore the map and storyboard at https://bigdata.sdsu.edu/coronavirus.",
       "externalLink": "https://bigdata.sdsu.edu/coronavirus](https://bigdata.sdsu.edu/coronavirus/",
       "references": [
+        "BigKnowledge. “BoKMap.” BigKnowledge: Products. <https://bigknowledge.net>.",
+        "Skupin, André. 2023. “Coronavirus Science-of-Science.” <https://bigdata.sdsu.edu/coronavirus>.",
         "Skupin, André. 2023. *Coronavirus SoS*. In “19th Iteration (2023): Macroscopes as Digital Atlases.” *Places & Spaces: Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault. <https://scimaps.org>."
       ],
       "makers": [
