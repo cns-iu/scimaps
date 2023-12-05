@@ -6,10 +6,10 @@ en:
     Browse citywide data by topic or view data by location to delve into the
     details. Look for spatial patterns related to everything from traffic
     injuries to tree canopies, and bus speeds to public seating. Then find
-    potential solutions and learn how to take action. 
+    potential solutions and learn how to take action.
 
 
-    The Spatial Equity NYC project documents disparities in the ways that public spaces are designed, distributed, and accessed. Its goal is to empower New Yorkers to take action quickly at the local level. Transportation Alternatives, a New York based non-profit organization, worked with a team from MIT to provide access to this data through *Spatial Equity NYC*. 
+    The Spatial Equity NYC project documents disparities in the ways that public spaces are designed, distributed, and accessed. Its goal is to empower New Yorkers to take action quickly at the local level. Transportation Alternatives, a New York based non-profit organization, worked with a team from MIT to provide access to this data through *Spatial Equity NYC*.
 
 
     Visit *Spatial Equity NYC* online at: https://www.spatialequity.nyc.
