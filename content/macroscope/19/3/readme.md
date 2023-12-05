@@ -12,11 +12,11 @@ en:
     Research was concentrated in nine distinct clusters. Having this “lay of the
     land” was useful for breaking down silos between domains. It also made it
     possible to build response teams with the right mix of subject matter
-    expertise.
+    expertise. 
 
 
-    Explore the map and storyboard at <https://bigdata.sdsu.edu/coronavirus/>.
-  externalLink: https://bigdata.sdsu.edu/coronavirus/
+    Explore the map and storyboard at https://bigdata.sdsu.edu/coronavirus.
+  externalLink: https://bigdata.sdsu.edu/coronavirus](https://bigdata.sdsu.edu/coronavirus/
   references:
     - "BigKnowledge. “BoKMap.” BigKnowledge: Products.
       <https://bigknowledge.net>."
