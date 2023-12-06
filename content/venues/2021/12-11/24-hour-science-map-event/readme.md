@@ -7,6 +7,6 @@ organizer: Indiana University Bloomington
 credit: Places & Spaces
 city: Bloomington
 state: IN
-country: United States
+country: US
 pdfLink: 24-hour-event.pdf
 ---
