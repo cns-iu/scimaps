@@ -7,7 +7,7 @@ organizer: Indiana University Bloomington
 credit: Places & Spaces
 city: Bloomington
 state: IN
-country: United States
+country: US
 pdfLink: datavisbazaar2022.pdf
 venueImages:
   - sm: image01.sm.jpg

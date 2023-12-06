@@ -157,14 +157,16 @@
     ]
   },
   {
+    "body": "Analía Plaza is a Spanish journalist based in Madrid, Spain. She currently works as a reporter for *El Periódico de España*, covering topics such as mobility, urban planning, and housing. Prior to this, she worked as a reporter for *elDiario.es* and contributed to several other publications, including *El Confidencial* and *El País*. Plaza has also worked in the tech industry, serving as the product manager for Spain at Citymapper,  a London-based transport app, where she helped develop new features and improve user experience. With her expertise in both journalism and technology, she is well positioned to cover the intersection of urban living and transportation.",
     "name": "Analía Plaza",
     "last_name": "Plaza",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "analía-plaza.jpg"
   },
   {
-    "body": "André Skupin is an associate professor of geography at San Diego State University. Previously he held an associate professorship at the University of New Orleans. He received a master's degree in cartography at the Dresden University of Technology, Germany, and a doctoral degree in geography at the State University of New York at Buffalo. During his graduate studies he performed research at the National Center for Geographic Information and Analysis (NCGIA). He has worked in the geographic information systems (GIS) industry in Germany, the United States, and South Africa. Skupin's core research area is the application of geographic metaphors, cartographic principles, and computational methods in the visualization of nongeographic information. His research is strongly interdisciplinary, aimed especially at increased cross-fertilization between geography, information science, and computer science. For example, he has developed new approaches to creating map-like knowledge domain visualizations on the basis of high-dimensional vector space models and artificial neural networks. Other recent work includes novel methods for visualizing individual human movement and demographic change as trajectories in n-dimensional attribute space. His research results have been published in such journals as IEEE Computer Graphics and Applications, Computing in Science and Engineering, and the Proceedings of the National Academy of Sciences. Skupin has served as coeditor of a book on self-organizing maps, a special issue of Environment and Planning B: Planning and Design, and the 2007 U.S. National Report to the International Cartographic Association, which was published as a special issue of Cartography and Geographic Information Science.\n",
+    "body": "André Skupin is a professor of geography and co-director of the Center for Information Convergence and Strategy (CICS) at San Diego State University. He is an inventor or co-inventor of several patented technologies and co-founder of BigKnowledge, which offers commercial knowledge management solutions, including the BoKMap platform for knowledge discovery and analytics. Dr. Skupin is a classically trained cartographer and a data visualization expert, with 30 years of experience in the global analytics market. His efforts have been supported by such diverse sources as the National Science Foundation, National Institutes of Health, White House Office of National Drug Control Policy, and Norway Research Council.",
     "name": "André Skupin",
     "last_name": "Skupin",
     "roles": [
@@ -706,11 +708,13 @@
     ]
   },
   {
+    "body": "Daniela Coray currently serves as co-chair of the K-12 Outreach Committee for the Boston Society of Landscape Architects, developing and delivering youth programs in design and landscape architecture. She holds a master in landscape architecture from the Boston Architectural College, and a master in environmental art from Falmouth University in the UK. Coray is former coordinator and faculty in landscape architecture at the Boston Architectural College. Her research interests include the creation of narrative mechanisms for building equitable resilience, post-migration placelessness, and the social dimensions of climate change. Her recent research has focused on contested landscapes and a re-configuring of the concept of place in the Latin American and North American urban contexts. She has also developed work on environmental education, youth empowerment, and design as a catalyst for youth engagement.",
     "name": "Daniela Coray",
     "last_name": "Coray",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "daniela-coray.png"
   },
   {
     "body": "Daniele Quercia, a computer scientist specializing in urban computing, is currently building the Social Dynamics team at Bell Labs Cambridge, UK. He has been named one of Fortune magazine’s 2014 Data All-Stars, and spoke about “happy maps” at TED. His research received best paper awards from ACM Ubicomp 2014 and AAAI ICWSM 2015, as well as an honorable mention from AAAI ICWSM 2013. He was a research scientist at Yahoo Labs, a Horizon senior researcher at The Computer Laboratory of the University of Cambridge, and a postdoctoral associate at MIT. He received his PhD from UC–London.\n",
@@ -920,6 +924,15 @@
     "image": "image.jpg"
   },
   {
+    "body": "Doris Duanmu is an architect, urbanist, educator, and completed the SMArchS Urbanism program at MIT.  Her research incorporates personal narratives to interrogate the designer’s role in socially, culturally, and politically produced architectural and urban agendas. Previously, she received a BArch degree from the University of Southern California and worked at several renowned offices on international projects, including the new Everton Stadium at Bramley-Moore Dock.",
+    "name": "Doris Duanmu",
+    "last_name": "Duanmu",
+    "roles": [
+      "maker"
+    ],
+    "image": "doris-duanmu.png"
+  },
+  {
     "body": "Ece Kavlak worked as a senior project manager at Interactive Things. She holds an MS in automotive systems engineering from the Rheinisch-Westfälische Technische Hochschule Aachen. Her work centers around advocating smart solutions by connecting creativity with economics to create value for people and businesses alike. Kavlak is passionate about homing in on a project’s vision which turns into a shared understanding of what we do, how we do it, and why we’re doing it.\n",
     "name": "Ece Kavlak",
     "last_name": "Kavlak",
@@ -993,11 +1006,13 @@
     ]
   },
   {
+    "body": "Enrique Casillas is an incoming graduate student at MIT studying computer science and engineering, with an interest in using data, software, and visualization to improve cities and urban life. Casillas has worked on designing and implementing several full-stack web applications that visualize data in order to shed light on a variety of different issues. He is invested in using his background as a software engineer to improve the development and quality of data projects for the public good.",
     "name": "Enrique Casillas",
     "last_name": "Casillas",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "enrique-casillas.png"
   },
   {
     "body": "Eric Fischer is a data artist and software developer currently residing in Oakland, California. He holds a bachelor’s degree in linguistics from the University of Chicago. Over the course of his career, Fischer has served as a software engineer on the Android team at Google and was artist in residence at the Exploratorium in San Francisco. Currently, he creates innovative data visualizations for Mapbox, a mapping platform for developers. Fischer’s maps have been shown at the Museum of Modern Art and featured in many publications, including Wired, Popular Science, and Best American Infographics.\n",
@@ -1085,19 +1100,13 @@
     ]
   },
   {
+    "body": "Félix de Moya Anegón is research professor at the Institute of Public Goods and Policies (IPP) from the Spanish National Research Council (CSIC). His academic interests include scientometrics, bibliometrics, research evaluation, and science policy, and he has published around 100 papers in these fields. He is SCImago Research Group’s main researcher, where he has led renowned bibliometric projects including SCImago Journal & Country Rank, SCImago Institution Rankings, and The Atlas of Science. De Moya is also an advisor on science policy issues for national organizations of science and technology and research institutions around the world.",
     "name": "Félix de Moya Anegón",
     "last_name": "Anegón",
-    "image": "image.jpg",
     "roles": [
       "maker"
-    ]
-  },
-  {
-    "name": "Felix de Moya Angeon",
-    "last_name": "Felix de Moya Angeon",
-    "roles": [
-      "maker"
-    ]
+    ],
+    "image": "image.jpg"
   },
   {
     "body": "Ferdy van Gool has a background in the fields of art and technology. He specializes in branding, interaction design, and conceptual development. Ferdy is always driven to find a balance between form, function, and technique. Since 2002, he has been working on a large number of (multimedia) projects. Ferdy currently works for KijkMijnHuis B.V. located in Delft, the Netherlands.\n",
@@ -1463,11 +1472,13 @@
     ]
   },
   {
+    "body": "Jari Prachasartta is a designer with over six years of experience in both digital and physical design. Her passion lies in utilizing design and technology to empower people and create positive change. She is a strong advocate for an interdisciplinary approach to problem solving and values a research-driven process from concept to implementation. Her work combines human-centered design and an inclusive future. Prachasartta holds a master of science in architecture studies (urbanism) from the Massachusetts Institute of Technology and a bachelor of science in architectural design from Chulalongkorn University.",
     "name": "Jari Prachasartta",
     "last_name": "Prachasartta",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "jari-prachasartta.png"
   },
   {
     "body": "Jaume Nualart is a Catalonian open-source software developer and researcher focusing on visualization tools and digital archiving. He is a member of the Research Center of Risk Governance (GRISC) at the Universitat Autònoma de Barcelona (UAB), where he is also a PhD student in law. Nualart runs the Riereta Hackerspace, founded in 2001.\n",
@@ -1588,11 +1599,13 @@
     ]
   },
   {
-    "name": "Jiajie Li",
+    "body": "Chance Jiajie Li is a graduate student at the City Science Group, MIT Media Lab. As a developer and researcher, his overarching goal is to enhance urban systems from a media technological perspective. His research interests include dynamic urban planning, urban simulation, urban sensing, and their intersection with computer science. Before joining MIT, he earned his B.Eng. degree in software engineering with a concentration in media arts and sciences from Tongji University, Shanghai, China.",
+    "name": "Chance Jiajie Li",
     "last_name": "Li",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "chance-jiajie-lee.png"
   },
   {
     "body": "Jian Zhang was a doctoral student at the College of Information Science and Technology, Drexel University. He received a master's degree in science and technology journalism from Texas A&M University.\n",
@@ -1828,11 +1841,13 @@
     "image": "image.jpg"
   },
   {
+    "body": "Kelly Fang is an undergraduate student at MIT exploring the intersection of technology, design, and the built environment. She is interested in the ethical applications of big data and computational techniques to urban issues and hopes to contribute to the development of algorithms and interfaces that will promote equitable and resilient cities.",
     "name": "Kelly Fang",
     "last_name": "Fang",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "kelly-fang.png"
   },
   {
     "body": "Kevin W. Boyack holds a PhD in chemical engineering from Brigham Young University. As the president of SciTech Strategies, Inc., his work centers on developing more accurate global maps of science. He has published nearly 30 articles dealing with various aspects of science mapping and related metrics. Previously, he worked in combustion (experimental and modeling), transport processes, socioeconomic war gaming, and science mapping for 17 years at Sandia National Laboratories. Current interests include detailed mapping of the structure and dynamics of science and technology, application of full text to science mapping and bibliometrics, and the identification of emerging topics.\n",
@@ -2524,11 +2539,13 @@
     ]
   },
   {
+    "body": "Niko McGlashan holds a master of architecture degree from the University of Toronto. Combined with his undergraduate education in environment and urban sustainability and geographic analysis, he yields a multidisciplinary and multiscalar approach to complex urban problems. He has performed extensive climate research at both the Center for Landscape Research at the University of Toronto and the Urban Water Research Center at Ryerson University. He has investigated the accumulation of contaminants in urban tributary networks, leveraged generative design to propose adaptive climate urbanism, and developed a software toolkit for designers to automate the LEED, WELL, and AIA sustainability standards during the architectural design process. At the Center, McGlashan researches urban equity and data capture, and he develops civic technology for the public, architects, and planners.",
     "name": "Niko McGlashan",
     "last_name": "McGlashan",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "niko-mcglashan.png"
   },
   {
     "body": "Nils C. Newman is the president and founder of IISC. Mr. Newman's research interests focus on the development of analytic tools for the management of technology including the assessment of development trends and the study of the innovation process. Prior to starting IISC in 1995, he was a research analyst at the Technology Policy and Assessment Center of Georgia Tech. He has also worked as a technology policy analyst at SRI International. Mr. Newman has a bachelor of mechanical engineering and an MS in technology and science policy from Georgia Tech. He is currently pursuing a PhD in economics from MERIT at the University of Maastricht.\n",
@@ -2758,11 +2775,13 @@
     ]
   },
   {
+    "body": "Raúl Sánchez is a Spanish journalist covering stories about inequality, taxation, migration, agriculture, the labor market, elections, and public health. He has coordinated the *elDiario.es* data team since 2018. He has participated in journalistic investigations such as \"Castellana Papers,\" which unveiled the tricks wealthy Spaniards use to avoid taxes; “Enslaved Land,” about the dark side of plantation crops; “Spain Lives in Flats,” which mapped the heights of more than 12 million buildings; and “Giving Birth with a Scalpel,” an investigation that revealed the C-section rates of each hospital in Spain. Since 2015 he has been trying to tell stories based on database analysis at *elDiario.es*.",
     "name": "Raúl Sánchez González",
     "last_name": "González",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "raúl-sánchez-gonzález.png"
   },
   {
     "body": "Rex Robison holds a BS in mathematics and psychology from Purdue University, an MA in library science from the University of Maryland, and a PhD in biological psychology from Stanford University. He works as an informationist at the National Institutes of Health (NIH) Library in Bethesda, Maryland. The informationist program blends information science expertise with subject area knowledge, providing NIH staff with customized library services. Robison works mainly with staff who either conduct or provide funding for neuroscience and psychology research. His work at NIH has included searching the literature, coordinating the construction of databases and websites, conducting library research, and training and troubleshooting on the use of information resources. He is also active on the library’s instruction, emerging technologies, web, and collection development teams. Prior to working at NIH, Robinson’s employment included reviewing scientific and medical issues in product liability lawsuits and teaching at a community college in Hawaii.\n",
@@ -2938,13 +2957,13 @@
     ]
   },
   {
-    "body": "Sarah Williams holds a BA in geography and history from Clark University and an MA from the Massachusetts Institute of Technology (MIT) in city planning and urban design. With more than 13 years of experience in geographic information systems (GIS), she is currently an assistant professor of urban planning and the director of the Civic Data Design Project at MIT's School of Architecture + Planning. The Civic Data Design Project employs data visualization and mapping techniques to expose and communicate urban patterns and policy issues to broader audiences. Before coming to MIT and when making the map, Williams was codirector of the Spatial Information Design Lab at Columbia University. Williams has won numerous awards and was named one of Metropolis magazine's 2012 Game Changers and top 25 planners in technology. Her work is also part of the permanent collection in the Museum of Modern Art (MoMA) in New York.\n",
+    "body": "Sarah Williams is an associate professor of technology and urban planning at the Massachusetts Institute of Technology (MIT) where she is also director of the Civic Data Design Lab and the Leventhal Center for Advanced Urbanism. Williams combines her training in computation and design to create communication strategies that expose urban policy issues to broad audiences and create civic change. She calls the process *Data Action*, which is also the name of her recent book published by MIT Press. Williams is co-founder and developer of Envelope.city, a web-based software product that visualizes and allows users to modify zoning in New York City. Her design work has been widely exhibited, and she has won numerous awards, including being named one of the top 25 technology planners and a “Game Changer” by *Metropolis* magazine.",
     "name": "Sarah Williams",
     "last_name": "Williams",
-    "image": "image.jpg",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "image.jpg"
   },
   {
     "name": "Scott B. Weingart",
@@ -3010,6 +3029,15 @@
     "roles": [
       "maker"
     ]
+  },
+  {
+    "body": "Stephanie Yee is passionate about the power of data science and machine learning and enjoys making complex concepts accessible to others. She is currently VP of Product Data Science & Engineering at Netflix. In the past, she’s been at Stitch Fix, Cardiogram, Sift Science, Google, Bain & Company, and Vector Capital. Yee holds an MS in statistics from Stanford University and a BA in economics from Columbia University. She lives in San Francisco with her husband and twin daughters. Prior to having kids she had hobbies. These included cooking, traveling, and making ceramics. An economist at heart, she studied statistics because it helps the world make sense.",
+    "name": "Stephanie Yee",
+    "last_name": "Yee",
+    "roles": [
+      "maker"
+    ],
+    "image": "sy_photo.jpg"
   },
   {
     "body": "Stephen Mautner is executive editor of the National Academies Press and the Office of Communications of the National Academies of Sciences, Engineering, and Medicine. He is responsible for the development of diverse communications products, including practitioner guides based on Academy studies, special summaries of reports, topical websites, videos, and interactive digital features. He has served the Academy for 25 years and is grateful for the opportunity to have been engaged in so many different kinds of projects. He received his BA from Brown University and an MA from Johns Hopkins University.",
@@ -3223,6 +3251,15 @@
     ]
   },
   {
+    "body": "Tony Chu has spent over a decade thinking about the design of machine learning tools and systems. Currently, he is a product designer at Tecton.ai, where he works on UX for data scientists and data engineers. Previously, he worked at Facebook AI Noodle Analytics, H2O, and Sift Science. Chu holds an MFA in interaction design from the School of Visual Arts in New York City, where he tried to change congress with the infographic “Let’s Free Congress.” He enjoys using data visualization to tell stories and creating generative art in digital and analogue mediums.",
+    "name": "Tony Chu",
+    "last_name": "Chu",
+    "roles": [
+      "maker"
+    ],
+    "image": "tony_photo.jpg"
+  },
+  {
     "body": "Dr. Tracey Goldstein obtained her PhD at the University ofCalifornia, Davis studying phocine herpesviral infections in harbor seals and, following that, completed two postdoctoral training opportunities: at The Alaska Sealife Center focusing on population health and disease in Steller sea lions and sea otters and at The Marine Mammal Center, examining the sublethal effects of domoic acid on California sea lion health. She is currently in research position at the UC Davis Wildlife Health Center studying the effects of infectious and non-infectious disease in marine mammal populations.\n",
     "name": "Tracey Goldstein",
     "last_name": "Goldstein",
@@ -3416,5 +3453,14 @@
     "roles": [
       "maker"
     ]
+  },
+  {
+    "body": "Ziyi Tang is an urban researcher and designer. Trained as an architect, he is interested in utilizing spatial analysis, sensing technology, and AI to improve mobility, sustainability, and social equity. He is pursuing a M.C.P. in Urban Information System track at MIT. Prior to MIT, he obtained a M.S.D. from Penn, and a B.Arch. from HNU.",
+    "name": "Ziyi Tang",
+    "last_name": "Tang",
+    "roles": [
+      "maker"
+    ],
+    "image": "ziyi-tang.png"
   }
 ]
