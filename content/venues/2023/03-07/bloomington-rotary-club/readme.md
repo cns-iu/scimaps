@@ -7,4 +7,5 @@ organizer: Jim Shea
 city: Bloomington
 state: IN
 country: US
+pdfLink: roundabout_newsletter.pdf
 ---
