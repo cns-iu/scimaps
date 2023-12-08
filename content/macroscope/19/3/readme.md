@@ -16,7 +16,7 @@ en:
 
 
     Explore the map and storyboard at https://bigdata.sdsu.edu/coronavirus.
-  externalLink: https://bigdata.sdsu.edu/coronavirus](https://bigdata.sdsu.edu/coronavirus/
+  externalLink: https://bigdata.sdsu.edu/coronavirus/
   references:
     - "BigKnowledge. “BoKMap.” BigKnowledge: Products.
       <https://bigknowledge.net>."
@@ -28,7 +28,7 @@ en:
       <https://scimaps.org>."
   makers:
     - andre-skupin/readme
-  title: Coronavirus SOS
+  title: Coronavirus SoS
   image:
     sm: covid_kiosk.png
     lg: covid_large.png
