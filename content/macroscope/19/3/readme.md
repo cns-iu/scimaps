@@ -28,7 +28,7 @@ en:
       <https://scimaps.org>."
   makers:
     - andre-skupin/readme
-  title: Coronavirus SOS
+  title: Coronavirus SoS
   image:
     sm: covid_kiosk.png
     lg: covid_large.png
