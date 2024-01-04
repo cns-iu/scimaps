@@ -42,6 +42,8 @@ ambassadorsDescription: These men and women from around the globe work
   the Advisory Board not only work to build public awareness of the exhibit, but
   also participate in the map selection process.
 annualReports:
+  - year: "2022"
+    pdfLink: cns-annual-report-2022.pdf
   - year: "2021"
     pdfLink: 2021-ps-annual-report.pdf
   - year: "2020"
@@ -62,6 +64,4 @@ annualReports:
     pdfLink: 2013-ps-annual-report.pdf
   - year: "2012"
     pdfLink: 2012-ps-annual-report.pdf
-  - year: "2022"
-    pdfLink: cns-annual-report-2022.pdf
 ---
