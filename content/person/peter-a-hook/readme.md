@@ -4,11 +4,10 @@ last_name: Hook
 roles:
   - ambassador
   - advisory_board
-jobTitle: Associate Law Librarian
-affiliation: University of Notre Dame
-location: '{"type":"Point","coordinates":[-86.23795510167477,41.69883169351983]}'
-location_name: South Bend, IN, USA
+jobTitle: Director and Associate Dean of the Law Library
+affiliation: Washington University
+location: '{"type":"Point","coordinates":[-90.3121137,38.6498874]}'
+location_name: St. Louis, MO, US
 region: n_america
 image: image.jpg
 ---
-
