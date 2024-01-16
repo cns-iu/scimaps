@@ -28,7 +28,9 @@ en:
     sm: gamescopesm.png
   year: 2020
   iteration: 20
-es: {}
+es:
+  makers:
+    - subhadeep-jana/readme
 zh: {}
 fr: {}
 pt: {}
