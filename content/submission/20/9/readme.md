@@ -25,6 +25,8 @@ en:
       <!--EndFragment-->
   makers:
     - nikita-rokotyan/readme
+    - olya-stukova/readme
+    - sergey-ryadovoy/readme
   title: Market Map
   image:
     lg: marketlg.png
@@ -32,7 +34,9 @@ en:
     sm: marketsm.png
   year: 2023
   iteration: 20
-es: {}
+es:
+  makers:
+    - nikita-rokotyan/readme
 zh: {}
 fr: {}
 pt: {}
