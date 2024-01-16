@@ -54,7 +54,11 @@ en:
     med: climatesm.png
   year: 2020
   iteration: 20
-es: {}
+es:
+  makers:
+    - chloe-hudson-prock/readme
+    - pedro/readme
+    - gregory-gold/readme
 zh: {}
 fr: {}
 pt: {}
