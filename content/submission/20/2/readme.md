@@ -28,7 +28,9 @@ en:
     sm: riverrunnersm.png
   year: 2020
   iteration: 20
-es: {}
+es:
+  makers:
+    - sam/readme
 zh: {}
 fr: {}
 pt: {}
