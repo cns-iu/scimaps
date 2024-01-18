@@ -3,7 +3,7 @@ en:
   iteration: 20
   sequence: 11
   year: 2022
-  title: Dashboard of the Present Future
+  title: How Do We Comapre?
   body: >-
     <!--StartFragment-->
 
