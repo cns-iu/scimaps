@@ -318,6 +318,13 @@
     ]
   },
   {
+    "name": "Beatriz Malveiro",
+    "last_name": "Malveiro",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Ben Wheeler has a BS in environmental sciences from the University of East Anglia and a PhD from the University of Bristol, where he is currently a research fellow. His advice was invaluable toward ensuring optimal information quality for this project.\n",
     "name": "Ben Wheeler",
     "last_name": "Wheeler",
@@ -555,6 +562,13 @@
     ]
   },
   {
+    "name": "Chloe Hudson Prock",
+    "last_name": "Prock",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Chris Creevey studied computer science, biology, and ecology before completing a PhD in bioinformatics at the National University of Ireland, Maynooth. As part of his postdoctoral research, he worked in the Bork Lab at EMBL, focusing on the quantification of gene-sharing events (horizontal gene transfer) in the tree of life. He is now a Stokes Lecturer at the Irish Agriculture and Food Development Authority (Teagasc), where his research group specializes in the use of next-generation genetic sequencing technologies to understand the interactions between digestive system microbial communities and their host with the aim of reducing the environmental impact of modern agricultural practices.\n",
     "name": "Chris Creevey",
     "last_name": "Creevey",
@@ -631,6 +645,13 @@
     "name": "Chuck Meertens",
     "last_name": "Meertens",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Chunming Hu",
+    "last_name": "Hu",
     "roles": [
       "maker"
     ]
@@ -1109,6 +1130,13 @@
     "image": "image.jpg"
   },
   {
+    "name": "Fengli Xiao",
+    "last_name": "Xiao",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Ferdy van Gool has a background in the fields of art and technology. He specializes in branding, interaction design, and conceptual development. Ferdy is always driven to find a balance between form, function, and technique. Since 2002, he has been working on a large number of (multimedia) projects. Ferdy currently works for KijkMijnHuis B.V. located in Delft, the Netherlands.\n",
     "name": "Ferdy van Gool",
     "last_name": "van Gool",
@@ -1251,6 +1279,13 @@
   {
     "name": "Gregg Gonsalves",
     "last_name": "Gonsalves",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Gregory Gold",
+    "last_name": "Gold",
     "roles": [
       "maker"
     ]
@@ -1926,6 +1961,20 @@
     ]
   },
   {
+    "name": "Lei Shi",
+    "last_name": "Shi",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Lei Xia",
+    "last_name": "Xia",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Lev Manovich is professor at the City University of New York (CUNY) Graduate Center and author of several books on digital culture, including the recent Software Takes Command (Bloomsbury Academic, 2013). In 2007, Manovich founded the Software Studies Initiative in order to develop a new paradigm of Cultural Analytics through data analysis and interactive visualization of patterns and trends in media and visual cultures.\n",
     "name": "Lev Manovich",
     "last_name": "Manovich",
@@ -1946,6 +1995,13 @@
     "name": "Li Yao",
     "last_name": "Yao",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Lindsey Poulter",
+    "last_name": "Poulter",
     "roles": [
       "maker"
     ]
@@ -1973,6 +2029,13 @@
     "location_name": "Bloomington, IN, USA",
     "region": "n_america",
     "image": "image.jpg"
+  },
+  {
+    "name": "Liuhuaying Yang",
+    "last_name": "Yang",
+    "roles": [
+      "maker"
+    ]
   },
   {
     "body": "Loet Leydesdorff holds a PhD in sociology, an MA in philosophy, and an MS in biochemistry from the University of Amsterdam (UvA). He a professor of science and technology dynamics at the Amsterdam School of Communications Research (ASCoR) of the UvA, a visiting professor of the Institute of Scientific and Technical Information of China (ISTIC) in Beijing, and an honorary fellow of the Science and Technology Policy Research Unit (SPRU) of the University of Sussex. He has published extensively in systems theory, social network analysis, scientometrics, and the sociology of innovation and is on the editorial boards of notable publications, such as Scientometrics, Social Science Information, Science and Public Policy, and Informetrics. Leydesdorff’s research interests are in the fields of the philosophy of science, social network analysis, scientometrics, and the sociology of innovation. His studies in communication in science, technology, and innovation enabled him to specify theory and methods for understanding the dynamics of knowledge-based development. He is the author of several monographs, including The Challenge of Scientometrics: The Development, Measurement, and Self-Organization of Scientific Communications (1995); A Sociological Theory of Communication: The Self-Organization of the Knowledge-Based Society (2001); and The Knowledge-Based Economy: Modeled, Measured, Simulated (2006). In 2003, he received the Derek de Solla Price Award for Scientometrics and Informetrics.\n",
@@ -2660,6 +2723,13 @@
     ]
   },
   {
+    "name": "Pedro Cruz",
+    "last_name": "Cruz",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Peer Bork holds a PhD in biochemistry and a habilitation in theoretical biophysics. He is a senior group leader and joint head of the Structural and Computational Biology unit at the European Molecular Biology Laboratory (EMBL) in Heidelberg, Germany. Bork works in various areas of computational biology and systems analysis with a focus on function prediction, comparative analysis, and data integration.\n",
     "name": "Peer Bork",
     "last_name": "Bork",
@@ -2684,10 +2754,10 @@
       "ambassador",
       "advisory_board"
     ],
-    "jobTitle": "Associate Law Librarian",
-    "affiliation": "University of Notre Dame",
-    "location": "{\"type\":\"Point\",\"coordinates\":[-86.23795510167477,41.69883169351983]}",
-    "location_name": "South Bend, IN, USA",
+    "jobTitle": "Director and Associate Dean of the Law Library",
+    "affiliation": "Washington University",
+    "location": "{\"type\":\"Point\",\"coordinates\":[-90.3121137,38.6498874]}",
+    "location_name": "St. Louis, MO, US",
     "region": "n_america",
     "image": "image.jpg"
   },
@@ -2838,6 +2908,13 @@
     ]
   },
   {
+    "name": "Rita Costa",
+    "last_name": "Costa",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Rob Bracken is a writer and communications manager for a major software company. He holds a master's degree in English from the University of Missouri. Rob became interested in oil and energy issues several years ago, after reading The Party's Over by Richard Heinberg. Rob lives in San Francisco with his wife, Deidra, and their cat.\n",
     "name": "Rob Bracken",
     "last_name": "Bracken",
@@ -2912,6 +2989,13 @@
     "name": "Ryan Chute",
     "last_name": "Chute",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Sam Learner",
+    "last_name": "Learner",
     "roles": [
       "maker"
     ]
@@ -2992,6 +3076,13 @@
     "name": "Sepp Deinhofer",
     "last_name": "Deinhofer",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Sergey Ryadovoy",
+    "last_name": "Ryadovoy",
     "roles": [
       "maker"
     ]
@@ -3085,6 +3176,13 @@
     "name": "Steven Ross",
     "last_name": "Ross",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Subhadeep Jana",
+    "last_name": "Jana",
     "roles": [
       "maker"
     ]
@@ -3367,6 +3465,13 @@
     ]
   },
   {
+    "name": "Weize Wu",
+    "last_name": "Wu",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Will (Jiahao) Su is a front-end engineer at Dropbox. He focuses on design and technology to present data efficiently and beautifully with fluid interactivity. Prior to Dropbox, he worked as a data visualization consultant at the United Nations Global Compact and studied data visualization (MS) at Parsons School of Design in New York, where he created work that focused on design, statistics, and computer science. His work has won awards from Information is Beautiful, Awwwards, and the MLB Advanced Media Hackathon. His work has been featured at the New York Public Library, Berlin Technology Foundation, NYC Media Lab conference (2017), and Columbia University.",
     "name": "Will (Jiahao) Su",
     "last_name": "Su",
@@ -3385,6 +3490,13 @@
     ]
   },
   {
+    "name": "World Water Atlas",
+    "last_name": "Atlas",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Xiaowen Dong is an associate professor at the University of Oxford in the Department of Engineering Science, where he is an academic member of both the Machine Learning Research Group and the Oxford-Man Institute. Prior to that, he was a postdoctoral associate in the MIT Media Lab, where he remains as a research affiliate. He received his PhD degree from the Swiss Federal Institute of Technology (EPFL), Lausanne, Switzerland. His main research interests concern signal processing and machine learning techniques for analyzing network data, and their applications in studying questions across social and economic sciences.",
     "name": "Xiaowen Dong",
     "last_name": "Xiaowen Dong",
@@ -3392,6 +3504,13 @@
       "maker"
     ],
     "image": "dong_xiaowen.png"
+  },
+  {
+    "name": "Ye Sun",
+    "last_name": "Sun",
+    "roles": [
+      "maker"
+    ]
   },
   {
     "name": "Yi Zhe Ang",
@@ -3412,6 +3531,13 @@
     "name": "Yong-Yeol Ahn",
     "last_name": "Ahn",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Yuankai Luo",
+    "last_name": "Luo",
     "roles": [
       "maker"
     ]
