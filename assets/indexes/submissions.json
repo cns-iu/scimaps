@@ -518,5 +518,356 @@
     "pt": {},
     "de": {},
     "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 1,
+      "body": "<!--StartFragment-->\n\nThis project celebrates multi-racial families in the United States from 1860 to 2020, highlighting the gradual dissolution of systemic barriers against racial intermingling in households. Historically, homogenous communities were prevalent, with multi-racial families being rare. Census data before 1960 showed only traces of such families, as race was categorized by enumerators. Post-1970, household members reported their race, marking a shift in racial identification. Key legal milestones include the 1967 Loving v. Virginia ruling, which lifted restrictions on multi-racial marriages, and the 2015 Obergefell v. Hodges decision, legalizing same-sex marriages. It wasn't until after 2000 that individuals could officially identify as multi-racial. The visualization presents each multi-racial couple as a colorful chromosome, detailing the races, ages, sexes, and children of each family. Couples are organized by rarity, age, and number of children, highlighting the evolving structure of American families. Same-sex couples are included in recent years' data, along with a special notation for Latino/as. The tool uses two canvas elements for visualization: one displays all families for a selected year, and the other offers a zoomed-in view based on mouse position. An efficient hashing system links mouse coordinates to family data, reducing computational load. Chromosomes are artistically rendered using p5.js with Rom-Catmull splines, and motion is simulated through Perlin noise function. Ages are represented by varying heights, using a square root scale for better visual consistency. Data for this project comes from the anonymized micro-census of the IPUMS USA database, processed through MongoDB to parse households, identify multi-racial families, and structure them as hierarchical JSON objects. This innovative approach not only provides a vivid representation of America's racial diversity but also serves as a testament to the country's evolving societal norms and legal frameworks concerning race and relationships.\n\n<!--EndFragment-->",
+      "externalLink": "https://traces.pmcruz.com/",
+      "references": [
+        "https://visap.net/2022/contributions/diversity-traces"
+      ],
+      "makers": [
+        "pedro/readme"
+      ],
+      "title": "Diversity Traces",
+      "image": {
+        "lg": "image1-opt-1920.webp",
+        "med": "mediumsmall1.png",
+        "sm": "mediumsmall1.png"
+      },
+      "year": 2020,
+      "iteration": 20
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 20,
+      "sequence": 10,
+      "year": 2020,
+      "title": "Gaia Stellar Family Portrait",
+      "body": "<!--StartFragment-->\n\nThe ESA Gaia’s Stellar Family Portrait visualisation is an exploration of the Hertzsprung–Russell diagram, a fundamental tool in astronomy, using data from the second data release of ESA’s Gaia mission. The second Gaia data release was made public on 25 April 2018. Learn more about Gaia: sci.esa.int/gaia. The Gaia data is the product of a vast human collaboration: the Gaia Data Processing and Analysis Consortium (DPAC), a large pan-European team of about 450 scientists and software developers who are entrusted with the complex task of analysing and processing the satellite data to produce the Gaia catalogues. The ESA Gaia’s Stellar Family Portrait visualisation was developed for the European Space Agency by Jan Willem Tulp (TULP interactive) with support from Jos de Bruijne (ESA), Claudia Mignone (ATG Europe for ESA) and Tineke Roegiers (HE Space for ESA). Acknowledgement: Karen O’Flaherty (EJR-Quartz for ESA).\n\n<!--EndFragment-->",
+      "makers": [
+        "jan-willem-tulp/readme"
+      ],
+      "externalLink": "https://sci.esa.int/gaia-stellar-family-portrait/",
+      "image": {
+        "lg": "gaialg.png",
+        "sm": "gaiasm.png",
+        "med": "gaiasm.png"
+      }
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 20,
+      "sequence": 11,
+      "year": 2022,
+      "title": "How Do We Comapre?",
+      "body": "<!--StartFragment-->\n\n#### Methodology\n\n**Circle placement:** Priority was placed on avoiding overlap of circles. This means the placement of each circle will not always be 100% accurate. However, hovering over a value will provide the exact value.\n\n**Strong vs. Weak:** Each metric was assessed to determine if a higher value was better (strong) or worse (weak). For some metrics, such as % of GDP used for military spend, it is hard to determine what an ideal value is. In these instances, the metric was deemed to be stronger the higher it was.\n\n**Axis:** Stronger values are placed toward the top/outside. This means the axis may be reversed from a traditional chart. For example, infant mortality has a value of 10 at the top and 80 at the bottom. Additionally, the axis does not include 0. This is to emphasize the minimum and maximum values in the world.\n\n**Averages:** For each income and region level a standard average was calculated. Population was not taken into consideration. If the focus is a country, such as the United States, that country is included in its region and income level averages.\n\n<!--EndFragment-->",
+      "image": {
+        "lg": "dashboard.png",
+        "sm": "dashboard.png",
+        "med": "dashboard.png"
+      },
+      "makers": [
+        "lindsey-poulter/readme"
+      ],
+      "externalLink": "https://lindseypoulter.com/wdvp/"
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "iteration": 20,
+      "sequence": 12,
+      "year": 2022,
+      "body": "<!--StartFragment-->\n\nAround the globe, many people are facing significant water security threats in a variety of ways. Primarily these are related to water pollution, wastewater removal, sanitation, water supply and both the associated socio-economic and health impacts resultant from droughts and floods. People living in quickly expanding urban areas and developing countries are often affected by water security threats the most.\n\nResponsible and effective water management represents one of humanity’s most complex challenge - droughts and floods, pollution and water conflicts in combination with rapid urbanisation, an ever-growing demand for energy and food, migration pressures and climate change. In the face of such challenges, water retains the ability to connect people and provide them with many opportunities. Adaptive and specific solutions and methodologies on how to tackle water-related issues have been developed globally and encompass a diverse collection of solutions and management techniques.\n\n<!--EndFragment-->",
+      "title": "World Water Atlas",
+      "makers": [
+        "world-water-atlas/readme"
+      ],
+      "externalLink": "https://www.worldwateratlas.org/themes",
+      "image": {
+        "sm": "worldwater.png",
+        "med": "worldwater.png",
+        "lg": "worldwater.png"
+      }
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 2,
+      "body": "<!--StartFragment-->\n\nThe river runner tool helps people to better understand the interconnectedness of our watersheds by calculating the downstream path from anywhere on earth and visualizing the journey. In its original iteration, it relied on the USGS's NLDI, which links water features and flowpaths within the United States. The dataset compiled for the global version created in collaboration with hydrologists at the USGS and the Internet of Water, though it remains a work in progress (particularly with regards to its coverage of water feature names). The frontend for the visualization was built with svelte and mapbox, putting the user in control of a 3D journey from a place of their choosing to an ocean or inland lake. The aim was to zoom in with an immersive flyover experience to give a sense of how many places and communities are downstream of one another. I also wanted to provide navigation widgets in the corners to orient someone in the full network of streams, tributaries, and rivers it takes to reach an ocean or endhoric basin.\n\n<!--EndFragment-->",
+      "externalLink": "https://river-runner-global.samlearner.com/",
+      "references": [
+        "<!--StartFragment-->\n\nThere's a list of sources for the data/attributions here: https://ksonda.github.io/global-river-runner/ (Also a note that Dave Blodgett (USGS), Kyle Onda (Internet of Water) and Ben Webb (Internet of Water) should be credited somewhere for their work on the backend here, though I don't know if they'd like me to fill out full contact details for them on this form)\n\n<!--EndFragment-->"
+      ],
+      "makers": [
+        "sam/readme"
+      ],
+      "title": "River Runner",
+      "image": {
+        "lg": "riverrunnerlg.png",
+        "med": "riverrunnersm.png",
+        "sm": "riverrunnersm.png"
+      },
+      "year": 2020,
+      "iteration": 20
+    },
+    "es": {
+      "makers": [
+        "sam/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 3,
+      "body": "<!--StartFragment-->\n\nThis interactive dashboard, created for the World Government Summit, aims to visualize the world's development indicators. The visualization presents different seasons, emphasizing various aspects. Spring is a time of growth and development. Summer is a time of prosperity, yet a few countries face economic hardship. Economic prosperity can also be seen as a sign of success and abundance. However, only some have equal access to these resources, and inequalities can arise when some people have more access to wealth, opportunities, and resources than others. Fall is a time of change, as the leaves change color and fall to the ground. It is also a sign of the bounty for fruits. Winter is a time of preparation for crisis. Addressing the energy and climate crisis may require a collective effort to prepare for the challenges ahead. Snow here is a symbol of the challenges and difficulties that we face as a society. In each season, it presents a tree that tells a performance story by visualizing the performance metrics of each sub-region and country. The tree roots present the global performances over the past ten years. The past provides the foundation for the present and future, just like the roots of a tree. The sunlight and rain in the sky visualize the buzz of 20 development and 18 innovation frontiers from seven categories. Just as the future holds the potential for growth and development, development and innovation are like the sunlight and rain that provide energy and water for a tree to grow and flourish.\n\n<!--EndFragment-->",
+      "externalLink": "http://www.go4trees.com/four-seasons/",
+      "references": [
+        "https://informationisbeautiful.net/2023/the-winners-of-the-world-dataviz-prize-2023/"
+      ],
+      "makers": [
+        "liuhuaying-yang/readme"
+      ],
+      "title": "FOUR SEASONS: How Has the World Progressed in Recent Years?",
+      "image": {
+        "lg": "treeslg.png",
+        "med": "treessm.png",
+        "sm": "treessm.png"
+      },
+      "year": 2022,
+      "iteration": 20
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 4,
+      "body": "<!--StartFragment-->\n\nThe Russia-Ukraine conflict has highlighted the intricate nature of global supply chains, a complex network connecting nations and propagating disruptions to distant regions. Previous studies often concentrate on direct dependencies, neglecting indirect dependencies caused by the lack of essential inputs, making a comprehensive assessment of the global supply system challenging. In response to these complexities, we have developed a visualization based on research at CSH that allows to explore different scenarios and provides a holistic view of both indirect and direct global effects of supply disruptions. The tool delves into two critical aspects: food availability and trade sanctions. It demonstrates how localized production disruptions can have far-reaching implications, impacting trade relationships and the entire production chain. For instance, a shock to Ukrainian maize production not only affects maize availability but also leads to losses in pig or poultry meat due to a shortage of animal feed. This aspect of the visualization helps us fully appreciate the extent of potential losses when a specific product ceases production in a country. Additionally, the project explores the cascading effects of import scarcity caused by trade sanctions. As primary and intermediary imports decline, domestic production is disrupted, and demand for goods in the affected country decreases. This creates a ripple effect, influencing global trade dynamics. Our visualization tool is based on robust research models, and it is not only informative but also interactive, allowing users to explore the consequences of different scenarios involving global supply disruptions in a dynamic and engaging manner. By going beyond traditional representations, it engages viewers and connects them to the underlying data. Through this project, we hope to foster a deeper understanding of the intricacies of supply chains and their vulnerabilities. As the world continues to face unpredictable challenges, this visualization stands as a powerful resource for gaining insights into the dynamics of the global economy and potential vulnerabilities of supply networks for policymakers and businesses alike.\n\n<!--EndFragment-->",
+      "externalLink": "https://vis.csh.ac.at/global-supply-chain-maps/",
+      "references": [
+        "<!--StartFragment-->\n\nhttps://doi.org/10.1038/s43016-023-00771-4\n\n<!--EndFragment-->",
+        "<!--StartFragment-->\n\nhttps://www.csh.ac.at/economic-shocks-shaking-russia-and-the-world/\n\n<!--EndFragment-->"
+      ],
+      "makers": [
+        "liuhuaying-yang/readme"
+      ],
+      "title": "The Whole Picture: Cartographic Insights into Global Supply Chain Dependency",
+      "image": {
+        "lg": "supplychainlg.png",
+        "med": "supplychainsm.png",
+        "sm": "supplychainsm.png"
+      },
+      "year": 2022,
+      "iteration": 20
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 5,
+      "body": "<!--StartFragment-->\n\nCan we estimate how much the world has changed in a decade? Or do our own experiences impact the perception of progress? The work, titled The Shape of Change, challenges our assumptions about how key statistical indicators regarding Health, the Environment, or Education evolve through the years. The work was done in the context of the World Data Visualization Prize, part of the World Government Summit 2023. For that year, the competition focused on the past, present, and future of society and governments. The goal was to create a tool to showcase how data visualization can show data on innovations, decisions, and metrics that can be used to drive and measure progress. The organization made available three datasets, from which participants should create the visualizations. The dataset used in this work contained yearly observations for statistical indicators between 2012 and 2022. The work is a scrolly-telling piece that starts by taking the reader through significant news stories of the past decade. The goal is to connect the reader to the indicators by remembering specific events. Then, they are prompted to guess how an indicator related to the event changed, challenging the perception of the immediacy of news stories with the continuous change during the decade. Additionally, it has been shown \\[1] that users prompted to reflect on their prior knowledge by predicting and self-explaining improve their recall and comprehension of the data. These exercises also serve to introduce the user to the visual element used to represent change: the angle, direction, and color of the triangles. This knowledge is then needed to interpret the small multiples visualization at the end of the piece, where the reader can have a bird's-eye view of the yearly change for all the indicators.\n\n<!--EndFragment-->",
+      "externalLink": "https://www.theshapeofchange.com/",
+      "references": [
+        "<!--StartFragment-->\n\n\\[1] Explaining the Gap: Visualizing One’s Predictions Improves Recall and Comprehension of Data, https://idl.cs.washington.edu/files/2017-ExplainingTheGap-CHI.pdf\n\n<!--EndFragment-->"
+      ],
+      "makers": [
+        "rita-costa/readme",
+        "beatriz-malveiro/readme"
+      ],
+      "title": "The Shape of Change",
+      "image": {
+        "lg": "changlg.png",
+        "med": "changesm.png",
+        "sm": "changesm.png"
+      },
+      "year": 2020,
+      "iteration": 20
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 6,
+      "body": "<!--StartFragment-->\n\nThis project explores the relationship between the capitalist system and its implications for climate change. Rooted in a critical examination of the capitalist pursuit of profit, perpetual consumption patterns, and the resulting inequality between citizens of “developed” and “developing” economies, it highlights the profound impact of these factors on the escalating climate crisis. Driven by H.A Baer’s work which emphasizes the role of capitalist ideology in perpetuating reliance on fossil fuels and contributing to greenhouse gas emissions \\[1], we leverage data from the World Bank on greenhouse gas emissions per capita \\[2], and the Germanwatch Global Climate Risk Index (CRI) \\[3]. The CRI is a weighted index of 4 measures used to evaluate the losses a country has experienced from extreme weather events connected to climate change. The losses analyzed are economic losses (absolute losses of purchasing power parity, and losses per GDP unit), and loss of life (number of lives lost, and deaths per 100,000 inhabitants). The visualization was created in processing using particle systems and a physics library to simulate realistic hurricane behavior. Particles leave short trails and have a centrifugal motion: rotating closer to the center than in the outer rim. The hurricanes have different eye sizes, total sizes, and speeds based on data values. For very at-risk countries, you would see a large hurricane with a small eye rotating quickly. The particles extinguish when they reach the eye of the hurricane and are then reseeded in the periphery. Ultimately, we aim to visually represent climate vulnerabilities juxtaposed with global greenhouse gas emissions to shed light on the relationship between risk and emissions at the country-level granularity. We emphasize that for high emitting nations, while pollution has historical been something to bury or ship away, climate risk cannot be exported.\n\n<!--EndFragment-->",
+      "externalLink": "https://vimeo.com/901381287  (Note: The tool runs locally in processing, and the program is too intensive to be hosted on the web. This video previews the tools visual output.)",
+      "references": [
+        "<!--StartFragment-->\n\n\\[1] H.A Baer, “Global Capitalism and Climate Change”, 2012.\n\n<!--EndFragment-->",
+        "<!--StartFragment-->\n\n\\[2] Hannah Ritchie, Pablo Rosado and Max Roser (2023), “CO₂ and Greenhouse Gas Emissions”, Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/co2-and-greenhouse-gas-emissions'.\n\n<!--EndFragment-->",
+        "<!--StartFragment-->\n\n\\[3] David Eckstein, Vera Kunzel, Laura Schafer, for Germanwatch, “Global Climate Risk Index 2021”, and “Global Climate Risk Index 2020”. Retrieved from: https://www.germanwatch.org/en/19777 and https://www.germanwatch.org/en/17307\n\n<!--EndFragment-->",
+        "<!--StartFragment-->\n\nProject website: https://creativeclimatelab.sites.northeastern.edu/visualizing-national-climate-risk-inequities/\n\n<!--EndFragment-->"
+      ],
+      "makers": [
+        "chloe-hudson-prock/readme",
+        "pedro/readme",
+        "gregory-gold/readme"
+      ],
+      "title": "A Perfect Storm: Visualizing Climate Risk and Emissions",
+      "image": {
+        "lg": "climatelg.png",
+        "sm": "climatesm.png",
+        "med": "climatesm.png"
+      },
+      "year": 2020,
+      "iteration": 20
+    },
+    "es": {
+      "makers": [
+        "chloe-hudson-prock/readme",
+        "pedro/readme",
+        "gregory-gold/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 7,
+      "body": "<!--StartFragment-->\n\nGeneticFlow, our Macroscope, is intricately designed for the academic user groups at large, e.g., researchers, educators, decision-makers, or even fresh students in universities and research institutions. The tool meets an important need of academic researchers on the in-depth analysis and interpretation of scholars' impact, streamlining tasks such as scientific career analysis, academic award selection, and tenure evaluation. For junior students, it also opens a door for visually understanding the career path and biography of prestigious scientists, e.g., Turing award winners and Nobel prize laureates. Now we focus on several areas inside the computer science discipline, including AI, database, graphics, visualization, etc., but we may extend the coverage to more disciplines in near future (e.g., physics, material). The GeneticFlow tool mainly utilizes the comprehensive dataset provided by Microsoft Academic Graph, which encompasses an almost full coverage of academic data including papers, authors, citations, and topics, till 2021.10. At its core, the GeneticFlow tool designed a self-citation graph to visualize the evolution of a scholar’s research innovations, as well as their external impact. Cutting edge algorithms, including advisor-advisee detection, extend-type citation classification, embedding-based topic generation, and graph neural networks are employed in our tool for both effective visualization and downstream inference tasks. More details can be found in our KDD 2023, VIS 2023, and NeuroIPS 2023 papers. The visualization design employs a time-dependent hierarchical graph representation, further augmented with appropriate color mapping, interactive trend charts, and a topical map view, providing multidimensional insights into temporal and thematic aspects of a scholar's research contribution and impact. Through extensive case studies and quantitative evaluations, we find that the GeneticFlow visualization can highlight the key success of top-ranked scholars. It also predicts high-level award recipients (e.g., ACM fellows), with significantly better performance than classical impact indicators such as h-index, i-10 index, and citation networks.\n\n<!--EndFragment-->",
+      "externalLink": "https://genetic-flow.com/",
+      "references": [
+        "<!--StartFragment-->\n\nYuankai Luo, Lei Shi\\*, Mufan Xu, Yuwen Ji, Fengli Xiao, Chunming Hu, Zhiguang Shan\\*,“Impact-Oriented Contextual Scholar Profiling using Self-Citation Graphs”, KDD, 2023.\n\n<!--EndFragment-->",
+        "<!--StartFragment-->\n\nFengli Xiao and Lei Shi*, “GeneticFlow: Exploring Scholar Impact with Interactive Visualization ”, IEEE VIS (short paper), 2023.\n\n<!--EndFragment-->",
+        "<!--StartFragment-->\n\nYuankai Luo, Veronika Thost\\*, and Lei Shi\\*, “Transformers over Directed Acyclic Graphs”, NeurIPS, 2023.\n\n<!--EndFragment-->"
+      ],
+      "makers": [
+        "fengli-xiao/readme",
+        "ye-sun/readme",
+        "yuankai-luo/readme",
+        "lei-xia/readme",
+        "weize-wu/readme",
+        "chunming-hu/readme",
+        "lei-shi/readme"
+      ],
+      "title": "GeneticFlow: Exploring Scholar Impact with Visualization",
+      "image": {
+        "lg": "flowlg.png",
+        "med": "flowsm.png",
+        "sm": "flowsm.png"
+      },
+      "year": 2023,
+      "iteration": 20
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 8,
+      "body": "<!--StartFragment-->\n\nGameScope is a macroscope designed for enthusiasts, and researchers interested in exploring the intricate landscape of video game sales spanning from 1996 to 2016. Tailored to meet the diverse needs of the gaming community, this tool empowers users to dive into the vast realm of gaming data, providing insights into sale numbers, genre preferences, and regional best-sellers. User Group and Needs Served: GameScope caters to a wide audience, including gamers, researchers, and industry professionals seeking a comprehensive understanding of the video game market. Whether investigating historical sales data or planning future strategies, the tool addresses the nuanced needs of users navigating the dynamic gaming landscape. Data Used: We have used the \"Global Video Game Sales & Ratings\" dataset from Kaggle (https://www.kaggle.com/datasets/thedevastator/global-video-game-sales-ratings). The dataset consists of records from Metacritic providing insight into global video game ratings and sales. It contains data such as publisher, genre, year of release, and sales information. Data Analysis Performed: GameScope performs intricate data analyses based on user-selected parameters. Users can track total game sales, uncover genre-specific and year specific trends, and delve into regional variations to gain a nuanced perspective on the gaming market dynamics during the selected time frame. Visualization Techniques Applied: GameScope presents users with an interactive map with clickable pop-ups providing information about each region, enhancing the exploration of gaming data. It also makes use of bar and pie chart to display analysed data. Main Insights Gained: Users of GameScope can extract valuable insights, such as identifying top-selling games, understanding genre preferences over time, and discerning regional variations in game popularity. The tool serves as a compass, guiding users through the intricate world of video game sales and offering key insights.\n\n<!--EndFragment-->",
+      "externalLink": "https://gamescope.streamlit.app/",
+      "references": [
+        "<!--StartFragment-->\n\nhttps://www.kaggle.com/datasets/thedevastator/global-video-game-sales-ratings\n\n<!--EndFragment-->"
+      ],
+      "makers": [
+        "subhadeep-jana/readme"
+      ],
+      "title": "GameScope",
+      "image": {
+        "lg": "gamescopelg.png",
+        "med": "gamescopesm.png",
+        "sm": "gamescopesm.png"
+      },
+      "year": 2020,
+      "iteration": 20
+    },
+    "es": {
+      "makers": [
+        "subhadeep-jana/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 9,
+      "body": "<!--StartFragment-->\n\nMarket Map is an experimental data visualization project that explores new ways of visualizing the US stock market data using dimensionality reduction algorithms. The map turns multidimensional financial data into an interactive three-dimensional exploration of companies publicly traded on the NYSE and NASDAQ.\n\n<!--EndFragment-->",
+      "externalLink": "https://marketmap.one",
+      "references": [
+        "<!--StartFragment-->\n\nhttps://www.informationisbeautifulawards.com/showcase/6628-market-map\n\n<!--EndFragment-->",
+        "<!--StartFragment-->\n\nhttps://interacta.io\n\n<!--EndFragment-->"
+      ],
+      "makers": [
+        "nikita-rokotyan/readme",
+        "olya-stukova/readme",
+        "sergey-ryadovoy/readme"
+      ],
+      "title": "Market Map",
+      "image": {
+        "lg": "marketlg.png",
+        "med": "marketsm.png",
+        "sm": "marketsm.png"
+      },
+      "year": 2023,
+      "iteration": 20
+    },
+    "es": {
+      "makers": [
+        "nikita-rokotyan/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
   }
 ]
