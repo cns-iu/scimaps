@@ -1,8 +1,6 @@
 ---
 en:
-  iteration: 20
   sequence: 13
-  year: 2023
   body: >-
     <!--StartFragment-->
 
@@ -35,16 +33,27 @@ en:
 
 
     <!--EndFragment-->
+  externalLink: https://ourworldindata.org/human-development-index
+  references:
+    - >-
+      <!--StartFragment-->
+
+
+      Bastian Herre and Pablo Arriagada (2023) - “The Human Development Index and related indices: what they are and what we can learn from them” Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/human-development-index' \[Online Resource]
+
+
+      <!--EndFragment-->
   makers:
     - bastian-herre/readme
     - pablo-arrigada/readme
-  externalLink: https://ourworldindata.org/human-development-index
+  title: "The Human Development Index and related indices: what they are and what
+    we can learn from them"
   image:
     lg: humandevelopmentlg.png
     sm: humandevelopmentsm.png
     med: humandevelopmentsm.png
-  title: "The Human Development Index and related indices: what they are and what
-    we can learn from them"
+  year: 2023
+  iteration: 20
 es: {}
 zh: {}
 fr: {}
