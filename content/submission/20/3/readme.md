@@ -5,7 +5,7 @@ en:
     <!--StartFragment-->
 
 
-    Macroscope Link: http://www.go4trees.com/four-seasons/
+    Macroscope Link: <http://www.go4trees.com/four-seasons/>
 
 
     This interactive dashboard, created for the World Government Summit, aims to visualize the world's development indicators. The visualization presents different seasons, emphasizing various aspects. 
