@@ -5,7 +5,7 @@ en:
     <!--StartFragment-->
 
 
-    Macroscope Link: https://marketmap.one/
+    Macroscope Link: <https://marketmap.one/>
 
 
     Market Map is an experimental data visualization project that explores new ways of visualizing the US stock market data using dimensionality reduction algorithms. The map turns multidimensional financial data into an interactive three-dimensional exploration of companies publicly traded on the NYSE and NASDAQ.
