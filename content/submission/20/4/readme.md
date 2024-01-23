@@ -51,7 +51,9 @@ en:
     sm: supplychainsm.png
   year: 2022
   iteration: 20
-es: {}
+es:
+  makers:
+    - liuhuaying-yang/readme
 zh: {}
 fr: {}
 pt: {}
