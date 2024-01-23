@@ -6,7 +6,7 @@ en:
   body: |-
     <!--StartFragment-->
 
-    Macroscope Link: https://www.worldwateratlas.org/
+    Macroscope Link: <https://www.worldwateratlas.org/>
 
     A platform for action, sharing all your compelling narratives on water
 
