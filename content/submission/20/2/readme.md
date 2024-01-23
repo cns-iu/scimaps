@@ -5,7 +5,7 @@ en:
     <!--StartFragment-->
 
 
-    Macroscope Link: https://river-runner-global.samlearner.com/
+    Macroscope Link: <https://river-runner-global.samlearner.com/>
 
 
     The river runner tool helps people to better understand the interconnectedness of our watersheds by calculating the downstream path from anywhere on earth and visualizing the journey. 
@@ -30,7 +30,7 @@ en:
       <!--EndFragment-->
   makers:
     - sam/readme
-  title: River Runner
+  title: River Runner Global
   image:
     lg: riverrunnerlg.png
     med: riverrunnersm.png
