@@ -8,7 +8,7 @@ en:
     <!--StartFragment-->
 
 
-    Macroscope link: https://sci.esa.int/gaia-stellar-family-portrait/
+    Macroscope link: <https://sci.esa.int/gaia-stellar-family-portrait/>
 
 
     The ESA Gaia’s Stellar Family Portrait visualisation is an exploration of the Hertzsprung–Russell diagram, a fundamental tool in astronomy, using data from the second data release of ESA’s Gaia mission. The second Gaia data release was made public on 25 April 2018. Learn more about Gaia: sci.esa.int/gaia. 
