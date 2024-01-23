@@ -5,7 +5,7 @@ en:
     <!--StartFragment-->
 
 
-    Macroscope Link: https://vis.csh.ac.at/global-supply-chain-maps/
+    Macroscope Link: <https://vis.csh.ac.at/global-supply-chain-maps/>
 
 
     The Russia-Ukraine conflict has highlighted the intricate nature of global supply chains, a complex network connecting nations and propagating disruptions to distant regions. Previous studies often concentrate on direct dependencies, neglecting indirect dependencies caused by the lack of essential inputs, making a comprehensive assessment of the global supply system challenging. 
