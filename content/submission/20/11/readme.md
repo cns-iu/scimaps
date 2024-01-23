@@ -1,9 +1,6 @@
 ---
 en:
-  iteration: 20
   sequence: 11
-  year: 2022
-  title: How Do We Comapre?
   body: >-
     <!--StartFragment-->
 
@@ -15,13 +12,25 @@ en:
 
 
     <!--EndFragment-->
+  externalLink: https://lindseypoulter.com/wdvp/
+  references:
+    - >-
+      <!--StartFragment-->
+
+
+      The main dataset and metric selection were sourced from [WDVP](https://docs.google.com/spreadsheets/d/1_xdns_UCtRNH9TWcxKYKa_HydlkZxbqCCYRfdxhUNpg/edit#gid=0). The right-hand side of this visualization details the original source of the data. Region and income level classifications originate from the World Bank, via [Gapminder](https://docs.google.com/spreadsheets/d/1qHalit8sXC0R8oVXibc2wa2gY7bkwGzOybEMTWp-08o/edit#gid=501532268).
+
+
+      <!--EndFragment-->
+  makers:
+    - lindsey-poulter/readme
+  title: How Do We Compare?
   image:
     lg: dashboard.png
     sm: comparesm.png
     med: comparesm.png
-  makers:
-    - lindsey-poulter/readme
-  externalLink: https://lindseypoulter.com/wdvp/
+  year: 2022
+  iteration: 20
 es:
   makers:
     - lindsey-poulter/readme
