@@ -23,7 +23,10 @@ en:
     lg: cosmoslg.png
     sm: cosmossm.png
     med: cosmossm.png
-es: {}
+es:
+  makers:
+    - palm-jumnongrat/readme
+    - supawich-orian/readme
 zh: {}
 fr: {}
 pt: {}
