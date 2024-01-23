@@ -5,7 +5,7 @@ en:
     <!--StartFragment-->
 
 
-    Macroscope Link: https://vimeo.com/901381287
+    Macroscope Link: <https://vimeo.com/901381287>
 
 
     This project explores the relationship between the capitalist system and its implications for climate change. Rooted in a critical examination of the capitalist pursuit of profit, perpetual consumption patterns, and the resulting inequality between citizens of “developed” and “developing” economies, it highlights the profound impact of these factors on the escalating climate crisis. Driven by H.A Baer’s work which emphasizes the role of capitalist ideology in perpetuating reliance on fossil fuels and contributing to greenhouse gas emissions \[1], we leverage data from the World Bank on greenhouse gas emissions per capita \[2], and the Germanwatch Global Climate Risk Index (CRI) \[3]. The CRI is a weighted index of 4 measures used to evaluate the losses a country has experienced from extreme weather events connected to climate change. The losses analyzed are economic losses (absolute losses of purchasing power parity, and losses per GDP unit), and loss of life (number of lives lost, and deaths per 100,000 inhabitants). 
