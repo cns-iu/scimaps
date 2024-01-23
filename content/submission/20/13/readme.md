@@ -5,7 +5,7 @@ en:
     <!--StartFragment-->
 
 
-    Macroscope Link: https://ourworldindata.org/human-development-index
+    Macroscope Link: <https://ourworldindata.org/human-development-index>
 
 
     Measuring human development helps us understand how people’s lives and livelihoods vary across the world and how they have changed over time. 
