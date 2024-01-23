@@ -5,7 +5,7 @@ en:
     <!--StartFragment-->
 
 
-    Macroscope Link: https://genetic-flow.com/
+    Macroscope Link: <https://genetic-flow.com/>
 
 
     GeneticFlow, our Macroscope, is intricately designed for the academic user groups at large, e.g., researchers, educators, decision-makers, or even fresh students in universities and research institutions. The tool meets an important need of academic researchers on the in-depth analysis and interpretation of scholars' impact, streamlining tasks such as scientific career analysis, academic award selection, and tenure evaluation. For junior students, it also opens a door for visually understanding the career path and biography of prestigious scientists, e.g., Turing award winners and Nobel prize laureates. Now we focus on several areas inside the computer science discipline, including AI, database, graphics, visualization, etc., but we may extend the coverage to more disciplines in near future (e.g., physics, material). 
