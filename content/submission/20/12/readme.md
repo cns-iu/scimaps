@@ -14,7 +14,7 @@ en:
   title: World Water Atlas
   makers:
     - world-water-atlas/readme
-  externalLink: https://www.worldwateratlas.org/themes
+  externalLink: https://www.worldwateratlas.org/
   image:
     sm: watersm.png
     med: watersm.png
