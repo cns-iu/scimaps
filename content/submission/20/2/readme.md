@@ -30,7 +30,7 @@ en:
       <!--EndFragment-->
   makers:
     - sam/readme
-  title: River Runner Global
+  title: River Runner
   image:
     lg: riverrunnerlg.png
     med: riverrunnersm.png
