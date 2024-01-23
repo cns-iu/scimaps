@@ -5,7 +5,7 @@ en:
     <!--StartFragment-->
 
 
-    Macroscope Link: https://traces.pmcruz.com/
+    Macroscope Link: <https://traces.pmcruz.com/>
 
 
     This project celebrates multi-racial families in the United States from 1860 to 2020, highlighting the gradual dissolution of systemic barriers against racial intermingling in households. Historically, homogenous communities were prevalent, with multi-racial families being rare. Census data before 1960 showed only traces of such families, as race was categorized by enumerators. Post-1970, household members reported their race, marking a shift in racial identification. 
