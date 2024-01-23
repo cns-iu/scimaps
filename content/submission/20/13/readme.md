@@ -54,7 +54,10 @@ en:
     med: humandevelopmentsm.png
   year: 2023
   iteration: 20
-es: {}
+es:
+  makers:
+    - bastian-herre/readme
+    - pablo-arrigada/readme
 zh: {}
 fr: {}
 pt: {}
