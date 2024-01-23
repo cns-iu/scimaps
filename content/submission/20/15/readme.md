@@ -9,7 +9,7 @@ en:
     <!--StartFragment-->
 
 
-    Macroscope Link: https://ourworldindata.org/ai-investments
+    Macroscope Link: <https://ourworldindata.org/ai-investments>
 
 
     Artificial intelligence (AI) technology has steadily become more powerful over the course of the last decades and in recent years it has entered our world in many different domains. In a companion article – the brief history of artificial intelligence – I document this development. 
