@@ -5,7 +5,7 @@ en:
     <!--StartFragment-->
 
 
-    Macroscope Link: http://higlass.io/
+    Macroscope Link: <http://higlass.io/>
 
 
     HiGlass is a tool for exploring and compare genomic contact matrices and tracks.
