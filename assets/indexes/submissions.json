@@ -642,7 +642,7 @@
   {
     "en": {
       "sequence": 14,
-      "body": "<!--StartFragment-->\n\nMacroscope Link: <http://higlass.io/>\n\nHiGlass is a tool for exploring and compare genomic contact matrices and tracks.\n\n<!--EndFragment-->",
+      "body": "<!--StartFragment-->\n\nMacroscope Link: <http://higlass.io/>\n\nHiGlass is a tool for exploring and comparing genomic contact matrices and tracks. Take a look at some examples or head over to the docs to learn how HiGlass can be used and configured. To load private data, HiGlass can be run locally within a docker container.\n\n<!--EndFragment-->",
       "externalLink": "http://higlass.io/",
       "references": [
         "<!--StartFragment-->\n\n\\[1]Kerpedjiev et al.HiGlass: Web-based visual comparison and exploration of genome interaction maps.Genome Biology, 19:125 (2018).\n\n<!--EndFragment-->",
