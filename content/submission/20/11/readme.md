@@ -1,37 +1,38 @@
 ---
 en:
-  iteration: 20
   sequence: 11
-  year: 2022
-  title: How Do We Comapre?
   body: >-
     <!--StartFragment-->
 
-
-    #### Methodology
-
-
-    **Circle placement:** Priority was placed on avoiding overlap of circles. This means the placement of each circle will not always be 100% accurate. However, hovering over a value will provide the exact value.
+    Macroscope Link: <https://lindseypoulter.com/wdvp/>
 
 
-    **Strong vs. Weak:** Each metric was assessed to determine if a higher value was better (strong) or worse (weak). For some metrics, such as % of GDP used for military spend, it is hard to determine what an ideal value is. In these instances, the metric was deemed to be stronger the higher it was.
-
-
-    **Axis:** Stronger values are placed toward the top/outside. This means the axis may be reversed from a traditional chart. For example, infant mortality has a value of 10 at the top and 80 at the bottom. Additionally, the axis does not include 0. This is to emphasize the minimum and maximum values in the world.
-
-
-    **Averages:** For each income and region level a standard average was calculated. Population was not taken into consideration. If the focus is a country, such as the United States, that country is included in its region and income level averages.
+    This interactive dashboard encourages users to focus on one area – a country, region, or income level – and see how it compares to its counterparts across a wide range of metrics. It provides multiple ways to interact and explore – the user can search for a country of interest, use the shuffle button to randomly select a focus, or change the selection via tooltips. For best experience, view on a large screen. Recognition: Winner of the World Data Viz Prize
 
 
     <!--EndFragment-->
-  image:
-    lg: dashboard.png
-    sm: dashboard.png
-    med: dashboard.png
+  externalLink: https://lindseypoulter.com/wdvp/
+  references:
+    - >-
+      <!--StartFragment-->
+
+
+      The main dataset and metric selection were sourced from [WDVP](https://docs.google.com/spreadsheets/d/1_xdns_UCtRNH9TWcxKYKa_HydlkZxbqCCYRfdxhUNpg/edit#gid=0). The right-hand side of this visualization details the original source of the data. Region and income level classifications originate from the World Bank, via [Gapminder](https://docs.google.com/spreadsheets/d/1qHalit8sXC0R8oVXibc2wa2gY7bkwGzOybEMTWp-08o/edit#gid=501532268).
+
+
+      <!--EndFragment-->
   makers:
     - lindsey-poulter/readme
-  externalLink: https://lindseypoulter.com/wdvp/
-es: {}
+  title: How Do We Compare?
+  image:
+    lg: dashboard.png
+    sm: comparesm.png
+    med: comparesm.png
+  year: 2022
+  iteration: 20
+es:
+  makers:
+    - lindsey-poulter/readme
 zh: {}
 fr: {}
 pt: {}
