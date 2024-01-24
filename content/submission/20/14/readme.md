@@ -8,7 +8,7 @@ en:
     Macroscope Link: <http://higlass.io/>
 
 
-    HiGlass is a tool for exploring and compare genomic contact matrices and tracks.
+    HiGlass is a tool for exploring and comparing genomic contact matrices and tracks. Take a look at some examples or head over to the docs to learn how HiGlass can be used and configured. To load private data, HiGlass can be run locally within a docker container.
 
 
     <!--EndFragment-->
