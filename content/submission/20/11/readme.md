@@ -4,7 +4,6 @@ en:
   body: >-
     <!--StartFragment-->
 
-
     Macroscope Link: <https://lindseypoulter.com/wdvp/>
 
 

@@ -22,7 +22,6 @@ en:
 
     Data for this project comes from the anonymized micro-census of the IPUMS USA database, processed through MongoDB to parse households, identify multi-racial families, and structure them as hierarchical JSON objects. This innovative approach not only provides a vivid representation of America's racial diversity but also serves as a testament to the country's evolving societal norms and legal frameworks concerning race and relationships.
 
-
     <!--EndFragment-->
   externalLink: https://traces.pmcruz.com/
   references:
@@ -36,9 +35,11 @@ en:
     sm: mediumsmall1.png
   year: 2020
   iteration: 20
+
 es:
   makers:
     - pedro/readme
+    
 zh: {}
 fr: {}
 pt: {}

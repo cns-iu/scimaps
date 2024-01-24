@@ -28,9 +28,11 @@ en:
     lg: gaialg.png
     sm: gaiasm.png
     med: gaiasm.png
+
 es:
   makers:
     - jan-willem-tulp/readme
+
 zh: {}
 fr: {}
 pt: {}
