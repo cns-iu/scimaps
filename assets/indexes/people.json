@@ -318,6 +318,13 @@
     ]
   },
   {
+    "name": "Bastian Herre",
+    "last_name": "Herre",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "name": "Beatriz Malveiro",
     "last_name": "Malveiro",
     "roles": [
@@ -2359,6 +2366,13 @@
     ]
   },
   {
+    "name": "Max Roser",
+    "last_name": "Roser",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Maximilian Schich obtained his MA degrees in art history, classic archaeology, and general psychology at the Ludwig Maximilians University Munich and his PhD in art history from the Humboldt University of Berlin. He has over a decade of consulting experience, working with network data in art research and brokering within the tetrahedron of project partners, users, programmers, and customers. Among other projects, he has supported Projekt Dyabola, Bibliotheca Hertziana at the Max Planck Institute for Art History, the Munich Glyptothek, and Zentralinstitut für Kunstgeschichte. Since 2009, he has worked as DFG visiting research scientist at Barabási Lab—of the Center for Complex Network Research at Northeastern University, Boston—where he collaborates with network scientists in the study of complex art history and archaeology networks.\n",
     "name": "Maximillian Schich",
     "last_name": "Schich",
@@ -2611,6 +2625,13 @@
     "image": "niko-mcglashan.png"
   },
   {
+    "name": "Nils Gehlenborg",
+    "last_name": "Gehlenborg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Nils C. Newman is the president and founder of IISC. Mr. Newman's research interests focus on the development of analytic tools for the management of technology including the assessment of development trends and the study of the innovation process. Prior to starting IISC in 1995, he was a research analyst at the Technology Policy and Assessment Center of Georgia Tech. He has also worked as a technology policy analyst at SRI International. Mr. Newman has a bachelor of mechanical engineering and an MS in technology and science policy from Georgia Tech. He is currently pursuing a PhD in economics from MERIT at the University of Maastricht.\n",
     "name": "Nils Newman",
     "last_name": "Newman",
@@ -2691,6 +2712,20 @@
     "name": "Onur Varol",
     "last_name": "Varol",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Pablo Arrigada",
+    "last_name": "Arrigada",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Palm Jumnongrat",
+    "last_name": "Jumnongrat",
     "roles": [
       "maker"
     ]
@@ -3214,6 +3249,13 @@
     "name": "Sune Lehmann",
     "last_name": "Lehmann",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Supawich Orian",
+    "last_name": "Orian",
     "roles": [
       "maker"
     ]
