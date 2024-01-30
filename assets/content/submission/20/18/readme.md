@@ -2,12 +2,10 @@
 en:
   sequence: 18
   body: >-
-    The Space-Time Theories Exploratorium's Macroscope is a cutting-edge tool
-    designed to cater to a broad spectrum of users, serving the needs of both
-    students and researchers in Physics, Philosophy of Science, Foundations of
-    Physics, Ontology, Structuralism, Complexity, and Graphic Representations.
-    This web-based interactive platform utilizes HTML with D3 JavaScript and CSS
-    for visual explorations.
+    Macroscope Link: <https://remo.cua.uam.mx/vis/Exploratorium/>
+
+
+    The Space-Time Theories Exploratorium's Macroscope is a cutting-edge tool designed to cater to a broad spectrum of users, serving the needs of both students and researchers in Physics, Philosophy of Science, Foundations of Physics, Ontology, Structuralism, Complexity, and Graphic Representations. This web-based interactive platform utilizes HTML with D3 JavaScript and CSS for visual explorations.
 
 
     The Macroscope enables users to delve into ten interactive visualizations, encompassing over 50 theories of space-time and gravitation. It facilitates the location of groups of theories, their foundations, and classes of models. Through hierarchical networks, users learn the logic of interconnected concepts, becoming adept at navigating the conceptual structure of physical theories. 
