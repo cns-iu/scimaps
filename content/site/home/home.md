@@ -1,10 +1,9 @@
 ---
 cta:
-  title: 2024 Call for Macroscopes is Open
-  body: Submit your stunning and interactive data visualizations for a chance to
-    be featured in the 20th Iteration of *Places & Spaces*.
-  buttonLabel: Submission page
-  buttonLink: https://scimaps.org/call-for-macroscopes
-  subtitle: "Deadline: January 15th, 2024"
+  title: "Explore the 19th Iteration: XIX. Macroscopes as Digital Atlases"
+  body: What new things will you learn about the world we share?
+  buttonLabel: Macroscopes
+  buttonLink: https://scimaps.org/macroscopes
+  subtitle: Come check out the 9th installment of macroscopes
   imageSource: card_image.png
 ---
