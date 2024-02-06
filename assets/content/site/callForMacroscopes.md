@@ -2,7 +2,7 @@
 lastIteration: 19
 pdfLink: ""
 submitURL: https://forms.gle/eZ9EBBvdmYhKCoTRA
-allowSubmission: true
+allowSubmission: false
 tabs:
   - header: Background and Goals
     content: >-
