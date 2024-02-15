@@ -5,5 +5,6 @@ cta:
   buttonLabel: Macroscopes
   buttonLink: https://scimaps.org/macroscopes
   subtitle: ""
+
   imageSource: card_image.png
 ---
