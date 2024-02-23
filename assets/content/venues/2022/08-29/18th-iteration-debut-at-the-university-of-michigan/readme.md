@@ -1,8 +1,8 @@
 ---
 dateStart: 2022-08-29T15:00:00.000Z
 dateEnd: 2023-01-20T16:00:00.000Z
-title: 18th Iteration Debut at the University of Michigan
-venue: Clark Library, University of Michigan
+title: University of Michigan
+venue: Clark Library
 organizer: Timothy Utter
 city: Ann Arbor
 state: Michigan

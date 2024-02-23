@@ -14992,9 +14992,9 @@
   {
     "dateStart": "2020-10-01T00:00:00.000Z",
     "dateEnd": "2021-01-30T00:00:00.000Z",
-    "title": "16th Iteration Debut",
-    "venue": "Dimension Mill",
-    "organizer": null,
+    "title": "Dimension Mill",
+    "venue": "The Mill",
+    "organizer": "CNS",
     "credit": "Places & Spaces",
     "city": "Bloomington",
     "state": "IN",
@@ -15136,8 +15136,8 @@
   {
     "dateStart": "2021-09-24T00:00:00.000Z",
     "dateEnd": "2022-03-15T00:00:00.000Z",
-    "title": "17th Iteration Debut and Macroscope Kiosk Display",
-    "venue": "Navari Family Center for Digital Scholarship, University of Notre Dame",
+    "title": "Macroscope Kiosk Display at Navari Family Center for Digital Scholarship",
+    "venue": "University of Notre Dame",
     "organizer": "Scott B. Weingart, Peter Hook",
     "credit": "Places & Spaces",
     "city": "Notre Dame",
@@ -15415,8 +15415,8 @@
   {
     "dateStart": "2022-08-29T15:00:00.000Z",
     "dateEnd": "2023-01-20T16:00:00.000Z",
-    "title": "18th Iteration Debut at the University of Michigan",
-    "venue": "Clark Library, University of Michigan",
+    "title": "University of Michigan",
+    "venue": "Clark Library",
     "organizer": "Timothy Utter",
     "city": "Ann Arbor",
     "state": "Michigan",
@@ -15587,17 +15587,7 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "US",
-    "pdfLink": "24h_macroscope_event.pdf"
-  },
-  {
-    "dateStart": "2023-12-10T17:00:00.000Z",
-    "dateEnd": "2023-12-10T17:00:49.516Z",
-    "title": "19th Iteration Debut",
-    "venue": "24 Hour Macroscopes: Interactive Data Visualizations Event",
-    "organizer": "Katy Börner",
-    "city": "Bloomington",
-    "state": "IN",
-    "country": "US"
+    "pdfLink": "24-hour-macroscope-event-2023.pdf"
   },
   {
     "dateStart": "2022-01-01T17:13:59.051Z",
