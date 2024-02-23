@@ -7,5 +7,5 @@ organizer: Katy Börner
 city: Bloomington
 state: IN
 country: US
-pdfLink: 24h_macroscope_event.pdf
+pdfLink: 24-hour-macroscope-event-2023.pdf
 ---

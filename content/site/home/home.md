@@ -4,6 +4,7 @@ cta:
   body: What new things will you learn about the world we share?
   buttonLabel: Macroscopes
   buttonLink: https://scimaps.org/macroscopes
-  subtitle: Come check out the 9th installment of macroscopes
+  subtitle: ""
+
   imageSource: card_image.png
 ---
