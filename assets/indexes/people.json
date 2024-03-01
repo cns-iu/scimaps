@@ -1163,12 +1163,12 @@
   },
   {
     "body": "FleetMon is a young startup headquartered in Rostock, the leading German cruise port of call. Its mission is to empower shipping companies, captains, and maritime enthusiasts by allowing them to track and analyze their business. Their ship-tracking tools allow users to visualize local and global shipping lanes, view historical navigational routes, and access information and photos on more than 670,000 vessels. FleetMon’s clients have included Siemens, British Petroleum, Greenpeace, and many others.",
-    "name": "Fleetmon",
-    "last_name": "Fleetmon",
-    "image": "image.jpg",
+    "name": "FleetMon",
+    "last_name": "FleetMon",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "image.jpg"
   },
   {
     "body": "Francesca Ciccarelli holds a PhD in natural science from the University of Heidelberg. She leads the Ciccarelli Lab at the Istituto Europeo di Oncologia (IEO) in Milan, Italy, which focuses on the analysis of the cancer genome.\n",
@@ -2330,13 +2330,13 @@
     ]
   },
   {
-    "body": "Mauro Martino is an Italian expert in data visualization based in Boston. He created and leads the Cognitive Visualization Lab at IBM Watson in Cambridge, Massachusetts. Mauro was formerly an assistant research professor at Northeastern University working with Albert-László Barabási at the Center for Complex Network Research and with David Lazer at The Institute for Quantitative Social Science (IQSS) at Harvard University. Previously, he was a research affiliate with the SENSEable City Lab at Massachusetts Institute of Technology (MIT) in Cambridge. Martino's data visualizations were published in the scientific journals Nature, Science, and Proceedings of the National Academy of Sciences of the United States of America. His projects have been shown at international festivals including Ars Electronica, TEDxCambridge –Thrive, and art galleries including The Serpentine Gallery (London), GAFTA (San Francisco), and Lincoln Center (New York).",
+    "body": "**Matan Stauber** graduated with honors from Jerusalem’s Bezalel Academy of Arts in 2015, where he developed *Histography* as his final project under the direction of Ronel Mor. Matan works as an interactive designer and code developer in Tel Aviv. He mainly focuses on projects where he can deeply explore human experiences, interfaces, and information design.",
     "name": "Matan Stauber",
     "last_name": "Stauber",
-    "image": "image.jpg",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "image.jpg"
   },
   {
     "body": "Mathieu Bastian has an MS in computer science from the University of Technology of Compiègne, France. Proficient in Java, Swing, and OpenGL, he successfully led the 2007 to 2010 development of the Gephi project, an interactive network visualization platform that is recognized for its performance, usability, and extensible design. As a software architect, he was particularly interested in data visualization challenges, such as visualizing massive graph structures in real time. For two consecutive years, the project was selected for the Google Summer of Code program, during which Bastian mentored students while continuing his work on core development and documentation. In 2010, Bastian joined LinkedIn as a data scientist to build the next data-driven products, focusing on inferred identity, large graph analysis, and data visualization.\n",
