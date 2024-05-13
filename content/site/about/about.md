@@ -43,7 +43,7 @@ ambassadorsDescription: These men and women from around the globe work
   also participate in the map selection process.
 annualReports:
   - year: "2022"
-    pdfLink: cns-annual-report-2022.pdf
+    pdfLink: cns-annual-report-2022-interactive.pdf
   - year: "2021"
     pdfLink: 2021-ps-annual-report.pdf
   - year: "2020"
