@@ -1482,7 +1482,8 @@
     "last_name": "Hurt",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "jan-hurt.jpeg"
   },
   {
     "body": "Johannes Janssonius (1588–1664), more commonly known as Jan Jansson, is recognized today for having compiled and published the 17th-century Atlas Major. His father, Jan Janszoon the Elder, was a bookseller and publisher. In 1612, Jansson married the daughter of the cartographer Jodocus Hondius and set up business in Amsterdam as a book publisher. In 1616, he published his first maps of France and Italy, and he remained prolific thereafter. Jansson's maps closely resemble those of Willem Janszoon Blaeu and, in fact, were often copied from them. However, Jansson's maps, to many eyes, tend to be more flamboyant and decorative. From about 1630 to 1638, Jansson worked in partnership with his brother-in-law Henricus Hondius, issuing further editions of the Mercator/Hondius atlases to which his name was added. On the death of Henricus, he took over the business, expanding the work still further, until eventually he published the 11-volume Atlas Major.\n",
@@ -2018,7 +2019,8 @@
     "last_name": "Poulter",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "headshot.jpg"
   },
   {
     "body": "Lisa Kershner is a graphic designer at the College of Information Science and Technology, Drexel University.\n",
@@ -2049,7 +2051,8 @@
     "last_name": "Yang",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "liuhuaying-yang.jpeg"
   },
   {
     "body": "Loet Leydesdorff holds a PhD in sociology, an MA in philosophy, and an MS in biochemistry from the University of Amsterdam (UvA). He a professor of science and technology dynamics at the Amsterdam School of Communications Research (ASCoR) of the UvA, a visiting professor of the Institute of Scientific and Technical Information of China (ISTIC) in Beijing, and an honorary fellow of the Science and Technology Policy Research Unit (SPRU) of the University of Sussex. He has published extensively in systems theory, social network analysis, scientometrics, and the sociology of innovation and is on the editorial boards of notable publications, such as Scientometrics, Social Science Information, Science and Public Policy, and Informetrics. Leydesdorff’s research interests are in the fields of the philosophy of science, social network analysis, scientometrics, and the sociology of innovation. His studies in communication in science, technology, and innovation enabled him to specify theory and methods for understanding the dynamics of knowledge-based development. He is the author of several monographs, including The Challenge of Scientometrics: The Development, Measurement, and Self-Organization of Scientific Communications (1995); A Sociological Theory of Communication: The Self-Organization of the Knowledge-Based Society (2001); and The Knowledge-Based Economy: Modeled, Measured, Simulated (2006). In 2003, he received the Derek de Solla Price Award for Scientometrics and Informetrics.\n",
@@ -2301,7 +2304,8 @@
     "last_name": "Bruckner",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "martin_bruckner.jpeg"
   },
   {
     "name": "Martin Schaaper",
@@ -2538,7 +2542,8 @@
     "last_name": "Laber",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "moritz_laber.jpeg"
   },
   {
     "body": "Moritz Stefaner holds a BS in cognitive science from the University of Osnabrück, Germany, and an MA in interface design from the University of Applied Sciences in Potsdam, Germany. He works as a “truth and beauty operator” on the crossroads of data visualization, information aesthetics, and user-interface design. He is especially interested in the visualization of large-scale human activity, and his work beautifully balances the analytical and aesthetic aspects of mapping abstract and complex phenomena. In the past, he has helped clients such as the OECD, the World Economic Forum, Skype, Deutsche Presse-Agentur (DPA), Fédération Internationale de Football Association (FIFA), and the Max Planck Research Society to find insights and beauty in large data sets. In 2010, he was nominated for the Design Award of the Federal Republic of Germany, and his work has been exhibited at the Venice Architecture Biennale, SIGGRAPH, Ars Electronica, and the Max Planck Science Gallery. He is part of the advisory boards for the Places & Spaces exhibits and Prix Ars Electronica in the Digital Communities category. Stefaner serves as a reviewing expert for the Future and Emerging Technologies (FET) program of the European Commission. He has coauthored books published by O’Reilly Media, Springer, and others and has often spoken and lectured on the topic of information visualization. His personal portfolio is available at http://moritz.stefaner.eu, and he occasionally blogs at http://wellformed-data.net. Stefaner also publishes the Data Stories podcast together with Enrico Bertini.\n",
@@ -2849,7 +2854,8 @@
     "last_name": "Klimek",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "peter-klimek.jpeg"
   },
   {
     "name": "Petra Ahrweiler",
@@ -3061,7 +3067,8 @@
     "last_name": "Learner",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "https___d1e00ek4ebabms.cloudfront.net_production_uploaded-files_sam-learner-4ffea6e7-ebb0-45bf-baac-c5f54ec44124.avif"
   },
   {
     "body": "Samuel T. Mills holds a BFA in studio art and a BA in philosophy from Augustana College. From 2012 to August 2015, he was senior UX designer with the Cyberinfrastructure for Network Science Center at Indiana University–Bloomington. Currently, he is a web developer on the IU School of Education’s marketing and communications team.\n",
@@ -3180,14 +3187,16 @@
     "last_name": "Baum",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "sophia-baum.jpg"
   },
   {
     "name": "Stefan Thurner",
     "last_name": "Thurner",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "stefan-thurner.jpg"
   },
   {
     "body": "Stefanie Posavec is a freelance graphic designer who focuses on projects ranging from data visualization and information design to designing books and book covers (or anything in between) for publishers and creative agencies. Her personal data projects have been exhibited internationally, including exhibitions at the Millennium Galleries, Sheffield, Somerset House, London and the Museum of Modern Art, New York.\n",
@@ -3404,7 +3413,8 @@
     "last_name": "Reisch",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "tobias-reisch.jpg"
   },
   {
     "body": "Todd M. Holloway was a PhD candidate in computer science at Indiana University. He holds a BA from Grinnell College and an SM from Indiana University, both in computer science. His research interests include data mining, case-based reasoning, information retrieval, personalization, and information visualization.\n",
