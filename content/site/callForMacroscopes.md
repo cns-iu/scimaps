@@ -2,7 +2,7 @@
 lastIteration: 19
 pdfLink: ""
 submitURL: https://forms.gle/eZ9EBBvdmYhKCoTRA
-allowSubmission: true
+allowSubmission: false
 tabs:
   - header: Background and Goals
     content: >-
@@ -57,7 +57,7 @@ tabs:
 
       * Describe the impact your data visualization has had on public awareness, social policy, or political action
 
-      * Submit entries via the following link: <https://forms.gle/rNqq6nDG8YfvNg3MA>
+      * Submit entries via the following link: <https://forms.gle/3Pyt5uk7UsCekcGR6>
   - header: Review Process
     content: >-
       Submissions will be reviewed and evaluated by the exhibit advisory board
@@ -73,7 +73,7 @@ tabs:
       * Relevance for a general audience
 
 
-      Please feel free to send any questions you might have regarding the judging process to Todd Theriault (ttheriau@indiana.edu) and use the subject heading “Macroscope Inquiry.”
+      Please feel free to send any questions you might have regarding the judging process to cnscntr@indiana.edu and use the subject heading “Macroscope Inquiry.”
   - header: Final Submission
     content: >-
       Authors of winning entries will be contacted by February 15, 2024 and
@@ -123,11 +123,11 @@ tabs:
     header: Exhibit Advisory Board
 importantDates:
   - date: 2024-01-15
-    label: Submissions due
+    label: <s>Submissions due</s>
   - date: 2024-02-15
-    label: Mapmakers notified
+    label: <s>Mapmakers notified</s>
   - date: 2024-04-01
-    label: Submit final entries
+    label: <s>Submit final entries</s>
   - date: 2024-05-31
     label: Ready for display
 ---

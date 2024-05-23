@@ -1,10 +1,10 @@
 ---
 cta:
-  title: Host the Exhibit
-  body: The exhibit has traveled to six continents. Bring it to your institution
-    this year.
-  buttonLabel: Learn More
-  buttonLink: https://scimaps.org/hosting
-  subtitle: Find out how to bring Places & Spaces to you.
-  imageSource: host_card.jpg
+  title: "Explore the 19th Iteration: XIX. Macroscopes as Digital Atlases"
+  body: What new things will you learn about the world we share?
+  buttonLabel: Macroscopes
+  buttonLink: https://scimaps.org/macroscopes
+  subtitle: ""
+
+  imageSource: card_image.png
 ---
