@@ -1,7 +1,7 @@
 ---
 en:
   sequence: 3
-  body: "The Whole Picture looks at one of our most crucial networks: the global
+  body: "*The Whole Picture* looks at one of our most crucial networks: the global
     supply chain. It reveals how disruptions, delays, or sanctions can affect
     the flow of goods in unexpected ways. It’s easy to see how problems with
     grapes in Italy could lead to a shortage of wine in Europe. You might be
