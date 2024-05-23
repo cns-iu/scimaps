@@ -3,8 +3,8 @@ en:
   sequence: 4
   body: With the short news cycle and fewer in-depth reporting formats, it is
     difficult to grasp progress over time in the areas of health, the
-    environment, and education. The Shape of Change reintroduces prominent news
-    stories that piqued awareness about issues like oil dependency, air
+    environment, and education. *The Shape of Change* reintroduces prominent
+    news stories that piqued awareness about issues like oil dependency, air
     pollution, and global literacy and then invites you to test your impressions
     of how things have changed. Further down, a series of charts track
     developments in key areas. For each year, a wedge shape indicates whether
