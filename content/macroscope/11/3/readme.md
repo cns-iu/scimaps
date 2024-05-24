@@ -54,4 +54,5 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
   externalLink: 'http://gdeltproject.org/'
+  videoLink: 'https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/mapping-global-news_with_captions.webm'
 ---

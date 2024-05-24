@@ -55,4 +55,5 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
   externalLink: 'https://nap.nationalacademies.org/academy-scope/#topic=276'
+  videoLink: 'https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/AcademyScope.webm'
 ---

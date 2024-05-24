@@ -51,4 +51,5 @@ en:
     lg: image.lg.jpg
   externalLink:
     http://megaregions.group.shef.ac.uk/scimaps.html
+  videoLink: 'https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/megaregions_with_captions.webm'
 ---
