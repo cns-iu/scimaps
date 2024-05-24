@@ -47,7 +47,8 @@
         "med": "image.med.jpg",
         "lg": "image.lg.jpg"
       },
-      "externalLink": "https://nap.nationalacademies.org/academy-scope/#topic=276"
+      "externalLink": "https://nap.nationalacademies.org/academy-scope/#topic=276",
+      "videoLink": "https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/AcademyScope.webm"
     }
   },
   {
@@ -68,7 +69,8 @@
         "med": "image.med.jpg",
         "lg": "image.lg.jpg"
       },
-      "externalLink": "http://gdeltproject.org/"
+      "externalLink": "http://gdeltproject.org/",
+      "videoLink": "https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/mapping-global-news_with_captions.webm"
     }
   },
   {
@@ -248,7 +250,8 @@
         "med": "image.med.jpg",
         "lg": "image.lg.jpg"
       },
-      "externalLink": "http://megaregions.group.shef.ac.uk/scimaps.html"
+      "externalLink": "http://megaregions.group.shef.ac.uk/scimaps.html",
+      "videoLink": "https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/megaregions_with_captions.webm"
     }
   },
   {
@@ -387,7 +390,8 @@
         "med": "image.med.jpg",
         "lg": "image.lg.jpg"
       },
-      "externalLink": "http://refugeeflow.world/landing"
+      "externalLink": "http://refugeeflow.world/landing",
+      "videoLink": "https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/RefugeeFlow.webm"
     }
   },
   {
@@ -498,7 +502,8 @@
         "med": "image.med.jpg",
         "lg": "image.lg.jpg"
       },
-      "externalLink": "https://news-explorer.mybluemix.net/"
+      "externalLink": "https://news-explorer.mybluemix.net/",
+      "videoLink": "https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/WatsonNewsExplorer.webm"
     }
   },
   {
