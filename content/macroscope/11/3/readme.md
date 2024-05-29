@@ -53,6 +53,5 @@ en:
     sm: image.sm.jpg
     med: image.med.jpg
     lg: image.lg.jpg
-  externalLink: 'http://gdeltproject.org/'
-  videoLink: 'https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/mapping-global-news_with_captions.webm'
+  externalLink: 'http://data.gdeltproject.org/blog/news-cooccurrence-globe/globe_cooccur_kiosk.html'
 ---
