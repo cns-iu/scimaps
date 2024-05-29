@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 10
 title: Humanexus
 image:
   sm: image.sm.jpg
