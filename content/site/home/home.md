@@ -1,9 +1,9 @@
 ---
 cta:
-  title: "Explore the 19th Iteration: XIX. Macroscopes as Digital Atlases"
-  body: What new things will you learn about the world we share?
+  title: Explore the newest macroscopes!
+  body: Macroscopes for a Global Future debut June 6
   buttonLabel: Macroscopes
   buttonLink: https://scimaps.org/macroscopes
   subtitle: ""
-  imageSource: card_image.png
+  imageSource: 20th_card.png
 ---
