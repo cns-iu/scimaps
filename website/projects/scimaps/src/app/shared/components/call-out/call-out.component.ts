@@ -9,5 +9,9 @@ export class CallOutComponent {
   /** HTML class */
   @HostBinding('class') readonly clsName = 'sci-call-out';
   @Input() title!: string;
-  @Input() items!: Array<[string, string]>;
+  @Input() items!: Array<[string, Date]>;
+
+  isPastDate(date: Date): boolean {
+    return +date <= Date.now();
+  }
 }
