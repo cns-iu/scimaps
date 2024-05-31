@@ -4,9 +4,9 @@ import { CallOutComponent } from './call-out.component';
 import { CallOutModule } from './call-out.module';
 
 const testItems: Array<[string, Date]> = [
-  ['test', new Date],
-  ['test', new Date],
-  ['test', new Date]
+  ['test', new Date()],
+  ['test', new Date()],
+  ['test', new Date()],
 ];
 
 describe('CallOutComponent', () => {
@@ -17,13 +17,17 @@ describe('CallOutComponent', () => {
   });
 
   it('should create an item for each date passed in', async () => {
-    const { find } = await shallow.render({ bind: { items: testItems, title: 'test' }});
+    const { find } = await shallow.render({
+      bind: { items: testItems, title: 'test' },
+    });
     const items = find('.item');
     expect(items.length).toEqual(testItems.length);
   });
 
   it('should use the title passed in correctly', async () => {
-    const { find } = await shallow.render({ bind: { items: testItems, title: 'test-title' }});
+    const { find } = await shallow.render({
+      bind: { items: testItems, title: 'test-title' },
+    });
     const title = find('.title')?.nativeElement as Element;
     expect(title?.innerHTML).toContain('test-title');
   });
