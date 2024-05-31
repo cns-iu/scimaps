@@ -3,10 +3,10 @@ import { Shallow } from 'shallow-render';
 import { CallOutComponent } from './call-out.component';
 import { CallOutModule } from './call-out.module';
 
-const testItems: Array<[string, string]> = [
-  ['test', '1'],
-  ['test', '2'],
-  ['test', '3']
+const testItems: Array<[string, Date]> = [
+  ['test', new Date],
+  ['test', new Date],
+  ['test', new Date]
 ];
 
 describe('CallOutComponent', () => {
