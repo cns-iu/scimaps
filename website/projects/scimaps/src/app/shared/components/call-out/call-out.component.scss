@@ -15,6 +15,10 @@
 
       .item-label {
         margin-bottom: 0rem;
+        
+        &.strike-through {
+          text-decoration: line-through;
+        }
       }
 
       .item-date {
