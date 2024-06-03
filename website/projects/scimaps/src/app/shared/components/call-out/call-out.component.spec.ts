@@ -41,7 +41,7 @@ describe('CallOutComponent', () => {
 
   it('should return false if given date is in future of the current date', async () => {
     const { instance } = await shallow.render();
-    const date = new Date('20205-05-12T23:50:21.817Z');
+    const date = new Date('2025-05-12T23:50:21.817Z');
     const isPast = instance.isPastDate(date);
     expect(isPast).toEqual(false);
   });
