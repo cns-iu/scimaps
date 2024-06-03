@@ -123,11 +123,11 @@ tabs:
     header: Exhibit Advisory Board
 importantDates:
   - date: 2024-01-15
-    label: <s>Submissions due</s>
+    label: Submissions due
   - date: 2024-02-15
-    label: <s>Mapmakers notified</s>
+    label: Mapmakers notified
   - date: 2024-04-01
-    label: <s>Submit final entries</s>
+    label: Submit final entries
   - date: 2024-05-31
     label: Ready for display
 ---
