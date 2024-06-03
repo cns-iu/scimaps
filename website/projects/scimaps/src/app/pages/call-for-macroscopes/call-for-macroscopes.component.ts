@@ -1,7 +1,7 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { drawerInOut } from '../../constants/drawer.animations';
-import { DatePipe } from '@angular/common';
+
 @Component({
   selector: 'sci-call-for-macroscopes',
   templateUrl: './call-for-macroscopes.component.html',
