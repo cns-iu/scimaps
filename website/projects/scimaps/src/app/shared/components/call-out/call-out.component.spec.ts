@@ -32,10 +32,10 @@ describe('CallOutComponent', () => {
     expect(title?.innerHTML).toContain('test-title');
   });
 
-  it('should return true if given date is past the current date', async()=>{
-    const {instance} = await shallow.render();
-    const date = new Date("2020-05-12T23:50:21.817Z")
+  it('should return true if given date is past the current date', async () => {
+    const { instance } = await shallow.render();
+    const date = new Date('2020-05-12T23:50:21.817Z');
     const isPast = instance.isPastDate(date);
     expect(isPast).toEqual(true);
-  })
+  });
 });
