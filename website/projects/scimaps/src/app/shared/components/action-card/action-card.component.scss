@@ -16,7 +16,7 @@
       width: 60%;
       .title {
         font-weight: 500;
-        margin-bottom: .8rem;
+        margin-bottom: 0.8rem;
       }
 
       .subtitle {
@@ -45,6 +45,7 @@
       // height: 100%;
       border-top-right-radius: 1rem;
       background-size: cover;
+      background-repeat: round;
     }
   }
 
@@ -58,8 +59,6 @@
       background-color: #7997a3;
     }
   }
-
-  
 
   .hidden {
     display: none !important;
