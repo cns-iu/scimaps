@@ -46,4 +46,5 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
   externalLink: 'https://news-explorer.mybluemix.net/'
+  videoLink: 'https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/WatsonNewsExplorer.webm'
 ---

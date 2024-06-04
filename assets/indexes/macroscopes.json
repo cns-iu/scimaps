@@ -47,7 +47,8 @@
         "med": "image.med.jpg",
         "lg": "image.lg.jpg"
       },
-      "externalLink": "https://nap.nationalacademies.org/academy-scope/#topic=276"
+      "externalLink": "https://nap.nationalacademies.org/academy-scope/#topic=276",
+      "videoLink": "https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/AcademyScope.webm"
     }
   },
   {
@@ -68,7 +69,7 @@
         "med": "image.med.jpg",
         "lg": "image.lg.jpg"
       },
-      "externalLink": "http://gdeltproject.org/"
+      "externalLink": "http://data.gdeltproject.org/blog/news-cooccurrence-globe/globe_cooccur_kiosk.html"
     }
   },
   {
@@ -248,7 +249,8 @@
         "med": "image.med.jpg",
         "lg": "image.lg.jpg"
       },
-      "externalLink": "http://megaregions.group.shef.ac.uk/scimaps.html"
+      "externalLink": "http://megaregions.group.shef.ac.uk/scimaps.html",
+      "videoLink": "https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/megaregions_with_captions.webm"
     }
   },
   {
@@ -387,7 +389,8 @@
         "med": "image.med.jpg",
         "lg": "image.lg.jpg"
       },
-      "externalLink": "http://refugeeflow.world/landing"
+      "externalLink": "http://refugeeflow.world/landing",
+      "videoLink": "https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/RefugeeFlow.webm"
     }
   },
   {
@@ -498,7 +501,8 @@
         "med": "image.med.jpg",
         "lg": "image.lg.jpg"
       },
-      "externalLink": "https://news-explorer.mybluemix.net/"
+      "externalLink": "https://news-explorer.mybluemix.net/",
+      "videoLink": "https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/WatsonNewsExplorer.webm"
     }
   },
   {
@@ -788,7 +792,7 @@
   {
     "en": {
       "sequence": 1,
-      "body": "This public portal combines 23 data layers from existing open-data sources. Browse citywide data by topic or view data by location to delve into the details. Look for spatial patterns related to everything from traffic injuries to tree canopies, and bus speeds to public seating. Then find potential solutions and learn how to take action. \n\nThe Spatial Equity NYC project documents disparities in the ways that public spaces are designed, distributed, and accessed. Its goal is to empower New Yorkers to take action quickly at the local level. Transportation Alternatives, a New York based non-profit organization, worked with a team from MIT to provide access to this data through *Spatial Equity NYC*.\n\nVisit *Spatial Equity NYC* online at: https://www.spatialequity.nyc.",
+      "body": "This public portal combines 23 data layers from existing open-data sources. This public portal combines 23 data layers from existing open-data sources. Browse citywide data by topic or view data by location to delve into the details. Look for spatial patterns related to everything from traffic injuries to tree canopies, and bus speeds to public seating. Then find potential solutions and learn how to take action.  potential solutions and learn how to take action. \n\nThe Spatial Equity NYC project documents disparities in the ways that public spaces are designed, distributed, and accessed. Its goal is to empower New Yorkers to take action quickly at the local level. Transportation Alternatives, a New York based non-profit organization, worked with a team from MIT to provide access to this data through *Spatial Equity NYC*. \n\nVisit *Spatial Equity NYC* online at: https://www.spatialequity.nyc. Visit *Spatial Equity NYC* online at: https://www.spatialequity.nyc.",
       "externalLink": "https://www.spatialequity.nyc",
       "references": [
         "Norman B. Leventhal Center for Advanced Urbanism. 2023. Home Page. Accessed August 7, 2023. <https://lcau.mit.edu>.",
@@ -870,7 +874,7 @@
   {
     "en": {
       "sequence": 3,
-      "body": "In March of 2020, scientists, doctors, and public health experts joined forces to develop vaccines and public health strategies for reducing COVID-19 infection rates. Rapid progress was possible because it drew on fifty years of previous research and a pool of 15,500 research papers that dealt with coronavirus in some way. Macroscopemaker André Skupin developed this knowledge map of coronavirus research early in the pandemic, using network science techniques to develop an overview of existing topics. Research was concentrated in nine distinct clusters. Having this “lay of the land” was useful for breaking down silos between domains. It also made it possible to build response teams with the right mix of subject matter expertise. \n\nExplore the map and storyboard at https://bigdata.sdsu.edu/coronavirus.",
+      "body": "In March of 2020, scientists, doctors, and public health experts joined forces to develop vaccines and public health strategies for reducing COVID-19 infection rates. Rapid progress was possible because it drew on fifty years of previous research and a pool of 15,500 research papers that dealt with coronavirus in some way. Macroscopemaker André Skupin developed this knowledge map of coronavirus research early in the pandemic, using network science techniques to develop an overview of existing topics. Research was concentrated in nine distinct clusters. Having this “lay of the land” was useful for breaking down silos between domains. It also made it possible to build response teams with the right mix of subject matter expertise.  network science techniques to develop an overview of existing topics. Research was concentrated in nine distinct clusters. Having this “lay of the land” was useful for breaking down silos between domains. It also made it possible to build response teams with the right mix of subject matter expertise. \n\nExplore the map and storyboard at https://bigdata.sdsu.edu/coronavirus.",
       "externalLink": "https://bigdata.sdsu.edu/coronavirus/",
       "references": [
         "BigKnowledge. “BoKMap.” BigKnowledge: Products. <https://bigknowledge.net>.",
@@ -925,6 +929,151 @@
       "makers": [
         "stephanie-yee/readme",
         "tony-chu/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 1,
+      "body": "This winner of the 2023 World Data Visualization Prize helps you compare nations of the world according to 31 economic, social, and environmental metrics. Understanding that context is key, visualization designer Lindsey Poulter developed this dashboard to encourage comparison by region and income level. A high-income country, for instance, may have a lower percentage of people living in poverty than many other nations around the world. However, that same statistic may not look so great when compared only with other high-income countries. You can get acquainted with this macroscope by pressing the shuffle button at the top of the dashboard. This will show how data points are arranged on both the main radial graph and the dot plot in the sidebar. From there, you can select comparisons from the drop-down menu. Or you can get more specific information by hovering over individual data points.",
+      "externalLink": "https://lindseypoulter.com/wdvp/",
+      "references": [
+        "Poulter, Lindsey. 2023. “How Do We Compare?” Accessed April 15, 2024. https://www.lindseypoulter.com/wdvp.",
+        "Poulter, Lindsey. 2023. *How Do We Compare?* In “20th Iteration (2023): Macroscopes for a Global Future.” *Places & Spaces: Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault. https://scimaps.org."
+      ],
+      "makers": [
+        "lindsey-poulter/readme"
+      ],
+      "title": "How Do We Compare?",
+      "image": {
+        "sm": "1x1-how-do-we-compare.png",
+        "med": "1x1-how-do-we-compare.png",
+        "lg": "desktop-how-do-we-compare.png"
+      },
+      "year": 2014,
+      "iteration": 20
+    },
+    "es": {
+      "makers": [
+        "lindsey-poulter/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 2,
+      "body": "The joy of imaginative map exploration is perfectly captured in this visualization from graphics journalist Sam Learner. Begin by placing a virtual drop of water anywhere in the world, and watch as it makes its way through streams, tributaries, and rivers, tracing a path to the ocean or an inland sea. Hydrologists at the United States Geological Survey collaborated with the Internet of Water Coalition (did you know there is an internet of water?) to create a database of the world’s interconnected watersheds. This soaring perspective allows for amazing views of the landscape while also showing the distance a water drop travels to complete the water cycle.",
+      "externalLink": "https://river-runner-global.samlearner.com/",
+      "references": [
+        "Learner, Sam. 2021. “River Runner Global.” Accessed April 15, 2024. https://river-runner-global.samlearner.com.",
+        "Learner, Sam. 2021. *River Runner*. In “20th Iteration (2024): Macroscopes for a Global Future.” *Places & Spaces: Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault. https://scimaps.org."
+      ],
+      "makers": [
+        "sam/readme"
+      ],
+      "title": "River Runner",
+      "image": {
+        "sm": "1x1-river-runner.png",
+        "med": "1x1-river-runner.png",
+        "lg": "desktop-river-runner.png"
+      },
+      "year": 2021,
+      "iteration": 20
+    },
+    "es": {
+      "makers": [
+        "sam/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 3,
+      "body": "*The Whole Picture* looks at one of our most crucial networks: the global supply chain. It reveals how disruptions, delays, or sanctions can affect the flow of goods in unexpected ways. It’s easy to see how problems with grapes in Italy could lead to a shortage of wine in Europe. You might be less aware of how a shock to U.S. soybeans can affect pork and poultry production in Panama, Egypt, and Indonesia. By using a network model that accounts for both food and the materials that go into producing it, a team led by the Complexity Science Hub were able to capture the interdependent nature of this vital global system.",
+      "externalLink": "https://vis.csh.ac.at/global-supply-chain-maps/",
+      "references": [
+        "Laber, Moritz, Peter Klimek, Martin Bruckner, Liuhuaying Yang, and Stefan Thurner. 2023. “Shock Propagation from the Russia–Ukraine Conflict on International Multilayer Food Production Network Determines Global Food Availability.” *Nature Food* 4: 508–517.",
+        "Reisch, Tobias, Liuhuaying Yang, Jan Hurt, and Stefan Thurner. 2022. “Shocking Russia: How Will Economic Sanctions Affect the Russian Economy, How Will an Oil and Gas Embargo Play Out, and How Are Sanction-Imposing Countries Affected on the Various Industry Sectors?” *CSH Policy Briefs*, March 15, 2022. https://csh.ac.at/publication/shocking-russia-how-will-economic-sanctions-affect-the-russian-economy-how-will-an-oil-and-gas-embargo-play-out-and-how-are-sanction-imposing-countries-affected-on-the-various-industry-sectors.",
+        "Yang, Liuhuaying, Moritz Laber, Peter Klimek, Martin Bruckner, Stefan Thurner, Tobias Reisch, Jan Hurt, and Sophia Baum. 2023. *The Whole Picture*. In “20th Iteration (2024): Macroscopes for a Global Future. ” *Places & Spaces: Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault. https://scimaps.org."
+      ],
+      "makers": [
+        "liuhuaying-yang/readme",
+        "moritz-laber/readme",
+        "peter-klimek/readme",
+        "martin-bruckner/readme",
+        "stefan-thurner/readme",
+        "tobias-reisch/readme",
+        "jan-hurt/readme",
+        "sophia-baum/readme"
+      ],
+      "title": "The Whole Picture",
+      "image": {
+        "sm": "1x1-the-whole-picture.png",
+        "med": "1x1-the-whole-picture.png",
+        "lg": "desktop-the-whole-picture.png"
+      },
+      "year": 2023,
+      "iteration": 20
+    },
+    "es": {
+      "makers": [
+        "liuhuaying-yang/readme",
+        "moritz-laber/readme",
+        "peter-klimek/readme",
+        "martin-bruckner/readme",
+        "stefan-thurner/readme",
+        "tobias-reisch/readme",
+        "jan-hurt/readme",
+        "sophia-baum/readme"
+      ]
+    },
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 4,
+      "body": "With the short news cycle and fewer in-depth reporting formats, it is difficult to grasp progress over time in the areas of health, the environment, and education. *The Shape of Change* reintroduces prominent news stories that piqued awareness about issues like oil dependency, air pollution, and global literacy and then invites you to test your impressions of how things have changed. Further down, a series of charts track developments in key areas. For each year, a wedge shape indicates whether change in that area was positive or negative. By challenging you to reflect and then state your impressions about global challenges, Rita Costa and Beatriz Malveiro seek to replace subjective perceptions with empirical data in a way that makes those insights memorable.",
+      "externalLink": "http://www.theshapeofchange.com/",
+      "references": [
+        "Malveiro, Beatriz, and Rita Costa. 2023. “The Shape of Change.” Accessed April 15, 2024. https://www.theshapeofchange.com.",
+        "Malveiro, Beatriz, and Rita Costa. 2023. *The Shape of Change*. In “20th Iteration (2024): Macroscopes for a Global Future.” *Places & Spaces: Mapping Science*, edited by Katy Börner, Lisel Record, and Todd Theriault. https://scimaps.org."
+      ],
+      "makers": [
+        "beatriz-malveiro/readme",
+        "rita-costa/readme"
+      ],
+      "title": "The Shape of Change",
+      "image": {
+        "sm": "1x1-the-shape-of-change.png",
+        "med": "1x1-the-shape-of-change.png",
+        "lg": "desktop-the-shape-of-change.png"
+      },
+      "year": 2023,
+      "iteration": 20
+    },
+    "es": {
+      "makers": [
+        "beatriz-malveiro/readme",
+        "rita-costa/readme"
       ]
     },
     "zh": {},

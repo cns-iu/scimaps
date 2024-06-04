@@ -325,11 +325,13 @@
     ]
   },
   {
+    "body": "Beatriz Malveiro is a data visualization engineer with a background in mathematics and software engineering. She has worked across product, research, and consulting teams to create unique data experiences and tools. Malveiro aims to craft digital tools that are accessible and can be used to reason about data transparently to drive positive social change. Currently, she is working on visualizing city systems to promote more equitable decision-making in urban planning. Other works include \"Flags of Inequality,\" an award-winning piece on inequalities in legal rights for queer people in Europe.\n\n",
     "name": "Beatriz Malveiro",
     "last_name": "Malveiro",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "beatriz_malveiro.png"
   },
   {
     "body": "Ben Wheeler has a BS in environmental sciences from the University of East Anglia and a PhD from the University of Bristol, where he is currently a research fellow. His advice was invaluable toward ensuring optimal information quality for this project.\n",
@@ -1478,6 +1480,15 @@
     ]
   },
   {
+    "body": "Jan Hurt has been a PhD candidate at the Complexity Science Hub since May 2021. He holds a bachelor’s degree in mathematics and a master’s degree in physics from the University of Vienna. In his master’s thesis, which he wrote at the CSH, Jan studied shock propagation on economic networks. In his current work he investigates how agent-based modeling can be used to support an evidence-based policy. Jan’s research interests range from statistical physics over agent-based modeling to environmental issues.",
+    "name": "Jan Hurt",
+    "last_name": "Hurt",
+    "roles": [
+      "maker"
+    ],
+    "image": "jan_hurt.png"
+  },
+  {
     "body": "Johannes Janssonius (1588–1664), more commonly known as Jan Jansson, is recognized today for having compiled and published the 17th-century Atlas Major. His father, Jan Janszoon the Elder, was a bookseller and publisher. In 1612, Jansson married the daughter of the cartographer Jodocus Hondius and set up business in Amsterdam as a book publisher. In 1616, he published his first maps of France and Italy, and he remained prolific thereafter. Jansson's maps closely resemble those of Willem Janszoon Blaeu and, in fact, were often copied from them. However, Jansson's maps, to many eyes, tend to be more flamboyant and decorative. From about 1630 to 1638, Jansson worked in partnership with his brother-in-law Henricus Hondius, issuing further editions of the Mercator/Hondius atlases to which his name was added. On the death of Henricus, he took over the business, expanding the work still further, until eventually he published the 11-volume Atlas Major.\n",
     "name": "Jan Jansson",
     "last_name": "Jansson",
@@ -2007,11 +2018,13 @@
     ]
   },
   {
+    "body": "Lindsey Poulter is a New York City-based data visualization designer and developer. She is passionate about transforming complex data into captivating visual stories and finding innovative new ways to display information. Lindsey’s recognition includes the World Data Visualization Prize, the Information is Beautiful Business Analytics Gold, and Tableau Zen Master.\n",
     "name": "Lindsey Poulter",
     "last_name": "Poulter",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "lindsey_poulter.png"
   },
   {
     "body": "Lisa Kershner is a graphic designer at the College of Information Science and Technology, Drexel University.\n",
@@ -2038,11 +2051,13 @@
     "image": "image.jpg"
   },
   {
+    "body": "Liuhuaying Yang is a data visualization researcher and faculty member at the Complexity Science Hub. Specializing in design and front-end development of interactive data visualizations, she has worked with the Massachusetts Bay Transportation Agency, the MIT Senseable City Lab and SMART Future Mobility in Singapore as a data visualization specialist, and SPH Lianhe Zaobao in Singapore as a data visualization designer for interactive data journalism projects. Her work was awarded the first prize in the 2019 TRB Innovations in Transit Performance Measurement Challenge and recently won first place in the interactive category of the World Dataviz Prize 2023.\n\n",
     "name": "Liuhuaying Yang",
     "last_name": "Yang",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "liuhuaying_yang.webp"
   },
   {
     "body": "Loet Leydesdorff holds a PhD in sociology, an MA in philosophy, and an MS in biochemistry from the University of Amsterdam (UvA). He a professor of science and technology dynamics at the Amsterdam School of Communications Research (ASCoR) of the UvA, a visiting professor of the Institute of Scientific and Technical Information of China (ISTIC) in Beijing, and an honorary fellow of the Science and Technology Policy Research Unit (SPRU) of the University of Sussex. He has published extensively in systems theory, social network analysis, scientometrics, and the sociology of innovation and is on the editorial boards of notable publications, such as Scientometrics, Social Science Information, Science and Public Policy, and Informetrics. Leydesdorff’s research interests are in the fields of the philosophy of science, social network analysis, scientometrics, and the sociology of innovation. His studies in communication in science, technology, and innovation enabled him to specify theory and methods for understanding the dynamics of knowledge-based development. He is the author of several monographs, including The Challenge of Scientometrics: The Development, Measurement, and Self-Organization of Scientific Communications (1995); A Sociological Theory of Communication: The Self-Organization of the Knowledge-Based Society (2001); and The Knowledge-Based Economy: Modeled, Measured, Simulated (2006). In 2003, he received the Derek de Solla Price Award for Scientometrics and Informetrics.\n",
@@ -2290,6 +2305,15 @@
     ]
   },
   {
+    "body": "Martin Bruckner, senior researcher at ETH Zürich and WU Wien, specializes in modeling biomass conversion networks. He develops and applies multi-regional input-output models to analyze socio-economic biomass metabolism, its drivers, environmental impacts, risks, and dependencies. His research covers the water-food-energy nexus, supply chain risks, the global environmental impacts of consumption and production, dietary changes, food waste reduction, and climate risks in agricultural supply chains.",
+    "name": "Martin Bruckner",
+    "last_name": "Bruckner",
+    "roles": [
+      "maker"
+    ],
+    "image": "martin_bruckner.png"
+  },
+  {
     "name": "Martin Schaaper",
     "last_name": "Schaaper",
     "roles": [
@@ -2518,6 +2542,15 @@
     "roles": [
       "maker"
     ]
+  },
+  {
+    "body": "Moritz Laber is a second-year PhD student at the Network Science Institute (NetSI) at Northeastern University, jointly advised by Professor Alessandro Vespignani and Brennan Klein. He is interested in using insights from network science and complex systems to understand and improve existing machine learning models. Before joining NetSI, Moritz studied how supply shocks propagate on the global food production network. He received a BS and MS in Physics from Karlsruhe Institute of Technology and a MS in Computational Science from University of Vienna.",
+    "name": "Moritz Laber",
+    "last_name": "Laber",
+    "roles": [
+      "maker"
+    ],
+    "image": "moritz_laber.png"
   },
   {
     "body": "Moritz Stefaner holds a BS in cognitive science from the University of Osnabrück, Germany, and an MA in interface design from the University of Applied Sciences in Potsdam, Germany. He works as a “truth and beauty operator” on the crossroads of data visualization, information aesthetics, and user-interface design. He is especially interested in the visualization of large-scale human activity, and his work beautifully balances the analytical and aesthetic aspects of mapping abstract and complex phenomena. In the past, he has helped clients such as the OECD, the World Economic Forum, Skype, Deutsche Presse-Agentur (DPA), Fédération Internationale de Football Association (FIFA), and the Max Planck Research Society to find insights and beauty in large data sets. In 2010, he was nominated for the Design Award of the Federal Republic of Germany, and his work has been exhibited at the Venice Architecture Biennale, SIGGRAPH, Ars Electronica, and the Max Planck Science Gallery. He is part of the advisory boards for the Places & Spaces exhibits and Prix Ars Electronica in the Digital Communities category. Stefaner serves as a reviewing expert for the Future and Emerging Technologies (FET) program of the European Commission. He has coauthored books published by O’Reilly Media, Springer, and others and has often spoken and lectured on the topic of information visualization. His personal portfolio is available at http://moritz.stefaner.eu, and he occasionally blogs at http://wellformed-data.net. Stefaner also publishes the Data Stories podcast together with Enrico Bertini.\n",
@@ -2824,6 +2857,15 @@
     "image": "herman_peter.png"
   },
   {
+    "body": "Peter Klimek is director of the Supply Chain Intelligence Institute Austria (ASCII), associate professor at the Medical University of Vienna, and is a faculty member at the Complexity Science Hub. His research aims to improve our understanding and ability to predict complex socio-economic systems, ranging from human diseases and healthcare systems to economic and financial systems. Peter received his PhD in physics in 2010 and a Venia Docendi (Habilitation) in computational science in 2018. The author of about 100 scientific publications, he has received the Paul Watzlawick Ring of Honour and was named Austrian Scientist of the Year 2021.",
+    "name": "Peter Klimek",
+    "last_name": "Klimek",
+    "roles": [
+      "maker"
+    ],
+    "image": "peter_klimek.png"
+  },
+  {
     "name": "Petra Ahrweiler",
     "last_name": "Ahrweiler",
     "roles": [
@@ -2943,11 +2985,13 @@
     ]
   },
   {
+    "body": "Rita Costa is a data visualization professional based in Portugal. She is passionate about using data to tell stories that shed light on relevant topics. She trained and worked as a data journalist and now leads the data visualization team at a financial technology company, working at the intersection of research and product development. Other works include \"Flags of Inequality,\" an award-winning piece that uses visual metaphors to highlight inequalities in legal rights for queer people.\n",
     "name": "Rita Costa",
     "last_name": "Costa",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "rita_costa.png"
   },
   {
     "body": "Rob Bracken is a writer and communications manager for a major software company. He holds a master's degree in English from the University of Missouri. Rob became interested in oil and energy issues several years ago, after reading The Party's Over by Richard Heinberg. Rob lives in San Francisco with his wife, Deidra, and their cat.\n",
@@ -3029,11 +3073,13 @@
     ]
   },
   {
+    "body": "Sam Learner is a visual journalist and data visualization developer from Chicago, currently based in New York. He works as a graphics journalist on the Financial Times’ visual storytelling team, where he has been part of award-winning stories covering topics such as the war in Ukraine, large language models, quantum computing, and the looming threat of space debris. He previously created a number of open-source visualizations, web pages, and tools, usually with the goal of making public data more practically accessible to a wide audience. The rivers, bridges, and hills of Pittsburgh inspired him to build this tool while he was living there in 2021.\n",
     "name": "Sam Learner",
     "last_name": "Learner",
     "roles": [
       "maker"
-    ]
+    ],
+    "image": "sam_learner.png"
   },
   {
     "body": "Samuel T. Mills holds a BFA in studio art and a BA in philosophy from Augustana College. From 2012 to August 2015, he was senior UX designer with the Cyberinfrastructure for Network Science Center at Indiana University–Bloomington. Currently, he is a web developer on the IU School of Education’s marketing and communications team.\n",
@@ -3146,6 +3192,24 @@
     "roles": [
       "maker"
     ]
+  },
+  {
+    "body": "Sophia Baum joined the Complexity Science Hub as a project intern. Holding a bachelor’s degree in physics from Heidelberg University, she is currently pursuing a master's degree in physics from the University of Vienna with her work at CSH providing the basis of her master's thesis. She is researching shock propagation in the network of global food trade and production, exploring the dynamics of the system and examining countries' adaptation strategies. Her research aims to not only understand the impact of shocks propagating, but also how losses can be mitigated and how countries can enhance resilience in complex economic systems.",
+    "name": "Sophia Baum",
+    "last_name": "Baum",
+    "roles": [
+      "maker"
+    ],
+    "image": "sophia_baum.png"
+  },
+  {
+    "body": "Austrian physicist and economist **Stefan Thurner** is a professor of Science of Complex Systems at the Medical University of Vienna. He is co-founder and president of the Complexity Science Hub since 2015. He is an external professor at the Santa Fe Institute in New Mexico. He published more than 280 scientific articles, and his work has been covered in more than 1,000 newspaper, radio and television reports in Austrian and international media such as The New York Times, BBC World, Nature, New Scientist, and Physics World.",
+    "name": "Stefan Thurner",
+    "last_name": "Thurner",
+    "roles": [
+      "maker"
+    ],
+    "image": "stefan_thurner.png"
   },
   {
     "body": "Stefanie Posavec is a freelance graphic designer who focuses on projects ranging from data visualization and information design to designing books and book covers (or anything in between) for publishers and creative agencies. Her personal data projects have been exhibited internationally, including exhibitions at the Millennium Galleries, Sheffield, Somerset House, London and the Museum of Modern Art, New York.\n",
@@ -3356,6 +3420,15 @@
     "location_name": "Harlan H. Hatcher Graduate Library South",
     "region": "n_america",
     "image": "timutter.jpg"
+  },
+  {
+    "body": "Tobias Reisch has been a PhD candidate at the Complexity Science Hub since March 2019. Tobias received a bachelor’s and a master’s degree in physics from TU Wien. The major focus of his dissertation is the structure, formation, and propagation of shocks in supply networks. He has also worked on projects about social and bibliometric networks, mobility, and economic complexity.",
+    "name": "Tobias Reisch",
+    "last_name": "Reisch",
+    "roles": [
+      "maker"
+    ],
+    "image": "tobia_reisch.png"
   },
   {
     "body": "Todd M. Holloway was a PhD candidate in computer science at Indiana University. He holds a BA from Grinnell College and an SM from Indiana University, both in computer science. His research interests include data mining, case-based reasoning, information retrieval, personalization, and information visualization.\n",

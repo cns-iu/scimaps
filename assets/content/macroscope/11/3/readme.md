@@ -53,5 +53,5 @@ en:
     sm: image.sm.jpg
     med: image.med.jpg
     lg: image.lg.jpg
-  externalLink: 'http://gdeltproject.org/'
+  externalLink: 'http://data.gdeltproject.org/blog/news-cooccurrence-globe/globe_cooccur_kiosk.html'
 ---

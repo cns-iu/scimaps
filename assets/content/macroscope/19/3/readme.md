@@ -13,6 +13,11 @@ en:
     land” was useful for breaking down silos between domains. It also made it
     possible to build response teams with the right mix of subject matter
     expertise. 
+    network science techniques to develop an overview of existing topics.
+    Research was concentrated in nine distinct clusters. Having this “lay of the
+    land” was useful for breaking down silos between domains. It also made it
+    possible to build response teams with the right mix of subject matter
+    expertise. 
 
 
     Explore the map and storyboard at https://bigdata.sdsu.edu/coronavirus.
