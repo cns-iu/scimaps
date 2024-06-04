@@ -50,4 +50,5 @@ en:
     med: image.med.jpg
     lg: image.lg.jpg
   externalLink: 'http://refugeeflow.world/landing'
+  videoLink: 'https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/RefugeeFlow.webm'
 ---
