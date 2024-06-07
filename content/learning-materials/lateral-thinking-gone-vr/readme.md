@@ -9,6 +9,6 @@ This virtual reality visualization explores discourse on the Telegram app during
 
 In *Lateral Thinking Gone VR*, a narrative virtual reality (VR) visualization, authors Andreas Bueckle, Mudrika Alla, Juhi Khare, and Kilian Buehling invite you to climb inside topical and geospatial visualizations of German-speaking Telegram groups and channels. 
 
-The application is available for download via the Meta Quest Store:  <https://www.meta.com/experiences/6196572587047487>[](https://www.meta.com/experiences/6196572587047487)
+The application is available for download via the Meta Quest Store: <https://www.meta.com/experiences/6196572587047487>
 
 Code and technical details are available at <https://github.com/cns-iu/issi-vr-workshop-2023/blob/main/README.md>.
