@@ -7,6 +7,7 @@ organizer: Alisha Nicole Beard
 city: Bloomington
 state: IN
 country: US
+pdfLink: mccalla-2024.pdf
 venueImages:
   - sm: cns_places-spaces_summer2024_31.jpg
     lg: cns_places-spaces_summer2024_31.jpg
