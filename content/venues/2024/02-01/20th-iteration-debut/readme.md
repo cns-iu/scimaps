@@ -28,6 +28,8 @@ venueImages:
     lg: di1a4490.jpg
   - sm: di1a4500.jpg
     lg: di1a4500.jpg
+  - sm: di1a4264.jpg
+    lg: di1a4264.jpg
   - sm: cns_places-spaces_summer2024_111.jpg
     lg: cns_places-spaces_summer2024_111.jpg
 ---
