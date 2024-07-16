@@ -11,4 +11,6 @@ pdfLink: mccalla-2024.pdf
 venueImages:
   - sm: mccalla0_sm.jpg
     lg: mccalla0_lg.jpg
+  - sm: mccalla1_sm.jpg
+    lg: mccalla1_lg.jpg
 ---
