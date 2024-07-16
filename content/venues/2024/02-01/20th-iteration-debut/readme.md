@@ -8,5 +8,7 @@ city: Bloomington
 state: IN
 country: US
 pdfLink: mccalla-2024.pdf
-venueImages: []
+venueImages:
+  - sm: mccalla0_sm.jpg
+    lg: mccalla0_lg.jpg
 ---
