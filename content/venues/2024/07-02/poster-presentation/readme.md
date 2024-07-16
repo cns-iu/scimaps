@@ -7,4 +7,14 @@ organizer: Jessica Gowda
 city: Virtual
 state: Labroots platform
 country: US
+pdfLink: https://www.labroots.com/ms/virtual-event/future-scientific-conferencing
+venueImages:
+  - sm: screenshot1_sm.png
+    lg: screenshot1_lg.png
+  - sm: screenshot2_sm.png
+    lg: screenshot2_lg.png
+  - sm: screenshot1_sm.png
+    lg: screenshot1_lg.png
+  - sm: screenshot4_sm.png
+    lg: screenshot4_lg.png
 ---
