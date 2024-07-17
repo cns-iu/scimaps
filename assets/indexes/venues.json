@@ -15629,6 +15629,186 @@
     "organizer": "Alisha Nicole Beard",
     "city": "Bloomington",
     "state": "IN",
+    "country": "US",
+    "pdfLink": "mccalla-2024.pdf",
+    "venueImages": [
+      {
+        "sm": "mccalla0_sm.jpg",
+        "lg": "mccalla0_lg.jpg"
+      },
+      {
+        "sm": "mccalla1_sm.jpg",
+        "lg": "mccalla1_lg.jpg"
+      },
+      {
+        "sm": "mccalla2_sm.jpg",
+        "lg": "mccalla2_lg.jpg"
+      },
+      {
+        "sm": "mccalla3_sm.jpg",
+        "lg": "mccalla3_lg.jpg"
+      },
+      {
+        "sm": "mccalla4_sm.jpg",
+        "lg": "mccalla4_lg.jpg"
+      },
+      {
+        "sm": "mccalla5_sm.jpg",
+        "lg": "mccalla5_lg.jpg"
+      },
+      {
+        "sm": "mccalla6_sm.jpg",
+        "lg": "mccalla6_lg.jpg"
+      },
+      {
+        "sm": "mccalla7_sm.jpg",
+        "lg": "mccalla7_lg.jpg"
+      },
+      {
+        "sm": "mccalla8_sm.jpg",
+        "lg": "mccalla8_lg.jpg"
+      },
+      {
+        "sm": "mccalla9_sm.jpg",
+        "lg": "mccalla9_lg.jpg"
+      },
+      {
+        "sm": "mccalla10_sm.jpg",
+        "lg": "mccalla10_lg.jpg"
+      },
+      {
+        "sm": "mccalla11_sm.jpg",
+        "lg": "mccalla11_lg.jpg"
+      },
+      {
+        "sm": "mccalla12_sm.jpg",
+        "lg": "mccalla12_lg.jpg"
+      },
+      {
+        "sm": "mccalla13_sm.jpg",
+        "lg": "mccalla13_lg.jpg"
+      },
+      {
+        "sm": "mccalla14_sm.jpg",
+        "lg": "mccalla14_lg.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2023-10-06T17:30:33.310Z",
+    "dateEnd": "2023-10-06T19:30:33.325Z",
+    "title": "City of Bloomington Innovation Celebration",
+    "venue": "The Mill",
+    "organizer": "Devta Kidd",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "venueImages": [
+      {
+        "lg": "img_6919.jpg",
+        "sm": "img_6919.jpg"
+      },
+      {
+        "lg": "img_6920.jpg",
+        "sm": "img_6920.jpg"
+      },
+      {
+        "lg": "img_6921.jpg",
+        "sm": "img_6921.jpg"
+      },
+      {
+        "lg": "img_6922.jpg",
+        "sm": "img_6922.jpg"
+      },
+      {
+        "lg": "img_6923.jpg",
+        "sm": "img_6923.jpg"
+      },
+      {
+        "lg": "img_6925.jpg",
+        "sm": "img_6925.jpg"
+      },
+      {
+        "lg": "img_6926.jpg",
+        "sm": "img_6926.jpg"
+      },
+      {
+        "lg": "img_6927.jpg",
+        "sm": "img_6927.jpg"
+      },
+      {
+        "lg": "img_6929.jpg",
+        "sm": "img_6929.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2024-08-29T13:00:37.360Z",
+    "dateEnd": "2024-07-30T21:00:37.369Z",
+    "title": "CSH Visualizing Complexity Science Workshop",
+    "venue": "Complexity Science Hub",
+    "organizer": "Katy Borner",
+    "city": "Complexity Science Hub",
+    "state": "Vienna",
+    "country": "Austria"
+  },
+  {
+    "dateStart": "2024-06-16T13:00:24.422Z",
+    "dateEnd": "2024-06-21T21:00:24.438Z",
+    "title": "Places & Spaces at NetSci",
+    "venue": "International School and Conference on Network Science",
+    "organizer": "Laurent Hébert-Dufresne",
+    "city": "Québec City",
+    "state": "Québec",
+    "country": "Canada"
+  },
+  {
+    "dateStart": "2024-06-06T16:00:25.860Z",
+    "dateEnd": "2024-06-11T21:00:25.869Z",
+    "title": "The Future of Scientific Conferencing Workshop",
+    "venue": "National Institutes of Health",
+    "organizer": "Jessica Gowda",
+    "city": "Virtual",
+    "state": "Labroots platform",
+    "country": "US",
+    "pdfLink": "https://www.labroots.com/ms/virtual-event/future-scientific-conferencing",
+    "venueImages": [
+      {
+        "sm": "screenshot1_sm.png",
+        "lg": "screenshot1_lg.png"
+      },
+      {
+        "sm": "screenshot2_sm.png",
+        "lg": "screenshot2_lg.png"
+      },
+      {
+        "sm": "screenshot1_sm.png",
+        "lg": "screenshot1_lg.png"
+      },
+      {
+        "sm": "screenshot4_sm.png",
+        "lg": "screenshot4_lg.png"
+      }
+    ]
+  },
+  {
+    "dateStart": "2024-10-05T13:00:03.196Z",
+    "dateEnd": "2024-10-05T19:00:03.206Z",
+    "title": "Science Fest",
+    "venue": "College of Arts and Sciences",
+    "organizer": "Jo Anne Tracy ",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "dateStart": "2024-09-20T14:00:43.796Z",
+    "dateEnd": "2024-09-20T16:00:43.807Z",
+    "title": "Global Macroscopes",
+    "venue": "University Collections at McCalla",
+    "organizer": "Alisha Nicole Beard",
+    "city": "Bloomington",
+    "state": "IN",
     "country": "US"
   }
 ]
