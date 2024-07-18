@@ -6,7 +6,7 @@ venue: University Collections at McCalla
 organizer: Alish Nicole Beard
 city: Bloomington
 state: IN
-country: United States
+country: US
 pdfLink: mccalla_debut_2024.pdf
 venueImages:
   - sm: mccalla0_sm.jpg
