@@ -7,5 +7,6 @@ organizer: Laurent Hébert-Dufresne
 city: Québec City
 state: Québec
 country: Canada
-pdfLink: ""
+pdfLink: scimaps_pwrpnt_1-13.pdf
+venueImages: []
 ---
