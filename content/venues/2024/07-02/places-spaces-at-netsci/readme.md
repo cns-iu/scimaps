@@ -8,5 +8,11 @@ city: Québec City
 state: Québec
 country: Canada
 pdfLink: scimaps_pwrpnt_1-13.pdf
-venueImages: []
+venueImages:
+  - sm: netsci1sm.png
+    lg: netsci1.png
+  - sm: netsci2sm.png
+    lg: netsci2.png
+  - sm: netsci3sm.png
+    lg: netsci3.png
 ---
