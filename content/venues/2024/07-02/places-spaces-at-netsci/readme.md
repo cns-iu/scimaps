@@ -7,4 +7,5 @@ organizer: Laurent Hébert-Dufresne
 city: Québec City
 state: Québec
 country: Canada
+pdfLink: ""
 ---
