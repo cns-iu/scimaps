@@ -7,7 +7,7 @@ organizer: Alisha Nicole Beard
 city: Bloomington
 state: IN
 country: US
-pdfLink: debut_slides_compressed.pdf
+pdfLink: mccalla_microsite.pdf
 venueImages:
   - sm: mccalla0_sm.jpg
     lg: mccalla0_lg.jpg
