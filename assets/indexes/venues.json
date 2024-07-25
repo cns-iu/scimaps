@@ -15630,8 +15630,29 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "US",
-    "pdfLink": "",
-    "venueImages": []
+    "pdfLink": "mccalla_microsite.pdf",
+    "venueImages": [
+      {
+        "sm": "mccalla0_sm.jpg",
+        "lg": "mccalla0_lg.jpg"
+      },
+      {
+        "sm": "mccalla1_sm.jpg",
+        "lg": "mccalla1_lg.jpg"
+      },
+      {
+        "sm": "mccalla2_sm.jpg",
+        "lg": "mccalla2_lg.jpg"
+      },
+      {
+        "sm": "mccalla3_sm.jpg",
+        "lg": "mccalla3_lg.jpg"
+      },
+      {
+        "sm": "mccalla4_sm.jpg",
+        "lg": "mccalla4_lg.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2023-10-06T17:30:33.310Z",
@@ -15694,12 +15715,27 @@
   {
     "dateStart": "2024-06-16T13:00:24.422Z",
     "dateEnd": "2024-06-21T21:00:24.438Z",
-    "title": "Places & Spaces at NetSci",
-    "venue": "International School and Conference on Network Science",
+    "title": "International School and Conference on Network Science ",
+    "venue": "Québec City Convention Center",
     "organizer": "Laurent Hébert-Dufresne",
     "city": "Québec City",
     "state": "Québec",
-    "country": "Canada"
+    "country": "Canada",
+    "pdfLink": "scimaps_pwrpnt_1-13.pdf",
+    "venueImages": [
+      {
+        "sm": "netsci1sm.png",
+        "lg": "netsci1.png"
+      },
+      {
+        "sm": "netsci2sm.png",
+        "lg": "netsci2.png"
+      },
+      {
+        "sm": "netsci3sm.png",
+        "lg": "netsci3.png"
+      }
+    ]
   },
   {
     "dateStart": "2024-06-06T16:00:25.860Z",
@@ -15707,8 +15743,8 @@
     "title": "The Future of Scientific Conferencing Workshop",
     "venue": "National Institutes of Health",
     "organizer": "Jessica Gowda",
-    "city": "Virtual",
-    "state": "Labroots platform",
+    "city": "Bethesda",
+    "state": "Maryland",
     "country": "US",
     "pdfLink": "https://www.labroots.com/ms/virtual-event/future-scientific-conferencing",
     "venueImages": [
@@ -15743,9 +15779,9 @@
   {
     "dateStart": "2024-09-20T14:00:43.796Z",
     "dateEnd": "2024-09-20T16:00:43.807Z",
-    "title": "Global Macroscopes",
+    "title": "Macroscope Tools for Global Challenges",
     "venue": "University Collections at McCalla",
-    "organizer": "Alisha Nicole Beard",
+    "organizer": "Katy Börner",
     "city": "Bloomington",
     "state": "IN",
     "country": "US"
@@ -15755,11 +15791,11 @@
     "dateEnd": "2024-06-06T22:00:07.800Z",
     "title": "“Places & Spaces: Mapping Science” Opening Reception",
     "venue": "University Collections at McCalla",
-    "organizer": "Alish Nicole Beard",
+    "organizer": "Alisha Nicole Beard",
     "city": "Bloomington",
     "state": "IN",
     "country": "US",
-    "pdfLink": "mccalla_debut_2024.pdf",
+    "pdfLink": "https://cns-iu.github.io/workshops/2024-6-6_20-years-Places-Spaces/",
     "venueImages": [
       {
         "sm": "mccalla0_sm.jpg",

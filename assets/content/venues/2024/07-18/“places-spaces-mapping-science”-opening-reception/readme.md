@@ -3,11 +3,11 @@ dateStart: 2024-06-06T20:00:07.788Z
 dateEnd: 2024-06-06T22:00:07.800Z
 title: "“Places & Spaces: Mapping Science” Opening Reception"
 venue: University Collections at McCalla
-organizer: Alish Nicole Beard
+organizer: Alisha Nicole Beard
 city: Bloomington
 state: IN
 country: US
-pdfLink: mccalla_debut_2024.pdf
+pdfLink: https://cns-iu.github.io/workshops/2024-6-6_20-years-Places-Spaces/
 venueImages:
   - sm: mccalla0_sm.jpg
     lg: mccalla0_lg.jpg
