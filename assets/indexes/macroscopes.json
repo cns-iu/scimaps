@@ -1023,9 +1023,9 @@
       ],
       "title": "The Whole Picture",
       "image": {
-        "sm": "1x1-the-whole-picture.png",
-        "med": "1x1-the-whole-picture.png",
-        "lg": "desktop-the-whole-picture.png"
+        "sm": "the-whole-picture-small.jpg",
+        "med": "the-whole-picture-medium.jpg",
+        "lg": "the-whole-picture-cover.jpg"
       },
       "year": 2023,
       "iteration": 20

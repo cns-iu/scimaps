@@ -11,6 +11,8 @@ blogImages:
 ---
 <!--StartFragment-->
 
+by Ezra Engels
+
 This July, I spent two weeks working with the Institute for Digital Arts and Humanities for their intensive 2023 Summer Incubator. Arts and humanities professors and graduate students are rewarded with participation in the incubator to kick start research projects, as well as a grant for continued development. The incubator pairs the awardees with technically skilled assistance, many of whom are students at Luddy School of Informatics, Computing, and Engineering. An awardee collaborates with two assistants and IDAH, ideally leaving with a glistening digital prototype of their project.
 
 This year, the basis of the projects is GitHub Page’s static website generator Jekyll. Github is an easy and no-cost way of hosting smaller websites, including scimaps.org. The specific Jekyll template used was IDAH co-director Kalani Craig’s Community Archive template, created by Craig as a tool for those who are not web developers to preserve community heritage in a digital project. A good chunk of the incubator was spent learning the Community Archive workflow, from digitization and metadata capture, to adding the data by hand using the GitHub website interface. However, the most important deliverable is not the prototype but a detailed project roadmap that sets out how the end goal will be accomplished. Many IDAH awardees independently hire their assistants to continue working on their project.
