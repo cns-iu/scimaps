@@ -4,8 +4,8 @@ dateEnd: 2024-06-11T21:00:25.869Z
 title: The Future of Scientific Conferencing Workshop
 venue: National Institutes of Health
 organizer: Jessica Gowda
-city: Virtual
-state: Labroots platform
+city: Bethesda
+state: Maryland
 country: US
 pdfLink: https://www.labroots.com/ms/virtual-event/future-scientific-conferencing
 venueImages:
