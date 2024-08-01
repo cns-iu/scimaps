@@ -1413,7 +1413,6 @@ class VenuesComponent {
             const { venues, body } = data;
             this.body = body;
             if (venues && Array.isArray(venues)) {
-                console.log(venues);
                 this.dataSource.data = venues;
                 // Assign predicate
                 this.dataSource.filterPredicate = this.filterData;
