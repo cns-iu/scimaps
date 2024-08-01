@@ -15830,54 +15830,6 @@
     ]
   },
   {
-    "dateStart": "2023-10-06T17:30:33.310Z",
-    "dateEnd": "2023-10-06T19:30:33.325Z",
-    "title": "City of Bloomington Innovation Celebration",
-    "venue": "The Mill",
-    "organizer": "Devta Kidd",
-    "city": "Bloomington",
-    "state": "IN",
-    "country": "US",
-    "venueImages": [
-      {
-        "lg": "img_6919.jpg",
-        "sm": "img_6919.jpg"
-      },
-      {
-        "lg": "img_6920.jpg",
-        "sm": "img_6920.jpg"
-      },
-      {
-        "lg": "img_6921.jpg",
-        "sm": "img_6921.jpg"
-      },
-      {
-        "lg": "img_6922.jpg",
-        "sm": "img_6922.jpg"
-      },
-      {
-        "lg": "img_6923.jpg",
-        "sm": "img_6923.jpg"
-      },
-      {
-        "lg": "img_6925.jpg",
-        "sm": "img_6925.jpg"
-      },
-      {
-        "lg": "img_6926.jpg",
-        "sm": "img_6926.jpg"
-      },
-      {
-        "lg": "img_6927.jpg",
-        "sm": "img_6927.jpg"
-      },
-      {
-        "lg": "img_6929.jpg",
-        "sm": "img_6929.jpg"
-      }
-    ]
-  },
-  {
     "dateStart": "2024-08-29T13:00:37.360Z",
     "dateEnd": "2024-07-30T21:00:37.369Z",
     "title": "CSH Visualizing Complexity Science Workshop",
@@ -15886,60 +15838,6 @@
     "city": "Complexity Science Hub",
     "state": "Vienna",
     "country": "Austria"
-  },
-  {
-    "dateStart": "2024-06-16T13:00:24.422Z",
-    "dateEnd": "2024-06-21T21:00:24.438Z",
-    "title": "International School and Conference on Network Science ",
-    "venue": "Québec City Convention Center",
-    "organizer": "Laurent Hébert-Dufresne",
-    "city": "Québec City",
-    "state": "Québec",
-    "country": "Canada",
-    "pdfLink": "scimaps_pwrpnt_1-13.pdf",
-    "venueImages": [
-      {
-        "sm": "netsci1sm.png",
-        "lg": "netsci1.png"
-      },
-      {
-        "sm": "netsci2sm.png",
-        "lg": "netsci2.png"
-      },
-      {
-        "sm": "netsci3sm.png",
-        "lg": "netsci3.png"
-      }
-    ]
-  },
-  {
-    "dateStart": "2024-06-06T16:00:25.860Z",
-    "dateEnd": "2024-06-11T21:00:25.869Z",
-    "title": "The Future of Scientific Conferencing Workshop",
-    "venue": "National Institutes of Health",
-    "organizer": "Jessica Gowda",
-    "city": "Bethesda",
-    "state": "Maryland",
-    "country": "US",
-    "pdfLink": "https://www.labroots.com/ms/virtual-event/future-scientific-conferencing",
-    "venueImages": [
-      {
-        "sm": "screenshot1_sm.png",
-        "lg": "screenshot1_lg.png"
-      },
-      {
-        "sm": "screenshot2_sm.png",
-        "lg": "screenshot2_lg.png"
-      },
-      {
-        "sm": "screenshot1_sm.png",
-        "lg": "screenshot1_lg.png"
-      },
-      {
-        "sm": "screenshot4_sm.png",
-        "lg": "screenshot4_lg.png"
-      }
-    ]
   },
   {
     "dateStart": "2024-10-05T13:00:03.196Z",
