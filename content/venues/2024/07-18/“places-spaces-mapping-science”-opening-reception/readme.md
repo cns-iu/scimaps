@@ -4,6 +4,7 @@ dateEnd: 2024-06-06T22:00:07.800Z
 title: "“Places & Spaces: Mapping Science” Opening Reception"
 venue: University Collections at McCalla
 organizer: Alisha Nicole Beard
+organizer: Alisha Nicole Beard
 city: Bloomington
 state: IN
 country: US
