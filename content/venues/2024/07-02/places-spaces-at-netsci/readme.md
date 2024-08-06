@@ -1,5 +1,5 @@
 ---
-dateStart: 2024-06-16T13:00:24.422Z
+dateStart: 2024-06-19T13:00:24.422Z
 dateEnd: 2024-06-21T21:00:24.438Z
 title: "International School and Conference on Network Science "
 venue: Québec City Convention Center
