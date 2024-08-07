@@ -7,7 +7,7 @@ organizer: Alisha Nicole Beard
 city: Bloomington
 state: IN
 country: US
-pdfLink: https://cns-iu.github.io/workshops/2024-6-6_20-years-Places-Spaces/
+pdfLink: mccalla_microsite.pdf
 venueImages:
   - sm: mccalla0_sm.jpg
     lg: mccalla0_lg.jpg

@@ -15670,6 +15670,39 @@
     "pdfLink": "24-hour-macroscope-event-2023.pdf"
   },
   {
+    "dateStart": "2024-06-06T16:00:36.046Z",
+    "dateEnd": "2024-09-27T21:00:36.060Z",
+    "title": "University Collections at McCalla",
+    "venue": "University Collections at McCalla",
+    "organizer": "Alisha Nicole Beard",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "mccalla_microsite.pdf",
+    "venueImages": [
+      {
+        "sm": "mccalla0_sm.jpg",
+        "lg": "mccalla0_lg.jpg"
+      },
+      {
+        "sm": "mccalla1_sm.jpg",
+        "lg": "mccalla1_lg.jpg"
+      },
+      {
+        "sm": "mccalla2_sm.jpg",
+        "lg": "mccalla2_lg.jpg"
+      },
+      {
+        "sm": "mccalla3_sm.jpg",
+        "lg": "mccalla3_lg.jpg"
+      },
+      {
+        "sm": "mccalla4_sm.jpg",
+        "lg": "mccalla4_lg.jpg"
+      }
+    ]
+  },
+  {
     "dateStart": "2024-06-06T20:00:07.788Z",
     "dateEnd": "2024-06-06T22:00:07.800Z",
     "title": "“Places & Spaces: Mapping Science” Opening Reception",
@@ -15878,17 +15911,17 @@
     ]
   },
   {
-    "dateStart": "2024-08-29T13:00:37.360Z",
-    "dateEnd": "2024-07-30T21:00:37.369Z",
+    "dateStart": "2024-08-26T13:00:37.360Z",
+    "dateEnd": "2024-08-30T21:00:37.369Z",
     "title": "CSH Visualizing Complexity Science Workshop",
     "venue": "Complexity Science Hub",
-    "organizer": "Katy Borner",
+    "organizer": "Katy Börner",
     "city": "Complexity Science Hub",
     "state": "Vienna",
     "country": "Austria"
   },
   {
-    "dateStart": "2024-06-16T13:00:24.422Z",
+    "dateStart": "2024-06-19T13:00:24.422Z",
     "dateEnd": "2024-06-21T21:00:24.438Z",
     "title": "International School and Conference on Network Science ",
     "venue": "Québec City Convention Center",
@@ -15899,16 +15932,20 @@
     "pdfLink": "scimaps_pwrpnt_1-13.pdf",
     "venueImages": [
       {
+        "sm": "netsci1small.jpg",
+        "lg": "netsci1large.jpg"
+      },
+      {
+        "sm": "netsci2small.jpg",
+        "lg": "netsci2large.jpg"
+      },
+      {
+        "sm": "netsci3small.jpg",
+        "lg": "netsci3large.jpg"
+      },
+      {
         "sm": "netsci1sm.png",
         "lg": "netsci1.png"
-      },
-      {
-        "sm": "netsci2sm.png",
-        "lg": "netsci2.png"
-      },
-      {
-        "sm": "netsci3sm.png",
-        "lg": "netsci3.png"
       }
     ]
   },
@@ -15921,7 +15958,7 @@
     "city": "Bethesda",
     "state": "Maryland",
     "country": "US",
-    "pdfLink": "https://www.labroots.com/ms/virtual-event/future-scientific-conferencing",
+    "pdfLink": "the-future-of-scientific-conferencing.pdf",
     "venueImages": [
       {
         "sm": "screenshot1_sm.png",
@@ -15970,7 +16007,7 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "US",
-    "pdfLink": "https://cns-iu.github.io/workshops/2024-6-6_20-years-Places-Spaces/",
+    "pdfLink": "mccalla_microsite.pdf",
     "venueImages": [
       {
         "sm": "mccalla0_sm.jpg",
