@@ -65,7 +65,6 @@ class SubmissionComponent {
     ngOnInit() {
         this.subscription = this.route.data.subscribe(data => {
             const { submission } = data;
-            console.log(submission);
             if (submission) {
                 this.selectedItem = submission;
             }
