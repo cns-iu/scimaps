@@ -7,4 +7,11 @@ organizer: Katy Börner
 city: Complexity Science Hub
 state: Vienna
 country: Austria
+venueImages:
+  - sm: csh1s.png
+    lg: csh1l.png
+  - sm: csh2s.png
+    lg: csh2l.png
+  - sm: csh3s.png
+    lg: csh3l.png
 ---
