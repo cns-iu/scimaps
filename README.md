@@ -11,6 +11,7 @@
 <li> Run 'npm start' from root->content-migrator.</li>
 <ol>
 <li> If running for the first time, run 'npm ci' in root->content-migrator.</li>
+<li> If running for the first time, run 'npm run job' in root->content-migrator.</li>
 </ol>
 <li> Run 'npm start' from root->website.</li>
 <ol>
