@@ -14701,9 +14701,9 @@
   {
     "dateStart": "2019-10-03T00:00:00.000Z",
     "dateEnd": "2019-10-03T00:00:00.000Z",
-    "title": "First Thursday",
+    "title": "First Thursdays Festival",
     "venue": "Indiana University",
-    "organizer": null,
+    "organizer": "Gerard Pannekoek",
     "credit": "Medina Sydykanova",
     "city": "Bloomington",
     "state": "IN",
@@ -15670,6 +15670,39 @@
     "pdfLink": "24-hour-macroscope-event-2023.pdf"
   },
   {
+    "dateStart": "2024-06-06T16:00:36.046Z",
+    "dateEnd": "2024-09-27T21:00:36.060Z",
+    "title": "University Collections at McCalla",
+    "venue": "University Collections at McCalla",
+    "organizer": "Alisha Nicole Beard",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "mccalla_microsite.pdf",
+    "venueImages": [
+      {
+        "sm": "mccalla0_sm.jpg",
+        "lg": "mccalla0_lg.jpg"
+      },
+      {
+        "sm": "mccalla1_sm.jpg",
+        "lg": "mccalla1_lg.jpg"
+      },
+      {
+        "sm": "mccalla2_sm.jpg",
+        "lg": "mccalla2_lg.jpg"
+      },
+      {
+        "sm": "mccalla3_sm.jpg",
+        "lg": "mccalla3_lg.jpg"
+      },
+      {
+        "sm": "mccalla4_sm.jpg",
+        "lg": "mccalla4_lg.jpg"
+      }
+    ]
+  },
+  {
     "dateStart": "2024-06-06T20:00:07.788Z",
     "dateEnd": "2024-06-06T22:00:07.800Z",
     "title": "“Places & Spaces: Mapping Science” Opening Reception",
@@ -15837,7 +15870,21 @@
     "organizer": "Katy Börner",
     "city": "Complexity Science Hub",
     "state": "Vienna",
-    "country": "Austria"
+    "country": "Austria",
+    "venueImages": [
+      {
+        "sm": "csh1s.png",
+        "lg": "csh1l.png"
+      },
+      {
+        "sm": "csh2s.png",
+        "lg": "csh2l.png"
+      },
+      {
+        "sm": "csh3s.png",
+        "lg": "csh3l.png"
+      }
+    ]
   },
   {
     "dateStart": "2024-10-05T13:00:03.196Z",
@@ -15867,6 +15914,26 @@
     "organizer": "Jennifer Simms",
     "city": "Bloomington",
     "state": "IN",
+    "country": "US"
+  },
+  {
+    "dateStart": "2024-09-05T20:00:01.289Z",
+    "dateEnd": "2024-09-05T23:00:01.313Z",
+    "title": "First Thursdays Festival",
+    "venue": "Arts Plaza",
+    "organizer": "Arts & Humanities Council",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "dateStart": "2024-10-30T21:30:14.438Z",
+    "dateEnd": "2024-10-31T00:00:27.539Z",
+    "title": "Humanexus Screening",
+    "venue": "Indiana Univeristy Musum of Archeaology and Anthropology",
+    "organizer": "Sarah Junk Hatcher",
+    "city": "Bloomington",
+    "state": "Indiana",
     "country": "US"
   }
 ]
