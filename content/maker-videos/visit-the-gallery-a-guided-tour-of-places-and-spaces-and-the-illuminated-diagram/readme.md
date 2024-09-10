@@ -3,7 +3,7 @@ title: "Visit the gallery: A guided tour of Places and Spaces and the
   Illuminated Diagram"
 videoLink: https://www.youtube.com/embed/OaQkC8jWWvE
 image: https://img.youtube.com/vi/OaQkC8jWWvE/0.jpg
-short_description: "Visit the gallery: A guided tour of Places & Spaces and the
+short_description: "Visit the gallery: A guided tour of *Places & Spaces* and the
   Illuminated Diagram"
 long_description: "This video from the early days of Places & Spaces provides an
   up-close-and-personal view of science maps and the talented individuals that
