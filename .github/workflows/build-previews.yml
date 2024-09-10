@@ -42,6 +42,7 @@ jobs:
           echo '/* /index.html 200' > dist/scimaps/_redirects
 
       - uses: jsmrcaga/action-netlify-deploy@v1.8.2
+        id: deploy
         with:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
@@ -49,3 +50,8 @@ jobs:
           build_command: echo
           install_command: echo
           build_directory: website/dist/scimaps
+
+      - name: Create Deploy Comment
+        uses: ./.github/actions/deploy-comment
+        with:
+          deploy-url: ${{steps.deploy.outputs.NETLIFY_PREVIEW_URL}}
