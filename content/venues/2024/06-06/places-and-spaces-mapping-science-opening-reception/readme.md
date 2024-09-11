@@ -21,4 +21,12 @@ venueImages:
     lg: mccalla4_lg.jpg
   - sm: mccalla5_sm.jpg
     lg: mccalla5_lg.jpg
+  - sm: mccalla6_sm.jpg
+    lg: mccalla6_lg.jpg
+  - sm: mccalla7_sm.jpg
+    lg: mccalla7_lg.jpg
+  - sm: mccalla8_sm.jpg
+    lg: mccalla8_lg.jpg
+  - sm: mccalla9_sm.jpg
+    lg: mccalla9_lg.jpg
 ---
