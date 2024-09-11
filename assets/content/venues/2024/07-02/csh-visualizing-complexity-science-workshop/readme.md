@@ -7,6 +7,7 @@ organizer: Katy Börner
 city: Complexity Science Hub
 state: Vienna
 country: Austria
+pdfLink: visualizing_complexity_science_workshop_2024.pdf
 venueImages:
   - sm: csh1s.png
     lg: csh1l.png

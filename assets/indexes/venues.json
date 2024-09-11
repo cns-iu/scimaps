@@ -15711,7 +15711,7 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "US",
-    "pdfLink": "https://cns-iu.github.io/workshops/2024-6-6_20-years-Places-Spaces/",
+    "pdfLink": "20_debut_microsite.pdf",
     "venueImages": [
       {
         "sm": "mccalla0_sm.jpg",
@@ -15784,7 +15784,7 @@
     "city": "Bethesda",
     "state": "Maryland",
     "country": "US",
-    "pdfLink": "https://www.labroots.com/ms/virtual-event/future-scientific-conferencing",
+    "pdfLink": "the-future-of-scientific-conferencing.pdf",
     "venueImages": [
       {
         "sm": "screenshot1_sm.png",
@@ -15813,7 +15813,7 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "US",
-    "pdfLink": "mccalla_microsite.pdf",
+    "pdfLink": "20_debut_microsite.pdf",
     "venueImages": [
       {
         "sm": "mccalla0_sm.jpg",
@@ -15840,7 +15840,7 @@
   {
     "dateStart": "2024-06-16T13:00:24.422Z",
     "dateEnd": "2024-06-21T21:00:24.438Z",
-    "title": "International School and Conference on Network Science ",
+    "title": "NetSci 2024",
     "venue": "Québec City Convention Center",
     "organizer": "Laurent Hébert-Dufresne",
     "city": "Québec City",
@@ -15849,16 +15849,16 @@
     "pdfLink": "scimaps_pwrpnt_1-13.pdf",
     "venueImages": [
       {
-        "sm": "netsci1sm.png",
-        "lg": "netsci1.png"
+        "sm": "netsci1small.jpg",
+        "lg": "netsci1large.jpg"
       },
       {
-        "sm": "netsci2sm.png",
-        "lg": "netsci2.png"
+        "sm": "netsci2small.jpg",
+        "lg": "netsci2large.jpg"
       },
       {
-        "sm": "netsci3sm.png",
-        "lg": "netsci3.png"
+        "sm": "netsci3small.jpg",
+        "lg": "netsci3large.jpg"
       }
     ]
   },
@@ -15871,6 +15871,7 @@
     "city": "Complexity Science Hub",
     "state": "Vienna",
     "country": "Austria",
+    "pdfLink": "visualizing_complexity_science_workshop_2024.pdf",
     "venueImages": [
       {
         "sm": "csh1s.png",
