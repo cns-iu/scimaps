@@ -7,7 +7,7 @@ organizer: Jessica Gowda
 city: Bethesda
 state: Maryland
 country: US
-pdfLink: https://www.labroots.com/ms/virtual-event/future-scientific-conferencing
+pdfLink: the-future-of-scientific-conferencing.pdf
 venueImages:
   - sm: screenshot1_sm.png
     lg: screenshot1_lg.png
