@@ -19,4 +19,6 @@ venueImages:
     lg: mccalla3_lg.jpg
   - sm: mccalla4_sm.jpg
     lg: mccalla4_lg.jpg
+  - sm: mccalla5_sm.jpg
+    lg: mccalla5_lg.jpg
 ---
