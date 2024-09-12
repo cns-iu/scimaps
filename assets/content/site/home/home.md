@@ -1,9 +1,9 @@
 ---
 cta:
-  title: Explore the newest macroscopes!
-  body: Macroscopes for a Global Future debut June 6
-  buttonLabel: Macroscopes
-  buttonLink: https://scimaps.org/macroscopes
+  title: Join us to celebrate 20 years of Places & Spaces
+  body: Macroscope Tools for Global Challenges
+  buttonLabel: View Event Details
+  buttonLink: https://cns-iu.github.io/workshops/2024-09-20-macroscope-tools-for-global-challenges/
   subtitle: ""
-  imageSource: 20th_card.png
+  imageSource: sept-card-image.png
 ---
