@@ -15672,7 +15672,7 @@
   {
     "dateStart": "2024-06-06T20:00:07.788Z",
     "dateEnd": "2024-06-06T22:00:07.800Z",
-    "title": "“Places & Spaces: Mapping Science” Opening Reception",
+    "title": "“Places & Spaces: Mapping Science” 20th Iteration Opening Reception",
     "venue": "University Collections at McCalla",
     "organizer": "Alisha Nicole Beard",
     "city": "Bloomington",
@@ -15699,46 +15699,6 @@
       {
         "sm": "mccalla4_sm.jpg",
         "lg": "mccalla4_lg.jpg"
-      },
-      {
-        "sm": "mccalla5_sm.jpg",
-        "lg": "mccalla5_lg.jpg"
-      },
-      {
-        "sm": "mccalla6_sm.jpg",
-        "lg": "mccalla6_lg.jpg"
-      },
-      {
-        "sm": "mccalla7_sm.jpg",
-        "lg": "mccalla7_lg.jpg"
-      },
-      {
-        "sm": "mccalla8_sm.jpg",
-        "lg": "mccalla8_lg.jpg"
-      },
-      {
-        "sm": "mccalla9_sm.jpg",
-        "lg": "mccalla9_lg.jpg"
-      },
-      {
-        "sm": "mccalla10_sm.jpg",
-        "lg": "mccalla10_lg.jpg"
-      },
-      {
-        "sm": "mccalla11_sm.jpg",
-        "lg": "mccalla11_lg.jpg"
-      },
-      {
-        "sm": "mccalla12_sm.jpg",
-        "lg": "mccalla12_lg.jpg"
-      },
-      {
-        "sm": "mccalla13_sm.jpg",
-        "lg": "mccalla13_lg.jpg"
-      },
-      {
-        "sm": "mccalla14_sm.jpg",
-        "lg": "mccalla14_lg.jpg"
       }
     ]
   },
@@ -15840,16 +15800,6 @@
     "country": "US"
   },
   {
-    "dateStart": "2024-09-20T14:00:43.796Z",
-    "dateEnd": "2024-09-20T16:00:43.807Z",
-    "title": "Macroscope Tools for Global Challenges",
-    "venue": "University Collections at McCalla",
-    "organizer": "Katy Börner",
-    "city": "Bloomington",
-    "state": "IN",
-    "country": "US"
-  },
-  {
     "dateStart": "2022-01-01T17:00:00.033Z",
     "dateEnd": "2023-12-31T17:00:00.046Z",
     "title": "Sciences Library",
@@ -15903,5 +15853,27 @@
         "lg": "csh3l.png"
       }
     ]
+  },
+  {
+    "dateStart": "2024-09-20T14:00:43.796Z",
+    "dateEnd": "2024-09-20T16:00:43.807Z",
+    "title": "Macroscope Tools for Global Challenges",
+    "venue": "University Collections at McCalla",
+    "organizer": "Katy Börner",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "macroscope-tools-for-global-challenges.pdf"
+  },
+  {
+    "dateStart": "2024-10-15T20:00:36.742Z",
+    "dateEnd": "2024-10-15T21:00:36.752Z",
+    "title": "Amplitude: Terry Winters Prints Since 2000",
+    "venue": "Eskenazi Museum of Art",
+    "organizer": "Steve Cook",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "terry-winters-talk.pdf"
   }
 ]
