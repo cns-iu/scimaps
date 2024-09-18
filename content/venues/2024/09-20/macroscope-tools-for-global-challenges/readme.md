@@ -7,4 +7,5 @@ organizer: Katy Börner
 city: Bloomington
 state: IN
 country: US
+pdfLink: macroscope-tools-for-global-challenges.pdf
 ---
