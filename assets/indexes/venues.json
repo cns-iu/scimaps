@@ -15670,39 +15670,6 @@
     "pdfLink": "24-hour-macroscope-event-2023.pdf"
   },
   {
-    "dateStart": "2024-06-06T16:00:36.046Z",
-    "dateEnd": "2024-09-27T21:00:36.060Z",
-    "title": "University Collections at McCalla",
-    "venue": "University Collections at McCalla",
-    "organizer": "Alisha Nicole Beard",
-    "city": "Bloomington",
-    "state": "IN",
-    "country": "US",
-    "pdfLink": "mccalla_microsite.pdf",
-    "venueImages": [
-      {
-        "sm": "mccalla0_sm.jpg",
-        "lg": "mccalla0_lg.jpg"
-      },
-      {
-        "sm": "mccalla1_sm.jpg",
-        "lg": "mccalla1_lg.jpg"
-      },
-      {
-        "sm": "mccalla2_sm.jpg",
-        "lg": "mccalla2_lg.jpg"
-      },
-      {
-        "sm": "mccalla3_sm.jpg",
-        "lg": "mccalla3_lg.jpg"
-      },
-      {
-        "sm": "mccalla4_sm.jpg",
-        "lg": "mccalla4_lg.jpg"
-      }
-    ]
-  },
-  {
     "dateStart": "2024-06-06T20:00:07.788Z",
     "dateEnd": "2024-06-06T22:00:07.800Z",
     "title": "“Places & Spaces: Mapping Science” Opening Reception",
@@ -15806,7 +15773,7 @@
   },
   {
     "dateStart": "2024-06-06T16:00:36.046Z",
-    "dateEnd": "2024-09-27T21:00:36.060Z",
+    "dateEnd": "2024-11-03T21:00:36.060Z",
     "title": "University Collections at McCalla",
     "venue": "University Collections at McCalla",
     "organizer": "Alisha Nicole Beard",
@@ -15863,31 +15830,6 @@
     ]
   },
   {
-    "dateStart": "2024-08-26T13:00:37.360Z",
-    "dateEnd": "2024-08-30T21:00:37.369Z",
-    "title": "CSH Visualizing Complexity Science Workshop",
-    "venue": "Complexity Science Hub",
-    "organizer": "Katy Börner",
-    "city": "Complexity Science Hub",
-    "state": "Vienna",
-    "country": "Austria",
-    "pdfLink": "visualizing_complexity_science_workshop_2024.pdf",
-    "venueImages": [
-      {
-        "sm": "csh1s.png",
-        "lg": "csh1l.png"
-      },
-      {
-        "sm": "csh2s.png",
-        "lg": "csh2l.png"
-      },
-      {
-        "sm": "csh3s.png",
-        "lg": "csh3l.png"
-      }
-    ]
-  },
-  {
     "dateStart": "2024-10-05T13:00:03.196Z",
     "dateEnd": "2024-10-05T19:00:03.206Z",
     "title": "Science Fest",
@@ -15936,5 +15878,30 @@
     "city": "Bloomington",
     "state": "Indiana",
     "country": "US"
+  },
+  {
+    "dateStart": "2024-08-26T13:00:37.360Z",
+    "dateEnd": "2024-08-30T21:00:37.369Z",
+    "title": "CSH Visualizing Complexity Science Workshop",
+    "venue": "Complexity Science Hub",
+    "organizer": "Katy Börner",
+    "city": "Complexity Science Hub",
+    "state": "Vienna",
+    "country": "Austria",
+    "pdfLink": "visualizing_complexity_science_workshop_2024.pdf",
+    "venueImages": [
+      {
+        "sm": "csh1s.png",
+        "lg": "csh1l.png"
+      },
+      {
+        "sm": "csh2s.png",
+        "lg": "csh2l.png"
+      },
+      {
+        "sm": "csh3s.png",
+        "lg": "csh3l.png"
+      }
+    ]
   }
 ]
