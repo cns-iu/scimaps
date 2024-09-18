@@ -1,7 +1,7 @@
 ---
 dateStart: 2024-06-06T20:00:07.788Z
 dateEnd: 2024-06-06T22:00:07.800Z
-title: "“Places & Spaces: Mapping Science” Opening Reception"
+title: "“Places & Spaces: Mapping Science” 20th Iteration Opening Reception"
 venue: University Collections at McCalla
 organizer: Alisha Nicole Beard
 city: Bloomington
