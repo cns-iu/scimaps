@@ -14701,9 +14701,9 @@
   {
     "dateStart": "2019-10-03T00:00:00.000Z",
     "dateEnd": "2019-10-03T00:00:00.000Z",
-    "title": "First Thursday",
+    "title": "First Thursdays Festival",
     "venue": "Indiana University",
-    "organizer": null,
+    "organizer": "Gerard Pannekoek",
     "credit": "Medina Sydykanova",
     "city": "Bloomington",
     "state": "IN",
@@ -15672,13 +15672,13 @@
   {
     "dateStart": "2024-06-06T20:00:07.788Z",
     "dateEnd": "2024-06-06T22:00:07.800Z",
-    "title": "“Places & Spaces: Mapping Science” Opening Reception",
+    "title": "“Places & Spaces: Mapping Science” 20th Iteration Opening Reception",
     "venue": "University Collections at McCalla",
     "organizer": "Alisha Nicole Beard",
     "city": "Bloomington",
     "state": "IN",
     "country": "US",
-    "pdfLink": "https://cns-iu.github.io/workshops/2024-6-6_20-years-Places-Spaces/",
+    "pdfLink": "20_debut_microsite.pdf",
     "venueImages": [
       {
         "sm": "mccalla0_sm.jpg",
@@ -15699,46 +15699,6 @@
       {
         "sm": "mccalla4_sm.jpg",
         "lg": "mccalla4_lg.jpg"
-      },
-      {
-        "sm": "mccalla5_sm.jpg",
-        "lg": "mccalla5_lg.jpg"
-      },
-      {
-        "sm": "mccalla6_sm.jpg",
-        "lg": "mccalla6_lg.jpg"
-      },
-      {
-        "sm": "mccalla7_sm.jpg",
-        "lg": "mccalla7_lg.jpg"
-      },
-      {
-        "sm": "mccalla8_sm.jpg",
-        "lg": "mccalla8_lg.jpg"
-      },
-      {
-        "sm": "mccalla9_sm.jpg",
-        "lg": "mccalla9_lg.jpg"
-      },
-      {
-        "sm": "mccalla10_sm.jpg",
-        "lg": "mccalla10_lg.jpg"
-      },
-      {
-        "sm": "mccalla11_sm.jpg",
-        "lg": "mccalla11_lg.jpg"
-      },
-      {
-        "sm": "mccalla12_sm.jpg",
-        "lg": "mccalla12_lg.jpg"
-      },
-      {
-        "sm": "mccalla13_sm.jpg",
-        "lg": "mccalla13_lg.jpg"
-      },
-      {
-        "sm": "mccalla14_sm.jpg",
-        "lg": "mccalla14_lg.jpg"
       }
     ]
   },
@@ -15751,7 +15711,7 @@
     "city": "Bethesda",
     "state": "Maryland",
     "country": "US",
-    "pdfLink": "https://www.labroots.com/ms/virtual-event/future-scientific-conferencing",
+    "pdfLink": "the-future-of-scientific-conferencing.pdf",
     "venueImages": [
       {
         "sm": "screenshot1_sm.png",
@@ -15773,14 +15733,14 @@
   },
   {
     "dateStart": "2024-06-06T16:00:36.046Z",
-    "dateEnd": "2024-09-27T21:00:36.060Z",
+    "dateEnd": "2024-11-03T21:00:36.060Z",
     "title": "University Collections at McCalla",
     "venue": "University Collections at McCalla",
     "organizer": "Alisha Nicole Beard",
     "city": "Bloomington",
     "state": "IN",
     "country": "US",
-    "pdfLink": "mccalla_microsite.pdf",
+    "pdfLink": "20_debut_microsite.pdf",
     "venueImages": [
       {
         "sm": "mccalla0_sm.jpg",
@@ -15807,7 +15767,7 @@
   {
     "dateStart": "2024-06-16T13:00:24.422Z",
     "dateEnd": "2024-06-21T21:00:24.438Z",
-    "title": "International School and Conference on Network Science ",
+    "title": "NetSci 2024",
     "venue": "Québec City Convention Center",
     "organizer": "Laurent Hébert-Dufresne",
     "city": "Québec City",
@@ -15816,28 +15776,18 @@
     "pdfLink": "scimaps_pwrpnt_1-13.pdf",
     "venueImages": [
       {
-        "sm": "netsci1sm.png",
-        "lg": "netsci1.png"
+        "sm": "netsci1small.jpg",
+        "lg": "netsci1large.jpg"
       },
       {
-        "sm": "netsci2sm.png",
-        "lg": "netsci2.png"
+        "sm": "netsci2small.jpg",
+        "lg": "netsci2large.jpg"
       },
       {
-        "sm": "netsci3sm.png",
-        "lg": "netsci3.png"
+        "sm": "netsci3small.jpg",
+        "lg": "netsci3large.jpg"
       }
     ]
-  },
-  {
-    "dateStart": "2024-08-29T13:00:37.360Z",
-    "dateEnd": "2024-07-30T21:00:37.369Z",
-    "title": "CSH Visualizing Complexity Science Workshop",
-    "venue": "Complexity Science Hub",
-    "organizer": "Katy Borner",
-    "city": "Complexity Science Hub",
-    "state": "Vienna",
-    "country": "Austria"
   },
   {
     "dateStart": "2024-10-05T13:00:03.196Z",
@@ -15845,16 +15795,6 @@
     "title": "Science Fest",
     "venue": "College of Arts and Sciences",
     "organizer": "Jo Anne Tracy ",
-    "city": "Bloomington",
-    "state": "IN",
-    "country": "US"
-  },
-  {
-    "dateStart": "2024-09-20T14:00:43.796Z",
-    "dateEnd": "2024-09-20T16:00:43.807Z",
-    "title": "Macroscope Tools for Global Challenges",
-    "venue": "University Collections at McCalla",
-    "organizer": "Katy Börner",
     "city": "Bloomington",
     "state": "IN",
     "country": "US"
@@ -15868,5 +15808,72 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "US"
+  },
+  {
+    "dateStart": "2024-09-05T20:00:01.289Z",
+    "dateEnd": "2024-09-05T23:00:01.313Z",
+    "title": "First Thursdays Festival",
+    "venue": "Arts Plaza",
+    "organizer": "Arts & Humanities Council",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "dateStart": "2024-10-30T21:30:14.438Z",
+    "dateEnd": "2024-10-31T00:00:27.539Z",
+    "title": "Humanexus Screening",
+    "venue": "Indiana Univeristy Musum of Archeaology and Anthropology",
+    "organizer": "Sarah Junk Hatcher",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "US"
+  },
+  {
+    "dateStart": "2024-08-26T13:00:37.360Z",
+    "dateEnd": "2024-08-30T21:00:37.369Z",
+    "title": "CSH Visualizing Complexity Science Workshop",
+    "venue": "Complexity Science Hub",
+    "organizer": "Katy Börner",
+    "city": "Complexity Science Hub",
+    "state": "Vienna",
+    "country": "Austria",
+    "pdfLink": "visualizing_complexity_science_workshop_2024.pdf",
+    "venueImages": [
+      {
+        "sm": "csh1s.png",
+        "lg": "csh1l.png"
+      },
+      {
+        "sm": "csh2s.png",
+        "lg": "csh2l.png"
+      },
+      {
+        "sm": "csh3s.png",
+        "lg": "csh3l.png"
+      }
+    ]
+  },
+  {
+    "dateStart": "2024-09-20T14:00:43.796Z",
+    "dateEnd": "2024-09-20T16:00:43.807Z",
+    "title": "Macroscope Tools for Global Challenges",
+    "venue": "University Collections at McCalla",
+    "organizer": "Katy Börner",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "macroscope-tools-for-global-challenges.pdf"
+  },
+  {
+    "dateStart": "2024-10-15T20:00:36.742Z",
+    "dateEnd": "2024-10-15T21:00:36.752Z",
+    "title": "Amplitude: Terry Winters Prints Since 2000",
+    "venue": "Eskenazi Museum of Art",
+    "organizer": "Steve Cook",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "terry-winters-talk.pdf"
   }
 ]
