@@ -73,4 +73,30 @@ venueImages:
     lg: ldi1a4701.jpg
   - sm: sdi1a4707.jpg
     lg: ldi1a4707.jpg
+  - sm: sdi1a4711.jpg
+    lg: ldi1a4711.jpg
+  - sm: sdsc_6439.jpg
+    lg: ldsc_6439.jpg
+  - sm: sdsc_6470.jpg
+    lg: ldsc_6470.jpg
+  - sm: sdsc_6486.jpg
+    lg: ldsc_6486.jpg
+  - sm: sdsc_6492.jpg
+    lg: ldsc_6492.jpg
+  - sm: sdsc_6495.jpg
+    lg: ldsc_6495.jpg
+  - sm: sdsc_6500.jpg
+    lg: ldsc_6500.jpg
+  - sm: sdsc_6502.jpg
+    lg: ldsc_6502.jpg
+  - sm: sdsc_6505.jpg
+    lg: ldsc_6505.jpg
+  - sm: sdsc_6513.jpg
+    lg: ldsc_6513.jpg
+  - sm: sdsc_6517.jpg
+    lg: ldsc_6517.jpg
+  - sm: sdsc_6518.jpg
+    lg: ldsc_6518.jpg
+  - sm: sdsc_6519.jpg
+    lg: ldsc_6519.jpg
 ---
