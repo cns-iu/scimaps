@@ -41,4 +41,36 @@ venueImages:
     lg: ldi1a4574.jpg
   - sm: sdi1a4575.jpg
     lg: ldi1a4575.jpg
+  - sm: sdi1a4582.jpg
+    lg: ldi1a4582.jpg
+  - sm: sdi1a4597.jpg
+    lg: ldi1a4597.jpg
+  - sm: sdi1a4599.jpg
+    lg: ldi1a4599.jpg
+  - sm: sdi1a4603.jpg
+    lg: ldi1a4603.jpg
+  - sm: sdi1a4605.jpg
+    lg: ldi1a4605.jpg
+  - sm: sdi1a4610.jpg
+    lg: ldi1a4610.jpg
+  - sm: sdi1a4617.jpg
+    lg: ldi1a4617.jpg
+  - sm: sdi1a4636.jpg
+    lg: ldi1a4636.jpg
+  - sm: sdi1a4645.jpg
+    lg: ldi1a4645.jpg
+  - sm: sdi1a4655.jpg
+    lg: ldi1a4655.jpg
+  - sm: sdi1a4657.jpg
+    lg: ldi1a4657.jpg
+  - sm: sdi1a4665.jpg
+    lg: ldi1a4665.jpg
+  - sm: sdi1a4678.jpg
+    lg: ldi1a4678.jpg
+  - sm: sdi1a4679.jpg
+    lg: ldi1a4679.jpg
+  - sm: sdi1a4701.jpg
+    lg: ldi1a4701.jpg
+  - sm: sdi1a4707.jpg
+    lg: ldi1a4707.jpg
 ---
