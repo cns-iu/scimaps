@@ -57,8 +57,6 @@ venueImages:
     lg: ldsc_6470.jpg
   - sm: sdsc_6486.jpg
     lg: ldsc_6486.jpg
-  - sm: sdsc_6492.jpg
-    lg: ldsc_6492.jpg
   - sm: sdsc_6495.jpg
     lg: ldsc_6495.jpg
   - sm: sdsc_6500.jpg
