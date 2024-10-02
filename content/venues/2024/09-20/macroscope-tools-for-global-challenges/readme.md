@@ -71,4 +71,24 @@ venueImages:
     lg: ldsc_6518.jpg
   - sm: sdsc_6519.jpg
     lg: ldsc_6519.jpg
+  - sm: macroscopes_fall2024.jpg
+    lg: macroscopes_fall2024_l.jpg
+  - sm: macroscopes_fall2024_9.jpg
+    lg: macroscopes_fall2024_9_l.jpg
+  - sm: macroscopes_fall2024_11.jpg
+    lg: macroscopes_fall2024_11_l.jpg
+  - sm: macroscopes_fall2024_17.jpg
+    lg: macroscopes_fall2024_17_l.jpg
+  - sm: macroscopes_fall2024_26.jpg
+    lg: macroscopes_fall2024_26_l.jpg
+  - sm: macroscopes_fall2024_29.jpg
+    lg: macroscopes_fall2024_29_l.jpg
+  - sm: macroscopes_fall2024_37.jpg
+    lg: macroscopes_fall2024_37_l.jpg
+  - sm: macroscopes_fall2024_40.jpg
+    lg: macroscopes_fall2024_40_l.jpg
+  - sm: macroscopes_fall2024_41.jpg
+    lg: macroscopes_fall2024_41_l.jpg
+  - sm: macroscopes_fall2024_53.jpg
+    lg: macroscopes_fall2024_53_l.jpg
 ---
