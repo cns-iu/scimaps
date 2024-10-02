@@ -7,4 +7,5 @@ organizer: Arts & Humanities Council
 city: Bloomington
 state: IN
 country: US
+pdfLink: first-thursdays_-council-programs_-arts-humanities-council_-indiana-university-bloomington.pdf
 ---
