@@ -7,4 +7,5 @@ organizer: "Jo Anne Tracy "
 city: Bloomington
 state: IN
 country: US
+pdfLink: science-fest-–-indiana-university.pdf
 ---
