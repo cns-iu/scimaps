@@ -39,8 +39,6 @@ venueImages:
     lg: ldi1a4617.jpg
   - sm: sdi1a4636.jpg
     lg: ldi1a4636.jpg
-  - sm: sdi1a4645.jpg
-    lg: ldi1a4645.jpg
   - sm: sdi1a4657.jpg
     lg: ldi1a4657.jpg
   - sm: sdi1a4678.jpg
