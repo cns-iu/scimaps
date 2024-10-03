@@ -17,58 +17,32 @@ venueImages:
     lg: ldi1a4523.jpg
   - sm: sdi1a4527.jpg
     lg: ldi1a4527.jpg
-  - sm: sdi1a4534.jpg
-    lg: ldi1a4534.jpg
   - sm: sdi1a4536.jpg
     lg: ldi1a4536.jpg
-  - sm: sdi1a4538.jpg
-    lg: ldi1a4538.jpg
-  - sm: sdi1a4544.jpg
-    lg: ldi1a4544.jpg
   - sm: sdi1a4551.jpg
     lg: ldi1a4551.jpg
-  - sm: sdi1a4559.jpg
-    lg: ldi1a4559.jpg
   - sm: sdi1a4560.jpg
     lg: ldi1a4560.jpg
-  - sm: sdi1a4562.jpg
-    lg: ldi1a4562.jpg
   - sm: sdi1a4565.jpg
     lg: ldi1a4565.jpg
-  - sm: sdi1a4571.jpg
-    lg: ldi1a4571.jpg
   - sm: sdi1a4574.jpg
     lg: ldi1a4574.jpg
   - sm: sdi1a4575.jpg
     lg: ldi1a4575.jpg
-  - sm: sdi1a4582.jpg
-    lg: ldi1a4582.jpg
   - sm: sdi1a4597.jpg
     lg: ldi1a4597.jpg
   - sm: sdi1a4599.jpg
     lg: ldi1a4599.jpg
   - sm: sdi1a4603.jpg
     lg: ldi1a4603.jpg
-  - sm: sdi1a4605.jpg
-    lg: ldi1a4605.jpg
-  - sm: sdi1a4610.jpg
-    lg: ldi1a4610.jpg
   - sm: sdi1a4617.jpg
     lg: ldi1a4617.jpg
   - sm: sdi1a4636.jpg
     lg: ldi1a4636.jpg
-  - sm: sdi1a4645.jpg
-    lg: ldi1a4645.jpg
-  - sm: sdi1a4655.jpg
-    lg: ldi1a4655.jpg
   - sm: sdi1a4657.jpg
     lg: ldi1a4657.jpg
-  - sm: sdi1a4665.jpg
-    lg: ldi1a4665.jpg
   - sm: sdi1a4678.jpg
     lg: ldi1a4678.jpg
-  - sm: sdi1a4679.jpg
-    lg: ldi1a4679.jpg
   - sm: sdi1a4701.jpg
     lg: ldi1a4701.jpg
   - sm: sdi1a4707.jpg
@@ -81,8 +55,6 @@ venueImages:
     lg: ldsc_6470.jpg
   - sm: sdsc_6486.jpg
     lg: ldsc_6486.jpg
-  - sm: sdsc_6492.jpg
-    lg: ldsc_6492.jpg
   - sm: sdsc_6495.jpg
     lg: ldsc_6495.jpg
   - sm: sdsc_6500.jpg
@@ -99,4 +71,24 @@ venueImages:
     lg: ldsc_6518.jpg
   - sm: sdsc_6519.jpg
     lg: ldsc_6519.jpg
+  - sm: macroscopes_fall2024.jpg
+    lg: macroscopes_fall2024_l.jpg
+  - sm: macroscopes_fall2024_9.jpg
+    lg: macroscopes_fall2024_9_l.jpg
+  - sm: macroscopes_fall2024_11.jpg
+    lg: macroscopes_fall2024_11_l.jpg
+  - sm: macroscopes_fall2024_17.jpg
+    lg: macroscopes_fall2024_17_l.jpg
+  - sm: macroscopes_fall2024_26.jpg
+    lg: macroscopes_fall2024_26_l.jpg
+  - sm: macroscopes_fall2024_29.jpg
+    lg: macroscopes_fall2024_29_l.jpg
+  - sm: macroscopes_fall2024_37.jpg
+    lg: macroscopes_fall2024_37_l.jpg
+  - sm: macroscopes_fall2024_40.jpg
+    lg: macroscopes_fall2024_40_l.jpg
+  - sm: macroscopes_fall2024_41.jpg
+    lg: macroscopes_fall2024_41_l.jpg
+  - sm: macroscopes_fall2024_53.jpg
+    lg: macroscopes_fall2024_53_l.jpg
 ---
