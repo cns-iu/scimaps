@@ -7,6 +7,7 @@ organizer: Devta Kidd
 city: Bloomington
 state: IN
 country: US
+pdfLink: innovation-celebration-_-city-of-bloomington-indiana.pdf
 venueImages:
   - lg: img_6919.jpg
     sm: img_6919.jpg

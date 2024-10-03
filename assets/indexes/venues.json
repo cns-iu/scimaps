@@ -15619,6 +15619,7 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "US",
+    "pdfLink": "innovation-celebration-_-city-of-bloomington-indiana.pdf",
     "venueImages": [
       {
         "lg": "img_6919.jpg",
@@ -15699,6 +15700,46 @@
       {
         "sm": "mccalla4_sm.jpg",
         "lg": "mccalla4_lg.jpg"
+      },
+      {
+        "sm": "mccalla5_sm.jpg",
+        "lg": "mccalla5_lg.jpg"
+      },
+      {
+        "sm": "mccalla6_sm.jpg",
+        "lg": "mccalla6_lg.jpg"
+      },
+      {
+        "sm": "mccalla7_sm.jpg",
+        "lg": "mccalla7_lg.jpg"
+      },
+      {
+        "sm": "mccalla8_sm.jpg",
+        "lg": "mccalla8_lg.jpg"
+      },
+      {
+        "sm": "mccalla9_sm.jpg",
+        "lg": "mccalla9_lg.jpg"
+      },
+      {
+        "sm": "mccalla10_sm.jpg",
+        "lg": "mccalla10_lg.jpg"
+      },
+      {
+        "sm": "mccalla11_sm.jpg",
+        "lg": "mccalla11_lg.jpg"
+      },
+      {
+        "sm": "mccalla12_sm.jpg",
+        "lg": "mccalla12_lg.jpg"
+      },
+      {
+        "sm": "mccalla13_sm.jpg",
+        "lg": "mccalla13_lg.jpg"
+      },
+      {
+        "sm": "mccalla14_sm.jpg",
+        "lg": "mccalla14_lg.jpg"
       }
     ]
   },
@@ -15797,7 +15838,8 @@
     "organizer": "Jo Anne Tracy ",
     "city": "Bloomington",
     "state": "IN",
-    "country": "US"
+    "country": "US",
+    "pdfLink": "science-fest-–-indiana-university.pdf"
   },
   {
     "dateStart": "2022-01-01T17:00:00.033Z",
@@ -15817,17 +15859,34 @@
     "organizer": "Arts & Humanities Council",
     "city": "Bloomington",
     "state": "IN",
-    "country": "US"
-  },
-  {
-    "dateStart": "2024-10-30T21:30:14.438Z",
-    "dateEnd": "2024-10-31T00:00:27.539Z",
-    "title": "Humanexus Screening",
-    "venue": "Indiana Univeristy Musum of Archeaology and Anthropology",
-    "organizer": "Sarah Junk Hatcher",
-    "city": "Bloomington",
-    "state": "Indiana",
-    "country": "US"
+    "country": "US",
+    "pdfLink": "first-thursdays_-council-programs_-arts-humanities-council_-indiana-university-bloomington.pdf",
+    "venueImages": [
+      {
+        "sm": "thumbnail_img_1418.jpg",
+        "lg": "thumbnail_img_1418l.jpg"
+      },
+      {
+        "sm": "thumbnail_img_1419.jpg",
+        "lg": "thumbnail_img_1419l.jpg"
+      },
+      {
+        "sm": "thumbnail_img_1421.jpg",
+        "lg": "thumbnail_img_1421l.jpg"
+      },
+      {
+        "sm": "thumbnail_img_1422.jpg",
+        "lg": "thumbnail_img_1422l.jpg"
+      },
+      {
+        "sm": "thumbnail_img_1423.jpg",
+        "lg": "thumbnail_img_1423l.jpg"
+      },
+      {
+        "sm": "thumbnail_img_1424.jpg",
+        "lg": "thumbnail_img_1424l.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2024-08-26T13:00:37.360Z",
@@ -15882,44 +15941,20 @@
         "lg": "ldi1a4527.jpg"
       },
       {
-        "sm": "sdi1a4534.jpg",
-        "lg": "ldi1a4534.jpg"
-      },
-      {
         "sm": "sdi1a4536.jpg",
         "lg": "ldi1a4536.jpg"
-      },
-      {
-        "sm": "sdi1a4538.jpg",
-        "lg": "ldi1a4538.jpg"
-      },
-      {
-        "sm": "sdi1a4544.jpg",
-        "lg": "ldi1a4544.jpg"
       },
       {
         "sm": "sdi1a4551.jpg",
         "lg": "ldi1a4551.jpg"
       },
       {
-        "sm": "sdi1a4559.jpg",
-        "lg": "ldi1a4559.jpg"
-      },
-      {
         "sm": "sdi1a4560.jpg",
         "lg": "ldi1a4560.jpg"
       },
       {
-        "sm": "sdi1a4562.jpg",
-        "lg": "ldi1a4562.jpg"
-      },
-      {
         "sm": "sdi1a4565.jpg",
         "lg": "ldi1a4565.jpg"
-      },
-      {
-        "sm": "sdi1a4571.jpg",
-        "lg": "ldi1a4571.jpg"
       },
       {
         "sm": "sdi1a4574.jpg",
@@ -15928,10 +15963,6 @@
       {
         "sm": "sdi1a4575.jpg",
         "lg": "ldi1a4575.jpg"
-      },
-      {
-        "sm": "sdi1a4582.jpg",
-        "lg": "ldi1a4582.jpg"
       },
       {
         "sm": "sdi1a4597.jpg",
@@ -15946,14 +15977,6 @@
         "lg": "ldi1a4603.jpg"
       },
       {
-        "sm": "sdi1a4605.jpg",
-        "lg": "ldi1a4605.jpg"
-      },
-      {
-        "sm": "sdi1a4610.jpg",
-        "lg": "ldi1a4610.jpg"
-      },
-      {
         "sm": "sdi1a4617.jpg",
         "lg": "ldi1a4617.jpg"
       },
@@ -15962,28 +15985,12 @@
         "lg": "ldi1a4636.jpg"
       },
       {
-        "sm": "sdi1a4645.jpg",
-        "lg": "ldi1a4645.jpg"
-      },
-      {
-        "sm": "sdi1a4655.jpg",
-        "lg": "ldi1a4655.jpg"
-      },
-      {
         "sm": "sdi1a4657.jpg",
         "lg": "ldi1a4657.jpg"
       },
       {
-        "sm": "sdi1a4665.jpg",
-        "lg": "ldi1a4665.jpg"
-      },
-      {
         "sm": "sdi1a4678.jpg",
         "lg": "ldi1a4678.jpg"
-      },
-      {
-        "sm": "sdi1a4679.jpg",
-        "lg": "ldi1a4679.jpg"
       },
       {
         "sm": "sdi1a4701.jpg",
@@ -16008,10 +16015,6 @@
       {
         "sm": "sdsc_6486.jpg",
         "lg": "ldsc_6486.jpg"
-      },
-      {
-        "sm": "sdsc_6492.jpg",
-        "lg": "ldsc_6492.jpg"
       },
       {
         "sm": "sdsc_6495.jpg",
@@ -16044,18 +16047,88 @@
       {
         "sm": "sdsc_6519.jpg",
         "lg": "ldsc_6519.jpg"
+      },
+      {
+        "sm": "macroscopes_fall2024.jpg",
+        "lg": "macroscopes_fall2024_l.jpg"
+      },
+      {
+        "sm": "macroscopes_fall2024_9.jpg",
+        "lg": "macroscopes_fall2024_9_l.jpg"
+      },
+      {
+        "sm": "macroscopes_fall2024_11.jpg",
+        "lg": "macroscopes_fall2024_11_l.jpg"
+      },
+      {
+        "sm": "macroscopes_fall2024_17.jpg",
+        "lg": "macroscopes_fall2024_17_l.jpg"
+      },
+      {
+        "sm": "macroscopes_fall2024_26.jpg",
+        "lg": "macroscopes_fall2024_26_l.jpg"
+      },
+      {
+        "sm": "macroscopes_fall2024_29.jpg",
+        "lg": "macroscopes_fall2024_29_l.jpg"
+      },
+      {
+        "sm": "macroscopes_fall2024_37.jpg",
+        "lg": "macroscopes_fall2024_37_l.jpg"
+      },
+      {
+        "sm": "macroscopes_fall2024_40.jpg",
+        "lg": "macroscopes_fall2024_40_l.jpg"
+      },
+      {
+        "sm": "macroscopes_fall2024_41.jpg",
+        "lg": "macroscopes_fall2024_41_l.jpg"
+      },
+      {
+        "sm": "macroscopes_fall2024_53.jpg",
+        "lg": "macroscopes_fall2024_53_l.jpg"
       }
     ]
   },
   {
-    "dateStart": "2024-10-15T20:00:36.742Z",
-    "dateEnd": "2024-10-15T21:00:36.752Z",
-    "title": "Amplitude: Terry Winters Prints Since 2000",
-    "venue": "Eskenazi Museum of Art",
-    "organizer": "Steve Cook",
+    "dateStart": "2024-10-08T18:00:42.531Z",
+    "dateEnd": "2024-10-08T19:00:42.553Z",
+    "title": "Guided tour of Places & Spaces",
+    "venue": "University Collections at McCalla",
+    "organizer": "Lisel Record",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "dateStart": "2024-10-16T14:00:36.742Z",
+    "dateEnd": "2024-10-16T15:00:36.752Z",
+    "title": "Guided Tour of \"Places & Spaces\"",
+    "venue": "University Collections at McCalla",
+    "organizer": "Todd Theriault",
     "city": "Bloomington",
     "state": "IN",
     "country": "US",
-    "pdfLink": "terry-winters-talk.pdf"
+    "pdfLink": ""
+  },
+  {
+    "dateStart": "2024-10-30T21:30:14.438Z",
+    "dateEnd": "2024-10-31T00:00:27.539Z",
+    "title": "Talking Together: “Humanexus” Film Screening and Panel Discussion",
+    "venue": "Indiana Univeristy Musum of Archeaology and Anthropology",
+    "organizer": "Sarah Junk Hatcher",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "US"
+  },
+  {
+    "dateStart": "2024-11-11T17:00:54.701Z",
+    "dateEnd": "2024-11-11T18:00:54.719Z",
+    "title": "Insightful and Actionable Visual Analytics",
+    "venue": "National Graduate Institute for Policy Studies",
+    "organizer": "Asako Okamura",
+    "city": "Tokyo",
+    "state": "Greater Tokyo Area",
+    "country": "Japan"
   }
 ]
