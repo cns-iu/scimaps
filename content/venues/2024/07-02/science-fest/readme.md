@@ -8,4 +8,17 @@ city: Bloomington
 state: IN
 country: US
 pdfLink: science-fest-–-indiana-university.pdf
+venueImages:
+  - sm: thumbnail_image001_s.jpg
+    lg: thumbnail_image001.jpg
+  - sm: thumbnail_image002_s.jpg
+    lg: thumbnail_image002.jpg
+  - sm: thumbnail_img_1475_s.jpg
+    lg: thumbnail_img_1475.jpg
+  - sm: thumbnail_image003_s.jpg
+    lg: thumbnail_image003.jpg
+  - sm: thumbnail_img_1476_s.jpg
+    lg: thumbnail_img_1476.jpg
+  - sm: thumbnail_img_1483_s.jpg
+    lg: thumbnail_img_1483.jpg
 ---
