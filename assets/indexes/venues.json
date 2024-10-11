@@ -15814,7 +15814,7 @@
     "city": "Québec City",
     "state": "Québec",
     "country": "Canada",
-    "pdfLink": "scimaps_pwrpnt_1-13.pdf",
+    "pdfLink": "netsci-2024-_-international-school-and-conference-on-network-science.pdf",
     "venueImages": [
       {
         "sm": "netsci1small.jpg",
@@ -15831,17 +15831,6 @@
     ]
   },
   {
-    "dateStart": "2024-10-05T13:00:03.196Z",
-    "dateEnd": "2024-10-05T19:00:03.206Z",
-    "title": "Science Fest",
-    "venue": "College of Arts and Sciences",
-    "organizer": "Jo Anne Tracy ",
-    "city": "Bloomington",
-    "state": "IN",
-    "country": "US",
-    "pdfLink": "science-fest-–-indiana-university.pdf"
-  },
-  {
     "dateStart": "2022-01-01T17:00:00.033Z",
     "dateEnd": "2023-12-31T17:00:00.046Z",
     "title": "Sciences Library",
@@ -15850,6 +15839,31 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "US"
+  },
+  {
+    "dateStart": "2024-08-26T13:00:37.360Z",
+    "dateEnd": "2024-08-30T21:00:37.369Z",
+    "title": "CSH Visualizing Complexity Science Workshop",
+    "venue": "Complexity Science Hub",
+    "organizer": "Katy Börner",
+    "city": "Complexity Science Hub",
+    "state": "Vienna",
+    "country": "Austria",
+    "pdfLink": "visualizing_complexity_science_workshop_2024.pdf",
+    "venueImages": [
+      {
+        "sm": "csh1s.png",
+        "lg": "csh1l.png"
+      },
+      {
+        "sm": "csh2s.png",
+        "lg": "csh2l.png"
+      },
+      {
+        "sm": "csh3s.png",
+        "lg": "csh3l.png"
+      }
+    ]
   },
   {
     "dateStart": "2024-09-05T20:00:01.289Z",
@@ -15885,31 +15899,6 @@
       {
         "sm": "thumbnail_img_1424.jpg",
         "lg": "thumbnail_img_1424l.jpg"
-      }
-    ]
-  },
-  {
-    "dateStart": "2024-08-26T13:00:37.360Z",
-    "dateEnd": "2024-08-30T21:00:37.369Z",
-    "title": "CSH Visualizing Complexity Science Workshop",
-    "venue": "Complexity Science Hub",
-    "organizer": "Katy Börner",
-    "city": "Complexity Science Hub",
-    "state": "Vienna",
-    "country": "Austria",
-    "pdfLink": "visualizing_complexity_science_workshop_2024.pdf",
-    "venueImages": [
-      {
-        "sm": "csh1s.png",
-        "lg": "csh1l.png"
-      },
-      {
-        "sm": "csh2s.png",
-        "lg": "csh2l.png"
-      },
-      {
-        "sm": "csh3s.png",
-        "lg": "csh3l.png"
       }
     ]
   },
@@ -16091,6 +16080,43 @@
     ]
   },
   {
+    "dateStart": "2024-10-05T13:00:03.196Z",
+    "dateEnd": "2024-10-05T19:00:03.206Z",
+    "title": "Science Fest",
+    "venue": "College of Arts and Sciences",
+    "organizer": "Jo Anne Tracy ",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "science-fest-–-indiana-university.pdf",
+    "venueImages": [
+      {
+        "sm": "thumbnail_image001_s.jpg",
+        "lg": "thumbnail_image001.jpg"
+      },
+      {
+        "sm": "thumbnail_image002_s.jpg",
+        "lg": "thumbnail_image002.jpg"
+      },
+      {
+        "sm": "thumbnail_img_1475_s.jpg",
+        "lg": "thumbnail_img_1475.jpg"
+      },
+      {
+        "sm": "thumbnail_image003_s.jpg",
+        "lg": "thumbnail_image003.jpg"
+      },
+      {
+        "sm": "thumbnail_img_1476_s.jpg",
+        "lg": "thumbnail_img_1476.jpg"
+      },
+      {
+        "sm": "thumbnail_img_1483_s.jpg",
+        "lg": "thumbnail_img_1483.jpg"
+      }
+    ]
+  },
+  {
     "dateStart": "2024-10-08T18:00:42.531Z",
     "dateEnd": "2024-10-08T19:00:42.553Z",
     "title": "Guided tour of Places & Spaces",
@@ -16127,8 +16153,8 @@
     "title": "Insightful and Actionable Visual Analytics",
     "venue": "National Graduate Institute for Policy Studies",
     "organizer": "Asako Okamura",
-    "city": "Tokyo",
-    "state": "Greater Tokyo Area",
+    "city": "GRIPS",
+    "state": "Tokyo",
     "country": "Japan"
   }
 ]

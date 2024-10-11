@@ -7,7 +7,7 @@ organizer: Laurent Hébert-Dufresne
 city: Québec City
 state: Québec
 country: Canada
-pdfLink: scimaps_pwrpnt_1-13.pdf
+pdfLink: netsci-2024-_-international-school-and-conference-on-network-science.pdf
 venueImages:
   - sm: netsci1small.jpg
     lg: netsci1large.jpg
