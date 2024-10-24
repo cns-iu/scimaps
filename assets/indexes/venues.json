@@ -16129,7 +16129,7 @@
   {
     "dateStart": "2024-10-16T14:00:36.742Z",
     "dateEnd": "2024-10-16T15:00:36.752Z",
-    "title": "Guided Tour of \"Places & Spaces\"",
+    "title": "Guided Tour of Places & Spaces",
     "venue": "University Collections at McCalla",
     "organizer": "Todd Theriault",
     "city": "Bloomington",
@@ -16145,7 +16145,8 @@
     "organizer": "Sarah Junk Hatcher",
     "city": "Bloomington",
     "state": "Indiana",
-    "country": "US"
+    "country": "US",
+    "pdfLink": "indiana-university-museum-of-archaeology-and-anthropology-events.pdf"
   },
   {
     "dateStart": "2024-11-11T17:00:54.701Z",
@@ -16156,5 +16157,16 @@
     "city": "GRIPS",
     "state": "Tokyo",
     "country": "Japan"
+  },
+  {
+    "dateStart": "2024-11-22T22:00:50.537Z",
+    "dateEnd": "2024-11-22T23:00:50.559Z",
+    "title": "Connections Between Art, Science, and Engineering: A Conversation with Dr. Katy Börner",
+    "venue": " Sidney and Lois Eskenazi Museum of Art",
+    "organizer": "Keaton Clulow",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US",
+    "pdfLink": "eskenazi-museum-of-art-calendar.pdf"
   }
 ]
