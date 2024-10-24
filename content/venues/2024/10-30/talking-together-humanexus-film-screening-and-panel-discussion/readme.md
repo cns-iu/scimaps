@@ -7,4 +7,5 @@ organizer: Sarah Junk Hatcher
 city: Bloomington
 state: Indiana
 country: US
+pdfLink: indiana-university-museum-of-archaeology-and-anthropology-events.pdf
 ---
