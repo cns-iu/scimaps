@@ -6,7 +6,7 @@ venue: Québec City Convention Center
 organizer: Laurent Hébert-Dufresne
 city: Québec City
 state: Québec
-country: Canada
+country: CA
 pdfLink: netsci-2024-_-international-school-and-conference-on-network-science.pdf
 venueImages:
   - sm: netsci1small.jpg
