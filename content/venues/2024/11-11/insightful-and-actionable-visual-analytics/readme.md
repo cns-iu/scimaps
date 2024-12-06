@@ -8,8 +8,12 @@ city: GRIPS
 state: Tokyo
 country: Japan
 venueImages:
-  - sm: img_0590.jpg
-    lg: img_0590.jpg
   - sm: img_0588.jpg
     lg: img_0588.jpg
+  - sm: img_0589.jpg
+    lg: img_0589.jpg
+  - sm: img_0590.jpg
+    lg: img_0590.jpg
+  - sm: img_0591.jpg
+    lg: img_0591.jpg
 ---
