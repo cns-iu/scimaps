@@ -16152,11 +16152,22 @@
     "dateStart": "2024-11-11T17:00:54.701Z",
     "dateEnd": "2024-11-11T18:00:54.719Z",
     "title": "Insightful and Actionable Visual Analytics",
-    "venue": "National Graduate Institute for Policy Studies",
+    "venue": "National Graduate Institute for Policy Studies (GRIPS)",
     "organizer": "Asako Okamura",
-    "city": "GRIPS",
-    "state": "Tokyo",
-    "country": "Japan"
+    "city": "Tokyo",
+    "state": "Minato",
+    "country": "Japan",
+    "pdfLink": "24-GRIPS-Borner.pdf",
+    "venueImages": [
+      {
+        "sm": "img_0588.jpg",
+        "lg": "img_0588.jpg"
+      },
+      {
+        "sm": "img_0590.jpg",
+        "lg": "img_0590.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2024-11-22T22:00:50.537Z",
@@ -16168,5 +16179,21 @@
     "state": "IN",
     "country": "US",
     "pdfLink": "eskenazi-museum-of-art-calendar.pdf"
+  },
+  {
+    "dateStart": "2024-11-28T23:00:46.169Z",
+    "dateEnd": "2024-11-29T00:00:46.185Z",
+    "title": "Exploración de mapas del territorio financerio",
+    "venue": "Museo Banco de Mexico",
+    "organizer": "Ingo Gunther",
+    "city": "Mexico City",
+    "state": "Valley of Mexico",
+    "country": "Mexico",
+    "venueImages": [
+      {
+        "sm": "new-exploracion.png",
+        "lg": "new-exploracion.png"
+      }
+    ]
   }
 ]
