@@ -7,5 +7,5 @@ organizer: Sarah Junk Hatcher
 city: Bloomington
 state: Indiana
 country: US
-pdfLink: indiana-university-museum-of-archaeology-and-anthropology-events.pdf
+pdfLink: talking-together_-“humanexus”-film-screening-and-panel-discussion-_-indiana-university-museum-of-archaeology-and-anthropology-events.pdf
 ---
