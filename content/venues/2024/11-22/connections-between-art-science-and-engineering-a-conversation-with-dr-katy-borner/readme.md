@@ -8,5 +8,5 @@ organizer: Keaton Clulow
 city: Bloomington
 state: IN
 country: US
-pdfLink: eskenazi-museum-of-art-calendar.pdf
+pdfLink: connections-between-art-science-and-engineering_-a-conversation-with-dr.-katy-börner-_-eskenazi-museum-of-art-calendar.pdf
 ---
