@@ -16088,7 +16088,7 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "US",
-    "pdfLink": "science-fest-–-indiana-university.pdf",
+    "pdfLink": "science-festindiana-university.pdf",
     "venueImages": [
       {
         "sm": "thumbnail_image001_s.jpg",
@@ -16146,7 +16146,61 @@
     "city": "Bloomington",
     "state": "Indiana",
     "country": "US",
-    "pdfLink": "indiana-university-museum-of-archaeology-and-anthropology-events.pdf"
+    "pdfLink": "talking-together_-“humanexus”-film-screening-and-panel-discussion-_-indiana-university-museum-of-archaeology-and-anthropology-events.pdf",
+    "venueImages": [
+      {
+        "sm": "di1a4823_s.jpg",
+        "lg": "di1a4823_l.jpg"
+      },
+      {
+        "sm": "di1a4832_s.jpg",
+        "lg": "di1a4832_l.jpg"
+      },
+      {
+        "sm": "di1a4833_s.jpg",
+        "lg": "di1a4833_l.jpg"
+      },
+      {
+        "sm": "jpg00010_s.jpg",
+        "lg": "jpg00010_l.jpg"
+      },
+      {
+        "sm": "jpg00014_s.jpg",
+        "lg": "jpg00014_l.jpg"
+      },
+      {
+        "sm": "jpg00018_s.jpg",
+        "lg": "jpg00018_l.jpg"
+      },
+      {
+        "sm": "jpg00046_s.jpg",
+        "lg": "jpg00046_l.jpg"
+      },
+      {
+        "sm": "jpg00056_s.jpg",
+        "lg": "jpg00056_l.jpg"
+      },
+      {
+        "sm": "jpg00058_s.jpg",
+        "lg": "jpg00058_l.jpg"
+      },
+      {
+        "sm": "jpg00064_s.jpg",
+        "lg": "jpg00064_l.jpg"
+      },
+      {
+        "sm": "jpg00080_s.jpg",
+        "lg": "jpg00080_l.jpg"
+      },
+      {
+        "sm": "jpg00084_s.jpg",
+        "lg": "jpg00084_l.jpg"
+      },
+      {
+        "sm": "jpg00103_s.jpg",
+        "lg": "jpg00103_l.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2024-11-11T17:00:54.701Z",
@@ -16178,7 +16232,45 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "US",
-    "pdfLink": "eskenazi-museum-of-art-calendar.pdf"
+    "pdfLink": "connections-between-art-science-and-engineering_-a-conversation-with-dr.-katy-börner-_-eskenazi-museum-of-art-calendar.pdf",
+    "venueImages": [
+      {
+        "sm": "inspiredbynature_cns_fall2024_2_s.jpg",
+        "lg": "inspiredbynature_cns_fall2024_2_l.jpg"
+      },
+      {
+        "sm": "inspiredbynature_cns_fall2024_7_s.jpg",
+        "lg": "inspiredbynature_cns_fall2024_7_l.jpg"
+      },
+      {
+        "sm": "inspiredbynature_cns_fall2024_12_s.jpg",
+        "lg": "inspiredbynature_cns_fall2024_12_l.jpg"
+      },
+      {
+        "sm": "inspiredbynature_cns_fall2024_17_s.jpg",
+        "lg": "inspiredbynature_cns_fall2024_17_l.jpg"
+      },
+      {
+        "sm": "inspiredbynature_cns_fall2024_21_s.jpg",
+        "lg": "inspiredbynature_cns_fall2024_21_l.jpg"
+      },
+      {
+        "sm": "inspiredbynature_cns_fall2024_27_s.jpg",
+        "lg": "inspiredbynature_cns_fall2024_27_l.jpg"
+      },
+      {
+        "sm": "inspiredbynature_cns_fall2024_29_s.jpg",
+        "lg": "inspiredbynature_cns_fall2024_29_l.jpg"
+      },
+      {
+        "sm": "inspiredbynature_cns_fall2024_30_s.jpg",
+        "lg": "inspiredbynature_cns_fall2024_30_l.jpg"
+      },
+      {
+        "sm": "inspiredbynature_cns_fall2024_33_s.jpg",
+        "lg": "inspiredbynature_cns_fall2024_33_l.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2024-11-28T23:00:46.169Z",
@@ -16195,5 +16287,37 @@
         "lg": "new-exploracion.png"
       }
     ]
+  },
+  {
+    "dateStart": "2024-12-20T01:00:26.706Z",
+    "dateEnd": "2024-12-20T06:00:11.513Z",
+    "title": "NISTEP Public Online Symposium",
+    "venue": "National Institute of Science and Technology Policy (NISTEP)",
+    "organizer": "Sakai Tomoko",
+    "city": "NISTEP",
+    "state": "Tokyo",
+    "country": "Japan",
+    "pdfLink": "pubulic_online_symposuium1220_e.pdf",
+    "venueImages": []
+  },
+  {
+    "dateStart": "2025-05-12T16:00:40.390Z",
+    "dateEnd": "2025-08-08T16:00:20.760Z",
+    "title": "Places & Spaces: Mapping Science ",
+    "venue": "COSMO Wissenschaftsforum",
+    "organizer": "Jörg Neumann",
+    "city": "COSMO",
+    "state": "Dresden",
+    "country": "Germany"
+  },
+  {
+    "dateStart": "2025-06-16T16:00:53.195Z",
+    "dateEnd": "2025-06-18T16:00:53.203Z",
+    "title": "Systems Biology of Human Disease ",
+    "venue": "Kaiserin Friedrich",
+    "organizer": "Franziska Gudrun Muller",
+    "city": "SBHD",
+    "state": "Berlin",
+    "country": "Germany"
   }
 ]
