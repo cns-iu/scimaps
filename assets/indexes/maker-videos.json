@@ -24,7 +24,7 @@
     "title": "Alice Grishchenko: On the making of Nature 150",
     "videoLink": "https://www.youtube.com/embed/W3XSQnGJdws",
     "image": "https://img.youtube.com/vi/W3XSQnGJdws/0.jpg",
-    "short_description": "Alice Grishchenko on the making of Nature 150",
+    "short_description": "Alice Grishchenko on the making of *Nature 150*",
     "long_description": "Alice Grishchenko on mapping science history, the importance of cross-disciplinary collaboration, and designing VR environments for pediatric care with [Little Seed’s Voxel Bay](https://littleseed.io/voxelbay/)."
   },
   {
@@ -39,7 +39,7 @@
     "videoLink": "https://www.youtube.com/embed/JimOELC_tYM",
     "image": "https://img.youtube.com/vi/JimOELC_tYM/0.jpg",
     "maker": "andrew-levinson/readme",
-    "short_description": "Andrew Levinson on the US Water Crisis macroscope",
+    "short_description": "Andrew Levinson on the *United States Water Crisis* macroscope",
     "long_description": "Andrew Levinson on visualizing election results for The Wall Street Journal, building [The US Water Crisis](http://scimaps.org/mapdetail/united_states_water__241) macroscope, and guiding readers through difficult subject matter."
   },
   {
@@ -101,7 +101,7 @@
     "videoLink": "https://www.youtube.com/embed/s1jxgFptxKA",
     "image": "https://img.youtube.com/vi/s1jxgFptxKA/0.jpg",
     "maker": "nikita-rokotyan/readme",
-    "short_description": "Nikita Rokotyan on creating An Alternative Data-Driven Country Map",
+    "short_description": "Nikita Rokotyan on creating *An Alternative Data-Driven Country Map*",
     "long_description": "Nikita Rokotyan on the origins of his award-winning macroscope, the [power of t-SNE](https://scimaps.org/mapdetail/an_alternative_datad_243), encouraging interactivity."
   },
   {
@@ -117,14 +117,14 @@
     "videoLink": "https://www.youtube.com/embed/pUSmPbxg1Xs",
     "image": "https://img.youtube.com/vi/pUSmPbxg1Xs/0.jpg",
     "maker": "steven-ross/readme",
-    "short_description": "Steven Ross on the origins of the IBM Watson News Explorer",
+    "short_description": "Steven Ross on the origins of the *Watson News Explorer*",
     "long_description": "Steven Ross and Mauro Martino on the origins of the [Watson News Explorer](http://scimaps.org/mapdetail/watson_news_explorer_242), the connection between visualization and democracy, and natural language processing."
   },
   {
     "title": "Visit the gallery: A guided tour of Places and Spaces and the Illuminated Diagram",
     "videoLink": "https://www.youtube.com/embed/OaQkC8jWWvE",
     "image": "https://img.youtube.com/vi/OaQkC8jWWvE/0.jpg",
-    "short_description": "Visit the gallery: A guided tour of Places & Spaces and the Illuminated Diagram",
+    "short_description": "Visit the gallery: A guided tour of *Places & Spaces* and the Illuminated Diagram",
     "long_description": "This video from the early days of Places & Spaces provides an up-close-and-personal view of science maps and the talented individuals that create them. Curators Katy Börner and Deborah MacPherson and mapmakers Kevin Boyack, Brad Paley, Dick Klavans, André Skupin, and Henry Small are on hand to share insights into the science visualizations, reveal how they are created, and discuss the power of mental maps to help us better understand the structure of science. "
   },
   {
