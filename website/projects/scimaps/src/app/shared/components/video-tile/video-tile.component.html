@@ -4,7 +4,9 @@
       <img [src]="video?.image" [alt]="video?.image" />
     </div>
     <div class="title">
-      {{ video?.short_description }}
+      <markdown>
+        {{ video?.short_description }}
+      </markdown>
     </div>
   </div>
 </div>
