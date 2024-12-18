@@ -1,9 +1,9 @@
 ---
 cta:
-  title: Explore the newest macroscopes!
-  body: Macroscopes for a Global Future debut June 6
-  buttonLabel: Macroscopes
+  title: Browse our collection of interactive Macroscopes
+  body: Ten years of groundbreaking data visualization software
+  buttonLabel: Gallery
   buttonLink: https://scimaps.org/macroscopes
   subtitle: ""
-  imageSource: 20th_card.png
+  imageSource: card.png
 ---
