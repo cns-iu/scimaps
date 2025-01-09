@@ -9,6 +9,6 @@ credit: "YouTube Link to the presentation:
 city: NISTEP
 state: Tokyo
 country: Japan
-pdfLink: https://www.nistep.go.jp/wp/wp-content/uploads/pubulic_online_symposuium1220_e.pdf
+pdfLink: pubulic_online_symposuium1220_e.pdf
 venueImages: []
 ---
