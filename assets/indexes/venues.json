@@ -16141,7 +16141,7 @@
     "dateStart": "2024-10-30T21:30:14.438Z",
     "dateEnd": "2024-10-30T00:00:27.539Z",
     "title": "Talking Together: “Humanexus” Film Screening and Panel Discussion",
-    "venue": "Indiana Univeristy Musum of Archeaology and Anthropology",
+    "venue": "Indiana Univeristy Museum of Archeaology and Anthropology",
     "organizer": "Sarah Junk Hatcher",
     "city": "Bloomington",
     "state": "Indiana",
@@ -16149,55 +16149,55 @@
     "pdfLink": "talking-together_-“humanexus”-film-screening-and-panel-discussion-_-indiana-university-museum-of-archaeology-and-anthropology-events.pdf",
     "venueImages": [
       {
-        "sm": "di1a4823_s.jpg",
+        "sm": "di1a4823_l.jpg",
         "lg": "di1a4823_l.jpg"
       },
       {
-        "sm": "di1a4832_s.jpg",
+        "sm": "di1a4832_l.jpg",
         "lg": "di1a4832_l.jpg"
       },
       {
-        "sm": "di1a4833_s.jpg",
+        "sm": "di1a4833_l.jpg",
         "lg": "di1a4833_l.jpg"
       },
       {
-        "sm": "jpg00010_s.jpg",
+        "sm": "jpg00010_l.jpg",
         "lg": "jpg00010_l.jpg"
       },
       {
-        "sm": "jpg00014_s.jpg",
+        "sm": "jpg00014_l.jpg",
         "lg": "jpg00014_l.jpg"
       },
       {
-        "sm": "jpg00018_s.jpg",
+        "sm": "jpg00018_l.jpg",
         "lg": "jpg00018_l.jpg"
       },
       {
-        "sm": "jpg00046_s.jpg",
+        "sm": "jpg00046_l.jpg",
         "lg": "jpg00046_l.jpg"
       },
       {
-        "sm": "jpg00056_s.jpg",
+        "sm": "jpg00056_l.jpg",
         "lg": "jpg00056_l.jpg"
       },
       {
-        "sm": "jpg00058_s.jpg",
+        "sm": "jpg00058_l.jpg",
         "lg": "jpg00058_l.jpg"
       },
       {
-        "sm": "jpg00064_s.jpg",
+        "sm": "jpg00064_l.jpg",
         "lg": "jpg00064_l.jpg"
       },
       {
-        "sm": "jpg00080_s.jpg",
+        "sm": "jpg00080_l.jpg",
         "lg": "jpg00080_l.jpg"
       },
       {
-        "sm": "jpg00084_s.jpg",
+        "sm": "jpg00084_l.jpg",
         "lg": "jpg00084_l.jpg"
       },
       {
-        "sm": "jpg00103_s.jpg",
+        "sm": "jpg00103_l.jpg",
         "lg": "jpg00103_l.jpg"
       }
     ]
@@ -16235,40 +16235,36 @@
     "pdfLink": "connections-between-art-science-and-engineering_-a-conversation-with-dr.-katy-börner-_-eskenazi-museum-of-art-calendar.pdf",
     "venueImages": [
       {
-        "sm": "inspiredbynature_cns_fall2024_2_s.jpg",
-        "lg": "inspiredbynature_cns_fall2024_2_l.jpg"
-      },
-      {
-        "sm": "inspiredbynature_cns_fall2024_7_s.jpg",
+        "sm": "inspiredbynature_cns_fall2024_7_l.jpg",
         "lg": "inspiredbynature_cns_fall2024_7_l.jpg"
       },
       {
-        "sm": "inspiredbynature_cns_fall2024_12_s.jpg",
-        "lg": "inspiredbynature_cns_fall2024_12_l.jpg"
+        "sm": "inspiredbynature_cns_fall2024_2_l.jpg",
+        "lg": "inspiredbynature_cns_fall2024_2_l.jpg"
       },
       {
-        "sm": "inspiredbynature_cns_fall2024_17_s.jpg",
-        "lg": "inspiredbynature_cns_fall2024_17_l.jpg"
+        "sm": "inspiredbynature_cns_fall2024_33_l.jpg",
+        "lg": "inspiredbynature_cns_fall2024_33_l.jpg"
       },
       {
-        "sm": "inspiredbynature_cns_fall2024_21_s.jpg",
-        "lg": "inspiredbynature_cns_fall2024_21_l.jpg"
-      },
-      {
-        "sm": "inspiredbynature_cns_fall2024_27_s.jpg",
-        "lg": "inspiredbynature_cns_fall2024_27_l.jpg"
-      },
-      {
-        "sm": "inspiredbynature_cns_fall2024_29_s.jpg",
-        "lg": "inspiredbynature_cns_fall2024_29_l.jpg"
-      },
-      {
-        "sm": "inspiredbynature_cns_fall2024_30_s.jpg",
+        "sm": "inspiredbynature_cns_fall2024_30_l.jpg",
         "lg": "inspiredbynature_cns_fall2024_30_l.jpg"
       },
       {
-        "sm": "inspiredbynature_cns_fall2024_33_s.jpg",
-        "lg": "inspiredbynature_cns_fall2024_33_l.jpg"
+        "sm": "inspiredbynature_cns_fall2024_27_l.jpg",
+        "lg": "inspiredbynature_cns_fall2024_27_l.jpg"
+      },
+      {
+        "sm": "inspiredbynature_cns_fall2024_29_l.jpg",
+        "lg": "inspiredbynature_cns_fall2024_29_l.jpg"
+      },
+      {
+        "sm": "inspiredbynature_cns_fall2024_21_l.jpg",
+        "lg": "inspiredbynature_cns_fall2024_21_l.jpg"
+      },
+      {
+        "sm": "inspiredbynature_cns_fall2024_17_l.jpg",
+        "lg": "inspiredbynature_cns_fall2024_17_l.jpg"
       }
     ]
   },
@@ -16291,9 +16287,10 @@
   {
     "dateStart": "2024-12-20T01:00:26.706Z",
     "dateEnd": "2024-12-20T06:00:11.513Z",
-    "title": "NISTEP Public Online Symposium",
+    "title": "\"Places & Spaces: Mapping Science\" at NISTEP Public Online Symposium",
     "venue": "National Institute of Science and Technology Policy (NISTEP)",
     "organizer": "Sakai Tomoko",
+    "credit": "YouTube Link to the presentation: https://www.youtube.com/live/ylLz_n-VmCg?si=sOlQ3212zE5iICcm ",
     "city": "NISTEP",
     "state": "Tokyo",
     "country": "Japan",
@@ -16301,7 +16298,17 @@
     "venueImages": []
   },
   {
-    "dateStart": "2025-05-12T16:00:40.390Z",
+    "dateStart": "2025-03-18T12:48:01.363Z",
+    "dateEnd": "2025-03-22T12:48:18.322Z",
+    "title": "iConference 2025",
+    "venue": "Luddy School of Informatics, Computing, and Engineering",
+    "organizer": "Noriko Hara, Carol Choksy",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "USA"
+  },
+  {
+    "dateStart": "2025-05-18T16:00:40.390Z",
     "dateEnd": "2025-08-08T16:00:20.760Z",
     "title": "Places & Spaces: Mapping Science ",
     "venue": "COSMO Wissenschaftsforum",
