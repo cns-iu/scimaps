@@ -1,9 +1,9 @@
 ---
 cta:
-  title: Browse our collection of interactive Macroscopes
-  body: Ten years of groundbreaking data visualization software
-  buttonLabel: Gallery
-  buttonLink: https://scimaps.org/macroscopes
+  title: "Be a visionary! "
+  body: Submit your work to Envisioning Intelligences by May 31, 2025
+  buttonLabel: Call for Submissions
+  buttonLink: https://forms.gle/GoeRNryMBQxMuDsBA
   subtitle: ""
-  imageSource: card.png
+  imageSource: visionary-home-page-image.png
 ---
