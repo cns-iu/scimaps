@@ -3,6 +3,8 @@ name: Boris Eldagsen
 last_name: Eldagsen
 roles:
   - advisory_board
+jobTitle: Photomedia Artist
+affiliation: "“PSEUDOMNESIA | The Electrician” "
 location: '{"type":"Point","coordinates":[13.5458066,52.4766372]}'
 location_name: Berlin, Germany
 region: europe
