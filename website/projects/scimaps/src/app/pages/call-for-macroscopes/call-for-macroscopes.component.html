@@ -1,9 +1,9 @@
-<h1 class="header1"> Call for Macroscopes </h1>
+<h1 class="header1"> Call for Submissions </h1>
 <div class="image-content">
     <div class="thumbnail desktop" *ngFor="let thumbnail of lastIterationThumbnails">
       <img class="thumbnail-image" [src]="thumbnail.image" [alt]="thumbnail.image">
     </div>
-  
+
     <div class="thumbnail mobile" *ngFor="let thumbnail of lastIterationThumbnails">
       <img class="thumbnail-image" [src]="thumbnail.image" [alt]="thumbnail.image">
     </div>
@@ -13,9 +13,6 @@
 </div>
 
 <div class="row">
-    <div class="due">
-        <h4> Submissions due: {{ importantDates.length ? importantDates[0][1] : ''}}</h4>
-    </div>
     <div class="download" *ngIf="pdfLink">
         <h4> /
             <a [href]="pdfLink" target="_blank" rel="noopener noreferrer">
@@ -36,11 +33,11 @@
                 <ng-container *ngFor="let tab of tabHeaders;let i = index;">
                     <mat-tab [label]="tab">
                         <div class="tab-content">
-                            <div markdown [data]="tabContents[i]"></div> 
+                            <div markdown [data]="tabContents[i]"></div>
                         </div>
                     </mat-tab>
                 </ng-container>
-            </mat-tab-group> 
+            </mat-tab-group>
         </div>
         <div *sciBreakpoint="'mobile-'" class="mobile-tabs">
             <div class="mobile-button" *ngFor="let tab of tabHeaders; let i = index" (click)="updateActivePageTab(i); showDrawer = true">
@@ -61,7 +58,7 @@
         </div>
     </div>
     <div class="spacer-48"></div>
-    <div class="col2">      
+    <div class="col2">
         <button type="button"class="submit" (click)="submitMacroscope()" [ngClass]="allowSubmission ? 'active' : 'disabled'" [disabled]="!allowSubmission">
             SUBMIT MACROSCOPE
         </button>

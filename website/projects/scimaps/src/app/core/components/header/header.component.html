@@ -13,11 +13,11 @@
 </ng-container>
 
 <ng-template #desktopNav>
- 
+
     <button  (mouseenter)="exhibitTrigger.closeMenu()" mat-button class="nav-item about mat-display-3" routerLink="/about" routerLinkActive="active">
       ABOUT
     </button>
-  
+
     <div mat-button class="nav-item exhibit mat-display-3"
       (mouseenter)="mouseEvents($event, 0)"
       (mouseleave)="mouseEvents($event, 0)"
@@ -29,15 +29,15 @@
           <button mat-button class="mat-display-3" routerLink="/maps" routerLinkActive="active" #maps="routerLinkActive">MAPS</button>
           <button mat-button class="mat-display-3" routerLink="/macroscopes" routerLinkActive="active" #macroscopes="routerLinkActive">MACROSCOPES</button>
           <button mat-button class="mat-display-3" routerLink="/books" routerLinkActive="active" #books="routerLinkActive">BOOKS</button>
-          <button mat-button class="mat-display-3" routerLink="/call-for-macroscopes" routerLinkActive="active" #cfm="routerLinkActive">CALL FOR MACROSCOPES</button>
+          <button mat-button class="mat-display-3" routerLink="/call-for-macroscopes" routerLinkActive="active" #cfm="routerLinkActive">CALL FOR SUBMISSIONS</button>
           <button mat-button class="mat-display-3" routerLink="/venues" routerLinkActive="active" #venues="routerLinkActive">VENUES</button>
           <button mat-button class="mat-display-3" routerLink="/hosting" routerLinkActive="active" #hosting="routerLinkActive">HOSTING</button>
         </div>
       </mat-menu>
     </div>
-  
-   
-  
+
+
+
     <div mat-button class="nav-item explore mat-display-3"
       (mouseenter)="mouseEvents($event, 2)"
       (mouseleave)="mouseEvents($event, 2)"
@@ -52,9 +52,9 @@
         </div>
       </mat-menu>
     </div>
-  
-   
-  
+
+
+
     <div mat-button class="nav-item contact mat-display-3"
     (mouseenter)="mouseEvents($event, 1)" (mouseleave)="mouseEvents($event, 1)"
     [class.active]="(contactTrigger.menuClosed | async) || contactTrigger.menuOpen" [matMenuTriggerFor]="contact"
@@ -68,5 +68,5 @@
   </div>
   <div (mouseenter)="contactTrigger.closeMenu()" class="search"></div>
 
-  
+
 </ng-template>
