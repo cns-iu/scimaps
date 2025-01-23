@@ -13,9 +13,6 @@
 </div>
 
 <div class="row">
-    <div class="due">
-        <h4> Submissions due: {{ importantDates.length ? importantDates[0][1] : ''}}</h4>
-    </div>
     <div class="download" *ngIf="pdfLink">
         <h4> /
             <a [href]="pdfLink" target="_blank" rel="noopener noreferrer">

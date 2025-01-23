@@ -1,7 +1,7 @@
 ---
-lastIteration: 20
+lastIteration: 21
 pdfLink: ""
-submitURL: 
+submitURL: https://forms.gle/GoeRNryMBQxMuDsBA
 allowSubmission: false
 tabs:
   - header: Background and Goals
@@ -32,7 +32,7 @@ tabs:
 
       * References to relevant publications or online sites and links to related projects or works
 
-      * Submit entries via the following link: <insert>
+      * Submit entries via the following link: <https://forms.gle/GoeRNryMBQxMuDsBA>
 
   - header: Review Process
     content: >-
@@ -100,8 +100,6 @@ tabs:
       * Benjamin Wiederkehr, Interactive Things
 
 importantDates:
-  - date: 2025-01-22
-    label: Call for submissions is shared
   - date: 2025-05-31
     label: Submissions due
   - date: 2025-06-30
