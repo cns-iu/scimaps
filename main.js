@@ -1116,7 +1116,7 @@ function HeaderComponent_ng_template_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](19, "BOOKS");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](20, "button", 20, 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](22, "CALL FOR MACROSCOPES");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](22, "CALL FOR SUBMISSIONS");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](23, "button", 22, 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](25, "VENUES");
@@ -1384,7 +1384,7 @@ MobileHeaderMenuComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "button", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MobileHeaderMenuComponent_Template_button_click_10_listener() { return ctx.sidenavClose.emit(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, "CALL FOR MACROSCOPES");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, "CALL FOR SUBMISSIONS");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "button", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MobileHeaderMenuComponent_Template_button_click_12_listener() { return ctx.sidenavClose.emit(); });
