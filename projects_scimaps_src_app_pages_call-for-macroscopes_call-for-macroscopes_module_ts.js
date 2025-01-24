@@ -303,7 +303,7 @@ CallForMacroscopesComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTE
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](14, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](15, "button", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function CallForMacroscopesComponent_Template_button_click_15_listener() { return ctx.submitMacroscope(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](16, " SUBMIT MACROSCOPE ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](16, " SUBMIT WORK ");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](17, "div", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](18, "div", 15);
