@@ -15,7 +15,7 @@ export class CallForMacroscopesComponent implements OnInit {
   lastIterationThumbnails: { image: string; title: string }[] = [];
   activePageTab = 0;
   showDrawer = false;
-  lastIteration = 20;
+  lastIteration = undefined;
   importantDates: Array<[string, Date]> = [];
 
   submitURL = '';
@@ -44,7 +44,9 @@ export class CallForMacroscopesComponent implements OnInit {
           });
         }
         // other keys
-        this.lastIteration = lastIteration;
+        if (this.lastIteration) {
+          this.lastIteration = lastIteration;
+        }
         this.submitURL = submitURL;
         this.pdfLink = pdfLink;
         this.allowSubmission = allowSubmission;
@@ -62,6 +64,13 @@ export class CallForMacroscopesComponent implements OnInit {
         });
         if (lastmacroscope) {
           this.lastIterationThumbnails = lastmacroscope.thumbnails;
+        } else {
+          this.lastIterationThumbnails = [
+            {
+              image: 'assets/content/site/home/image008.png',
+              title: 'placeholder',
+            },
+          ];
         }
       }
     });
