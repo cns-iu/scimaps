@@ -62,7 +62,6 @@ export class CallForMacroscopesComponent implements OnInit {
         });
         if (lastmacroscope) {
           this.lastIterationThumbnails = lastmacroscope.thumbnails;
-          console.warn(this.lastIterationThumbnails)
         }
       }
     });
