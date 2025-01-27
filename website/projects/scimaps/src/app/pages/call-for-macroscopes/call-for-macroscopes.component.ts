@@ -15,7 +15,7 @@ export class CallForMacroscopesComponent implements OnInit {
   lastIterationThumbnails: { image: string; title: string }[] = [];
   activePageTab = 0;
   showDrawer = false;
-  lastIteration = 21;
+  lastIteration = 20;
   importantDates: Array<[string, Date]> = [];
 
   submitURL = '';
@@ -62,6 +62,7 @@ export class CallForMacroscopesComponent implements OnInit {
         });
         if (lastmacroscope) {
           this.lastIterationThumbnails = lastmacroscope.thumbnails;
+          console.warn(this.lastIterationThumbnails)
         }
       }
     });
