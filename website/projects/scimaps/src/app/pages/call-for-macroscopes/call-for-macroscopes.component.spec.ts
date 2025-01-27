@@ -71,10 +71,18 @@ describe('CallForMacroscopesComponent', () => {
     );
   });
   it('should select correct last macroscope', () => {
-    fixture.detectChanges();
     component.lastIteration = 2;
+    fixture.detectChanges();
     expect(component.lastIterationThumbnails).toEqual(
       macroscopes[1].thumbnails
+    );
+  });
+
+  it('should select a placeholder thumbnail if lastIteration is undefined', () => {
+    component.lastIteration = undefined;
+    fixture.detectChanges();
+    expect(component.lastIterationThumbnails[0].image).toEqual(
+      'assets/content/site/home/image008.png'
     );
   });
 });
