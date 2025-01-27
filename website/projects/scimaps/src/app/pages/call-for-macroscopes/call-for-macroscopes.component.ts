@@ -15,7 +15,7 @@ export class CallForMacroscopesComponent implements OnInit {
   lastIterationThumbnails: { image: string; title: string }[] = [];
   activePageTab = 0;
   showDrawer = false;
-  lastIteration = undefined;
+  lastIteration?: number;
   importantDates: Array<[string, Date]> = [];
 
   submitURL = '';

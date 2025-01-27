@@ -72,6 +72,7 @@ describe('CallForMacroscopesComponent', () => {
   });
   it('should select correct last macroscope', () => {
     fixture.detectChanges();
+    component.lastIteration = 2;
     expect(component.lastIterationThumbnails).toEqual(
       macroscopes[1].thumbnails
     );
