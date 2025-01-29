@@ -16308,6 +16308,16 @@
     "country": "USA"
   },
   {
+    "dateStart": "2025-04-01T14:25:34.693Z",
+    "dateEnd": "2025-04-30T14:25:40.637Z",
+    "title": "Places & Spaces: Mapping Science",
+    "venue": "City of Bloomington",
+    "organizer": "Aubrey Seader",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "USA"
+  },
+  {
     "dateStart": "2025-05-18T16:00:40.390Z",
     "dateEnd": "2025-08-08T16:00:20.760Z",
     "title": "Places & Spaces: Mapping Science ",
@@ -16326,5 +16336,15 @@
     "city": "SBHD",
     "state": "Berlin",
     "country": "Germany"
+  },
+  {
+    "dateStart": "2025-07-28T12:35:34.903Z",
+    "dateEnd": "2025-08-08T12:35:42.807Z",
+    "title": "Biomedical Data Science Summer School and Conference",
+    "venue": "Semmelweis University",
+    "organizer": "Roland Molontay",
+    "city": "Semmelweis",
+    "state": "Budapest",
+    "country": "Hungary"
   }
 ]
