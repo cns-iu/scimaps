@@ -229,7 +229,6 @@ class CallForMacroscopesComponent {
         this.lastIterationThumbnails = [];
         this.activePageTab = 0;
         this.showDrawer = false;
-        this.lastIteration = 21;
         this.importantDates = [];
         this.submitURL = '';
         this.pdfLink = '';
@@ -249,7 +248,9 @@ class CallForMacroscopesComponent {
                     });
                 }
                 // other keys
-                this.lastIteration = lastIteration;
+                if (this.lastIteration) {
+                    this.lastIteration = lastIteration;
+                }
                 this.submitURL = submitURL;
                 this.pdfLink = pdfLink;
                 this.allowSubmission = allowSubmission;
@@ -265,6 +266,14 @@ class CallForMacroscopesComponent {
                 });
                 if (lastmacroscope) {
                     this.lastIterationThumbnails = lastmacroscope.thumbnails;
+                }
+                else {
+                    this.lastIterationThumbnails = [
+                        {
+                            image: 'assets/content/site/home/image008.png',
+                            title: 'placeholder',
+                        },
+                    ];
                 }
             }
         });
@@ -303,7 +312,7 @@ CallForMacroscopesComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTE
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](14, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](15, "button", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function CallForMacroscopesComponent_Template_button_click_15_listener() { return ctx.submitMacroscope(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](16, " SUBMIT MACROSCOPE ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](16, " SUBMIT WORK ");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](17, "div", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](18, "div", 15);
