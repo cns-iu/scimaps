@@ -64,7 +64,7 @@ export class PurchaseModalComponent {
   /**
    * Where the email will be sent
    */
-  receivingEmail = 'cnscntr@indiana.edu';
+  receivingEmail = 'cnscntr@iu.edu';
 
   /**
    * State options

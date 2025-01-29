@@ -1,9 +1,9 @@
 ---
 cta:
   title: 2025 Call for Submissions is Open
-  body: Submit your stunning and interactive data visualizations for a chance to be featured in the 21st Iteration of *Places & Spaces*.
-  buttonLabel: Submission page
-  buttonLink: https://scimaps.org/call-for-macroscopes
-  subtitle: "Deadline: May 31, 2025"
-  imageSource: image008.png
+  body: Submit your work to Envisioning Intelligences by May 31, 2025
+  buttonLabel: Call for Submissions
+  buttonLink: https://forms.gle/GoeRNryMBQxMuDsBA
+  subtitle: "Be a visionary!"
+  imageSource: visionary-home-page-image.png
 ---

@@ -67,7 +67,7 @@ export class CallForMacroscopesComponent implements OnInit {
         } else {
           this.lastIterationThumbnails = [
             {
-              image: 'assets/content/site/home/image008.png',
+              image: 'assets/content/site/home/visionary-home-page-image.png',
               title: 'placeholder',
             },
           ];

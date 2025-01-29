@@ -82,7 +82,7 @@ describe('CallForMacroscopesComponent', () => {
     component.lastIteration = undefined;
     fixture.detectChanges();
     expect(component.lastIterationThumbnails[0].image).toEqual(
-      'assets/content/site/home/image008.png'
+      'assets/content/site/home/visionary-home-page-image.png'
     );
   });
 });
