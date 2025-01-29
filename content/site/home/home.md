@@ -5,5 +5,5 @@ cta:
   buttonLabel: Submission page
   buttonLink: https://scimaps.org/call-for-macroscopes
   subtitle: "Deadline: May 31, 2025"
-  imageSource: card_image.png
+  imageSource: image008.png
 ---
