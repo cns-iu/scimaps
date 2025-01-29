@@ -42,7 +42,7 @@ banner_text: |-
 
   *Places & Spaces Team*
 
-  cnscntr@indiana.edu
+  cnscntr@iu.edu
 tabs:
   - header: Physical Exhibit
     content: >-
