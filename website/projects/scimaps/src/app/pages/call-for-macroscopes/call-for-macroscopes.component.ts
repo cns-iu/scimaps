@@ -21,7 +21,7 @@ export class CallForMacroscopesComponent implements OnInit {
   submitURL = '';
   pdfLink = '';
   allowSubmission = true;
-  constructor(private route: ActivatedRoute) {}
+  constructor(private readonly route: ActivatedRoute) {}
 
   ngOnInit(): void {
     this.route.data.subscribe((data: Params) => {

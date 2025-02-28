@@ -1,12 +1,10 @@
-<div>
-  <div class="container" (click)="gotoVideo()">
-    <div class="thumbnail">
-      <img [src]="video?.image" [alt]="video?.image" />
-    </div>
-    <div class="title">
-      <markdown>
-        {{ video?.short_description }}
-      </markdown>
-    </div>
+<div class="container" (click)="gotoVideo()">
+  <div class="thumbnail">
+    <img [src]="video?.image" [alt]="video?.image" />
+  </div>
+  <div class="title">
+    <markdown>
+      {{ video?.short_description }}
+    </markdown>
   </div>
 </div>
