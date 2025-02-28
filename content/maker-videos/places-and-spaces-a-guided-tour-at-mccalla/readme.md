@@ -1,9 +1,9 @@
 ---
 title: "Places & Spaces: a Guided Tour at McCalla"
-videoLink: https://drive.google.com/file/d/1O3Mg_o1OxXEsL8-ioGSbIAbdLvsXkeTh/view?usp=drive_link
+videoLink: https://www.youtube.com/embed/ku8hXosoT_w
 image: p-s-mccalla-small.jpg
 short_description: "Places & Spaces: a Guided Tour at McCalla"
-long_description: "T﻿odd Theriault, one of the co-curators of Places & Spaces:
+long_description: "Todd Theriault, one of the co-curators of Places & Spaces:
   Mapping Science, takes viewers through the exhibit when it was hosted at
   University Collections at McCalla."
 ---
