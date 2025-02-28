@@ -58,7 +58,7 @@ const routes = [
     },
     {
         path: 'learning-center',
-        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-projects_scimaps_src_app_pages_blogs_blogs-resolver_service_ts-projects_scimaps_src_a-0d2b66"), __webpack_require__.e("common"), __webpack_require__.e("projects_scimaps_src_app_pages_learning-center_learning-center_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./pages/learning-center/learning-center.module */ 2958)).then(m => m.LearningCenterModule)
+        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-projects_scimaps_src_app_pages_maker-videos_maker-videos-resolver_service_ts-projects-db45da"), __webpack_require__.e("common"), __webpack_require__.e("projects_scimaps_src_app_pages_learning-center_learning-center_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./pages/learning-center/learning-center.module */ 2958)).then(m => m.LearningCenterModule)
     },
     {
         path: 'call-for-macroscopes',
@@ -71,11 +71,11 @@ const routes = [
     },
     {
         path: 'maker-videos',
-        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-projects_scimaps_src_app_pages_maker-videos_maker-videos_module_ts"), __webpack_require__.e("common"), __webpack_require__.e("projects_scimaps_src_app_shared_components_drawer-header_drawer-header_module_ts-_d6321")]).then(__webpack_require__.bind(__webpack_require__, /*! ./pages/maker-videos/maker-videos.module */ 5599)).then(m => m.MakerVideosModule)
+        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-projects_scimaps_src_app_pages_maker-videos_maker-videos-resolver_service_ts-projects-db45da"), __webpack_require__.e("default-projects_scimaps_src_app_pages_maker-videos_maker-videos_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./pages/maker-videos/maker-videos.module */ 5599)).then(m => m.MakerVideosModule)
     },
     {
         path: 'blogs',
-        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-projects_scimaps_src_app_pages_blogs_blogs_module_ts"), __webpack_require__.e("default-projects_scimaps_src_app_pages_blogs_blogs-resolver_service_ts-projects_scimaps_src_a-0d2b66")]).then(__webpack_require__.bind(__webpack_require__, /*! ./pages/blogs/blogs.module */ 6928)).then(m => m.BlogsModule)
+        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-projects_scimaps_src_app_pages_blogs_blogs_module_ts"), __webpack_require__.e("common"), __webpack_require__.e("projects_scimaps_src_app_shared_components_drawer-header_drawer-header_module_ts-_d6321")]).then(__webpack_require__.bind(__webpack_require__, /*! ./pages/blogs/blogs.module */ 6928)).then(m => m.BlogsModule)
     },
     {
         matcher: (url) => {
