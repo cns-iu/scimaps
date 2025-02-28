@@ -81,7 +81,7 @@ tabs:
       $5,000* macroscope pop-up
 
 
-      \*Price will vary with modifications, includes shipping
+      \*Price will vary with modifications, plus shipping
     image: tabs/image.lg.jpg
   - header: Maps-Only Physical Exhibit
     content: >-
@@ -106,7 +106,16 @@ tabs:
       #### Total Cost
 
 
-      $250* per map
+      $300* per framed map
+
+
+      $﻿125* per archival print
+
+
+      $﻿100* per inkjet print
+
+
+      $﻿11,500 for all 100 maps in archival print
 
 
       \*Plus shipping. Unmounted prints also available at a reduced cost.
@@ -149,9 +158,15 @@ tabs:
       #### Contains
 
 
-      * Standard PowerPoint slideshow of 100 maps without descriptions (titles only) or
+      * Macroscope Kiosk software for display on your touchscreen 
 
-      * Slideshow of 100 maps customized to fit your space
+      * Standard Digital Display: slideshow of 100 maps
+
+      * Humanexus short film, including license for public performance for 1 year
+
+      * Dr. Katy Bӧrner to speak at your location (host pays travel costs) OR
+
+      * One of the curators guides your group through a virtual presentation and discussion
 
 
       #### Setup Requirements
@@ -164,13 +179,10 @@ tabs:
       * Optional interactivity (i.e., searching/selecting via iPad interface) has been implemented by some exhibit hosts.
 
 
-      #### Total Cost
+      #### Total Cost*
 
 
-      $500 for standard PowerPoint slideshow of 100 maps without descriptions (titles only), or
-
-
-      $2,000+* for customized slideshow
+      Customization is possible, contact cnscntr@iu.edu for a quote.
 
 
       \*Cost will vary depending on the level of customization.

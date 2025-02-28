@@ -244,6 +244,46 @@ MacroscopeModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_8_
 
 /***/ }),
 
+/***/ 7248:
+/*!*****************************************************!*\
+  !*** ./projects/scimaps/src/app/pipes/safe.pipe.ts ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "SafePipe": () => (/* binding */ SafePipe),
+/* harmony export */   "SafePipeModule": () => (/* binding */ SafePipeModule)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2316);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ 1570);
+
+
+class SafePipe {
+    constructor(sanitizer) {
+        this.sanitizer = sanitizer;
+    }
+    transform(value, type) {
+        if (type === 'resourceUrl') {
+            return this.sanitizer.bypassSecurityTrustResourceUrl(value);
+        }
+        else {
+            return '';
+        }
+    }
+}
+SafePipe.ɵfac = function SafePipe_Factory(t) { return new (t || SafePipe)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__.DomSanitizer, 16)); };
+SafePipe.ɵpipe = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({ name: "safe", type: SafePipe, pure: true });
+class SafePipeModule {
+}
+SafePipeModule.ɵfac = function SafePipeModule_Factory(t) { return new (t || SafePipeModule)(); };
+SafePipeModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: SafePipeModule });
+SafePipeModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({});
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](SafePipeModule, { declarations: [SafePipe], exports: [SafePipe] }); })();
+
+
+/***/ }),
+
 /***/ 8707:
 /*!*****************************************************************************************!*\
   !*** ./projects/scimaps/src/app/shared/components/maker-video/maker-video.component.ts ***!
