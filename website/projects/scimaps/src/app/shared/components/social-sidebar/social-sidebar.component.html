@@ -1,15 +1,30 @@
-<div class="social-button" (click)="goToLink('https://twitter.com/intent/tweet')">
-  <mat-icon class="icon svg twitter" svgIcon="social:x"></mat-icon>
+<div class="social-button">
+  <a mat-icon-button [href]="twitter" target="_blank" rel="noopener noreferrer">
+    <mat-icon class="icon svg twitter" svgIcon="social:x"></mat-icon>
+  </a>
 </div>
-<div class="social-button" (click)="goToLink('https://bsky.app/profile/cnscenter.bsky.social')">
-  <mat-icon class="icon svg bluesky" svgIcon="social:bluesky"></mat-icon>
+<div class="social-button">
+  <a mat-icon-button [href]="bluesky" target="_blank" rel="noopener noreferrer">
+    <mat-icon class="icon svg bluesky" svgIcon="social:bluesky"></mat-icon>
+  </a>
 </div>
-<div class="social-button" (click)="goToLink('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fscimaps.org%2F&amp;src=sdkpreparse')">
-  <mat-icon class="icon svg" svgIcon="social:facebook"></mat-icon>
+<div class="social-button">
+  <a mat-icon-button [href]="facebook" target="_blank" rel="noopener noreferrer">
+    <mat-icon class="icon svg" svgIcon="social:facebook"></mat-icon>
+  </a>
 </div>
-<div class="social-button" (click)="goToLink('https://www.instagram.com/')">
-  <mat-icon class="icon svg" svgIcon="social:instagram"></mat-icon>
+<div class="social-button">
+  <a mat-icon-button [href]="instagram" target="_blank" rel="noopener noreferrer">
+    <mat-icon class="icon svg" svgIcon="social:instagram"></mat-icon>
+  </a>
 </div>
-<div class="social-button bottom" (click)="goToLink('mailto:')">
-  <mat-icon class="icon svg email" svgIcon="social:email"></mat-icon>
+<div class="social-button">
+  <a mat-icon-button [href]="facebook" target="_blank" rel="noopener noreferrer">
+    <mat-icon class="icon svg" svgIcon="social:facebook"></mat-icon>
+  </a>
+</div>
+<div class="social-button bottom">
+  <a mat-icon-button [href]="email" target="_blank" rel="noopener noreferrer">
+    <mat-icon class="icon svg email" svgIcon="social:email"></mat-icon>
+  </a>
 </div>
