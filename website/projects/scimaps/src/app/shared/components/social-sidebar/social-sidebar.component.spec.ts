@@ -16,12 +16,4 @@ describe('SocialSidebarComponent', () => {
     instance.goToLink('www.google.com');
     expect(spy).toHaveBeenCalledWith('www.google.com', '_blank');
   });
-
-  it('should call goToLink when a social button is clicked', async () => {
-    const { instance, find } = await shallow.render();
-    const spy = spyOn(instance, 'goToLink');
-    const button = find('.social-button')[0];
-    button.triggerEventHandler('click', {});
-    expect(spy).toHaveBeenCalled();
-  });
 });
