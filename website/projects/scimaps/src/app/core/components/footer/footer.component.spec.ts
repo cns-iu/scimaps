@@ -27,7 +27,7 @@ describe('FooterComponent', () => {
 
   describe('Contact Bar', () => {
     itHasElement('.contact');
-    itHasManyElements('.social', 5);
+    itHasManyElements('.social', 6);
     itHasElement('.phone .icon');
     itHasElement('.phone .text');
 

@@ -21,7 +21,7 @@ $mobile: 640px;
     @media screen and (max-width: $mobile) {
       justify-content: center;
     }
-    
+
     .social {
       padding: 0 0.75rem;
 
@@ -31,11 +31,18 @@ $mobile: 640px;
 
         .icon:hover {
          color: #7997a3;
-         background-color: #ffffff; 
+         background-color: #ffffff;
         }
       }
       .icon.font {
         font-size: 2rem;
+      }
+
+      .twitter, .bluesky {
+        .icon {
+          padding: 12px;
+          display: flex;
+        }
       }
     }
 

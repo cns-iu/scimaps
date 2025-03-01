@@ -8,12 +8,16 @@
   z-index: 3;
   // border: 1px solid white;
 
+  a {
+    color: inherit;
+  }
+
   .social-button {
     height: 2.5rem;
     width: 2.5rem;
     text-align: center;
     cursor: pointer;
-  
+
     &.bottom {
       border-bottom: none;
     }
@@ -24,8 +28,8 @@
       width: 2.5rem;
     }
 
-    .email {
-      padding: 5px;
+    .twitter, .email, .bluesky {
+      padding: 8px;
     }
   }
 }

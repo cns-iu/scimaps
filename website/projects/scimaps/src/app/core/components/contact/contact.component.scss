@@ -39,6 +39,8 @@ $tablet: 960px;
       justify-content: space-evenly;
       flex: 1;
       .icon {
+        display: flex;
+
         @include icon.size(2.25rem);
         border: 1px solid;
         border-radius: 0.25rem;
@@ -46,6 +48,10 @@ $tablet: 960px;
         &:not(:last-child) {
           margin-right: 0.5rem;
         }
+      }
+
+      .twitter, .bluesky {
+        padding: 8px;
       }
     }
   }
