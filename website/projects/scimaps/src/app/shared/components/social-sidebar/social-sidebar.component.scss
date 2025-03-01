@@ -13,7 +13,7 @@
     width: 2.5rem;
     text-align: center;
     cursor: pointer;
-  
+
     &.bottom {
       border-bottom: none;
     }
@@ -24,8 +24,8 @@
       width: 2.5rem;
     }
 
-    .email {
-      padding: 5px;
+    .twitter, .email, .bluesky {
+      padding: 8px;
     }
   }
 }
