@@ -333,32 +333,51 @@ class SocialSidebarComponent {
         this.facebook = 'https://www.facebook.com/mappingscience';
         this.twitter = 'https://www.twitter.com/mappingscience';
         this.instagram = 'https://www.instagram.com/cns_at_iu';
-    }
-    goToLink(link) {
-        window.open(link, '_blank');
+        this.bluesky = 'https://bsky.app/profile/cnscenter.bsky.social';
+        this.email = 'mailto:cnscntr@iu.edu';
     }
 }
 SocialSidebarComponent.ɵfac = function SocialSidebarComponent_Factory(t) { return new (t || SocialSidebarComponent)(); };
 SocialSidebarComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SocialSidebarComponent, selectors: [["sci-social-sidebar"]], hostVars: 2, hostBindings: function SocialSidebarComponent_HostBindings(rf, ctx) { if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.clsName);
-    } }, decls: 8, vars: 0, consts: [[1, "social-button", 3, "click"], ["svgIcon", "social:twitter", 1, "icon", "svg", "twitter"], ["svgIcon", "social:facebook", 1, "icon", "svg"], ["svgIcon", "social:instagram", 1, "icon", "svg"], [1, "social-button", "bottom", 3, "click"], ["svgIcon", "social:email", 1, "icon", "svg", "email"]], template: function SocialSidebarComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 15, vars: 5, consts: [[1, "social-button"], ["mat-icon-button", "", "target", "_blank", "rel", "noopener noreferrer", 3, "href"], ["svgIcon", "social:x", 1, "icon", "svg", "twitter"], ["svgIcon", "social:bluesky", 1, "icon", "svg", "bluesky"], ["svgIcon", "social:facebook", 1, "icon", "svg"], ["svgIcon", "social:instagram", 1, "icon", "svg"], [1, "social-button", "bottom"], ["svgIcon", "social:email", 1, "icon", "svg", "email"]], template: function SocialSidebarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function SocialSidebarComponent_Template_div_click_0_listener() { return ctx.goToLink("https://twitter.com/intent/tweet"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "mat-icon", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "mat-icon", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function SocialSidebarComponent_Template_div_click_2_listener() { return ctx.goToLink("https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fscimaps.org%2F&src=sdkpreparse"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "mat-icon", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function SocialSidebarComponent_Template_div_click_4_listener() { return ctx.goToLink("https://www.instagram.com/"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "a", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "mat-icon", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function SocialSidebarComponent_Template_div_click_6_listener() { return ctx.goToLink("mailto:"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "mat-icon", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_material_icon__WEBPACK_IMPORTED_MODULE_1__.MatIcon], styles: ["[_nghost-%COMP%] {\n  position: fixed;\n  left: 0;\n  top: 50%;\n  transform: translate(0, -50%);\n  z-index: 3;\n}\n[_nghost-%COMP%]   .social-button[_ngcontent-%COMP%] {\n  height: 2.5rem;\n  width: 2.5rem;\n  text-align: center;\n  cursor: pointer;\n}\n[_nghost-%COMP%]   .social-button.bottom[_ngcontent-%COMP%] {\n  border-bottom: none;\n}\n[_nghost-%COMP%]   .social-button[_ngcontent-%COMP%]   .icon[_ngcontent-%COMP%] {\n  width: 1.5rem;\n  height: 1.5rem;\n  font-size: 1.5rem;\n  line-height: 1.5rem;\n  height: 2.5rem;\n  width: 2.5rem;\n}\n[_nghost-%COMP%]   .social-button[_ngcontent-%COMP%]   .email[_ngcontent-%COMP%] {\n  padding: 5px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNvY2lhbC1zaWRlYmFyLmNvbXBvbmVudC5zY3NzIiwiLi4vLi4vLi4vLi4vc3R5bGluZy9faWNvbi5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0UsZUFBQTtFQUNBLE9BQUE7RUFDQSxRQUFBO0VBQ0EsNkJBQUE7RUFDQSxVQUFBO0FBREY7QUFJRTtFQUNFLGNBQUE7RUFDQSxhQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0FBRko7QUFJSTtFQUNFLG1CQUFBO0FBRk47QUFLSTtFQ2xCRixhRG1CdUI7RUNsQnZCLGNEa0J1QjtFQ2pCdkIsaUJEaUJ1QjtFQ2hCdkIsbUJEZ0J1QjtFQUNuQixjQUFBO0VBQ0EsYUFBQTtBQUFOO0FBR0k7RUFDRSxZQUFBO0FBRE4iLCJmaWxlIjoic29jaWFsLXNpZGViYXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAdXNlICdpY29uJztcblxuOmhvc3Qge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGxlZnQ6IDA7XG4gIHRvcDogNTAlO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgwLCAtNTAlKTtcbiAgei1pbmRleDogMztcbiAgLy8gYm9yZGVyOiAxcHggc29saWQgd2hpdGU7XG5cbiAgLnNvY2lhbC1idXR0b24ge1xuICAgIGhlaWdodDogMi41cmVtO1xuICAgIHdpZHRoOiAyLjVyZW07XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgXG4gICAgJi5ib3R0b20ge1xuICAgICAgYm9yZGVyLWJvdHRvbTogbm9uZTtcbiAgICB9XG5cbiAgICAuaWNvbiB7XG4gICAgICBAaW5jbHVkZSBpY29uLnNpemUoMS41cmVtKTtcbiAgICAgIGhlaWdodDogMi41cmVtO1xuICAgICAgd2lkdGg6IDIuNXJlbTtcbiAgICB9XG5cbiAgICAuZW1haWwge1xuICAgICAgcGFkZGluZzogNXB4O1xuICAgIH1cbiAgfVxufSIsIlxuQG1peGluIHNpemUoJHNpemUpIHtcbiAgd2lkdGg6ICRzaXplO1xuICBoZWlnaHQ6ICRzaXplO1xuICBmb250LXNpemU6ICRzaXplO1xuICBsaW5lLWhlaWdodDogJHNpemU7XG59XG4iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "mat-icon", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "mat-icon", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "mat-icon", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", ctx.twitter, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", ctx.bluesky, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", ctx.facebook, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", ctx.instagram, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", ctx.email, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    } }, directives: [_angular_material_icon__WEBPACK_IMPORTED_MODULE_1__.MatIcon], styles: ["[_nghost-%COMP%] {\n  position: fixed;\n  left: 0;\n  top: 50%;\n  transform: translate(0, -50%);\n  z-index: 3;\n}\n[_nghost-%COMP%]   a[_ngcontent-%COMP%] {\n  color: inherit;\n}\n[_nghost-%COMP%]   .social-button[_ngcontent-%COMP%] {\n  height: 2.5rem;\n  width: 2.5rem;\n  text-align: center;\n  cursor: pointer;\n}\n[_nghost-%COMP%]   .social-button.bottom[_ngcontent-%COMP%] {\n  border-bottom: none;\n}\n[_nghost-%COMP%]   .social-button[_ngcontent-%COMP%]   .icon[_ngcontent-%COMP%] {\n  width: 1.5rem;\n  height: 1.5rem;\n  font-size: 1.5rem;\n  line-height: 1.5rem;\n  height: 2.5rem;\n  width: 2.5rem;\n}\n[_nghost-%COMP%]   .social-button[_ngcontent-%COMP%]   .twitter[_ngcontent-%COMP%], [_nghost-%COMP%]   .social-button[_ngcontent-%COMP%]   .email[_ngcontent-%COMP%], [_nghost-%COMP%]   .social-button[_ngcontent-%COMP%]   .bluesky[_ngcontent-%COMP%] {\n  padding: 8px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNvY2lhbC1zaWRlYmFyLmNvbXBvbmVudC5zY3NzIiwiLi4vLi4vLi4vLi4vc3R5bGluZy9faWNvbi5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0UsZUFBQTtFQUNBLE9BQUE7RUFDQSxRQUFBO0VBQ0EsNkJBQUE7RUFDQSxVQUFBO0FBREY7QUFJRTtFQUNFLGNBQUE7QUFGSjtBQUtFO0VBQ0UsY0FBQTtFQUNBLGFBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7QUFISjtBQUtJO0VBQ0UsbUJBQUE7QUFITjtBQU1JO0VDdEJGLGFEdUJ1QjtFQ3RCdkIsY0RzQnVCO0VDckJ2QixpQkRxQnVCO0VDcEJ2QixtQkRvQnVCO0VBQ25CLGNBQUE7RUFDQSxhQUFBO0FBRE47QUFJSTtFQUNFLFlBQUE7QUFGTiIsImZpbGUiOiJzb2NpYWwtc2lkZWJhci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkB1c2UgJ2ljb24nO1xuXG46aG9zdCB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgbGVmdDogMDtcbiAgdG9wOiA1MCU7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlKDAsIC01MCUpO1xuICB6LWluZGV4OiAzO1xuICAvLyBib3JkZXI6IDFweCBzb2xpZCB3aGl0ZTtcblxuICBhIHtcbiAgICBjb2xvcjogaW5oZXJpdDtcbiAgfVxuXG4gIC5zb2NpYWwtYnV0dG9uIHtcbiAgICBoZWlnaHQ6IDIuNXJlbTtcbiAgICB3aWR0aDogMi41cmVtO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG5cbiAgICAmLmJvdHRvbSB7XG4gICAgICBib3JkZXItYm90dG9tOiBub25lO1xuICAgIH1cblxuICAgIC5pY29uIHtcbiAgICAgIEBpbmNsdWRlIGljb24uc2l6ZSgxLjVyZW0pO1xuICAgICAgaGVpZ2h0OiAyLjVyZW07XG4gICAgICB3aWR0aDogMi41cmVtO1xuICAgIH1cblxuICAgIC50d2l0dGVyLCAuZW1haWwsIC5ibHVlc2t5IHtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICB9XG4gIH1cbn1cbiIsIlxuQG1peGluIHNpemUoJHNpemUpIHtcbiAgd2lkdGg6ICRzaXplO1xuICBoZWlnaHQ6ICRzaXplO1xuICBmb250LXNpemU6ICRzaXplO1xuICBsaW5lLWhlaWdodDogJHNpemU7XG59XG4iXX0= */"] });
 
 
 /***/ }),
