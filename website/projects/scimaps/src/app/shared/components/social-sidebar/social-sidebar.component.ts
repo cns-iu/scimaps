@@ -14,8 +14,4 @@ export class SocialSidebarComponent {
   instagram = 'https://www.instagram.com/cns_at_iu';
   bluesky = 'https://bsky.app/profile/cnscenter.bsky.social';
   email = 'mailto:cnscntr@iu.edu';
-
-  goToLink(link: string): void {
-    window.open(link, '_blank');
-  }
 }
