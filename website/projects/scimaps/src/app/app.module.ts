@@ -58,7 +58,8 @@ export class AppModule {
     bpr: BreakpointRegistryService
   ) {
     const icons = [
-      { namespace: 'social', name: 'twitter', url: 'assets/social-media-logos/twitter.svg' },
+      { namespace: 'social', name: 'bluesky', url: 'assets/social-media-logos/bluesky.svg' },
+      { namespace: 'social', name: 'x', url: 'assets/social-media-logos/x.svg' },
       { namespace: 'social', name: 'instagram', url: 'assets/social-media-logos/instagram.svg' },
       { namespace: 'social', name: 'email', url: 'assets/social-media-logos/email.svg' },
       { namespace: 'social', name: 'facebook', url: 'assets/social-media-logos/facebook.svg' },
