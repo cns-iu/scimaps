@@ -24,9 +24,7 @@ en:
     scientific questions. In the particular model-data synthesis used for this
     visualization, only the larger, ocean basin-wide scales have been adjusted
     to fit observations. Smaller-scale ocean currents are free to evolve on
-    their own according to the computer model's equations. To experience this
-    unforgettable view of oceanic circulation in action, go to
-    [http://www.nasa.gov/topics/earth/features/perpetual-ocean.html](http://www.nasa.gov/topics/earth/features/perpetual-ocean.html).
+    their own according to the computer model's equations.
   makers:
     - dimitris-menemenlis/readme
     - horace-g-mitchell/readme

@@ -20,8 +20,7 @@ en:
     “cloud” of pages) and which appear much more rarely (bottom and left parts).
     If you are a beginning manga artist and want to establish a unique style,
     you may want to position yourself in either of these areas, which so far
-    have not been explored by other artists. To learn more, visit
-    [http://softwarestudies.com](http://softwarestudies.com)
+    have not been explored by other artists.
   makers:
     - lev-manovich/readme
     - jeremy-douglass/readme

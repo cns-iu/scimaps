@@ -25,9 +25,8 @@ en:
 
       
 
-    Watson News Explorer can be found at
-    [https://news-explorer.mybluemix.net/](https://news-explorer.mybluemix.net/
-    "Link to Watson News Explorer macroscope").
+    A narrated demonstration of the Watson News Explorer can be viewed at [https://youtu.be/aGUYoXoo1iM?si=oScO7w_IFHWDJ1Ty](https://youtu.be/aGUYoXoo1iM?si=oScO7w_IFHWDJ1Ty).
+
   makers:
     - steven-ross/readme
     - tim-stutts/readme
@@ -45,6 +44,5 @@ en:
     sm: image.sm.jpg
     med: image.med.jpg
     lg: image.lg.jpg
-  externalLink: 'https://news-explorer.mybluemix.net/'
   videoLink: 'https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/WatsonNewsExplorer.webm'
 ---
