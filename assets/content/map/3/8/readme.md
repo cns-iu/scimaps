@@ -22,9 +22,7 @@ en:
     (bottom right), and the number of times other articles link to an article
     (bottom left). These visualizations serve to highlight current trends and
     predict future editing activity and growth in Wikipedia articles related to
-    science, technology, and mathematics. Interactive Wikipedia maps are
-    available at
-    [http://scimaps.org/web/maps/wikipedia/](http://scimaps.org/web/maps/wikipedia/).
+    science, technology, and mathematics.
   makers:
     - elisha-f-h-allgood/readme
     - bruce-w-herr-ii/readme

@@ -29,12 +29,6 @@ en:
     Migrants_ data set to visualize causes of death for those en route. A third
     data set connects adverse outcomes upon arrival with news stories of
     struggles faced by migrants.
-
-      
-
-    _Refugee Flow_ and its companion website can be found at
-    [http://refugeeflow.world/landing](http://refugeeflow.world/landing
-    "Macroscope: Refugee Flow").
   makers:
     - abin-abraham/readme
     - will-jiahao-su/readme
@@ -49,6 +43,5 @@ en:
     sm: image.sm.jpg
     med: image.med.jpg
     lg: image.lg.jpg
-  externalLink: 'http://refugeeflow.world/landing'
   videoLink: 'https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/RefugeeFlow.webm'
 ---
