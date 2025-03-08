@@ -16,9 +16,7 @@ en:
     imagine yourself in another time and place, to uncover treasures, and to be
     part of the big picture. Go hunt for details and learn fun facts about the
     collection. Last but not least, make sure you and your parents visit the
-    parts you really want to see. The map is available for free at all Museum
-    information desks and online at
-    [http://metmuseum.org/learn/for-kids](http://metmuseum.org/learn/for-kids)
+    parts you really want to see.
   makers:
     - masha-turchinsky/readme
     - john-kerschbaum/readme

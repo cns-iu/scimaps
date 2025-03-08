@@ -23,9 +23,7 @@ en:
     predefined number of incoming links are included, in addition to peripheral
     articles that have a direct link to them. To animate the evolution of the
     English Wikipedia network, living people articles were collected and
-    analysed for different points in time. To explore the networks
-    interactively, visit
-    [http://www.ickn.org/wikimaps](http://www.ickn.org/wikimaps).
+    analysed for different points in time.
   makers:
     - peter-a-gloor/readme
     - keiichi-nemoto/readme
