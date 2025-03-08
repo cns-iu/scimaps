@@ -17,9 +17,6 @@ en:
     flow of jet fuel and agricultural commodities around the globe, track a
     fleet of cruise ships in real time, or monitor traffic at ports around the
     world.  
-      
-    Learn more about _FleetMon Explorer_ at
-    [http://www.fleetmon.com/services/live-tracking/fleetmon-explorer](http://www.fleetmon.com/services/live-tracking/fleetmon-explorer).
   makers:
     - fleetmon/readme
   year: 2016
@@ -36,6 +33,5 @@ en:
     sm: image.sm.jpg
     med: image.med.jpg
     lg: image.lg.jpg
-  externalLink: 'http://www.fleetmon.com/services/live-tracking/fleetmon-explorer'
   videoLink: 'https://demo.cns.iu.edu/macroscope-kiosk-13/macroscopes/fleetmon.webm'
 ---

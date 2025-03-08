@@ -8,7 +8,7 @@ en:
     visualization, information aesthetics, and user interface design. This
     visualization depicts the classification taxonomy developed and used in the
     MACE project
-    ([http://portal.mace-project.eu](http://portal.mace-project.eu)), which aims
+    ([https://www.mace-project.eu/](https://www.mace-project.eu/)), which aims
     at providing better access to digital resources for teaching and learning
     about architecture. It shows a bird’s-eye view of the hierarchical structure
     of over 2,800 terms for tagging resources. Most of the terms exist in
@@ -18,11 +18,7 @@ en:
     for each concept, providing hints about the usage patterns of the taxonomy.
     For the subject matter experts in the project, visualizations like these
     have shown to be useful for quality control and iterative refinements of the
-    taxonomy. For end users, an interactive version of the diagram is available
-    on the MACE portal
-    ([http://portal.mace-project.eu/BrowseByClassification](http://portal.mace-project.eu/BrowseByClassification)),
-    which allows one to search and browse thousands of resources in an
-    interactive visual refinement process.
+    taxonomy.
   makers:
     - moritz-stefaner/readme
   year: 2011

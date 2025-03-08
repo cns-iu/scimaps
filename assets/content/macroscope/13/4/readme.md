@@ -26,7 +26,7 @@ en:
 
 
     Visit Science Paths online at
-    [http://kimalbrecht.com/project/science-paths](http://kimalbrecht.com/project/science-paths).
+    [https://sciencepaths.kimalbrecht.com/](https://sciencepaths.kimalbrecht.com/).
   makers:
     - kim-albrecht/readme
     - albert-laszlo-barabasi/readme
