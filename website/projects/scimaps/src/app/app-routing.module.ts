@@ -46,7 +46,7 @@ const routes: Routes = [
     loadChildren: () => import('./pages/learning-center/learning-center.module').then(m => m.LearningCenterModule)
   },
   {
-    path: 'call-for-macroscopes',
+    path: 'call-for-submissions',
     loadChildren: () => import('./pages/call-for-macroscopes/call-for-macroscopes.module').then(m => m.CallForMacroscopesModule)
   },
   {
