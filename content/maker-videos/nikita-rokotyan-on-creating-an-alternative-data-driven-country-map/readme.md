@@ -8,4 +8,5 @@ long_description: Nikita Rokotyan on the origins of his award-winning
   macroscope, the [power of
   t-SNE](https://scimaps.org/mapdetail/an_alternative_datad_243), encouraging
   interactivity.
+date: 2021-05-05
 ---

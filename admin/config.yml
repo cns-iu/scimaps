@@ -18,7 +18,7 @@ collections:
             - { name: body, label: Body }
             - { name: buttonLabel, label: Button Label, required: false }
             - { name: buttonLink, label: Button Link, required: false }
-            - { name: imageSource, label: Image, widget: file, required: false }  
+            - { name: imageSource, label: Image, widget: file, required: false }
 
       - label: About Places & Spaces
         name: about
@@ -32,7 +32,7 @@ collections:
           - { name: advisoryBoardDescription, label: Advisory Board Description, widget: markdown }
           - { name: ambassadorsDescription, label: Ambassadors Description, widget: markdown }
           - name: annualReports
-            label: Annual Reports 
+            label: Annual Reports
             widget: list
             required: false
             fields:
@@ -73,7 +73,7 @@ collections:
       - label: Call for Macroscopes
         name: callForMacroscopes
         file: content/site/callForMacroscopes.md
-        preview_path: call-for-macroscopes
+        preview_path: call-for-submissions
         media_folder: ''
         fields:
           - { name: lastIteration, label: Previous Macroscope Iteration, widget: number, min: 11, max: 20, default: 16 }
@@ -85,13 +85,13 @@ collections:
             fields:
             - { name: header, label: Tab Header }
             - { name: content, label: Tab Content, widget: markdown }
-          - name: importantDates 
+          - name: importantDates
             label: Important Dates
             widget: list
             fields:
             - { name: label, label: Label}
             - { name: date, widget: date, label: Date, format: YYYY-MM-DD, timeformat: false }
-         
+
       - label: Hosting
         name: Hosting
         file: content/site/hosting/hosting.md
@@ -102,7 +102,7 @@ collections:
           - { name: overview, label: Overview, widget: markdown }
           - { name: install_guide, label: Exhibit Install Guide, widget: file}
           - { name: master_booklet, label: Exhibit Master Booklet, widget: file}
-          
+
           - name: carousel
             label: Images for carousel
             min: 1
@@ -112,7 +112,7 @@ collections:
               - { name: title, label: Title, required: false }
               - { name: sm, label: "Mobile (sm) Version" , widget: image }
               - { name: lg, label: "Desktop Tablet (lg) Version", widget: image }
-          
+
           - name: banner_text
             label: Banner Text
             widget: markdown
@@ -124,7 +124,7 @@ collections:
             - { name: header, label: Tab Header }
             - { name: image, label: Image, widget: file, required: false }
             - { name: content, label: Tab Content, widget: markdown }
-      
+
       - label: Venues
         name: venues
         file: content/site/venues/venues.md
@@ -159,7 +159,7 @@ collections:
         preview_path: 'maker-videos'
         fields:
           - { name: description, label: Description, widget: markdown }
-      
+
       - label: Learning Center
         name: learning-center
         file: content/site/learning-center/learning-center.md
@@ -177,7 +177,7 @@ collections:
                 multiple: false
                 required: true
                 default: blog
-                options: 
+                options:
                   - {value: blog, label: Blog }
                   - {value: video, label: Video }
               - name: featured-blog-slug
@@ -206,7 +206,7 @@ collections:
         public_folder: ''
         preview_path: 'submissions'
         fields:
-          - { name: body, label: Body, widget: markdown} 
+          - { name: body, label: Body, widget: markdown}
 
   - name: learning-materials
     label: Learning Materials
@@ -223,7 +223,7 @@ collections:
       - { name: order, label: Order, widget: number, min: 1, default: 100 }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-     
+
       - name: image
         label: Image
         widget: object
@@ -255,7 +255,8 @@ collections:
         display_fields: ['{{name}} {{lastName}}']
       - { name: short_description, label: Short Description }
       - { name: long_description, label: Long Description, widget: markdown }
-    
+      - { name: date, label: Date,  widget: date, format: YYYY-MM-DD, time_format: false }
+
 
   - name: blog
     label: Blogs
@@ -517,7 +518,7 @@ collections:
           - { name: med, label: Medium (160px Width), widget: image }
           - { name: lg, label: Large (865px Width), widget: image }
       - { name: externalLink, label: External Link, required: false }
-  
+
   - name: submission
     folder: content/submission
     label: Submissions
@@ -527,7 +528,7 @@ collections:
     i18n: true
     slug: '{{slug}}'
     preview_path: submission/{{iteration}}/{{sequence}}
-    fields: 
+    fields:
       - { name: title, label: Title, i18n: true }
       - { name: iteration, label: Iteration, widget: number, min: 1, default: 1 }
       - { name: sequence, label: Sequence, widget: number, min: 1, default: 1 }
@@ -552,7 +553,7 @@ collections:
           - { name: med, label: Medium (160px Width), widget: image }
           - { name: lg, label: Large (865px Width), widget: image }
       - { name: externalLink, label: External Link, required: false }
-  
+
   - name: SubmissionIteration
     label: Submission Iterations
     label_singular: Submission Iteration
@@ -627,7 +628,7 @@ backend:
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ## Basically run `npx netlify-cms-proxy-server` and launch the angular site
 
-# local_backend: true
+local_backend: true
 
 i18n:
   structure: single_file

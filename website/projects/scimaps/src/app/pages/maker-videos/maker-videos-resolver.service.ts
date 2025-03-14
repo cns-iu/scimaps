@@ -13,6 +13,7 @@ export interface MakerVideo {
   videoLink: string;
   maker: string;
   image: string;
+  date: string;
 }
 
 export const getMakerVideo = (n: number): MakerVideo[] => {
@@ -25,7 +26,8 @@ export const getMakerVideo = (n: number): MakerVideo[] => {
       slug: `title${i}`,
       videoLink: `link$ ${i}`,
       maker: 'maker/readme',
-      image: `image.${i}.jpg`
+      image: `image.${i}.jpg`,
+      date: `date${i}`
     });
   }
   return result;
@@ -43,8 +45,10 @@ export class MakerVideosResolverService implements Resolve<MakerVideo[]> {
     return this.content.getIndex<Params>('app-maker-videos').pipe(
       map((items: Params[]) => {
         if (videosCount && videosCount > 0) {
-          return items.slice(0, videosCount);
+          console.warn(items)
+          return items.sort((a, b) => a.date > b.date ? -1 : 1).slice(0, videosCount);
         } else {
+          console.warn(items)
           return items;
         }
       }),

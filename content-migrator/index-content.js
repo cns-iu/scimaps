@@ -15,7 +15,7 @@ var numberToRoman = function(N) {
   for (let i = 0; N; i++) {
     while (N >= decimals[i]) {
       result += romans[i]
-      N -= decimals[i] 
+      N -= decimals[i]
     }
   }
   return result
@@ -114,7 +114,8 @@ function writeVideoIndex() {
     return {
       title: item.title,
       short_description: item.short_description,
-      image: item.image
+      image: item.image,
+      date: item.date
     };
   });
   writeMinifiedJSON(pathJoin(INDEXES, 'app-maker-videos.json'), result);

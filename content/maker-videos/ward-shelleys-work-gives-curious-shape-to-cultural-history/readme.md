@@ -8,4 +8,5 @@ long_description: Artist Ward Shelley guides us through the twists and turns of
   his biomorphic cultural narratives. Shelley discusses the role of the artist
   as storyteller, the different priorities of science and art, and the benefits
   of having a squid-shaped sense of time.
+date: 2014-07-15
 ---
