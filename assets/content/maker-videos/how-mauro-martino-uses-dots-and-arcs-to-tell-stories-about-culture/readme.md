@@ -10,4 +10,5 @@ long_description: Data visualization expert Mauro Martino walks us through
   people are born and where they die can reveal migration patterns, show rising
   and falling fortunes of cultural centers, and reflect changes in
   transportation.
+date: 2016-11-22
 ---

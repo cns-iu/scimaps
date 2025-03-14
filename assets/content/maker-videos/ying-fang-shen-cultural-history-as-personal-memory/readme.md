@@ -9,4 +9,5 @@ long_description: As part of a making-of featurette for the multi-award winning
   how filtering cultural history through individual recollection reveals its
   selective and subjective nature. The past then becomes both what we choose to
   remember and how we choose to remember it.
+date: 2013-11-01
 ---

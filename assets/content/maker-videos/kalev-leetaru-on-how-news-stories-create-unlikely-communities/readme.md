@@ -10,4 +10,5 @@ long_description: GDELT Project founder Kalev Leetaru reflects on the power of
   around the world to demonstrate how shared problems, mutual interests, and
   common goals can be as important as geographical proximity in the creation of
   global communities.
+date: 2016-11-21
 ---

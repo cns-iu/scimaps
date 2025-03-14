@@ -41,7 +41,8 @@ const toMakerVideo = (item, directory = '') => {
         videoLink: item.videoLink,
         maker: item.maker,
         image: item.image,
-        slug: (0,_shared_services_content_service__WEBPACK_IMPORTED_MODULE_1__.toSlug)(item.title)
+        slug: (0,_shared_services_content_service__WEBPACK_IMPORTED_MODULE_1__.toSlug)(item.title),
+        date: item.date
     };
     result.image = getVideoImageSource(result, directory);
     return result;
@@ -96,7 +97,8 @@ const getMakerVideo = (n) => {
             slug: `title${i}`,
             videoLink: `link$ ${i}`,
             maker: 'maker/readme',
-            image: `image.${i}.jpg`
+            image: `image.${i}.jpg`,
+            date: `date${i}`
         });
     }
     return result;
@@ -110,7 +112,7 @@ class MakerVideosResolverService {
         const { videosCount } = route.data;
         return this.content.getIndex('app-maker-videos').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_2__.map)((items) => {
             if (videosCount && videosCount > 0) {
-                return items.slice(0, videosCount);
+                return items.sort((a, b) => a.date > b.date ? -1 : 1).slice(0, videosCount);
             }
             else {
                 return items;
