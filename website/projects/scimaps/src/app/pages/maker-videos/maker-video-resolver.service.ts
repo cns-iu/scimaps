@@ -25,7 +25,8 @@ export const toMakerVideo = (item: Params, directory = ''): MakerVideo => {
     videoLink: item.videoLink,
     maker: item.maker,
     image: item.image,
-    slug: toSlug(item.title)
+    slug: toSlug(item.title),
+    date: item.date
   };
   result.image = getVideoImageSource(result, directory);
   return result;

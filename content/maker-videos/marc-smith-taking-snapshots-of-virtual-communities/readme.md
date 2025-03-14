@@ -11,4 +11,6 @@ long_description: Marc A. Smith on why the internet has been a gift to
   information visualization is designed to transmit data insights to a human
   observer, it represents “one of the most humanist corners of the computer
   sciences.”
+date: 2016-11-21
+---
 ---
