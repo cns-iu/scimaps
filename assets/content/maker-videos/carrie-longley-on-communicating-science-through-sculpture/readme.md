@@ -9,4 +9,5 @@ long_description: "Sculptor Carrie Longley’s contribution to Places & Spaces i
   project challenged her artistic process and explains how the tactile,
   three-dimensional quality of clay sculpture can convey facets of data that
   image and text cannot. "
+date: 2016-12-06
 ---
