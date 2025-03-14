@@ -45,10 +45,8 @@ export class MakerVideosResolverService implements Resolve<MakerVideo[]> {
     return this.content.getIndex<Params>('app-maker-videos').pipe(
       map((items: Params[]) => {
         if (videosCount && videosCount > 0) {
-          console.warn(items)
           return items.sort((a, b) => a.date > b.date ? -1 : 1).slice(0, videosCount);
         } else {
-          console.warn(items)
           return items;
         }
       }),
