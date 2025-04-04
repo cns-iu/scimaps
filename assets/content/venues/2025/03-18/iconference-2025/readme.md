@@ -7,4 +7,5 @@ organizer: Noriko Hara, Carol Choksy
 city: Bloomington
 state: IN
 country: USA
+pdfLink: iconference-tour-flyer.pdf
 ---

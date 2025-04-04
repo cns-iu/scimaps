@@ -7,4 +7,5 @@ organizer: Arts and Humanities Council
 city: Bloomington
 state: IN
 country: USA
+pdfLink: april-first-thursdays-poster.jpg
 ---
