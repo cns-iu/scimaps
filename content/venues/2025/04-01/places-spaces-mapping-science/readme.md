@@ -8,16 +8,16 @@ city: Bloomington
 state: Indiana
 country: USA
 venueImages:
-  - lg: image-1.jpg
-    sm: image-1.jpg
-  - lg: image-2.jpg
-    sm: image-2.jpg
-  - lg: image-3.jpg
-    sm: image-3.jpg
-  - lg: image-4.jpg
-    sm: image-4.jpg
-  - lg: image-5.jpg
-    sm: image-5.jpg
-  - lg: image-6.jpg
-    sm: image-6.jpg
+  - sm: new-image-1.jpg
+    lg: new-image-1.jpg
+  - sm: new-image-2.jpg
+    lg: new-image-2.jpg
+  - sm: new-image-3.jpg
+    lg: new-image-3.jpg
+  - sm: new-image-4.jpg
+    lg: new-image-4.jpg
+  - sm: new-image-5.jpg
+    lg: new-image-5.jpg
+  - sm: new-image-6.jpg
+    lg: new-image-6.jpg
 ---
