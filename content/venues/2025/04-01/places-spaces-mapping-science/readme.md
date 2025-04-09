@@ -7,4 +7,17 @@ organizer: Aubrey Seader
 city: Bloomington
 state: Indiana
 country: USA
+venueImages:
+  - lg: image-1.jpg
+    sm: image-1.jpg
+  - lg: image-2.jpg
+    sm: image-2.jpg
+  - lg: image-3.jpg
+    sm: image-3.jpg
+  - lg: image-4.jpg
+    sm: image-4.jpg
+  - lg: image-5.jpg
+    sm: image-5.jpg
+  - lg: image-6.jpg
+    sm: image-6.jpg
 ---
