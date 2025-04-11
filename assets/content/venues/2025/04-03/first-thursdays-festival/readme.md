@@ -8,4 +8,21 @@ city: Bloomington
 state: IN
 country: USA
 pdfLink: april-first-thursdays-poster.jpg
+venueImages:
+  - sm: new-8351-image.jpg
+    lg: new-8351-image.jpg
+  - sm: new-8352-image.jpg
+    lg: new-8352-image.jpg
+  - sm: new-8349-image.jpg
+    lg: new-8349-image.jpg
+  - sm: new-8341-image.jpg
+    lg: new-8341-image.jpg
+  - sm: new-8342-image.jpg
+    lg: new-8342-image.jpg
+  - sm: new-8343-image.jpg
+    lg: new-8343-image.jpg
+  - sm: new-8344-image.jpg
+    lg: new-8344-image.jpg
+  - sm: new-8340-image.jpg
+    lg: new-8340-image.jpg
 ---
