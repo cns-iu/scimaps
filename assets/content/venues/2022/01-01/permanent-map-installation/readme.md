@@ -1,6 +1,6 @@
 ---
 dateStart: 2022-01-01T17:13:59.051Z
-dateEnd: 2120-01-01T17:13:00.000Z
+dateEnd: 2021-01-01T17:13:00.000Z
 title: Permanent Map Installation
 venue: DZHW
 organizer: Katy Börner

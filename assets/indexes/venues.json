@@ -15318,7 +15318,7 @@
   },
   {
     "dateStart": "2022-01-01T17:13:59.051Z",
-    "dateEnd": "2120-01-01T17:13:00.000Z",
+    "dateEnd": "2021-01-01T17:13:00.000Z",
     "title": "Permanent Map Installation",
     "venue": "DZHW",
     "organizer": "Katy Börner",
@@ -16336,7 +16336,33 @@
     "organizer": "Aubrey Seader",
     "city": "Bloomington",
     "state": "Indiana",
-    "country": "USA"
+    "country": "USA",
+    "venueImages": [
+      {
+        "sm": "new-image-1.jpg",
+        "lg": "new-image-1.jpg"
+      },
+      {
+        "sm": "new-image-2.jpg",
+        "lg": "new-image-2.jpg"
+      },
+      {
+        "sm": "new-image-3.jpg",
+        "lg": "new-image-3.jpg"
+      },
+      {
+        "sm": "new-image-4.jpg",
+        "lg": "new-image-4.jpg"
+      },
+      {
+        "sm": "new-image-5.jpg",
+        "lg": "new-image-5.jpg"
+      },
+      {
+        "sm": "new-image-6.jpg",
+        "lg": "new-image-6.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2025-04-03T15:13:05.299Z",
@@ -16347,7 +16373,41 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "USA",
-    "pdfLink": "april-first-thursdays-poster.jpg"
+    "pdfLink": "april-first-thursdays-poster.jpg",
+    "venueImages": [
+      {
+        "sm": "new-8351-image.jpg",
+        "lg": "new-8351-image.jpg"
+      },
+      {
+        "sm": "new-8352-image.jpg",
+        "lg": "new-8352-image.jpg"
+      },
+      {
+        "sm": "new-8349-image.jpg",
+        "lg": "new-8349-image.jpg"
+      },
+      {
+        "sm": "new-8341-image.jpg",
+        "lg": "new-8341-image.jpg"
+      },
+      {
+        "sm": "new-8342-image.jpg",
+        "lg": "new-8342-image.jpg"
+      },
+      {
+        "sm": "new-8343-image.jpg",
+        "lg": "new-8343-image.jpg"
+      },
+      {
+        "sm": "new-8344-image.jpg",
+        "lg": "new-8344-image.jpg"
+      },
+      {
+        "sm": "new-8340-image.jpg",
+        "lg": "new-8340-image.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2025-05-18T16:00:40.390Z",
@@ -16357,16 +16417,6 @@
     "organizer": "Jörg Neumann",
     "city": "COSMO",
     "state": "Dresden",
-    "country": "Germany"
-  },
-  {
-    "dateStart": "2025-06-16T16:00:53.195Z",
-    "dateEnd": "2025-06-18T16:00:53.203Z",
-    "title": "Systems Biology of Human Disease ",
-    "venue": "Kaiserin Friedrich",
-    "organizer": "Franziska Gudrun Muller",
-    "city": "SBHD",
-    "state": "Berlin",
     "country": "Germany"
   },
   {
