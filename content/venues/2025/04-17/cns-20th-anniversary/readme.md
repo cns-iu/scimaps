@@ -7,4 +7,5 @@ organizer: CNS
 city: Bloomington
 state: IN
 country: USA
+pdfLink: amatria-s-birthday.pdf
 ---
