@@ -20,4 +20,14 @@ venueImages:
     lg: new-image-5.jpg
   - sm: new-image-6.jpg
     lg: new-image-6.jpg
+  - sm: img_2919-resized.jpg
+    lg: img_2919-resized.jpg
+  - sm: iu-cyberinfrastructure-network-science-center-april-2025-close-up-5-resized.jpg
+    lg: iu-cyberinfrastructure-network-science-center-april-2025-close-up-5-resized.jpg
+  - sm: iu-cyberinfrastructure-network-science-center-april-2025-mid-1-resize.jpg
+    lg: iu-cyberinfrastructure-network-science-center-april-2025-mid-1-resize.jpg
+  - sm: iu-cyberinfrastructure-network-science-center-april-2025-wide-2-resize.jpg
+    lg: iu-cyberinfrastructure-network-science-center-april-2025-wide-2-resize.jpg
+  - sm: iu-cyberinfrastructure-science-center-close-up-1-resize.jpg
+    lg: iu-cyberinfrastructure-science-center-close-up-1-resize.jpg
 ---
