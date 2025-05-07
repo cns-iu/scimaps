@@ -1,8 +1,8 @@
 ---
 dateStart: 2025-04-18T14:00:32.844Z
 dateEnd: 2025-04-18T16:00:32.849Z
-title: Amatria's 7th Birthday
-venue: Luddy School of Informatics
+title: Amatria's 7th Birthday at Luddy
+venue: Luddy School of Informatics, Computing, and Engineering
 organizer: Cyberinfrastructure for Network Science Center
 city: Bloomington
 state: IN
