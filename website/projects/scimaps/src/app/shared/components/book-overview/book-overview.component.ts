@@ -10,6 +10,7 @@ export interface Book {
   amazonLink: string;
   slug: string;
   images: {sm: string, lg: string}[];
+  date: string;
 }
 
 
