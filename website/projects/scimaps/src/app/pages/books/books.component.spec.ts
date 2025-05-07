@@ -18,7 +18,8 @@ export function getBooks(numberOfProfiles: number): Book[] {
       slug: `slug-${i}`,
       pdfLink: `pdfLink${i}`,
       amazonLink: `amazonLink ${i}`,
-      images: [{sm: 'a.jpg', lg: 'b.jpg' }, {sm: 'c.jpg', lg: 'd.jpg'}]
+      images: [{sm: 'a.jpg', lg: 'b.jpg' }, {sm: 'c.jpg', lg: 'd.jpg'}],
+      date: `date ${i}`,
     });
   }
   return books;
