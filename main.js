@@ -1773,7 +1773,8 @@ class BooksResolverService {
             author: item.author,
             body: item.body,
             slug: (0,_shared_services_content_service__WEBPACK_IMPORTED_MODULE_0__.toSlug)(item.title),
-            images: item.bookImages
+            images: item.bookImages,
+            date: item.date
         };
     }
     toBookUI(book) {
@@ -1916,7 +1917,8 @@ class BooksComponent {
     ngOnInit() {
         this.dataSubscription = this.route.data.subscribe((data) => {
             if (data && data.hasOwnProperty('books') && Array.isArray(data.books)) {
-                this.books = data.books;
+                const unsorted = [...data.books];
+                this.books = unsorted.sort((a, b) => a.date > b.date ? -1 : 1);
             }
         });
     }

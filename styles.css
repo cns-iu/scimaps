@@ -3250,7 +3250,7 @@ input.mat-input-element {
 .sci-mobile-header-menu .filler {
   background-color: #fafafa;
 }
-.sci-book-overview .title {
+.sci-book-overview .title, .sci-book-overview .available-date {
   color: #757575;
 }
 .sci-book-overview .show-more {
