@@ -29,7 +29,7 @@ Transcending the static nature of the maps featured in the initial trilogy, this
 
 Encompassing vast amounts of data, macroscopes give us holistic views of complex systems or networks. They provide an entry point for scientists and laypeople alike, and empower us to engage directly with large datasets and to conduct our own lines of questioning. As interactive tools, macroscopes connect data creators and users. As portals to continuously evolving data, macroscopes can serve as windows to the dynamics of any terrain—personal or professional, local or global—and offer key insights into our surroundings and even our place in the universe.
 
-While big data is creating new ways to view and understand information, macroscopes help us see the big picture as we seek to better navigate our ever-changing world.\
+While big data is creating new ways to view and understand information, macroscopes help us see the big picture as we seek to better navigate our ever-changing world.
 
 *“This Atlas uniquely brings together the most outstanding interactive data visualizations created in recent years. It covers a very wide range of topics, demonstrating why data visualization is an essential communication medium today in so many fields.”*\
 —Lev Manovich, City University of New York; author of Artificial Aesthetics: Generative AI, Art and Visual Media
