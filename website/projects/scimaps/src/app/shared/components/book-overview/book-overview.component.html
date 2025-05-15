@@ -1,8 +1,8 @@
 <div class="text-column">
   <h3 class="title">{{ book.title }}</h3>
-  <div class="author">Author: {{ book.author }}</div>
+  <div class="author">Author{{book.author.includes(',') ? 's' : ''}}: {{book.author}}</div>
   <div class="publisher">
-    Published by: 
+    Published by:
     <a class="link" href="http://mitpress.mit.edu/" rel="noreferrer noopener" target="_blank">
       {{ book.publisher }}
     </a>
