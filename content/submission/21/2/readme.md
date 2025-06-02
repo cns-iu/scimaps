@@ -1,9 +1,6 @@
 ---
 en:
-  iteration: 21
   sequence: 2
-  year: 2025
-  title: Time Rewind
   body: >-
     <﻿!--Start Fragment-->
 
@@ -24,8 +21,7 @@ en:
 
 
     <﻿!--End Fragment-->
-  makers:
-    - maria-magdalena-kossak/readme
+  externalLink: https://mariamagdalena.rocks
   references:
     - <﻿!--Start Fragment--> https://mariamagdalena.rocks/art <!--End Fragment-->
     - <﻿!--Start Fragment--> https://mariamagdalena.rocks/exhibitions <!--End
@@ -37,11 +33,18 @@ en:
       <!--End Fragment-->
     - <﻿!--Start Fragment--> https://contemporary-collective.com/about <!--End
       Fragment-->
+  makers:
+    - maria-magdalena-kossak/readme
+  title: Time Rewind
   image:
     sm: timerewindsm.png
     med: timerewindsm.png
     lg: timerewindsm.png
-es: {}
+  year: 2025
+  iteration: 21
+es:
+  makers:
+    - maria-magdalena-kossak/readme
 zh: {}
 fr: {}
 pt: {}
