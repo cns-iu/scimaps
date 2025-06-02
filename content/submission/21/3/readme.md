@@ -1,9 +1,6 @@
 ---
 en:
-  iteration: 21
   sequence: 3
-  year: 2025
-  title: Grand Tour
   body: >-
     <﻿!--Start Fragment-->
 
@@ -21,15 +18,21 @@ en:
 
 
     By fusing historical reference with contemporary computation, Grand Tour constructs a reflective space where data, memory, and identity collide. It challenges viewers to consider not only what is seen but how seeing itself is structured through technology, through time, and through inherited systems of power and representation.
-  makers:
-    - miguel-ripoll/readme
+  externalLink: https://miguelripoll.art/expos/grand-tour-miguel-ripoll-2025.pdf
   references:
     - <﻿!--Start Fragment--> https://miguelripoll.art <!--End Fragment-->
+  makers:
+    - miguel-ripoll/readme
+  title: Grand Tour
   image:
     sm: grandtoursm.png
     med: grandtoursm.png
     lg: grandtoursm.png
-es: {}
+  year: 2025
+  iteration: 21
+es:
+  makers:
+    - miguel-ripoll/readme
 zh: {}
 fr: {}
 pt: {}
