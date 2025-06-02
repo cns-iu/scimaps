@@ -31,7 +31,9 @@ en:
     lg: latentxylellasm.png
   year: 2025
   iteration: 21
-es: {}
+es:
+  makers:
+    - michele-rinaldi/readme
 zh: {}
 fr: {}
 pt: {}
