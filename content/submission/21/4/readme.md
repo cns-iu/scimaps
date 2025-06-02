@@ -1,9 +1,6 @@
 ---
 en:
-  iteration: 21
   sequence: 4
-  year: 2025
-  title: Shakespe(AI)re
   body: >-
     <﻿!--Start Fragment-->
 
@@ -21,17 +18,23 @@ en:
 
 
     <﻿!--End Fragment-->
-  makers:
-    - lilia-chak/readme
+  externalLink: https://chak-art.gala-studio.com/art.php?Work=Shakespeaire
   references:
     - <﻿!--Start Fragment-->
       https://chak-art.gala-studio.com/art.php?Work=Piyut_Coding <!--End
       Fragment-->
+  makers:
+    - lilia-chak/readme
+  title: Shakespe(AI)re
   image:
     sm: shakespe-ai-resm.png
     med: shakespe-ai-resm.png
     lg: shakespe-ai-resm.png
-es: {}
+  year: 2025
+  iteration: 21
+es:
+  makers:
+    - lilia-chak/readme
 zh: {}
 fr: {}
 pt: {}
