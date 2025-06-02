@@ -1,6 +1,6 @@
 ---
 en:
-  sequence: 7
+  sequence: 8
   body: >-
     <﻿!--Start Fragment-->
 
@@ -32,7 +32,9 @@ en:
     lg: artiworldviewssm.png
   year: 2025
   iteration: 21
-es: {}
+es:
+  makers:
+    - kim-albrecht/readme
 zh: {}
 fr: {}
 pt: {}
