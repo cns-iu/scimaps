@@ -18,12 +18,7 @@ en:
     <﻿!--End Fragment-->
   externalLink: " https://www.kenrinaldo.com/portfolio/opera-for-dying-insects/"
   references:
-    - |-
-      <﻿!--Start Fragment-->
-
-      https://www.antennae.org.uk/
-
-      <﻿!--End Fragment-->
+    - <﻿!--Start Fragment--> https://www.antennae.org.uk/ <﻿!--End Fragment-->
   makers:
     - ken-rinaldo/readme
   title: The Opera of Dying Insects
@@ -33,7 +28,9 @@ en:
     lg: operasm.png
   year: 2025
   iteration: 21
-es: {}
+es:
+  makers:
+    - ken-rinaldo/readme
 zh: {}
 fr: {}
 pt: {}
