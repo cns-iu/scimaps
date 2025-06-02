@@ -55,7 +55,9 @@ en:
     lg: dimensionalfluctionsm.jpg
   year: 2025
   iteration: 21
-es: {}
+es:
+  makers:
+    - shaoyu-su/readme
 zh: {}
 fr: {}
 pt: {}
