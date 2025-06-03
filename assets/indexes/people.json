@@ -94,6 +94,13 @@
     ]
   },
   {
+    "name": "Alec McGail",
+    "last_name": "McGail",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Alessandro Vespignani is James H. Rudy Professor of Informatics and Computing and adjunct professor of physics and statistics at Indiana University, where he is also the director of the Center for Complex Networks and Systems Research (CNetS) and associate director of the Pervasive Technology Institute. He obtained his PhD at the University of Rome “La Sapienza.” After holding research positions at Yale University and Leiden University, he was a member of the condensed matter research group at the International Center for Theoretical Physics (UNESCO) in Trieste. Before joining Indiana University, Vespignani was faculty of the Laboratoire de Physique Théorique at the University of Paris-Sud, working for the French National Council for Scientific Research (CNRS), of which he is still a member at large. Vespignani is an elected fellow of the American Physical Society and is serving on the board/leadership of a variety of professional associations and journals and the Institute for Scientific Interchange Foundation in Turin, Italy.\n",
     "name": "Alessandro Vespignani",
     "last_name": "Vespignani",
@@ -157,6 +164,13 @@
     ]
   },
   {
+    "name": "Amélie Desvars-Larrive",
+    "last_name": "Desvars-Larrive",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Analía Plaza is a Spanish journalist based in Madrid, Spain. She currently works as a reporter for *El Periódico de España*, covering topics such as mobility, urban planning, and housing. Prior to this, she worked as a reporter for *elDiario.es* and contributed to several other publications, including *El Confidencial* and *El País*. Plaza has also worked in the tech industry, serving as the product manager for Spain at Citymapper,  a London-based transport app, where she helped develop new features and improve user experience. With her expertise in both journalism and technology, she is well positioned to cover the intersection of urban living and transportation.",
     "name": "Analía Plaza",
     "last_name": "Plaza",
@@ -204,6 +218,13 @@
     "location_name": "Amsterdam, Netherlands",
     "region": "europe",
     "image": "image.jpg"
+  },
+  {
+    "name": "Andrew Adamatzky",
+    "last_name": "Adamatzky",
+    "roles": [
+      "maker"
+    ]
   },
   {
     "body": "Andrew Levinson is a Brooklyn-based designer who loves to work with data. As a graphics reporter for The Wall Street Journal, he spends his time visualizing election results and developing interactive stories in the newsroom. Levinson recently graduated from Parsons School of Design at The New School with an MS in data visualization. Previously, he has worked as a designer at a software agency, an analyst for a financial consultancy, and a musician in a touring metal band.\n",
@@ -291,10 +312,24 @@
     ]
   },
   {
+    "name": "Arber Ceni",
+    "last_name": "Ceni",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Aric Hagberg is a staff scientist at the Los Alamos National Laboratory. His research focuses on nonlinear dynamics, complex systems, and network dynamics. He led development of the NetworkX project, a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.\n",
     "name": "Aric Hagberg",
     "last_name": "Hagberg",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Aurora Mititelu",
+    "last_name": "Mititelu",
     "roles": [
       "maker"
     ]
@@ -637,6 +672,13 @@
     ]
   },
   {
+    "name": "Christiane V. R. Hütter",
+    "last_name": "Hütter",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Christine Kreuder Johnson is associate professor of epidemiology in the School of Veterinary Medicine, University of California, Davis where she works primarily on ecosystem-level process that impact wildlife and public health. Since appointment to the faculty in 2003, she has led scientific programs and large-scale population health investigations to address emerging wildlife disease, mortality events, and threats to public health and conservation. Before joining the faculty at UC Davis, she worked as a veterinarian in private equine racetrack practice. Current activities are focused on identifying situations likely to facilitate future disease emergence and developing risk-based approaches for disease surveillance and epidemiologic tools for integrating data across field studies from the local to global scale to provide evidence-based support for policy decisions.\n",
     "name": "Christine Kreuder Johnson",
     "last_name": "Kreuder Johnson",
@@ -702,6 +744,13 @@
     "name": "Council for Chemical Research",
     "last_name": "Council",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Cristian Nogales",
+    "last_name": "Nogales",
     "roles": [
       "maker"
     ]
@@ -774,6 +823,13 @@
     "name": "Danny Dorling",
     "last_name": "Dorling",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Danya Gonsales",
+    "last_name": "Gonsales",
     "roles": [
       "maker"
     ]
@@ -1159,6 +1215,13 @@
     ]
   },
   {
+    "name": "Fábio Duarte",
+    "last_name": "Duarte",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Félix de Moya Anegón is research professor at the Institute of Public Goods and Policies (IPP) from the Spanish National Research Council (CSIC). His academic interests include scientometrics, bibliometrics, research evaluation, and science policy, and he has published around 100 papers in these fields. He is SCImago Research Group’s main researcher, where he has led renowned bibliometric projects including SCImago Journal & Country Rank, SCImago Institution Rankings, and The Atlas of Science. De Moya is also an advisor on science policy issues for national organizations of science and technology and research institutions around the world.",
     "name": "Félix de Moya Anegón",
     "last_name": "Anegón",
@@ -1166,6 +1229,13 @@
       "maker"
     ],
     "image": "image.jpg"
+  },
+  {
+    "name": "Felix Müller",
+    "last_name": "Müller",
+    "roles": [
+      "maker"
+    ]
   },
   {
     "name": "Fengli Xiao",
@@ -1229,6 +1299,13 @@
     "name": "Francis Narin",
     "last_name": "Narin",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Gabriel Francisco Lemos",
+    "last_name": "Lemos",
     "roles": [
       "maker"
     ]
@@ -1338,6 +1415,13 @@
     ]
   },
   {
+    "name": "Guli Silberstein",
+    "last_name": "Silberstein",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Gully A.P.C. Burns holds a BS in physics from Imperial College London and a PhD in physiology from Oxford University, England. He is a project leader at the Information Sciences Institute (ISI) of the Viterbi School of Engineering, University of Southern California (USC). Burns is also a research assistant professor at the USC Dornsife College of Letters, Arts, and Sciences. His research group at ISI is concerned with advancing knowledge representation, mining, and reasoning to build open-source biomedical informatics systems for bench scientists, such as NeuroScholar and NeuARt II.\n",
     "name": "Gully A.P.C. Burns",
     "last_name": "Burns",
@@ -1431,6 +1515,13 @@
     "name": "Iana Atanassova",
     "last_name": "Atanassova",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Iker Nuñez Carpintero",
+    "last_name": "Carpintero",
     "roles": [
       "maker"
     ]
@@ -1699,6 +1790,20 @@
     ]
   },
   {
+    "name": "Jieliang (Rodger) Luo ",
+    "last_name": "Luo",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Jingrong Zhang ",
+    "last_name": "Zhang",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Joey Cherdarchuk is a cofounder and the design lead at Darkhorse Analytics. A data visualization expert, his work has been highlighted in The New York Times, HuffPost, and The Washington Post. His “[Breathing City](http://www.darkhorseanalytics.com/portfolio/breathing-city?rq=breathing)” graphic was shortlisted for an Information is Beautiful award. Cherdarchuk developed his design expertise after a 15-year quantitative analysis and consulting career. It is this analytical foundation that helps him create visuals that are both clear and engaging. He offers training on data visualization and his [Data Looks Better Naked](http://www.darkhorseanalytics.com/search?q=data%20looks%20better%20naked) series is used in visualization curricula around the world.  \n",
     "name": "Joey Cherdarchuk",
     "last_name": "Cherdarchuk",
@@ -1823,6 +1928,13 @@
     ]
   },
   {
+    "name": "Jörg Menche",
+    "last_name": "Menche",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Joseph P. Martino earned a BA in physics at Miami University, an MS in electrical engineering at Purdue University, and a PhD in mathematics at Ohio State University. He then served in the U.S. Air Force for 22 years, in which he was a member of the Plans Staff of both the Air Force Avionics Laboratory and the Air Force Office of Scientific Research; he was also chief of the Environmental Analysis Division of the Air Force Office of Research and Analysis. In these positions, he was responsible for preparing the forecasts of critical technologies for future weapons systems. After retiring as a full-bird colonel, Martino was a senior research scientist at the University of Dayton Research Institute, where from 1975 to 1993 he conducted research for the Army Missile Command, Martin Marietta Materials, AT&T, IT&T, the Hobart Corporation, and other sponsors. He also created and taught graduate-level engineering courses on technological forecasting in R&D planning, business, and government and methods of anticipating the social, economic, and environmental consequences of new technology. Martino is the author of Technological Forecasting for Decision Making (1972) and Research and Development Project Selection (1995). He is now a private consultant in technology management and a fellow of the Institute of Electrical and Electronics Engineers, the American Institute of Aeronautics and Astronautics, and the American Association for the Advancement of Science.\n",
     "name": "Joseph P. Martino",
     "last_name": "Martino",
@@ -1884,6 +1996,20 @@
     ]
   },
   {
+    "name": "Katherina Sadovsky",
+    "last_name": "Sadovsky",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Katika",
+    "last_name": "Katika",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Katy Börner is the Victor H. Yngve Distinguished Professor of Information Science at the School of Library and Information Science, Adjunct Professor at the School of Informatics and Computing, Adjunct Professor at the Department of Statistics in the College of Arts and Sciences, Core Faculty of Cognitive Science, Research Affiliate of the Biocomplexity Institute, Fellow of the Center for Research on Learning and Technology, Member of the Advanced Visualization Laboratory, and Founding Director of the [Cyberinfrastructure for Network Science Center](http://cns.iu.edu) at Indiana University. [Learn more about Katy here](http://info.slis.indiana.edu/~katy/index.html).",
     "name": "Katy Börner",
     "last_name": "Börner",
@@ -1932,6 +2058,13 @@
     "image": "kelly-fang.png"
   },
   {
+    "name": "Ken Rinaldo",
+    "last_name": "Rinaldo",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Kevin W. Boyack holds a PhD in chemical engineering from Brigham Young University. As the president of SciTech Strategies, Inc., his work centers on developing more accurate global maps of science. He has published nearly 30 articles dealing with various aspects of science mapping and related metrics. Previously, he worked in combustion (experimental and modeling), transport processes, socioeconomic war gaming, and science mapping for 17 years at Sandia National Laboratories. Current interests include detailed mapping of the structure and dynamics of science and technology, application of full text to science mapping and bibliometrics, and the identification of emerging topics.\n",
     "name": "Kevin W. Boyack",
     "last_name": "Boyack",
@@ -1945,6 +2078,13 @@
     "location_name": "Albuquerque, NM, USA",
     "region": "n_america",
     "image": "image.jpg"
+  },
+  {
+    "name": "Khristina Ots",
+    "last_name": "Ots",
+    "roles": [
+      "maker"
+    ]
   },
   {
     "body": "Kim Albrecht is a visual researcher and information designer interested in networks, time, power, processes and how we can find visual representations for these topics to produce and represent knowledge. He collaborates and designs interfaces with research groups from a wide variety of scientific fields and universities at the Center for Complex Network Research. In 2016, Albrecht started his PhD research at the University of Potsdam in the field of media theory. He will be researching information visualizations and their interfaces regarding their epistemological value and how they help us to make sense of the world.\n",
@@ -2042,6 +2182,20 @@
     "name": "Li Yao",
     "last_name": "Yao",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Lilia Chak",
+    "last_name": "Chak",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Lilia Li-Mi-Yan ",
+    "last_name": "Li-Mi-Yan",
     "roles": [
       "maker"
     ]
@@ -2226,6 +2380,13 @@
     ]
   },
   {
+    "name": "Maria Magdalena Kossak",
+    "last_name": "Kossak",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "name": "Maria Rosaria D’Esposito",
     "last_name": "D’Esposito",
     "roles": [
@@ -2328,6 +2489,13 @@
     "image": "martin_bruckner.png"
   },
   {
+    "name": "Martin Chiettini",
+    "last_name": "Chiettini",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "name": "Martin Schaaper",
     "last_name": "Schaaper",
     "roles": [
@@ -2406,6 +2574,13 @@
   {
     "name": "Max Roser",
     "last_name": "Roser",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Maximilian Noichl",
+    "last_name": "Noichl",
     "roles": [
       "maker"
     ]
@@ -2538,6 +2713,13 @@
     ]
   },
   {
+    "name": "Michele Rinaldi",
+    "last_name": "Rinaldi",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "name": "Micki McGee",
     "last_name": "McGee",
     "roles": [
@@ -2549,6 +2731,13 @@
     "location_name": "New York, NY, USA",
     "region": "n_america",
     "image": "image.jpg"
+  },
+  {
+    "name": "Miguel Ripoll",
+    "last_name": "Ripoll",
+    "roles": [
+      "maker"
+    ]
   },
   {
     "name": "Mirko Clemente",
@@ -2654,10 +2843,24 @@
     ]
   },
   {
+    "name": "Nikita Kolbovskiy",
+    "last_name": "Kolbovskiy",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Nikita Rokotyan is a data visualization engineer and designer with a background in physics and creative technologies who specializes in creating enriched, data-driven experiences with strong dynamic and interactive components. In 2014, he founded Interacta, a data visualization studio where a team of developers, scientists, and designers build beautiful tools for visual analytics. In 2019, one of the studio’s projects—An Alternative Data-Driven Country Map—won the World Data Visualization Prize, the award organized by the World Government Summit and Information Is Beautiful. He is currently based in the San Francisco Bay area. \n",
     "name": "Nikita Rokotyan",
     "last_name": "Rokotyan",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Nikita Sridhar",
+    "last_name": "Sridhar",
     "roles": [
       "maker"
     ]
@@ -2893,6 +3096,13 @@
     "image": "image.jpg"
   },
   {
+    "name": "Petukhina Kristina",
+    "last_name": "Kristina",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "name": "Philipp Hofeneder ",
     "last_name": "Philipp Hofeneder ",
     "roles": [
@@ -2994,6 +3204,13 @@
     "name": "Richard Merrick",
     "last_name": "Merrick",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Rifaa Tajani",
+    "last_name": "Tajani",
     "roles": [
       "maker"
     ]
@@ -3105,6 +3322,13 @@
     ]
   },
   {
+    "name": "Santiago Ortiz",
+    "last_name": "Ortiz",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "name": "Sara Irina Fabrikant",
     "last_name": "Fabrikant",
     "roles": [
@@ -3116,6 +3340,13 @@
     "location_name": "Zürich, Switzerland",
     "region": "europe",
     "image": "image.jpg"
+  },
+  {
+    "name": "Sara Niroobakhsh",
+    "last_name": "Niroobakhsh",
+    "roles": [
+      "maker"
+    ]
   },
   {
     "body": "Sarah Crespi is the senior podcast producer and host at *Science*. She has spent the past 10 years pushing the latest science through her brain like cheese through a grater. The shreds: videos, podcasts, GIFs, and stories. She has a master's in journalism from the Knight Center for Environmental Journalism at Michigan State University and a BA in biology from Reed College.",
@@ -3158,6 +3389,13 @@
     "image": "image.jpg"
   },
   {
+    "name": "Sebastian Pirch",
+    "last_name": "Pirch",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Sébastien Heymann is a research engineer at the Institute for Scientific and Technical Information (INISTCNRS) in France. He has an MS in computer science from the University of Technology of Compiègne, specializing in cognitive science and human–computer interaction. Passionate about open-source strategies, Heymann focuses on managing the community of the Gephi project. Deeply interested in network science and data visualization, he is working toward his PhD as part of the Complex Networks team at the Laboratoire d’Informatique de Paris 6, studying the dynamic topology of real-world networks, such as social networks, computer networks, and the Web overall.\n",
     "name": "Sébastien Heymann",
     "last_name": "Heymann",
@@ -3176,8 +3414,22 @@
     ]
   },
   {
+    "name": "Sergey Kostyrko",
+    "last_name": "Kostyrko",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "name": "Sergey Ryadovoy",
     "last_name": "Ryadovoy",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Shaoyu Su",
+    "last_name": "Su",
     "roles": [
       "maker"
     ]
@@ -3196,6 +3448,13 @@
     "name": "Shing-Yun Chiang",
     "last_name": "Chiang",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "SHUM",
+    "last_name": "SHUM",
     "roles": [
       "maker"
     ]
@@ -3593,6 +3852,13 @@
     ]
   },
   {
+    "name": "Weidi Zhang",
+    "last_name": "Zhang",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "name": "Weize Wu",
     "last_name": "Wu",
     "roles": [
@@ -3632,6 +3898,20 @@
       "maker"
     ],
     "image": "dong_xiaowen.png"
+  },
+  {
+    "name": "Yana Cherkasova ",
+    "last_name": "Charkasova",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Yaryna Denchuk ",
+    "last_name": "Denchuk",
+    "roles": [
+      "maker"
+    ]
   },
   {
     "name": "Ye Sun",
