@@ -2,10 +2,8 @@
 en:
   sequence: 3
   body: >-
-    <﻿!--Start Fragment-->
-
-
-    L﻿ink to Submitted Work: https://miguelripoll.art/expos/grand-tour-miguel-ripoll-2025.pdf
+    L﻿ink to Submitted Work:
+    https://miguelripoll.art/expos/grand-tour-miguel-ripoll-2025.pdf
 
 
     Grand Tour is a series of phygital artworks that examine the enduring legacies of cultural representation, power, and mobility through geographies (both real and imaginary) in our hyper-connected world. Merging human-led generative AI with manual editing and hand-crafted mixed media techniques on large-scale paper, the project reflects on how historical narratives of travel and exploration continue to shape present-day perceptions of identity, geography, and belonging. Each work begins as an adversarial dialogue with machine learning models (trained on custom datasets of art, history, and cartography) and is then extensively reworked by hand, both digitally and physically. The final compositions are printed on hand-drawn (pencil, ink) archival paper, creating a textured visual field that oscillates between machine precision and human tactility.
@@ -20,7 +18,7 @@ en:
     By fusing historical reference with contemporary computation, Grand Tour constructs a reflective space where data, memory, and identity collide. It challenges viewers to consider not only what is seen but how seeing itself is structured through technology, through time, and through inherited systems of power and representation.
   externalLink: https://miguelripoll.art/expos/grand-tour-miguel-ripoll-2025.pdf
   references:
-    - <﻿!--Start Fragment--> https://miguelripoll.art <!--End Fragment-->
+    - https://miguelripoll.art
   makers:
     - miguel-ripoll/readme
   title: Grand Tour
