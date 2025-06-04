@@ -2,9 +2,6 @@
 en:
   sequence: 14
   body: >-
-    <﻿!--Start Fragment-->
-
-
     L﻿ink to Submitted Work: https://www.rinaldimichele.com/latent-xylella/ 
 
 
@@ -15,13 +12,9 @@ en:
     The work visualizes the interaction between environmental, algorithmic, and emotional intelligence: human intelligence selects and curates the training images; artificial intelligence processes and transforms them; while emotional intelligence is activated in the viewer’s reception, recognizing in the ethereal forms the echoes of a collective identity at risk.
 
     Inspired by Bosch’s The Garden of Earthly Delights, Latent Xylella responds to the need to understand how artificial intelligences can collaborate with human sensitivity to preserve and re-narrate wounded places. Latent Xylella imagines new roots from what remains, in a land scarred but still capable of telling its story.
-
-
-    <﻿!--End Fragment-->
   externalLink: https://www.rinaldimichele.com/latent-xylella/
   references:
-    - <﻿!--Start Fragment--> https://www.mdpi.com/2073-445X/13/12/2087 <!--End
-      Fragment-->
+    - https://www.mdpi.com/2073-445X/13/12/2087
   makers:
     - michele-rinaldi/readme
   title: Latent Xylella
