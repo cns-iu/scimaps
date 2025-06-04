@@ -2,9 +2,6 @@
 en:
   sequence: 22
   body: >-
-    <﻿!--Start Fragment-->
-
-
     L﻿ink to Submitted Work: https://auroramititelu.com/abel-i/
 
 
@@ -18,17 +15,13 @@ en:
 
 
     By visualizing and enacting a deeply human kind of intelligence through technological means, Abel & I reframes the emotional stakes of AI and invites reflection on how we co-evolve with our digital reflections.
-
-
-    <﻿!--End Fragment-->
   externalLink: https://auroramititelu.com/abel-i/
   references:
     - >-
-      <﻿!--Start Fragment-->
       https://www.dum-umeni.cz/en/artificial-intimacies/t9775
 
 
-      The work has also been reviewed in Critical Reflection of AI Companions in Current Digital Art, a research paper by Maja Stark, Dagmar Schürrer, and Andrea Knaut submitted to the 25th ACM Conference on Intelligent Virtual Agents (IVA), and will appear in the upcoming issue of Neural Magazine (Italy). <!--End Fragment-->
+      The work has also been reviewed in Critical Reflection of AI Companions in Current Digital Art, a research paper by Maja Stark, Dagmar Schürrer, and Andrea Knaut submitted to the 25th ACM Conference on Intelligent Virtual Agents (IVA), and will appear in the upcoming issue of Neural Magazine (Italy).
   makers:
     - aurora-mititelu/readme
   title: Abel & I
@@ -38,7 +31,9 @@ en:
     lg: abel-ism.png
   year: 2025
   iteration: 21
-es: {}
+es:
+  makers:
+    - aurora-mititelu/readme
 zh: {}
 fr: {}
 pt: {}
