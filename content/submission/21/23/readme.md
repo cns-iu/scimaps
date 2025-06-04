@@ -2,10 +2,8 @@
 en:
   sequence: 23
   body: >-
-    <﻿!--Start Fragment-->
-
-
-    L﻿ink to Submitted Work: https://auroramititelu.com/visualising-ai-google-deepmind/
+    L﻿ink to Submitted Work:
+    https://auroramititelu.com/visualising-ai-google-deepmind/
 
 
     Visualising AI: Responsibility is a series of visuals I developed in collaboration with Google DeepMind as part of their public engagement program.
@@ -24,14 +22,10 @@ en:
 
 
     Special thanks to the wonderful Visualising AI team at Google DeepMind – Emma Yousif, Gaby Pearl and Ross West – for their collaboration and support throughout the development of this project.
-
-
-    <﻿!--End Fragment-->
   externalLink: https://auroramititelu.com/visualising-ai-google-deepmind/
   references:
-    - <﻿!--Start Fragment--> https://deepmind.google/discover/visualising-ai/
-      <!--End Fragment-->
-    - <﻿!--Start Fragment--> https://arxiv.org/pdf/2306.01800 <!--End Fragment-->
+    - https://deepmind.google/discover/visualising-ai/
+    - https://arxiv.org/pdf/2306.01800
   makers:
     - aurora-mititelu/readme
   title: "Responsibility: Visualising AI for GoogleDeepmind"
@@ -41,7 +35,9 @@ en:
     lg: responsibilitysm.png
   year: 2020
   iteration: 21
-es: {}
+es:
+  makers:
+    - aurora-mititelu/readme
 zh: {}
 fr: {}
 pt: {}
