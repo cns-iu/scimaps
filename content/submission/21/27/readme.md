@@ -2,9 +2,6 @@
 en:
   sequence: 27
   body: >-
-    <﻿!--Start Fragment-->
-
-
     L﻿ink to Submitted Work: https://huggingface.co/spaces/m7n/openalex_mapper
 
 
@@ -20,15 +17,10 @@ en:
     We originally built OpenAlex Mapper to study model transfer: the phenomenon whereby models, alongside their conceptualisations and associated computational methodologies, developed in one domain are transported into entirely different areas of inquiry. This process appears crucial to the collective creativity of science, rendering it a highly adaptive intelligent system.
 
 
-    But while the tool was initially developed to probe philosophical puzzles around model-based unification of the sciences, its deeper purpose is to facilitate genuinely data-driven inquiry in philosophy of science. It not only provides answers particular research questions but also anchors philosophical intuitions in large-scale empirical patterns, revealing epistemic dynamics across disciplines that would remain invisible from ground level. 
-
-
-    <﻿!--End Fragment-->
+    But while the tool was initially developed to probe philosophical puzzles around model-based unification of the sciences, its deeper purpose is to facilitate genuinely data-driven inquiry in philosophy of science. It not only provides answers particular research questions but also anchors philosophical intuitions in large-scale empirical patterns, revealing epistemic dynamics across disciplines that would remain invisible from ground level.
   externalLink: https://huggingface.co/spaces/m7n/openalex_mapper
   references:
-    - <﻿!--Start Fragment-->
-      https://maxnoichl.eu/full/talks/talk_BERLIN_April_2025/working_paper.pdf
-      <!--End Fragment-->
+    - https://maxnoichl.eu/full/talks/talk_BERLIN_April_2025/working_paper.pdf
   makers:
     - maximilian-noichl/readme
   title: OpenAlex Mapper
@@ -38,7 +30,9 @@ en:
     lg: openalexmappersm.png
   year: 2025
   iteration: 21
-es: {}
+es:
+  makers:
+    - maximilian-noichl/readme
 zh: {}
 fr: {}
 pt: {}
