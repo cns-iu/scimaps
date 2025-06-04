@@ -2,9 +2,6 @@
 en:
   sequence: 16
   body: >-
-    <﻿!--Start Fragment-->
-
-
     L﻿ink to Submitted Work: https://youtu.be/jDDoIWRqlA4
 
 
@@ -18,13 +15,9 @@ en:
 
 
     It is not a message. It is a frequency that has always been there, quietly folding around what we think we know—without permission.
-
-
-    <﻿!--End Fragment-->
   externalLink: https://youtu.be/jDDoIWRqlA4
   references:
-    - <﻿!--Start Fragment--> https://www.saraniroo.com/ib-impossible-baby
-      <!--End Fragment-->
+    - https://www.saraniroo.com/ib-impossible-baby
   makers:
     - sara-niroobakhsh/readme
   title: Error as Mother
@@ -34,7 +27,9 @@ en:
     lg: errormothersm.png
   year: 2025
   iteration: 21
-es: {}
+es:
+  makers:
+    - sara-niroobakhsh/readme
 zh: {}
 fr: {}
 pt: {}
