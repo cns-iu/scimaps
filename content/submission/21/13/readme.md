@@ -5,9 +5,6 @@ en:
   year: 2025
   title: Insertion Loss
   body: >-
-    <﻿!--Start Fragment-->
-
-
     L﻿ink to Submitted Work: https://youtu.be/zTcjKiPATbU
 
 
@@ -30,9 +27,6 @@ en:
 
 
     Rather than offering a utopia, the work suggests a subtle shift: from explaining to sensing, from interpreting to co-feeling. In a time when language grows louder but not clearer, perhaps cooperation between intelligences — human and artificial — can open new emotional channels.
-
-
-    <﻿!--End Fragment-->
   externalLink: https://youtu.be/zTcjKiPATbU
   makers:
     - shum/readme
@@ -40,7 +34,9 @@ en:
     sm: insertionlosssm.png
     med: insertionlosssm.png
     lg: insertionlosssm.png
-es: {}
+es:
+  makers:
+    - shum/readme
 zh: {}
 fr: {}
 pt: {}
