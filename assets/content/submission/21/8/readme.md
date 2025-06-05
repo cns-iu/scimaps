@@ -2,10 +2,7 @@
 en:
   sequence: 8
   body: >-
-    <﻿!--Start Fragment-->
-
-
-    L﻿ink to Submitted Work: https://artificial-worldviews.kimalbrecht.com
+    Link to Submitted Work: https://artificial-worldviews.kimalbrecht.com
 
 
     Artificial Worldviews is a series of inquiries into the system underlying ChatGPT about its descriptions of the world. Utilizing prompting, data gathering, and mapping, this project investigates the dataframes of »artificial intelligence« systems.
@@ -20,9 +17,7 @@ en:
     Artificial Worldviews is a project by Kim Albrecht supported by metaLAB (at) Harvard & Berlin, the Film University Babelsberg KONRAD WOLF, and the Folkwang University of the Arts. The project is part of a larger initiative researching the boundaries between artificial intelligence and society.
   externalLink: https://artificial-worldviews.kimalbrecht.com
   references:
-    - <﻿!--Start Fragment-->
-      https://artificial-worldviews.kimalbrecht.com/#appearances <!--End
-      Fragment-->
+    - https://artificial-worldviews.kimalbrecht.com/#appearances
   makers:
     - kim-albrecht/readme
   title: Artificial Worldviews

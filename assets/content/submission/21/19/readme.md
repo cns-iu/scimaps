@@ -5,10 +5,8 @@ en:
   year: 2023
   title: Breath of Thought
   body: >-
-    <﻿!--Start Fragment-->
-
-
-    L﻿ink to Submitted Work: https://drive.google.com/file/d/1VSK9V1lsE0KfqS_0QDqI8HoOtaPj_4II/view?usp=drivesdk
+    Link to Submitted Work:
+    https://drive.google.com/file/d/1VSK9V1lsE0KfqS_0QDqI8HoOtaPj_4II/view?usp=drivesdk
 
 
     This artwork explores the interaction between different forms of intelligence that coexist within the human body — microbial, bodily, and neural. These intelligences do not function hierarchically, but rather in constant exchange: through signals, impulses, and biochemical flows.
@@ -24,9 +22,6 @@ en:
 
 
     The work transforms invisible interaction into an abstract visual language. It invites us to see the body not just as a vessel of thought, but thought itself as a product of a living, multispecies ecosystem — one that thinks with us and through us.
-
-
-    <﻿!--End Fragment-->
   externalLink: https://drive.google.com/file/d/1VSK9V1lsE0KfqS_0QDqI8HoOtaPj_4II/view?usp=drivesdk
   makers:
     - yaryna-denchuk/readme
@@ -34,7 +29,9 @@ en:
     sm: breathofthoughtsm.jpg
     med: breathofthoughtsm.jpg
     lg: breathofthoughtsm.jpg
-es: {}
+es:
+  makers:
+    - yaryna-denchuk/readme
 zh: {}
 fr: {}
 pt: {}
