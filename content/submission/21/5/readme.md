@@ -45,15 +45,11 @@ en:
     lg: knowledgecosmossm.png
   year: 2025
   iteration: 21
-<<<<<<< HEAD
 es:
   makers:
     - nikita-sridhar/readme
     - alec-mcgail/readme
     - rifaa-tajani/readme
-=======
-es: {}
->>>>>>> 1a2bce43c64326288dcf7a1d5d99240ea96da47d
 zh: {}
 fr: {}
 pt: {}
