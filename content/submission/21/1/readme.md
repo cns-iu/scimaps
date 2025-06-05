@@ -2,7 +2,7 @@
 en:
   sequence: 1
   body: >-
-    L﻿ink to Submitted Work:
+    Link to Submitted Work:
     https://www.kenrinaldo.com/portfolio/opera-for-dying-insects/ 
 
 

@@ -5,7 +5,7 @@ en:
   year: 2025
   title: Insertion Loss
   body: >-
-    L﻿ink to Submitted Work: https://youtu.be/zTcjKiPATbU
+    Link to Submitted Work: https://youtu.be/zTcjKiPATbU
 
 
     Insertion Loss

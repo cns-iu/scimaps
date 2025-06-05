@@ -2,7 +2,7 @@
 en:
   sequence: 23
   body: >-
-    L﻿ink to Submitted Work:
+    Link to Submitted Work:
     https://auroramititelu.com/visualising-ai-google-deepmind/
 
 

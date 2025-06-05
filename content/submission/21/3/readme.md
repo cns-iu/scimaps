@@ -2,7 +2,7 @@
 en:
   sequence: 3
   body: >-
-    L﻿ink to Submitted Work:
+    Link to Submitted Work:
     https://miguelripoll.art/expos/grand-tour-miguel-ripoll-2025.pdf
 
 

@@ -2,7 +2,7 @@
 en:
   sequence: 16
   body: >-
-    L﻿ink to Submitted Work: https://youtu.be/jDDoIWRqlA4
+    Link to Submitted Work: https://youtu.be/jDDoIWRqlA4
 
 
     "Error as Mother" is a video artwork born from the proposition that creation was not an act of intention, but a deviation—an anomaly mistaken for origin. The work contemplates the presence of a pre-logical intelligence, one that precedes language, law, and structure. It is not divine, not maternal in a biological sense, but an entity that emerged from fracture—residue mistaken for design.

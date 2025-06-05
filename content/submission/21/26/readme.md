@@ -2,7 +2,7 @@
 en:
   sequence: 26
   body: >-
-    L﻿ink to Submitted Work:
+    Link to Submitted Work:
     https://docs.google.com/document/d/1OH1HwomtXlI9TMFzE_N1hmgSMpGT_i4Z/edit?usp=sharing&ouid=117620230526860872163&rtpof=true&sd=true
 
 

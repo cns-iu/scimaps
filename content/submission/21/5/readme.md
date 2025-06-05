@@ -2,7 +2,7 @@
 en:
   sequence: 5
   body: >-
-    L﻿ink to Submitted Work: https://www.theknowledgecosmos.com/
+    Link to Submitted Work: https://www.theknowledgecosmos.com/
 
 
     As the volume of scientific literature continues to expand exponentially, traditional research tools struggle to keep pace—often reinforcing disciplinary silos and limiting opportunities for discovery. The Knowledge Cosmos reimagines research exploration through an interactive, 3D visualization platform that treats science not as a static repository, but as a navigable universe. By spatializing 17 million academic papers based on semantic similarity, the platform enables users to explore the structure of knowledge intuitively, uncover interdisciplinary connections, and identify under-explored gaps. Drawing on principles of play, immersion, and serendipity, The Knowledge Cosmos democratizes the bird’s-eye view of research and encourages curiosity-driven inquiry among a wide range of users—from students and educators to independent thinkers and lifelong learners.
@@ -45,11 +45,15 @@ en:
     lg: knowledgecosmossm.png
   year: 2025
   iteration: 21
+<<<<<<< HEAD
 es:
   makers:
     - nikita-sridhar/readme
     - alec-mcgail/readme
     - rifaa-tajani/readme
+=======
+es: {}
+>>>>>>> 1a2bce43c64326288dcf7a1d5d99240ea96da47d
 zh: {}
 fr: {}
 pt: {}

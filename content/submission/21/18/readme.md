@@ -2,7 +2,7 @@
 en:
   sequence: 18
   body: >-
-    L﻿ink to Submitted Work:
+    Link to Submitted Work:
     https://www.behance.net/gallery/201498707/YANDEX-TV-BLOOMING-DEVICES-screensavers
 
 

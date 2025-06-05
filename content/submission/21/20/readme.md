@@ -2,7 +2,7 @@
 en:
   sequence: 20
   body: >-
-    L﻿ink to Submitted Work:
+    Link to Submitted Work:
     https://drive.google.com/drive/folders/15zTAHwMcmrzZEtmyq2V-iiBa7UtSOT-2?usp=sharing
 
 

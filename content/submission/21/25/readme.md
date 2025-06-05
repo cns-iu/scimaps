@@ -2,7 +2,7 @@
 en:
   sequence: 25
   body: >-
-    L﻿ink to Submitted Work:
+    Link to Submitted Work:
     https://sergeykostyrko.bandcamp.com/track/cyberfungi 
 
 

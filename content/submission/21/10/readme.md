@@ -2,7 +2,7 @@
 en:
   sequence: 10
   body: >-
-    L﻿ink to Submitted Work:
+    Link to Submitted Work:
     https://app.powerbi.com/view?r=eyJrIjoiMWExNmQwZTYtNDJiZS00NWJiLWJiOTktN2NhYjRiYmJkNmM4IiwidCI6IjI5ZDRjMTFjLTA1N2MtNDg3Zi04ZmRhLWU4NmQ1OTkzOWU2NCIsImMiOjZ9
 
 

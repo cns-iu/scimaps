@@ -5,7 +5,7 @@ en:
   year: 2025
   title: Mind
   body: >-
-    L﻿ink to Submitted Work: https://moebio.com/mind/
+    Link to Submitted Work: https://moebio.com/mind/
 
 
     Look into the machine's mind

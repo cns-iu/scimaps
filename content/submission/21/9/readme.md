@@ -2,7 +2,7 @@
 en:
   sequence: 9
   body: >-
-    L﻿ink to Submitted Work: https://katika-art.com/projects/neural-connections
+    Link to Submitted Work: https://katika-art.com/projects/neural-connections
 
 
     The project "Neural Connections" is a portrait of a Soviet family centered around an "alien relative." It raises questions about interacting with the unknown and reinterpreting the familiar. This work explores the boundaries between art, craft, and technology.

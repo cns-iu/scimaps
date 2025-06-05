@@ -2,7 +2,7 @@
 en:
   sequence: 6
   body: >-
-    L﻿ink to Submitted Work:
+    Link to Submitted Work:
     https://vis.csh.ac.at/labor-transitions-in-net-zero/
 
 

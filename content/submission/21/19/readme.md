@@ -5,7 +5,7 @@ en:
   year: 2023
   title: Breath of Thought
   body: >-
-    L﻿ink to Submitted Work:
+    Link to Submitted Work:
     https://drive.google.com/file/d/1VSK9V1lsE0KfqS_0QDqI8HoOtaPj_4II/view?usp=drivesdk
 
 

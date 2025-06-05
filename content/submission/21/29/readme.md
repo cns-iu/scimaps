@@ -5,7 +5,7 @@ en:
   year: 2025
   title: "ReCollection: You Only Have Seven Seconds"
   body: >-
-    L﻿ink to Submitted Work: https://www.zhangweidi.com/youonlyhavesevenseconds
+    Link to Submitted Work: https://www.zhangweidi.com/youonlyhavesevenseconds
     password: recollection
 
 

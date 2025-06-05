@@ -2,7 +2,7 @@
 en:
   sequence: 8
   body: >-
-    L﻿ink to Submitted Work: https://artificial-worldviews.kimalbrecht.com
+    Link to Submitted Work: https://artificial-worldviews.kimalbrecht.com
 
 
     Artificial Worldviews is a series of inquiries into the system underlying ChatGPT about its descriptions of the world. Utilizing prompting, data gathering, and mapping, this project investigates the dataframes of »artificial intelligence« systems.

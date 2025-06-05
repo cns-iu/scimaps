@@ -2,7 +2,7 @@
 en:
   sequence: 7
   body: >-
-    L﻿ink to Submitted Work: https://vis.csh.ac.at/zoonotic-web/
+    Link to Submitted Work: https://vis.csh.ac.at/zoonotic-web/
 
 
     This interactive visualization traces the transmission pathways of zoonotic pathogens across animal hosts, vectors, and environmental reservoirs in Austria (1975-2022). By modeling observed spillover events as a dynamic network, it reveals how these microscopic agents navigate between species and environments, and makes visible these otherwise hidden relationships between life forms at different scales. This web of interactions demonstrates how microscopic and macroscopic life co-shape disease dynamics.

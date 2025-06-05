@@ -2,7 +2,7 @@
 en:
   sequence: 27
   body: >-
-    L﻿ink to Submitted Work: https://huggingface.co/spaces/m7n/openalex_mapper
+    Link to Submitted Work: https://huggingface.co/spaces/m7n/openalex_mapper
 
 
     Philosophers of science need to be familiar with the object of their study. Part of this familiarity can come from their own scientific training, interviews, and interactions with working scientists, or case studies of historical developments. However, the picture emerging from these localised methods is likely to be incomplete: Modern science is fast, vast, and difficult to grasp in its interdisciplinary entirety.

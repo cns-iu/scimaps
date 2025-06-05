@@ -2,7 +2,7 @@
 en:
   sequence: 12
   body: >-
-    L﻿ink to Submitted Work: danyagonsales.myportfolio.com/posledovanie 
+    Link to Submitted Work: danyagonsales.myportfolio.com/posledovanie 
 
 
     POSLEDOVANIE is a performative sequence of ritual events in an interactive and sound environment with an emphasis on bio-cybernetic symbolism. It requires active audience participation. It can accompany dance and performances, and be projected onto sculptures and architecture.

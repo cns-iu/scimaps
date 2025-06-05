@@ -2,7 +2,7 @@
 en:
   sequence: 22
   body: >-
-    L﻿ink to Submitted Work: https://auroramititelu.com/abel-i/
+    Link to Submitted Work: https://auroramititelu.com/abel-i/
 
 
     Abel & I (2024) is an interactive simulation that visualizes the ambiguous boundary between human and machine intelligence through an intimate, live exchange between a viewer and a synthetic avatar named Abel. The piece enables unscripted text-based conversation with an AI-driven male version of myself, situated within a physical installation. Abel responds using a custom large language model, real-time simulation in Unreal Engine, and a bespoke Python script that connects emotional nuance with machine logic.

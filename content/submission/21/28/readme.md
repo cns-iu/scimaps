@@ -2,7 +2,7 @@
 en:
   sequence: 28
   body: >-
-    L﻿ink to Submitted Work: N/A
+    Link to Submitted Work: N/A
 
 
     Our project examines pedestrian behavior in public spaces, drawing on the observational work of urbanist William Whyte from the 1980s. Using computer vision, we compared footage of public spaces in New York, Philadelphia, and Boston from the 1980s with more recent footage from 2010. Our findings reveal that pedestrians are walking faster and lingering less, signaling a shift from streets as social spaces to more functional thoroughfares.

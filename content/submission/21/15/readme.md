@@ -2,7 +2,7 @@
 en:
   sequence: 15
   body: >-
-    L﻿ink to Submitted Work: https://vimeo.com/619325725
+    Link to Submitted Work: https://vimeo.com/619325725
 
 
     Katherina Sadovsky and Lilia Li-Mi-Yan

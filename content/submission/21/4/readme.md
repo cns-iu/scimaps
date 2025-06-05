@@ -2,7 +2,7 @@
 en:
   sequence: 4
   body: >-
-    L﻿ink to Submitted Work:
+    Link to Submitted Work:
     https://chak-art.gala-studio.com/art.php?Work=Shakespeaire
 
 
