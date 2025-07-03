@@ -2,10 +2,7 @@
 en:
   sequence: 15
   body: >-
-    <﻿!--Start Fragment-->
-
-
-    L﻿ink to Submitted Work: https://vimeo.com/619325725
+    Link to Submitted Work: https://vimeo.com/619325725
 
 
     Katherina Sadovsky and Lilia Li-Mi-Yan
@@ -22,12 +19,9 @@ en:
 
 
     The characters are concerned with the same questions: the rights of the posthuman, if an individual can dispose of their death, if it is possible not to die anymore, love, responsibility, the possibility of reproduction and the transmission of their genes, if there is no more male and female gender, and children can be conceived, carried, and born outside the body.
-
-
-    <﻿!--End Fragment-->
   externalLink: https://vimeo.com/619325725
   references:
-    - <﻿!--Start Fragment--> https://vimeo.com/619325725 <!--End Fragment-->
+    - https://vimeo.com/619325725
   makers:
     - lilia-li-mi-yan/readme
     - katherina-sadovsky/readme
@@ -38,7 +32,10 @@ en:
     lg: a0000sm.png
   year: 2025
   iteration: 21
-es: {}
+es:
+  makers:
+    - lilia-li-mi-yan/readme
+    - katherina-sadovsky/readme
 zh: {}
 fr: {}
 pt: {}
