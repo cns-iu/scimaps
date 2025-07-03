@@ -2,10 +2,8 @@
 en:
   sequence: 30
   body: >-
-    <﻿!--Start Fragment-->
-
-
-    L﻿ink to Submitted Work: https://drive.google.com/file/d/1yTuan1l141GwvIlRYtIa8XvIxUKQL5h0/view?usp=sharing
+    Link to Submitted Work:
+    https://drive.google.com/file/d/1yTuan1l141GwvIlRYtIa8XvIxUKQL5h0/view?usp=sharing
 
 
     "Dimensional Fluctuation" is a rule-based procedural visual 
@@ -34,18 +32,11 @@ en:
 
     converge with artistic creativity, providing a distinctive perspective 
 
-    for exploring the intricacies of interdimensional voyage. 
-
-
-    <﻿!--End Fragment-->
+    for exploring the intricacies of interdimensional voyage.
   externalLink: https://drive.google.com/file/d/1yTuan1l141GwvIlRYtIa8XvIxUKQL5h0/view?usp=sharing
   references:
-    - <﻿!--Start Fragment-->
-      https://homes.luddy.indiana.edu/hansona/papers/CP2-94.pdf <!--End
-      Fragment-->
-    - <﻿!--Start Fragment-->
-      https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/
-      <!--End Fragment-->
+    - https://homes.luddy.indiana.edu/hansona/papers/CP2-94.pdf
+    - https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/
   makers:
     - shaoyu-su/readme
   title: Dimensional Fluction V 0.1.1

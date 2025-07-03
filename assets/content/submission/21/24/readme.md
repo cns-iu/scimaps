@@ -5,10 +5,7 @@ en:
   year: 2025
   title: Mind
   body: >-
-    <﻿!--Start Fragment-->
-
-
-    L﻿ink to Submitted Work: https://moebio.com/mind/
+    Link to Submitted Work: https://moebio.com/mind/
 
 
     Look into the machine's mind
@@ -34,9 +31,6 @@ en:
     • The Tree Visualization (on the right)
 
     It visualizes all collected completions. It also represents the calculated probability of a word following a text, so "Intelligence is the " will be followed by "ability" ~75% of the times.
-
-
-    <﻿!--End Fragment-->
   externalLink: https://moebio.com/mind/
   makers:
     - santiago-ortiz/readme
@@ -44,7 +38,9 @@ en:
     sm: mindsm.png
     med: mindsm.png
     lg: mindsm.png
-es: {}
+es:
+  makers:
+    - santiago-ortiz/readme
 zh: {}
 fr: {}
 pt: {}

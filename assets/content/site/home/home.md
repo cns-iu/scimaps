@@ -1,9 +1,9 @@
 ---
 cta:
-  title: 2025 Call for Submissions is Open
-  body: Submit your work to Envisioning Intelligences by May 31, 2025
-  buttonLabel: Call for Submissions
-  buttonLink: https://scimaps.org/call-for-submissions
-  subtitle: Be a visionary!
-  imageSource: visionary-home-page-image.png
+  title: Places & Spaces at COSMO
+  body: See the Places & Spaces exhibit in Dresden, Germany now until August 6, 2025!
+  buttonLabel: Visit Exhibit Website
+  buttonLink: https://www.cosmo-wissenschaftsforum.de/aktuelle-ausstellung/
+  subtitle: "[un]visible - Visualizations in Science"
+  imageSource: exhibition-–-cosmo-science-forum.jpg
 ---
