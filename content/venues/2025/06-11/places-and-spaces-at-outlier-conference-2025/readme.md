@@ -8,4 +8,7 @@ city: Miami
 state: FL
 country: USA
 pdfLink: outlier.pdf
+venueImages:
+  - sm: p-s-at-outlier-2025.png
+    lg: p-s-at-outlier-2025.png
 ---
