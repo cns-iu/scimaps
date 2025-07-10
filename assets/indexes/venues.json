@@ -16690,7 +16690,13 @@
     "city": "Miami",
     "state": "FL",
     "country": "USA",
-    "pdfLink": "outlier.pdf"
+    "pdfLink": "outlier.pdf",
+    "venueImages": [
+      {
+        "sm": "p-s-at-outlier-2025.png",
+        "lg": "p-s-at-outlier-2025.png"
+      }
+    ]
   },
   {
     "dateStart": "2025-07-28T12:35:34.903Z",
