@@ -7,18 +7,34 @@ organizer: Jörg Neumann and Maria Matthes
 city: COSMO
 state: Dresden
 country: Germany
-pdfLink: un-sichtbar.-die-kunst-der-visualisierungen-in-der-wissenschaft.-–-cosmo-wissenschaftsforum.pdf
+pdfLink: exhibition-–-cosmo-science-forum.pdf
 venueImages:
-  - sm: pxl_20250612_141330055.jpg
-    lg: pxl_20250612_141330055.jpg
-  - sm: img_0855.jpeg
-    lg: img_0855.jpeg
-  - sm: img_0853.jpeg
-    lg: img_0853.jpeg
-  - sm: img_0856.jpeg
-    lg: img_0856.jpeg
-  - sm: pxl_20250612_141517266.jpg
-    lg: pxl_20250612_141517266.jpg
-  - sm: pxl_20250612_141339681.jpg
-    lg: pxl_20250612_141339681.jpg
+  - sm: garbe_cosmo_unsichtbar01.resized.jpg
+    lg: garbe_cosmo_unsichtbar01.resized.jpg
+  - sm: garbe_cosmo_unsichtbar02.resized.jpg
+    lg: garbe_cosmo_unsichtbar02.resized.jpg
+  - sm: garbe_cosmo_unsichtbar05.resized.jpg
+    lg: garbe_cosmo_unsichtbar05.resized.jpg
+  - sm: garbe_cosmo_unsichtbar06.resized.jpg
+    lg: garbe_cosmo_unsichtbar06.resized.jpg
+  - sm: garbe_cosmo_unsichtbar07.resized.jpg
+    lg: garbe_cosmo_unsichtbar07.resized.jpg
+  - sm: garbe_cosmo_unsichtbar09.resized.jpg
+    lg: garbe_cosmo_unsichtbar09.resized.jpg
+  - sm: garbe_cosmo_unsichtbar15.resized.jpg
+    lg: garbe_cosmo_unsichtbar15.resized.jpg
+  - sm: garbe_cosmo_unsichtbar24.resized.jpg
+    lg: garbe_cosmo_unsichtbar24.resized.jpg
+  - sm: garbe_cosmo_unsichtbar25.resized.jpg
+    lg: garbe_cosmo_unsichtbar25.resized.jpg
+  - sm: garbe_cosmo_unsichtbar26.resized.jpg
+    lg: garbe_cosmo_unsichtbar26.resized.jpg
+  - sm: garbe_cosmo_unsichtbar27.resized.jpg
+    lg: garbe_cosmo_unsichtbar27.resized.jpg
+  - sm: garbe_cosmo_unsichtbar29.resized.jpg
+    lg: garbe_cosmo_unsichtbar29.resized.jpg
+  - sm: garbe_cosmo_unsichtbar30.resized.jpg
+    lg: garbe_cosmo_unsichtbar30.resized.jpg
+  - sm: garbe_cosmo_unsichtbar31.resized.jpg
+    lg: garbe_cosmo_unsichtbar31.resized.jpg
 ---
