@@ -22,6 +22,9 @@
     <ng-template [ngIf]="type == 'submissions'">
       <h4>{{i + 1}}. {{thumbnail.title}}</h4>
     </ng-template>
+    <ng-template [ngIf]="type == 'macroscopes'">
+      <h4 class="macroscope-title">{{thumbnail.title}}</h4>
+    </ng-template>
   </div>
 
   <div class="thumbnail mobile" *ngFor="let thumbnail of discoverItem.thumbnails;" (click)="mobileThumbnailClickHandler(thumbnail.link)">

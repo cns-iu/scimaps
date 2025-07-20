@@ -1,5 +1,10 @@
 <div class="section-1">
-  <a class="email" href="mailto:cnscntr@iu.edu" target="_blank" rel="noopener noreferrer">
+  <a
+    class="email"
+    href="mailto:cnscntr@iu.edu"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <mat-icon class="icon" svgIcon="social:email"></mat-icon>
     <span>&nbsp;&nbsp;cnscntr&#64;iu.edu</span>
   </a>
@@ -10,50 +15,71 @@
   </div>
 </div>
 
-<div *sciBreakpoint="'tablet-'; else: desktop" class="section-2">
-  <a class="website" href="https://cns.iu.edu" target="_blank" rel="noopener noreferrer">
+<div *sciBreakpoint="'tablet-'; else desktop" class="section-2">
+  <a
+    class="website"
+    href="https://cns.iu.edu"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <mat-icon class="icon">language</mat-icon>
     <span>&nbsp;&nbsp;CNS:&nbsp;&nbsp;</span>
     <span class="link">cns.iu.edu</span>
   </a>
-
-  <div class="social">
-    <span>Visit us:&nbsp;&nbsp;</span>
-    <div class="social-icons">
-      <a [href]="twitter" class="link" target="_blank" rel="noopener noreferrer">
-        <mat-icon class="icon" svgIcon="social:x"></mat-icon>
-      </a>
-      <a [href]="facebook" class="link" target="_blank" rel="noopener noreferrer">
-        <mat-icon class="icon" svgIcon="social:facebook"></mat-icon>
-      </a>
-      <a [href]="instagram" class="link" target="_blank" rel="noopener noreferrer">
-        <mat-icon class="icon" svgIcon="social:instagram"></mat-icon>
-      </a>
-    </div>
-  </div>
+  <ng-container *ngTemplateOutlet="socialIcons"></ng-container>
+  <ng-content select="social-icons"></ng-content>
 </div>
 
 <ng-template #desktop>
   <div class="section-3">
     <div class="website">
       <span>Learn about CNS:&nbsp;&nbsp;</span>
-      <a class="link" href="https://cns.iu.edu" target="_blank" rel="noopener noreferrer">cns.iu.edu</a>
+      <a
+        class="link"
+        href="https://cns.iu.edu"
+        target="_blank"
+        rel="noopener noreferrer"
+        >cns.iu.edu</a
+      >
     </div>
+    <ng-container *ngTemplateOutlet="socialIcons"></ng-container>
+  </div>
+</ng-template>
 
-    <div class="social">
-      <span>Visit us on social media:</span>
-    </div>
+<ng-template #socialIcons>
+  <div class="social">
+    <span>Visit us:&nbsp;&nbsp;</span>
     <div class="social-icons">
-      <a [href]="twitter" class="link" target="_blank" rel="noopener noreferrer">
+      <a
+        [href]="twitter"
+        class="link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <mat-icon class="icon twitter" svgIcon="social:x"></mat-icon>
       </a>
-      <a [href]="bluesky" class="link" target="_blank" rel="noopener noreferrer">
+      <a
+        [href]="bluesky"
+        class="link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <mat-icon class="icon bluesky" svgIcon="social:bluesky"></mat-icon>
       </a>
-      <a [href]="facebook" class="link" target="_blank" rel="noopener noreferrer">
+      <a
+        [href]="facebook"
+        class="link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <mat-icon class="icon" svgIcon="social:facebook"></mat-icon>
       </a>
-      <a [href]="instagram" class="link" target="_blank" rel="noopener noreferrer">
+      <a
+        [href]="instagram"
+        class="link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <mat-icon class="icon" svgIcon="social:instagram"></mat-icon>
       </a>
     </div>

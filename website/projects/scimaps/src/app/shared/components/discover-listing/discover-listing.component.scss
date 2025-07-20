@@ -2,7 +2,6 @@ $desktop: 1248px;
 $tablet: 960px;
 $mobile: 640px;
 
-
 :host(.maps) {
   // 5 images in each row, 2 rows.
   .image-content {
@@ -15,8 +14,24 @@ $mobile: 640px;
 :host(.macroscopes) {
   // 4 images in a row, 1 row.
   .image-content {
-    .thumbnail {
-      width: 22%;
+    .thumbnail.desktop {
+      width: 168px;
+      box-shadow: 1px 2px 16px 0px #00000052;
+      height: fit-content;
+
+      .thumbnail-image {
+        width: 168px;
+        height: 168px;
+      }
+
+      .macroscope-title {
+        padding: 16px;
+        margin: 0;
+        background: #ebf0f1;
+        font-size: 14px;
+        line-height: 100%;
+        color: #000000;
+      }
     }
   }
 }
@@ -62,7 +77,6 @@ $mobile: 640px;
     padding-right: 3rem;
     width: 40%;
 
-
     @media (max-width: $tablet) {
       width: 100%;
       padding-left: 0rem;
@@ -75,7 +89,7 @@ $mobile: 640px;
       }
     }
 
-  .show-more {
+    .show-more {
       color: #8dc63f;
       cursor: pointer;
       &:hover {
@@ -114,8 +128,6 @@ $mobile: 640px;
       margin-right: 1rem;
       cursor: pointer;
       margin-bottom: 1rem;
-      // width: 22%;
-
       @media (max-width: $mobile) {
         position: relative;
         width: calc(50% - 1rem);
@@ -123,7 +135,6 @@ $mobile: 640px;
 
       .thumbnail-image {
         width: 100%;
-        // height: 80%;
         object-fit: cover;
       }
 
@@ -137,10 +148,10 @@ $mobile: 640px;
 
         @media (max-width: $mobile) {
           margin-top: 0rem;
-          bottom: .45rem;
+          bottom: 0.45rem;
           z-index: 10;
           color: white;
-          background-color: rgba(0, 0, 0, .5);
+          background-color: rgba(0, 0, 0, 0.5);
           width: 100%;
         }
       }
@@ -148,6 +159,7 @@ $mobile: 640px;
 
     .thumbnail.desktop {
       margin-right: 1rem;
+
       @media (max-width: $mobile) {
         display: none;
       }
