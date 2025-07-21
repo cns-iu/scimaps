@@ -4,6 +4,7 @@ dateEnd: 2025-08-06T16:00:20.760Z
 title: "[in]visible; Places & Spaces: Mapping Science at COSMO"
 venue: COSMO Wissenschaftsforum
 organizer: Jörg Neumann and Maria Matthes
+credit: © Amac Garbe, COSMO Dresden opening [in]visible 2025
 city: COSMO
 state: Dresden
 country: Germany
