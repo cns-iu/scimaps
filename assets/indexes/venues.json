@@ -16640,6 +16640,7 @@
     "title": "[in]visible; Places & Spaces: Mapping Science at COSMO",
     "venue": "COSMO Wissenschaftsforum",
     "organizer": "Jörg Neumann and Maria Matthes",
+    "credit": "© Amac Garbe, COSMO Dresden opening [in]visible 2025",
     "city": "COSMO",
     "state": "Dresden",
     "country": "Germany",
@@ -16749,5 +16750,15 @@
     "city": "Semmelweis",
     "state": "Budapest",
     "country": "Hungary"
+  },
+  {
+    "dateStart": "2025-10-02T15:11:18.607Z",
+    "dateEnd": "2025-10-02T15:11:25.350Z",
+    "title": "Places & Spaces: Mapping Science at First Thursdays",
+    "venue": "Arts and Humanities Council",
+    "organizer": "Gerard Pannekeok",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "USA"
   }
 ]
