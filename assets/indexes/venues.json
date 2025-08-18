@@ -16749,7 +16749,57 @@
     "organizer": "Roland Molontay",
     "city": "Semmelweis",
     "state": "Budapest",
-    "country": "Hungary"
+    "country": "Hungary",
+    "venueImages": [
+      {
+        "sm": "resized_10.jpg",
+        "lg": "resized_10.jpg"
+      },
+      {
+        "sm": "resized_1.jpg",
+        "lg": "resized_1.jpg"
+      },
+      {
+        "sm": "resized_2.jpg",
+        "lg": "resized_2.jpg"
+      },
+      {
+        "sm": "resized_3.jpg",
+        "lg": "resized_3.jpg"
+      },
+      {
+        "sm": "resized_4.jpg",
+        "lg": "resized_4.jpg"
+      },
+      {
+        "sm": "resized_5.jpg",
+        "lg": "resized_5.jpg"
+      },
+      {
+        "sm": "resized_7.jpg",
+        "lg": "resized_7.jpg"
+      },
+      {
+        "sm": "resized_8.jpg",
+        "lg": "resized_8.jpg"
+      },
+      {
+        "sm": "resized_9.jpg",
+        "lg": "resized_9.jpg"
+      },
+      {
+        "sm": "resized_11.jpg",
+        "lg": "resized_11.jpg"
+      },
+      {
+        "sm": "resized_12.jpg",
+        "lg": "resized_12.jpg"
+      },
+      {
+        "sm": "resized_13.jpg",
+        "lg": "resized_13.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2025-10-02T15:11:18.607Z",
