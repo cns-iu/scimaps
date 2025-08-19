@@ -45,9 +45,9 @@ annualReports:
   - year: "2024"
     pdfLink: cns-annual-report-2024.pdf
   - year: "2023"
-    pdfLink: cns-annual-report-2023-interactive.pdf
+    pdfLink: cns-annual-report-2023.pdf
   - year: "2022"
-    pdfLink: cns-annual-report-2022-interactive.pdf
+    pdfLink: cns-annual-report-2022.pdf
   - year: "2021"
     pdfLink: 2021-ps-annual-report.pdf
   - year: "2020"
