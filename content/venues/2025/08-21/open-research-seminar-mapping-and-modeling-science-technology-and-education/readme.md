@@ -4,7 +4,7 @@ dateEnd: 2025-08-20T14:00:52.203Z
 title: "Open Research Seminar: Mapping and Modeling Science, Technology, and
   Education"
 venue: Kompetenznetzwerk Bibliometrie
-organizer: Kompetenznetzwerk Bibliometrie
+organizer: Marcus John
 city: Online
 state: N
 country: Germany
