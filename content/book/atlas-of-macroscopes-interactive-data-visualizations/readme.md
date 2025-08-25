@@ -19,7 +19,7 @@ author:
   - todd-theriault/readme
 publisher: MIT Press
 pdfLink: Atlas-of-Macroscopes-Excerpts.pdf
-amazonLink: https://www.amazon.com/Atlas-Macroscopes-Interactive-Data-Visualizations/dp/0262049929/ref=sr_1_1?crid=1RT6BDIZUWH6F&dib=eyJ2IjoiMSJ9.dRoKFp4xvWxDNc4_w7jIQw.NPUIEJA7YcRmmsj0MxZvi9zbOSjC_5vUI1Ky8eW8TVk&dib_tag=se&keywords=atlas+of+macroscopes&qid=1746647882&sprefix=%2Caps%2C52&sr=8-1 
+amazonLink: https://mitpress.mit.edu/9780262049924/atlas-of-macroscopes/
 ---
 **A fascinating data adventure through the lens of macroscopes, which offer us illuminating and holistic views of our ever-changing world.**
 
