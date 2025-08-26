@@ -16802,6 +16802,28 @@
     ]
   },
   {
+    "dateStart": "2025-08-20T13:00:54.072Z",
+    "dateEnd": "2025-08-20T14:00:52.203Z",
+    "title": "Open Research Seminar: Mapping and Modeling Science, Technology, and Education",
+    "venue": "Kompetenznetzwerk Bibliometrie",
+    "organizer": "Marcus John",
+    "city": "Online",
+    "state": "N",
+    "country": "Germany",
+    "pdfLink": "microsoft-virtual-events-powered-by-teams.pdf"
+  },
+  {
+    "dateStart": "2025-09-11T13:00:30.955Z",
+    "dateEnd": "2025-09-11T13:45:30.959Z",
+    "title": "Places & Spaces at the Metrics, Policy, and Diplomacy for Research Infrastructures in the Global South Symposium",
+    "venue": "The African Lightsource",
+    "organizer": "Katharina Cramer",
+    "city": "Online",
+    "state": "Symposium",
+    "country": ".",
+    "pdfLink": "the-african-lightsource.pdf"
+  },
+  {
     "dateStart": "2025-10-02T15:11:18.607Z",
     "dateEnd": "2025-10-02T15:11:25.350Z",
     "title": "Places & Spaces: Mapping Science at First Thursdays",
@@ -16810,5 +16832,16 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "USA"
+  },
+  {
+    "dateStart": "2025-11-20T23:00:36.139Z",
+    "dateEnd": "2025-11-21T00:00:34.389Z",
+    "title": "Author Event: Katy Borner, Elizabeth G. Record, & Todd N. Theriault",
+    "venue": "Morgenstern Books",
+    "organizer": "Molly Hogan",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "USA",
+    "pdfLink": "author-event.pdf"
   }
 ]
