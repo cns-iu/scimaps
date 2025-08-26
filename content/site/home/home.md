@@ -1,9 +1,10 @@
 ---
 cta:
-  title: Places & Spaces at COSMO
-  body: See the Places & Spaces exhibit in Dresden, Germany now until August 6, 2025!
-  buttonLabel: Visit Exhibit Website
-  buttonLink: https://www.cosmo-wissenschaftsforum.de/aktuelle-ausstellung/
-  subtitle: "[un]visible - Visualizations in Science"
-  imageSource: exhibition-–-cosmo-science-forum.jpg
+  title: "20 Years of Places & Spaces: Mapping Science"
+  body: Explore the celebration of the exhibit's last two decades and more with
+    our 2024 Annual Report!
+  buttonLabel: Annual Report
+  buttonLink: https://scimaps.org/assets/content/site/about/cns-annual-report-2024.pdf
+  subtitle: ""
+  imageSource: screenshot-2025-08-21-133203.png
 ---

@@ -17,7 +17,7 @@ author:
   - katy-borner/readme
 publisher: MIT Press
 pdfLink: atlas-of-science.pdf
-amazonLink: https://www.amazon.com/Atlas-Science-Visualizing-What-Press/dp/0262014459/ref=sr_1_1?dchild=1&keywords=borner+atlas+science&qid=1620409324&s=books&sr=1-1
+amazonLink: https://mitpress.mit.edu/9780262014458/atlas-of-science/
 ---
 *Atlas of Science*, based on the popular exhibit *Places & Spaces: Mapping Science*, describes and displays successful mapping techniques. The heart of the book is a visual feast: Claudius Ptolemy's Cosmographia World Map from 1482; a guide to a PhD thesis that resembles a subway map; "the structure of science" as revealed in a map of citation relationships in papers published in 2002; a periodic table; and many more. Each entry includes the story behind the map and biographies of its makers.\
 \
