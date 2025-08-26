@@ -7,5 +7,5 @@ organizer: Molly Hogan
 city: Bloomington
 state: IN
 country: USA
-pdfLink: author-event_-katy-borner-elizabeth-g.-record-todd-n.-theriault-_-morgenstern-books.-find-it-here.-buy-it-here.-keep-us-here_.pdf
+pdfLink: author-event.pdf
 ---

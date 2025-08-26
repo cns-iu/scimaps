@@ -8,5 +8,5 @@ organizer: Katharina Cramer
 city: Online
 state: Symposium
 country: .
-pdfLink: metrics-policy-and-diplomacy-for-research-infrastructures-in-the-global-south-–-the-african-lightsource.pdf
+pdfLink: the-african-lightsource.pdf
 ---
