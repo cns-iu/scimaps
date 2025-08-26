@@ -8,12 +8,12 @@
     margin-left: auto;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    max-width: 31rem;
+    max-width: fit-content;
     // max-height: 20rem;
 
     .text-content {
       padding: 2rem 1rem;
-      width: 60%;
+      width: 16rem;
       .title {
         font-weight: 500;
         margin-bottom: 0.8rem;
@@ -41,8 +41,8 @@
     }
 
     .image-container {
-      width: 16rem;
-      // height: 100%;
+      width: 23rem;
+      height: auto;
       border-top-right-radius: 1rem;
       background-size: cover;
       background-repeat: round;
