@@ -11,6 +11,7 @@ export interface Book {
   slug: string;
   images: {sm: string, lg: string}[];
   date: string;
+  publisherLink: string;
 }
 
 

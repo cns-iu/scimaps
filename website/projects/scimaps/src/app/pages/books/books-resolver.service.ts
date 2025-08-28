@@ -43,7 +43,8 @@ export class BooksResolverService implements Resolve<Book[]> {
       body: item.body,
       slug: toSlug(item.title),
       images: item.bookImages,
-      date: item.date
+      date: item.date,
+      publisherLink: item.publisherLink
     };
   }
 
