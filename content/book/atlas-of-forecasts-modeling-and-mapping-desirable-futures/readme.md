@@ -5,7 +5,7 @@ author:
   - katy-borner/readme
 publisher: MIT Press
 pdfLink: atlas-of-forecasts.pdf
-amazonLink: https://mitpress.mit.edu/9780262045957/atlas-of-forecasts/
+amazonLink: https://www.amazon.com/dp/0262045958/
 bookImages:
   - sm: image01.med.jpg
     lg: image01.lg.jpg
