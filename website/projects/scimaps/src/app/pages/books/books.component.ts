@@ -20,7 +20,6 @@ export class BooksComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.dataSubscription = this.route.data.subscribe((data) => {
-      console.log(data)
       if (data && data.hasOwnProperty('books') && Array.isArray(data.books)) {
         const unsorted = [...data.books];
         this.books = unsorted.sort((a, b) => a.date > b.date ? -1 : 1);
