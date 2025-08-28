@@ -20,6 +20,7 @@ export function getBooks(numberOfProfiles: number): Book[] {
       amazonLink: `amazonLink ${i}`,
       images: [{sm: 'a.jpg', lg: 'b.jpg' }, {sm: 'c.jpg', lg: 'd.jpg'}],
       date: `date ${i}`,
+      publisherLink: `publisherLink ${i}`
     });
   }
   return books;

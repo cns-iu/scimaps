@@ -3,7 +3,7 @@
   <div class="author">Author: {{book.author}}</div>
   <div class="publisher">
     Published by:
-    <a class="link" href="http://mitpress.mit.edu/" rel="noreferrer noopener" target="_blank">
+    <a class="link" [href]="book.publisherLink" rel="noreferrer noopener" target="_blank">
       {{ book.publisher }}
     </a>
   </div>

@@ -15,7 +15,8 @@ describe('BookOverviewComponent', () => {
     amazonLink: 'test amazonlink',
     slug: 'test slug',
     images: [],
-    date: 'test date'
+    date: 'test date',
+    publisherLink: 'test publisherLink'
   };
   const testBookLongBody = {
     ...testBook,

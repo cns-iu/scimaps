@@ -19,7 +19,8 @@ author:
   - katy-borner/readme
 publisher: MIT Press
 pdfLink: atlas-of-knowledge.pdf
-amazonLink: https://mitpress.mit.edu/9780262028813/atlas-of-knowledge/
+amazonLink: https://www.amazon.com/dp/0262028816/
+publisherLink: https://mitpress.mit.edu/9780262028813/atlas-of-knowledge/
 ---
 In an age of information overload, the ability to make sense of vast amounts of data and to render insightful visualizations is as important as the ability to read and write. The *Atlas of Knowledge* explains and exemplifies the power of visualizations not only to help locate us in physical space but also to help us understand the extent and structure of our collective knowledge, to identify bursts of activity, pathways of ideas, and borders that beg to be crossed.\
 \
