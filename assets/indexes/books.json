@@ -1,6 +1,6 @@
 [
   {
-    "body": "To envision and create the futures we want, society needs an appropriate understanding of the likely impact of alternative actions. Data models and visualizations offer a way to understand and intelligently manage complex, interlinked systems in science and technology, education, and policymaking. *Atlas of Forecasts*, from the creator of *Atlas of Science* and *Atlas of Knowledge*, shows how we can use data to predict, communicate, and ultimately attain desirable futures.\\\n\\\nUsing advanced data visualizations to introduce different types of computational models, *Atlas of Forecasts* demonstrates how models can inform effective decision-making in education, science, technology, and policymaking. The models and maps presented aim to help anyone understand key processes and outcomes of complex systems dynamics, including which human skills are needed in an artificial intelligence-empowered economy; what progress in science and technology is likely to be made; and how policymakers can future-proof regions or nations. This Atlas offers a driver's seat-perspective for a test-drive of the future.\n\n“*Atlas of Forecasts* is mind-boggling—parading the multiple dimensions of our future, and the rich set of tools and data that data science has assembled, so that we can grasp the destiny of the natural, social, and technological systems that surround us. Richly illustrated, colorful, and rigorous, this *Atlas* takes us on an eye-opening journey.”  \n\nAlbert-László Barabási, Northeastern University, author of *The Formula: The Universal Laws of Success*",
+    "body": "To envision and create the futures we want, society needs an appropriate understanding of the likely impact of alternative actions. Data models and visualizations offer a way to understand and intelligently manage complex, interlinked systems in science and technology, education, and policymaking. *Atlas of Forecasts*, from the creator of *Atlas of Science* and *Atlas of Knowledge*, shows how we can use data to predict, communicate, and ultimately attain desirable futures.\\\n\\\nUsing advanced data visualizations to introduce different types of computational models, *Atlas of Forecasts* demonstrates how models can inform effective decision-making in education, science, technology, and policymaking. The models and maps presented aim to help anyone understand key processes and outcomes of complex systems dynamics, including which human skills are needed in an artificial intelligence-empowered economy; what progress in science and technology is likely to be made; and how policymakers can future-proof regions or nations. This Atlas offers a driver's seat-perspective for a test-drive of the future.\n\n“*Atlas of Forecasts* is mind-boggling—parading the multiple dimensions of our future, and the rich set of tools and data that data science has assembled, so that we can grasp the destiny of the natural, social, and technological systems that surround us. Richly illustrated, colorful, and rigorous, this *Atlas* takes us on an eye-opening journey.”  \n\nAlbert-László Barabási, Northeastern University, author of *The Formula: The Universal Laws of Success*\n",
     "date": "2021-05-13T18:06:07.150Z",
     "title": "Atlas of Forecasts: Modeling and Mapping Desirable Futures",
     "author": [
@@ -8,7 +8,7 @@
     ],
     "publisher": "MIT Press",
     "pdfLink": "atlas-of-forecasts.pdf",
-    "amazonLink": "https://mitpress.mit.edu/9780262045957/atlas-of-forecasts/",
+    "amazonLink": "https://www.amazon.com/dp/0262045958/",
     "bookImages": [
       {
         "sm": "image01.med.jpg",
@@ -30,10 +30,11 @@
         "sm": "image05.med.jpg",
         "lg": "image05.lg.jpg"
       }
-    ]
+    ],
+    "publisherLink": "https://mitpress.mit.edu/9780262045957/atlas-of-forecasts/"
   },
   {
-    "body": "In an age of information overload, the ability to make sense of vast amounts of data and to render insightful visualizations is as important as the ability to read and write. The *Atlas of Knowledge* explains and exemplifies the power of visualizations not only to help locate us in physical space but also to help us understand the extent and structure of our collective knowledge, to identify bursts of activity, pathways of ideas, and borders that beg to be crossed.\\\n\\\n“*Finally, visualization reaches maturity as Katy Börner shows readers the powerful, but rarely seen, forces that shape our lives. Drawing on the work of thousands of creative visual designers, this book is a tribute to human ingenuity in creating our new world of visual thinking.”*\\\n—Ben Shneiderman, University of Maryland, author of *Designing the User Interface: Strategies for Effective Human-Computer Interaction.*",
+    "body": "In an age of information overload, the ability to make sense of vast amounts of data and to render insightful visualizations is as important as the ability to read and write. The *Atlas of Knowledge* explains and exemplifies the power of visualizations not only to help locate us in physical space but also to help us understand the extent and structure of our collective knowledge, to identify bursts of activity, pathways of ideas, and borders that beg to be crossed.\\\n\\\n“*Finally, visualization reaches maturity as Katy Börner shows readers the powerful, but rarely seen, forces that shape our lives. Drawing on the work of thousands of creative visual designers, this book is a tribute to human ingenuity in creating our new world of visual thinking.”*\\\n—Ben Shneiderman, University of Maryland, author of *Designing the User Interface: Strategies for Effective Human-Computer Interaction.*\n",
     "bookImages": [
       {
         "sm": "image1-sm.jpg",
@@ -68,7 +69,8 @@
     ],
     "publisher": "MIT Press",
     "pdfLink": "atlas-of-knowledge.pdf",
-    "amazonLink": "https://mitpress.mit.edu/9780262028813/atlas-of-knowledge/"
+    "amazonLink": "https://www.amazon.com/dp/0262028816/",
+    "publisherLink": "https://mitpress.mit.edu/9780262028813/atlas-of-knowledge/"
   },
   {
     "body": "**A fascinating data adventure through the lens of macroscopes, which offer us illuminating and holistic views of our ever-changing world.**\n\nIn Atlas of Macroscopes, Katy Börner, Elizabeth Record, and Todd Theriault take you on an epic data adventure. You will explore data landscapes, designed as uniquely interactive spaces, and learn more about our world and your place in it. You will gain new perspectives on how to gather, understand, and communicate data, as well as how to best use it. You will discover what it means to “touch” data that informs and inspires.\n\nTranscending the static nature of the maps featured in the initial trilogy, this fourth Atlas showcases 40 real-life macroscopes, or interactive data visualizations, that were displayed in the first decade (2015–2024) of the traveling exhibit Places & Spaces: Mapping Science.\n\nEncompassing vast amounts of data, macroscopes give us holistic views of complex systems or networks. They provide an entry point for scientists and laypeople alike, and empower us to engage directly with large datasets and to conduct our own lines of questioning. As interactive tools, macroscopes connect data creators and users. As portals to continuously evolving data, macroscopes can serve as windows to the dynamics of any terrain—personal or professional, local or global—and offer key insights into our surroundings and even our place in the universe.\n\nWhile big data is creating new ways to view and understand information, macroscopes help us see the big picture as we seek to better navigate our ever-changing world.\n\n*“This Atlas uniquely brings together the most outstanding interactive data visualizations created in recent years. It covers a very wide range of topics, demonstrating why data visualization is an essential communication medium today in so many fields.”*\\\n—Lev Manovich, City University of New York; author of Artificial Aesthetics: Generative AI, Art and Visual Media\n\n<span class=\"available-date\">Available September 30, 2025</span>\n",
@@ -104,10 +106,11 @@
     ],
     "publisher": "MIT Press",
     "pdfLink": "Atlas-of-Macroscopes-Excerpts.pdf",
-    "amazonLink": "https://mitpress.mit.edu/9780262049924/atlas-of-macroscopes/"
+    "amazonLink": "https://www.amazon.com/dp/0262049929/",
+    "publisherLink": "https://mitpress.mit.edu/9780262049924/atlas-of-macroscopes/"
   },
   {
-    "body": "*Atlas of Science*, based on the popular exhibit *Places & Spaces: Mapping Science*, describes and displays successful mapping techniques. The heart of the book is a visual feast: Claudius Ptolemy's Cosmographia World Map from 1482; a guide to a PhD thesis that resembles a subway map; \"the structure of science\" as revealed in a map of citation relationships in papers published in 2002; a periodic table; and many more. Each entry includes the story behind the map and biographies of its makers.\\\n\\\n*“Science is a voyage of discovery and Katy Börner has provided its first atlas. This excellent book offers a compendium of all that is best in explaining visual maps of our scientific knowledge.”*\\\n—Michael Batty, University College London",
+    "body": "*Atlas of Science*, based on the popular exhibit *Places & Spaces: Mapping Science*, describes and displays successful mapping techniques. The heart of the book is a visual feast: Claudius Ptolemy's Cosmographia World Map from 1482; a guide to a PhD thesis that resembles a subway map; \"the structure of science\" as revealed in a map of citation relationships in papers published in 2002; a periodic table; and many more. Each entry includes the story behind the map and biographies of its makers.\\\n\\\n*“Science is a voyage of discovery and Katy Börner has provided its first atlas. This excellent book offers a compendium of all that is best in explaining visual maps of our scientific knowledge.”*\\\n—Michael Batty, University College London\n",
     "bookImages": [
       {
         "sm": "image1-sm.jpg",
@@ -138,6 +141,7 @@
     ],
     "publisher": "MIT Press",
     "pdfLink": "atlas-of-science.pdf",
-    "amazonLink": "https://mitpress.mit.edu/9780262014458/atlas-of-science/"
+    "amazonLink": "https://www.amazon.com/dp/0262014459/",
+    "publisherLink": "https://mitpress.mit.edu/9780262014458/atlas-of-science/"
   }
 ]
