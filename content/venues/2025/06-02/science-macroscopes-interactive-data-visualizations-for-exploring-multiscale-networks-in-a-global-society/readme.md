@@ -8,4 +8,5 @@ organizer: Yuanxi Fu
 city: NetSci
 state: Maastricht
 country: The Netherlands
+pdfLink: netsci2025_lightningtalk.pptx.pdf
 ---
