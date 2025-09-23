@@ -7,6 +7,5 @@ venue: The African Lightsource
 organizer: Katharina Cramer
 city: Online
 state: Symposium
-country: .
 pdfLink: the-african-lightsource.pdf
 ---

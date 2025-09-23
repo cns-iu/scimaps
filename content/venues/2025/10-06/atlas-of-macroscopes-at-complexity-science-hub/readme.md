@@ -5,7 +5,6 @@ title: Atlas of Macroscopes at Complexity Science Hub
 venue: Complexity Science Hub
 organizer: Liuhuaying Yang and Hannah Scholl
 city: Vienna
-state: ","
 country: Austria
 pdfLink: complexity-science-hub.pdf
 ---
