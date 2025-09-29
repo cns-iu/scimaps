@@ -7,4 +7,7 @@ organizer: Gerard Pannekeok
 city: Bloomington
 state: IN
 country: USA
+venueImages:
+  - sm: untitled_artwork-24.jpg
+    lg: untitled_artwork-24.jpg
 ---
