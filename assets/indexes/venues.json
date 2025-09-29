@@ -16734,16 +16734,6 @@
     ]
   },
   {
-    "dateStart": "2025-11-01T15:00:29.914Z",
-    "dateEnd": "2025-11-01T19:00:43.404Z",
-    "title": "Places & Spaces: Mapping Science at Science Fest 2025",
-    "venue": "Science Fest 2025",
-    "organizer": "Jo Anne Tracy",
-    "city": "Bloomington",
-    "state": "IN",
-    "country": "USA"
-  },
-  {
     "dateStart": "2025-07-28T12:35:34.903Z",
     "dateEnd": "2025-08-08T12:35:42.807Z",
     "title": "Biomedical Data Science Summer School and Conference at Semmelweis University",
@@ -16832,17 +16822,35 @@
     "organizer": "Gerard Pannekeok",
     "city": "Bloomington",
     "state": "IN",
-    "country": "USA"
+    "country": "USA",
+    "venueImages": [
+      {
+        "sm": "untitled_artwork-24.jpg",
+        "lg": "untitled_artwork-24.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2025-10-06T19:00:54.959Z",
     "dateEnd": "2025-10-06T21:00:54.965Z",
-    "title": "Atlas of Macroscopes at Complexity Science Hub",
+    "title": "Mapping and Modeling Science, Technology, and Education at Complexity Science Hub",
     "venue": "Complexity Science Hub",
     "organizer": "Liuhuaying Yang and Hannah Scholl",
     "city": "Vienna",
+    "state": ",",
     "country": "Austria",
-    "pdfLink": "complexity-science-hub.pdf"
+    "pdfLink": "mapping-and-modeling-science-technology-and-education-_-complexity-science-hub.pdf"
+  },
+  {
+    "dateStart": "2025-11-01T15:00:29.914Z",
+    "dateEnd": "2025-11-01T19:00:43.404Z",
+    "title": "Places & Spaces: Mapping Science at Science Fest 2025",
+    "venue": "Science Fest 2025",
+    "organizer": "Jo Anne Tracy",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "USA",
+    "pdfLink": "science-fest_-indiana-university.pdf"
   },
   {
     "dateStart": "2025-11-20T23:00:36.139Z",
