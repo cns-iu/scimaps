@@ -16827,6 +16827,18 @@
       {
         "sm": "untitled_artwork-24.jpg",
         "lg": "untitled_artwork-24.jpg"
+      },
+      {
+        "sm": "thumbnail_img_2829.jpg",
+        "lg": "thumbnail_img_2829.jpg"
+      },
+      {
+        "sm": "thumbnail_img_2827.jpg",
+        "lg": "thumbnail_img_2827.jpg"
+      },
+      {
+        "sm": "thumbnail_img_2830.jpg",
+        "lg": "thumbnail_img_2830.jpg"
       }
     ]
   },
@@ -16842,6 +16854,16 @@
     "pdfLink": "mapping-and-modeling-science-technology-and-education-_-complexity-science-hub.pdf"
   },
   {
+    "dateStart": "2025-10-30T16:30:32.591Z",
+    "dateEnd": "2025-10-30T18:30:32.597Z",
+    "title": "Atlas of Macroscopes: Interactive Data Visualizations at The Broad Institute",
+    "venue": "The Broad Institute",
+    "organizer": "Brady Walker, Kristin Ardlie",
+    "city": "Cambridge",
+    "state": "Massachusetts",
+    "country": "USA"
+  },
+  {
     "dateStart": "2025-11-01T15:00:29.914Z",
     "dateEnd": "2025-11-01T19:00:43.404Z",
     "title": "Places & Spaces: Mapping Science at Science Fest 2025",
@@ -16851,6 +16873,16 @@
     "state": "IN",
     "country": "USA",
     "pdfLink": "science-fest_-indiana-university.pdf"
+  },
+  {
+    "dateStart": "2025-11-08T18:00:25.110Z",
+    "dateEnd": "2025-11-15T03:00:25.115Z",
+    "title": "Places & Spaces: Mapping Science at Alte Wirtschaftsuniversität Library",
+    "venue": "Alte Wirtschaftsuniversität Library",
+    "organizer": "Annette Tesarek ",
+    "city": "Vienna",
+    "state": ",",
+    "country": "Austria"
   },
   {
     "dateStart": "2025-11-20T23:00:36.139Z",
