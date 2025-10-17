@@ -10,4 +10,10 @@ country: USA
 venueImages:
   - sm: untitled_artwork-24.jpg
     lg: untitled_artwork-24.jpg
+  - sm: thumbnail_img_2829.jpg
+    lg: thumbnail_img_2829.jpg
+  - sm: thumbnail_img_2827.jpg
+    lg: thumbnail_img_2827.jpg
+  - sm: thumbnail_img_2830.jpg
+    lg: thumbnail_img_2830.jpg
 ---
