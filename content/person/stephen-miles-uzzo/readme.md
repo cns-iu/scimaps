@@ -4,11 +4,10 @@ last_name: Uzzo
 roles:
   - ambassador
   - advisory_board
-jobTitle: Chief Scientist
-affiliation: National Museum of Mathematics
-location: '{"type":"Point","coordinates":[-73.85185343422677,40.74741271353572]}'
-location_name: New York, NY, USA
+jobTitle: President & Executive Director
+affiliation: Cape Cod Museum Of Natural History
+location: '{"type":"Point","coordinates":[-70.1160,41.7537]}'
+location_name: Brewster, MA, USA
 region: n_america
 image: image.jpg
 ---
-
