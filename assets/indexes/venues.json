@@ -16861,7 +16861,49 @@
     "organizer": "Brady Walker, Kristin Ardlie",
     "city": "Cambridge",
     "state": "Massachusetts",
-    "country": "USA"
+    "country": "USA",
+    "venueImages": [
+      {
+        "sm": "IMG_2975.jpeg",
+        "lg": "IMG_2975.jpeg"
+      },
+      {
+        "sm": "IMG_2979.jpeg",
+        "lg": "IMG_2979.jpeg"
+      },
+      {
+        "sm": "IMG_2986.jpeg",
+        "lg": "IMG_2986.jpeg"
+      },
+      {
+        "sm": "IMG_3015.jpeg",
+        "lg": "IMG_3015.jpeg"
+      },
+      {
+        "sm": "IMG_3029.jpeg",
+        "lg": "IMG_3029.jpeg"
+      },
+      {
+        "sm": "IMG_3034.jpeg",
+        "lg": "IMG_3034.jpeg"
+      },
+      {
+        "sm": "IMG_3042.jpeg",
+        "lg": "IMG_3042.jpeg"
+      },
+      {
+        "sm": "IMG_3046.jpeg",
+        "lg": "IMG_3046.jpeg"
+      },
+      {
+        "sm": "IMG_3047.jpeg",
+        "lg": "IMG_3047.jpeg"
+      },
+      {
+        "sm": "IMG_3057.jpeg",
+        "lg": "IMG_3057.jpeg"
+      }
+    ]
   },
   {
     "dateStart": "2025-11-01T14:00:29.914Z",
@@ -16886,9 +16928,44 @@
     "title": "Places & Spaces: Mapping Science at Alte Wirtschaftsuniversität Library",
     "venue": "Alte Wirtschaftsuniversität Library",
     "organizer": "Annette Tesarek ",
+    "credit": "© Sophie Menegaldo | Ivory Rose Photography",
     "city": "Vienna",
     "state": ",",
-    "country": "Austria"
+    "country": "Austria",
+    "venueImages": [
+      {
+        "sm": "005.jpg",
+        "lg": "005.jpg"
+      },
+      {
+        "sm": "011.jpg",
+        "lg": "011.jpg"
+      },
+      {
+        "sm": "013.jpg",
+        "lg": "013.jpg"
+      },
+      {
+        "sm": "016.jpg",
+        "lg": "016.jpg"
+      },
+      {
+        "sm": "021.jpg",
+        "lg": "021.jpg"
+      },
+      {
+        "sm": "023.jpg",
+        "lg": "023.jpg"
+      },
+      {
+        "sm": "134.jpg",
+        "lg": "134.jpg"
+      },
+      {
+        "sm": "137.jpg",
+        "lg": "137.jpg"
+      }
+    ]
   },
   {
     "dateStart": "2025-11-20T23:00:36.139Z",
@@ -16899,6 +16976,46 @@
     "city": "Bloomington",
     "state": "IN",
     "country": "USA",
-    "pdfLink": "author-event.pdf"
+    "pdfLink": "author-event.pdf",
+    "venueImages": [
+      {
+        "sm": "20251120_180224.jpg",
+        "lg": "20251120_180224.jpg"
+      },
+      {
+        "sm": "IMG_3106.jpeg",
+        "lg": "IMG_3106.jpeg"
+      },
+      {
+        "sm": "IMG_3107.jpeg",
+        "lg": "IMG_3107.jpeg"
+      },
+      {
+        "sm": "IMG_3108.jpeg",
+        "lg": "IMG_3108.jpeg"
+      },
+      {
+        "sm": "IMG_3141.jpeg",
+        "lg": "IMG_3141.jpeg"
+      },
+      {
+        "sm": "IMG_3143.jpeg",
+        "lg": "IMG_3143.jpeg"
+      },
+      {
+        "sm": "IMG_8393.jpg",
+        "lg": "IMG_8393.jpg"
+      }
+    ]
+  },
+  {
+    "dateStart": "2025-12-13T17:00:00.000Z",
+    "dateEnd": "2025-12-14T17:00:00.000Z",
+    "title": "24-Hour Envisioning Intelligences Event",
+    "venue": "Remote",
+    "organizer": "Cyberinfrastructure for Network Science Center",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US"
   }
 ]
