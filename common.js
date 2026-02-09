@@ -316,6 +316,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "LearningMaterialModule": () => (/* binding */ LearningMaterialModule)
 /* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 2316);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ 4364);
 /* harmony import */ var _learning_material_routing_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./learning-material-routing.module */ 6319);
 /* harmony import */ var _learning_material_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./learning-material.component */ 2575);
@@ -323,7 +324,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var ngx_markdown__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ngx-markdown */ 8379);
 /* harmony import */ var _shared_components_drawer_header_drawer_header_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/components/drawer-header/drawer-header.module */ 9789);
 /* harmony import */ var _shared_components_drawer_drawer_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../shared/components/drawer/drawer.module */ 626);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 2316);
+
+
 
 
 
@@ -340,15 +342,13 @@ LearningMaterialModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MOD
             _angular_common__WEBPACK_IMPORTED_MODULE_5__.CommonModule,
             _learning_material_routing_module__WEBPACK_IMPORTED_MODULE_0__.LearningMaterialRoutingModule,
             _angular_material_icon__WEBPACK_IMPORTED_MODULE_6__.MatIconModule,
-            ngx_markdown__WEBPACK_IMPORTED_MODULE_7__.MarkdownModule,
+            ngx_markdown__WEBPACK_IMPORTED_MODULE_7__.MarkdownModule.forRoot({ sanitize: _angular_core__WEBPACK_IMPORTED_MODULE_4__.SecurityContext.NONE }),
             _shared_components_drawer_header_drawer_header_module__WEBPACK_IMPORTED_MODULE_2__.DrawerHeaderModule,
-            _shared_components_drawer_drawer_module__WEBPACK_IMPORTED_MODULE_3__.DrawerModule
+            _shared_components_drawer_drawer_module__WEBPACK_IMPORTED_MODULE_3__.DrawerModule,
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsetNgModuleScope"](LearningMaterialModule, { declarations: [_learning_material_component__WEBPACK_IMPORTED_MODULE_1__.LearningMaterialComponent], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.CommonModule,
         _learning_material_routing_module__WEBPACK_IMPORTED_MODULE_0__.LearningMaterialRoutingModule,
-        _angular_material_icon__WEBPACK_IMPORTED_MODULE_6__.MatIconModule,
-        ngx_markdown__WEBPACK_IMPORTED_MODULE_7__.MarkdownModule,
-        _shared_components_drawer_header_drawer_header_module__WEBPACK_IMPORTED_MODULE_2__.DrawerHeaderModule,
+        _angular_material_icon__WEBPACK_IMPORTED_MODULE_6__.MatIconModule, ngx_markdown__WEBPACK_IMPORTED_MODULE_7__.MarkdownModule, _shared_components_drawer_header_drawer_header_module__WEBPACK_IMPORTED_MODULE_2__.DrawerHeaderModule,
         _shared_components_drawer_drawer_module__WEBPACK_IMPORTED_MODULE_3__.DrawerModule] }); })();
 
 
