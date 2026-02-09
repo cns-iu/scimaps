@@ -12,3 +12,5 @@ In *Lateral Thinking Gone VR*, a narrative virtual reality (VR) visualization, a
 The application is available for download via the Meta App Lab: <https://www.meta.com/experiences/6196572587047487> 
 
 Code and technical details are available at <https://github.com/cns-iu/issi-vr-workshop-2023/blob/main/README.md>.
+
+A video demo is available on [YouTube](https://youtu.be/x_RaPMxPbyM?si=W59abyNk6G6Cs7Lh).
