@@ -14,3 +14,5 @@ The application is available for download via the Meta App Lab: <https://www.met
 Code and technical details are available at <https://github.com/cns-iu/issi-vr-workshop-2023/blob/main/README.md>.
 
 A video demo is available on [YouTube](https://youtu.be/x_RaPMxPbyM?si=W59abyNk6G6Cs7Lh).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x_RaPMxPbyM?si=e1AKi46hTbJWvxep" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
