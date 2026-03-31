@@ -22,7 +22,8 @@ export const getVenues = (n: number): Venue[] => {
       city: `city${i}`,
       state: `state${i}`,
       country: `country${i}`,
-      pdfLink: `pdfLink${i}`
+      pdfLink: `pdfLink${i}`,
+      websiteUrl: `website${i}`,
     });
   }
   return result;
