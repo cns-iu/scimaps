@@ -7,4 +7,5 @@ organizer: "Cyberinfrastructure for Network Science Center"
 city: "Bloomington"
 state: "IN"
 country: "US"
+pdfLink: Website.pdf
 ---
