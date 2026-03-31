@@ -7,5 +7,6 @@ organizer: Katy Börner
 city: Bloomington
 state: IN
 country: US
+websiteUrl: https://cns-iu.github.io/workshops/2023-12-9_24hour_science_map
 pdfLink: 24-hour-macroscope-event-2023.pdf
 ---
