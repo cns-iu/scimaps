@@ -1259,6 +1259,7 @@ class VenuesResolverService {
             country: item.country,
             pdfLink: item.pdfLink,
             venueImages: item.venueImages,
+            websiteUrl: item.websiteUrl,
         };
     }
     resolve() {
