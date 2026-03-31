@@ -8,5 +8,6 @@ credit: Places & Spaces
 city: Bloomington
 state: IN
 country: US
+websiteUrl: https://cns-iu.github.io/workshops/2021-12-10_24hour_science_map
 pdfLink: 24-hour-event.pdf
 ---
