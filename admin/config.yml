@@ -404,6 +404,7 @@ collections:
       - { name: city, label: City }
       - { name: state, label: State }
       - { name: country, label: Country }
+      - { name: websiteUrl, label: Website, required: false }
       - { name: pdfLink, label: PDF Link, widget: file, required: false }
       - name: venueImages
         label: Venue Images
