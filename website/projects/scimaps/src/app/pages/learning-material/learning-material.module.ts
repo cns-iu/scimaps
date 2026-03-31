@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, SecurityContext } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { LearningMaterialRoutingModule } from './learning-material-routing.module';
@@ -8,16 +8,15 @@ import { MarkdownModule } from 'ngx-markdown';
 import { DrawerHeaderModule } from '../../shared/components/drawer-header/drawer-header.module';
 import { DrawerModule } from '../../shared/components/drawer/drawer.module';
 
-
 @NgModule({
   declarations: [LearningMaterialComponent],
   imports: [
     CommonModule,
     LearningMaterialRoutingModule,
     MatIconModule,
-    MarkdownModule,
+    MarkdownModule.forRoot({ sanitize: SecurityContext.NONE }),
     DrawerHeaderModule,
-    DrawerModule
-  ]
+    DrawerModule,
+  ],
 })
-export class LearningMaterialModule { }
+export class LearningMaterialModule {}

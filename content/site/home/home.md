@@ -1,10 +1,9 @@
 ---
 cta:
-  title: "20 Years of Places & Spaces: Mapping Science"
-  body: Explore the celebration of the exhibit's last two decades and more with
-    our 2024 Annual Report!
-  buttonLabel: Annual Report
-  buttonLink: https://scimaps.org/assets/content/site/about/cns-annual-report-2024.pdf
+  title: "24 Hour Envisioning Intelligences event"
+  body: Please join us December 13-14 for a 24 Hour online celebration of Envisioning Intelligences
+  buttonLabel: Event Details
+  buttonLink: https://cns-iu.github.io/workshops/2025-24h/
   subtitle: ""
-  imageSource: screenshot-2025-08-21-133203.png
+  imageSource: cta.png
 ---

@@ -18,6 +18,7 @@ export interface Venue {
   country: string;
   pdfLink: string;
   venueImages: { sm: string; lg: string }[];
+  websiteUrl: string;
 }
 
 @Injectable({
@@ -63,6 +64,7 @@ export class VenuesResolverService implements Resolve<Venue[]> {
       country: item.country,
       pdfLink: item.pdfLink,
       venueImages: item.venueImages,
+      websiteUrl: item.websiteUrl,
     };
   }
 
