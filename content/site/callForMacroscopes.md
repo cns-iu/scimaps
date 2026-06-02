@@ -1,7 +1,7 @@
 ---
 lastIteration: 20
 pdfLink: ""
-submitURL: https://forms.gle/GoeRNryMBQxMuDsBA
+submitURL: https://forms.gle/7RrhnUrCTSbsfj5E6
 allowSubmission: true
 tabs:
   - header: Background and Goals
@@ -19,7 +19,7 @@ tabs:
       We are looking for works (e.g., images, videos, websites, interactive visualizations) that visualize, discuss or exemplify cooperation between types of intelligence and/or that visualize at least one type of intelligence. The works can speak to historical views of intelligence or illuminate new views of intelligence(s). Entries can be either new or existing works.
 
 
-      Each entry must be submitted by May 31, 2025, and needs to include:
+      Each entry must be submitted by Aug 31, 2026, and needs to include:
 
 
       * Title of work
@@ -32,7 +32,7 @@ tabs:
 
       * References to relevant publications or online sites and links to related projects or works
 
-      * Submit entries via the following link: <https://forms.gle/GoeRNryMBQxMuDsBA>
+      * Submit entries via the following link: <https://forms.gle/7RrhnUrCTSbsfj5E6>
 
   - header: Review Process
     content: >-
@@ -49,11 +49,11 @@ tabs:
       * Relevance for a general audience
 
 
-      Please send questions you might have regarding the selection process to [cnscntr@iu.edu](mailto:cnscntr@iu.edu) and use the subject heading “Exhibit Inquiry.” 
-      
+      Please send questions you might have regarding the selection process to [cnscntr@iu.edu](mailto:cnscntr@iu.edu) and use the subject heading “Exhibit Inquiry.”
+
   - header: Final Submission
     content: >-
-      Authors of winning entries will be contacted by June 30, 2025 and invited to submit final materials by July 31, 2025. Each final entry consists of:
+      Authors of winning entries will be contacted by Oct 15, 2026 and invited to submit final materials by Oct 31, 2026. Each final entry consists of:
 
 
       * Submit the work as an image file, video file, executable code, or a link to a visualization.
@@ -67,7 +67,7 @@ tabs:
       * Signed copyright and reproduction agreement
 
 
-      The new exhibit iteration is expected to be ready for display in late September of 2025.
+      The new exhibit iteration is expected to be ready for display in December of 2026.
 
   - header: Exhibit Advisory Board
     content: >-
@@ -100,12 +100,12 @@ tabs:
       * Benjamin Wiederkehr, Interactive Things
 
 importantDates:
-  - date: 2025-05-31
+  - date: 2026-08-31
     label: Submissions due
-  - date: 2025-06-30
+  - date: 2026-10-15
     label: Authors notified
-  - date: 2025-07-31
+  - date: 2026-10-31
     label: Authors submit final entries
-  - date: 2025-09-30
+  - date: 2026-12
     label: Ready for display
 ---
