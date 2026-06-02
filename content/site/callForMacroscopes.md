@@ -106,6 +106,7 @@ importantDates:
     label: Authors notified
   - date: 2026-10-31
     label: Authors submit final entries
-  - date: 2026-12
+  - date: 2026-12-31
     label: Ready for display
+    monthOnly: true
 ---
