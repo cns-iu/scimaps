@@ -16,7 +16,7 @@ export class CallForMacroscopesComponent implements OnInit {
   activePageTab = 0;
   showDrawer = false;
   lastIteration?: number;
-  importantDates: Array<[string, Date]> = [];
+  importantDates: Array<[string, Date, boolean]> = [];
 
   submitURL = '';
   pdfLink = '';
@@ -51,9 +51,9 @@ export class CallForMacroscopesComponent implements OnInit {
         this.pdfLink = pdfLink;
         this.allowSubmission = allowSubmission;
         this.importantDates = importantDates.map(
-          (item: { label: string; date: Date }) => {
-            return [item.label, item.date];
-          }
+          (item: { label: string; date: Date; monthOnly?: boolean }) => {
+            return [item.label, item.date, item.monthOnly];
+          },
         );
       }
       // Last Macroscope Iteraction
