@@ -9,7 +9,6 @@
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     max-width: fit-content;
-    // max-height: 20rem;
 
     .text-content {
       padding: 2rem 1rem;
@@ -25,7 +24,6 @@
 
       .body {
         font-size: 0.75rem;
-        // height: 5rem;
         overflow: hidden;
         text-overflow: ellipsis;
       }
@@ -41,11 +39,10 @@
     }
 
     .image-container {
-      width: 23rem;
+      width: 16rem;
       height: auto;
       border-top-right-radius: 1rem;
       background-size: cover;
-      background-repeat: round;
     }
   }
 
