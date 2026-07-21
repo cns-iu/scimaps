@@ -2,8 +2,9 @@
 
 - Production: <https://dev.scimaps.org/>
 - Staging: <https://scimaps.netlify.app/>
+- Content management system: https://scimaps.netlify.app/admin
 
-# Instructions to Run Locally
+# Instructions to run locally
 
 <ol>
 <li> Uncomment local_backend=true from config.yml (DO NOT COMMIT).</li>
