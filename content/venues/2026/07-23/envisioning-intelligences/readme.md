@@ -1,9 +1,9 @@
 ---
 dateStart: 2026-07-23T17:02:34.344Z
 dateEnd: 2026-07-23T17:02:34.348Z
-title: Envisioning Intelligences
-venue: Luddy TechFest 2026
-organizer: Luddy School of Informatics, Computing, and Engineering
+title: Luddy TechFest 2026
+venue: Luddy School of Informatics, Computing, and Engineering
+organizer: Meryl Jacobs
 city: Bloomington
 state: IN
 country: USA
