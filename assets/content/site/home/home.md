@@ -1,9 +1,9 @@
 ---
 cta:
-  title: "24 Hour Envisioning Intelligences event"
-  body: Please join us December 13-14 for a 24 Hour online celebration of Envisioning Intelligences
-  buttonLabel: Event Details
-  buttonLink: https://cns-iu.github.io/workshops/2025-24h/
+  title: "2026 Call for Submissions is Open"
+  body: Submit your work to Envisioning Intelligences by Aug 31, 2026
+  buttonLabel: Call for Submissions
+  buttonLink: https://scimaps.org/call-for-submissions
   subtitle: ""
   imageSource: cta.png
 ---
