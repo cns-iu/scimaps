@@ -1,7 +1,16 @@
 <div class="title">{{ title }}</div>
 <div class="body">
   <div class="item" *ngFor="let item of items">
-    <p class="item-label" [class.strike-through]="isPastDate(item[1])">{{ item[0] }}</p>
-    <p class="item-date">{{ item[1] | date:'MMM dd, yyyy':'+0000' }}</p>
+    <p class="item-label" [class.strike-through]="isPastDate(item[1])">
+      {{ item[0] }}
+    </p>
+    <ng-container [ngSwitch]="item[2]">
+      <p *ngSwitchCase="true" class="item-date">
+        {{ item[1] | date: "MMM yyyy" : "+0000" }}
+      </p>
+      <p *ngSwitchCase="undefined" class="item-date">
+        {{ item[1] | date: "MMM dd, yyyy" : "+0000" }}
+      </p>
+    </ng-container>
   </div>
 </div>
