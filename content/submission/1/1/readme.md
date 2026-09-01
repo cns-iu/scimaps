@@ -1,6 +1,6 @@
 ---
 en:
-  sequence: 1
+  sequence: 2
   body: >-
     Most life does not live alone. Organisms form symbioses with distantly
     related forms of life, exchanging resources in partnerships that can shape
@@ -40,7 +40,7 @@ en:
     med: earths-hidden-fungal-infrastructure-160.png
     lg: earths-hidden-fungal-infrastructure-865.png
   year: 2020
-  iteration: 1
+  iteration: 22
 es: {}
 zh: {}
 fr: {}
