@@ -33,6 +33,9 @@ en:
 
       The resulting global mapping research was published in Science and forms the scientific basis of The Mycorrhizal Infrastructure Map. 
   makers:
+    - justin-d-stewart/readme
+    - corentin-bisot/readme
+    - toby-kiers/readme
     - moritz-stefaner/readme
   title: Earth’s Hidden Fungal Infrastructure
   image:
