@@ -107,7 +107,7 @@ function ItemDrawerComponent_div_28_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx_r3.type === "map");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx_r3.type === "macroscope");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx_r3.type === "macroscope" || ctx_r3.type === "submission");
 } }
 function ItemDrawerComponent_div_29_mat_icon_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "mat-icon", 35);
@@ -168,7 +168,7 @@ class ItemDrawerComponent {
      * Combines the maker names
      */
     get makers() {
-        return this.item.makers.map(maker => maker.name).join(', ');
+        return this.item.makers.map((maker) => maker.name).join(', ');
     }
     /**
      * Closes item drawer component and returns to the maps or macroscopes page
@@ -192,14 +192,14 @@ class ItemDrawerComponent {
      */
     openPurchase() {
         this.dialog.open(_purchase_modal_purchase_modal_component__WEBPACK_IMPORTED_MODULE_1__.PurchaseModalComponent, {
-            width: window.innerWidth <= 768 ? '100%' : '738px'
+            width: window.innerWidth <= 768 ? '100%' : '738px',
         });
     }
     redirect() {
         if (this.type === 'map') {
             this.router.navigate(['detail'], { relativeTo: this.route });
         }
-        else if (this.type === 'macroscope') {
+        else if (this.type === 'macroscope' || this.type === 'submission') {
             const { videoLink, externalLink } = this.item;
             if (videoLink) {
                 this.router.navigate(['detail'], { relativeTo: this.route });
