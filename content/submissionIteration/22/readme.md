@@ -1,5 +1,5 @@
 ---
-title: XXII. 22nd Iteration Submissions
+title: 22nd Iteration Submissions
 iteration: 22
 ---
 <!--StartFragment-->
