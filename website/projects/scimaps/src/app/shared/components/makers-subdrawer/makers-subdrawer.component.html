@@ -4,20 +4,26 @@
     <div>BACK</div>
   </div>
 
-  <h2 class="makers-title">Makers: {{title}}</h2>
+  <h2 class="makers-title">Makers: {{ title }}</h2>
 
   <div class="maker-container">
     <div class="maker-info" *ngFor="let maker of makers">
-      <img class="thumbnail" [src]="maker.image" alt="maker image">
+      <img
+        class="thumbnail"
+        [src]="
+          maker.image.includes('undefined')
+            ? 'assets/profiles/placeholder.png'
+            : maker.image
+        "
+        alt="maker image"
+      />
       <div class="info">
-        <div class="name">{{maker.name}}</div>
-        <div class="job">{{maker.title}}</div>
+        <div class="name">{{ maker.name }}</div>
+        <div class="job">{{ maker.title }}</div>
         <div class="bio">
-          <div markdown [data]="maker.body">
-          </div>
+          <div markdown [data]="maker.body"></div>
         </div>
       </div>
     </div>
   </div>
-
 </div>
