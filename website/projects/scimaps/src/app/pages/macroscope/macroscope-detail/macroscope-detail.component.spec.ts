@@ -1,7 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { ActivatedRoute } from '@angular/router';
-import { RouterTestingModule } from '@angular/router/testing';
+import { ActivatedRoute, Router } from '@angular/router';
 import { MapMacroscopeItem } from '../../../core/models/discover-item';
 import { MacroscopeModule } from '../macroscope.module';
 import { MacroscopeDetailComponent } from './macroscope-detail.component';
@@ -53,7 +52,9 @@ const testItem: MapMacroscopeItem = {
 describe('MacroscopeDetailComponent', () => {
   let component: MacroscopeDetailComponent;
   let fixture: ComponentFixture<MacroscopeDetailComponent>;
+  let router: jasmine.SpyObj<Router>;
   beforeEach(async () => {
+    router = jasmine.createSpyObj('Router', ['navigate']);
     const route = {
       parent: {
         snapshot: {
@@ -64,10 +65,11 @@ describe('MacroscopeDetailComponent', () => {
       }
     };
     await TestBed.configureTestingModule({
-      imports: [MacroscopeModule, RouterTestingModule, NoopAnimationsModule],
+      imports: [MacroscopeModule, NoopAnimationsModule],
       declarations: [ MacroscopeDetailComponent ],
       providers: [
-        { provide: ActivatedRoute, useValue: route }
+        { provide: ActivatedRoute, useValue: route },
+        { provide: Router, useValue: router }
       ],
     })
     .compileComponents();
@@ -82,8 +84,10 @@ describe('MacroscopeDetailComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-  it('should close', () => {
+  it('should close', fakeAsync(() => {
     component.close();
     expect(component.showOverlay).toBeFalsy();
-  });
+    tick(500);
+    expect(router.navigate).toHaveBeenCalledWith(['../'], {relativeTo: TestBed.inject(ActivatedRoute)});
+  }));
 });
