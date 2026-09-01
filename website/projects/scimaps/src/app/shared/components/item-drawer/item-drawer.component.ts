@@ -1,4 +1,11 @@
-import { Component, EventEmitter, HostBinding, Input, OnInit, Output } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  HostBinding,
+  Input,
+  OnInit,
+  Output,
+} from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ActivatedRoute, Router } from '@angular/router';
 import { drawerInOut } from '../../../constants/drawer.animations';
@@ -12,7 +19,7 @@ import { PurchaseModalComponent } from '../purchase-modal/purchase-modal.compone
   selector: 'sci-item-drawer',
   templateUrl: './item-drawer.component.html',
   styleUrls: ['./item-drawer.component.scss'],
-  animations: [drawerInOut]
+  animations: [drawerInOut],
 })
 export class ItemDrawerComponent implements OnInit {
   /** HTML class name */
@@ -40,7 +47,11 @@ export class ItemDrawerComponent implements OnInit {
   showDrawer = false;
 
   makersDrawer = false;
-  constructor(private dialog: MatDialog, private router: Router, private route: ActivatedRoute) { }
+  constructor(
+    private dialog: MatDialog,
+    private router: Router,
+    private route: ActivatedRoute,
+  ) {}
   ngOnInit(): void {
     this.showDrawer = true;
   }
@@ -49,7 +60,7 @@ export class ItemDrawerComponent implements OnInit {
    * Combines the maker names
    */
   get makers(): string {
-    return this.item.makers.map(maker => maker.name).join(', ');
+    return this.item.makers.map((maker) => maker.name).join(', ');
   }
 
   /**
@@ -76,18 +87,17 @@ export class ItemDrawerComponent implements OnInit {
    */
   openPurchase(): void {
     this.dialog.open(PurchaseModalComponent, {
-      width: window.innerWidth <= 768 ? '100%' : '738px'
+      width: window.innerWidth <= 768 ? '100%' : '738px',
     });
   }
 
   redirect(): void {
     if (this.type === 'map') {
-      this.router.navigate(['detail'], {relativeTo: this.route});
-    }
-    else if (this.type === 'macroscope') {
-      const {videoLink, externalLink} = this.item;
+      this.router.navigate(['detail'], { relativeTo: this.route });
+    } else if (this.type === 'macroscope' || this.type === 'submission') {
+      const { videoLink, externalLink } = this.item;
       if (videoLink) {
-        this.router.navigate(['detail'], {relativeTo: this.route});
+        this.router.navigate(['detail'], { relativeTo: this.route });
         return;
       }
       if (externalLink) {

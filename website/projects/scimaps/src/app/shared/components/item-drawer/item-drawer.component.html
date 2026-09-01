@@ -1,12 +1,12 @@
 <sci-drawer [@drawerInOut]="showDrawer ? 'show' : 'hide'">
   <div class="details-container" drawer>
-    
+
     <div class="header">
       <sci-drawer-header [backText]="'Iteration'" (backClick)="close()">
       </sci-drawer-header>
-      <div class="purchase-button" *ngIf="type === 'map'" (click)="openPurchase()">PURCHASE</div>  
+      <div class="purchase-button" *ngIf="type === 'map'" (click)="openPurchase()">PURCHASE</div>
     </div>
-    
+
     <div class="body">
       <div class="details-content">
         <h2 class="details-title">{{item.title}}</h2>
@@ -44,7 +44,7 @@
           <img class="thumbnail" [src]="item.thumbnail" alt="item image">
           <div class="icon" *ngIf="item.externalLink">
             <mat-icon *ngIf="type === 'map'" class="zoom">zoom_in</mat-icon>
-            <mat-icon *ngIf="type === 'macroscope'" class="launch">launch</mat-icon>
+            <mat-icon *ngIf="type === 'macroscope' || type === 'submission'" class="launch">launch</mat-icon>
           </div>
           <div class="icon" *ngIf="item.videoLink">
             <mat-icon *ngIf="type === 'macroscope'" class="video">smart_display</mat-icon>

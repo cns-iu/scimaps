@@ -31,7 +31,7 @@ en:
       scale patterns (10⁻⁶ meters) to global ecosystems (10³–10⁷ meters).
 
 
-      The resulting global mapping research was published in Science and forms the scientific basis of The Mycorrhizal Infrastructure Map. 
+      The resulting global mapping research was published in Science and forms the scientific basis of The Mycorrhizal Infrastructure Map.
   makers:
     - justin-d-stewart/readme
     - corentin-bisot/readme
@@ -39,7 +39,7 @@ en:
     - moritz-stefaner/readme
   title: Earth’s Hidden Fungal Infrastructure
   image:
-    sm: earths-hidden-fungal-infrastructure-80.png
+    sm: earths-hidden-fungal-infrastructure-160.png
     med: earths-hidden-fungal-infrastructure-160.png
     lg: earths-hidden-fungal-infrastructure-865.png
   year: 2026
