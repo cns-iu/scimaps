@@ -432,6 +432,16 @@
     "image": "image.jpg"
   },
   {
+    "name": "Bolor Amgalan",
+    "last_name": "Amgalan",
+    "roles": [
+      "maker"
+    ],
+    "homepage": "https://www.boloramgalan.com",
+    "affiliation": "Northeastern University",
+    "region": "n_america"
+  },
+  {
     "name": "Bonnie Jean DeVarco",
     "last_name": "DeVarco",
     "roles": [
@@ -738,6 +748,17 @@
     "roles": [
       "maker"
     ]
+  },
+  {
+    "name": "Corentin Bisot",
+    "last_name": "Bisot",
+    "roles": [
+      "maker"
+    ],
+    "affiliation": "European Molecular Biology Laboratory",
+    "location": "{\"type\":\"Point\",\"coordinates\":[4.8897564,52.3706038]}",
+    "location_name": "Netherlands",
+    "region": "europe"
   },
   {
     "body": "The Council for Chemical Research (CCR) is an organization based in Washington, D.C., the membership of which represents industry, academia, and government. CCR was formed in 1979 to promote cooperation in basic research and to encourage high-quality education in the chemical sciences and engineering. The mission of the CCR is to benefit society by advancing research in chemistry, chemical engineering, and related disciplines through leadership collaboration across disciplines, institutions, and sector boundaries. As of 2011, CCR’s membership represents most of the U.S. chemical research enterprise, comprising more than 200 companies, universities, and government laboratories with a combined R&D budget of more than $7 billion. More information can be found at http://www.ccrhq.org.\n",
@@ -1962,6 +1983,16 @@
     "roles": [
       "maker"
     ]
+  },
+  {
+    "name": "Justin D. Stewart",
+    "last_name": "Stewart",
+    "roles": [
+      "maker"
+    ],
+    "affiliation": "Society for the Protection of Underground Networks (SPUN)",
+    "location_name": "Netherlands",
+    "region": "europe"
   },
   {
     "body": "Jyldyz Djumalieva is the head of open jobs data at Nesta. She specializes in machine learning, network analysis and the exploration of complex datasets. Prior to joining Nesta, Djumalieva was a data analyst at the Bank of England where she conducted projects involving text mining, social media analysis and graph databases. She also has a strong background in organizational consulting. At OnPoint Consulting LLC she facilitated the design and delivery of eLearning solutions for leader development. She holds an MSc with distinction in Big Data Analytics from the Sheffield Hallam University and an MSc in Organizational Psychology from the University of Hartford, CT.\n",
@@ -3673,6 +3704,16 @@
       "maker"
     ],
     "image": "tobia_reisch.png"
+  },
+  {
+    "name": "Toby Kiers",
+    "last_name": "Kiers",
+    "roles": [
+      "maker"
+    ],
+    "affiliation": " Society for the Protection of Underground Networks (SPUN)",
+    "location_name": "Netherlands",
+    "region": "europe"
   },
   {
     "body": "Todd M. Holloway was a PhD candidate in computer science at Indiana University. He holds a BA from Grinnell College and an SM from Indiana University, both in computer science. His research interests include data mining, case-based reasoning, information retrieval, personalization, and information visualization.\n",
