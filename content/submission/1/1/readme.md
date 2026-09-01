@@ -39,7 +39,7 @@ en:
     sm: earths-hidden-fungal-infrastructure-80.png
     med: earths-hidden-fungal-infrastructure-160.png
     lg: earths-hidden-fungal-infrastructure-865.png
-  year: 2020
+  year: 2026
   iteration: 22
 es: {}
 zh: {}
