@@ -36,7 +36,7 @@ en:
 
       https://web.archive.org/web/20200317184127/https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html.
   makers:
-    - abin-abraham/readme
+    - bolor-amgalan/readme
   title: "Celestial Strings II: The Material Intelligences of the Morin Khuur"
   image:
     sm: celestial-strings-865-2.png
