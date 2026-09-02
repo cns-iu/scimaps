@@ -6,7 +6,7 @@ en:
   externalLink: https://eat-poop-you-robot.backface.net
   title: Eat Poop You Robot!
   body: >-
-    **L﻿ink to submitted work: <https://eat-poop-you-robot.backface.net>***
+    **L﻿ink to submitted work: <https://eat-poop-you-robot.backface.net>**
 
 
     This is an AI art generation experiment that creates an endless chain of images. Each image is generated based on an AI's description of the previous image, creating an evolving visual journey that slowly drifts from one concept to another inspired by the party game "Telephone Pictionary" (also know as "Eat Poop You Cat"), where players alternately draw and describe each other's drawings.
