@@ -2,17 +2,10 @@
 en:
   sequence: 3
   body: >-
-    Celestial Strings II is a dual data visualization and sonification project
-    about the material intelligences present in the morin khuur. Also known as
-    the horsehead fiddle, the morin khuur is a UNESCO-recognized traditional
-    Mongolian musical instrument deeply associated with nomadic material culture
-    and horse-human relations. Its distinctive sonic qualities emerge through an
-    interplay of material properties, environmental conditions in the steppe,
-    and embodied practice. Nomadic mobility shaped the use of readily available
-    materials such as wood, hide, bone, and, most famously, horse tail hair.
-    Tail hair from horses raised in this arid environment exhibits strong
-    natural segmentation, supporting fine tension adjustment in the instrument’s
-    strings and bow.
+    **L﻿ink to submitted work:** <https://www.boloramgalan.com/morinkhuur>
+
+
+    Celestial Strings II is a dual data visualization and sonification project about the material intelligences present in the morin khuur. Also known as the horsehead fiddle, the morin khuur is a UNESCO-recognized traditional Mongolian musical instrument deeply associated with nomadic material culture and horse-human relations. Its distinctive sonic qualities emerge through an interplay of material properties, environmental conditions in the steppe, and embodied practice. Nomadic mobility shaped the use of readily available materials such as wood, hide, bone, and, most famously, horse tail hair. Tail hair from horses raised in this arid environment exhibits strong natural segmentation, supporting fine tension adjustment in the instrument’s strings and bow.
 
 
     Celestial Strings II presents material intelligence as defined through the processual relations a material forms with that which it encounters. The project makes these relations both visible and audible by asking how the morin khuur might sound on the surface of Mars. Using NASA rover data (atmospheric pressure, near-surface air temperature, wind speed and direction, CO₂ fraction, atmospheric density, and vertical thermal structure), the project constructs an advanced Martian acoustic propagation model. A full Martian year of data processually transforms a recording of a culturally situated morin khuur melody, compressing a year of changing atmospheric conditions into a single musical passage.
