@@ -2,12 +2,11 @@
 en:
   sequence: 2
   body: >-
-    Most life does not live alone. Organisms form symbioses with distantly
-    related forms of life, exchanging resources in partnerships that can shape
-    entire ecosystems. One of the most widespread examples occurs underground.
-    Approximately 70% of plant species partner with arbuscular mycorrhizal
-    fungi, which build networks of microscopic threads called hyphae through the
-    soil.
+    **L﻿ink to submitted work:
+    [](https://a-hidden-infrastructure.spun.earth/story/a-hidden-infrastructure)<https://a-hidden-infrastructure.spun.earth/story/a-hidden-infrastructure>**
+
+
+    Most life does not live alone. Organisms form symbioses with distantly related forms of life, exchanging resources in partnerships that can shape entire ecosystems. One of the most widespread examples occurs underground. Approximately 70% of plant species partner with arbuscular mycorrhizal fungi, which build networks of microscopic threads called hyphae through the soil.
 
 
     This symbiosis operates through a series of trade deals. Plants provide fungi with large amounts of carbon captured through photosynthesis. In return, fungi explore the soil, acquire nutrients such as phosphorus, and transport them back to their plant partners. Building extensive fungal networks is costly, so fungi must balance the carbon required to construct and maintain them against the benefits of reaching new soil nutrients and plant partners. These individual trade-offs can scale up to influence entire ecosystems, affecting plant nutrition, productivity, and the movement of carbon into soils. Yet the collective outcome of countless individual transactions between plants and fungi across Earth’s soils has remained largely invisible.
