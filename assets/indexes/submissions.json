@@ -2023,13 +2023,13 @@
       "year": 2026,
       "externalLink": "https://eat-poop-you-robot.backface.net",
       "title": "Eat Poop You Robot!",
-      "body": "**L﻿ink to submitted work: <https://eat-poop-you-robot.backface.net>**\n\nThis is an AI art generation experiment that creates an endless chain of images. Each image is generated based on an AI's description of the previous image, creating an evolving visual journey that slowly drifts from one concept to another inspired by the party game \"Telephone Pictionary\" (also know as \"Eat Poop You Cat\"), where players alternately draw and describe each other's drawings.\n\nThe system uses Flux.1-Schnell for image generation and Qwen2-VL 2B for image captioning. Each generated image becomes the prompt for the next one, creating an infinite loop of AI-generated content. Note that the chain only continues generating when someone (human or non-human - We don't verify) is watching.\n\nThis app was programmed by an AI assistant in collaboration with a human artist developer.",
+      "body": "**Link to submitted work: <https://eat-poop-you-robot.backface.net>**\n\nThis is an AI art generation experiment that creates an endless chain of images. Each image is generated based on an AI's description of the previous image, creating an evolving visual journey that slowly drifts from one concept to another inspired by the party game \"Telephone Pictionary\" (also know as \"Eat Poop You Cat\"), where players alternately draw and describe each other's drawings.\n\nThe system uses Flux.1-Schnell for image generation and Qwen2-VL 2B for image captioning. Each generated image becomes the prompt for the next one, creating an infinite loop of AI-generated content. Note that the chain only continues generating when someone (human or non-human - We don't verify) is watching.\n\nThis app was programmed by an AI assistant in collaboration with a human artist developer.",
       "makers": [
         "michael-aschauer/readme"
       ],
       "image": {
-        "sm": "eat-poop-robot-160.png",
-        "med": "eat-poop-robot-160.png",
+        "sm": "eat-poop-robot-640.png",
+        "med": "eat-poop-robot-640.png",
         "lg": "eat-poop-robot-865.png"
       }
     },
@@ -2042,8 +2042,56 @@
   },
   {
     "en": {
+      "sequence": 10,
+      "body": "**Link to submitted work: <https://www.youtube.com/watch?v=pHJIhxZEoxg>**\n\nTrees are among the most fascinating life forms on Earth, but what makes them truly fascinating is hiding underground! They are able to break solid rocks with hydraulic roots, all while working together with the underground fungal networks that can stretch for kilometers. Above and below, trees are running biological empires we’re only beginning to understand.\n\nHow does something so massive survive with roots growing so shallow? What are trees really made of and how are they able to grow so big?\n\nTrees leave no holes in the ground because their immense physical mass comes from harvesting carbon directly out of thin air rather than consuming the surrounding soil. To extract carbon dioxide from the atmosphere, a tree utilizes its crown of leaves to perform photosynthesis. This process combines solar energy, water, and carbon to forge glucose—the primary building block for growth—while releasing oxygen and water vapor back into the air.\n\nUnderground, roots do not ingest soil mass; instead, they function as a precise mining system for water and trace minerals like nitrogen and phosphorus. Guided by sensory caps that detect gravity and moisture, roots spread shallowly outward, using hydraulic pressure to crack rocks and acids to dissolve mineral bonds. To expand their reach, trees form trade alliances with vast underground fungal networks, exchanging canopy-produced sugars for water and distant soil nutrients. Through this combination of atmospheric carbon harvesting and microscopic subterranean mining, massive trees grow to towering heights without creating hollows in the earth below.",
+      "externalLink": "https://www.youtube.com/watch?v=pHJIhxZEoxg",
+      "makers": [
+        "kurzgesagt/readme"
+      ],
+      "title": "Why Are There No Holes Around Trees?",
+      "image": {
+        "sm": "why-no-holes-trees-640.png",
+        "med": "why-no-holes-trees-640.png",
+        "lg": "why-no-holes-trees-865.png"
+      },
+      "year": 2026,
+      "iteration": 22
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 11,
+      "body": "**Link to submitted work: <https://fluent.pet/pages/fluentpet-connect>**\n\nThe FluentPet system is a pet communication framework designed to enable both dogs and cats to express themselves using recordable sound buttons. Animals activate these low-resistance buttons—requiring only about 200 to 250 grams of pressure—using either a paw or a nose. Owners assign specific words to each button, ranging from foundational needs like \"food,\" \"water,\" and \"outside\" to relational or expressive concepts such as \"play,\" \"pain,\" \"help,\" \"yes,\" \"no,\" \"mom,\" and \"dad.\" The modular tile layout scales smoothly from a small initial setup to expansive boards containing dozens of concepts.\n\nWith the newer FluentPet Connect system, button presses are automatically logged and transmitted via Wi-Fi to a dedicated mobile application. The app tracks press activity in real time, enabling owners to analyze vocabulary trends, observe behavioral patterns, and monitor household communication history over time. Backed by over 50 million reported button presses, thousands of user reviews, and independent 2026 evaluations ranking it as the best overall pet communication-button system, FluentPet offers a structured, data-informed platform for tracking interspecies communication.",
+      "externalLink": "https://fluent.pet/pages/fluentpet-connect",
+      "makers": [
+        "fluentpet/readme"
+      ],
+      "title": "FluentPet App",
+      "image": {
+        "sm": "fluentpet-connect-640.png",
+        "med": "fluentpet-connect-640.png",
+        "lg": "fluentpet-connect-865.png"
+      },
+      "year": 2026,
+      "iteration": 22
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
       "sequence": 2,
-      "body": "**L﻿ink to submitted work: [](https://a-hidden-infrastructure.spun.earth/story/a-hidden-infrastructure)<https://a-hidden-infrastructure.spun.earth/story/a-hidden-infrastructure>**\n\nMost life does not live alone. Organisms form symbioses with distantly related forms of life, exchanging resources in partnerships that can shape entire ecosystems. One of the most widespread examples occurs underground. Approximately 70% of plant species partner with arbuscular mycorrhizal fungi, which build networks of microscopic threads called hyphae through the soil.\n\nThis symbiosis operates through a series of trade deals. Plants provide fungi with large amounts of carbon captured through photosynthesis. In return, fungi explore the soil, acquire nutrients such as phosphorus, and transport them back to their plant partners. Building extensive fungal networks is costly, so fungi must balance the carbon required to construct and maintain them against the benefits of reaching new soil nutrients and plant partners. These individual trade-offs can scale up to influence entire ecosystems, affecting plant nutrition, productivity, and the movement of carbon into soils. Yet the collective outcome of countless individual transactions between plants and fungi across Earth’s soils has remained largely invisible.\n\nThe Mycorrhizal Infrastructure Map visualizes findings from our research published in Science. We combined robotic measurements of fungal networks, thousands of soil samples, machine learning, and global environmental data to predict the abundance of arbuscular mycorrhizal fungal hyphae across Earth’s soils. We estimate that these fungi form approximately 110 quadrillion kilometers of hyphae underground, equivalent to roughly one billion times the distance from Earth to the Sun, with a standing biomass roughly six times that of all humans.\n\nThe visualization reveals how microscopic exchanges between plants and fungi scale up to create a globally significant biological infrastructure in Earth’s soils. Together, this work provides a foundation for monitoring plant-fungal symbiosis and identifying where their protection and restoration may have the greatest impact.",
+      "body": "**Link to submitted work: [Interactive Storyboard/Map](https://a-hidden-infrastructure.spun.earth/story/a-hidden-infrastructure); [Visual Asset Kit](https://app.air.inc/a/b7a7555ee/b/59ca0d01-a3dc-4e2b-b7ed-82b722aed7af)**\n\nMost life does not live alone. Organisms form symbioses with distantly related forms of life, exchanging resources in partnerships that can shape entire ecosystems. One of the most widespread examples occurs underground. Approximately 70% of plant species partner with arbuscular mycorrhizal fungi, which build networks of microscopic threads called hyphae through the soil.\n\nThis symbiosis operates through a series of trade deals. Plants provide fungi with large amounts of carbon captured through photosynthesis. In return, fungi explore the soil, acquire nutrients such as phosphorus, and transport them back to their plant partners. Building extensive fungal networks is costly, so fungi must balance the carbon required to construct and maintain them against the benefits of reaching new soil nutrients and plant partners. These individual trade-offs can scale up to influence entire ecosystems, affecting plant nutrition, productivity, and the movement of carbon into soils. Yet the collective outcome of countless individual transactions between plants and fungi across Earth’s soils has remained largely invisible.\n\nThe Mycorrhizal Infrastructure Map visualizes findings from our research published in Science. We combined robotic measurements of fungal networks, thousands of soil samples, machine learning, and global environmental data to predict the abundance of arbuscular mycorrhizal fungal hyphae across Earth’s soils. We estimate that these fungi form approximately 110 quadrillion kilometers of hyphae underground, equivalent to roughly one billion times the distance from Earth to the Sun, with a standing biomass roughly six times that of all humans.\n\nThe visualization reveals how microscopic exchanges between plants and fungi scale up to create a globally significant biological infrastructure in Earth’s soils. Together, this work provides a foundation for monitoring plant-fungal symbiosis and identifying where their protection and restoration may have the greatest impact.",
       "externalLink": "https://a-hidden-infrastructure.spun.earth/story/a-hidden-infrastructure",
       "references": [
         "This work bridges years of research across many spatial scales, combining meta-analysis of soil cores collected around the world with robotic imaging of living fungal networks. Recent advances in robotics allowed members of our team to observe how fungal networks grow, transport resources, and organize fungal architecture at microscopic scales. This work was published in the journal Nature in 2025. We then connected these observations with measurements from nearly 16,000 soil samples and satellite-derived environmental data, allowing us to move from micron scale patterns (10⁻⁶ meters) to global ecosystems (10³–10⁷ meters).\n\nThe resulting global mapping research was published in Science and forms the scientific basis of The Mycorrhizal Infrastructure Map."
@@ -2056,8 +2104,8 @@
       ],
       "title": "Earth’s Hidden Fungal Infrastructure",
       "image": {
-        "sm": "earths-hidden-fungal-infrastructure-160.png",
-        "med": "earths-hidden-fungal-infrastructure-160.png",
+        "sm": "earths-hidden-fungal-infrastructure-640.png",
+        "med": "earths-hidden-fungal-infrastructure-640.png",
         "lg": "earths-hidden-fungal-infrastructure-865.png"
       },
       "year": 2026,
@@ -2073,7 +2121,7 @@
   {
     "en": {
       "sequence": 3,
-      "body": "**L﻿ink to submitted work:** <https://www.boloramgalan.com/morinkhuur>\n\nCelestial Strings II is a dual data visualization and sonification project about the material intelligences present in the morin khuur. Also known as the horsehead fiddle, the morin khuur is a UNESCO-recognized traditional Mongolian musical instrument deeply associated with nomadic material culture and horse-human relations. Its distinctive sonic qualities emerge through an interplay of material properties, environmental conditions in the steppe, and embodied practice. Nomadic mobility shaped the use of readily available materials such as wood, hide, bone, and, most famously, horse tail hair. Tail hair from horses raised in this arid environment exhibits strong natural segmentation, supporting fine tension adjustment in the instrument’s strings and bow.\n\nCelestial Strings II presents material intelligence as defined through the processual relations a material forms with that which it encounters. The project makes these relations both visible and audible by asking how the morin khuur might sound on the surface of Mars. Using NASA rover data (atmospheric pressure, near-surface air temperature, wind speed and direction, CO₂ fraction, atmospheric density, and vertical thermal structure), the project constructs an advanced Martian acoustic propagation model. A full Martian year of data processually transforms a recording of a culturally situated morin khuur melody, compressing a year of changing atmospheric conditions into a single musical passage.\n\nThe same data generates an unstable Martian terrain and a Martian sky viewed through the “toono”, the central opening in the roof of a traditional Mongolian ger (nomadic dwelling). Traditional Mongolian cloud patterns and stars become dynamic visual forms whose movement, density, color, and instability respond to atmospheric data, while a musical aura surrounding the toono references the morin khuur’s protective and spiritually cleansing qualities within the home. Ultimately, material intelligence is made perceptible across both image and sound as it emerges from the flux of relations among animal, climate, craft, atmosphere, computation, and place.",
+      "body": "**Link to submitted work: <https://www.boloramgalan.com/morinkhuur>**\n\nCelestial Strings II is a dual data visualization and sonification project about the material intelligences present in the morin khuur. Also known as the horsehead fiddle, the morin khuur is a UNESCO-recognized traditional Mongolian musical instrument deeply associated with nomadic material culture and horse-human relations. Its distinctive sonic qualities emerge through an interplay of material properties, environmental conditions in the steppe, and embodied practice. Nomadic mobility shaped the use of readily available materials such as wood, hide, bone, and, most famously, horse tail hair. Tail hair from horses raised in this arid environment exhibits strong natural segmentation, supporting fine tension adjustment in the instrument’s strings and bow.\n\nCelestial Strings II presents material intelligence as defined through the processual relations a material forms with that which it encounters. The project makes these relations both visible and audible by asking how the morin khuur might sound on the surface of Mars. Using NASA rover data (atmospheric pressure, near-surface air temperature, wind speed and direction, CO₂ fraction, atmospheric density, and vertical thermal structure), the project constructs an advanced Martian acoustic propagation model. A full Martian year of data processually transforms a recording of a culturally situated morin khuur melody, compressing a year of changing atmospheric conditions into a single musical passage.\n\nThe same data generates an unstable Martian terrain and a Martian sky viewed through the “toono”, the central opening in the roof of a traditional Mongolian ger (nomadic dwelling). Traditional Mongolian cloud patterns and stars become dynamic visual forms whose movement, density, color, and instability respond to atmospheric data, while a musical aura surrounding the toono references the morin khuur’s protective and spiritually cleansing qualities within the home. Ultimately, material intelligence is made perceptible across both image and sound as it emerges from the flux of relations among animal, climate, craft, atmosphere, computation, and place.",
       "externalLink": "https://www.boloramgalan.com/morinkhuur",
       "references": [
         "https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/PERSEVERANCE/meda.html\nMAURICE, S., CHIDE, B., MURDOCH, N., ET AL. 2022. In situ recording of Mars soundscape. Nature 605, 7911, 653–658.",
@@ -2085,9 +2133,163 @@
       ],
       "title": "Celestial Strings II: The Material Intelligences of the Morin Khuur",
       "image": {
-        "sm": "celestial-strings-160.png",
-        "med": "celestial-strings-160.png",
+        "sm": "celestial-strings-640.png",
+        "med": "celestial-strings-640.png",
         "lg": "celestial-strings-865.png"
+      },
+      "year": 2026,
+      "iteration": 22
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 4,
+      "body": "**Link to submitted work: <https://www.dropbox.com/scl/fi/9o44syhptolt4hhcs09v3/Noosphere_Places-and-Spaces_Submission.pdf?rlkey=dkjy9k0zz9jpe4s8uwn53n29u&st=410m82bg&dl=0>**\n\nThe Noösphere: Sentient Living Architecture Systems project is a series of interactive sculptures and living-architecture testbeds that act as powerful public beacons and positive symbols of shared sustainable futures.\n\nThe title invokes life on Earth as a vast organism surrounded by a “thinking skin.” Early in the past century, the Jesuit priest and geologist Pierre Teilhard de Chardin coined the term noosphere for this emerging sphere of thought. His optimistic vision imagined the Earth evolving as a whole organism, transformed through collective consciousness, mutual sympathy, and empathy.\n\nThe series helps realize this vision within evolving physical structures. Suspended spheres contain intricate webs of distributed sensors, controls, lights, movement, and sound that respond interactively to visitors and their surroundings. Lights pulse and shimmer. Delicate fields shiver. Sounds gather, rise, and soften. Through next-generation distributed technology, each sculpture forms a responsive atmosphere that changes with every encounter. With the chorusing of massively distributed fields of small interactive components, the resulting sensation evokes a substantial kind of presence. The works suggest environments forming awareness through shared reactions and continual exchange.\n\nOpen, inclusive qualities expressed by Noösphere evoke relationships extending far beyond human boundaries. The project’s symbolism carries messages of caring collective relationships and sustainable environments. Each installation develops within the needs and context of its host. As interactions accumulate, its relationships continue to change.\n\nLike a garden, each testbed requires ongoing care. This care extends through the sculptures into the institutions and communities that surround them. The works become part of a continuing process of adaptation, maintenance, learning, and renewal.\n\nThe Noösphere series asks how experimental buildings and environments might grow, think, and care. It asks how collective consciousness might become tangible and how sympathy might enter the forms we construct. The word Noösphere embodies deep hope. That hope is carried by open relationships, continuing acts of care, and the possibility that many partial forms of awareness might gather into a shared life.",
+      "externalLink": "https://www.dropbox.com/scl/fi/9o44syhptolt4hhcs09v3/Noosphere_Places-and-Spaces_Submission.pdf?rlkey=dkjy9k0zz9jpe4s8uwn53n29u&st=410m82bg&dl=0",
+      "references": [
+        "Beesley, Philip, Timothy Boll, and Kevan Cress, eds. *Noösphere: Living Architecture Testbed Sculpture*. Cambridge, ON: Riverside Architectural Press, 2024. https://livingarchitecturesystems.com/publication/noosphere/",
+        "Philip Beesley Studio Inc. “Futurium Noosphere.” 2019. https://www.philipbeesleystudioinc.com/sculpture/futurium-noosphere/",
+        "Living Architecture Systems Group. “Grove.” Venice Architecture Biennale, 2021. https://livingarchitecturesystems.com/project/grove/",
+        "Beesley, Philip. “New Metastable Noospheres.” Keynote address, N2: The Noosphere at 100, University of California, Berkeley, December 3, 2023. https://event.fourwaves.com/n2conference/abstracts/ae1256e5-7f47-4b58-b5ab-709f7b503790"
+      ],
+      "makers": [
+        "philip-beesley/readme"
+      ],
+      "title": "Noösphere: Sentient Living Architecture Systems",
+      "image": {
+        "sm": "noosphere-640.png",
+        "med": "noosphere-640.png",
+        "lg": "noosphere-865.png"
+      },
+      "year": 2026,
+      "iteration": 22
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 5,
+      "body": "**Link to submitted work: <https://www.santiagoramonycajal.org/en/museo-cajal/drawings>**\n\nSantiago Ramón y Cajal fundamentally transformed neuroscience by demonstrating that the brain consists of discrete, individual neurons rather than a continuous net. His enduring importance rests on a unique synthesis of scientific innovation, artistic visual language, and strategic self-branding. Using refined Golgi staining, Cajal mapped neural architecture. Because histologic slides truncated cellular processes, he synthesized observations from multiple slides into composite drawings. He added directional arrows to illustrate signal transmission, pioneering the concept of dynamic polarization decades before physiological tools could measure it.\n\nGrounded in classical Renaissance drawing techniques like linear perspective and chiaroscuro, Cajal treated scientific figures as works of art. He paired expressive illustrations with poetic narrative metaphors—such as calling cortical cells \"butterflies of the soul\"—to communicate complex functional theories. The artistic clarity and narrative power of Cajal's visual language convinced the scientific world of his theories—such as the physical gap between synapses—long before electron microscopy provided direct empirical proof. Cajal embraced early photography, carefully composing self-portraits inspired by masters like Albrecht Dürer to build a distinct professional identity and market his ideas. By interweaving objective neuroanatomy with subjective artistic expression, Cajal created a body of work that continues to influence both neuroscience and fine art.",
+      "externalLink": "https://www.santiagoramonycajal.org/en/museo-cajal/drawings",
+      "makers": [
+        "santiago-ramon-y-cajal/readme"
+      ],
+      "title": "Santiago Ramon y Cajal's Illustrations of Neural Structures",
+      "image": {
+        "sm": "illustrations-of-neural-structures-640.png",
+        "med": "illustrations-of-neural-structures-640.png",
+        "lg": "illustrations-of-neural-structures-865.png"
+      },
+      "year": 2026,
+      "iteration": 22
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 6,
+      "body": "**Link to submitted work: <https://distill.pub/2019/activation-atlas>**\n\nAn Activation Atlas is an interpretability technique designed to create a global, visual map of the features and concepts learned by a deep computer vision model. Introduced in a 2019 Distill publication, it combines feature visualization with spatial aggregation to offer a comprehensive, bird’s-eye view of hidden network layers.\n\nWhile traditional interpretability methods focus on isolated neurons or examine how a network responds to individual input images, neurons in reality act in complex combinations. Activation atlases address this limitation by collecting millions of activation vectors from overlapping image patches across an extensive dataset, such as ImageNet, at specific layers of a network like InceptionV1.\n\nTo construct an atlas, these collected activation vectors are grouped into a two-dimensional layout using dimensionality reduction techniques like t-SNE. Feature inversion is then applied to the averaged activations in each region of the map, producing synthetic visualizations that reveal what the network perceives in those areas. The resulting grid organizes abstract concepts—such as floral patterns, watery backgrounds, or animal features—into a navigable landscape, demonstrating how co-firing neurons collaborate to form rich visual representations.\n\nBeyond mapping visual features, activation atlases serve as vital diagnostic tools for neural network debugging. By illustrating the relationships between internal representations and final output predictions, they uncover hidden biases, unexpected failure modes, and classification vulnerabilities. For instance, an atlas can expose how the presence of a baseball texture might cause a model to misclassify a grey whale as a great white shark. Though constrained by the distribution of the underlying sample data, activation atlases provide a powerful framework for understanding and auditing deep learning models.",
+      "externalLink": "https://distill.pub/2019/activation-atlas",
+      "makers": [
+        "shan-carter/readme",
+        "zan-armstrong/readme",
+        "ludwig-schubert/readme",
+        "ian-johnson/readme",
+        "chris-olah/readme"
+      ],
+      "title": "Activation Atlases",
+      "image": {
+        "sm": "activation-atlases-640.png",
+        "med": "activation-atlases-640.png",
+        "lg": "activation-atlases-865.png"
+      },
+      "year": 2026,
+      "iteration": 22
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 7,
+      "body": "**Link to submitted work: <https://heatherbarnett.co.uk/work/the-physarum-experiments>**\n\nSince 2008, artist Heather Barnett has engaged in The Physarum Experiments, an ongoing interdisciplinary project centered on a creative collaboration with Physarum polycephalum, a single-celled true slime mould. Despite lacking a brain or sensory organs, this amorphous organism exhibits primitive intelligence, problem-solving skills, and the capacity to anticipate events. Barnett views the slime mould as a nomadic information system that computes environmental complexities through chemical signaling, making continuous micro-decisions as it navigates its surroundings.\n\nThrough time-lapse films, photographic studies, microscopic video of protoplasmic streaming, and participatory workshops, Barnett observes and influences the organism's natural behaviors. Her experiments range from testing the organism's navigation within maze replicas to hosting public events where visitors feed the slime mould diverse substances to map its preferences. Visually, the organism produces striking dendritic patterns that mirror natural branching systems seen in blood vessels, tree branches, and river deltas.\n\nBarnett’s work bridges art and biological science, drawing inspiration from scientific studies in cellular computation, city planning, decision-making, and collective behavior. By examining the slime mould's adaptive strategies, The Physarum Experiments explores themes of creative control, authorship, and non-human intelligence, challenging human perspectives on communication, cooperation, and complex problem-solving in living systems.",
+      "externalLink": "https://heatherbarnett.co.uk/work/the-physarum-experiments",
+      "makers": [
+        "heather-barnett/readme"
+      ],
+      "title": "The Physarum Experiments",
+      "image": {
+        "sm": "physarum-experiments-640.png",
+        "med": "physarum-experiments-640.png",
+        "lg": "physarum-experiments-865.png"
+      },
+      "year": 2026,
+      "iteration": 22
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 8,
+      "body": "**Link to submitted work: <https://withmarble.com/curriculum/>**\n\nThe Marble Skill Taxonomy interactive is an open, structured visual map of primary and elementary education produced by Marble. Rather than presenting curriculum data as a flat list, the tool organizes learning into an interconnected graph of 1,590 micro-topics—individual teachable ideas spanning subjects like Science, Mathematics, English, History, Personal and Social Development, Life Skills, Computing, and Learning to Learn.\n\nThis interactive display renders each micro-topic as a color-coded dot organized vertically by age, with connecting threads representing prerequisites. Selecting any concept allows users to dynamically trace every underlying topic a student must master beforehand. Each micro-topic entry includes a plain-language description, mastery evidence criteria, age ranges, and classification by learning type, including conceptual, procedural, representational, language, or meta.\n\nUnderlying the map is a directed acyclic graph featuring 3,221 prerequisite dependencies, with each link designated as a hard or soft requirement accompanied by a brief explanation. To bridge theory and established educational frameworks, micro-topics align directly with national curriculum standards, including the Common Core, NGSS, and the UK National Curriculum. The taxonomy also features 183 parent-friendly domain summaries grouped by subject, domain, and age band, offering a clear, navigable representation of childhood skill progression.",
+      "externalLink": "https://withmarble.com/curriculum/",
+      "makers": [
+        "generative-spark-inc-marble/readme"
+      ],
+      "title": "Everything a Child Learns (Marble Skill Taxonomy [v1])",
+      "image": {
+        "sm": "everything-a-child-learns-640.png",
+        "med": "everything-a-child-learns-640.png",
+        "lg": "everything-a-child-learns-865.png"
+      },
+      "year": 2026,
+      "iteration": 22
+    },
+    "es": {},
+    "zh": {},
+    "fr": {},
+    "pt": {},
+    "de": {},
+    "pl": {}
+  },
+  {
+    "en": {
+      "sequence": 9,
+      "body": "**Link to submitted work: <https://www.instagram.com/reels/DVtM6GuDLQx/>**\n\nThe Flower Symphony is an immersive artistic installation and live audio performance created through a collaboration between paper artist Aurély Cerise and interactive design team Can't Touch This Studio. Exploring the phenomenon of synesthesia, the project creates an intimate connection between delicate paper craft, interactive technology, and human touch.\n\nEach individual flower in the installation is handcrafted from paper and rendered conductive through integrated technology. When touched, the natural electrical conductivity of the human body activates the sculptures, prompting each flower to play a specific, organic musical note composed in collaboration with musician Olga Maximova. Because the sound is generated dynamically through tactile interaction, participants can create an infinite variety of musical compositions simply by touching the floral display.\n\nBy combining traditional paper art with sensory technology and sound design, The Flower Symphony translates physical touch into a live auditory experience, turning handcrafted visual art into an interactive instrument.",
+      "externalLink": "https://www.instagram.com/reels/DVtM6GuDLQx/",
+      "makers": [
+        "can-touch-this-studio/readme"
+      ],
+      "title": "Flower Symphony",
+      "image": {
+        "sm": "flower-symphony-640.png",
+        "med": "flower-symphony-640.png",
+        "lg": "flower-symphony-865.png"
       },
       "year": 2026,
       "iteration": 22
