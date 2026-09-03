@@ -42,8 +42,8 @@ en:
     - philip-beesley/readme
   title: "Noösphere: Sentient Living Architecture Systems"
   image:
-    sm: noosphere-80.png
-    med: noosphere-640.png
+    sm: noosphere-865.png
+    med: noosphere-865.png
     lg: noosphere-865.png
   year: 2026
   iteration: 22

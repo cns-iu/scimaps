@@ -14,8 +14,8 @@ en:
     - fluentpet/readme
   title: FluentPet App
   image:
-    sm: fluentpet-connect-80.png
-    med: fluentpet-connect-640.png
+    sm: fluentpet-connect-865.png
+    med: fluentpet-connect-865.png
     lg: fluentpet-connect-865.png
   year: 2026
   iteration: 22

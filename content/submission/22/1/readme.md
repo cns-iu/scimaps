@@ -19,8 +19,8 @@ en:
   makers:
     - michael-aschauer/readme
   image:
-    sm: eat-poop-robot-80.png
-    med: eat-poop-robot-640.png
+    sm: eat-poop-robot-865.png
+    med: eat-poop-robot-865.png
     lg: eat-poop-robot-865.png
 es: {}
 zh: {}

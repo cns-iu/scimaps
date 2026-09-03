@@ -37,8 +37,8 @@ en:
     - moritz-stefaner/readme
   title: Earth’s Hidden Fungal Infrastructure
   image:
-    sm: earths-hidden-fungal-infrastructure-80.png
-    med: earths-hidden-fungal-infrastructure-640.png
+    sm: earths-hidden-fungal-infrastructure-865.png
+    med: earths-hidden-fungal-infrastructure-865.png
     lg: earths-hidden-fungal-infrastructure-865.png
   year: 2026
   iteration: 22

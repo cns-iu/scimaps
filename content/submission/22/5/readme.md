@@ -14,8 +14,8 @@ en:
     - santiago-ramon-y-cajal/readme
   title: Santiago Ramon y Cajal's Illustrations of Neural Structures
   image:
-    sm: illustrations-of-neural-structures-80.png
-    med: illustrations-of-neural-structures-640.png
+    sm: illustrations-of-neural-structures-865.png
+    med: illustrations-of-neural-structures-865.png
     lg: illustrations-of-neural-structures-865.png
   year: 2026
   iteration: 22

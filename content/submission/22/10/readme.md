@@ -20,8 +20,8 @@ en:
     - kurzgesagt/readme
   title: Why Are There No Holes Around Trees?
   image:
-    sm: why-no-holes-trees-80.png
-    med: why-no-holes-trees-640.png
+    sm: why-no-holes-trees-865.png
+    med: why-no-holes-trees-865.png
     lg: why-no-holes-trees-865.png
   year: 2026
   iteration: 22

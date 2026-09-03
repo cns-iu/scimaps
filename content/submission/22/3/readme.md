@@ -32,8 +32,8 @@ en:
     - bolor-amgalan/readme
   title: "Celestial Strings II: The Material Intelligences of the Morin Khuur"
   image:
-    sm: celestial-strings-80.png
-    med: celestial-strings-640.png
+    sm: celestial-strings-865.png
+    med: celestial-strings-865.png
     lg: celestial-strings-865.png
   year: 2026
   iteration: 22

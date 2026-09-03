@@ -17,8 +17,8 @@ en:
     - generative-spark-inc-marble/readme
   title: Everything a Child Learns (Marble Skill Taxonomy [v1])
   image:
-    sm: everything-a-child-learns-80.png
-    med: everything-a-child-learns-640.png
+    sm: everything-a-child-learns-865.png
+    med: everything-a-child-learns-865.png
     lg: everything-a-child-learns-865.png
   year: 2026
   iteration: 22

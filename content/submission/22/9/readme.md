@@ -17,8 +17,8 @@ en:
     - can-touch-this-studio/readme
   title: Flower Symphony
   image:
-    sm: flower-symphony-80.png
-    med: flower-symphony-640.png
+    sm: flower-symphony-865.png
+    med: flower-symphony-865.png
     lg: flower-symphony-865.png
   year: 2026
   iteration: 22
