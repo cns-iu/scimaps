@@ -533,6 +533,13 @@
     ]
   },
   {
+    "name": "Can Touch This Studio",
+    "last_name": "Can Touch This Studio",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Carlo Ratti studied civil engineering at the Politecnico di Torino, Italy, and the École Nationale des Ponts et Chaussées (ENPC) in Paris, France. He holds an MPhil and PhD in architecture from the University of Cambridge. He is the director of MIT's SENSEable City Laboratory as well as lecturer at the Harvard Design School and visiting lecturer at the ENPC. Ratti is founding partner and director of Carlo Ratti Associati, an architectural design practice based in Turin, Italy. A junior fellow of the Aspen Institute, he has coauthored more than 30 scientific publications and several patents.\n",
     "name": "Carlo Ratti",
     "last_name": "Ratti",
@@ -650,6 +657,13 @@
     "name": "Chris Harrison",
     "last_name": "Harrison",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Chris Olah",
+    "last_name": "Olah",
     "roles": [
       "maker"
     ]
@@ -1279,6 +1293,13 @@
     "image": "image.jpg"
   },
   {
+    "name": "FluentPet",
+    "last_name": "FluentPet",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Francesca Ciccarelli holds a PhD in natural science from the University of Heidelberg. She leads the Ciccarelli Lab at the Istituto Europeo di Oncologia (IEO) in Milan, Italy, which focuses on the analysis of the cancer genome.\n",
     "name": "Francesca Ciccarelli",
     "last_name": "Ciccarelli",
@@ -1339,6 +1360,13 @@
     "location_name": "Potomac, MD, USA",
     "region": "n_america",
     "image": "image.jpg"
+  },
+  {
+    "name": "Generative Spark, Inc. (Marble)",
+    "last_name": "Generative Spark, Inc. (Marble)",
+    "roles": [
+      "maker"
+    ]
   },
   {
     "name": "George Kampis",
@@ -1456,6 +1484,13 @@
     ]
   },
   {
+    "name": "Heather Barnett",
+    "last_name": "Barnett",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "Heather McDonald is a cell and molecular biologist by training who now works as a freelance scientific writer, editor, and illustrator. She earned her BA in biology and chemistry from Washington University in St. Louis and her PhD in cell and developmental biology from Harvard University. After stints as a postdoctoral researcher at the University of Washington and as a faculty member at Colgate University, McDonald earned a certificate in digital imaging from the Corcoran College of Art + Design.  She has worked as an editor and illustrator for many scientific organizations, including the American Association for the Advancement of Science. \n",
     "name": "Heather McDonald",
     "last_name": "McDonald",
@@ -1513,6 +1548,13 @@
     "name": "Ian Francis",
     "last_name": "Francis",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Ian Johnson",
+    "last_name": "Johnson",
     "roles": [
       "maker"
     ]
@@ -2131,6 +2173,13 @@
     ]
   },
   {
+    "name": "Kurzgesagt",
+    "last_name": "Kurzgesagt",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "body": "LaDale Winling is an associate professor of history at Virginia Tech. He is the author of _Building the Ivory Tower_, on universities and urban development in the United States. It was published by the University of Pennsylvania Press and won the 2019 Kenneth Jackson Prize from the Urban History Association for best book on North American cities. He is a co-creator of “Mapping Inequality: Redlining in New Deal America,” and his latest digital history project is “Connecting the Interstates,” on displacement and redevelopment in the interstate highway system. \n",
     "name": "LaDale Winling",
     "last_name": "Winling",
@@ -2293,6 +2342,13 @@
     "name": "Ludo Waltman",
     "last_name": "Waltman",
     "image": "image.jpg",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Ludwig Schubert",
+    "last_name": "Schubert",
     "roles": [
       "maker"
     ]
@@ -3105,6 +3161,14 @@
     ]
   },
   {
+    "name": "Philip Beesley",
+    "last_name": "Beesley",
+    "roles": [
+      "maker"
+    ],
+    "affiliation": "Living Architecture Systems Group; School of Architecture, University of Waterloo"
+  },
+  {
     "name": "Philipp Hofeneder ",
     "last_name": "Philipp Hofeneder ",
     "roles": [
@@ -3331,6 +3395,13 @@
     ]
   },
   {
+    "name": "Santiago Ramon y Cajal",
+    "last_name": "Ramon y Cajal",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
     "name": "Sara Irina Fabrikant",
     "last_name": "Fabrikant",
     "roles": [
@@ -3425,6 +3496,13 @@
   {
     "name": "Sergey Ryadovoy",
     "last_name": "Ryadovoy",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Shan Carter",
+    "last_name": "Carter",
     "roles": [
       "maker"
     ]
@@ -3996,6 +4074,13 @@
   {
     "name": "Yves Rozenholc",
     "last_name": "Rozenholc",
+    "roles": [
+      "maker"
+    ]
+  },
+  {
+    "name": "Zan Armstrong",
+    "last_name": "Armstrong",
     "roles": [
       "maker"
     ]
