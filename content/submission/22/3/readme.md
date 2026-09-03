@@ -2,7 +2,7 @@
 en:
   sequence: 3
   body: >-
-    **L﻿ink to submitted work:** <https://www.boloramgalan.com/morinkhuur>
+    **Link to submitted work: <https://www.boloramgalan.com/morinkhuur>**
 
 
     Celestial Strings II is a dual data visualization and sonification project about the material intelligences present in the morin khuur. Also known as the horsehead fiddle, the morin khuur is a UNESCO-recognized traditional Mongolian musical instrument deeply associated with nomadic material culture and horse-human relations. Its distinctive sonic qualities emerge through an interplay of material properties, environmental conditions in the steppe, and embodied practice. Nomadic mobility shaped the use of readily available materials such as wood, hide, bone, and, most famously, horse tail hair. Tail hair from horses raised in this arid environment exhibits strong natural segmentation, supporting fine tension adjustment in the instrument’s strings and bow.
@@ -32,8 +32,8 @@ en:
     - bolor-amgalan/readme
   title: "Celestial Strings II: The Material Intelligences of the Morin Khuur"
   image:
-    sm: celestial-strings-160.png
-    med: celestial-strings-160.png
+    sm: celestial-strings-80.png
+    med: celestial-strings-640.png
     lg: celestial-strings-865.png
   year: 2026
   iteration: 22
