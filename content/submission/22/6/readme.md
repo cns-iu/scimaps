@@ -24,8 +24,8 @@ en:
     - chris-olah/readme
   title: Activation Atlases
   image:
-    sm: activation-atlases-865.png
-    med: activation-atlases-865.png
+    sm: activation-atlases-640.png
+    med: activation-atlases-640.png
     lg: activation-atlases-865.png
   year: 2026
   iteration: 22

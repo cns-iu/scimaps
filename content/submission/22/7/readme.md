@@ -17,8 +17,8 @@ en:
     - heather-barnett/readme
   title: The Physarum Experiments
   image:
-    sm: physarum-experiments-865.png
-    med: physarum-experiments-865.png
+    sm: physarum-experiments-640.png
+    med: physarum-experiments-640.png
     lg: physarum-experiments-865.png
   year: 2026
   iteration: 22
