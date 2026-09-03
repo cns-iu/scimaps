@@ -2,8 +2,7 @@
 en:
   sequence: 2
   body: >-
-    **L﻿ink to submitted work:
-    [](https://a-hidden-infrastructure.spun.earth/story/a-hidden-infrastructure)<https://a-hidden-infrastructure.spun.earth/story/a-hidden-infrastructure>**
+    **Link to submitted work: [Interactive Storyboard/Map](https://a-hidden-infrastructure.spun.earth/story/a-hidden-infrastructure); [Visual Asset Kit](https://app.air.inc/a/b7a7555ee/b/59ca0d01-a3dc-4e2b-b7ed-82b722aed7af)**
 
 
     Most life does not live alone. Organisms form symbioses with distantly related forms of life, exchanging resources in partnerships that can shape entire ecosystems. One of the most widespread examples occurs underground. Approximately 70% of plant species partner with arbuscular mycorrhizal fungi, which build networks of microscopic threads called hyphae through the soil.
@@ -38,8 +37,8 @@ en:
     - moritz-stefaner/readme
   title: Earth’s Hidden Fungal Infrastructure
   image:
-    sm: earths-hidden-fungal-infrastructure-160.png
-    med: earths-hidden-fungal-infrastructure-160.png
+    sm: earths-hidden-fungal-infrastructure-640.png
+    med: earths-hidden-fungal-infrastructure-640.png
     lg: earths-hidden-fungal-infrastructure-865.png
   year: 2026
   iteration: 22
