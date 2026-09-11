@@ -6,7 +6,6 @@ venue: Alte Wirtschaftsuniversität Library
 organizer: "Annette Tesarek "
 credit: © Sophie Menegaldo | Ivory Rose Photography
 city: Vienna
-state: ","
 country: Austria
 venueImages:
   - sm: 005.jpg
