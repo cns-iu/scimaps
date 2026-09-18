@@ -1,5 +1,5 @@
 ---
-dateStart: 2020-01-20
+date: 2020-01-20
 dateEnd: 2020-01-23
 title: "NetSci-X 2020: International School and Conference on Network Science"
 venue: "Waseda University"

@@ -1148,7 +1148,7 @@ class VenueResolverService {
         }));
     }
     updatePaths(item) {
-        const [year, month, date] = (0,_constants_utils__WEBPACK_IMPORTED_MODULE_0__.getSegmentedDate)(item.dateStart);
+        const [year, month, date] = (0,_constants_utils__WEBPACK_IMPORTED_MODULE_0__.getSegmentedDate)(item.date);
         const slug = (0,_shared_services_content_service__WEBPACK_IMPORTED_MODULE_1__.toSlug)(item.title);
         const { venueImages } = item;
         if (venueImages &&
@@ -1228,7 +1228,7 @@ class VenuesResolverService {
     }
     // Used to get full path of resources.
     updatePaths(venue) {
-        const [year, month, date] = (0,_constants_utils__WEBPACK_IMPORTED_MODULE_0__.getSegmentedDate)(venue.dateStart);
+        const [year, month, date] = (0,_constants_utils__WEBPACK_IMPORTED_MODULE_0__.getSegmentedDate)(venue.date);
         const slug = (0,_shared_services_content_service__WEBPACK_IMPORTED_MODULE_1__.toSlug)(venue.title);
         if (venue.pdfLink && !(0,_constants_utils__WEBPACK_IMPORTED_MODULE_0__.isHttp)(venue.pdfLink)) {
             venue.pdfLink = `${this.directory}/${year}/${month}-${date}/${slug}/${venue.pdfLink}`;
@@ -1248,7 +1248,7 @@ class VenuesResolverService {
     toVenue(item) {
         return {
             slug: (0,_shared_services_content_service__WEBPACK_IMPORTED_MODULE_1__.toSlug)(item.title),
-            dateStart: item.dateStart,
+            date: item.date,
             dateEnd: item.dateEnd,
             title: item.title,
             venue: item.venue,
@@ -1363,7 +1363,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const _c0 = function () { return { column: "dateStart", direction: "desc" }; };
+const _c0 = function () { return { column: "date", direction: "desc" }; };
 function VenuesComponent_sci_table_5_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](0, "sci-table", 12);
 } if (rf & 2) {
@@ -1393,7 +1393,7 @@ class VenuesComponent {
         this.filterString = '';
         // table
         this.tableHeaders = [
-            { label: 'Start', key: 'dateStart', type: 'date', width: 15 },
+            { label: 'Start', key: 'date', type: 'date', width: 15 },
             { label: 'End', key: 'dateEnd', type: 'date', width: 15 },
             { label: 'Event', key: 'title', type: 'text', width: 25 },
             { label: 'Location', key: 'city', type: 'text', width: 20 },
@@ -1401,7 +1401,7 @@ class VenuesComponent {
             { label: 'Media', key: 'venueImages', type: 'icon', icon: 'image', width: 5 },
         ];
         this.sortHeaders = this.tableHeaders.filter(item => {
-            return item.key === 'dateStart' || item.key === 'title' || item.key === 'city';
+            return item.key === 'date' || item.key === 'title' || item.key === 'city';
         });
         this.dataSource = new _angular_material_table__WEBPACK_IMPORTED_MODULE_8__.MatTableDataSource();
         this.searchKey = '';
@@ -1424,7 +1424,7 @@ class VenuesComponent {
     setYears() {
         const years = new Set();
         this.dataSource.data.forEach((item) => {
-            const fullDate = new Date(item.dateStart);
+            const fullDate = new Date(item.date);
             const year = fullDate.getUTCFullYear().toString();
             if (!years.has(year)) {
                 years.add(year);
@@ -1438,7 +1438,7 @@ class VenuesComponent {
         const parsedFilter = JSON.parse(filter);
         let result = true;
         if (parsedFilter.year && parsedFilter.year !== 'all') {
-            const year = new Date(item.dateStart).getFullYear().toString();
+            const year = new Date(item.date).getFullYear().toString();
             result = result && year === parsedFilter.year;
         }
         if (parsedFilter.searchKey) {
@@ -1841,11 +1841,11 @@ function VenueGalleryComponent_sci_drawer_0_Template(rf, ctx) { if (rf & 1) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("@drawerInOut", undefined);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx_r0.item == null ? null : ctx_r0.item.title);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx_r0.item.title);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate2"]("Date: ", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind3"](8, 7, ctx_r0.item == null ? null : ctx_r0.item.dateStart, "mediumDate", "+0000"), " ", (ctx_r0.item == null ? null : ctx_r0.item.dateEnd) && (ctx_r0.item == null ? null : ctx_r0.item.dateStart) !== ctx_r0.item.dateEnd ? "- " + _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind3"](9, 11, ctx_r0.item.dateEnd, "mediumDate", "+0000") : "", "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate2"]("Date: ", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind3"](8, 7, ctx_r0.item.date, "mediumDate", "+0000"), " ", ctx_r0.item.dateEnd && ctx_r0.item.date !== ctx_r0.item.dateEnd ? "- " + _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind3"](9, 11, ctx_r0.item.dateEnd, "mediumDate", "+0000") : "", "");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"]("Photos By: ", ctx_r0.item == null ? null : ctx_r0.item.credit, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"]("Photos By: ", ctx_r0.item.credit, "");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", ctx_r0.item.venueImages);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
@@ -1979,7 +1979,7 @@ function VenuesTableComponent_th_3_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, (ctx_r1.matSort == null ? null : ctx_r1.matSort.active) == "dateStart", (ctx_r1.matSort == null ? null : ctx_r1.matSort.direction) == "desc"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, ctx_r1.matSort.active == "date", ctx_r1.matSort.direction == "desc"));
 } }
 const _c1 = function () { return { "width": "15%" }; };
 function VenuesTableComponent_td_4_Template(rf, ctx) { if (rf & 1) {
@@ -1991,7 +1991,7 @@ function VenuesTableComponent_td_4_Template(rf, ctx) { if (rf & 1) {
     const element_r14 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](6, _c1));
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind3"](2, 2, element_r14.dateStart, "mediumDate", "+0000"), " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind3"](2, 2, element_r14.date, "mediumDate", "+0000"), " ");
 } }
 function VenuesTableComponent_th_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "th", 13);
@@ -2007,7 +2007,7 @@ function VenuesTableComponent_th_6_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, (ctx_r3.matSort == null ? null : ctx_r3.matSort.active) == "dateEnd", (ctx_r3.matSort == null ? null : ctx_r3.matSort.direction) == "desc"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, ctx_r3.matSort.active == "dateEnd", ctx_r3.matSort.direction == "desc"));
 } }
 function VenuesTableComponent_td_7_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "td", 16);
@@ -2034,7 +2034,7 @@ function VenuesTableComponent_th_9_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, (ctx_r5.matSort == null ? null : ctx_r5.matSort.active) == "title", (ctx_r5.matSort == null ? null : ctx_r5.matSort.direction) == "desc"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, ctx_r5.matSort.active == "title", ctx_r5.matSort.direction == "desc"));
 } }
 const _c2 = function () { return { "width": "25%" }; };
 function VenuesTableComponent_td_10_Template(rf, ctx) { if (rf & 1) {
@@ -2061,7 +2061,7 @@ function VenuesTableComponent_th_12_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, (ctx_r7.matSort == null ? null : ctx_r7.matSort.active) == "city", (ctx_r7.matSort == null ? null : ctx_r7.matSort.direction) == "desc"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, ctx_r7.matSort.active == "city", ctx_r7.matSort.direction == "desc"));
 } }
 const _c3 = function () { return { "width": "20%" }; };
 function VenuesTableComponent_td_13_Template(rf, ctx) { if (rf & 1) {
@@ -2089,7 +2089,7 @@ function VenuesTableComponent_th_15_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, (ctx_r9.matSort == null ? null : ctx_r9.matSort.active) == "organizer", (ctx_r9.matSort == null ? null : ctx_r9.matSort.direction) == "desc"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, ctx_r9.matSort.active == "organizer", ctx_r9.matSort.direction == "desc"));
 } }
 function VenuesTableComponent_td_16_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "td", 16);
@@ -2115,7 +2115,7 @@ function VenuesTableComponent_th_18_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, (ctx_r11.matSort == null ? null : ctx_r11.matSort.active) == "venueImages", (ctx_r11.matSort == null ? null : ctx_r11.matSort.direction) == "desc"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, ctx_r11.matSort.active == "venueImages", ctx_r11.matSort.direction == "desc"));
 } }
 function VenuesTableComponent_td_19_div_2_Template(rf, ctx) { if (rf & 1) {
     const _r24 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
@@ -2179,7 +2179,7 @@ class VenuesTableComponent {
     ngAfterViewInit() {
         this.dataSource.paginator = this.paginator;
         this.dataSource.sort = this.matSort;
-        // initial sort of dateStart
+        // initial sort of date
         if (this.initialSort && this.columns.includes(this.initialSort.column)) {
             this.matSort.sort({ id: '', start: 'asc', disableClear: true });
             this.matSort.sort({ id: this.initialSort.column, start: this.initialSort.direction, disableClear: false });
@@ -2191,7 +2191,7 @@ class VenuesTableComponent {
         }
     }
     gotoGallery(item) {
-        const [year, month, date] = (0,_constants_utils__WEBPACK_IMPORTED_MODULE_0__.getSegmentedDate)(item.dateStart);
+        const [year, month, date] = (0,_constants_utils__WEBPACK_IMPORTED_MODULE_0__.getSegmentedDate)(item.date);
         this.router.navigate(['/', 'venues', 'gallery', year, `${month}-${date}`, item.slug]);
     }
     getLocation(venue) {
@@ -2213,7 +2213,7 @@ VenuesTableComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODUL
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.matSort = _t.first);
     } }, hostVars: 2, hostBindings: function VenuesTableComponent_HostBindings(rf, ctx) { if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassMap"](ctx.clsName);
-    } }, inputs: { filterString: "filterString", initialSort: "initialSort", dataSource: "dataSource", tableHeaders: "tableHeaders" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵNgOnChangesFeature"]], decls: 22, vars: 7, consts: [["aria-describedby", "table", "mat-table", "", "matSort", "", "matSortDisableClear", "", 3, "dataSource"], ["mat-header-row", "", 4, "matHeaderRowDef"], ["matColumnDef", "dateStart"], ["scope", "col", "mat-header-cell", "", "mat-sort-header", "", 4, "matHeaderCellDef"], ["mat-cell", "", 3, "ngStyle", 4, "matCellDef"], ["matColumnDef", "dateEnd"], ["matColumnDef", "title"], ["matColumnDef", "city"], ["matColumnDef", "organizer"], ["matColumnDef", "venueImages"], ["class", "data-row", "mat-row", "", 4, "matRowDef", "matRowDefColumns"], [3, "length", "pageSizeOptions", "pageSize"], ["mat-header-row", ""], ["scope", "col", "mat-header-cell", "", "mat-sort-header", ""], [1, "sort"], [3, "ngClass"], ["mat-cell", "", 3, "ngStyle"], [1, "icons"], ["class", "icon-container", 4, "ngIf"], [1, "icon-container"], [1, "icon", "icon-gallery", 3, "click"], ["area-hidden", "true", "svgIcon", "file:download", 1, "icon", "icon-pdf", 3, "click"], ["mat-row", "", 1, "data-row"]], template: function VenuesTableComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, inputs: { filterString: "filterString", initialSort: "initialSort", dataSource: "dataSource", tableHeaders: "tableHeaders" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵNgOnChangesFeature"]], decls: 22, vars: 7, consts: [["aria-describedby", "table", "mat-table", "", "matSort", "", "matSortDisableClear", "", 3, "dataSource"], ["mat-header-row", "", 4, "matHeaderRowDef"], ["matColumnDef", "date"], ["scope", "col", "mat-header-cell", "", "mat-sort-header", "", 4, "matHeaderCellDef"], ["mat-cell", "", 3, "ngStyle", 4, "matCellDef"], ["matColumnDef", "dateEnd"], ["matColumnDef", "title"], ["matColumnDef", "city"], ["matColumnDef", "organizer"], ["matColumnDef", "venueImages"], ["class", "data-row", "mat-row", "", 4, "matRowDef", "matRowDefColumns"], [3, "length", "pageSizeOptions", "pageSize"], ["mat-header-row", ""], ["scope", "col", "mat-header-cell", "", "mat-sort-header", ""], [1, "sort"], [3, "ngClass"], ["mat-cell", "", 3, "ngStyle"], [1, "icons"], ["class", "icon-container", 4, "ngIf"], [1, "icon-container"], [1, "icon", "icon-gallery", 3, "click"], ["area-hidden", "true", "svgIcon", "file:download", 1, "icon", "icon-pdf", 3, "click"], ["mat-row", "", 1, "data-row"]], template: function VenuesTableComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "table", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, VenuesTableComponent_tr_1_Template, 1, 0, "tr", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](2, 2);

@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-05-27
+date: 2015-05-27
 dateEnd: 2015-05-27
 title: "Royal Netherlands Academy of Arts and Sciences"
 venue: "DANS"

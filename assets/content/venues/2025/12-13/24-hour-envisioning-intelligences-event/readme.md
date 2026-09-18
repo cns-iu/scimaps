@@ -1,5 +1,5 @@
 ---
-dateStart: 2025-12-13T17:00:00.000Z
+date: 2025-12-13T17:00:00.000Z
 dateEnd: 2025-12-14T17:00:00.000Z
 title: 24-Hour Envisioning Intelligences Event
 venue: Remote

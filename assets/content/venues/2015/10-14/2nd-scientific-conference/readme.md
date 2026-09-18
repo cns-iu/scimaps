@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-10-14
+date: 2015-10-14
 dateEnd: 2015-10-16
 title: "2nd Scientific Conference"
 venue: "European Food Safety Authority"

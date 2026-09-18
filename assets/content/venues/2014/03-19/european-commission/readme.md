@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-03-19
+date: 2014-03-19
 dateEnd: 2014-12-31
 title: "European Commission"
 venue: "DG Research and Innovation"

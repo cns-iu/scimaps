@@ -1,5 +1,5 @@
 ---
-dateStart: 2019-11-04
+date: 2019-11-04
 dateEnd: 2019-11-14
 title: "Geography Awareness Week"
 venue: "Kennesaw State University"

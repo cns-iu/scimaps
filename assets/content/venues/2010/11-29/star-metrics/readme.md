@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-11-29
+date: 2010-11-29
 dateEnd: 2010-11-30
 title: "Star Metrics"
 venue: "National Academy of Science Workshop"

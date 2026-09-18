@@ -1,5 +1,5 @@
 ---
-dateStart: 2019-06-03
+date: 2019-06-03
 dateEnd: 2019-06-06
 title: "European Meeting on Applied Evolutionary Economics (EMAEE)"
 venue: "Science Policy Research Unit at the University of Sussex"

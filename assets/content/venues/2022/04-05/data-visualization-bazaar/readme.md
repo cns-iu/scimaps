@@ -1,5 +1,5 @@
 ---
-dateStart: 2022-04-05T18:36:08.553Z
+date: 2022-04-05T18:36:08.553Z
 dateEnd: 2022-04-05T18:36:08.568Z
 title: Data Visualization Bazaar
 venue: Sciences Library, Indiana University

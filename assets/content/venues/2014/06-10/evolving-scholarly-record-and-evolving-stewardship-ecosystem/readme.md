@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-06-10
+date: 2014-06-10
 dateEnd: 2014-06-10
 title: "Evolving Scholarly Record and Evolving Stewardship Ecosystem"
 venue: "OCLC Research and DANS"

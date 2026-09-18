@@ -1,5 +1,5 @@
 ---
-dateStart: 2005-09-20
+date: 2005-09-20
 dateEnd: 2005-09-21
 title: i-Light Symposium 2005
 venue: i-Light Symposium 2005

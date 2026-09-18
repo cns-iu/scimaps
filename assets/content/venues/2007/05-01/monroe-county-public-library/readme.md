@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-05-01
+date: 2007-05-01
 dateEnd: 2007-05-30
 title: "Monroe County Public Library"
 venue: "Monroe County Public Library"

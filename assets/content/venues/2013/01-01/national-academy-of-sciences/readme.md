@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-01-01
+date: 2013-01-01
 dateEnd: 2013-06-01
 title: "National Academy of Sciences"
 venue: "Upstairs Gallery"

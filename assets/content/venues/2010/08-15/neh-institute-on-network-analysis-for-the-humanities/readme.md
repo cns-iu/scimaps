@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-08-15
+date: 2010-08-15
 dateEnd: 2010-08-27
 title: "NEH Institute on Network Analysis for the Humanities"
 venue: "University of California, Los Angeles"

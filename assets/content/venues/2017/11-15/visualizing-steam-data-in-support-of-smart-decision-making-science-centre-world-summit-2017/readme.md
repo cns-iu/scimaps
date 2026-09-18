@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-11-15
+date: 2017-11-15
 dateEnd: 2017-11-17
 title: "Visualizing STEAM Data in Support of Smart Decision Making, Science Centre World Summit 2017"
 venue: "The National Museum of Emerging Science and Innovation (Miraikan)"

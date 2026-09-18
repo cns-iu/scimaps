@@ -1,5 +1,5 @@
 ---
-dateStart: 2006-03-01
+date: 2006-03-01
 dateEnd: 2006-03-01
 title: "Life Sciences Exhibit & Reception"
 venue: "State House, Indianapolis"

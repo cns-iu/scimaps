@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-01-15
+date: 2010-01-15
 dateEnd: 2010-06-30
 title: "Marston Science Library"
 venue: "University of Florida"

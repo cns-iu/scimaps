@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-04-13
+date: 2015-04-13
 dateEnd: 2015-05-11
 title: "Digital Display"
 venue: "University of Newcastle"

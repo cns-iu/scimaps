@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-08-21
+date: 2009-08-21
 dateEnd: 2009-08-21
 title: "European Conference on Artificial Life 2009"
 venue: "European Conference on Artificial Life 2009"

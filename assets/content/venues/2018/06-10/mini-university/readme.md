@@ -1,5 +1,5 @@
 ---
-dateStart: 2018-06-10
+date: 2018-06-10
 dateEnd: 2018-06-15
 title: "Mini University"
 venue: "Indiana University"

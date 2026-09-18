@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-10-01
+date: 2008-10-01
 dateEnd: 2008-10-02
 title: "Mechanistic Basis of Plant Adaptation, Grand Challenge Workshop"
 venue: "Biosphere 2"

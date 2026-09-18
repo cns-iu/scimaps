@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-11-18
+date: 2013-11-18
 dateEnd: 2013-11-20
 title: "KnowEscape 2013"
 venue: "Aalto University"

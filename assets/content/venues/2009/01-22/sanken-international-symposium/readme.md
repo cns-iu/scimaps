@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-01-22
+date: 2009-01-22
 dateEnd: 2009-01-22
 title: "SANKEN International Symposium"
 venue: "Osaka University"

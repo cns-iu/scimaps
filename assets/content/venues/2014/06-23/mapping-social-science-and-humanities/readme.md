@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-06-23
+date: 2014-06-23
 dateEnd: 2014-06-23
 title: "Mapping Social Science and Humanities"
 venue: "Euroscience Open Forum workshop"

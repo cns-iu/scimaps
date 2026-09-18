@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-01-21
+date: 2013-01-21
 dateEnd: 2013-01-21
 title: "Real Life Science: Martin Luther King Jr. Day Celebration"
 venue: "Wonderlab"

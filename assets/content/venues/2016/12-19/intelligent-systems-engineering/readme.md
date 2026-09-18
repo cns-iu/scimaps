@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-12-19
+date: 2016-12-19
 dateEnd: 2016-05-02
 title: "Intelligent Systems Engineering"
 venue: "Smith Research Center"

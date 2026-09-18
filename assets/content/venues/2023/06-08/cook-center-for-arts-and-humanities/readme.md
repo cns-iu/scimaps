@@ -1,5 +1,5 @@
 ---
-dateStart: 2023-06-08T14:00:00.000Z
+date: 2023-06-08T14:00:00.000Z
 dateEnd: 2023-08-04T21:00:37.626Z
 title: Cook Center for Arts and Humanities
 venue: Grand Hall in Maxwell Hall

@@ -1,12 +1,11 @@
 ---
-dateStart: 2025-11-08T18:00:25.110Z
+date: 2025-11-08T18:00:25.110Z
 dateEnd: 2025-11-15T03:00:25.115Z
 title: "Places & Spaces: Mapping Science at Alte Wirtschaftsuniversität Library"
 venue: Alte Wirtschaftsuniversität Library
 organizer: "Annette Tesarek "
 credit: © Sophie Menegaldo | Ivory Rose Photography
 city: Vienna
-state: ","
 country: Austria
 venueImages:
   - sm: 005.jpg

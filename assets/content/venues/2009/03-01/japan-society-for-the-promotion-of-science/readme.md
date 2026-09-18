@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-03-01
+date: 2009-03-01
 dateEnd: 2009-06-01
 title: "Japan Society for the Promotion of Science"
 venue: "Japan Society for the Promotion of Science"

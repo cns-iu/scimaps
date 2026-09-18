@@ -1,5 +1,5 @@
 ---
-dateStart: 2024-10-16T14:00:36.742Z
+date: 2024-10-16T14:00:36.742Z
 dateEnd: 2024-10-16T15:00:36.752Z
 title: Guided Tour of Places & Spaces at McCalla
 venue: University Collections at McCalla

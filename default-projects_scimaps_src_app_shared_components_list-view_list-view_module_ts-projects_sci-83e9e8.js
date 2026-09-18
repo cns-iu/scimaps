@@ -6055,7 +6055,7 @@ GalleryItemComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODUL
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ctx.item.title);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate2"]("Date: ", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](7, 6, ctx.item.dateStart, "mediumDate", "+0000"), " ", ctx.item.dateEnd && ctx.item.dateStart !== ctx.item.dateEnd ? "- " + _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](8, 10, ctx.item.dateEnd, "mediumDate", "+0000") : "", "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate2"]("Date: ", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](7, 6, ctx.item.date, "mediumDate", "+0000"), " ", ctx.item.dateEnd && ctx.item.date !== ctx.item.dateEnd ? "- " + _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](8, 10, ctx.item.dateEnd, "mediumDate", "+0000") : "", "");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"]("Photos By: ", ctx.item.credit, "");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
@@ -6830,7 +6830,7 @@ class TableComponent {
     ngAfterViewInit() {
         this.dataSource.paginator = this.paginator;
         this.dataSource.sort = this.matSort;
-        // initial sort of dateStart
+        // initial sort of date
         if (this.initialSort && this.columns.includes(this.initialSort.column)) {
             this.matSort.sort({ id: '', start: 'asc', disableClear: true });
             this.matSort.sort({ id: this.initialSort.column, start: this.initialSort.direction, disableClear: false });
@@ -6979,7 +6979,7 @@ class VenueItemComponent {
         this.router = router;
     }
     gotoGallery(item) {
-        const [year, month, date] = (0,_constants_utils__WEBPACK_IMPORTED_MODULE_0__.getSegmentedDate)(item.dateStart);
+        const [year, month, date] = (0,_constants_utils__WEBPACK_IMPORTED_MODULE_0__.getSegmentedDate)(item.date);
         this.router.navigate(['/', 'venues', 'gallery', year, `${month}-${date}`, item.slug]);
     }
     openLink(link) {
@@ -7022,7 +7022,7 @@ VenueItemComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](19, VenueItemComponent_sci_drawer_19_Template, 3, 1, "sci-drawer", 11);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate3"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind3"](5, 10, ctx.item.dateStart, "mediumDate", "+0000"), " ", ctx.item.dateEnd ? "-" : "", " ", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind3"](6, 14, ctx.item.dateEnd, "mediumDate", "+0000"), " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate3"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind3"](5, 10, ctx.item.date, "mediumDate", "+0000"), " ", ctx.item.dateEnd ? "-" : "", " ", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind3"](6, 14, ctx.item.dateEnd, "mediumDate", "+0000"), " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.item.venueImages);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);

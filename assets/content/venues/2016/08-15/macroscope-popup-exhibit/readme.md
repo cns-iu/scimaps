@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-08-15
+date: 2016-08-15
 dateEnd: 2016-09-07
 title: "Macroscope Popup Exhibit"
 venue: "Monroe County Public Library"

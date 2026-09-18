@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-08-06
+date: 2017-08-06
 dateEnd: 2017-08-11
 title: "Visualization in Science and Education Gordon Research Conference"
 venue: "Bates College"

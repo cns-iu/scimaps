@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-11-14
+date: 2007-11-14
 dateEnd: 2007-11-14
 title: "Indiana Library Federation Annual Conference"
 venue: "Indiana Library Federation Annual Conference"

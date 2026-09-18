@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-10-01
+date: 2015-10-01
 dateEnd: 2015-10-01
 title: "Quantifying Science"
 venue: "Conference on Complex Systems, Arizona State University"

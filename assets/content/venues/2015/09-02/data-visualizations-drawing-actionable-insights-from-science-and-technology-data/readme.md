@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-09-02
+date: 2015-09-02
 dateEnd: 2015-09-02
 title: "Data Visualizations: Drawing Actionable Insights from Science and
   Technology Data"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-03-06
+date: 2016-03-06
 dateEnd: 2016-03-11
 title: "80th Annual Meeting of the DPG"
 venue: "Universität Regensburg"

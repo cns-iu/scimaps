@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-09-13
+date: 2016-09-13
 dateEnd: 2016-09-13
 title: "Global TechMining Conference"
 venue: "Global TechMining Conference"

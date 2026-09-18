@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-02-25
+date: 2009-02-25
 dateEnd: 2009-04-09
 title: "Science Library"
 venue: "Binghamton University"

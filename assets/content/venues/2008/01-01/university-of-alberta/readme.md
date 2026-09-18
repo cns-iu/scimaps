@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-01-01
+date: 2008-01-01
 dateEnd: 2008-01-01
 title: "University of Alberta"
 venue: "University of Alberta"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-04-21
+date: 2009-04-21
 dateEnd: 2009-04-25
 title: "NetSci 2009"
 venue: "L'Istituto Veneto di Scienze"

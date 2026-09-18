@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-06-25
+date: 2015-06-25
 dateEnd: 2015-06-26
 title: "Homo Communicativus"
 venue:

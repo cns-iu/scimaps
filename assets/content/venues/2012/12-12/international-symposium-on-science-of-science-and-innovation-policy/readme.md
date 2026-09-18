@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-12-12
+date: 2012-12-12
 dateEnd: 2012-12-14
 title: "International Symposium on Science of Science and Innovation Policy"
 venue: "Innovation Policy Research Center at The University of Tokyo"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-05-12
+date: 2008-05-12
 dateEnd: 2008-05-13
 title: Challenges in Information Science and Technology
 venue: 28th CNLS Annual Conference

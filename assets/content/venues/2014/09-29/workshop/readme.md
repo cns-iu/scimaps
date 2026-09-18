@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-09-29
+date: 2014-09-29
 dateEnd: 2014-10-04
 title: "Workshop"
 venue: "Workshop"

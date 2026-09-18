@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-09-24
+date: 2016-09-24
 dateEnd: 2016-09-27
 title: Data Visualization Literacy
 venue: ASTC Annual Conference, Museum of Science and Industry

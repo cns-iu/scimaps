@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-11-15
+date: 2010-11-15
 dateEnd: 2010-11-16
 title: "Cultural Dimensions of Innovation"
 venue: "UCD Conference"

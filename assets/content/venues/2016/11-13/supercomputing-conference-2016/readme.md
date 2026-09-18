@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-11-13
+date: 2016-11-13
 dateEnd: 2016-11-18
 title: "SuperComputing Conference 2016"
 venue: "Salt Palace Convention Center"

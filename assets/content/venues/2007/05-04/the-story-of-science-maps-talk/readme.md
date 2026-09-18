@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-05-04
+date: 2007-05-04
 dateEnd: 2007-05-04
 title: "The Story of Science Maps Talk"
 venue: "Monroe County Public Library"

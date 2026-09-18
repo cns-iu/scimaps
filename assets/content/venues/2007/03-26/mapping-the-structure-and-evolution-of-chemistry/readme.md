@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-03-26
+date: 2007-03-26
 dateEnd: 2007-03-26
 title: "Mapping the Structure and Evolution of Chemistry"
 venue: "NSF Town Hall Meeting, American Chemical Society"

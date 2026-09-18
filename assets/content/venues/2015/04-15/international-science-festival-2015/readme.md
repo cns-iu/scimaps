@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-04-15
+date: 2015-04-15
 dateEnd: 2015-04-19
 title: "International Science Festival 2015"
 venue: "International Science Festival"

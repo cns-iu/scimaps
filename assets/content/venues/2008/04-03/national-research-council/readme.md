@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-04-03
+date: 2008-04-03
 dateEnd: 2008-06-27
 title: "National Research Council"
 venue: "National Research Council"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-10-11
+date: 2007-10-11
 dateEnd: 2007-10-13
 title: "Society for Social Studies of Science (4S)"
 venue: "Society for Social Studies of Science (4S)"

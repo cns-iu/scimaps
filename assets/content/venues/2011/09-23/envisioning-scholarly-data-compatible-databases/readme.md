@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-09-23
+date: 2011-09-23
 dateEnd: 2011-09-25
 title: "'Envisioning Scholarly Data' Compatible Databases"
 venue: "Yaddo Workshop"

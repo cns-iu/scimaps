@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-03-21
+date: 2016-03-21
 dateEnd: 2016-03-21
 title: "Quantifying, Visualizing, and Forecasting Global Human Society Through “Big Data”: What it Looks Like To Compute on the Entire Planet"
 venue: "CNS Center, Indiana University"

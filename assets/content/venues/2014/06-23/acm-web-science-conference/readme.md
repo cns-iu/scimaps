@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-06-23
+date: 2014-06-23
 dateEnd: 2014-06-26
 title: "ACM Web Science Conference"
 venue: "ACM Web Science Conference"

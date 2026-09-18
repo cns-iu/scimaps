@@ -1,5 +1,5 @@
 ---
-dateStart: 2006-05-04
+date: 2006-05-04
 dateEnd: 2006-05-05
 title: "Gel Conference"
 venue: "Creative Good"

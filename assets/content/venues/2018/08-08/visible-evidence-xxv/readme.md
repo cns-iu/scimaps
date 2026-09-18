@@ -1,5 +1,5 @@
 ---
-dateStart: 2018-08-08
+date: 2018-08-08
 dateEnd: 2018-08-11
 title: "Visible Evidence XXV"
 venue: "Indiana University"

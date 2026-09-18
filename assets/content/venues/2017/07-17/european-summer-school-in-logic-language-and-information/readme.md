@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-07-17
+date: 2017-07-17
 dateEnd: 2017-07-18
 title: "European Summer School in Logic, Language and Information"
 venue: "University of Toulouse"

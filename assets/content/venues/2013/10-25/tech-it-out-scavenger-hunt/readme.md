@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-10-25
+date: 2013-10-25
 dateEnd: 2013-10-25
 title: "Tech It Out Scavenger Hunt"
 venue: "WESit, Indiana University"

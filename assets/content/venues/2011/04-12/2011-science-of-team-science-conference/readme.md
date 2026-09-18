@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-04-12
+date: 2011-04-12
 dateEnd: 2011-04-14
 title: 2011 Science of Team Science Conference
 venue: Northwestern University

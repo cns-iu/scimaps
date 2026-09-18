@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-06-26
+date: 2013-06-26
 dateEnd: 2013-06-29
 title: "Polnet Conference"
 venue: "Indiana University"

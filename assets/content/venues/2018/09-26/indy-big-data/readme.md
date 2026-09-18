@@ -1,5 +1,5 @@
 ---
-dateStart: 2018-09-26
+date: 2018-09-26
 dateEnd: 2018-09-26
 title: "Indy Big Data"
 venue: "Indy Big Data"

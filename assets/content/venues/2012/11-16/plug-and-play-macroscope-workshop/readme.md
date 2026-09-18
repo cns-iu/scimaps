@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-11-16
+date: 2012-11-16
 dateEnd: 2012-11-17
 title: "Plug-and-Play Macroscope Workshop"
 venue: "Indiana University"

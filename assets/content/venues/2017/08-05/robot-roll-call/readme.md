@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-08-05
+date: 2017-08-05
 dateEnd: 2017-08-05
 title: "Robot Roll Call"
 venue: "WonderLab"

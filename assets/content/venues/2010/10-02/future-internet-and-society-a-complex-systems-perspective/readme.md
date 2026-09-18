@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-10-02
+date: 2010-10-02
 dateEnd: 2010-10-07
 title: "Future Internet and Society: A Complex Systems Perspective"
 venue: "ESF-COST High-Level Research Conference"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-09-10
+date: 2013-09-10
 dateEnd: 2013-09-10
 title: American Chemical Society Meeting
 venue: American Chemical Society Meeting

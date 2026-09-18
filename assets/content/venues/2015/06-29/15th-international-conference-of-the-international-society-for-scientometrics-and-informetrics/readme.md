@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-06-29
+date: 2015-06-29
 dateEnd: 2015-07-04
 title: "15th International Conference of the International Society for Scientometrics and Informetrics"
 venue:

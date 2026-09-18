@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-11-13
+date: 2008-11-13
 dateEnd: 2008-12-08
 title: Cornell University
 venue: Cornell University

@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-10-21
+date: 2016-10-21
 dateEnd: 2016-10-21
 title: "[RE]Imagining Science: noon talks"
 venue: "Grunwald Gallery, Indiana University"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-07-12
+date: 2017-07-12
 dateEnd: 2017-07-15
 title: "Scoping out the Macroscopes: Defining and measuring success for a digital interactive"
 venue: "AMM Annual Conference"

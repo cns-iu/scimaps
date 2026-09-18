@@ -1,6 +1,6 @@
 [
   {
-    "dateStart": "2005-04-05T00:00:00.000Z",
+    "date": "2005-04-05T00:00:00.000Z",
     "dateEnd": "2005-04-09T00:00:00.000Z",
     "title": "101st Annual Meeting of the Association of American Geographer",
     "venue": "101st Annual Meeting of the Association of American Geographer",
@@ -110,7 +110,7 @@
     ]
   },
   {
-    "dateStart": "2005-04-07T00:00:00.000Z",
+    "date": "2005-04-07T00:00:00.000Z",
     "dateEnd": "2005-04-11T00:00:00.000Z",
     "title": "Simulating the Social Processes of Science",
     "venue": "Lorentz Workshop",
@@ -123,7 +123,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2005-04-25T00:00:00.000Z",
+    "date": "2005-04-25T00:00:00.000Z",
     "dateEnd": "2005-04-25T00:00:00.000Z",
     "title": "Networks and Complex Systems Talk Series",
     "venue": "SLIS, Indiana University",
@@ -141,7 +141,7 @@
     ]
   },
   {
-    "dateStart": "2005-05-15T00:00:00.000Z",
+    "date": "2005-05-15T00:00:00.000Z",
     "dateEnd": "2005-05-27T00:00:00.000Z",
     "title": "School and Workshop on Structure and Function of Complex Networks",
     "venue": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
@@ -159,7 +159,7 @@
     ]
   },
   {
-    "dateStart": "2005-05-17T00:00:00.000Z",
+    "date": "2005-05-17T00:00:00.000Z",
     "dateEnd": "2005-05-20T00:00:00.000Z",
     "title": "Understanding Complex Systems 2004 Symposium",
     "venue": "University of Illinois",
@@ -177,7 +177,7 @@
     ]
   },
   {
-    "dateStart": "2005-05-25T00:00:00.000Z",
+    "date": "2005-05-25T00:00:00.000Z",
     "dateEnd": "2005-05-26T00:00:00.000Z",
     "title": "Sixth Annual Alliance for Innovation in Science and Technology Information Mini-Conference",
     "venue": "Sixth Annual Alliance for Innovation in Science and Technology Information Mini-Conference",
@@ -195,7 +195,7 @@
     ]
   },
   {
-    "dateStart": "2005-07-01T00:00:00.000Z",
+    "date": "2005-07-01T00:00:00.000Z",
     "dateEnd": "2005-07-20T00:00:00.000Z",
     "title": "Visualization Lab",
     "venue": "San Diego University",
@@ -208,7 +208,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2005-07-06T00:00:00.000Z",
+    "date": "2005-07-06T00:00:00.000Z",
     "dateEnd": "2005-07-08T00:00:00.000Z",
     "title": "Information Visualization Conference",
     "venue": "Information Visualization Conference",
@@ -221,7 +221,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2005-07-10T00:00:00.000Z",
+    "date": "2005-07-10T00:00:00.000Z",
     "dateEnd": "2005-07-20T00:00:00.000Z",
     "title": "Los Alamos National Laboratory",
     "venue": "Los Alamos National Laboratory",
@@ -239,7 +239,7 @@
     ]
   },
   {
-    "dateStart": "2005-07-24T00:00:00.000Z",
+    "date": "2005-07-24T00:00:00.000Z",
     "dateEnd": "2005-07-28T00:00:00.000Z",
     "title": "10th International Conference of the International Society for Scientometrics and Informetrics",
     "venue": "International Conference of the International Society for Scientometrics and Informetrics",
@@ -261,7 +261,7 @@
     ]
   },
   {
-    "dateStart": "2005-07-25T00:00:00.000Z",
+    "date": "2005-07-25T00:00:00.000Z",
     "dateEnd": "2005-07-29T00:00:00.000Z",
     "title": "ESRI International User Conference",
     "venue": "San Diego Convention Center",
@@ -274,7 +274,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2005-07-30T00:00:00.000Z",
+    "date": "2005-07-30T00:00:00.000Z",
     "dateEnd": "2005-08-15T00:00:00.000Z",
     "title": "ESRI Headquaters",
     "venue": "ESRI Headquaters",
@@ -287,7 +287,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2005-08-04T00:00:00.000Z",
+    "date": "2005-08-04T00:00:00.000Z",
     "dateEnd": "2005-08-08T00:00:00.000Z",
     "title": "Wikimania 2005: The First International Wikimedia Conference",
     "venue": "Wikimania 2005: The First International Wikimedia Conference",
@@ -309,7 +309,7 @@
     ]
   },
   {
-    "dateStart": "2005-08-15T00:00:00.000Z",
+    "date": "2005-08-15T00:00:00.000Z",
     "dateEnd": "2005-08-20T00:00:00.000Z",
     "title": "ESRI Regional Office",
     "venue": "ESRI Regional Office",
@@ -322,7 +322,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2005-09-01T00:00:00.000Z",
+    "date": "2005-09-01T00:00:00.000Z",
     "dateEnd": "2005-09-30T00:00:00.000Z",
     "title": "ESRI DC Office Vienna",
     "venue": "ESRI DC Office Vienna",
@@ -364,7 +364,7 @@
     ]
   },
   {
-    "dateStart": "2005-09-20T00:00:00.000Z",
+    "date": "2005-09-20T00:00:00.000Z",
     "dateEnd": "2005-09-21T00:00:00.000Z",
     "title": "i-Light Symposium 2005",
     "venue": "i-Light Symposium 2005",
@@ -394,7 +394,7 @@
     ]
   },
   {
-    "dateStart": "2005-10-03T00:00:00.000Z",
+    "date": "2005-10-03T00:00:00.000Z",
     "dateEnd": "2005-10-03T00:00:00.000Z",
     "title": "InfoVis Lab Open House",
     "venue": "Lilly Library, Indiana University",
@@ -407,7 +407,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2005-10-20T00:00:00.000Z",
+    "date": "2005-10-20T00:00:00.000Z",
     "dateEnd": "2005-10-22T00:00:00.000Z",
     "title": "Annual Meeting of the Society for Social Studies of Sciences",
     "venue": "Annual Meeting of the Society for Social Studies of Sciences",
@@ -429,7 +429,7 @@
     ]
   },
   {
-    "dateStart": "2005-11-01T00:00:00.000Z",
+    "date": "2005-11-01T00:00:00.000Z",
     "dateEnd": "2005-11-01T00:00:00.000Z",
     "title": "Places & Spaces Open Air",
     "venue": "Indiana University",
@@ -463,7 +463,7 @@
     ]
   },
   {
-    "dateStart": "2005-11-03T00:00:00.000Z",
+    "date": "2005-11-03T00:00:00.000Z",
     "dateEnd": "2005-11-05T00:00:00.000Z",
     "title": "The National Center for Supercomputing Applications (NCSA)",
     "venue": "This Exhibit was supported by the UIUC Center for Advanced Study as part of the Age of Networks initiative Urbana-Champaign",
@@ -497,7 +497,7 @@
     ]
   },
   {
-    "dateStart": "2005-11-21T00:00:00.000Z",
+    "date": "2005-11-21T00:00:00.000Z",
     "dateEnd": "2005-11-21T00:00:00.000Z",
     "title": "National Institute of Informatics",
     "venue": "National Institute of Informatics",
@@ -519,7 +519,7 @@
     ]
   },
   {
-    "dateStart": "2005-12-01T00:00:00.000Z",
+    "date": "2005-12-01T00:00:00.000Z",
     "dateEnd": "2005-12-02T00:00:00.000Z",
     "title": "Informal Meeting for Mapping Science",
     "venue": "Thomson Scientific/ISI",
@@ -532,7 +532,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2006-01-01T00:00:00.000Z",
+    "date": "2006-01-01T00:00:00.000Z",
     "dateEnd": "2006-01-01T00:00:00.000Z",
     "title": "New York Hall of Science",
     "venue": "New York Hall of Science",
@@ -578,7 +578,7 @@
     ]
   },
   {
-    "dateStart": "2006-01-01T00:00:00.000Z",
+    "date": "2006-01-01T00:00:00.000Z",
     "dateEnd": "2006-01-01T00:00:00.000Z",
     "title": "Science, Industry and Business Library of The New York Public Library",
     "venue": "Science, Industry and Business Library of The New York Public Library",
@@ -651,7 +651,7 @@
     ]
   },
   {
-    "dateStart": "2006-01-18T00:00:00.000Z",
+    "date": "2006-01-18T00:00:00.000Z",
     "dateEnd": "2006-02-02T00:00:00.000Z",
     "title": "National Science Foundation",
     "venue": "National Science Foundation",
@@ -664,7 +664,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2006-02-03T00:00:00.000Z",
+    "date": "2006-02-03T00:00:00.000Z",
     "dateEnd": "2006-02-08T00:00:00.000Z",
     "title": "Symposium on Knowledge Discovery and Knowledge Management Tools",
     "venue": "National Institutes of Health",
@@ -677,7 +677,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2006-02-27T00:00:00.000Z",
+    "date": "2006-02-27T00:00:00.000Z",
     "dateEnd": "2006-02-27T00:00:00.000Z",
     "title": "The Future of Science and Technology",
     "venue": "Institute for the Future Workshop, Rockefeller Foundation",
@@ -690,7 +690,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2006-03-01T00:00:00.000Z",
+    "date": "2006-03-01T00:00:00.000Z",
     "dateEnd": "2006-03-01T00:00:00.000Z",
     "title": "Life Sciences Exhibit & Reception",
     "venue": "State House, Indianapolis",
@@ -728,7 +728,7 @@
     ]
   },
   {
-    "dateStart": "2006-03-18T00:00:00.000Z",
+    "date": "2006-03-18T00:00:00.000Z",
     "dateEnd": "2006-03-20T00:00:00.000Z",
     "title": "The Atlanta Conference on Science and Technology Policy, The Georgia Tech School of Public Policy, PRIME Network of Excellence",
     "venue": "The College of Management at Georgia Tech, Technology Square, Georgia Institute of Technology",
@@ -762,7 +762,7 @@
     ]
   },
   {
-    "dateStart": "2006-05-04T00:00:00.000Z",
+    "date": "2006-05-04T00:00:00.000Z",
     "dateEnd": "2006-05-05T00:00:00.000Z",
     "title": "Gel Conference",
     "venue": "Creative Good",
@@ -800,7 +800,7 @@
     ]
   },
   {
-    "dateStart": "2006-05-04T00:00:00.000Z",
+    "date": "2006-05-04T00:00:00.000Z",
     "dateEnd": "2006-05-04T00:00:00.000Z",
     "title": "The Visualization of Textual Information Workshop",
     "venue": "CENDI & NFAIS",
@@ -813,7 +813,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2006-05-13T00:00:00.000Z",
+    "date": "2006-05-13T00:00:00.000Z",
     "dateEnd": "2006-05-13T00:00:00.000Z",
     "title": "CERC3 Chemistry Funding Agencies Meeting",
     "venue": "CERC3 Chemistry Funding Agencies Meeting",
@@ -831,7 +831,7 @@
     ]
   },
   {
-    "dateStart": "2006-06-07T00:00:00.000Z",
+    "date": "2006-06-07T00:00:00.000Z",
     "dateEnd": "2006-06-09T00:00:00.000Z",
     "title": "Program Meeting, James S. McDonnell Foundation, 21st Century Science Initiative 2006",
     "venue": "IBM Palisades",
@@ -853,7 +853,7 @@
     ]
   },
   {
-    "dateStart": "2006-06-25T00:00:00.000Z",
+    "date": "2006-06-25T00:00:00.000Z",
     "dateEnd": "2006-06-30T00:00:00.000Z",
     "title": "International Conference on Complex Systems",
     "venue": "International Conference on Complex Systems",
@@ -879,7 +879,7 @@
     ]
   },
   {
-    "dateStart": "2006-07-12T00:00:00.000Z",
+    "date": "2006-07-12T00:00:00.000Z",
     "dateEnd": "2006-07-12T00:00:00.000Z",
     "title": "Towards a Macroscope for Decision Support in Science & Technology Policy",
     "venue": "Science of Science Policy Workshop",
@@ -909,7 +909,7 @@
     ]
   },
   {
-    "dateStart": "2006-07-20T00:00:00.000Z",
+    "date": "2006-07-20T00:00:00.000Z",
     "dateEnd": "2006-07-20T00:00:00.000Z",
     "title": "How Information Visualization Can Support NCI's Fight Against Cancer, Cyberinfrastructures in Service of Health, Informatics in Action talk series",
     "venue": "National Cancer Institute",
@@ -922,7 +922,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2006-10-23T00:00:00.000Z",
+    "date": "2006-10-23T00:00:00.000Z",
     "dateEnd": "2006-10-25T00:00:00.000Z",
     "title": "Mapping the Structure and Evolution of Science Locally and Globally",
     "venue": "New Horizons in Internet Site Development Workshop, Banbury Center, Cold Spring Harbor Laboratory",
@@ -948,7 +948,7 @@
     ]
   },
   {
-    "dateStart": "2006-10-26T00:00:00.000Z",
+    "date": "2006-10-26T00:00:00.000Z",
     "dateEnd": "2006-10-26T00:00:00.000Z",
     "title": "Workshop on Science (Weather) Forecasts",
     "venue": "New York Hall of Science",
@@ -966,7 +966,7 @@
     ]
   },
   {
-    "dateStart": "2006-12-13T00:00:00.000Z",
+    "date": "2006-12-13T00:00:00.000Z",
     "dateEnd": "2006-12-13T00:00:00.000Z",
     "title": "User-Friendly Cyberinfrastructures and Their Utility for Scholarly Knowledge Management Talk",
     "venue": "OCI, NSF",
@@ -979,7 +979,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-01-01T00:00:00.000Z",
+    "date": "2007-01-01T00:00:00.000Z",
     "dateEnd": "2007-01-01T00:00:00.000Z",
     "title": "American Museum of Science and Energy",
     "venue": "American Museum of Science and Energy",
@@ -1089,7 +1089,7 @@
     ]
   },
   {
-    "dateStart": "2007-01-29T00:00:00.000Z",
+    "date": "2007-01-29T00:00:00.000Z",
     "dateEnd": "2007-01-30T00:00:00.000Z",
     "title": "Designing Cyberinfrastructure for Collaboration and Innovation",
     "venue": "National Academies",
@@ -1102,7 +1102,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-01-29T00:00:00.000Z",
+    "date": "2007-01-29T00:00:00.000Z",
     "dateEnd": "2007-01-30T00:00:00.000Z",
     "title": "SPIE Conference on Visualization and Data Analysis",
     "venue": "SPIE Conference on Visualization and Data Analysis",
@@ -1115,7 +1115,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-01-31T00:00:00.000Z",
+    "date": "2007-01-31T00:00:00.000Z",
     "dateEnd": "2007-01-31T00:00:00.000Z",
     "title": "Scholarly Data, Network Science, and (Google) Maps – Modeling, Mapping, and Exploring the Dynamic Landscape of Science Talk",
     "venue": "Google",
@@ -1128,7 +1128,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-02-06T00:00:00.000Z",
+    "date": "2007-02-06T00:00:00.000Z",
     "dateEnd": "2007-02-06T00:00:00.000Z",
     "title": "National Institute of Informatics",
     "venue": "National Institute of Informatics",
@@ -1141,7 +1141,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-02-13T00:00:00.000Z",
+    "date": "2007-02-13T00:00:00.000Z",
     "dateEnd": "2007-02-13T00:00:00.000Z",
     "title": "Mapping Science: Analyzing and Visualizing the Dynamics of Scholarly Knowledge and Innovations Talk",
     "venue": "National Institute of Science and Technology Policy (NISTEP)",
@@ -1154,7 +1154,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-02-22T00:00:00.000Z",
+    "date": "2007-02-22T00:00:00.000Z",
     "dateEnd": "2007-02-22T00:00:00.000Z",
     "title": "NYHS exhibit Tour for Google",
     "venue": "New York Hall of Science",
@@ -1167,7 +1167,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-03-25T00:00:00.000Z",
+    "date": "2007-03-25T00:00:00.000Z",
     "dateEnd": "2007-03-28T00:00:00.000Z",
     "title": "233rd ACS National Meeting & Exposition",
     "venue": "233rd ACS National Meeting & Exposition",
@@ -1253,7 +1253,7 @@
     ]
   },
   {
-    "dateStart": "2007-03-26T00:00:00.000Z",
+    "date": "2007-03-26T00:00:00.000Z",
     "dateEnd": "2007-03-26T00:00:00.000Z",
     "title": "Mapping the Structure and Evolution of Chemistry",
     "venue": "NSF Town Hall Meeting, American Chemical Society",
@@ -1266,7 +1266,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-04-17T00:00:00.000Z",
+    "date": "2007-04-17T00:00:00.000Z",
     "dateEnd": "2007-04-21T00:00:00.000Z",
     "title": "Association of American Geographers Annual Meeting",
     "venue": "Association of American Geographers Annual Meeting",
@@ -1300,7 +1300,7 @@
     ]
   },
   {
-    "dateStart": "2007-05-01T00:00:00.000Z",
+    "date": "2007-05-01T00:00:00.000Z",
     "dateEnd": "2007-05-30T00:00:00.000Z",
     "title": "Monroe County Public Library",
     "venue": "Monroe County Public Library",
@@ -1442,7 +1442,7 @@
     ]
   },
   {
-    "dateStart": "2007-05-04T00:00:00.000Z",
+    "date": "2007-05-04T00:00:00.000Z",
     "dateEnd": "2007-05-04T00:00:00.000Z",
     "title": "The Story of Science Maps Talk",
     "venue": "Monroe County Public Library",
@@ -1455,7 +1455,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-05-10T00:00:00.000Z",
+    "date": "2007-05-10T00:00:00.000Z",
     "dateEnd": "2007-05-10T00:00:00.000Z",
     "title": "Scholarly Data, Network Science, and (Google) Maps-Modeling, Mapping, and Exploring the Dynamic Landscape of Science Talk",
     "venue": "Bloomington Science Cafe, Borders",
@@ -1468,7 +1468,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-05-14T00:00:00.000Z",
+    "date": "2007-05-14T00:00:00.000Z",
     "dateEnd": "2007-05-14T00:00:00.000Z",
     "title": "Complexity and Emergent Phenomena in Chemical Systems Workshop",
     "venue": "Arlington Hilton",
@@ -1481,7 +1481,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-05-14T00:00:00.000Z",
+    "date": "2007-05-14T00:00:00.000Z",
     "dateEnd": "2007-05-14T00:00:00.000Z",
     "title": "Mapping the Evolving Interface of Mainstream Chemistry and the Fields of Biochemistry, Biology, and Bioengineering",
     "venue": "National Science Foundation",
@@ -1494,7 +1494,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-05-15T00:00:00.000Z",
+    "date": "2007-05-15T00:00:00.000Z",
     "dateEnd": "2007-05-15T00:00:00.000Z",
     "title": "National Geographic",
     "venue": "National Geographic",
@@ -1507,7 +1507,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-05-17T00:00:00.000Z",
+    "date": "2007-05-17T00:00:00.000Z",
     "dateEnd": "2007-05-17T00:00:00.000Z",
     "title": "University Research Magazine Association",
     "venue": "Indiana University",
@@ -1520,7 +1520,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-05-20T00:00:00.000Z",
+    "date": "2007-05-20T00:00:00.000Z",
     "dateEnd": "2007-05-25T00:00:00.000Z",
     "title": "NetSci Conference",
     "venue": "New York Hall of Science",
@@ -1533,7 +1533,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-06-05T00:00:00.000Z",
+    "date": "2007-06-05T00:00:00.000Z",
     "dateEnd": "2007-06-09T00:00:00.000Z",
     "title": "The 5th International Symposium on Digital Earth",
     "venue": "The 5th International Symposium on Digital Earth",
@@ -1546,7 +1546,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-06-25T00:00:00.000Z",
+    "date": "2007-06-25T00:00:00.000Z",
     "dateEnd": "2007-06-27T00:00:00.000Z",
     "title": "11th International Conference of the International Society for Scientometrics and Informetrics",
     "venue": "11th International Conference of the International Society for Scientometrics and Informetrics",
@@ -1559,7 +1559,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-06-29T00:00:00.000Z",
+    "date": "2007-06-29T00:00:00.000Z",
     "dateEnd": "2007-06-29T00:00:00.000Z",
     "title": "New Network Theory Conference Keynote",
     "venue": "New Network Theory Conference Keynote",
@@ -1572,7 +1572,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-07-03T00:00:00.000Z",
+    "date": "2007-07-03T00:00:00.000Z",
     "dateEnd": "2007-07-06T00:00:00.000Z",
     "title": "11th International Conference on Information Visualization",
     "venue": "11th International Conference on Information Visualization",
@@ -1585,7 +1585,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-07-04T00:00:00.000Z",
+    "date": "2007-07-04T00:00:00.000Z",
     "dateEnd": "2007-07-25T00:00:00.000Z",
     "title": "National Institute of Standards and Technology",
     "venue": "Hall of Flags, Administration Building",
@@ -1611,7 +1611,7 @@
     ]
   },
   {
-    "dateStart": "2007-07-04T00:00:00.000Z",
+    "date": "2007-07-04T00:00:00.000Z",
     "dateEnd": "2007-07-26T00:00:00.000Z",
     "title": "Visualizing Knowledge",
     "venue": "ARchENA, Honggerberg",
@@ -1637,7 +1637,7 @@
     ]
   },
   {
-    "dateStart": "2007-08-05T00:00:00.000Z",
+    "date": "2007-08-05T00:00:00.000Z",
     "dateEnd": "2007-08-09T00:00:00.000Z",
     "title": "34th International Conference and Exhibition on Computer Graphics and Interactive Techniques",
     "venue": "SIGGRAPH 2007",
@@ -1663,7 +1663,7 @@
     ]
   },
   {
-    "dateStart": "2007-08-14T00:00:00.000Z",
+    "date": "2007-08-14T00:00:00.000Z",
     "dateEnd": "2007-08-14T00:00:00.000Z",
     "title": "Expedition Workshop/Mapping Public Goods And Services Connecting To Science And Scholarly Knowledge",
     "venue": "Office of Intergovernmental Solutions",
@@ -1676,7 +1676,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-09-27T00:00:00.000Z",
+    "date": "2007-09-27T00:00:00.000Z",
     "dateEnd": "2007-09-28T00:00:00.000Z",
     "title": "NSF Workshop on Visual Exploration",
     "venue": "National Science Foundation",
@@ -1689,7 +1689,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-10-08T00:00:00.000Z",
+    "date": "2007-10-08T00:00:00.000Z",
     "dateEnd": "2007-10-09T00:00:00.000Z",
     "title": "Third International Conference on e-Social Science",
     "venue": "Third International Conference on e-Social Science",
@@ -1719,7 +1719,7 @@
     ]
   },
   {
-    "dateStart": "2007-10-11T00:00:00.000Z",
+    "date": "2007-10-11T00:00:00.000Z",
     "dateEnd": "2007-10-13T00:00:00.000Z",
     "title": "Society for Social Studies of Science (4S)",
     "venue": "Society for Social Studies of Science (4S)",
@@ -1749,7 +1749,7 @@
     ]
   },
   {
-    "dateStart": "2007-10-15T00:00:00.000Z",
+    "date": "2007-10-15T00:00:00.000Z",
     "dateEnd": "2007-10-15T00:00:00.000Z",
     "title": "Cyberinfrastructure for Network Science Center & InfoVis Lab Annual Open House",
     "venue": "School of Library and Information Science, Indiana University",
@@ -1799,7 +1799,7 @@
     ]
   },
   {
-    "dateStart": "2007-11-14T00:00:00.000Z",
+    "date": "2007-11-14T00:00:00.000Z",
     "dateEnd": "2007-11-14T00:00:00.000Z",
     "title": "GIS Day 2007",
     "venue": "Wells Library, Indiana University",
@@ -1812,7 +1812,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2007-11-14T00:00:00.000Z",
+    "date": "2007-11-14T00:00:00.000Z",
     "dateEnd": "2007-11-14T00:00:00.000Z",
     "title": "Indiana Library Federation Annual Conference",
     "venue": "Indiana Library Federation Annual Conference",
@@ -1834,7 +1834,7 @@
     ]
   },
   {
-    "dateStart": "2007-12-14T00:00:00.000Z",
+    "date": "2007-12-14T00:00:00.000Z",
     "dateEnd": "2007-12-14T00:00:00.000Z",
     "title": "Plenary Meeting: Transformation in and of Research",
     "venue": "Virtual Knowledge Studio, Royal Academy of Arts and Science (KNAW)",
@@ -1868,7 +1868,7 @@
     ]
   },
   {
-    "dateStart": "2008-01-01T00:00:00.000Z",
+    "date": "2008-01-01T00:00:00.000Z",
     "dateEnd": "2008-01-01T00:00:00.000Z",
     "title": "American Museum of Science and Energy",
     "venue": "American Museum of Science and Energy",
@@ -1978,7 +1978,7 @@
     ]
   },
   {
-    "dateStart": "2008-01-01T00:00:00.000Z",
+    "date": "2008-01-01T00:00:00.000Z",
     "dateEnd": "2008-01-01T00:00:00.000Z",
     "title": "University of Alberta",
     "venue": "University of Alberta",
@@ -2020,7 +2020,7 @@
     ]
   },
   {
-    "dateStart": "2008-01-03T00:00:00.000Z",
+    "date": "2008-01-03T00:00:00.000Z",
     "dateEnd": "2008-01-03T00:00:00.000Z",
     "title": "OSTI Meeting",
     "venue": "OSTI Meeting",
@@ -2038,7 +2038,7 @@
     ]
   },
   {
-    "dateStart": "2008-01-20T00:00:00.000Z",
+    "date": "2008-01-20T00:00:00.000Z",
     "dateEnd": "2008-01-24T00:00:00.000Z",
     "title": "Mapping the Evolution of Science Talk, Evolution and Physics – Concepts, Models and Applications",
     "venue": "Interdisciplinary Seminar of the Heraeus Foundation",
@@ -2051,7 +2051,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-01-24T00:00:00.000Z",
+    "date": "2008-01-24T00:00:00.000Z",
     "dateEnd": "2008-01-24T00:00:00.000Z",
     "title": "Rathenau Institute",
     "venue": "Rathenau Institute",
@@ -2064,7 +2064,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-01-24T00:00:00.000Z",
+    "date": "2008-01-24T00:00:00.000Z",
     "dateEnd": "2008-01-24T00:00:00.000Z",
     "title": "SUNBELT XXVIII International Sunbelt Social Network Conference",
     "venue": "Tradewinds Island Resort",
@@ -2077,7 +2077,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-01-25T00:00:00.000Z",
+    "date": "2008-01-25T00:00:00.000Z",
     "dateEnd": "2008-01-25T00:00:00.000Z",
     "title": "Science from Above Talk",
     "venue": "Virtual Knowledge Studio",
@@ -2090,7 +2090,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-02-18T00:00:00.000Z",
+    "date": "2008-02-18T00:00:00.000Z",
     "dateEnd": "2008-02-21T00:00:00.000Z",
     "title": "Science of Science Keynote",
     "venue": "Semantic Technologies in Astronomy Workshop, Caltech",
@@ -2103,7 +2103,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-03-10T00:00:00.000Z",
+    "date": "2008-03-10T00:00:00.000Z",
     "dateEnd": "2008-03-11T00:00:00.000Z",
     "title": "NSF Workshop on Knowledge Management and Visualization Tools in Support of Discovery (I)",
     "venue": "NSF Building",
@@ -2129,7 +2129,7 @@
     ]
   },
   {
-    "dateStart": "2008-03-12T00:00:00.000Z",
+    "date": "2008-03-12T00:00:00.000Z",
     "dateEnd": "2008-03-12T00:00:00.000Z",
     "title": "Recommendations for Evaluating Large Interdisciplinary Research Initiatives Talk",
     "venue": "National Cancer Institute",
@@ -2142,7 +2142,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-03-27T00:00:00.000Z",
+    "date": "2008-03-27T00:00:00.000Z",
     "dateEnd": "2008-03-29T00:00:00.000Z",
     "title": "Designing cyberinfrastructure to enable US- China collaboration in tobacco research Workshop",
     "venue": "Designing cyberinfrastructure to enable US- China collaboration in tobacco research Workshop",
@@ -2320,7 +2320,7 @@
     ]
   },
   {
-    "dateStart": "2008-03-31T00:00:00.000Z",
+    "date": "2008-03-31T00:00:00.000Z",
     "dateEnd": "2008-03-31T00:00:00.000Z",
     "title": "Cyberinfrastructure in Behavioral Medicine, Expert Panel Workshop",
     "venue": "San Diego Marriott",
@@ -2333,7 +2333,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-04-03T00:00:00.000Z",
+    "date": "2008-04-03T00:00:00.000Z",
     "dateEnd": "2008-06-27T00:00:00.000Z",
     "title": "National Research Council",
     "venue": "National Research Council",
@@ -2363,7 +2363,7 @@
     ]
   },
   {
-    "dateStart": "2008-04-07T00:00:00.000Z",
+    "date": "2008-04-07T00:00:00.000Z",
     "dateEnd": "2008-04-08T00:00:00.000Z",
     "title": "NSF Workshop on Knowledge Management and Visualization Tools in Support of Discovery (II)",
     "venue": "New York Hall of Science",
@@ -2376,7 +2376,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-04-15T00:00:00.000Z",
+    "date": "2008-04-15T00:00:00.000Z",
     "dateEnd": "2008-04-19T00:00:00.000Z",
     "title": "Association of Amercian Geographers Annual Meeting",
     "venue": "Association of Amercian Geographers Annual Meeting",
@@ -2389,7 +2389,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-05-12T00:00:00.000Z",
+    "date": "2008-05-12T00:00:00.000Z",
     "dateEnd": "2008-05-13T00:00:00.000Z",
     "title": "Challenges in Information Science and Technology",
     "venue": "28th CNLS Annual Conference",
@@ -2402,7 +2402,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-05-17T00:00:00.000Z",
+    "date": "2008-05-17T00:00:00.000Z",
     "dateEnd": "2008-06-30T00:00:00.000Z",
     "title": "The National Science Library of the Chinese Academy of Sciences",
     "venue": "The National Science Library of the Chinese Academy of Sciences",
@@ -2580,7 +2580,7 @@
     ]
   },
   {
-    "dateStart": "2008-05-20T00:00:00.000Z",
+    "date": "2008-05-20T00:00:00.000Z",
     "dateEnd": "2008-05-20T00:00:00.000Z",
     "title": "3rd iteration and Illuminated Diagrams on display",
     "venue": "Indiana University Information Technology Strategic Plan 2 (ITSP2) event",
@@ -2642,7 +2642,7 @@
     ]
   },
   {
-    "dateStart": "2008-06-13T00:00:00.000Z",
+    "date": "2008-06-13T00:00:00.000Z",
     "dateEnd": "2008-09-30T00:00:00.000Z",
     "title": "Inaugural lecture of Paul Wouters, chair of Dynamics of Knowledge",
     "venue": "Erasmus University Rotterdam",
@@ -2660,7 +2660,7 @@
     ]
   },
   {
-    "dateStart": "2008-06-17T00:00:00.000Z",
+    "date": "2008-06-17T00:00:00.000Z",
     "dateEnd": "2008-08-15T00:00:00.000Z",
     "title": "The National Science Library of the Chinese Academy of Sciences",
     "venue": "The National Science Library of the Chinese Academy of Sciences",
@@ -2673,7 +2673,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-06-28T00:00:00.000Z",
+    "date": "2008-06-28T00:00:00.000Z",
     "dateEnd": "2008-07-06T00:00:00.000Z",
     "title": "Summer School on Social Cognition (Minds and Societies)",
     "venue": "Institute of Cognitive Sciences (ISC), Université du Québec",
@@ -2695,7 +2695,7 @@
     ]
   },
   {
-    "dateStart": "2008-09-01T00:00:00.000Z",
+    "date": "2008-09-01T00:00:00.000Z",
     "dateEnd": "2008-10-01T00:00:00.000Z",
     "title": "The National Science Library of the Chinese Academy of Sciences",
     "venue": "The National Science Library of the Chinese Academy of Sciences",
@@ -2708,7 +2708,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-09-08T00:00:00.000Z",
+    "date": "2008-09-08T00:00:00.000Z",
     "dateEnd": "2008-09-12T00:00:00.000Z",
     "title": "Science in the 21st Century",
     "venue": "21st Century Science Maps Talk, Perimeter Institute",
@@ -2754,7 +2754,7 @@
     ]
   },
   {
-    "dateStart": "2008-09-11T00:00:00.000Z",
+    "date": "2008-09-11T00:00:00.000Z",
     "dateEnd": "2008-09-12T00:00:00.000Z",
     "title": "A Deeper Look at the Visualization of Scientific Discovery",
     "venue": "NSF Workshop",
@@ -2767,7 +2767,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-09-17T00:00:00.000Z",
+    "date": "2008-09-17T00:00:00.000Z",
     "dateEnd": "2008-09-20T00:00:00.000Z",
     "title": "10th International Conference on Science and Technology Indicators",
     "venue": "10th International Conference on Science and Technology Indicators",
@@ -2805,7 +2805,7 @@
     ]
   },
   {
-    "dateStart": "2008-10-01T00:00:00.000Z",
+    "date": "2008-10-01T00:00:00.000Z",
     "dateEnd": "2008-10-02T00:00:00.000Z",
     "title": "Mechanistic Basis of Plant Adaptation, Grand Challenge Workshop",
     "venue": "Biosphere 2",
@@ -2827,7 +2827,7 @@
     ]
   },
   {
-    "dateStart": "2008-10-02T00:00:00.000Z",
+    "date": "2008-10-02T00:00:00.000Z",
     "dateEnd": "2008-10-03T00:00:00.000Z",
     "title": "Science of Science Management Meeting",
     "venue": "NIH Office of Portfolio Analysis and Strategic Initiatives (OPASI), National Institutes of Health",
@@ -2849,7 +2849,7 @@
     ]
   },
   {
-    "dateStart": "2008-10-15T00:00:00.000Z",
+    "date": "2008-10-15T00:00:00.000Z",
     "dateEnd": "2008-11-15T00:00:00.000Z",
     "title": "The National Science Library of the Chinese Academy of Sciences",
     "venue": "The National Science Library of the Chinese Academy of Sciences",
@@ -2862,7 +2862,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-11-13T00:00:00.000Z",
+    "date": "2008-11-13T00:00:00.000Z",
     "dateEnd": "2008-12-08T00:00:00.000Z",
     "title": "Cornell University",
     "venue": "Cornell University",
@@ -2924,7 +2924,7 @@
     ]
   },
   {
-    "dateStart": "2008-11-24T00:00:00.000Z",
+    "date": "2008-11-24T00:00:00.000Z",
     "dateEnd": "2008-11-25T00:00:00.000Z",
     "title": "Science in Society: Dialogues and Scientific Responsibility Conference",
     "venue": "Council Chamber for Economic, Social, and Environmental Council of the French government, Palais d'Iéna",
@@ -2942,7 +2942,7 @@
     ]
   },
   {
-    "dateStart": "2008-12-08T00:00:00.000Z",
+    "date": "2008-12-08T00:00:00.000Z",
     "dateEnd": "2008-12-09T00:00:00.000Z",
     "title": "Doug Engelbart’s Mother of All Demos 40th year anniversary",
     "venue": "'Program for the Future' Conference, San Jose Tech Museum of Innovation, Stanford University",
@@ -2955,7 +2955,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-12-11T00:00:00.000Z",
+    "date": "2008-12-11T00:00:00.000Z",
     "dateEnd": "2008-12-19T00:00:00.000Z",
     "title": "Center of Advanced European Studies and Research",
     "venue": "Center of Advanced European Studies and Research",
@@ -2968,7 +2968,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2008-12-11T00:00:00.000Z",
+    "date": "2008-12-11T00:00:00.000Z",
     "dateEnd": "2008-12-12T00:00:00.000Z",
     "title": "Foresight - Between Science and Fiction Tagung",
     "venue": "3rd Annual iFQ Conference, Institute for Research Information and Quality Assurance",
@@ -3054,7 +3054,7 @@
     ]
   },
   {
-    "dateStart": "2008-12-20T00:00:00.000Z",
+    "date": "2008-12-20T00:00:00.000Z",
     "dateEnd": "2008-12-31T00:00:00.000Z",
     "title": "The Institute for Research Information and Quality Assurance",
     "venue": "The Institute for Research Information and Quality Assurance",
@@ -3067,7 +3067,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2009-01-01T00:00:00.000Z",
+    "date": "2009-01-01T00:00:00.000Z",
     "dateEnd": "2009-01-01T00:00:00.000Z",
     "title": "Science Express Train",
     "venue": "Science Express Train",
@@ -3097,7 +3097,7 @@
     ]
   },
   {
-    "dateStart": "2009-01-01T00:00:00.000Z",
+    "date": "2009-01-01T00:00:00.000Z",
     "dateEnd": "2009-12-31T00:00:00.000Z",
     "title": "The Institute for Research Information and Quality Assurance",
     "venue": "The Institute for Research Information and Quality Assurance",
@@ -3110,7 +3110,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2009-01-01T00:00:00.000Z",
+    "date": "2009-01-01T00:00:00.000Z",
     "dateEnd": "2009-01-01T00:00:00.000Z",
     "title": "University of Alberta",
     "venue": "University of Alberta",
@@ -3152,7 +3152,7 @@
     ]
   },
   {
-    "dateStart": "2009-01-22T00:00:00.000Z",
+    "date": "2009-01-22T00:00:00.000Z",
     "dateEnd": "2009-01-22T00:00:00.000Z",
     "title": "SANKEN International Symposium",
     "venue": "Osaka University",
@@ -3170,7 +3170,7 @@
     ]
   },
   {
-    "dateStart": "2009-02-13T00:00:00.000Z",
+    "date": "2009-02-13T00:00:00.000Z",
     "dateEnd": "2009-02-13T00:00:00.000Z",
     "title": "CYSWIK (Can You See What I Know) Reception",
     "venue": "Virtual Knowledge Studio, Virtual Knowledge Studio, Royal Netherlands Academy of Arts and Sciences ",
@@ -3232,7 +3232,7 @@
     ]
   },
   {
-    "dateStart": "2009-02-23T00:00:00.000Z",
+    "date": "2009-02-23T00:00:00.000Z",
     "dateEnd": "2009-02-24T00:00:00.000Z",
     "title": "Seed Magazine Headquarters",
     "venue": "Seed Magazine Headquarters",
@@ -3282,7 +3282,7 @@
     ]
   },
   {
-    "dateStart": "2009-02-25T00:00:00.000Z",
+    "date": "2009-02-25T00:00:00.000Z",
     "dateEnd": "2009-04-09T00:00:00.000Z",
     "title": "Science Library",
     "venue": "Binghamton University",
@@ -3304,7 +3304,7 @@
     ]
   },
   {
-    "dateStart": "2009-03-01T00:00:00.000Z",
+    "date": "2009-03-01T00:00:00.000Z",
     "dateEnd": "2009-06-01T00:00:00.000Z",
     "title": "Japan Society for the Promotion of Science",
     "venue": "Japan Society for the Promotion of Science",
@@ -3322,7 +3322,7 @@
     ]
   },
   {
-    "dateStart": "2009-03-22T00:00:00.000Z",
+    "date": "2009-03-22T00:00:00.000Z",
     "dateEnd": "2009-03-27T00:00:00.000Z",
     "title": "Physics of Socio-Economic Systems Annual Meeting",
     "venue": "German Physical Society",
@@ -3348,7 +3348,7 @@
     ]
   },
   {
-    "dateStart": "2009-04-15T00:00:00.000Z",
+    "date": "2009-04-15T00:00:00.000Z",
     "dateEnd": "2009-12-18T00:00:00.000Z",
     "title": "Stanford University",
     "venue": "Stanford University",
@@ -3498,7 +3498,7 @@
     ]
   },
   {
-    "dateStart": "2009-04-21T00:00:00.000Z",
+    "date": "2009-04-21T00:00:00.000Z",
     "dateEnd": "2009-04-25T00:00:00.000Z",
     "title": "NetSci 2009",
     "venue": "L'Istituto Veneto di Scienze",
@@ -3511,7 +3511,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2009-05-06T00:00:00.000Z",
+    "date": "2009-05-06T00:00:00.000Z",
     "dateEnd": "2009-05-08T00:00:00.000Z",
     "title": "CWA Workshop",
     "venue": "New York Hall of Science",
@@ -3553,7 +3553,7 @@
     ]
   },
   {
-    "dateStart": "2009-07-09T00:00:00.000Z",
+    "date": "2009-07-09T00:00:00.000Z",
     "dateEnd": "2009-07-10T00:00:00.000Z",
     "title": "International Council for Scientific and Technical Information Conference",
     "venue": "International Council for Scientific and Technical Information Conference",
@@ -3571,7 +3571,7 @@
     ]
   },
   {
-    "dateStart": "2009-07-12T00:00:00.000Z",
+    "date": "2009-07-12T00:00:00.000Z",
     "dateEnd": "2009-07-14T00:00:00.000Z",
     "title": "Society for Philosophy and Psychology Annual Conference",
     "venue": "Society for Philosophy and Psychology Annual Conference",
@@ -3584,7 +3584,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2009-07-14T00:00:00.000Z",
+    "date": "2009-07-14T00:00:00.000Z",
     "dateEnd": "2009-07-17T00:00:00.000Z",
     "title": "International Conference on Scientometrics and Informetrics",
     "venue": "International Conference on Scientometrics and Informetrics",
@@ -3614,7 +3614,7 @@
     ]
   },
   {
-    "dateStart": "2009-07-14T00:00:00.000Z",
+    "date": "2009-07-14T00:00:00.000Z",
     "dateEnd": "2009-07-16T00:00:00.000Z",
     "title": "NACAP 2009",
     "venue": "Indiana University",
@@ -3632,7 +3632,7 @@
     ]
   },
   {
-    "dateStart": "2009-07-15T00:00:00.000Z",
+    "date": "2009-07-15T00:00:00.000Z",
     "dateEnd": "2009-07-16T00:00:00.000Z",
     "title": "Innovative Approaches to Turn Statistics into Knowledge, Organisation for Economic Co-operation and Development",
     "venue": "U.S. Census Bureau and World Bank Seminar",
@@ -3645,7 +3645,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2009-07-26T00:00:00.000Z",
+    "date": "2009-07-26T00:00:00.000Z",
     "dateEnd": "2009-07-31T00:00:00.000Z",
     "title": "Envisioning and Communicating Science, Visualization in Science and Education",
     "venue": "Gordon Research Conference, Magdalen College, Oxford University",
@@ -3675,7 +3675,7 @@
     ]
   },
   {
-    "dateStart": "2009-08-12T00:00:00.000Z",
+    "date": "2009-08-12T00:00:00.000Z",
     "dateEnd": "2009-08-12T00:00:00.000Z",
     "title": "Workshop: Information Kinetics",
     "venue": "Workshop: Information Kinetics",
@@ -3688,7 +3688,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2009-08-21T00:00:00.000Z",
+    "date": "2009-08-21T00:00:00.000Z",
     "dateEnd": "2009-08-21T00:00:00.000Z",
     "title": "European Conference on Artificial Life 2009",
     "venue": "European Conference on Artificial Life 2009",
@@ -3722,7 +3722,7 @@
     ]
   },
   {
-    "dateStart": "2009-09-14T00:00:00.000Z",
+    "date": "2009-09-14T00:00:00.000Z",
     "dateEnd": "2009-09-18T00:00:00.000Z",
     "title": "Conference on the Social Processes of Science, European Social Simulation Association,",
     "venue": "University of Surrey",
@@ -3740,7 +3740,7 @@
     ]
   },
   {
-    "dateStart": "2009-10-01T00:00:00.000Z",
+    "date": "2009-10-01T00:00:00.000Z",
     "dateEnd": "2009-10-02T00:00:00.000Z",
     "title": "NSF/JSMF Workshop on How to Measure, Map, and Dramatize Science",
     "venue": "New York Hall of Science",
@@ -3762,7 +3762,7 @@
     ]
   },
   {
-    "dateStart": "2009-10-02T00:00:00.000Z",
+    "date": "2009-10-02T00:00:00.000Z",
     "dateEnd": "2009-10-03T00:00:00.000Z",
     "title": "Atlanta Conference on Science and Innovation Policy",
     "venue": "Atlanta Conference on Science and Innovation Policy",
@@ -3780,7 +3780,7 @@
     ]
   },
   {
-    "dateStart": "2009-10-02T00:00:00.000Z",
+    "date": "2009-10-02T00:00:00.000Z",
     "dateEnd": "2009-10-02T00:00:00.000Z",
     "title": "Technology Transfer Society (T2S) Annual Conference",
     "venue": "Technology Transfer Society (T2S) Annual Conference",
@@ -3798,7 +3798,7 @@
     ]
   },
   {
-    "dateStart": "2009-10-06T00:00:00.000Z",
+    "date": "2009-10-06T00:00:00.000Z",
     "dateEnd": "2009-10-09T00:00:00.000Z",
     "title": "Modeling Science Workshop",
     "venue": "Modeling Science Workshop",
@@ -3840,7 +3840,7 @@
     ]
   },
   {
-    "dateStart": "2009-10-21T00:00:00.000Z",
+    "date": "2009-10-21T00:00:00.000Z",
     "dateEnd": "2009-10-21T00:00:00.000Z",
     "title": "NWB and Sci2 Tool Workshop",
     "venue": "National Institutes of Health",
@@ -3853,7 +3853,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2009-10-21T00:00:00.000Z",
+    "date": "2009-10-21T00:00:00.000Z",
     "dateEnd": "2009-10-21T00:00:00.000Z",
     "title": "STEM Enterprise: Measures for Innovation and Competitiveness",
     "venue": "George Washington University",
@@ -3866,7 +3866,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2009-10-28T00:00:00.000Z",
+    "date": "2009-10-28T00:00:00.000Z",
     "dateEnd": "2009-10-29T00:00:00.000Z",
     "title": "Science of Science Policy (SoSP) Workshop: Best Practices in Research & Development Prioritization, Management, and Evaluation",
     "venue": "George Washington University",
@@ -3879,7 +3879,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2009-12-07T00:00:00.000Z",
+    "date": "2009-12-07T00:00:00.000Z",
     "dateEnd": "2009-12-09T00:00:00.000Z",
     "title": "5th IEEE International Conference on e-Science",
     "venue": "IEEE International Conference on e-Science",
@@ -3897,7 +3897,7 @@
     ]
   },
   {
-    "dateStart": "2009-12-14T00:00:00.000Z",
+    "date": "2009-12-14T00:00:00.000Z",
     "dateEnd": "2009-12-18T00:00:00.000Z",
     "title": "Fall Meeting",
     "venue": "American Geophysical Union",
@@ -3910,7 +3910,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-01-01T00:00:00.000Z",
+    "date": "2010-01-01T00:00:00.000Z",
     "dateEnd": "2010-01-01T00:00:00.000Z",
     "title": "Emergent Mosaic of Wikipedian Activity, The World in 100 Years",
     "venue": "ARS Electronica Museum",
@@ -3952,7 +3952,7 @@
     ]
   },
   {
-    "dateStart": "2010-01-01T00:00:00.000Z",
+    "date": "2010-01-01T00:00:00.000Z",
     "dateEnd": "2010-12-31T00:00:00.000Z",
     "title": "The Institute for Research Information and Quality Assurance",
     "venue": "The Institute for Research Information and Quality Assurance",
@@ -3965,7 +3965,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-01-15T00:00:00.000Z",
+    "date": "2010-01-15T00:00:00.000Z",
     "dateEnd": "2010-06-30T00:00:00.000Z",
     "title": "Marston Science Library",
     "venue": "University of Florida",
@@ -4087,7 +4087,7 @@
     ]
   },
   {
-    "dateStart": "2010-02-10T00:00:00.000Z",
+    "date": "2010-02-10T00:00:00.000Z",
     "dateEnd": "2010-02-10T00:00:00.000Z",
     "title": "SEAD DataNet NSF Site Visit",
     "venue": "University of Michigan",
@@ -4100,7 +4100,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-02-19T00:00:00.000Z",
+    "date": "2010-02-19T00:00:00.000Z",
     "dateEnd": "2010-02-20T00:00:00.000Z",
     "title": "International Seminar on Multidimensional Network Theory",
     "venue": "University of Southern California",
@@ -4113,7 +4113,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-03-04T00:00:00.000Z",
+    "date": "2010-03-04T00:00:00.000Z",
     "dateEnd": "2010-03-05T00:00:00.000Z",
     "title": "NSF/JSMF Workshop on Mapping Science and the Semantic Web",
     "venue": "Indiana University",
@@ -4347,7 +4347,7 @@
     ]
   },
   {
-    "dateStart": "2010-03-09T00:00:00.000Z",
+    "date": "2010-03-09T00:00:00.000Z",
     "dateEnd": "2010-03-10T00:00:00.000Z",
     "title": "Center for Research and Development Strategy (CRDS)",
     "venue": "Japan Science and Technology Agency",
@@ -4360,7 +4360,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-03-15T00:00:00.000Z",
+    "date": "2010-03-15T00:00:00.000Z",
     "dateEnd": "2010-03-18T00:00:00.000Z",
     "title": "Leipziger Kongress für Information und Bibliothek",
     "venue": "Leipziger Kongress für Information und Bibliothek",
@@ -4373,7 +4373,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-03-18T00:00:00.000Z",
+    "date": "2010-03-18T00:00:00.000Z",
     "dateEnd": "2010-03-19T00:00:00.000Z",
     "title": "NIH Workshop on Identifiers and Disambiguation in Scholarly Work",
     "venue": "University of Florida",
@@ -4386,7 +4386,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-03-22T00:00:00.000Z",
+    "date": "2010-03-22T00:00:00.000Z",
     "dateEnd": "2010-03-26T00:00:00.000Z",
     "title": "German Physical Society",
     "venue": "The Division Physics of Socio-Economic Systems",
@@ -4399,7 +4399,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-07-09T00:00:00.000Z",
+    "date": "2010-07-09T00:00:00.000Z",
     "dateEnd": "2010-07-11T00:00:00.000Z",
     "title": "EuroVis 2010",
     "venue": "EuroVis 2010",
@@ -4412,7 +4412,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-07-21T00:00:00.000Z",
+    "date": "2010-07-21T00:00:00.000Z",
     "dateEnd": "2010-07-25T00:00:00.000Z",
     "title": "Joint Conference on Digital Libraries 2010",
     "venue": "The University of Queensland",
@@ -4425,7 +4425,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-07-31T00:00:00.000Z",
+    "date": "2010-07-31T00:00:00.000Z",
     "dateEnd": "2010-08-01T00:00:00.000Z",
     "title": "Science Foo Camp (scifoo) 2010",
     "venue": "",
@@ -4483,7 +4483,7 @@
     ]
   },
   {
-    "dateStart": "2010-08-12T00:00:00.000Z",
+    "date": "2010-08-12T00:00:00.000Z",
     "dateEnd": "2010-08-13T00:00:00.000Z",
     "title": "First National VIVO Conference Enabling National Networking of Scientists",
     "venue": "New York Hall of Science",
@@ -4496,7 +4496,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-08-15T00:00:00.000Z",
+    "date": "2010-08-15T00:00:00.000Z",
     "dateEnd": "2010-08-27T00:00:00.000Z",
     "title": "NEH Institute on Network Analysis for the Humanities",
     "venue": "University of California, Los Angeles",
@@ -4509,7 +4509,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-09-08T00:00:00.000Z",
+    "date": "2010-09-08T00:00:00.000Z",
     "dateEnd": "2010-09-11T00:00:00.000Z",
     "title": "Science and Technology Indicators Conference",
     "venue": "Science and Technology Indicators Conference",
@@ -4522,7 +4522,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-09-25T00:00:00.000Z",
+    "date": "2010-09-25T00:00:00.000Z",
     "dateEnd": "2010-09-26T00:00:00.000Z",
     "title": "Wikipedia: Critical Point of View",
     "venue": "University Library, Leipzig",
@@ -4535,7 +4535,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-10-02T00:00:00.000Z",
+    "date": "2010-10-02T00:00:00.000Z",
     "dateEnd": "2010-10-07T00:00:00.000Z",
     "title": "Future Internet and Society: A Complex Systems Perspective",
     "venue": "ESF-COST High-Level Research Conference",
@@ -4553,7 +4553,7 @@
     ]
   },
   {
-    "dateStart": "2010-11-01T00:00:00.000Z",
+    "date": "2010-11-01T00:00:00.000Z",
     "dateEnd": "2010-11-30T00:00:00.000Z",
     "title": "Places & Spaces: Mapping Science",
     "venue": "University College Dublin ",
@@ -4619,7 +4619,7 @@
     ]
   },
   {
-    "dateStart": "2010-11-15T00:00:00.000Z",
+    "date": "2010-11-15T00:00:00.000Z",
     "dateEnd": "2010-11-16T00:00:00.000Z",
     "title": "Cultural Dimensions of Innovation",
     "venue": "UCD Conference",
@@ -4669,7 +4669,7 @@
     ]
   },
   {
-    "dateStart": "2010-11-16T00:00:00.000Z",
+    "date": "2010-11-16T00:00:00.000Z",
     "dateEnd": "2010-11-17T00:00:00.000Z",
     "title": "Challenges of Visualizing Biological Data Workshop",
     "venue": null,
@@ -4682,7 +4682,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-11-16T00:00:00.000Z",
+    "date": "2010-11-16T00:00:00.000Z",
     "dateEnd": "2010-11-17T00:00:00.000Z",
     "title": "Royal Society Global Science Report Launch Conference",
     "venue": "Kavli Royal Society International Center",
@@ -4695,7 +4695,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-11-29T00:00:00.000Z",
+    "date": "2010-11-29T00:00:00.000Z",
     "dateEnd": "2010-11-30T00:00:00.000Z",
     "title": "Star Metrics",
     "venue": "National Academy of Science Workshop",
@@ -4708,7 +4708,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-12-01T00:00:00.000Z",
+    "date": "2010-12-01T00:00:00.000Z",
     "dateEnd": "2010-12-02T00:00:00.000Z",
     "title": "Mapping the Structure and Evolution of Sustainability Science",
     "venue": "Workshop",
@@ -4721,7 +4721,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2010-12-02T00:00:00.000Z",
+    "date": "2010-12-02T00:00:00.000Z",
     "dateEnd": "2010-12-03T00:00:00.000Z",
     "title": "Science of Science Measurement",
     "venue": "National Academy of Science Workshop",
@@ -4734,7 +4734,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-01-01T00:00:00.000Z",
+    "date": "2011-01-01T00:00:00.000Z",
     "dateEnd": "2011-01-01T00:00:00.000Z",
     "title": "Emergent Mosaic of Wikipedian Activity, The World in 100 Years",
     "venue": "ARS Electronica Museum",
@@ -4776,7 +4776,7 @@
     ]
   },
   {
-    "dateStart": "2011-01-01T00:00:00.000Z",
+    "date": "2011-01-01T00:00:00.000Z",
     "dateEnd": "2011-01-01T00:00:00.000Z",
     "title": "Science Express Train",
     "venue": "Science Express Train",
@@ -4806,7 +4806,7 @@
     ]
   },
   {
-    "dateStart": "2011-01-01T00:00:00.000Z",
+    "date": "2011-01-01T00:00:00.000Z",
     "dateEnd": "2011-12-31T00:00:00.000Z",
     "title": "The Institute for Research Information and Quality Assurance",
     "venue": "The Institute for Research Information and Quality Assurance",
@@ -4819,7 +4819,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-02-08T00:00:00.000Z",
+    "date": "2011-02-08T00:00:00.000Z",
     "dateEnd": "2011-02-11T00:00:00.000Z",
     "title": "Scientometrics Workshop",
     "venue": "iConference",
@@ -4832,7 +4832,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-02-17T00:00:00.000Z",
+    "date": "2011-02-17T00:00:00.000Z",
     "dateEnd": "2011-02-21T00:00:00.000Z",
     "title": "AAAS Annual Meeting",
     "venue": "AAAS Annual Meeting",
@@ -4845,7 +4845,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-03-05T00:00:00.000Z",
+    "date": "2011-03-05T00:00:00.000Z",
     "dateEnd": "2011-03-06T00:00:00.000Z",
     "title": "Web Science Meets Network Science Workshop",
     "venue": "Northwestern University",
@@ -4858,7 +4858,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-03-07T00:00:00.000Z",
+    "date": "2011-03-07T00:00:00.000Z",
     "dateEnd": "2011-03-24T00:00:00.000Z",
     "title": "University of Michigan",
     "venue": "University of Michigan",
@@ -4980,7 +4980,7 @@
     ]
   },
   {
-    "dateStart": "2011-03-10T00:00:00.000Z",
+    "date": "2011-03-10T00:00:00.000Z",
     "dateEnd": "2011-03-11T00:00:00.000Z",
     "title": "ADS-VIS2011: Making visible the invisible: Art, Design and Science in Data Visualisation",
     "venue": "University of Huddersfield",
@@ -4993,7 +4993,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-03-22T00:00:00.000Z",
+    "date": "2011-03-22T00:00:00.000Z",
     "dateEnd": "2011-03-25T00:00:00.000Z",
     "title": "International Workshop on Mining the Digital Traces of Science",
     "venue": "International Workshop on Mining the Digital Traces of Science",
@@ -5227,7 +5227,7 @@
     ]
   },
   {
-    "dateStart": "2011-04-05T00:00:00.000Z",
+    "date": "2011-04-05T00:00:00.000Z",
     "dateEnd": "2011-04-06T00:00:00.000Z",
     "title": "HUBbubZero User Workshop",
     "venue": "Purdue University",
@@ -5253,7 +5253,7 @@
     ]
   },
   {
-    "dateStart": "2011-04-12T00:00:00.000Z",
+    "date": "2011-04-12T00:00:00.000Z",
     "dateEnd": "2011-04-14T00:00:00.000Z",
     "title": "2011 Science of Team Science Conference",
     "venue": "Northwestern University",
@@ -5307,7 +5307,7 @@
     ]
   },
   {
-    "dateStart": "2011-04-15T00:00:00.000Z",
+    "date": "2011-04-15T00:00:00.000Z",
     "dateEnd": "2011-04-19T00:00:00.000Z",
     "title": "Torun's Festival of Science and Art",
     "venue": "Torun's Festival of Science and Art",
@@ -5349,7 +5349,7 @@
     ]
   },
   {
-    "dateStart": "2011-05-10T00:00:00.000Z",
+    "date": "2011-05-10T00:00:00.000Z",
     "dateEnd": "2011-05-10T00:00:00.000Z",
     "title": "Scientific Mapping and Analytics",
     "venue": null,
@@ -5395,7 +5395,7 @@
     ]
   },
   {
-    "dateStart": "2011-05-16T00:00:00.000Z",
+    "date": "2011-05-16T00:00:00.000Z",
     "dateEnd": "2011-05-17T00:00:00.000Z",
     "title": "Educational Space in Library",
     "venue": "Pedagogical University of Cracow",
@@ -5465,7 +5465,7 @@
     ]
   },
   {
-    "dateStart": "2011-05-18T00:00:00.000Z",
+    "date": "2011-05-18T00:00:00.000Z",
     "dateEnd": "2011-05-20T00:00:00.000Z",
     "title": "COST Workshop",
     "venue": "COST Workshop",
@@ -5507,7 +5507,7 @@
     ]
   },
   {
-    "dateStart": "2011-06-02T00:00:00.000Z",
+    "date": "2011-06-02T00:00:00.000Z",
     "dateEnd": "2011-06-02T00:00:00.000Z",
     "title": "Institute for Advanced Technologies in the Digital Humanities",
     "venue": "University of North Carolina",
@@ -5520,7 +5520,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-06-04T00:00:00.000Z",
+    "date": "2011-06-04T00:00:00.000Z",
     "dateEnd": "2011-07-04T00:00:00.000Z",
     "title": "Collaboration visit",
     "venue": null,
@@ -5533,7 +5533,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-06-23T00:00:00.000Z",
+    "date": "2011-06-23T00:00:00.000Z",
     "dateEnd": "2011-06-25T00:00:00.000Z",
     "title": "Network Analysis Conference",
     "venue": "Network Analysis Conference",
@@ -5546,7 +5546,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-07-04T00:00:00.000Z",
+    "date": "2011-07-04T00:00:00.000Z",
     "dateEnd": "2011-07-15T00:00:00.000Z",
     "title": "ISSI",
     "venue": "ISSI",
@@ -5600,7 +5600,7 @@
     ]
   },
   {
-    "dateStart": "2011-07-10T00:00:00.000Z",
+    "date": "2011-07-10T00:00:00.000Z",
     "dateEnd": "2011-07-15T00:00:00.000Z",
     "title": "SciDAC 2011 Scientific Discovery through Advanced Computing Program",
     "venue": "Gordon Research Conference at Bryant University",
@@ -5613,7 +5613,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-07-10T00:00:00.000Z",
+    "date": "2011-07-10T00:00:00.000Z",
     "dateEnd": "2011-07-15T00:00:00.000Z",
     "title": "Visualization in Science & Education - Transformation by Visualization: Radical Effects on Learning in Science and Across Education",
     "venue": "Gordon Research Conference at Bryant University",
@@ -5655,7 +5655,7 @@
     ]
   },
   {
-    "dateStart": "2011-08-24T00:00:00.000Z",
+    "date": "2011-08-24T00:00:00.000Z",
     "dateEnd": "2011-08-26T00:00:00.000Z",
     "title": "VIVO 2011 Conference",
     "venue": "VIVO 2011 Conference",
@@ -5673,7 +5673,7 @@
     ]
   },
   {
-    "dateStart": "2011-09-09T00:00:00.000Z",
+    "date": "2011-09-09T00:00:00.000Z",
     "dateEnd": "2011-09-09T00:00:00.000Z",
     "title": "Battelle Center for Science & Technology opening reception",
     "venue": "Battelle Center for Science & Technology",
@@ -5831,7 +5831,7 @@
     ]
   },
   {
-    "dateStart": "2011-09-14T00:00:00.000Z",
+    "date": "2011-09-14T00:00:00.000Z",
     "dateEnd": "2011-09-14T00:00:00.000Z",
     "title": "Program Impact Evaluation, Workshop",
     "venue": "Held jointly by the Advanced Research Projects Agency for Energy (ARPA-E) and the U.S. Department of Energy's Office of Energy Efficiency and Renewable Energy (EERE)",
@@ -5849,7 +5849,7 @@
     ]
   },
   {
-    "dateStart": "2011-09-15T00:00:00.000Z",
+    "date": "2011-09-15T00:00:00.000Z",
     "dateEnd": "2011-09-15T00:00:00.000Z",
     "title": "Data Coding, Analysis, Archiving, and Sharing for Open Collaboration: From OpenSHAPA to Open Data Sharing",
     "venue": "NSF Workshop",
@@ -5862,7 +5862,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-09-20T00:00:00.000Z",
+    "date": "2011-09-20T00:00:00.000Z",
     "dateEnd": "2011-09-23T00:00:00.000Z",
     "title": "Webometrics, Informetrics and Scientometrics (WIS)",
     "venue": "COLLNET 2011, 7th International Conference",
@@ -5875,7 +5875,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-09-23T00:00:00.000Z",
+    "date": "2011-09-23T00:00:00.000Z",
     "dateEnd": "2011-09-25T00:00:00.000Z",
     "title": "'Envisioning Scholarly Data' Compatible Databases",
     "venue": "Yaddo Workshop",
@@ -5905,7 +5905,7 @@
     ]
   },
   {
-    "dateStart": "2011-09-30T00:00:00.000Z",
+    "date": "2011-09-30T00:00:00.000Z",
     "dateEnd": "2012-01-24T00:00:00.000Z",
     "title": "University of North Texas",
     "venue": "University of North Texas",
@@ -6095,7 +6095,7 @@
     ]
   },
   {
-    "dateStart": "2011-10-04T00:00:00.000Z",
+    "date": "2011-10-04T00:00:00.000Z",
     "dateEnd": "2011-10-04T00:00:00.000Z",
     "title": "Taming Complexity TTI Vanguard Conference",
     "venue": "Taming Complexity TTI Vanguard Conference",
@@ -6108,7 +6108,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-10-06T00:00:00.000Z",
+    "date": "2011-10-06T00:00:00.000Z",
     "dateEnd": "2011-10-06T00:00:00.000Z",
     "title": "NIH SWAM Network Meeting",
     "venue": "GWU Statistics Center",
@@ -6121,7 +6121,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-10-10T00:00:00.000Z",
+    "date": "2011-10-10T00:00:00.000Z",
     "dateEnd": "2011-10-10T00:00:00.000Z",
     "title": "IN CTSI retreat",
     "venue": "Indiana University",
@@ -6134,7 +6134,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-10-17T00:00:00.000Z",
+    "date": "2011-10-17T00:00:00.000Z",
     "dateEnd": "2011-10-17T00:00:00.000Z",
     "title": "Hands-on Science, Science Workshop",
     "venue": "National Academy of Sciences",
@@ -6147,7 +6147,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-10-17T00:00:00.000Z",
+    "date": "2011-10-17T00:00:00.000Z",
     "dateEnd": "2011-10-18T00:00:00.000Z",
     "title": "JSMF funded Workshop on 'Artists Envision S&T' Workshop",
     "venue": "National Academy of Sciences",
@@ -6160,7 +6160,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-11-02T00:00:00.000Z",
+    "date": "2011-11-02T00:00:00.000Z",
     "dateEnd": "2011-11-03T00:00:00.000Z",
     "title": "Disease and Therapeutic Response Modeling",
     "venue": "IN CTSI Symposium",
@@ -6173,7 +6173,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-11-09T00:00:00.000Z",
+    "date": "2011-11-09T00:00:00.000Z",
     "dateEnd": "2011-11-10T00:00:00.000Z",
     "title": "Envisioning Science and Technology talk",
     "venue": "University of Pittsburgh",
@@ -6186,7 +6186,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-11-16T00:00:00.000Z",
+    "date": "2011-11-16T00:00:00.000Z",
     "dateEnd": "2011-11-16T00:00:00.000Z",
     "title": "Katy presents Keynote on 'Mapping Science and Technology Activity in Geospatial and Topical Spaces'",
     "venue": "Indiana University's GIS Day, Wells Library Atrium",
@@ -6548,7 +6548,7 @@
     ]
   },
   {
-    "dateStart": "2011-11-17T00:00:00.000Z",
+    "date": "2011-11-17T00:00:00.000Z",
     "dateEnd": "2011-11-18T00:00:00.000Z",
     "title": "JSMF funded Workshop on 'Anyone Can Map: Charting and Exploring the History and Future of Science and Technology'",
     "venue": "CNS, Indiana University",
@@ -6561,7 +6561,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2011-12-02T00:00:00.000Z",
+    "date": "2011-12-02T00:00:00.000Z",
     "dateEnd": "2011-12-02T00:00:00.000Z",
     "title": "Dupont Summit",
     "venue": "Carnegie Institution for Science",
@@ -6574,7 +6574,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2012-01-19T00:00:00.000Z",
+    "date": "2012-01-19T00:00:00.000Z",
     "dateEnd": "2012-01-19T00:00:00.000Z",
     "title": "Workshop on Visualization for the Digital Humanities",
     "venue": "Meertens Institute",
@@ -6587,7 +6587,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2012-02-01T00:00:00.000Z",
+    "date": "2012-02-01T00:00:00.000Z",
     "dateEnd": "2012-03-30T00:00:00.000Z",
     "title": "Northeastern University",
     "venue": "Northeastern University",
@@ -6732,7 +6732,7 @@
     ]
   },
   {
-    "dateStart": "2012-03-06T00:00:00.000Z",
+    "date": "2012-03-06T00:00:00.000Z",
     "dateEnd": "2012-03-08T00:00:00.000Z",
     "title": "Keynote at Conference Series Visualizing Biological Data (VizBi)",
     "venue": "EMBL",
@@ -6745,7 +6745,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2012-04-11T00:00:00.000Z",
+    "date": "2012-04-11T00:00:00.000Z",
     "dateEnd": "2012-04-13T00:00:00.000Z",
     "title": "Science and Technological Policy (CSTP)",
     "venue": "Organisation for Economic Co-operation and Development (OECD) Global Science Forum",
@@ -6803,7 +6803,7 @@
     ]
   },
   {
-    "dateStart": "2012-04-12T00:00:00.000Z",
+    "date": "2012-04-12T00:00:00.000Z",
     "dateEnd": "2012-04-13T00:00:00.000Z",
     "title": "Ontology Summit 2012 Symposium",
     "venue": "US National Institute of Standards and Technology (NIST)",
@@ -6837,7 +6837,7 @@
     ]
   },
   {
-    "dateStart": "2012-04-16T00:00:00.000Z",
+    "date": "2012-04-16T00:00:00.000Z",
     "dateEnd": "2012-04-29T00:00:00.000Z",
     "title": "Keynote at Second International Conference on Learning Analytics & Knowledge (LAK)",
     "venue": "Keynote at Second International Conference on Learning Analytics & Knowledge (LAK)",
@@ -6850,7 +6850,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2012-06-25T00:00:00.000Z",
+    "date": "2012-06-25T00:00:00.000Z",
     "dateEnd": "2012-06-26T00:00:00.000Z",
     "title": "Transforming Tools of Emerging and Converging Technologies for Societal Benefit",
     "venue": "WTEC workshop",
@@ -6863,7 +6863,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2012-06-27T00:00:00.000Z",
+    "date": "2012-06-27T00:00:00.000Z",
     "dateEnd": "2012-07-08T00:00:00.000Z",
     "title": "Illuminated Diagram Display",
     "venue": "Smithsonian Folklife Festival",
@@ -6933,7 +6933,7 @@
     ]
   },
   {
-    "dateStart": "2012-07-20T00:00:00.000Z",
+    "date": "2012-07-20T00:00:00.000Z",
     "dateEnd": "2012-07-22T00:00:00.000Z",
     "title": "Keynote Speaker at International Society of the Psychology of Science and Technology (ISPST)",
     "venue": "University of Pittsburgh",
@@ -6963,7 +6963,7 @@
     ]
   },
   {
-    "dateStart": "2012-07-23T00:00:00.000Z",
+    "date": "2012-07-23T00:00:00.000Z",
     "dateEnd": "2012-07-24T00:00:00.000Z",
     "title": "Plenary Talk and Sci2 Tutorial",
     "venue": "National Institutes of Health",
@@ -7017,7 +7017,7 @@
     ]
   },
   {
-    "dateStart": "2012-09-05T00:00:00.000Z",
+    "date": "2012-09-05T00:00:00.000Z",
     "dateEnd": "2012-09-08T00:00:00.000Z",
     "title": "STI Conference Series",
     "venue": "STI Conference Series",
@@ -7039,7 +7039,7 @@
     ]
   },
   {
-    "dateStart": "2012-09-24T00:00:00.000Z",
+    "date": "2012-09-24T00:00:00.000Z",
     "dateEnd": "2012-09-25T00:00:00.000Z",
     "title": "Statewide IT Conference",
     "venue": "Indiana University",
@@ -7057,7 +7057,7 @@
     ]
   },
   {
-    "dateStart": "2012-09-26T00:00:00.000Z",
+    "date": "2012-09-26T00:00:00.000Z",
     "dateEnd": "2012-09-26T00:00:00.000Z",
     "title": "Chalmers Annual Library Seminar",
     "venue": "Chalmers Annual Library Seminar",
@@ -7111,7 +7111,7 @@
     ]
   },
   {
-    "dateStart": "2012-09-30T00:00:00.000Z",
+    "date": "2012-09-30T00:00:00.000Z",
     "dateEnd": "2012-12-15T00:00:00.000Z",
     "title": "National Academy of Sciences",
     "venue": "Keck Center Gallery",
@@ -7173,7 +7173,7 @@
     ]
   },
   {
-    "dateStart": "2012-10-09T00:00:00.000Z",
+    "date": "2012-10-09T00:00:00.000Z",
     "dateEnd": "2013-06-01T00:00:00.000Z",
     "title": "Mundaneum Museum",
     "venue": "Mundaneum Museum",
@@ -7207,7 +7207,7 @@
     ]
   },
   {
-    "dateStart": "2012-10-17T00:00:00.000Z",
+    "date": "2012-10-17T00:00:00.000Z",
     "dateEnd": "2012-10-19T00:00:00.000Z",
     "title": "Exhibit Display and Keynote Talk",
     "venue": "2012 NACIS Conference",
@@ -7225,7 +7225,7 @@
     ]
   },
   {
-    "dateStart": "2012-10-26T00:00:00.000Z",
+    "date": "2012-10-26T00:00:00.000Z",
     "dateEnd": "2012-10-26T00:00:00.000Z",
     "title": "Big Data Analysis in Science Symposium",
     "venue": "Yale University",
@@ -7243,7 +7243,7 @@
     ]
   },
   {
-    "dateStart": "2012-11-13T00:00:00.000Z",
+    "date": "2012-11-13T00:00:00.000Z",
     "dateEnd": "2012-11-14T00:00:00.000Z",
     "title": "CTSI Symposium on Disease and Therapeutic Response Modeling",
     "venue": "CTSI Symposium on Disease and Therapeutic Response Modeling",
@@ -7256,7 +7256,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2012-11-15T00:00:00.000Z",
+    "date": "2012-11-15T00:00:00.000Z",
     "dateEnd": "2012-11-18T00:00:00.000Z",
     "title": "Annual History of Science Conference",
     "venue": "Annual History of Science Conference",
@@ -7269,7 +7269,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2012-11-16T00:00:00.000Z",
+    "date": "2012-11-16T00:00:00.000Z",
     "dateEnd": "2012-11-17T00:00:00.000Z",
     "title": "Plug-and-Play Macroscope Workshop",
     "venue": "Indiana University",
@@ -7282,7 +7282,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2012-11-26T00:00:00.000Z",
+    "date": "2012-11-26T00:00:00.000Z",
     "dateEnd": "2012-11-30T00:00:00.000Z",
     "title": "IQ-Wall",
     "venue": "Herman B Wells Library, Indiana University",
@@ -7312,7 +7312,7 @@
     ]
   },
   {
-    "dateStart": "2012-11-28T00:00:00.000Z",
+    "date": "2012-11-28T00:00:00.000Z",
     "dateEnd": "2012-11-28T00:00:00.000Z",
     "title": "Minnesota State University",
     "venue": "Moorhead, Art & Design Building",
@@ -7330,7 +7330,7 @@
     ]
   },
   {
-    "dateStart": "2012-12-12T00:00:00.000Z",
+    "date": "2012-12-12T00:00:00.000Z",
     "dateEnd": "2012-12-14T00:00:00.000Z",
     "title": "International Symposium on Science of Science and Innovation Policy",
     "venue": "Innovation Policy Research Center at The University of Tokyo",
@@ -7408,7 +7408,7 @@
     ]
   },
   {
-    "dateStart": "2013-01-01T00:00:00.000Z",
+    "date": "2013-01-01T00:00:00.000Z",
     "dateEnd": "2013-06-01T00:00:00.000Z",
     "title": "National Academy of Sciences",
     "venue": "Upstairs Gallery",
@@ -7470,7 +7470,7 @@
     ]
   },
   {
-    "dateStart": "2013-01-16T00:00:00.000Z",
+    "date": "2013-01-16T00:00:00.000Z",
     "dateEnd": "2013-01-22T00:00:00.000Z",
     "title": "VIVO Workshop",
     "venue": "KNAW",
@@ -7516,7 +7516,7 @@
     ]
   },
   {
-    "dateStart": "2013-01-21T00:00:00.000Z",
+    "date": "2013-01-21T00:00:00.000Z",
     "dateEnd": "2013-01-21T00:00:00.000Z",
     "title": "Real Life Science: Martin Luther King Jr. Day Celebration",
     "venue": "Wonderlab",
@@ -7545,7 +7545,7 @@
     ]
   },
   {
-    "dateStart": "2013-01-23T00:00:00.000Z",
+    "date": "2013-01-23T00:00:00.000Z",
     "dateEnd": "2013-01-27T00:00:00.000Z",
     "title": "World Economic Forum Annual Meeting",
     "venue": "World Economic Forum Annual Meeting",
@@ -7719,7 +7719,7 @@
     ]
   },
   {
-    "dateStart": "2013-03-02T00:00:00.000Z",
+    "date": "2013-03-02T00:00:00.000Z",
     "dateEnd": "2013-03-04T00:00:00.000Z",
     "title": "Sci2/NWB Workshop",
     "venue": "Sunbelt",
@@ -7732,7 +7732,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2013-03-22T00:00:00.000Z",
+    "date": "2013-03-22T00:00:00.000Z",
     "dateEnd": "2013-03-22T00:00:00.000Z",
     "title": "TEDxBloomington",
     "venue": "Buskirk-Chumley",
@@ -7938,7 +7938,7 @@
     ]
   },
   {
-    "dateStart": "2013-03-25T00:00:00.000Z",
+    "date": "2013-03-25T00:00:00.000Z",
     "dateEnd": "2013-03-26T00:00:00.000Z",
     "title": "Exploiting Big Data Semantics for Translational Medicine Workshop",
     "venue": "Indiana University",
@@ -7968,7 +7968,7 @@
     ]
   },
   {
-    "dateStart": "2013-04-10T00:00:00.000Z",
+    "date": "2013-04-10T00:00:00.000Z",
     "dateEnd": "2013-04-11T00:00:00.000Z",
     "title": "1st International Conference on Internet Science",
     "venue": "1st International Conference on Internet Science",
@@ -7986,7 +7986,7 @@
     ]
   },
   {
-    "dateStart": "2013-04-10T00:00:00.000Z",
+    "date": "2013-04-10T00:00:00.000Z",
     "dateEnd": "2013-04-13T00:00:00.000Z",
     "title": "ACRL",
     "venue": "ACRL",
@@ -8008,7 +8008,7 @@
     ]
   },
   {
-    "dateStart": "2013-04-12T00:00:00.000Z",
+    "date": "2013-04-12T00:00:00.000Z",
     "dateEnd": "2013-04-12T00:00:00.000Z",
     "title": "Seminaire Europeen de L'Ecole Doctorale",
     "venue": "Universite de Lille",
@@ -8030,7 +8030,7 @@
     ]
   },
   {
-    "dateStart": "2013-04-25T00:00:00.000Z",
+    "date": "2013-04-25T00:00:00.000Z",
     "dateEnd": "2013-04-26T00:00:00.000Z",
     "title": "Sci2 Tutorial and DASER Talk",
     "venue": "National Academy of Sciences",
@@ -8400,7 +8400,7 @@
     ]
   },
   {
-    "dateStart": "2013-06-09T00:00:00.000Z",
+    "date": "2013-06-09T00:00:00.000Z",
     "dateEnd": "2013-06-14T00:00:00.000Z",
     "title": "Institute for Advanced Studies IMT (Institutions-Markets-Technologies)",
     "venue": "Institute for Advanced Studies IMT (Institutions-Markets-Technologies)",
@@ -8426,7 +8426,7 @@
     ]
   },
   {
-    "dateStart": "2013-06-24T00:00:00.000Z",
+    "date": "2013-06-24T00:00:00.000Z",
     "dateEnd": "2013-06-27T00:00:00.000Z",
     "title": "4th Annual International Science of Team Science Conference",
     "venue": "Northwestern University",
@@ -8444,7 +8444,7 @@
     ]
   },
   {
-    "dateStart": "2013-06-24T00:00:00.000Z",
+    "date": "2013-06-24T00:00:00.000Z",
     "dateEnd": "2013-06-25T00:00:00.000Z",
     "title": "Homo Communicativus: Contemporary Faces of Communication and Information",
     "venue": null,
@@ -8502,7 +8502,7 @@
     ]
   },
   {
-    "dateStart": "2013-06-26T00:00:00.000Z",
+    "date": "2013-06-26T00:00:00.000Z",
     "dateEnd": "2013-06-29T00:00:00.000Z",
     "title": "Polnet Conference",
     "venue": "Indiana University",
@@ -8540,7 +8540,7 @@
     ]
   },
   {
-    "dateStart": "2013-08-24T00:00:00.000Z",
+    "date": "2013-08-24T00:00:00.000Z",
     "dateEnd": "2013-08-24T00:00:00.000Z",
     "title": "Makevention",
     "venue": "Indiana University",
@@ -8674,7 +8674,7 @@
     ]
   },
   {
-    "dateStart": "2013-08-11T00:00:00.000Z",
+    "date": "2013-08-11T00:00:00.000Z",
     "dateEnd": "2013-08-13T00:00:00.000Z",
     "title": "Collaborative Innovation Networks Conference",
     "venue": "Pontificia Universidad Católica de Chile",
@@ -8687,7 +8687,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2013-09-10T00:00:00.000Z",
+    "date": "2013-09-10T00:00:00.000Z",
     "dateEnd": "2013-09-10T00:00:00.000Z",
     "title": "American Chemical Society Meeting",
     "venue": "American Chemical Society Meeting",
@@ -8725,7 +8725,7 @@
     ]
   },
   {
-    "dateStart": "2013-09-16T00:00:00.000Z",
+    "date": "2013-09-16T00:00:00.000Z",
     "dateEnd": "2013-09-20T00:00:00.000Z",
     "title": "WorldProcessor Globe Exhibit",
     "venue": "Cyberinfrastructure Building, Indiana University",
@@ -8799,7 +8799,7 @@
     ]
   },
   {
-    "dateStart": "2013-09-19T00:00:00.000Z",
+    "date": "2013-09-19T00:00:00.000Z",
     "dateEnd": "2013-09-19T00:00:00.000Z",
     "title": "How to Become a Data Explorer, KnowEscape Workshop and a Satellite Event",
     "venue": "Open Knowledge Conference (OKCON)",
@@ -8817,7 +8817,7 @@
     ]
   },
   {
-    "dateStart": "2013-09-24T00:00:00.000Z",
+    "date": "2013-09-24T00:00:00.000Z",
     "dateEnd": "2013-09-24T00:00:00.000Z",
     "title": "IEEE Cluster 2013",
     "venue": "IEEE Cluster 2013",
@@ -8851,7 +8851,7 @@
     ]
   },
   {
-    "dateStart": "2013-09-27T00:00:00.000Z",
+    "date": "2013-09-27T00:00:00.000Z",
     "dateEnd": "2013-09-27T00:00:00.000Z",
     "title": "School of Informatics and Computing (SOIC) Launch Ceremony",
     "venue": "Indiana University",
@@ -8900,7 +8900,7 @@
     ]
   },
   {
-    "dateStart": "2013-10-13T00:00:00.000Z",
+    "date": "2013-10-13T00:00:00.000Z",
     "dateEnd": "2013-10-15T00:00:00.000Z",
     "title": "World Social Science Forum (WSSF 2013)",
     "venue": "World Social Science Forum (WSSF 2013)",
@@ -8950,7 +8950,7 @@
     ]
   },
   {
-    "dateStart": "2013-10-14T00:00:00.000Z",
+    "date": "2013-10-14T00:00:00.000Z",
     "dateEnd": "2013-10-27T00:00:00.000Z",
     "title": "The Immersion Theater",
     "venue": "Hunt Library, North Carolina State University",
@@ -8988,7 +8988,7 @@
     ]
   },
   {
-    "dateStart": "2013-10-22T00:00:00.000Z",
+    "date": "2013-10-22T00:00:00.000Z",
     "dateEnd": "2013-10-25T00:00:00.000Z",
     "title": "Scientometrics - Measurement of Research and Journal Quality",
     "venue": "SciELO 15 Years Conference",
@@ -9010,7 +9010,7 @@
     ]
   },
   {
-    "dateStart": "2013-10-23T00:00:00.000Z",
+    "date": "2013-10-23T00:00:00.000Z",
     "dateEnd": "2013-10-23T00:00:00.000Z",
     "title": "Knowledge Orders and Science, A joined working group meeting of KNOWeSCAPE",
     "venue": "The Hague Royal Library",
@@ -9028,7 +9028,7 @@
     ]
   },
   {
-    "dateStart": "2013-10-25T00:00:00.000Z",
+    "date": "2013-10-25T00:00:00.000Z",
     "dateEnd": "2013-10-25T00:00:00.000Z",
     "title": "Tech It Out Scavenger Hunt",
     "venue": "WESit, Indiana University",
@@ -9054,7 +9054,7 @@
     ]
   },
   {
-    "dateStart": "2013-11-02T00:00:00.000Z",
+    "date": "2013-11-02T00:00:00.000Z",
     "dateEnd": "2013-11-02T00:00:00.000Z",
     "title": "METRICS2013/ASIST Workshop on Informetric and Scientometric Research",
     "venue": "METRICS2013/ASIST Workshop on Informetric and Scientometric Research",
@@ -9067,7 +9067,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2013-11-04T00:00:00.000Z",
+    "date": "2013-11-04T00:00:00.000Z",
     "dateEnd": "2013-11-05T00:00:00.000Z",
     "title": "Science Mapping Standards Workshop",
     "venue": "Indiana University",
@@ -9080,7 +9080,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2013-11-05T00:00:00.000Z",
+    "date": "2013-11-05T00:00:00.000Z",
     "dateEnd": "2013-11-06T00:00:00.000Z",
     "title": "Plug-and-Play Macroscopes Workshop",
     "venue": "Indiana University",
@@ -9093,7 +9093,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2013-11-11T00:00:00.000Z",
+    "date": "2013-11-11T00:00:00.000Z",
     "dateEnd": "2013-11-11T00:00:00.000Z",
     "title": "CNS Open House",
     "venue": "Indiana University",
@@ -9299,7 +9299,7 @@
     ]
   },
   {
-    "dateStart": "2013-11-18T00:00:00.000Z",
+    "date": "2013-11-18T00:00:00.000Z",
     "dateEnd": "2013-12-02T00:00:00.000Z",
     "title": "Digital Display",
     "venue": "Brandeis University",
@@ -9312,7 +9312,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2013-11-18T00:00:00.000Z",
+    "date": "2013-11-18T00:00:00.000Z",
     "dateEnd": "2013-11-19T00:00:00.000Z",
     "title": "GeoVoCamp, Networking and Information Technology Research and Development Program",
     "venue": "National Science Foundation",
@@ -9325,7 +9325,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2013-11-18T00:00:00.000Z",
+    "date": "2013-11-18T00:00:00.000Z",
     "dateEnd": "2013-11-20T00:00:00.000Z",
     "title": "KnowEscape 2013",
     "venue": "Aalto University",
@@ -9347,7 +9347,7 @@
     ]
   },
   {
-    "dateStart": "2013-11-20T00:00:00.000Z",
+    "date": "2013-11-20T00:00:00.000Z",
     "dateEnd": "2013-11-20T00:00:00.000Z",
     "title": "GIS Day",
     "venue": "GIS Day",
@@ -9409,7 +9409,7 @@
     ]
   },
   {
-    "dateStart": "2013-12-02T00:00:00.000Z",
+    "date": "2013-12-02T00:00:00.000Z",
     "dateEnd": "2013-12-13T00:00:00.000Z",
     "title": "Mediating Justice conference",
     "venue": "Delft University of Technology Library",
@@ -9431,7 +9431,7 @@
     ]
   },
   {
-    "dateStart": "2013-12-03T00:00:00.000Z",
+    "date": "2013-12-03T00:00:00.000Z",
     "dateEnd": "2013-12-03T00:00:00.000Z",
     "title": "Science Café",
     "venue": null,
@@ -9493,7 +9493,7 @@
     ]
   },
   {
-    "dateStart": "2013-12-13T00:00:00.000Z",
+    "date": "2013-12-13T00:00:00.000Z",
     "dateEnd": "2013-12-13T00:00:00.000Z",
     "title": "CATCH meeting FACT (Folktales as Classifiable Texts): Patterns in Narrative Texts",
     "venue": "Dutch funding agency NWO",
@@ -9506,7 +9506,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-02-13T00:00:00.000Z",
+    "date": "2014-02-13T00:00:00.000Z",
     "dateEnd": "2014-02-17T00:00:00.000Z",
     "title": "Screening of the film Humanexus",
     "venue": "AAAS Annual Meeting",
@@ -9519,7 +9519,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-02-27T00:00:00.000Z",
+    "date": "2014-02-27T00:00:00.000Z",
     "dateEnd": "2014-02-28T00:00:00.000Z",
     "title": "Thinking With Your Eyes: Visualizing the Arts Humanities & Sciences",
     "venue": "Harvard University",
@@ -9532,7 +9532,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-03-06T00:00:00.000Z",
+    "date": "2014-03-06T00:00:00.000Z",
     "dateEnd": "2014-03-06T00:00:00.000Z",
     "title": "Institut des Systemes Complexes",
     "venue": "Institut des Systemes Complexes",
@@ -9545,7 +9545,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-03-17T00:00:00.000Z",
+    "date": "2014-03-17T00:00:00.000Z",
     "dateEnd": "2014-03-19T00:00:00.000Z",
     "title": "New Technologies for Learning and Engagement",
     "venue": "Science Centre World Summit, Technopolis",
@@ -9579,7 +9579,7 @@
     ]
   },
   {
-    "dateStart": "2014-03-19T00:00:00.000Z",
+    "date": "2014-03-19T00:00:00.000Z",
     "dateEnd": "2014-12-31T00:00:00.000Z",
     "title": "European Commission",
     "venue": "DG Research and Innovation",
@@ -9601,7 +9601,7 @@
     ]
   },
   {
-    "dateStart": "2014-03-27T00:00:00.000Z",
+    "date": "2014-03-27T00:00:00.000Z",
     "dateEnd": "2014-03-27T00:00:00.000Z",
     "title": "New Trends in eHumanities Research meeting",
     "venue": "Royal Netherlands Academy of Arts and Sciences",
@@ -9627,7 +9627,7 @@
     ]
   },
   {
-    "dateStart": "2014-04-01T00:00:00.000Z",
+    "date": "2014-04-01T00:00:00.000Z",
     "dateEnd": "2014-04-01T00:00:00.000Z",
     "title": "Digital Display",
     "venue": "Weizmann Institute of Science",
@@ -9640,7 +9640,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-04-07T00:00:00.000Z",
+    "date": "2014-04-07T00:00:00.000Z",
     "dateEnd": "2014-04-11T00:00:00.000Z",
     "title": "Simulating the Social Processes of Science",
     "venue": "Lorentz Workshop",
@@ -9698,7 +9698,7 @@
     ]
   },
   {
-    "dateStart": "2014-05-14T00:00:00.000Z",
+    "date": "2014-05-14T00:00:00.000Z",
     "dateEnd": "2014-05-15T00:00:00.000Z",
     "title": "Linking International Databases to Build Strategic Academic Partnerships in Science",
     "venue": null,
@@ -9711,7 +9711,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-05-19T00:00:00.000Z",
+    "date": "2014-05-19T00:00:00.000Z",
     "dateEnd": "2014-05-23T00:00:00.000Z",
     "title": "Humanexus film screening",
     "venue": "Festival de Cannes",
@@ -9737,7 +9737,7 @@
     ]
   },
   {
-    "dateStart": "2014-05-21T00:00:00.000Z",
+    "date": "2014-05-21T00:00:00.000Z",
     "dateEnd": "2014-05-21T00:00:00.000Z",
     "title": "Visualization in Computer Science workshop",
     "venue": "College of Social and Media Culture",
@@ -9799,7 +9799,7 @@
     ]
   },
   {
-    "dateStart": "2014-06-01T00:00:00.000Z",
+    "date": "2014-06-01T00:00:00.000Z",
     "dateEnd": "2014-12-31T00:00:00.000Z",
     "title": "Jax and the Big Data Beanstalk",
     "venue": "Science Live Theater, Science Museum of Minnesota",
@@ -9825,7 +9825,7 @@
     ]
   },
   {
-    "dateStart": "2014-06-02T00:00:00.000Z",
+    "date": "2014-06-02T00:00:00.000Z",
     "dateEnd": "2014-06-06T00:00:00.000Z",
     "title": "NetSci 2014: International School and Conference on Network Science",
     "venue": "NetSci 2014: International School and Conference on Network Science",
@@ -9838,7 +9838,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-06-10T00:00:00.000Z",
+    "date": "2014-06-10T00:00:00.000Z",
     "dateEnd": "2014-06-10T00:00:00.000Z",
     "title": "Evolving Scholarly Record and Evolving Stewardship Ecosystem",
     "venue": "OCLC Research and DANS",
@@ -9856,7 +9856,7 @@
     ]
   },
   {
-    "dateStart": "2014-06-11T00:00:00.000Z",
+    "date": "2014-06-11T00:00:00.000Z",
     "dateEnd": "2014-06-12T00:00:00.000Z",
     "title": "Libraries and Research: Supporting Change/Changing Support",
     "venue": "Libraries and Research: Supporting Change/Changing Support",
@@ -9869,7 +9869,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-06-19T00:00:00.000Z",
+    "date": "2014-06-19T00:00:00.000Z",
     "dateEnd": "2014-06-19T00:00:00.000Z",
     "title": "Humanexus showing at NightScience",
     "venue": "Le Centre de Recherches Interdisciplinaires",
@@ -9887,7 +9887,7 @@
     ]
   },
   {
-    "dateStart": "2014-06-21T00:00:00.000Z",
+    "date": "2014-06-21T00:00:00.000Z",
     "dateEnd": "2014-06-21T00:00:00.000Z",
     "title": "European Student Parliaments",
     "venue": "European Student Parliaments",
@@ -9900,7 +9900,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-06-22T00:00:00.000Z",
+    "date": "2014-06-22T00:00:00.000Z",
     "dateEnd": "2014-06-24T00:00:00.000Z",
     "title": "Euroscience Open Forum",
     "venue": "Euroscience Open Forum",
@@ -9926,7 +9926,7 @@
     ]
   },
   {
-    "dateStart": "2014-06-23T00:00:00.000Z",
+    "date": "2014-06-23T00:00:00.000Z",
     "dateEnd": "2014-06-26T00:00:00.000Z",
     "title": "ACM Web Science Conference",
     "venue": "ACM Web Science Conference",
@@ -9992,7 +9992,7 @@
     ]
   },
   {
-    "dateStart": "2014-06-23T00:00:00.000Z",
+    "date": "2014-06-23T00:00:00.000Z",
     "dateEnd": "2014-06-23T00:00:00.000Z",
     "title": "Mapping Social Science and Humanities",
     "venue": "Euroscience Open Forum workshop",
@@ -10005,7 +10005,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-07-07T00:00:00.000Z",
+    "date": "2014-07-07T00:00:00.000Z",
     "dateEnd": "2014-07-18T00:00:00.000Z",
     "title": "Web Science and the Mind",
     "venue": "UQAM Cognitive Science Institute",
@@ -10018,7 +10018,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-07-18T00:00:00.000Z",
+    "date": "2014-07-18T00:00:00.000Z",
     "dateEnd": "2014-12-31T00:00:00.000Z",
     "title": "UNESCO Institute for Statistics",
     "venue": "UNESCO Institute for Statistics",
@@ -10064,7 +10064,7 @@
     ]
   },
   {
-    "dateStart": "2014-08-06T00:00:00.000Z",
+    "date": "2014-08-06T00:00:00.000Z",
     "dateEnd": "2014-08-08T00:00:00.000Z",
     "title": "VIVO Conference",
     "venue": "VIVO Conference",
@@ -10077,7 +10077,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-09-04T00:00:00.000Z",
+    "date": "2014-09-04T00:00:00.000Z",
     "dateEnd": "2014-12-11T00:00:00.000Z",
     "title": "University of Miami",
     "venue": "University of Miami",
@@ -10255,7 +10255,7 @@
     ]
   },
   {
-    "dateStart": "2014-09-08T00:00:00.000Z",
+    "date": "2014-09-08T00:00:00.000Z",
     "dateEnd": "2014-09-08T00:00:00.000Z",
     "title": "Humanexus screening",
     "venue": "IU Cinema",
@@ -10309,7 +10309,7 @@
     ]
   },
   {
-    "dateStart": "2014-09-08T00:00:00.000Z",
+    "date": "2014-09-08T00:00:00.000Z",
     "dateEnd": "2014-09-12T00:00:00.000Z",
     "title": "Joint Conference on Digital Libraries 2014",
     "venue": "Joint Conference on Digital Libraries 2014",
@@ -10327,7 +10327,7 @@
     ]
   },
   {
-    "dateStart": "2014-09-29T00:00:00.000Z",
+    "date": "2014-09-29T00:00:00.000Z",
     "dateEnd": "2014-10-04T00:00:00.000Z",
     "title": "Workshop",
     "venue": "Workshop",
@@ -10340,7 +10340,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-10-01T00:00:00.000Z",
+    "date": "2014-10-01T00:00:00.000Z",
     "dateEnd": "2014-12-31T00:00:00.000Z",
     "title": "Social Science Research Commons",
     "venue": "Woodburn Hall, Indiana University",
@@ -10366,7 +10366,7 @@
     ]
   },
   {
-    "dateStart": "2014-10-05T00:00:00.000Z",
+    "date": "2014-10-05T00:00:00.000Z",
     "dateEnd": "2014-12-08T00:00:00.000Z",
     "title": "Arizona State University",
     "venue": "Arizona State University",
@@ -10388,7 +10388,7 @@
     ]
   },
   {
-    "dateStart": "2014-10-10T00:00:00.000Z",
+    "date": "2014-10-10T00:00:00.000Z",
     "dateEnd": "2014-12-31T00:00:00.000Z",
     "title": "Swain Hall Library",
     "venue": "Indiana University",
@@ -10414,7 +10414,7 @@
     ]
   },
   {
-    "dateStart": "2014-10-17T00:00:00.000Z",
+    "date": "2014-10-17T00:00:00.000Z",
     "dateEnd": "2014-10-24T00:00:00.000Z",
     "title": "Imagine Science Film Festival",
     "venue": "New School",
@@ -10440,7 +10440,7 @@
     ]
   },
   {
-    "dateStart": "2014-10-26T00:00:00.000Z",
+    "date": "2014-10-26T00:00:00.000Z",
     "dateEnd": "2014-10-30T00:00:00.000Z",
     "title": "Internet 2 2014 Technology Exchange",
     "venue": "Internet 2 2014 Technology Exchange",
@@ -10470,7 +10470,7 @@
     ]
   },
   {
-    "dateStart": "2014-10-27T00:00:00.000Z",
+    "date": "2014-10-27T00:00:00.000Z",
     "dateEnd": "2014-11-28T00:00:00.000Z",
     "title": "Rice University",
     "venue": "Ken Kennedy Institute for Information Technology",
@@ -10516,7 +10516,7 @@
     ]
   },
   {
-    "dateStart": "2014-11-03T00:00:00.000Z",
+    "date": "2014-11-03T00:00:00.000Z",
     "dateEnd": "2014-11-04T00:00:00.000Z",
     "title": "Plug-and-Play Macroscopes Workshop",
     "venue": "CNS, Indiana University",
@@ -10529,7 +10529,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-11-04T00:00:00.000Z",
+    "date": "2014-11-04T00:00:00.000Z",
     "dateEnd": "2014-11-04T00:00:00.000Z",
     "title": "CNS Open House",
     "venue": "Indiana University",
@@ -10567,7 +10567,7 @@
     ]
   },
   {
-    "dateStart": "2014-11-05T00:00:00.000Z",
+    "date": "2014-11-05T00:00:00.000Z",
     "dateEnd": "2014-12-05T00:00:00.000Z",
     "title": "CEWit Faculty & PhD Salon",
     "venue": "Indiana University",
@@ -10580,7 +10580,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-11-16T00:00:00.000Z",
+    "date": "2014-11-16T00:00:00.000Z",
     "dateEnd": "2014-11-21T00:00:00.000Z",
     "title": "International Conference for High Performance Computing, Networking, Storage, and Analysis (IVL Booth)",
     "venue": "International Conference for High Performance Computing, Networking, Storage, and Analysis (IVL Booth)",
@@ -10650,7 +10650,7 @@
     ]
   },
   {
-    "dateStart": "2014-11-16T00:00:00.000Z",
+    "date": "2014-11-16T00:00:00.000Z",
     "dateEnd": "2014-11-21T00:00:00.000Z",
     "title": "International Conference for High Performance Computing, Networking, Storage, and Analysis (SoIC Booth)",
     "venue": "International Conference for High Performance Computing, Networking, Storage, and Analysis (SoIC Booth)",
@@ -10696,7 +10696,7 @@
     ]
   },
   {
-    "dateStart": "2014-11-24T00:00:00.000Z",
+    "date": "2014-11-24T00:00:00.000Z",
     "dateEnd": "2014-11-26T00:00:00.000Z",
     "title": "5th International Symposium on Information Management in a Changing World and the 10th Iternational Conference on Knowledge Management",
     "venue": "5th International Symposium on Information Management in a Changing World and the 10th Iternational Conference on Knowledge Management",
@@ -10709,7 +10709,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-12-03T00:00:00.000Z",
+    "date": "2014-12-03T00:00:00.000Z",
     "dateEnd": "2014-12-07T00:00:00.000Z",
     "title": "International Science and Creativity Conference",
     "venue": "International Science and Creativity Conference",
@@ -10811,7 +10811,7 @@
     ]
   },
   {
-    "dateStart": "2014-12-05T00:00:00.000Z",
+    "date": "2014-12-05T00:00:00.000Z",
     "dateEnd": "2014-12-07T00:00:00.000Z",
     "title": "The Logan Symposium for Journalists and Hacktivists",
     "venue": "Barbican",
@@ -10824,7 +10824,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2014-12-12T00:00:00.000Z",
+    "date": "2014-12-12T00:00:00.000Z",
     "dateEnd": "2015-02-28T00:00:00.000Z",
     "title": "Georgia Tech",
     "venue": "Georgia Tech",
@@ -10858,7 +10858,7 @@
     ]
   },
   {
-    "dateStart": "2015-01-12T00:00:00.000Z",
+    "date": "2015-01-12T00:00:00.000Z",
     "dateEnd": "2015-04-15T00:00:00.000Z",
     "title": "Full Exhibit",
     "venue": "Duke University",
@@ -10904,7 +10904,7 @@
     ]
   },
   {
-    "dateStart": "2015-02-12T00:00:00.000Z",
+    "date": "2015-02-12T00:00:00.000Z",
     "dateEnd": "2015-02-16T00:00:00.000Z",
     "title": "Visual Insights from Big Data: Envisioning Science, Engineering, and Innovation",
     "venue": "AAAS Annual Meeting",
@@ -10926,7 +10926,7 @@
     ]
   },
   {
-    "dateStart": "2015-02-23T00:00:00.000Z",
+    "date": "2015-02-23T00:00:00.000Z",
     "dateEnd": "2015-02-27T00:00:00.000Z",
     "title": "Information Visualization and Big Data Workshop",
     "venue": "Fields Institute",
@@ -10968,7 +10968,7 @@
     ]
   },
   {
-    "dateStart": "2015-03-03T00:00:00.000Z",
+    "date": "2015-03-03T00:00:00.000Z",
     "dateEnd": "2015-03-03T00:00:00.000Z",
     "title": "Cyberinfrastructure Day",
     "venue": "University of Missouri",
@@ -10981,7 +10981,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2015-03-28T00:00:00.000Z",
+    "date": "2015-03-28T00:00:00.000Z",
     "dateEnd": "2015-03-28T00:00:00.000Z",
     "title": "New York City Data Fest",
     "venue": "New York Hall of Science",
@@ -10994,7 +10994,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2015-04-03T00:00:00.000Z",
+    "date": "2015-04-03T00:00:00.000Z",
     "dateEnd": "2015-04-03T00:00:00.000Z",
     "title": "Campus Visualization Partnership Lecture Series",
     "venue": "University of Maryland",
@@ -11007,7 +11007,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2015-04-13T00:00:00.000Z",
+    "date": "2015-04-13T00:00:00.000Z",
     "dateEnd": "2015-05-11T00:00:00.000Z",
     "title": "Digital Display",
     "venue": "University of Newcastle",
@@ -11045,7 +11045,7 @@
     ]
   },
   {
-    "dateStart": "2015-04-15T00:00:00.000Z",
+    "date": "2015-04-15T00:00:00.000Z",
     "dateEnd": "2015-04-19T00:00:00.000Z",
     "title": "International Science Festival 2015",
     "venue": "International Science Festival",
@@ -11099,7 +11099,7 @@
     ]
   },
   {
-    "dateStart": "2015-05-01T00:00:00.000Z",
+    "date": "2015-05-01T00:00:00.000Z",
     "dateEnd": "2015-10-30T00:00:00.000Z",
     "title": "Full Exhibit",
     "venue": "Galter Health Sciences Library, Northwestern University",
@@ -11201,7 +11201,7 @@
     ]
   },
   {
-    "dateStart": "2015-05-11T00:00:00.000Z",
+    "date": "2015-05-11T00:00:00.000Z",
     "dateEnd": "2015-05-12T00:00:00.000Z",
     "title": "EA Annual Conference",
     "venue": null,
@@ -11263,7 +11263,7 @@
     ]
   },
   {
-    "dateStart": "2015-05-11T00:00:00.000Z",
+    "date": "2015-05-11T00:00:00.000Z",
     "dateEnd": "2015-12-21T00:00:00.000Z",
     "title": "Maps from the 4th and 5th Iterations",
     "venue": "EA European Academy of Technology and Innovation Assessment",
@@ -11345,7 +11345,7 @@
     ]
   },
   {
-    "dateStart": "2015-05-15T00:00:00.000Z",
+    "date": "2015-05-15T00:00:00.000Z",
     "dateEnd": "2015-05-17T00:00:00.000Z",
     "title": "Computational Social Science Conference",
     "venue": "Kellog School of Management, Northwestern University",
@@ -11367,7 +11367,7 @@
     ]
   },
   {
-    "dateStart": "2015-05-20T00:00:00.000Z",
+    "date": "2015-05-20T00:00:00.000Z",
     "dateEnd": "2016-12-31T00:00:00.000Z",
     "title": "A Selection of Maps",
     "venue": "The Levy Library",
@@ -11397,7 +11397,7 @@
     ]
   },
   {
-    "dateStart": "2015-05-27T00:00:00.000Z",
+    "date": "2015-05-27T00:00:00.000Z",
     "dateEnd": "2015-05-27T00:00:00.000Z",
     "title": "Royal Netherlands Academy of Arts and Sciences",
     "venue": "DANS",
@@ -11423,7 +11423,7 @@
     ]
   },
   {
-    "dateStart": "2015-05-28T00:00:00.000Z",
+    "date": "2015-05-28T00:00:00.000Z",
     "dateEnd": "2015-05-29T00:00:00.000Z",
     "title": "Bruer Symposium",
     "venue": "Bruer Symposium",
@@ -11449,7 +11449,7 @@
     ]
   },
   {
-    "dateStart": "2015-05-29T00:00:00.000Z",
+    "date": "2015-05-29T00:00:00.000Z",
     "dateEnd": "2015-05-29T00:00:00.000Z",
     "title": "Humanexus Screening",
     "venue": "HASTAC 2015 Conference, Kellogg Center, Michigan State University",
@@ -11462,7 +11462,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2015-06-02T00:00:00.000Z",
+    "date": "2015-06-02T00:00:00.000Z",
     "dateEnd": "2015-06-05T00:00:00.000Z",
     "title": "NIH Science of Team Science (SciTS) Conference",
     "venue": "National Institutes of Health",
@@ -11475,7 +11475,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2015-06-22T00:00:00.000Z",
+    "date": "2015-06-22T00:00:00.000Z",
     "dateEnd": "2015-07-22T00:00:00.000Z",
     "title": "CeDiCyT",
     "venue": "Instituto Politicnico Nacional",
@@ -11488,7 +11488,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2015-06-25T00:00:00.000Z",
+    "date": "2015-06-25T00:00:00.000Z",
     "dateEnd": "2015-06-26T00:00:00.000Z",
     "title": "Homo Communicativus",
     "venue": null,
@@ -11606,7 +11606,7 @@
     ]
   },
   {
-    "dateStart": "2015-06-26T00:00:00.000Z",
+    "date": "2015-06-26T00:00:00.000Z",
     "dateEnd": "2015-06-28T00:00:00.000Z",
     "title": "Humanexus Screening",
     "venue": "IndiEarth Animation Film Festival, Goethe-Institut Chennai",
@@ -11619,7 +11619,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2015-06-29T00:00:00.000Z",
+    "date": "2015-06-29T00:00:00.000Z",
     "dateEnd": "2015-07-04T00:00:00.000Z",
     "title": "15th International Conference of the International Society for Scientometrics and Informetrics",
     "venue": null,
@@ -11665,7 +11665,7 @@
     ]
   },
   {
-    "dateStart": "2015-07-14T00:00:00.000Z",
+    "date": "2015-07-14T00:00:00.000Z",
     "dateEnd": "2015-07-18T00:00:00.000Z",
     "title": "Visitor Studies Association Annual Conference",
     "venue": null,
@@ -11687,7 +11687,7 @@
     ]
   },
   {
-    "dateStart": "2015-07-19T00:00:00.000Z",
+    "date": "2015-07-19T00:00:00.000Z",
     "dateEnd": "2015-07-23T00:00:00.000Z",
     "title": "System Dynamics Society conference",
     "venue": null,
@@ -11721,7 +11721,7 @@
     ]
   },
   {
-    "dateStart": "2015-07-26T00:00:00.000Z",
+    "date": "2015-07-26T00:00:00.000Z",
     "dateEnd": "2015-07-30T00:00:00.000Z",
     "title": "XSEDE 15",
     "venue": "XSEDE 15",
@@ -11739,7 +11739,7 @@
     ]
   },
   {
-    "dateStart": "2015-08-21T00:00:00.000Z",
+    "date": "2015-08-21T00:00:00.000Z",
     "dateEnd": "2015-08-21T00:00:00.000Z",
     "title": "ILS Research Showcase",
     "venue": "ILS Department, Indiana University",
@@ -11752,7 +11752,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2015-08-31T00:00:00.000Z",
+    "date": "2015-08-31T00:00:00.000Z",
     "dateEnd": "2015-09-01T00:00:00.000Z",
     "title": "CyberBridges Workshop",
     "venue": "National Science Foundation",
@@ -11782,7 +11782,7 @@
     ]
   },
   {
-    "dateStart": "2015-09-02T00:00:00.000Z",
+    "date": "2015-09-02T00:00:00.000Z",
     "dateEnd": "2015-09-02T00:00:00.000Z",
     "title": "Data Visualizations: Drawing Actionable Insights from Science and Technology Data",
     "venue": "Center for Complex Systems & Enterprises Distinguished Lecture Series, Stevens Institute of Technology",
@@ -11800,7 +11800,7 @@
     ]
   },
   {
-    "dateStart": "2015-09-18T00:00:00.000Z",
+    "date": "2015-09-18T00:00:00.000Z",
     "dateEnd": "2015-09-18T00:00:00.000Z",
     "title": "Visualization for Science",
     "venue": "University of Warsaw Library",
@@ -11894,7 +11894,7 @@
     ]
   },
   {
-    "dateStart": "2015-10-01T00:00:00.000Z",
+    "date": "2015-10-01T00:00:00.000Z",
     "dateEnd": "2015-10-01T00:00:00.000Z",
     "title": "Quantifying Science",
     "venue": "Conference on Complex Systems, Arizona State University",
@@ -11944,7 +11944,7 @@
     ]
   },
   {
-    "dateStart": "2015-10-14T00:00:00.000Z",
+    "date": "2015-10-14T00:00:00.000Z",
     "dateEnd": "2015-10-16T00:00:00.000Z",
     "title": "2nd Scientific Conference",
     "venue": "European Food Safety Authority",
@@ -11986,7 +11986,7 @@
     ]
   },
   {
-    "dateStart": "2015-10-17T00:00:00.000Z",
+    "date": "2015-10-17T00:00:00.000Z",
     "dateEnd": "2015-10-20T00:00:00.000Z",
     "title": "Association of Science and Technology Centers Annual Conference",
     "venue": "Association of Science and Technology Centers Annual Conference",
@@ -12012,7 +12012,7 @@
     ]
   },
   {
-    "dateStart": "2015-10-29T00:00:00.000Z",
+    "date": "2015-10-29T00:00:00.000Z",
     "dateEnd": "2015-10-30T00:00:00.000Z",
     "title": "CDAC Meeting",
     "venue": "NOAA",
@@ -12042,7 +12042,7 @@
     ]
   },
   {
-    "dateStart": "2015-11-02T00:00:00.000Z",
+    "date": "2015-11-02T00:00:00.000Z",
     "dateEnd": "2015-11-04T00:00:00.000Z",
     "title": "Visual Analytics in Healthcare Workshop",
     "venue": "CNS, Indiana University",
@@ -12124,7 +12124,7 @@
     ]
   },
   {
-    "dateStart": "2015-11-12T00:00:00.000Z",
+    "date": "2015-11-12T00:00:00.000Z",
     "dateEnd": "2015-11-14T00:00:00.000Z",
     "title": "Art and Science, Engineering, and Medicine Frontier Collaborations: Ideation, Translation & Realization",
     "venue": "NAKFI 2015 Conference",
@@ -12146,7 +12146,7 @@
     ]
   },
   {
-    "dateStart": "2015-11-12T00:00:00.000Z",
+    "date": "2015-11-12T00:00:00.000Z",
     "dateEnd": "2015-11-13T00:00:00.000Z",
     "title": "BD2K Consortium All-Hands Meeting",
     "venue": "NIH",
@@ -12176,7 +12176,7 @@
     ]
   },
   {
-    "dateStart": "2015-11-15T00:00:00.000Z",
+    "date": "2015-11-15T00:00:00.000Z",
     "dateEnd": "2015-11-20T00:00:00.000Z",
     "title": "SC15",
     "venue": "Supercomputing Conference",
@@ -12202,7 +12202,7 @@
     ]
   },
   {
-    "dateStart": "2015-11-17T00:00:00.000Z",
+    "date": "2015-11-17T00:00:00.000Z",
     "dateEnd": "2015-11-21T00:00:00.000Z",
     "title": "Universidad de los Andes",
     "venue": "Universidad de los Andes",
@@ -12220,7 +12220,7 @@
     ]
   },
   {
-    "dateStart": "2015-11-30T00:00:00.000Z",
+    "date": "2015-11-30T00:00:00.000Z",
     "dateEnd": "2015-11-30T00:00:00.000Z",
     "title": "CNS Open House",
     "venue": "CNS, Indiana University",
@@ -12314,7 +12314,7 @@
     ]
   },
   {
-    "dateStart": "2015-12-09T00:00:00.000Z",
+    "date": "2015-12-09T00:00:00.000Z",
     "dateEnd": "2015-12-10T00:00:00.000Z",
     "title": "NSE Grantees Conference and Kickoff Meeting",
     "venue": "National Science Foundation",
@@ -12332,7 +12332,7 @@
     ]
   },
   {
-    "dateStart": "2015-12-11T00:00:00.000Z",
+    "date": "2015-12-11T00:00:00.000Z",
     "dateEnd": "2015-12-31T00:00:00.000Z",
     "title": "European Union Publications Office",
     "venue": "European Union Publications Office",
@@ -12362,7 +12362,7 @@
     ]
   },
   {
-    "dateStart": "2015-12-18T00:00:00.000Z",
+    "date": "2015-12-18T00:00:00.000Z",
     "dateEnd": "2015-12-31T00:00:00.000Z",
     "title": "Graduate School of User-Centered Social Media",
     "venue": "University of Duisberg-Essen",
@@ -12408,7 +12408,7 @@
     ]
   },
   {
-    "dateStart": "2016-01-25T00:00:00.000Z",
+    "date": "2016-01-25T00:00:00.000Z",
     "dateEnd": "2016-06-17T00:00:00.000Z",
     "title": "Full Exhibit",
     "venue": "David J. Sencer CDC Museum",
@@ -12478,7 +12478,7 @@
     ]
   },
   {
-    "dateStart": "2016-02-04T00:00:00.000Z",
+    "date": "2016-02-04T00:00:00.000Z",
     "dateEnd": "2016-02-04T00:00:00.000Z",
     "title": "Data Visualization Speaker Series",
     "venue": "Emory College of Arts and Sciences Institute for Quantitative Theory and Methods",
@@ -12491,7 +12491,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2016-02-10T00:00:00.000Z",
+    "date": "2016-02-10T00:00:00.000Z",
     "dateEnd": "2016-02-25T00:00:00.000Z",
     "title": "National Heart, Lung, and Blood Institute",
     "venue": "National Heart, Lung, and Blood Institute",
@@ -12545,7 +12545,7 @@
     ]
   },
   {
-    "dateStart": "2016-03-06T00:00:00.000Z",
+    "date": "2016-03-06T00:00:00.000Z",
     "dateEnd": "2016-03-11T00:00:00.000Z",
     "title": "80th Annual Meeting of the DPG",
     "venue": "Universität Regensburg",
@@ -12591,7 +12591,7 @@
     ]
   },
   {
-    "dateStart": "2016-03-15T00:00:00.000Z",
+    "date": "2016-03-15T00:00:00.000Z",
     "dateEnd": "2016-03-15T00:00:00.000Z",
     "title": "Library Congress",
     "venue": "Universität Leipzig",
@@ -12613,7 +12613,7 @@
     ]
   },
   {
-    "dateStart": "2016-03-21T00:00:00.000Z",
+    "date": "2016-03-21T00:00:00.000Z",
     "dateEnd": "2016-03-21T00:00:00.000Z",
     "title": "Quantifying, Visualizing, and Forecasting Global Human Society Through “Big Data”: What it Looks Like To Compute on the Entire Planet",
     "venue": "CNS Center, Indiana University",
@@ -12663,7 +12663,7 @@
     ]
   },
   {
-    "dateStart": "2016-03-22T00:00:00.000Z",
+    "date": "2016-03-22T00:00:00.000Z",
     "dateEnd": "2016-03-23T00:00:00.000Z",
     "title": "Science of Science Workshop",
     "venue": "Library of Congress",
@@ -12681,7 +12681,7 @@
     ]
   },
   {
-    "dateStart": "2016-04-01T00:00:00.000Z",
+    "date": "2016-04-01T00:00:00.000Z",
     "dateEnd": "2016-04-01T00:00:00.000Z",
     "title": "Humanexus showing, Pathway Project - Earlham College Campus Visit",
     "venue": "Indiana University",
@@ -12694,7 +12694,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2016-04-08T00:00:00.000Z",
+    "date": "2016-04-08T00:00:00.000Z",
     "dateEnd": "2016-04-09T00:00:00.000Z",
     "title": "Law and Ethics Big Data Symposium",
     "venue": "Kelley School of Business, Indiana University ",
@@ -12707,7 +12707,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2016-04-11T00:00:00.000Z",
+    "date": "2016-04-11T00:00:00.000Z",
     "dateEnd": "2016-04-15T00:00:00.000Z",
     "title": "Culture Analytics and User Experience Design",
     "venue": "Institute for Pure & Applied Mathematics, UCLA",
@@ -12757,7 +12757,7 @@
     ]
   },
   {
-    "dateStart": "2016-04-18T00:00:00.000Z",
+    "date": "2016-04-18T00:00:00.000Z",
     "dateEnd": "2016-04-18T00:00:00.000Z",
     "title": "Recontextualizing Form & Surface, Carrie Longley - CNS Talks",
     "venue": "CNS Center, Indiana University",
@@ -12775,7 +12775,7 @@
     ]
   },
   {
-    "dateStart": "2016-04-21T00:00:00.000Z",
+    "date": "2016-04-21T00:00:00.000Z",
     "dateEnd": "2016-04-21T00:00:00.000Z",
     "title": "Network Science Institute",
     "venue": "Indiana University",
@@ -12804,7 +12804,7 @@
     ]
   },
   {
-    "dateStart": "2016-04-25T00:00:00.000Z",
+    "date": "2016-04-25T00:00:00.000Z",
     "dateEnd": "2016-04-25T00:00:00.000Z",
     "title": "Point, Line & Data: New methods for understanding complex data, from storytelling to machine learning, Mauro Martino - CNS Talks",
     "venue": "CNS Center, Indiana University",
@@ -12822,7 +12822,7 @@
     ]
   },
   {
-    "dateStart": "2016-05-20T00:00:00.000Z",
+    "date": "2016-05-20T00:00:00.000Z",
     "dateEnd": "2016-12-31T00:00:00.000Z",
     "title": "A Selection of Maps",
     "venue": "The Levy Library",
@@ -12852,7 +12852,7 @@
     ]
   },
   {
-    "dateStart": "2016-06-12T00:00:00.000Z",
+    "date": "2016-06-12T00:00:00.000Z",
     "dateEnd": "2016-06-17T00:00:00.000Z",
     "title": "Mini University",
     "venue": "Indiana University",
@@ -12882,7 +12882,7 @@
     ]
   },
   {
-    "dateStart": "2016-06-16T00:00:00.000Z",
+    "date": "2016-06-16T00:00:00.000Z",
     "dateEnd": "2016-06-16T00:00:00.000Z",
     "title": "ISC-PIF Open House",
     "venue": "Institute of Complex Systems",
@@ -12895,7 +12895,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2016-06-20T00:00:00.000Z",
+    "date": "2016-06-20T00:00:00.000Z",
     "dateEnd": "2016-06-23T00:00:00.000Z",
     "title": "Wonder and the Natural World Conference",
     "venue": "Consortium of the Study of Religion, Ethics, and Society",
@@ -12925,7 +12925,7 @@
     ]
   },
   {
-    "dateStart": "2016-06-24T00:00:00.000Z",
+    "date": "2016-06-24T00:00:00.000Z",
     "dateEnd": "2016-06-24T00:00:00.000Z",
     "title": "Lange Nacht der Wissenschaften",
     "venue": "Physikalischen Institut, Universität Leipzig",
@@ -12951,7 +12951,7 @@
     ]
   },
   {
-    "dateStart": "2016-06-25T00:00:00.000Z",
+    "date": "2016-06-25T00:00:00.000Z",
     "dateEnd": "2016-06-29T00:00:00.000Z",
     "title": "Galaxy Community Conference",
     "venue": "Indiana University",
@@ -12977,7 +12977,7 @@
     ]
   },
   {
-    "dateStart": "2016-06-26T00:00:00.000Z",
+    "date": "2016-06-26T00:00:00.000Z",
     "dateEnd": "2016-06-26T00:00:00.000Z",
     "title": "Alumni Reception",
     "venue": "American Library Association",
@@ -12990,7 +12990,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2016-06-30T00:00:00.000Z",
+    "date": "2016-06-30T00:00:00.000Z",
     "dateEnd": "2016-12-31T00:00:00.000Z",
     "title": "NIH Library",
     "venue": "NIH Library",
@@ -13008,7 +13008,7 @@
     ]
   },
   {
-    "dateStart": "2016-07-10T00:00:00.000Z",
+    "date": "2016-07-10T00:00:00.000Z",
     "dateEnd": "2016-07-13T00:00:00.000Z",
     "title": "ACM Hypertext Conference",
     "venue": "Dalhousie University",
@@ -13026,7 +13026,7 @@
     ]
   },
   {
-    "dateStart": "2016-07-16T00:00:00.000Z",
+    "date": "2016-07-16T00:00:00.000Z",
     "dateEnd": "2016-07-19T00:00:00.000Z",
     "title": "American Association of Law Libraries",
     "venue": "American Association of Law Libraries",
@@ -13039,7 +13039,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2016-08-03T00:00:00.000Z",
+    "date": "2016-08-03T00:00:00.000Z",
     "dateEnd": "2016-08-04T00:00:00.000Z",
     "title": "2016 CRA-W/CDC CADENS Broadening Participation in Visualization (BPViz’16) Workshop",
     "venue": "Purdue University",
@@ -13065,7 +13065,7 @@
     ]
   },
   {
-    "dateStart": "2016-08-15T00:00:00.000Z",
+    "date": "2016-08-15T00:00:00.000Z",
     "dateEnd": "2016-09-07T00:00:00.000Z",
     "title": "Macroscope Popup Exhibit",
     "venue": "Monroe County Public Library",
@@ -13099,7 +13099,7 @@
     ]
   },
   {
-    "dateStart": "2016-08-25T00:00:00.000Z",
+    "date": "2016-08-25T00:00:00.000Z",
     "dateEnd": "2016-08-25T00:00:00.000Z",
     "title": "Maps & Macroscopes",
     "venue": "Monroe County Public Library",
@@ -13225,7 +13225,7 @@
     ]
   },
   {
-    "dateStart": "2016-09-08T00:00:00.000Z",
+    "date": "2016-09-08T00:00:00.000Z",
     "dateEnd": "2016-09-09T00:00:00.000Z",
     "title": "Research Horizons",
     "venue": "School of Informatics and Computing, Indiana University",
@@ -13275,7 +13275,7 @@
     ]
   },
   {
-    "dateStart": "2016-09-13T00:00:00.000Z",
+    "date": "2016-09-13T00:00:00.000Z",
     "dateEnd": "2016-09-13T00:00:00.000Z",
     "title": "Global TechMining Conference",
     "venue": "Global TechMining Conference",
@@ -13297,7 +13297,7 @@
     ]
   },
   {
-    "dateStart": "2016-09-19T00:00:00.000Z",
+    "date": "2016-09-19T00:00:00.000Z",
     "dateEnd": "2016-09-21T00:00:00.000Z",
     "title": "Blue Sky Conference",
     "venue": "OECD",
@@ -13315,7 +13315,7 @@
     ]
   },
   {
-    "dateStart": "2016-09-24T00:00:00.000Z",
+    "date": "2016-09-24T00:00:00.000Z",
     "dateEnd": "2016-09-27T00:00:00.000Z",
     "title": "Data Visualization Literacy",
     "venue": "ASTC Annual Conference, Museum of Science and Industry",
@@ -13377,7 +13377,7 @@
     ]
   },
   {
-    "dateStart": "2016-10-14T00:00:00.000Z",
+    "date": "2016-10-14T00:00:00.000Z",
     "dateEnd": "2016-10-18T00:00:00.000Z",
     "title": "Association for Information Science & Technology",
     "venue": "Association for Information Science & Technology",
@@ -13390,7 +13390,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2016-10-21T00:00:00.000Z",
+    "date": "2016-10-21T00:00:00.000Z",
     "dateEnd": "2016-10-21T00:00:00.000Z",
     "title": "[RE]Imagining Science: noon talks",
     "venue": "Grunwald Gallery, Indiana University",
@@ -13420,7 +13420,7 @@
     ]
   },
   {
-    "dateStart": "2016-11-01T00:00:00.000Z",
+    "date": "2016-11-01T00:00:00.000Z",
     "dateEnd": "2016-11-04T00:00:00.000Z",
     "title": "Museum Computer Network",
     "venue": "Museum Computer Network",
@@ -13442,7 +13442,7 @@
     ]
   },
   {
-    "dateStart": "2016-11-03T00:00:00.000Z",
+    "date": "2016-11-03T00:00:00.000Z",
     "dateEnd": "2016-11-03T00:00:00.000Z",
     "title": "First Thursdays Festival",
     "venue": "Arts & Humanities Council",
@@ -13476,7 +13476,7 @@
     ]
   },
   {
-    "dateStart": "2016-11-05T00:00:00.000Z",
+    "date": "2016-11-05T00:00:00.000Z",
     "dateEnd": "2016-11-05T00:00:00.000Z",
     "title": "IEEE-CIS EnCON Engineering Conference",
     "venue": "IEEE-CIS EnCON Engineering Conference",
@@ -13502,7 +13502,7 @@
     ]
   },
   {
-    "dateStart": "2016-11-09T00:00:00.000Z",
+    "date": "2016-11-09T00:00:00.000Z",
     "dateEnd": "2016-11-09T00:00:00.000Z",
     "title": "Indiana Library Federation",
     "venue": "Indiana Library Federation",
@@ -13515,7 +13515,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2016-11-13T00:00:00.000Z",
+    "date": "2016-11-13T00:00:00.000Z",
     "dateEnd": "2016-11-18T00:00:00.000Z",
     "title": "SuperComputing Conference 2016",
     "venue": "Salt Palace Convention Center",
@@ -13553,7 +13553,7 @@
     ]
   },
   {
-    "dateStart": "2016-11-14T00:00:00.000Z",
+    "date": "2016-11-14T00:00:00.000Z",
     "dateEnd": "2016-11-15T00:00:00.000Z",
     "title": "Workshop: Web of Science as a Research Dataset",
     "venue": "Cyberinfrastructure for Network Science Center",
@@ -13599,7 +13599,7 @@
     ]
   },
   {
-    "dateStart": "2016-12-12T00:00:00.000Z",
+    "date": "2016-12-12T00:00:00.000Z",
     "dateEnd": "2016-05-02T00:00:00.000Z",
     "title": "CeWIT House",
     "venue": "CeWIT House",
@@ -13612,7 +13612,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2016-12-19T00:00:00.000Z",
+    "date": "2016-12-19T00:00:00.000Z",
     "dateEnd": "2016-05-02T00:00:00.000Z",
     "title": "Intelligent Systems Engineering",
     "venue": "Smith Research Center",
@@ -13630,7 +13630,7 @@
     ]
   },
   {
-    "dateStart": "2017-01-23T00:00:00.000Z",
+    "date": "2017-01-23T00:00:00.000Z",
     "dateEnd": "2017-04-23T00:00:00.000Z",
     "title": "Full Exhibit",
     "venue": "Vanderbilt University",
@@ -13724,7 +13724,7 @@
     ]
   },
   {
-    "dateStart": "2017-01-25T00:00:00.000Z",
+    "date": "2017-01-25T00:00:00.000Z",
     "dateEnd": "2017-01-25T00:00:00.000Z",
     "title": "Macroscope and IVMOOC Demo, Bridge to Informatics Symposium",
     "venue": "School of Informatics and Computing",
@@ -13742,7 +13742,7 @@
     ]
   },
   {
-    "dateStart": "2017-02-06T00:00:00.000Z",
+    "date": "2017-02-06T00:00:00.000Z",
     "dateEnd": "2017-03-06T00:00:00.000Z",
     "title": "University of Iowa",
     "venue": "mm",
@@ -13840,7 +13840,7 @@
     ]
   },
   {
-    "dateStart": "2017-02-22T00:00:00.000Z",
+    "date": "2017-02-22T00:00:00.000Z",
     "dateEnd": "2017-02-22T00:00:00.000Z",
     "title": "Indiana University Lifelong Learning",
     "venue": "Indiana University Lifelong Learning",
@@ -13853,7 +13853,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2017-02-24T00:00:00.000Z",
+    "date": "2017-02-24T00:00:00.000Z",
     "dateEnd": "2017-02-24T00:00:00.000Z",
     "title": "Catalyst Conference",
     "venue": "School of Informatics and Computing and Computing Student Association",
@@ -13866,7 +13866,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2017-03-23T00:00:00.000Z",
+    "date": "2017-03-23T00:00:00.000Z",
     "dateEnd": "2017-03-23T00:00:00.000Z",
     "title": "Conference on Big Data and Network Science",
     "venue": "IUNI",
@@ -13892,7 +13892,7 @@
     ]
   },
   {
-    "dateStart": "2017-04-06T00:00:00.000Z",
+    "date": "2017-04-06T00:00:00.000Z",
     "dateEnd": "2017-04-06T00:00:00.000Z",
     "title": "Innovation Conference",
     "venue": "Johnson Center for Innovation and Translational Research",
@@ -13918,7 +13918,7 @@
     ]
   },
   {
-    "dateStart": "2017-06-12T00:00:00.000Z",
+    "date": "2017-06-12T00:00:00.000Z",
     "dateEnd": "2017-06-15T00:00:00.000Z",
     "title": "Maps & Macroscopes",
     "venue": "Mini University",
@@ -13931,7 +13931,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2017-06-19T00:00:00.000Z",
+    "date": "2017-06-19T00:00:00.000Z",
     "dateEnd": "2017-06-23T00:00:00.000Z",
     "title": "Macroscopes for Making Sense of Science and Technology",
     "venue": "International School and Conference on Network Science",
@@ -13944,7 +13944,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2017-07-09T00:00:00.000Z",
+    "date": "2017-07-09T00:00:00.000Z",
     "dateEnd": "2017-07-13T00:00:00.000Z",
     "title": "Practice & Experience in Advanced Research Computing",
     "venue": "PEARC 2017 conference Series",
@@ -13957,7 +13957,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2017-07-12T00:00:00.000Z",
+    "date": "2017-07-12T00:00:00.000Z",
     "dateEnd": "2017-07-15T00:00:00.000Z",
     "title": "Scoping out the Macroscopes: Defining and measuring success for a digital interactive",
     "venue": "AMM Annual Conference",
@@ -13970,7 +13970,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2017-07-17T00:00:00.000Z",
+    "date": "2017-07-17T00:00:00.000Z",
     "dateEnd": "2017-07-18T00:00:00.000Z",
     "title": "European Summer School in Logic, Language and Information",
     "venue": "University of Toulouse",
@@ -13996,7 +13996,7 @@
     ]
   },
   {
-    "dateStart": "2017-08-05T00:00:00.000Z",
+    "date": "2017-08-05T00:00:00.000Z",
     "dateEnd": "2017-08-05T00:00:00.000Z",
     "title": "Robot Roll Call",
     "venue": "WonderLab",
@@ -14009,7 +14009,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2017-08-06T00:00:00.000Z",
+    "date": "2017-08-06T00:00:00.000Z",
     "dateEnd": "2017-08-11T00:00:00.000Z",
     "title": "Visualization in Science and Education Gordon Research Conference",
     "venue": "Bates College",
@@ -14035,7 +14035,7 @@
     ]
   },
   {
-    "dateStart": "2017-08-16T00:00:00.000Z",
+    "date": "2017-08-16T00:00:00.000Z",
     "dateEnd": "2017-09-01T00:00:00.000Z",
     "title": "European Forum Alpbach",
     "venue": "European Forum Alpbach",
@@ -14048,7 +14048,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2017-08-21T00:00:00.000Z",
+    "date": "2017-08-21T00:00:00.000Z",
     "dateEnd": "2017-11-22T00:00:00.000Z",
     "title": "Full Exhibit",
     "venue": "Virginia Tech",
@@ -14122,7 +14122,7 @@
     ]
   },
   {
-    "dateStart": "2017-09-14T00:00:00.000Z",
+    "date": "2017-09-14T00:00:00.000Z",
     "dateEnd": "2017-09-14T00:00:00.000Z",
     "title": "Indy Big Data Conference",
     "venue": "Indy Big Data",
@@ -14204,7 +14204,7 @@
     ]
   },
   {
-    "dateStart": "2017-10-21T00:00:00.000Z",
+    "date": "2017-10-21T00:00:00.000Z",
     "dateEnd": "2017-10-21T00:00:00.000Z",
     "title": "Science Fest",
     "venue": "Indiana University",
@@ -14242,7 +14242,7 @@
     ]
   },
   {
-    "dateStart": "2017-11-06T00:00:00.000Z",
+    "date": "2017-11-06T00:00:00.000Z",
     "dateEnd": "2017-11-06T00:00:00.000Z",
     "title": "Office of Naval Research",
     "venue": "Office of Naval Research",
@@ -14268,7 +14268,7 @@
     ]
   },
   {
-    "dateStart": "2017-11-12T00:00:00.000Z",
+    "date": "2017-11-12T00:00:00.000Z",
     "dateEnd": "2017-11-17T00:00:00.000Z",
     "title": "SuperComputing 2017",
     "venue": "Colorado Convention Center",
@@ -14281,7 +14281,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2017-11-15T00:00:00.000Z",
+    "date": "2017-11-15T00:00:00.000Z",
     "dateEnd": "2017-11-17T00:00:00.000Z",
     "title": "Visualizing STEAM Data in Support of Smart Decision Making, Science Centre World Summit 2017",
     "venue": "The National Museum of Emerging Science and Innovation (Miraikan)",
@@ -14299,7 +14299,7 @@
     ]
   },
   {
-    "dateStart": "2018-03-06T00:00:00.000Z",
+    "date": "2018-03-06T00:00:00.000Z",
     "dateEnd": "2018-03-06T00:00:00.000Z",
     "title": "Data Day",
     "venue": "Indiana State House, Management Performance Hub",
@@ -14321,7 +14321,7 @@
     ]
   },
   {
-    "dateStart": "2018-03-30T00:00:00.000Z",
+    "date": "2018-03-30T00:00:00.000Z",
     "dateEnd": "2018-12-31T00:00:00.000Z",
     "title": "Luddy School of Informatics, Computing, and Engineering",
     "venue": "Luddy School of Informatics, Computing, and Engineering",
@@ -14359,7 +14359,7 @@
     ]
   },
   {
-    "dateStart": "2018-06-10T00:00:00.000Z",
+    "date": "2018-06-10T00:00:00.000Z",
     "dateEnd": "2018-06-15T00:00:00.000Z",
     "title": "Mini University",
     "venue": "Indiana University",
@@ -14377,7 +14377,7 @@
     ]
   },
   {
-    "dateStart": "2018-06-12T00:00:00.000Z",
+    "date": "2018-06-12T00:00:00.000Z",
     "dateEnd": "2018-06-14T00:00:00.000Z",
     "title": "IGL2018 Global Conference",
     "venue": "Nesta",
@@ -14390,7 +14390,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2018-07-13T00:00:00.000Z",
+    "date": "2018-07-13T00:00:00.000Z",
     "dateEnd": "2018-07-30T00:00:00.000Z",
     "title": "Culture & Technology - The European Summer University in Digital Humanities",
     "venue": "University of Leipzig",
@@ -14440,7 +14440,7 @@
     ]
   },
   {
-    "dateStart": "2018-07-18T00:00:00.000Z",
+    "date": "2018-07-18T00:00:00.000Z",
     "dateEnd": "2018-07-18T00:00:00.000Z",
     "title": "Pathfinders Summer Institute",
     "venue": "Indiana University",
@@ -14470,7 +14470,7 @@
     ]
   },
   {
-    "dateStart": "2018-08-08T00:00:00.000Z",
+    "date": "2018-08-08T00:00:00.000Z",
     "dateEnd": "2018-08-11T00:00:00.000Z",
     "title": "Visible Evidence XXV",
     "venue": "Indiana University",
@@ -14483,7 +14483,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2018-08-25T00:00:00.000Z",
+    "date": "2018-08-25T00:00:00.000Z",
     "dateEnd": "2018-08-25T00:00:00.000Z",
     "title": "Makevention",
     "venue": "Makevention",
@@ -14496,7 +14496,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2018-09-26T00:00:00.000Z",
+    "date": "2018-09-26T00:00:00.000Z",
     "dateEnd": "2018-09-26T00:00:00.000Z",
     "title": "Indy Big Data",
     "venue": "Indy Big Data",
@@ -14509,7 +14509,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2018-09-27T00:00:00.000Z",
+    "date": "2018-09-27T00:00:00.000Z",
     "dateEnd": "2018-12-31T00:00:00.000Z",
     "title": "Scholars Commons",
     "venue": "Wells Library, Indiana University",
@@ -14535,7 +14535,7 @@
     ]
   },
   {
-    "dateStart": "2018-11-13T00:00:00.000Z",
+    "date": "2018-11-13T00:00:00.000Z",
     "dateEnd": "2018-11-16T00:00:00.000Z",
     "title": "The In-Between: How to facilitate interdepartmental collaboration from the institutional middle",
     "venue": "Museum Computer Network",
@@ -14553,7 +14553,7 @@
     ]
   },
   {
-    "dateStart": "2019-02-05T00:00:00.000Z",
+    "date": "2019-02-05T00:00:00.000Z",
     "dateEnd": "2019-02-05T00:00:00.000Z",
     "title": "IBS Workshop Media Computing",
     "venue": "IBS Convention Center",
@@ -14575,7 +14575,7 @@
     ]
   },
   {
-    "dateStart": "2019-03-20T00:00:00.000Z",
+    "date": "2019-03-20T00:00:00.000Z",
     "dateEnd": "2019-03-20T00:00:00.000Z",
     "title": "Data Day",
     "venue": "Indiana State House, Management Performance Hub",
@@ -14605,7 +14605,7 @@
     ]
   },
   {
-    "dateStart": "2019-06-03T00:00:00.000Z",
+    "date": "2019-06-03T00:00:00.000Z",
     "dateEnd": "2019-06-06T00:00:00.000Z",
     "title": "European Meeting on Applied Evolutionary Economics (EMAEE)",
     "venue": "Science Policy Research Unit at the University of Sussex",
@@ -14618,7 +14618,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2019-06-14T00:00:00.000Z",
+    "date": "2019-06-14T00:00:00.000Z",
     "dateEnd": "2019-06-19T00:00:00.000Z",
     "title": "Interplanetary Festival",
     "venue": "Santa Fe Institute",
@@ -14631,7 +14631,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2019-08-24T00:00:00.000Z",
+    "date": "2019-08-24T00:00:00.000Z",
     "dateEnd": "2019-08-24T00:00:00.000Z",
     "title": "Makevention",
     "venue": "Indiana University",
@@ -14644,7 +14644,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2019-09-29T04:00:00.000Z",
+    "date": "2019-09-29T04:00:00.000Z",
     "dateEnd": "2019-09-29T04:00:00.000Z",
     "title": "Public or Perish, ASCT",
     "venue": "2018 ASTC Annual Conference",
@@ -14686,7 +14686,7 @@
     ]
   },
   {
-    "dateStart": "2019-10-02T00:00:00.000Z",
+    "date": "2019-10-02T00:00:00.000Z",
     "dateEnd": "2019-10-04T00:00:00.000Z",
     "title": "RRT at the Interdisciplinary Interface Workshop",
     "venue": "Indiana University",
@@ -14699,7 +14699,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2019-10-03T00:00:00.000Z",
+    "date": "2019-10-03T00:00:00.000Z",
     "dateEnd": "2019-10-03T00:00:00.000Z",
     "title": "First Thursdays Festival",
     "venue": "Indiana University",
@@ -14721,7 +14721,7 @@
     ]
   },
   {
-    "dateStart": "2019-10-21T00:00:00.000Z",
+    "date": "2019-10-21T00:00:00.000Z",
     "dateEnd": "2019-10-25T00:00:00.000Z",
     "title": "IEEE Vis 2019",
     "venue": "IEEE",
@@ -14783,7 +14783,7 @@
     ]
   },
   {
-    "dateStart": "2019-10-26T00:00:00.000Z",
+    "date": "2019-10-26T00:00:00.000Z",
     "dateEnd": "2019-11-26T00:00:00.000Z",
     "title": "Science Fest",
     "venue": "Indiana University",
@@ -14796,7 +14796,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2019-11-04T00:00:00.000Z",
+    "date": "2019-11-04T00:00:00.000Z",
     "dateEnd": "2019-11-14T00:00:00.000Z",
     "title": "Geography Awareness Week",
     "venue": "Kennesaw State University",
@@ -14854,7 +14854,7 @@
     ]
   },
   {
-    "dateStart": "2019-11-05T00:00:00.000Z",
+    "date": "2019-11-05T00:00:00.000Z",
     "dateEnd": "2019-11-08T00:00:00.000Z",
     "title": "15th International Conference on Webometrics, Informetrics and Scientometrics (WIS) & 20th COLLNET Meeting",
     "venue": "WISE Lab",
@@ -14880,7 +14880,7 @@
     ]
   },
   {
-    "dateStart": "2020-01-20T00:00:00.000Z",
+    "date": "2020-01-20T00:00:00.000Z",
     "dateEnd": "2020-01-23T00:00:00.000Z",
     "title": "NetSci-X 2020: International School and Conference on Network Science",
     "venue": "Waseda University",
@@ -14918,7 +14918,7 @@
     ]
   },
   {
-    "dateStart": "2020-01-29T00:00:00.000Z",
+    "date": "2020-01-29T00:00:00.000Z",
     "dateEnd": "2020-01-29T00:00:00.000Z",
     "title": "Tour for MetroStar Systems",
     "venue": "Indiana University",
@@ -14931,7 +14931,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2020-03-02T00:00:00.000Z",
+    "date": "2020-03-02T00:00:00.000Z",
     "dateEnd": "2020-03-02T00:00:00.000Z",
     "title": "Women in Data Science 2020 (Regional Event)",
     "venue": "UNAM",
@@ -14977,7 +14977,7 @@
     ]
   },
   {
-    "dateStart": "2020-09-02T00:00:00.000Z",
+    "date": "2020-09-02T00:00:00.000Z",
     "dateEnd": "2020-09-02T00:00:00.000Z",
     "title": "Technology Petting Zoo",
     "venue": "Indiana University UITS",
@@ -14990,7 +14990,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2020-10-01T00:00:00.000Z",
+    "date": "2020-10-01T00:00:00.000Z",
     "dateEnd": "2021-01-30T00:00:00.000Z",
     "title": "Dimension Mill",
     "venue": "The Mill",
@@ -15084,7 +15084,7 @@
     ]
   },
   {
-    "dateStart": "2021-03-16T00:00:00.000Z",
+    "date": "2021-03-16T00:00:00.000Z",
     "dateEnd": "2021-03-16T00:00:00.000Z",
     "title": "Digital Studies of Digital Science Conference",
     "venue": "Université Catholique de Louvain",
@@ -15097,7 +15097,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2021-04-01T00:00:00.000Z",
+    "date": "2021-04-01T00:00:00.000Z",
     "dateEnd": "2021-04-01T00:00:00.000Z",
     "title": "First Thursdays Festival",
     "venue": "Arts & Humanities Council",
@@ -15110,7 +15110,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2021-04-11T00:00:00.000Z",
+    "date": "2021-04-11T00:00:00.000Z",
     "dateEnd": "2021-04-16T00:00:00.000Z",
     "title": "Multi-Level Graph Representation for Big Data Arising in Science Mapping",
     "venue": "Dagstuhl Seminar, Schloss Dagstuhl – Leibniz Center for Informatics",
@@ -15123,7 +15123,7 @@
     "venueImages": null
   },
   {
-    "dateStart": "2021-06-22T19:14:46.478Z",
+    "date": "2021-06-22T19:14:46.478Z",
     "dateEnd": "2021-06-22T19:14:46.487Z",
     "title": "Luddy Pre-College Summer Program",
     "venue": "Luddy Pre-College Summer Program",
@@ -15134,7 +15134,7 @@
     "country": "United States"
   },
   {
-    "dateStart": "2021-09-13T18:00:30.773Z",
+    "date": "2021-09-13T18:00:30.773Z",
     "dateEnd": "2021-09-17T23:00:30.785Z",
     "title": "The 25th International Conference on Science, Technology and Innovation",
     "venue": "The 25th International Conference on Science, Technology and Innovation",
@@ -15146,7 +15146,7 @@
     "pdfLink": "20210913-25th-sti-conference.pdf"
   },
   {
-    "dateStart": "2021-09-24T00:00:00.000Z",
+    "date": "2021-09-24T00:00:00.000Z",
     "dateEnd": "2022-03-15T00:00:00.000Z",
     "title": "Macroscope Kiosk Display at Navari Family Center for Digital Scholarship",
     "venue": "University of Notre Dame",
@@ -15184,7 +15184,7 @@
     ]
   },
   {
-    "dateStart": "2021-10-09T14:00:36.197Z",
+    "date": "2021-10-09T14:00:36.197Z",
     "dateEnd": "2021-10-09T19:00:36.208Z",
     "title": "Science Fest",
     "venue": "Science Fest",
@@ -15226,7 +15226,7 @@
     ]
   },
   {
-    "dateStart": "2021-11-04T19:10:40.298Z",
+    "date": "2021-11-04T19:10:40.298Z",
     "dateEnd": "2021-11-04T19:10:40.312Z",
     "title": "First Thursdays Festival",
     "venue": "Arts & Humanities Council",
@@ -15255,7 +15255,7 @@
     ]
   },
   {
-    "dateStart": "2021-12-11T17:00:14.816Z",
+    "date": "2021-12-11T17:00:14.816Z",
     "dateEnd": "2021-12-12T17:00:14.832Z",
     "title": "24 Hour Science Map Event",
     "venue": "24 Hour Science Map Event",
@@ -15268,7 +15268,7 @@
     "pdfLink": "24-hour-event.pdf"
   },
   {
-    "dateStart": "2021-12-13T20:17:08.425Z",
+    "date": "2021-12-13T20:17:08.425Z",
     "dateEnd": "2021-12-13T20:17:08.431Z",
     "title": "Atlas of Forecasts Book Reading at Morgenstern's Books",
     "venue": "Atlas of Forecasts Book Reading at Morgenstern's Books",
@@ -15293,7 +15293,7 @@
     ]
   },
   {
-    "dateStart": "2021-12-15T20:31:24.713Z",
+    "date": "2021-12-15T20:31:24.713Z",
     "dateEnd": "2021-12-15T20:31:24.721Z",
     "title": "Nesta Firebreak",
     "venue": "Nesta Firebreak",
@@ -15318,7 +15318,7 @@
     ]
   },
   {
-    "dateStart": "2022-01-01T17:13:59.051Z",
+    "date": "2022-01-01T17:13:59.051Z",
     "title": "Permanent Map Installation",
     "venue": "DZHW",
     "organizer": "Katy Börner",
@@ -15349,7 +15349,7 @@
     ]
   },
   {
-    "dateStart": "2022-01-01T17:00:00.033Z",
+    "date": "2022-01-01T17:00:00.033Z",
     "dateEnd": "2023-12-31T17:00:00.046Z",
     "title": "Sciences Library",
     "venue": "Sciences Library",
@@ -15359,7 +15359,7 @@
     "country": "US"
   },
   {
-    "dateStart": "2022-03-14T13:00:00.000Z",
+    "date": "2022-03-14T13:00:00.000Z",
     "dateEnd": "2022-03-15T20:30:03.083Z",
     "title": "The Future of Learning & Work Workshop",
     "venue": "The Future of Learning & Work Workshop",
@@ -15380,7 +15380,7 @@
     ]
   },
   {
-    "dateStart": "2022-04-05T18:36:08.553Z",
+    "date": "2022-04-05T18:36:08.553Z",
     "dateEnd": "2022-04-05T18:36:08.568Z",
     "title": "Data Visualization Bazaar",
     "venue": "Sciences Library, Indiana University",
@@ -15414,7 +15414,7 @@
     ]
   },
   {
-    "dateStart": "2022-06-15T15:00:00.000Z",
+    "date": "2022-06-15T15:00:00.000Z",
     "dateEnd": "2022-06-15T20:00:00.000Z",
     "title": "Data Visualization Lisboa",
     "venue": "Data Visualization Lisboa",
@@ -15424,7 +15424,7 @@
     "country": "Portugal"
   },
   {
-    "dateStart": "2022-06-22T20:45:12.045Z",
+    "date": "2022-06-22T20:45:12.045Z",
     "dateEnd": "2022-06-22T20:45:12.052Z",
     "title": "Luddy Pre-College Summer Program: Places & Spaces Virtual Tour",
     "venue": "Luddy Pre-College Summer Program: Places & Spaces Virtual Tour",
@@ -15434,7 +15434,7 @@
     "country": "United States"
   },
   {
-    "dateStart": "2022-08-19T13:00:20.507Z",
+    "date": "2022-08-19T13:00:20.507Z",
     "dateEnd": "2022-08-19T21:00:20.512Z",
     "title": "UITS Tech Fair",
     "venue": "Indiana Memorial Union",
@@ -15444,7 +15444,7 @@
     "country": "USA"
   },
   {
-    "dateStart": "2022-08-27T14:00:59.694Z",
+    "date": "2022-08-27T14:00:59.694Z",
     "dateEnd": "2022-08-27T20:00:59.705Z",
     "title": "Makevention",
     "venue": "Monroe Convention Center",
@@ -15455,7 +15455,7 @@
     "pdfLink": "http://makevention.org/"
   },
   {
-    "dateStart": "2022-08-29T15:00:00.000Z",
+    "date": "2022-08-29T15:00:00.000Z",
     "dateEnd": "2023-01-20T16:00:00.000Z",
     "title": "University of Michigan",
     "venue": "Clark Library",
@@ -15479,7 +15479,7 @@
     ]
   },
   {
-    "dateStart": "2022-09-29T15:00:32.120Z",
+    "date": "2022-09-29T15:00:32.120Z",
     "dateEnd": "2022-09-29T18:00:32.128Z",
     "title": "Technology Petting Zoo",
     "venue": "Indiana Memorial Union",
@@ -15490,7 +15490,7 @@
     "pdfLink": "https://depi.iu.edu/events/tech-petting-zoo/index.html"
   },
   {
-    "dateStart": "2022-09-30T13:00:39.849Z",
+    "date": "2022-09-30T13:00:39.849Z",
     "dateEnd": "2022-09-30T21:00:39.854Z",
     "title": "Science Maps and Macroscopes",
     "venue": "University of Michigan Clark Library",
@@ -15501,7 +15501,7 @@
     "pdfLink": "september-“datatopia-the-future-of-scientific-discovery-through-a-data-lens”-colloquium-midas.pdf"
   },
   {
-    "dateStart": "2022-10-22T14:00:09.294Z",
+    "date": "2022-10-22T14:00:09.294Z",
     "dateEnd": "2022-10-22T21:00:09.299Z",
     "title": "Science Fest",
     "venue": "Science Fest",
@@ -15522,7 +15522,7 @@
     ]
   },
   {
-    "dateStart": "2022-11-10T19:30:00.000Z",
+    "date": "2022-11-10T19:30:00.000Z",
     "dateEnd": "2022-11-10T20:00:19.272Z",
     "title": "CNS Metaverse Tour",
     "venue": "Luddy Hall",
@@ -15532,7 +15532,7 @@
     "country": "US"
   },
   {
-    "dateStart": "2022-12-01T20:00:15.809Z",
+    "date": "2022-12-01T20:00:15.809Z",
     "dateEnd": "2022-12-01T20:00:15.838Z",
     "title": "Cognitive Informatics Seminar",
     "venue": "UQÀM",
@@ -15543,7 +15543,7 @@
     "pdfLink": "séminaire-au-dic-«atlas-of-forecasts-modeling-and-mapping-desirable-futures»-par-katy-börner.pdf"
   },
   {
-    "dateStart": "2022-12-10T15:00:00.000Z",
+    "date": "2022-12-10T15:00:00.000Z",
     "dateEnd": "2022-12-11T15:00:00.000Z",
     "title": "24 Hour Human Reference Atlas Design Event",
     "venue": "24 Hour Human Reference Atlas Design Event",
@@ -15555,7 +15555,7 @@
     "pdfLink": "24-hour-human-reference-atlas-event.pdf"
   },
   {
-    "dateStart": "2022-12-13T19:55:03.867Z",
+    "date": "2022-12-13T19:55:03.867Z",
     "dateEnd": "2022-12-13T19:55:03.885Z",
     "title": "Foresight Seminar",
     "venue": "NISTEP",
@@ -15565,7 +15565,7 @@
     "country": "Japan"
   },
   {
-    "dateStart": "2023-03-07T20:07:51.930Z",
+    "date": "2023-03-07T20:07:51.930Z",
     "dateEnd": "2023-03-07T20:07:51.951Z",
     "title": "Bloomington Rotary Club",
     "venue": "Georgina Room, IMU",
@@ -15576,7 +15576,7 @@
     "pdfLink": "roundabout_newsletter.pdf"
   },
   {
-    "dateStart": "2023-06-08T14:00:00.000Z",
+    "date": "2023-06-08T14:00:00.000Z",
     "dateEnd": "2023-08-04T21:00:37.626Z",
     "title": "Cook Center for Arts and Humanities",
     "venue": "Grand Hall in Maxwell Hall",
@@ -15601,7 +15601,7 @@
     ]
   },
   {
-    "dateStart": "2023-08-31T18:39:26.161Z",
+    "date": "2023-08-31T18:39:26.161Z",
     "dateEnd": "2023-08-31T18:39:26.175Z",
     "title": "Places & Spaces during ISSI ",
     "venue": "Cook Center, Maxwell Hall",
@@ -15622,7 +15622,7 @@
     ]
   },
   {
-    "dateStart": "2023-10-06T17:30:33.310Z",
+    "date": "2023-10-06T17:30:33.310Z",
     "dateEnd": "2023-10-06T19:30:33.325Z",
     "title": "City of Bloomington Innovation Celebration",
     "venue": "The Mill",
@@ -15671,7 +15671,7 @@
     ]
   },
   {
-    "dateStart": "2023-12-09T17:00:24.142Z",
+    "date": "2023-12-09T17:00:24.142Z",
     "dateEnd": "2023-12-10T17:00:24.158Z",
     "title": "24 Hour Macroscopes: Interactive Data Visualizations Event",
     "venue": "Remote",
@@ -15683,7 +15683,7 @@
     "pdfLink": "24-hour-macroscope-event-2023.pdf"
   },
   {
-    "dateStart": "2024-06-06T20:00:07.788Z",
+    "date": "2024-06-06T20:00:07.788Z",
     "dateEnd": "2024-06-06T22:00:07.800Z",
     "title": "“Places & Spaces: Mapping Science” 20th Iteration Opening Reception",
     "venue": "University Collections at McCalla",
@@ -15756,7 +15756,7 @@
     ]
   },
   {
-    "dateStart": "2024-06-06T16:00:25.860Z",
+    "date": "2024-06-06T16:00:25.860Z",
     "dateEnd": "2024-06-11T21:00:25.869Z",
     "title": "The Future of Scientific Conferencing Workshop",
     "venue": "National Institutes of Health",
@@ -15785,7 +15785,7 @@
     ]
   },
   {
-    "dateStart": "2024-06-06T16:00:36.046Z",
+    "date": "2024-06-06T16:00:36.046Z",
     "dateEnd": "2024-11-03T21:00:36.060Z",
     "title": "University Collections at McCalla",
     "venue": "University Collections at McCalla",
@@ -15818,7 +15818,7 @@
     ]
   },
   {
-    "dateStart": "2024-06-16T13:00:24.422Z",
+    "date": "2024-06-16T13:00:24.422Z",
     "dateEnd": "2024-06-21T21:00:24.438Z",
     "title": "NetSci 2024",
     "venue": "Québec City Convention Center",
@@ -15843,7 +15843,7 @@
     ]
   },
   {
-    "dateStart": "2024-08-26T13:00:37.360Z",
+    "date": "2024-08-26T13:00:37.360Z",
     "dateEnd": "2024-08-30T21:00:37.369Z",
     "title": "CSH Visualizing Complexity Science Workshop",
     "venue": "Complexity Science Hub",
@@ -15868,7 +15868,7 @@
     ]
   },
   {
-    "dateStart": "2024-09-05T20:00:01.289Z",
+    "date": "2024-09-05T20:00:01.289Z",
     "dateEnd": "2024-09-05T23:00:01.313Z",
     "title": "First Thursdays Festival September 2024",
     "venue": "Arts Plaza",
@@ -15905,7 +15905,7 @@
     ]
   },
   {
-    "dateStart": "2024-09-20T14:00:43.796Z",
+    "date": "2024-09-20T14:00:43.796Z",
     "dateEnd": "2024-09-20T16:00:43.807Z",
     "title": "Macroscope Tools for Global Challenges",
     "venue": "University Collections at McCalla",
@@ -16082,7 +16082,7 @@
     ]
   },
   {
-    "dateStart": "2024-10-05T13:00:03.196Z",
+    "date": "2024-10-05T13:00:03.196Z",
     "dateEnd": "2024-10-05T19:00:03.206Z",
     "title": "Science Fest 2024",
     "venue": "College of Arts and Sciences",
@@ -16119,7 +16119,7 @@
     ]
   },
   {
-    "dateStart": "2024-10-08T18:00:42.531Z",
+    "date": "2024-10-08T18:00:42.531Z",
     "dateEnd": "2024-10-08T19:00:42.553Z",
     "title": "Guided tour of Places & Spaces",
     "venue": "University Collections at McCalla",
@@ -16129,7 +16129,7 @@
     "country": "US"
   },
   {
-    "dateStart": "2024-10-16T14:00:36.742Z",
+    "date": "2024-10-16T14:00:36.742Z",
     "dateEnd": "2024-10-16T15:00:36.752Z",
     "title": "Guided Tour of Places & Spaces at McCalla",
     "venue": "University Collections at McCalla",
@@ -16140,7 +16140,7 @@
     "pdfLink": ""
   },
   {
-    "dateStart": "2024-10-30T21:30:14.438Z",
+    "date": "2024-10-30T21:30:14.438Z",
     "dateEnd": "2024-10-30T00:00:27.539Z",
     "title": "Talking Together: “Humanexus” Film Screening and Panel Discussion",
     "venue": "Indiana Univeristy Museum of Archeaology and Anthropology",
@@ -16205,7 +16205,7 @@
     ]
   },
   {
-    "dateStart": "2024-11-11T17:00:54.701Z",
+    "date": "2024-11-11T17:00:54.701Z",
     "dateEnd": "2024-11-11T18:00:54.719Z",
     "title": "Insightful and Actionable Visual Analytics",
     "venue": "National Graduate Institute for Policy Studies (GRIPS)",
@@ -16226,7 +16226,7 @@
     ]
   },
   {
-    "dateStart": "2024-11-22T22:00:50.537Z",
+    "date": "2024-11-22T22:00:50.537Z",
     "dateEnd": "2024-11-22T23:00:50.559Z",
     "title": "Connections Between Art, Science, and Engineering: A Conversation with Dr. Katy Börner",
     "venue": " Sidney and Lois Eskenazi Museum of Art",
@@ -16271,7 +16271,7 @@
     ]
   },
   {
-    "dateStart": "2024-11-28T23:00:46.169Z",
+    "date": "2024-11-28T23:00:46.169Z",
     "dateEnd": "2024-11-29T00:00:46.185Z",
     "title": "Exploración de mapas del territorio financerio",
     "venue": "Museo Banco de Mexico",
@@ -16287,7 +16287,7 @@
     ]
   },
   {
-    "dateStart": "2024-12-20T01:00:26.706Z",
+    "date": "2024-12-20T01:00:26.706Z",
     "dateEnd": "2024-12-20T06:00:11.513Z",
     "title": "\"Places & Spaces: Mapping Science\" at NISTEP Public Online Symposium",
     "venue": "National Institute of Science and Technology Policy (NISTEP)",
@@ -16300,7 +16300,7 @@
     "venueImages": []
   },
   {
-    "dateStart": "2025-03-14T12:22:35.219Z",
+    "date": "2025-03-14T12:22:35.219Z",
     "dateEnd": "2025-03-14T12:22:35.232Z",
     "title": "Places & Spaces: Mapping Science at Mt. Sinai",
     "venue": "Mt. Sinai School of Medicine",
@@ -16344,7 +16344,7 @@
     ]
   },
   {
-    "dateStart": "2025-03-18T12:48:01.363Z",
+    "date": "2025-03-18T12:48:01.363Z",
     "dateEnd": "2025-03-22T12:48:18.322Z",
     "title": "iConference 2025 at Luddy",
     "venue": "Luddy School of Informatics, Computing, and Engineering",
@@ -16355,7 +16355,7 @@
     "pdfLink": "iconference-tour-flyer.pdf"
   },
   {
-    "dateStart": "2025-04-01T14:25:34.693Z",
+    "date": "2025-04-01T14:25:34.693Z",
     "dateEnd": "2025-04-30T14:25:40.637Z",
     "title": "Places & Spaces at City Hall in Bloomington",
     "venue": "City of Bloomington",
@@ -16411,7 +16411,7 @@
     ]
   },
   {
-    "dateStart": "2025-04-03T15:13:05.299Z",
+    "date": "2025-04-03T15:13:05.299Z",
     "dateEnd": "2025-04-03T15:13:03.138Z",
     "title": "First Thursdays Festival April 2025",
     "venue": "Arts Plaza",
@@ -16456,7 +16456,7 @@
     ]
   },
   {
-    "dateStart": "2025-04-18T14:00:32.844Z",
+    "date": "2025-04-18T14:00:32.844Z",
     "dateEnd": "2025-04-18T16:00:32.849Z",
     "title": "Amatria's 7th Birthday at Luddy",
     "venue": "Luddy School of Informatics, Computing, and Engineering",
@@ -16549,7 +16549,7 @@
     ]
   },
   {
-    "dateStart": "2025-04-18T15:18:11.103Z",
+    "date": "2025-04-18T15:18:11.103Z",
     "dateEnd": "2025-04-18T15:18:11.114Z",
     "title": "CNS 20th Anniversary at Luddy",
     "venue": "Luddy School of Informatics, Computing, and Engineering",
@@ -16638,7 +16638,7 @@
     ]
   },
   {
-    "dateStart": "2025-05-27T16:00:40.390Z",
+    "date": "2025-05-27T16:00:40.390Z",
     "dateEnd": "2025-08-06T16:00:20.760Z",
     "title": "[in]visible; Places & Spaces: Mapping Science at COSMO",
     "venue": "COSMO Wissenschaftsforum",
@@ -16708,7 +16708,7 @@
     ]
   },
   {
-    "dateStart": "2025-06-02T12:40:25.906Z",
+    "date": "2025-06-02T12:40:25.906Z",
     "dateEnd": "2025-06-06T12:40:21.208Z",
     "title": "Science Macroscopes: Interactive Data Visualizations for Exploring Multiscale Networks in a Global Society",
     "venue": "International School and Conference on Network Science NetSci 2025",
@@ -16720,7 +16720,7 @@
     "venueImages": []
   },
   {
-    "dateStart": "2025-06-11T15:37:39.606Z",
+    "date": "2025-06-11T15:37:39.606Z",
     "dateEnd": "2025-06-13T15:36:45.402Z",
     "title": "Places & Spaces at Outlier Conference 2025",
     "venue": "Outlier 2025",
@@ -16737,7 +16737,7 @@
     ]
   },
   {
-    "dateStart": "2025-07-28T12:35:34.903Z",
+    "date": "2025-07-28T12:35:34.903Z",
     "dateEnd": "2025-08-08T12:35:42.807Z",
     "title": "Biomedical Data Science Summer School and Conference at Semmelweis University",
     "venue": "Semmelweis University",
@@ -16797,7 +16797,7 @@
     ]
   },
   {
-    "dateStart": "2025-08-20T13:00:54.072Z",
+    "date": "2025-08-20T13:00:54.072Z",
     "dateEnd": "2025-08-20T14:00:52.203Z",
     "title": "Open Research Seminar: Mapping and Modeling Science, Technology, and Education",
     "venue": "Kompetenznetzwerk Bibliometrie",
@@ -16808,7 +16808,7 @@
     "pdfLink": "microsoft-virtual-events-powered-by-teams.pdf"
   },
   {
-    "dateStart": "2025-09-11T13:00:30.955Z",
+    "date": "2025-09-11T13:00:30.955Z",
     "dateEnd": "2025-09-11T13:45:30.959Z",
     "title": "Places & Spaces at the Metrics, Policy, and Diplomacy for Research Infrastructures in the Global South Symposium",
     "venue": "The African Lightsource",
@@ -16818,7 +16818,7 @@
     "pdfLink": "the-african-lightsource.pdf"
   },
   {
-    "dateStart": "2025-10-02T15:11:18.607Z",
+    "date": "2025-10-02T15:11:18.607Z",
     "dateEnd": "2025-10-02T15:11:25.350Z",
     "title": "Places & Spaces: Mapping Science at First Thursdays",
     "venue": "Arts and Humanities Council",
@@ -16846,18 +16846,18 @@
     ]
   },
   {
-    "dateStart": "2025-10-06T19:00:54.959Z",
+    "date": "2025-10-06T19:00:54.959Z",
     "dateEnd": "2025-10-06T21:00:54.965Z",
     "title": "Mapping and Modeling Science, Technology, and Education at Complexity Science Hub",
     "venue": "Complexity Science Hub",
     "organizer": "Liuhuaying Yang and Hannah Scholl",
     "city": "Vienna",
-    "state": ",",
+    "state": null,
     "country": "Austria",
     "pdfLink": "mapping-and-modeling-science-technology-and-education-_-complexity-science-hub.pdf"
   },
   {
-    "dateStart": "2025-10-30T16:30:32.591Z",
+    "date": "2025-10-30T16:30:32.591Z",
     "dateEnd": "2025-10-30T18:30:32.597Z",
     "title": "Atlas of Macroscopes: Interactive Data Visualizations at The Broad Institute",
     "venue": "The Broad Institute",
@@ -16909,7 +16909,7 @@
     ]
   },
   {
-    "dateStart": "2025-11-01T14:00:29.914Z",
+    "date": "2025-11-01T14:00:29.914Z",
     "dateEnd": "2025-11-01T20:00:43.404Z",
     "title": "Places & Spaces: Mapping Science at Science Fest 2025",
     "venue": "Science Fest 2025",
@@ -16926,14 +16926,13 @@
     ]
   },
   {
-    "dateStart": "2025-11-08T18:00:25.110Z",
+    "date": "2025-11-08T18:00:25.110Z",
     "dateEnd": "2025-11-15T03:00:25.115Z",
     "title": "Places & Spaces: Mapping Science at Alte Wirtschaftsuniversität Library",
     "venue": "Alte Wirtschaftsuniversität Library",
     "organizer": "Annette Tesarek ",
     "credit": "© Sophie Menegaldo | Ivory Rose Photography",
     "city": "Vienna",
-    "state": ",",
     "country": "Austria",
     "venueImages": [
       {
@@ -16971,7 +16970,7 @@
     ]
   },
   {
-    "dateStart": "2025-11-20T23:00:36.139Z",
+    "date": "2025-11-20T23:00:36.139Z",
     "dateEnd": "2025-11-21T00:00:34.389Z",
     "title": "Author Event: Katy Börner, Elizabeth G. Record, & Todd N. Theriault at Morgenstern Books",
     "venue": "Morgenstern Books",
@@ -17012,7 +17011,7 @@
     ]
   },
   {
-    "dateStart": "2025-12-13T17:00:00.000Z",
+    "date": "2025-12-13T17:00:00.000Z",
     "dateEnd": "2025-12-14T17:00:00.000Z",
     "title": "24-Hour Envisioning Intelligences Event",
     "venue": "Remote",
@@ -17024,7 +17023,18 @@
     "pdfLink": "Website.pdf"
   },
   {
-    "dateStart": "2026-03-12T17:00:00.000Z",
+    "date": "2026-01-19T16:37:38.730Z",
+    "dateEnd": "2026-01-19T16:37:38.734Z",
+    "title": "Everything Everywhere All at Once: Mapping the Bigger Picture with Macroscopes",
+    "venue": "Biorevolution Podcast",
+    "organizer": "Louise von Stechow and Andreas Horchler",
+    "city": "Berlin (virtual)",
+    "state": "Berlin",
+    "country": "Germany",
+    "websiteUrl": "https://doomedsaved.podigee.io/44-macroscopes"
+  },
+  {
+    "date": "2026-03-12T17:00:00.000Z",
     "dateEnd": "2026-03-12T17:00:00.000Z",
     "title": "International Roundtable on Computational Social Science",
     "venue": "Virtual",
@@ -17034,7 +17044,49 @@
     "country": "Sweden"
   },
   {
-    "dateStart": "2026-07-23T17:02:34.344Z",
+    "date": "2026-04-11T15:50:24.065Z",
+    "dateEnd": "2026-04-11T15:50:24.067Z",
+    "title": "Luddy Techfest",
+    "venue": "Luddy School of Informatics, Computing, and Engineering",
+    "organizer": "Meryl Jacobs",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "USA"
+  },
+  {
+    "date": "2026-04-17T15:59:36.359Z",
+    "dateEnd": "2026-04-17T15:59:36.362Z",
+    "title": "Amatria's Birthday",
+    "venue": "Luddy Hall",
+    "organizer": "Katy Borner",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "USA"
+  },
+  {
+    "date": "2026-04-17T15:52:30.543Z",
+    "dateEnd": "2026-04-17T15:52:30.545Z",
+    "title": "Computational Systems as Artistic Material",
+    "venue": "Luddy School Data Science Talk Series",
+    "organizer": "Aurora Mititelu",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "USA"
+  },
+  {
+    "date": "2026-05-07T17:06:40.716Z",
+    "dateEnd": "2026-05-07T17:06:40.719Z",
+    "title": "Mapping the Invisible: Inside the Atlas of Macroscopes",
+    "venue": "Policy Viz podcast",
+    "organizer": "Jon Schwabish",
+    "city": "virtual",
+    "state": "IN",
+    "country": "USA",
+    "websiteUrl": "https://policyviz.com/podcast/atlas-of-macroscopes/",
+    "pdfLink": ""
+  },
+  {
+    "date": "2026-07-23T17:02:34.344Z",
     "dateEnd": "2026-07-23T17:02:34.348Z",
     "title": "Luddy TechFest 2026",
     "venue": "Luddy School of Informatics, Computing, and Engineering",

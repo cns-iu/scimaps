@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-02-17
+date: 2011-02-17
 dateEnd: 2011-02-21
 title: AAAS Annual Meeting
 venue: AAAS Annual Meeting

@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-10-27
+date: 2014-10-27
 dateEnd: 2014-11-28
 title: "Rice University"
 venue: "Ken Kennedy Institute for Information Technology"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-03-04
+date: 2010-03-04
 dateEnd: 2010-03-05
 title: "NSF/JSMF Workshop on Mapping Science and the Semantic Web"
 venue: "Indiana University"

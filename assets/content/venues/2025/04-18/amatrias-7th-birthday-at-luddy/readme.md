@@ -1,5 +1,5 @@
 ---
-dateStart: 2025-04-18T14:00:32.844Z
+date: 2025-04-18T14:00:32.844Z
 dateEnd: 2025-04-18T16:00:32.849Z
 title: Amatria's 7th Birthday at Luddy
 venue: Luddy School of Informatics, Computing, and Engineering

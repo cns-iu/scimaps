@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-04-21
+date: 2016-04-21
 dateEnd: 2016-04-21
 title: "Network Science Institute"
 venue: "Indiana University"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2024-12-20T01:00:26.706Z
+date: 2024-12-20T01:00:26.706Z
 dateEnd: 2024-12-20T06:00:11.513Z
 title: '"Places & Spaces: Mapping Science" at NISTEP Public Online Symposium'
 venue: National Institute of Science and Technology Policy (NISTEP)

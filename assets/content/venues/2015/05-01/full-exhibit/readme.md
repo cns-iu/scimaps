@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-05-01
+date: 2015-05-01
 dateEnd: 2015-10-30
 title: "Full Exhibit"
 venue: "Galter Health Sciences Library, Northwestern University"
