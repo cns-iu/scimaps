@@ -1979,7 +1979,7 @@ function VenuesTableComponent_th_3_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, ctx_r1.matSort.active == "date", ctx_r1.matSort.direction == "desc"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, (ctx_r1.matSort == null ? null : ctx_r1.matSort.active) == "date", (ctx_r1.matSort == null ? null : ctx_r1.matSort.direction) == "desc"));
 } }
 const _c1 = function () { return { "width": "15%" }; };
 function VenuesTableComponent_td_4_Template(rf, ctx) { if (rf & 1) {
@@ -2007,7 +2007,7 @@ function VenuesTableComponent_th_6_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, ctx_r3.matSort.active == "dateEnd", ctx_r3.matSort.direction == "desc"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, (ctx_r3.matSort == null ? null : ctx_r3.matSort.active) == "dateEnd", (ctx_r3.matSort == null ? null : ctx_r3.matSort.direction) == "desc"));
 } }
 function VenuesTableComponent_td_7_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "td", 16);
@@ -2034,7 +2034,7 @@ function VenuesTableComponent_th_9_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, ctx_r5.matSort.active == "title", ctx_r5.matSort.direction == "desc"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, (ctx_r5.matSort == null ? null : ctx_r5.matSort.active) == "title", (ctx_r5.matSort == null ? null : ctx_r5.matSort.direction) == "desc"));
 } }
 const _c2 = function () { return { "width": "25%" }; };
 function VenuesTableComponent_td_10_Template(rf, ctx) { if (rf & 1) {
@@ -2061,7 +2061,7 @@ function VenuesTableComponent_th_12_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, ctx_r7.matSort.active == "city", ctx_r7.matSort.direction == "desc"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, (ctx_r7.matSort == null ? null : ctx_r7.matSort.active) == "city", (ctx_r7.matSort == null ? null : ctx_r7.matSort.direction) == "desc"));
 } }
 const _c3 = function () { return { "width": "20%" }; };
 function VenuesTableComponent_td_13_Template(rf, ctx) { if (rf & 1) {
@@ -2089,7 +2089,7 @@ function VenuesTableComponent_th_15_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, ctx_r9.matSort.active == "organizer", ctx_r9.matSort.direction == "desc"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, (ctx_r9.matSort == null ? null : ctx_r9.matSort.active) == "organizer", (ctx_r9.matSort == null ? null : ctx_r9.matSort.direction) == "desc"));
 } }
 function VenuesTableComponent_td_16_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "td", 16);
@@ -2115,7 +2115,7 @@ function VenuesTableComponent_th_18_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, ctx_r11.matSort.active == "venueImages", ctx_r11.matSort.direction == "desc"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction2"](1, _c0, (ctx_r11.matSort == null ? null : ctx_r11.matSort.active) == "venueImages", (ctx_r11.matSort == null ? null : ctx_r11.matSort.direction) == "desc"));
 } }
 function VenuesTableComponent_td_19_div_2_Template(rf, ctx) { if (rf & 1) {
     const _r24 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
