@@ -1,5 +1,5 @@
 ---
-dateStart: 2018-06-12
+date: 2018-06-12
 dateEnd: 2018-06-14
 title: "IGL2018 Global Conference"
 venue: "Nesta"

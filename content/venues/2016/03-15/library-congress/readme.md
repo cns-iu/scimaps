@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-03-15
+date: 2016-03-15
 dateEnd: 2016-03-15
 title: "Library Congress"
 venue: "Universität Leipzig"

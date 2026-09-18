@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-05-11
+date: 2015-05-11
 dateEnd: 2015-05-12
 title: "EA Annual Conference"
 venue:

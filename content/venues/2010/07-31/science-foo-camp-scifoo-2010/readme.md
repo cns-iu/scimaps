@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-07-31
+date: 2010-07-31
 dateEnd: 2010-08-01
 title: "Science Foo Camp (scifoo) 2010"
 venue: ""

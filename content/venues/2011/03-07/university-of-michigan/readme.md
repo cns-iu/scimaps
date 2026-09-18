@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-03-07
+date: 2011-03-07
 dateEnd: 2011-03-24
 title: "University of Michigan"
 venue: "University of Michigan"

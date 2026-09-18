@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-11-03
+date: 2016-11-03
 dateEnd: 2016-11-03
 title: First Thursdays Festival
 venue: "Arts & Humanities Council"

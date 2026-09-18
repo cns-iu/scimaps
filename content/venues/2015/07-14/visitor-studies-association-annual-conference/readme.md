@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-07-14
+date: 2015-07-14
 dateEnd: 2015-07-18
 title: "Visitor Studies Association Annual Conference"
 venue:

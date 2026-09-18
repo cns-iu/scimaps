@@ -1,5 +1,5 @@
 ---
-dateStart: 2019-02-05
+date: 2019-02-05
 dateEnd: 2019-02-05
 title: "IBS Workshop Media Computing"
 venue: "IBS Convention Center"

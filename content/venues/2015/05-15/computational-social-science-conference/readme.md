@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-05-15
+date: 2015-05-15
 dateEnd: 2015-05-17
 title: Computational Social Science Conference
 venue: Kellog School of Management, Northwestern University

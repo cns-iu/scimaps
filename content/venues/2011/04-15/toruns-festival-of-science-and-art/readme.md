@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-04-15
+date: 2011-04-15
 dateEnd: 2011-04-19
 title: "Torun's Festival of Science and Art"
 venue: "Torun's Festival of Science and Art"

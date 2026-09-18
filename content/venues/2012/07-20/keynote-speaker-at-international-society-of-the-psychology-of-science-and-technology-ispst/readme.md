@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-07-20
+date: 2012-07-20
 dateEnd: 2012-07-22
 title: "Keynote Speaker at International Society of the Psychology of Science and Technology (ISPST)"
 venue: "University of Pittsburgh"

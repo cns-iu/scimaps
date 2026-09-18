@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-08-24
+date: 2011-08-24
 dateEnd: 2011-08-26
 title: "VIVO 2011 Conference"
 venue: "VIVO 2011 Conference"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2006-06-25
+date: 2006-06-25
 dateEnd: 2006-06-30
 title: "International Conference on Complex Systems"
 venue: "International Conference on Complex Systems"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-04-12
+date: 2013-04-12
 dateEnd: 2013-04-12
 title: "Seminaire Europeen de L'Ecole Doctorale"
 venue: "Universite de Lille"

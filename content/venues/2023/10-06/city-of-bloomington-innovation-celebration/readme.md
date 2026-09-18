@@ -1,5 +1,5 @@
 ---
-dateStart: 2023-10-06T17:30:33.310Z
+date: 2023-10-06T17:30:33.310Z
 dateEnd: 2023-10-06T19:30:33.325Z
 title: City of Bloomington Innovation Celebration
 venue: The Mill

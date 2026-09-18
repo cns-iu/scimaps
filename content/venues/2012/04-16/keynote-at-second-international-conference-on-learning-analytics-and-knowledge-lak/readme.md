@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-04-16
+date: 2012-04-16
 dateEnd: 2012-04-29
 title: "Keynote at Second International Conference on Learning Analytics & Knowledge (LAK)"
 venue: "Keynote at Second International Conference on Learning Analytics & Knowledge (LAK)"

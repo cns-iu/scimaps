@@ -1,5 +1,5 @@
 ---
-dateStart: 2006-02-03
+date: 2006-02-03
 dateEnd: 2006-02-08
 title: "Symposium on Knowledge Discovery and Knowledge Management Tools"
 venue: "National Institutes of Health"

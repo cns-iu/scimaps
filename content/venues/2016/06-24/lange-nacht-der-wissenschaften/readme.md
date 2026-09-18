@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-06-24
+date: 2016-06-24
 dateEnd: 2016-06-24
 title: "Lange Nacht der Wissenschaften"
 venue: "Physikalischen Institut, Universität Leipzig"

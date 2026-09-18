@@ -1,5 +1,5 @@
 ---
-dateStart: 2025-04-01T14:25:34.693Z
+date: 2025-04-01T14:25:34.693Z
 dateEnd: 2025-04-30T14:25:40.637Z
 title: Places & Spaces at City Hall in Bloomington
 venue: City of Bloomington

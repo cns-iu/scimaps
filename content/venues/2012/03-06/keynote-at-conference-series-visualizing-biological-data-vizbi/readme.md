@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-03-06
+date: 2012-03-06
 dateEnd: 2012-03-08
 title: "Keynote at Conference Series Visualizing Biological Data (VizBi)"
 venue: "EMBL"

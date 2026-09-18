@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-06-12
+date: 2017-06-12
 dateEnd: 2017-06-15
 title: "Maps & Macroscopes"
 venue: "Mini University"

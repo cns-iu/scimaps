@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-07-19
+date: 2015-07-19
 dateEnd: 2015-07-23
 title: "System Dynamics Society conference"
 venue:

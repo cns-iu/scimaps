@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-07-26
+date: 2009-07-26
 dateEnd: 2009-07-31
 title: "Envisioning and Communicating Science, Visualization in Science and Education"
 venue: "Gordon Research Conference, Magdalen College, Oxford University"

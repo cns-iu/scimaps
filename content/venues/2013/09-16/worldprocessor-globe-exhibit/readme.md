@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-09-16
+date: 2013-09-16
 dateEnd: 2013-09-20
 title: "WorldProcessor Globe Exhibit"
 venue: "Cyberinfrastructure Building, Indiana University"

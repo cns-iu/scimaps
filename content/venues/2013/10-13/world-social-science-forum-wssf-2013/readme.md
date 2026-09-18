@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-10-13
+date: 2013-10-13
 dateEnd: 2013-10-15
 title: "World Social Science Forum (WSSF 2013)"
 venue: "World Social Science Forum (WSSF 2013)"

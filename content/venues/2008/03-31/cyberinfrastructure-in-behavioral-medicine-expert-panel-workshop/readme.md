@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-03-31
+date: 2008-03-31
 dateEnd: 2008-03-31
 title: Cyberinfrastructure in Behavioral Medicine, Expert Panel Workshop
 venue: San Diego Marriott

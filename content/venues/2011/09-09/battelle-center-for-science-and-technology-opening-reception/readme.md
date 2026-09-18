@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-09-09
+date: 2011-09-09
 dateEnd: 2011-09-09
 title: Battelle Center for Science & Technology opening reception
 venue: Battelle Center for Science & Technology

@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-10-08
+date: 2007-10-08
 dateEnd: 2007-10-09
 title: "Third International Conference on e-Social Science"
 venue: "Third International Conference on e-Social Science"

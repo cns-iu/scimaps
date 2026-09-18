@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-04-07
+date: 2008-04-07
 dateEnd: 2008-04-08
 title: "NSF Workshop on Knowledge Management and Visualization Tools in Support of Discovery (II)"
 venue: "New York Hall of Science"

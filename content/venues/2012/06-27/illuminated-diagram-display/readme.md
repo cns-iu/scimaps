@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-06-27
+date: 2012-06-27
 dateEnd: 2012-07-08
 title: "Illuminated Diagram Display"
 venue: "Smithsonian Folklife Festival"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-03-23
+date: 2017-03-23
 dateEnd: 2017-03-23
 title: Conference on Big Data and Network Science
 venue: IUNI

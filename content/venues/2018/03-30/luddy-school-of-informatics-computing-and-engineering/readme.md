@@ -1,5 +1,5 @@
 ---
-dateStart: 2018-03-30
+date: 2018-03-30
 dateEnd: 2018-12-31
 title: "Luddy School of Informatics, Computing, and Engineering"
 venue: "Luddy School of Informatics, Computing, and Engineering"

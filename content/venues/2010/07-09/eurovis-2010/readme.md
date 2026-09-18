@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-07-09
+date: 2010-07-09
 dateEnd: 2010-07-11
 title: "EuroVis 2010"
 venue: "EuroVis 2010"

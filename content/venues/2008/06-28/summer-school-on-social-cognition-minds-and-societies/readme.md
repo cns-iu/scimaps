@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-06-28
+date: 2008-06-28
 dateEnd: 2008-07-06
 title: "Summer School on Social Cognition (Minds and Societies)"
 venue: "Institute of Cognitive Sciences (ISC), Université du Québec"

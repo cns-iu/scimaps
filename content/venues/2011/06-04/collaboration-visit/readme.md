@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-06-04
+date: 2011-06-04
 dateEnd: 2011-07-04
 title: "Collaboration visit"
 venue:

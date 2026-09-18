@@ -1,5 +1,5 @@
 ---
-dateStart: 2005-07-24
+date: 2005-07-24
 dateEnd: 2005-07-28
 title: "10th International Conference of the International Society for Scientometrics and Informetrics"
 venue: "International Conference of the International Society for Scientometrics and Informetrics"

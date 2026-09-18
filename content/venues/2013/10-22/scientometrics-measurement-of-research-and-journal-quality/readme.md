@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-10-22
+date: 2013-10-22
 dateEnd: 2013-10-25
 title: "Scientometrics - Measurement of Research and Journal Quality"
 venue: "SciELO 15 Years Conference"

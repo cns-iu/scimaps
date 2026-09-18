@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-05-10
+date: 2011-05-10
 dateEnd: 2011-05-10
 title: "Scientific Mapping and Analytics"
 venue:

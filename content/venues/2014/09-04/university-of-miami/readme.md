@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-09-04
+date: 2014-09-04
 dateEnd: 2014-12-11
 title: "University of Miami"
 venue: "University of Miami"

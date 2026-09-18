@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-02-13
+date: 2007-02-13
 dateEnd: 2007-02-13
 title: "Mapping Science: Analyzing and Visualizing the Dynamics of Scholarly Knowledge and Innovations Talk"
 venue: "National Institute of Science and Technology Policy (NISTEP)"

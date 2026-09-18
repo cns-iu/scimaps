@@ -1,5 +1,5 @@
 ---
-dateStart: 2021-09-24
+date: 2021-09-24
 dateEnd: 2022-03-15
 title: Macroscope Kiosk Display at Navari Family Center for Digital Scholarship
 venue: University of Notre Dame

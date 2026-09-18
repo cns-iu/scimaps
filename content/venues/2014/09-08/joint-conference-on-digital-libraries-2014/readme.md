@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-09-08
+date: 2014-09-08
 dateEnd: 2014-09-12
 title: "Joint Conference on Digital Libraries 2014"
 venue: "Joint Conference on Digital Libraries 2014"

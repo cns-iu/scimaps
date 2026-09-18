@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-02-23
+date: 2015-02-23
 dateEnd: 2015-02-27
 title: "Information Visualization and Big Data Workshop"
 venue: "Fields Institute"

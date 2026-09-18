@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-01-01
+date: 2007-01-01
 dateEnd: 2007-01-01
 title: American Museum of Science and Energy
 venue: American Museum of Science and Energy

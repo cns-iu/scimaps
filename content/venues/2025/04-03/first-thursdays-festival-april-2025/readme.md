@@ -1,5 +1,5 @@
 ---
-dateStart: 2025-04-03T15:13:05.299Z
+date: 2025-04-03T15:13:05.299Z
 dateEnd: 2025-04-03T15:13:03.138Z
 title: First Thursdays Festival April 2025
 venue: Arts Plaza

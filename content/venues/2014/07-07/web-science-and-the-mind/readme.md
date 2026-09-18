@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-07-07
+date: 2014-07-07
 dateEnd: 2014-07-18
 title: "Web Science and the Mind"
 venue: "UQAM Cognitive Science Institute"

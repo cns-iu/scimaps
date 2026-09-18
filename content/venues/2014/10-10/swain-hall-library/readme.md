@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-10-10
+date: 2014-10-10
 dateEnd: 2014-12-31
 title: "Swain Hall Library"
 venue: "Indiana University"

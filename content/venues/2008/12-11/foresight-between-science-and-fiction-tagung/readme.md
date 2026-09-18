@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-12-11
+date: 2008-12-11
 dateEnd: 2008-12-12
 title: "Foresight - Between Science and Fiction Tagung"
 venue: "3rd Annual iFQ Conference, Institute for Research Information and Quality Assurance"

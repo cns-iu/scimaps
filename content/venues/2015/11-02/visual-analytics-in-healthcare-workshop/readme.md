@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-11-02
+date: 2015-11-02
 dateEnd: 2015-11-04
 title: "Visual Analytics in Healthcare Workshop"
 venue: "CNS, Indiana University"

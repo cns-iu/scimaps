@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-04-18
+date: 2016-04-18
 dateEnd: 2016-04-18
 title: "Recontextualizing Form & Surface, Carrie Longley - CNS Talks"
 venue: "CNS Center, Indiana University"

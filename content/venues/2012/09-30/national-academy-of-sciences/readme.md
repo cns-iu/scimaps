@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-09-30
+date: 2012-09-30
 dateEnd: 2012-12-15
 title: "National Academy of Sciences"
 venue: "Keck Center Gallery"

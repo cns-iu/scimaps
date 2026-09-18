@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-09-25
+date: 2010-09-25
 dateEnd: 2010-09-26
 title: "Wikipedia: Critical Point of View"
 venue: "University Library, Leipzig"

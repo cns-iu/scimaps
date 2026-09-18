@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-10-15
+date: 2007-10-15
 dateEnd: 2007-10-15
 title: "Cyberinfrastructure for Network Science Center & InfoVis Lab Annual Open House"
 venue: "School of Library and Information Science, Indiana University"

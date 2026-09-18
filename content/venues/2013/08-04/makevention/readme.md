@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-08-24
+date: 2013-08-24
 dateEnd: 2013-08-24
 title: "Makevention"
 venue: "Indiana University"

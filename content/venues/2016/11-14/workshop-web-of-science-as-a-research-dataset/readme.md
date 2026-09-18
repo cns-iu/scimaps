@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-11-14
+date: 2016-11-14
 dateEnd: 2016-11-15
 title: "Workshop: Web of Science as a Research Dataset"
 venue: "Cyberinfrastructure for Network Science Center"

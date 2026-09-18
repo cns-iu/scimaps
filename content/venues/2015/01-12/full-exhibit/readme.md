@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-01-12
+date: 2015-01-12
 dateEnd: 2015-04-15
 title: "Full Exhibit"
 venue: "Duke University"

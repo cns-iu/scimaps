@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-11-01
+date: 2016-11-01
 dateEnd: 2016-11-04
 title: "Museum Computer Network"
 venue: "Museum Computer Network"

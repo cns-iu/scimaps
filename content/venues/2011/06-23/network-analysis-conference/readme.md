@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-06-23
+date: 2011-06-23
 dateEnd: 2011-06-25
 title: "Network Analysis Conference"
 venue: "Network Analysis Conference"

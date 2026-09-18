@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-08-11
+date: 2013-08-11
 dateEnd: 2013-08-13
 title: "Collaborative Innovation Networks Conference"
 venue: "Pontificia Universidad Católica de Chile"

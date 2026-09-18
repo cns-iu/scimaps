@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-09-30
+date: 2011-09-30
 dateEnd: 2012-01-24
 title: "University of North Texas"
 venue: "University of North Texas"

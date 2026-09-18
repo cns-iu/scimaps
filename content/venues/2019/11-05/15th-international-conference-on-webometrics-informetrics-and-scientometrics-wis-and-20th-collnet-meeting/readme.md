@@ -1,5 +1,5 @@
 ---
-dateStart: 2019-11-05
+date: 2019-11-05
 dateEnd: 2019-11-08
 title: "15th International Conference on Webometrics, Informetrics and Scientometrics (WIS) & 20th COLLNET Meeting"
 venue: "WISE Lab"

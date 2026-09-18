@@ -1,5 +1,5 @@
 ---
-dateStart: 2005-11-03
+date: 2005-11-03
 dateEnd: 2005-11-05
 title: "The National Center for Supercomputing Applications (NCSA)"
 venue: "This Exhibit was supported by the UIUC Center for Advanced Study as part of the Age of Networks initiative Urbana-Champaign"

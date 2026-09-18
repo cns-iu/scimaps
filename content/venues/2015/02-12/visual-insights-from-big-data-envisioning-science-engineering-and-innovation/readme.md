@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-02-12
+date: 2015-02-12
 dateEnd: 2015-02-16
 title: "Visual Insights from Big Data: Envisioning Science, Engineering, and Innovation"
 venue: "AAAS Annual Meeting"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-11-28
+date: 2012-11-28
 dateEnd: 2012-11-28
 title: "Minnesota State University"
 venue: "Moorhead, Art & Design Building"

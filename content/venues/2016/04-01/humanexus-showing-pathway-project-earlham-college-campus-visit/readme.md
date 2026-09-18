@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-04-01
+date: 2016-04-01
 dateEnd: 2016-04-01
 title: "Humanexus showing, Pathway Project - Earlham College Campus Visit"
 venue: "Indiana University"

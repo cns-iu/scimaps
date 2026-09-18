@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-04-15
+date: 2009-04-15
 dateEnd: 2009-12-18
 title: "Stanford University"
 venue: "Stanford University"

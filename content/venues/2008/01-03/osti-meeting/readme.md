@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-01-03
+date: 2008-01-03
 dateEnd: 2008-01-03
 title: "OSTI Meeting"
 venue: "OSTI Meeting"

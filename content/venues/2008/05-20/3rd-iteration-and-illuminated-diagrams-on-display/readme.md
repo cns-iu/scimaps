@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-05-20
+date: 2008-05-20
 dateEnd: 2008-05-20
 title: "3rd iteration and Illuminated Diagrams on display"
 venue: "Indiana University Information Technology Strategic Plan 2 (ITSP2) event"

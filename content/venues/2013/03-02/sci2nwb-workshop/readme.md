@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-03-02
+date: 2013-03-02
 dateEnd: 2013-03-04
 title: "Sci2/NWB Workshop"
 venue: "Sunbelt"

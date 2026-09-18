@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-06-22
+date: 2014-06-22
 dateEnd: 2014-06-24
 title: "Euroscience Open Forum"
 venue: "Euroscience Open Forum"

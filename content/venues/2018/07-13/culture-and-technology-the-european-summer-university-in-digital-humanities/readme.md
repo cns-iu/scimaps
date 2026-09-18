@@ -1,5 +1,5 @@
 ---
-dateStart: 2018-07-13
+date: 2018-07-13
 dateEnd: 2018-07-30
 title: "Culture & Technology - The European Summer University in Digital Humanities"
 venue: "University of Leipzig"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-12-18
+date: 2015-12-18
 dateEnd: 2015-12-31
 title: "Graduate School of User-Centered Social Media"
 venue: "University of Duisberg-Essen"

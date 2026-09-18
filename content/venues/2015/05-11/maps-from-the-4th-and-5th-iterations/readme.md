@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-05-11
+date: 2015-05-11
 dateEnd: 2015-12-21
 title: "Maps from the 4th and 5th Iterations"
 venue: "EA European Academy of Technology and Innovation Assessment"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2005-04-07
+date: 2005-04-07
 dateEnd: 2005-04-11
 title: "Simulating the Social Processes of Science"
 venue: "Lorentz Workshop"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-06-20
+date: 2016-06-20
 dateEnd: 2016-06-23
 title: "Wonder and the Natural World Conference"
 venue: "Consortium of the Study of Religion, Ethics, and Society"

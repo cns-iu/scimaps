@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-08-03
+date: 2016-08-03
 dateEnd: 2016-08-04
 title: 2016 CRA-W/CDC CADENS Broadening Participation in Visualization
   (BPViz’16) Workshop

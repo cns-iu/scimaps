@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-01-25
+date: 2016-01-25
 dateEnd: 2016-06-17
 title: "Full Exhibit"
 venue: "David J. Sencer CDC Museum"

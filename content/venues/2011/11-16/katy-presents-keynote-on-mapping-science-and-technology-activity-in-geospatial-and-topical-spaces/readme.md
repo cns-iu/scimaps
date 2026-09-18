@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-11-16
+date: 2011-11-16
 dateEnd: 2011-11-16
 title: "Katy presents Keynote on 'Mapping Science and Technology Activity in Geospatial and Topical Spaces'"
 venue: "Indiana University's GIS Day, Wells Library Atrium"

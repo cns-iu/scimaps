@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-11-12
+date: 2017-11-12
 dateEnd: 2017-11-17
 title: "SuperComputing 2017"
 venue: "Colorado Convention Center"
