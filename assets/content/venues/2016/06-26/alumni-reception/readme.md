@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-06-26
+date: 2016-06-26
 dateEnd: 2016-06-26
 title: Alumni Reception
 venue: American Library Association

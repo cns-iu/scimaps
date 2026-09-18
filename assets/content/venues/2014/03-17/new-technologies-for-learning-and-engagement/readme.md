@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-03-17
+date: 2014-03-17
 dateEnd: 2014-03-19
 title: "New Technologies for Learning and Engagement"
 venue: "Science Centre World Summit, Technopolis"

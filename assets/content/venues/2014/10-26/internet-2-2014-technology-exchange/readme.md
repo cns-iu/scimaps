@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-10-26
+date: 2014-10-26
 dateEnd: 2014-10-30
 title: "Internet 2 2014 Technology Exchange"
 venue: "Internet 2 2014 Technology Exchange"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-10-21
+date: 2009-10-21
 dateEnd: 2009-10-21
 title: "STEM Enterprise: Measures for Innovation and Competitiveness"
 venue: "George Washington University"

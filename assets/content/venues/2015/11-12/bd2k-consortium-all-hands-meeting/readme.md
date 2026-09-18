@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-11-12
+date: 2015-11-12
 dateEnd: 2015-11-13
 title: BD2K Consortium All-Hands Meeting
 venue: NIH

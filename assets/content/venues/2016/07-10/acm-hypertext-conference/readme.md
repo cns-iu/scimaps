@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-07-10
+date: 2016-07-10
 dateEnd: 2016-07-13
 title: "ACM Hypertext Conference"
 venue: "Dalhousie University"

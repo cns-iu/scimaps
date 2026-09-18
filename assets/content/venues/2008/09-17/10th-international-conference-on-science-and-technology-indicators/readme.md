@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-09-17
+date: 2008-09-17
 dateEnd: 2008-09-20
 title: "10th International Conference on Science and Technology Indicators"
 venue: "10th International Conference on Science and Technology Indicators"

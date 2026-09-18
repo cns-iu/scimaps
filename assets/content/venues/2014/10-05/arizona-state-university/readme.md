@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-10-05
+date: 2014-10-05
 dateEnd: 2014-12-08
 title: Arizona State University
 venue: Arizona State University

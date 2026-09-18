@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-09-27
+date: 2007-09-27
 dateEnd: 2007-09-28
 title: "NSF Workshop on Visual Exploration"
 venue: "National Science Foundation"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-09-27
+date: 2013-09-27
 dateEnd: 2013-09-27
 title: "School of Informatics and Computing (SOIC) Launch Ceremony"
 venue: "Indiana University"

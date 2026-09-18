@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-09-14
+date: 2009-09-14
 dateEnd: 2009-09-18
 title: "Conference on the Social Processes of Science, European Social Simulation Association,"
 venue: "University of Surrey"

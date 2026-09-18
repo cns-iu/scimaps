@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-05-21
+date: 2014-05-21
 dateEnd: 2014-05-21
 title: "Visualization in Computer Science workshop"
 venue: "College of Social and Media Culture"

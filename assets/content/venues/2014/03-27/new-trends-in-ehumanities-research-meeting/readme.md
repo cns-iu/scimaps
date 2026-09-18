@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-03-27
+date: 2014-03-27
 dateEnd: 2014-03-27
 title: "New Trends in eHumanities Research meeting"
 venue: "Royal Netherlands Academy of Arts and Sciences"

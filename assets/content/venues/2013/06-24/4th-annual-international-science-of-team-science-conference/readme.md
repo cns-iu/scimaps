@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-06-24
+date: 2013-06-24
 dateEnd: 2013-06-27
 title: "4th Annual International Science of Team Science Conference"
 venue: "Northwestern University"

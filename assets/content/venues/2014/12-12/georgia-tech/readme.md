@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-12-12
+date: 2014-12-12
 dateEnd: 2015-02-28
 title: "Georgia Tech"
 venue: "Georgia Tech"

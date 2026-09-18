@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-07-04
+date: 2007-07-04
 dateEnd: 2007-07-25
 title: "National Institute of Standards and Technology"
 venue: "Hall of Flags, Administration Building"

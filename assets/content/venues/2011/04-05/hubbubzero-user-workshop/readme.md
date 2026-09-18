@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-04-05
+date: 2011-04-05
 dateEnd: 2011-04-06
 title: "HUBbubZero User Workshop"
 venue: "Purdue University"

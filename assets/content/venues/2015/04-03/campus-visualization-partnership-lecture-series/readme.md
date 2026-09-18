@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-04-03
+date: 2015-04-03
 dateEnd: 2015-04-03
 title: "Campus Visualization Partnership Lecture Series"
 venue: "University of Maryland"

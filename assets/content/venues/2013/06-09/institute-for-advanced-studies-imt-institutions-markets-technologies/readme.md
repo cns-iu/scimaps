@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-06-09
+date: 2013-06-09
 dateEnd: 2013-06-14
 title: "Institute for Advanced Studies IMT (Institutions-Markets-Technologies)"
 venue: "Institute for Advanced Studies IMT (Institutions-Markets-Technologies)"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2020-03-02
+date: 2020-03-02
 dateEnd: 2020-03-02
 title: "Women in Data Science 2020 (Regional Event)"
 venue: "UNAM"

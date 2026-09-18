@@ -1,5 +1,5 @@
 ---
-dateStart: 2026-07-23T17:02:34.344Z
+date: 2026-07-23T17:02:34.344Z
 dateEnd: 2026-07-23T17:02:34.348Z
 title: Luddy TechFest 2026
 venue: Luddy School of Informatics, Computing, and Engineering

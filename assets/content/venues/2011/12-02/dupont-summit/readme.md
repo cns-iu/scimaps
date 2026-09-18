@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-12-02
+date: 2011-12-02
 dateEnd: 2011-12-02
 title: "Dupont Summit"
 venue: "Carnegie Institution for Science"

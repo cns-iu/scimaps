@@ -1,5 +1,5 @@
 ---
-dateStart: 2019-03-20
+date: 2019-03-20
 dateEnd: 2019-03-20
 title: Data Day
 venue: Indiana State House, Management Performance Hub

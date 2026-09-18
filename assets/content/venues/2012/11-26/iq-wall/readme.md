@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-11-26
+date: 2012-11-26
 dateEnd: 2012-11-30
 title: "IQ-Wall"
 venue: "Herman B Wells Library, Indiana University"

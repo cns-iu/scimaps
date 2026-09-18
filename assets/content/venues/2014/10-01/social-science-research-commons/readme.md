@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-10-01
+date: 2014-10-01
 dateEnd: 2014-12-31
 title: "Social Science Research Commons"
 venue: "Woodburn Hall, Indiana University"

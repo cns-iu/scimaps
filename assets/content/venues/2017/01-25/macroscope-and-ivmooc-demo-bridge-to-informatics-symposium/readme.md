@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-01-25
+date: 2017-01-25
 dateEnd: 2017-01-25
 title: "Macroscope and IVMOOC Demo, Bridge to Informatics Symposium"
 venue: "School of Informatics and Computing"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-04-10
+date: 2013-04-10
 dateEnd: 2013-04-11
 title: "1st International Conference on Internet Science"
 venue: "1st International Conference on Internet Science"

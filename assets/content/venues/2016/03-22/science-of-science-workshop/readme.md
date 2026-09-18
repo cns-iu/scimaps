@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-03-22
+date: 2016-03-22
 dateEnd: 2016-03-23
 title: "Science of Science Workshop"
 venue: "Library of Congress"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-03-10
+date: 2008-03-10
 dateEnd: 2008-03-11
 title: "NSF Workshop on Knowledge Management and Visualization Tools in Support of Discovery (I)"
 venue: "NSF Building"

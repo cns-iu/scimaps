@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-10-10
+date: 2011-10-10
 dateEnd: 2011-10-10
 title: "IN CTSI retreat"
 venue: "Indiana University"

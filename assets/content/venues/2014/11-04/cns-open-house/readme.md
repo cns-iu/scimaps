@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-11-04
+date: 2014-11-04
 dateEnd: 2014-11-04
 title: CNS Open House
 venue: Indiana University

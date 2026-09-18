@@ -1,5 +1,5 @@
 ---
-dateStart: 2006-05-13
+date: 2006-05-13
 dateEnd: 2006-05-13
 title: "CERC3 Chemistry Funding Agencies Meeting"
 venue: "CERC3 Chemistry Funding Agencies Meeting"

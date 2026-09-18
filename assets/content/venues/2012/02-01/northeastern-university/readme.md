@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-02-01
+date: 2012-02-01
 dateEnd: 2012-03-30
 title: "Northeastern University"
 venue: "Northeastern University"

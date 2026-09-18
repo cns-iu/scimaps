@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-06-25
+date: 2012-06-25
 dateEnd: 2012-06-26
 title: "Transforming Tools of Emerging and Converging Technologies for Societal Benefit"
 venue: "WTEC workshop"

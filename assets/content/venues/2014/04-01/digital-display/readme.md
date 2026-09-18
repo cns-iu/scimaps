@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-04-01
+date: 2014-04-01
 dateEnd: 2014-04-01
 title: "Digital Display"
 venue: "Weizmann Institute of Science"

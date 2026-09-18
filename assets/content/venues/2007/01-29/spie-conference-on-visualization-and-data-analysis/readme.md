@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-01-29
+date: 2007-01-29
 dateEnd: 2007-01-30
 title: "SPIE Conference on Visualization and Data Analysis"
 venue: "SPIE Conference on Visualization and Data Analysis"

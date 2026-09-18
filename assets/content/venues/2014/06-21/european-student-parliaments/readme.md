@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-06-21
+date: 2014-06-21
 dateEnd: 2014-06-21
 title: "European Student Parliaments"
 venue: "European Student Parliaments"

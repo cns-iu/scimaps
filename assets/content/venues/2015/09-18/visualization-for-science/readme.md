@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-09-18
+date: 2015-09-18
 dateEnd: 2015-09-18
 title: "Visualization for Science"
 venue: "University of Warsaw Library"

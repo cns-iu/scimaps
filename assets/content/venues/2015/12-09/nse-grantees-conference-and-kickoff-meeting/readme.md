@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-12-09
+date: 2015-12-09
 dateEnd: 2015-12-10
 title: "NSE Grantees Conference and Kickoff Meeting"
 venue: "National Science Foundation"

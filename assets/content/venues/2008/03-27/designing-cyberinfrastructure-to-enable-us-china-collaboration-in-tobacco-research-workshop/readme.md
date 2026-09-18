@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-03-27
+date: 2008-03-27
 dateEnd: 2008-03-29
 title: "Designing cyberinfrastructure to enable US- China collaboration in tobacco research Workshop"
 venue: "Designing cyberinfrastructure to enable US- China collaboration in tobacco research Workshop"

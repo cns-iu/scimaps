@@ -1,5 +1,5 @@
 ---
-dateStart: 2006-06-07
+date: 2006-06-07
 dateEnd: 2006-06-09
 title: "Program Meeting, James S. McDonnell Foundation, 21st Century Science Initiative 2006"
 venue: "IBM Palisades"

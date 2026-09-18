@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-08-05
+date: 2007-08-05
 dateEnd: 2007-08-09
 title: "34th International Conference and Exhibition on Computer Graphics and Interactive Techniques"
 venue: "SIGGRAPH 2007"

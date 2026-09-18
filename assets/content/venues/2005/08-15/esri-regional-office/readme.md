@@ -1,5 +1,5 @@
 ---
-dateStart: 2005-08-15
+date: 2005-08-15
 dateEnd: 2005-08-20
 title: "ESRI Regional Office"
 venue: "ESRI Regional Office"

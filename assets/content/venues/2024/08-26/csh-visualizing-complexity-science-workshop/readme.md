@@ -1,5 +1,5 @@
 ---
-dateStart: 2024-08-26T13:00:37.360Z
+date: 2024-08-26T13:00:37.360Z
 dateEnd: 2024-08-30T21:00:37.369Z
 title: CSH Visualizing Complexity Science Workshop
 venue: Complexity Science Hub

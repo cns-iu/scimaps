@@ -1,5 +1,5 @@
 ---
-dateStart: 2019-10-21
+date: 2019-10-21
 dateEnd: 2019-10-25
 title: "IEEE Vis 2019"
 venue: "IEEE"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-02-22
+date: 2007-02-22
 dateEnd: 2007-02-22
 title: "NYHS exhibit Tour for Google"
 venue: "New York Hall of Science"

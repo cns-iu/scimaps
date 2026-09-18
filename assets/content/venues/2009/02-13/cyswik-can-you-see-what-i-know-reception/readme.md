@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-02-13
+date: 2009-02-13
 dateEnd: 2009-02-13
 title: "CYSWIK (Can You See What I Know) Reception"
 venue: "Virtual Knowledge Studio, Virtual Knowledge Studio, Royal Netherlands Academy of Arts and Sciences "

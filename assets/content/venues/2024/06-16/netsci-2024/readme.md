@@ -1,5 +1,5 @@
 ---
-dateStart: 2024-06-16T13:00:24.422Z
+date: 2024-06-16T13:00:24.422Z
 dateEnd: 2024-06-21T21:00:24.438Z
 title: NetSci 2024
 venue: Québec City Convention Center

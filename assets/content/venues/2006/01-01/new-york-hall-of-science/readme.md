@@ -1,5 +1,5 @@
 ---
-dateStart: 2006-01-01
+date: 2006-01-01
 dateEnd: 2006-01-01
 title: "New York Hall of Science"
 venue: "New York Hall of Science"

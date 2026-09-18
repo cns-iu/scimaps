@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-03-22
+date: 2011-03-22
 dateEnd: 2011-03-25
 title: "International Workshop on Mining the Digital Traces of Science"
 venue: "International Workshop on Mining the Digital Traces of Science"

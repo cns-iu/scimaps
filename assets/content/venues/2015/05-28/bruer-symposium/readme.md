@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-05-28
+date: 2015-05-28
 dateEnd: 2015-05-29
 title: Bruer Symposium
 venue: Bruer Symposium

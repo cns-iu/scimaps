@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-01-01
+date: 2009-01-01
 dateEnd: 2009-01-01
 title: "Science Express Train"
 venue: "Science Express Train"

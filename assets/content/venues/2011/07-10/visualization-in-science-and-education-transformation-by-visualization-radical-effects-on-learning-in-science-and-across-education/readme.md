@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-07-10
+date: 2011-07-10
 dateEnd: 2011-07-15
 title: "Visualization in Science & Education - Transformation by Visualization: Radical Effects on Learning in Science and Across Education"
 venue: "Gordon Research Conference at Bryant University"

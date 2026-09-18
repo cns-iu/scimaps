@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-08-21
+date: 2015-08-21
 dateEnd: 2015-08-21
 title: "ILS Research Showcase"
 venue: "ILS Department, Indiana University"

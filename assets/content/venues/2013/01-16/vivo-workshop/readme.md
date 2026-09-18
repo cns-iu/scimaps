@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-01-16
+date: 2013-01-16
 dateEnd: 2013-01-22
 title: "VIVO Workshop"
 venue: "KNAW"

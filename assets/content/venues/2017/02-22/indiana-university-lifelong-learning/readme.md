@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-02-22
+date: 2017-02-22
 dateEnd: 2017-02-22
 title: "Indiana University Lifelong Learning"
 venue: "Indiana University Lifelong Learning"

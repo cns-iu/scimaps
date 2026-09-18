@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-05-17
+date: 2007-05-17
 dateEnd: 2007-05-17
 title: "University Research Magazine Association"
 venue: "Indiana University"

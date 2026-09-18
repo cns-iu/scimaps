@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-04-17
+date: 2007-04-17
 dateEnd: 2007-04-21
 title: Association of American Geographers Annual Meeting
 venue: Association of American Geographers Annual Meeting

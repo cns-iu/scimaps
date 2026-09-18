@@ -1,5 +1,5 @@
 ---
-dateStart: 2026-01-19T16:37:38.730Z
+date: 2026-01-19T16:37:38.730Z
 dateEnd: 2026-01-19T16:37:38.734Z
 title: "Everything Everywhere All at Once: Mapping the Bigger Picture with
   Macroscopes"

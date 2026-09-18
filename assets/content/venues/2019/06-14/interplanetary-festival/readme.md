@@ -1,5 +1,5 @@
 ---
-dateStart: 2019-06-14
+date: 2019-06-14
 dateEnd: 2019-06-19
 title: "Interplanetary Festival"
 venue: "Santa Fe Institute"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-05-29
+date: 2015-05-29
 dateEnd: 2015-05-29
 title: "Humanexus Screening"
 venue: "HASTAC 2015 Conference, Kellogg Center, Michigan State University"

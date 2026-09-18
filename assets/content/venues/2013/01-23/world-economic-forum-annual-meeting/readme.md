@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-01-23
+date: 2013-01-23
 dateEnd: 2013-01-27
 title: "World Economic Forum Annual Meeting"
 venue: "World Economic Forum Annual Meeting"

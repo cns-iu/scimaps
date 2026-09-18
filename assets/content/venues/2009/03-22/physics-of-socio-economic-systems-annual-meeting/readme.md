@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-03-22
+date: 2009-03-22
 dateEnd: 2009-03-27
 title: "Physics of Socio-Economic Systems Annual Meeting"
 venue: "German Physical Society"

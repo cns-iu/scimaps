@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-07-04
+date: 2011-07-04
 dateEnd: 2011-07-15
 title: "ISSI"
 venue: "ISSI"

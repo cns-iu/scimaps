@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-11-05
+date: 2014-11-05
 dateEnd: 2014-12-05
 title: CEWit Faculty & PhD Salon
 venue: Indiana University

@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-04-10
+date: 2013-04-10
 dateEnd: 2013-04-13
 title: ACRL
 venue: ACRL

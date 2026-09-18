@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-05-20
+date: 2007-05-20
 dateEnd: 2007-05-25
 title: "NetSci Conference"
 venue: "New York Hall of Science"

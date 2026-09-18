@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-11-11
+date: 2013-11-11
 dateEnd: 2013-11-11
 title: "CNS Open House"
 venue: "Indiana University"

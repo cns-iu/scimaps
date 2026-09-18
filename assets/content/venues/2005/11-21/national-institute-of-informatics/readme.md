@@ -1,5 +1,5 @@
 ---
-dateStart: 2005-11-21
+date: 2005-11-21
 dateEnd: 2005-11-21
 title: "National Institute of Informatics"
 venue: "National Institute of Informatics"

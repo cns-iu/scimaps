@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-11-15
+date: 2015-11-15
 dateEnd: 2015-11-20
 title: "SC15"
 venue: "Supercomputing Conference"

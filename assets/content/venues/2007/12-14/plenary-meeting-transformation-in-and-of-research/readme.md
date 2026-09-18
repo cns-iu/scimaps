@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-12-14
+date: 2007-12-14
 dateEnd: 2007-12-14
 title: "Plenary Meeting: Transformation in and of Research"
 venue: "Virtual Knowledge Studio, Royal Academy of Arts and Science (KNAW)"

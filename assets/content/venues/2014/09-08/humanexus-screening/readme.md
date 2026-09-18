@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-09-08
+date: 2014-09-08
 dateEnd: 2014-09-08
 title: "Humanexus screening"
 venue: "IU Cinema"

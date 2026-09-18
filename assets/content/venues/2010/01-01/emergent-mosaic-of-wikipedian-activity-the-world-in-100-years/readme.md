@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-01-01
+date: 2010-01-01
 dateEnd: 2010-01-01
 title: "Emergent Mosaic of Wikipedian Activity, The World in 100 Years"
 venue: "ARS Electronica Museum"

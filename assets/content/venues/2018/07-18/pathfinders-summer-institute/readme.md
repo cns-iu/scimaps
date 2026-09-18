@@ -1,5 +1,5 @@
 ---
-dateStart: 2018-07-18
+date: 2018-07-18
 dateEnd: 2018-07-18
 title: "Pathfinders Summer Institute"
 venue: "Indiana University"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2022-12-01T20:00:15.809Z
+date: 2022-12-01T20:00:15.809Z
 dateEnd: 2022-12-01T20:00:15.838Z
 title: Cognitive Informatics Seminar
 venue: UQÀM

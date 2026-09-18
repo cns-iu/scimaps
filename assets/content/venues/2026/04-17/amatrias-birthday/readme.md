@@ -1,5 +1,5 @@
 ---
-dateStart: 2026-04-17T15:59:36.359Z
+date: 2026-04-17T15:59:36.359Z
 dateEnd: 2026-04-17T15:59:36.362Z
 title: Amatria's Birthday
 venue: Luddy Hall

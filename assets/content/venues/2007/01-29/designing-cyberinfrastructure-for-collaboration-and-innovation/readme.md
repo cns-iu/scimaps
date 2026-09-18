@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-01-29
+date: 2007-01-29
 dateEnd: 2007-01-30
 title: Designing Cyberinfrastructure for Collaboration and Innovation
 venue: National Academies

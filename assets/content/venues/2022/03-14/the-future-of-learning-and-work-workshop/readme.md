@@ -1,5 +1,5 @@
 ---
-dateStart: 2022-03-14T13:00:00.000Z
+date: 2022-03-14T13:00:00.000Z
 dateEnd: 2022-03-15T20:30:03.083Z
 title: The Future of Learning & Work Workshop
 venue: The Future of Learning & Work Workshop

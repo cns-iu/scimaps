@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-06-01
+date: 2014-06-01
 dateEnd: 2014-12-31
 title: "Jax and the Big Data Beanstalk"
 venue: "Science Live Theater, Science Museum of Minnesota"
