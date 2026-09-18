@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-09-05
+date: 2012-09-05
 dateEnd: 2012-09-08
 title: "STI Conference Series"
 venue: "STI Conference Series"

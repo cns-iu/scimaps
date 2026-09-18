@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-01-01
+date: 2009-01-01
 dateEnd: 2009-12-31
 title: "The Institute for Research Information and Quality Assurance"
 venue: "The Institute for Research Information and Quality Assurance"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2005-05-15
+date: 2005-05-15
 dateEnd: 2005-05-27
 title: "School and Workshop on Structure and Function of Complex Networks"
 venue: "Abdus Salam International Centre for Theoretical Physics (ICTP)"

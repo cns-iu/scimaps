@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-09-15
+date: 2011-09-15
 dateEnd: 2011-09-15
 title: "Data Coding, Analysis, Archiving, and Sharing for Open Collaboration:
   From OpenSHAPA to Open Data Sharing"

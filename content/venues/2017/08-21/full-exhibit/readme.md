@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-08-21
+date: 2017-08-21
 dateEnd: 2017-11-22
 title: "Full Exhibit"
 venue: "Virginia Tech"

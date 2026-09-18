@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-12-02
+date: 2013-12-02
 dateEnd: 2013-12-13
 title: "Mediating Justice conference"
 venue: "Delft University of Technology Library"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-03-09
+date: 2010-03-09
 dateEnd: 2010-03-10
 title: "Center for Research and Development Strategy (CRDS)"
 venue: "Japan Science and Technology Agency"

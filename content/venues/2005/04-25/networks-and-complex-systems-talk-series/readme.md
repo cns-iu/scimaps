@@ -1,5 +1,5 @@
 ---
-dateStart: 2005-04-25
+date: 2005-04-25
 dateEnd: 2005-04-25
 title: "Networks and Complex Systems Talk Series"
 venue: "SLIS, Indiana University"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-12-01
+date: 2010-12-01
 dateEnd: 2010-12-02
 title: "Mapping the Structure and Evolution of Sustainability Science"
 venue: "Workshop"

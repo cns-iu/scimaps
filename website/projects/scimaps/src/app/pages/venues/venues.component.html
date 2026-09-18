@@ -6,7 +6,7 @@
     <div class="group1">
         <sci-select [select]="year" [options]="yearList" (selectChange)="onSelectChange($event)">
         </sci-select>
-        <sci-table *sciBreakpoint="'desktop-'" [initialSort]="{column: 'dateStart', direction: 'desc'}" [headersOnly]="true"  [dataSource]="dataSource" [tableHeaders]="sortHeaders">
+        <sci-table *sciBreakpoint="'desktop-'" [initialSort]="{column: 'date', direction: 'desc'}" [headersOnly]="true"  [dataSource]="dataSource" [tableHeaders]="sortHeaders">
         </sci-table>
     </div>
     <div class="group2">
@@ -22,7 +22,7 @@
 </sci-list-view>
 
 <!-- Table View -->
-<sci-venues-table *sciBreakpoint="'desktop'" [initialSort]="{column: 'dateStart', direction: 'desc'}" [dataSource]="dataSource" [tableHeaders]="tableHeaders" [filterString]="filterString">
+<sci-venues-table *sciBreakpoint="'desktop'" [initialSort]="{column: 'date', direction: 'desc'}" [dataSource]="dataSource" [tableHeaders]="tableHeaders" [filterString]="filterString">
 </sci-venues-table>
 
 <hr class="divider" />

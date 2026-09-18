@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-10-02
+date: 2008-10-02
 dateEnd: 2008-10-03
 title: "Science of Science Management Meeting"
 venue: "NIH Office of Portfolio Analysis and Strategic Initiatives (OPASI), National Institutes of Health"

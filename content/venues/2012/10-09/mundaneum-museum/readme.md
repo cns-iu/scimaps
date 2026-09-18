@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-10-09
+date: 2012-10-09
 dateEnd: 2013-06-01
 title: "Mundaneum Museum"
 venue: "Mundaneum Museum"

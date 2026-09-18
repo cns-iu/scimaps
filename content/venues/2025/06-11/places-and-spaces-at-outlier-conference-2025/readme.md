@@ -1,5 +1,5 @@
 ---
-dateStart: 2025-06-11T15:37:39.606Z
+date: 2025-06-11T15:37:39.606Z
 dateEnd: 2025-06-13T15:36:45.402Z
 title: Places & Spaces at Outlier Conference 2025
 venue: Outlier 2025

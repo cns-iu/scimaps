@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-04-25
+date: 2016-04-25
 dateEnd: 2016-04-25
 title: "Point, Line & Data: New methods for understanding complex data, from storytelling to machine learning, Mauro Martino - CNS Talks"
 venue: "CNS Center, Indiana University"

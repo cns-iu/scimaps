@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-11-05
+date: 2016-11-05
 dateEnd: 2016-11-05
 title: "IEEE-CIS EnCON Engineering Conference"
 venue: "IEEE-CIS EnCON Engineering Conference"

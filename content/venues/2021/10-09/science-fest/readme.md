@@ -1,5 +1,5 @@
 ---
-dateStart: 2021-10-09T14:00:36.197Z
+date: 2021-10-09T14:00:36.197Z
 dateEnd: 2021-10-09T19:00:36.208Z
 title: Science Fest
 venue: Science Fest

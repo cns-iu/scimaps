@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-05-15
+date: 2007-05-15
 dateEnd: 2007-05-15
 title: "National Geographic"
 venue: "National Geographic"

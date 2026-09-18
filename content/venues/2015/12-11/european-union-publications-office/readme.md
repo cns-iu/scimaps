@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-12-11
+date: 2015-12-11
 dateEnd: 2015-12-31
 title: "European Union Publications Office"
 venue: "European Union Publications Office"

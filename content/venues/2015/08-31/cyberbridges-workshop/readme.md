@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-08-31
+date: 2015-08-31
 dateEnd: 2015-09-01
 title: CyberBridges Workshop
 venue: National Science Foundation

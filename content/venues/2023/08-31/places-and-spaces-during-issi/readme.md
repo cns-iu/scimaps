@@ -1,5 +1,5 @@
 ---
-dateStart: 2023-08-31T18:39:26.161Z
+date: 2023-08-31T18:39:26.161Z
 dateEnd: 2023-08-31T18:39:26.175Z
 title: "Places & Spaces during ISSI "
 venue: Cook Center, Maxwell Hall

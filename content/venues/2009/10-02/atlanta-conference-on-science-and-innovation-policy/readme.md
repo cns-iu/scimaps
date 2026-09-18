@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-10-02
+date: 2009-10-02
 dateEnd: 2009-10-03
 title: Atlanta Conference on Science and Innovation Policy
 venue: Atlanta Conference on Science and Innovation Policy

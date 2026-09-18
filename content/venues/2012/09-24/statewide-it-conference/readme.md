@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-09-24
+date: 2012-09-24
 dateEnd: 2012-09-25
 title: "Statewide IT Conference"
 venue: "Indiana University"

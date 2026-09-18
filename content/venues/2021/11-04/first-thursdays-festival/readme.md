@@ -1,5 +1,5 @@
 ---
-dateStart: 2021-11-04T19:10:40.298Z
+date: 2021-11-04T19:10:40.298Z
 dateEnd: 2021-11-04T19:10:40.312Z
 title: First Thursdays Festival
 venue: Arts & Humanities Council

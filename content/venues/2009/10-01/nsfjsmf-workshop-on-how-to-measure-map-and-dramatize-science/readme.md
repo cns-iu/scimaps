@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-10-01
+date: 2009-10-01
 dateEnd: 2009-10-02
 title: "NSF/JSMF Workshop on How to Measure, Map, and Dramatize Science"
 venue: "New York Hall of Science"

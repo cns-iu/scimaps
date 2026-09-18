@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-07-03
+date: 2007-07-03
 dateEnd: 2007-07-06
 title: "11th International Conference on Information Visualization"
 venue: "11th International Conference on Information Visualization"

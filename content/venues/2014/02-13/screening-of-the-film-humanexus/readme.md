@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-02-13
+date: 2014-02-13
 dateEnd: 2014-02-17
 title: "Screening of the film Humanexus"
 venue: "AAAS Annual Meeting"

@@ -7,7 +7,7 @@ import { ContentService, toSlug } from '../../shared/services/content.service';
 
 export interface Venue {
   slug?: string;
-  dateStart: string;
+  date: string;
   dateEnd: string;
   title: string;
   venue: string;
@@ -30,7 +30,7 @@ export class VenuesResolverService implements Resolve<Venue[]> {
 
   // Used to get full path of resources.
   updatePaths(venue: Venue): Venue {
-    const [year, month, date] = getSegmentedDate(venue.dateStart);
+    const [year, month, date] = getSegmentedDate(venue.date);
     const slug = toSlug(venue.title);
     if (venue.pdfLink && !isHttp(venue.pdfLink)) {
       venue.pdfLink = `${this.directory}/${year}/${month}-${date}/${slug}/${venue.pdfLink}`;
@@ -53,7 +53,7 @@ export class VenuesResolverService implements Resolve<Venue[]> {
   toVenue(item: Params): Venue {
     return {
       slug: toSlug(item.title),
-      dateStart: item.dateStart,
+      date: item.date,
       dateEnd: item.dateEnd,
       title: item.title,
       venue: item.venue,

@@ -1,5 +1,5 @@
 ---
-dateStart: 2005-07-25
+date: 2005-07-25
 dateEnd: 2005-07-29
 title: "ESRI International User Conference"
 venue: "San Diego Convention Center"

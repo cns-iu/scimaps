@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-02-08
+date: 2011-02-08
 dateEnd: 2011-02-11
 title: "Scientometrics Workshop"
 venue: "iConference"

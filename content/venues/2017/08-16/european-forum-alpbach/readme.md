@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-08-16
+date: 2017-08-16
 dateEnd: 2017-09-01
 title: "European Forum Alpbach"
 venue: "European Forum Alpbach"

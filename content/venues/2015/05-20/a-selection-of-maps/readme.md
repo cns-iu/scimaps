@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-05-20
+date: 2015-05-20
 dateEnd: 2016-12-31
 title: A Selection of Maps
 venue: The Levy Library

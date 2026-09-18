@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-06-02
+date: 2011-06-02
 dateEnd: 2011-06-02
 title: "Institute for Advanced Technologies in the Digital Humanities"
 venue: "University of North Carolina"

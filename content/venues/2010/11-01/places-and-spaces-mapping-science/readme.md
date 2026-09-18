@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-11-01
+date: 2010-11-01
 dateEnd: 2010-11-30
 title: "Places & Spaces: Mapping Science"
 venue: "University College Dublin "

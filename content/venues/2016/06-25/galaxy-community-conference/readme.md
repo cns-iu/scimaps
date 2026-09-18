@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-06-25
+date: 2016-06-25
 dateEnd: 2016-06-29
 title: Galaxy Community Conference
 venue: "Indiana University"

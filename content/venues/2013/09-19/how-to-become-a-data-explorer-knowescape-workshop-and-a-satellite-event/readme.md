@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-09-19
+date: 2013-09-19
 dateEnd: 2013-09-19
 title: "How to Become a Data Explorer, KnowEscape Workshop and a Satellite Event"
 venue: "Open Knowledge Conference (OKCON)"

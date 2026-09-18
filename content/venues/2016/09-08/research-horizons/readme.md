@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-09-08
+date: 2016-09-08
 dateEnd: 2016-09-09
 title: "Research Horizons"
 venue: "School of Informatics and Computing, Indiana University"

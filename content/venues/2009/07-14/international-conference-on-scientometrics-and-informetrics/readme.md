@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-07-14
+date: 2009-07-14
 dateEnd: 2009-07-17
 title: "International Conference on Scientometrics and Informetrics"
 venue: "International Conference on Scientometrics and Informetrics"

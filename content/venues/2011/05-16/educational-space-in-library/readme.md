@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-05-16
+date: 2011-05-16
 dateEnd: 2011-05-17
 title: "Educational Space in Library"
 venue: "Pedagogical University of Cracow"

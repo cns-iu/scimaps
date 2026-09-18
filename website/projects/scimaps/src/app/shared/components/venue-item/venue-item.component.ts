@@ -15,7 +15,7 @@ export class VenueItemComponent {
   constructor(private router: Router) { }
 
   gotoGallery(item: Venue | Params): void {
-    const [year, month, date] = getSegmentedDate(item.dateStart);
+    const [year, month, date] = getSegmentedDate(item.date);
     this.router.navigate(['/', 'venues', 'gallery', year, `${month}-${date}`, item.slug]);
   }
 

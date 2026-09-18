@@ -1,5 +1,5 @@
 ---
-dateStart: 2025-11-01T14:00:29.914Z
+date: 2025-11-01T14:00:29.914Z
 dateEnd: 2025-11-01T20:00:43.404Z
 title: "Places & Spaces: Mapping Science at Science Fest 2025"
 venue: Science Fest 2025

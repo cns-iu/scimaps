@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-01-24
+date: 2008-01-24
 dateEnd: 2008-01-24
 title: "SUNBELT XXVIII International Sunbelt Social Network Conference"
 venue: "Tradewinds Island Resort"

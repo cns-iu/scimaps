@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-04-04
+date: 2014-04-04
 dateEnd: 2014-04-04
 title: "Wonderlab Science of Art - Community Mapping event"
 venue: "Wonderlab"

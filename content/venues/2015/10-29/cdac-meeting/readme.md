@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-10-29
+date: 2015-10-29
 dateEnd: 2015-10-30
 title: CDAC Meeting
 venue: NOAA

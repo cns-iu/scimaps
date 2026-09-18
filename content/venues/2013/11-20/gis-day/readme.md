@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-11-20
+date: 2013-11-20
 dateEnd: 2013-11-20
 title: "GIS Day"
 venue: "GIS Day"

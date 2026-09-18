@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-03-22
+date: 2013-03-22
 dateEnd: 2013-03-22
 title: "TEDxBloomington"
 venue: "Buskirk-Chumley"

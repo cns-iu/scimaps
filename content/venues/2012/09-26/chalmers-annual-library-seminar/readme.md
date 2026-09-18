@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-09-26
+date: 2012-09-26
 dateEnd: 2012-09-26
 title: "Chalmers Annual Library Seminar"
 venue: "Chalmers Annual Library Seminar"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2022-08-29T15:00:00.000Z
+date: 2022-08-29T15:00:00.000Z
 dateEnd: 2023-01-20T16:00:00.000Z
 title: University of Michigan
 venue: Clark Library

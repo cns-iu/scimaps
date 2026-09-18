@@ -1,5 +1,5 @@
 ---
-dateStart: 2019-10-03
+date: 2019-10-03
 dateEnd: 2019-10-03
 title: First Thursdays Festival
 venue: Indiana University

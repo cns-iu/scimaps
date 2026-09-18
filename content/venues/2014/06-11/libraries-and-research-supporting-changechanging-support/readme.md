@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-06-11
+date: 2014-06-11
 dateEnd: 2014-06-12
 title: "Libraries and Research: Supporting Change/Changing Support"
 venue: "Libraries and Research: Supporting Change/Changing Support"

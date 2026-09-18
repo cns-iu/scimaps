@@ -1,5 +1,5 @@
 ---
-dateStart: 2006-10-26
+date: 2006-10-26
 dateEnd: 2006-10-26
 title: "Workshop on Science (Weather) Forecasts"
 venue: "New York Hall of Science"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2025-08-20T13:00:54.072Z
+date: 2025-08-20T13:00:54.072Z
 dateEnd: 2025-08-20T14:00:52.203Z
 title: "Open Research Seminar: Mapping and Modeling Science, Technology, and
   Education"

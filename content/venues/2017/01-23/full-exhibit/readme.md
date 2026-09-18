@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-01-23
+date: 2017-01-23
 dateEnd: 2017-04-23
 title: "Full Exhibit"
 venue: "Vanderbilt University"

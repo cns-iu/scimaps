@@ -1,5 +1,5 @@
 ---
-dateStart: 2005-05-25
+date: 2005-05-25
 dateEnd: 2005-05-26
 title: "Sixth Annual Alliance for Innovation in Science and Technology Information Mini-Conference"
 venue: "Sixth Annual Alliance for Innovation in Science and Technology Information Mini-Conference"

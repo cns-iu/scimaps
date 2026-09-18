@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-06-02
+date: 2015-06-02
 dateEnd: 2015-06-05
 title: "NIH Science of Team Science (SciTS) Conference"
 venue: "National Institutes of Health"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2011-10-17
+date: 2011-10-17
 dateEnd: 2011-10-18
 title: "JSMF funded Workshop on 'Artists Envision S&T' Workshop"
 venue: "National Academy of Sciences"

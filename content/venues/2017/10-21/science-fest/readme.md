@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-10-21
+date: 2017-10-21
 dateEnd: 2017-10-21
 title: Science Fest
 venue: Indiana University

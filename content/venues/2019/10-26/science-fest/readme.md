@@ -1,5 +1,5 @@
 ---
-dateStart: 2019-10-26
+date: 2019-10-26
 dateEnd: 2019-11-26
 title: Science Fest
 venue: Indiana University

@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-07-09
+date: 2009-07-09
 dateEnd: 2009-07-10
 title: "International Council for Scientific and Technical Information Conference"
 venue: "International Council for Scientific and Technical Information Conference"

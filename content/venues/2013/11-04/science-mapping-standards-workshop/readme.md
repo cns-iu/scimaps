@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-11-04
+date: 2013-11-04
 dateEnd: 2013-11-05
 title: "Science Mapping Standards Workshop"
 venue: "Indiana University"

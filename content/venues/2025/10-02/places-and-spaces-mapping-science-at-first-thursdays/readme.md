@@ -1,5 +1,5 @@
 ---
-dateStart: 2025-10-02T15:11:18.607Z
+date: 2025-10-02T15:11:18.607Z
 dateEnd: 2025-10-02T15:11:25.350Z
 title: "Places & Spaces: Mapping Science at First Thursdays"
 venue: Arts and Humanities Council

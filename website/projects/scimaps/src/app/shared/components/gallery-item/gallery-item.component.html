@@ -1,10 +1,10 @@
 <div class="gallery-item">
     <sci-drawer-header backText="venues" title="Gallery" (backClick)="closeDrawer()">
     </sci-drawer-header>
-    
+
     <h2 class="header2">{{item.title}}</h2>
     <div class="details">
-        <div>Date: {{item.dateStart | date:'mediumDate':'+0000' }} {{ item.dateEnd && item.dateStart !== item.dateEnd ? '- ' + (item.dateEnd | date:'mediumDate':'+0000') : '' }}</div>
+        <div>Date: {{item.date | date:'mediumDate':'+0000' }} {{ item.dateEnd && item.date !== item.dateEnd ? '- ' + (item.dateEnd | date:'mediumDate':'+0000') : '' }}</div>
         <div>Photos By: {{item.credit}}</div>
     </div>
     <div class="thumbnails-container">

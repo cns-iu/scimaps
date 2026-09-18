@@ -1,5 +1,5 @@
 ---
-dateStart: 2016-04-11
+date: 2016-04-11
 dateEnd: 2016-04-15
 title: Culture Analytics and User Experience Design
 venue: Institute for Pure & Applied Mathematics, UCLA

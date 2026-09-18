@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-11-16
+date: 2010-11-16
 dateEnd: 2010-11-17
 title: "Challenges of Visualizing Biological Data Workshop"
 venue:

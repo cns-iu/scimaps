@@ -1,5 +1,5 @@
 ---
-dateStart: 2017-11-06
+date: 2017-11-06
 dateEnd: 2017-11-06
 title: "Office of Naval Research"
 venue: "Office of Naval Research"

@@ -1,5 +1,5 @@
 ---
-dateStart: 2018-09-27
+date: 2018-09-27
 dateEnd: 2018-12-31
 title: "Scholars Commons"
 venue: "Wells Library, Indiana University"

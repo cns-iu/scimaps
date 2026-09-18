@@ -1,5 +1,5 @@
 ---
-dateStart: 2010-02-19
+date: 2010-02-19
 dateEnd: 2010-02-20
 title: "International Seminar on Multidimensional Network Theory"
 venue: "University of Southern California"

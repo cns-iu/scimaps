@@ -1,5 +1,5 @@
 ---
-dateStart: 2012-04-12
+date: 2012-04-12
 dateEnd: 2012-04-13
 title: "Ontology Summit 2012 Symposium"
 venue: "US National Institute of Standards and Technology (NIST)"

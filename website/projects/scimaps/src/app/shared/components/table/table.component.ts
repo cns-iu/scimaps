@@ -34,7 +34,7 @@ export class TableComponent implements OnInit, AfterViewInit {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.matSort;
 
-    // initial sort of dateStart
+    // initial sort of date
     if (this.initialSort && this.columns.includes(this.initialSort.column)) {
       this.matSort.sort({ id: '', start: 'asc', disableClear: true });
       this.matSort.sort({ id: this.initialSort.column, start: this.initialSort.direction, disableClear: false });

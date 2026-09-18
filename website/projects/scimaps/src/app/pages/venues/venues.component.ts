@@ -18,7 +18,7 @@ export class VenuesComponent implements OnInit {
   ) {}
   // table
   tableHeaders = [
-    { label: 'Start', key: 'dateStart', type: 'date', width: 15 },
+    { label: 'Start', key: 'date', type: 'date', width: 15 },
     { label: 'End', key: 'dateEnd', type: 'date', width: 15 },
     { label: 'Event', key: 'title', type: 'text', width: 25 },
     { label: 'Location', key: 'city', type: 'text', width: 20 },
@@ -26,7 +26,7 @@ export class VenuesComponent implements OnInit {
     { label: 'Media', key: 'venueImages', type: 'icon', icon: 'image', width: 5 },
   ];
   sortHeaders = this.tableHeaders.filter(item => {
-    return item.key === 'dateStart' || item.key === 'title' || item.key === 'city';
+    return item.key === 'date' || item.key === 'title' || item.key === 'city';
   });
   dataSource: MatTableDataSource<Venue> = new MatTableDataSource();
   // this page
@@ -53,7 +53,7 @@ export class VenuesComponent implements OnInit {
   setYears(): void {
     const years  = new Set<string>();
     this.dataSource.data.forEach((item: Venue) => {
-      const fullDate = new Date(item.dateStart);
+      const fullDate = new Date(item.date);
       const year = fullDate.getUTCFullYear().toString();
       if (!years.has(year)) {
         years.add(year);
@@ -67,7 +67,7 @@ export class VenuesComponent implements OnInit {
     const parsedFilter = JSON.parse(filter);
     let result = true;
     if (parsedFilter.year && parsedFilter.year !== 'all') {
-      const year = new Date(item.dateStart).getFullYear().toString();
+      const year = new Date(item.date).getFullYear().toString();
       result = result && year === parsedFilter.year;
     }
 

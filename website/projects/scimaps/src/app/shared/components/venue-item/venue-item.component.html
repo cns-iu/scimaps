@@ -1,9 +1,9 @@
 <div class="venue-item">
-  
+
     <div class="main">
       <div class="card-header">
         <div class="date mat-display-1">
-          {{ item.dateStart | date:'mediumDate' : '+0000' }} {{item.dateEnd ? '-' : ''}} {{item.dateEnd | date: 'mediumDate':'+0000'}}
+          {{ item.date | date:'mediumDate' : '+0000' }} {{item.dateEnd ? '-' : ''}} {{item.dateEnd | date: 'mediumDate':'+0000'}}
         </div>
 
         <div class="icons">
@@ -15,7 +15,7 @@
           </div>
         </div>
       </div>
-  
+
       <div class="body">
             <div class="title">
                 {{item.title}}

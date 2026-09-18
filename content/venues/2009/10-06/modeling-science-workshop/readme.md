@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-10-06
+date: 2009-10-06
 dateEnd: 2009-10-09
 title: "Modeling Science Workshop"
 venue: "Modeling Science Workshop"

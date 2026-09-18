@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-11-16
+date: 2014-11-16
 dateEnd: 2014-11-21
 title: "International Conference for High Performance Computing, Networking, Storage, and Analysis (SoIC Booth)"
 venue: "International Conference for High Performance Computing, Networking, Storage, and Analysis (SoIC Booth)"

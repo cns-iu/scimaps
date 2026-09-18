@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-06-13
+date: 2008-06-13
 dateEnd: 2008-09-30
 title: "Inaugural lecture of Paul Wouters, chair of Dynamics of Knowledge"
 venue: "Erasmus University Rotterdam"

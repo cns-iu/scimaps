@@ -1,5 +1,5 @@
 ---
-dateStart: 2008-02-18
+date: 2008-02-18
 dateEnd: 2008-02-21
 title: "Science of Science Keynote"
 venue: "Semantic Technologies in Astronomy Workshop, Caltech"

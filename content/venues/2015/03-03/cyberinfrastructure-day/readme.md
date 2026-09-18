@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-03-03
+date: 2015-03-03
 dateEnd: 2015-03-03
 title: Cyberinfrastructure Day
 venue: University of Missouri

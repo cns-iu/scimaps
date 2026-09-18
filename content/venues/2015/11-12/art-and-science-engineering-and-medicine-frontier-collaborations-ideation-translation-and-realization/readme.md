@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-11-12
+date: 2015-11-12
 dateEnd: 2015-11-14
 title: "Art and Science, Engineering, and Medicine Frontier Collaborations:
   Ideation, Translation & Realization"

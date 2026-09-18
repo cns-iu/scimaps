@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-06-22
+date: 2015-06-22
 dateEnd: 2015-07-22
 title: "CeDiCyT"
 venue: "Instituto Politicnico Nacional"

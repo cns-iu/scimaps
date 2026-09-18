@@ -1,5 +1,5 @@
 ---
-dateStart: 2005-08-04
+date: 2005-08-04
 dateEnd: 2005-08-08
 title: "Wikimania 2005: The First International Wikimedia Conference"
 venue: "Wikimania 2005: The First International Wikimedia Conference"

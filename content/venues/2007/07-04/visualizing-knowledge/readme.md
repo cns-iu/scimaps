@@ -1,5 +1,5 @@
 ---
-dateStart: 2007-07-04
+date: 2007-07-04
 dateEnd: 2007-07-26
 title: "Visualizing Knowledge"
 venue: "ARchENA, Honggerberg"

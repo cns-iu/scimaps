@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-06-24
+date: 2013-06-24
 dateEnd: 2013-06-25
 title: "Homo Communicativus: Contemporary Faces of Communication and Information"
 venue:

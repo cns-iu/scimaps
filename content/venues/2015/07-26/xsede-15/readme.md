@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-07-26
+date: 2015-07-26
 dateEnd: 2015-07-30
 title: "XSEDE 15"
 venue: "XSEDE 15"

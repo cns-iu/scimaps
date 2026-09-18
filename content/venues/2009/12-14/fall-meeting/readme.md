@@ -1,5 +1,5 @@
 ---
-dateStart: 2009-12-14
+date: 2009-12-14
 dateEnd: 2009-12-18
 title: "Fall Meeting"
 venue: "American Geophysical Union"

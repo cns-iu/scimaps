@@ -1,5 +1,5 @@
 ---
-dateStart: 2014-12-03
+date: 2014-12-03
 dateEnd: 2014-12-07
 title: "International Science and Creativity Conference"
 venue: "International Science and Creativity Conference"

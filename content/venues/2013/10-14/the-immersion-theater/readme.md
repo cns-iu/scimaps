@@ -1,5 +1,5 @@
 ---
-dateStart: 2013-10-14
+date: 2013-10-14
 dateEnd: 2013-10-27
 title: "The Immersion Theater"
 venue: "Hunt Library, North Carolina State University"

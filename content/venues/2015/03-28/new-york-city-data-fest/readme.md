@@ -1,5 +1,5 @@
 ---
-dateStart: 2015-03-28
+date: 2015-03-28
 dateEnd: 2015-03-28
 title: "New York City Data Fest"
 venue: "New York Hall of Science"
