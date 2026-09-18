@@ -90,7 +90,7 @@ collections:
             widget: list
             fields:
             - { name: label, label: Label}
-            - { name: date, widget: date, label: Date, format: YYYY-MM-DD, timeformat: false }
+            - { name: date, widget: datetime, label: Date, format: YYYY-MM-DD, timeformat: false }
 
       - label: Hosting
         name: Hosting
@@ -255,7 +255,7 @@ collections:
         display_fields: ['{{name}} {{lastName}}']
       - { name: short_description, label: Short Description }
       - { name: long_description, label: Long Description, widget: markdown }
-      - { name: date, label: Date,  widget: date, format: YYYY-MM-DD, time_format: false }
+      - { name: date, label: Date,  widget: datetime, format: YYYY-MM-DD, time_format: false }
 
 
   - name: blog
@@ -271,8 +271,8 @@ collections:
     fields:
       - { name: draft, widget: boolean, default: true}
       - { name: title, label: Title }
-      - { name: publish_date, label: Publish Date, widget: date, format: YYYY-MM-DD, time_format: false }
-      - { name: date, label: Date, widget: date, format: YYYY-MM-DD, time_format: false }
+      - { name: publish_date, label: Publish Date, widget: datetime, format: YYYY-MM-DD, time_format: false }
+      - { name: date, label: Date, widget: datetime, format: YYYY-MM-DD, time_format: false }
       - { name: body, label: Body, widget: markdown }
       - name: blogImages
         label: Blog Images
@@ -343,7 +343,7 @@ collections:
     media_folder: ''
     public_folder: ''
     fields:
-      - { name: date, label: Published Date, widget: datetime }
+      - { name: date, label: Published Date, widget: datetime, time_format: false }
       - { name: title, label: Title }
       - name: author
         label: Authors
@@ -377,7 +377,7 @@ collections:
     media_folder: ''
     public_folder: ''
     fields:
-      - { name: date, label: Date, widget: datetime }
+      - { name: date, label: Date, widget: datetime, time_format: false }
       - { name: title, label: Title }
       - { name: source, label: Source }
       - { name: sourceUrl, label: Source URL }
@@ -395,14 +395,14 @@ collections:
     media_folder: ''
     public_folder: ''
     fields:
-      - { name: dateStart, label: Start Date, widget: datetime }
-      - { name: dateEnd, label: End Date, widget: datetime }
+      - { name: date, label: Start Date, widget: datetime, time_format: false }
+      - { name: dateEnd, label: End Date, widget: datetime, time_format: false }
       - { name: title, label: Exhibit Name }
       - { name: venue, label: Venue }
       - { name: organizer, label: Organizer }
       - { name: credit, label: Credit, required: false }
       - { name: city, label: City }
-      - { name: state, label: State }
+      - { name: state, label: State, required: false }
       - { name: country, label: Country }
       - { name: websiteUrl, label: Website, required: false }
       - { name: pdfLink, label: PDF Link, widget: file, required: false }
@@ -615,7 +615,7 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description, required: false }
       - { name: body, label: Content, widget: markdown }
-      - { name: last_update, label: Last Updated, widget: date, required: false }
+      - { name: last_update, label: Last Updated, widget: datetime, required: false }
 
 backend:
   name: github
@@ -629,7 +629,7 @@ backend:
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ## Basically run `npx netlify-cms-proxy-server` and launch the angular site
 
-# local_backend: true
+local_backend: true
 
 i18n:
   structure: single_file

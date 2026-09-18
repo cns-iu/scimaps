@@ -9,7 +9,7 @@ export const getVenues = (n: number): Venue[] => {
   const result: Venue[] = [];
   for (let i = 0; i < n; i++) {
     result.push({
-      dateStart: '2012-02-02',
+      date: '2012-02-02',
       dateEnd: '',
       title: `title-${i}`,
       venue: `venue-${i}`,
@@ -60,7 +60,7 @@ describe('VenuesResolverService', () => {
     const venue = getVenues(1)[0];
     const newVenue = service.updatePaths(JSON.parse(JSON.stringify(venue)));
 
-    const [year, month, date] = getSegmentedDate(venue.dateStart);
+    const [year, month, date] = getSegmentedDate(venue.date);
     const slug = toSlug(venue.title);
 
     expect(newVenue.pdfLink).toEqual(`${service.directory}/${year}/${month}-${date}/${slug}/${venue.pdfLink}`);

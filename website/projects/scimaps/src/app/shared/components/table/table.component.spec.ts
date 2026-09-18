@@ -26,8 +26,8 @@ describe('TableComponent', () => {
     expect(component).toBeTruthy();
   });
   it('should create', () => {
-    component.initialSort = {column: 'dateStart', direction: 'asc'};
-    component.columns = ['dateStart'];
+    component.initialSort = {column: 'date', direction: 'asc'};
+    component.columns = ['date'];
     expect(component).toBeTruthy();
   });
 });

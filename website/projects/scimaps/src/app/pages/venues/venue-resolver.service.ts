@@ -37,7 +37,7 @@ export class VenueResolverService implements Resolve<Venue> {
   }
 
   updatePaths(item: Venue): Venue {
-    const [year, month, date] = getSegmentedDate(item.dateStart);
+    const [year, month, date] = getSegmentedDate(item.date);
     const slug = toSlug(item.title);
     const {venueImages} = item;
     if (
