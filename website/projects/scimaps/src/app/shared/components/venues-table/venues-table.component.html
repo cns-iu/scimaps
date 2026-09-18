@@ -9,7 +9,7 @@
                 <div>
                     Start
                 </div>
-                <mat-icon [ngClass]="{'active': matSort.active == 'date', 'reversed': matSort.direction == 'desc'}">arrow_upward</mat-icon>
+                <mat-icon [ngClass]="{'active': matSort?.active == 'date', 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>
             </div>
         </th>
         <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '15%'}">
@@ -24,7 +24,7 @@
                 <div>
                     End
                 </div>
-                <mat-icon [ngClass]="{'active': matSort.active == 'dateEnd', 'reversed': matSort.direction == 'desc'}">arrow_upward</mat-icon>
+                <mat-icon [ngClass]="{'active': matSort?.active == 'dateEnd', 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>
             </div>
         </th>
         <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '15%'}">
@@ -39,7 +39,7 @@
                 <div>
                     Event
                 </div>
-                <mat-icon [ngClass]="{'active': matSort.active == 'title', 'reversed': matSort.direction == 'desc'}">arrow_upward</mat-icon>
+                <mat-icon [ngClass]="{'active': matSort?.active == 'title', 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>
             </div>
         </th>
         <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '25%'}">
@@ -53,7 +53,7 @@
                 <div>
                     Location
                 </div>
-                <mat-icon [ngClass]="{'active': matSort.active == 'city', 'reversed': matSort.direction == 'desc'}">arrow_upward</mat-icon>
+                <mat-icon [ngClass]="{'active': matSort?.active == 'city', 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>
             </div>
         </th>
         <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '20%'}">
@@ -67,7 +67,7 @@
                 <div>
                     Contact
                 </div>
-                <mat-icon [ngClass]="{'active': matSort.active == 'organizer', 'reversed': matSort.direction == 'desc'}">arrow_upward</mat-icon>
+                <mat-icon [ngClass]="{'active': matSort?.active == 'organizer', 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>
             </div>
         </th>
         <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '15%'}">
@@ -81,7 +81,7 @@
                 <div>
                     Media
                 </div>
-                <mat-icon [ngClass]="{'active': matSort.active == 'venueImages', 'reversed': matSort.direction == 'desc'}">arrow_upward</mat-icon>
+                <mat-icon [ngClass]="{'active': matSort?.active == 'venueImages', 'reversed': matSort?.direction == 'desc'}">arrow_upward</mat-icon>
             </div>
         </th>
         <td mat-cell *matCellDef="let element" [ngStyle]="{'width': '15%'}">
